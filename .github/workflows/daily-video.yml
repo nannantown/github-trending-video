@@ -1,0 +1,37 @@
+name: Daily Trending Video
+
+on:
+  schedule:
+    # 23:00 UTC = 08:00 JST
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run pipeline
+        run: node scripts/pipeline.mjs
+        env:
+          TZ: Asia/Tokyo
+
+      - name: Upload video
+        uses: actions/upload-artifact@v4
+        with:
+          name: trending-video-${{ github.run_number }}
+          path: output/trending-*.mp4
+          retention-days: 30
