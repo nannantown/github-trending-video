@@ -6,6 +6,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { Character } from "./Character";
 
 export const Opening: React.FC = () => {
   const frame = useCurrentFrame();
@@ -163,6 +164,9 @@ export const Opening: React.FC = () => {
       >
         {dateStr}
       </div>
+
+      {/* Navigator character */}
+      <Character side="right" delay={20} />
     </AbsoluteFill>
   );
 };

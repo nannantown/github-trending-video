@@ -331,7 +331,7 @@ export const ProjectCard: React.FC<Props> = ({ project, localFrame }) => {
               whiteSpace: "nowrap",
             }}
           >
-            +{project.todayStars.toLocaleString()} today
+            +{project.todayStars.toLocaleString()} 本日
           </div>
         </div>
       </div>
