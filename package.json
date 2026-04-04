@@ -18,6 +18,7 @@
     "@remotion/renderer": "^4.0.443",
     "cheerio": "^1.2.0",
     "edge-tts-universal": "^1.4.0",
+    "google-translate-api-x": "^10.7.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "remotion": "^4.0.443"

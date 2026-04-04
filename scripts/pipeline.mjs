@@ -43,10 +43,14 @@ function main() {
   const audioDurations = JSON.parse(
     readFileSync(join(outputDir, "audio-durations.json"), "utf-8")
   );
+  const subtitles = JSON.parse(
+    readFileSync(join(outputDir, "subtitles.json"), "utf-8")
+  );
 
   const inputProps = {
     projects: trendingData.projects,
     audioDurations,
+    subtitles,
   };
 
   const propsPath = join(outputDir, "input-props.json");

@@ -91,16 +91,24 @@ async function synthesize(text, outputPath) {
         pitch: "+0Hz",
       });
 
-      const chunks = [];
+      const audioChunks = [];
+      const wordBoundaries = [];
       for await (const chunk of comm.stream()) {
         if (chunk.type === "audio" && chunk.data) {
-          chunks.push(chunk.data);
+          audioChunks.push(chunk.data);
+        } else if (chunk.type === "WordBoundary" && chunk.text) {
+          wordBoundaries.push({
+            // offset/duration are in 100-nanosecond units → convert to seconds
+            offset: (chunk.offset || 0) / 10_000_000,
+            duration: (chunk.duration || 0) / 10_000_000,
+            text: chunk.text,
+          });
         }
       }
 
-      const buffer = Buffer.concat(chunks);
+      const buffer = Buffer.concat(audioChunks);
       writeFileSync(outputPath, buffer);
-      return buffer.length;
+      return { bytes: buffer.length, wordBoundaries };
     } catch (err) {
       console.error(`\n  Attempt ${attempt + 1} failed: ${err.message}`);
       if (attempt < 2) await new Promise((r) => setTimeout(r, 2000));
@@ -119,22 +127,32 @@ async function main() {
   console.log(`Output: ${audioDir}\n`);
 
   const durations = {};
+  const subtitles = {};
 
   for (let i = 0; i < narrations.length; i++) {
     const { filename, text } = narrations[i];
     const outputPath = join(audioDir, `${filename}.mp3`);
 
     process.stdout.write(`[${i + 1}/${narrations.length}] ${filename}... `);
-    const bytes = await synthesize(text, outputPath);
+    const result = await synthesize(text, outputPath);
     const duration = getAudioDuration(outputPath);
     durations[filename] = duration;
-    console.log(`${(bytes / 1024).toFixed(0)} KB (${duration}s)`);
+    subtitles[filename] = {
+      text,
+      words: result.wordBoundaries,
+    };
+    console.log(`${(result.bytes / 1024).toFixed(0)} KB (${duration}s, ${result.wordBoundaries.length} words)`);
   }
 
   // Write durations for Remotion composition
   const durationsPath = join(outputDir, "audio-durations.json");
   writeFileSync(durationsPath, JSON.stringify(durations, null, 2));
   console.log(`\nDurations → ${durationsPath}`);
+
+  // Write subtitle timing data
+  const subtitlesPath = join(outputDir, "subtitles.json");
+  writeFileSync(subtitlesPath, JSON.stringify(subtitles, null, 2));
+  console.log(`Subtitles → ${subtitlesPath}`);
 }
 
 main().catch((err) => {

@@ -90,6 +90,22 @@ export const openingNarration =
 export const endingNarration =
   "以上、今日のGitHub Trendingでした。フォローといいねで、毎朝のトレンドをチェックしましょう。";
 
+// Subtitle data (word boundaries from Edge TTS)
+export interface WordBoundary {
+  offset: number;
+  duration: number;
+  text: string;
+}
+
+export interface SubtitleEntry {
+  text: string;
+  words: WordBoundary[];
+}
+
+export interface SubtitleMap {
+  [key: string]: SubtitleEntry;
+}
+
 // Audio durations (seconds per audio file)
 export interface AudioDurations {
   opening: number;
