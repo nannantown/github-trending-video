@@ -36,6 +36,9 @@ export const TrendingVideo: React.FC<Props> = ({
 
   return (
     <AbsoluteFill>
+      {/* BGM - low volume ambient pad under narration */}
+      <Audio src={staticFile("audio/bgm.wav")} volume={0.12} />
+
       <Series>
         <Series.Sequence durationInFrames={frames.opening}>
           <Opening />

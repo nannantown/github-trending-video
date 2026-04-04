@@ -6,7 +6,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Character } from "./Character";
+
 
 export const Ending: React.FC = () => {
   const frame = useCurrentFrame();
@@ -190,8 +190,6 @@ export const Ending: React.FC = () => {
         </span>
       </div>
 
-      {/* Navigator character */}
-      <Character side="left" delay={10} />
     </AbsoluteFill>
   );
 };

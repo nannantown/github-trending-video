@@ -31,9 +31,10 @@ function main() {
   console.log("\n=== Step 2: Generate Data ===");
   run("node scripts/generate-data.mjs");
 
-  // Step 3: Generate TTS audio
+  // Step 3: Generate TTS audio + BGM
   console.log("\n=== Step 3: Generate Audio ===");
   run("node scripts/generate-audio.mjs --data=output/trending-data.json");
+  run("node scripts/generate-bgm.mjs");
 
   // Step 4: Build input props for Remotion
   console.log("\n=== Step 4: Build Input Props ===");
