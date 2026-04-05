@@ -62,7 +62,7 @@ export const Ending: React.FC = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        fontFamily: "'Noto Sans JP', 'Hiragino Sans', sans-serif",
+        fontFamily: "'Noto Sans JP', 'Noto Sans CJK JP', 'Hiragino Sans', sans-serif",
       }}
     >
       {/* Glow */}

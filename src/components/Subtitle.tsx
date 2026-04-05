@@ -91,7 +91,7 @@ export const Subtitle: React.FC<Props> = ({ data }) => {
               style={{
                 fontSize: 36,
                 fontWeight: 700,
-                fontFamily: "'Noto Sans JP', 'Hiragino Sans', sans-serif",
+                fontFamily: "'Noto Sans JP', 'Noto Sans CJK JP', 'Hiragino Sans', sans-serif",
                 color: isSpoken ? "#ffffff" : "rgba(255, 255, 255, 0.4)",
                 textShadow: isSpoken
                   ? "0 0 20px rgba(88, 166, 255, 0.5)"

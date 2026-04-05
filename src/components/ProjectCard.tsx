@@ -131,7 +131,7 @@ export const ProjectCard: React.FC<Props> = ({ project, localFrame }) => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        fontFamily: "'Noto Sans JP', 'Hiragino Sans', sans-serif",
+        fontFamily: "'Noto Sans JP', 'Noto Sans CJK JP', 'Hiragino Sans', sans-serif",
         padding: "0 56px",
       }}
     >
