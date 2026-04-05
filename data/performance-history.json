@@ -1,5 +1,48 @@
 {
   "schemaVersion": 1,
-  "videos": [],
+  "videos": [
+    {
+      "videoId": "edvajJVpbpg",
+      "videoUrl": "https://youtube.com/shorts/edvajJVpbpg",
+      "date": "2026-04-06",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/06 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin",
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "languages": [
+        "Kotlin",
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "projects": [
+        "google-ai-edge/gallery",
+        "Blaizzy/mlx-vlm",
+        "siddharthvaddem/openscreen",
+        "block/goose",
+        "onyx-dot-app/onyx"
+      ],
+      "durationSeconds": 79,
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      }
+    }
+  ],
   "optimizationLog": []
 }
