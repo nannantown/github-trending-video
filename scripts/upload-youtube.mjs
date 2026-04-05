@@ -11,7 +11,7 @@
  */
 
 import { google } from "googleapis";
-import { readFileSync, createReadStream } from "fs";
+import { readFileSync, writeFileSync, createReadStream } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -92,6 +92,10 @@ async function main() {
   const videoId = res.data.id;
   const videoUrl = `https://youtube.com/shorts/${videoId}`;
   console.log(`  Uploaded! ${videoUrl}`);
+
+  // Persist upload result for analytics tracking
+  const uploadResult = { videoId, videoUrl, uploadedAt: new Date().toISOString() };
+  writeFileSync(join(outputDir, "upload-result.json"), JSON.stringify(uploadResult, null, 2));
 
   return { videoId, videoUrl };
 }

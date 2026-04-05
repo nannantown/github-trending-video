@@ -60,7 +60,10 @@ async function main() {
   // Generate authorization URL
   const authUrl = oauth2.generateAuthUrl({
     access_type: "offline",
-    scope: ["https://www.googleapis.com/auth/youtube.upload"],
+    scope: [
+      "https://www.googleapis.com/auth/youtube.upload",
+      "https://www.googleapis.com/auth/youtube.readonly",
+    ],
     prompt: "consent", // Force consent to get refresh token
   });
 

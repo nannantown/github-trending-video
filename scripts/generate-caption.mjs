@@ -1,15 +1,12 @@
 /**
  * Generate platform-specific captions from trending data.
- * Input:  output/trending-data.json
- * Output: output/captions.json
+ * Reads optimization hints (if available) to improve hashtags and titles.
  *
- * Produces:
- *   - YouTube title + description
- *   - Instagram caption
- *   - Common hashtags
+ * Input:  output/trending-data.json, output/optimization-hints.json (optional)
+ * Output: output/captions.json
  */
 
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -24,34 +21,83 @@ function getDateStr() {
   return { full: `${y}/${m}/${day}`, compact: `${y}${m}${day}` };
 }
 
-function generateHashtags(projects) {
-  const base = [
-    "#GitHubTrending",
-    "#GitHub",
-    "#プログラミング",
-    "#エンジニア",
-    "#Tech",
-    "#開発",
-    "#OSS",
-    "#オープンソース",
-    "#Shorts",
-  ];
+function loadOptimizationHints() {
+  const hintsPath = join(outputDir, "optimization-hints.json");
+  if (!existsSync(hintsPath)) return null;
+  try {
+    return JSON.parse(readFileSync(hintsPath, "utf-8"));
+  } catch {
+    return null;
+  }
+}
+
+function generateHashtags(projects, hints) {
+  let base;
+
+  if (hints?.recommendedHashtags && hints.recommendedHashtags.length > 0) {
+    // Use optimized hashtags from analytics
+    base = hints.recommendedHashtags.map((h) =>
+      h.startsWith("#") ? h : `#${h}`
+    );
+    console.log(`  Using optimized hashtags (${base.length} tags)`);
+  } else {
+    // Default hashtags
+    base = [
+      "#GitHubTrending",
+      "#GitHub",
+      "#プログラミング",
+      "#エンジニア",
+      "#Tech",
+      "#開発",
+      "#OSS",
+      "#オープンソース",
+      "#Shorts",
+    ];
+  }
 
   // Add language-specific tags
   const langs = new Set(projects.map((p) => p.language).filter(Boolean));
   for (const lang of langs) {
-    base.push(`#${lang}`);
+    const tag = `#${lang}`;
+    if (!base.includes(tag)) {
+      base.push(tag);
+    }
+  }
+
+  // Remove dropped hashtags
+  if (hints?.droppedHashtags?.length > 0) {
+    const dropped = new Set(
+      hints.droppedHashtags.map((h) => (h.startsWith("#") ? h : `#${h}`))
+    );
+    base = base.filter((h) => !dropped.has(h));
   }
 
   return base;
 }
 
-function generateYouTubeCaption(data, dateStr) {
-  const { projects } = data;
-  const hashtags = generateHashtags(projects);
+function generateTitle(data, dateStr, hints) {
+  const template = hints?.recommendedTitleTemplate || "standard";
+  const topProject = data.projects[0];
 
-  // Title: max 100 chars, include #Shorts
-  const title = `【GitHub Trending】今日の注目リポジトリ TOP5｜${dateStr.full} #Shorts`;
+  switch (template) {
+    case "highlight":
+      // Highlight top project name and star count
+      return `${topProject.name} +${topProject.todayStars.toLocaleString()}stars! GitHub Trending TOP5｜${dateStr.full} #Shorts`;
+
+    case "emoji":
+      return `GitHub Trending TOP5｜${dateStr.full} #Shorts`;
+
+    case "standard":
+    default:
+      return `【GitHub Trending】今日の注目リポジトリ TOP5｜${dateStr.full} #Shorts`;
+  }
+}
+
+function generateYouTubeCaption(data, dateStr, hints) {
+  const { projects } = data;
+  const hashtags = generateHashtags(projects, hints);
+  const title = generateTitle(data, dateStr, hints);
+  const titleTemplate = hints?.recommendedTitleTemplate || "standard";
 
   // Description
   const lines = [
@@ -78,15 +124,16 @@ function generateYouTubeCaption(data, dateStr) {
 
   return {
     title,
+    titleTemplate,
     description: lines.join("\n"),
     tags: hashtags.map((h) => h.replace("#", "")),
     categoryId: "28", // Science & Technology
   };
 }
 
-function generateInstagramCaption(data, dateStr) {
+function generateInstagramCaption(data, dateStr, hints) {
   const { projects } = data;
-  const hashtags = generateHashtags(projects);
+  const hashtags = generateHashtags(projects, hints);
 
   const lines = [
     `${dateStr.full} GitHub Trending TOP5`,
@@ -117,16 +164,24 @@ function main() {
   const data = JSON.parse(readFileSync(dataPath, "utf-8"));
   const dateStr = getDateStr();
 
+  // Load optimization hints (from fetch-stats.mjs, if available)
+  const hints = loadOptimizationHints();
+  if (hints) {
+    console.log(`  Optimization hints loaded (${hints.videoCount} videos analyzed)`);
+    console.log(`  Recommended title template: ${hints.recommendedTitleTemplate}`);
+  }
+
   const captions = {
     date: dateStr,
-    youtube: generateYouTubeCaption(data, dateStr),
-    instagram: generateInstagramCaption(data, dateStr),
+    youtube: generateYouTubeCaption(data, dateStr, hints),
+    instagram: generateInstagramCaption(data, dateStr, hints),
   };
 
   const outputPath = join(outputDir, "captions.json");
   writeFileSync(outputPath, JSON.stringify(captions, null, 2));
   console.log(`Captions → ${outputPath}`);
   console.log(`  YouTube title: ${captions.youtube.title}`);
+  console.log(`  Title template: ${captions.youtube.titleTemplate}`);
   console.log(`  Instagram: ${captions.instagram.length} chars`);
 }
 

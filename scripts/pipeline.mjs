@@ -17,11 +17,23 @@ function run(cmd) {
   execSync(cmd, { cwd: rootDir, stdio: "inherit" });
 }
 
+function runSafe(cmd, label) {
+  try {
+    run(cmd);
+  } catch (err) {
+    console.error(`${label} failed (non-blocking): ${err.message}`);
+  }
+}
+
 function main() {
   mkdirSync(outputDir, { recursive: true });
 
   const today = new Date();
   const dateStr = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}`;
+
+  // Step 0: Fetch past video stats & generate optimization hints
+  console.log("=== Step 0: Fetch Stats & Optimize ===");
+  runSafe("node scripts/fetch-stats.mjs", "fetch-stats");
 
   // Step 1: Scrape GitHub Trending
   console.log("=== Step 1: Scrape GitHub Trending ===");
@@ -70,6 +82,12 @@ function main() {
     run(`node scripts/post-sns.mjs --video="${outputFile}"`);
   } else {
     console.log(`\n=== Step 6: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
+  }
+
+  // Step 7: Record upload for analytics tracking
+  if (snsEnabled) {
+    console.log(`\n=== Step 7: Record Upload ===`);
+    runSafe("node scripts/record-upload.mjs", "record-upload");
   }
 
   console.log(`\n=== Done! ${outputFile} ===`);
