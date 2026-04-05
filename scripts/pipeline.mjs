@@ -63,6 +63,15 @@ function main() {
   console.log(`\n=== Step 5: Render Video → ${outputFile} ===`);
   run(`npx remotion render TrendingVideo "${outputFile}" --props="${propsPath}"`);
 
+  // Step 6: Post to SNS (optional - skips if credentials not configured)
+  const snsEnabled = process.env.SNS_POST_ENABLED === "true";
+  if (snsEnabled) {
+    console.log(`\n=== Step 6: Post to SNS ===`);
+    run(`node scripts/post-sns.mjs --video="${outputFile}"`);
+  } else {
+    console.log(`\n=== Step 6: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
+  }
+
   console.log(`\n=== Done! ${outputFile} ===`);
 }
 

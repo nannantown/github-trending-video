@@ -3,3 +3,4 @@ output/
 .DS_Store
 *.aiff
 public/audio/
+youtube-refresh-token.txt
