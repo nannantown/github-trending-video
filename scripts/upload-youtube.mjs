@@ -20,7 +20,11 @@ const outputDir = join(__dirname, "..", "output");
 
 function getVideoPath() {
   const arg = process.argv.find((a) => a.startsWith("--video="));
-  if (arg) return join(__dirname, "..", arg.split("=")[1]);
+  if (arg) {
+    const p = arg.split("=")[1];
+    // If absolute path, use as-is; otherwise resolve relative to project root
+    return p.startsWith("/") ? p : join(__dirname, "..", p);
+  }
 
   // Auto-detect: find latest trending-YYYYMMDD.mp4
   const today = new Date();
