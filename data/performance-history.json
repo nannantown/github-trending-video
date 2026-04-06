@@ -37,6 +37,48 @@
       ],
       "durationSeconds": 79,
       "stats": {
+        "views": 5,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-04-06T23:24:22.334Z"
+      }
+    },
+    {
+      "videoId": "aq1S2rcnj_Q",
+      "videoUrl": "https://youtube.com/shorts/aq1S2rcnj_Q",
+      "date": "2026-04-07",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/07 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Kotlin",
+        "Rust",
+        "C++"
+      ],
+      "languages": [
+        "TypeScript",
+        "Kotlin",
+        "Rust",
+        "C++"
+      ],
+      "projects": [
+        "abhigyanpatwari/GitNexus",
+        "google-ai-edge/gallery",
+        "block/goose",
+        "google-ai-edge/LiteRT-LM",
+        "immich-app/immich"
+      ],
+      "durationSeconds": 69,
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -44,5 +86,13 @@
       }
     }
   ],
-  "optimizationLog": []
+  "optimizationLog": [
+    {
+      "date": "2026-04-06",
+      "changes": [
+        "Day performance: Mon=5"
+      ],
+      "recommendedTemplate": "standard"
+    }
+  ]
 }
