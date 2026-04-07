@@ -12,46 +12,58 @@ export const Opening: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const titleOpacity = interpolate(frame, [0, 20], [0, 1], {
+  // Date appears first (frame 0-15)
+  const dateOpacity = interpolate(frame, [0, 15], [0, 1], {
+    extrapolateRight: "clamp",
+  });
+
+  const dateY = spring({
+    frame,
+    fps,
+    config: { damping: 14, stiffness: 100 },
+    from: 40,
+    to: 0,
+  });
+
+  // GitHub icon + title (frame 10-30)
+  const titleOpacity = interpolate(frame, [10, 30], [0, 1], {
     extrapolateRight: "clamp",
   });
 
   const titleY = spring({
-    frame,
+    frame: Math.max(0, frame - 10),
     fps,
     config: { damping: 12, stiffness: 100 },
     from: 60,
     to: 0,
   });
 
-  const subtitleOpacity = interpolate(frame, [25, 45], [0, 1], {
-    extrapolateRight: "clamp",
-  });
-
-  const subtitleY = spring({
-    frame: Math.max(0, frame - 25),
-    fps,
-    config: { damping: 12, stiffness: 80 },
-    from: 40,
-    to: 0,
-  });
-
-  const dateOpacity = interpolate(frame, [40, 60], [0, 1], {
-    extrapolateRight: "clamp",
-  });
-
+  // Divider (frame 20+)
   const lineScale = spring({
-    frame: Math.max(0, frame - 15),
+    frame: Math.max(0, frame - 20),
     fps,
     config: { damping: 15, stiffness: 120 },
     from: 0,
     to: 1,
   });
 
+  // Subtitle (frame 30-50)
+  const subtitleOpacity = interpolate(frame, [30, 50], [0, 1], {
+    extrapolateRight: "clamp",
+  });
+
+  const subtitleY = spring({
+    frame: Math.max(0, frame - 30),
+    fps,
+    config: { damping: 12, stiffness: 80 },
+    from: 40,
+    to: 0,
+  });
+
   const glowOpacity = interpolate(frame, [0, 30, 60], [0, 0.6, 0.3]);
 
   const today = new Date();
-  const dateStr = `${today.getFullYear()}年${today.getMonth() + 1}月${today.getDate()}日`;
+  const dateStr = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, "0")}.${String(today.getDate()).padStart(2, "0")}`;
 
   return (
     <AbsoluteFill
@@ -79,6 +91,27 @@ export const Opening: React.FC = () => {
           opacity: glowOpacity,
         }}
       />
+
+      {/* Date - prominent, appears first */}
+      <div
+        style={{
+          opacity: dateOpacity,
+          transform: `translateY(${dateY}px)`,
+          marginBottom: 48,
+          textAlign: "center",
+        }}
+      >
+        <div
+          style={{
+            fontSize: 68,
+            fontWeight: 900,
+            color: "#ffffff",
+            letterSpacing: "6px",
+          }}
+        >
+          {dateStr}
+        </div>
+      </div>
 
       {/* GitHub icon */}
       <div
@@ -150,19 +183,6 @@ export const Opening: React.FC = () => {
         }}
       >
         今日の注目リポジトリ
-      </div>
-
-      {/* Date */}
-      <div
-        style={{
-          opacity: dateOpacity,
-          marginTop: 20,
-          fontSize: 30,
-          color: "rgba(255,255,255,0.5)",
-          fontWeight: 400,
-        }}
-      >
-        {dateStr}
       </div>
 
     </AbsoluteFill>
