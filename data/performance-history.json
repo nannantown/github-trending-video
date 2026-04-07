@@ -40,7 +40,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-06T23:24:22.334Z"
+        "updatedAt": "2026-04-07T23:27:07.268Z"
       }
     },
     {
@@ -79,6 +79,48 @@
       ],
       "durationSeconds": 69,
       "stats": {
+        "views": 28,
+        "likes": 3,
+        "comments": 0,
+        "updatedAt": "2026-04-07T23:27:07.268Z"
+      }
+    },
+    {
+      "videoId": "7Njgmp5v1J8",
+      "videoUrl": "https://youtube.com/shorts/7Njgmp5v1J8",
+      "date": "2026-04-08",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/08 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Kotlin",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "google-ai-edge/gallery",
+        "google-ai-edge/LiteRT-LM",
+        "NVIDIA/personaplex",
+        "abhigyanpatwari/GitNexus",
+        "tobi/qmd"
+      ],
+      "durationSeconds": 68,
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -91,6 +133,13 @@
       "date": "2026-04-06",
       "changes": [
         "Day performance: Mon=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-07",
+      "changes": [
+        "Day performance: Tue=28, Mon=5"
       ],
       "recommendedTemplate": "standard"
     }
