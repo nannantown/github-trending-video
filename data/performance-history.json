@@ -37,10 +37,10 @@
       ],
       "durationSeconds": 79,
       "stats": {
-        "views": 5,
+        "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-07T23:27:07.268Z"
+        "updatedAt": "2026-04-08T23:28:22.142Z"
       }
     },
     {
@@ -79,10 +79,10 @@
       ],
       "durationSeconds": 69,
       "stats": {
-        "views": 28,
-        "likes": 3,
+        "views": 272,
+        "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-04-07T23:27:07.268Z"
+        "updatedAt": "2026-04-08T23:28:22.142Z"
       }
     },
     {
@@ -121,6 +121,46 @@
       ],
       "durationSeconds": 68,
       "stats": {
+        "views": 239,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-04-08T23:28:22.142Z"
+      }
+    },
+    {
+      "videoId": "3AdK4ow0ZLs",
+      "videoUrl": "https://youtube.com/shorts/3AdK4ow0ZLs",
+      "date": "2026-04-09",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/09 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Kotlin",
+        "C++"
+      ],
+      "languages": [
+        "Python",
+        "Kotlin",
+        "C++"
+      ],
+      "projects": [
+        "forrestchang/andrej-karpathy-skills",
+        "TheCraigHewitt/seomachine",
+        "google-ai-edge/gallery",
+        "NVIDIA/personaplex",
+        "google-ai-edge/LiteRT-LM"
+      ],
+      "durationSeconds": 64,
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -140,6 +180,13 @@
       "date": "2026-04-07",
       "changes": [
         "Day performance: Tue=28, Mon=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-08",
+      "changes": [
+        "Day performance: Tue=272, Wed=239, Mon=6"
       ],
       "recommendedTemplate": "standard"
     }
