@@ -40,7 +40,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-08T23:28:22.142Z"
+        "updatedAt": "2026-04-09T23:28:45.459Z"
       }
     },
     {
@@ -79,10 +79,10 @@
       ],
       "durationSeconds": 69,
       "stats": {
-        "views": 272,
-        "likes": 6,
+        "views": 459,
+        "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-08T23:28:22.142Z"
+        "updatedAt": "2026-04-09T23:28:45.459Z"
       }
     },
     {
@@ -121,10 +121,10 @@
       ],
       "durationSeconds": 68,
       "stats": {
-        "views": 239,
-        "likes": 1,
+        "views": 408,
+        "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-08T23:28:22.142Z"
+        "updatedAt": "2026-04-09T23:28:45.459Z"
       }
     },
     {
@@ -161,6 +161,44 @@
       ],
       "durationSeconds": 64,
       "stats": {
+        "views": 332,
+        "likes": 4,
+        "comments": 0,
+        "updatedAt": "2026-04-09T23:28:45.459Z"
+      }
+    },
+    {
+      "videoId": "iMGuXTc2UOU",
+      "videoUrl": "https://youtube.com/shorts/iMGuXTc2UOU",
+      "date": "2026-04-10",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/10 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Java"
+      ],
+      "languages": [
+        "Python",
+        "Java"
+      ],
+      "projects": [
+        "NousResearch/hermes-agent",
+        "forrestchang/andrej-karpathy-skills",
+        "HKUDS/DeepTutor",
+        "OpenBMB/VoxCPM",
+        "opendataloader-project/opendataloader-pdf"
+      ],
+      "durationSeconds": 76,
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -187,6 +225,13 @@
       "date": "2026-04-08",
       "changes": [
         "Day performance: Tue=272, Wed=239, Mon=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-09",
+      "changes": [
+        "Day performance: Tue=459, Wed=408, Thu=332, Mon=6"
       ],
       "recommendedTemplate": "standard"
     }
