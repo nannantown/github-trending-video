@@ -37,10 +37,10 @@
       ],
       "durationSeconds": 79,
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-09T23:28:45.459Z"
+        "updatedAt": "2026-04-10T23:23:24.622Z"
       }
     },
     {
@@ -79,10 +79,10 @@
       ],
       "durationSeconds": 69,
       "stats": {
-        "views": 459,
+        "views": 471,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-09T23:28:45.459Z"
+        "updatedAt": "2026-04-10T23:23:24.623Z"
       }
     },
     {
@@ -121,10 +121,10 @@
       ],
       "durationSeconds": 68,
       "stats": {
-        "views": 408,
+        "views": 494,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-09T23:28:45.459Z"
+        "updatedAt": "2026-04-10T23:23:24.623Z"
       }
     },
     {
@@ -161,10 +161,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 332,
-        "likes": 4,
+        "views": 475,
+        "likes": 5,
         "comments": 0,
-        "updatedAt": "2026-04-09T23:28:45.459Z"
+        "updatedAt": "2026-04-10T23:23:24.623Z"
       }
     },
     {
@@ -199,6 +199,44 @@
       ],
       "durationSeconds": 76,
       "stats": {
+        "views": 183,
+        "likes": 3,
+        "comments": 0,
+        "updatedAt": "2026-04-10T23:23:24.623Z"
+      }
+    },
+    {
+      "videoId": "MB-wgJbOXdY",
+      "videoUrl": "https://youtube.com/shorts/MB-wgJbOXdY",
+      "date": "2026-04-11",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/11 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "microsoft/markitdown",
+        "coleam00/Archon",
+        "NousResearch/hermes-agent",
+        "rowboatlabs/rowboat",
+        "multica-ai/multica"
+      ],
+      "durationSeconds": 74,
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -232,6 +270,13 @@
       "date": "2026-04-09",
       "changes": [
         "Day performance: Tue=459, Wed=408, Thu=332, Mon=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-10",
+      "changes": [
+        "Day performance: Wed=494, Thu=475, Tue=471, Fri=183, Mon=7"
       ],
       "recommendedTemplate": "standard"
     }
