@@ -1,0 +1,40 @@
+name: Refresh Instagram Token
+
+on:
+  schedule:
+    # 毎月1日と15日の UTC 0:00（JST 9:00）に実行
+    - cron: "0 0 1,15 * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh token
+        run: |
+          RESPONSE=$(curl -s "https://graph.facebook.com/v22.0/oauth/access_token?\
+          grant_type=fb_exchange_token&\
+          client_id=${FACEBOOK_APP_ID}&\
+          client_secret=${FACEBOOK_APP_SECRET}&\
+          fb_exchange_token=${INSTAGRAM_ACCESS_TOKEN}")
+
+          NEW_TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
+          EXPIRES_IN=$(echo "$RESPONSE" | jq -r '.expires_in')
+
+          if [ "$NEW_TOKEN" != "null" ] && [ -n "$NEW_TOKEN" ]; then
+            echo "Token refreshed successfully"
+            echo "Expires in: ${EXPIRES_IN} seconds ($(( EXPIRES_IN / 86400 )) days)"
+            gh secret set INSTAGRAM_ACCESS_TOKEN --body "$NEW_TOKEN"
+          else
+            echo "Token refresh failed:"
+            echo "$RESPONSE" | jq .
+            exit 1
+          fi
+        env:
+          FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
+          FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
