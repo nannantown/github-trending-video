@@ -7,12 +7,14 @@
  */
 
 import translate from "google-translate-api-x";
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const outputDir = join(__dirname, "..", "output");
+const rootDir = join(__dirname, "..");
+const outputDir = join(rootDir, "output");
+const enrichedPath = join(rootDir, "data", "enriched-trending.json");
 
 function formatStarsJa(n) {
   if (n >= 10000) return (n / 10000).toFixed(1).replace(/\.0$/, "") + "万";
@@ -110,48 +112,101 @@ function generateDetail(repo, jaDesc, jaReadmeExtra) {
   return parts.join("");
 }
 
+/**
+ * Try to load enriched data from Claude Code's scheduled task.
+ * Returns a map of fullName -> { description, detail, narration } if available.
+ */
+function loadEnrichedData() {
+  if (!existsSync(enrichedPath)) return null;
+
+  try {
+    const enriched = JSON.parse(readFileSync(enrichedPath, "utf-8"));
+    const today = new Date();
+    const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+    // Only use if it's today's data
+    if (enriched.date !== todayStr) {
+      console.log(`  Enriched data is from ${enriched.date}, not today (${todayStr}). Skipping.`);
+      return null;
+    }
+
+    const map = {};
+    for (const p of enriched.projects || []) {
+      map[p.fullName] = p;
+    }
+    console.log(`  Loaded enriched data for ${Object.keys(map).length} projects (by Claude)`);
+    return map;
+  } catch (err) {
+    console.error(`  Failed to load enriched data: ${err.message}`);
+    return null;
+  }
+}
+
 async function main() {
   const rawPath = join(outputDir, "raw-trending.json");
   const raw = JSON.parse(readFileSync(rawPath, "utf-8"));
 
-  console.log("Building rich descriptions & translating to Japanese...\n");
+  // Check for Claude-enriched data (from scheduled task at 7:30)
+  const enrichedMap = loadEnrichedData();
+  if (enrichedMap) {
+    console.log("Using Claude-enriched descriptions!\n");
+  } else {
+    console.log("No enriched data available, falling back to translate + README...\n");
+  }
 
   const projects = [];
   for (const repo of raw) {
-    // Build richer description from tagline + README
-    const richDesc = buildRichDescription(repo);
-    const simpleDesc = repo.description || repo.name;
+    const enriched = enrichedMap?.[repo.fullName];
 
-    process.stdout.write(`  #${repo.rank} ${repo.name}: translating... `);
+    if (enriched) {
+      // Use Claude's hand-crafted descriptions
+      console.log(`  #${repo.rank} ${repo.name}: using enriched data`);
 
-    // Translate the main (short) description
-    const jaDesc = await translateToJa(simpleDesc);
-
-    // Translate the richer description (for detail/narration)
-    let jaRichDesc = "";
-    if (richDesc !== simpleDesc) {
-      await new Promise((r) => setTimeout(r, 300));
-      jaRichDesc = await translateToJa(richDesc);
-      console.log(`\n    Rich: ${jaRichDesc.slice(0, 80)}...`);
+      projects.push({
+        rank: repo.rank,
+        name: repo.name,
+        fullName: repo.fullName,
+        description: enriched.description,
+        detail: enriched.detail || enriched.description,
+        narration: enriched.narration || `第${repo.rank}位、${repo.name}。${enriched.description.slice(0, 57)}。`,
+        stars: repo.stars,
+        todayStars: repo.todayStars,
+        language: repo.language,
+        url: repo.url,
+      });
     } else {
-      console.log(jaDesc);
+      // Fallback: translate + README extraction
+      const richDesc = buildRichDescription(repo);
+      const simpleDesc = repo.description || repo.name;
+
+      process.stdout.write(`  #${repo.rank} ${repo.name}: translating... `);
+
+      const jaDesc = await translateToJa(simpleDesc);
+
+      let jaRichDesc = "";
+      if (richDesc !== simpleDesc) {
+        await new Promise((r) => setTimeout(r, 300));
+        jaRichDesc = await translateToJa(richDesc);
+        console.log(`\n    Rich: ${jaRichDesc.slice(0, 80)}...`);
+      } else {
+        console.log(jaDesc);
+      }
+
+      projects.push({
+        rank: repo.rank,
+        name: repo.name,
+        fullName: repo.fullName,
+        description: jaDesc,
+        detail: generateDetail(repo, jaDesc, jaRichDesc),
+        narration: generateNarration(repo, jaRichDesc || jaDesc),
+        stars: repo.stars,
+        todayStars: repo.todayStars,
+        language: repo.language,
+        url: repo.url,
+      });
+
+      await new Promise((r) => setTimeout(r, 300));
     }
-
-    projects.push({
-      rank: repo.rank,
-      name: repo.name,
-      fullName: repo.fullName,
-      description: jaDesc,
-      detail: generateDetail(repo, jaDesc, jaRichDesc),
-      narration: generateNarration(repo, jaRichDesc || jaDesc),
-      stars: repo.stars,
-      todayStars: repo.todayStars,
-      language: repo.language,
-      url: repo.url,
-    });
-
-    // Small delay to avoid rate limiting
-    await new Promise((r) => setTimeout(r, 300));
   }
 
   const data = {
