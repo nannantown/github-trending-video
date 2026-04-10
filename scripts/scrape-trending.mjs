@@ -90,6 +90,62 @@ function parseTrending(html) {
   return repos;
 }
 
+async function fetchReadmeExcerpt(fullName) {
+  try {
+    // Try to fetch README via GitHub API (no auth needed for public repos)
+    const res = await fetch(
+      `https://api.github.com/repos/${fullName}/readme`,
+      {
+        headers: {
+          Accept: "application/vnd.github.v3.raw",
+          "User-Agent": "github-trending-video-bot",
+        },
+      }
+    );
+    if (!res.ok) return "";
+
+    const text = await res.text();
+
+    // Extract first meaningful content (skip badges, images, title)
+    const lines = text.split("\n");
+    const contentLines = [];
+    let foundContent = false;
+
+    for (const line of lines) {
+      const trimmed = line.trim();
+      // Skip empty lines, badges, images, HTML tags, headers with just the repo name
+      if (!trimmed) {
+        if (foundContent) contentLines.push("");
+        continue;
+      }
+      if (trimmed.startsWith("![") || trimmed.startsWith("[![")) continue;
+      if (trimmed.startsWith("<") && !trimmed.startsWith("<br")) continue;
+      if (trimmed.startsWith("---") || trimmed.startsWith("===")) continue;
+      if (trimmed.match(/^\[!\[/)) continue; // badge links
+
+      // Strip markdown formatting
+      const clean = trimmed
+        .replace(/^#+\s*/, "")
+        .replace(/\*\*/g, "")
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+        .replace(/`([^`]+)`/g, "$1")
+        .trim();
+
+      if (clean.length < 10) continue; // too short
+
+      foundContent = true;
+      contentLines.push(clean);
+
+      // Get first 500 chars of meaningful content
+      if (contentLines.join(" ").length > 500) break;
+    }
+
+    return contentLines.join(" ").slice(0, 500).trim();
+  } catch {
+    return "";
+  }
+}
+
 async function main() {
   mkdirSync(outputDir, { recursive: true });
 
@@ -103,10 +159,20 @@ async function main() {
     if (repos.length === 0) process.exit(1);
   }
 
+  // Fetch README excerpts for richer descriptions
+  console.log("\nFetching README excerpts...");
+  for (const repo of repos) {
+    process.stdout.write(`  #${repo.rank} ${repo.fullName}: `);
+    const readme = await fetchReadmeExcerpt(repo.fullName);
+    repo.readmeExcerpt = readme;
+    console.log(readme ? `${readme.length} chars` : "no README");
+    await new Promise((r) => setTimeout(r, 200)); // Rate limit
+  }
+
   const outputPath = join(outputDir, "raw-trending.json");
   writeFileSync(outputPath, JSON.stringify(repos, null, 2));
 
-  console.log(`Saved ${repos.length} repos to ${outputPath}`);
+  console.log(`\nSaved ${repos.length} repos to ${outputPath}`);
   repos.forEach((r) =>
     console.log(`  #${r.rank} ${r.fullName} - ${r.stars} stars (+${r.todayStars} today)`)
   );

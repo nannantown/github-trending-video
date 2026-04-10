@@ -336,11 +336,11 @@ export const ProjectCard: React.FC<Props> = ({ project, localFrame }) => {
         </div>
       </div>
 
-      {/* Progress indicator (bottom) */}
+      {/* Progress indicator (above YouTube UI zone) */}
       <div
         style={{
           position: "absolute",
-          bottom: 100,
+          bottom: 300,
           display: "flex",
           gap: 10,
         }}

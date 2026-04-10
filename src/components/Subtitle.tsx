@@ -56,9 +56,9 @@ export const Subtitle: React.FC<Props> = ({ data }) => {
     <div
       style={{
         position: "absolute",
-        bottom: 140,
+        bottom: 340,
         left: 40,
-        right: 40,
+        right: 120,
         display: "flex",
         justifyContent: "center",
         opacity: lineOpacity,
