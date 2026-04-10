@@ -1,0 +1,48 @@
+{
+  "date": "2026-04-10",
+  "performanceAnalysis": {
+    "bestPerforming": {
+      "date": "2026-04-07",
+      "views": 459,
+      "dayOfWeek": "Tuesday",
+      "languages": ["TypeScript", "Kotlin", "Rust", "C++"],
+      "projectCount": 5
+    },
+    "trends": [
+      "火曜日の投稿が最も再生数が高い（459回）",
+      "言語の多様性が高い動画（4言語）のほうがリーチが広い傾向",
+      "全動画でstandardテンプレートを使用中、変更の余地あり",
+      "再生数は初日で決まる傾向が強い（04/07は初日から急伸）"
+    ]
+  },
+  "todayRecommendations": {
+    "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/10 #Shorts",
+    "suggestedHashtags": [
+      "GitHubTrending",
+      "GitHub",
+      "プログラミング",
+      "エンジニア",
+      "Tech",
+      "開発",
+      "OSS",
+      "オープンソース",
+      "Shorts",
+      "Python",
+      "TypeScript",
+      "AI",
+      "AIエージェント",
+      "Microsoft"
+    ],
+    "highlights": [
+      "hermes-agentが今日+7,674スターと爆発的人気 → サムネイルやタイトルで強調推奨",
+      "markitdownはMicrosoft製かつ約10万スター → ブランド力で訴求",
+      "AI関連プロジェクトが5件中4件 → 「AI特集」的な切り口も有効",
+      "今日の言語はPython・TypeScriptの2種のみ → ハッシュタグにAI関連ワードを追加して補完"
+    ],
+    "contentTips": [
+      "hermes-agentの急上昇を冒頭で言及すると視聴維持率が上がる可能性",
+      "「使うほど賢くなるAI」「記憶するAI」など、わかりやすいキャッチコピーを活用",
+      "Microsoft製ツールであることは信頼感のアピールに有効"
+    ]
+  }
+}

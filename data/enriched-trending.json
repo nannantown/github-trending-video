@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-10",
+  "projects": [
+    {
+      "rank": 1,
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "description": "PDFやWord、Excelなどのファイルをマークダウン形式に変換するツール",
+      "detail": "AIにドキュメントを読ませたいときに便利。見出しや表の構造を保ったままマークダウンに変換してくれます。Microsoft製で、画像や音声ファイルにも対応しています。",
+      "narration": "PDFやWordをマークダウンに変換できるツール。AI分析との相性が抜群です"
+    },
+    {
+      "rank": 2,
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "description": "使うほど賢くなる、自己成長型のAIエージェント",
+      "detail": "会話の記憶を持ち越して、使うたびに学習するAIアシスタント。TelegramやDiscord、Slackなど複数のチャットアプリと連携でき、定期タスクの自動化もできます。今日だけで7,600以上のスターを獲得した注目プロジェクトです。",
+      "narration": "使えば使うほど賢くなるAIエージェント。40以上のツールと連携できます"
+    },
+    {
+      "rank": 3,
+      "fullName": "coleam00/Archon",
+      "name": "Archon",
+      "description": "AIコーディングを安定して繰り返せるようにするワークフローエンジン",
+      "detail": "AIにコードを書かせると毎回結果がバラつく問題を解決。YAMLでワークフローを定義して、チームで安定したAI開発ができます。イシュー修正やPR作成など17の定型ワークフローがすぐ使えます。",
+      "narration": "AIコーディングを安定・再現可能にするワークフローエンジンです"
+    },
+    {
+      "rank": 4,
+      "fullName": "HKUDS/DeepTutor",
+      "name": "DeepTutor",
+      "description": "5つのモードで学びをサポートするAI学習アシスタント",
+      "detail": "チャットで質問、難問の解説、クイズ生成、論文調査、数学のアニメーション解説の5モードを搭載。会話の流れを保ったまま切り替えられるので、学習がスムーズに進みます。学生や研究者におすすめです。",
+      "narration": "チャットやクイズなど5つのモードで学べるAI学習アシスタントです"
+    },
+    {
+      "rank": 5,
+      "fullName": "rowboatlabs/rowboat",
+      "name": "rowboat",
+      "description": "メールや会議の内容を記憶して成長するAIワークパートナー",
+      "detail": "GmailやGoogleカレンダーと連携し、仕事に関する知識を自動で蓄積。会議の準備や資料作成を助けてくれます。データはすべてローカル保存なので、プライバシーも安心です。",
+      "narration": "メールや会議から知識を蓄積し、仕事を助けてくれるAIアシスタントです"
+    }
+  ]
+}
