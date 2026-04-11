@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-11",
+  "projects": [
+    {
+      "rank": 1,
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "description": "使うほどに賢くなる、自己学習型AIエージェント",
+      "detail": "チャットやタスクの自動化をしたい時に便利。過去の会話から自動でスキルを作り、次回に活かす「学習ループ」が最大の特徴。SlackやDiscordなど様々なアプリから使え、200以上のAIモデルに対応している。",
+      "narration": "使えば使うほど賢くなる、自己学習型のAIエージェントです"
+    },
+    {
+      "rank": 2,
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "description": "WordやPDFなどのファイルをAI向けのMarkdown形式に変換するツール",
+      "detail": "AIにドキュメントを読ませたい時に便利。PDF、Word、Excel、画像、音声など幅広い形式に対応し、見出しや表の構造を保ったまま変換してくれる。マイクロソフトが開発しており、スター数10万超えの人気プロジェクト。",
+      "narration": "PDFやWordをAI向けのマークダウンに変換する、マイクロソフト製ツールです"
+    },
+    {
+      "rank": 3,
+      "fullName": "coleam00/Archon",
+      "name": "Archon",
+      "description": "AIによるコーディング作業を定型化・自動化するワークフローエンジン",
+      "detail": "AIにコードを書かせる手順を毎回同じに揃えたい時に便利。計画・実装・レビューなどの工程をYAMLファイルで定義し、再現性のある開発フローを構築できる。17種類のテンプレートが付属しており、すぐに使い始められる。",
+      "narration": "AIコーディングの手順を定型化して、安定した開発を実現するツールです"
+    },
+    {
+      "rank": 4,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "name": "andrej-karpathy-skills",
+      "description": "AIコーディング助手の品質を高めるための設定ファイル",
+      "detail": "Claude Codeの出力品質を改善したい時に便利。AI研究者カーパシー氏の知見をもとに、「余計なコードを書かない」「変更を最小限にする」などの原則を設定ファイル1つで適用できる。導入はファイルを置くだけと手軽。",
+      "narration": "カーパシー氏の知見を活かし、AIコーディングの精度を高める設定ファイルです"
+    },
+    {
+      "rank": 5,
+      "fullName": "multica-ai/multica",
+      "name": "multica",
+      "description": "AIコーディングエージェントをチームメンバーのように管理するプラットフォーム",
+      "detail": "開発タスクをAIエージェントに割り振って自動で進めたい時に便利。課題の割り当てから進捗報告、完了まで、人間のチームメイトと同じ感覚で管理できる。Claude CodeやCodexなど複数のAIエージェントに対応。",
+      "narration": "AIエージェントをチームの一員として管理できる、オープンソースの開発基盤です"
+    }
+  ]
+}

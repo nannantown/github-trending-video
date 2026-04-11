@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-11",
+  "performanceAnalysis": {
+    "bestPerforming": {
+      "date": "2026-04-08",
+      "views": 494,
+      "languageTags": ["Kotlin", "C++", "Python", "TypeScript"],
+      "languageCount": 4
+    },
+    "observations": [
+      "言語タグが4種類の動画（471, 494再生）が安定して高パフォーマンス",
+      "言語タグが2種類のみの動画（183再生）はパフォーマンスが低下する傾向",
+      "火〜木曜日の投稿が最も高い再生数（470〜494）を記録",
+      "全動画で「standard」タイトルテンプレートを使用中"
+    ]
+  },
+  "todayRecommendations": {
+    "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/11 #Shorts",
+    "suggestedHashtags": [
+      "GitHubTrending",
+      "GitHub",
+      "プログラミング",
+      "エンジニア",
+      "Tech",
+      "開発",
+      "OSS",
+      "オープンソース",
+      "Shorts",
+      "Python",
+      "TypeScript",
+      "AI",
+      "AIエージェント",
+      "LLM",
+      "ClaudeCode"
+    ],
+    "hashtagNotes": "今日のTOP5は全プロジェクトがAI関連のため、AI・LLM系ハッシュタグを追加。言語タグが2種類（Python, TypeScript）と少ないため、テーマ系タグで補強して露出を確保する。",
+    "titleAlternatives": [
+      "【GitHub Trending】AIエージェント特集！今日の注目TOP5｜2026/04/11 #Shorts",
+      "【GitHub Trending】AI開発ツールが席巻！注目TOP5｜2026/04/11 #Shorts"
+    ],
+    "contentNotes": "本日のTOP5は全てAI関連ツール。hermes-agentは今日だけで6,400以上のスター獲得と突出した注目度。markitdownはスター10万超えの大型プロジェクト。AI開発の効率化がテーマとして統一感がある日。"
+  }
+}
