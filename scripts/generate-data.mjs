@@ -22,10 +22,22 @@ function formatStarsJa(n) {
   return n.toString();
 }
 
+function cleanSourceForTranslation(text) {
+  return text
+    // Remove "BrandName - " prefix (e.g. "OmX - Oh My codeX: ...")
+    .replace(/^[A-Za-z0-9\s_\-\.!]+\s*[-:]\s*/g, "")
+    // Remove parenthetical abbreviations (e.g. "(TTS)", "(LLM)")
+    .replace(/\([A-Z]{2,}\)/g, "")
+    // Simplify "X for Y" patterns that translate awkwardly
+    .replace(/\. An alternative to .+\.?$/, ".")
+    .trim();
+}
+
 async function translateToJa(text) {
   if (!text) return "";
   try {
-    const res = await translate(text, { from: "en", to: "ja" });
+    const cleaned = cleanSourceForTranslation(text);
+    const res = await translate(cleaned || text, { from: "en", to: "ja" });
     return res.text;
   } catch (err) {
     console.error(`  Translation failed: ${err.message}, using original`);
@@ -80,12 +92,51 @@ function buildRichDescription(repo) {
   return base;
 }
 
+function cleanForTTS(text) {
+  return text
+    // Remove "BrandName - " or "BrandName: " prefix patterns
+    .replace(/^[A-Za-z0-9\s_\-\.]+\s*[-:：]\s*/, "")
+    // Remove URLs
+    .replace(/https?:\/\/\S+/g, "")
+    // Remove empty parentheses
+    .replace(/\(\s*\)/g, "")
+    // Replace " - " with 、
+    .replace(/\s*-\s*/g, "、")
+    // Collapse multiple spaces/punctuation
+    .replace(/\s+/g, " ")
+    .replace(/[。、]{2,}/g, "。")
+    .replace(/^[。、\s]+/, "")
+    .trim();
+}
+
+function truncateAtSentence(text, maxLen) {
+  if (text.length <= maxLen) return text;
+
+  // Try to cut at a sentence boundary (。)
+  const cutPoint = text.lastIndexOf("。", maxLen);
+  if (cutPoint > 15) return text.slice(0, cutPoint + 1);
+
+  // Try to cut at a comma or 、
+  const commaPoint = text.lastIndexOf("、", maxLen);
+  if (commaPoint > 15) return text.slice(0, commaPoint) + "。";
+
+  // Try to cut at a space
+  const spacePoint = text.lastIndexOf(" ", maxLen);
+  if (spacePoint > 15) return text.slice(0, spacePoint) + "。";
+
+  // Last resort: cut and close with 。
+  return text.slice(0, maxLen - 1) + "。";
+}
+
 function generateNarration(repo, jaDesc) {
   const starsJa = formatStarsJa(repo.stars);
   const todayJa = repo.todayStars.toLocaleString();
-  // Trim jaDesc to keep narration concise
-  const shortDesc = jaDesc.length > 60 ? jaDesc.slice(0, 57) + "..." : jaDesc;
-  return `第${repo.rank}位、${repo.name}。${shortDesc}。累計${starsJa}スター、今日${todayJa}スター獲得。`;
+
+  // Clean description for TTS readability
+  const cleaned = cleanForTTS(jaDesc);
+  const shortDesc = truncateAtSentence(cleaned, 60);
+
+  return `第${repo.rank}位。${shortDesc} 累計${starsJa}スター、今日${todayJa}スター獲得。`;
 }
 
 function generateDetail(repo, jaDesc, jaReadmeExtra) {
@@ -168,7 +219,7 @@ async function main() {
         fullName: repo.fullName,
         description: enriched.description,
         detail: enriched.detail || enriched.description,
-        narration: enriched.narration || `第${repo.rank}位、${repo.name}。${enriched.description.slice(0, 57)}。`,
+        narration: enriched.narration || `第${repo.rank}位。${truncateAtSentence(cleanForTTS(enriched.description), 60)} 累計${formatStarsJa(repo.stars)}スター。`,
         stars: repo.stars,
         todayStars: repo.todayStars,
         language: repo.language,
