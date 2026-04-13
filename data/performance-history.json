@@ -40,7 +40,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -79,10 +79,10 @@
       ],
       "durationSeconds": 69,
       "stats": {
-        "views": 471,
+        "views": 470,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -124,7 +124,7 @@
         "views": 503,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -161,10 +161,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 598,
+        "views": 605,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -199,10 +199,10 @@
       ],
       "durationSeconds": 76,
       "stats": {
-        "views": 306,
-        "likes": 5,
+        "views": 421,
+        "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -237,10 +237,10 @@
       ],
       "durationSeconds": 74,
       "stats": {
-        "views": 576,
+        "views": 578,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-11T23:20:58.033Z"
+        "updatedAt": "2026-04-13T01:43:28.693Z"
       }
     },
     {
@@ -274,6 +274,45 @@
         "multica-ai/multica"
       ],
       "durationSeconds": 78,
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      }
+    },
+    {
+      "videoId": "d2Gs5FkSEsQ",
+      "videoUrl": "https://youtube.com/shorts/d2Gs5FkSEsQ",
+      "date": "2026-04-13",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/13 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "NousResearch/hermes-agent",
+        "shiyu-coder/Kronos",
+        "forrestchang/andrej-karpathy-skills",
+        "microsoft/markitdown",
+        "multica-ai/multica"
+      ],
+      "durationSeconds": 66,
       "stats": {
         "views": 0,
         "likes": 0,
@@ -340,6 +379,15 @@
         "C++: 1.5x avg views → boost",
         "Trending languages: C++ (1.5x)",
         "Day performance: Thu=598, Sat=576, Wed=503, Tue=471, Fri=306, Mon=8, Sun=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-13",
+      "changes": [
+        "C++: 1.4x avg views → boost",
+        "Trending languages: C++ (1.4x)",
+        "Day performance: Thu=605, Sat=578, Wed=503, Tue=470, Fri=421, Mon=8, Sun=0"
       ],
       "recommendedTemplate": "standard"
     }
