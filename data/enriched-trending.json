@@ -1,45 +1,45 @@
 {
-  "date": "2026-04-12",
+  "date": "2026-04-13",
   "projects": [
     {
       "rank": 1,
-      "fullName": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "description": "使うほど賢くなる自己改善型のAIエージェント",
-      "detail": "会話の中から自分で新しいスキルを作り、使うたびに上達していくAIエージェント。Telegramからも呼び出せて、月500円ほどの小さなサーバーでも動かせる手軽さが特徴です。",
-      "narration": "使うほど賢くなる、自己進化型AIエージェント、ハーミーズ"
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "name": "andrej-karpathy-skills",
+      "description": "AIコーディングの落とし穴を防ぐClaude Code用の設定ファイル",
+      "detail": "AI研究者のKarpathy氏が指摘した、AIがコードを書く時の勝手な思い込みや過剰実装を防ぐためのルールをまとめた一枚のCLAUDE.mdファイル。AIに仕事を任せる際の品質を底上げできます。",
+      "narration": "AIコーディングの落とし穴を防ぐ、Claude Code向けの定番設定"
     },
     {
       "rank": 2,
-      "fullName": "shiyu-coder/Kronos",
-      "name": "Kronos",
-      "description": "株価チャートを読み解く金融特化のAI基盤モデル",
-      "detail": "世界45以上の取引所のローソク足データで学習した、金融市場の動きを予測するための大規模AIモデル。株や暗号資産のトレード分析に使える初のオープンソース基盤モデルです。",
-      "narration": "株価チャートを読み解くAI、金融版の基盤モデル、クロノス"
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "description": "使うほど賢くなる自己成長型AIエージェント",
+      "detail": "会話の中から自分で新しいスキルを作り、過去のやり取りを覚えて成長していくAIエージェント。月数百円の小さなサーバーでも動き、Telegramからも話しかけられる手軽さが魅力です。",
+      "narration": "使うほど賢くなる、自己進化型AIエージェント、ハーミーズ"
     },
     {
       "rank": 3,
-      "fullName": "forrestchang/andrej-karpathy-skills",
-      "name": "andrej-karpathy-skills",
-      "description": "Claude Codeをもっと賢く使うための設定ファイル集",
-      "detail": "AI研究者のKarpathy氏が指摘したAIコーディングの弱点を補う、たった一枚のCLAUDE.md。勝手な推測や過剰な実装をAIに防がせるためのルール集として使えます。",
-      "narration": "AIにコードを書かせる時の落とし穴を防ぐ、設定ファイル集"
+      "fullName": "shiyu-coder/Kronos",
+      "name": "Kronos",
+      "description": "株価チャートを読み解く金融特化のAI基盤モデル",
+      "detail": "ローソク足データを扱えるよう特別に設計された、金融市場向けのオープンソース大規模モデル。株や暗号資産の値動き予測を試したい個人トレーダーや研究者にぴったりです。",
+      "narration": "株価チャートを読み解くAI、金融版の基盤モデル、クロノス"
     },
     {
       "rank": 4,
-      "fullName": "microsoft/markitdown",
-      "name": "markitdown",
-      "description": "WordやPDFをMarkdownに変換するPythonツール",
-      "detail": "マイクロソフト製で、WordやExcel、PDFなどさまざまなファイルを一発でMarkdownに変換できます。AIに資料を読ませる前の下ごしらえとして特に便利です。",
-      "narration": "ワードもPDFもマークダウンに変換、マイクロソフト製の便利ツール"
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "description": "Claude Codeに長期記憶を持たせるプラグイン",
+      "detail": "コーディング中のClaudeの作業を自動で要約・圧縮し、次のセッションに必要な文脈を渡してくれる仕組み。セッションが切れるたびに説明し直す手間が省け、AIが作業内容を覚えていてくれます。",
+      "narration": "Claude Codeに記憶を持たせる、セッションを超える長期メモリ"
     },
     {
       "rank": 5,
-      "fullName": "multica-ai/multica",
-      "name": "multica",
-      "description": "AIエージェントをチームメイトとして管理するプラットフォーム",
-      "detail": "ClaudeやCopilotなどのコーディングAIに、同僚のようにタスクを割り振れるオープンソースの管理ツール。進捗の追跡やスキルの蓄積までできて、AIを本当のチームメンバーとして扱えます。",
-      "narration": "AIをチームメイトに。タスクを任せて進捗も追える管理プラットフォーム"
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "description": "WordやPDFをMarkdownに変換するPython製ツール",
+      "detail": "マイクロソフト製で、WordやExcel、PDFなどさまざまなファイルをまとめてMarkdownに変換できます。AIに資料を読ませる前の下ごしらえや、社内文書のテキスト化に特に便利です。",
+      "narration": "ワードもPDFもマークダウンに変換、マイクロソフト製の便利ツール"
     }
   ]
 }
