@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-04-13",
+  "basedOnVideos": 9,
+  "summary": {
+    "avgViewsByDay": {
+      "Mon": 8,
+      "Tue": 470,
+      "Wed": 503,
+      "Thu": 605,
+      "Fri": 421,
+      "Sat": 578,
+      "Sun": 0
+    },
+    "topPerformingLanguages": [
+      { "language": "C++", "multiplier": 1.4 },
+      { "language": "Python", "multiplier": 1.1 },
+      { "language": "TypeScript", "multiplier": 1.0 }
+    ],
+    "topPerformingVideo": {
+      "date": "2026-04-09",
+      "views": 605,
+      "projects": [
+        "forrestchang/andrej-karpathy-skills",
+        "TheCraigHewitt/seomachine",
+        "google-ai-edge/gallery",
+        "NVIDIA/personaplex",
+        "google-ai-edge/LiteRT-LM"
+      ],
+      "note": "AI系（特にClaude Code/エージェント）とGoogle/NVIDIA等の大手ブランドが並ぶと伸びる傾向"
+    }
+  },
+  "hints": {
+    "title": [
+      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
+      "AIエージェントやClaude Code関連が続く場合、タイトル末尾に『#AIエージェント』などの追加タグを混ぜると流入増の可能性",
+      "月曜は全体的に視聴数が下がる傾向あり。タイトルに『週明け』等の文脈語を入れるのも試す価値あり"
+    ],
+    "hashtags": [
+      "C++を含む日の方が伸びているため、動画にC++リポジトリが含まれる日は #Cpp を上位に配置",
+      "今日はAI系が多いため #AI #ClaudeCode #生成AI をベースタグに追加するのが有効",
+      "Python・TypeScriptは必ず入れる（出現率が高く検索流入に寄与）"
+    ],
+    "narration": [
+      "60文字以内・カタカナ発音を明示（例：ハーミーズ、クロノス）することで読み間違いを防ぐ",
+      "『使うほど賢くなる』『読み解く』『落とし穴を防ぐ』など、動詞＋ベネフィット型のフレーズが最後まで視聴されやすい",
+      "技術用語（ローソク足、基盤モデル等）は1動画に1〜2語までに絞る"
+    ],
+    "content": [
+      "AIエージェント × 開発者ツール（Claude Code, Karpathy, Nous Research 等）は継続的にトレンド。当日含まれていれば冒頭で強調",
+      "金融・トレード系（Kronos）は普段のAI開発視聴層と異なるため、説明は『株価予測に使えるAI』など一般寄りの言い換えが吉",
+      "同一リポジトリが連日出る場合（hermes-agent, markitdown, andrej-karpathy-skills 等）は角度を変えた説明にして飽きを防ぐ"
+    ]
+  },
+  "todayRecommendations": {
+    "date": "2026-04-13",
+    "dayOfWeek": "Mon",
+    "recommendedTemplate": "standard",
+    "suggestedExtraHashtags": [
+      "AI",
+      "ClaudeCode",
+      "AIエージェント",
+      "生成AI",
+      "Python",
+      "TypeScript"
+    ],
+    "focus": "AIエージェント・Claude Code関連が3本（hermes-agent, andrej-karpathy-skills, claude-mem）含まれるため、AI開発層を意識した訴求にする"
+  }
+}
