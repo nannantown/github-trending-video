@@ -1,45 +1,45 @@
 {
-  "date": "2026-04-13",
+  "date": "2026-04-14",
   "projects": [
     {
       "rank": 1,
       "fullName": "forrestchang/andrej-karpathy-skills",
       "name": "andrej-karpathy-skills",
-      "description": "AIコーディングの落とし穴を防ぐClaude Code用の設定ファイル",
-      "detail": "AI研究者のKarpathy氏が指摘した、AIがコードを書く時の勝手な思い込みや過剰実装を防ぐためのルールをまとめた一枚のCLAUDE.mdファイル。AIに仕事を任せる際の品質を底上げできます。",
-      "narration": "AIコーディングの落とし穴を防ぐ、Claude Code向けの定番設定"
+      "description": "Claude Codeを賢くする一枚の設定ファイル",
+      "detail": "AI研究者カーパシー氏が指摘した、AIコーディングでありがちな勘違いや過剰実装を抑えるルールを一枚のCLAUDE.mdにまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質が一段上がります。",
+      "narration": "Claude Codeを賢くする一枚の設定ファイル、カーパシー流"
     },
     {
       "rank": 2,
-      "fullName": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "description": "使うほど賢くなる自己成長型AIエージェント",
-      "detail": "会話の中から自分で新しいスキルを作り、過去のやり取りを覚えて成長していくAIエージェント。月数百円の小さなサーバーでも動き、Telegramからも話しかけられる手軽さが魅力です。",
-      "narration": "使うほど賢くなる、自己進化型AIエージェント、ハーミーズ"
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "description": "Claude Codeに記憶を持たせるプラグイン",
+      "detail": "コーディング中のClaudeのやり取りを自動で要約・圧縮し、次のセッションに必要な文脈だけ渡してくれる仕組み。セッションが切れるたびに状況を説明し直す手間がなくなり、長期プロジェクトでも話の続きから始められます。",
+      "narration": "Claude Codeに長期記憶を、セッションを超えて文脈を引き継ぐ"
     },
     {
       "rank": 3,
-      "fullName": "shiyu-coder/Kronos",
-      "name": "Kronos",
-      "description": "株価チャートを読み解く金融特化のAI基盤モデル",
-      "detail": "ローソク足データを扱えるよう特別に設計された、金融市場向けのオープンソース大規模モデル。株や暗号資産の値動き予測を試したい個人トレーダーや研究者にぴったりです。",
-      "narration": "株価チャートを読み解くAI、金融版の基盤モデル、クロノス"
+      "fullName": "jamiepine/voicebox",
+      "name": "voicebox",
+      "description": "誰でも使える音声合成スタジオのオープンソース版",
+      "detail": "テキストからリアルな音声を作るためのスタジオを、まるごとオープンソースで公開したプロジェクト。動画のナレーションやポッドキャスト試作、ゲームのセリフ作りなど、有料サービスを使わずに自分の声素材を作りたい人に便利です。",
+      "narration": "オープンソースの音声合成スタジオ、ボイスボックス"
     },
     {
       "rank": 4,
-      "fullName": "thedotmack/claude-mem",
-      "name": "claude-mem",
-      "description": "Claude Codeに長期記憶を持たせるプラグイン",
-      "detail": "コーディング中のClaudeの作業を自動で要約・圧縮し、次のセッションに必要な文脈を渡してくれる仕組み。セッションが切れるたびに説明し直す手間が省け、AIが作業内容を覚えていてくれます。",
-      "narration": "Claude Codeに記憶を持たせる、セッションを超える長期メモリ"
+      "fullName": "pascalorg/editor",
+      "name": "editor",
+      "description": "ブラウザで作って共有できる3D建築エディタ",
+      "detail": "間取りや建物などの3Dプロジェクトを作成し、URLで簡単に共有できるオンラインエディタ。建築や内装のラフ設計、DIYの間取り検討、学校の課題など、専用ソフトを入れずに3Dで形を見せたい場面で活躍します。",
+      "narration": "ブラウザで作れる3D建築エディタ、パスカル"
     },
     {
       "rank": 5,
       "fullName": "microsoft/markitdown",
       "name": "markitdown",
-      "description": "WordやPDFをMarkdownに変換するPython製ツール",
-      "detail": "マイクロソフト製で、WordやExcel、PDFなどさまざまなファイルをまとめてMarkdownに変換できます。AIに資料を読ませる前の下ごしらえや、社内文書のテキスト化に特に便利です。",
-      "narration": "ワードもPDFもマークダウンに変換、マイクロソフト製の便利ツール"
+      "description": "WordやPDFをMarkdownに変換するMicrosoft製ツール",
+      "detail": "Word、Excel、PowerPoint、PDFなど多様なファイルを一括でMarkdownに変換できるPython製ツール。AIに社内資料を読ませる前の前処理や、ドキュメントをWiki化する作業を一気に効率化できます。",
+      "narration": "ワードもPDFもマークダウン化、マイクロソフト製の変換ツール"
     }
   ]
 }
