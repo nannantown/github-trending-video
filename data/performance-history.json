@@ -40,7 +40,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -79,10 +79,10 @@
       ],
       "durationSeconds": 69,
       "stats": {
-        "views": 470,
+        "views": 472,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -121,10 +121,10 @@
       ],
       "durationSeconds": 68,
       "stats": {
-        "views": 503,
+        "views": 504,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -161,10 +161,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 606,
+        "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -199,10 +199,10 @@
       ],
       "durationSeconds": 76,
       "stats": {
-        "views": 448,
+        "views": 450,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -237,10 +237,10 @@
       ],
       "durationSeconds": 74,
       "stats": {
-        "views": 584,
+        "views": 588,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -314,10 +314,10 @@
       ],
       "durationSeconds": 66,
       "stats": {
-        "views": 191,
-        "likes": 5,
+        "views": 223,
+        "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-04-13T23:33:03.040Z"
+        "updatedAt": "2026-04-14T23:32:58.094Z"
       }
     },
     {
@@ -351,6 +351,44 @@
         "microsoft/markitdown"
       ],
       "durationSeconds": 67,
+      "stats": {
+        "views": 1121,
+        "likes": 15,
+        "comments": 0,
+        "updatedAt": "2026-04-14T23:32:58.094Z"
+      }
+    },
+    {
+      "videoId": "Ia7EQsACw9A",
+      "videoUrl": "https://youtube.com/shorts/Ia7EQsACw9A",
+      "date": "2026-04-15",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/15 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "forrestchang/andrej-karpathy-skills",
+        "thedotmack/claude-mem",
+        "jamiepine/voicebox",
+        "pascalorg/editor",
+        "microsoft/markitdown"
+      ],
+      "durationSeconds": 64,
       "stats": {
         "views": 0,
         "likes": 0,
@@ -434,6 +472,13 @@
       "changes": [
         "Trending languages: C++ (1.5x)",
         "Day performance: Thu=606, Sat=584, Wed=503, Tue=470, Fri=448, Mon=100, Sun=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-14",
+      "changes": [
+        "Day performance: Tue=797, Thu=609, Sat=588, Wed=504, Fri=450, Mon=116, Sun=0"
       ],
       "recommendedTemplate": "standard"
     }
