@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-04-14",
-  "basedOnVideos": 9,
+  "updatedAt": "2026-04-15",
+  "basedOnVideos": 10,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 8,
-      "Tue": 470,
-      "Wed": 503,
-      "Thu": 606,
-      "Fri": 421,
-      "Sat": 578,
+      "Mon": 116,
+      "Tue": 797,
+      "Wed": 504,
+      "Thu": 609,
+      "Fri": 450,
+      "Sat": 588,
       "Sun": 0
     },
     "topPerformingLanguages": [
@@ -17,43 +17,44 @@
       { "language": "TypeScript", "multiplier": 1.0 }
     ],
     "topPerformingVideo": {
-      "date": "2026-04-09",
-      "views": 606,
+      "date": "2026-04-14",
+      "views": 1121,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
-        "TheCraigHewitt/seomachine",
-        "google-ai-edge/gallery",
-        "NVIDIA/personaplex",
-        "google-ai-edge/LiteRT-LM"
+        "NousResearch/hermes-agent",
+        "shiyu-coder/Kronos",
+        "thedotmack/claude-mem",
+        "microsoft/markitdown"
       ],
-      "note": "AI系（特にClaude Code/エージェント）とGoogle/NVIDIA等の大手ブランドが並ぶと伸びる傾向"
+      "note": "Claude Code関連（karpathy-skills + claude-mem）を同じ動画に2本入れた日が過去最高視聴。AIエージェント×Claude Code文脈は最も反応が強い"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
-      "Claude Code関連が2本以上含まれる日は、タイトル末尾に『#ClaudeCode』を明示すると検索流入が増える可能性",
-      "TypeScript・Python中心の日は『AI開発』『Web開発』などジャンル語をハッシュタグに足すと関連視聴が伸びやすい"
+      "Claude Code関連が2本以上含まれる日は、タイトル末尾やハッシュタグに『#ClaudeCode』を明示して検索流入を狙う",
+      "投資×AI（ai-hedge-fund）のような異色ジャンルがある日は『AI投資』『AIエージェント』など横断タグを足すと普段届かない層に刺さる可能性"
     ],
     "hashtags": [
-      "今日はTypeScriptが3本含まれるため、#TypeScript はタグ上位（Python の前後）に配置",
+      "今日はTypeScriptが2本（editor, claude-mem）含まれるため #TypeScript はタグ上位に配置",
       "Claude Code関連が2本（andrej-karpathy-skills, claude-mem）含まれるため #ClaudeCode #AI #生成AI を必ず追加",
-      "音声合成（voicebox）と3D建築（editor）はクリエイター層に刺さる可能性。#音声合成 #3D #クリエイター を補助タグとして検討"
+      "AIヘッジファンド（ai-hedge-fund）に対して #AI投資 #Python #エージェント を、3D建築（editor）に対して #3D #建築 #クリエイター を補助タグで検討",
+      "LLM学習教材（dive-into-llms）向けに #LLM #機械学習 #プログラミング学習 を足すと学生層の流入が見込める"
     ],
     "narration": [
-      "60文字以内・カタカナ発音を明示（例：カーパシー、ボイスボックス、パスカル）することで読み間違いを防ぐ",
-      "『記憶を持たせる』『賢くする』『誰でも使える』など、動詞＋ベネフィット型のフレーズを冒頭に置くと最後まで視聴されやすい",
-      "技術用語（CLAUDE.md、3Dエディタ等）は1動画に1〜2語までに絞り、平易な補足を必ず添える"
+      "60文字以内・カタカナ発音を明示（例：カーパシー、パスカル、ヘッジファンド）することで読み間違いを防ぐ",
+      "『賢くする』『記憶を持たせる』『手を動かして学ぶ』『合議で判断』など、動詞＋ベネフィット型のフレーズを冒頭に置くと最後まで視聴されやすい",
+      "技術用語（CLAUDE.md、LLM、エージェント等）は1動画に1〜2語までに絞り、平易な補足を必ず添える"
     ],
     "content": [
-      "AIエージェント × 開発者ツール（Claude Code, Karpathy, claude-mem 等）は継続トレンド。冒頭で強調しAI開発層を取りに行く",
-      "今日はクリエイティブ系（音声合成・3D建築）が2本入り、開発者以外の流入も狙える。説明は『動画ナレーション』『間取り設計』など具体的な使い道で訴求",
-      "同一リポジトリが連日出る場合（andrej-karpathy-skills, claude-mem, markitdown）は角度を変えた説明にして飽きを防ぐ。今回は『一段上がる』『記憶を持たせる』『前処理を効率化』など別ベネフィットを強調済み"
+      "AIエージェント × 開発者ツール（Claude Code, Karpathy, claude-mem 等）は過去最高実績。冒頭で強調しAI開発層を確実に取りに行く",
+      "今日は学習教材（dive-into-llms）と投資シミュレータ（ai-hedge-fund）が入り、学生・金融系など開発者以外の流入も狙える。説明は『手を動かして学ぶ』『AIが合議で投資判断』のように具体的な使い道で訴求",
+      "同一リポジトリが連日出る場合（andrej-karpathy-skills, claude-mem）は角度を変えた説明にして飽きを防ぐ。今回は『賢くする』『長期記憶』と別ベネフィットを強調済み"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-14",
-    "dayOfWeek": "Tue",
+    "date": "2026-04-15",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
@@ -62,9 +63,10 @@
       "生成AI",
       "TypeScript",
       "Python",
-      "音声合成",
+      "LLM",
+      "AI投資",
       "3D"
     ],
-    "focus": "Claude Code関連2本＋音声合成＋3D建築＋PDF変換のラインナップ。AI開発層をメインに、クリエイター層への裾野拡大も狙える日。冒頭でClaude Code×AIを強調しつつ、中盤でvoicebox/editorのクリエイティブ訴求を入れる構成が有効。"
+    "focus": "Claude Code関連2本＋3D建築＋LLM学習教材＋AI投資シミュレータの多彩なラインナップ。AI開発層をメインに、学生層（LLM教材）・金融AI層（ai-hedge-fund）・クリエイター層（3D editor）への裾野拡大も狙える日。冒頭でClaude Code×AIを強調し、中盤以降で学習/投資/3Dの実用シーンを訴求する構成が有効。"
   }
 }

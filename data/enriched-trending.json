@@ -1,45 +1,45 @@
 {
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "projects": [
     {
       "rank": 1,
       "fullName": "forrestchang/andrej-karpathy-skills",
       "name": "andrej-karpathy-skills",
       "description": "Claude Codeを賢くする一枚の設定ファイル",
-      "detail": "AI研究者カーパシー氏が指摘した、AIコーディングでありがちな勘違いや過剰実装を抑えるルールを一枚のCLAUDE.mdにまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質が一段上がります。",
+      "detail": "AI研究者カーパシー氏が指摘した、AIコーディングでありがちな勘違いや過剰実装を抑えるルールをCLAUDE.mdというファイル一枚にまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質がぐっと上がります。",
       "narration": "Claude Codeを賢くする一枚の設定ファイル、カーパシー流"
     },
     {
       "rank": 2,
-      "fullName": "thedotmack/claude-mem",
-      "name": "claude-mem",
-      "description": "Claude Codeに記憶を持たせるプラグイン",
-      "detail": "コーディング中のClaudeのやり取りを自動で要約・圧縮し、次のセッションに必要な文脈だけ渡してくれる仕組み。セッションが切れるたびに状況を説明し直す手間がなくなり、長期プロジェクトでも話の続きから始められます。",
-      "narration": "Claude Codeに長期記憶を、セッションを超えて文脈を引き継ぐ"
-    },
-    {
-      "rank": 3,
-      "fullName": "jamiepine/voicebox",
-      "name": "voicebox",
-      "description": "誰でも使える音声合成スタジオのオープンソース版",
-      "detail": "テキストからリアルな音声を作るためのスタジオを、まるごとオープンソースで公開したプロジェクト。動画のナレーションやポッドキャスト試作、ゲームのセリフ作りなど、有料サービスを使わずに自分の声素材を作りたい人に便利です。",
-      "narration": "オープンソースの音声合成スタジオ、ボイスボックス"
-    },
-    {
-      "rank": 4,
       "fullName": "pascalorg/editor",
       "name": "editor",
       "description": "ブラウザで作って共有できる3D建築エディタ",
-      "detail": "間取りや建物などの3Dプロジェクトを作成し、URLで簡単に共有できるオンラインエディタ。建築や内装のラフ設計、DIYの間取り検討、学校の課題など、専用ソフトを入れずに3Dで形を見せたい場面で活躍します。",
+      "detail": "間取りや建物などの3Dプロジェクトをブラウザ上で作り、リンクひとつで共有できるオンラインエディタ。建築や内装のラフ設計、DIYの間取り検討、学校の課題まで、重い専用ソフトを入れずに形を見せたい場面で活躍します。",
       "narration": "ブラウザで作れる3D建築エディタ、パスカル"
     },
     {
+      "rank": 3,
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "description": "Claude Codeに長期記憶を持たせるプラグイン",
+      "detail": "コーディング中のやり取りを自動で要約し、次のセッションに必要な文脈だけを渡してくれる仕組み。セッションが切れるたびに状況を説明し直す手間がなくなり、長期プロジェクトでも話の続きから始められます。",
+      "narration": "Claude Codeに記憶を、セッションを超えて文脈を引き継ぐ"
+    },
+    {
+      "rank": 4,
+      "fullName": "Lordog/dive-into-llms",
+      "name": "dive-into-llms",
+      "description": "手を動かして学ぶ大規模言語モデル入門教材",
+      "detail": "大規模言語モデル（LLM）の仕組みや使い方を、実際にコードを動かしながら学べる実践型チュートリアル集。AIを基礎から理解したい学生やエンジニアが、写経するだけで一通りの流れを体験できる教材として人気です。",
+      "narration": "手を動かして学ぶ大規模言語モデル、実践チュートリアル"
+    },
+    {
       "rank": 5,
-      "fullName": "microsoft/markitdown",
-      "name": "markitdown",
-      "description": "WordやPDFをMarkdownに変換するMicrosoft製ツール",
-      "detail": "Word、Excel、PowerPoint、PDFなど多様なファイルを一括でMarkdownに変換できるPython製ツール。AIに社内資料を読ませる前の前処理や、ドキュメントをWiki化する作業を一気に効率化できます。",
-      "narration": "ワードもPDFもマークダウン化、マイクロソフト製の変換ツール"
+      "fullName": "virattt/ai-hedge-fund",
+      "name": "ai-hedge-fund",
+      "description": "AIが投資判断を行うヘッジファンドの再現プロジェクト",
+      "detail": "バフェット流や成長株投資など、著名投資家の考え方を模したAIエージェントを複数チームで動かし、合議で銘柄を判断させるPython製のシミュレータ。投資戦略の勉強やAIエージェントの設計例を学びたい人にぴったりです。",
+      "narration": "AIが合議で投資判断、ヘッジファンド再現プロジェクト"
     }
   ]
 }
