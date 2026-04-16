@@ -1,45 +1,45 @@
 {
-  "date": "2026-04-15",
+  "date": "2026-04-16",
   "projects": [
     {
       "rank": 1,
       "fullName": "forrestchang/andrej-karpathy-skills",
       "name": "andrej-karpathy-skills",
       "description": "Claude Codeを賢くする一枚の設定ファイル",
-      "detail": "AI研究者カーパシー氏が指摘した、AIコーディングでありがちな勘違いや過剰実装を抑えるルールをCLAUDE.mdというファイル一枚にまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質がぐっと上がります。",
-      "narration": "Claude Codeを賢くする一枚の設定ファイル、カーパシー流"
+      "detail": "AI研究者カーパシー氏の指摘をもとに、AIコーディングでありがちな過剰実装や勘違いを防ぐルールをCLAUDE.mdというファイル一枚にまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質が目に見えて上がります。",
+      "narration": "Claude Codeを賢く、カーパシー流の一枚設定ファイル"
     },
     {
       "rank": 2,
-      "fullName": "pascalorg/editor",
-      "name": "editor",
-      "description": "ブラウザで作って共有できる3D建築エディタ",
-      "detail": "間取りや建物などの3Dプロジェクトをブラウザ上で作り、リンクひとつで共有できるオンラインエディタ。建築や内装のラフ設計、DIYの間取り検討、学校の課題まで、重い専用ソフトを入れずに形を見せたい場面で活躍します。",
-      "narration": "ブラウザで作れる3D建築エディタ、パスカル"
-    },
-    {
-      "rank": 3,
       "fullName": "thedotmack/claude-mem",
       "name": "claude-mem",
       "description": "Claude Codeに長期記憶を持たせるプラグイン",
-      "detail": "コーディング中のやり取りを自動で要約し、次のセッションに必要な文脈だけを渡してくれる仕組み。セッションが切れるたびに状況を説明し直す手間がなくなり、長期プロジェクトでも話の続きから始められます。",
-      "narration": "Claude Codeに記憶を、セッションを超えて文脈を引き継ぐ"
+      "detail": "コーディング中のやり取りを自動で要約し、次のセッションに必要な文脈だけを渡してくれる仕組み。会話が切れるたびに状況を説明し直す手間がなくなり、長いプロジェクトでも話の続きから始められます。",
+      "narration": "Claude Codeに記憶を、セッションを越えて文脈を引き継ぐ"
+    },
+    {
+      "rank": 3,
+      "fullName": "lsdefine/GenericAgent",
+      "name": "GenericAgent",
+      "description": "自分でスキルを増やしていくAIエージェント",
+      "detail": "3,300行ほどの小さな種コードから、使いながら自分で新しいスキルを覚えていくPython製のAIエージェント。同じ作業でもトークン消費が従来の約6分の1で済むのが特徴で、自律エージェントを自分で育ててみたい研究者や開発者に注目されています。",
+      "narration": "自分でスキルを増やすAIエージェント、トークンも6分の1"
     },
     {
       "rank": 4,
-      "fullName": "Lordog/dive-into-llms",
-      "name": "dive-into-llms",
-      "description": "手を動かして学ぶ大規模言語モデル入門教材",
-      "detail": "大規模言語モデル（LLM）の仕組みや使い方を、実際にコードを動かしながら学べる実践型チュートリアル集。AIを基礎から理解したい学生やエンジニアが、写経するだけで一通りの流れを体験できる教材として人気です。",
-      "narration": "手を動かして学ぶ大規模言語モデル、実践チュートリアル"
+      "fullName": "jamiepine/voicebox",
+      "name": "voicebox",
+      "description": "音声合成をブラウザで試せるオープンソーススタジオ",
+      "detail": "テキストから自然な声を作れる音声合成ツールを、ブラウザ上のスタジオUIで直感的に操作できるオープンソースプロジェクト。ナレーション制作やゲームのキャラクターボイス、ポッドキャストの試作など、声の表現を手軽に試したい人に向いています。",
+      "narration": "ブラウザで声を作るオープンソース音声合成スタジオ"
     },
     {
       "rank": 5,
-      "fullName": "virattt/ai-hedge-fund",
-      "name": "ai-hedge-fund",
-      "description": "AIが投資判断を行うヘッジファンドの再現プロジェクト",
-      "detail": "バフェット流や成長株投資など、著名投資家の考え方を模したAIエージェントを複数チームで動かし、合議で銘柄を判断させるPython製のシミュレータ。投資戦略の勉強やAIエージェントの設計例を学びたい人にぴったりです。",
-      "narration": "AIが合議で投資判断、ヘッジファンド再現プロジェクト"
+      "fullName": "vercel-labs/open-agents",
+      "name": "open-agents",
+      "description": "クラウドで動くAIエージェントの公式テンプレート",
+      "detail": "Vercel公式が公開した、クラウド上で動かすAIエージェントを作るためのオープンなテンプレート。デプロイや運用周りが最初から用意されているので、自前のエージェントを素早く本番環境に載せたい開発者にぴったりです。",
+      "narration": "Vercel公式、クラウドAIエージェントのテンプレート"
     }
   ]
 }

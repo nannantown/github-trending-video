@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-04-15",
-  "basedOnVideos": 10,
+  "updatedAt": "2026-04-16",
+  "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 116,
-      "Tue": 797,
-      "Wed": 504,
+      "Mon": 124,
+      "Tue": 878,
+      "Wed": 431,
       "Thu": 609,
       "Fri": 450,
-      "Sat": 588,
+      "Sat": 590,
       "Sun": 0
     },
     "topPerformingLanguages": [
@@ -18,7 +18,7 @@
     ],
     "topPerformingVideo": {
       "date": "2026-04-14",
-      "views": 1121,
+      "views": 1284,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
         "NousResearch/hermes-agent",
@@ -33,40 +33,41 @@
     "title": [
       "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
       "Claude Code関連が2本以上含まれる日は、タイトル末尾やハッシュタグに『#ClaudeCode』を明示して検索流入を狙う",
-      "投資×AI（ai-hedge-fund）のような異色ジャンルがある日は『AI投資』『AIエージェント』など横断タグを足すと普段届かない層に刺さる可能性"
+      "今日のようにAIエージェントが複数（GenericAgent, open-agents）並ぶ日は『#AIエージェント』『#自律AI』を強調、音声合成（voicebox）向けに『#音声合成』『#VoiceAI』を補助的に添える"
     ],
     "hashtags": [
-      "今日はTypeScriptが2本（editor, claude-mem）含まれるため #TypeScript はタグ上位に配置",
-      "Claude Code関連が2本（andrej-karpathy-skills, claude-mem）含まれるため #ClaudeCode #AI #生成AI を必ず追加",
-      "AIヘッジファンド（ai-hedge-fund）に対して #AI投資 #Python #エージェント を、3D建築（editor）に対して #3D #建築 #クリエイター を補助タグで検討",
-      "LLM学習教材（dive-into-llms）向けに #LLM #機械学習 #プログラミング学習 を足すと学生層の流入が見込める"
+      "今日はTypeScriptが2本（claude-mem, voicebox, open-agents）・Pythonが1本（GenericAgent）のため #TypeScript #Python をタグ上位に配置",
+      "Claude Code関連が2本（andrej-karpathy-skills, claude-mem）のため #ClaudeCode #AI #生成AI は必ず追加",
+      "自律エージェント（GenericAgent, open-agents）向けに #AIエージェント #自律AI #Vercel を、音声合成（voicebox）向けに #音声合成 #VoiceAI #TTS を補助タグで検討"
     ],
     "narration": [
-      "60文字以内・カタカナ発音を明示（例：カーパシー、パスカル、ヘッジファンド）することで読み間違いを防ぐ",
-      "『賢くする』『記憶を持たせる』『手を動かして学ぶ』『合議で判断』など、動詞＋ベネフィット型のフレーズを冒頭に置くと最後まで視聴されやすい",
+      "60文字以内・カタカナ発音を明示（例：カーパシー、ボイスボックス、バーセル）することで読み間違いを防ぐ",
+      "『賢くする』『記憶を持たせる』『自分でスキルを増やす』『声を作る』など、動詞＋ベネフィット型のフレーズを冒頭に置くと最後まで視聴されやすい",
       "技術用語（CLAUDE.md、LLM、エージェント等）は1動画に1〜2語までに絞り、平易な補足を必ず添える"
     ],
     "content": [
-      "AIエージェント × 開発者ツール（Claude Code, Karpathy, claude-mem 等）は過去最高実績。冒頭で強調しAI開発層を確実に取りに行く",
-      "今日は学習教材（dive-into-llms）と投資シミュレータ（ai-hedge-fund）が入り、学生・金融系など開発者以外の流入も狙える。説明は『手を動かして学ぶ』『AIが合議で投資判断』のように具体的な使い道で訴求",
-      "同一リポジトリが連日出る場合（andrej-karpathy-skills, claude-mem）は角度を変えた説明にして飽きを防ぐ。今回は『賢くする』『長期記憶』と別ベネフィットを強調済み"
+      "AIエージェント × 開発者ツール（Claude Code, Karpathy, claude-mem, GenericAgent, open-agents）は過去最高実績。今日は5本中4本がAI開発系のためAI開発層に全力で訴求",
+      "voiceboxはクリエイター層への橋渡し。『声を作る』『ナレーション制作』など具体的な使い道を示し、普段届かない層への流入を狙う",
+      "同一リポジトリが連日出る場合（andrej-karpathy-skills, claude-mem）は角度を変えた説明にして飽きを防ぐ。今回も『賢く』『記憶』で別ベネフィットを強調済み",
+      "過去最高視聴（2026-04-14 1284views）はClaude Code×2本構成。今日も同構成のため同等以上を期待できる"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-15",
-    "dayOfWeek": "Wed",
+    "date": "2026-04-16",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "ClaudeCode",
       "AIエージェント",
       "生成AI",
+      "自律AI",
       "TypeScript",
       "Python",
-      "LLM",
-      "AI投資",
-      "3D"
+      "Vercel",
+      "音声合成",
+      "VoiceAI"
     ],
-    "focus": "Claude Code関連2本＋3D建築＋LLM学習教材＋AI投資シミュレータの多彩なラインナップ。AI開発層をメインに、学生層（LLM教材）・金融AI層（ai-hedge-fund）・クリエイター層（3D editor）への裾野拡大も狙える日。冒頭でClaude Code×AIを強調し、中盤以降で学習/投資/3Dの実用シーンを訴求する構成が有効。"
+    "focus": "Claude Code関連2本＋自律AIエージェント2本（GenericAgent, open-agents）＋音声合成voiceboxというAI全振り構成。過去最高視聴日（2026-04-14）と同じClaude Code×2構成のため同等以上を期待。AI開発層を軸に、Vercelユーザー層（open-agents）・クリエイター層（voicebox）・研究者層（GenericAgent）への裾野拡大も狙える。"
   }
 }
