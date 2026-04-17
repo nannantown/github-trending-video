@@ -40,7 +40,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -82,7 +82,7 @@
         "views": 472,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -124,7 +124,7 @@
         "views": 504,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -164,7 +164,7 @@
         "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -199,10 +199,10 @@
       ],
       "durationSeconds": 76,
       "stats": {
-        "views": 450,
+        "views": 451,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -237,10 +237,10 @@
       ],
       "durationSeconds": 74,
       "stats": {
-        "views": 590,
+        "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -314,10 +314,10 @@
       ],
       "durationSeconds": 66,
       "stats": {
-        "views": 240,
+        "views": 249,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -352,10 +352,10 @@
       ],
       "durationSeconds": 67,
       "stats": {
-        "views": 1284,
-        "likes": 15,
+        "views": 1352,
+        "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -390,10 +390,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 358,
-        "likes": 7,
+        "views": 477,
+        "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-15T23:32:01.375Z"
+        "updatedAt": "2026-04-17T00:22:00.855Z"
       }
     },
     {
@@ -429,6 +429,44 @@
         "virattt/ai-hedge-fund"
       ],
       "durationSeconds": 60,
+      "stats": {
+        "views": 371,
+        "likes": 5,
+        "comments": 0,
+        "updatedAt": "2026-04-17T00:22:00.855Z"
+      }
+    },
+    {
+      "videoId": "0mbfwZMwoaw",
+      "videoUrl": "https://youtube.com/shorts/0mbfwZMwoaw",
+      "date": "2026-04-17",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/17 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "forrestchang/andrej-karpathy-skills",
+        "thedotmack/claude-mem",
+        "lsdefine/GenericAgent",
+        "jamiepine/voicebox",
+        "vercel-labs/open-agents"
+      ],
+      "durationSeconds": 32,
       "stats": {
         "views": 0,
         "likes": 0,
@@ -527,6 +565,14 @@
       "changes": [
         "standard: 452 avg views (10 videos)",
         "Day performance: Tue=878, Thu=609, Sat=590, Fri=450, Wed=431, Mon=124, Sun=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-17",
+      "changes": [
+        "standard: 462 avg views (11 videos)",
+        "Day performance: Tue=912, Sat=591, Wed=491, Thu=490, Fri=451, Mon=129, Sun=0"
       ],
       "recommendedTemplate": "standard"
     }
