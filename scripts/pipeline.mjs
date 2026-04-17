@@ -35,21 +35,19 @@ function main() {
   console.log("=== Step 0: Fetch Stats & Optimize ===");
   runSafe("node scripts/fetch-stats.mjs", "fetch-stats");
 
-  // Step 1: Scrape GitHub Trending
-  console.log("=== Step 1: Scrape GitHub Trending ===");
-  run("node scripts/scrape-trending.mjs");
-
-  // Step 2: Generate Japanese data
-  console.log("\n=== Step 2: Generate Data ===");
+  // Step 1: Generate Japanese data from Claude-enriched input
+  // (No scraping — data/enriched-trending.json is the single source of truth,
+  //  produced by Claude's scheduled task ~30 min before this workflow runs.)
+  console.log("\n=== Step 1: Generate Data ===");
   run("node scripts/generate-data.mjs");
 
-  // Step 3: Generate TTS audio + BGM
-  console.log("\n=== Step 3: Generate Audio ===");
+  // Step 2: Generate TTS audio + BGM
+  console.log("\n=== Step 2: Generate Audio ===");
   run("node scripts/generate-audio.mjs --data=output/trending-data.json");
   run("node scripts/generate-bgm.mjs");
 
-  // Step 4: Build input props for Remotion
-  console.log("\n=== Step 4: Build Input Props ===");
+  // Step 3: Build input props for Remotion
+  console.log("\n=== Step 3: Build Input Props ===");
   const trendingData = JSON.parse(
     readFileSync(join(outputDir, "trending-data.json"), "utf-8")
   );
@@ -70,23 +68,23 @@ function main() {
   writeFileSync(propsPath, JSON.stringify(inputProps));
   console.log(`Input props → ${propsPath}`);
 
-  // Step 5: Render video
+  // Step 4: Render video
   const outputFile = `output/trending-${dateStr}.mp4`;
-  console.log(`\n=== Step 5: Render Video → ${outputFile} ===`);
+  console.log(`\n=== Step 4: Render Video → ${outputFile} ===`);
   run(`npx remotion render TrendingVideo "${outputFile}" --props="${propsPath}"`);
 
-  // Step 6: Post to SNS (optional - skips if credentials not configured)
+  // Step 5: Post to SNS (optional - skips if credentials not configured)
   const snsEnabled = process.env.SNS_POST_ENABLED === "true";
   if (snsEnabled) {
-    console.log(`\n=== Step 6: Post to SNS ===`);
+    console.log(`\n=== Step 5: Post to SNS ===`);
     run(`node scripts/post-sns.mjs --video="${outputFile}"`);
   } else {
-    console.log(`\n=== Step 6: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
+    console.log(`\n=== Step 5: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
   }
 
-  // Step 7: Record upload for analytics tracking
+  // Step 6: Record upload for analytics tracking
   if (snsEnabled) {
-    console.log(`\n=== Step 7: Record Upload ===`);
+    console.log(`\n=== Step 6: Record Upload ===`);
     runSafe("node scripts/record-upload.mjs", "record-upload");
   }
 

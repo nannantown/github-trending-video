@@ -5,41 +5,61 @@
       "rank": 1,
       "fullName": "forrestchang/andrej-karpathy-skills",
       "name": "andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "language": null,
+      "stars": 50439,
+      "todayStars": 2800,
       "description": "Claude Codeを賢くする一枚の設定ファイル",
       "detail": "AI研究者カーパシー氏の指摘をもとに、AIコーディングでありがちな過剰実装や勘違いを防ぐルールをCLAUDE.mdというファイル一枚にまとめたもの。プロジェクトに置くだけで、Claude Codeの提案品質が目に見えて上がります。",
-      "narration": "Claude Codeを賢く、カーパシー流の一枚設定ファイル"
+      "narration": "Claude Codeを賢くする一枚の設定ファイルです。CLAUDE.mdに置くだけで、AIの過剰実装や勘違いを防ぐルールが効いて、提案品質が目に見えて上がります。"
     },
     {
       "rank": 2,
       "fullName": "thedotmack/claude-mem",
       "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars": 59996,
+      "todayStars": 1900,
       "description": "Claude Codeに長期記憶を持たせるプラグイン",
       "detail": "コーディング中のやり取りを自動で要約し、次のセッションに必要な文脈だけを渡してくれる仕組み。会話が切れるたびに状況を説明し直す手間がなくなり、長いプロジェクトでも話の続きから始められます。",
-      "narration": "Claude Codeに記憶を、セッションを越えて文脈を引き継ぐ"
+      "narration": "Claude Codeにセッションを越えた記憶を持たせるプラグインです。会話ごとに文脈を自動で要約して引き継ぐので、長期プロジェクトでも説明し直す手間が消えます。"
     },
     {
       "rank": 3,
       "fullName": "lsdefine/GenericAgent",
       "name": "GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "language": "Python",
+      "stars": 2879,
+      "todayStars": 1200,
       "description": "自分でスキルを増やしていくAIエージェント",
       "detail": "3,300行ほどの小さな種コードから、使いながら自分で新しいスキルを覚えていくPython製のAIエージェント。同じ作業でもトークン消費が従来の約6分の1で済むのが特徴で、自律エージェントを自分で育ててみたい研究者や開発者に注目されています。",
-      "narration": "自分でスキルを増やすAIエージェント、トークンも6分の1"
+      "narration": "自分で新しいスキルを覚えていくAIエージェントです。わずか3,300行のPythonコードから、同じ作業のトークン消費を従来の6分の1に抑えます。"
     },
     {
       "rank": 4,
       "fullName": "jamiepine/voicebox",
       "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "language": "TypeScript",
+      "stars": 19127,
+      "todayStars": 980,
       "description": "音声合成をブラウザで試せるオープンソーススタジオ",
       "detail": "テキストから自然な声を作れる音声合成ツールを、ブラウザ上のスタジオUIで直感的に操作できるオープンソースプロジェクト。ナレーション制作やゲームのキャラクターボイス、ポッドキャストの試作など、声の表現を手軽に試したい人に向いています。",
-      "narration": "ブラウザで声を作るオープンソース音声合成スタジオ"
+      "narration": "ブラウザで動くオープンソースの音声合成スタジオです。テキストから自然な声を作って、ナレーションやゲームボイスの試作をUI上で直感的に試せます。"
     },
     {
       "rank": 5,
       "fullName": "vercel-labs/open-agents",
       "name": "open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "language": "TypeScript",
+      "stars": 3257,
+      "todayStars": 750,
       "description": "クラウドで動くAIエージェントの公式テンプレート",
       "detail": "Vercel公式が公開した、クラウド上で動かすAIエージェントを作るためのオープンなテンプレート。デプロイや運用周りが最初から用意されているので、自前のエージェントを素早く本番環境に載せたい開発者にぴったりです。",
-      "narration": "Vercel公式、クラウドAIエージェントのテンプレート"
+      "narration": "Vercel公式のクラウドAIエージェント・テンプレートです。デプロイや運用周りが最初から用意されていて、自前エージェントをそのまま本番に載せられます。"
     }
   ]
 }
