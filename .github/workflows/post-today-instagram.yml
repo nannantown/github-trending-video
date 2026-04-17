@@ -8,9 +8,13 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: read
+
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -48,16 +52,14 @@ jobs:
         env:
           TZ: Asia/Tokyo
         run: |
-          # generate-caption.mjs reads output/trending-data.json, which is produced
-          # by generate-data.mjs from data/enriched-trending.json.
           node scripts/generate-data.mjs
           node scripts/generate-caption.mjs
 
-      - name: Upload to Instagram
+      - name: Upload to Instagram (resumable)
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
         run: |
           DATE="${{ steps.date.outputs.date }}"
-          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/v${DATE}/trending-${DATE}.mp4"
-          node scripts/upload-instagram.mjs --url="$URL"
+          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4"
