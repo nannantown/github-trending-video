@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-16",
+  "updatedAt": "2026-04-17",
   "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
@@ -53,7 +53,7 @@
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
