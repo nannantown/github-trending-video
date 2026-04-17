@@ -49,6 +49,35 @@ jobs:
             | jq . | redact
           echo
 
+          echo "=== 4b. Check target FB pages from token's granular_scopes ==="
+          for PAGE_ID in 1149844638201593 987049344502207; do
+            echo "--- Page ${PAGE_ID} ---"
+            curl -sG "https://graph.facebook.com/v22.0/${PAGE_ID}" \
+              --data-urlencode "fields=id,name,instagram_business_account{id,username,account_type}" \
+              --data-urlencode "access_token=${INSTAGRAM_ACCESS_TOKEN}" \
+              | jq . | redact
+          done
+          echo
+
+          echo "=== 4c. Retry container creation against each discovered IG user ID ==="
+          VIDEO_URL="https://github.com/nannantown/github-trending-video/releases/download/v20260417/trending-20260417.mp4"
+          for PAGE_ID in 1149844638201593 987049344502207; do
+            IG_ID=$(curl -sG "https://graph.facebook.com/v22.0/${PAGE_ID}" \
+              --data-urlencode "fields=instagram_business_account" \
+              --data-urlencode "access_token=${INSTAGRAM_ACCESS_TOKEN}" \
+              | jq -r '.instagram_business_account.id // empty')
+            if [ -n "$IG_ID" ]; then
+              echo "--- Trying IG ID ${IG_ID} from page ${PAGE_ID} ---"
+              curl -s -X POST "https://graph.facebook.com/v22.0/${IG_ID}/media" \
+                -H "Content-Type: application/json" \
+                -d "{\"media_type\":\"REELS\",\"video_url\":\"${VIDEO_URL}\",\"caption\":\"debug\",\"access_token\":\"${INSTAGRAM_ACCESS_TOKEN}\"}" \
+                | jq . | redact
+            else
+              echo "Page ${PAGE_ID}: no linked IG business account"
+            fi
+          done
+          echo
+
           echo "=== 5. Try container creation (Reels) ==="
           # Public sample Reels-ready mp4 from GH release
           VIDEO_URL="https://github.com/nannantown/github-trending-video/releases/download/v20260417/trending-20260417.mp4"
