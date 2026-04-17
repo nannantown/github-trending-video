@@ -127,23 +127,26 @@ async function uploadYouTube(videoPath) {
   }
 }
 
-async function uploadInstagram(videoUrl) {
-  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID } = process.env;
+async function uploadInstagram(videoPath) {
+  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } =
+    process.env;
 
-  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID) {
+  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) {
     console.log("\nInstagram: credentials not configured, skipping.");
+    console.log("  (Requires INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID)");
     return null;
   }
 
-  if (!videoUrl) {
-    console.log("\nInstagram: no public video URL available, skipping.");
-    console.log("  (Instagram requires a public URL - set up GitHub Release or provide VIDEO_PUBLIC_URL)");
+  if (!videoPath) {
+    console.log("\nInstagram: no video file provided, skipping.");
     return null;
   }
 
   console.log("\n=== Instagram Reels Upload ===");
   try {
-    run(`node scripts/upload-instagram.mjs --url="${videoUrl}"`, {
+    // Resumable upload (binary POST) — avoids the unreliable URL fetcher
+    // that returns (#2207076) on GitHub Release assets.
+    run(`node scripts/upload-instagram.mjs --file="${videoPath}"`, {
       stdio: "inherit",
     });
     return true;
@@ -171,10 +174,12 @@ async function main() {
     process.env.VIDEO_PUBLIC_URL = videoPublicUrl;
   }
 
-  // Step 3: Upload to platforms (YouTube can run independently)
+  // Step 3: Upload to platforms. Instagram takes the local file and uses
+  // resumable upload directly; the GitHub Release above is kept as an
+  // archival copy and a fallback source for manual re-posting.
   const results = {
     youtube: await uploadYouTube(videoPath),
-    instagram: await uploadInstagram(videoPublicUrl),
+    instagram: await uploadInstagram(videoPath),
   };
 
   // Summary
