@@ -2,8 +2,9 @@ name: Refresh Instagram Token
 
 on:
   schedule:
-    # 毎月1日と15日の UTC 0:00（JST 9:00）に実行
-    - cron: "0 0 1,15 * *"
+    # 毎週日曜 UTC 0:00（JST 9:00）に実行
+    # 60日で失効する long-lived token を週次で延長（最大でも15日以内には触る）
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -27,6 +28,10 @@ jobs:
           if [ "$NEW_TOKEN" != "null" ] && [ -n "$NEW_TOKEN" ]; then
             echo "Token refreshed successfully"
             echo "Expires in: ${EXPIRES_IN} seconds ($(( EXPIRES_IN / 86400 )) days)"
+            # NOTE: the default GITHUB_TOKEN cannot write to Actions secrets
+            # (403: Resource not accessible by integration). A Fine-grained
+            # PAT with Secrets: Read and write on this repository must be
+            # stored as the GH_PAT secret.
             gh secret set INSTAGRAM_ACCESS_TOKEN --body "$NEW_TOKEN"
           else
             echo "Token refresh failed:"
@@ -37,4 +42,4 @@ jobs:
           FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
           FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
