@@ -44,11 +44,13 @@ jobs:
           DATE="${{ steps.date.outputs.date }}"
           gh release download "v${DATE}" -p "trending-${DATE}.mp4" -D output/
 
-      - name: Generate captions
+      - name: Prepare trending data + captions
         env:
           TZ: Asia/Tokyo
         run: |
-          # generate-caption.mjs reads data/enriched-trending.json + today's date
+          # generate-caption.mjs reads output/trending-data.json, which is produced
+          # by generate-data.mjs from data/enriched-trending.json.
+          node scripts/generate-data.mjs
           node scripts/generate-caption.mjs
 
       - name: Upload to Instagram
