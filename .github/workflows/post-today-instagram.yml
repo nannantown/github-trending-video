@@ -47,6 +47,8 @@ jobs:
           mkdir -p output
           DATE="${{ steps.date.outputs.date }}"
           gh release download "v${DATE}" -p "trending-${DATE}.mp4" -D output/
+          # Cover is optional — older releases may not have it
+          gh release download "v${DATE}" -p "trending-${DATE}-cover.jpg" -D output/ || echo "No cover asset in release (pre-cover_url era)"
 
       - name: Prepare trending data + captions
         env:
@@ -62,4 +64,8 @@ jobs:
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
         run: |
           DATE="${{ steps.date.outputs.date }}"
-          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4"
+          COVER_ARG=""
+          if [ -f "output/trending-${DATE}-cover.jpg" ]; then
+            COVER_ARG="--cover=https://github.com/${{ github.repository }}/releases/download/v${DATE}/trending-${DATE}-cover.jpg"
+          fi
+          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4" ${COVER_ARG}

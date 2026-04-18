@@ -83,6 +83,16 @@ function main() {
   );
   run(`rm -f "${rawFile}"`);
 
+  // Step 4c: Render cover image (frame 60 = ~2s into opening, all fade-ins
+  //          complete: date + brand title + divider + subtitle all visible).
+  //          Uploaded to GitHub Release and passed as cover_url to IG so the
+  //          profile-grid thumbnail shows branded content, not a black frame.
+  const coverFile = `output/trending-${dateStr}-cover.jpg`;
+  console.log(`\n=== Step 4c: Render Cover Image → ${coverFile} ===`);
+  run(
+    `npx remotion still TrendingVideo "${coverFile}" --frame=60 --props="${propsPath}"`
+  );
+
   // Step 5: Post to SNS (optional - skips if credentials not configured)
   const snsEnabled = process.env.SNS_POST_ENABLED === "true";
   if (snsEnabled) {
