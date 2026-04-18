@@ -68,10 +68,33 @@ function main() {
   writeFileSync(propsPath, JSON.stringify(inputProps));
   console.log(`Input props → ${propsPath}`);
 
-  // Step 4: Render video
+  // Step 4: Render video (to intermediate file — Remotion emits yuvj420p
+  //         despite Config.setPixelFormat("yuv420p"); Instagram Reels rejects
+  //         yuvj420p with ProcessingFailedError during media processing.
+  //         Step 4b re-encodes to yuv420p as a guaranteed normalization pass.)
+  const rawFile = `output/trending-${dateStr}.raw.mp4`;
   const outputFile = `output/trending-${dateStr}.mp4`;
-  console.log(`\n=== Step 4: Render Video → ${outputFile} ===`);
-  run(`npx remotion render TrendingVideo "${outputFile}" --props="${propsPath}"`);
+  console.log(`\n=== Step 4: Render Video → ${rawFile} ===`);
+  run(`npx remotion render TrendingVideo "${rawFile}" --props="${propsPath}"`);
+
+  console.log(`\n=== Step 4b: Normalize to yuv420p → ${outputFile} ===`);
+  run(
+    `ffmpeg -y -i "${rawFile}" -c:v libx264 -pix_fmt yuv420p -profile:v high -level 4.0 -crf 20 -preset fast -c:a copy -movflags +faststart "${outputFile}"`
+  );
+  run(`rm -f "${rawFile}"`);
+
+  // Step 4c: Render cover image (frame 60 = ~2s into opening, all fade-ins
+  //          complete: date + brand title + divider + subtitle all visible).
+  //          Uploaded to GitHub Release and passed as cover_url to IG so the
+  //          profile-grid thumbnail shows branded content, not a black frame.
+  //          Non-blocking: if still render fails, pipeline continues and IG
+  //          falls back to thumb_offset=7000ms.
+  const coverFile = `output/trending-${dateStr}-cover.jpg`;
+  console.log(`\n=== Step 4c: Render Cover Image → ${coverFile} ===`);
+  runSafe(
+    `npx remotion still TrendingVideo "${coverFile}" --frame=60 --props="${propsPath}"`,
+    "render-cover"
+  );
 
   // Step 5: Post to SNS (optional - skips if credentials not configured)
   const snsEnabled = process.env.SNS_POST_ENABLED === "true";

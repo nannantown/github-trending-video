@@ -33,6 +33,14 @@ const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
 const POLL_INTERVAL_MS = 5000;
 const POLL_MAX_ATTEMPTS = 60;
 
+// Thumbnail is taken from this offset (ms) within the video.
+// Default 7000ms lands on the first content card, past the ~5.5s opening —
+// avoids the near-black fade-in at frame 0 that IG picks otherwise.
+const DEFAULT_THUMB_OFFSET_MS = 7000;
+const THUMB_OFFSET_MS = Number(
+  process.env.INSTAGRAM_THUMB_OFFSET_MS ?? DEFAULT_THUMB_OFFSET_MS
+);
+
 async function graphPost(path, params) {
   const url = new URL(`${GRAPH_API_BASE}${path}`);
   const res = await fetch(url, {
@@ -111,13 +119,15 @@ async function derivePageAccessToken(pageId, userToken) {
   return data.access_token;
 }
 
-async function createResumableContainer(igUserId, pageToken, caption) {
+async function createResumableContainer(igUserId, pageToken, caption, coverUrl) {
   const form = new URLSearchParams({
     media_type: "REELS",
     upload_type: "resumable",
     caption,
+    thumb_offset: String(THUMB_OFFSET_MS),
     access_token: pageToken,
   });
+  if (coverUrl) form.set("cover_url", coverUrl);
   const res = await fetch(`${GRAPH_API_BASE}/${igUserId}/media`, {
     method: "POST",
     body: form,
@@ -163,12 +173,13 @@ async function uploadVideoBinary(uploadUri, filePath, accessToken) {
   return data;
 }
 
-async function uploadViaResumable(igUserId, pageToken, filePath, caption) {
+async function uploadViaResumable(igUserId, pageToken, filePath, caption, coverUrl) {
   console.log("  Creating resumable container...");
   const { id: containerId, uri: uploadUri } = await createResumableContainer(
     igUserId,
     pageToken,
-    caption
+    caption,
+    coverUrl
   );
   console.log(`  Container ID: ${containerId}`);
   console.log(
@@ -178,15 +189,18 @@ async function uploadViaResumable(igUserId, pageToken, filePath, caption) {
   return containerId;
 }
 
-async function uploadViaUrl(igUserId, pageToken, videoUrl, caption) {
+async function uploadViaUrl(igUserId, pageToken, videoUrl, caption, coverUrl) {
   console.log("  Creating URL-based container...");
-  const container = await graphPost(`/${igUserId}/media`, {
+  const params = {
     media_type: "REELS",
     video_url: videoUrl,
     caption,
     share_to_feed: true,
+    thumb_offset: THUMB_OFFSET_MS,
     access_token: pageToken,
-  });
+  };
+  if (coverUrl) params.cover_url = coverUrl;
+  const container = await graphPost(`/${igUserId}/media`, params);
   console.log(`  Container ID: ${container.id}`);
   return container.id;
 }
@@ -225,20 +239,27 @@ async function main() {
     INSTAGRAM_ACCESS_TOKEN
   );
 
+  const coverUrl = getArg("cover") || process.env.INSTAGRAM_COVER_URL || null;
+  if (coverUrl) {
+    console.log(`  Cover URL: ${coverUrl}`);
+  }
+
   let containerId;
   if (source.type === "file") {
     containerId = await uploadViaResumable(
       INSTAGRAM_USER_ID,
       pageToken,
       source.value,
-      caption
+      caption,
+      coverUrl
     );
   } else {
     containerId = await uploadViaUrl(
       INSTAGRAM_USER_ID,
       pageToken,
       source.value,
-      caption
+      caption,
+      coverUrl
     );
   }
 
