@@ -87,10 +87,13 @@ function main() {
   //          complete: date + brand title + divider + subtitle all visible).
   //          Uploaded to GitHub Release and passed as cover_url to IG so the
   //          profile-grid thumbnail shows branded content, not a black frame.
+  //          Non-blocking: if still render fails, pipeline continues and IG
+  //          falls back to thumb_offset=7000ms.
   const coverFile = `output/trending-${dateStr}-cover.jpg`;
   console.log(`\n=== Step 4c: Render Cover Image → ${coverFile} ===`);
-  run(
-    `npx remotion still TrendingVideo "${coverFile}" --frame=60 --props="${propsPath}"`
+  runSafe(
+    `npx remotion still TrendingVideo "${coverFile}" --frame=60 --props="${propsPath}"`,
+    "render-cover"
   );
 
   // Step 5: Post to SNS (optional - skips if credentials not configured)
