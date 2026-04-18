@@ -33,6 +33,14 @@ const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
 const POLL_INTERVAL_MS = 5000;
 const POLL_MAX_ATTEMPTS = 60;
 
+// Thumbnail is taken from this offset (ms) within the video.
+// Default 7000ms lands on the first content card, past the ~5.5s opening —
+// avoids the near-black fade-in at frame 0 that IG picks otherwise.
+const DEFAULT_THUMB_OFFSET_MS = 7000;
+const THUMB_OFFSET_MS = Number(
+  process.env.INSTAGRAM_THUMB_OFFSET_MS ?? DEFAULT_THUMB_OFFSET_MS
+);
+
 async function graphPost(path, params) {
   const url = new URL(`${GRAPH_API_BASE}${path}`);
   const res = await fetch(url, {
@@ -116,6 +124,7 @@ async function createResumableContainer(igUserId, pageToken, caption) {
     media_type: "REELS",
     upload_type: "resumable",
     caption,
+    thumb_offset: String(THUMB_OFFSET_MS),
     access_token: pageToken,
   });
   const res = await fetch(`${GRAPH_API_BASE}/${igUserId}/media`, {
@@ -185,6 +194,7 @@ async function uploadViaUrl(igUserId, pageToken, videoUrl, caption) {
     video_url: videoUrl,
     caption,
     share_to_feed: true,
+    thumb_offset: THUMB_OFFSET_MS,
     access_token: pageToken,
   });
   console.log(`  Container ID: ${container.id}`);
