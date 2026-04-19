@@ -40,7 +40,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.356Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -82,7 +82,7 @@
         "views": 472,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -124,7 +124,7 @@
         "views": 504,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -164,7 +164,7 @@
         "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -202,7 +202,7 @@
         "views": 451,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -317,7 +317,7 @@
         "views": 250,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -355,7 +355,7 @@
         "views": 1360,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -393,7 +393,7 @@
         "views": 545,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -430,10 +430,10 @@
       ],
       "durationSeconds": 60,
       "stats": {
-        "views": 773,
-        "likes": 11,
+        "views": 774,
+        "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -468,10 +468,10 @@
       ],
       "durationSeconds": 32,
       "stats": {
-        "views": 1645,
+        "views": 1999,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
+        "updatedAt": "2026-04-19T23:24:40.698Z"
       }
     },
     {
@@ -549,6 +549,46 @@
         "deepseek-ai/DeepGEMM"
       ],
       "durationSeconds": 62,
+      "stats": {
+        "views": 13,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-04-19T23:24:40.698Z"
+      }
+    },
+    {
+      "videoId": "tNktQwSBzPY",
+      "videoUrl": "https://youtube.com/shorts/tNktQwSBzPY",
+      "date": "2026-04-20",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/20 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript",
+        "HTML"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "HTML"
+      ],
+      "projects": [
+        "Fincept-Corporation/FinceptTerminal",
+        "thunderbird/thunderbolt",
+        "tractorjuice/arc-kit",
+        "openai/openai-agents-python",
+        "pingdotgg/t3code"
+      ],
+      "durationSeconds": 51,
       "stats": {
         "views": 0,
         "likes": 0,
@@ -673,6 +713,15 @@
         "Kotlin: 0.7x avg views → drop",
         "standard: 555 avg views (13 videos)",
         "Day performance: Fri=1048, Tue=916, Thu=691, Wed=525, Sat=300, Mon=129, Sun=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-19",
+      "changes": [
+        "Kotlin: 0.7x avg views → drop",
+        "standard: 542 avg views (14 videos)",
+        "Day performance: Fri=1225, Tue=916, Thu=692, Wed=525, Sat=300, Mon=129, Sun=7"
       ],
       "recommendedTemplate": "standard"
     }
