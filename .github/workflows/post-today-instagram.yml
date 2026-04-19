@@ -64,8 +64,7 @@ jobs:
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
         run: |
           DATE="${{ steps.date.outputs.date }}"
-          COVER_ARG=""
-          if [ -f "output/trending-${DATE}-cover.jpg" ]; then
-            COVER_ARG="--cover=https://github.com/${{ github.repository }}/releases/download/v${DATE}/trending-${DATE}-cover.jpg"
-          fi
-          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4" ${COVER_ARG}
+          # cover_url intentionally omitted: GitHub Release assets are served
+          # as Content-Type: application/octet-stream, which IG rejects with
+          # code 9004. upload-instagram.mjs falls back to thumb_offset=7000ms.
+          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4"
