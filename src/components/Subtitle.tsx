@@ -57,8 +57,10 @@ export const Subtitle: React.FC<Props> = ({ data }) => {
       style={{
         position: "absolute",
         bottom: 340,
-        left: 40,
-        right: 120,
+        // Symmetric horizontal safe area matching ProjectCard padding,
+        // clearing YT Shorts action buttons (~140px on the right).
+        left: 120,
+        right: 140,
         display: "flex",
         justifyContent: "center",
         opacity: lineOpacity,
