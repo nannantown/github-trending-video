@@ -141,8 +141,14 @@ async function uploadInstagram(videoPath, coverUrl) {
   try {
     // Resumable upload (binary POST) — avoids the unreliable URL fetcher
     // that returns (#2207076) on GitHub Release assets.
-    const coverArg = coverUrl ? ` --cover="${coverUrl}"` : "";
-    run(`node scripts/upload-instagram.mjs --file="${videoPath}"${coverArg}`, {
+    //
+    // cover_url is intentionally NOT passed: GitHub Release assets are
+    // served as `Content-Type: application/octet-stream`, which IG's
+    // cover fetcher rejects with error code 9004 ("Only photo or video
+    // can be accepted as media type"). Fall back to thumb_offset inside
+    // upload-instagram.mjs (default 7000ms, past the opening fade-in).
+    void coverUrl;
+    run(`node scripts/upload-instagram.mjs --file="${videoPath}"`, {
       stdio: "inherit",
     });
     return true;
