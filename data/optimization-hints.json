@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17",
+  "updatedAt": "2026-04-19",
   "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
@@ -32,42 +32,45 @@
   "hints": {
     "title": [
       "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
-      "Claude Code関連が2本以上含まれる日は、タイトル末尾やハッシュタグに『#ClaudeCode』を明示して検索流入を狙う",
-      "今日のようにAIエージェントが複数（GenericAgent, open-agents）並ぶ日は『#AIエージェント』『#自律AI』を強調、音声合成（voicebox）向けに『#音声合成』『#VoiceAI』を補助的に添える"
+      "今日は大手ブランド2本（OpenAI公式のopenai-agents-python、DeepSeekのDeepGEMM）が並ぶ日。タイトル末尾やハッシュタグで『#OpenAI』『#DeepSeek』を明示して検索流入を狙う",
+      "AIエージェント系が複数並ぶ構成（openai-agents-python, evolver）のため『#AIエージェント』『#LLM』を強調"
     ],
     "hashtags": [
-      "今日はTypeScriptが2本（claude-mem, voicebox, open-agents）・Pythonが1本（GenericAgent）のため #TypeScript #Python をタグ上位に配置",
-      "Claude Code関連が2本（andrej-karpathy-skills, claude-mem）のため #ClaudeCode #AI #生成AI は必ず追加",
-      "自律エージェント（GenericAgent, open-agents）向けに #AIエージェント #自律AI #Vercel を、音声合成（voicebox）向けに #音声合成 #VoiceAI #TTS を補助タグで検討"
+      "大手ブランド枠として #OpenAI #DeepSeek を必ず上位に追加（それぞれ公式SDKとFP8カーネル）",
+      "AIエージェント2本（openai-agents-python, evolver）のため #AIエージェント #自律AI #プロンプトエンジニアリング を優先",
+      "言語分布は Python / TypeScript / JavaScript / Dart / CUDA と幅広い。上位露出は #Python #TypeScript を維持し、補助で #Dart #CUDA を入れる",
+      "omi はウェアラブル寄りで層が違うので #ウェアラブル #AIガジェット を補助タグに添えると普段届かない層に刺さる"
     ],
     "narration": [
-      "60文字以内・カタカナ発音を明示（例：カーパシー、ボイスボックス、バーセル）することで読み間違いを防ぐ",
-      "『賢くする』『記憶を持たせる』『自分でスキルを増やす』『声を作る』など、動詞＋ベネフィット型のフレーズを冒頭に置くと最後まで視聴されやすい",
-      "技術用語（CLAUDE.md、LLM、エージェント等）は1動画に1〜2語までに絞り、平易な補足を必ず添える"
+      "60文字以内・カタカナ発音を明示（例：サンダーボルト、オーミー、ディープジェム、エボルバー、ベーシックハードウェア）することで読み間違いを防ぐ",
+      "固有名詞の発音は原文英語のままTTSに任せる（OpenAI、DeepSeek、NVIDIA、Cursor、Claude Code、Mozilla、FP8 は変換せず）",
+      "『自分で選べる』『全部覚える』『連携させる』『自動で育てる』『高速に回せる』など、動詞＋ベネフィット型のフレーズを冒頭に置く",
+      "技術用語（FP8、Mixture of Experts、SDK、LLM、JIT）は1動画に最大2語までに絞り、平易な言い換えを添える"
     ],
     "content": [
-      "AIエージェント × 開発者ツール（Claude Code, Karpathy, claude-mem, GenericAgent, open-agents）は過去最高実績。今日は5本中4本がAI開発系のためAI開発層に全力で訴求",
-      "voiceboxはクリエイター層への橋渡し。『声を作る』『ナレーション制作』など具体的な使い道を示し、普段届かない層への流入を狙う",
-      "同一リポジトリが連日出る場合（andrej-karpathy-skills, claude-mem）は角度を変えた説明にして飽きを防ぐ。今回も『賢く』『記憶』で別ベネフィットを強調済み",
-      "過去最高視聴（2026-04-14 1284views）はClaude Code×2本構成。今日も同構成のため同等以上を期待できる"
+      "本日は『AI主権（thunderbolt）』『パーソナルAI（omi）』『エージェント開発（openai-agents-python, evolver）』『推論基盤（DeepGEMM）』と、AIの全レイヤーを横断する稀な構成。AI関心層全体に刺さる",
+      "OpenAI公式リポジトリは検索需要が一定あるため、タイトル冒頭や説明文早めの位置で『OpenAI公式』をアピール",
+      "DeepGEMMのtodayStarsは31と控えめ。星数を前面に出すより『NVIDIA最新GPU・FP8・DeepSeek』という技術キーワードで差別化",
+      "omiはハードウェア付きという珍しさが武器。『AIが画面と会話を全部覚える』という体験価値をサムネ＆ナレーションで強調し、普段の開発者層以外にも橋渡しする",
+      "evolverはtodayStars 1131で当日の伸びトップ。『プロンプトを自動で育てる』というベネフィットを分かりやすく訴求して深い関心を取りに行く"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-17",
-    "dayOfWeek": "Thu",
+    "date": "2026-04-19",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
-      "ClaudeCode",
-      "AIエージェント",
       "生成AI",
-      "自律AI",
-      "TypeScript",
+      "OpenAI",
+      "DeepSeek",
+      "AIエージェント",
+      "LLM",
       "Python",
-      "Vercel",
-      "音声合成",
-      "VoiceAI"
+      "TypeScript",
+      "ウェアラブル",
+      "プロンプトエンジニアリング"
     ],
-    "focus": "Claude Code関連2本＋自律AIエージェント2本（GenericAgent, open-agents）＋音声合成voiceboxというAI全振り構成。過去最高視聴日（2026-04-14）と同じClaude Code×2構成のため同等以上を期待。AI開発層を軸に、Vercelユーザー層（open-agents）・クリエイター層（voicebox）・研究者層（GenericAgent）への裾野拡大も狙える。"
+    "focus": "AI主権（thunderbolt）・パーソナルAI（omi）・エージェント開発（openai-agents-python, evolver）・推論基盤（DeepGEMM）とAI全レイヤーを横断する構成。OpenAI公式とDeepSeek公式という大手ブランド2本が並ぶ日なので、検索流入とブランドワード（#OpenAI #DeepSeek）をフル活用し、日曜でも確実に表示を伸ばす。evolverは当日伸びトップ（1131 today stars）のため、説明文でもしっかり掘る。"
   }
 }
