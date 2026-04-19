@@ -3,12 +3,12 @@
   "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 124,
-      "Tue": 878,
-      "Wed": 431,
-      "Thu": 609,
-      "Fri": 450,
-      "Sat": 590,
+      "Mon": 129,
+      "Tue": 915,
+      "Wed": 517,
+      "Thu": 584,
+      "Fri": 644,
+      "Sat": 591,
       "Sun": 0
     },
     "topPerformingLanguages": [
@@ -18,7 +18,7 @@
     ],
     "topPerformingVideo": {
       "date": "2026-04-14",
-      "views": 1284,
+      "views": 1358,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
         "NousResearch/hermes-agent",
@@ -26,30 +26,30 @@
         "thedotmack/claude-mem",
         "microsoft/markitdown"
       ],
-      "note": "Claude Code関連（karpathy-skills + claude-mem）を同じ動画に2本入れた日が過去最高視聴。AIエージェント×Claude Code文脈は最も反応が強い"
+      "note": "ブランド(microsoft)×Claude Code(claude-mem, karpathy-skills)×AIエージェント(hermes-agent)の3要素が同居した日が過去最高視聴。日曜は平均0なのでブランド検索流入で埋めるのが鉄則"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
-      "今日は大手ブランド2本（OpenAI公式のopenai-agents-python、DeepSeekのDeepGEMM）が並ぶ日。タイトル末尾やハッシュタグで『#OpenAI』『#DeepSeek』を明示して検索流入を狙う",
+      "今日は大手ブランド3本（Mozilla/Thunderbird の thunderbolt、OpenAI公式の openai-agents-python、DeepSeek の DeepGEMM）が並ぶ日。ハッシュタグで『#OpenAI』『#DeepSeek』『#Mozilla』『#Thunderbird』を明示して検索流入を最大化",
       "AIエージェント系が複数並ぶ構成（openai-agents-python, evolver）のため『#AIエージェント』『#LLM』を強調"
     ],
     "hashtags": [
-      "大手ブランド枠として #OpenAI #DeepSeek を必ず上位に追加（それぞれ公式SDKとFP8カーネル）",
+      "大手ブランド枠として #OpenAI #DeepSeek #Mozilla #Thunderbird を上位に追加（それぞれ公式SDK・FP8カーネル・AIクライアント）",
       "AIエージェント2本（openai-agents-python, evolver）のため #AIエージェント #自律AI #プロンプトエンジニアリング を優先",
-      "言語分布は Python / TypeScript / JavaScript / Dart / CUDA と幅広い。上位露出は #Python #TypeScript を維持し、補助で #Dart #CUDA を入れる",
+      "言語分布は TypeScript / Dart / Python / JavaScript / CUDA と幅広い。上位露出は #Python #TypeScript を維持し、補助で #Dart #CUDA を入れる",
       "omi はウェアラブル寄りで層が違うので #ウェアラブル #AIガジェット を補助タグに添えると普段届かない層に刺さる"
     ],
     "narration": [
-      "60文字以内・カタカナ発音を明示（例：サンダーボルト、オーミー、ディープジェム、エボルバー、ベーシックハードウェア）することで読み間違いを防ぐ",
+      "60〜80文字・カタカナ発音を明示（例：サンダーボルト、オーミー、ディープジェム、エボルバー）することで読み間違いを防ぐ",
       "固有名詞の発音は原文英語のままTTSに任せる（OpenAI、DeepSeek、NVIDIA、Cursor、Claude Code、Mozilla、FP8 は変換せず）",
       "『自分で選べる』『全部覚える』『連携させる』『自動で育てる』『高速に回せる』など、動詞＋ベネフィット型のフレーズを冒頭に置く",
       "技術用語（FP8、Mixture of Experts、SDK、LLM、JIT）は1動画に最大2語までに絞り、平易な言い換えを添える"
     ],
     "content": [
       "本日は『AI主権（thunderbolt）』『パーソナルAI（omi）』『エージェント開発（openai-agents-python, evolver）』『推論基盤（DeepGEMM）』と、AIの全レイヤーを横断する稀な構成。AI関心層全体に刺さる",
-      "OpenAI公式リポジトリは検索需要が一定あるため、タイトル冒頭や説明文早めの位置で『OpenAI公式』をアピール",
+      "OpenAI公式・Mozilla Thunderbird・DeepSeek という大手ブランド3本を前面に出し、日曜の検索流入不足をブランドワードで補う",
       "DeepGEMMのtodayStarsは31と控えめ。星数を前面に出すより『NVIDIA最新GPU・FP8・DeepSeek』という技術キーワードで差別化",
       "omiはハードウェア付きという珍しさが武器。『AIが画面と会話を全部覚える』という体験価値をサムネ＆ナレーションで強調し、普段の開発者層以外にも橋渡しする",
       "evolverはtodayStars 1131で当日の伸びトップ。『プロンプトを自動で育てる』というベネフィットを分かりやすく訴求して深い関心を取りに行く"
@@ -64,6 +64,8 @@
       "生成AI",
       "OpenAI",
       "DeepSeek",
+      "Mozilla",
+      "Thunderbird",
       "AIエージェント",
       "LLM",
       "Python",
@@ -71,6 +73,6 @@
       "ウェアラブル",
       "プロンプトエンジニアリング"
     ],
-    "focus": "AI主権（thunderbolt）・パーソナルAI（omi）・エージェント開発（openai-agents-python, evolver）・推論基盤（DeepGEMM）とAI全レイヤーを横断する構成。OpenAI公式とDeepSeek公式という大手ブランド2本が並ぶ日なので、検索流入とブランドワード（#OpenAI #DeepSeek）をフル活用し、日曜でも確実に表示を伸ばす。evolverは当日伸びトップ（1131 today stars）のため、説明文でもしっかり掘る。"
+    "focus": "AI主権（thunderbolt）・パーソナルAI（omi）・エージェント開発（openai-agents-python, evolver）・推論基盤（DeepGEMM）とAI全レイヤーを横断する構成。Mozilla Thunderbird公式・OpenAI公式・DeepSeek公式の大手ブランド3本が並ぶ日なので、検索流入とブランドワード（#OpenAI #DeepSeek #Mozilla #Thunderbird）をフル活用し、日曜の平均0からでも確実に表示を伸ばす。evolverは当日伸びトップ（1131 today stars）のため、説明文でもしっかり掘る。"
   }
 }
