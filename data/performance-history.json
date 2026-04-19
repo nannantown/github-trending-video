@@ -40,7 +40,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.356Z"
       }
     },
     {
@@ -82,7 +82,7 @@
         "views": 472,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -124,7 +124,7 @@
         "views": 504,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -164,7 +164,7 @@
         "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -202,7 +202,7 @@
         "views": 451,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -317,7 +317,7 @@
         "views": 250,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -352,10 +352,10 @@
       ],
       "durationSeconds": 67,
       "stats": {
-        "views": 1358,
+        "views": 1360,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -390,10 +390,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 529,
+        "views": 545,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -430,10 +430,10 @@
       ],
       "durationSeconds": 60,
       "stats": {
-        "views": 559,
-        "likes": 7,
+        "views": 773,
+        "likes": 11,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -468,10 +468,10 @@
       ],
       "durationSeconds": 32,
       "stats": {
-        "views": 836,
-        "likes": 4,
+        "views": 1645,
+        "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-17T23:28:43.893Z"
+        "updatedAt": "2026-04-19T02:56:10.357Z"
       }
     },
     {
@@ -505,6 +505,50 @@
         "vercel-labs/open-agents"
       ],
       "durationSeconds": 63,
+      "stats": {
+        "views": 8,
+        "likes": 2,
+        "comments": 0,
+        "updatedAt": "2026-04-19T02:56:10.357Z"
+      }
+    },
+    {
+      "videoId": "nRWwd31lWX8",
+      "videoUrl": "https://youtube.com/shorts/nRWwd31lWX8",
+      "date": "2026-04-19",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/19 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Dart",
+        "Python",
+        "JavaScript",
+        "Cuda"
+      ],
+      "languages": [
+        "TypeScript",
+        "Dart",
+        "Python",
+        "JavaScript",
+        "Cuda"
+      ],
+      "projects": [
+        "thunderbird/thunderbolt",
+        "BasedHardware/omi",
+        "openai/openai-agents-python",
+        "EvoMap/evolver",
+        "deepseek-ai/DeepGEMM"
+      ],
+      "durationSeconds": 62,
       "stats": {
         "views": 0,
         "likes": 0,
@@ -620,6 +664,15 @@
         "Kotlin: 0.8x avg views → drop",
         "standard: 514 avg views (12 videos)",
         "Day performance: Tue=915, Fri=644, Sat=591, Thu=584, Wed=517, Mon=129, Sun=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-19",
+      "changes": [
+        "Kotlin: 0.7x avg views → drop",
+        "standard: 555 avg views (13 videos)",
+        "Day performance: Fri=1048, Tue=916, Thu=691, Wed=525, Sat=300, Mon=129, Sun=0"
       ],
       "recommendedTemplate": "standard"
     }
