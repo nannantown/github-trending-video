@@ -1,65 +1,65 @@
 {
-  "date": "2026-04-19",
+  "date": "2026-04-20",
   "projects": [
     {
       "rank": 1,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "name": "FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "stars": 6362,
+      "todayStars": 1169,
+      "description": "Bloomberg 代替の金融ターミナル",
+      "detail": "C++20 と Qt6 で作られた、Bloomberg Terminal 代替を目指すネイティブ金融分析アプリ。DCFモデルや37体の著名投資家AIエージェント、100以上のデータ連携を備え、個人投資家やクオンツに向きます。",
+      "narration": "Bloombergの代替を目指すオープンソース金融ターミナルです。DCFや37体のAI投資家エージェントを搭載します。"
+    },
+    {
+      "rank": 2,
       "fullName": "thunderbird/thunderbolt",
       "name": "thunderbolt",
       "url": "https://github.com/thunderbird/thunderbolt",
       "language": "TypeScript",
-      "stars": 1608,
-      "todayStars": 447,
+      "stars": 2186,
+      "todayStars": 696,
       "description": "自分でモデルを選べるAIクライアント",
-      "detail": "Mozilla Thunderbird チームが公開した、どのAIモデルでも差し替えて使えるクロスプラットフォームのAIクライアント。ローカル・オンプレ・クラウドを同じUIで切り替えられるので、データと選択肢を自社に残したい企業に向きます。",
-      "narration": "モデルも保存先も自分で選べるオープンなAIクライアントです。ローカルからクラウドまで同じアプリで切り替えられ、ベンダーロックインを避けたい企業に向きます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "BasedHardware/omi",
-      "name": "omi",
-      "url": "https://github.com/BasedHardware/omi",
-      "language": "Dart",
-      "stars": 10516,
-      "todayStars": 609,
-      "description": "画面と会話を全部覚えるAIアシスタント",
-      "detail": "ウェアラブル端末やPCアプリで画面や会話を常時キャプチャし、要約・検索・相談まで一貫して任せられるオープンソースのAIアシスタント。ファームウェアから設計図まで公開されていて、外部クラウドに頼らず自分のデータで育てられるのが魅力です。",
-      "narration": "あなたが見て聞いたことを全部覚えるAIアシスタントです。端末からアプリまで全てオープンソースなので、自分のデータを外に預けずに育てられます。"
+      "detail": "Mozilla Thunderbird チームが開発する、どのAIモデルでも差し替えて使えるクロスプラットフォームのAIクライアント。ローカル・オンプレ・クラウドを同じUIで切り替えられ、データと選択肢を自社に残したい企業に向きます。",
+      "narration": "モデルも保存先も自分で選べるオープンなAIクライアントです。ローカルからクラウドまで同じアプリで切り替えられます。"
     },
     {
       "rank": 3,
+      "fullName": "tractorjuice/arc-kit",
+      "name": "arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "language": "HTML",
+      "stars": 971,
+      "todayStars": 263,
+      "description": "AIで進める企業アーキテクチャ統治",
+      "detail": "原則定義からベンダー選定、設計レビューまで、エンタープライズアーキテクトの統治プロセスを段階的に自動化するツールキット。Claude Code を主軸に複数AIと連動し、UK政府の標準にも対応しているのが特徴です。",
+      "narration": "企業アーキテクチャの統治を自動化するツールキットです。Claude Codeと連携し、調達や審査まで支援します。"
+    },
+    {
+      "rank": 4,
       "fullName": "openai/openai-agents-python",
       "name": "openai-agents-python",
       "url": "https://github.com/openai/openai-agents-python",
       "language": "Python",
-      "stars": 22406,
-      "todayStars": 470,
+      "stars": 23116,
+      "todayStars": 751,
       "description": "OpenAI公式マルチエージェントSDK",
       "detail": "OpenAI公式の、複数AIエージェントを協調させるアプリを作るためのPython製SDK。ツール呼び出しや安全弁、エージェント間の引き継ぎが標準搭載で、100以上のLLMに切り替えて使える軽量さが開発者から支持されています。",
-      "narration": "複数のAIエージェントを連携させるOpenAI公式のPython SDKです。ツールや安全弁、引き継ぎが標準で揃い、100以上のLLMに切り替えて使えます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "EvoMap/evolver",
-      "name": "evolver",
-      "url": "https://github.com/EvoMap/evolver",
-      "language": "JavaScript",
-      "stars": 5055,
-      "todayStars": 1131,
-      "description": "AIエージェントのプロンプト進化エンジン",
-      "detail": "実行ログを解析してプロンプトの改善案を自動で生み出し、Cursor や Claude Code の成果物を世代ごとに積み上げていけるツール。場当たり的な手直しで終わらせず、エージェントの進化履歴を資産として管理したいチームに向いています。",
-      "narration": "AIエージェントのプロンプトを自動で育てるエンジンです。Cursor や Claude Code のログから改善案を積み重ねて、試行錯誤を資産として残せます。"
+      "narration": "複数のAIエージェントを連携させるOpenAI公式のPython SDKです。ツールや引き継ぎが標準で揃い便利です。"
     },
     {
       "rank": 5,
-      "fullName": "deepseek-ai/DeepGEMM",
-      "name": "DeepGEMM",
-      "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "language": "Cuda",
-      "stars": 6556,
-      "todayStars": 31,
-      "description": "LLM向けFP8行列演算カーネル",
-      "detail": "DeepSeek が公開した、NVIDIA の最新GPU向けに FP8 行列演算を高速化する CUDA カーネル集。JIT コンパイル方式でインストールが軽く、大規模LLMや Mixture of Experts の推論基盤を自前で組むエンジニアに向きます。",
-      "narration": "DeepSeek 製の FP8 行列演算カーネル集です。JIT コンパイルで導入が軽く、NVIDIA の最新GPU で大規模LLMを高速に回せます。"
+      "fullName": "pingdotgg/t3code",
+      "name": "t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "language": "TypeScript",
+      "stars": 9848,
+      "todayStars": 96,
+      "description": "Codex と Claude のWeb GUI",
+      "detail": "T3スタックで有名な Theo 率いる ping.gg 発、Codex と Claude をブラウザやデスクトップから使える軽量な AI コーディング GUI。CLI が苦手な人でも AI エージェントを手軽に試せる入口として便利です。",
+      "narration": "Codex や Claude を Web GUI で動かせる軽量ツールです。T3.gg 発のコーディング入門に最適です。"
     }
   ]
 }

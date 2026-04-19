@@ -1,78 +1,81 @@
 {
-  "updatedAt": "2026-04-19",
-  "basedOnVideos": 11,
+  "updatedAt": "2026-04-20",
+  "basedOnVideos": 12,
   "summary": {
     "avgViewsByDay": {
       "Mon": 129,
       "Tue": 915,
       "Wed": 517,
-      "Thu": 584,
-      "Fri": 644,
-      "Sat": 591,
+      "Thu": 691,
+      "Fri": 1048,
+      "Sat": 300,
       "Sun": 0
     },
     "topPerformingLanguages": [
-      { "language": "C++", "multiplier": 1.4 },
-      { "language": "Python", "multiplier": 1.1 },
-      { "language": "TypeScript", "multiplier": 1.0 }
+      { "language": "Python", "multiplier": 1.2 },
+      { "language": "TypeScript", "multiplier": 1.1 },
+      { "language": "C++", "multiplier": 1.0 }
     ],
     "topPerformingVideo": {
-      "date": "2026-04-14",
-      "views": 1358,
+      "date": "2026-04-17",
+      "views": 1645,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
-        "NousResearch/hermes-agent",
-        "shiyu-coder/Kronos",
         "thedotmack/claude-mem",
-        "microsoft/markitdown"
+        "lsdefine/GenericAgent",
+        "jamiepine/voicebox",
+        "vercel-labs/open-agents"
       ],
-      "note": "ブランド(microsoft)×Claude Code(claude-mem, karpathy-skills)×AIエージェント(hermes-agent)の3要素が同居した日が過去最高視聴。日曜は平均0なのでブランド検索流入で埋めるのが鉄則"
+      "note": "ブランド(vercel-labs)×Claude Code(claude-mem, karpathy-skills)×AIエージェント(GenericAgent, open-agents)が並んだ日が過去最高。Claude Code エコシステム同居が引き続き勝ち筋"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は安定。そのまま維持",
-      "今日は大手ブランド3本（Mozilla/Thunderbird の thunderbolt、OpenAI公式の openai-agents-python、DeepSeek の DeepGEMM）が並ぶ日。ハッシュタグで『#OpenAI』『#DeepSeek』『#Mozilla』『#Thunderbird』を明示して検索流入を最大化",
-      "AIエージェント系が複数並ぶ構成（openai-agents-python, evolver）のため『#AIエージェント』『#LLM』を強調"
+      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は 555 avg views で安定。そのまま維持",
+      "今日は大手ブランド 4 本（OpenAI 公式 openai-agents-python、Mozilla Thunderbird 発 thunderbolt、T3.gg 発 t3code、Bloomberg 代替の FinceptTerminal）が並ぶ日。ハッシュタグで #OpenAI #Mozilla #Thunderbird #Bloomberg を明示して月曜の検索流入不足を補う",
+      "Claude Code 連動枠 2 本（arc-kit, t3code）＋ OpenAI 公式 SDK の構成で、過去 TOP 動画の『ブランド × Claude Code エコシステム』を再現"
     ],
     "hashtags": [
-      "大手ブランド枠として #OpenAI #DeepSeek #Mozilla #Thunderbird を上位に追加（それぞれ公式SDK・FP8カーネル・AIクライアント）",
-      "AIエージェント2本（openai-agents-python, evolver）のため #AIエージェント #自律AI #プロンプトエンジニアリング を優先",
-      "言語分布は TypeScript / Dart / Python / JavaScript / CUDA と幅広い。上位露出は #Python #TypeScript を維持し、補助で #Dart #CUDA を入れる",
-      "omi はウェアラブル寄りで層が違うので #ウェアラブル #AIガジェット を補助タグに添えると普段届かない層に刺さる"
+      "月曜は Mon=129 avg と慢性的に弱いので、大手ブランド枠として #OpenAI #Mozilla #Thunderbird #Bloomberg #T3Stack を上位に追加し検索流入を最大化",
+      "AI エージェント 2 本（openai-agents-python, FinceptTerminal の 37 体 AI 投資家）と Claude Code 連動 2 本（arc-kit, t3code）のため #AIエージェント #ClaudeCode #Codex を優先",
+      "金融テックの Fincept は投資家層に届くので #投資 #Fintech #金融AI を補助タグに入れ、普段の開発者層以外にも橋渡しする",
+      "言語は Python と TypeScript が中心（1.2x / 1.1x）。#Python #TypeScript は維持し、#HTML はメインからは外す"
     ],
     "narration": [
-      "60〜80文字・カタカナ発音を明示（例：サンダーボルト、オーミー、ディープジェム、エボルバー）することで読み間違いを防ぐ",
-      "固有名詞の発音は原文英語のままTTSに任せる（OpenAI、DeepSeek、NVIDIA、Cursor、Claude Code、Mozilla、FP8 は変換せず）",
-      "『自分で選べる』『全部覚える』『連携させる』『自動で育てる』『高速に回せる』など、動詞＋ベネフィット型のフレーズを冒頭に置く",
-      "技術用語（FP8、Mixture of Experts、SDK、LLM、JIT）は1動画に最大2語までに絞り、平易な言い換えを添える"
+      "今日のナレーションは 40-60 文字制約（55 秒枠）。カタカナ発音を明示（フィンセプト、サンダーボルト、アークキット、ティースリーコード）し TTS の読み間違いを防ぐ",
+      "固有名詞は原文英語のまま TTS に任せる（Bloomberg、OpenAI、Claude、Codex、T3.gg、Mozilla、Thunderbird、DCF）",
+      "動詞＋ベネフィット型フック統一：『Bloomberg の代替を目指す』『自分で選べる』『統治を自動化する』『連携させる』『Web GUI で動かせる』",
+      "専門語（DCF、SDK、CLI、GUI）は 1 動画で最大 2 語まで。難解な FP8 / MoE などは今日は避け、月曜視聴者の離脱を防ぐ"
     ],
     "content": [
-      "本日は『AI主権（thunderbolt）』『パーソナルAI（omi）』『エージェント開発（openai-agents-python, evolver）』『推論基盤（DeepGEMM）』と、AIの全レイヤーを横断する稀な構成。AI関心層全体に刺さる",
-      "OpenAI公式・Mozilla Thunderbird・DeepSeek という大手ブランド3本を前面に出し、日曜の検索流入不足をブランドワードで補う",
-      "DeepGEMMのtodayStarsは31と控えめ。星数を前面に出すより『NVIDIA最新GPU・FP8・DeepSeek』という技術キーワードで差別化",
-      "omiはハードウェア付きという珍しさが武器。『AIが画面と会話を全部覚える』という体験価値をサムネ＆ナレーションで強調し、普段の開発者層以外にも橋渡しする",
-      "evolverはtodayStars 1131で当日の伸びトップ。『プロンプトを自動で育てる』というベネフィットを分かりやすく訴求して深い関心を取りに行く"
+      "本日は『ブランド 4 本（OpenAI, Mozilla Thunderbird, T3.gg, Bloomberg 代替）× Claude Code エコシステム 2 本（arc-kit, t3code）× AI エージェント』の月曜に嬉しい布陣。Mon=129 avg の底上げをブランドワードで狙う",
+      "Fincept は todayStars 1169 で当日伸びトップ。『Bloomberg を無料で置き換える』というベネフィットを description/detail/narration で一貫して訴求し、普段の開発者層の外(投資家・クオンツ)にも刺す",
+      "arc-kit は UK 政府対応という稀少な文脈。Claude Code を主軸に置くというキーワードで、エンタープライズ層と Claude Code 利用層の両方に届ける",
+      "t3code は todayStars 96 と控えめだが Theo(T3.gg) のブランド力と Codex/Claude の Web GUI という具体性で訴求。CLI が苦手な層向けと明言し、AI コーディング初学者を取り込む",
+      "openai-agents-python は前日からトレンド継続（todayStars 751）。OpenAI 公式という『動詞』より『肩書』で刺さるタイプなので、description と detail に OpenAI 公式 を必ず含める"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-19",
-    "dayOfWeek": "Sun",
+    "date": "2026-04-20",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OpenAI",
-      "DeepSeek",
       "Mozilla",
       "Thunderbird",
+      "Bloomberg",
+      "ClaudeCode",
+      "Codex",
+      "T3Stack",
       "AIエージェント",
       "LLM",
       "Python",
       "TypeScript",
-      "ウェアラブル",
-      "プロンプトエンジニアリング"
+      "Fintech",
+      "投資"
     ],
-    "focus": "AI主権（thunderbolt）・パーソナルAI（omi）・エージェント開発（openai-agents-python, evolver）・推論基盤（DeepGEMM）とAI全レイヤーを横断する構成。Mozilla Thunderbird公式・OpenAI公式・DeepSeek公式の大手ブランド3本が並ぶ日なので、検索流入とブランドワード（#OpenAI #DeepSeek #Mozilla #Thunderbird）をフル活用し、日曜の平均0からでも確実に表示を伸ばす。evolverは当日伸びトップ（1131 today stars）のため、説明文でもしっかり掘る。"
+    "focus": "月曜（Mon=129 avg）の検索流入不足をブランド 4 本で埋める構成。OpenAI 公式 SDK・Mozilla Thunderbird・T3.gg/Theo・Bloomberg 代替（Fincept）を前面に出し、Claude Code エコシステム 2 本（arc-kit, t3code）で過去 TOP 動画の勝ちパターンを踏襲。Fincept は todayStars 1169 で当日伸びトップのため、detail/narration で『Bloomberg の代替を無料で』というベネフィットを明確に訴求する。"
   }
 }
