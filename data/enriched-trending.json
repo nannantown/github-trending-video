@@ -1,5 +1,19 @@
 {
-  "date": "2026-04-20",
+  "date": "2026-04-21",
+  "discovery": {
+    "method": "use-case",
+    "description": "TOP5をPrimaryペルソナ(CTO/ソロ開発者)の『今週どれを自分の案件で試すか』視点で、具体的な利用シーンと想定顧客で料理する",
+    "sources": [
+      "https://github.com/trending",
+      "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "https://github.com/ruvnet/RuView",
+      "https://github.com/thunderbird/thunderbolt",
+      "https://github.com/paperless-ngx/paperless-ngx",
+      "https://github.com/tractorjuice/arc-kit"
+    ],
+    "query": "",
+    "freshness_hours": 1
+  },
   "projects": [
     {
       "rank": 1,
@@ -7,59 +21,59 @@
       "name": "FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "language": "Python",
-      "stars": 6362,
-      "todayStars": 1169,
-      "description": "Bloomberg 代替の金融ターミナル",
-      "detail": "C++20 と Qt6 で作られた、Bloomberg Terminal 代替を目指すネイティブ金融分析アプリ。DCFモデルや37体の著名投資家AIエージェント、100以上のデータ連携を備え、個人投資家やクオンツに向きます。",
-      "narration": "Bloombergの代替を目指すオープンソース金融ターミナルです。DCFや37体のAI投資家エージェントを搭載します。"
+      "stars": 9383,
+      "todayStars": 3129,
+      "description": "Bloomberg代替の投資ターミナル",
+      "detail": "年$24,000するBloomberg Terminalを置き換える無料の金融ターミナル。バフェットやグレアムを含む37体のAI投資家、100以上のデータ連携、DCFやVaR解析を備え、個人投資家や小規模クオンツチームに最適です。",
+      "narration": "年24000ドルのBloombergを置き換える無料ターミナルです。バフェットや37体のAI投資家が判断を補助します。"
     },
     {
       "rank": 2,
+      "fullName": "ruvnet/RuView",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "language": "Rust",
+      "stars": 48147,
+      "todayStars": 716,
+      "description": "カメラ不要のWiFi人体センサー",
+      "detail": "ESP32のWiFi信号から在室検知や17点の人体ポーズ、呼吸や心拍まで推定するRustフレームワーク。1台9ドルのセンサーで壁越し検知ができ、カメラを置けない介護施設や倉庫、病院の見守りに向きます。",
+      "narration": "カメラ不要で見守りや人流計測ができるWiFiセンサーです。ESP32一台9ドルで介護施設や倉庫に導入できます。"
+    },
+    {
+      "rank": 3,
       "fullName": "thunderbird/thunderbolt",
       "name": "thunderbolt",
       "url": "https://github.com/thunderbird/thunderbolt",
       "language": "TypeScript",
-      "stars": 2186,
-      "todayStars": 696,
-      "description": "自分でモデルを選べるAIクライアント",
-      "detail": "Mozilla Thunderbird チームが開発する、どのAIモデルでも差し替えて使えるクロスプラットフォームのAIクライアント。ローカル・オンプレ・クラウドを同じUIで切り替えられ、データと選択肢を自社に残したい企業に向きます。",
-      "narration": "モデルも保存先も自分で選べるオープンなAIクライアントです。ローカルからクラウドまで同じアプリで切り替えられます。"
+      "stars": 2777,
+      "todayStars": 667,
+      "description": "Mozilla製のオンプレ向けAI",
+      "detail": "Mozilla Thunderbirdチームが開発する、OpenAI互換APIやOllama、llama.cppなど好きなモデルを差し替えて使えるAIクライアント。Webからモバイルまで全対応で、医療や金融などオンプレ運用が必須の業界に向きます。",
+      "narration": "Thunderbirdが作る、モデルもデータも自社に置けるAIクライアントです。医療や金融のオンプレ導入に向きます。"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "fullName": "paperless-ngx/paperless-ngx",
+      "name": "paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "language": "Python",
+      "stars": 39383,
+      "todayStars": 611,
+      "description": "紙をゼロにする文書管理サーバー",
+      "detail": "スキャナで取り込んだ紙の書類をOCR化し、全文検索や自動タグ付けまで一気通貫でこなす自己ホスト型の文書管理サーバー。税理士や会計事務所、中小企業の総務が商用SaaSに月額を払わず、情報を自社で守れるのが利点です。",
+      "narration": "紙の書類をOCRしてタグ付けまで自動で行う文書管理ツールです。士業や中小企業のペーパーレス化に向きます。"
+    },
+    {
+      "rank": 5,
       "fullName": "tractorjuice/arc-kit",
       "name": "arc-kit",
       "url": "https://github.com/tractorjuice/arc-kit",
       "language": "HTML",
-      "stars": 971,
-      "todayStars": 263,
-      "description": "AIで進める企業アーキテクチャ統治",
-      "detail": "原則定義からベンダー選定、設計レビューまで、エンタープライズアーキテクトの統治プロセスを段階的に自動化するツールキット。Claude Code を主軸に複数AIと連動し、UK政府の標準にも対応しているのが特徴です。",
-      "narration": "企業アーキテクチャの統治を自動化するツールキットです。Claude Codeと連携し、調達や審査まで支援します。"
-    },
-    {
-      "rank": 4,
-      "fullName": "openai/openai-agents-python",
-      "name": "openai-agents-python",
-      "url": "https://github.com/openai/openai-agents-python",
-      "language": "Python",
-      "stars": 23116,
-      "todayStars": 751,
-      "description": "OpenAI公式マルチエージェントSDK",
-      "detail": "OpenAI公式の、複数AIエージェントを協調させるアプリを作るためのPython製SDK。ツール呼び出しや安全弁、エージェント間の引き継ぎが標準搭載で、100以上のLLMに切り替えて使える軽量さが開発者から支持されています。",
-      "narration": "複数のAIエージェントを連携させるOpenAI公式のPython SDKです。ツールや引き継ぎが標準で揃い便利です。"
-    },
-    {
-      "rank": 5,
-      "fullName": "pingdotgg/t3code",
-      "name": "t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "language": "TypeScript",
-      "stars": 9848,
-      "todayStars": 96,
-      "description": "Codex と Claude のWeb GUI",
-      "detail": "T3スタックで有名な Theo 率いる ping.gg 発、Codex と Claude をブラウザやデスクトップから使える軽量な AI コーディング GUI。CLI が苦手な人でも AI エージェントを手軽に試せる入口として便利です。",
-      "narration": "Codex や Claude を Web GUI で動かせる軽量ツールです。T3.gg 発のコーディング入門に最適です。"
+      "stars": 1310,
+      "todayStars": 334,
+      "description": "AIで進める調達と統治の自動化",
+      "detail": "企業アーキテクチャの原則定義からベンダー選定、RFP作成、設計レビューまで一連の統治プロセスをClaude Code上の68スラッシュコマンドで回せるツールキット。UK政府のService StandardやTCoP基準にも対応しています。",
+      "narration": "企業の調達とアーキ統治をClaude Codeで半自動化する仕組みです。68のスラッシュコマンドで審査を回せます。"
     }
   ]
 }

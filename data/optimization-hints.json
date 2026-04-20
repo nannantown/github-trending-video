@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-04-20",
-  "basedOnVideos": 12,
+  "updatedAt": "2026-04-21",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 129,
-      "Tue": 915,
-      "Wed": 517,
-      "Thu": 691,
-      "Fri": 1048,
+      "Tue": 916,
+      "Wed": 525,
+      "Thu": 692,
+      "Fri": 1225,
       "Sat": 300,
-      "Sun": 0
+      "Sun": 7
     },
     "topPerformingLanguages": [
       { "language": "Python", "multiplier": 1.2 },
       { "language": "TypeScript", "multiplier": 1.1 },
-      { "language": "C++", "multiplier": 1.0 }
+      { "language": "Rust", "multiplier": 1.0 }
     ],
     "topPerformingVideo": {
       "date": "2026-04-17",
-      "views": 1645,
+      "views": 1999,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
         "thedotmack/claude-mem",
@@ -26,56 +26,57 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "ブランド(vercel-labs)×Claude Code(claude-mem, karpathy-skills)×AIエージェント(GenericAgent, open-agents)が並んだ日が過去最高。Claude Code エコシステム同居が引き続き勝ち筋"
+      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 871 views、business-angle 平均 311 views と大差。ブランド並べは ecosystem 文脈の補助変数として機能するが単独では弱い。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は 555 avg views で安定。そのまま維持",
-      "今日は大手ブランド 4 本（OpenAI 公式 openai-agents-python、Mozilla Thunderbird 発 thunderbolt、T3.gg 発 t3code、Bloomberg 代替の FinceptTerminal）が並ぶ日。ハッシュタグで #OpenAI #Mozilla #Thunderbird #Bloomberg を明示して月曜の検索流入不足を補う",
-      "Claude Code 連動枠 2 本（arc-kit, t3code）＋ OpenAI 公式 SDK の構成で、過去 TOP 動画の『ブランド × Claude Code エコシステム』を再現"
+      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は 542 avg views で安定。そのまま維持",
+      "本日は火曜(Tue=916 avg)で曜日効果は最強。ブランド羅列ではなく『誰がどう使うか』の use-case 角度で切るため、タイトルは標準のまま中身で勝負",
+      "昨日と重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)があるので、同じ切り口で 2 日連続になる 04/18 型の急落を回避する設計が必須"
     ],
     "hashtags": [
-      "月曜は Mon=129 avg と慢性的に弱いので、大手ブランド枠として #OpenAI #Mozilla #Thunderbird #Bloomberg #T3Stack を上位に追加し検索流入を最大化",
-      "AI エージェント 2 本（openai-agents-python, FinceptTerminal の 37 体 AI 投資家）と Claude Code 連動 2 本（arc-kit, t3code）のため #AIエージェント #ClaudeCode #Codex を優先",
-      "金融テックの Fincept は投資家層に届くので #投資 #Fintech #金融AI を補助タグに入れ、普段の開発者層以外にも橋渡しする",
-      "言語は Python と TypeScript が中心（1.2x / 1.1x）。#Python #TypeScript は維持し、#HTML はメインからは外す"
+      "Tue=916 avg の最強曜日。ブランド検索流入狙いではなく、想定職種タグ(#CTO #エンジニア #投資 #介護DX #士業 #IT部門)で Primary ペルソナに届ける",
+      "use-case 角度のため #ユースケース #現場で使える #業務自動化 を先頭に置き、テック列挙型のハッシュタグから差別化",
+      "重複プロジェクトの再露出対策として #DXツール #業界別OSS を追加。昨日の business-angle タグ(#Bloomberg 単独)から視点を変える",
+      "言語タグは Python と TypeScript を維持。#Rust を入れて RuView の技術好き層もカバー。#HTML は主張しない"
     ],
     "narration": [
-      "今日のナレーションは 40-60 文字制約（55 秒枠）。カタカナ発音を明示（フィンセプト、サンダーボルト、アークキット、ティースリーコード）し TTS の読み間違いを防ぐ",
-      "固有名詞は原文英語のまま TTS に任せる（Bloomberg、OpenAI、Claude、Codex、T3.gg、Mozilla、Thunderbird、DCF）",
-      "動詞＋ベネフィット型フック統一：『Bloomberg の代替を目指す』『自分で選べる』『統治を自動化する』『連携させる』『Web GUI で動かせる』",
-      "専門語（DCF、SDK、CLI、GUI）は 1 動画で最大 2 語まで。難解な FP8 / MoE などは今日は避け、月曜視聴者の離脱を防ぐ"
+      "本日のナレーションは 40-60 文字制約(55 秒枠)。カタカナ発音を明示(フィンセプト、ルビュー、サンダーボルト、ペーパーレス、アークキット)し TTS の読み間違いを防ぐ",
+      "固有名詞は原文英語のまま TTS に任せる(Bloomberg、Mozilla、Thunderbird、Claude Code、OCR、WiFi、ESP32)",
+      "動詞＋数字ベネフィット型で統一: 『年24000ドルを置き換える』『1台9ドルで導入できる』『モデルを自社に置ける』『自動でタグ付けする』『68コマンドで審査を回す』",
+      "use-case 角度の一貫性: 各ナレーションの後半に『誰が / どこで使うか』を必ず入れる(個人投資家・介護施設/倉庫・医療/金融・士業/中小企業・企業IT部門)"
     ],
     "content": [
-      "本日は『ブランド 4 本（OpenAI, Mozilla Thunderbird, T3.gg, Bloomberg 代替）× Claude Code エコシステム 2 本（arc-kit, t3code）× AI エージェント』の月曜に嬉しい布陣。Mon=129 avg の底上げをブランドワードで狙う",
-      "Fincept は todayStars 1169 で当日伸びトップ。『Bloomberg を無料で置き換える』というベネフィットを description/detail/narration で一貫して訴求し、普段の開発者層の外(投資家・クオンツ)にも刺す",
-      "arc-kit は UK 政府対応という稀少な文脈。Claude Code を主軸に置くというキーワードで、エンタープライズ層と Claude Code 利用層の両方に届ける",
-      "t3code は todayStars 96 と控えめだが Theo(T3.gg) のブランド力と Codex/Claude の Web GUI という具体性で訴求。CLI が苦手な層向けと明言し、AI コーディング初学者を取り込む",
-      "openai-agents-python は前日からトレンド継続（todayStars 751）。OpenAI 公式という『動詞』より『肩書』で刺さるタイプなので、description と detail に OpenAI 公式 を必ず含める"
+      "本日の discovery.method は `use-case`。直近 2 日が business-angle 連続だったため explore(20%)として切替。Primary ペルソナ(CTO/ソロ開発者)の『今週自分の案件でどれを試すか』の意思決定に直結する想定シーン提示で差別化する",
+      "昨日から重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)は detail と narration の切り口を業界/職種軸で全面書き換え。昨日のブランド並べ視点を今日は『顧客の現場』視点にずらし、フォロワー離脱を回避",
+      "新規 2 本(RuView, paperless-ngx)で use-case の実験価値を最大化。RuView は介護施設/倉庫、paperless-ngx は士業/中小企業という、普段の開発者層の外縁にも届く顧客像を前面に",
+      "RuView はカメラ不要・1 台 9 ドル・17 点ポーズという具体数字でセンサー技術の知識がない視聴者にも刺す。paperless-ngx は士業の紙書類対応という日本でも刺さる分野性",
+      "arc-kit は Claude Code 連動(68 スラッシュコマンド)を強調し、TOP 動画の共通要素『Claude Code エコシステム』を繋ぎ止める"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-20",
-    "dayOfWeek": "Mon",
+    "date": "2026-04-21",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
-      "OpenAI",
-      "Mozilla",
-      "Thunderbird",
-      "Bloomberg",
+      "OSS",
+      "ユースケース",
+      "業務自動化",
+      "DXツール",
       "ClaudeCode",
-      "Codex",
-      "T3Stack",
-      "AIエージェント",
-      "LLM",
+      "WiFiセンシング",
+      "介護DX",
+      "Fintech",
+      "投資",
+      "士業",
+      "ペーパーレス",
       "Python",
       "TypeScript",
-      "Fintech",
-      "投資"
+      "Rust"
     ],
-    "focus": "月曜（Mon=129 avg）の検索流入不足をブランド 4 本で埋める構成。OpenAI 公式 SDK・Mozilla Thunderbird・T3.gg/Theo・Bloomberg 代替（Fincept）を前面に出し、Claude Code エコシステム 2 本（arc-kit, t3code）で過去 TOP 動画の勝ちパターンを踏襲。Fincept は todayStars 1169 で当日伸びトップのため、detail/narration で『Bloomberg の代替を無料で』というベネフィットを明確に訴求する。"
+    "focus": "火曜(Tue=916 avg)の最強曜日に `use-case` 角度で explore。Primary ペルソナの『今週どれを試すか』意思決定に直結させ、昨日の business-angle(ブランド並べ)からの急落パターンを回避する。重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)の切り口を業界/職種軸で書き換え、新規 2 本(RuView = 介護/倉庫 × WiFi センシング、paperless-ngx = 士業/中小企業 × 紙ゼロ化)で use-case の実験価値を最大化する。"
   }
 }
