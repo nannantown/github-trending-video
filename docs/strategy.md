@@ -54,6 +54,69 @@
 | 煽り系サムネ（「〇〇は終わった」等） | 一瞬伸びるがブランド毀損 |
 | 特定技術スタックの宗教論争 | 案件獲得で不利になる |
 | 雑な情報転載（README 読み上げレベル） | 差別化ゼロ、選ばれない |
+| **出典・ソース URL 未記録** | 後追い検証不能。必ず記録 |
+
+## 探索方針（Discovery Strategy）
+
+GitHub Trending 本体は毎日 refresh される「ニュース」のため、news-first 課題は既に解決済み。
+このチャンネルの探索は「**5 リポをどの角度で紹介するか**」の discovery に重点を置く。
+
+### 英語優先原則
+
+Trending に上がる OSS の一次情報は全て英語。README、ブログ、リリースノートを英語で読む。
+日本語情報は基本使わない（遅れるか、薄い）。**入力は英語、出力は日本語**。
+
+### 角度選定 Methods（カテゴリタグ）
+
+| タグ | 説明 |
+|---|---|
+| `tech-deep` | README・コードを読んで技術的な独自性を解説 |
+| `business-angle` | 「実案件で月○円削れる」「受託で組むなら〜」ビジネス視点（柱② 向け） |
+| `comparison` | 類似 OSS との比較（類似ツールでの差別化を提示） |
+| `ecosystem` | 周辺ツール・エコシステム全体での位置づけ |
+| `use-case` | 具体的な利用シーン（ソロ開発、スタートアップ、大企業等） |
+| `self-experiment` | 実際に触って所感（柱③ 向け） |
+| `trend-pattern` | 「なぜこの週に OSS が流行っているか」のマクロ視点 |
+
+### 推奨ソース（シード）
+
+- GitHub Trending（基本情報源、固定）
+- リポジトリ README（英語）
+- メンテナーの blog / X
+- Hacker News の該当 OSS のスレッド（評価・議論の宝庫）
+- Reddit r/programming、言語別 subreddit
+- Release notes / CHANGELOG
+- 類似 OSS の README（comparison 用）
+
+### 80/20 Exploit/Explore
+
+- 過去 14 日で視聴率上位 3 位の angle method は 80% 使う（exploit）
+- 残り 20% は新しい angle method を試す（explore）
+
+### Meta PDCA（探し方 = 角度の PDCA）
+
+毎日のルーチンで以下を分析:
+
+1. 直近 14 日の `performance-history.json` から **method → 平均 views** テーブル
+2. TOP 3 / WORST 3 method を特定
+3. 「今日の 5 リポをどの method で料理するか」を 80/20 ルールで決める
+4. 新しい angle のアイデアは PDCA レポートの「Method 提案」セクションに記録
+
+## データスキーマ拡張（enriched-trending.json）
+
+```json
+{
+  "date": "2026-04-21",
+  "discovery": {
+    "method": "business-angle",
+    "description": "各 OSS を受託・スタートアップ視点で料理",
+    "sources": ["https://github.com/...", "https://news.ycombinator.com/..."],
+    "query": "",
+    "freshness_hours": 1
+  },
+  "projects": [ ... ]
+}
+```
 
 ## 商品化ステップ
 
