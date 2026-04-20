@@ -14,6 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
 const outputDir = join(rootDir, "output");
 const historyPath = join(rootDir, "data", "performance-history.json");
+const enrichedPath = join(rootDir, "data", "enriched-trending.json");
 
 function readJSON(path) {
   if (!existsSync(path)) return null;
@@ -36,6 +37,9 @@ function main() {
 
   // Read audio durations for video length
   const audioDurations = readJSON(join(outputDir, "audio-durations.json"));
+
+  // Read enriched content for discovery metadata (Meta-PDCA input)
+  const enriched = readJSON(enrichedPath);
 
   // Calculate total duration
   let durationSeconds = 0;
@@ -64,6 +68,7 @@ function main() {
       ? trendingData.projects.map((p) => p.fullName)
       : [],
     durationSeconds: Math.round(durationSeconds),
+    discovery: enriched?.discovery || null,
     stats: {
       views: 0,
       likes: 0,
@@ -95,6 +100,11 @@ function main() {
   console.log(`record-upload: recorded ${entry.videoId} (${dateStr})`);
   console.log(`  Title: ${entry.title}`);
   console.log(`  Languages: ${entry.languages.join(", ")}`);
+  if (entry.discovery) {
+    console.log(`  Discovery: ${entry.discovery.method} (${entry.discovery.description || "no description"})`);
+  } else {
+    console.log(`  Discovery: null (no metadata in enriched file)`);
+  }
   console.log(`  History: ${history.videos.length} videos tracked`);
 }
 
