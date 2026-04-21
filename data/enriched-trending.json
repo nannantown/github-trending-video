@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "discovery": {
-    "method": "use-case",
-    "description": "TOP5をPrimaryペルソナ(CTO/ソロ開発者)の『今週どれを自分の案件で試すか』視点で、具体的な利用シーンと想定顧客で料理する",
+    "method": "comparison",
+    "description": "TOP5を既存の有償・クローズド代替(Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール)と1対1で対比し、Primaryペルソナが『何を何に置き換えるか』の意思決定に使える軸で料理する",
     "sources": [
       "https://github.com/trending",
       "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "https://github.com/ruvnet/RuView",
       "https://github.com/thunderbird/thunderbolt",
-      "https://github.com/paperless-ngx/paperless-ngx",
-      "https://github.com/tractorjuice/arc-kit"
+      "https://github.com/zilliztech/claude-context",
+      "https://github.com/ruvnet/RuView",
+      "https://github.com/microsoft/ai-agents-for-beginners"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "language": "Python",
-      "stars": 9383,
-      "todayStars": 3129,
-      "description": "Bloomberg代替の投資ターミナル",
-      "detail": "年$24,000するBloomberg Terminalを置き換える無料の金融ターミナル。バフェットやグレアムを含む37体のAI投資家、100以上のデータ連携、DCFやVaR解析を備え、個人投資家や小規模クオンツチームに最適です。",
-      "narration": "年24000ドルのBloombergを置き換える無料ターミナルです。バフェットや37体のAI投資家が判断を補助します。"
+      "stars": 11485,
+      "todayStars": 2595,
+      "description": "Bloomberg代替の金融ターミナル",
+      "detail": "年24000ドルのBloomberg Terminalを肩代わりする投資向けOSS。37体のAI投資家、100以上のデータAPI連携、DCFやVaR解析を無料で揃え、小規模クオンツや個人投資家が月額数万円の固定費を浮かせて乗り換えられます。",
+      "narration": "年24000ドルのBloombergを0円に置き換えるOSSです。37体のAI投資家とデータAPIが全部揃います。"
     },
     {
       "rank": 2,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 48147,
-      "todayStars": 716,
-      "description": "カメラ不要のWiFi人体センサー",
-      "detail": "ESP32のWiFi信号から在室検知や17点の人体ポーズ、呼吸や心拍まで推定するRustフレームワーク。1台9ドルのセンサーで壁越し検知ができ、カメラを置けない介護施設や倉庫、病院の見守りに向きます。",
-      "narration": "カメラ不要で見守りや人流計測ができるWiFiセンサーです。ESP32一台9ドルで介護施設や倉庫に導入できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "thunderbird/thunderbolt",
       "name": "thunderbolt",
       "url": "https://github.com/thunderbird/thunderbolt",
       "language": "TypeScript",
-      "stars": 2777,
-      "todayStars": 667,
-      "description": "Mozilla製のオンプレ向けAI",
-      "detail": "Mozilla Thunderbirdチームが開発する、OpenAI互換APIやOllama、llama.cppなど好きなモデルを差し替えて使えるAIクライアント。Webからモバイルまで全対応で、医療や金融などオンプレ運用が必須の業界に向きます。",
-      "narration": "Thunderbirdが作る、モデルもデータも自社に置けるAIクライアントです。医療や金融のオンプレ導入に向きます。"
+      "stars": 3426,
+      "todayStars": 591,
+      "description": "ChatGPT代替のOSSクライアント",
+      "detail": "Thunderbirdチームが開発するデスクトップからモバイルまで対応のAIクライアント。OpenAI互換APIやOllama、llama.cppなど好きなモデルを差し替えられ、ChatGPT PlusやCopilotのような単一ベンダー縛りから抜け出せます。",
+      "narration": "ChatGPTの代わりに好きなモデルを挿せるAIクライアントです。Ollamaや自社APIへ1設定で切り替えられます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "zilliztech/claude-context",
+      "name": "claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "language": "TypeScript",
+      "stars": 6542,
+      "todayStars": 259,
+      "description": "Claude Code向けコード検索MCP",
+      "detail": "Claude CodeやCursor、Gemini CLIで使える公式MCPサーバー。AST分割とベクトル検索をハイブリッドで組み合わせ、grepやCursor標準の索引より正確に巨大リポを引け、同じタスクのトークン消費を40%削減できます。",
+      "narration": "Claude CodeにCursor級のリポ全体検索を足すMCPです。トークン消費を40%削り巨大リポを瞬時に引けます。"
     },
     {
       "rank": 4,
-      "fullName": "paperless-ngx/paperless-ngx",
-      "name": "paperless-ngx",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "language": "Python",
-      "stars": 39383,
-      "todayStars": 611,
-      "description": "紙をゼロにする文書管理サーバー",
-      "detail": "スキャナで取り込んだ紙の書類をOCR化し、全文検索や自動タグ付けまで一気通貫でこなす自己ホスト型の文書管理サーバー。税理士や会計事務所、中小企業の総務が商用SaaSに月額を払わず、情報を自社で守れるのが利点です。",
-      "narration": "紙の書類をOCRしてタグ付けまで自動で行う文書管理ツールです。士業や中小企業のペーパーレス化に向きます。"
+      "fullName": "ruvnet/RuView",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "language": "Rust",
+      "stars": 48847,
+      "todayStars": 828,
+      "description": "監視カメラを置き換えるWiFi解析",
+      "detail": "ESP32のWiFi信号から在室判定、17点の人体ポーズ、呼吸、心拍まで推定するRustフレームワーク。1台9ドルで壁越し検知ができ、監視カメラを設置できない介護施設や工場、病院の見守りに代替として入ります。",
+      "narration": "監視カメラを使わず人を検知できるWiFiセンサーです。ESP32で1台9ドルからプライバシー配慮の導入ができます。"
     },
     {
       "rank": 5,
-      "fullName": "tractorjuice/arc-kit",
-      "name": "arc-kit",
-      "url": "https://github.com/tractorjuice/arc-kit",
-      "language": "HTML",
-      "stars": 1310,
-      "todayStars": 334,
-      "description": "AIで進める調達と統治の自動化",
-      "detail": "企業アーキテクチャの原則定義からベンダー選定、RFP作成、設計レビューまで一連の統治プロセスをClaude Code上の68スラッシュコマンドで回せるツールキット。UK政府のService StandardやTCoP基準にも対応しています。",
-      "narration": "企業の調達とアーキ統治をClaude Codeで半自動化する仕組みです。68のスラッシュコマンドで審査を回せます。"
+      "fullName": "microsoft/ai-agents-for-beginners",
+      "name": "ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "language": "Jupyter Notebook",
+      "stars": 57587,
+      "todayStars": 131,
+      "description": "有料講座を置き換えるAI教材集",
+      "detail": "Microsoftが公開するAIエージェント入門の無料コース。16講座でAgent Framework、Azure AI Foundry、MCP、RAG、マルチエージェントまでをJupyterの実コードで学べ、50言語翻訳と動画付きなので有料スクールの代替になります。",
+      "narration": "有料スクールを置き換えるMicrosoft公式のAIエージェント教材です。16講座と動画、50言語翻訳が無料です。"
     }
   ]
 }

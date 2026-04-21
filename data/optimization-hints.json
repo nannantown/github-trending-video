@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21",
+  "updatedAt": "2026-04-22",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -26,57 +26,60 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 871 views、business-angle 平均 311 views と大差。ブランド並べは ecosystem 文脈の補助変数として機能するが単独では弱い。"
+      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 937 views、business-angle 平均 285 views と大差。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート（【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts）は 542 avg views で安定。そのまま維持",
-      "本日は火曜(Tue=916 avg)で曜日効果は最強。ブランド羅列ではなく『誰がどう使うか』の use-case 角度で切るため、タイトルは標準のまま中身で勝負",
-      "昨日と重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)があるので、同じ切り口で 2 日連続になる 04/18 型の急落を回避する設計が必須"
+      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 542 avg views で安定。そのまま維持",
+      "本日は水曜(Wed=525 avg)。comparison 角度の explore 検証日なので、タイトルは標準のまま中身の切り口(置き換え軸)で差別化",
+      "昨日と重複する 3 本(FinceptTerminal, thunderbolt, RuView)は昨日の use-case 切り口から comparison 切り口へ全面書き換え、04/18 型の急落を回避する設計が必須"
     ],
     "hashtags": [
-      "Tue=916 avg の最強曜日。ブランド検索流入狙いではなく、想定職種タグ(#CTO #エンジニア #投資 #介護DX #士業 #IT部門)で Primary ペルソナに届ける",
-      "use-case 角度のため #ユースケース #現場で使える #業務自動化 を先頭に置き、テック列挙型のハッシュタグから差別化",
-      "重複プロジェクトの再露出対策として #DXツール #業界別OSS を追加。昨日の business-angle タグ(#Bloomberg 単独)から視点を変える",
-      "言語タグは Python と TypeScript を維持。#Rust を入れて RuView の技術好き層もカバー。#HTML は主張しない"
+      "水曜は中位曜日(Wed=525 avg)。comparison 角度の初回なので、置換先のブランド(#Bloomberg #ChatGPT #Cursor #Microsoft)と OSS(#Ollama #MCP #ESP32)を同列で並べて検索流入を狙う",
+      "comparison 角度のため #代替OSS #置き換え #脱SaaS #脱ベンダーロック を新規投入。昨日の use-case タグ(#ユースケース #業界別OSS)から視点を変える",
+      "言語タグは Python / TypeScript / Rust を維持。#JupyterNotebook を ai-agents-for-beginners 向けに追加投入",
+      "comparison の差別化として #コスト削減 #OSS代替 を先頭に置き、Primary ペルソナ(CTO)の予算判断フックを強める"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字制約(55 秒枠)。カタカナ発音を明示(フィンセプト、ルビュー、サンダーボルト、ペーパーレス、アークキット)し TTS の読み間違いを防ぐ",
-      "固有名詞は原文英語のまま TTS に任せる(Bloomberg、Mozilla、Thunderbird、Claude Code、OCR、WiFi、ESP32)",
-      "動詞＋数字ベネフィット型で統一: 『年24000ドルを置き換える』『1台9ドルで導入できる』『モデルを自社に置ける』『自動でタグ付けする』『68コマンドで審査を回す』",
-      "use-case 角度の一貫性: 各ナレーションの後半に『誰が / どこで使うか』を必ず入れる(個人投資家・介護施設/倉庫・医療/金融・士業/中小企業・企業IT部門)"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。カタカナ発音を想定して TTS の誤読回避(ブルームバーグ、チャットジーピーティー、カーソル、イーエスピーサーティートゥー、エーアイ)",
+      "固有名詞は原文英語のまま(Bloomberg, ChatGPT, Claude Code, Cursor, Ollama, ESP32, Microsoft)。英単語は TTS に任せる",
+      "comparison 角度の一貫性: 各ナレーション冒頭に『X を置き換える / X の代わりに』で比較軸を明示。後半に具体数字(24000ドル→0円、40%削減、1台9ドル、50言語、16講座)を埋める",
+      "昨日の use-case narration の語彙(介護施設、倉庫、医療、金融、士業、中小企業)からは距離を置き、本日は『既存の有償/クローズド vs OSS』の軸語彙(置き換える、代わりに、肩代わり、代替)に切替"
     ],
     "content": [
-      "本日の discovery.method は `use-case`。直近 2 日が business-angle 連続だったため explore(20%)として切替。Primary ペルソナ(CTO/ソロ開発者)の『今週自分の案件でどれを試すか』の意思決定に直結する想定シーン提示で差別化する",
-      "昨日から重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)は detail と narration の切り口を業界/職種軸で全面書き換え。昨日のブランド並べ視点を今日は『顧客の現場』視点にずらし、フォロワー離脱を回避",
-      "新規 2 本(RuView, paperless-ngx)で use-case の実験価値を最大化。RuView は介護施設/倉庫、paperless-ngx は士業/中小企業という、普段の開発者層の外縁にも届く顧客像を前面に",
-      "RuView はカメラ不要・1 台 9 ドル・17 点ポーズという具体数字でセンサー技術の知識がない視聴者にも刺す。paperless-ngx は士業の紙書類対応という日本でも刺さる分野性",
-      "arc-kit は Claude Code 連動(68 スラッシュコマンド)を強調し、TOP 動画の共通要素『Claude Code エコシステム』を繋ぎ止める"
+      "本日の discovery.method は `comparison`(explore 初投入)。直近 2 日 use-case→business-angle の連続 explore を経た後、今日の TOP5 は Bloomberg/ChatGPT/Cursor/監視カメラ/有料スクール という明確な既存と 1 対 1 で対応するラインナップなので、comparison 検証に最適",
+      "昨日から重複する 3 本(FinceptTerminal, thunderbolt, RuView)は detail と narration の切り口を『既存の有償/クローズド代替』視点で全面書き換え。昨日の use-case(誰がどこで使うか)からの差分を最大化してフォロワー離脱を防ぐ",
+      "新規 2 本(zilliztech/claude-context, microsoft/ai-agents-for-beginners)は本日初登場。claude-context は『Claude Code × MCP』の横串ecosystem 勝ち筋を継続、ai-agents-for-beginners は Microsoft ブランドで水曜の検索流入底上げを狙う",
+      "claude-context の『トークン40%削減』と RuView の『1台9ドル』、FinceptTerminal の『年24000ドル→0円』は comparison 角度で最も刺す具体数字。水曜の中位曜日を押し上げる武器にする",
+      "ai-agents-for-beginners は有料スクール代替という角度で Tertiary ペルソナ(学習中エンジニア)にも届くが、Primary ペルソナに対しては『16講座の Agent Framework / Azure AI Foundry / MCP 網羅』で社員研修代替の軸を明示"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-21",
-    "dayOfWeek": "Tue",
+    "date": "2026-04-22",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "ユースケース",
-      "業務自動化",
-      "DXツール",
+      "代替OSS",
+      "置き換え",
+      "脱SaaS",
+      "脱ベンダーロック",
+      "コスト削減",
       "ClaudeCode",
+      "MCP",
+      "Cursor",
+      "Ollama",
+      "Bloomberg",
+      "Microsoft",
       "WiFiセンシング",
-      "介護DX",
-      "Fintech",
-      "投資",
-      "士業",
-      "ペーパーレス",
       "Python",
       "TypeScript",
-      "Rust"
+      "Rust",
+      "JupyterNotebook"
     ],
-    "focus": "火曜(Tue=916 avg)の最強曜日に `use-case` 角度で explore。Primary ペルソナの『今週どれを試すか』意思決定に直結させ、昨日の business-angle(ブランド並べ)からの急落パターンを回避する。重複する 3 本(FinceptTerminal, thunderbolt, arc-kit)の切り口を業界/職種軸で書き換え、新規 2 本(RuView = 介護/倉庫 × WiFi センシング、paperless-ngx = 士業/中小企業 × 紙ゼロ化)で use-case の実験価値を最大化する。"
+    "focus": "水曜(Wed=525 avg)の中位曜日に `comparison` 角度を explore 初投入。今日の TOP5 は Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール という明確な既存と 1 対 1 で比較できる稀少なラインナップで、Primary ペルソナ(CTO/ソロ開発者)の『何を何に置き換えるか』の意思決定に直結させる。重複 3 本(FinceptTerminal, thunderbolt, RuView)は昨日の use-case(業界/職種視点)→今日の comparison(既存代替視点)に軸を意識的にずらし、04/17→04/18 型の同ラインナップ急落(1999→8)を回避する。"
   }
 }
