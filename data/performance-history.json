@@ -733,6 +733,15 @@
         "Day performance: Fri=1225, Tue=916, Thu=692, Wed=525, Sat=300, Mon=86, Sun=7"
       ],
       "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-21",
+      "changes": [
+        "Kotlin: 0.8x avg views → drop",
+        "standard: 506 avg views (15 videos)",
+        "Day performance: Fri=1225, Tue=916, Thu=692, Wed=525, Sat=300, Mon=86, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
     }
   ]
 }
