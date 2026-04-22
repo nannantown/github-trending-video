@@ -118,7 +118,7 @@ async function uploadYouTube(videoPath) {
     return true;
   } catch (err) {
     console.error(`YouTube upload failed: ${err.message}`);
-    return null;
+    return false;
   }
 }
 
@@ -154,7 +154,7 @@ async function uploadInstagram(videoPath, coverUrl) {
     return true;
   } catch (err) {
     console.error(`Instagram upload failed: ${err.message}`);
-    return null;
+    return false;
   }
 }
 
@@ -195,6 +195,18 @@ async function main() {
   const anySuccess = Object.values(results).some(Boolean);
   if (!anySuccess) {
     console.log("\n  No platforms were configured. See docs/sns-setup.md for setup instructions.");
+  }
+
+  // Fail the step when a configured platform actually errored, so the
+  // workflow run is marked failed and GitHub sends the standard failure
+  // notification (mobile push / email). `null` means credentials were not
+  // configured (intentional skip) — only `false` counts as a real failure.
+  const failed = Object.entries(results)
+    .filter(([, v]) => v === false)
+    .map(([k]) => k);
+  if (failed.length > 0) {
+    console.error(`\nSNS upload failed: ${failed.join(", ")}`);
+    process.exit(1);
   }
 }
 
