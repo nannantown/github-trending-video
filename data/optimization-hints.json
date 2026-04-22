@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-04-22",
-  "basedOnVideos": 13,
+  "updatedAt": "2026-04-23",
+  "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
       "Mon": 129,
       "Tue": 916,
       "Wed": 525,
-      "Thu": 692,
-      "Fri": 1225,
+      "Thu": 688,
+      "Fri": 1233,
       "Sat": 300,
-      "Sun": 7
+      "Sun": 8
     },
     "topPerformingLanguages": [
       { "language": "Python", "multiplier": 1.2 },
@@ -18,7 +18,7 @@
     ],
     "topPerformingVideo": {
       "date": "2026-04-17",
-      "views": 1999,
+      "views": 2014,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
         "thedotmack/claude-mem",
@@ -26,60 +26,60 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 937 views、business-angle 平均 285 views と大差。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。"
+      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 939 views、business-angle 平均 267 views と大差。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 542 avg views で安定。そのまま維持",
-      "本日は水曜(Wed=525 avg)。comparison 角度の explore 検証日なので、タイトルは標準のまま中身の切り口(置き換え軸)で差別化",
-      "昨日と重複する 3 本(FinceptTerminal, thunderbolt, RuView)は昨日の use-case 切り口から comparison 切り口へ全面書き換え、04/18 型の急落を回避する設計が必須"
+      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 520 avg views で安定。そのまま維持",
+      "本日は木曜(Thu=688 avg)。ecosystem 角度の exploit 投入日なので、タイトルは標準のまま中身の切り口(AI プロダクト運用スタック同居)で差別化",
+      "昨日と重複する 2 本(claude-context, FinceptTerminal)は昨日の comparison 切り口(Bloomberg・Cursor 置き換え)から ecosystem 切り口(エージェント運用スタックの別レイヤー)へ全面書き換え、04/18 型の急落を回避する設計が必須"
     ],
     "hashtags": [
-      "水曜は中位曜日(Wed=525 avg)。comparison 角度の初回なので、置換先のブランド(#Bloomberg #ChatGPT #Cursor #Microsoft)と OSS(#Ollama #MCP #ESP32)を同列で並べて検索流入を狙う",
-      "comparison 角度のため #代替OSS #置き換え #脱SaaS #脱ベンダーロック を新規投入。昨日の use-case タグ(#ユースケース #業界別OSS)から視点を変える",
-      "言語タグは Python / TypeScript / Rust を維持。#JupyterNotebook を ai-agents-for-beginners 向けに追加投入",
-      "comparison の差別化として #コスト削減 #OSS代替 を先頭に置き、Primary ペルソナ(CTO)の予算判断フックを強める"
+      "木曜は中上位曜日(Thu=688 avg)。ecosystem 角度なので AI プロダクト運用スタックの層を示すタグ(#ClaudeCode #MCP #LLMOps #AIエージェント #生成AI運用)を並べて横串検索流入を狙う",
+      "ecosystem 角度のため #Langfuse #LLMOps #観測性 #evals を新規投入。昨日の comparison タグ(#代替OSS #置き換え #脱SaaS)から視点を変える",
+      "言語タグは TypeScript / Python を維持。worldmonitor / langfuse / shannon が TypeScript、FinceptTerminal が Python で主力構成",
+      "業界タグ #金融AI #地政学 #AIセキュリティ を補助投入し、FinceptTerminal・worldmonitor・shannon の 3 本で Primary ペルソナの業界別関心を拾う"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。カタカナ発音を想定して TTS の誤読回避(ブルームバーグ、チャットジーピーティー、カーソル、イーエスピーサーティートゥー、エーアイ)",
-      "固有名詞は原文英語のまま(Bloomberg, ChatGPT, Claude Code, Cursor, Ollama, ESP32, Microsoft)。英単語は TTS に任せる",
-      "comparison 角度の一貫性: 各ナレーション冒頭に『X を置き換える / X の代わりに』で比較軸を明示。後半に具体数字(24000ドル→0円、40%削減、1台9ドル、50言語、16講座)を埋める",
-      "昨日の use-case narration の語彙(介護施設、倉庫、医療、金融、士業、中小企業)からは距離を置き、本日は『既存の有償/クローズド vs OSS』の軸語彙(置き換える、代わりに、肩代わり、代替)に切替"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。カタカナ発音を想定して TTS の誤読回避(クロードコード、カーソル、ラングフューズ、シャノン、オッラマ、グロック)",
+      "固有名詞は原文英語のまま(Claude Code, Cursor, Ollama, Groq, LangChain, OpenAI, Claude Agent SDK, MCP)。英単語は TTS に任せる",
+      "ecosystem 角度の一貫性: 各ナレーション冒頭でそのリポがスタックのどのレイヤーかを示す(記憶層、マルチエージェント、ダッシュボード、観測と eval、自動ペンテスト)。後半に具体数字(巨大リポ、37 体、500 ソース、1 画面、偽陽性 0)を埋める",
+      "昨日の comparison narration の語彙(置き換える、代わりに、肩代わり、代替、年 24000 ドル→0 円)からは距離を置き、本日は『スタック』『層』『並列で走る』『1 枚で』『実例として学べる』の ecosystem 軸語彙に切替"
     ],
     "content": [
-      "本日の discovery.method は `comparison`(explore 初投入)。直近 2 日 use-case→business-angle の連続 explore を経た後、今日の TOP5 は Bloomberg/ChatGPT/Cursor/監視カメラ/有料スクール という明確な既存と 1 対 1 で対応するラインナップなので、comparison 検証に最適",
-      "昨日から重複する 3 本(FinceptTerminal, thunderbolt, RuView)は detail と narration の切り口を『既存の有償/クローズド代替』視点で全面書き換え。昨日の use-case(誰がどこで使うか)からの差分を最大化してフォロワー離脱を防ぐ",
-      "新規 2 本(zilliztech/claude-context, microsoft/ai-agents-for-beginners)は本日初登場。claude-context は『Claude Code × MCP』の横串ecosystem 勝ち筋を継続、ai-agents-for-beginners は Microsoft ブランドで水曜の検索流入底上げを狙う",
-      "claude-context の『トークン40%削減』と RuView の『1台9ドル』、FinceptTerminal の『年24000ドル→0円』は comparison 角度で最も刺す具体数字。水曜の中位曜日を押し上げる武器にする",
-      "ai-agents-for-beginners は有料スクール代替という角度で Tertiary ペルソナ(学習中エンジニア)にも届くが、Primary ペルソナに対しては『16講座の Agent Framework / Azure AI Foundry / MCP 網羅』で社員研修代替の軸を明示"
+      "本日の discovery.method は `ecosystem`(exploit 80%)。過去 14 日の method 別平均 views で ecosystem が 939 と最強、business-angle 267、tech-deep 356、comparison/use-case は未確定。直近 2 日(04/21 use-case → 04/22 comparison)は explore 側だったため、木曜で勝ち筋に戻す好機",
+      "今日の TOP5 は claude-context(コーディング文脈)/ FinceptTerminal(金融エージェント)/ worldmonitor(情報収集エージェント)/ langfuse(LLMOps)/ shannon(自動ペンテスト)という『生成 AI プロダクト運用スタック』の別レイヤー 5 本構成。ecosystem 同居の自然な narrative が成立する稀少なラインナップ",
+      "昨日から重複する 2 本(zilliztech/claude-context, Fincept-Corporation/FinceptTerminal)は detail と narration の切り口を『AI エージェント運用スタックの一員』視点で全面書き換え。claude-context は『Cursor 置き換え』→『AI エージェントの記憶層』、FinceptTerminal は『Bloomberg 年 24000 ドル代替』→『37 体マルチエージェントの本番運用実例』に軸変更",
+      "新規 3 本(koala73/worldmonitor, langfuse/langfuse, KeygraphHQ/shannon)は本日初登場。worldmonitor は『Ollama/Groq 切替』、langfuse は『OpenAI/LangChain/LlamaIndex 連携 × YC W23 × 自社ホスト可』、shannon は『Claude Agent SDK × exploit 成功した脆弱性だけ報告』で Primary ペルソナ(CTO / ソロ開発者)の実装判断に刺す",
+      "木曜の中上位曜日(Thu=688 avg)を押し上げる武器は『AI プロダクト運用で自社が OSS で組むならこう並ぶ』という横串 narrative。昨日の comparison との差分を最大化してフォロワー離脱を防ぎ、04/17 型(2014 views)の ecosystem 勝ち筋を再現する"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-22",
-    "dayOfWeek": "Wed",
+    "date": "2026-04-23",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "代替OSS",
-      "置き換え",
-      "脱SaaS",
-      "脱ベンダーロック",
-      "コスト削減",
       "ClaudeCode",
       "MCP",
-      "Cursor",
+      "AIエージェント",
+      "LLMOps",
+      "Langfuse",
+      "観測性",
+      "evals",
       "Ollama",
-      "Bloomberg",
-      "Microsoft",
-      "WiFiセンシング",
+      "Groq",
+      "LangChain",
+      "OpenAI",
+      "金融AI",
+      "地政学",
+      "AIセキュリティ",
       "Python",
-      "TypeScript",
-      "Rust",
-      "JupyterNotebook"
+      "TypeScript"
     ],
-    "focus": "水曜(Wed=525 avg)の中位曜日に `comparison` 角度を explore 初投入。今日の TOP5 は Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール という明確な既存と 1 対 1 で比較できる稀少なラインナップで、Primary ペルソナ(CTO/ソロ開発者)の『何を何に置き換えるか』の意思決定に直結させる。重複 3 本(FinceptTerminal, thunderbolt, RuView)は昨日の use-case(業界/職種視点)→今日の comparison(既存代替視点)に軸を意識的にずらし、04/17→04/18 型の同ラインナップ急落(1999→8)を回避する。"
+    "focus": "木曜(Thu=688 avg)の中上位曜日に `ecosystem` 角度を exploit 80% で投入。今日の TOP5 は claude-context(コーディング文脈)/ FinceptTerminal(金融マルチエージェント)/ worldmonitor(情報収集 AI)/ langfuse(LLMOps)/ shannon(AI ペンテスト)という『生成 AI プロダクト運用スタック』の別レイヤー 5 本構成で、Primary ペルソナ(CTO / ソロ開発者)の『自社で 1 本作るならどこに OSS を置くか』の意思決定に直結させる。重複 2 本(claude-context, FinceptTerminal)は昨日の comparison(置き換え視点)→今日の ecosystem(スタックの一員視点)に軸を意識的にずらし、04/17→04/18 型の同ラインナップ急落(2014→8)を回避する。"
   }
 }

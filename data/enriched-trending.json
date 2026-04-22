@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "discovery": {
-    "method": "comparison",
-    "description": "TOP5を既存の有償・クローズド代替(Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール)と1対1で対比し、Primaryペルソナが『何を何に置き換えるか』の意思決定に使える軸で料理する",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『生成AIプロダクト運用スタック』の別レイヤー(コーディング文脈→エージェント観測→自動ペンテスト→情報収集→金融AI)として同居紹介し、Primaryペルソナが『自社で1本作るならどこにOSSを置くか』を判断できる軸で料理する",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "https://github.com/thunderbird/thunderbolt",
       "https://github.com/zilliztech/claude-context",
-      "https://github.com/ruvnet/RuView",
-      "https://github.com/microsoft/ai-agents-for-beginners"
+      "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "https://github.com/koala73/worldmonitor",
+      "https://github.com/langfuse/langfuse",
+      "https://github.com/KeygraphHQ/shannon"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Fincept-Corporation/FinceptTerminal",
-      "name": "FinceptTerminal",
-      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "language": "Python",
-      "stars": 11485,
-      "todayStars": 2595,
-      "description": "Bloomberg代替の金融ターミナル",
-      "detail": "年24000ドルのBloomberg Terminalを肩代わりする投資向けOSS。37体のAI投資家、100以上のデータAPI連携、DCFやVaR解析を無料で揃え、小規模クオンツや個人投資家が月額数万円の固定費を浮かせて乗り換えられます。",
-      "narration": "年24000ドルのBloombergを0円に置き換えるOSSです。37体のAI投資家とデータAPIが全部揃います。"
-    },
-    {
-      "rank": 2,
-      "fullName": "thunderbird/thunderbolt",
-      "name": "thunderbolt",
-      "url": "https://github.com/thunderbird/thunderbolt",
-      "language": "TypeScript",
-      "stars": 3426,
-      "todayStars": 591,
-      "description": "ChatGPT代替のOSSクライアント",
-      "detail": "Thunderbirdチームが開発するデスクトップからモバイルまで対応のAIクライアント。OpenAI互換APIやOllama、llama.cppなど好きなモデルを差し替えられ、ChatGPT PlusやCopilotのような単一ベンダー縛りから抜け出せます。",
-      "narration": "ChatGPTの代わりに好きなモデルを挿せるAIクライアントです。Ollamaや自社APIへ1設定で切り替えられます。"
-    },
-    {
-      "rank": 3,
       "fullName": "zilliztech/claude-context",
       "name": "claude-context",
       "url": "https://github.com/zilliztech/claude-context",
       "language": "TypeScript",
-      "stars": 6542,
-      "todayStars": 259,
-      "description": "Claude Code向けコード検索MCP",
-      "detail": "Claude CodeやCursor、Gemini CLIで使える公式MCPサーバー。AST分割とベクトル検索をハイブリッドで組み合わせ、grepやCursor標準の索引より正確に巨大リポを引け、同じタスクのトークン消費を40%削減できます。",
-      "narration": "Claude CodeにCursor級のリポ全体検索を足すMCPです。トークン消費を40%削り巨大リポを瞬時に引けます。"
+      "stars": 7446,
+      "todayStars": 873,
+      "description": "AIエージェント運用の記憶層MCP",
+      "detail": "Claude Code・Cursor・Gemini CLIで使えるコード検索MCPサーバー。ASTとベクトル検索のハイブリッドで巨大リポを丸ごと文脈化し、AIエージェントの長文コードベース対応を肩代わりします。",
+      "narration": "AIエージェントの記憶層になるMCPです。Claude CodeやCursorが巨大リポを丸ごと文脈化できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "name": "FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "stars": 13012,
+      "todayStars": 1737,
+      "description": "37体AI投資家の金融ターミナル",
+      "detail": "Fincept社が公開するPython製の金融ターミナル。37体のAIアナリストが並列で銘柄評価やDCF、VaR、バックテストを担当し、マルチエージェント運用の実装例として学びつつ本番投資分析にも使えます。",
+      "narration": "37体のAI投資家が並列で走る金融ターミナルです。マルチエージェント運用の実例として学べます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "koala73/worldmonitor",
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "language": "TypeScript",
+      "stars": 51498,
+      "todayStars": 449,
+      "description": "AI要約の地政学ダッシュボード",
+      "detail": "500以上のニュースと65のデータソースをAIが要約し地図に載せる情報集約ツール。Ollama・Groq・OpenRouterを切替えて使え、Transformers.jsでブラウザ内推論も回るので機密が気になる組織でも自社運用できます。",
+      "narration": "500ソースをAIが要約する地政学ダッシュボードです。OllamaやGroqを切替えてローカルでも動きます。"
     },
     {
       "rank": 4,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 48847,
-      "todayStars": 828,
-      "description": "監視カメラを置き換えるWiFi解析",
-      "detail": "ESP32のWiFi信号から在室判定、17点の人体ポーズ、呼吸、心拍まで推定するRustフレームワーク。1台9ドルで壁越し検知ができ、監視カメラを設置できない介護施設や工場、病院の見守りに代替として入ります。",
-      "narration": "監視カメラを使わず人を検知できるWiFiセンサーです。ESP32で1台9ドルからプライバシー配慮の導入ができます。"
+      "fullName": "langfuse/langfuse",
+      "name": "langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "language": "TypeScript",
+      "stars": 25568,
+      "todayStars": 160,
+      "description": "LLMアプリの観測と評価の基盤",
+      "detail": "Y Combinator出身のOSSで、LLMアプリのトレース記録、プロンプト管理、eval、プレイグラウンドを1枚で提供。OpenAI・LangChain・LlamaIndex・CrewAIと連携し、自社VMでもKubernetesでも自前でホストできます。",
+      "narration": "LLMアプリの観測とeval管理を担うOSSです。OpenAIやLangChainのトレースを1画面で追えます。"
     },
     {
       "rank": 5,
-      "fullName": "microsoft/ai-agents-for-beginners",
-      "name": "ai-agents-for-beginners",
-      "url": "https://github.com/microsoft/ai-agents-for-beginners",
-      "language": "Jupyter Notebook",
-      "stars": 57587,
-      "todayStars": 131,
-      "description": "有料講座を置き換えるAI教材集",
-      "detail": "Microsoftが公開するAIエージェント入門の無料コース。16講座でAgent Framework、Azure AI Foundry、MCP、RAG、マルチエージェントまでをJupyterの実コードで学べ、50言語翻訳と動画付きなので有料スクールの代替になります。",
-      "narration": "有料スクールを置き換えるMicrosoft公式のAIエージェント教材です。16講座と動画、50言語翻訳が無料です。"
+      "fullName": "KeygraphHQ/shannon",
+      "name": "shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "language": "TypeScript",
+      "stars": 39525,
+      "todayStars": 346,
+      "description": "AI実証型のWeb自動ペンテスト",
+      "detail": "Claude Agent SDKで5段階のエージェントが偵察から攻撃まで走る自動ペンテスト基盤。exploit成功した脆弱性だけを報告するため偽陽性が出ず、OWASP Juice Shopで20件以上の脆弱性を発見した実績があります。",
+      "narration": "Claude Agent SDKでWebを自動ペンテストするAIです。発見より実証を重視し偽陽性を0にします。"
     }
   ]
 }
