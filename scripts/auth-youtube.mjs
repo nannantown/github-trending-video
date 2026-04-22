@@ -21,21 +21,40 @@
  */
 
 import { google } from "googleapis";
-import { createInterface } from "readline";
 import { writeFileSync, mkdirSync } from "fs";
+import { createServer } from "http";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputDir = join(__dirname, "..", "output");
 
-function prompt(question) {
-  const rl = createInterface({ input: process.stdin, output: process.stdout });
-  return new Promise((resolve) => {
-    rl.question(question, (answer) => {
-      rl.close();
-      resolve(answer.trim());
+const PORT = 53682;
+const REDIRECT_URI = `http://127.0.0.1:${PORT}/oauth2callback`;
+
+function waitForCode() {
+  return new Promise((resolve, reject) => {
+    const server = createServer((req, res) => {
+      const url = new URL(req.url, `http://127.0.0.1:${PORT}`);
+      if (url.pathname !== "/oauth2callback") {
+        res.writeHead(404); res.end("Not found");
+        return;
+      }
+      const code = url.searchParams.get("code");
+      const error = url.searchParams.get("error");
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+      if (error) {
+        res.end(`<h1>Authorization failed</h1><p>${error}</p>`);
+        server.close();
+        reject(new Error(error));
+        return;
+      }
+      res.end(`<h1>Success</h1><p>You can close this tab. Return to your terminal.</p>`);
+      server.close();
+      resolve(code);
     });
+    server.on("error", reject);
+    server.listen(PORT, "127.0.0.1");
   });
 }
 
@@ -51,36 +70,25 @@ async function main() {
     process.exit(1);
   }
 
-  const oauth2 = new google.auth.OAuth2(
-    clientId,
-    clientSecret,
-    "urn:ietf:wg:oauth:2.0:oob"
-  );
+  const oauth2 = new google.auth.OAuth2(clientId, clientSecret, REDIRECT_URI);
 
-  // Generate authorization URL
   const authUrl = oauth2.generateAuthUrl({
     access_type: "offline",
     scope: [
       "https://www.googleapis.com/auth/youtube.upload",
       "https://www.googleapis.com/auth/youtube.readonly",
     ],
-    prompt: "consent", // Force consent to get refresh token
+    prompt: "consent",
   });
 
-  console.log("=== YouTube OAuth 2.0 Authorization ===\n");
-  console.log("1. Open this URL in your browser:\n");
+  console.log("=== YouTube OAuth 2.0 Authorization (loopback flow) ===\n");
+  console.log(`Listening for callback on ${REDIRECT_URI}\n`);
+  console.log("Open this URL in your browser:\n");
   console.log(`   ${authUrl}\n`);
-  console.log("2. Sign in with your Google account and authorize the app.");
-  console.log("3. Copy the authorization code and paste it below.\n");
+  console.log("Sign in and click Allow. The browser will redirect back automatically.");
 
-  const code = await prompt("Authorization code: ");
+  const code = await waitForCode();
 
-  if (!code) {
-    console.error("No code provided. Aborting.");
-    process.exit(1);
-  }
-
-  // Exchange code for tokens
   console.log("\nExchanging code for tokens...");
   const { tokens } = await oauth2.getToken(code);
 
