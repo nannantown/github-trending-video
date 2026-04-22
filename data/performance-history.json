@@ -124,7 +124,7 @@
         "views": 504,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -164,7 +164,7 @@
         "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -202,7 +202,7 @@
         "views": 451,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -317,7 +317,7 @@
         "views": 250,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -355,7 +355,7 @@
         "views": 1360,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -393,7 +393,7 @@
         "views": 545,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -430,10 +430,10 @@
       ],
       "durationSeconds": 60,
       "stats": {
-        "views": 774,
+        "views": 766,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -468,10 +468,10 @@
       ],
       "durationSeconds": 32,
       "stats": {
-        "views": 1999,
+        "views": 2014,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -550,10 +550,10 @@
       ],
       "durationSeconds": 62,
       "stats": {
-        "views": 13,
+        "views": 15,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
+        "updatedAt": "2026-04-22T01:39:13.439Z"
       }
     },
     {
@@ -589,6 +589,62 @@
         "pingdotgg/t3code"
       ],
       "durationSeconds": 51,
+      "stats": {
+        "views": 210,
+        "likes": 4,
+        "comments": 0,
+        "updatedAt": "2026-04-22T01:39:13.439Z"
+      }
+    },
+    {
+      "videoId": "ciXiFuDL4K0",
+      "videoUrl": "https://youtube.com/shorts/ciXiFuDL4K0",
+      "date": "2026-04-22",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/22 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript",
+        "Rust",
+        "Jupyter Notebook"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Rust",
+        "Jupyter Notebook"
+      ],
+      "projects": [
+        "Fincept-Corporation/FinceptTerminal",
+        "thunderbird/thunderbolt",
+        "zilliztech/claude-context",
+        "ruvnet/RuView",
+        "microsoft/ai-agents-for-beginners"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "comparison",
+        "description": "TOP5を既存の有償・クローズド代替(Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール)と1対1で対比し、Primaryペルソナが『何を何に置き換えるか』の意思決定に使える軸で料理する",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "https://github.com/thunderbird/thunderbolt",
+          "https://github.com/zilliztech/claude-context",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/microsoft/ai-agents-for-beginners"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
       "stats": {
         "views": 0,
         "likes": 0,
@@ -740,6 +796,15 @@
         "Kotlin: 0.8x avg views → drop",
         "standard: 506 avg views (15 videos)",
         "Day performance: Fri=1225, Tue=916, Thu=692, Wed=525, Sat=300, Mon=86, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-22",
+      "changes": [
+        "Kotlin: 0.8x avg views → drop",
+        "standard: 520 avg views (15 videos)",
+        "Day performance: Fri=1233, Tue=916, Thu=688, Wed=525, Sat=300, Mon=156, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
