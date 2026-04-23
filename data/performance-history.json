@@ -164,7 +164,7 @@
         "views": 609,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -202,7 +202,7 @@
         "views": 451,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -317,7 +317,7 @@
         "views": 251,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -355,7 +355,7 @@
         "views": 1360,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -393,7 +393,7 @@
         "views": 545,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -433,7 +433,7 @@
         "views": 766,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -471,7 +471,7 @@
         "views": 2010,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -550,10 +550,10 @@
       ],
       "durationSeconds": 62,
       "stats": {
-        "views": 15,
+        "views": 16,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 210,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 7,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
+        "updatedAt": "2026-04-23T23:34:22.931Z"
       }
     },
     {
@@ -693,6 +693,59 @@
           "https://github.com/koala73/worldmonitor",
           "https://github.com/langfuse/langfuse",
           "https://github.com/KeygraphHQ/shannon"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 5,
+        "likes": 2,
+        "comments": 0,
+        "updatedAt": "2026-04-23T23:34:22.931Z"
+      }
+    },
+    {
+      "videoId": "8LQn_MN-23o",
+      "videoUrl": "https://youtube.com/shorts/8LQn_MN-23o",
+      "date": "2026-04-24",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/24 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "projects": [
+        "huggingface/ml-intern",
+        "zilliztech/claude-context",
+        "HKUDS/RAG-Anything",
+        "Z4nzu/hackingtool",
+        "ruvnet/RuView"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "今日のTOP5をそれぞれ『技術的にどこが新しいか』で料理する。ml-internのエージェントループ内部、claude-contextのAST×密ベクトル+Merkle木差分索引、RAG-AnythingのマルチモーダルKG、RuViewのWiFi-CSI+Rustグラフトランスフォーマー、hackingtoolの185ツール束ね構造など、README/コード構造から抽出した実装の独自性だけで通す",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/huggingface/ml-intern",
+          "https://github.com/zilliztech/claude-context",
+          "https://github.com/HKUDS/RAG-Anything",
+          "https://github.com/Z4nzu/hackingtool",
+          "https://github.com/ruvnet/RuView"
         ],
         "query": "",
         "freshness_hours": 1
@@ -866,6 +919,15 @@
         "Rust: 0.3x avg views → drop",
         "standard: 488 avg views (16 videos)",
         "Day performance: Fri=1231, Tue=916, Thu=688, Wed=352, Sat=300, Mon=156, Sun=8"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-23",
+      "changes": [
+        "Rust: 0.4x avg views → drop",
+        "standard: 460 avg views (17 videos)",
+        "Day performance: Fri=1231, Tue=916, Thu=460, Wed=352, Sat=300, Mon=156, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
