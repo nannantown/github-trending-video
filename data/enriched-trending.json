@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-23",
+  "date": "2026-04-24",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『生成AIプロダクト運用スタック』の別レイヤー(コーディング文脈→エージェント観測→自動ペンテスト→情報収集→金融AI)として同居紹介し、Primaryペルソナが『自社で1本作るならどこにOSSを置くか』を判断できる軸で料理する",
+    "method": "tech-deep",
+    "description": "今日のTOP5をそれぞれ『技術的にどこが新しいか』で料理する。ml-internのエージェントループ内部、claude-contextのAST×密ベクトル+Merkle木差分索引、RAG-AnythingのマルチモーダルKG、RuViewのWiFi-CSI+Rustグラフトランスフォーマー、hackingtoolの185ツール束ね構造など、README/コード構造から抽出した実装の独自性だけで通す",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/huggingface/ml-intern",
       "https://github.com/zilliztech/claude-context",
-      "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "https://github.com/koala73/worldmonitor",
-      "https://github.com/langfuse/langfuse",
-      "https://github.com/KeygraphHQ/shannon"
+      "https://github.com/HKUDS/RAG-Anything",
+      "https://github.com/Z4nzu/hackingtool",
+      "https://github.com/ruvnet/RuView"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "huggingface/ml-intern",
+      "name": "ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "language": "Python",
+      "stars": 3096,
+      "todayStars": 530,
+      "description": "HF製・自律型ML研究エージェント",
+      "detail": "Hugging Faceが公開したPython製のML研究自動化エージェント。最大300反復のエージェントループに同じツール連打を検出するdoom loop detectorを挟み、Claude Sonnetで論文読解からモデル訓練までを回します。",
+      "narration": "HFが作った自律型ML研究エージェントです。Claude Sonnetで300反復回し論文読解から訓練まで任せます。"
+    },
+    {
+      "rank": 2,
       "fullName": "zilliztech/claude-context",
       "name": "claude-context",
       "url": "https://github.com/zilliztech/claude-context",
       "language": "TypeScript",
-      "stars": 7446,
-      "todayStars": 873,
-      "description": "AIエージェント運用の記憶層MCP",
-      "detail": "Claude Code・Cursor・Gemini CLIで使えるコード検索MCPサーバー。ASTとベクトル検索のハイブリッドで巨大リポを丸ごと文脈化し、AIエージェントの長文コードベース対応を肩代わりします。",
-      "narration": "AIエージェントの記憶層になるMCPです。Claude CodeやCursorが巨大リポを丸ごと文脈化できます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "Fincept-Corporation/FinceptTerminal",
-      "name": "FinceptTerminal",
-      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "language": "Python",
-      "stars": 13012,
-      "todayStars": 1737,
-      "description": "37体AI投資家の金融ターミナル",
-      "detail": "Fincept社が公開するPython製の金融ターミナル。37体のAIアナリストが並列で銘柄評価やDCF、VaR、バックテストを担当し、マルチエージェント運用の実装例として学びつつ本番投資分析にも使えます。",
-      "narration": "37体のAI投資家が並列で走る金融ターミナルです。マルチエージェント運用の実例として学べます。"
+      "stars": 8370,
+      "todayStars": 1023,
+      "description": "AST×密ベクトルの巨大リポ検索MCP",
+      "detail": "Claude CodeやCursorから呼び出せるMCPサーバー。AST分割とBM25+密ベクトルのハイブリッド検索に、Merkle木での差分再インデックスを重ねて、同等の検索精度のままトークン消費を40%削減します。",
+      "narration": "AST分割と密ベクトルをハイブリッド検索するMCPです。Merkle木で差分索引しトークンを40%節約します。"
     },
     {
       "rank": 3,
-      "fullName": "koala73/worldmonitor",
-      "name": "worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "language": "TypeScript",
-      "stars": 51498,
-      "todayStars": 449,
-      "description": "AI要約の地政学ダッシュボード",
-      "detail": "500以上のニュースと65のデータソースをAIが要約し地図に載せる情報集約ツール。Ollama・Groq・OpenRouterを切替えて使え、Transformers.jsでブラウザ内推論も回るので機密が気になる組織でも自社運用できます。",
-      "narration": "500ソースをAIが要約する地政学ダッシュボードです。OllamaやGroqを切替えてローカルでも動きます。"
+      "fullName": "HKUDS/RAG-Anything",
+      "name": "RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "language": "Python",
+      "stars": 18108,
+      "todayStars": 574,
+      "description": "文書・図表・数式のマルチモーダルRAG",
+      "detail": "香港大のLightRAG上に作られたマルチモーダルRAG。MinerUが文書を解析し、画像・表・数式を種別ごとの処理器に流し、ベクトル検索とグラフ探索を同時に回して文脈の関係性を保ったまま検索します。",
+      "narration": "図表や数式も扱うマルチモーダルRAGです。LightRAG上にグラフ探索と密ベクトル検索を同時に載せます。"
     },
     {
       "rank": 4,
-      "fullName": "langfuse/langfuse",
-      "name": "langfuse",
-      "url": "https://github.com/langfuse/langfuse",
-      "language": "TypeScript",
-      "stars": 25568,
-      "todayStars": 160,
-      "description": "LLMアプリの観測と評価の基盤",
-      "detail": "Y Combinator出身のOSSで、LLMアプリのトレース記録、プロンプト管理、eval、プレイグラウンドを1枚で提供。OpenAI・LangChain・LlamaIndex・CrewAIと連携し、自社VMでもKubernetesでも自前でホストできます。",
-      "narration": "LLMアプリの観測とeval管理を担うOSSです。OpenAIやLangChainのトレースを1画面で追えます。"
+      "fullName": "Z4nzu/hackingtool",
+      "name": "hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "language": "Python",
+      "stars": 60931,
+      "todayStars": 1366,
+      "description": "185ツールを束ねるPython製ランチャー",
+      "detail": "185以上のセキュリティツールを1つのPythonメニューに束ねたランチャー。情報収集から解析まで20カテゴリで分類され、OS判別によるメニュー切替、インストール状況表示、git pullでの一括更新機能を備えます。",
+      "narration": "185のセキュリティツールを束ねるPython製ランチャーです。OS判別と一括更新機能を備えます。"
     },
     {
       "rank": 5,
-      "fullName": "KeygraphHQ/shannon",
-      "name": "shannon",
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "language": "TypeScript",
-      "stars": 39525,
-      "todayStars": 346,
-      "description": "AI実証型のWeb自動ペンテスト",
-      "detail": "Claude Agent SDKで5段階のエージェントが偵察から攻撃まで走る自動ペンテスト基盤。exploit成功した脆弱性だけを報告するため偽陽性が出ず、OWASP Juice Shopで20件以上の脆弱性を発見した実績があります。",
-      "narration": "Claude Agent SDKでWebを自動ペンテストするAIです。発見より実証を重視し偽陽性を0にします。"
+      "fullName": "ruvnet/RuView",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "language": "Rust",
+      "stars": 49789,
+      "todayStars": 427,
+      "description": "WiFi信号で姿勢推定する純Rust",
+      "detail": "ESP32-S3で56サブキャリアのWiFi信号を20Hzで取得し、Rustのグラフトランスフォーマーで17点の姿勢を推定する純Rust実装。カメラ不要で呼吸と心拍も信号処理で抽出し、Python版比で810倍高速です。",
+      "narration": "ESP32のWiFi信号で姿勢推定する純Rustです。グラフトランスフォーマーでPython版より810倍高速です。"
     }
   ]
 }

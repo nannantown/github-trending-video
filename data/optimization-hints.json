@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23",
+  "updatedAt": "2026-04-24",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -18,7 +18,7 @@
     ],
     "topPerformingVideo": {
       "date": "2026-04-17",
-      "views": 2014,
+      "views": 2010,
       "projects": [
         "forrestchang/andrej-karpathy-skills",
         "thedotmack/claude-mem",
@@ -26,60 +26,62 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 939 views、business-angle 平均 267 views と大差。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。"
+      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 939 views、tech-deep 平均 356 views、business-angle 平均 317 views。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。04/22 comparison (7) / 04/23 ecosystem (0) は公開直後で判定保留。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 520 avg views で安定。そのまま維持",
-      "本日は木曜(Thu=688 avg)。ecosystem 角度の exploit 投入日なので、タイトルは標準のまま中身の切り口(AI プロダクト運用スタック同居)で差別化",
-      "昨日と重複する 2 本(claude-context, FinceptTerminal)は昨日の comparison 切り口(Bloomberg・Cursor 置き換え)から ecosystem 切り口(エージェント運用スタックの別レイヤー)へ全面書き換え、04/18 型の急落を回避する設計が必須"
+      "本日は金曜(Fri=1233 avg)で最強曜日。tech-deep 角度の exploit 投入日のため、タイトルは標準のまま、中身の切り口(実装の内部構造)で差別化",
+      "昨日 04/23 と重複する 2 本(claude-context, RuView)は 04/22 comparison(Cursor / 監視カメラ代替)→ 04/23 ecosystem(記憶層 / 運用スタック)→ 04/24 tech-deep(AST + Merkle / WiFi-CSI + 純 Rust)と 3 日連続で切り口を変え、04/17→04/18 型の急落を回避する設計"
     ],
     "hashtags": [
-      "木曜は中上位曜日(Thu=688 avg)。ecosystem 角度なので AI プロダクト運用スタックの層を示すタグ(#ClaudeCode #MCP #LLMOps #AIエージェント #生成AI運用)を並べて横串検索流入を狙う",
-      "ecosystem 角度のため #Langfuse #LLMOps #観測性 #evals を新規投入。昨日の comparison タグ(#代替OSS #置き換え #脱SaaS)から視点を変える",
-      "言語タグは TypeScript / Python を維持。worldmonitor / langfuse / shannon が TypeScript、FinceptTerminal が Python で主力構成",
-      "業界タグ #金融AI #地政学 #AIセキュリティ を補助投入し、FinceptTerminal・worldmonitor・shannon の 3 本で Primary ペルソナの業界別関心を拾う"
+      "金曜は最強曜日(Fri=1233 avg)。tech-deep 角度のため実装語彙(#AST #ベクトル検索 #MCP #WiFiCSI #RAG #AIエージェント #Rust)を並べ、技術選定中のエンジニアの検索流入を狙う",
+      "tech-deep 角度のため #LightRAG #ClaudeAgentSDK #MinerU #BM25 #Merkle木 を新規投入。昨日の ecosystem タグ(#LLMOps #運用スタック #観測性)からは距離を取る",
+      "言語タグは Python / TypeScript / Rust。ml-intern / RAG-Anything / hackingtool が Python、claude-context が TypeScript、RuView が Rust で過去 multiplier 最強 3 言語が揃う",
+      "業界タグ #AIセキュリティ #ペネトレーションテスト #エッジAI #自律エージェント を補助投入し、hackingtool・RuView・ml-intern の 3 本で Primary ペルソナの業界別関心を拾う"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。カタカナ発音を想定して TTS の誤読回避(クロードコード、カーソル、ラングフューズ、シャノン、オッラマ、グロック)",
-      "固有名詞は原文英語のまま(Claude Code, Cursor, Ollama, Groq, LangChain, OpenAI, Claude Agent SDK, MCP)。英単語は TTS に任せる",
-      "ecosystem 角度の一貫性: 各ナレーション冒頭でそのリポがスタックのどのレイヤーかを示す(記憶層、マルチエージェント、ダッシュボード、観測と eval、自動ペンテスト)。後半に具体数字(巨大リポ、37 体、500 ソース、1 画面、偽陽性 0)を埋める",
-      "昨日の comparison narration の語彙(置き換える、代わりに、肩代わり、代替、年 24000 ドル→0 円)からは距離を置き、本日は『スタック』『層』『並列で走る』『1 枚で』『実例として学べる』の ecosystem 軸語彙に切替"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 49-58 文字で収まっており、合計 273 文字、TTS +30% 読み上げで約 48-52 秒、opening/ending と合わせて 55 秒に収まる",
+      "カタカナ発音を想定して TTS の誤読回避(エムエル インターン、クロード コンテキスト、ラグ エニシング、ハッキング ツール、ルービュー)。固有名詞は原文英語のまま(Claude Code, Cursor, Claude Sonnet, LightRAG, MinerU, ESP32, BM25, MCP, RAG, AST)",
+      "tech-deep 角度の一貫性: 各ナレーション前半で実装の核心を示す(300 反復 + doom loop detector / AST + 密ベクトル / LightRAG + グラフ / 185 ツール + OS 判別 / WiFi 56 サブキャリア + 純 Rust)。後半は具体数字(40% 節約 / 810 倍 / 300 反復 / 185)でスクロール停止トリガ",
+      "昨日 04/23 の ecosystem narration 語彙(スタック、層、並列で走る、1 枚で、実例として学べる)からは距離を置き、本日は『分割』『差分索引』『ハイブリッド検索』『グラフトランスフォーマー』『反復』『サブキャリア』の tech-deep 軸語彙に切替"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem`(exploit 80%)。過去 14 日の method 別平均 views で ecosystem が 939 と最強、business-angle 267、tech-deep 356、comparison/use-case は未確定。直近 2 日(04/21 use-case → 04/22 comparison)は explore 側だったため、木曜で勝ち筋に戻す好機",
-      "今日の TOP5 は claude-context(コーディング文脈)/ FinceptTerminal(金融エージェント)/ worldmonitor(情報収集エージェント)/ langfuse(LLMOps)/ shannon(自動ペンテスト)という『生成 AI プロダクト運用スタック』の別レイヤー 5 本構成。ecosystem 同居の自然な narrative が成立する稀少なラインナップ",
-      "昨日から重複する 2 本(zilliztech/claude-context, Fincept-Corporation/FinceptTerminal)は detail と narration の切り口を『AI エージェント運用スタックの一員』視点で全面書き換え。claude-context は『Cursor 置き換え』→『AI エージェントの記憶層』、FinceptTerminal は『Bloomberg 年 24000 ドル代替』→『37 体マルチエージェントの本番運用実例』に軸変更",
-      "新規 3 本(koala73/worldmonitor, langfuse/langfuse, KeygraphHQ/shannon)は本日初登場。worldmonitor は『Ollama/Groq 切替』、langfuse は『OpenAI/LangChain/LlamaIndex 連携 × YC W23 × 自社ホスト可』、shannon は『Claude Agent SDK × exploit 成功した脆弱性だけ報告』で Primary ペルソナ(CTO / ソロ開発者)の実装判断に刺す",
-      "木曜の中上位曜日(Thu=688 avg)を押し上げる武器は『AI プロダクト運用で自社が OSS で組むならこう並ぶ』という横串 narrative。昨日の comparison との差分を最大化してフォロワー離脱を防ぎ、04/17 型(2014 views)の ecosystem 勝ち筋を再現する"
+      "本日の discovery.method は `tech-deep`(exploit 80%)。過去 14 日の method 別平均 views で ecosystem が 939 と最強、tech-deep が 356、business-angle が 317。直近 2 日(04/22 comparison → 04/23 ecosystem)を避ける制約下では tech-deep が最良の exploit。Friday (Fri=1233 avg) という強曜日 × 中位 method で上振れ余地を測る投入",
+      "今日の TOP5 は ml-intern(HF 製自律 ML 研究エージェント)/ claude-context(AST + BM25 + Merkle 木)/ RAG-Anything(マルチモーダル RAG + LightRAG)/ hackingtool(185 ツールランチャー)/ RuView(WiFi-CSI + 純 Rust 810x)で、5 本とも実装レベルの独自性が明確。tech-deep の素材強度は過去最高クラス",
+      "昨日から重複する 2 本(zilliztech/claude-context, ruvnet/RuView)は detail と narration を『実装の中身』視点で全面書き換え。claude-context は『記憶層(04/23)』→『AST + BM25 + 密ベクトル + Merkle 木差分索引』に、RuView は『監視カメラ代替(04/22)』→『ESP32-S3 + 56 サブキャリア + 純 Rust + 810 倍高速』に軸変更",
+      "新規 3 本(huggingface/ml-intern, HKUDS/RAG-Anything, Z4nzu/hackingtool)は本日初登場。ml-intern は『300 反復 + doom loop detector』、RAG-Anything は『LightRAG + MinerU + グラフ × ベクトル探索』、hackingtool は『185 ツール束ね + OS 判別 + 一括更新』で Primary ペルソナ(CTO / ソロ開発者)の実装判断に刺す",
+      "金曜の最強曜日(Fri=1233 avg)を押し上げる武器は『数字付き実装詳細』。300 反復 / 40% 節約 / 810 倍 / 185 ツール / 56 サブキャリアを narration 前半に埋め、tech-deep の Friday サンプル 0 本だった過去の空白を埋めつつ 04/17 型(2010 views)の水準到達を狙う。hackingtool は運用視点のみで触れ、具体手法は一切出さない"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-23",
-    "dayOfWeek": "Thu",
+    "date": "2026-04-24",
+    "dayOfWeek": "Fri",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
+      "AIエージェント",
       "ClaudeCode",
       "MCP",
-      "AIエージェント",
-      "LLMOps",
-      "Langfuse",
-      "観測性",
-      "evals",
-      "Ollama",
-      "Groq",
-      "LangChain",
-      "OpenAI",
-      "金融AI",
-      "地政学",
+      "AST",
+      "ベクトル検索",
+      "BM25",
+      "RAG",
+      "LightRAG",
+      "MinerU",
+      "WiFiCSI",
+      "ESP32",
+      "エッジAI",
+      "Rust",
+      "自律エージェント",
       "AIセキュリティ",
+      "ペネトレーションテスト",
       "Python",
       "TypeScript"
     ],
-    "focus": "木曜(Thu=688 avg)の中上位曜日に `ecosystem` 角度を exploit 80% で投入。今日の TOP5 は claude-context(コーディング文脈)/ FinceptTerminal(金融マルチエージェント)/ worldmonitor(情報収集 AI)/ langfuse(LLMOps)/ shannon(AI ペンテスト)という『生成 AI プロダクト運用スタック』の別レイヤー 5 本構成で、Primary ペルソナ(CTO / ソロ開発者)の『自社で 1 本作るならどこに OSS を置くか』の意思決定に直結させる。重複 2 本(claude-context, FinceptTerminal)は昨日の comparison(置き換え視点)→今日の ecosystem(スタックの一員視点)に軸を意識的にずらし、04/17→04/18 型の同ラインナップ急落(2014→8)を回避する。"
+    "focus": "金曜(Fri=1233 avg)の最強曜日に `tech-deep` 角度を exploit 80% で投入。今日の TOP5 は ml-intern(HF 製自律 ML 研究エージェント、300 反復 + doom loop detector)/ claude-context(AST + BM25 + Merkle 木、40% トークン削減)/ RAG-Anything(LightRAG + MinerU + グラフ × ベクトル)/ hackingtool(185 ツールランチャー、OS 判別)/ RuView(WiFi-CSI + 純 Rust、810 倍高速)という『実装の中身で勝負する 5 本』構成で、Primary ペルソナ(CTO / ソロ開発者)の『この OSS の中身は何が新しいのか』を 10 秒で掴める narrative を通す。重複 2 本(claude-context, RuView)は 04/22 comparison → 04/23 ecosystem → 04/24 tech-deep と 3 日連続で切り口を変え、04/17→04/18 型の同ラインナップ急落(2010→8)を回避する。tech-deep は 04/10 以来 14 日ぶりで、Friday サンプル 0 本の空白を埋めるメタ PDCA 的意味も持つ。"
   }
 }
