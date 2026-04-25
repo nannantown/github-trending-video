@@ -1,0 +1,93 @@
+name: Re-upload YouTube Video (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      old_video_id:
+        description: "Existing YouTube video ID to delete"
+        required: true
+      date:
+        description: "Date tag (YYYYMMDD). Defaults to today JST."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  reupload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Resolve date
+        id: date
+        env:
+          TZ: Asia/Tokyo
+        run: |
+          DATE="${{ inputs.date }}"
+          if [ -z "$DATE" ]; then
+            DATE=$(date +%Y%m%d)
+          fi
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "Using date: $DATE"
+
+      - name: Download replacement mp4
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p output
+          DATE="${{ steps.date.outputs.date }}"
+          gh release download "v${DATE}" -p "trending-${DATE}.mp4" -D output/
+          ls -la "output/trending-${DATE}.mp4"
+
+      - name: Regenerate captions for upload
+        env:
+          TZ: Asia/Tokyo
+        run: |
+          node scripts/generate-data.mjs
+          node scripts/generate-caption.mjs
+          cat output/captions.json | head -20
+
+      - name: Attempt to delete old YouTube video (non-blocking)
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          OLD_VIDEO_ID: ${{ inputs.old_video_id }}
+        run: |
+          node -e '
+          import("googleapis").then(async ({ google }) => {
+            const oauth2 = new google.auth.OAuth2(
+              process.env.YOUTUBE_CLIENT_ID,
+              process.env.YOUTUBE_CLIENT_SECRET,
+              "urn:ietf:wg:oauth:2.0:oob"
+            );
+            oauth2.setCredentials({ refresh_token: process.env.YOUTUBE_REFRESH_TOKEN });
+            const youtube = google.youtube({ version: "v3", auth: oauth2 });
+            try {
+              await youtube.videos.delete({ id: process.env.OLD_VIDEO_ID });
+              console.log("Deleted video:", process.env.OLD_VIDEO_ID);
+            } catch (err) {
+              console.error("Delete failed (non-blocking, delete manually in YT Studio):", err.message);
+            }
+          });
+          '
+
+      - name: Upload replacement video
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          DATE="${{ steps.date.outputs.date }}"
+          node scripts/upload-youtube.mjs --video="output/trending-${DATE}.mp4"
