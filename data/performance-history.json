@@ -240,7 +240,7 @@
         "views": 591,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -317,7 +317,7 @@
         "views": 251,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -352,10 +352,10 @@
       ],
       "durationSeconds": 67,
       "stats": {
-        "views": 1360,
+        "views": 1361,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -390,10 +390,10 @@
       ],
       "durationSeconds": 64,
       "stats": {
-        "views": 545,
+        "views": 546,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -433,7 +433,7 @@
         "views": 767,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -471,7 +471,7 @@
         "views": 2010,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -553,7 +553,7 @@
         "views": 16,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 210,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 7,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -698,10 +698,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -751,10 +751,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-24T23:29:26.958Z"
+        "updatedAt": "2026-04-25T23:26:32.867Z"
       }
     },
     {
@@ -799,6 +799,58 @@
           "https://github.com/HKUDS/RAG-Anything",
           "https://github.com/Z4nzu/hackingtool",
           "https://github.com/ruvnet/RuView"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 5,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-04-25T23:26:32.867Z"
+      }
+    },
+    {
+      "videoId": "SF0mTxhmZYc",
+      "videoUrl": "https://youtube.com/shorts/SF0mTxhmZYc",
+      "date": "2026-04-26",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/26 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Shell"
+      ],
+      "languages": [
+        "Python",
+        "Shell"
+      ],
+      "projects": [
+        "Alishahryar1/free-claude-code",
+        "mattpocock/skills",
+        "Z4nzu/hackingtool",
+        "PostHog/posthog",
+        "davila7/claude-code-templates"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日のTOP5を『受託 / スタートアップが組むなら、月いくら削れて、何人月浮くか』で料理する。free-claude-codeはAPI課金の別ベンダー逃がし、mattpocock/skillsは作業手順のチーム配布で属人化を削り、hackingtoolはペンテスト受託の環境構築工数、PostHogは計測SaaS6本の固定費畳み、claude-code-templatesは受託案件の立ち上げ工数を分単位に圧縮、という具体額・具体工数で5本ともビジネス視点に統一する",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/Alishahryar1/free-claude-code",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/Z4nzu/hackingtool",
+          "https://github.com/PostHog/posthog",
+          "https://github.com/davila7/claude-code-templates"
         ],
         "query": "",
         "freshness_hours": 1
@@ -990,6 +1042,15 @@
         "Rust: 0.4x avg views → drop",
         "standard: 434 avg views (18 videos)",
         "Day performance: Tue=916, Fri=821, Thu=461, Wed=352, Sat=300, Mon=156, Sun=8"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-25",
+      "changes": [
+        "Rust: 0.4x avg views → drop",
+        "standard: 412 avg views (19 videos)",
+        "Day performance: Tue=917, Fri=821, Thu=461, Wed=352, Sat=201, Mon=156, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
