@@ -59,7 +59,7 @@ jobs:
           cat output/captions.json | head -20
 
       - name: Attempt to delete old YouTube video (non-blocking)
-        if: inputs.old_video_id != ''
+        if: inputs.old_video_id
         continue-on-error: true
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
