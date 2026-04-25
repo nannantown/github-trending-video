@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-26",
   "discovery": {
-    "method": "tech-deep",
-    "description": "今日のTOP5をそれぞれ『技術的にどこが新しいか』で料理する。ml-internのエージェントループ内部、claude-contextのAST×密ベクトル+Merkle木差分索引、RAG-AnythingのマルチモーダルKG、RuViewのWiFi-CSI+Rustグラフトランスフォーマー、hackingtoolの185ツール束ね構造など、README/コード構造から抽出した実装の独自性だけで通す",
+    "method": "business-angle",
+    "description": "今日のTOP5を『受託 / スタートアップが組むなら、月いくら削れて、何人月浮くか』で料理する。free-claude-codeはAPI課金の別ベンダー逃がし、mattpocock/skillsは作業手順のチーム配布で属人化を削り、hackingtoolはペンテスト受託の環境構築工数、PostHogは計測SaaS6本の固定費畳み、claude-code-templatesは受託案件の立ち上げ工数を分単位に圧縮、という具体額・具体工数で5本ともビジネス視点に統一する",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/huggingface/ml-intern",
-      "https://github.com/zilliztech/claude-context",
-      "https://github.com/HKUDS/RAG-Anything",
+      "https://github.com/Alishahryar1/free-claude-code",
+      "https://github.com/mattpocock/skills",
       "https://github.com/Z4nzu/hackingtool",
-      "https://github.com/ruvnet/RuView"
+      "https://github.com/PostHog/posthog",
+      "https://github.com/davila7/claude-code-templates"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "huggingface/ml-intern",
-      "name": "ml-intern",
-      "url": "https://github.com/huggingface/ml-intern",
+      "fullName": "Alishahryar1/free-claude-code",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
       "language": "Python",
-      "stars": 3096,
-      "todayStars": 530,
-      "description": "HF製・自律型ML研究エージェント",
-      "detail": "Hugging Faceが公開したPython製のML研究自動化エージェント。最大300反復のエージェントループに同じツール連打を検出するdoom loop detectorを挟み、Claude Sonnetで論文読解からモデル訓練までを回します。",
-      "narration": "HFが作った自律型ML研究エージェントです。Claude Sonnetで300反復回し論文読解から訓練まで任せます。"
+      "stars": 11391,
+      "todayStars": 3975,
+      "description": "Claude Codeを別LLMで動かすプロキシ",
+      "detail": "Claude CodeのAPIコールをNVIDIA NIM、DeepSeek、OpenRouter、ローカルLM Studioへ振り替えるPython製プロキシ。環境変数2つだけでCLIや拡張は無改変、Anthropicへの月額API課金を別ベンダーへ寄せて経費を圧縮できます。",
+      "narration": "Claude CodeのAPIを別LLMに振り替えるプロキシです。受託案件のAPI費用を月単位でカットできます。"
     },
     {
       "rank": 2,
-      "fullName": "zilliztech/claude-context",
-      "name": "claude-context",
-      "url": "https://github.com/zilliztech/claude-context",
-      "language": "TypeScript",
-      "stars": 8370,
-      "todayStars": 1023,
-      "description": "AST×密ベクトルの巨大リポ検索MCP",
-      "detail": "Claude CodeやCursorから呼び出せるMCPサーバー。AST分割とBM25+密ベクトルのハイブリッド検索に、Merkle木での差分再インデックスを重ねて、同等の検索精度のままトークン消費を40%削減します。",
-      "narration": "AST分割と密ベクトルをハイブリッド検索するMCPです。Merkle木で差分索引しトークンを40%節約します。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 19836,
+      "todayStars": 857,
+      "description": "Matt Pocock直伝のskill集",
+      "detail": "TypeScript界の重鎮Matt Pocockが自身の.claude/skills/を公開。tddやto-prd、refactor-planなど14種類をnpx一発で導入でき、受託や社内案件で属人化しがちな作業手順を即チームへ展開できます。",
+      "narration": "Matt Pocockの作業手順を直接導入できる14種skill集です。属人化を回避し受託品質を底上げします。"
     },
     {
       "rank": 3,
-      "fullName": "HKUDS/RAG-Anything",
-      "name": "RAG-Anything",
-      "url": "https://github.com/HKUDS/RAG-Anything",
-      "language": "Python",
-      "stars": 18108,
-      "todayStars": 574,
-      "description": "文書・図表・数式のマルチモーダルRAG",
-      "detail": "香港大のLightRAG上に作られたマルチモーダルRAG。MinerUが文書を解析し、画像・表・数式を種別ごとの処理器に流し、ベクトル検索とグラフ探索を同時に回して文脈の関係性を保ったまま検索します。",
-      "narration": "図表や数式も扱うマルチモーダルRAGです。LightRAG上にグラフ探索と密ベクトル検索を同時に載せます。"
-    },
-    {
-      "rank": 4,
       "fullName": "Z4nzu/hackingtool",
       "name": "hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
       "language": "Python",
-      "stars": 60931,
-      "todayStars": 1366,
-      "description": "185ツールを束ねるPython製ランチャー",
-      "detail": "185以上のセキュリティツールを1つのPythonメニューに束ねたランチャー。情報収集から解析まで20カテゴリで分類され、OS判別によるメニュー切替、インストール状況表示、git pullでの一括更新機能を備えます。",
-      "narration": "185のセキュリティツールを束ねるPython製ランチャーです。OS判別と一括更新機能を備えます。"
+      "stars": 63746,
+      "todayStars": 1200,
+      "description": "ペンテスト185ツールを一括導入",
+      "detail": "情報収集から無線解析まで185以上のペンテストツールを単一メニューに集約したPython製ランチャー。OS判別と一括更新を備え、セキュリティ受託の環境構築工数を削減できますが商用利用前に各ライセンスの確認が必須です。",
+      "narration": "ペンテスト185ツールを単一メニューに集約したランチャーです。受託の環境構築工数を一気に削れます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "PostHog/posthog",
+      "name": "posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "language": "Python",
+      "stars": 33461,
+      "todayStars": 469,
+      "description": "計測SaaS6本を1つに束ねるOSS",
+      "detail": "Mixpanel・Amplitude・Hotjar・LaunchDarkly・Sentry・Typeformの機能を1つに統合したMIT製プラットフォーム。クラウド月100万イベントまで無料で、スタートアップが複数SaaS契約を畳み固定費を月数万円削減できます。",
+      "narration": "計測系SaaS6本分を1つで賄うOSSです。スタートアップの月数万のSaaS課金を畳めます。"
     },
     {
       "rank": 5,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 49789,
-      "todayStars": 427,
-      "description": "WiFi信号で姿勢推定する純Rust",
-      "detail": "ESP32-S3で56サブキャリアのWiFi信号を20Hzで取得し、Rustのグラフトランスフォーマーで17点の姿勢を推定する純Rust実装。カメラ不要で呼吸と心拍も信号処理で抽出し、Python版比で810倍高速です。",
-      "narration": "ESP32のWiFi信号で姿勢推定する純Rustです。グラフトランスフォーマーでPython版より810倍高速です。"
+      "fullName": "davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "language": "Python",
+      "stars": 25324,
+      "todayStars": 78,
+      "description": "agents・MCPを一発でテンプレ化",
+      "detail": "agents・commands・MCP統合・hooks・settingsをテンプレ化しnpx一発でClaude Code環境を整えるCLI。リアルタイム解析ダッシュボードも備え、複数案件を並列で回す受託の立ち上げ工数を分単位に圧縮できます。",
+      "narration": "agentsやMCPをテンプレで一発投入するCLIです。受託の案件立ち上げを数分で再現できます。"
     }
   ]
 }
