@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       old_video_id:
-        description: "Existing YouTube video ID to delete (leave empty if first upload failed)"
+        description: "Existing YouTube video ID to delete (leave empty if the original upload never succeeded)"
         required: false
         default: ""
       date:
