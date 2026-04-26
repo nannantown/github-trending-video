@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26",
+  "updatedAt": "2026-04-27",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -26,38 +26,38 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 939 views、tech-deep 平均 356 views、business-angle 平均 317 views。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。04/22 (comparison 7) / 04/23 (ecosystem 6) / 04/24 (tech-deep 2) / 04/25 (tech-deep 0) は updatedAt 時点で未浸透のため判定保留、特に 04/24・04/25 は同ラインナップの 2 日連投で 04/17→04/18 型のリスク域。"
+      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 939 views、tech-deep 平均 356 views、business-angle 平均 317 views。ただし翌日 04/18 は同ラインナップ再放送で 8 views に崩落、同じ並びの 2 日目は厳禁。04/22 (comparison 7) / 04/23 (ecosystem 7) / 04/24 (tech-deep 3) / 04/25 (tech-deep 5) / 04/26 (business-angle 0) は updatedAt 時点で未浸透のため判定保留、特に 04/24・04/25 は同ラインナップ 2 日連投で 04/17→04/18 型のリスク域。04/26→04/27 は 5 本中 3 本重複 (mattpocock/skills, hackingtool, free-claude-code) で本日も同ラインナップ域、angle 切替で防御。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 520 avg views で安定。そのまま維持",
-      "本日は日曜(Sun=8 avg)で最弱曜日。トップライン views ではなく、business-angle × Sun の Method × 曜日 セルを母数 0 → 1 にする Meta-PDCA データ取りが本来の役割",
-      "直近 2 日 (04/24, 04/25) が tech-deep 連投かつ完全同ラインナップで 04/17→04/18 型リスク域のため、本日は angle を business-angle へ切替え、重複は Z4nzu/hackingtool 1 本のみで影響を最小化"
+      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は 488 avg views で安定。そのまま維持",
+      "本日は月曜(Mon=129 avg)で日曜(Sun=8)に次ぐ弱曜日。トップライン views ではなく、comparison × Mon の Method × 曜日 セルを母数 0 → 1 にする Meta-PDCA データ取りが本来の役割",
+      "直近 5 日 (04/22〜04/26) が 4 種の method を毎日切替で運用しており、本日 comparison で 5 種目に到達。04/26→04/27 で 5 本中 3 本重複しているため、同ラインナップ 2 日目の急落 (04/17→04/18 型) を angle 切替と detail/narration 全面書換で予防"
     ],
     "hashtags": [
-      "日曜は最弱曜日(Sun=8 avg)。アルゴリズム露出が薄いため、ハッシュタグはコスト・受託・ROI 系(#コスト削減 #受託開発 #SaaS #LLMコスト #DX #業務効率化)を厚めに置き、Primary/Secondary ペルソナの普段語で検索流入を狙う",
-      "business-angle 角度のため #PostHog #SaaS統合 #Mixpanel代替 #Amplitude代替 #LaunchDarkly代替 #ClaudeCode を新規投入。昨日の tech-deep タグ(#AST #ベクトル検索 #Merkle木 #WiFiCSI)からは距離を取る",
-      "言語タグは Python(4 本)/ Shell(1 本)。過去 multiplier 最強の Python が 4 本揃うが、TypeScript は 0 本のため #TypeScript は外す。代わりに #Python #ペネトレーションテスト #AIエージェント #Anthropic を補助投入",
-      "業界タグ #LLMコスト最適化 #プロダクト分析 #セキュリティ受託 #エンジニア生産性 を補助投入し、free-claude-code・PostHog・hackingtool・mattpocock-skills の 4 本で Primary/Secondary ペルソナの業界別関心を拾う"
+      "月曜は弱曜日(Mon=129 avg)。アルゴリズム露出が薄いため、ハッシュタグは技術選定・代替・OSS 比較系(#技術選定 #OSS比較 #代替ツール #乗り換え #Confluence代替 #Sourcegraph代替)を厚めに置き、Primary ペルソナ(CTO/ソロ開発者)の意思決定文脈で検索流入を狙う",
+      "comparison 角度のため #ConfluenceからNotion #KaliLinux代替 #Cursor代替 #Aider比較 #Sourcegraph代替 #CopilotWorkspace を新規投入。昨日の business-angle タグ(#コスト削減 #LLMコスト最適化)からは距離を取る",
+      "言語タグは Python(2 本)/ Shell(1 本)/ Markdown(1 本)/ TypeScript(1 本)。Python と TypeScript が揃うため #Python #TypeScript は維持、#Shell #Markdown は補助タグでカード認識用",
+      "業界タグ #ナレッジ管理 #ペネトレーションテスト #ClaudeCode #コードグラフ #自作OS を補助投入し、mattpocock/skills・hackingtool・free-claude-code・GitNexus・build-your-own-x の 5 本で Primary/Secondary ペルソナの業界別関心を拾う"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 46-56 文字で収まっており、合計 254 文字、TTS +30% 読み上げで約 45-50 秒、opening/ending と合わせて 55 秒に収まる",
-      "カタカナ発音を想定して TTS の誤読回避(フリー クロード コード、マット ポコック スキルズ、ハッキング ツール、ポストホグ、クロード コード テンプレーツ)。固有名詞は原文英語のまま(Claude Code, NVIDIA NIM, DeepSeek, OpenRouter, LM Studio, Mixpanel, Amplitude, Hotjar, LaunchDarkly, Sentry, Typeform, agents, MCP, skill)",
-      "business-angle 角度の一貫性: 各ナレーション後半で『受託 / スタートアップで月いくら削れるか』を必ず提示する(月単位カット / 受託品質底上げ / 環境構築工数削減 / 月数万のSaaS課金畳み / 案件立ち上げ数分)。前半でリポジトリの正体を、後半で金額・工数のメリットを置く 2 文構成",
-      "昨日 04/24・04/25 の tech-deep narration 語彙(分割、差分索引、ハイブリッド検索、グラフトランスフォーマー、反復、サブキャリア)からは距離を置き、本日は『振り替える』『カット』『属人化』『畳む』『分単位』『工数』など経営語彙に切替"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 54-58 文字で収まっており、合計 280 文字、TTS +30% 読み上げで約 47-50 秒、opening/ending と合わせて 55 秒に収まる",
+      "カタカナ発音を想定した TTS 誤読回避(マット ポコック スキルズ、ハッキング ツール、フリー クロード コード、ビルド ユア オウン エックス、ギット ネクサス)。固有名詞は原文英語のまま(Claude Code, NVIDIA NIM, DeepSeek, OpenRouter, LM Studio, Ollama, Cursor, Aider, Kali Linux, ParrotOS, Confluence, Coursera, Udemy, Sourcegraph, Copilot Workspace, MCP)",
+      "comparison 角度の一貫性: 各ナレーション後半で『何の代替か』を必ず提示する(Confluence/手順書の代替、Kali Linux の代替、Cursor の代替、Coursera 動画の代替、Sourcegraph 契約の代替)。前半でリポジトリの正体を、後半で 1 対 1 の置換対象を置く 2 文構成",
+      "昨日 04/26 の business-angle 語彙(月単位カット、属人化、固定費畳み、分単位、振替)からは距離を置き、本日は『代わりに』『乗り換えず』『〜なしで』『〜の代わり』『載せられる』など意思決定語彙に切替"
     ],
     "content": [
-      "本日の discovery.method は `business-angle`(Sun 探索枠)。直近 2 日の tech-deep 連投かつ完全同ラインナップ(04/24・04/25)による 04/17→04/18 型リスクを angle 切替で早期解除しつつ、戦略の『週最低 1 日は柱②/③』を 04/20 以来 6 日ぶりに再投入。Sunday(Sun=8 avg)の曜日ハンディ下なので、ベンチは 04/19 (15) / 04/20 (210) の同 method 過去サンプルではなく『100 views 抜けるか』を最低ラインに置く",
-      "今日の TOP5 は free-claude-code(Claude API を NVIDIA NIM / DeepSeek / OpenRouter / ローカルへ振替)/ mattpocock/skills(TypeScript 界 Matt Pocock 直伝の 14 種 .claude/skills/ 公開)/ hackingtool(185 ペンテストツールの単一メニュー集約)/ PostHog(Mixpanel + Amplitude + Hotjar + LaunchDarkly + Sentry + Typeform の 6 SaaS 統合 OSS)/ claude-code-templates(agents・commands・MCP・hooks・settings のテンプレ + 解析ダッシュボード)。5 本とも『月いくら削れる / 何人月浮く』のコスト削減ストーリーで一本化",
-      "重複 1 本(Z4nzu/hackingtool)は detail と narration を 3 日連続で全面書き換え。04/24 tech-deep『185 ツールの束ね方・OS 判別・一括更新の実装構造』→ 04/25 同 → 04/26 business-angle『セキュリティ受託で環境構築工数を削る、ただし商用利用前にライセンス確認必須』とコスト軸へ切替え、04/17→04/18 型の急落を回避",
-      "新規 4 本(Alishahryar1/free-claude-code, mattpocock/skills, PostHog/posthog, davila7/claude-code-templates)は本日初登場。free-claude-code は『API 課金を別ベンダーに振替で月単位カット』、mattpocock/skills は『作業手順の社内配布で属人化排除』、PostHog は『計測 SaaS 6 本の固定費畳み』、claude-code-templates は『受託案件立ち上げを分単位に圧縮』で Primary ペルソナ(CTO / ソロ開発者)の意思決定 KPI に直接刺す",
-      "日曜の最弱曜日(Sun=8 avg)対策として、武器は『具体金額・具体工数・具体 SaaS 名』。月単位カット / 月数万円削減 / 6 SaaS 畳み / 数分で再現 / 14 種 skill 即導入を narration と detail に必ず埋め、Sun ハンディ下でも保存・シェア動機が立つ Primary 向け情報密度を確保。free-claude-code は ToS リスクの but を 1 行明示し、Primary の信頼を毀損しない"
+      "本日の discovery.method は `comparison`(Mon 探索枠)。直近 2 日の tech-deep / business-angle 連投を回避しつつ、確定サンプル 0 の comparison を Monday の Mon=129 ハンディ下で初投入し、Method × 曜日マトリクスの comparison × Mon セルを 0→1 にする探索価値を最大化。最低ラインは 04/13 business-angle × Mon=251 で、ここを抜くか観測する",
+      "今日の TOP5 は mattpocock/skills(Confluence/手順書 → Claude skill 14 種で配布)/ hackingtool(Kali Linux/ParrotOS の VM → macOS+Python 1 本に集約)/ free-claude-code(Cursor/Aider への IDE 乗換 → Claude Code 互換でバックエンド 6 系統に差替)/ build-your-own-x(Coursera/Udemy 動画 → 自作チュートリアル 30 領域 49 万 star 索引)/ GitNexus(Sourcegraph/Copilot Workspace → ブラウザ完全ローカル + MCP)。5 本とも『何の代替か』の 1 対 1 対比で一本化",
+      "重複 3 本(mattpocock/skills, Z4nzu/hackingtool, Alishahryar1/free-claude-code)は detail / narration を 04/26 から全面書換。mattpocock/skills は 04/26『属人化排除・受託品質底上げ』→ 04/27『Confluence/手順書の代替として配布』、hackingtool は 04/24 tech-deep『185 ツールの内部構造』→ 04/25 同 → 04/26『ペンテスト受託の環境構築工数』→ 04/27『Kali Linux の代わりに普段の macOS へ』と 4 日連続で切り口変換、free-claude-code は 04/26『月単位カット』→ 04/27『IDE 乗換せず差替』へ視点切替で 04/17→04/18 型急落を予防",
+      "新規 2 本(codecrafters-io/build-your-own-x, abhigyanpatwari/GitNexus)は本日初登場。build-your-own-x は『DB・OS・コンパイラを自作する教材集 49.6 万 star、Coursera 動画ではなく手で作る派の一次情報源』、GitNexus は『Tree-sitter+BM25+WebGPU でコード知識グラフをブラウザだけで構築、Sourcegraph 契約なしで MCP 経由 Cursor から呼べる、ただし商用は PolyForm 非商用ライセンス確認必須』で Primary ペルソナ(CTO/ソロ開発者)の技術選定 KPI に直接刺す",
+      "月曜の弱曜日(Mon=129 avg)対策として、武器は『具体的な置き換え対象 + ライセンス but』。Confluence/Notion・Kali Linux・Cursor・Coursera・Sourcegraph という固有名で対比相手を明示し、視聴者の意思決定にダイレクトに引き込む。GitNexus の PolyForm 非商用ライセンス、hackingtool の各ツール個別ライセンス、free-claude-code の ToS 確認を detail に必ず入れ、Primary の信頼を毀損しない情報密度を確保"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-26",
-    "dayOfWeek": "Sun",
+    "date": "2026-04-27",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
@@ -67,22 +67,22 @@
       "ClaudeCode",
       "MCP",
       "Anthropic",
-      "LLMコスト",
-      "コスト削減",
-      "受託開発",
-      "SaaS",
-      "プロダクト分析",
-      "PostHog",
-      "Mixpanel代替",
-      "Amplitude代替",
-      "LaunchDarkly代替",
-      "DX",
-      "業務効率化",
+      "技術選定",
+      "OSS比較",
+      "代替ツール",
+      "乗り換え",
+      "Confluence代替",
+      "KaliLinux代替",
+      "Cursor代替",
+      "Sourcegraph代替",
+      "CopilotWorkspace",
+      "ナレッジ管理",
       "ペネトレーションテスト",
-      "AIセキュリティ",
-      "エンジニア生産性",
-      "Python"
+      "コードグラフ",
+      "自作OS",
+      "Python",
+      "TypeScript"
     ],
-    "focus": "日曜(Sun=8 avg)の最弱曜日に `business-angle` 角度を Sun 探索枠で投入。今日の TOP5 は free-claude-code(Claude API → NVIDIA NIM / DeepSeek / OpenRouter / ローカル LM Studio へ振替で月課金カット)/ mattpocock/skills(Matt Pocock 直伝 14 種 skill で属人化排除・受託品質底上げ)/ hackingtool(ペンテスト 185 ツールを単一メニューでセキュリティ受託の環境構築工数削減)/ PostHog(Mixpanel + Amplitude + Hotjar + LaunchDarkly + Sentry + Typeform の 6 SaaS 統合・固定費月数万削減)/ claude-code-templates(agents・MCP・hooks のテンプレで受託立ち上げを分単位に圧縮)という『月いくら削れる / 何人月浮く』の同一フォーマット 5 本構成で、Primary ペルソナ(CTO / ソロ開発者)の意思決定 KPI に直接刺す。重複 1 本(hackingtool)は 04/24 tech-deep → 04/25 同 → 04/26 business-angle と 3 日連続で切り口を変え、04/17→04/18 型の同ラインナップ急落を回避。business-angle は 04/20 (Mon=210) 以来 6 日ぶりで、戦略の『週最低 1 日は柱②/③』を再充足するメタ PDCA 的意味も持つ。free-claude-code は Anthropic ToS リスクの but を 1 行明示し、Primary の信頼を毀損しない情報密度で投入する。"
+    "focus": "月曜(Mon=129 avg)の弱曜日に `comparison` 角度を Mon 探索枠で投入。今日の TOP5 は mattpocock/skills(Confluence/チーム手順書を Claude skill 14 種に置き換え)/ hackingtool(Kali Linux/ParrotOS の VM を普段の macOS+Python ランチャーに置き換え)/ free-claude-code(Cursor/Aider への IDE 乗換せず Claude Code 互換でバックエンド 6 系統に差し替え)/ build-your-own-x(Coursera/Udemy 動画教材を 30 領域 49.6 万 star の自作チュートリアル索引に置き換え)/ GitNexus(Sourcegraph/Copilot Workspace 契約をブラウザ完全ローカル + MCP に置き換え、ただし商用は PolyForm 非商用ライセンス確認必須)という『何を捨てて何を入れるか』の同一フォーマット 5 本構成で、Primary ペルソナ(CTO/ソロ開発者)の技術選定 KPI に直接刺す。重複 3 本(mattpocock/skills, hackingtool, free-claude-code)は 04/26 business-angle から detail/narration を全面書換し、04/17→04/18 型の同ラインナップ急落を予防。comparison は確定サンプル 0(04/22 Wed=7 が唯一の参考値)で母数不足のため、Monday に初投入することで Method × 曜日マトリクスの comparison × Mon セルを 0→1 にする Meta-PDCA データ取りも兼ねる。GitNexus の PolyForm 非商用、hackingtool の個別ライセンス、free-claude-code の ToS 確認を detail に必ず入れ、Primary の信頼を毀損しない情報密度で投入する。"
   }
 }

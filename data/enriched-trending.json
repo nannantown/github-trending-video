@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-26",
+  "date": "2026-04-27",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5を『受託 / スタートアップが組むなら、月いくら削れて、何人月浮くか』で料理する。free-claude-codeはAPI課金の別ベンダー逃がし、mattpocock/skillsは作業手順のチーム配布で属人化を削り、hackingtoolはペンテスト受託の環境構築工数、PostHogは計測SaaS6本の固定費畳み、claude-code-templatesは受託案件の立ち上げ工数を分単位に圧縮、という具体額・具体工数で5本ともビジネス視点に統一する",
+    "method": "comparison",
+    "description": "今日のTOP5を、それぞれが置き換える既存の代替(Confluence/Notionの社内ナレッジ・Kali Linux/ParrotOS・Cursor/Aider・Coursera/Udemy・Sourcegraph/Copilot Workspace)と1対1で対比し、Primary ペルソナ(CTO・ソロ開発者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。昨日のbusiness-angle『月いくら浮く』から視点を切り替え、3本の重複(mattpocock/skills, hackingtool, free-claude-code)も2日連続の同質ナレーションを避ける",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Alishahryar1/free-claude-code",
       "https://github.com/mattpocock/skills",
       "https://github.com/Z4nzu/hackingtool",
-      "https://github.com/PostHog/posthog",
-      "https://github.com/davila7/claude-code-templates"
+      "https://github.com/Alishahryar1/free-claude-code",
+      "https://github.com/codecrafters-io/build-your-own-x",
+      "https://github.com/abhigyanpatwari/GitNexus"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Alishahryar1/free-claude-code",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "language": "Python",
-      "stars": 11391,
-      "todayStars": 3975,
-      "description": "Claude Codeを別LLMで動かすプロキシ",
-      "detail": "Claude CodeのAPIコールをNVIDIA NIM、DeepSeek、OpenRouter、ローカルLM Studioへ振り替えるPython製プロキシ。環境変数2つだけでCLIや拡張は無改変、Anthropicへの月額API課金を別ベンダーへ寄せて経費を圧縮できます。",
-      "narration": "Claude CodeのAPIを別LLMに振り替えるプロキシです。受託案件のAPI費用を月単位でカットできます。"
-    },
-    {
-      "rank": 2,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 19836,
-      "todayStars": 857,
-      "description": "Matt Pocock直伝のskill集",
-      "detail": "TypeScript界の重鎮Matt Pocockが自身の.claude/skills/を公開。tddやto-prd、refactor-planなど14種類をnpx一発で導入でき、受託や社内案件で属人化しがちな作業手順を即チームへ展開できます。",
-      "narration": "Matt Pocockの作業手順を直接導入できる14種skill集です。属人化を回避し受託品質を底上げします。"
+      "stars": 23282,
+      "todayStars": 2507,
+      "description": "Matt Pocock直伝のskill 14種",
+      "detail": "TypeScript界の名教育者Matt Pocockが自身の.claude/skills/を公開。tddやto-prd、refactor-planなど14種をnpx一発で導入でき、Confluenceやチーム手順書を置き換える受託向けskillパックとしてそのまま展開できます。",
+      "narration": "Matt Pocockが.claude/skillsを丸ごと公開しました。社内手順書の代わりにチームへ配布できます。"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "fullName": "Z4nzu/hackingtool",
       "name": "hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
       "language": "Python",
-      "stars": 63746,
-      "todayStars": 1200,
-      "description": "ペンテスト185ツールを一括導入",
-      "detail": "情報収集から無線解析まで185以上のペンテストツールを単一メニューに集約したPython製ランチャー。OS判別と一括更新を備え、セキュリティ受託の環境構築工数を削減できますが商用利用前に各ライセンスの確認が必須です。",
-      "narration": "ペンテスト185ツールを単一メニューに集約したランチャーです。受託の環境構築工数を一気に削れます。"
+      "stars": 65357,
+      "todayStars": 1724,
+      "description": "ペンテスト185ツール一括導入",
+      "detail": "情報収集から無線解析まで185以上のペンテストツールを単一メニューに集約したPython製ランチャー。Kali LinuxやParrotOSをVMで丸ごと用意せず普段のmacOSやUbuntuに追加でき、商用利用前に各ツールの個別ライセンス確認が必須です。",
+      "narration": "ペンテスト185ツールを束ねるランチャーです。Kali Linuxの代わりに普段のmacOSへ載せられます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "Alishahryar1/free-claude-code",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "stars": 13422,
+      "todayStars": 1694,
+      "description": "Claude Code互換の振替プロキシ",
+      "detail": "Claude CodeのAPIコールをNVIDIA NIM・DeepSeek・OpenRouter・LM Studio・Ollamaへ環境変数2つで振り替えるプロキシ。CursorやAiderへ乗り換えずバックエンドだけ差し替えでき、各社ToS確認はユーザー責任です。",
+      "narration": "Claude Codeの裏側を6プロバイダに振り替えるプロキシです。Cursorに乗り換えず費用を圧縮できます。"
     },
     {
       "rank": 4,
-      "fullName": "PostHog/posthog",
-      "name": "posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "language": "Python",
-      "stars": 33461,
-      "todayStars": 469,
-      "description": "計測SaaS6本を1つに束ねるOSS",
-      "detail": "Mixpanel・Amplitude・Hotjar・LaunchDarkly・Sentry・Typeformの機能を1つに統合したMIT製プラットフォーム。クラウド月100万イベントまで無料で、スタートアップが複数SaaS契約を畳み固定費を月数万円削減できます。",
-      "narration": "計測系SaaS6本分を1つで賄うOSSです。スタートアップの月数万のSaaS課金を畳めます。"
+      "fullName": "codecrafters-io/build-your-own-x",
+      "name": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "language": "Markdown",
+      "stars": 496742,
+      "todayStars": 1074,
+      "description": "DB OS自作教材49万starの索引",
+      "detail": "DB・コンパイラ・OS・3Dレンダラー・LLMなど30領域以上の自作チュートリアル外部リンクをCC0で索引した49.6万star規模の教材集。CourseraやUdemyの動画より、手を動かして仕組みを覚えたい派の一次情報源として置けます。",
+      "narration": "DBやOSを自作する教材を集めた巨大な索引です。Courseraの動画より手で作って覚える派向けの一覧です。"
     },
     {
       "rank": 5,
-      "fullName": "davila7/claude-code-templates",
-      "name": "claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "language": "Python",
-      "stars": 25324,
-      "todayStars": 78,
-      "description": "agents・MCPを一発でテンプレ化",
-      "detail": "agents・commands・MCP統合・hooks・settingsをテンプレ化しnpx一発でClaude Code環境を整えるCLI。リアルタイム解析ダッシュボードも備え、複数案件を並列で回す受託の立ち上げ工数を分単位に圧縮できます。",
-      "narration": "agentsやMCPをテンプレで一発投入するCLIです。受託の案件立ち上げを数分で再現できます。"
+      "fullName": "abhigyanpatwari/GitNexus",
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "stars": 30105,
+      "todayStars": 667,
+      "description": "ブラウザで動くコード知識グラフ",
+      "detail": "Tree-sitterとBM25・WebGPU埋め込みでコード知識グラフをブラウザだけで構築するOSS。SourcegraphやCopilot Workspaceの代わりに完全ローカルで動きMCP経由で呼べますが、商用はPolyForm非商用ライセンス確認が必要です。",
+      "narration": "ブラウザだけで動くコード知識グラフのOSSです。Sourcegraph契約なしでMCP経由Cursorから呼べます。"
     }
   ]
 }
