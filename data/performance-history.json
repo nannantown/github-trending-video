@@ -317,7 +317,7 @@
         "views": 251,
         "likes": 7,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -355,7 +355,7 @@
         "views": 1361,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -393,7 +393,7 @@
         "views": 547,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -433,7 +433,7 @@
         "views": 767,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -471,7 +471,7 @@
         "views": 2010,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -553,7 +553,7 @@
         "views": 16,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 212,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 7,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -698,10 +698,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 7,
+        "views": 8,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -856,10 +856,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 6,
-        "likes": 1,
+        "views": 8,
+        "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-26T23:27:13.092Z"
+        "updatedAt": "2026-04-27T23:40:34.284Z"
       }
     },
     {
@@ -907,6 +907,62 @@
           "https://github.com/Alishahryar1/free-claude-code",
           "https://github.com/codecrafters-io/build-your-own-x",
           "https://github.com/abhigyanpatwari/GitNexus"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 6,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-04-27T23:40:34.284Z"
+      }
+    },
+    {
+      "videoId": "sefpfMwOOYA",
+      "videoUrl": "https://youtube.com/shorts/sefpfMwOOYA",
+      "date": "2026-04-28",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/28 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "languages": [
+        "Shell",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "projects": [
+        "mattpocock/skills",
+        "abhigyanpatwari/GitNexus",
+        "ComposioHQ/awesome-codex-skills",
+        "Alishahryar1/free-claude-code",
+        "gastownhall/beads"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "今日のTOP5を『AIコーディングエージェントの主要レイヤ』として5本同居で料理する。skill配布層(mattpocock/skillsとawesome-codex-skillsでClaude Code側とCodex CLI側を二刀流)、コード理解層(GitNexus)、モデルバックエンド差替層(free-claude-code)、永続メモリ層(beads)で、PrimaryペルソナがClaude Code/Codex/Cursor環境を1スタックとして組む際の各レイヤ採用候補を一望できる構成にする。重複3本(mattpocock/skills、free-claude-code、GitNexus)は04/26 business-angle『月いくら削れるか』および04/27 comparison『何の代替か』から、本日はエコシステム位置づけ『どの層を担うか』へ完全に切り口を変えて04/17→04/18型の同ラインナップ急落を回避する",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/abhigyanpatwari/GitNexus",
+          "https://github.com/ComposioHQ/awesome-codex-skills",
+          "https://github.com/Alishahryar1/free-claude-code",
+          "https://github.com/gastownhall/beads"
         ],
         "query": "",
         "freshness_hours": 1
@@ -1117,6 +1173,16 @@
         "standard: 392 avg views (20 videos)",
         "Trending languages: C++ (1.3x)",
         "Day performance: Tue=917, Fri=821, Thu=461, Wed=353, Sat=201, Mon=157, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-27",
+      "changes": [
+        "Rust: 0.4x avg views → drop",
+        "standard: 374 avg views (21 videos)",
+        "Trending languages: C++ (1.4x)",
+        "Day performance: Tue=917, Fri=821, Thu=461, Wed=353, Sat=201, Mon=119, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
