@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を、それぞれが置き換える既存の代替(Confluence/Notionの社内ナレッジ・Kali Linux/ParrotOS・Cursor/Aider・Coursera/Udemy・Sourcegraph/Copilot Workspace)と1対1で対比し、Primary ペルソナ(CTO・ソロ開発者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。昨日のbusiness-angle『月いくら浮く』から視点を切り替え、3本の重複(mattpocock/skills, hackingtool, free-claude-code)も2日連続の同質ナレーションを避ける",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『AIコーディングエージェントの主要レイヤ』として5本同居で料理する。skill配布層(mattpocock/skillsとawesome-codex-skillsでClaude Code側とCodex CLI側を二刀流)、コード理解層(GitNexus)、モデルバックエンド差替層(free-claude-code)、永続メモリ層(beads)で、PrimaryペルソナがClaude Code/Codex/Cursor環境を1スタックとして組む際の各レイヤ採用候補を一望できる構成にする。重複3本(mattpocock/skills、free-claude-code、GitNexus)は04/26 business-angle『月いくら削れるか』および04/27 comparison『何の代替か』から、本日はエコシステム位置づけ『どの層を担うか』へ完全に切り口を変えて04/17→04/18型の同ラインナップ急落を回避する",
     "sources": [
       "https://github.com/trending",
       "https://github.com/mattpocock/skills",
-      "https://github.com/Z4nzu/hackingtool",
+      "https://github.com/abhigyanpatwari/GitNexus",
+      "https://github.com/ComposioHQ/awesome-codex-skills",
       "https://github.com/Alishahryar1/free-claude-code",
-      "https://github.com/codecrafters-io/build-your-own-x",
-      "https://github.com/abhigyanpatwari/GitNexus"
+      "https://github.com/gastownhall/beads"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 23282,
-      "todayStars": 2507,
-      "description": "Matt Pocock直伝のskill 14種",
-      "detail": "TypeScript界の名教育者Matt Pocockが自身の.claude/skills/を公開。tddやto-prd、refactor-planなど14種をnpx一発で導入でき、Confluenceやチーム手順書を置き換える受託向けskillパックとしてそのまま展開できます。",
-      "narration": "Matt Pocockが.claude/skillsを丸ごと公開しました。社内手順書の代わりにチームへ配布できます。"
+      "stars": 29790,
+      "todayStars": 5551,
+      "description": "Claude Code用skill21種の配布層",
+      "detail": "TypeScriptの第一人者Matt Pocockが、自身の.claude/skills/から21種を公開。設計、TDD、PRD化、リファクタ計画まで実務の型をエージェントが即理解する形で渡せ、AIスタックのClaude Code側skill配布層を担います。",
+      "narration": "Claude Code用skill21種を集めた配布層です。設計やTDD、PRD化まで作業の型をAIに渡せます。"
     },
     {
       "rank": 2,
-      "fullName": "Z4nzu/hackingtool",
-      "name": "hackingtool",
-      "url": "https://github.com/Z4nzu/hackingtool",
-      "language": "Python",
-      "stars": 65357,
-      "todayStars": 1724,
-      "description": "ペンテスト185ツール一括導入",
-      "detail": "情報収集から無線解析まで185以上のペンテストツールを単一メニューに集約したPython製ランチャー。Kali LinuxやParrotOSをVMで丸ごと用意せず普段のmacOSやUbuntuに追加でき、商用利用前に各ツールの個別ライセンス確認が必須です。",
-      "narration": "ペンテスト185ツールを束ねるランチャーです。Kali Linuxの代わりに普段のmacOSへ載せられます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "Alishahryar1/free-claude-code",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "language": "Python",
-      "stars": 13422,
-      "todayStars": 1694,
-      "description": "Claude Code互換の振替プロキシ",
-      "detail": "Claude CodeのAPIコールをNVIDIA NIM・DeepSeek・OpenRouter・LM Studio・Ollamaへ環境変数2つで振り替えるプロキシ。CursorやAiderへ乗り換えずバックエンドだけ差し替えでき、各社ToS確認はユーザー責任です。",
-      "narration": "Claude Codeの裏側を6プロバイダに振り替えるプロキシです。Cursorに乗り換えず費用を圧縮できます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "codecrafters-io/build-your-own-x",
-      "name": "build-your-own-x",
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "language": "Markdown",
-      "stars": 496742,
-      "todayStars": 1074,
-      "description": "DB OS自作教材49万starの索引",
-      "detail": "DB・コンパイラ・OS・3Dレンダラー・LLMなど30領域以上の自作チュートリアル外部リンクをCC0で索引した49.6万star規模の教材集。CourseraやUdemyの動画より、手を動かして仕組みを覚えたい派の一次情報源として置けます。",
-      "narration": "DBやOSを自作する教材を集めた巨大な索引です。Courseraの動画より手で作って覚える派向けの一覧です。"
-    },
-    {
-      "rank": 5,
       "fullName": "abhigyanpatwari/GitNexus",
       "name": "GitNexus",
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "language": "TypeScript",
-      "stars": 30105,
-      "todayStars": 667,
-      "description": "ブラウザで動くコード知識グラフ",
-      "detail": "Tree-sitterとBM25・WebGPU埋め込みでコード知識グラフをブラウザだけで構築するOSS。SourcegraphやCopilot Workspaceの代わりに完全ローカルで動きMCP経由で呼べますが、商用はPolyForm非商用ライセンス確認が必要です。",
-      "narration": "ブラウザだけで動くコード知識グラフのOSSです。Sourcegraph契約なしでMCP経由Cursorから呼べます。"
+      "stars": 31436,
+      "todayStars": 1074,
+      "description": "AIエージェント用コード知識グラフ",
+      "detail": "Tree-sitterのASTとBM25・密ベクトルのハイブリッド検索を、サーバ無しでブラウザに閉じて実装。Claude CodeやCursorからMCP経由で参照でき、AIスタックのコード理解層を担う知識グラフを提供します。",
+      "narration": "AIエージェントに渡すコード理解レイヤです。Tree-sitter解析と密ベクトル検索を1つに束ねます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "name": "awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "stars": 2721,
+      "todayStars": 637,
+      "description": "Codex CLI向けskillの集約所",
+      "detail": "ComposioHQ運営、OpenAI Codex CLI/API向けの60種超skillリスト。$CODEX_HOME/skillsへ置くだけで自動発火し、PRレビューや会議メモから1000超のSaaS連携まで自然文で呼べ、Codex側のskill配布層を担います。",
+      "narration": "OpenAI Codex CLI向けskillの集約所です。60種超でComposioの1000SaaSを呼べます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Alishahryar1/free-claude-code",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "stars": 15970,
+      "todayStars": 2973,
+      "description": "Claude Codeのバックエンド差替層",
+      "detail": "Claude CodeのAPIをNVIDIA NIM、DeepSeek、OpenRouter、LM Studio、llama.cpp、Ollamaの6系統へ転送するプロキシ。環境変数2つだけで切替でき、AIスタックのモデルバックエンド差替層をローカル含めて担えます。",
+      "narration": "AIスタックのモデルバックエンド差替層です。Claude CodeをOllamaなど6系統のLLMで動かせます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "gastownhall/beads",
+      "name": "beads",
+      "url": "https://github.com/gastownhall/beads",
+      "language": "Go",
+      "stars": 22158,
+      "todayStars": 485,
+      "description": "AIエージェント用の永続メモリ層",
+      "detail": "Dolt製のバージョン管理SQLを.beads/に持ち、MCP経由でClaude CodeやCursorから操作。依存関係とブロッカーをハッシュIDで管理し、複数セッションをまたいでも作業履歴を失わないAIエージェントの永続メモリ層を担います。",
+      "narration": "AIエージェント専用の永続メモリ層です。Dolt+MCPで会話を超えて作業履歴と依存関係を残せます。"
     }
   ]
 }
