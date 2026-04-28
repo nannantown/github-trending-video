@@ -355,7 +355,7 @@
         "views": 1361,
         "likes": 17,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -393,7 +393,7 @@
         "views": 547,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -433,7 +433,7 @@
         "views": 767,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -471,7 +471,7 @@
         "views": 2010,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -553,7 +553,7 @@
         "views": 16,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 212,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 7,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "views": 8,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 8,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -912,10 +912,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
+        "updatedAt": "2026-04-28T23:42:07.079Z"
       }
     },
     {
@@ -963,6 +963,59 @@
           "https://github.com/ComposioHQ/awesome-codex-skills",
           "https://github.com/Alishahryar1/free-claude-code",
           "https://github.com/gastownhall/beads"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 318,
+        "likes": 6,
+        "comments": 0,
+        "updatedAt": "2026-04-28T23:42:07.079Z"
+      }
+    },
+    {
+      "videoId": "VdyddeWQSAk",
+      "videoUrl": "https://youtube.com/shorts/VdyddeWQSAk",
+      "date": "2026-04-29",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/29 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "Shell",
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "mattpocock/skills",
+        "abhigyanpatwari/GitNexus",
+        "ComposioHQ/awesome-codex-skills",
+        "microsoft/VibeVoice",
+        "davila7/claude-code-templates"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日のTOP5を『受託・スタートアップが組むなら、月いくら削れて何人月浮くか』の具体額・具体工数で5本とも統一して料理する。mattpocock/skillsは新人立ち上げ工数の圧縮、GitNexusはSourcegraph月額契約ゼロ化とNDA案件のオンプレ要件、awesome-codex-skillsはComposio経由1000 SaaS連携で連携実装1人月の削減、microsoft/VibeVoiceはElevenLabs課金停止と社内PoC TTS/ASRの内製化、davila7/claude-code-templatesはClaude Code案件の初日キックオフ工数を分単位化。重複3本(mattpocock/skills 4日連続、GitNexus 3日連続、claude-code-templates 3日ぶり再登場)は04/26 cost軸→04/27 代替軸→04/28 スタック軸を経た本日04/29で『月額金額・人月工数』の具体数値軸へ完全切替し、04/24-25型の同method×同ラインナップ連投ペナルティを回避する。Wed(=525 avg)曜日に柱②(business-angle)をPrimaryペルソナのCTO/ソロ開発者向けに直接当てる構成。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/abhigyanpatwari/GitNexus",
+          "https://github.com/ComposioHQ/awesome-codex-skills",
+          "https://github.com/microsoft/VibeVoice",
+          "https://github.com/davila7/claude-code-templates"
         ],
         "query": "",
         "freshness_hours": 1
@@ -1183,6 +1236,17 @@
         "standard: 374 avg views (21 videos)",
         "Trending languages: C++ (1.4x)",
         "Day performance: Tue=917, Fri=821, Thu=461, Wed=353, Sat=201, Mon=119, Sun=8"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-28",
+      "changes": [
+        "Rust: 0.4x avg views → drop",
+        "Shell: 0.3x avg views → drop",
+        "standard: 371 avg views (22 videos)",
+        "Trending languages: C++ (1.4x)",
+        "Day performance: Fri=821, Tue=717, Thu=461, Wed=353, Sat=201, Mon=120, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
