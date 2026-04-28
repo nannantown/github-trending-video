@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-04-28",
+  "updatedAt": "2026-04-29",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 129,
-      "Tue": 916,
+      "Mon": 119,
+      "Tue": 917,
       "Wed": 525,
-      "Thu": 688,
-      "Fri": 1233,
-      "Sat": 300,
+      "Thu": 461,
+      "Fri": 821,
+      "Sat": 201,
       "Sun": 8
     },
     "topPerformingLanguages": [
       { "language": "Python", "multiplier": 1.2 },
       { "language": "TypeScript", "multiplier": 1.1 },
-      { "language": "Rust", "multiplier": 1.0 }
+      { "language": "Shell", "multiplier": 1.0 }
     ],
     "topPerformingVideo": {
       "date": "2026-04-17",
@@ -26,38 +26,39 @@
         "jamiepine/voicebox",
         "vercel-labs/open-agents"
       ],
-      "note": "『Claude Code × AI エージェント』の横串エコシステム同居が過去最高。method 推定では ecosystem 平均 938 views、tech-deep 平均 356 views、business-angle 平均 317 views。本日 04/28 (Tue=916 avg) は最強曜日 × 最強 method (ecosystem) の組み合わせを直近 2 日 (04/26 business-angle / 04/27 comparison) の禁則に抵触せずに切れる絶好機。前週 04/13 (business-angle 251) → 04/14 (ecosystem 1361) と同じ月→火移行パターン狙い。重複 3 本 (mattpocock/skills、free-claude-code、GitNexus) は 04/26 cost 軸 → 04/27 代替軸 → 04/28 スタック軸へ角度 180 度切替で 04/17→04/18 型を予防。04/27 の 5 本中 3 本重複連続も同じ予防策で乗り切る前例あり。"
+      "note": "Method 別平均(04/22 以降の本格 method 期、updatedAt あり videos のみ): business-angle 8.0 (1 投稿) / ecosystem 8.0 (1 投稿) / comparison 6.5 (2 投稿) / tech-deep 4.0 (2 投稿)。直近 2 日連続禁則(04/27 comparison / 04/28 ecosystem)を回避し、Method TOP タイから ecosystem を除外した残一手 business-angle(柱②)を本日 04/29 (Wed=525 avg) に exploit 投入。本 video 04/17 (2010) は legacy 期データのため method 推定の根拠としては弱く、04/22 以降の機械的集計を主基準に置く。重複 3 本(mattpocock/skills 4 日連続、GitNexus 3 日連続、claude-code-templates 3 日ぶり)は 04/26 cost 軸 → 04/27 代替軸 → 04/28 スタック軸を経て、本日は『月額金額・人月工数』の具体数値軸へ完全切替し 04/24-25 型の同 method × 同ラインナップ連投ペナルティを構造的に予防する。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は安定。そのまま維持",
-      "本日は火曜(Tue=916 avg)で最強曜日。アルゴリズム露出の追い風を最大化するため、ecosystem 角度で過去最高 04/17 (2010) と 04/14 (1361) の同 method × 同曜日帯のリプレイを狙う",
-      "重複 3 本 (mattpocock/skills、free-claude-code、GitNexus) は 3 日連続登場。04/26 business-angle、04/27 comparison、04/28 ecosystem と毎日角度を 180 度切替えて『同じ顔ぶれの N 日目』に見せず、04/17→04/18 型急落を封じる"
+      "本日は水曜(Wed=525 avg)で中位曜日。最強曜日の Tue=917 / Fri=821 ほどの追い風はないため、ナレーション情報量と保存動機(具体額・具体工数)で勝負を組み立てる",
+      "重複 3 本(mattpocock/skills、GitNexus、claude-code-templates)を本日も使うが、04/26 cost 軸/04/27 代替軸/04/28 スタック軸とは別の『月額金額・人月工数』の具体数値軸で 04/17→04/18 型および 04/24-25 型の連投急落を構造的に回避する"
     ],
     "hashtags": [
-      "火曜は最強曜日(Tue=916 avg)。AI コーディングエージェント文脈での濃いタグを厚く置く: #ClaudeCode #Codex #Cursor #MCP #AIエージェント #エージェント開発 #CodingAgent #AnthropicMCP",
-      "ecosystem 角度のため、5 レイヤを構成するキーワードを並べる: #skills #knowledgegraph #TreeSitter #LLMルーティング #Ollama #DeepSeek #OpenRouter #エージェントメモリ #DoltDB",
-      "言語タグは Python(2 本)/ TypeScript(1 本)/ Shell(1 本)/ Go(1 本)。Python multiplier 1.2x・TypeScript 1.1x が効くため #Python #TypeScript を主、副に #Go #Shell を補助。Rust は 0 本のため外す",
-      "Primary/Secondary 向けの業界タグを補助投入: #AI開発スタック #LLMOps #エンジニア生産性 #生成AI開発 #MattPocock #OSS。昨日の代替軸タグ(#Confluence代替 #KaliLinux代替 #Cursor代替 #Sourcegraph代替)からは距離を取る"
+      "水曜の中位曜日対策で、Primary ペルソナ(CTO/ソロ開発者の意思決定層)に直撃する業界タグを厚く: #受託開発 #スタートアップ #CTO #ソロCTO #エンジニア生産性 #LLMOps #AI開発スタック #生成AI開発",
+      "business-angle 角度のため、コスト・工数の語彙を補強: #月額削減 #ランニングコスト #人月削減 #SaaS代替 #内製化 #PoC #社内検証 #見積もり",
+      "言語タグは Python(3 本)/ TypeScript(1 本)/ Shell(1 本)。Python multiplier 1.2x・TypeScript 1.1x が効くため #Python #TypeScript を主、副に #Shell を補助。Rust/Go/C++ は 0 本のため外す",
+      "AI コーディング・エージェント・音声 AI 文脈の濃いタグも継続: #ClaudeCode #Codex #Cursor #MCP #Composio #VibeVoice #Microsoft #ElevenLabs代替 #Sourcegraph代替 #ナレッジマネジメント",
+      "前日 04/28 ecosystem 角度のスタック語彙(#skills #knowledgegraph #LLMルーティング #DoltDB #エージェントメモリ)からは距離を取り、本日は金額・工数の意思決定語彙へ寄せる"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 50-58 文字で収まっており、合計 275 文字、TTS +30% 読み上げで約 50 秒、opening/ending と合わせて 55 秒に収まる",
-      "カタカナ発音を想定して TTS の誤読回避(マット ポコック、ギット ネクサス、コーデックス、コンポジオ、フリー クロード コード、ビーズ、ドルト)。固有名詞は原文英語のまま(Claude Code, Codex, Cursor, MCP, BM25, Tree-sitter, NVIDIA NIM, DeepSeek, OpenRouter, LM Studio, llama.cpp, Ollama, Dolt, SQL, ComposioHQ)",
-      "ecosystem 角度の一貫性: 各ナレーション前半で『どの層を担うか』、後半で『そのレイヤの独自性・接続先』を必ず提示する。skill 配布層 (mattpocock/skills と awesome-codex-skills) → コード理解層 (GitNexus) → モデルバックエンド層 (free-claude-code) → 永続メモリ層 (beads) のスタック構造を、視聴者が脳内で 1 つの絵に組み上げられる順序を維持",
-      "昨日 04/27 comparison の語彙(代わりに、乗り換えず、〜なしで、〜の代わり、載せられる、置き換える)からは完全に距離を置き、本日は『配布層、コード理解レイヤ、集約所、差替層、永続メモリ層、スタック、束ねる、繋げる、渡す』など構造語彙へ完全切替"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 54-60 文字で収まり、合計 289 文字、TTS +30% 読み上げで約 26 秒(プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
+      "カタカナ発音を想定して TTS の誤読を回避(マット ポコック、ギット ネクサス、コーデックス、コンポジオ、バイブ ボイス、クロード コード)。固有名詞は原文英語のまま(Claude Code, Codex, Cursor, Composio, MCP, Sourcegraph, ElevenLabs, NDA, MIT, TTS, ASR, SaaS, PoC)",
+      "business-angle 角度の一貫性: 各ナレーション前半で『何を削れるか / 何が浮くか』、後半で『どれくらい削れるか(月額・人月・期間)』を必ず提示する。skills は『新人立ち上げ 2 週間 → 数日』、GitNexus は『Sourcegraph 契約ゼロ + NDA 案件対応』、awesome-codex-skills は『1 人月 → 半日』、VibeVoice は『ElevenLabs 月額停止』、claude-code-templates は『初日工数を分単位 + 見積もり半日下げ』と全 5 本が金額・工数の具体数値で揃う",
+      "前日 04/28 ecosystem の語彙(配布層、コード理解レイヤ、集約所、差替層、永続メモリ層、スタック、束ねる、繋げる、渡す)からは完全に距離を置き、本日は『削れる、潰せる、縮める、停止できる、ゼロにする、半日に下げる、人月、月額、案件、見積もり、内製化、課金』など金額・工数語彙へ完全切替"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem`(Tue 最強曜日 × 最強 method)。直近 2 日 (04/26 business-angle / 04/27 comparison) の連続禁則に抵触せず、過去 5 本平均 938 views の最強カードを 04/14 (1361) / 04/17 (2010) と同じ Tue 帯で切る。ベンチは 500 views 最低、1000 views 目標、Method × 曜日マトリクスでは ecosystem × Tue セルの母数を 1 → 2 に増やすメタ価値もある",
-      "今日の TOP5 は AI コーディングエージェント・スタックの 5 レイヤを偶然揃えた構成: mattpocock/skills (Claude Code 用 skill 配布層、21 種) / abhigyanpatwari/GitNexus (コード理解層、Tree-sitter + BM25/密ベクトル + MCP、ブラウザ完結) / ComposioHQ/awesome-codex-skills (Codex CLI 用 skill 配布層、60 種超 + Composio 1000 SaaS) / Alishahryar1/free-claude-code (モデルバックエンド差替層、NVIDIA NIM + DeepSeek + OpenRouter + LM Studio + llama.cpp + Ollama の 6 系統) / gastownhall/beads (永続メモリ層、Dolt 製 SQL + MCP)。Primary ペルソナ (CTO/ソロ開発者) が『自社 Claude Code/Codex/Cursor 環境のどこに何を入れるか』を一望できる構成",
-      "重複 3 本 (mattpocock/skills、free-claude-code、GitNexus) は 04/26 business-angle のコスト軸 → 04/27 comparison の代替軸 → 04/28 ecosystem のスタック軸へ 3 日連続で角度 180 度切替。mattpocock/skills は 04/26『14 種 skill で属人化排除』→ 04/27『Confluence の代わりに配布』→ 04/28『Claude Code 用 skill 配布層、21 種』(skill 数も 14→21 に更新)。free-claude-code は 04/26『API 課金カット』→ 04/27『Cursor に乗り換えず差替』→ 04/28『モデルバックエンド差替層、6 系統 LLM』。GitNexus は 04/27『Sourcegraph 契約なしで MCP 経由 Cursor から』→ 04/28『コード理解レイヤ、Tree-sitter + 密ベクトル検索を 1 つに束ねる』。視聴者の脳内で別動画として認識される情報量を確保し、04/17→04/18 型を回避",
-      "新規 2 本 (awesome-codex-skills、beads) は本日初登場。awesome-codex-skills は『Codex CLI 用の skill 配布層、ComposioHQ 運営で 60 種超 + Composio の 1000 SaaS 連携』、beads は『AI エージェント専用の永続メモリ層、Dolt 製 SQL + MCP で依存関係付き作業履歴』。2 本とも『どの層を担うか』を冒頭で明示し、視聴者がスタック構造を脳内で組めるよう順序を意識した narration 設計",
-      "火曜の最強曜日(Tue=916 avg)対策として、武器は『5 レイヤ揃い踏みの構造美』。視聴者が『1 動画見るだけで AI コーディング環境の全体像が把握できる』情報密度を確保。前週 04/13→04/14 で business-angle 251 → ecosystem 1361 と 5 倍増の月→火パターン再現を狙い、保存・シェア動機が立つ Primary 向け密度を維持"
+      "本日の discovery.method は `business-angle`(柱② / Primary ペルソナ向け)。直近 2 日(04/27 comparison / 04/28 ecosystem)の連続禁則を回避し、Method 別 TOP タイ(business-angle = ecosystem = 8.0 avg)から ecosystem 直近使用済みを除いた残一手の exploit 選択。Wed=525 avg は最強 Tue=917 / Fri=821 に劣るため、保存・社内シェア動機を金額・工数の具体数値で補強する戦略",
+      "今日の TOP5 は『AI コーディング受託 + 音声 AI 受託のコスト削減セット』として揃った構成: mattpocock/skills(新人立ち上げ 2 週間 → 数日、13 種スキル) / abhigyanpatwari/GitNexus(Sourcegraph 契約ゼロ + NDA 厳しい受託でブラウザ完結) / ComposioHQ/awesome-codex-skills(連携実装 1 人月 → 半日、Composio 1000 SaaS) / microsoft/VibeVoice(ElevenLabs 月額固定費停止、MIT 音声 AI、TTS 90 分 + ASR 60 分) / davila7/claude-code-templates(初日キックオフ工数分単位、見積もり半日下げ、100 種超テンプレ)。Primary ペルソナ(CTO/ソロ開発者)が『今月どこから何を削れるか』を 1 動画で意思決定できる構成",
+      "重複 3 本(mattpocock/skills 4 日連続、GitNexus 3 日連続、claude-code-templates 3 日ぶり再登場)は 04/26 cost 軸 → 04/27 代替軸 → 04/28 スタック軸 → 04/29 金額・工数の具体数値軸へ 4 日連続で角度を切替。mattpocock/skills は 04/26『14 種で属人化排除』→ 04/27『Confluence の代わりに配布』→ 04/28『Claude Code 用 skill 配布層 21 種』→ 04/29『新人立ち上げ 2 週間 → 数日に縮める 13 種』(skill 数は 21→13 に整理、README 実数値に合わせて更新)。GitNexus は 04/27『Sourcegraph 契約なしで MCP 経由 Cursor から』→ 04/28『コード理解レイヤ Tree-sitter + 密ベクトル』→ 04/29『Sourcegraph 月額契約ゼロ + NDA 厳しい受託でブラウザ完結』。claude-code-templates は 04/26『立ち上げ工数分単位』を金額軸で再提示し、04/27/04/28 で抜けた間の『間』を強める",
+      "新規 1 本(microsoft/VibeVoice)は本日の唯一の新顔で MIT TTS+ASR 音声 AI。動画ナレーション SaaS / 議事録 SaaS 受託の月額固定費削減を business-angle の中核に据え、AI コーディング 4 本に 1 本だけ音声 AI を混ぜることで視聴者の『今日新しい何か』感を作る。Microsoft は『商用利用は研究開発を超えた検証必須』と注意書きしているため、ナレーション・detail とも『社内 PoC』『内製化検証』の前提で表現を統一(誇張回避)",
+      "水曜(Wed=525 avg)の中位曜日対策として、武器は『金額・工数の具体数値による意思決定密度』。視聴者(CTO/ソロ開発者)が『今月どこから何を削れるか』を 1 動画で持ち帰れる情報密度を確保。前週同曜日 04/22 (Wed=7) は comparison 角度で失敗しており、本日は business-angle で曜日 × method の新セルを開拓するメタ PDCA 的意味も持つ"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-04-28",
-    "dayOfWeek": "Tue",
+    "date": "2026-04-29",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
@@ -68,23 +69,28 @@
       "Codex",
       "Cursor",
       "MCP",
+      "Composio",
       "Anthropic",
+      "Microsoft",
+      "VibeVoice",
+      "受託開発",
+      "スタートアップ",
+      "CTO",
       "AI開発スタック",
-      "CodingAgent",
       "LLMOps",
-      "skills",
-      "knowledgegraph",
-      "TreeSitter",
-      "Ollama",
-      "DeepSeek",
-      "OpenRouter",
-      "DoltDB",
-      "MattPocock",
-      "エージェントメモリ",
       "エンジニア生産性",
+      "月額削減",
+      "ランニングコスト",
+      "人月削減",
+      "SaaS代替",
+      "内製化",
+      "PoC",
+      "Sourcegraph代替",
+      "ElevenLabs代替",
+      "ナレッジマネジメント",
       "Python",
       "TypeScript"
     ],
-    "focus": "火曜(Tue=916 avg)の最強曜日に `ecosystem` 角度を exploit 投入。直近 2 日 (04/26 business-angle / 04/27 comparison) の連続禁則に抵触せず、過去 5 本平均 938 views の最強 method を最強曜日と組み合わせる。今日の TOP5 は AI コーディングエージェント・スタックの 5 レイヤを偶然揃えた構成: mattpocock/skills(Claude Code 用 skill 配布層、21 種公開)/ abhigyanpatwari/GitNexus(コード理解層、Tree-sitter + ハイブリッド検索をブラウザ完結 + MCP)/ ComposioHQ/awesome-codex-skills(Codex CLI 用 skill 集約所、60 種超 + Composio 1000 SaaS)/ Alishahryar1/free-claude-code(モデルバックエンド差替層、Claude Code を NVIDIA NIM/DeepSeek/OpenRouter/LM Studio/llama.cpp/Ollama の 6 系統へ転送)/ gastownhall/beads(永続メモリ層、Dolt 製 SQL + MCP で依存関係付き作業履歴)。Primary ペルソナ(CTO/ソロ開発者)が『自社 Claude Code/Codex/Cursor 環境のどこに何を入れるか』を 1 動画で一望できる構成。重複 3 本(mattpocock/skills、free-claude-code、GitNexus)は 04/26 cost 軸 → 04/27 代替軸 → 04/28 スタック軸へ 3 日連続で角度 180 度切替で、04/17→04/18 型急落を回避。ベンチは 500 views 最低、1000 views 目標、04/14 (1361) / 04/17 (2010) の同 method × 同曜日帯リプレイを狙う。Method × 曜日マトリクスでは ecosystem × Tue セルを母数 1 → 2 に増やすメタ PDCA 的意味も持つ。"
+    "focus": "水曜(Wed=525 avg)の中位曜日に `business-angle` 角度(柱② / Primary ペルソナ向け)を exploit 投入。直近 2 日(04/27 comparison / 04/28 ecosystem)の連続禁則を回避し、Method 別 TOP タイ(business-angle = ecosystem = 8.0 avg)から ecosystem 直近使用済みを除いた残一手。今日の TOP5 は『AI コーディング受託 + 音声 AI 受託のコスト削減セット』: mattpocock/skills(新人立ち上げ 2 週間 → 数日、13 種スキル) / abhigyanpatwari/GitNexus(Sourcegraph 契約ゼロ + NDA 厳しい受託でブラウザ完結) / ComposioHQ/awesome-codex-skills(連携実装 1 人月 → 半日、Composio 1000 SaaS) / microsoft/VibeVoice(ElevenLabs 月額固定費停止、MIT 音声 AI、TTS 90 分 + ASR 60 分) / davila7/claude-code-templates(初日キックオフ工数分単位、見積もり半日下げ、100 種超テンプレ)。Primary ペルソナ(CTO/ソロ開発者)が『今月どこから何を削れるか』を 1 動画で意思決定できる構成。重複 3 本(mattpocock/skills 4 日連続、GitNexus 3 日連続、claude-code-templates 3 日ぶり再登場)は 04/26 cost 軸 → 04/27 代替軸 → 04/28 スタック軸 → 04/29 金額・工数の具体数値軸へ 4 日連続で角度を切替えて 04/17→04/18 型および 04/24-25 型の連投急落を構造的に回避。ベンチは 200 views 最低、500 views 目標、Method × 曜日マトリクスでは business-angle × Wed セルの母数を 0 → 1 に開拓するメタ価値もある。"
   }
 }

@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-29",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『AIコーディングエージェントの主要レイヤ』として5本同居で料理する。skill配布層(mattpocock/skillsとawesome-codex-skillsでClaude Code側とCodex CLI側を二刀流)、コード理解層(GitNexus)、モデルバックエンド差替層(free-claude-code)、永続メモリ層(beads)で、PrimaryペルソナがClaude Code/Codex/Cursor環境を1スタックとして組む際の各レイヤ採用候補を一望できる構成にする。重複3本(mattpocock/skills、free-claude-code、GitNexus)は04/26 business-angle『月いくら削れるか』および04/27 comparison『何の代替か』から、本日はエコシステム位置づけ『どの層を担うか』へ完全に切り口を変えて04/17→04/18型の同ラインナップ急落を回避する",
+    "method": "business-angle",
+    "description": "今日のTOP5を『受託・スタートアップが組むなら、月いくら削れて何人月浮くか』の具体額・具体工数で5本とも統一して料理する。mattpocock/skillsは新人立ち上げ工数の圧縮、GitNexusはSourcegraph月額契約ゼロ化とNDA案件のオンプレ要件、awesome-codex-skillsはComposio経由1000 SaaS連携で連携実装1人月の削減、microsoft/VibeVoiceはElevenLabs課金停止と社内PoC TTS/ASRの内製化、davila7/claude-code-templatesはClaude Code案件の初日キックオフ工数を分単位化。重複3本(mattpocock/skills 4日連続、GitNexus 3日連続、claude-code-templates 3日ぶり再登場)は04/26 cost軸→04/27 代替軸→04/28 スタック軸を経た本日04/29で『月額金額・人月工数』の具体数値軸へ完全切替し、04/24-25型の同method×同ラインナップ連投ペナルティを回避する。Wed(=525 avg)曜日に柱②(business-angle)をPrimaryペルソナのCTO/ソロ開発者向けに直接当てる構成。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/mattpocock/skills",
       "https://github.com/abhigyanpatwari/GitNexus",
       "https://github.com/ComposioHQ/awesome-codex-skills",
-      "https://github.com/Alishahryar1/free-claude-code",
-      "https://github.com/gastownhall/beads"
+      "https://github.com/microsoft/VibeVoice",
+      "https://github.com/davila7/claude-code-templates"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,11 +21,11 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 29790,
-      "todayStars": 5551,
-      "description": "Claude Code用skill21種の配布層",
-      "detail": "TypeScriptの第一人者Matt Pocockが、自身の.claude/skills/から21種を公開。設計、TDD、PRD化、リファクタ計画まで実務の型をエージェントが即理解する形で渡せ、AIスタックのClaude Code側skill配布層を担います。",
-      "narration": "Claude Code用skill21種を集めた配布層です。設計やTDD、PRD化まで作業の型をAIに渡せます。"
+      "stars": 36954,
+      "todayStars": 7429,
+      "description": "新人の立ち上げを数日に縮める13種スキル集",
+      "detail": "Mattpocockが自分の.claudeから直配布する13種の汎用エンジニアスキル集です。受託案件で毎回社内ナレッジを整え直す工数を潰せて、新人エンジニアの立ち上がりが2週間から数日に縮みます。",
+      "narration": "受託で毎回ナレッジを作り直す工数を潰せる13種スキル集です。新人の立ち上がりを2週間から数日に縮められます。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "GitNexus",
       "url": "https://github.com/abhigyanpatwari/GitNexus",
       "language": "TypeScript",
-      "stars": 31436,
-      "todayStars": 1074,
-      "description": "AIエージェント用コード知識グラフ",
-      "detail": "Tree-sitterのASTとBM25・密ベクトルのハイブリッド検索を、サーバ無しでブラウザに閉じて実装。Claude CodeやCursorからMCP経由で参照でき、AIスタックのコード理解層を担う知識グラフを提供します。",
-      "narration": "AIエージェントに渡すコード理解レイヤです。Tree-sitter解析と密ベクトル検索を1つに束ねます。"
+      "stars": 32588,
+      "todayStars": 1565,
+      "description": "ブラウザ完結のコード知識グラフ",
+      "detail": "Tree-sitterと知識グラフを組み合わせ、ブラウザ内でコード解析を完結させるMCP対応ツールです。Sourcegraph月額契約をゼロにでき、NDAが厳しい受託案件でもコードを外に出さずにレビューできます。",
+      "narration": "Sourcegraph契約をゼロにできるコード理解ツールです。ブラウザ完結でNDA厳しい受託でもコードを外に出しません。"
     },
     {
       "rank": 3,
@@ -45,35 +45,35 @@
       "name": "awesome-codex-skills",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "language": "Python",
-      "stars": 2721,
-      "todayStars": 637,
-      "description": "Codex CLI向けskillの集約所",
-      "detail": "ComposioHQ運営、OpenAI Codex CLI/API向けの60種超skillリスト。$CODEX_HOME/skillsへ置くだけで自動発火し、PRレビューや会議メモから1000超のSaaS連携まで自然文で呼べ、Codex側のskill配布層を担います。",
-      "narration": "OpenAI Codex CLI向けskillの集約所です。60種超でComposioの1000SaaSを呼べます。"
+      "stars": 3939,
+      "todayStars": 961,
+      "description": "Codex CLI用の業務自動化スキル50種超",
+      "detail": "ComposioHQが運営するCodex CLI向けスキル集50種超で、SlackやLinear、Notionなど業務自動化に直結します。Composio経由で1000以上のSaaSへ繋がり、連携実装の1人月を半日まで縮められます。",
+      "narration": "Codex CLI向けの自動化スキル集です。Composioで1000SaaS連携が即動き、1人月を半日に縮めます。"
     },
     {
       "rank": 4,
-      "fullName": "Alishahryar1/free-claude-code",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "fullName": "microsoft/VibeVoice",
+      "name": "VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
       "language": "Python",
-      "stars": 15970,
-      "todayStars": 2973,
-      "description": "Claude Codeのバックエンド差替層",
-      "detail": "Claude CodeのAPIをNVIDIA NIM、DeepSeek、OpenRouter、LM Studio、llama.cpp、Ollamaの6系統へ転送するプロキシ。環境変数2つだけで切替でき、AIスタックのモデルバックエンド差替層をローカル含めて担えます。",
-      "narration": "AIスタックのモデルバックエンド差替層です。Claude CodeをOllamaなど6系統のLLMで動かせます。"
+      "stars": 44703,
+      "todayStars": 1523,
+      "description": "MIT発のオープン音声AIスタック",
+      "detail": "MicrosoftがMITで公開した音声AIで、最大4話者の90分TTSと60分連続ASRを兼ね備えます。社内PoCや動画ナレーション検証ならElevenLabsの月額固定費を即停止でき、議事録SaaSの内製化にも回せます。",
+      "narration": "ナレーションSaaSの月額費を削れる音声AIです。TTSもASRもMIT配布なのでElevenLabsを停止できます。"
     },
     {
       "rank": 5,
-      "fullName": "gastownhall/beads",
-      "name": "beads",
-      "url": "https://github.com/gastownhall/beads",
-      "language": "Go",
-      "stars": 22158,
-      "todayStars": 485,
-      "description": "AIエージェント用の永続メモリ層",
-      "detail": "Dolt製のバージョン管理SQLを.beads/に持ち、MCP経由でClaude CodeやCursorから操作。依存関係とブロッカーをハッシュIDで管理し、複数セッションをまたいでも作業履歴を失わないAIエージェントの永続メモリ層を担います。",
-      "narration": "AIエージェント専用の永続メモリ層です。Dolt+MCPで会話を超えて作業履歴と依存関係を残せます。"
+      "fullName": "davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "language": "Python",
+      "stars": 26133,
+      "todayStars": 347,
+      "description": "Claude Code案件の立ち上げを分単位に",
+      "detail": "Claude Code環境を一発で組めるCLIで、100種超のagentやslash command、MCP連携を一括投入できます。受託案件の初日キックオフ工数を分単位に縮め、立ち上げ見積もりを半日下げる効果が出ます。",
+      "narration": "Claude Code案件の初日工数を分単位に縮めるCLIです。100超のテンプレ投入で見積もりを半日下げられます。"
     }
   ]
 }
