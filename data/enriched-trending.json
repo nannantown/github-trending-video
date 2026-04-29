@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5を『受託・スタートアップが組むなら、月いくら削れて何人月浮くか』の具体額・具体工数で5本とも統一して料理する。mattpocock/skillsは新人立ち上げ工数の圧縮、GitNexusはSourcegraph月額契約ゼロ化とNDA案件のオンプレ要件、awesome-codex-skillsはComposio経由1000 SaaS連携で連携実装1人月の削減、microsoft/VibeVoiceはElevenLabs課金停止と社内PoC TTS/ASRの内製化、davila7/claude-code-templatesはClaude Code案件の初日キックオフ工数を分単位化。重複3本(mattpocock/skills 4日連続、GitNexus 3日連続、claude-code-templates 3日ぶり再登場)は04/26 cost軸→04/27 代替軸→04/28 スタック軸を経た本日04/29で『月額金額・人月工数』の具体数値軸へ完全切替し、04/24-25型の同method×同ラインナップ連投ペナルティを回避する。Wed(=525 avg)曜日に柱②(business-angle)をPrimaryペルソナのCTO/ソロ開発者向けに直接当てる構成。",
+    "method": "use-case",
+    "description": "今日のTOP5を『どんな立場・どんな現場で輝くか』のシナリオ別に5本料理する。warpはCLIから離れたくないソロ開発者がIDE切替なしに使えるOpenAI筆頭スポンサーのフルOSSエージェント環境、mattpocock/skillsは受託・スタートアップの新人立ち上げで初週から自走させる13種スキル配布、HunxByts/GhostTrackはCTF・セキュリティ研究の学習用OSINT教材(実在人物への悪用は不可前提)、ComposioHQ/awesome-codex-skillsは業務自動化を組むスタートアップが1000 SaaS連携を即構築する50種超skill集、1jehuang/jcodeは複数モジュール並列リファクタなど大規模開発でClaude Code/Aiderの単一セッション限界を超えたい開発者向けのRust製スワーム+長期記憶harness。直近2日連続(04/28 ecosystem / 04/29 business-angle)の禁則を回避し、14日窓で初投入のuse-caseをexploreで試行。前日04/28 ecosystem(318views)で実証された『5本に1本の通し軸』設計をシナリオ軸で再現してメタPDCAを回す。Thu(=461 avg)曜日にPrimaryペルソナ(CTO/ソロ開発者)が『自分の現場ならどれか』を1動画で判断できる構成を当てる。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/warpdotdev/warp",
       "https://github.com/mattpocock/skills",
-      "https://github.com/abhigyanpatwari/GitNexus",
+      "https://github.com/HunxByts/GhostTrack",
       "https://github.com/ComposioHQ/awesome-codex-skills",
-      "https://github.com/microsoft/VibeVoice",
-      "https://github.com/davila7/claude-code-templates"
+      "https://github.com/1jehuang/jcode"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "warpdotdev/warp",
+      "name": "warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "language": "Rust",
+      "stars": 43316,
+      "todayStars": 11955,
+      "description": "ターミナルから動くエージェント開発環境",
+      "detail": "WarpがOpenAIを筆頭スポンサーにフルOSS化されました。Claude CodeやCodex CLIを内包し、ターミナル上で課題分析からPRレビューまで自走するエージェント開発環境です。ソロ開発者がIDE切替なしに動かせます。",
+      "narration": "ソロ開発者がCLIから出ずに使えるエージェント開発環境です。OpenAIが筆頭スポンサーでフルOSS化されました。"
+    },
+    {
+      "rank": 2,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 36954,
-      "todayStars": 7429,
-      "description": "新人の立ち上げを数日に縮める13種スキル集",
-      "detail": "Mattpocockが自分の.claudeから直配布する13種の汎用エンジニアスキル集です。受託案件で毎回社内ナレッジを整え直す工数を潰せて、新人エンジニアの立ち上がりが2週間から数日に縮みます。",
-      "narration": "受託で毎回ナレッジを作り直す工数を潰せる13種スキル集です。新人の立ち上がりを2週間から数日に縮められます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "abhigyanpatwari/GitNexus",
-      "name": "GitNexus",
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "language": "TypeScript",
-      "stars": 32588,
-      "todayStars": 1565,
-      "description": "ブラウザ完結のコード知識グラフ",
-      "detail": "Tree-sitterと知識グラフを組み合わせ、ブラウザ内でコード解析を完結させるMCP対応ツールです。Sourcegraph月額契約をゼロにでき、NDAが厳しい受託案件でもコードを外に出さずにレビューできます。",
-      "narration": "Sourcegraph契約をゼロにできるコード理解ツールです。ブラウザ完結でNDA厳しい受託でもコードを外に出しません。"
+      "stars": 44075,
+      "todayStars": 7356,
+      "description": "受託の新人立ち上げ即戦力スキル集",
+      "detail": "Mattpocockが.claudeから直配布する13種の汎用スキル集です。受託やスタートアップの初週オンボーディングで投入すれば、新人エンジニアが自走できる状態まで2週間から数日に縮みます。",
+      "narration": "受託やスタートアップの新人立ち上げ用スキル集です。Mattpocockの.claudeから配って初週で自走させられます。"
     },
     {
       "rank": 3,
+      "fullName": "HunxByts/GhostTrack",
+      "name": "GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "language": "Python",
+      "stars": 11531,
+      "todayStars": 1036,
+      "description": "セキュリティ学習用のOSINT練習教材",
+      "detail": "IP・電話番号・SNSアカウントの公開情報を集めるPython3 OSINTスクリプトです。CTFやセキュリティ研究でフットプリンティングを学ぶ教材として使えます。実在人物への悪用は不可です。",
+      "narration": "CTFやセキュリティ研究の練習に使えるOSINT教材です。公開情報の収集手順を学ぶ用途に限定してください。"
+    },
+    {
+      "rank": 4,
       "fullName": "ComposioHQ/awesome-codex-skills",
       "name": "awesome-codex-skills",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "language": "Python",
-      "stars": 3939,
-      "todayStars": 961,
-      "description": "Codex CLI用の業務自動化スキル50種超",
-      "detail": "ComposioHQが運営するCodex CLI向けスキル集50種超で、SlackやLinear、Notionなど業務自動化に直結します。Composio経由で1000以上のSaaSへ繋がり、連携実装の1人月を半日まで縮められます。",
-      "narration": "Codex CLI向けの自動化スキル集です。Composioで1000SaaS連携が即動き、1人月を半日に縮めます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "microsoft/VibeVoice",
-      "name": "VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "language": "Python",
-      "stars": 44703,
-      "todayStars": 1523,
-      "description": "MIT発のオープン音声AIスタック",
-      "detail": "MicrosoftがMITで公開した音声AIで、最大4話者の90分TTSと60分連続ASRを兼ね備えます。社内PoCや動画ナレーション検証ならElevenLabsの月額固定費を即停止でき、議事録SaaSの内製化にも回せます。",
-      "narration": "ナレーションSaaSの月額費を削れる音声AIです。TTSもASRもMIT配布なのでElevenLabsを停止できます。"
+      "stars": 4738,
+      "todayStars": 1180,
+      "description": "業務自動化を組むスタートアップ向けskill集",
+      "detail": "ComposioHQが運営するCodex CLI向けskill 50種超の集合です。Slack・Linear・Notion・Jira・Datadogが標準対応で、Composio経由で1000以上のSaaSにも繋がります。",
+      "narration": "スタートアップが業務自動化を組むCodex skill集です。SlackやLinearが即動きます。"
     },
     {
       "rank": 5,
-      "fullName": "davila7/claude-code-templates",
-      "name": "claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "language": "Python",
-      "stars": 26133,
-      "todayStars": 347,
-      "description": "Claude Code案件の立ち上げを分単位に",
-      "detail": "Claude Code環境を一発で組めるCLIで、100種超のagentやslash command、MCP連携を一括投入できます。受託案件の初日キックオフ工数を分単位に縮め、立ち上げ見積もりを半日下げる効果が出ます。",
-      "narration": "Claude Code案件の初日工数を分単位に縮めるCLIです。100超のテンプレ投入で見積もりを半日下げられます。"
+      "fullName": "1jehuang/jcode",
+      "name": "jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "language": "Rust",
+      "stars": 1312,
+      "todayStars": 386,
+      "description": "並列エージェントの大規模開発向けハーネス",
+      "detail": "Rust製のCoding Agent Harnessで、ベクトルメモリと並列スワームでエージェントを束ねます。複数モジュール並行リファクタなど、Claude CodeやAiderだとセッション分散する大規模開発に向きます。",
+      "narration": "大規模並列開発向けのRust製エージェントハーネスです。長期記憶とスワームで複数モジュールを同時改修できます。"
     }
   ]
 }
