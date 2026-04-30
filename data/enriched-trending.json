@@ -1,15 +1,15 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-05-01",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5を『受託・スタートアップが組むなら、月いくら削れて何人月浮くか』の具体額・具体工数で5本とも統一して料理する。mattpocock/skillsは新人立ち上げ工数の圧縮、GitNexusはSourcegraph月額契約ゼロ化とNDA案件のオンプレ要件、awesome-codex-skillsはComposio経由1000 SaaS連携で連携実装1人月の削減、microsoft/VibeVoiceはElevenLabs課金停止と社内PoC TTS/ASRの内製化、davila7/claude-code-templatesはClaude Code案件の初日キックオフ工数を分単位化。重複3本(mattpocock/skills 4日連続、GitNexus 3日連続、claude-code-templates 3日ぶり再登場)は04/26 cost軸→04/27 代替軸→04/28 スタック軸を経た本日04/29で『月額金額・人月工数』の具体数値軸へ完全切替し、04/24-25型の同method×同ラインナップ連投ペナルティを回避する。Wed(=525 avg)曜日に柱②(business-angle)をPrimaryペルソナのCTO/ソロ開発者向けに直接当てる構成。",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『エージェント開発スタックの5レイヤ』として同居紹介する。warpdotdev/warp(Agent Runtime層: Claude Code/Codex/Gemini CLI公式統合の次世代ターミナル) → TauricResearch/TradingAgents(Domain Application層: アナリスト4体+強気弱気論者+トレーダー+リスク管理の8体構成・金融垂直マルチエージェント) → mattpocock/skills(Skill Library層: Claude Code向け16種skill、診断・TDD・PRD化・Issue化) → obra/superpowers(Methodology Plugin層: Brainstorm→Plan→RED-GREEN-REFACTOR強制、Claude Code/Codex/Cursorなど6環境対応) → lukilabs/craft-agents-oss(Application Shell層: Electron+headless server、Anthropic/Google/OpenAI/Ollama横断、Linear/Gmail/SlackをMCPで1画面)。視聴者(CTO/ソロ開発者)が『自社のエージェント開発環境のどこに何を入れるか』を1動画で意思決定できる構成。直近2日(04/29 business-angle / 04/30 business-angle)の連続禁則を回避し、Method別TOP(ecosystem=165 avg、他5-8 avg)をFri=821 avgの準最強曜日帯で投入。ベンチは04/14(1361)・04/17(2010)・04/28(321)の同method帯に置く。重複1本(mattpocock/skills 6日連続)はskill数を最新README実数値(16)に整合させ、04/28『配布層21種』からecosystem角度内で『診断・TDD・PRD化』機能側へ視点切替。新規4本(warp・TradingAgents・superpowers・craft-agents-oss)で04/29-30型の同ラインナップ連投を構造的に回避する。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/warpdotdev/warp",
+      "https://github.com/TauricResearch/TradingAgents",
       "https://github.com/mattpocock/skills",
-      "https://github.com/abhigyanpatwari/GitNexus",
-      "https://github.com/ComposioHQ/awesome-codex-skills",
-      "https://github.com/microsoft/VibeVoice",
-      "https://github.com/davila7/claude-code-templates"
+      "https://github.com/obra/superpowers",
+      "https://github.com/lukilabs/craft-agents-oss"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "warpdotdev/warp",
+      "name": "warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "language": "Rust",
+      "stars": 49021,
+      "todayStars": 8262,
+      "description": "エージェント特化の次世代ターミナル",
+      "detail": "Claude CodeやCodexを公式統合し、Webからエージェントセッションを閲覧できる次世代ターミナルです。OpenAIが筆頭スポンサーで、AGPLとMITで配布されエージェント実行レイヤとして無料で組み込めます。",
+      "narration": "Claude CodeやCodexを正式統合する次世代ターミナルです。エージェント実行レイヤをこれ1本で組めます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "TauricResearch/TradingAgents",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars": 57584,
+      "todayStars": 2203,
+      "description": "金融特化のマルチエージェント基盤",
+      "detail": "ファンダメンタル・センチメント・ニュース・テクニカル分析の4役、強気弱気の論者ペア、トレーダー、リスク管理の8体で構成される金融マルチエージェントです。Apache 2.0配布でバックテストに使えます。",
+      "narration": "金融特化のマルチエージェント応用例です。アナリスト4体と審査役の役割分担が業務AI設計の見本になります。"
+    },
+    {
+      "rank": 3,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 36954,
-      "todayStars": 7429,
-      "description": "新人の立ち上げを数日に縮める13種スキル集",
-      "detail": "Mattpocockが自分の.claudeから直配布する13種の汎用エンジニアスキル集です。受託案件で毎回社内ナレッジを整え直す工数を潰せて、新人エンジニアの立ち上がりが2週間から数日に縮みます。",
-      "narration": "受託で毎回ナレッジを作り直す工数を潰せる13種スキル集です。新人の立ち上がりを2週間から数日に縮められます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "abhigyanpatwari/GitNexus",
-      "name": "GitNexus",
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "language": "TypeScript",
-      "stars": 32588,
-      "todayStars": 1565,
-      "description": "ブラウザ完結のコード知識グラフ",
-      "detail": "Tree-sitterと知識グラフを組み合わせ、ブラウザ内でコード解析を完結させるMCP対応ツールです。Sourcegraph月額契約をゼロにでき、NDAが厳しい受託案件でもコードを外に出さずにレビューできます。",
-      "narration": "Sourcegraph契約をゼロにできるコード理解ツールです。ブラウザ完結でNDA厳しい受託でもコードを外に出しません。"
-    },
-    {
-      "rank": 3,
-      "fullName": "ComposioHQ/awesome-codex-skills",
-      "name": "awesome-codex-skills",
-      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
-      "language": "Python",
-      "stars": 3939,
-      "todayStars": 961,
-      "description": "Codex CLI用の業務自動化スキル50種超",
-      "detail": "ComposioHQが運営するCodex CLI向けスキル集50種超で、SlackやLinear、Notionなど業務自動化に直結します。Composio経由で1000以上のSaaSへ繋がり、連携実装の1人月を半日まで縮められます。",
-      "narration": "Codex CLI向けの自動化スキル集です。Composioで1000SaaS連携が即動き、1人月を半日に縮めます。"
+      "stars": 49249,
+      "todayStars": 6175,
+      "description": "Claude Code向けスキル16種集",
+      "detail": "Matt Pocockが自身の.claudeから直配布する16種のエンジニアリング・生産性スキル集です。npx skills@latestで選択導入でき、診断・TDD・PRD化・Issue化までエージェントの動作を揃えられます。",
+      "narration": "Claude Code向けのスキル配布レイヤです。診断・TDD・PRD化など16種でエージェント動作を揃えます。"
     },
     {
       "rank": 4,
-      "fullName": "microsoft/VibeVoice",
-      "name": "VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "language": "Python",
-      "stars": 44703,
-      "todayStars": 1523,
-      "description": "MIT発のオープン音声AIスタック",
-      "detail": "MicrosoftがMITで公開した音声AIで、最大4話者の90分TTSと60分連続ASRを兼ね備えます。社内PoCや動画ナレーション検証ならElevenLabsの月額固定費を即停止でき、議事録SaaSの内製化にも回せます。",
-      "narration": "ナレーションSaaSの月額費を削れる音声AIです。TTSもASRもMIT配布なのでElevenLabsを停止できます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 174512,
+      "todayStars": 1623,
+      "description": "TDD強制のエージェント方法論プラグイン",
+      "detail": "Brainstorm→Plan→RED-GREEN-REFACTORの開発作法をエージェントに強制するMITプラグインです。Claude Code・Codex・Cursorなど主要6環境にmarketplace経由で導入できます。",
+      "narration": "エージェントの開発作法を強制するプラグインです。TDDとgit worktreeで暴走を防ぐ仕組みを内蔵します。"
     },
     {
       "rank": 5,
-      "fullName": "davila7/claude-code-templates",
-      "name": "claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "language": "Python",
-      "stars": 26133,
-      "todayStars": 347,
-      "description": "Claude Code案件の立ち上げを分単位に",
-      "detail": "Claude Code環境を一発で組めるCLIで、100種超のagentやslash command、MCP連携を一括投入できます。受託案件の初日キックオフ工数を分単位に縮め、立ち上げ見積もりを半日下げる効果が出ます。",
-      "narration": "Claude Code案件の初日工数を分単位に縮めるCLIです。100超のテンプレ投入で見積もりを半日下げられます。"
+      "fullName": "lukilabs/craft-agents-oss",
+      "name": "craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "language": "TypeScript",
+      "stars": 5550,
+      "todayStars": 314,
+      "description": "文書中心のエージェントデスクトップ",
+      "detail": "Claude Agent SDKを核にAnthropic・Google・OpenAI・Ollamaを横断するElectronデスクトップ層です。Linear・Gmail・SlackをMCP経由で自然言語から1画面に束ねられます。",
+      "narration": "LLMを束ねる文書中心のデスクトップ層です。SlackやGmailを自然言語で1画面に集約できます。"
     }
   ]
 }
