@@ -430,10 +430,10 @@
       ],
       "durationSeconds": 60,
       "stats": {
-        "views": 768,
+        "views": 769,
         "likes": 12,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -471,7 +471,7 @@
         "views": 2011,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -553,7 +553,7 @@
         "views": 17,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 213,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 8,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "views": 9,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 4,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 9,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -915,7 +915,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -968,10 +968,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 321,
+        "views": 322,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         "views": 5,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
+        "updatedAt": "2026-04-30T23:39:54.147Z"
       }
     },
     {
@@ -1069,6 +1069,61 @@
           "https://github.com/ComposioHQ/awesome-codex-skills",
           "https://github.com/microsoft/VibeVoice",
           "https://github.com/davila7/claude-code-templates"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 8,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-04-30T23:39:54.147Z"
+      }
+    },
+    {
+      "videoId": "q5l3XVyC7ec",
+      "videoUrl": "https://youtube.com/shorts/q5l3XVyC7ec",
+      "date": "2026-05-01",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/01 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "Shell",
+        "TypeScript"
+      ],
+      "projects": [
+        "warpdotdev/warp",
+        "TauricResearch/TradingAgents",
+        "mattpocock/skills",
+        "obra/superpowers",
+        "lukilabs/craft-agents-oss"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "今日のTOP5を『エージェント開発スタックの5レイヤ』として同居紹介する。warpdotdev/warp(Agent Runtime層: Claude Code/Codex/Gemini CLI公式統合の次世代ターミナル) → TauricResearch/TradingAgents(Domain Application層: アナリスト4体+強気弱気論者+トレーダー+リスク管理の8体構成・金融垂直マルチエージェント) → mattpocock/skills(Skill Library層: Claude Code向け16種skill、診断・TDD・PRD化・Issue化) → obra/superpowers(Methodology Plugin層: Brainstorm→Plan→RED-GREEN-REFACTOR強制、Claude Code/Codex/Cursorなど6環境対応) → lukilabs/craft-agents-oss(Application Shell層: Electron+headless server、Anthropic/Google/OpenAI/Ollama横断、Linear/Gmail/SlackをMCPで1画面)。視聴者(CTO/ソロ開発者)が『自社のエージェント開発環境のどこに何を入れるか』を1動画で意思決定できる構成。直近2日(04/29 business-angle / 04/30 business-angle)の連続禁則を回避し、Method別TOP(ecosystem=165 avg、他5-8 avg)をFri=821 avgの準最強曜日帯で投入。ベンチは04/14(1361)・04/17(2010)・04/28(321)の同method帯に置く。重複1本(mattpocock/skills 6日連続)はskill数を最新README実数値(16)に整合させ、04/28『配布層21種』からecosystem角度内で『診断・TDD・PRD化』機能側へ視点切替。新規4本(warp・TradingAgents・superpowers・craft-agents-oss)で04/29-30型の同ラインナップ連投を構造的に回避する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/warpdotdev/warp",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/obra/superpowers",
+          "https://github.com/lukilabs/craft-agents-oss"
         ],
         "query": "",
         "freshness_hours": 1
@@ -1311,6 +1366,18 @@
         "standard: 356 avg views (23 videos)",
         "Trending languages: C++ (1.5x)",
         "Day performance: Fri=822, Tue=718, Thu=462, Wed=266, Sat=202, Mon=120, Sun=9"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-04-30",
+      "changes": [
+        "Rust: 0.5x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "Shell: 0.3x avg views → drop",
+        "standard: 341 avg views (24 videos)",
+        "Trending languages: C++ (1.5x)",
+        "Day performance: Fri=822, Tue=718, Thu=349, Wed=266, Sat=202, Mon=120, Sun=9"
       ],
       "recommendedTemplate": "standard"
     }
