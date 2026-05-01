@@ -471,7 +471,7 @@
         "views": 2011,
         "likes": 8,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -553,7 +553,7 @@
         "views": 17,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 213,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 8,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "views": 9,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 4,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 9,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -915,7 +915,7 @@
         "views": 8,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -968,10 +968,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 322,
+        "views": 323,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         "views": 5,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -1074,10 +1074,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 8,
-        "likes": 0,
+        "views": 9,
+        "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-04-30T23:39:54.147Z"
+        "updatedAt": "2026-05-01T23:39:37.066Z"
       }
     },
     {
@@ -1124,6 +1124,58 @@
           "https://github.com/mattpocock/skills",
           "https://github.com/obra/superpowers",
           "https://github.com/lukilabs/craft-agents-oss"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "updatedAt": "2026-05-01T23:39:37.066Z"
+      }
+    },
+    {
+      "videoId": "Q_ljXgexJPM",
+      "videoUrl": "https://youtube.com/shorts/Q_ljXgexJPM",
+      "date": "2026-05-02",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/02 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Python",
+        "Rust",
+        "Shell"
+      ],
+      "projects": [
+        "TauricResearch/TradingAgents",
+        "soxoj/maigret",
+        "warpdotdev/warp",
+        "1jehuang/jcode",
+        "mattpocock/skills"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "今週(2026/05/02時点)のTOP5を『AIエージェントが特定の業務役割そのものを置き換え始めた週』というマクロ視点(柱④)で料理する。TauricResearch/TradingAgents=金融トレーディング部門の8体構成、soxoj/maigret=OSINT調査員役の自動化、warpdotdev/warp=ターミナル作業者役のエージェント化、1jehuang/jcode=コーディングエージェントの司令塔役、mattpocock/skills=熟練エンジニアの作法移植。これまでの『どのAIツールが伸びているか』ニュース型から『どの業務役割がOSS化された週か』に視点を一段引き上げる。直近2日(05/01 ecosystem / 04/30 business-angle)の連続禁則を回避し、未投入のメタ視点(柱④=trend-pattern)を土曜=Sat=202 avgの中位曜日で初投入(explore枠20%)。重複3本(TradingAgents・warp・mattpocock/skills)はecosystem角度『開発スタックの5レイヤ』からtrend-pattern角度『業務役割のOSS化マクロ』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規2本(maigret・jcode)で『金融・調査・ターミナル・コーディング司令塔・エンジニア作法』の役割幅を拡張し、04/29-30型の同method×同ラインナップ連投ペナルティ(5→8 views帯)を構造的に回避する。skill数はREADMEの最新実数値13へ整合(04/28=21・05/01=16から下方修正、ライブの整理を反映)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/soxoj/maigret",
+          "https://github.com/warpdotdev/warp",
+          "https://github.com/1jehuang/jcode",
+          "https://github.com/mattpocock/skills"
         ],
         "query": "",
         "freshness_hours": 1
@@ -1378,6 +1430,17 @@
         "standard: 341 avg views (24 videos)",
         "Trending languages: C++ (1.5x)",
         "Day performance: Fri=822, Tue=718, Thu=349, Wed=266, Sat=202, Mon=120, Sun=9"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-01",
+      "changes": [
+        "Rust: 0.5x avg views → drop",
+        "Shell: 0.3x avg views → drop",
+        "standard: 328 avg views (25 videos)",
+        "Trending languages: C++ (1.6x)",
+        "Day performance: Tue=719, Fri=617, Thu=349, Wed=266, Sat=202, Mon=120, Sun=9"
       ],
       "recommendedTemplate": "standard"
     }
