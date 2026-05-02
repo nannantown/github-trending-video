@@ -553,7 +553,7 @@
         "views": 17,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 213,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 8,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -698,10 +698,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 9,
+        "views": 10,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -751,10 +751,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 4,
+        "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -804,10 +804,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -856,10 +856,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 9,
+        "views": 11,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -912,10 +912,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 8,
+        "views": 9,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -968,10 +968,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 323,
+        "views": 324,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -1021,10 +1021,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 5,
+        "views": 6,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -1074,10 +1074,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 9,
+        "views": 11,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -1129,10 +1129,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 4,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
+        "updatedAt": "2026-05-02T23:31:34.127Z"
       }
     },
     {
@@ -1176,6 +1176,62 @@
           "https://github.com/warpdotdev/warp",
           "https://github.com/1jehuang/jcode",
           "https://github.com/mattpocock/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 7,
+        "likes": 3,
+        "comments": 0,
+        "updatedAt": "2026-05-02T23:31:34.127Z"
+      }
+    },
+    {
+      "videoId": "QnxVLFE5-Wg",
+      "videoUrl": "https://youtube.com/shorts/QnxVLFE5-Wg",
+      "date": "2026-05-03",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/03 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "Batchfile"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "Batchfile"
+      ],
+      "projects": [
+        "TauricResearch/TradingAgents",
+        "ruvnet/ruflo",
+        "browserbase/skills",
+        "soxoj/maigret",
+        "Flowseal/zapret-discord-youtube"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "use-case",
+        "description": "今日のTOP5を5つの完全に異なるユーザー像(個人クオンツ/受託開発チーム/Webスクレイピング受託・QA/採用調査・脅威インテリ/通信規制環境ユーザー)で料理し、各OSSが『誰の・どんな現場で・何を吸収するか』を1動画で持ち帰れる構成にする。直近2日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method別TOP3の残候補(comparison 8.0 avg / business-angle 7.3 avg)も同ラインナップ連投リスクから外し、未投入のuse-case角度をSun=9 avgの最低曜日(損失最小)に投入するexplore枠20%。Method×曜日マトリクスでuse-case×Sunセルを母数0→1で新規開拓するメタPDCA価値を併設。重複2本(TradingAgents・maigret)は05/02 trend-pattern角度『業務役割のマクロOSS化』から本日use-case角度『ペルソナ別の実働シーン』へ語彙完全切替で04/24-25 / 04/29-30型の同method×同ラインナップ連投ペナルティを構造的に回避。新規3本(ruflo・browserbase/skills・zapret-discord-youtube)で『個人クオンツ・受託・Web受託・調査員・規制環境ユーザー』の5ペルソナを明確に分割。Sun=9 avg帯のため、最低3 views、理想30 views(Sun過去最高8を超えること)で評価。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/ruvnet/ruflo",
+          "https://github.com/browserbase/skills",
+          "https://github.com/soxoj/maigret",
+          "https://github.com/Flowseal/zapret-discord-youtube"
         ],
         "query": "",
         "freshness_hours": 1
@@ -1441,6 +1497,17 @@
         "standard: 328 avg views (25 videos)",
         "Trending languages: C++ (1.6x)",
         "Day performance: Tue=719, Fri=617, Thu=349, Wed=266, Sat=202, Mon=120, Sun=9"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-02",
+      "changes": [
+        "Rust: 0.5x avg views → drop",
+        "Shell: 0.4x avg views → drop",
+        "standard: 316 avg views (26 videos)",
+        "Trending languages: C++ (1.7x)",
+        "Day performance: Tue=719, Fri=618, Thu=350, Wed=266, Sat=153, Mon=120, Sun=9"
       ],
       "recommendedTemplate": "standard"
     }
