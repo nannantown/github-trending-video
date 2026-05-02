@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02",
+  "updatedAt": "2026-05-03",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -15,6 +15,7 @@
       { "language": "Python", "multiplier": 1.2 },
       { "language": "TypeScript", "multiplier": 1.1 },
       { "language": "Shell", "multiplier": 1.0 },
+      { "language": "JavaScript", "multiplier": 0.9 },
       { "language": "Rust", "multiplier": 0.5 }
     ],
     "topPerformingVideo": {
@@ -27,85 +28,93 @@
         "Alishahryar1/free-claude-code",
         "gastownhall/beads"
       ],
-      "note": "Method 別平均(04/22 以降の本格 method 期、updatedAt あり videos のみ): ecosystem 165.5 (2 投稿: 04/23=9, 04/28=322) / comparison 8.0 (2 投稿) / business-angle 7.3 (3 投稿: 04/26=9, 04/29=5, 04/30=8) / tech-deep 5.0 (2 投稿)。05/01 (ecosystem) は updatedAt null のため未集計。本日 05/02 は直近 2 日連続禁則(05/01 ecosystem / 04/30 business-angle)で Method 別 TOP 3 のうち ecosystem・business-angle が両方ブロック。Method TOP 3 の最後 1 つ comparison(8.0)も 04/27 で同ラインナップ連投の轍に近づくため見送り、未投入の trend-pattern(柱④、母数 0)を Sat=202 avg の中位曜日で初投入する explore 枠 20% 採用。本日のラインナップは 3/5 が昨日 05/01 と重複(TradingAgents・warp・mattpocock/skills)するため、method 切替 + 角度の語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避。新規 2 本(maigret = OSINT 調査員役・jcode = コーディング司令塔役)で『業務役割そのものの OSS 化』というマクロテーマを成立させる。"
+      "note": "Method 別平均(04/22 以降の本格 method 期、updatedAt あり videos のみ): ecosystem 165.5 (2 投稿: 04/23=9, 04/28=322) / comparison 8.0 (2 投稿) / business-angle 7.3 (3 投稿: 04/26=9, 04/29=5, 04/30=8) / tech-deep 5.0 (2 投稿) / trend-pattern 0(05/02 投入、updatedAt 待ち) / use-case 0(本日 05/03 投入、母数 0 → 1)。05/01 (ecosystem)・05/02 (trend-pattern) はいずれも updatedAt null で未集計。本日 05/03 (Sun) は直近 2 日連続禁則(05/02 trend-pattern / 05/01 ecosystem)で Method TOP 3 のうち ecosystem がブロック。残候補 comparison (8.0) は 04/27 で同ラインナップ連投の轍を踏む構造、business-angle (7.3) は 04/29-30 で 2 連投済(週次比率 15% に対して過多側)で見送り、未投入の use-case 角度を Sun=9 avg の最低曜日(損失最小)に explore 枠 20% で初投入。Method × 曜日マトリクスで use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値併設。本日 5 本がそれぞれ完全に異なるユーザー像で揃った素材適合の高さ(個人クオンツ / 受託チーム / Web 受託・QA / 採用調査・脅威インテリ / 通信規制環境ユーザー)を最大限活かす構成。重複 2 本(TradingAgents・maigret)は trend-pattern → use-case へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを明確に分割。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は安定。そのまま維持",
-      "本日は土曜(Sat=202 avg)の中位曜日で explore 枠の許容度が高い。柱④(trend-pattern)を母数 0 → 1 で初投入し、来週以降の Method × 曜日マトリクスに新セルを開拓する。最低 50 views、理想 150 views(他 explore 期 04/22-25 の 8〜9 を上回ること)",
-      "重複 3 本(TradingAgents・warp・mattpocock/skills)は description / detail / narration を 05/01 ecosystem 系『開発スタックの 5 レイヤ』から、本日 trend-pattern 系『業務役割のマクロ OSS 化』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
+      "本日は日曜(Sun=9 avg)の最低曜日で explore 枠の損失許容度が最大。柱① 内角度 use-case を母数 0 → 1 で初投入し、来週以降の Method × 曜日マトリクスに新セルを開拓。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)",
+      "重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は description / detail / narration を 05/02 trend-pattern 系『業務役割のマクロ OSS 化』から、本日 use-case 系『ペルソナ別の実働シーン』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
     ],
     "hashtags": [
-      "土曜の中位曜日 + 柱④ 初投入対策で、Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)に同時訴求するマクロ視点タグを厚く: #業務AI化 #役割AI化 #AIエージェント #ジョブ自動化 #業務自動化 #AI業界動向 #トレンド読み解き #2026Q2",
-      "trend-pattern 角度のため、マクロ・週単位・職種・役割の語彙を補強: #職種AI化 #ホワイトカラーAI #AIエコシステム #OSS週報 #エンジニア職種 #業務OS化 #LLMOps",
-      "言語タグは Python(2 本)/Rust(2 本)/Shell(1 本)。Python multiplier 1.2x が効くため #Python を主、副に #Rust(warp と jcode で 2 本) #Shell。Rust は multiplier 0.5x で本来弱いが、本日 warp と jcode の 2 本同時で話題性は強い",
-      "業務役割タグも継続: #金融AI #トレーディング #バックテスト #OSINT #調査AI #ターミナル #DevOps #コーディングエージェント #ClaudeCode #Codex #Copilot #GeminiCLI #エンジニア生産性 #TDD #PRD",
-      "前日 05/01 ecosystem 角度のスタック・レイヤ語彙(#エージェント開発スタック #エコシステム #アーキテクチャ #LLM横断 #エージェントランタイム #エージェントスキル)からは距離を取り、本日はマクロ・週単位・役割の語彙へ寄せる",
-      "個社・OSS タグも継続: #Anthropic #OpenAI #Microsoft #Google #Ollama #ClaudeAgentSDK #MCP"
+      "日曜の最低曜日 + 柱① 内 use-case 角度初投入対策で、Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)に同時訴求するペルソナ・現場・職務の語彙を厚く: #実案件で使えるOSS #現場AI #業務AI化 #エンジニア現場 #受託開発 #SaaS開発 #スタートアップ #個人開発 #小規模FinTech",
+      "use-case 角度のため、ペルソナ別の語彙を補強: #個人クオンツ #ヘッジファンド #金融AI #トレーディング #バックテスト #Web受託 #スクレイピング #QA自動化 #E2Eテスト #採用調査 #本人確認 #脅威インテリ #OSINT #調査AI",
+      "言語タグは Python(2 本)/TypeScript(1 本)/JavaScript(1 本)/Batchfile(1 本)。Python multiplier 1.2x が効くため #Python を主、副に #TypeScript(1.1x) #JavaScript。Batchfile は珍しいタグだが該当 1 本(zapret-discord-youtube)で素朴に置く。Rust は本日不在で multiplier 0.5x の負荷なし",
+      "技術スタック・OSS タグも継続: #ClaudeCode #ClaudeAgentSDK #Anthropic #MCP #browserbase #エージェント #マルチエージェント #LLMオーケストレーション #LLM横断 #Ollama #OpenAI #Microsoft #Google #Cohere",
+      "前日 05/02 trend-pattern 角度のマクロ・週単位・職種・役割の語彙(#職種AI化 #ホワイトカラーAI #業務OS化 #LLMOps #AI業界動向 #トレンド読み解き #2026Q2)からは距離を取り、本日はペルソナ・現場・職務の語彙へ寄せる",
+      "通信規制環境関連は中立タグのみ運用(#DPI #ネットワーク #Windows #WinDivert)。地政学・特定地域の文脈タグは投入しない(プラットフォームリスクの受動的低減)"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 46-54 文字で収まり、合計 249 文字、TTS +30% 読み上げで約 23 秒(プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
-      "カタカナ発音を想定して TTS の誤読を回避(トレーディング エージェンツ、メイグレット、ワープ、ジェイコード、マット ポコック スキルズ)。固有名詞は原文英語のまま(Claude Code, Codex, OSINT, Apache 2.0, MIT, AGPL, TDD, PRD, Issue)",
-      "trend-pattern 角度の一貫性: 各ナレーション前半で『どの業務役割を置き換えるか』(金融トレーディング部門 / OSINT 調査員 / ターミナル作業者 / コーディングエージェント司令塔 / 熟練エンジニア作法)、後半で『その置き換えがなぜ今週起きたか / どう象徴的か』を必ず提示する 2 文構成",
-      "前日 05/01 ecosystem の語彙(レイヤ、スタック、配布、組み合わせ、束ねる、横断、組み込む、強制する、揃える)からは完全に距離を置き、本日は『置き換える、AI化する、OSS化する、移植する、再設計する、引き継がせる、自動収集する、丸ごと再現する、波の象徴、業務役割』などマクロ・役割語彙へ完全切替"
+      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 51-60 文字で収まり、合計 273 文字、TTS +30% 読み上げで約 25 秒(プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
+      "カタカナ発音を想定して TTS の誤読を回避(トレーディング エージェンツ、ルフロ、ブラウザベース スキルズ、メイグレット、ザプレット ディスコード ユーチューブ)。固有名詞は原文英語のまま(Claude Code, Claude Agent SDK, MCP, OSINT, Apache 2.0, MIT, CAPTCHA, E2E, DPI, Windows, WinDivert)",
+      "use-case 角度の一貫性: 各ナレーション前半で『誰の現場か』(個人クオンツ / 受託チーム / Web 受託・QA / 採用・本人確認 / 通信規制環境ユーザー)、後半で『何を吸収するか・何を取り戻すか』を必ず提示する 2 文構成",
+      "前日 05/02 trend-pattern の語彙(置き換える、AI化する、OSS化する、移植する、再設計する、引き継がせる、自動収集する、丸ごと再現する、波の象徴、業務役割、マクロ、週)からは完全に距離を置き、本日は『現場、ペルソナ、受託、QA、採用、調査、人月、手作業、吸収、分担、任せる、取り戻す』など現場・職務語彙へ完全切替",
+      "zapret-discord-youtube は narration では Discord/YouTube を直接出さず『メッセンジャーや動画アプリ』『接続を取り戻す』に抽象化。技術側(WinDivert / DPI 制御)に寄せる(プラットフォームリスクの受動的低減)"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern`(柱④ / explore 枠 20%、母数 0 → 1 の初投入)。直近 2 日(05/01 ecosystem / 04/30 business-angle)の連続禁則を回避し、Method TOP 3 のうち comparison(8.0 avg)も 04/27 で同ラインナップ連投の轍に近づくため見送り。未投入のメタ視点(柱④ = trend-pattern)を Sat=202 avg の中位曜日で初投入する。Method × 曜日マトリクスでは trend-pattern × Sat セルが母数 0 → 1 の新規開拓となるメタ価値も同居",
-      "今日の TOP5 は『5 つの業務役割が同時に OSS 化された週』のマクロ視点で揃った構成: TauricResearch/TradingAgents(金融トレーディング部門 = 8 体構成・4 分析役 + 強気弱気論者ペア + トレーダー + リスク管理層・v0.2.4 で構造化出力対応・Apache 2.0)/ soxoj/maigret(OSINT 調査員役 = 1 username 起点で 3000+ サイト再帰巡回・MIT・Python)/ warpdotdev/warp(ターミナル作業者役 = Claude Code・Codex・Gemini CLI 公式統合・OpenAI 筆頭スポンサー・AGPL+MIT)/ 1jehuang/jcode(コーディング司令塔役 = Claude/OpenAI/Gemini/Copilot 等 20+ モデル横断・群行動 + 永続記憶 + 自己改変・MIT・v0.11.6)/ mattpocock/skills(熟練エンジニア作法の移植 = 診断・TDD・PRD 化・Issue 化など 13 種・MIT)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの役割がいつ AI 化対象になるか』を 1 動画で持ち帰れる構成",
-      "重複 3 本(TradingAgents・warp・mattpocock/skills が 2-7 日連続登場)は description / detail / narration を 05/01 ecosystem 角度『開発スタックの 5 レイヤ』から本日 trend-pattern 角度『業務役割のマクロ OSS 化』へ語彙完全切替。skill 数は README の最新実数値 13 へ整合(04/28=21・05/01=16 から下方修正、ライブの整理を反映)。新規 2 本(maigret・jcode)で『金融部門・調査員・ターミナル・司令塔・作法』の役割幅を 5 種に拡張し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避",
-      "本日の 5 本は OSS ライセンスがほぼ MIT で揃い(MIT 4 本、Apache 2.0 1 本、warp は AGPL+MIT 二重)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は良好。warp の AGPL 部分のみ要注意で、ナレーションでは詳細に踏み込まず detail で『AGPL と MIT の二重配布』のみ明示する誇張回避運用を継続",
-      "土曜(Sat=202 avg)の中位曜日対策として、武器は『業務役割マクロ視点の構造的網羅性』。視聴者(CTO/PdM)が『2026 年 5 月第 1 週は業務役割そのものが OSS 化された週』として記憶に残せる情報密度を確保。前週同曜日 04/25 (Sat=6) は tech-deep 角度で大失敗しており、本日は trend-pattern で曜日 × method の新セルを開拓するメタ PDCA 的意味も持つ"
+      "本日の discovery.method は `use-case`(柱① / explore 枠 20%、母数 0 → 1 の初投入)。直近 2 日(05/02 trend-pattern / 05/01 ecosystem)の連続禁則を回避し、Method TOP 3 のうち comparison (8.0) は 04/27 同ラインナップ連投リスク、business-angle (7.3) は 04/29-30 で 2 連投済 + 週次比率 15% 過多側のためいずれも見送り。未投入の use-case を Sun=9 avg の最低曜日(損失最小)に投入。Method × 曜日マトリクスで use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値も併設",
+      "今日の TOP5 は『5 つの完全に異なるユーザー像』で揃った構成: TauricResearch/TradingAgents(個人クオンツ / 小規模 FinTech のヘッジファンド構造借用 = 8 体構成・4 分析役 + 強気弱気論者ペア + トレーダー + リスク管理層・Apache 2.0・v0.2.4 で構造化出力対応・62.4k★・+2,227/day)/ ruvnet/ruflo(受託・SaaS チームの並走監査 = Claude Code に MCP 経由で 100+ 専門エージェント・27 hooks・SONA neural patterns・MIT・v3.6.10・連邦化対応・36.7k★・+1,258/day)/ browserbase/skills(Web スクレイピング受託・QA 自動化 = Claude Agent SDK 接続・anti-bot stealth・residential proxy・CAPTCHA 回避・E2E テスト・JS 製・1.5k★・+347/day)/ soxoj/maigret(採用調査・本人確認・脅威インテリ = username 1 つ起点で 3000+ サイトの再帰巡回・MIT・Python 製・22.6k★・+1,065/day)/ Flowseal/zapret-discord-youtube(通信規制環境ユーザー = WinDivert + zapret の Windows 用バッチで DPI トラフィック制御回避・MIT・v1.9.8b・27.1k★・+179/day)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの部署/役割がこの OSS で動かせるか』を 1 動画で持ち帰れる構成",
+      "重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は description / detail / narration を 05/02 trend-pattern 角度『業務役割のマクロ OSS 化』から本日 use-case 角度『ペルソナ別の実働シーン』へ語彙完全切替。TradingAgents は『金融トレーディング部門 OSS 化』→『個人クオンツが部隊を持つ』、maigret は『OSINT 調査員役の自動化』→『採用調査 / 本人確認の現場での人手削減』へ抽象→具象に視点を降ろす。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを構造的に分割し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ(発生条件: 同 method + 同ラインナップ重複 3 本以上)から本日は外す",
+      "本日の 5 本は OSS ライセンスがほぼ MIT で揃い(MIT 4 本、Apache 2.0 1 本)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は良好。zapret-discord-youtube は MIT だが用途上、社内採用は環境側の規制ポリシー次第。本日 narration では用途中立性を最優先し、技術側に抽象化(プラットフォームリスクの受動的低減)",
+      "日曜(Sun=9 avg)の最低曜日対策として、武器は『5 ペルソナ完全分割の構造的網羅性』。視聴者(CTO/PdM)が『2026 年 5 月第 2 週は 5 ペルソナを別々に拾えた週』として記憶に残せる情報密度を確保。前週同曜日 04/26 (Sun) はデータなし(投稿なし)、その前 04/19 (Sun=17 views, business-angle 角度・直前期、ただし method 未付与 legacy 期)。本日は use-case で曜日 × method の新セルを開拓するメタ PDCA 的意味も持つ"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-02",
-    "dayOfWeek": "Sat",
+    "date": "2026-05-03",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
+      "実案件で使えるOSS",
+      "現場AI",
       "業務AI化",
-      "役割AI化",
-      "ジョブ自動化",
-      "業務自動化",
-      "AI業界動向",
-      "トレンド読み解き",
-      "2026Q2",
-      "職種AI化",
-      "ホワイトカラーAI",
-      "ClaudeCode",
-      "Codex",
-      "GeminiCLI",
-      "Copilot",
-      "MCP",
-      "Anthropic",
-      "OpenAI",
-      "Microsoft",
-      "Google",
-      "Ollama",
-      "ClaudeAgentSDK",
+      "エンジニア現場",
+      "受託開発",
+      "SaaS開発",
+      "スタートアップ",
+      "個人開発",
+      "小規模FinTech",
+      "個人クオンツ",
+      "ヘッジファンド",
       "金融AI",
       "トレーディング",
       "バックテスト",
+      "Web受託",
+      "スクレイピング",
+      "QA自動化",
+      "E2Eテスト",
+      "採用調査",
+      "本人確認",
+      "脅威インテリ",
       "OSINT",
       "調査AI",
-      "DevOps",
-      "ターミナル",
-      "コーディングエージェント",
-      "エンジニア生産性",
-      "TDD",
-      "PRD",
-      "受託開発",
-      "スタートアップ",
-      "CTO",
-      "PdM",
+      "ClaudeCode",
+      "ClaudeAgentSDK",
+      "Anthropic",
+      "MCP",
+      "browserbase",
+      "マルチエージェント",
+      "LLMオーケストレーション",
+      "LLM横断",
+      "Ollama",
+      "OpenAI",
+      "Microsoft",
+      "Google",
+      "Cohere",
       "Python",
-      "Rust",
-      "Shell"
+      "TypeScript",
+      "JavaScript",
+      "DPI",
+      "ネットワーク",
+      "Windows",
+      "WinDivert",
+      "CTO",
+      "PdM"
     ],
-    "focus": "土曜(Sat=202 avg)の中位曜日に `trend-pattern` 角度(柱④ / explore 枠 20%、母数 0 → 1 の初投入)を投入。直近 2 日連続禁則(05/01 ecosystem / 04/30 business-angle)を回避し、Method TOP 3 のうち comparison(8.0)も 04/27 同ラインナップ連投リスクで見送り、未投入の柱④ を初投入する。本日のマクロテーマ:『AI エージェントが特定の業務役割そのものを置き換え始めた週』。TOP5 は TauricResearch/TradingAgents(金融トレーディング部門 8 体)/ soxoj/maigret(OSINT 調査員)/ warpdotdev/warp(ターミナル作業者)/ 1jehuang/jcode(コーディング司令塔)/ mattpocock/skills(熟練エンジニア作法移植)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの役割がいつ AI 化対象になるか』を 1 動画で持ち帰れる構成。重複 3 本(TradingAgents・warp・mattpocock/skills)は ecosystem → trend-pattern へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同ラインナップ連投ペナルティを構造的に回避。新規 2 本(maigret・jcode)で役割幅を 5 種に拡張。skill 数は README 最新値 13 へ整合(05/01 の 16 から下方修正)。最低 50 views、理想 150 views。Method × 曜日マトリクスでは trend-pattern × Sat セルが母数 0 → 1 の新規開拓となるメタ価値もある。"
+    "focus": "日曜(Sun=9 avg)の最低曜日に `use-case` 角度(柱① / explore 枠 20%、母数 0 → 1 の初投入)を投入。直近 2 日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method TOP 3 のうち comparison (8.0) は 04/27 同ラインナップ連投リスク、business-angle (7.3) は 04/29-30 で 2 連投済 + 週次比率 15% 過多側のためいずれも見送り、未投入の use-case を Sun=9 avg の最低曜日(損失最小)に投入。本日のペルソナテーマ:『5 つの完全に異なるユーザー像で 1 動画を分割する』。TOP5 は TauricResearch/TradingAgents(個人クオンツ / 小規模 FinTech)/ ruvnet/ruflo(受託・SaaS チーム)/ browserbase/skills(Web スクレイピング受託・QA)/ soxoj/maigret(採用調査・本人確認・脅威インテリ)/ Flowseal/zapret-discord-youtube(通信規制環境ユーザー)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの部署/役割がこの OSS で動かせるか』を 1 動画で持ち帰れる構成。重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は trend-pattern → use-case へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同ラインナップ連投ペナルティを構造的に回避。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを明確に分割。zapret-discord-youtube は narration でプラットフォーム名を出さず技術側に抽象化(プラットフォームリスクの受動的低減)。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)。Method × 曜日マトリクスでは use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値もある。"
   }
 }

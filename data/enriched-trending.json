@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-02",
+  "date": "2026-05-03",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "今週(2026/05/02時点)のTOP5を『AIエージェントが特定の業務役割そのものを置き換え始めた週』というマクロ視点(柱④)で料理する。TauricResearch/TradingAgents=金融トレーディング部門の8体構成、soxoj/maigret=OSINT調査員役の自動化、warpdotdev/warp=ターミナル作業者役のエージェント化、1jehuang/jcode=コーディングエージェントの司令塔役、mattpocock/skills=熟練エンジニアの作法移植。これまでの『どのAIツールが伸びているか』ニュース型から『どの業務役割がOSS化された週か』に視点を一段引き上げる。直近2日(05/01 ecosystem / 04/30 business-angle)の連続禁則を回避し、未投入のメタ視点(柱④=trend-pattern)を土曜=Sat=202 avgの中位曜日で初投入(explore枠20%)。重複3本(TradingAgents・warp・mattpocock/skills)はecosystem角度『開発スタックの5レイヤ』からtrend-pattern角度『業務役割のOSS化マクロ』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規2本(maigret・jcode)で『金融・調査・ターミナル・コーディング司令塔・エンジニア作法』の役割幅を拡張し、04/29-30型の同method×同ラインナップ連投ペナルティ(5→8 views帯)を構造的に回避する。skill数はREADMEの最新実数値13へ整合(04/28=21・05/01=16から下方修正、ライブの整理を反映)。",
+    "method": "use-case",
+    "description": "今日のTOP5を5つの完全に異なるユーザー像(個人クオンツ/受託開発チーム/Webスクレイピング受託・QA/採用調査・脅威インテリ/通信規制環境ユーザー)で料理し、各OSSが『誰の・どんな現場で・何を吸収するか』を1動画で持ち帰れる構成にする。直近2日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method別TOP3の残候補(comparison 8.0 avg / business-angle 7.3 avg)も同ラインナップ連投リスクから外し、未投入のuse-case角度をSun=9 avgの最低曜日(損失最小)に投入するexplore枠20%。Method×曜日マトリクスでuse-case×Sunセルを母数0→1で新規開拓するメタPDCA価値を併設。重複2本(TradingAgents・maigret)は05/02 trend-pattern角度『業務役割のマクロOSS化』から本日use-case角度『ペルソナ別の実働シーン』へ語彙完全切替で04/24-25 / 04/29-30型の同method×同ラインナップ連投ペナルティを構造的に回避。新規3本(ruflo・browserbase/skills・zapret-discord-youtube)で『個人クオンツ・受託・Web受託・調査員・規制環境ユーザー』の5ペルソナを明確に分割。Sun=9 avg帯のため、最低3 views、理想30 views(Sun過去最高8を超えること)で評価。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/TauricResearch/TradingAgents",
+      "https://github.com/ruvnet/ruflo",
+      "https://github.com/browserbase/skills",
       "https://github.com/soxoj/maigret",
-      "https://github.com/warpdotdev/warp",
-      "https://github.com/1jehuang/jcode",
-      "https://github.com/mattpocock/skills"
+      "https://github.com/Flowseal/zapret-discord-youtube"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "language": "Python",
-      "stars": 59708,
-      "todayStars": 2115,
-      "description": "金融トレーディング部門の8体エージェント化",
-      "detail": "ファンダ・センチ・ニュース・テクニカルの4分析役、強気弱気の論者ペア、トレーダー、リスク管理層の計8体で金融トレーディング部門を丸ごと再現します。v0.2.4で構造化出力に対応、Apache 2.0で業務役割そのもののOSS化を象徴する一本です。",
-      "narration": "金融トレーディング部門ごとAI化したPython基盤です。8体の役割分担が業務AI化の波の象徴です。"
+      "stars": 62404,
+      "todayStars": 2227,
+      "description": "個人で組める8体構成のクオンツ部隊",
+      "detail": "アナリスト4体・強気弱気の論者ペア・トレーダー・リスク管理層をPythonで束ねた金融マルチエージェントです。Apache 2.0、v0.2.4で構造化出力に対応。個人クオンツや小規模FinTechがヘッジファンド部門構造ごと借りられます。",
+      "narration": "個人クオンツが部隊を持てる象徴の作品です。8体のエージェントでヘッジファンド構造を1人で再現できます。"
     },
     {
       "rank": 2,
+      "fullName": "ruvnet/ruflo",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars": 36711,
+      "todayStars": 1258,
+      "description": "100体のエージェントを束ねる司令塔",
+      "detail": "Claude CodeにMCP経由で100以上の専門エージェントを並べ、監査・テスト・レビューを並走させるTypeScript製のオーケストレータです。MIT、v3.6.10で連邦化に対応。受託やSaaS開発チームで作業を分担できます。",
+      "narration": "複数チームで同じClaude Codeを共有する受託向けです。100体のエージェントとMCPで監査やテストを分担します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "browserbase/skills",
+      "name": "skills",
+      "url": "https://github.com/browserbase/skills",
+      "language": "JavaScript",
+      "stars": 1486,
+      "todayStars": 347,
+      "description": "browserbase製のブラウザskill集",
+      "detail": "Claude Agent SDKに接続するbrowserbase公式のskill集で、ログイン後画面の取得・CAPTCHA回避・E2Eテストを任せられます。Webスクレイピング受託やQA自動化で1人月相当の手作業を吸収します。",
+      "narration": "Claude Codeに本物のブラウザを与えるskillです。QA自動化やWeb受託の手作業を吸収します。"
+    },
+    {
+      "rank": 4,
       "fullName": "soxoj/maigret",
       "name": "maigret",
       "url": "https://github.com/soxoj/maigret",
       "language": "Python",
-      "stars": 21568,
-      "todayStars": 535,
-      "description": "OSINT調査員役を置き換える基盤",
-      "detail": "1つのusernameを起点に3000以上のサイトから人物の足跡を再帰的に自動収集するMIT配布のOSINT基盤です。既定で500サイトを巡回し、これまで人手だった調査員役を丸ごとエージェント化する流れを体現します。",
-      "narration": "OSINT調査員を置き換えるツールです。3000以上のサイトから人物の足跡を自動収集します。"
-    },
-    {
-      "rank": 3,
-      "fullName": "warpdotdev/warp",
-      "name": "warp",
-      "url": "https://github.com/warpdotdev/warp",
-      "language": "Rust",
-      "stars": 51366,
-      "todayStars": 3403,
-      "description": "ターミナル作業者をAI化する環境",
-      "detail": "Claude Code・Codex・Gemini CLIを公式統合し、シェル作業をAIに任せる次世代ターミナルです。OpenAIが筆頭スポンサーで、AGPLとMITの二重配布、開発作業者という職種そのものをエージェント側へ移す動きの中心に位置します。",
-      "narration": "ターミナル作業をAIに任せる開発環境です。Claude CodeやCodexの公式統合が今週の波の中心です。"
-    },
-    {
-      "rank": 4,
-      "fullName": "1jehuang/jcode",
-      "name": "jcode",
-      "url": "https://github.com/1jehuang/jcode",
-      "language": "Rust",
-      "stars": 2320,
-      "todayStars": 404,
-      "description": "コーディング司令塔の新興OSS",
-      "detail": "Claude・OpenAI・Gemini・Copilotなど20以上のモデルを横断し、群行動と永続記憶でエージェント間を統括するMIT配布のRust製司令塔です。v0.11.6時点で人の代わりに『書く』から『指揮する』へ役割を再設計します。",
-      "narration": "コーディングエージェントの司令塔OSSです。群行動と永続記憶で開発役そのものを再設計します。"
+      "stars": 22608,
+      "todayStars": 1065,
+      "description": "ユーザー名1つで3000サイトを横断調査",
+      "detail": "username 1つを起点に3000以上のSNSや投稿サービスを再帰巡回し、関連アカウントとプロフィールを束ねるOSINTツールです。MIT、Python製。採用調査・本人確認・脅威インテリの現場で人手を一気に減らせます。",
+      "narration": "採用調査や本人確認の現場で使われるOSINTツールです。ユーザー名1つから3000以上のサイトを横断照合します。"
     },
     {
       "rank": 5,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 52398,
-      "todayStars": 3649,
-      "description": "熟練エンジニアの作法をAIに移植",
-      "detail": "診断・TDD・PRD化・Issue化など13種でClaude Codeの動作を熟練エンジニアの作法に揃えるMIT配布のスキル集です。著者の.claudeから直接配布され、人の役割をエージェントに引き継がせる流れを牽引します。",
-      "narration": "熟練エンジニアの作法を移植するSkill集です。診断やTDDなど13種で人の役割をエージェントに渡します。"
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "name": "zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "language": "Batchfile",
+      "stars": 27113,
+      "todayStars": 179,
+      "description": "Windows向けの通信規制バイパス",
+      "detail": "WinDivertとオープンソースのzapretを束ねたWindows用バッチで、DPIによるトラフィック制御を回避する仕組みです。MIT、v1.9.8b。通信が制限される環境のユーザーがメッセンジャーや動画アプリへの接続を取り戻す用途で広く使われています。",
+      "narration": "通信が制限される環境で接続を取り戻すツールです。WindowsのパケットドライバでDPI制御を回避します。"
     }
   ]
 }
