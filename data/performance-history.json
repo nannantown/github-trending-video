@@ -553,7 +553,7 @@
         "views": 17,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "views": 213,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -646,10 +646,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 8,
+        "views": 9,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "views": 10,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 11,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -915,7 +915,7 @@
         "views": 9,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -968,10 +968,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 324,
+        "views": 326,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         "views": 6,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -1077,7 +1077,7 @@
         "views": 11,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -1129,10 +1129,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 4,
+        "views": 5,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -1181,10 +1181,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 7,
+        "views": 10,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-02T23:31:34.127Z"
+        "updatedAt": "2026-05-03T23:32:23.139Z"
       }
     },
     {
@@ -1237,6 +1237,60 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-05-03T23:32:23.139Z"
+      }
+    },
+    {
+      "videoId": "IcKjfHDqYC0",
+      "videoUrl": "https://youtube.com/shorts/IcKjfHDqYC0",
+      "date": "2026-05-04",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/04 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "Rust"
+      ],
+      "projects": [
+        "ruvnet/ruflo",
+        "TauricResearch/TradingAgents",
+        "soxoj/maigret",
+        "Hmbown/DeepSeek-TUI",
+        "AIDC-AI/Pixelle-Video"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日のTOP5を『どのSaaS月額/単価が消えるか・受託でいくら見積もるか』のROI視点で料理し、Primaryペルソナ(CTO/技術投資判断者)+ Secondaryペルソナ(事業責任者/PdM)が稟議書ベースで採用判断できる構成にする。直近2日連続禁則(05/03 use-case / 05/02 trend-pattern)を回避し、Method TOP3(ecosystem 112.7 avg / business-angle 9.3 avg / comparison 8.5 avg)からbusiness-angleをexploit枠80%で選定。ecosystemは04/28=324の単発外れ値で平均が引き上がっており、05/01=4と直近で底打ちしている上、本日の5本がそれぞれ別vertical(オーケストレーション/金融/OSINT/コーディング/動画生成)で『1つのスタック』に束ねにくい素材適合の問題を回避。business-angleは04/29-30で同ラインナップ連投の轍を踏んだが、本日は新規3本(ruflo・DeepSeek-TUI・Pixelle-Video)+ 重複2本(TradingAgents・maigret)で連投ペナルティ条件(同method+同ラインナップ重複3本以上)から外す。前回business-angle運用(04/29-30)が抽象的な『実案件で組むなら』に留まったのを反省し、本日はLangGraph Cloud / Bloomberg Terminal / Sterling・HireRight / Claude API / Synthesia・HeyGenなど具体SaaS名と月額/単価を5本すべてで明示する角度を取る。柱②(business-angle 比率15%)の週次比率目標に対し、週開始のMon(5/4)に投入することで残り6日の柱①ベース運用と整合。Mon=119 avgの中位曜日で損失リスクは中庸、稟議語彙でPrimaryペルソナへの直撃を狙う。最低15 views(過去Mon平均超え)、理想200 views(過去Mon上位帯)を評価基準とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/ruvnet/ruflo",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/soxoj/maigret",
+          "https://github.com/Hmbown/DeepSeek-TUI",
+          "https://github.com/AIDC-AI/Pixelle-Video"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -1245,13 +1299,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-06",
-      "changes": [
-        "Day performance: Mon=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-07",
       "changes": [
@@ -1508,6 +1555,18 @@
         "standard: 316 avg views (26 videos)",
         "Trending languages: C++ (1.7x)",
         "Day performance: Tue=719, Fri=618, Thu=350, Wed=266, Sat=153, Mon=120, Sun=9"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-03",
+      "changes": [
+        "Kotlin: 1.3x avg views → boost",
+        "Rust: 0.5x avg views → drop",
+        "Shell: 0.4x avg views → drop",
+        "standard: 305 avg views (27 videos)",
+        "Trending languages: Kotlin (1.3x), C++ (1.7x)",
+        "Day performance: Tue=720, Fri=618, Thu=350, Wed=267, Sat=154, Mon=120, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
