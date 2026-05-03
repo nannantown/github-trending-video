@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "discovery": {
-    "method": "use-case",
-    "description": "今日のTOP5を5つの完全に異なるユーザー像(個人クオンツ/受託開発チーム/Webスクレイピング受託・QA/採用調査・脅威インテリ/通信規制環境ユーザー)で料理し、各OSSが『誰の・どんな現場で・何を吸収するか』を1動画で持ち帰れる構成にする。直近2日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method別TOP3の残候補(comparison 8.0 avg / business-angle 7.3 avg)も同ラインナップ連投リスクから外し、未投入のuse-case角度をSun=9 avgの最低曜日(損失最小)に投入するexplore枠20%。Method×曜日マトリクスでuse-case×Sunセルを母数0→1で新規開拓するメタPDCA価値を併設。重複2本(TradingAgents・maigret)は05/02 trend-pattern角度『業務役割のマクロOSS化』から本日use-case角度『ペルソナ別の実働シーン』へ語彙完全切替で04/24-25 / 04/29-30型の同method×同ラインナップ連投ペナルティを構造的に回避。新規3本(ruflo・browserbase/skills・zapret-discord-youtube)で『個人クオンツ・受託・Web受託・調査員・規制環境ユーザー』の5ペルソナを明確に分割。Sun=9 avg帯のため、最低3 views、理想30 views(Sun過去最高8を超えること)で評価。",
+    "method": "business-angle",
+    "description": "今日のTOP5を『どのSaaS月額/単価が消えるか・受託でいくら見積もるか』のROI視点で料理し、Primaryペルソナ(CTO/技術投資判断者)+ Secondaryペルソナ(事業責任者/PdM)が稟議書ベースで採用判断できる構成にする。直近2日連続禁則(05/03 use-case / 05/02 trend-pattern)を回避し、Method TOP3(ecosystem 112.7 avg / business-angle 9.3 avg / comparison 8.5 avg)からbusiness-angleをexploit枠80%で選定。ecosystemは04/28=324の単発外れ値で平均が引き上がっており、05/01=4と直近で底打ちしている上、本日の5本がそれぞれ別vertical(オーケストレーション/金融/OSINT/コーディング/動画生成)で『1つのスタック』に束ねにくい素材適合の問題を回避。business-angleは04/29-30で同ラインナップ連投の轍を踏んだが、本日は新規3本(ruflo・DeepSeek-TUI・Pixelle-Video)+ 重複2本(TradingAgents・maigret)で連投ペナルティ条件(同method+同ラインナップ重複3本以上)から外す。前回business-angle運用(04/29-30)が抽象的な『実案件で組むなら』に留まったのを反省し、本日はLangGraph Cloud / Bloomberg Terminal / Sterling・HireRight / Claude API / Synthesia・HeyGenなど具体SaaS名と月額/単価を5本すべてで明示する角度を取る。柱②(business-angle 比率15%)の週次比率目標に対し、週開始のMon(5/4)に投入することで残り6日の柱①ベース運用と整合。Mon=119 avgの中位曜日で損失リスクは中庸、稟議語彙でPrimaryペルソナへの直撃を狙う。最低15 views(過去Mon平均超え)、理想200 views(過去Mon上位帯)を評価基準とする。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/TauricResearch/TradingAgents",
       "https://github.com/ruvnet/ruflo",
-      "https://github.com/browserbase/skills",
+      "https://github.com/TauricResearch/TradingAgents",
       "https://github.com/soxoj/maigret",
-      "https://github.com/Flowseal/zapret-discord-youtube"
+      "https://github.com/Hmbown/DeepSeek-TUI",
+      "https://github.com/AIDC-AI/Pixelle-Video"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "TauricResearch/TradingAgents",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "language": "Python",
-      "stars": 62404,
-      "todayStars": 2227,
-      "description": "個人で組める8体構成のクオンツ部隊",
-      "detail": "アナリスト4体・強気弱気の論者ペア・トレーダー・リスク管理層をPythonで束ねた金融マルチエージェントです。Apache 2.0、v0.2.4で構造化出力に対応。個人クオンツや小規模FinTechがヘッジファンド部門構造ごと借りられます。",
-      "narration": "個人クオンツが部隊を持てる象徴の作品です。8体のエージェントでヘッジファンド構造を1人で再現できます。"
-    },
-    {
-      "rank": 2,
       "fullName": "ruvnet/ruflo",
       "name": "ruflo",
       "url": "https://github.com/ruvnet/ruflo",
       "language": "TypeScript",
-      "stars": 36711,
-      "todayStars": 1258,
-      "description": "100体のエージェントを束ねる司令塔",
-      "detail": "Claude CodeにMCP経由で100以上の専門エージェントを並べ、監査・テスト・レビューを並走させるTypeScript製のオーケストレータです。MIT、v3.6.10で連邦化に対応。受託やSaaS開発チームで作業を分担できます。",
-      "narration": "複数チームで同じClaude Codeを共有する受託向けです。100体のエージェントとMCPで監査やテストを分担します。"
+      "stars": 38824,
+      "todayStars": 1834,
+      "description": "Claude Codeに32エージェント連邦化",
+      "detail": "Claude Code単体に専門エージェント32種とHNSWベクトルメモリ、mTLSの連邦化を足すMIT・TypeScript OSSです。LangGraph CloudやLangSmithのオーケストレーション月額を抜けて、社外チームと並列稼働できます。",
+      "narration": "Claude Codeに32エージェントを束ねるOSSです。社外チームと並列稼働し、LLM運用SaaSの月額を抜けます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "TauricResearch/TradingAgents",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars": 65134,
+      "todayStars": 3315,
+      "description": "ヘッジファンド構造を個人クオンツへ",
+      "detail": "4アナリスト、強気弱気の論者ペア、トレーダー、リスク管理をLangGraphで束ねるApache 2.0のPython OSSです。LLMはOpenAIからDeepSeekまで差替可能で、Bloomberg Terminalの年額や検証案件の人月をPoCで取り戻せます。",
+      "narration": "ヘッジファンドの分業をPythonで再現するOSSです。Bloombergの月額をAI検証PoCで取り戻せます。"
     },
     {
       "rank": 3,
-      "fullName": "browserbase/skills",
-      "name": "skills",
-      "url": "https://github.com/browserbase/skills",
-      "language": "JavaScript",
-      "stars": 1486,
-      "todayStars": 347,
-      "description": "browserbase製のブラウザskill集",
-      "detail": "Claude Agent SDKに接続するbrowserbase公式のskill集で、ログイン後画面の取得・CAPTCHA回避・E2Eテストを任せられます。Webスクレイピング受託やQA自動化で1人月相当の手作業を吸収します。",
-      "narration": "Claude Codeに本物のブラウザを与えるskillです。QA自動化やWeb受託の手作業を吸収します。"
-    },
-    {
-      "rank": 4,
       "fullName": "soxoj/maigret",
       "name": "maigret",
       "url": "https://github.com/soxoj/maigret",
       "language": "Python",
-      "stars": 22608,
-      "todayStars": 1065,
-      "description": "ユーザー名1つで3000サイトを横断調査",
-      "detail": "username 1つを起点に3000以上のSNSや投稿サービスを再帰巡回し、関連アカウントとプロフィールを束ねるOSINTツールです。MIT、Python製。採用調査・本人確認・脅威インテリの現場で人手を一気に減らせます。",
-      "narration": "採用調査や本人確認の現場で使われるOSINTツールです。ユーザー名1つから3000以上のサイトを横断照合します。"
+      "stars": 23726,
+      "todayStars": 1117,
+      "description": "username1つで3,000サイト調査",
+      "detail": "username1つを起点に3,000サイトへ非同期で問い合わせ、別usernameを再帰追跡するMIT・Python製OSINT OSSです。HTML/PDF/JSONで出力でき、Sterlingの1件30ドル背景調査やPiplの月額を社内自動化に置き換えられます。",
+      "narration": "username1つから3,000サイトを横断調査するOSSです。採用調査やKYCで月数万円のSaaS費用を削れます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "name": "DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "language": "Rust",
+      "stars": 2083,
+      "todayStars": 389,
+      "description": "DeepSeek専用Rust製TUIエージェント",
+      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIコーディングエージェントです。Plan/Agent/YOLOの3モードとMCP統合を備え、Flashの0.14ドル/M入力でClaude APIより5〜50倍安く回せます。MIT、v0.8.8。",
+      "narration": "DeepSeek用の高速コーディングエージェントです。Claude APIより最大50倍安く、ターミナルで常駐します。"
     },
     {
       "rank": 5,
-      "fullName": "Flowseal/zapret-discord-youtube",
-      "name": "zapret-discord-youtube",
-      "url": "https://github.com/Flowseal/zapret-discord-youtube",
-      "language": "Batchfile",
-      "stars": 27113,
-      "todayStars": 179,
-      "description": "Windows向けの通信規制バイパス",
-      "detail": "WinDivertとオープンソースのzapretを束ねたWindows用バッチで、DPIによるトラフィック制御を回避する仕組みです。MIT、v1.9.8b。通信が制限される環境のユーザーがメッセンジャーや動画アプリへの接続を取り戻す用途で広く使われています。",
-      "narration": "通信が制限される環境で接続を取り戻すツールです。WindowsのパケットドライバでDPI制御を回避します。"
+      "fullName": "AIDC-AI/Pixelle-Video",
+      "name": "Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "language": "Python",
+      "stars": 9873,
+      "todayStars": 478,
+      "description": "テーマ入力で動画まで一気通貫生成",
+      "detail": "テーマを入れるとLLMが脚本、FLUXやWAN 2.1が画像と動画、Edge-TTSが音声を合成するComfyUIベースのApache 2.0 Python OSSです。SynthesiaやHeyGenの月30ドル前後のSaaSを自前環境に置き換え、動画工数を1/10に削れます。",
+      "narration": "テーマ1つから動画まで自動生成するOSSです。SynthesiaやHeyGenの月額を自前環境に置き換えられます。"
     }
   ]
 }

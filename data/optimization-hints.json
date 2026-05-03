@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03",
+  "updatedAt": "2026-05-04",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -20,7 +20,7 @@
     ],
     "topPerformingVideo": {
       "date": "2026-04-28",
-      "views": 322,
+      "views": 324,
       "projects": [
         "mattpocock/skills",
         "abhigyanpatwari/GitNexus",
@@ -28,93 +28,98 @@
         "Alishahryar1/free-claude-code",
         "gastownhall/beads"
       ],
-      "note": "Method 別平均(04/22 以降の本格 method 期、updatedAt あり videos のみ): ecosystem 165.5 (2 投稿: 04/23=9, 04/28=322) / comparison 8.0 (2 投稿) / business-angle 7.3 (3 投稿: 04/26=9, 04/29=5, 04/30=8) / tech-deep 5.0 (2 投稿) / trend-pattern 0(05/02 投入、updatedAt 待ち) / use-case 0(本日 05/03 投入、母数 0 → 1)。05/01 (ecosystem)・05/02 (trend-pattern) はいずれも updatedAt null で未集計。本日 05/03 (Sun) は直近 2 日連続禁則(05/02 trend-pattern / 05/01 ecosystem)で Method TOP 3 のうち ecosystem がブロック。残候補 comparison (8.0) は 04/27 で同ラインナップ連投の轍を踏む構造、business-angle (7.3) は 04/29-30 で 2 連投済(週次比率 15% に対して過多側)で見送り、未投入の use-case 角度を Sun=9 avg の最低曜日(損失最小)に explore 枠 20% で初投入。Method × 曜日マトリクスで use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値併設。本日 5 本がそれぞれ完全に異なるユーザー像で揃った素材適合の高さ(個人クオンツ / 受託チーム / Web 受託・QA / 採用調査・脅威インテリ / 通信規制環境ユーザー)を最大限活かす構成。重複 2 本(TradingAgents・maigret)は trend-pattern → use-case へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを明確に分割。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)。"
+      "note": "Method 別平均 (04/22 以降 method 期、updatedAt あり videos のみ): ecosystem 112.7 (3 投稿: 04/23=10, 04/28=324, 05/01=4) / business-angle 9.3 (3 投稿: 04/26=11, 04/29=6, 04/30=11) / comparison 8.5 (2 投稿: 04/22=8, 04/27=9) / trend-pattern 7.0 (1 投稿: 05/02=7) / tech-deep 6.0 (2 投稿: 04/24=5, 04/25=7) / use-case 0 (05/03 投入、updatedAt 待ち) / self-experiment 0 (未投入)。本日 05/04 (Mon) は直近 2 日連続禁則 (05/03 use-case / 05/02 trend-pattern) を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散 (オーケストレーション/金融/OSINT/コーディング/動画生成) で 1 つの共通スタックを形成しないため素材不適合 (05/01=4 で確認済みの逆パターン) として見送り、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいため見送り、business-angle (TOP2 avg 9.3) を選定。本日 5 本すべてに具体 SaaS 競合と単価/月額が紐づく稀な素材適合の高い日 (ruflo→LangGraph Cloud / TradingAgents→Bloomberg Terminal $24,000/年 / maigret→Sterling 1 件 $30 / DeepSeek-TUI→Claude API より 5-50 倍安 / Pixelle-Video→Synthesia $30-90/mo) で、04/29-30 で抽象的な『実案件で組むなら』に留まった反省を活かし、本日は具体 SaaS 名と単価を 5 本すべてで明示する稟議書語彙へ運用切替。Mon=119 avg の中位曜日で損失リスク中庸、最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)。重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は use-case → business-angle へ角度語彙完全切替で連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート(【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts)は安定。そのまま維持",
-      "本日は日曜(Sun=9 avg)の最低曜日で explore 枠の損失許容度が最大。柱① 内角度 use-case を母数 0 → 1 で初投入し、来週以降の Method × 曜日マトリクスに新セルを開拓。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)",
-      "重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は description / detail / narration を 05/02 trend-pattern 系『業務役割のマクロ OSS 化』から、本日 use-case 系『ペルソナ別の実働シーン』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
+      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
+      "本日は月曜 (Mon=119 avg) の中位曜日。柱② (business-angle) を週開始の Mon に投入することで、Primary ペルソナ (CTO/技術投資判断者) への稟議書語彙直撃を狙う。最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)",
+      "重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は description / detail / narration を 05/03 use-case 系『ペルソナ別の実働シーン』から、本日 business-angle 系『SaaS 月額/単価の置き換え』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
     ],
     "hashtags": [
-      "日曜の最低曜日 + 柱① 内 use-case 角度初投入対策で、Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)に同時訴求するペルソナ・現場・職務の語彙を厚く: #実案件で使えるOSS #現場AI #業務AI化 #エンジニア現場 #受託開発 #SaaS開発 #スタートアップ #個人開発 #小規模FinTech",
-      "use-case 角度のため、ペルソナ別の語彙を補強: #個人クオンツ #ヘッジファンド #金融AI #トレーディング #バックテスト #Web受託 #スクレイピング #QA自動化 #E2Eテスト #採用調査 #本人確認 #脅威インテリ #OSINT #調査AI",
-      "言語タグは Python(2 本)/TypeScript(1 本)/JavaScript(1 本)/Batchfile(1 本)。Python multiplier 1.2x が効くため #Python を主、副に #TypeScript(1.1x) #JavaScript。Batchfile は珍しいタグだが該当 1 本(zapret-discord-youtube)で素朴に置く。Rust は本日不在で multiplier 0.5x の負荷なし",
-      "技術スタック・OSS タグも継続: #ClaudeCode #ClaudeAgentSDK #Anthropic #MCP #browserbase #エージェント #マルチエージェント #LLMオーケストレーション #LLM横断 #Ollama #OpenAI #Microsoft #Google #Cohere",
-      "前日 05/02 trend-pattern 角度のマクロ・週単位・職種・役割の語彙(#職種AI化 #ホワイトカラーAI #業務OS化 #LLMOps #AI業界動向 #トレンド読み解き #2026Q2)からは距離を取り、本日はペルソナ・現場・職務の語彙へ寄せる",
-      "通信規制環境関連は中立タグのみ運用(#DPI #ネットワーク #Windows #WinDivert)。地政学・特定地域の文脈タグは投入しない(プラットフォームリスクの受動的低減)"
+      "月曜の中位曜日 + 柱② business-angle 投入対策で、Primary ペルソナ (CTO/技術投資判断者) に稟議書語彙で直撃するタグを厚く: #SaaS削減 #LLMコスト最適化 #内製化 #自社運用 #OSS活用 #実案件で使えるOSS #受託開発 #スタートアップ #個人開発 #小規模FinTech #コスト最適化 #TCO削減",
+      "business-angle 角度のため、SaaS カテゴリ別の語彙を補強: #LangGraphCloud #LangSmith #Bloomberg #QuantConnect #Sterling #HireRight #Pipl #BeenVerified #Synthesia #HeyGen #Runway #Pika (商標は中立記載運用)",
+      "業務ドメインタグ: #エージェントオーケストレーション #金融AI #個人クオンツ #ヘッジファンド #バックテスト #OSINT #採用調査 #本人確認 #KYC #AML #脅威インテリ #コーディングAI #DeepSeek #ClaudeCode #動画生成 #コンテンツマーケ",
+      "言語タグは Python (3 本) / TypeScript (1 本) / Rust (1 本)。Python multiplier 1.2x が効くため #Python を主、副に #TypeScript (1.1x)。Rust は multiplier 0.5x で重み低だが該当 1 本 (DeepSeek-TUI) で素朴に置く #Rust",
+      "技術スタック・OSS タグも継続: #ClaudeCode #ClaudeAgentSDK #Anthropic #MCP #エージェント #マルチエージェント #LLMオーケストレーション #LLM横断 #Ollama #OpenAI #Microsoft #Google #DeepSeek",
+      "前日 05/03 use-case 角度のペルソナ・現場・職務の語彙 (#現場AI #業務AI化 #個人クオンツ #Web受託 #採用調査 #本人確認) からは距離を取り、本日は SaaS 名・単価・月額・置き換え対象の語彙へ寄せる",
+      "商標は中立記載運用 (『○○より安い』ではなく『○○の月額を抜けて自社運用に置き換え可能』『○○を社内自動化に置き換え』のニュートラル表現)。プラットフォームリスクの受動的低減と同質の運用ルール"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守(55 秒枠)。5 本とも 51-60 文字で収まり、合計 273 文字、TTS +30% 読み上げで約 25 秒(プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
-      "カタカナ発音を想定して TTS の誤読を回避(トレーディング エージェンツ、ルフロ、ブラウザベース スキルズ、メイグレット、ザプレット ディスコード ユーチューブ)。固有名詞は原文英語のまま(Claude Code, Claude Agent SDK, MCP, OSINT, Apache 2.0, MIT, CAPTCHA, E2E, DPI, Windows, WinDivert)",
-      "use-case 角度の一貫性: 各ナレーション前半で『誰の現場か』(個人クオンツ / 受託チーム / Web 受託・QA / 採用・本人確認 / 通信規制環境ユーザー)、後半で『何を吸収するか・何を取り戻すか』を必ず提示する 2 文構成",
-      "前日 05/02 trend-pattern の語彙(置き換える、AI化する、OSS化する、移植する、再設計する、引き継がせる、自動収集する、丸ごと再現する、波の象徴、業務役割、マクロ、週)からは完全に距離を置き、本日は『現場、ペルソナ、受託、QA、採用、調査、人月、手作業、吸収、分担、任せる、取り戻す』など現場・職務語彙へ完全切替",
-      "zapret-discord-youtube は narration では Discord/YouTube を直接出さず『メッセンジャーや動画アプリ』『接続を取り戻す』に抽象化。技術側(WinDivert / DPI 制御)に寄せる(プラットフォームリスクの受動的低減)"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本すべて 56-60 文字で収まり、合計 291 文字、TTS +30% 読み上げで約 27 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
+      "カタカナ発音を想定して TTS の誤読を回避 (ルフロ、トレーディング エージェンツ、メイグレット、ディープシーク ティー ユー アイ、ピクセル ビデオ)。固有名詞は原文英語のまま (Claude Code, LangGraph Cloud, LangSmith, Bloomberg, QuantConnect, Sterling, HireRight, Pipl, Synthesia, HeyGen, Runway, FLUX, WAN, Edge-TTS, ComfyUI, MCP, MIT, Apache 2.0)",
+      "business-angle 角度の一貫性: 各ナレーション後半で『SaaS 月額/単価が消える』『○倍安く回せる』『自前環境に置き換え』など定量・SaaS 名・置き換え対象を必ず提示する 2 文構成 (フック 1 文 + 要点 1 文)",
+      "前日 05/03 use-case の語彙 (現場、ペルソナ、受託、QA、採用、調査、人月、手作業、吸収、分担、任せる、取り戻す) からは完全に距離を置き、本日は『月額、単価、年額、自社運用、置き換え、抜ける、削れる、内製、運用 SaaS、API コスト、PoC、稟議』など金額・置き換え語彙へ完全切替",
+      "DeepSeek-TUI の narration は『Claude API より最大 50 倍安く』と直接 SaaS 名 + 倍率を提示。商標表記の中立性は『より安い』(Claude API を直接劣後扱い) ではなく『安く回せる』(自社視点でのコスト効率) のニュアンス調整で担保 (商標バランス維持)",
+      "Pixelle-Video の narration は Synthesia / HeyGen を直接挙げて『月額を自前環境に置き換えられます』。SaaS 撤退ではなく代替選択肢として提示する語彙設計"
     ],
     "content": [
-      "本日の discovery.method は `use-case`(柱① / explore 枠 20%、母数 0 → 1 の初投入)。直近 2 日(05/02 trend-pattern / 05/01 ecosystem)の連続禁則を回避し、Method TOP 3 のうち comparison (8.0) は 04/27 同ラインナップ連投リスク、business-angle (7.3) は 04/29-30 で 2 連投済 + 週次比率 15% 過多側のためいずれも見送り。未投入の use-case を Sun=9 avg の最低曜日(損失最小)に投入。Method × 曜日マトリクスで use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値も併設",
-      "今日の TOP5 は『5 つの完全に異なるユーザー像』で揃った構成: TauricResearch/TradingAgents(個人クオンツ / 小規模 FinTech のヘッジファンド構造借用 = 8 体構成・4 分析役 + 強気弱気論者ペア + トレーダー + リスク管理層・Apache 2.0・v0.2.4 で構造化出力対応・62.4k★・+2,227/day)/ ruvnet/ruflo(受託・SaaS チームの並走監査 = Claude Code に MCP 経由で 100+ 専門エージェント・27 hooks・SONA neural patterns・MIT・v3.6.10・連邦化対応・36.7k★・+1,258/day)/ browserbase/skills(Web スクレイピング受託・QA 自動化 = Claude Agent SDK 接続・anti-bot stealth・residential proxy・CAPTCHA 回避・E2E テスト・JS 製・1.5k★・+347/day)/ soxoj/maigret(採用調査・本人確認・脅威インテリ = username 1 つ起点で 3000+ サイトの再帰巡回・MIT・Python 製・22.6k★・+1,065/day)/ Flowseal/zapret-discord-youtube(通信規制環境ユーザー = WinDivert + zapret の Windows 用バッチで DPI トラフィック制御回避・MIT・v1.9.8b・27.1k★・+179/day)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの部署/役割がこの OSS で動かせるか』を 1 動画で持ち帰れる構成",
-      "重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は description / detail / narration を 05/02 trend-pattern 角度『業務役割のマクロ OSS 化』から本日 use-case 角度『ペルソナ別の実働シーン』へ語彙完全切替。TradingAgents は『金融トレーディング部門 OSS 化』→『個人クオンツが部隊を持つ』、maigret は『OSINT 調査員役の自動化』→『採用調査 / 本人確認の現場での人手削減』へ抽象→具象に視点を降ろす。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを構造的に分割し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ(発生条件: 同 method + 同ラインナップ重複 3 本以上)から本日は外す",
-      "本日の 5 本は OSS ライセンスがほぼ MIT で揃い(MIT 4 本、Apache 2.0 1 本)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は良好。zapret-discord-youtube は MIT だが用途上、社内採用は環境側の規制ポリシー次第。本日 narration では用途中立性を最優先し、技術側に抽象化(プラットフォームリスクの受動的低減)",
-      "日曜(Sun=9 avg)の最低曜日対策として、武器は『5 ペルソナ完全分割の構造的網羅性』。視聴者(CTO/PdM)が『2026 年 5 月第 2 週は 5 ペルソナを別々に拾えた週』として記憶に残せる情報密度を確保。前週同曜日 04/26 (Sun) はデータなし(投稿なし)、その前 04/19 (Sun=17 views, business-angle 角度・直前期、ただし method 未付与 legacy 期)。本日は use-case で曜日 × method の新セルを開拓するメタ PDCA 的意味も持つ"
+      "本日の discovery.method は `business-angle` (柱② / exploit 枠 80%、Method TOP 2 avg 9.3 安定帯)。直近 2 日 (05/03 use-case / 05/02 trend-pattern) の連続禁則を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散で素材不適合 (05/01=4 で確認済みの逆パターン) として見送り、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいため見送り、business-angle を選定。Mon=119 avg の中位曜日で損失リスク中庸、上振れ余地中庸",
+      "今日の TOP5 は『5 本すべてに具体 SaaS 競合と単価/月額が紐づく稀な日』: ruvnet/ruflo (TS / 38.8k★ / +1,834・MIT・v3.6.10・Claude Code に専門エージェント 32 種 + HNSW vector メモリ + mTLS 連邦化を足す → LangGraph Cloud / LangSmith のオーケストレーション SaaS の月額を抜ける) / TauricResearch/TradingAgents (Python / 65.1k★ / +3,315・Apache 2.0・v0.2.4・4 アナリスト + 強気弱気論者ペア + トレーダー + リスク管理を LangGraph で束ね・LLM は OpenAI から DeepSeek まで切替可能 → Bloomberg Terminal $24,000/年 / QuantConnect Cloud $200+/mo を AI 検証 PoC で取り戻す) / soxoj/maigret (Python / 23.7k★ / +1,117・MIT・username 1 つ起点で 3,000+ サイトの再帰巡回・HTML/PDF/JSON 出力 → Sterling/HireRight 1 件 $30-100 / Pipl $8/record / BeenVerified $30+/mo を社内自動化に置き換え) / Hmbown/DeepSeek-TUI (Rust / 2.1k★ / +389・MIT・v0.8.8・Rust 単一バイナリ TUI コーディングエージェント・Plan/Agent/YOLO 3 モード + MCP/LSP 統合 → DeepSeek Flash $0.14/M 入力 + $0.28/M 出力で Claude Sonnet API より 5〜50 倍安) / AIDC-AI/Pixelle-Video (Python / 9.9k★ / +478・Apache 2.0・v0.1.15・LLM が脚本 + FLUX/WAN 2.1 が画像/動画 + Edge-TTS が音声 + BGM 合成・ComfyUI ベース → Synthesia $30-90/mo / HeyGen $30+/mo を自前環境に置き換え)。Primary ペルソナ (CTO/技術投資判断者) が稟議書ベースで採用判断できる構成",
+      "重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は description / detail / narration を 05/03 use-case 角度『ペルソナ別の実働シーン』から本日 business-angle 角度『SaaS 月額/単価の置き換え』へ語彙完全切替。TradingAgents は『個人クオンツが部隊を持つ』→『Bloomberg Terminal $24,000/年を AI 検証 PoC で取り戻す』、maigret は『採用調査の現場での人手削減』→『Sterling の 1 件 $30 や Pipl の月額を社内自動化』へ抽象表現を SaaS 名・単価レベルに落とし込む。新規 3 本 (ruflo・DeepSeek-TUI・Pixelle-Video) で 5 SaaS カテゴリ (オーケストレーション SaaS / 金融端末 / 背景調査 / コーディング AI API / 動画生成 SaaS) を構造的に分割し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ (発生条件: 同 method + 同ラインナップ重複 3 本以上) から外す",
+      "本日の 5 本は OSS ライセンスが MIT 3 本 (ruflo, maigret, DeepSeek-TUI) + Apache 2.0 2 本 (TradingAgents, Pixelle-Video)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は良好で、稟議書ベースの採用判断にも通しやすい。本日 narration ではライセンス表記を detail に集約し、narration では SaaS 月額/単価の定量表記を最優先 (40-60 字制約で稟議書語彙の密度を最大化)",
+      "Mon=119 avg の中位曜日対策として、武器は『5 本すべてに具体 SaaS 競合と単価/月額が紐づく素材適合の高さ』。視聴者 (CTO/PdM) が『2026 年 5 月第 2 週の月曜は OSS 採用で SaaS 月額がいくら消えるかを 1 動画で持ち帰れた日』として記憶に残せる定量密度を確保。前週同曜日 04/27 (Mon? — 04/27 は Mon 投稿、9 views, comparison 角度) の 9 views を上回ることが最低基準",
+      "本日の運用結果が出る 05/06 PDCA 以降で、business-angle の 4 投稿目データ (期待値 9.3 avg、上振れ条件: 具体 SaaS 名 + 単価明示・5 本素材適合・週開始投入) を確定。同時期に 05/03 use-case の updatedAt も到着するため、Method × 曜日マトリクスで use-case × Sun セルと business-angle × Mon セルの母数 1 投入結果を同時評価可能"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-03",
-    "dayOfWeek": "Sun",
+    "date": "2026-05-04",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
+      "SaaS削減",
+      "LLMコスト最適化",
+      "内製化",
+      "自社運用",
+      "OSS活用",
       "実案件で使えるOSS",
-      "現場AI",
-      "業務AI化",
-      "エンジニア現場",
       "受託開発",
-      "SaaS開発",
       "スタートアップ",
       "個人開発",
       "小規模FinTech",
+      "コスト最適化",
+      "TCO削減",
+      "LangGraphCloud",
+      "LangSmith",
+      "Bloomberg",
+      "QuantConnect",
+      "Sterling",
+      "Pipl",
+      "Synthesia",
+      "HeyGen",
+      "エージェントオーケストレーション",
+      "金融AI",
       "個人クオンツ",
       "ヘッジファンド",
-      "金融AI",
-      "トレーディング",
       "バックテスト",
-      "Web受託",
-      "スクレイピング",
-      "QA自動化",
-      "E2Eテスト",
+      "OSINT",
       "採用調査",
       "本人確認",
+      "KYC",
       "脅威インテリ",
-      "OSINT",
-      "調査AI",
+      "コーディングAI",
+      "DeepSeek",
       "ClaudeCode",
       "ClaudeAgentSDK",
       "Anthropic",
       "MCP",
-      "browserbase",
       "マルチエージェント",
       "LLMオーケストレーション",
       "LLM横断",
-      "Ollama",
       "OpenAI",
-      "Microsoft",
-      "Google",
-      "Cohere",
       "Python",
       "TypeScript",
-      "JavaScript",
-      "DPI",
-      "ネットワーク",
-      "Windows",
-      "WinDivert",
+      "Rust",
+      "動画生成",
+      "コンテンツマーケ",
       "CTO",
       "PdM"
     ],
-    "focus": "日曜(Sun=9 avg)の最低曜日に `use-case` 角度(柱① / explore 枠 20%、母数 0 → 1 の初投入)を投入。直近 2 日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method TOP 3 のうち comparison (8.0) は 04/27 同ラインナップ連投リスク、business-angle (7.3) は 04/29-30 で 2 連投済 + 週次比率 15% 過多側のためいずれも見送り、未投入の use-case を Sun=9 avg の最低曜日(損失最小)に投入。本日のペルソナテーマ:『5 つの完全に異なるユーザー像で 1 動画を分割する』。TOP5 は TauricResearch/TradingAgents(個人クオンツ / 小規模 FinTech)/ ruvnet/ruflo(受託・SaaS チーム)/ browserbase/skills(Web スクレイピング受託・QA)/ soxoj/maigret(採用調査・本人確認・脅威インテリ)/ Flowseal/zapret-discord-youtube(通信規制環境ユーザー)。Primary ペルソナ(CTO/ソロ開発者)+ Secondary ペルソナ(事業責任者/PdM)が『自社のどの部署/役割がこの OSS で動かせるか』を 1 動画で持ち帰れる構成。重複 2 本(TradingAgents 3 日連続 / maigret 2 日連続)は trend-pattern → use-case へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同ラインナップ連投ペナルティを構造的に回避。新規 3 本(ruflo・browserbase/skills・zapret-discord-youtube)で 5 ペルソナを明確に分割。zapret-discord-youtube は narration でプラットフォーム名を出さず技術側に抽象化(プラットフォームリスクの受動的低減)。最低 3 views(過去 Sun 平均超え)、理想 30 views(過去 Sun 最高 8 を 4 倍超え)。Method × 曜日マトリクスでは use-case × Sun セルが母数 0 → 1 の新規開拓となるメタ価値もある。"
+    "focus": "月曜 (Mon=119 avg) の中位曜日に `business-angle` 角度 (柱② / exploit 枠 80%、Method TOP 2 avg 9.3 安定帯) を投入。直近 2 日連続禁則 (05/03 use-case / 05/02 trend-pattern) を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散 (オーケストレーション/金融/OSINT/コーディング/動画生成) で素材不適合 (05/01=4 の逆パターン)、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいためいずれも見送り。本日のテーマ:『5 本すべてに具体 SaaS 競合と単価/月額を紐づけ、Primary ペルソナ (CTO/技術投資判断者) が稟議書ベースで採用判断できる構成』。TOP5 は ruvnet/ruflo (LangGraph Cloud / LangSmith) / TauricResearch/TradingAgents (Bloomberg Terminal $24,000/年 / QuantConnect $200+/mo) / soxoj/maigret (Sterling 1 件 $30 / Pipl $8/record) / Hmbown/DeepSeek-TUI (Claude API より 5-50 倍安) / AIDC-AI/Pixelle-Video (Synthesia $30-90/mo / HeyGen)。重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は use-case → business-angle へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ (発生条件: 同 method + 同ラインナップ重複 3 本以上) を構造的に回避。新規 3 本 (ruflo・DeepSeek-TUI・Pixelle-Video) で 5 SaaS カテゴリを明確に分割。商標は中立記載運用 (『○○より安い』ではなく『○○の月額を抜けて自社運用に置き換え可能』のニュートラル表現) でプラットフォームリスクの受動的低減と同質の運用ルール。最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)。Method × 曜日マトリクスでは business-angle × Mon セルが母数 1 投入で新規開拓となるメタ価値もある (前週同曜日 04/27 は comparison 角度 9 views で参考値)。"
   }
 }
