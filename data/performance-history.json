@@ -593,7 +593,7 @@
         "views": 213,
         "likes": 4,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "views": 9,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "views": 10,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 11,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -912,10 +912,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 9,
+        "views": 10,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -971,7 +971,7 @@
         "views": 326,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1021,10 +1021,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1074,10 +1074,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 11,
+        "views": 12,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1132,7 +1132,7 @@
         "views": 5,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1181,10 +1181,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 10,
+        "views": 13,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
+        "updatedAt": "2026-05-04T23:41:11.959Z"
       }
     },
     {
@@ -1291,6 +1291,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-05-04T23:41:11.959Z"
+      }
+    },
+    {
+      "videoId": "D9Wna4dwG8Q",
+      "videoUrl": "https://youtube.com/shorts/D9Wna4dwG8Q",
+      "date": "2026-05-05",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/05 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python",
+        "JavaScript"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "Rust"
+      ],
+      "projects": [
+        "ruvnet/ruflo",
+        "TauricResearch/TradingAgents",
+        "browserbase/skills",
+        "Hmbown/DeepSeek-TUI",
+        "soxoj/maigret"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "今日のTOP5を『AIエージェント時代のフルスタックが1日で揃った日』として5レイヤ同居で料理する。ruvnet/ruflo(オーケストレーション層: Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ・mTLS連邦化を足す指揮塔、v3.6.27で100+ agents/32 Claude Codeプラグイン同梱) → TauricResearch/TradingAgents(ドメイン特化エージェント層: 4アナリスト+強気弱気論者ペア+トレーダー+リスク管理の8体構成をLangGraphで束ねる金融垂直の参照実装) → browserbase/skills(ツール層: browser・browserbase-cli・UIテスト・CDPトレースなど10種のskillをClaude Codeに足し、CAPTCHA回避や認証付きサイト操作を呼び出せるJS製OSS) → Hmbown/DeepSeek-TUI(代替ランタイム層: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO 3モード+MCP統合でClaude Code型ワークフローをDeepSeek基盤に差し替え) → soxoj/maigret(データ収集ツール層: username1つを起点に3,000サイトを非同期巡回、エージェントから自律呼び出しできるOSINTバックエンド)。Primaryペルソナ(CTO/技術投資判断者)が『自社のエージェント開発スタックのどこに何を入れるか』を1動画で意思決定できる構成。直近2日(05/03 use-case / 05/04 business-angle)の連続禁則を回避し、Method別TOP1のecosystem(112.7 avg、04/28=326の単発外れ値あり)をTue=917 avgの最強曜日帯で投入(exploit枠80%)。素材適合度は4/5が明確にAIエージェントスタックに当てはまり(残り1のmaigretも『偵察ツール層』として組み込み可能)、05/01 ecosystem=5の『5本がそれぞれ別vertical』失敗パターン(0/5適合)とは構造的に異なる。重複3本(ruflo 3日連続/TradingAgents 5日連続/maigret 3日連続)は05/03 use-case角度『5ペルソナ別の実働シーン』および05/04 business-angle角度『SaaS月額/単価の置き換え』から本日ecosystem角度『5レイヤのエージェントスタック』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規1本(browserbase/skills)+順位入れ替え1本(DeepSeek-TUI 2日連続だが言及視点を変更)で04/29-30型の同method×同ラインナップ連投構造から構造的に外す。Tue=917 avg帯のため、最低120 views(過去Mon平均超え≒中位帯)、理想320 views(04/28 ecosystem成功帯=Tue×ecosystem=326の再現)を評価基準とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/ruvnet/ruflo",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/browserbase/skills",
+          "https://github.com/Hmbown/DeepSeek-TUI",
+          "https://github.com/soxoj/maigret"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -1299,13 +1354,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-07",
-      "changes": [
-        "Day performance: Tue=28, Mon=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-08",
       "changes": [
@@ -1567,6 +1615,17 @@
         "standard: 305 avg views (27 videos)",
         "Trending languages: Kotlin (1.3x), C++ (1.7x)",
         "Day performance: Tue=720, Fri=618, Thu=350, Wed=267, Sat=154, Mon=120, Sun=8"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-04",
+      "changes": [
+        "Rust: 0.6x avg views → drop",
+        "Shell: 0.4x avg views → drop",
+        "standard: 294 avg views (28 videos)",
+        "Trending languages: Kotlin (1.4x), C++ (1.8x), Jupyter Notebook (1.3x)",
+        "Day performance: Tue=720, Fri=618, Thu=350, Wed=267, Sat=155, Mon=97, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
