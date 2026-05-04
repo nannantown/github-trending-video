@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-05-04",
+  "updatedAt": "2026-05-05",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 119,
+      "Mon": 120,
       "Tue": 917,
-      "Wed": 265,
+      "Wed": 266,
       "Thu": 461,
       "Fri": 822,
       "Sat": 202,
-      "Sun": 9
+      "Sun": 8
     },
     "topPerformingLanguages": [
       { "language": "Python", "multiplier": 1.2 },
@@ -28,71 +28,69 @@
         "Alishahryar1/free-claude-code",
         "gastownhall/beads"
       ],
-      "note": "Method 別平均 (04/22 以降 method 期、updatedAt あり videos のみ): ecosystem 112.7 (3 投稿: 04/23=10, 04/28=324, 05/01=4) / business-angle 9.3 (3 投稿: 04/26=11, 04/29=6, 04/30=11) / comparison 8.5 (2 投稿: 04/22=8, 04/27=9) / trend-pattern 7.0 (1 投稿: 05/02=7) / tech-deep 6.0 (2 投稿: 04/24=5, 04/25=7) / use-case 0 (05/03 投入、updatedAt 待ち) / self-experiment 0 (未投入)。本日 05/04 (Mon) は直近 2 日連続禁則 (05/03 use-case / 05/02 trend-pattern) を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散 (オーケストレーション/金融/OSINT/コーディング/動画生成) で 1 つの共通スタックを形成しないため素材不適合 (05/01=4 で確認済みの逆パターン) として見送り、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいため見送り、business-angle (TOP2 avg 9.3) を選定。本日 5 本すべてに具体 SaaS 競合と単価/月額が紐づく稀な素材適合の高い日 (ruflo→LangGraph Cloud / TradingAgents→Bloomberg Terminal $24,000/年 / maigret→Sterling 1 件 $30 / DeepSeek-TUI→Claude API より 5-50 倍安 / Pixelle-Video→Synthesia $30-90/mo) で、04/29-30 で抽象的な『実案件で組むなら』に留まった反省を活かし、本日は具体 SaaS 名と単価を 5 本すべてで明示する稟議書語彙へ運用切替。Mon=119 avg の中位曜日で損失リスク中庸、最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)。重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は use-case → business-angle へ角度語彙完全切替で連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す。"
+      "note": "Method 別平均 (04/22 以降 method 期、updatedAt あり videos のみ): ecosystem 113.7 (3 投稿: 04/23=10, 04/28=326, 05/01=5) / trend-pattern 10.0 (1 投稿: 05/02=10) / business-angle 9.3 (3 投稿: 04/26=11, 04/29=6, 04/30=11) / comparison 9.0 (2 投稿: 04/22=9, 04/27=9) / tech-deep 6.0 (2 投稿: 04/24=5, 04/25=7) / use-case 3.0 (1 投稿: 05/03=3) / self-experiment 0 (未投入)。本日 05/05 (Tue) は直近 2 日連続禁則 (05/04 business-angle / 05/03 use-case) を回避し、Method TOP 1 ecosystem (avg 113.7) を Tue=917 avg の最強曜日に投入することで 04/28 Tue×ecosystem=326 の再現を狙う (exploit 枠 80%)。05/04 business-angle で見送った ecosystem を本日選択する根拠は素材適合度の構造的相違: 04/28 (5/5 完全適合 = 326 views) と 05/01 (0/5 完全不適合 = 5 views) の中間で、本日は 4/5 が明確にエージェント関連 (ruflo オーケストレーション / TradingAgents 縦特化 / browserbase/skills ツール層 / DeepSeek-TUI ランタイム) + 残り 1 (maigret) も『偵察ツール層』として組み込み可能で許容圏。Tue=917 avg 帯の最強曜日で損失リスク中庸〜中位、最低 120 views (Mon 平均超え=Tue 下位帯)、理想 320 views (04/28 ecosystem 成功帯=Tue×ecosystem=326 の再現)。重複 3 本 (TradingAgents 5 日連続 / ruflo 3 日連続 / maigret 3 日連続) は 05/03 use-case→05/04 business-angle→本日 ecosystem へ method 語彙完全切替で連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から構造的に外す。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は月曜 (Mon=119 avg) の中位曜日。柱② (business-angle) を週開始の Mon に投入することで、Primary ペルソナ (CTO/技術投資判断者) への稟議書語彙直撃を狙う。最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)",
-      "重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は description / detail / narration を 05/03 use-case 系『ペルソナ別の実働シーン』から、本日 business-angle 系『SaaS 月額/単価の置き換え』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
+      "本日は火曜 (Tue=917 avg) の最強曜日。柱① (ecosystem) を Tue×ecosystem=326 (04/28) の再現を狙う最強セルに投入し、Primary ペルソナ (CTO/技術投資判断者) への『自社のエージェント開発スタックのどこに何を入れるか』語彙で直撃。最低 120 views (Mon 平均超え=Tue 下位帯)、理想 320 views (04/28 ecosystem 成功帯)",
+      "重複 3 本 (TradingAgents 5 日連続 / ruflo 3 日連続 / maigret 3 日連続) は description / detail / narration を 05/04 business-angle 系『SaaS 月額/単価の置き換え』および 05/03 use-case 系『5 ペルソナ別の実働シーン』から本日 ecosystem 系『5 レイヤのエージェントスタック』へ語彙完全切替し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティを構造的に回避"
     ],
     "hashtags": [
-      "月曜の中位曜日 + 柱② business-angle 投入対策で、Primary ペルソナ (CTO/技術投資判断者) に稟議書語彙で直撃するタグを厚く: #SaaS削減 #LLMコスト最適化 #内製化 #自社運用 #OSS活用 #実案件で使えるOSS #受託開発 #スタートアップ #個人開発 #小規模FinTech #コスト最適化 #TCO削減",
-      "business-angle 角度のため、SaaS カテゴリ別の語彙を補強: #LangGraphCloud #LangSmith #Bloomberg #QuantConnect #Sterling #HireRight #Pipl #BeenVerified #Synthesia #HeyGen #Runway #Pika (商標は中立記載運用)",
-      "業務ドメインタグ: #エージェントオーケストレーション #金融AI #個人クオンツ #ヘッジファンド #バックテスト #OSINT #採用調査 #本人確認 #KYC #AML #脅威インテリ #コーディングAI #DeepSeek #ClaudeCode #動画生成 #コンテンツマーケ",
-      "言語タグは Python (3 本) / TypeScript (1 本) / Rust (1 本)。Python multiplier 1.2x が効くため #Python を主、副に #TypeScript (1.1x)。Rust は multiplier 0.5x で重み低だが該当 1 本 (DeepSeek-TUI) で素朴に置く #Rust",
-      "技術スタック・OSS タグも継続: #ClaudeCode #ClaudeAgentSDK #Anthropic #MCP #エージェント #マルチエージェント #LLMオーケストレーション #LLM横断 #Ollama #OpenAI #Microsoft #Google #DeepSeek",
-      "前日 05/03 use-case 角度のペルソナ・現場・職務の語彙 (#現場AI #業務AI化 #個人クオンツ #Web受託 #採用調査 #本人確認) からは距離を取り、本日は SaaS 名・単価・月額・置き換え対象の語彙へ寄せる",
-      "商標は中立記載運用 (『○○より安い』ではなく『○○の月額を抜けて自社運用に置き換え可能』『○○を社内自動化に置き換え』のニュートラル表現)。プラットフォームリスクの受動的低減と同質の運用ルール"
+      "火曜の最強曜日 + 柱① ecosystem 投入対策で、Primary ペルソナ (CTO/技術投資判断者) にスタック構築語彙で直撃するタグを厚く: #AIエージェント #エージェントオーケストレーション #エージェントスタック #エージェント開発 #LLMオーケストレーション #マルチエージェント #エージェントランタイム #エージェントツール #エージェントSDK",
+      "ecosystem 角度のため、レイヤ別の語彙を補強: #オーケストレーション層 #ドメイン特化エージェント #ツール層 #ランタイム層 #データ収集 #OSINT #ブラウザ自動化 #金融AI #コーディングAI #ClaudeCode #ClaudeAgentSDK",
+      "業務ドメインタグ: #金融AI #個人クオンツ #ヘッジファンド #バックテスト #OSINT #採用調査 #本人確認 #KYC #脅威インテリ #ブラウザ自動化 #UIテスト #DeepTesting #コーディングAI #DeepSeek #ClaudeCode",
+      "言語タグは TypeScript (1 本) / Python (2 本) / JavaScript (1 本) / Rust (1 本)。Python multiplier 1.2x が効くため #Python を主、副に #TypeScript (1.1x) と #JavaScript (0.9x)。Rust は multiplier 0.5x で重み低だが該当 1 本 (DeepSeek-TUI) で素朴に置く #Rust",
+      "技術スタック・OSS タグも継続: #ClaudeCode #ClaudeAgentSDK #Anthropic #MCP #エージェント #マルチエージェント #LLMオーケストレーション #LLM横断 #DeepSeek #Browserbase #LangGraph #HNSW #ベクトルメモリ #フェデレーション #ゼロトラスト",
+      "前日 05/04 business-angle 角度の SaaS 名・単価・月額の語彙 (#SaaS削減 #LLMコスト最適化 #内製化 #自社運用 #LangGraphCloud #LangSmith #Bloomberg #QuantConnect #Sterling #Pipl #Synthesia #HeyGen) からは距離を取り、本日はスタック構造・レイヤ・組み込み・差し替え・束ねるの語彙へ寄せる",
+      "ecosystem 角度ではプロダクト批判表現を避け、5 本すべてを『各レイヤの代表 OSS』としてニュートラルに紹介。プラットフォームリスクの受動的低減と同質の運用ルール"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本すべて 56-60 文字で収まり、合計 291 文字、TTS +30% 読み上げで約 27 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
-      "カタカナ発音を想定して TTS の誤読を回避 (ルフロ、トレーディング エージェンツ、メイグレット、ディープシーク ティー ユー アイ、ピクセル ビデオ)。固有名詞は原文英語のまま (Claude Code, LangGraph Cloud, LangSmith, Bloomberg, QuantConnect, Sterling, HireRight, Pipl, Synthesia, HeyGen, Runway, FLUX, WAN, Edge-TTS, ComfyUI, MCP, MIT, Apache 2.0)",
-      "business-angle 角度の一貫性: 各ナレーション後半で『SaaS 月額/単価が消える』『○倍安く回せる』『自前環境に置き換え』など定量・SaaS 名・置き換え対象を必ず提示する 2 文構成 (フック 1 文 + 要点 1 文)",
-      "前日 05/03 use-case の語彙 (現場、ペルソナ、受託、QA、採用、調査、人月、手作業、吸収、分担、任せる、取り戻す) からは完全に距離を置き、本日は『月額、単価、年額、自社運用、置き換え、抜ける、削れる、内製、運用 SaaS、API コスト、PoC、稟議』など金額・置き換え語彙へ完全切替",
-      "DeepSeek-TUI の narration は『Claude API より最大 50 倍安く』と直接 SaaS 名 + 倍率を提示。商標表記の中立性は『より安い』(Claude API を直接劣後扱い) ではなく『安く回せる』(自社視点でのコスト効率) のニュアンス調整で担保 (商標バランス維持)",
-      "Pixelle-Video の narration は Synthesia / HeyGen を直接挙げて『月額を自前環境に置き換えられます』。SaaS 撤退ではなく代替選択肢として提示する語彙設計"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本すべて 56-60 文字で収まり、合計 285 文字、TTS +30% 読み上げで約 26 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
+      "カタカナ発音を想定して TTS の誤読を回避 (ルフロ、トレーディング エージェンツ、ブラウザベース スキルズ、ディープシーク ティー ユー アイ、メイグレット)。固有名詞は原文英語のまま (Claude Code, LangGraph, HNSW, mTLS, MCP, browser, browserbase-cli, CDP, CAPTCHA, OSINT, MIT, Apache 2.0)",
+      "ecosystem 角度の一貫性: 各ナレーション後半で『○○層に位置します』『○○層を担います』『○○層の代表格です』『○○層に組み込めます』『○○層を差し替えできます』など階層構造の語彙を必ず提示する 2 文構成 (フック 1 文 + 要点 1 文)",
+      "前日 05/04 business-angle の語彙 (月額、単価、年額、自社運用、置き換え、抜ける、削れる、内製、運用 SaaS、API コスト、PoC、稟議) からは完全に距離を置き、本日は『最上層、ドメイン特化層、ツール層、ランタイム層、データ層、束ねる、組み込む、差し替える、担う、位置する』など階層構造・組み込み語彙へ完全切替",
+      "DeepSeek-TUI の narration は『Claude Code 型のランタイム層を安く差し替えできます』と階層構造 + コスト示唆を組み合わせる。商標表記の中立性は『より安い』(Claude API を直接劣後扱い) ではなく『安く差し替え』(自社視点でのコスト効率) のニュアンス調整で担保 (商標バランス維持)",
+      "ruflo の narration は『100 以上のエージェントを束ねる』『最上層を担う』とスタック頂点の位置を明示。SaaS 名 (LangGraph Cloud / CrewAI など) は detail に集約し、narration ではスタック構造の語彙密度を最大化"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (柱② / exploit 枠 80%、Method TOP 2 avg 9.3 安定帯)。直近 2 日 (05/03 use-case / 05/02 trend-pattern) の連続禁則を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散で素材不適合 (05/01=4 で確認済みの逆パターン) として見送り、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいため見送り、business-angle を選定。Mon=119 avg の中位曜日で損失リスク中庸、上振れ余地中庸",
-      "今日の TOP5 は『5 本すべてに具体 SaaS 競合と単価/月額が紐づく稀な日』: ruvnet/ruflo (TS / 38.8k★ / +1,834・MIT・v3.6.10・Claude Code に専門エージェント 32 種 + HNSW vector メモリ + mTLS 連邦化を足す → LangGraph Cloud / LangSmith のオーケストレーション SaaS の月額を抜ける) / TauricResearch/TradingAgents (Python / 65.1k★ / +3,315・Apache 2.0・v0.2.4・4 アナリスト + 強気弱気論者ペア + トレーダー + リスク管理を LangGraph で束ね・LLM は OpenAI から DeepSeek まで切替可能 → Bloomberg Terminal $24,000/年 / QuantConnect Cloud $200+/mo を AI 検証 PoC で取り戻す) / soxoj/maigret (Python / 23.7k★ / +1,117・MIT・username 1 つ起点で 3,000+ サイトの再帰巡回・HTML/PDF/JSON 出力 → Sterling/HireRight 1 件 $30-100 / Pipl $8/record / BeenVerified $30+/mo を社内自動化に置き換え) / Hmbown/DeepSeek-TUI (Rust / 2.1k★ / +389・MIT・v0.8.8・Rust 単一バイナリ TUI コーディングエージェント・Plan/Agent/YOLO 3 モード + MCP/LSP 統合 → DeepSeek Flash $0.14/M 入力 + $0.28/M 出力で Claude Sonnet API より 5〜50 倍安) / AIDC-AI/Pixelle-Video (Python / 9.9k★ / +478・Apache 2.0・v0.1.15・LLM が脚本 + FLUX/WAN 2.1 が画像/動画 + Edge-TTS が音声 + BGM 合成・ComfyUI ベース → Synthesia $30-90/mo / HeyGen $30+/mo を自前環境に置き換え)。Primary ペルソナ (CTO/技術投資判断者) が稟議書ベースで採用判断できる構成",
-      "重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は description / detail / narration を 05/03 use-case 角度『ペルソナ別の実働シーン』から本日 business-angle 角度『SaaS 月額/単価の置き換え』へ語彙完全切替。TradingAgents は『個人クオンツが部隊を持つ』→『Bloomberg Terminal $24,000/年を AI 検証 PoC で取り戻す』、maigret は『採用調査の現場での人手削減』→『Sterling の 1 件 $30 や Pipl の月額を社内自動化』へ抽象表現を SaaS 名・単価レベルに落とし込む。新規 3 本 (ruflo・DeepSeek-TUI・Pixelle-Video) で 5 SaaS カテゴリ (オーケストレーション SaaS / 金融端末 / 背景調査 / コーディング AI API / 動画生成 SaaS) を構造的に分割し、04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ (発生条件: 同 method + 同ラインナップ重複 3 本以上) から外す",
-      "本日の 5 本は OSS ライセンスが MIT 3 本 (ruflo, maigret, DeepSeek-TUI) + Apache 2.0 2 本 (TradingAgents, Pixelle-Video)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は良好で、稟議書ベースの採用判断にも通しやすい。本日 narration ではライセンス表記を detail に集約し、narration では SaaS 月額/単価の定量表記を最優先 (40-60 字制約で稟議書語彙の密度を最大化)",
-      "Mon=119 avg の中位曜日対策として、武器は『5 本すべてに具体 SaaS 競合と単価/月額が紐づく素材適合の高さ』。視聴者 (CTO/PdM) が『2026 年 5 月第 2 週の月曜は OSS 採用で SaaS 月額がいくら消えるかを 1 動画で持ち帰れた日』として記憶に残せる定量密度を確保。前週同曜日 04/27 (Mon? — 04/27 は Mon 投稿、9 views, comparison 角度) の 9 views を上回ることが最低基準",
-      "本日の運用結果が出る 05/06 PDCA 以降で、business-angle の 4 投稿目データ (期待値 9.3 avg、上振れ条件: 具体 SaaS 名 + 単価明示・5 本素材適合・週開始投入) を確定。同時期に 05/03 use-case の updatedAt も到着するため、Method × 曜日マトリクスで use-case × Sun セルと business-angle × Mon セルの母数 1 投入結果を同時評価可能"
+      "本日の discovery.method は `ecosystem` (柱① / exploit 枠 80%、Method TOP 1 avg 113.7 最高帯)。直近 2 日 (05/04 business-angle / 05/03 use-case) の連続禁則を回避し、Method TOP 1 ecosystem を Tue=917 avg の最強曜日に投入することで 04/28 Tue×ecosystem=326 の再現を狙う。05/04 business-angle で見送った ecosystem を本日選択する根拠は素材適合度の構造的相違: 04/28 (5/5 完全適合 = 326 views) と 05/01 (0/5 完全不適合 = 5 views) の中間で、本日は 4/5 が明確にエージェント関連 + 残り 1 (maigret) も偵察ツール層として組み込み可能で許容圏",
+      "今日の TOP5 は『AI エージェント時代のフルスタックが 1 日で揃った日』: ruvnet/ruflo (TS / 41.2k★ / +2,594・MIT・v3.6.27・Claude Code に専門エージェント 100 種以上 + HNSW vector メモリ + mTLS 連邦化を足す = 最上位オーケストレーション層) / TauricResearch/TradingAgents (Python / 67.3k★ / +2,181・Apache 2.0・4 アナリスト + 強気弱気論者ペア + トレーダー + リスク管理を LangGraph で束ねる = ドメイン特化エージェント層) / browserbase/skills (JS / 2.1k★ / +320・10 種の skill (browser, browserbase-cli, UI テスト, CDP トレース, fetch, search 等) を Claude Code に足す = ツール層) / Hmbown/DeepSeek-TUI (Rust / 3.8k★ / +1,277・MIT・v0.8.8・DeepSeek V4 Pro/Flash 向け Rust 単一バイナリ TUI、Plan/Agent/YOLO 3 モード + MCP 統合 = 代替ランタイム層) / soxoj/maigret (Python / 24.8k★ / +1,116・MIT・username 1 つ起点で 3,000+ サイトの再帰巡回 = データ収集ツール層)。Primary ペルソナ (CTO/技術投資判断者) が『自社のエージェント開発スタックのどこに何を入れるか』を 1 動画で意思決定できる構成",
+      "重複 3 本 (TradingAgents 5 日連続 / ruflo 3 日連続 / maigret 3 日連続) は description / detail / narration を 05/04 business-angle 角度『SaaS 月額/単価の置き換え』および 05/03 use-case 角度『5 ペルソナ別の実働シーン』から本日 ecosystem 角度『5 レイヤのエージェントスタック』へ語彙完全切替。TradingAgents は『Bloomberg Terminal $24,000/年を AI 検証 PoC で取り戻す』→『金融垂直のドメイン特化エージェント層、ruflo 型の汎用基盤に対する縦深掘りの参照実装』、ruflo は『LangGraph Cloud の月額を抜く』→『100 種以上の専門エージェントを束ねる最上位オーケストレーション層』、maigret は『Sterling 1 件 $30 を社内自動化』→『エージェントから自律呼び出しできるデータ収集ツール層』へ抽象表現を SaaS 名・単価レベルから階層構造の語彙に切替",
+      "本日の 5 本は OSS ライセンスが MIT 3 本 (ruflo, maigret, DeepSeek-TUI) + Apache 2.0 1 本 (TradingAgents) + JS 製 1 本 (browserbase/skills, README ライセンス未明示)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は概ね良好だが、browserbase/skills は LICENSE 確認推奨を detail で示唆。本日 narration ではライセンス表記を detail に集約し、narration では階層構造の語彙密度を最大化 (40-60 字制約)",
+      "Tue=917 avg の最強曜日対策として、武器は『5 本のうち 4 本が明確に AI エージェントスタックの異なるレイヤを担う素材適合の高さ』。視聴者 (CTO/PdM) が『2026 年 5 月第 2 週の火曜は AI エージェント時代のフルスタックが 1 日で揃った日』として記憶に残せる構造密度を確保。前週同曜日 04/28 (Tue, ecosystem 角度 326 views) の 326 views を上回ることが上振れ基準、9 views を下回ったら素材適合度ルール (4/5 適合では足りない) を明文化する判断材料に",
+      "本日の運用結果が出る 05/07 PDCA 以降で、ecosystem の 4 投稿目データ (期待値: 上振れ条件で 200+、下振れ条件で 5-50) を確定。同時期に 05/04 business-angle の updatedAt も到着するため、Method × 曜日マトリクスで ecosystem × Tue セル (04/28=326 と本日 05/05 の 2 投稿目) と business-angle × Mon セル (05/04 投入の母数 1) を同時評価可能"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-04",
-    "dayOfWeek": "Mon",
+    "date": "2026-05-05",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "SaaS削減",
-      "LLMコスト最適化",
-      "内製化",
-      "自社運用",
-      "OSS活用",
-      "実案件で使えるOSS",
-      "受託開発",
-      "スタートアップ",
-      "個人開発",
-      "小規模FinTech",
-      "コスト最適化",
-      "TCO削減",
-      "LangGraphCloud",
-      "LangSmith",
-      "Bloomberg",
-      "QuantConnect",
-      "Sterling",
-      "Pipl",
-      "Synthesia",
-      "HeyGen",
       "エージェントオーケストレーション",
+      "エージェントスタック",
+      "エージェント開発",
+      "マルチエージェント",
+      "LLMオーケストレーション",
+      "エージェントランタイム",
+      "エージェントツール",
+      "エージェントSDK",
+      "ClaudeCode",
+      "ClaudeAgentSDK",
+      "Anthropic",
+      "MCP",
+      "DeepSeek",
+      "Browserbase",
+      "LangGraph",
+      "HNSW",
+      "ベクトルメモリ",
+      "フェデレーション",
+      "ゼロトラスト",
       "金融AI",
       "個人クオンツ",
       "ヘッジファンド",
@@ -102,24 +100,21 @@
       "本人確認",
       "KYC",
       "脅威インテリ",
+      "ブラウザ自動化",
+      "UIテスト",
       "コーディングAI",
-      "DeepSeek",
-      "ClaudeCode",
-      "ClaudeAgentSDK",
-      "Anthropic",
-      "MCP",
-      "マルチエージェント",
-      "LLMオーケストレーション",
-      "LLM横断",
-      "OpenAI",
       "Python",
       "TypeScript",
+      "JavaScript",
       "Rust",
-      "動画生成",
-      "コンテンツマーケ",
+      "OSS活用",
+      "実案件で使えるOSS",
+      "受託開発",
+      "スタートアップ",
+      "個人開発",
       "CTO",
       "PdM"
     ],
-    "focus": "月曜 (Mon=119 avg) の中位曜日に `business-angle` 角度 (柱② / exploit 枠 80%、Method TOP 2 avg 9.3 安定帯) を投入。直近 2 日連続禁則 (05/03 use-case / 05/02 trend-pattern) を回避し、Method TOP 3 のうち ecosystem (TOP1 avg 112.7) は本日のラインナップが 5 vertical 完全分散 (オーケストレーション/金融/OSINT/コーディング/動画生成) で素材不適合 (05/01=4 の逆パターン)、comparison (TOP3 avg 8.5) は 5 本がそれぞれ別 vertical で 1 対 1 比較が成立しにくいためいずれも見送り。本日のテーマ:『5 本すべてに具体 SaaS 競合と単価/月額を紐づけ、Primary ペルソナ (CTO/技術投資判断者) が稟議書ベースで採用判断できる構成』。TOP5 は ruvnet/ruflo (LangGraph Cloud / LangSmith) / TauricResearch/TradingAgents (Bloomberg Terminal $24,000/年 / QuantConnect $200+/mo) / soxoj/maigret (Sterling 1 件 $30 / Pipl $8/record) / Hmbown/DeepSeek-TUI (Claude API より 5-50 倍安) / AIDC-AI/Pixelle-Video (Synthesia $30-90/mo / HeyGen)。重複 2 本 (TradingAgents 4 日連続 / maigret 3 日連続) は use-case → business-angle へ角度語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ (発生条件: 同 method + 同ラインナップ重複 3 本以上) を構造的に回避。新規 3 本 (ruflo・DeepSeek-TUI・Pixelle-Video) で 5 SaaS カテゴリを明確に分割。商標は中立記載運用 (『○○より安い』ではなく『○○の月額を抜けて自社運用に置き換え可能』のニュートラル表現) でプラットフォームリスクの受動的低減と同質の運用ルール。最低 15 views (Mon 平均超え)、理想 200 views (Mon 上位帯)。Method × 曜日マトリクスでは business-angle × Mon セルが母数 1 投入で新規開拓となるメタ価値もある (前週同曜日 04/27 は comparison 角度 9 views で参考値)。"
+    "focus": "火曜 (Tue=917 avg) の最強曜日に `ecosystem` 角度 (柱① / exploit 枠 80%、Method TOP 1 avg 113.7 最高帯) を投入。直近 2 日連続禁則 (05/04 business-angle / 05/03 use-case) を回避し、Method TOP 1 ecosystem を Tue=917 avg の最強曜日に当てることで 04/28 Tue×ecosystem=326 の再現を狙う。本日の素材適合度は 4/5 (ruflo オーケストレーション / TradingAgents ドメイン特化 / browserbase/skills ツール層 / DeepSeek-TUI ランタイム) + 残り 1 (maigret) も偵察ツール層として組み込み可能で、04/28 (5/5 完全適合 = 326 views) と 05/01 (0/5 完全不適合 = 5 views) の中間で許容圏。本日のテーマ:『AI エージェント時代のフルスタックが 1 日で揃った日』として 5 レイヤを同居紹介し、Primary ペルソナ (CTO/技術投資判断者) が『自社のエージェント開発スタックのどこに何を入れるか』を 1 動画で意思決定できる構成。TOP5 は ruvnet/ruflo (オーケストレーション層) / TauricResearch/TradingAgents (ドメイン特化エージェント層) / browserbase/skills (ツール層) / Hmbown/DeepSeek-TUI (代替ランタイム層) / soxoj/maigret (データ収集ツール層)。重複 3 本 (TradingAgents 5 日連続 / ruflo 3 日連続 / maigret 3 日連続) は use-case → business-angle → ecosystem へ method 語彙完全切替で 04/24-25 / 04/29-30 型の同 method × 同ラインナップ連投ペナルティ (発生条件: 同 method + 同ラインナップ重複 3 本以上) を構造的に回避。新規 1 本 (browserbase/skills は 05/03 以来 2 日ぶり) + 順位入れ替え 1 本 (DeepSeek-TUI 2 日連続だが角度切替) で連投ペナルティ条件から構造的に外す。最低 120 views (Mon 平均超え=Tue 下位帯)、理想 320 views (04/28 ecosystem 成功帯=Tue×ecosystem=326 の再現)。Method × 曜日マトリクスでは ecosystem × Tue セルが 04/28=326 + 本日 05/05 の 2 投稿目で母数 2 となり、ecosystem × Tue が再現性ある勝ち筋セルかどうかの初判定が可能 (上振れ → 戦略 doc に明文化、下振れ → 04/28 単発外れ値仮説の補強)。"
   }
 }

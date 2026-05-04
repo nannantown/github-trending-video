@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5を『どのSaaS月額/単価が消えるか・受託でいくら見積もるか』のROI視点で料理し、Primaryペルソナ(CTO/技術投資判断者)+ Secondaryペルソナ(事業責任者/PdM)が稟議書ベースで採用判断できる構成にする。直近2日連続禁則(05/03 use-case / 05/02 trend-pattern)を回避し、Method TOP3(ecosystem 112.7 avg / business-angle 9.3 avg / comparison 8.5 avg)からbusiness-angleをexploit枠80%で選定。ecosystemは04/28=324の単発外れ値で平均が引き上がっており、05/01=4と直近で底打ちしている上、本日の5本がそれぞれ別vertical(オーケストレーション/金融/OSINT/コーディング/動画生成)で『1つのスタック』に束ねにくい素材適合の問題を回避。business-angleは04/29-30で同ラインナップ連投の轍を踏んだが、本日は新規3本(ruflo・DeepSeek-TUI・Pixelle-Video)+ 重複2本(TradingAgents・maigret)で連投ペナルティ条件(同method+同ラインナップ重複3本以上)から外す。前回business-angle運用(04/29-30)が抽象的な『実案件で組むなら』に留まったのを反省し、本日はLangGraph Cloud / Bloomberg Terminal / Sterling・HireRight / Claude API / Synthesia・HeyGenなど具体SaaS名と月額/単価を5本すべてで明示する角度を取る。柱②(business-angle 比率15%)の週次比率目標に対し、週開始のMon(5/4)に投入することで残り6日の柱①ベース運用と整合。Mon=119 avgの中位曜日で損失リスクは中庸、稟議語彙でPrimaryペルソナへの直撃を狙う。最低15 views(過去Mon平均超え)、理想200 views(過去Mon上位帯)を評価基準とする。",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『AIエージェント時代のフルスタックが1日で揃った日』として5レイヤ同居で料理する。ruvnet/ruflo(オーケストレーション層: Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ・mTLS連邦化を足す指揮塔、v3.6.27で100+ agents/32 Claude Codeプラグイン同梱) → TauricResearch/TradingAgents(ドメイン特化エージェント層: 4アナリスト+強気弱気論者ペア+トレーダー+リスク管理の8体構成をLangGraphで束ねる金融垂直の参照実装) → browserbase/skills(ツール層: browser・browserbase-cli・UIテスト・CDPトレースなど10種のskillをClaude Codeに足し、CAPTCHA回避や認証付きサイト操作を呼び出せるJS製OSS) → Hmbown/DeepSeek-TUI(代替ランタイム層: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO 3モード+MCP統合でClaude Code型ワークフローをDeepSeek基盤に差し替え) → soxoj/maigret(データ収集ツール層: username1つを起点に3,000サイトを非同期巡回、エージェントから自律呼び出しできるOSINTバックエンド)。Primaryペルソナ(CTO/技術投資判断者)が『自社のエージェント開発スタックのどこに何を入れるか』を1動画で意思決定できる構成。直近2日(05/03 use-case / 05/04 business-angle)の連続禁則を回避し、Method別TOP1のecosystem(112.7 avg、04/28=326の単発外れ値あり)をTue=917 avgの最強曜日帯で投入(exploit枠80%)。素材適合度は4/5が明確にAIエージェントスタックに当てはまり(残り1のmaigretも『偵察ツール層』として組み込み可能)、05/01 ecosystem=5の『5本がそれぞれ別vertical』失敗パターン(0/5適合)とは構造的に異なる。重複3本(ruflo 3日連続/TradingAgents 5日連続/maigret 3日連続)は05/03 use-case角度『5ペルソナ別の実働シーン』および05/04 business-angle角度『SaaS月額/単価の置き換え』から本日ecosystem角度『5レイヤのエージェントスタック』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規1本(browserbase/skills)+順位入れ替え1本(DeepSeek-TUI 2日連続だが言及視点を変更)で04/29-30型の同method×同ラインナップ連投構造から構造的に外す。Tue=917 avg帯のため、最低120 views(過去Mon平均超え≒中位帯)、理想320 views(04/28 ecosystem成功帯=Tue×ecosystem=326の再現)を評価基準とする。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/ruvnet/ruflo",
       "https://github.com/TauricResearch/TradingAgents",
-      "https://github.com/soxoj/maigret",
+      "https://github.com/browserbase/skills",
       "https://github.com/Hmbown/DeepSeek-TUI",
-      "https://github.com/AIDC-AI/Pixelle-Video"
+      "https://github.com/soxoj/maigret"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,11 +21,11 @@
       "name": "ruflo",
       "url": "https://github.com/ruvnet/ruflo",
       "language": "TypeScript",
-      "stars": 38824,
-      "todayStars": 1834,
-      "description": "Claude Codeに32エージェント連邦化",
-      "detail": "Claude Code単体に専門エージェント32種とHNSWベクトルメモリ、mTLSの連邦化を足すMIT・TypeScript OSSです。LangGraph CloudやLangSmithのオーケストレーション月額を抜けて、社外チームと並列稼働できます。",
-      "narration": "Claude Codeに32エージェントを束ねるOSSです。社外チームと並列稼働し、LLM運用SaaSの月額を抜けます。"
+      "stars": 41236,
+      "todayStars": 2594,
+      "description": "Claude Codeに100超エージェント連邦化",
+      "detail": "Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ、mTLS連邦化を足すMIT・TypeScript製プラットフォームです。本日のスタックでは最上位オーケストレーション層を担い、社外チームともゼロトラストで並列稼働できます。",
+      "narration": "100以上のエージェントを束ねる司令塔OSSです。Claude Codeのオーケストレーション最上層を担います。"
     },
     {
       "rank": 2,
@@ -33,23 +33,23 @@
       "name": "TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "language": "Python",
-      "stars": 65134,
-      "todayStars": 3315,
-      "description": "ヘッジファンド構造を個人クオンツへ",
-      "detail": "4アナリスト、強気弱気の論者ペア、トレーダー、リスク管理をLangGraphで束ねるApache 2.0のPython OSSです。LLMはOpenAIからDeepSeekまで差替可能で、Bloomberg Terminalの年額や検証案件の人月をPoCで取り戻せます。",
-      "narration": "ヘッジファンドの分業をPythonで再現するOSSです。Bloombergの月額をAI検証PoCで取り戻せます。"
+      "stars": 67336,
+      "todayStars": 2181,
+      "description": "金融アナリスト4体構成のAIファンド",
+      "detail": "4アナリストと強気弱気の論者ペア、トレーダー、リスク管理をLangGraphで束ねる金融垂直のApache 2.0 Python OSSです。本日のスタックではドメイン特化エージェント層に位置し、ruflo型の汎用基盤に対する縦深掘りの参照実装になります。",
+      "narration": "金融トレードを4アナリストで分業するPython OSSです。エージェントスタックのドメイン特化層に位置します。"
     },
     {
       "rank": 3,
-      "fullName": "soxoj/maigret",
-      "name": "maigret",
-      "url": "https://github.com/soxoj/maigret",
-      "language": "Python",
-      "stars": 23726,
-      "todayStars": 1117,
-      "description": "username1つで3,000サイト調査",
-      "detail": "username1つを起点に3,000サイトへ非同期で問い合わせ、別usernameを再帰追跡するMIT・Python製OSINT OSSです。HTML/PDF/JSONで出力でき、Sterlingの1件30ドル背景調査やPiplの月額を社内自動化に置き換えられます。",
-      "narration": "username1つから3,000サイトを横断調査するOSSです。採用調査やKYCで月数万円のSaaS費用を削れます。"
+      "fullName": "browserbase/skills",
+      "name": "skills",
+      "url": "https://github.com/browserbase/skills",
+      "language": "JavaScript",
+      "stars": 2092,
+      "todayStars": 320,
+      "description": "Claude Code向けブラウザ操作10種",
+      "detail": "browser、browserbase-cli、UIテスト、CDPトレースなど10種のskillをClaude Codeに足すJavaScript製OSSです。Browserbaseの匿名セッションとCAPTCHA回避を呼び出して、エージェントのツール層を一気に強化できます。",
+      "narration": "Claude Codeにブラウザ操作10種を追加するSDKです。CAPTCHA回避もできるツール層の代表格です。"
     },
     {
       "rank": 4,
@@ -57,23 +57,23 @@
       "name": "DeepSeek-TUI",
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "language": "Rust",
-      "stars": 2083,
-      "todayStars": 389,
-      "description": "DeepSeek専用Rust製TUIエージェント",
-      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIコーディングエージェントです。Plan/Agent/YOLOの3モードとMCP統合を備え、Flashの0.14ドル/M入力でClaude APIより5〜50倍安く回せます。MIT、v0.8.8。",
-      "narration": "DeepSeek用の高速コーディングエージェントです。Claude APIより最大50倍安く、ターミナルで常駐します。"
+      "stars": 3842,
+      "todayStars": 1277,
+      "description": "DeepSeek専用の高速TUI開発環境",
+      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIエージェントです。Plan/Agent/YOLOの3モードとMCP統合を備え、Claude Code型ワークフローのランタイム層をDeepSeek基盤に差し替えられます。MIT、v0.8.8。",
+      "narration": "DeepSeek用のRust製TUIエージェントです。Claude Codeのランタイム層を安く差し替えできます。"
     },
     {
       "rank": 5,
-      "fullName": "AIDC-AI/Pixelle-Video",
-      "name": "Pixelle-Video",
-      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "fullName": "soxoj/maigret",
+      "name": "maigret",
+      "url": "https://github.com/soxoj/maigret",
       "language": "Python",
-      "stars": 9873,
-      "todayStars": 478,
-      "description": "テーマ入力で動画まで一気通貫生成",
-      "detail": "テーマを入れるとLLMが脚本、FLUXやWAN 2.1が画像と動画、Edge-TTSが音声を合成するComfyUIベースのApache 2.0 Python OSSです。SynthesiaやHeyGenの月30ドル前後のSaaSを自前環境に置き換え、動画工数を1/10に削れます。",
-      "narration": "テーマ1つから動画まで自動生成するOSSです。SynthesiaやHeyGenの月額を自前環境に置き換えられます。"
+      "stars": 24769,
+      "todayStars": 1116,
+      "description": "username1つで3,000サイト調査",
+      "detail": "username1つを起点に3,000サイトへ非同期で問い合わせ、別usernameを再帰追跡するMIT・Python OSINT OSSです。エージェント時代のデータ収集ツール層として、CLIから調査タスクを自律呼び出しできます。",
+      "narration": "username1つから3,000サイトを調査するOSINT OSSです。AIエージェントの偵察ツール層に組み込めます。"
     }
   ]
 }
