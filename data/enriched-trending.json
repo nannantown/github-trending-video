@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『AIエージェント時代のフルスタックが1日で揃った日』として5レイヤ同居で料理する。ruvnet/ruflo(オーケストレーション層: Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ・mTLS連邦化を足す指揮塔、v3.6.27で100+ agents/32 Claude Codeプラグイン同梱) → TauricResearch/TradingAgents(ドメイン特化エージェント層: 4アナリスト+強気弱気論者ペア+トレーダー+リスク管理の8体構成をLangGraphで束ねる金融垂直の参照実装) → browserbase/skills(ツール層: browser・browserbase-cli・UIテスト・CDPトレースなど10種のskillをClaude Codeに足し、CAPTCHA回避や認証付きサイト操作を呼び出せるJS製OSS) → Hmbown/DeepSeek-TUI(代替ランタイム層: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO 3モード+MCP統合でClaude Code型ワークフローをDeepSeek基盤に差し替え) → soxoj/maigret(データ収集ツール層: username1つを起点に3,000サイトを非同期巡回、エージェントから自律呼び出しできるOSINTバックエンド)。Primaryペルソナ(CTO/技術投資判断者)が『自社のエージェント開発スタックのどこに何を入れるか』を1動画で意思決定できる構成。直近2日(05/03 use-case / 05/04 business-angle)の連続禁則を回避し、Method別TOP1のecosystem(112.7 avg、04/28=326の単発外れ値あり)をTue=917 avgの最強曜日帯で投入(exploit枠80%)。素材適合度は4/5が明確にAIエージェントスタックに当てはまり(残り1のmaigretも『偵察ツール層』として組み込み可能)、05/01 ecosystem=5の『5本がそれぞれ別vertical』失敗パターン(0/5適合)とは構造的に異なる。重複3本(ruflo 3日連続/TradingAgents 5日連続/maigret 3日連続)は05/03 use-case角度『5ペルソナ別の実働シーン』および05/04 business-angle角度『SaaS月額/単価の置き換え』から本日ecosystem角度『5レイヤのエージェントスタック』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規1本(browserbase/skills)+順位入れ替え1本(DeepSeek-TUI 2日連続だが言及視点を変更)で04/29-30型の同method×同ラインナップ連投構造から構造的に外す。Tue=917 avg帯のため、最低120 views(過去Mon平均超え≒中位帯)、理想320 views(04/28 ecosystem成功帯=Tue×ecosystem=326の再現)を評価基準とする。",
+    "method": "comparison",
+    "description": "今日のTOP5を『何の有償・クローズド代替か』の1対1対比で料理し、Primaryペルソナ(CTO/技術投資判断者)が『何を捨てて何を入れるか』を1動画で意思決定できる軸に統一する。Hmbown/DeepSeek-TUI(Claude Codeの代替: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO+MCP統合でClaude Code相当をtoken単価ベースで安く再現、v0.8.13・MIT) → ruvnet/ruflo(LangGraph Cloud/CrewAI/AutoGenの代替: 100種以上の専門エージェント+HNSWベクトル+mTLS連邦化を1パッケージで提供、Claude Codeに足す上位オーケストレータ層、v3.6.30・MIT) → virattt/dexter(Bloomberg Terminal/FactSetの代替: Financial Datasets API+Exa/Tavily+Claude/GPT/Geminiで自律財務リサーチ、Bun・TypeScript・MIT) → docusealco/docuseal(DocuSign/Adobe Signの代替: Ruby on Rails+Vue製、12種フィールド+14言語+SMTP+SSO/ホワイトラベル、AGPLv3でDocker self-host) → bwya77/vscode-dark-islands(JetBrains Islands Dark UI/有償IDEテーマの代替: ガラス調境界・フローティングパネル・ピル型UIで有償IDEの見た目をVSCode上に再現、MIT)。直近2日連続禁則(05/05 ecosystem / 05/04 business-angle)を回避し、Method TOP3のうち禁則外で最大サンプル(comparison=2投稿avg 9.5)を選定。trend-pattern(avg 13.0)はサンプル1で評価不能のため見送り、tech-deep(avg 6.0)・use-case(avg 3.0)はWORST帯。本日のTOP5は1本もホモジニアスなエージェントスタックに収まらない構成(コーディング/オーケストレーション/金融/電子署名/IDE見た目の5 vertical完全分散)で、ecosystem角度では05/01型『5本が共通レイヤを持たない』失敗パターン(views=5)に陥るリスクが高く構造的に不適合。一方comparison角度なら各vertical独立に『1対1の代替軸』を立てられるため素材適合度が逆に5/5となる。Wed=267 avgの中位曜日帯のため損失リスク中庸、最低15 views(過去Wed下位帯超え)、理想250 views(過去Wed上位帯)を評価基準。柱① 解説の70%帯運用で、コンテンツ柱比率は週次で柱②(business-angle)2回・柱④(trend-pattern)1回・柱①4回の構成、本日comparisonで柱①へ回帰。重複2本(ruflo 4日連続/DeepSeek-TUI 3日連続)はnarration/detailを05/05 ecosystem角度『5レイヤのエージェントスタック』および05/04 business-angle角度『SaaS月額/単価』から本日comparison角度『有償代替との1対1対比』へ語彙完全切替し、同method×同ラインナップ連投ペナルティを回避。新規3本(dexter/docuseal/vscode-dark-islands)で04/29-30型の連投構造から構造的に外す。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/ruvnet/ruflo",
-      "https://github.com/TauricResearch/TradingAgents",
-      "https://github.com/browserbase/skills",
       "https://github.com/Hmbown/DeepSeek-TUI",
-      "https://github.com/soxoj/maigret"
+      "https://github.com/ruvnet/ruflo",
+      "https://github.com/virattt/dexter",
+      "https://github.com/docusealco/docuseal",
+      "https://github.com/bwya77/vscode-dark-islands"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "ruvnet/ruflo",
-      "name": "ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "language": "TypeScript",
-      "stars": 41236,
-      "todayStars": 2594,
-      "description": "Claude Codeに100超エージェント連邦化",
-      "detail": "Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ、mTLS連邦化を足すMIT・TypeScript製プラットフォームです。本日のスタックでは最上位オーケストレーション層を担い、社外チームともゼロトラストで並列稼働できます。",
-      "narration": "100以上のエージェントを束ねる司令塔OSSです。Claude Codeのオーケストレーション最上層を担います。"
-    },
-    {
-      "rank": 2,
-      "fullName": "TauricResearch/TradingAgents",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "language": "Python",
-      "stars": 67336,
-      "todayStars": 2181,
-      "description": "金融アナリスト4体構成のAIファンド",
-      "detail": "4アナリストと強気弱気の論者ペア、トレーダー、リスク管理をLangGraphで束ねる金融垂直のApache 2.0 Python OSSです。本日のスタックではドメイン特化エージェント層に位置し、ruflo型の汎用基盤に対する縦深掘りの参照実装になります。",
-      "narration": "金融トレードを4アナリストで分業するPython OSSです。エージェントスタックのドメイン特化層に位置します。"
-    },
-    {
-      "rank": 3,
-      "fullName": "browserbase/skills",
-      "name": "skills",
-      "url": "https://github.com/browserbase/skills",
-      "language": "JavaScript",
-      "stars": 2092,
-      "todayStars": 320,
-      "description": "Claude Code向けブラウザ操作10種",
-      "detail": "browser、browserbase-cli、UIテスト、CDPトレースなど10種のskillをClaude Codeに足すJavaScript製OSSです。Browserbaseの匿名セッションとCAPTCHA回避を呼び出して、エージェントのツール層を一気に強化できます。",
-      "narration": "Claude Codeにブラウザ操作10種を追加するSDKです。CAPTCHA回避もできるツール層の代表格です。"
-    },
-    {
-      "rank": 4,
       "fullName": "Hmbown/DeepSeek-TUI",
       "name": "DeepSeek-TUI",
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "language": "Rust",
-      "stars": 3842,
-      "todayStars": 1277,
-      "description": "DeepSeek専用の高速TUI開発環境",
-      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIエージェントです。Plan/Agent/YOLOの3モードとMCP統合を備え、Claude Code型ワークフローのランタイム層をDeepSeek基盤に差し替えられます。MIT、v0.8.8。",
-      "narration": "DeepSeek用のRust製TUIエージェントです。Claude Codeのランタイム層を安く差し替えできます。"
+      "stars": 7064,
+      "todayStars": 2389,
+      "description": "Claude Code代替のRust製TUI",
+      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIです。Plan/Agent/YOLOの3モードとMCP統合を備え、Claude Codeのワークフローを安いトークン単価で再現できる代替候補になります。MIT、v0.8.13。",
+      "narration": "DeepSeek専用のRust製TUIエージェントです。Claude Codeをトークン単価で安く置き換えられます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "ruvnet/ruflo",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars": 43481,
+      "todayStars": 2441,
+      "description": "Claude向け100超エージェント司令塔",
+      "detail": "Claude Code起点で100種以上の専門エージェントとHNSWベクトル検索、mTLS連邦化を1つに束ねるTypeScript・MIT OSSです。LangGraph CloudやCrewAIを自社運用で代替できる上位オーケストレータです。v3.6.30。",
+      "narration": "Claude Codeに100超エージェントを束ねる司令塔です。LangGraphやCrewAIを内製で代替できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "virattt/dexter",
+      "name": "dexter",
+      "url": "https://github.com/virattt/dexter",
+      "language": "TypeScript",
+      "stars": 23720,
+      "todayStars": 660,
+      "description": "Bloomberg代替の財務AIエージェント",
+      "detail": "財務クエリを自律的に分解し、Financial Datasets APIとExa/Tavilyで検証するBun・TypeScript・MIT OSSです。Claude/GPT/Gemini横断で動き、Bloomberg Terminalの年額契約をAPI課金で置き換えられます。",
+      "narration": "自律的に財務リサーチを進めるTSエージェントです。Bloomberg端末の年額契約を内製で抜けます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "docusealco/docuseal",
+      "name": "docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "language": "Ruby",
+      "stars": 13946,
+      "todayStars": 929,
+      "description": "DocuSign代替の電子署名OSS",
+      "detail": "Ruby on Rails+Vue製のDocuSign代替OSSです。12種フィールドのフォームビルダー、14言語対応、SMTP配信、SSO/ホワイトラベルまで含み、Dockerで自社運用できます。AGPLv3、商用派生はOSS化条件付き。",
+      "narration": "DocuSignを置き換える電子署名のOSSです。Dockerで自社運用でき、14言語に対応します。"
     },
     {
       "rank": 5,
-      "fullName": "soxoj/maigret",
-      "name": "maigret",
-      "url": "https://github.com/soxoj/maigret",
-      "language": "Python",
-      "stars": 24769,
-      "todayStars": 1116,
-      "description": "username1つで3,000サイト調査",
-      "detail": "username1つを起点に3,000サイトへ非同期で問い合わせ、別usernameを再帰追跡するMIT・Python OSINT OSSです。エージェント時代のデータ収集ツール層として、CLIから調査タスクを自律呼び出しできます。",
-      "narration": "username1つから3,000サイトを調査するOSINT OSSです。AIエージェントの偵察ツール層に組み込めます。"
+      "fullName": "bwya77/vscode-dark-islands",
+      "name": "vscode-dark-islands",
+      "url": "https://github.com/bwya77/vscode-dark-islands",
+      "language": "PowerShell",
+      "stars": 7820,
+      "todayStars": 665,
+      "description": "JetBrains風のVSCodeテーマ",
+      "detail": "JetBrainsのIslands Dark UIをVSCodeに移植する有償IDE風ダークテーマです。ガラス調の境界、フローティングパネル、ピル型UIを採用し、Custom UI Style拡張が自動配線されます。MIT。",
+      "narration": "JetBrains風UIをVSCodeで再現するテーマです。ガラス調のパネルで有償IDE風の見た目を作れます。"
     }
   ]
 }
