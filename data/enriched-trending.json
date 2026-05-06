@@ -1,15 +1,16 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『何の有償・クローズド代替か』の1対1対比で料理し、Primaryペルソナ(CTO/技術投資判断者)が『何を捨てて何を入れるか』を1動画で意思決定できる軸に統一する。Hmbown/DeepSeek-TUI(Claude Codeの代替: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO+MCP統合でClaude Code相当をtoken単価ベースで安く再現、v0.8.13・MIT) → ruvnet/ruflo(LangGraph Cloud/CrewAI/AutoGenの代替: 100種以上の専門エージェント+HNSWベクトル+mTLS連邦化を1パッケージで提供、Claude Codeに足す上位オーケストレータ層、v3.6.30・MIT) → virattt/dexter(Bloomberg Terminal/FactSetの代替: Financial Datasets API+Exa/Tavily+Claude/GPT/Geminiで自律財務リサーチ、Bun・TypeScript・MIT) → docusealco/docuseal(DocuSign/Adobe Signの代替: Ruby on Rails+Vue製、12種フィールド+14言語+SMTP+SSO/ホワイトラベル、AGPLv3でDocker self-host) → bwya77/vscode-dark-islands(JetBrains Islands Dark UI/有償IDEテーマの代替: ガラス調境界・フローティングパネル・ピル型UIで有償IDEの見た目をVSCode上に再現、MIT)。直近2日連続禁則(05/05 ecosystem / 05/04 business-angle)を回避し、Method TOP3のうち禁則外で最大サンプル(comparison=2投稿avg 9.5)を選定。trend-pattern(avg 13.0)はサンプル1で評価不能のため見送り、tech-deep(avg 6.0)・use-case(avg 3.0)はWORST帯。本日のTOP5は1本もホモジニアスなエージェントスタックに収まらない構成(コーディング/オーケストレーション/金融/電子署名/IDE見た目の5 vertical完全分散)で、ecosystem角度では05/01型『5本が共通レイヤを持たない』失敗パターン(views=5)に陥るリスクが高く構造的に不適合。一方comparison角度なら各vertical独立に『1対1の代替軸』を立てられるため素材適合度が逆に5/5となる。Wed=267 avgの中位曜日帯のため損失リスク中庸、最低15 views(過去Wed下位帯超え)、理想250 views(過去Wed上位帯)を評価基準。柱① 解説の70%帯運用で、コンテンツ柱比率は週次で柱②(business-angle)2回・柱④(trend-pattern)1回・柱①4回の構成、本日comparisonで柱①へ回帰。重複2本(ruflo 4日連続/DeepSeek-TUI 3日連続)はnarration/detailを05/05 ecosystem角度『5レイヤのエージェントスタック』および05/04 business-angle角度『SaaS月額/単価』から本日comparison角度『有償代替との1対1対比』へ語彙完全切替し、同method×同ラインナップ連投ペナルティを回避。新規3本(dexter/docuseal/vscode-dark-islands)で04/29-30型の連投構造から構造的に外す。",
+    "method": "trend-pattern",
+    "description": "今日のTOP5を『2026年5月第2週、AI×実務領域でOSSが同時多発的にSaaS依存を抜くマクロ週』として読む。Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製ターミナル開発エージェント、$0.14-0.28/1M token・1Mコンテキスト・MIT、Claude Code月額・トークン課金から離脱) → addyosmani/agent-skills(Addy Osmani監修、Claude Code/Cursor/Gemini/Windsurf/Copilot等向けの実務エンジニアリングスキル集、TDD/Red Flag/検証要件など6項目構造、MIT、AIコーディングのノウハウ層をOSS側で標準化) → PriorLabs/TabPFN(Nature 2025掲載の表データ向け事前学習Transformer、設定なしでXGBoost/LightGBM超え、Apache 2.0+attribution・v2.5/2.6 weightsは非商用、AutoML SaaSや有償ML基盤の前提条件をOSS側から崩す) → docusealco/docuseal(Ruby on Rails+Vue製のDocuSign代替、Docker 1コマンド自社運用、AGPLv3、SaaS依存を抜く動きが署名領域に到達) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索エンジンで自律調査、SimpleQAで約95%、MIT、Perplexity Pro/OpenAI Deep Research/Gemini Deep Research不要化)。直近2日連続禁則(05/06 comparison / 05/05 ecosystem)を回避し、Method TOP3のうち禁則外で唯一のtrend-pattern(avg 13.0、サンプル1)を選定。business-angle(avg 8.0、サンプル4)はTOP4で05/04=2の素材分散トラップが直近にあり、本日5本も垂直分野が分散(コーディング/スキル集/ML/電子署名/研究AI)するため business-angle の素材適合度ルール(5本同一SaaS軸が必要)に未達。一方 trend-pattern なら『SaaS依存を抜くベクトル』という抽象軸で5本横断的に1つのマクロ読みに収束させられる。Thu=350 avgの中位曜日帯で損失リスク中庸、最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu 04/16・04/09=600+の再現)。trend-pattern母数が1→2に増えるため、05/02(=13)との分散測定で再現性を初判定する評価日も兼ねる。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/Hmbown/DeepSeek-TUI",
-      "https://github.com/ruvnet/ruflo",
-      "https://github.com/virattt/dexter",
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/PriorLabs/TabPFN",
       "https://github.com/docusealco/docuseal",
-      "https://github.com/bwya77/vscode-dark-islands"
+      "https://github.com/LearningCircuit/local-deep-research",
+      "https://www.nature.com/articles/s41586-024-08328-6"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,35 +22,35 @@
       "name": "DeepSeek-TUI",
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "language": "Rust",
-      "stars": 7064,
-      "todayStars": 2389,
-      "description": "Claude Code代替のRust製TUI",
-      "detail": "DeepSeek V4 Pro/Flash向けのRust単一バイナリTUIです。Plan/Agent/YOLOの3モードとMCP統合を備え、Claude Codeのワークフローを安いトークン単価で再現できる代替候補になります。MIT、v0.8.13。",
-      "narration": "DeepSeek専用のRust製TUIエージェントです。Claude Codeをトークン単価で安く置き換えられます。"
+      "stars": 13574,
+      "todayStars": 6184,
+      "description": "DeepSeek用ターミナル開発エージェント",
+      "detail": "DeepSeek V4 Pro/Flashを軸に1Mトークン文脈とプレフィックスキャッシュ対応の価格優位を活かすRust製TUIです。Claude CodeやCursorの月額・トークン課金から離脱したい開発者に刺さる、安価な代替候補です。MIT。",
+      "narration": "DeepSeekモデル前提のターミナル開発エージェントです。Claude Code月額依存を抜く流れの象徴です。"
     },
     {
       "rank": 2,
-      "fullName": "ruvnet/ruflo",
-      "name": "ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "language": "TypeScript",
-      "stars": 43481,
-      "todayStars": 2441,
-      "description": "Claude向け100超エージェント司令塔",
-      "detail": "Claude Code起点で100種以上の専門エージェントとHNSWベクトル検索、mTLS連邦化を1つに束ねるTypeScript・MIT OSSです。LangGraph CloudやCrewAIを自社運用で代替できる上位オーケストレータです。v3.6.30。",
-      "narration": "Claude Codeに100超エージェントを束ねる司令塔です。LangGraphやCrewAIを内製で代替できます。"
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 30320,
+      "todayStars": 629,
+      "description": "AIコーディングの実務スキル集",
+      "detail": "Addy Osmani氏監修で、Claude CodeやCursor向けの実務スキルを公開フォーマットで配布するOSSです。テスト駆動やレッドフラッグ判定など現場ノウハウを構造化し、AIコーディング標準のOSS化を進めます。MIT。",
+      "narration": "Addy Osmani氏が公開するAIコーディングのスキル集です。試行錯誤コストをOSS側で吸収する流れです。"
     },
     {
       "rank": 3,
-      "fullName": "virattt/dexter",
-      "name": "dexter",
-      "url": "https://github.com/virattt/dexter",
-      "language": "TypeScript",
-      "stars": 23720,
-      "todayStars": 660,
-      "description": "Bloomberg代替の財務AIエージェント",
-      "detail": "財務クエリを自律的に分解し、Financial Datasets APIとExa/Tavilyで検証するBun・TypeScript・MIT OSSです。Claude/GPT/Gemini横断で動き、Bloomberg Terminalの年額契約をAPI課金で置き換えられます。",
-      "narration": "自律的に財務リサーチを進めるTSエージェントです。Bloomberg端末の年額契約を内製で抜けます。"
+      "fullName": "PriorLabs/TabPFN",
+      "name": "TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "language": "Python",
+      "stars": 6557,
+      "todayStars": 218,
+      "description": "表データ向けの基盤モデルOSS",
+      "detail": "Nature 2025掲載の事前学習Transformerで、表形式データをチューニングなしでXGBoostやLightGBMを上回る精度で扱えます。AutoML系SaaSや有償ML基盤の前提条件をOSS側から崩す存在です。Apache 2.0準拠。",
+      "narration": "表形式データ向けの基盤モデルで、設定なしで既存ML手法を上回ります。商用ML SaaSの前提を覆す週です。"
     },
     {
       "rank": 4,
@@ -57,23 +58,23 @@
       "name": "docuseal",
       "url": "https://github.com/docusealco/docuseal",
       "language": "Ruby",
-      "stars": 13946,
-      "todayStars": 929,
+      "stars": 14816,
+      "todayStars": 772,
       "description": "DocuSign代替の電子署名OSS",
-      "detail": "Ruby on Rails+Vue製のDocuSign代替OSSです。12種フィールドのフォームビルダー、14言語対応、SMTP配信、SSO/ホワイトラベルまで含み、Dockerで自社運用できます。AGPLv3、商用派生はOSS化条件付き。",
-      "narration": "DocuSignを置き換える電子署名のOSSです。Dockerで自社運用でき、14言語に対応します。"
+      "detail": "Ruby on Rails+Vue製のDocuSign代替OSSで、Docker 1コマンドで立ち上がります。AGPLv3で配布され、月額契約を抜けて自社運用に主権を戻したい中堅企業やスタートアップに合う選択肢です。",
+      "narration": "DocuSign代替をDocker一発で立てられる電子署名OSSです。SaaS抜けの動きが署名領域に到達しました。"
     },
     {
       "rank": 5,
-      "fullName": "bwya77/vscode-dark-islands",
-      "name": "vscode-dark-islands",
-      "url": "https://github.com/bwya77/vscode-dark-islands",
-      "language": "PowerShell",
-      "stars": 7820,
-      "todayStars": 665,
-      "description": "JetBrains風のVSCodeテーマ",
-      "detail": "JetBrainsのIslands Dark UIをVSCodeに移植する有償IDE風ダークテーマです。ガラス調の境界、フローティングパネル、ピル型UIを採用し、Custom UI Style拡張が自動配線されます。MIT。",
-      "narration": "JetBrains風UIをVSCodeで再現するテーマです。ガラス調のパネルで有償IDE風の見た目を作れます。"
+      "fullName": "LearningCircuit/local-deep-research",
+      "name": "local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "language": "Python",
+      "stars": 5598,
+      "todayStars": 532,
+      "description": "ローカル完結型の深掘り研究AI",
+      "detail": "OllamaやLM Studio経由のローカルLLMとSearXNG含む10種以上の検索エンジンを束ね、SimpleQAで約95%を出す研究エージェントです。Perplexity ProやGemini Deep Researchの月額を払わず内製化できます。MIT。",
+      "narration": "Ollama等のローカルLLMで動く深掘り検索エージェントです。Perplexity Pro不要の調査が個人完結します。"
     }
   ]
 }

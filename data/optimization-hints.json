@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06",
+  "updatedAt": "2026-05-07",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -16,6 +16,7 @@
       { "language": "TypeScript", "multiplier": 1.1 },
       { "language": "Shell", "multiplier": 1.0 },
       { "language": "JavaScript", "multiplier": 0.9 },
+      { "language": "Ruby", "multiplier": 0.8 },
       { "language": "Rust", "multiplier": 0.6 }
     ],
     "topPerformingVideo": {
@@ -28,86 +29,92 @@
         "Alishahryar1/free-claude-code",
         "gastownhall/beads"
       ],
-      "note": "Method 別平均 (04/22-05/04 の 13 件、05/05 は updatedAt null で除外): ecosystem 113.7 (3 投稿: 04/23=10, 04/28=326, 05/01=5) / trend-pattern 13.0 (1 投稿: 05/02=13) / comparison 9.5 (2 投稿: 04/22=9, 04/27=10) / business-angle 8.0 (4 投稿: 04/26=11, 04/29=7, 04/30=12, 05/04=2) / tech-deep 6.0 (2 投稿: 04/24=5, 04/25=7) / use-case 3.0 (1 投稿: 05/03=3) / self-experiment 0 (29 投稿超で未投入)。本日 05/06 (Wed=267 avg) は直近 2 日連続禁則 (05/05 ecosystem / 05/04 business-angle) を回避し、Method TOP3 のうち禁則外で母数最大の comparison (avg 9.5) を選定。本日の TOP5 が 5 vertical 完全分散構成 (DeepSeek-TUI コーディング / ruflo オーケストレーション / dexter 金融 / docuseal 電子署名 / vscode-dark-islands IDE 見た目) で ecosystem 角度では 05/01 型『5 本が共通レイヤを持たない』失敗 (views=5) パターンに該当するため構造的に不適合。一方 comparison 角度なら各 vertical 独立に『1対1 の有償代替軸』が立つため素材適合度が 5/5 に逆転。最低 15 views (過去 Wed 下位帯超え)、理想 250 views (過去 Wed 上位帯)。重複 2 本 (ruflo 4 日連続 / DeepSeek-TUI 3 日連続) は 05/05 ecosystem 角度『5 レイヤ』および 05/04 business-angle 角度『SaaS 月額/単価』から本日 comparison 角度『有償代替との 1対1 対比』へ語彙完全切替で連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から構造的に外す。"
+      "note": "Method 別平均 (04/23-05/04 の 12 件、05/05 は updatedAt null・05/06 は未集計で除外): ecosystem 113.7 (3 投稿: 04/23=10, 04/28=326, 05/01=5) / trend-pattern 13.0 (1 投稿: 05/02=13) / comparison 10.0 (1 投稿: 04/27=10、04/22=9 は窓外で除外) / business-angle 8.0 (4 投稿: 04/26=11, 04/29=7, 04/30=12, 05/04=2) / tech-deep 6.0 (2 投稿: 04/24=5, 04/25=7) / use-case 3.0 (1 投稿: 05/03=3) / self-experiment 0 (30 投稿超で未投入)。本日 05/07 (Thu=350 avg) は直近 2 日連続禁則 (05/06 comparison / 05/05 ecosystem) を回避し、Method TOP3 のうち禁則外で唯一の trend-pattern (avg 13.0、サンプル 1) を選定。business-angle (avg 8.0、TOP4) は禁則外だが 05/04=2 の素材分散トラップが直近にあり、本日も 5 本が垂直分野分散 (コーディング/スキル集/ML/電子署名/研究 AI) のため business-angle の素材適合度ルール (5 本同一 SaaS 軸が必要) に未達。一方 trend-pattern は『SaaS 依存を抜くベクトル』という抽象軸で 5 本横断的に 1 つのマクロ読みに収束させられるため適合度最大。最低 15 views (過去 Thu 下位帯)、理想 320 views (過去 Thu 上位帯)。trend-pattern 母数が 1→2 に増えるため、05/02(=13) との分散測定で再現性を初判定する評価日も兼ねる。重複 1 本 (DeepSeek-TUI 4 日連続) は 05/06 comparison 角度『有償代替との 1 対 1 対比』および 05/05 ecosystem 角度『5 レイヤのエージェントスタック』から本日 trend-pattern 角度『SaaS 依存を抜くマクロ週の象徴』へ語彙完全切替で連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から構造的に外す。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は水曜 (Wed=267 avg) の中位曜日。柱① (comparison) を 1対1 対比軸で投入し、Primary ペルソナ (CTO/技術投資判断者) への『何を捨てて何を入れるか』語彙で直撃。最低 15 views (過去 Wed 下位帯)、理想 250 views (過去 Wed 上位帯)",
-      "重複 2 本 (ruflo 4 日連続 / DeepSeek-TUI 3 日連続) は description / detail / narration を 05/05 ecosystem 系『5 レイヤのエージェントスタック』および 05/04 business-angle 系『SaaS 月額/単価の置き換え』から本日 comparison 系『有償代替との 1対1 対比』へ語彙完全切替"
+      "本日は木曜 (Thu=350 avg) の中位曜日。柱④ (trend-pattern) を『SaaS 依存を抜くマクロ週』軸で投入し、Primary ペルソナ (CTO/技術投資判断者) に『2026 年 5 月第 2 週は OSS 主権の兆候』として記憶される構造密度を確保。最低 15 views (過去 Thu 下位帯)、理想 320 views (過去 Thu 上位帯)",
+      "重複 1 本 (DeepSeek-TUI 4 日連続) は description / detail / narration を 05/06 comparison 系『有償代替との 1 対 1 対比』および 05/05 ecosystem 系『5 レイヤのエージェントスタック』から本日 trend-pattern 系『SaaS 依存を抜くマクロ週の象徴』へ語彙完全切替"
     ],
     "hashtags": [
-      "水曜の中位曜日 + 柱① comparison 投入対策で、Primary ペルソナ (CTO/技術投資判断者) に『何の代替か』語彙で直撃するタグを厚く: #OSS代替 #DocuSign代替 #Bloomberg代替 #ClaudeCode代替 #JetBrains代替 #LangGraph代替 #CrewAI代替 #SaaS削減 #内製化",
-      "comparison 角度のため、対比対象の語彙を補強: #DocuSign #DocuSeal #BloombergTerminal #ClaudeCode #DeepSeek #LangGraphCloud #CrewAI #JetBrains #VSCode #Cursor #Codex",
-      "業務ドメインタグ: #電子署名 #契約書管理 #金融AI #財務リサーチ #投資調査 #コーディングエージェント #エージェントオーケストレーション #IDEテーマ #VSCodeテーマ #開発環境",
-      "言語タグは Rust (1 本) / TypeScript (2 本) / Ruby (1 本) / PowerShell (1 本)。TypeScript multiplier 1.1x が効くため #TypeScript を主、副に #Ruby (Ruby on Rails) と #Rust (multiplier 0.6x で 1 本) と #PowerShell (テーマ拡張用)",
-      "技術スタック・OSS タグも継続: #Anthropic #ClaudeCode #DeepSeek #Bun #LangGraph #FinancialDatasets #Exa #Tavily #RubyOnRails #Vue #TailwindCSS #HotwiredTurbo #MCP #エージェント",
-      "前日 05/05 ecosystem 角度のスタック構造・レイヤ語彙 (#エージェントスタック #エージェントオーケストレーション #エージェントランタイム #ツール層 #ランタイム層 #データ層) からは距離を取り、本日は『代替・置き換え・抜ける・1対1 対比』の語彙へ寄せる",
-      "comparison 角度では強い否定表現 (『〇〇は終わった』『〇〇は不要』) を避け、5 本すべてを『○○の代替候補』としてニュートラルに紹介。プラットフォームリスクの受動的低減と同質の運用ルール"
+      "木曜の中位曜日 + 柱④ trend-pattern 投入対策で、Primary ペルソナ (CTO/技術投資判断者) に『SaaS 依存を抜くマクロ』語彙で直撃するタグを厚く: #SovereignStack #SaaS依存を抜く #SaaS削減 #OSS主権 #内製化 #自社運用 #ローカルファースト #OSS代替",
+      "trend-pattern 角度のため、抜ける対象の語彙を補強: #ClaudeCode #DeepSeek #DocuSign #PerplexityPro #GeminiDeepResearch #AutoML #DataRobot #Cursor",
+      "業務ドメインタグ: #AIコーディング #エージェントスキル #表データML #電子署名 #契約書管理 #AI調査 #研究エージェント #ローカルLLM #Ollama #SimpleQA",
+      "言語タグは Rust (1 本) / Shell (1 本) / Python (2 本) / Ruby (1 本)。Python multiplier 1.2x が効くため #Python を主、副に #Rust (multiplier 0.6x) と #Ruby (multiplier 0.8x、Rails) と #Shell",
+      "技術スタック・OSS タグも継続: #DeepSeekV4 #AddyOsmani #Anthropic #ClaudeCode #TabPFN #Nature #RubyOnRails #Vue #Ollama #LMStudio #SearXNG #llamacpp #MIT #AGPLv3 #Apache2",
+      "前日 05/06 comparison 角度の 1 対 1 対比語彙 (#〇〇代替 / #〇〇内製化 / #〇〇置き換え) からは語彙を切替え、本日は『マクロ離脱・覆し・抜け・不要化・主権』の語彙へ寄せる",
+      "trend-pattern 角度では強い否定表現 (『〇〇は終わった』『〇〇は不要』) を避け、5 本すべてを『SaaS 依存を抜く動きの一例』としてニュートラルに紹介。プラットフォームリスクの受動的低減と同質の運用ルール"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本の合計 272 文字、TTS +30% 読み上げで約 25 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
-      "カタカナ発音を想定して TTS の誤読を回避 (ディープシーク ティー ユー アイ、ルフロ、デクスター、ドキュシール、ブイエスコード ダーク アイランズ)。固有名詞は原文英語のまま (Claude Code, LangGraph, CrewAI, Bloomberg, DocuSign, JetBrains, VSCode, MIT, AGPLv3)",
-      "comparison 角度の一貫性: 各ナレーション後半で『○○を置き換えられます』『○○の年額契約を抜けます』『○○を内製で代替できます』『○○風の見た目を作れます』など対比語彙を必ず提示する 2 文構成 (フック 1 文 + 要点 1 文)",
-      "前日 05/05 ecosystem の階層構造語彙 (最上層、ドメイン特化層、ツール層、ランタイム層、データ層、束ねる、組み込む、差し替える、担う、位置する) からは完全に距離を置き、本日は『代替、置き換え、抜ける、再現、内製、自社運用』の語彙へ完全切替",
-      "DeepSeek-TUI の narration は『Claude Code をトークン単価で安く置き換え』として、商標バランスは『より安い』(Claude API を直接劣後扱い) ではなく『トークン単価で安く置き換え』(自社視点でのコスト効率) で担保",
-      "ruflo の narration は『LangGraph や CrewAI を内製で代替』として、SaaS 名 2 つを並列で並べ、有償・OSS 両軸の代替軸を明示。SaaS 名 (LangGraph Cloud / CrewAI など) は narration では並列、detail で具体機能を補足"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本の合計 281 文字、TTS +30% 読み上げで約 26 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内に収まる)",
+      "カタカナ発音を想定して TTS の誤読を回避 (ディープシーク ティー ユー アイ、エージェント スキルズ、タブピーエフエヌ、ドキュシール、ローカル ディープ リサーチ)。固有名詞は原文英語のまま (Claude Code, Cursor, Perplexity Pro, DocuSign, DeepSeek, Ollama, XGBoost, LightGBM, AutoML, MIT, AGPLv3, Apache 2.0, Nature, SaaS, OSS)",
+      "trend-pattern 角度の一貫性: 各ナレーション後半で『○○月額依存を抜く流れの象徴』『○○の前提を覆す週』『SaaS 抜けの動きが○○領域に到達』『○○不要』など『離脱・覆し・到達・不要化』のマクロ語彙で必ず締める 2 文構成 (フック 1 文 + 要点 1 文)",
+      "前日 05/06 comparison の 1 対 1 対比語彙 (代替、置き換え、抜ける、再現、内製、自社運用) からは距離を置き、本日は『離脱、覆す、到達、不要、主権、ベクトル、流れ、潮目、象徴、週』のマクロ語彙へ完全切替",
+      "DeepSeek-TUI の narration は『Claude Code 月額依存を抜く流れの象徴』として、商標バランスは『Claude Code は不要』(直接劣後扱い) ではなく『月額依存を抜く流れの象徴』(マクロ離脱ベクトルの一例) で担保",
+      "local-deep-research の narration は『Perplexity Pro 不要の調査が個人完結』として、SaaS 名 1 つを名指しで離脱対象として明示。SaaS 名 (Perplexity Pro / Gemini Deep Research / OpenAI Deep Research など) は narration では 1 つに絞り、detail で複数列挙"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (柱① / exploit 枠 80%、Method TOP3 の禁則外最大サンプル avg 9.5)。直近 2 日連続禁則 (05/05 ecosystem / 05/04 business-angle) を回避し、本日の TOP5 が 5 vertical 完全分散構成のため、ecosystem 角度では 05/01 型『5 本が共通レイヤを持たない』失敗パターン (views=5) に該当するリスクが高く構造的に不適合。一方 comparison 角度なら各 vertical 独立に『1対1 の有償代替軸』を立てられるため素材適合度が逆に 5/5 となり、04/22 (comparison=9) ・04/27 (comparison=10) の安定帯を狙える",
-      "今日の TOP5 は『有償・クローズドサービスの OSS 代替が一日で 5 本揃った日』: Hmbown/DeepSeek-TUI (Rust / 7,064★ / +2,389・MIT・v0.8.13・DeepSeek V4 Pro/Flash 向け Rust 単一バイナリ TUI、Plan/Agent/YOLO+MCP 統合 = Claude Code 代替) / ruvnet/ruflo (TS / 43,481★ / +2,441・MIT・v3.6.30・100+ 専門エージェント+HNSW ベクトル+mTLS 連邦化 = LangGraph Cloud・CrewAI 代替) / virattt/dexter (TS / 23,720★ / +660・MIT・Bun 製、Financial Datasets API+Exa/Tavily で自律財務リサーチ = Bloomberg Terminal・FactSet 代替) / docusealco/docuseal (Ruby / 13,946★ / +929・AGPLv3・Ruby on Rails+Vue、12 種フィールド・14 言語・SMTP・SSO/ホワイトラベル = DocuSign・Adobe Sign 代替) / bwya77/vscode-dark-islands (PowerShell / 7,820★ / +665・MIT・ガラス調境界・フローティングパネル・ピル型 UI = JetBrains Islands UI 代替)。Primary ペルソナ (CTO/技術投資判断者) が『何を捨てて何を入れるか』を 1 動画で意思決定できる構成",
-      "重複 2 本 (ruflo 4 日連続 / DeepSeek-TUI 3 日連続) は description / detail / narration を 05/05 ecosystem 角度『5 レイヤのエージェントスタック』および 05/04 business-angle 角度『SaaS 月額/単価の置き換え』から本日 comparison 角度『有償代替との 1対1 対比』へ語彙完全切替。ruflo は『最上位オーケストレーション層』→『LangGraph Cloud・CrewAI を自社運用で代替できる上位オーケストレータ』、DeepSeek-TUI は『Claude Code 型のランタイム層を安く差し替え』→『Claude Code をトークン単価で安く置き換え』へ抽象表現を階層構造から代替対比の語彙に切替",
-      "本日の 5 本は OSS ライセンスが MIT 4 本 (DeepSeek-TUI, ruflo, dexter, vscode-dark-islands) + AGPLv3 1 本 (docuseal)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は MIT 4 本は良好、AGPLv3 (docuseal) は商用派生に OSS 化条件があるため『社内自社運用なら問題なし、SaaS として再販する場合は派生コードの公開義務』を detail に集約。本日 narration ではライセンス表記を detail に集約し、narration では代替対比の語彙密度を最大化 (40-60 字制約)",
-      "Wed=267 avg の中位曜日対策として、武器は『5 本それぞれに明確な有償代替対象が存在する素材適合の高さ (5/5)』。視聴者 (CTO/PdM) が『2026 年 5 月第 2 週の水曜は OSS 代替が 5 本一気に揃った日』として記憶に残せる構造密度を確保。直近 14 日 Wed=267 avg を上回ることが上振れ基準、9 views を下回ったら comparison method の素材適合度ルールを再検討する判断材料に",
-      "本日の運用結果が出る 05/08 PDCA 以降で、comparison の 3 投稿目データ (期待値: 上振れ条件で 30+、下振れ条件で 5-15) を確定。同時期に 05/05 ecosystem の updatedAt も到着するため、Method × 曜日マトリクスで ecosystem × Tue セル (04/28=326 と 05/05 の 2 投稿目) と comparison × Wed セル (本日初投入、母数 1) を同時評価可能"
+      "本日の discovery.method は `trend-pattern` (柱④ / exploit 枠 80%、Method TOP2 avg 13.0、ただしサンプル 1 で再現性未確認)。直近 2 日連続禁則 (05/06 comparison / 05/05 ecosystem) を回避し、Method TOP3 のうち本日選択可能な唯一のメソッドが trend-pattern。本日の TOP5 が『AI×実務領域で OSS が同時多発的に SaaS 依存を抜く』マクロ読みに自然収束する珍しい素材構成 (5/5 が『何らかの有償サービスから離脱』軸で読める) のため、trend-pattern の素材適合度は最大。Thu=350 avg の中位曜日帯で損失リスク中庸",
+      "今日の TOP5 は『2026 年 5 月第 2 週、AI×実務で OSS が SaaS 依存を抜くベクトル一斉発生』: Hmbown/DeepSeek-TUI (Rust / 13,574★ / +6,184・MIT・Claude Code 月額離脱の象徴) / addyosmani/agent-skills (Shell / 30,320★ / +629・MIT・Addy Osmani 監修・AIコーディングのスキル集を OSS 標準化) / PriorLabs/TabPFN (Python / 6,557★ / +218・Apache 2.0+attribution・Nature 2025・AutoML SaaS 前提条件覆し) / docusealco/docuseal (Ruby / 14,816★ / +772・AGPLv3・DocuSign 月額抜けて Docker 自社運用) / LearningCircuit/local-deep-research (Python / 5,598★ / +532・MIT・Ollama+10 種検索で Perplexity Pro 不要化)。Primary ペルソナ (CTO/技術投資判断者) が『2026 年 5 月の OSS 主権の兆候』を 1 動画で記憶できる構造密度を確保",
+      "重複 1 本 (DeepSeek-TUI 4 日連続) は description / detail / narration を 05/06 comparison 角度『有償代替との 1 対 1 対比』および 05/05 ecosystem 角度『5 レイヤのエージェントスタック』から本日 trend-pattern 角度『SaaS 依存を抜くマクロ週の象徴』へ語彙完全切替。DeepSeek-TUI は 05/06『Claude Code 代替の Rust 製 TUI、トークン単価で安く置き換え』→ 本日『DeepSeek モデル前提のターミナル開発エージェント、Claude Code 月額依存を抜く流れの象徴』へ抽象表現を 1 対 1 対比から『マクロ離脱ベクトルの一例』へ昇格",
+      "本日の 5 本は OSS ライセンスが MIT 3 本 (DeepSeek-TUI, agent-skills, local-deep-research) + AGPLv3 1 本 (docuseal) + Apache 2.0+attribution 1 本 (TabPFN、ただし v2.5/2.6 model weights は非商用のため商用適用時はバージョン選定が必要)。受託・スタートアップが内製スタックに組み込む際のライセンス互換性は MIT 3 本は良好、AGPLv3 (docuseal) は商用派生に OSS 化条件、TabPFN は code は Apache 2.0 だが weights バージョンに注意。ライセンス表記は detail に集約し、narration ではマクロ離脱語彙の密度を最大化 (40-60 字制約)",
+      "Thu=350 avg の中位曜日対策として、武器は『5 本横断で 1 つのマクロ読みに収束する素材適合の高さ (5/5)』。視聴者 (CTO/PdM) が『2026 年 5 月第 2 週の木曜は SaaS 抜け OSS が 5 本一気に揃った日』として記憶に残せる構造密度を確保。直近 14 日 Thu=350 avg を上回ることが上振れ基準、9 views を下回ったら trend-pattern method の素材適合度ルールを再検討する判断材料に",
+      "本日の運用結果が出る 05/09 PDCA 以降で、trend-pattern の 2 投稿目データ (期待値: 上振れ条件で 30+、下振れ条件で 5-15) を確定。05/02(=13) との分散から trend-pattern の avg 13.0 が再現性ある勝ち筋セルか単発外れ値かの初判定が可能。同時期に 05/06 comparison の updatedAt も到着するため、Method × 曜日マトリクスで trend-pattern × Thu (本日初投入、母数 1) と comparison × Wed (05/06、母数 1) を並行評価可能"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-06",
-    "dayOfWeek": "Wed",
+    "date": "2026-05-07",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "OSS代替",
-      "DocuSign代替",
-      "Bloomberg代替",
-      "ClaudeCode代替",
-      "JetBrains代替",
-      "LangGraph代替",
-      "CrewAI代替",
+      "SovereignStack",
+      "SaaS依存を抜く",
       "SaaS削減",
+      "OSS主権",
       "内製化",
-      "DocuSeal",
-      "DeepSeek",
+      "自社運用",
+      "ローカルファースト",
+      "OSS代替",
       "ClaudeCode",
-      "BloombergTerminal",
+      "DeepSeek",
+      "DocuSign",
+      "PerplexityPro",
+      "GeminiDeepResearch",
+      "AutoML",
+      "DataRobot",
+      "Cursor",
+      "AIコーディング",
+      "エージェントスキル",
+      "表データML",
       "電子署名",
       "契約書管理",
-      "金融AI",
-      "財務リサーチ",
-      "投資調査",
-      "コーディングエージェント",
-      "エージェントオーケストレーション",
-      "IDEテーマ",
-      "VSCodeテーマ",
-      "開発環境",
+      "AI調査",
+      "研究エージェント",
+      "ローカルLLM",
+      "Ollama",
+      "SimpleQA",
+      "DeepSeekV4",
+      "AddyOsmani",
       "Anthropic",
-      "Bun",
-      "FinancialDatasets",
-      "Exa",
-      "Tavily",
+      "TabPFN",
+      "Nature",
       "RubyOnRails",
       "Vue",
-      "TailwindCSS",
-      "MCP",
-      "エージェント",
-      "TypeScript",
-      "Ruby",
+      "LMStudio",
+      "SearXNG",
+      "llamacpp",
+      "MIT",
+      "AGPLv3",
+      "Apache2",
+      "Python",
       "Rust",
-      "PowerShell",
+      "Shell",
+      "Ruby",
       "OSS活用",
       "実案件で使えるOSS",
       "受託開発",
@@ -116,6 +123,6 @@
       "CTO",
       "PdM"
     ],
-    "focus": "水曜 (Wed=267 avg) の中位曜日に `comparison` 角度 (柱① / exploit 枠 80%、Method TOP3 の禁則外最大サンプル avg 9.5) を投入。直近 2 日連続禁則 (05/05 ecosystem / 05/04 business-angle) を回避し、本日 TOP5 が 5 vertical 完全分散構成のため ecosystem 角度では 05/01 型失敗パターン (views=5) に該当するリスクが高く構造的に不適合。一方 comparison 角度なら各 vertical 独立に『1対1 の有償代替軸』を立てられるため素材適合度が 5/5 に逆転。TOP5 は Hmbown/DeepSeek-TUI (Claude Code 代替) / ruvnet/ruflo (LangGraph Cloud・CrewAI 代替) / virattt/dexter (Bloomberg Terminal 代替) / docusealco/docuseal (DocuSign 代替) / bwya77/vscode-dark-islands (JetBrains Islands UI 代替)。重複 2 本 (ruflo 4 日連続 / DeepSeek-TUI 3 日連続) は ecosystem → business-angle → comparison へ method 語彙完全切替で連投ペナルティ条件から構造的に外す。新規 3 本 (dexter / docuseal / vscode-dark-islands) で 04/29-30 型の同 method × 同ラインナップ連投構造から外す。最低 15 views (過去 Wed 下位帯超え)、理想 250 views (過去 Wed 上位帯)。Method × 曜日マトリクスでは comparison × Wed セルが本日初投入で母数 0→1。05/08 PDCA 以降で 04/22 Tue / 04/27 Sun 帯 (9-10 views) との比較が可能。05/05 ecosystem (Tue) の updatedAt が同時期に到着するため、ecosystem × Tue が再現性ある勝ち筋セルかどうかの初判定 (上振れ → 戦略 doc に明文化、下振れ → 04/28 単発外れ値仮説の補強) も並行可能。"
+    "focus": "木曜 (Thu=350 avg) の中位曜日に `trend-pattern` 角度 (柱④ / exploit 枠 80%、Method TOP2 avg 13.0、ただしサンプル 1 で再現性未確認) を投入。直近 2 日連続禁則 (05/06 comparison / 05/05 ecosystem) を回避し、Method TOP3 のうち本日選択可能な唯一のメソッドが trend-pattern。business-angle (avg 8.0、TOP4) は禁則外だが 05/04=2 の素材分散トラップが直近にあり、本日も 5 本が垂直分野分散 (コーディング/スキル集/ML/電子署名/研究 AI) のため business-angle の素材適合度ルール (5 本同一 SaaS 軸が必要) に未達。一方 trend-pattern は『SaaS 依存を抜くベクトル』という抽象軸で 5 本横断的に 1 つのマクロ読みに収束させられるため適合度最大。TOP5 は Hmbown/DeepSeek-TUI (Claude Code 月額離脱) / addyosmani/agent-skills (AIコーディング標準の OSS 化) / PriorLabs/TabPFN (AutoML SaaS 前提覆し) / docusealco/docuseal (DocuSign 月額抜け) / LearningCircuit/local-deep-research (Perplexity Pro 不要化)。重複 1 本 (DeepSeek-TUI 4 日連続) は comparison → ecosystem → trend-pattern へ method 語彙完全切替で連投ペナルティ条件から構造的に外す。新規 4 本 (agent-skills / TabPFN / docuseal の角度切替 / local-deep-research) で 04/29-30 型の同 method × 同ラインナップ連投構造から外す。最低 15 views (過去 Thu 下位帯超え)、理想 320 views (過去 Thu 上位帯)。Method × 曜日マトリクスでは trend-pattern × Thu セルが本日初投入で母数 0→1。05/09 PDCA 以降で 05/02(=13) との分散から trend-pattern の avg 13.0 が再現性ある勝ち筋セルか単発外れ値かの初判定が可能。05/06 comparison (Wed) ・05/05 ecosystem (Tue) の updatedAt が同時期に到着するため、Method × 曜日マトリクスで comparison × Wed (母数 1) ・ecosystem × Tue (母数 2) ・trend-pattern × Thu (母数 1) のセル評価を並行可能。"
   }
 }
