@@ -701,7 +701,7 @@
         "views": 10,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -754,7 +754,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -807,7 +807,7 @@
         "views": 7,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -859,7 +859,7 @@
         "views": 11,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -915,7 +915,7 @@
         "views": 10,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -971,7 +971,7 @@
         "views": 326,
         "likes": 6,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1077,7 +1077,7 @@
         "views": 12,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1132,7 +1132,7 @@
         "views": 5,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1184,7 +1184,7 @@
         "views": 13,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
+        "updatedAt": "2026-05-07T23:40:44.464Z"
       }
     },
     {
@@ -1401,6 +1401,60 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 6,
+        "likes": 2,
+        "comments": 0,
+        "updatedAt": "2026-05-07T23:40:44.464Z"
+      }
+    },
+    {
+      "videoId": "WmuU9Lb7w9E",
+      "videoUrl": "https://youtube.com/shorts/WmuU9Lb7w9E",
+      "date": "2026-05-08",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/08 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "Rust",
+        "TypeScript"
+      ],
+      "projects": [
+        "anthropics/financial-services",
+        "Hmbown/DeepSeek-TUI",
+        "z-lab/dflash",
+        "InsForge/InsForge",
+        "LearningCircuit/local-deep-research"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/anthropics/financial-services",
+          "https://github.com/Hmbown/DeepSeek-TUI",
+          "https://github.com/z-lab/dflash",
+          "https://github.com/InsForge/InsForge",
+          "https://github.com/LearningCircuit/local-deep-research"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -1409,13 +1463,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-09",
-      "changes": [
-        "Day performance: Tue=459, Wed=408, Thu=332, Mon=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-10",
       "changes": [
@@ -1686,6 +1733,19 @@
         "standard: 284 avg views (29 videos)",
         "Trending languages: Kotlin (1.4x), C++ (1.9x), Jupyter Notebook (1.4x)",
         "Day performance: Fri=618, Tue=540, Thu=350, Wed=267, Sat=155, Mon=97, Sun=8"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-07",
+      "changes": [
+        "Rust: 0.6x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.4x avg views → drop",
+        "standard: 275 avg views (30 videos)",
+        "Trending languages: Kotlin (1.5x), C++ (1.9x), Jupyter Notebook (1.4x)",
+        "Day performance: Fri=618, Tue=540, Thu=281, Wed=267, Sat=155, Mon=97, Sun=8"
       ],
       "recommendedTemplate": "standard"
     }
