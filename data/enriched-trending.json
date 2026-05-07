@@ -1,16 +1,15 @@
 {
-  "date": "2026-05-07",
+  "date": "2026-05-08",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "今日のTOP5を『2026年5月第2週、AI×実務領域でOSSが同時多発的にSaaS依存を抜くマクロ週』として読む。Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製ターミナル開発エージェント、$0.14-0.28/1M token・1Mコンテキスト・MIT、Claude Code月額・トークン課金から離脱) → addyosmani/agent-skills(Addy Osmani監修、Claude Code/Cursor/Gemini/Windsurf/Copilot等向けの実務エンジニアリングスキル集、TDD/Red Flag/検証要件など6項目構造、MIT、AIコーディングのノウハウ層をOSS側で標準化) → PriorLabs/TabPFN(Nature 2025掲載の表データ向け事前学習Transformer、設定なしでXGBoost/LightGBM超え、Apache 2.0+attribution・v2.5/2.6 weightsは非商用、AutoML SaaSや有償ML基盤の前提条件をOSS側から崩す) → docusealco/docuseal(Ruby on Rails+Vue製のDocuSign代替、Docker 1コマンド自社運用、AGPLv3、SaaS依存を抜く動きが署名領域に到達) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索エンジンで自律調査、SimpleQAで約95%、MIT、Perplexity Pro/OpenAI Deep Research/Gemini Deep Research不要化)。直近2日連続禁則(05/06 comparison / 05/05 ecosystem)を回避し、Method TOP3のうち禁則外で唯一のtrend-pattern(avg 13.0、サンプル1)を選定。business-angle(avg 8.0、サンプル4)はTOP4で05/04=2の素材分散トラップが直近にあり、本日5本も垂直分野が分散(コーディング/スキル集/ML/電子署名/研究AI)するため business-angle の素材適合度ルール(5本同一SaaS軸が必要)に未達。一方 trend-pattern なら『SaaS依存を抜くベクトル』という抽象軸で5本横断的に1つのマクロ読みに収束させられる。Thu=350 avgの中位曜日帯で損失リスク中庸、最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu 04/16・04/09=600+の再現)。trend-pattern母数が1→2に増えるため、05/02(=13)との分散測定で再現性を初判定する評価日も兼ねる。",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/anthropics/financial-services",
       "https://github.com/Hmbown/DeepSeek-TUI",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/PriorLabs/TabPFN",
-      "https://github.com/docusealco/docuseal",
-      "https://github.com/LearningCircuit/local-deep-research",
-      "https://www.nature.com/articles/s41586-024-08328-6"
+      "https://github.com/z-lab/dflash",
+      "https://github.com/InsForge/InsForge",
+      "https://github.com/LearningCircuit/local-deep-research"
     ],
     "query": "",
     "freshness_hours": 1
@@ -18,51 +17,51 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "anthropics/financial-services",
+      "name": "financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "language": "Python",
+      "stars": 11483,
+      "todayStars": 1367,
+      "description": "Claude公式の金融業エージェント集",
+      "detail": "Anthropic公式が公開した金融業界向けエージェント集です。投資銀行や運用会社の11業務にClaude Managed Agents APIで対応し、業務知識ごと配布する縦割り層の起点になります。Apache 2.0準拠。",
+      "narration": "Anthropic公式の金融業務向けエージェント集です。AIエージェントスタックの業界垂直層を埋める1本です。"
+    },
+    {
+      "rank": 2,
       "fullName": "Hmbown/DeepSeek-TUI",
       "name": "DeepSeek-TUI",
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "language": "Rust",
-      "stars": 13574,
-      "todayStars": 6184,
-      "description": "DeepSeek用ターミナル開発エージェント",
-      "detail": "DeepSeek V4 Pro/Flashを軸に1Mトークン文脈とプレフィックスキャッシュ対応の価格優位を活かすRust製TUIです。Claude CodeやCursorの月額・トークン課金から離脱したい開発者に刺さる、安価な代替候補です。MIT。",
-      "narration": "DeepSeekモデル前提のターミナル開発エージェントです。Claude Code月額依存を抜く流れの象徴です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "Shell",
-      "stars": 30320,
-      "todayStars": 629,
-      "description": "AIコーディングの実務スキル集",
-      "detail": "Addy Osmani氏監修で、Claude CodeやCursor向けの実務スキルを公開フォーマットで配布するOSSです。テスト駆動やレッドフラッグ判定など現場ノウハウを構造化し、AIコーディング標準のOSS化を進めます。MIT。",
-      "narration": "Addy Osmani氏が公開するAIコーディングのスキル集です。試行錯誤コストをOSS側で吸収する流れです。"
+      "stars": 18576,
+      "todayStars": 5787,
+      "description": "DeepSeek専用のターミナル開発エージェント",
+      "detail": "DeepSeek V4 Pro/Flashを軸に1Mトークン文脈とプレフィックスキャッシュ対応の価格優位を活かすRust製TUIです。AIコーディングのインターフェース層をオープンに置き換える1本です。MIT。",
+      "narration": "DeepSeek専用のターミナル開発エージェントです。AIコーディングのインターフェース層を担う1本です。"
     },
     {
       "rank": 3,
-      "fullName": "PriorLabs/TabPFN",
-      "name": "TabPFN",
-      "url": "https://github.com/PriorLabs/TabPFN",
+      "fullName": "z-lab/dflash",
+      "name": "dflash",
+      "url": "https://github.com/z-lab/dflash",
       "language": "Python",
-      "stars": 6557,
-      "todayStars": 218,
-      "description": "表データ向けの基盤モデルOSS",
-      "detail": "Nature 2025掲載の事前学習Transformerで、表形式データをチューニングなしでXGBoostやLightGBMを上回る精度で扱えます。AutoML系SaaSや有償ML基盤の前提条件をOSS側から崩す存在です。Apache 2.0準拠。",
-      "narration": "表形式データ向けの基盤モデルで、設定なしで既存ML手法を上回ります。商用ML SaaSの前提を覆す週です。"
+      "stars": 3454,
+      "todayStars": 654,
+      "description": "並列下書きでLLMを高速化するOSS",
+      "detail": "ブロック拡散方式で複数トークンを並列に下書きする推論高速化ライブラリです。vLLMやSGLangから利用でき、Qwen・Gemma・Llamaに対応します。AIエージェントスタックの推論加速層を底上げします。MIT。",
+      "narration": "ブロック単位で並列ドラフトするLLM高速化OSSです。AIスタックの推論加速層を底上げします。"
     },
     {
       "rank": 4,
-      "fullName": "docusealco/docuseal",
-      "name": "docuseal",
-      "url": "https://github.com/docusealco/docuseal",
-      "language": "Ruby",
-      "stars": 14816,
-      "todayStars": 772,
-      "description": "DocuSign代替の電子署名OSS",
-      "detail": "Ruby on Rails+Vue製のDocuSign代替OSSで、Docker 1コマンドで立ち上がります。AGPLv3で配布され、月額契約を抜けて自社運用に主権を戻したい中堅企業やスタートアップに合う選択肢です。",
-      "narration": "DocuSign代替をDocker一発で立てられる電子署名OSSです。SaaS抜けの動きが署名領域に到達しました。"
+      "fullName": "InsForge/InsForge",
+      "name": "InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "language": "TypeScript",
+      "stars": 8826,
+      "todayStars": 459,
+      "description": "AI向けPostgresバックエンド",
+      "detail": "AIコーディングエージェント向けに設計されたPostgresベースのBaaSです。Auth、Storage、Edge Functions、AI Gatewayを束ね、Supabaseの位置をエージェント主体に組み替えます。Apache 2.0。",
+      "narration": "AIコーディング向けPostgresベースのバックエンドです。スタックのインフラ層を担うOSSです。"
     },
     {
       "rank": 5,
@@ -70,11 +69,11 @@
       "name": "local-deep-research",
       "url": "https://github.com/LearningCircuit/local-deep-research",
       "language": "Python",
-      "stars": 5598,
-      "todayStars": 532,
-      "description": "ローカル完結型の深掘り研究AI",
-      "detail": "OllamaやLM Studio経由のローカルLLMとSearXNG含む10種以上の検索エンジンを束ね、SimpleQAで約95%を出す研究エージェントです。Perplexity ProやGemini Deep Researchの月額を払わず内製化できます。MIT。",
-      "narration": "Ollama等のローカルLLMで動く深掘り検索エージェントです。Perplexity Pro不要の調査が個人完結します。"
+      "stars": 6203,
+      "todayStars": 564,
+      "description": "ローカル完結の深掘り調査エージェント",
+      "detail": "OllamaやLM Studioのローカル推論と10種以上の検索エンジンを束ねる調査エージェントです。SimpleQAで約95%、PDF/Markdown出力で個人向け調査レイヤを完結させます。MIT。",
+      "narration": "ローカルLLMで深掘り調査するエージェントです。個人向け研究レイヤを担う1本です。"
     }
   ]
 }
