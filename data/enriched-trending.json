@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
+    "method": "business-angle",
+    "description": "今日のTOP5を『2026年5月第2週、AIコーディング/AI業務自動化のコストを5方向から削るOSSが同時に上位を占めた日』として読む。anthropics/financial-services(Claude公式の金融業務エージェント集、Pitch/Earnings Reviewer/GL Reconciler等11業務、Bloomberg/FactSet代替で内製・受託費用圧縮、Apache 2.0、業界垂直内製化レバー)→addyosmani/agent-skills(Cursor・Claude Code・Gemini共通で読ませる20個のSDLCスキル集、仕様駆動/テスト駆動/レビュー/出荷を網羅、エンジニア工数10〜30%削減、MIT、社内ガードレールレバー)→Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1M文脈+prefix cache、V4 Proは現在75%割引キャンペーン中、Cursor月額からトークン従量へ降ろす受け皿、MIT、モデル単価レバー)→z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM並列ドラフト、Qwen/Gemma/Llama対応、vLLM/SGLang連携、自前推論GPU費圧縮、MIT、推論コストレバー)→decolua/9router(40+プロバイダーをローカルで束ねる多段ルーター、Claude Code/Cursor/Copilotから無料・格安APIへ自動切替、OpenRouter月額の代替、MIT、API課金代替レバー)。直近2日連続禁則(05/08 ecosystem 0 views / 05/07 trend-pattern 6 views)を回避し、Method TOP3のうち選択可能な business-angle (n=4・avg 8.0) を選定。素材適合度ルール『business-angle は5本同一SaaS軸の日のみ選ぶ』を満たす(5/5本がAIコーディング・AI業務自動化のコスト削減レバーに収束)。05/04 business-angle 2 views(5本素材分散の典型失敗)とは、本日が共通コスト軸に5本完全収束する点で構造が異なる。Sat=155 avg(中位曜日)・週次柱②比率(05/04に1回・本日2回目)・Primary ペルソナ(CTO/技術投資判断者)直撃の見積もり語彙を密度高く配置。最低 13 views(過去 Sat 中央値)・理想 155 views(Sat avg 再現)・上振れ 326 views(04/28 ecosystem 単発外れ値超え)を評価基準。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/anthropics/financial-services",
+      "https://github.com/addyosmani/agent-skills",
       "https://github.com/Hmbown/DeepSeek-TUI",
       "https://github.com/z-lab/dflash",
-      "https://github.com/InsForge/InsForge",
-      "https://github.com/LearningCircuit/local-deep-research"
+      "https://github.com/decolua/9router"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "financial-services",
       "url": "https://github.com/anthropics/financial-services",
       "language": "Python",
-      "stars": 11483,
-      "todayStars": 1367,
-      "description": "Claude公式の金融業エージェント集",
-      "detail": "Anthropic公式が公開した金融業界向けエージェント集です。投資銀行や運用会社の11業務にClaude Managed Agents APIで対応し、業務知識ごと配布する縦割り層の起点になります。Apache 2.0準拠。",
-      "narration": "Anthropic公式の金融業務向けエージェント集です。AIエージェントスタックの業界垂直層を埋める1本です。"
+      "stars": 14920,
+      "todayStars": 3662,
+      "description": "Anthropic公式の金融業務エージェント集",
+      "detail": "Anthropic公式が配布する金融業界向けエージェント集です。Pitch・Earnings Reviewer・GL Reconcilerなど11業務をClaude Managed Agents APIで提供します。Bloomberg・FactSet代替で受託や内製の見積もりを大きく圧縮できます。Apache 2.0。",
+      "narration": "Anthropic公式の金融業務エージェント集です。受託や内製の代わりに据えてコストを大幅に削れます。"
     },
     {
       "rank": 2,
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 35224,
+      "todayStars": 1794,
+      "description": "AIエージェント向けの実務テンプレ集",
+      "detail": "Cursor・Claude Code・Geminiなど主要AIエージェントに共通で読ませる20個のSDLCスキル集です。仕様駆動・テスト駆動・レビュー・出荷まで網羅し、エンジニア工数を10〜30%削る無料の社内ガードレールとして機能します。MIT。",
+      "narration": "AIコーディングの社内テンプレ集です。エンジニア工数を10〜30%削る無料ガードレールになります。"
+    },
+    {
+      "rank": 3,
       "fullName": "Hmbown/DeepSeek-TUI",
       "name": "DeepSeek-TUI",
       "url": "https://github.com/Hmbown/DeepSeek-TUI",
       "language": "Rust",
-      "stars": 18576,
-      "todayStars": 5787,
-      "description": "DeepSeek専用のターミナル開発エージェント",
-      "detail": "DeepSeek V4 Pro/Flashを軸に1Mトークン文脈とプレフィックスキャッシュ対応の価格優位を活かすRust製TUIです。AIコーディングのインターフェース層をオープンに置き換える1本です。MIT。",
-      "narration": "DeepSeek専用のターミナル開発エージェントです。AIコーディングのインターフェース層を担う1本です。"
+      "stars": 21675,
+      "todayStars": 3827,
+      "description": "DeepSeek V4専用のターミナル開発エージェント",
+      "detail": "DeepSeek V4 Pro/Flash向けに最適化されたRust製ターミナル開発エージェントです。1M文脈とprefix cache対応で、現在期間限定75%割引のV4 Pro単価と相性抜群です。Cursorの月額からトークン従量へ切り替える受け皿になります。MIT。",
+      "narration": "DeepSeek V4専用のターミナル開発エージェントです。Cursor月額の代わりに従量で大幅にコストを削れます。"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "fullName": "z-lab/dflash",
       "name": "dflash",
       "url": "https://github.com/z-lab/dflash",
       "language": "Python",
-      "stars": 3454,
-      "todayStars": 654,
-      "description": "並列下書きでLLMを高速化するOSS",
-      "detail": "ブロック拡散方式で複数トークンを並列に下書きする推論高速化ライブラリです。vLLMやSGLangから利用でき、Qwen・Gemma・Llamaに対応します。AIエージェントスタックの推論加速層を底上げします。MIT。",
-      "narration": "ブロック単位で並列ドラフトするLLM高速化OSSです。AIスタックの推論加速層を底上げします。"
-    },
-    {
-      "rank": 4,
-      "fullName": "InsForge/InsForge",
-      "name": "InsForge",
-      "url": "https://github.com/InsForge/InsForge",
-      "language": "TypeScript",
-      "stars": 8826,
-      "todayStars": 459,
-      "description": "AI向けPostgresバックエンド",
-      "detail": "AIコーディングエージェント向けに設計されたPostgresベースのBaaSです。Auth、Storage、Edge Functions、AI Gatewayを束ね、Supabaseの位置をエージェント主体に組み替えます。Apache 2.0。",
-      "narration": "AIコーディング向けPostgresベースのバックエンドです。スタックのインフラ層を担うOSSです。"
+      "stars": 3821,
+      "todayStars": 388,
+      "description": "並列ドラフトでLLMを高速化するOSS",
+      "detail": "ブロック拡散方式で複数トークンを並列にドラフトする推論加速ライブラリです。vLLMやSGLangと連携し、Qwen・Gemma・Llamaに対応します。自前推論を回すスタートアップのGPU費用を継続的に圧縮できます。MIT。",
+      "narration": "ブロック単位で並列ドラフトするLLM高速化OSSです。自前推論のGPU費用を継続的に圧縮できます。"
     },
     {
       "rank": 5,
-      "fullName": "LearningCircuit/local-deep-research",
-      "name": "local-deep-research",
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "language": "Python",
-      "stars": 6203,
-      "todayStars": 564,
-      "description": "ローカル完結の深掘り調査エージェント",
-      "detail": "OllamaやLM Studioのローカル推論と10種以上の検索エンジンを束ねる調査エージェントです。SimpleQAで約95%、PDF/Markdown出力で個人向け調査レイヤを完結させます。MIT。",
-      "narration": "ローカルLLMで深掘り調査するエージェントです。個人向け研究レイヤを担う1本です。"
+      "fullName": "decolua/9router",
+      "name": "9router",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "stars": 5517,
+      "todayStars": 1028,
+      "description": "40プロバイダー対応のAIルーター",
+      "detail": "40以上のAIプロバイダーをローカルで束ねる多段ルーターです。Claude Code・Cursor・GitHub Copilotから無料や格安APIへ自動でフェイルオーバーします。OpenRouter月額の代わりに採算ラインを下げられる選択肢になります。MIT。",
+      "narration": "無料LLMを束ねる多段ルーターです。OpenRouter月額の代わりに無料枠で運用費を抑え込めます。"
     }
   ]
 }
