@@ -7,6 +7,9 @@ on:
         description: "Date tag (YYYYMMDD). Defaults to today JST."
         required: false
         default: ""
+  push:
+    paths:
+      - .retry-ig-trigger
 
 permissions:
   contents: read
