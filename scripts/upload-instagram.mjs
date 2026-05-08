@@ -173,20 +173,34 @@ async function uploadVideoBinary(uploadUri, filePath, accessToken) {
   return data;
 }
 
+const UPLOAD_MAX_RETRIES = 3;
+const UPLOAD_RETRY_DELAYS = [30_000, 60_000, 120_000];
+
 async function uploadViaResumable(igUserId, pageToken, filePath, caption, coverUrl) {
-  console.log("  Creating resumable container...");
-  const { id: containerId, uri: uploadUri } = await createResumableContainer(
-    igUserId,
-    pageToken,
-    caption,
-    coverUrl
-  );
-  console.log(`  Container ID: ${containerId}`);
-  console.log(
-    `  Uploading ${(statSync(filePath).size / 1024 / 1024).toFixed(1)} MB...`
-  );
-  await uploadVideoBinary(uploadUri, filePath, pageToken);
-  return containerId;
+  const sizeMB = (statSync(filePath).size / 1024 / 1024).toFixed(1);
+
+  for (let attempt = 1; attempt <= UPLOAD_MAX_RETRIES; attempt++) {
+    console.log(`  [Attempt ${attempt}/${UPLOAD_MAX_RETRIES}] Creating resumable container...`);
+    const { id: containerId, uri: uploadUri } = await createResumableContainer(
+      igUserId,
+      pageToken,
+      caption,
+      coverUrl
+    );
+    console.log(`  Container ID: ${containerId}`);
+    console.log(`  Uploading ${sizeMB} MB...`);
+
+    try {
+      await uploadVideoBinary(uploadUri, filePath, pageToken);
+      return containerId;
+    } catch (err) {
+      const isProcessingFailed = err.message.includes("ProcessingFailedError");
+      if (!isProcessingFailed || attempt === UPLOAD_MAX_RETRIES) throw err;
+      const delay = UPLOAD_RETRY_DELAYS[attempt - 1];
+      console.log(`  Upload failed (ProcessingFailedError), retrying in ${delay / 1000}s...`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
+  }
 }
 
 async function uploadViaUrl(igUserId, pageToken, videoUrl, caption, coverUrl) {
