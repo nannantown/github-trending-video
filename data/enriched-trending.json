@@ -1,15 +1,18 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-10",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
+    "method": "comparison",
+    "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/anthropics/financial-services",
-      "https://github.com/Hmbown/DeepSeek-TUI",
-      "https://github.com/z-lab/dflash",
-      "https://github.com/InsForge/InsForge",
-      "https://github.com/LearningCircuit/local-deep-research"
+      "https://github.com/bytedance/UI-TARS-desktop",
+      "https://github.com/rohitg00/agentmemory",
+      "https://github.com/datawhalechina/hello-agents",
+      "https://github.com/datawhalechina/easy-vibe",
+      "https://docs.claude.com/en/api/managed-agents",
+      "https://github.com/mem0ai/mem0",
+      "https://github.com/letta-ai/letta"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +24,59 @@
       "name": "financial-services",
       "url": "https://github.com/anthropics/financial-services",
       "language": "Python",
-      "stars": 11483,
-      "todayStars": 1367,
-      "description": "Claude公式の金融業エージェント集",
-      "detail": "Anthropic公式が公開した金融業界向けエージェント集です。投資銀行や運用会社の11業務にClaude Managed Agents APIで対応し、業務知識ごと配布する縦割り層の起点になります。Apache 2.0準拠。",
-      "narration": "Anthropic公式の金融業務向けエージェント集です。AIエージェントスタックの業界垂直層を埋める1本です。"
+      "stars": 17293,
+      "todayStars": 3077,
+      "description": "Anthropic公式の金融エージェント集",
+      "detail": "Anthropic公式が投資銀行や運用会社向けに11エージェントを束ねた業務パックです。Claude Managed AgentsとMCPコネクタ込みで、汎用skill集と違い業界知識ごと内製を置き換える基準点になります。Apache 2.0。",
+      "narration": "Anthropic公式の金融業務向け11エージェント集です。汎用skill集ではなく業界縦割りで内製を置き換えます。"
     },
     {
       "rank": 2,
-      "fullName": "Hmbown/DeepSeek-TUI",
-      "name": "DeepSeek-TUI",
-      "url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "language": "Rust",
-      "stars": 18576,
-      "todayStars": 5787,
-      "description": "DeepSeek専用のターミナル開発エージェント",
-      "detail": "DeepSeek V4 Pro/Flashを軸に1Mトークン文脈とプレフィックスキャッシュ対応の価格優位を活かすRust製TUIです。AIコーディングのインターフェース層をオープンに置き換える1本です。MIT。",
-      "narration": "DeepSeek専用のターミナル開発エージェントです。AIコーディングのインターフェース層を担う1本です。"
+      "fullName": "bytedance/UI-TARS-desktop",
+      "name": "UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "language": "TypeScript",
+      "stars": 31353,
+      "todayStars": 549,
+      "description": "ローカル動作のGUI操作エージェント",
+      "detail": "ByteDance製のGUI操作エージェントです。Anthropic Computer UseやOpenAI Operatorがクラウド従量制なのに対し、UI-TARSモデルとセットでローカル実行できます。Apache 2.0。",
+      "narration": "ByteDance製のGUI操作エージェントです。クラウド前提のComputer Useと違いローカルで動かせます。"
     },
     {
       "rank": 3,
-      "fullName": "z-lab/dflash",
-      "name": "dflash",
-      "url": "https://github.com/z-lab/dflash",
-      "language": "Python",
-      "stars": 3454,
-      "todayStars": 654,
-      "description": "並列下書きでLLMを高速化するOSS",
-      "detail": "ブロック拡散方式で複数トークンを並列に下書きする推論高速化ライブラリです。vLLMやSGLangから利用でき、Qwen・Gemma・Llamaに対応します。AIエージェントスタックの推論加速層を底上げします。MIT。",
-      "narration": "ブロック単位で並列ドラフトするLLM高速化OSSです。AIスタックの推論加速層を底上げします。"
+      "fullName": "rohitg00/agentmemory",
+      "name": "agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "language": "TypeScript",
+      "stars": 3387,
+      "todayStars": 518,
+      "description": "コーディングエージェント向けの記憶層",
+      "detail": "Cursor・Claude Code・Aiderなど12種以上のエージェントで動く記憶エンジンです。再現率95.2%でmem0の68.5%やLettaの83.2%を上回り、SQLite完結で外部vector DB不要。Apache 2.0。",
+      "narration": "コーディングエージェント向けの記憶エンジンです。再現率95.2%でmem0やLettaの精度を上回ります。"
     },
     {
       "rank": 4,
-      "fullName": "InsForge/InsForge",
-      "name": "InsForge",
-      "url": "https://github.com/InsForge/InsForge",
-      "language": "TypeScript",
-      "stars": 8826,
-      "todayStars": 459,
-      "description": "AI向けPostgresバックエンド",
-      "detail": "AIコーディングエージェント向けに設計されたPostgresベースのBaaSです。Auth、Storage、Edge Functions、AI Gatewayを束ね、Supabaseの位置をエージェント主体に組み替えます。Apache 2.0。",
-      "narration": "AIコーディング向けPostgresベースのバックエンドです。スタックのインフラ層を担うOSSです。"
+      "fullName": "datawhalechina/hello-agents",
+      "name": "hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "language": "Python",
+      "stars": 45640,
+      "todayStars": 1162,
+      "description": "16章で体系化する自作エージェント教材",
+      "detail": "LangGraph・AutoGen・AgentScopeに加えMCP/A2A/ANPやSFT→GRPOまで扱う中国発の体系教材です。LangChain公式の機能別解説と異なり16章で全体像を俯瞰できます。CC BY-NC-SA。",
+      "narration": "ゼロから自作する中国発のエージェント教材です。LangChain公式の個別解説と異なり16章で体系化します。"
     },
     {
       "rank": 5,
-      "fullName": "LearningCircuit/local-deep-research",
-      "name": "local-deep-research",
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "language": "Python",
-      "stars": 6203,
-      "todayStars": 564,
-      "description": "ローカル完結の深掘り調査エージェント",
-      "detail": "OllamaやLM Studioのローカル推論と10種以上の検索エンジンを束ねる調査エージェントです。SimpleQAで約95%、PDF/Markdown出力で個人向け調査レイヤを完結させます。MIT。",
-      "narration": "ローカルLLMで深掘り調査するエージェントです。個人向け研究レイヤを担う1本です。"
+      "fullName": "datawhalechina/easy-vibe",
+      "name": "easy-vibe",
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "language": "JavaScript",
+      "stars": 8489,
+      "todayStars": 294,
+      "description": "vibe coding時代の初学者向け教材",
+      "detail": "Cursor・Claude CodeやSupabase・Stripeまで触る初学者向けの実践教材です。構文中心の入門書と違い最初から作る成果物に振った学習順で多言語の動画チュートリアル付き。CC BY-NC-SA。",
+      "narration": "AI時代の初学者向けプログラミング教材です。構文中心の入門書と違い最初から成果物を作る順で学べます。"
     }
   ]
 }
