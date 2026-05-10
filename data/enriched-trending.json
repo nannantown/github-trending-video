@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
+    "method": "trend-pattern",
+    "description": "2026年5月第2週の TOP5 が偶然ではなく『AIエージェントが試作から業務インフラへ移った週』として読める macro 角度。本日 5 本の内訳は (a) 汎用エージェント実行基盤 3 本 = bytedance/UI-TARS-desktop(マルチモーダル基盤・Event Stream Viewerで観測性) / addyosmani/agent-skills(本番品質を強制する22ワークフロー) / CloakHQ/CloakBrowser(C++ソース段階でChromiumを改造したエージェント業務用ブラウザ)、(b) 業界縦割りの完成エージェントパック 2 本 = anthropics/financial-services(投資銀行・運用会社向け11エージェント+11 MCP連携) / HKUDS/AI-Trader(エージェントネイティブな自動取引基盤・本番運用安定化フェーズ)。直近 14 日で trend-pattern は n=2 avg 9.5 (TOP3 method)、最終投入 05/07 から 4 日経過し連続禁則条件外。前々日 05/09=ecosystem / 前日 05/10=comparison から距離があり、Mon=97 avg の比較的強曜日帯で観測性・品質強制・縦割りパックの3層が揃った素材適合を活かす。Primary ペルソナ (CTO/技術選定者) に『2026 年 5 月第 2 週、AI エージェントの議論が試作から本番運用に移った』というマクロ記憶を一動画で渡す狙い。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/financial-services",
       "https://github.com/bytedance/UI-TARS-desktop",
-      "https://github.com/rohitg00/agentmemory",
-      "https://github.com/datawhalechina/hello-agents",
-      "https://github.com/datawhalechina/easy-vibe",
+      "https://github.com/bytedance/UI-TARS-desktop/releases",
+      "https://github.com/anthropics/financial-services",
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/CloakHQ/CloakBrowser",
+      "https://github.com/HKUDS/AI-Trader",
       "https://docs.claude.com/en/api/managed-agents",
-      "https://github.com/mem0ai/mem0",
-      "https://github.com/letta-ai/letta"
+      "https://modelcontextprotocol.io"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/financial-services",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "language": "Python",
-      "stars": 17293,
-      "todayStars": 3077,
-      "description": "Anthropic公式の金融エージェント集",
-      "detail": "Anthropic公式が投資銀行や運用会社向けに11エージェントを束ねた業務パックです。Claude Managed AgentsとMCPコネクタ込みで、汎用skill集と違い業界知識ごと内製を置き換える基準点になります。Apache 2.0。",
-      "narration": "Anthropic公式の金融業務向け11エージェント集です。汎用skill集ではなく業界縦割りで内製を置き換えます。"
-    },
-    {
-      "rank": 2,
       "fullName": "bytedance/UI-TARS-desktop",
       "name": "UI-TARS-desktop",
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "language": "TypeScript",
-      "stars": 31353,
-      "todayStars": 549,
-      "description": "ローカル動作のGUI操作エージェント",
-      "detail": "ByteDance製のGUI操作エージェントです。Anthropic Computer UseやOpenAI Operatorがクラウド従量制なのに対し、UI-TARSモデルとセットでローカル実行できます。Apache 2.0。",
-      "narration": "ByteDance製のGUI操作エージェントです。クラウド前提のComputer Useと違いローカルで動かせます。"
+      "stars": 32049,
+      "todayStars": 656,
+      "description": "AIエージェント基盤の本命スタック",
+      "detail": "ByteDance製のマルチモーダルAIエージェント基盤です。Agent TARSのCLIに加えEvent Stream Viewerで挙動を可視化、MCP連携とremote operatorで本番運用に必要な観測性まで整いました。Apache 2.0。",
+      "narration": "ByteDance製のAIエージェント基盤です。Event Stream Viewerで本番運用の挙動を観測できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "anthropics/financial-services",
+      "name": "financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "language": "Python",
+      "stars": 18705,
+      "todayStars": 1479,
+      "description": "Anthropic公式の金融エージェント集",
+      "detail": "Anthropic公式の投資銀行・運用会社向け11エージェントパックです。Daloopa・FactSet・LSEGなど11本のMCP連携同梱で、Claude Managed Agentsから本番デプロイへ直結します。Apache 2.0。",
+      "narration": "Anthropic公式の金融業務向け11エージェント集です。MCPコネクタ込みで本番運用がそのまま始められます。"
     },
     {
       "rank": 3,
-      "fullName": "rohitg00/agentmemory",
-      "name": "agentmemory",
-      "url": "https://github.com/rohitg00/agentmemory",
-      "language": "TypeScript",
-      "stars": 3387,
-      "todayStars": 518,
-      "description": "コーディングエージェント向けの記憶層",
-      "detail": "Cursor・Claude Code・Aiderなど12種以上のエージェントで動く記憶エンジンです。再現率95.2%でmem0の68.5%やLettaの83.2%を上回り、SQLite完結で外部vector DB不要。Apache 2.0。",
-      "narration": "コーディングエージェント向けの記憶エンジンです。再現率95.2%でmem0やLettaの精度を上回ります。"
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 38333,
+      "todayStars": 1092,
+      "description": "AIエージェント用22の本番化スキル集",
+      "detail": "GoogleのAddy Osmaniが公開するAIコーディング用22ワークフロー集です。仕様策定からセキュリティ審査・段階リリースまで強制し、エージェントの手抜きを許さない本番品質を担保します。MIT。",
+      "narration": "Google系エンジニア発のAIコーディング用22スキル集です。仕様策定や審査の手抜きを許さないガードレールです。"
     },
     {
       "rank": 4,
-      "fullName": "datawhalechina/hello-agents",
-      "name": "hello-agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
+      "fullName": "CloakHQ/CloakBrowser",
+      "name": "CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
       "language": "Python",
-      "stars": 45640,
-      "todayStars": 1162,
-      "description": "16章で体系化する自作エージェント教材",
-      "detail": "LangGraph・AutoGen・AgentScopeに加えMCP/A2A/ANPやSFT→GRPOまで扱う中国発の体系教材です。LangChain公式の機能別解説と異なり16章で全体像を俯瞰できます。CC BY-NC-SA。",
-      "narration": "ゼロから自作する中国発のエージェント教材です。LangChain公式の個別解説と異なり16章で体系化します。"
+      "stars": 4625,
+      "todayStars": 567,
+      "description": "ボット検出を全突破するChromium",
+      "detail": "ボット検出30種類を全突破するステルスChromiumブラウザです。JS注入ではなくC++ソース段階の49パッチで指紋を改変し、Playwright互換APIでエージェント業務の本番運用に耐えます。MIT。",
+      "narration": "ボット検出を全部突破するステルスChromiumです。C++段階で指紋改変しエージェント業務の本番運用に耐えます。"
     },
     {
       "rank": 5,
-      "fullName": "datawhalechina/easy-vibe",
-      "name": "easy-vibe",
-      "url": "https://github.com/datawhalechina/easy-vibe",
-      "language": "JavaScript",
-      "stars": 8489,
-      "todayStars": 294,
-      "description": "vibe coding時代の初学者向け教材",
-      "detail": "Cursor・Claude CodeやSupabase・Stripeまで触る初学者向けの実践教材です。構文中心の入門書と違い最初から作る成果物に振った学習順で多言語の動画チュートリアル付き。CC BY-NC-SA。",
-      "narration": "AI時代の初学者向けプログラミング教材です。構文中心の入門書と違い最初から成果物を作る順で学べます。"
+      "fullName": "HKUDS/AI-Trader",
+      "name": "AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "language": "Python",
+      "stars": 15497,
+      "todayStars": 255,
+      "description": "香港大学発の自動取引エージェント",
+      "detail": "香港大学データサイエンス発のエージェントネイティブな自動取引基盤です。Polymarket等で$100Kペーパートレードから検証でき、本番運用の安定化フェーズに入りました。MIT。",
+      "narration": "香港大学発の自動取引エージェント基盤です。AIエージェント同士が協調し市場へ参入する本番想定の設計です。"
     }
   ]
 }
