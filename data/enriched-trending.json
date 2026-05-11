@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-12",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
+    "method": "business-angle",
+    "description": "今日のTOP5を『受託・スタートアップで月いくら浮くか / 商用契約に組み込めるか』のビジネス視点で料理する。bytedance/UI-TARS-desktop(Apache 2.0、Computer Use系のAPI課金をローカル7Bモデルで消す) → CloakHQ/CloakBrowser(MIT+商用OK、Bright Data/Apifyの月額数万円スクレイピングを内製化) → yikart/AiToEarn(MIT、Hootsuite/Buffer/Laterの月額SNS運用をDockerセルフホストで置換) → playcanvas/supersplat(MIT、不動産・AR可視化で商用Gaussian Splatエディタの月額を外す) → datawhalechina/easy-vibe(CC BY-NC-SA、商用研修不可だが受託の工程設計の根拠/新人参照として使える)。直近2日 (05/10 comparison、05/11 投稿なし) と重ならず、Method TOP3のうち本日選択可能な`business-angle` (avg 7.0、n=3) を選定。さらに過去7日 (05/05-05/11) で柱②/柱③が0投稿のため『週1で柱②か③を混ぜる』戦略ルールが発動、今日が柱②投入の優先日。曜日Tue(avg 720、過去最強曜日帯)に低stakesではなく主力枠でPrimaryペルソナ (CTO/技術選定者) の受託・コスト意思決定に直結する『月額○円浮く』語彙で記憶を作る。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/financial-services",
       "https://github.com/bytedance/UI-TARS-desktop",
-      "https://github.com/rohitg00/agentmemory",
-      "https://github.com/datawhalechina/hello-agents",
+      "https://github.com/CloakHQ/CloakBrowser",
+      "https://github.com/yikart/AiToEarn",
+      "https://github.com/playcanvas/supersplat",
       "https://github.com/datawhalechina/easy-vibe",
-      "https://docs.claude.com/en/api/managed-agents",
-      "https://github.com/mem0ai/mem0",
-      "https://github.com/letta-ai/letta"
+      "https://docs.claude.com/en/docs/agents/computer-use",
+      "https://brightdata.com/products/web-scraper",
+      "https://www.hootsuite.com/plans"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,51 +20,51 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/financial-services",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "language": "Python",
-      "stars": 17293,
-      "todayStars": 3077,
-      "description": "Anthropic公式の金融エージェント集",
-      "detail": "Anthropic公式が投資銀行や運用会社向けに11エージェントを束ねた業務パックです。Claude Managed AgentsとMCPコネクタ込みで、汎用skill集と違い業界知識ごと内製を置き換える基準点になります。Apache 2.0。",
-      "narration": "Anthropic公式の金融業務向け11エージェント集です。汎用skill集ではなく業界縦割りで内製を置き換えます。"
-    },
-    {
-      "rank": 2,
       "fullName": "bytedance/UI-TARS-desktop",
       "name": "UI-TARS-desktop",
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "language": "TypeScript",
-      "stars": 31353,
-      "todayStars": 549,
-      "description": "ローカル動作のGUI操作エージェント",
-      "detail": "ByteDance製のGUI操作エージェントです。Anthropic Computer UseやOpenAI Operatorがクラウド従量制なのに対し、UI-TARSモデルとセットでローカル実行できます。Apache 2.0。",
-      "narration": "ByteDance製のGUI操作エージェントです。クラウド前提のComputer Useと違いローカルで動かせます。"
+      "stars": 32949,
+      "todayStars": 956,
+      "description": "ローカル動作のGUI自動化エージェント",
+      "detail": "画面を見て操作するエージェントを7Bモデルでローカル実行できるByteDance製スタックです。Computer UseやOperatorのAPI従量課金が消えるため、受託案件のランニングを大きく圧縮できます。Apache 2.0。",
+      "narration": "ローカルで動くGUI自動化エージェントです。Computer UseのAPI課金が消え、受託のランニングを浮かせます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "CloakHQ/CloakBrowser",
+      "name": "CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "language": "Python",
+      "stars": 6027,
+      "todayStars": 1325,
+      "description": "Playwright互換のステルスChromium",
+      "detail": "reCAPTCHA v3やCloudflare Turnstileの判定を回避する目的で49本のC++パッチを当てたChromiumバイナリです。スクレイピングや競合調査の受託でBright DataやApifyの月額代替として使え、商用利用も許諾されます。",
+      "narration": "bot検知を突破するステルスChromiumです。Bright DataやApifyの月額数万円を内製で消せます。"
     },
     {
       "rank": 3,
-      "fullName": "rohitg00/agentmemory",
-      "name": "agentmemory",
-      "url": "https://github.com/rohitg00/agentmemory",
+      "fullName": "yikart/AiToEarn",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
       "language": "TypeScript",
-      "stars": 3387,
-      "todayStars": 518,
-      "description": "コーディングエージェント向けの記憶層",
-      "detail": "Cursor・Claude Code・Aiderなど12種以上のエージェントで動く記憶エンジンです。再現率95.2%でmem0の68.5%やLettaの83.2%を上回り、SQLite完結で外部vector DB不要。Apache 2.0。",
-      "narration": "コーディングエージェント向けの記憶エンジンです。再現率95.2%でmem0やLettaの精度を上回ります。"
+      "stars": 10681,
+      "todayStars": 595,
+      "description": "12SNS横断のAI投稿セルフホスト",
+      "detail": "AIで作った動画や記事をTikTok・YouTube・Instagramなど12以上のSNSへ一括配信し、エンゲージから収益化まで自動化する基盤です。MITでDocker一発の自前運用ができ、HootsuiteやBufferの月額代替に直結します。",
+      "narration": "12のSNSへAI生成と一括投稿ができる基盤です。Hootsuiteの月額をDocker一発のセルフホストで消せます。"
     },
     {
       "rank": 4,
-      "fullName": "datawhalechina/hello-agents",
-      "name": "hello-agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "language": "Python",
-      "stars": 45640,
-      "todayStars": 1162,
-      "description": "16章で体系化する自作エージェント教材",
-      "detail": "LangGraph・AutoGen・AgentScopeに加えMCP/A2A/ANPやSFT→GRPOまで扱う中国発の体系教材です。LangChain公式の機能別解説と異なり16章で全体像を俯瞰できます。CC BY-NC-SA。",
-      "narration": "ゼロから自作する中国発のエージェント教材です。LangChain公式の個別解説と異なり16章で体系化します。"
+      "fullName": "playcanvas/supersplat",
+      "name": "supersplat",
+      "url": "https://github.com/playcanvas/supersplat",
+      "language": "TypeScript",
+      "stars": 7305,
+      "todayStars": 533,
+      "description": "ブラウザ完結の3D Splatエディタ",
+      "detail": "3D Gaussian Splatの編集と書き出しをブラウザだけで完結できるPlayCanvas製エディタです。MITで商用OK、不動産可視化やAR/VR受託でPolycamやKIRI Engineといった月額ツールを内製で置き換える起点になります。",
+      "narration": "ブラウザで動く3D Gaussian Splatエディタです。不動産やAR案件で商用ツールの月額を内製で外せます。"
     },
     {
       "rank": 5,
@@ -72,11 +72,11 @@
       "name": "easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "language": "JavaScript",
-      "stars": 8489,
-      "todayStars": 294,
-      "description": "vibe coding時代の初学者向け教材",
-      "detail": "Cursor・Claude CodeやSupabase・Stripeまで触る初学者向けの実践教材です。構文中心の入門書と違い最初から作る成果物に振った学習順で多言語の動画チュートリアル付き。CC BY-NC-SA。",
-      "narration": "AI時代の初学者向けプログラミング教材です。構文中心の入門書と違い最初から成果物を作る順で学べます。"
+      "stars": 9856,
+      "todayStars": 808,
+      "description": "vibe coding 2026の全段階教材",
+      "detail": "Cursor・Claude Code・MCPを使った3段階の現代的開発フローを80以上のトピックで体系化した中国発の教材です。CC BY-NC-SAなので商用研修教材としては使えませんが、受託提案での工程設計の根拠や新人参照には十分機能します。",
+      "narration": "vibe coding 2026を80トピックで学ぶ教材です。商用研修は不可ですが受託の工程設計や新人参照に使えます。"
     }
   ]
 }
