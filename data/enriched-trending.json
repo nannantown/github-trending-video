@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-13",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
+    "method": "business-angle",
+    "description": "今日のTOP5を『受託・スタートアップで使うと月いくら浮き、どのSaaS課金を置き換え、どのライセンスで案件に投入できるか』の事業視点で統一。tinyhumansai/openhuman(ChatGPT Plus+Claude Pro+統合SaaSを1本に束ねるが、GPL-3.0で社内利用前提)→ rohitg00/agentmemory(Apache 2.0で受託にそのまま組み込み可、年10ドル運用でmem0クラウド代替)→ CloakHQ/CloakBrowser(Multilogin月100ドルを内製化、ただしバイナリ再配布不可で社内案件向け)→ apernet/hysteria(MITで規制国向け案件の商用VPN代を回避)→ mattpocock/skills(MITで外注コードレビュー代の社内置き換え)。直近2日連続禁則(05/10 comparison)を回避し、過去14日Method別TOP帯から本日選択可能なbusiness-angle(avg 7.0, n=3)を選定。曜日Wedは弱(04/29=7のみ)だが、戦略の『週最低1日は柱②か③』要件が05/04から9日空きで本日締切。Primaryペルソナ(技術投資判断するCTO/エンジニア)に『この5本、案件で月いくら浮くか』の意思決定軸で記憶に残す。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/financial-services",
-      "https://github.com/bytedance/UI-TARS-desktop",
+      "https://github.com/tinyhumansai/openhuman",
       "https://github.com/rohitg00/agentmemory",
-      "https://github.com/datawhalechina/hello-agents",
-      "https://github.com/datawhalechina/easy-vibe",
-      "https://docs.claude.com/en/api/managed-agents",
-      "https://github.com/mem0ai/mem0",
-      "https://github.com/letta-ai/letta"
+      "https://github.com/CloakHQ/CloakBrowser",
+      "https://github.com/apernet/hysteria",
+      "https://github.com/mattpocock/skills",
+      "https://www.multilogin.com/pricing/",
+      "https://docs.claude.com/en/docs/claude-code/overview",
+      "https://github.com/mem0ai/mem0"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/financial-services",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "language": "Python",
-      "stars": 17293,
-      "todayStars": 3077,
-      "description": "Anthropic公式の金融エージェント集",
-      "detail": "Anthropic公式が投資銀行や運用会社向けに11エージェントを束ねた業務パックです。Claude Managed AgentsとMCPコネクタ込みで、汎用skill集と違い業界知識ごと内製を置き換える基準点になります。Apache 2.0。",
-      "narration": "Anthropic公式の金融業務向け11エージェント集です。汎用skill集ではなく業界縦割りで内製を置き換えます。"
+      "fullName": "tinyhumansai/openhuman",
+      "name": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "language": "Rust",
+      "stars": 2586,
+      "todayStars": 1042,
+      "description": "1台で完結する個人AI秘書OSS",
+      "detail": "118の業務統合と永続メモリを持つRust製パーソナルAIです。ChatGPT PlusやClaude Proなど複数の有料サブスクをローカル1本に束ね、社内利用なら月1万円規模の置き換えになります。GPL-3.0。",
+      "narration": "118連携を1本に束ねるローカル秘書AIです。複数の月額サブスクを社内端末で内製化できます。"
     },
     {
       "rank": 2,
-      "fullName": "bytedance/UI-TARS-desktop",
-      "name": "UI-TARS-desktop",
-      "url": "https://github.com/bytedance/UI-TARS-desktop",
-      "language": "TypeScript",
-      "stars": 31353,
-      "todayStars": 549,
-      "description": "ローカル動作のGUI操作エージェント",
-      "detail": "ByteDance製のGUI操作エージェントです。Anthropic Computer UseやOpenAI Operatorがクラウド従量制なのに対し、UI-TARSモデルとセットでローカル実行できます。Apache 2.0。",
-      "narration": "ByteDance製のGUI操作エージェントです。クラウド前提のComputer Useと違いローカルで動かせます。"
-    },
-    {
-      "rank": 3,
       "fullName": "rohitg00/agentmemory",
       "name": "agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "language": "TypeScript",
-      "stars": 3387,
-      "todayStars": 518,
-      "description": "コーディングエージェント向けの記憶層",
-      "detail": "Cursor・Claude Code・Aiderなど12種以上のエージェントで動く記憶エンジンです。再現率95.2%でmem0の68.5%やLettaの83.2%を上回り、SQLite完結で外部vector DB不要。Apache 2.0。",
-      "narration": "コーディングエージェント向けの記憶エンジンです。再現率95.2%でmem0やLettaの精度を上回ります。"
+      "stars": 5753,
+      "todayStars": 1067,
+      "description": "受託に組み込めるAI記憶OSS",
+      "detail": "Claude CodeやCursorなど12種以上のエージェントで動く永続記憶エンジンです。SQLite完結で年10ドル運用と安く、Apache 2.0なので受託案件にそのまま組み込めて再現率も95%を超えます。",
+      "narration": "コーディングエージェント向け永続記憶OSSです。年10ドルで運用でき受託案件にも組み込めます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "CloakHQ/CloakBrowser",
+      "name": "CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "language": "Python",
+      "stars": 7721,
+      "todayStars": 1589,
+      "description": "アンチ検知ブラウザのOSS代替",
+      "detail": "Playwright互換のChromiumベース・アンチ検知ブラウザです。MultiloginやGoLogin月100ドルを1台で置き換え、reCAPTCHA v3で0.9点を獲得します。バイナリは再配布不可で社内案件向け。",
+      "narration": "Playwright互換のアンチ検知ブラウザです。月額数百ドルのMultiloginを社内サーバーで置き換えます。"
     },
     {
       "rank": 4,
-      "fullName": "datawhalechina/hello-agents",
-      "name": "hello-agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "language": "Python",
-      "stars": 45640,
-      "todayStars": 1162,
-      "description": "16章で体系化する自作エージェント教材",
-      "detail": "LangGraph・AutoGen・AgentScopeに加えMCP/A2A/ANPやSFT→GRPOまで扱う中国発の体系教材です。LangChain公式の機能別解説と異なり16章で全体像を俯瞰できます。CC BY-NC-SA。",
-      "narration": "ゼロから自作する中国発のエージェント教材です。LangChain公式の個別解説と異なり16章で体系化します。"
+      "fullName": "apernet/hysteria",
+      "name": "hysteria",
+      "url": "https://github.com/apernet/hysteria",
+      "language": "Go",
+      "stars": 20184,
+      "todayStars": 112,
+      "description": "規制国でも使えるOSSプロキシ",
+      "detail": "HTTP/3を装って通信を隠すMIT製プロキシです。中国・ロシアなど規制国向け案件で月8ドル課金の商用VPNを回避でき、損失率の高い回線でも安定通信でき、サードパーティ製アプリの生態系も豊富です。",
+      "narration": "HTTP/3に偽装するMITプロキシです。商用VPN代を払わずに規制国の業務通信を確保できます。"
     },
     {
       "rank": 5,
-      "fullName": "datawhalechina/easy-vibe",
-      "name": "easy-vibe",
-      "url": "https://github.com/datawhalechina/easy-vibe",
-      "language": "JavaScript",
-      "stars": 8489,
-      "todayStars": 294,
-      "description": "vibe coding時代の初学者向け教材",
-      "detail": "Cursor・Claude CodeやSupabase・Stripeまで触る初学者向けの実践教材です。構文中心の入門書と違い最初から作る成果物に振った学習順で多言語の動画チュートリアル付き。CC BY-NC-SA。",
-      "narration": "AI時代の初学者向けプログラミング教材です。構文中心の入門書と違い最初から成果物を作る順で学べます。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 75829,
+      "todayStars": 3886,
+      "description": "外注レビューを置き換える14技",
+      "detail": "Claude Code向けに架構レビューやTDDを担う14個のスキル集です。MITで受託にも投入でき、外注のコードレビュー月数千ドル分を社内のClaude Codeに置き換えられます。",
+      "narration": "Claude Codeに架構レビューを仕込む14スキル集です。外注レビュー代を社内エージェントで賄えます。"
     }
   ]
 }
