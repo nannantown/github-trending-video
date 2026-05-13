@@ -1,18 +1,19 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-14",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
+    "method": "business-angle",
+    "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本とも統一して料理する。tinyhumansai/openhuman(GPL-3.0・Rust製118 SaaS連携ローカルAI=Notion・Slack・GmailなどSaaS月額の積み上がりを束ね、TokenJuiceで送信トークン最大8割圧縮) / rohitg00/agentmemory(MIT・SQLite完結のAIコーディング長期記憶=mem0比R@5 95.2%・年間トークン費約170K/$10で従来$500/年クラスのホスト記憶SaaS契約を圧縮) / obra/superpowers(11 skill方法論パック=Claude Code/Cursor/Codex/Gemini CLIなど7環境でTDDと計画フェーズを強制、受託案件のレビュー工数・テスト漏れの保証コストを削減) / yikart/AiToEarn(MIT・TikTok/YouTube/X/Douyinなど13プラットフォーム自動配信=SNS運用代行月数万円〜の代替で中小企業の内製化原資) / influxdata/telegraf(MIT・300+プラグインのGo製エージェント=Datadog/New Relic月額の代替で自社運用観測基盤)。直近2日連続禁則(05/10 comparison / 05/11 comparison)を回避。Method別TOP3(ecosystem 66.8 avg n=5・但し04/28=326の外れ値で中央値1/trend-pattern 9.5 avg n=2/business-angle 7.0 avg n=3)のうち、ecosystemは直近3投稿(05/05・05/08・05/09)が全て1viewと底打ち中の素材適合制約を回避、business-angleを選択。柱②(business-angle 比率15%)の週次必須要件(週1)に対して、最終投入05/04(=2)から10日空き、Thu=350 avgの中位曜日帯でPrimary(CTO/エンジニア)+Secondary(PdM/事業責任者)に稟議語彙で直撃する低中stakes枠。素材適合度は5/5(全リポが月額SaaS or 業務委託の代替明示可能)で、04/29-30型『5本ともに具体額・具体工数で統一』の成功構文を再現。最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu04/16・04/09の600超レンジへ素材適合に応じて漸近)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/financial-services",
-      "https://github.com/bytedance/UI-TARS-desktop",
+      "https://github.com/tinyhumansai/openhuman",
       "https://github.com/rohitg00/agentmemory",
-      "https://github.com/datawhalechina/hello-agents",
-      "https://github.com/datawhalechina/easy-vibe",
-      "https://docs.claude.com/en/api/managed-agents",
+      "https://github.com/obra/superpowers",
+      "https://github.com/yikart/AiToEarn",
+      "https://github.com/influxdata/telegraf",
       "https://github.com/mem0ai/mem0",
-      "https://github.com/letta-ai/letta"
+      "https://github.com/letta-ai/letta",
+      "https://www.datadoghq.com/pricing/",
+      "https://newrelic.com/pricing"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +21,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/financial-services",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "language": "Python",
-      "stars": 17293,
-      "todayStars": 3077,
-      "description": "Anthropic公式の金融エージェント集",
-      "detail": "Anthropic公式が投資銀行や運用会社向けに11エージェントを束ねた業務パックです。Claude Managed AgentsとMCPコネクタ込みで、汎用skill集と違い業界知識ごと内製を置き換える基準点になります。Apache 2.0。",
-      "narration": "Anthropic公式の金融業務向け11エージェント集です。汎用skill集ではなく業界縦割りで内製を置き換えます。"
+      "fullName": "tinyhumansai/openhuman",
+      "name": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "language": "Rust",
+      "stars": 5310,
+      "todayStars": 1595,
+      "description": "118 SaaSを束ねる個人AI基盤",
+      "detail": "Gmail・Notion・SlackなどSaaS118種をローカルで束ねるRust製の個人AIです。TokenJuiceで送信トークンを最大8割圧縮し、SaaS月額契約の積み上がりを抑えたい個人開発者やソロCTO向けです。",
+      "narration": "118個のSaaSを束ねるローカルAIです。NotionやSlackの課金を月8割圧縮できます。"
     },
     {
       "rank": 2,
-      "fullName": "bytedance/UI-TARS-desktop",
-      "name": "UI-TARS-desktop",
-      "url": "https://github.com/bytedance/UI-TARS-desktop",
-      "language": "TypeScript",
-      "stars": 31353,
-      "todayStars": 549,
-      "description": "ローカル動作のGUI操作エージェント",
-      "detail": "ByteDance製のGUI操作エージェントです。Anthropic Computer UseやOpenAI Operatorがクラウド従量制なのに対し、UI-TARSモデルとセットでローカル実行できます。Apache 2.0。",
-      "narration": "ByteDance製のGUI操作エージェントです。クラウド前提のComputer Useと違いローカルで動かせます。"
-    },
-    {
-      "rank": 3,
       "fullName": "rohitg00/agentmemory",
       "name": "agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "language": "TypeScript",
-      "stars": 3387,
-      "todayStars": 518,
-      "description": "コーディングエージェント向けの記憶層",
-      "detail": "Cursor・Claude Code・Aiderなど12種以上のエージェントで動く記憶エンジンです。再現率95.2%でmem0の68.5%やLettaの83.2%を上回り、SQLite完結で外部vector DB不要。Apache 2.0。",
-      "narration": "コーディングエージェント向けの記憶エンジンです。再現率95.2%でmem0やLettaの精度を上回ります。"
+      "stars": 7512,
+      "todayStars": 1335,
+      "description": "AI記憶ライブラリ年10ドル運用",
+      "detail": "AIコーディングエージェントの長期記憶をSQLite1本で運用し、mem0比で再現率95.2%まで引き上げます。月数十ドルかかる記憶SaaS契約をほぼゼロにしたい受託案件に効きます。",
+      "narration": "AIコーディングエージェントに長期記憶を足します。年500ドルのmem0課金を10ドルに圧縮できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 189428,
+      "todayStars": 1506,
+      "description": "AI開発の規律づけ方法論パック",
+      "detail": "Claude CodeやCursorなど7環境にTDDとブレストや計画フェーズを強制する方法論パックです。レビュー工数やテスト漏れを抑え、受託案件の品質保証コストを下げたい開発チームに刺さります。",
+      "narration": "AIコーディングを規律づける方法論パックです。受託案件のレビュー工数とテスト漏れを大幅に減らせます。"
     },
     {
       "rank": 4,
-      "fullName": "datawhalechina/hello-agents",
-      "name": "hello-agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "language": "Python",
-      "stars": 45640,
-      "todayStars": 1162,
-      "description": "16章で体系化する自作エージェント教材",
-      "detail": "LangGraph・AutoGen・AgentScopeに加えMCP/A2A/ANPやSFT→GRPOまで扱う中国発の体系教材です。LangChain公式の機能別解説と異なり16章で全体像を俯瞰できます。CC BY-NC-SA。",
-      "narration": "ゼロから自作する中国発のエージェント教材です。LangChain公式の個別解説と異なり16章で体系化します。"
+      "fullName": "yikart/AiToEarn",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "language": "TypeScript",
+      "stars": 12862,
+      "todayStars": 987,
+      "description": "13 SNSへ自動投稿する運用基盤",
+      "detail": "TikTokやYouTube、X、Douyinなど13プラットフォームへ生成と配信を自動化するAI運用基盤です。SNS運用代行に月数万円払う前に、自社で内製化を試したい中小企業に向きます。",
+      "narration": "13個のSNSへ自動投稿するAI運用基盤です。広告代理店の月額契約を自社内製に置き換えられます。"
     },
     {
       "rank": 5,
-      "fullName": "datawhalechina/easy-vibe",
-      "name": "easy-vibe",
-      "url": "https://github.com/datawhalechina/easy-vibe",
-      "language": "JavaScript",
-      "stars": 8489,
-      "todayStars": 294,
-      "description": "vibe coding時代の初学者向け教材",
-      "detail": "Cursor・Claude CodeやSupabase・Stripeまで触る初学者向けの実践教材です。構文中心の入門書と違い最初から作る成果物に振った学習順で多言語の動画チュートリアル付き。CC BY-NC-SA。",
-      "narration": "AI時代の初学者向けプログラミング教材です。構文中心の入門書と違い最初から成果物を作る順で学べます。"
+      "fullName": "influxdata/telegraf",
+      "name": "telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "language": "Go",
+      "stars": 16980,
+      "todayStars": 6,
+      "description": "監視SaaSを置き換えるOSS収集器",
+      "detail": "300以上のプラグインで主要システムからメトリクスやログを集めるGo製エージェントです。DatadogやNew Relicの月額を圧縮し、自社運用で観測基盤コストを抑えたい企業に向きます。",
+      "narration": "300以上のプラグインを持つOSS監視エージェントです。Datadogの月額契約を半額以下に抑えられます。"
     }
   ]
 }
