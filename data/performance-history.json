@@ -1077,7 +1077,7 @@
         "views": 12,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.897Z"
       }
     },
     {
@@ -1132,7 +1132,7 @@
         "views": 5,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1184,7 +1184,7 @@
         "views": 13,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
+        "updatedAt": "2026-05-14T23:43:17.898Z"
       }
     },
     {
@@ -1682,20 +1682,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-14T23:43:17.898Z"
+      }
+    },
+    {
+      "videoId": "gGuGtbRqCGQ",
+      "videoUrl": "https://youtube.com/shorts/gGuGtbRqCGQ",
+      "date": "2026-05-15",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/15 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "TypeScript",
+        "Go"
+      ],
+      "languages": [
+        "Rust",
+        "TypeScript",
+        "Shell",
+        "Go"
+      ],
+      "projects": [
+        "tinyhumansai/openhuman",
+        "rohitg00/agentmemory",
+        "obra/superpowers",
+        "yikart/AiToEarn",
+        "influxdata/telegraf"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本とも統一して料理する。tinyhumansai/openhuman(GPL-3.0・Rust製118 SaaS連携ローカルAI=Notion・Slack・GmailなどSaaS月額の積み上がりを束ね、TokenJuiceで送信トークン最大8割圧縮) / rohitg00/agentmemory(MIT・SQLite完結のAIコーディング長期記憶=mem0比R@5 95.2%・年間トークン費約170K/$10で従来$500/年クラスのホスト記憶SaaS契約を圧縮) / obra/superpowers(11 skill方法論パック=Claude Code/Cursor/Codex/Gemini CLIなど7環境でTDDと計画フェーズを強制、受託案件のレビュー工数・テスト漏れの保証コストを削減) / yikart/AiToEarn(MIT・TikTok/YouTube/X/Douyinなど13プラットフォーム自動配信=SNS運用代行月数万円〜の代替で中小企業の内製化原資) / influxdata/telegraf(MIT・300+プラグインのGo製エージェント=Datadog/New Relic月額の代替で自社運用観測基盤)。直近2日連続禁則(05/10 comparison / 05/11 comparison)を回避。Method別TOP3(ecosystem 66.8 avg n=5・但し04/28=326の外れ値で中央値1/trend-pattern 9.5 avg n=2/business-angle 7.0 avg n=3)のうち、ecosystemは直近3投稿(05/05・05/08・05/09)が全て1viewと底打ち中の素材適合制約を回避、business-angleを選択。柱②(business-angle 比率15%)の週次必須要件(週1)に対して、最終投入05/04(=2)から10日空き、Thu=350 avgの中位曜日帯でPrimary(CTO/エンジニア)+Secondary(PdM/事業責任者)に稟議語彙で直撃する低中stakes枠。素材適合度は5/5(全リポが月額SaaS or 業務委託の代替明示可能)で、04/29-30型『5本ともに具体額・具体工数で統一』の成功構文を再現。最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu04/16・04/09の600超レンジへ素材適合に応じて漸近)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/rohitg00/agentmemory",
+          "https://github.com/obra/superpowers",
+          "https://github.com/yikart/AiToEarn",
+          "https://github.com/influxdata/telegraf",
+          "https://github.com/mem0ai/mem0",
+          "https://github.com/letta-ai/letta",
+          "https://www.datadoghq.com/pricing/",
+          "https://newrelic.com/pricing"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-13",
-      "changes": [
-        "C++: 1.4x avg views → boost",
-        "Trending languages: C++ (1.4x)",
-        "Day performance: Thu=605, Sat=578, Wed=503, Tue=470, Fri=421, Mon=8, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-13",
       "changes": [
@@ -1987,6 +2037,19 @@
         "standard: 243 avg views (34 videos)",
         "Trending languages: Kotlin (1.6x), C++ (2.2x), Jupyter Notebook (1.6x)",
         "Day performance: Tue=540, Fri=495, Thu=281, Wed=267, Sat=124, Mon=82, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-14",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.5x avg views → drop",
+        "standard: 236 avg views (35 videos)",
+        "Trending languages: Kotlin (1.7x), C++ (2.2x), Jupyter Notebook (1.7x)",
+        "Day performance: Tue=540, Fri=495, Wed=267, Thu=234, Sat=124, Mon=82, Sun=7"
       ],
       "recommendedTemplate": "standard"
     }
