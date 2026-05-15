@@ -5,6 +5,9 @@ on:
     # 23:00 UTC = 08:00 JST
     - cron: "0 23 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - '.recovery-trigger'
 
 permissions:
   contents: write
