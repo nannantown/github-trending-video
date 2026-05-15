@@ -1132,7 +1132,7 @@
         "views": 5,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1184,7 +1184,7 @@
         "views": 13,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1508,10 +1508,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 4,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-14T23:43:17.898Z"
+        "updatedAt": "2026-05-15T23:42:08.329Z"
       }
     },
     {
@@ -1738,6 +1738,60 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-05-15T23:42:08.329Z"
+      }
+    },
+    {
+      "videoId": "OnJmfoIfz0c",
+      "videoUrl": "https://youtube.com/shorts/OnJmfoIfz0c",
+      "date": "2026-05-16",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/16 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Rust",
+        "Shell",
+        "Python"
+      ],
+      "projects": [
+        "tinyhumansai/openhuman",
+        "obra/superpowers",
+        "ruvnet/RuView",
+        "K-Dense-AI/scientific-agent-skills",
+        "mattpocock/skills"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『AIスキルパックが三派閥に分裂、各カテゴリで対抗馬が同時に伸びた週』という対抗OSS比較視点で5本横断に料理する。TOP5中3本がAIエージェント向けスキル集で哲学が全く異なる(obra/superpowers=11本厳格方法論派/TDD・計画・検証を強制 / K-Dense-AI/scientific-agent-skills=135本領域特化派/化学・生物・医学のドメイン専門スキル束、Claude専用から各エージェント標準へリブランド / mattpocock/skills=対話と整合重視の小型組み換え自由派/anti-prescriptive)、残り2本も既存解への対抗馬(tinyhumansai/openhuman=ChatGPT等クラウド型コパイロットvs118 SaaSを束ねるローカル個人AI・GPL-3.0・TokenJuice送信トークン80%圧縮 / ruvnet/RuView=カメラ前提監視vs WiFi電波非画像センシング・MIT・$8 ESP32と56サブキャリアCSIで17キーポイント抽出)。直近2日(05/15=trend-pattern commit / 05/14=business-angle)と method 衝突なし(comparison 最終投入05/11から5日空き)。14日窓Method TOP3(trend-pattern 9.50 avg n=2 / business-angle 4.20 avg n=5・但し05/14-15は同一データ連投事故で0,0除外実質3 entry / comparison 3.50 avg n=2)のうち、業界横断マクロ収束(trend-pattern)は前日commit済・業務費用視点(business-angle)は連続禁則のため、対抗OSS比較(comparison)を選定。素材適合度は5/5(全リポが特定の既存ソリューションへの明確な対抗OSS)で、3本がスキルパック競合・1本がパーソナルAI vs クラウドAI・1本が空間センシング新方式という稀な並びは comparison 角度の正本命。柱②比率15%の週次必須要件は05/14 business-angleで既達。05/14-15で発生した main 到達失敗による同一動画連投事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sat=155 avg 中位曜日帯、最低3 views (過去Sat下位帯超え)、理想30 views (Sat上位帯への漸近)、05/11(=5) comparison 連投2投稿目上振れ仮説の再検証も兼ねる。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/obra/superpowers",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/mattpocock/skills",
+          "https://docs.anthropic.com/en/docs/claude-code/skills",
+          "https://github.com/mem0ai/mem0"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -1746,14 +1800,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-13",
-      "changes": [
-        "Trending languages: C++ (1.5x)",
-        "Day performance: Thu=606, Sat=584, Wed=503, Tue=470, Fri=448, Mon=100, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-14",
       "changes": [
@@ -2050,6 +2096,19 @@
         "standard: 236 avg views (35 videos)",
         "Trending languages: Kotlin (1.7x), C++ (2.2x), Jupyter Notebook (1.7x)",
         "Day performance: Tue=540, Fri=495, Wed=267, Thu=234, Sat=124, Mon=82, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-15",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.5x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 229 avg views (36 videos)",
+        "Trending languages: Kotlin (1.7x), C++ (2.3x), Jupyter Notebook (1.7x)",
+        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=125, Mon=82, Sun=7"
       ],
       "recommendedTemplate": "standard"
     }
