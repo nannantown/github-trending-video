@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日のTOP5を『AIを手元と領域に戻す週』というマクロ読みで5本横断に紹介する。ruvnet/RuView(Rust/55,856★/+1,757・MIT・WiFi電波と$8〜$140のESP32だけで人の呼吸/姿勢/転倒を推定、カメラ前提の監視から非画像センシングへ流れが移る象徴) / tinyhumansai/openhuman(Rust/7,694★/+3,476・GPL-3.0・118SaaSをローカルで束ねる個人AI、クラウドAI依存を手元に取り戻す動き) / rohitg00/agentmemory(TypeScript/8,926★/+1,978・MIT・AIコーディングエージェントの長期記憶をSQLite1本で完結、ホスト型記憶SaaSからローカル回帰) / obra/superpowers(Shell/191,114★/+1,801・Claude Code/Cursorなど7環境にTDDと計画フェーズを強制する11スキルパック、野放しの自動化から規律ある自動化へ潮目が変わる) / K-Dense-AI/scientific-agent-skills(Python/21,749★/+637・MIT・化学/生物/医学など135本の研究向けスキル束、Claude専用から各エージェント標準へリブランドし汎用AIを領域特化に振り直す流れ)。直近2日(05/14 business-angle / 05/13 欠番)と method 衝突なし。14日窓 Method TOP3(trend-pattern 9.50 avg n=2 / comparison 3.50 avg n=2 / use-case 3.00 avg n=1)のうち、唯一連続禁則と素材適合制約を同時に満たす本格候補が trend-pattern。最終投入 05/07(=6) から 8 日空き、Fri=618 avg の強曜日帯で母数 n=2→3 拡大とともに 05/02(=13) の勝ち筋(『業務役割のOSS化』マクロ)再現の試行枠。柱② 比率15% の週次必須要件は 05/14 business-angle で既達。重複3本(openhuman/agentmemory/superpowers は 05/14 business-angle 角度のTOP5入り)は『費用・工数』語彙から『手元回帰・領域特化』語彙へ完全切替で連投ペナルティ条件外。素材適合度は5/5(全リポが『AIを汎用クラウドから手元・専門領域に戻す』に収束)で 05/02(=13) trend-pattern の勝ち筋(5本横断のマクロ読み収束)と同型。最低 15 views(過去 Fri 下位帯超え)、理想 600 views(Fri 上位帯 04/17=2,011 への漸近、素材適合上振れ条件)。",
+    "method": "comparison",
+    "description": "本日のTOP5を『AIスキルパックが三派閥に分裂、各カテゴリで対抗馬が同時に伸びた週』という対抗OSS比較視点で5本横断に料理する。TOP5中3本がAIエージェント向けスキル集で哲学が全く異なる(obra/superpowers=11本厳格方法論派/TDD・計画・検証を強制 / K-Dense-AI/scientific-agent-skills=135本領域特化派/化学・生物・医学のドメイン専門スキル束、Claude専用から各エージェント標準へリブランド / mattpocock/skills=対話と整合重視の小型組み換え自由派/anti-prescriptive)、残り2本も既存解への対抗馬(tinyhumansai/openhuman=ChatGPT等クラウド型コパイロットvs118 SaaSを束ねるローカル個人AI・GPL-3.0・TokenJuice送信トークン80%圧縮 / ruvnet/RuView=カメラ前提監視vs WiFi電波非画像センシング・MIT・$8 ESP32と56サブキャリアCSIで17キーポイント抽出)。直近2日(05/15=trend-pattern commit / 05/14=business-angle)と method 衝突なし(comparison 最終投入05/11から5日空き)。14日窓Method TOP3(trend-pattern 9.50 avg n=2 / business-angle 4.20 avg n=5・但し05/14-15は同一データ連投事故で0,0除外実質3 entry / comparison 3.50 avg n=2)のうち、業界横断マクロ収束(trend-pattern)は前日commit済・業務費用視点(business-angle)は連続禁則のため、対抗OSS比較(comparison)を選定。素材適合度は5/5(全リポが特定の既存ソリューションへの明確な対抗OSS)で、3本がスキルパック競合・1本がパーソナルAI vs クラウドAI・1本が空間センシング新方式という稀な並びは comparison 角度の正本命。柱②比率15%の週次必須要件は05/14 business-angleで既達。05/14-15で発生した main 到達失敗による同一動画連投事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sat=155 avg 中位曜日帯、最低3 views (過去Sat下位帯超え)、理想30 views (Sat上位帯への漸近)、05/11(=5) comparison 連投2投稿目上振れ仮説の再検証も兼ねる。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/ruvnet/RuView",
       "https://github.com/tinyhumansai/openhuman",
-      "https://github.com/rohitg00/agentmemory",
       "https://github.com/obra/superpowers",
+      "https://github.com/ruvnet/RuView",
       "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/anthropics/claude-code",
+      "https://github.com/mattpocock/skills",
+      "https://docs.anthropic.com/en/docs/claude-code/skills",
       "https://github.com/mem0ai/mem0"
     ],
     "query": "",
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 55856,
-      "todayStars": 1757,
-      "description": "WiFi電波で人と呼吸を検知するOSS",
-      "detail": "ESP32などの低価格センサーが拾うWiFi電波から人の姿勢や呼吸、転倒を推定するRust製の空間センシング基盤です。カメラを置けない医療や介護、工場の現場で、画像なしに人を見守りたいチームに向きます。",
-      "narration": "WiFiの電波だけで人の呼吸と転倒を見るRust製OSSです。カメラ前提の監視から非画像センシングへ流れが移ります。"
-    },
-    {
-      "rank": 2,
       "fullName": "tinyhumansai/openhuman",
       "name": "openhuman",
       "url": "https://github.com/tinyhumansai/openhuman",
       "language": "Rust",
-      "stars": 7694,
-      "todayStars": 3476,
-      "description": "個人AIをローカルで動かす基盤",
-      "detail": "Gmail・Notion・Slackなど118種のSaaSを手元で束ねるRust製の個人AIです。クラウドAIに任せていた処理を自分のマシンに戻したい個人開発者や、情報を外に出せない現場で広がっています。",
-      "narration": "個人で動かす超AI環境を作るRust製プロジェクトです。クラウドAI依存を手元に取り戻す動きが加速します。"
+      "stars": 8959,
+      "todayStars": 1272,
+      "description": "クラウドAIに対抗する個人型OSS",
+      "detail": "Gmail、Notion、Slackなど118種のSaaSをローカルで束ねるRust製の個人AIです。ChatGPTやNotion AIに任せていた個人作業を、自分のデータごと手元に取り戻したい開発者から支持を集めています。",
+      "narration": "118種のSaaSを束ねるローカルAIです。クラウド型コパイロットより手元のデータ統合で勝負します。"
     },
     {
-      "rank": 3,
-      "fullName": "rohitg00/agentmemory",
-      "name": "agentmemory",
-      "url": "https://github.com/rohitg00/agentmemory",
-      "language": "TypeScript",
-      "stars": 8926,
-      "todayStars": 1978,
-      "description": "AIエージェントの長期記憶OSS",
-      "detail": "AIコーディングエージェントの長期記憶をSQLiteだけで完結させるOSSです。ホスト型の記憶SaaSを置かずに、開発履歴や設計の文脈を自分のリポジトリに閉じ込めたい開発チームから支持を集めています。",
-      "narration": "AIエージェントの記憶をSQLite1本で持つOSSです。記憶SaaS依存からローカルに戻す動きが本格化します。"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "fullName": "obra/superpowers",
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 191114,
-      "todayStars": 1801,
-      "description": "エージェントを規律づける11スキル",
-      "detail": "Claude CodeやCursorなど7環境にTDDや計画フェーズの規律を載せる11スキルの方法論パックです。野放しのコード生成ではなく、AIエージェントを訓練された開発者として運用したいチームに広がっています。",
-      "narration": "AIに規律と方法論を与えるスキル集です。野放しの自動化から訓練された自動化へ潮目が変わっています。"
+      "stars": 192747,
+      "todayStars": 1646,
+      "description": "厳格派のAIスキル11本方法論パック",
+      "detail": "Claude CodeやCursorなど7環境に、TDDと計画フェーズの規律を載せる11スキルの方法論パックです。緩い指示書では制御し切れないAIコード生成を、厳格なフレームワークで統制したいチームに支持されています。",
+      "narration": "AIにTDDと計画を強制する11スキル集です。緩い指示書より厳格な方法論で開発を統制します。"
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "fullName": "ruvnet/RuView",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "language": "Rust",
+      "stars": 57423,
+      "todayStars": 1865,
+      "description": "カメラ不要のWiFi空間センサーOSS",
+      "detail": "8ドル級のESP32が拾うWiFi電波から、人の呼吸や姿勢、転倒を推定するRust製の空間センシング基盤です。カメラやウェアラブルが置けない医療・介護・産業の現場で、低コストかつプライバシーを保ったまま人を見守れます。",
+      "narration": "WiFi電波だけで呼吸や転倒を検知するOSSです。カメラやウェアラブルより安く広範囲を見張れます。"
+    },
+    {
+      "rank": 4,
       "fullName": "K-Dense-AI/scientific-agent-skills",
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "language": "Python",
-      "stars": 21749,
-      "todayStars": 637,
-      "description": "AI研究現場向け135スキル束",
-      "detail": "化学や生物学、医学など135本の研究向けスキルをAIエージェントに与えるオープン基盤です。Claude専用から各エージェント標準へリブランドし、汎用AIを領域特化に振り直す流れの象徴になっています。",
-      "narration": "研究現場向けに135本のスキルを束ねたOSSです。汎用AIから領域特化エージェントへ流れが切り替わります。"
+      "stars": 22405,
+      "todayStars": 643,
+      "description": "研究領域に特化した135本スキル束",
+      "detail": "化学や生物学、医学など135本の研究向けスキルをAIエージェントに授ける専門基盤です。汎用LLMの広く浅い知識では届かない実験プロトコルや解析タスクを、各分野のベテラン水準で代行させたい研究者に向きます。",
+      "narration": "研究分野に特化した135本のスキル束です。汎用エージェントより化学や医療の専門タスクで強みを出します。"
+    },
+    {
+      "rank": 5,
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 84842,
+      "todayStars": 3155,
+      "description": "対話派の小さく組み換えるスキル集",
+      "detail": "アライメントと小さなフィードバックループを重視した実務エンジニア向けのスキル集です。厳格な方法論を押し付けるパックより、開発者の手に馴染む小さく組み換え自由な道具を選びたい層に響いています。",
+      "narration": "小さく組み換え自由なスキル集が支持を集めます。厳格な方法論より対話と整合で勝負する流派です。"
     }
   ]
 }

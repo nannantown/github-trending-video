@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-15",
-  "basedOnVideos": 10,
+  "updatedAt": "2026-05-16",
+  "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
       "Mon": 97,
@@ -30,89 +30,90 @@
         "jcode/jcode",
         "mattpocock/skills"
       ],
-      "note": "Method 別平均 (05/01-05/14 N=10 / 04/28=326 ecosystem 外れ値は 14 日窓外): trend-pattern 9.50 avg n=2 (05/02=13・05/07=6) / comparison 3.50 avg n=2 (05/10=2・05/11=5、1 日空きで 2 投稿目が僅かに上振れ) / use-case 3.00 avg n=1 (05/03=3) / ecosystem 2.25 avg n=4 中央値 1.5 (05/01=5・05/05=1・05/08=1・05/09=2、底打ち 4 連続で外れ値依存セル確定) / business-angle 2.00 avg n=1 (05/04=2、05/14 待ち)。本日 05/15 (Fri=618 avg 第2強曜日) は直近 2 日連続禁則 (05/14 business-angle / 05/13 欠番) と ecosystem の素材適合制約 (中央値 1.5 で底打ち 4 連続) を回避し、Method TOP1 の trend-pattern を選定。柱② 比率 15% の週次必須要件 (最終投入 05/14 で既達) を満たすため本日 trend-pattern 投入は許容。今日の TOP5 は 5/5 が『AI を汎用クラウドから手元・領域に戻す』に収束する稀な素材適合 (05/02=13 trend-pattern の勝ち筋『業務役割の OSS 化』と同型) で、05/02 を Fri 帯で更新可能か初判定。最低 15 views、理想 600 views で評価。"
+      "note": "Method 別平均 (04/29-05/15 N=14 / 5/14-15 は同一データ連投事故で実質サンプル外): trend-pattern 9.50 avg n=2 (05/02=13・05/07=6) / business-angle 実力 7.00 avg n=3 (04/29=7・04/30=12・05/04=2、5/14-15=0,0 は連投事故除外) / comparison 3.50 avg n=2 (05/10=2・05/11=5、連投2投稿目上振れ仮説) / use-case 3.00 avg n=1 (05/03=3) / ecosystem 2.25 avg n=4 (05/01=5・05/05=1・05/08=1・05/09=2、底打ち4連続外れ値依存セル)。本日 05/16 (Sat=155 avg 中位曜日帯) は直近2日 (05/15=trend-pattern commit / 05/14=business-angle) と method 衝突なし、comparison は TOP3 method かつ最終投入 05/11 から 5 日空き、素材適合 5/5 (TOP5 中 3 本が AI スキルパック競合 + 2 本が既存解への対抗 OSS) の稀な並びで comparison を選定。柱② 比率 15% の週次必須要件は 05/14 business-angle で既達。05/14-15 で発生した main 到達失敗による同一動画連投事故への対策として PR 経由 squash merge + 着弾検証を必須実行。最低 3 views、理想 30 views (Sat 上位帯への漸近)、05/11(=5) comparison 連投 2 投稿目上振れ仮説の再検証も兼ねる。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は金曜 (Fri=618 avg 第2強曜日)。過去 Fri 上位帯 04/17=2,011 レンジは素材適合の上振れ条件、最低 15 views (過去 Fri 下位帯超え)、理想 600 views (Fri 上位帯への漸近)",
-      "新規 5 本構成 (RuView は完全初登場、scientific-agent-skills も完全初登場、openhuman/agentmemory/superpowers は 05/14 business-angle 角度の TOP5 から角度切替して再登場)"
+      "本日は土曜 (Sat=155 avg 中位曜日帯)。Sat 上位帯への漸近を狙うなら素材適合の上振れが必要、最低 3 views (過去 Sat 下位帯超え)、理想 30 views",
+      "新規 2 本構成: mattpocock/skills は完全初登場、openhuman/superpowers/RuView/scientific-agent-skills は 05/14-15 と前日 enriched から角度切替再登場"
     ],
     "hashtags": [
-      "Fri=618 avg 第2強曜日 + trend-pattern 角度のため、Primary ペルソナ (CTO/技術選定者) + Secondary (PdM/事業責任者) に『マクロ流れ・潮目・業界読み』語彙で直撃するタグを厚く: #AI主権 #ローカルAI #エッジAI #プライバシー #領域特化 #ベンダーロックイン回避 #内製化",
-      "trend-pattern 角度のため、5 本横断のマクロ読みを補強する業界タグを併記: #AIエージェント #長期記憶 #AgentSkills #スキルフレームワーク #非画像センシング #WiFiセンシング #科学研究AI #自律エージェント",
-      "業務ドメインタグ (主権回帰文脈): #SaaS脱却 #脱クラウド #オンプレ回帰 #データ主権 #GDPR #個人情報保護 #医療AI #介護AI",
-      "言語タグは Rust (2 本) / TypeScript (1 本) / Shell (1 本) / Python (1 本)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust (0.6x) は最小限に",
-      "ライセンス比較タグ: #MIT (4 本: RuView / agentmemory / superpowers想定 / scientific-agent-skills) #GPL3 (1 本: openhuman)。受託・スタートアップが商用適合性で並べて見られる構成",
-      "前日 05/14 business-angle の『月額○円削減』『年○ドル圧縮』『代替』『内製化』費用語彙からは距離を置き、本日は『流れが移る』『動きが加速』『潮目が変わる』『振り直す』のマクロシフト語彙へ完全切替",
-      "trend-pattern 角度では業界マクロを 5 本横断で 1 つの物語に編む。煽り (『〇〇は終わった』) は避け、業界俯瞰の中立的・観察的な語彙で Primary ペルソナの記憶に残す"
+      "Sat=155 avg 中位曜日帯 + comparison 角度のため、Primary ペルソナ (CTO/技術選定者) の比較検討文脈に直撃する『選び方・対抗馬・哲学の違い』語彙を厚く: #技術選定 #OSS比較 #対抗馬 #派閥 #哲学の違い #選択肢",
+      "comparison 角度のため、3 つのスキルパック比較を補強する業界タグ: #AgentSkills #ClaudeSkills #ClaudeCode #Cursor #Codex #GeminiCLI #AIエージェント #スキルフレームワーク #TDD #計画駆動",
+      "領域タグ (5 本のカテゴリ): #ローカルAI #個人AI #SaaS統合 #研究AI #医療AI #化学AI #WiFiセンシング #非画像センシング #ESP32 #空間認識",
+      "言語タグは Rust (2 本) / Shell (2 本) / Python (1 本)。Python (1.2x) を厚く、Rust (0.6x) は最小限に、Shell は基本通り",
+      "ライセンス比較タグ: #MIT (4 本: superpowers想定 / RuView / scientific-agent-skills / mattpocockskills想定) #GPL3 (1 本: openhuman)。受託・スタートアップが商用適合性で並べて見られる構成",
+      "前日 05/15 (trend-pattern commit) の『流れが移る・潮目が変わる・振り直す』マクロシフト語彙からは距離を置き、本日は『○○より△△で勝負』『○○に対抗する』『派閥が分かれる』の比較構文へ完全切替",
+      "comparison 角度では特定技術スタックの優劣ではなく『選び方の軸・現場との相性』で並べる。煽り (『〇〇は終わった』) と特定 OSS 持ち上げは戦略 NG パターン違反のため厳禁"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 269 文字、TTS +30% 読み上げで約 25 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避 (ルービュー、オープンヒューマン、エージェントメモリー、スーパーパワーズ、サイエンティフィックエージェントスキルズ)。固有名詞は原文英語のまま (WiFi, ESP32, Rust, SQLite, Claude Code, Cursor)",
-      "trend-pattern 角度の一貫性: 各 narration 後半で『流れが移ります』『動きが加速します』『動きが本格化します』『潮目が変わっています』『流れが切り替わります』のマクロシフトフレーズを必ず入れる 2 文構成 (フック 1 文 + 要点 1 文)",
-      "前日 05/14 business-angle の費用構文 (『○○円圧縮できます』『○○を半額以下に抑えられます』) からは距離を置き、本日は『○○から△△へ流れが移ります』『○○から△△へ潮目が変わっています』の業界マクロ構文へ完全切替",
-      "重複 3 本 (openhuman/agentmemory/superpowers) は 05/14 で同 narration が使われたため本日は完全に異なる切り口に。前日は『118 SaaS の月額圧縮』『年 $500→$10』『レビュー工数削減』の費用訴求、本日は『クラウド AI 依存を手元に取り戻す』『記憶 SaaS 依存からローカルに戻す』『野放しの自動化から訓練された自動化へ』の業界マクロ訴求で同リポでも別動画として成立させる",
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 242 文字、TTS +30% 読み上げで約 22 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避 (オープンヒューマン、スーパーパワーズ、ルービュー、サイエンティフィックエージェントスキルズ、スキルズ)。固有名詞は原文英語のまま (WiFi, ESP32, Rust, TDD, Claude Code, Cursor, ChatGPT)",
+      "comparison 角度の一貫性: 各 narration 後半で『○○より△△で勝負します』『○○より△△で強みを出します』『○○より△△で見張れます』『○○より△△で統制します』の比較構文を必ず入れる 2 文構成 (フック 1 文 + 比較要点 1 文)",
+      "前日 05/15 trend-pattern の業界マクロ構文 (『○○から△△へ流れが移ります』『○○へ動きが本格化します』) からは距離を置き、本日は『○○より△△で△△します』の対抗OSS比較構文へ完全切替",
+      "重複 4 本 (openhuman/superpowers/RuView/scientific-agent-skills は 05/15 trend-pattern 角度の TOP5 入り) は本日は完全に異なる切り口に。前日は『手元回帰・領域特化』マクロ語彙、本日は『対抗馬の選び方』比較語彙で同リポでも別動画として成立させる",
       "数値表現はアラビア数字統一 (118・135・11・7)。漢数字 (百三十五本など) は禁止"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (柱④ / exploit 枠 80%、Method TOP1 avg 9.50 / n=2、最終投入 05/07 から 8 日空き、直近 2 日連続禁則 (05/14 business-angle / 05/13 欠番) と ecosystem の素材適合制約 (中央値 1.5 で底打ち 4 連続 = 外れ値依存セル確定) を回避)。柱② 比率 15% の週次必須要件は 05/14 business-angle で既達のため本日 trend-pattern 投入は許容",
-      "今日の TOP5 は『AI を手元と領域に戻す週』というマクロ読みで 5 本横断統一: ruvnet/RuView (Rust / 55,856★ / +1,757・MIT・WiFi 電波と $8〜$140 の ESP32 だけで人の呼吸/姿勢/転倒を推定、カメラ前提の監視から非画像センシングへ流れが移る象徴) / tinyhumansai/openhuman (Rust / 7,694★ / +3,476・GPL-3.0・118 SaaS をローカルで束ねる個人 AI、クラウド AI 依存を手元に取り戻す動き) / rohitg00/agentmemory (TypeScript / 8,926★ / +1,978・MIT・AI コーディングエージェントの長期記憶を SQLite 1 本で完結、ホスト型記憶 SaaS からローカル回帰) / obra/superpowers (Shell / 191,114★ / +1,801・Claude Code/Cursor など 7 環境に TDD と計画フェーズを強制する 11 スキルパック、野放しの自動化から規律ある自動化へ潮目が変わる) / K-Dense-AI/scientific-agent-skills (Python / 21,749★ / +637・MIT・化学/生物/医学など 135 本の研究向けスキル束、Claude 専用から各エージェント標準へリブランドし汎用 AI を領域特化に振り直す流れ)",
-      "重複 3 本 (openhuman/agentmemory/superpowers が 05/14 business-angle 角度の TOP5 入り) は語彙を完全切替: 05/14『費用・工数』語彙 (118 SaaS の月額圧縮 / 年 $500→$10 / レビュー工数削減) → 本日『手元回帰・領域特化』語彙 (クラウド AI 依存を手元に取り戻す / 記憶 SaaS 依存からローカルに戻す / 野放しの自動化から訓練された自動化へ) で同 method × 同ラインナップ連投ペナルティを構造的に回避",
-      "5 本のライセンス内訳は MIT 4 本 (RuView / agentmemory / superpowers想定 / scientific-agent-skills) + GPL-3.0 1 本 (openhuman)。GPL-3.0 のみ受託案件で派生コード公開義務があるため detail/narration では license は触れず discovery.description で記録のみ",
-      "曜日 × method マトリクスでは trend-pattern × Fri セルが本日初投入で母数 0→1。これまでの trend-pattern 投稿は Sat (05/02=13) と Thu (05/07=6) で、Fri での性能は未計測。Fri=618 avg の第2強曜日帯のため、trend-pattern × Fri の真の avg を 1 サンプルで初判定する評価日も兼ねる",
-      "Fri=618 avg 帯のため、武器は『5 本横断で 5/5 が AI を汎用クラウドから手元・領域に戻す素材適合』。視聴者 (CTO/PdM) が『業界俯瞰のマクロ読み』として記憶に残せる構造。最低 15 views (過去 Fri 下位帯超え)、理想 600 views (Fri 上位帯への漸近 = 04/17=2,011 は素材適合上振れ条件)。9 views を下回ったら trend-pattern × Fri セルの素材適合度を 05/17 PDCA で再検討",
-      "本日の運用結果は 05/17 以降の PDCA で確定。trend-pattern の n=2→n=3 拡大で 05/02 (=13) ・05/07 (=6) と比較した分散測定が可能。同時に ecosystem の中央値底打ち (4 連続) が窓内から外れていく動きと、05/10-11 comparison 連投の 2 投稿目上振れ仮説 (05/10=2 → 05/11=5) の再検証材料を蓄積"
+      "本日の discovery.method は `comparison` (柱① / exploit 枠 80%、Method TOP3 avg 3.50 / n=2、最終投入 05/11 から 5 日空き、直近 2 日連続禁則 (05/15 trend-pattern commit / 05/14 business-angle) と素材適合制約を同時に満たす唯一の本格候補)。柱② 比率 15% の週次必須要件は 05/14 business-angle で既達のため本日 comparison 投入は許容",
+      "今日の TOP5 は『AI スキルパックは三派閥に分裂、各カテゴリで対抗馬が同時に伸びた週』という対抗 OSS 比較で 5 本横断統一: tinyhumansai/openhuman (Rust / 8,959★ / +1,272・GPL-3.0・118 SaaS をローカルで束ねる個人 AI = ChatGPT 等クラウド型コパイロットへの対抗馬、TokenJuice で送信トークン最大 80% 圧縮) / obra/superpowers (Shell / 192,747★ / +1,646・Claude Code/Cursor など 7 環境に TDD と計画フェーズを強制する 11 スキル厳格方法論派) / ruvnet/RuView (Rust / 57,423★ / +1,865・MIT・$8 ESP32 と 56 サブキャリア CSI で 17 キーポイント抽出 = カメラ・mmWave への対抗馬の非画像センシング) / K-Dense-AI/scientific-agent-skills (Python / 22,405★ / +643・MIT・化学/生物/医学など 135 本の研究領域特化派、Claude 専用から各エージェント標準へリブランド) / mattpocock/skills (Shell / 84,842★ / +3,155・小型組み換え自由派、anti-prescriptive な対話と整合重視)",
+      "TOP5 中 3 本のスキルパック (superpowers / scientific-agent-skills / mattpocock-skills) は哲学が全く異なる三派閥として並べる: 厳格方法論派 (11 本 / TDD・計画・検証強制) vs 領域特化派 (135 本 / 化学・生物・医学のドメイン専門) vs 対話派 (小型・組み換え自由・anti-prescriptive)。Primary (CTO/技術選定者) の『どれが現場に合うか』比較検討文脈に直撃する",
+      "残り 2 本も既存解への対抗 OSS として comparison 角度に収まる: openhuman (クラウド型コパイロット vs ローカル個人 AI) / RuView (カメラ・mmWave 監視 vs WiFi 非画像センシング)。素材適合度 5/5",
+      "重複 4 本 (openhuman/superpowers/RuView/scientific-agent-skills) は 05/15 trend-pattern 角度から本日 comparison 角度へ語彙完全切替: 05/15『流れが移る・潮目が変わる』マクロ語彙 → 本日『○○より△△で勝負』対抗OSS比較語彙で同 method × 同ラインナップ連投ペナルティを構造的に回避",
+      "5 本のライセンス内訳: MIT 4 本想定 (superpowers / RuView / scientific-agent-skills / mattpocock-skills) + GPL-3.0 1 本 (openhuman)。GPL-3.0 のみ受託案件で派生コード公開義務があるため detail/narration では license は触れず discovery.description で記録のみ",
+      "曜日 × method マトリクスでは comparison × Sat セルが本日初投入で母数 0→1。これまでの comparison 投稿は Sun (05/10=2) と Mon (05/11=5)。Sat=155 avg の中位曜日帯のため、comparison × Sat の真の avg を 1 サンプルで初判定する評価日も兼ねる",
+      "5/14-15 の同一動画連投事故 (silent fail による main 未更新で 5/14 データが 5/15 でも再利用) への対策として、本日は PR 経由 squash merge + 着弾検証ステップを必須実行。失敗時は最終レポートに明記しユーザー手動介入を促す",
+      "本日の運用結果は 05/18 以降の PDCA で確定。comparison の n=2→n=3 拡大で 05/10 (=2)・05/11 (=5) と比較した分散測定が可能。同時に 05/10-11 連投 2 投稿目上振れ仮説 (05/10=2 → 05/11=5) の再検証材料を蓄積 (本日は 05/11 から 5 日空きの単発投入のため、純粋な comparison × 素材適合 5/5 の評価)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-15",
-    "dayOfWeek": "Fri",
+    "date": "2026-05-16",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "AI主権",
-      "ローカルAI",
-      "エッジAI",
-      "プライバシー",
-      "領域特化",
-      "ベンダーロックイン回避",
-      "内製化",
-      "SaaS脱却",
-      "脱クラウド",
-      "オンプレ回帰",
-      "データ主権",
-      "AIエージェント",
-      "長期記憶",
+      "OSS比較",
+      "技術選定",
+      "対抗馬",
+      "派閥",
+      "哲学の違い",
       "AgentSkills",
+      "ClaudeSkills",
       "ClaudeCode",
       "Cursor",
       "Codex",
       "GeminiCLI",
+      "AIエージェント",
+      "スキルフレームワーク",
+      "TDD",
+      "計画駆動",
+      "ローカルAI",
+      "個人AI",
+      "SaaS統合",
+      "研究AI",
+      "医療AI",
+      "化学AI",
       "WiFiセンシング",
       "非画像センシング",
       "ESP32",
-      "科学研究AI",
-      "医療AI",
-      "介護AI",
-      "GDPR",
-      "個人情報保護",
+      "空間認識",
       "MIT",
       "GPL3",
       "Rust",
       "TypeScript",
       "Python",
       "Shell",
-      "OSS活用",
-      "実案件で使えるOSS",
       "スタートアップ",
       "個人開発",
       "CTO",
-      "PdM"
+      "PdM",
+      "受託開発",
+      "内製化"
     ],
-    "focus": "金曜 (Fri=618 avg 第2強曜日) に `trend-pattern` 角度 (柱④ / exploit 枠 80%、Method TOP1 avg 9.50 / n=2、最終投入 05/07 から 8 日空き) を投入。直近 2 日連続禁則 (05/14 business-angle / 05/13 欠番) と ecosystem の中央値 1.5 底打ち 4 連続 (外れ値依存セル確定) を回避。柱② 比率 15% は 05/14 で既達のため本日 trend-pattern 投入は許容。今日の TOP5 (ruvnet/RuView WiFi 電波で非画像センシング / tinyhumansai/openhuman 個人 AI をローカルに / rohitg00/agentmemory 記憶 SaaS をローカルに / obra/superpowers 野放しの自動化から規律ある自動化へ / K-Dense-AI/scientific-agent-skills 汎用 AI を領域特化に) は 5/5 が『AI を汎用クラウドから手元・領域に戻す』に収束する稀な素材適合 (05/02=13 trend-pattern の勝ち筋『業務役割の OSS 化』と同型) で、05/02 を Fri 帯で更新可能か初判定。重複 3 本 (openhuman/agentmemory/superpowers) は 05/14 business-angle 角度から本日 trend-pattern 角度へ語彙完全切替で連投ペナルティ条件外。最低 15 views (過去 Fri 下位帯超え)、理想 600 views (Fri 上位帯 04/17=2,011 への漸近、素材適合上振れ条件)。Method × 曜日マトリクスでは trend-pattern × Fri セルが本日初投入で母数 0→1、05/17 PDCA で真の avg を初判定。"
+    "focus": "土曜 (Sat=155 avg 中位曜日帯) に `comparison` 角度 (柱① / exploit 枠 80%、Method TOP3 avg 3.50 / n=2、最終投入 05/11 から 5 日空き) を投入。直近 2 日 (05/15 trend-pattern commit / 05/14 business-angle) と method 衝突なし。柱② 比率 15% は 05/14 で既達のため本日 comparison 投入は許容。今日の TOP5 (tinyhumansai/openhuman ChatGPT 等クラウド型コパイロット vs ローカル個人 AI / obra/superpowers 11 本厳格方法論派 / ruvnet/RuView カメラ vs WiFi 非画像センシング / K-Dense-AI/scientific-agent-skills 135 本領域特化派 / mattpocock/skills 対話と整合重視の小型組み換え自由派) は 5/5 が『特定の既存ソリューションへの対抗 OSS』に収束する稀な素材適合で、3 本のスキルパック (厳格・領域特化・対話派) を哲学比較として並べられる comparison 角度の正本命。重複 4 本 (openhuman/superpowers/RuView/scientific-agent-skills) は 05/15 trend-pattern 角度から本日 comparison 角度へ語彙完全切替で連投ペナルティ条件外。最低 3 views (過去 Sat 下位帯超え)、理想 30 views (Sat 上位帯への漸近)、05/11(=5) comparison 連投 2 投稿目上振れ仮説の再検証も兼ねる。Method × 曜日マトリクスでは comparison × Sat セルが本日初投入で母数 0→1、05/18 PDCA で真の avg を初判定。5/14-15 で発生した main 到達失敗による同一動画連投事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
