@@ -1184,7 +1184,7 @@
         "views": 13,
         "likes": 3,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 4,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1738,10 +1738,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
+        "updatedAt": "2026-05-16T23:38:37.015Z"
       }
     },
     {
@@ -1795,18 +1795,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-16T23:38:37.015Z"
+      }
+    },
+    {
+      "videoId": "EJrzs9vKMxg",
+      "videoUrl": "https://youtube.com/shorts/EJrzs9vKMxg",
+      "date": "2026-05-17",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/17 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Swift"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "Shell",
+        "JavaScript",
+        "Swift"
+      ],
+      "projects": [
+        "oven-sh/bun",
+        "K-Dense-AI/scientific-agent-skills",
+        "obra/superpowers",
+        "Anil-matcha/Open-Generative-AI",
+        "supertone-inc/supertonic"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日の TOP5 を『2026 年 5 月、開発ツール/AI エコシステムが「単機能 1 ツール」から「オールインワン or モジュラー集合体」へ収束しつつある』というマクロ視点で 5 本横断に料理する。#1 oven-sh/bun は JS のランタイム・バンドラ・テスト・パッケージ管理を 1 本に束ねるオールインワン化、#2 K-Dense-AI/scientific-agent-skills は 135 本の研究領域 Skill を一括パック化、#3 obra/superpowers は開発方法論を Skill 群として強制注入、#4 Anil-matcha/Open-Generative-AI は画像動画 AI モデル 200 種を 1 画面に集約、#5 supertone-inc/supertonic は 99M パラメータの軽量 TTS でクラウド依存から端末完結への揺り戻し、と全 5 本が「1 機能 1 ツール時代の終わり」を別カテゴリで体現。直近 2 日 (05/16=comparison / 05/15=business-angle 由来動画) と method 衝突なし、trend-pattern は 14 日窓 TOP method (avg 6.00 / 05/07=6 が最終投入から 10 日空き)、素材適合度 5/5 で本日の trend-pattern 投入は本命。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sun=8 avg 最下位曜日帯、最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近) を目標値とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/oven-sh/bun",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/obra/superpowers",
+          "https://github.com/Anil-matcha/Open-Generative-AI",
+          "https://github.com/supertone-inc/supertonic",
+          "https://agentskills.io",
+          "https://docs.anthropic.com/en/docs/claude-code/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-14",
-      "changes": [
-        "Day performance: Tue=797, Thu=609, Sat=588, Wed=504, Fri=450, Mon=116, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-15",
       "changes": [
@@ -2109,6 +2159,19 @@
         "standard: 229 avg views (36 videos)",
         "Trending languages: Kotlin (1.7x), C++ (2.3x), Jupyter Notebook (1.7x)",
         "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=125, Mon=82, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-16",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.5x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 223 avg views (37 videos)",
+        "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.7x)",
+        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=7"
       ],
       "recommendedTemplate": "standard"
     }
