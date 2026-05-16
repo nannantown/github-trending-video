@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-16",
+  "date": "2026-05-17",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『AIスキルパックが三派閥に分裂、各カテゴリで対抗馬が同時に伸びた週』という対抗OSS比較視点で5本横断に料理する。TOP5中3本がAIエージェント向けスキル集で哲学が全く異なる(obra/superpowers=11本厳格方法論派/TDD・計画・検証を強制 / K-Dense-AI/scientific-agent-skills=135本領域特化派/化学・生物・医学のドメイン専門スキル束、Claude専用から各エージェント標準へリブランド / mattpocock/skills=対話と整合重視の小型組み換え自由派/anti-prescriptive)、残り2本も既存解への対抗馬(tinyhumansai/openhuman=ChatGPT等クラウド型コパイロットvs118 SaaSを束ねるローカル個人AI・GPL-3.0・TokenJuice送信トークン80%圧縮 / ruvnet/RuView=カメラ前提監視vs WiFi電波非画像センシング・MIT・$8 ESP32と56サブキャリアCSIで17キーポイント抽出)。直近2日(05/15=trend-pattern commit / 05/14=business-angle)と method 衝突なし(comparison 最終投入05/11から5日空き)。14日窓Method TOP3(trend-pattern 9.50 avg n=2 / business-angle 4.20 avg n=5・但し05/14-15は同一データ連投事故で0,0除外実質3 entry / comparison 3.50 avg n=2)のうち、業界横断マクロ収束(trend-pattern)は前日commit済・業務費用視点(business-angle)は連続禁則のため、対抗OSS比較(comparison)を選定。素材適合度は5/5(全リポが特定の既存ソリューションへの明確な対抗OSS)で、3本がスキルパック競合・1本がパーソナルAI vs クラウドAI・1本が空間センシング新方式という稀な並びは comparison 角度の正本命。柱②比率15%の週次必須要件は05/14 business-angleで既達。05/14-15で発生した main 到達失敗による同一動画連投事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sat=155 avg 中位曜日帯、最低3 views (過去Sat下位帯超え)、理想30 views (Sat上位帯への漸近)、05/11(=5) comparison 連投2投稿目上振れ仮説の再検証も兼ねる。",
+    "method": "trend-pattern",
+    "description": "本日の TOP5 を『2026 年 5 月、開発ツール/AI エコシステムが「単機能 1 ツール」から「オールインワン or モジュラー集合体」へ収束しつつある』というマクロ視点で 5 本横断に料理する。#1 oven-sh/bun は JS のランタイム・バンドラ・テスト・パッケージ管理を 1 本に束ねるオールインワン化、#2 K-Dense-AI/scientific-agent-skills は 135 本の研究領域 Skill を一括パック化、#3 obra/superpowers は開発方法論を Skill 群として強制注入、#4 Anil-matcha/Open-Generative-AI は画像動画 AI モデル 200 種を 1 画面に集約、#5 supertone-inc/supertonic は 99M パラメータの軽量 TTS でクラウド依存から端末完結への揺り戻し、と全 5 本が「1 機能 1 ツール時代の終わり」を別カテゴリで体現。直近 2 日 (05/16=comparison / 05/15=business-angle 由来動画) と method 衝突なし、trend-pattern は 14 日窓 TOP method (avg 6.00 / 05/07=6 が最終投入から 10 日空き)、素材適合度 5/5 で本日の trend-pattern 投入は本命。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sun=8 avg 最下位曜日帯、最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近) を目標値とする。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/tinyhumansai/openhuman",
-      "https://github.com/obra/superpowers",
-      "https://github.com/ruvnet/RuView",
+      "https://github.com/oven-sh/bun",
       "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/mattpocock/skills",
-      "https://docs.anthropic.com/en/docs/claude-code/skills",
-      "https://github.com/mem0ai/mem0"
+      "https://github.com/obra/superpowers",
+      "https://github.com/Anil-matcha/Open-Generative-AI",
+      "https://github.com/supertone-inc/supertonic",
+      "https://agentskills.io",
+      "https://docs.anthropic.com/en/docs/claude-code/skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "tinyhumansai/openhuman",
-      "name": "openhuman",
-      "url": "https://github.com/tinyhumansai/openhuman",
+      "fullName": "oven-sh/bun",
+      "name": "bun",
+      "url": "https://github.com/oven-sh/bun",
       "language": "Rust",
-      "stars": 8959,
-      "todayStars": 1272,
-      "description": "クラウドAIに対抗する個人型OSS",
-      "detail": "Gmail、Notion、Slackなど118種のSaaSをローカルで束ねるRust製の個人AIです。ChatGPTやNotion AIに任せていた個人作業を、自分のデータごと手元に取り戻したい開発者から支持を集めています。",
-      "narration": "118種のSaaSを束ねるローカルAIです。クラウド型コパイロットより手元のデータ統合で勝負します。"
+      "stars": 91158,
+      "todayStars": 414,
+      "description": "JSツールチェーンを束ねる一本",
+      "detail": "ランタイム・バンドラ・テスト・パッケージ管理を 1 本の CLI にまとめる、Node.js 互換の高速ツールキット。v1.3 で起動速度と依存解決が大幅に短縮され、JS プロジェクト全体の所要時間を圧縮できます。",
+      "narration": "JavaScriptの4種ツールを束ねるランタイムです。Node.js互換で起動と依存解決が高速化します。"
     },
     {
       "rank": 2,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 192747,
-      "todayStars": 1646,
-      "description": "厳格派のAIスキル11本方法論パック",
-      "detail": "Claude CodeやCursorなど7環境に、TDDと計画フェーズの規律を載せる11スキルの方法論パックです。緩い指示書では制御し切れないAIコード生成を、厳格なフレームワークで統制したいチームに支持されています。",
-      "narration": "AIにTDDと計画を強制する11スキル集です。緩い指示書より厳格な方法論で開発を統制します。"
-    },
-    {
-      "rank": 3,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 57423,
-      "todayStars": 1865,
-      "description": "カメラ不要のWiFi空間センサーOSS",
-      "detail": "8ドル級のESP32が拾うWiFi電波から、人の呼吸や姿勢、転倒を推定するRust製の空間センシング基盤です。カメラやウェアラブルが置けない医療・介護・産業の現場で、低コストかつプライバシーを保ったまま人を見守れます。",
-      "narration": "WiFi電波だけで呼吸や転倒を検知するOSSです。カメラやウェアラブルより安く広範囲を見張れます。"
-    },
-    {
-      "rank": 4,
       "fullName": "K-Dense-AI/scientific-agent-skills",
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "language": "Python",
-      "stars": 22405,
-      "todayStars": 643,
-      "description": "研究領域に特化した135本スキル束",
-      "detail": "化学や生物学、医学など135本の研究向けスキルをAIエージェントに授ける専門基盤です。汎用LLMの広く浅い知識では届かない実験プロトコルや解析タスクを、各分野のベテラン水準で代行させたい研究者に向きます。",
-      "narration": "研究分野に特化した135本のスキル束です。汎用エージェントより化学や医療の専門タスクで強みを出します。"
+      "stars": 23094,
+      "todayStars": 669,
+      "description": "科学研究AIに135の専門スキル",
+      "detail": "K-Dense Inc が整備した 135 本の科学 Skill パック。ゲノム解析・分子ドッキング・臨床試験・材料科学まで、研究現場のワークフローを AI エージェントへ即座に拡張でき、Skills 標準準拠で複数エージェントに対応します。",
+      "narration": "AIエージェントに研究領域の専門スキルを一括追加できるパックです。ゲノム解析から創薬まで135本を網羅します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 193945,
+      "todayStars": 1281,
+      "description": "コーディングAIに開発作法を仕込む",
+      "detail": "Jesse Vincent 氏が主導する開発方法論をエージェントへ強制注入するフレームワーク。TDD・設計レビュー・体系的デバッグなどを Skill として組み込み、Claude Code・Codex・Cursor など主要エージェントで共通利用できます。",
+      "narration": "コーディングAIにTDDなどの開発作法を強制するSkillフレームワークです。CodexやCursorからも使えます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Anil-matcha/Open-Generative-AI",
+      "name": "Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "language": "JavaScript",
+      "stars": 14388,
+      "todayStars": 393,
+      "description": "画像動画AIモデル200種を集約",
+      "detail": "Flux・Veo3・Sora・Kling・Wan2.2 など画像と動画の生成モデル 200 種類を 1 つの UI から呼び出せる Studio。Web と Electron で自前ホストでき、Muapi.ai API キーで従量課金、サブスク不要で運用できます。",
+      "narration": "VeoやFluxなど画像動画AIモデル200種を1画面で切替えできるStudioです。MITで自前ホストも可能です。"
     },
     {
       "rank": 5,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 84842,
-      "todayStars": 3155,
-      "description": "対話派の小さく組み換えるスキル集",
-      "detail": "アライメントと小さなフィードバックループを重視した実務エンジニア向けのスキル集です。厳格な方法論を押し付けるパックより、開発者の手に馴染む小さく組み換え自由な道具を選びたい層に響いています。",
-      "narration": "小さく組み換え自由なスキル集が支持を集めます。厳格な方法論より対話と整合で勝負する流派です。"
+      "fullName": "supertone-inc/supertonic",
+      "name": "supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "language": "Swift",
+      "stars": 6803,
+      "todayStars": 745,
+      "description": "端末完結の99M超軽量多言語TTS",
+      "detail": "Supertone Inc が ONNX で提供する 99M パラメータの超軽量 TTS。31 言語に対応し、Raspberry Pi でも RTF 0.3 を実現。iOS・Android・WebGPU・Node.js・Rust 対応で、端末内に音声合成を組み込めます。",
+      "narration": "31言語をRaspberry Piでも動かせる端末完結のTTSです。クラウド非依存で音声合成を組み込めます。"
     }
   ]
 }
