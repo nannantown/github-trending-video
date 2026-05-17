@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-05-17",
-  "basedOnVideos": 11,
+  "updatedAt": "2026-05-18",
+  "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
-      "Mon": 97,
-      "Tue": 720,
-      "Wed": 267,
-      "Thu": 350,
-      "Fri": 618,
-      "Sat": 155,
-      "Sun": 8
+      "Mon": 57,
+      "Tue": 563,
+      "Wed": 188,
+      "Thu": 159,
+      "Fri": 405,
+      "Sat": 6,
+      "Sun": 7
     },
     "topPerformingLanguages": [
       { "language": "Python", "multiplier": 1.2 },
@@ -21,93 +21,86 @@
       { "language": "Rust", "multiplier": 0.6 }
     ],
     "topPerformingVideo": {
-      "date": "2026-05-07",
-      "views": 6,
+      "date": "2026-05-02",
+      "views": 13,
       "projects": [],
-      "note": "Method 別平均 (14日窓 05/03-05/16 / 05/14-15 は silent fail 連投事故で実質サンプル外・05/16 は updatedAt 未反映で 0 扱い): trend-pattern 6.00 avg n=1 (05/07=6) / use-case 3.00 avg n=1 (05/03=3) / comparison 実質 3.50 avg n=2 (05/10=2・05/11=5、05/16=0 は実測未反映) / ecosystem 2.00 avg n=3 (05/05=1・05/08=1・05/09=4) / business-angle 実質 2.00 avg n=1 (05/04=2、05/14-15 は連投事故除外) / tech-deep 未投入 / self-experiment 未投入。本日 05/17 (Sun=8 avg 最下位曜日帯) は直近 2 日 (05/16=comparison / 05/15=business-angle 由来動画) と method 衝突なし、trend-pattern は 14 日窓 TOP method かつ最終投入 05/07 から 10 日空き、素材適合 5/5 (TOP5 全 5 本が「1 機能 1 ツール → モジュラー集合体 or オールインワン」の同一マクロ収束を体現) の稀な並びで trend-pattern を選定。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近) を目標。"
+      "note": "Method 別平均 (14 日窓 05/01-05/17 / 05/14-16 は silent fail 連投事故影響あり、参考扱い): trend-pattern 6.33 avg n=3 (05/02=13・05/07=6・05/17=0) / use-case 3.00 avg n=1 (05/03=3) / ecosystem 2.75 avg n=4 (05/01=5・05/05=1・05/08=1・05/09=4) / comparison 2.33 avg n=3 (05/10=2・05/11=5・05/16=0) / business-angle 2.00 avg n=3 (05/04=2・05/14=0・05/15=4) / tech-deep 14 日窓では未投入 (全期間で 04/24=5・04/25=7、avg 6.00) / self-experiment 未投入。本日 05/18 (Mon=57 avg 中位帯) は直近 2 日 (05/17=trend-pattern / 05/16=comparison) と method 衝突を避ける必要があり、全期間 TOP 3 method の tech-deep が直近 14 日窓未投入かつ最終投入 04/25 から 23 日空きで素材適合 5/5 (TOP5 全 5 本に明確な技術的独自点が 1 つ以上存在) のため tech-deep を選定。柱② 比率 15% の週次必須要件は 05/22-24 で business-angle または self-experiment 投入を予定。月曜 = Primary ペルソナ (CTO/エンジニア) が GitHub 巡回しやすい曜日帯のため、Mon 上位帯 (過去ピーク 213) への漸近を目指す。最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は日曜 (Sun=8 avg 最下位曜日帯)。Sun 上位帯への漸近を狙うなら素材適合の上振れが必要、最低 2 views (過去 Sun 下位帯超え)、理想 15 views",
-      "新規 5 本構成: oven-sh/bun・K-Dense-AI/scientific-agent-skills・obra/superpowers・Anil-matcha/Open-Generative-AI・supertone-inc/supertonic と前日 05/16 の TOP5 から完全入れ替え (superpowers・scientific-agent-skills は 05/15-16 comparison 角度からの角度切替再登場)"
+      "本日は月曜 (Mon=57 avg 中位帯)。週初のテック系巡回ピーク曜日のため、最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯) を目標",
+      "新規 5 本構成: tinyhumansai/openhuman・HKUDS/CLI-Anything・calcom/cal.diy・oven-sh/bun・Anil-matcha/Open-Generative-AI と前日 05/17 の TOP5 から 3 本入れ替え (oven-sh/bun と Anil-matcha/Open-Generative-AI は 2 日連続 TOP5 入り、本日 tech-deep 角度で語彙切替)"
     ],
     "hashtags": [
-      "Sun=8 avg 最下位曜日帯 + trend-pattern 角度のため、Primary ペルソナ (CTO/技術選定者) のマクロキャッチアップ文脈に直撃する『今週の潮目・業界が向かう先・収束する未来』語彙を厚く: #業界読み解き #マクロトレンド #潮目 #収束 #1機能1ツール時代の終わり #モジュラー化",
-      "trend-pattern 角度のため、5 本横断のマクロテーマを補強するエコシステムタグ: #AgentSkills #ClaudeSkills #オールインワン #モジュラー集合体 #オンデバイスAI #エッジAI #ツール統合 #AIエコシステム",
-      "領域タグ (5 本のカテゴリ): #JSランタイム #Bun #Node互換 #研究AI #ゲノム解析 #創薬AI #コーディングAI #TDD #画像生成AI #動画生成AI #TTS #多言語TTS",
-      "言語タグは Rust (2 本: Bun / supertonic 内部) / Python (1 本) / Shell (1 本) / JavaScript (1 本) / Swift (1 本)。Python (1.2x) を厚く、Rust (0.6x) は控えめ、Shell は基本通り",
-      "ライセンス比較タグは控えめに: #MIT (Bun/superpowers/Open-Generative-AI 想定) #OpenRAIL_M (supertonic 想定)。trend-pattern 角度ではマクロ視点が主軸のため、ライセンス比較は detail/narration に持ち込まず discovery.description でのみ記録",
-      "前日 05/16 (comparison 角度) の『○○より△△で勝負』対抗比較構文からは距離を置き、本日は『○○から△△へ流れが移ります』『今週は△△へ収束しています』のマクロ収束構文へ完全切替",
-      "trend-pattern 角度では特定 OSS の優劣ではなく『なぜ今週この方向に複数の OSS が同時に伸びているか』のマクロ視点で並べる。煽り (『〇〇は終わった』) は戦略 NG パターン違反のため厳禁"
+      "Mon=57 avg 中位帯 + tech-deep 角度のため、Primary ペルソナ (CTO/技術選定者) のディープダイブ文脈に直撃する『技術深掘り・アーキテクチャ・実装内部』語彙を厚く: #技術深掘り #アーキテクチャ #実装解説 #内部構造 #技術選定 #エンジニア向け",
+      "tech-deep 角度のため、5 本それぞれの固有技術名で語彙を強化: #Tauri #MemoryTrees #TokenJuice #ClickCLI #AgentNative #T3Stack #tRPC #JavaScriptCore #Zig #sd_cpp #Wan2GP",
+      "領域タグ (5 本のカテゴリ): #PersonalAI #エージェント基盤 #スケジューリングOSS #JSランタイム #画像生成AI #動画生成AI",
+      "言語タグは Rust (2 本: openhuman / bun の Trending 表示) / Python (1 本: CLI-Anything) / TypeScript (1 本: cal.diy) / JavaScript (1 本: Open-Generative-AI)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust (0.6x) は控えめ",
+      "前日 05/17 (trend-pattern 角度) の『○○から△△へ収束しています』マクロ収束構文からは距離を置き、本日は『○○というメカニズムで動きます』『○○というアーキテクチャです』の技術深掘り構文へ完全切替",
+      "tech-deep 角度では README 引き写しを絶対回避。各 OSS で『他と何が違うか』を 1 つの固有技術名で示し、narration にその技術名を含める (Memory Trees / 7 段階パイプライン / T3 スタック / JavaScriptCore / sd.cpp と Wan2GP)",
+      "煽り (『〇〇は終わった』『〇〇を超えた』) は戦略 NG パターン違反のため厳禁。tech-deep は『冷静に技術内部を解剖する』トーンを徹底"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 279 文字、TTS +30% 読み上げで約 25 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避 (バン、サイエンティフィックエージェントスキルズ、スーパーパワーズ、オープンジェネレーティブAI、スーパートニック)。固有名詞は原文英語のまま (Node.js, JavaScript, TDD, Codex, Cursor, Veo, Flux, Raspberry Pi, MIT)",
-      "trend-pattern 角度の一貫性: 5 本それぞれが『何の道具を 1 つに束ねたか / 何のクラウド依存を切ったか』を 1 文目で示し、2 文目で『その方向にカテゴリ全体が動いている』示唆を含む 2 文構成 (フック 1 文 + 要点 1 文)",
-      "前日 05/16 comparison の『○○より△△で勝負します』対抗比較構文からは距離を置き、本日は『△△を束ねる / 一括追加できる / 切替えできる / 動かせる』のマクロ収束構文へ完全切替",
-      "重複 2 本 (superpowers / scientific-agent-skills は 05/15-16 comparison 角度の TOP5 入り) は本日は完全に異なる切り口に。前日 05/16 は『派閥・哲学の違い』比較語彙、本日は『○○本の Skill を一括パック化・○○種のモデルを 1 画面に集約』マクロ収束語彙で同リポでも別動画として成立させる",
-      "数値表現はアラビア数字統一 (4・135・200・31・99M)。漢数字 (百三十五本など) は禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 282 文字、TTS +30% 読み上げで約 25 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避 (オープンヒューマン、シーエルアイエニシング、キャル ドット ディーアイワイ、バン、オープンジェネレーティブAI)。固有名詞は原文英語のまま (Tauri, Memory Trees, TokenJuice, MCP, --json, Cal.com, MIT, Next.js, tRPC, JavaScriptCore, Node.js, Zig, sd.cpp, Wan2GP, Electron)",
+      "tech-deep 角度の一貫性: 5 本それぞれが『どんな技術アーキテクチャか』を 1 文目で示し、2 文目で『その実装が何を可能にしているか』固有の技術メリットを 1 つ挙げる 2 文構成 (フック 1 文 + 要点 1 文)",
+      "前日 05/17 trend-pattern の『○○から△△へ収束します』マクロ構文からは距離を置き、本日は『○○製の／○○採用の／○○で動く』アーキテクチャ提示構文へ完全切替",
+      "重複 2 本 (oven-sh/bun は 05/17 で #1 / Anil-matcha/Open-Generative-AI は 05/17 で #4) は本日 tech-deep 角度で別動画として成立: 05/17 はマクロ収束視点 (4 種ツール統合・200 種モデル集約) で 1 文、本日は内部実装視点 (JavaScriptCore + Zig 実装・sd.cpp と Wan2GP の 2 推論エンジン併用) で深掘り",
+      "数値表現はアラビア数字統一 (3k token・80%・118 種・7 段階・2,280 件・200 種・4 種)。漢数字は禁止"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (柱① / exploit 枠 80%、14 日窓 TOP method avg 6.00 / n=1、最終投入 05/07 から 10 日空き、直近 2 日連続禁則 (05/16=comparison / 05/15=business-angle 由来動画) と素材適合制約を同時に満たす本命候補)。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達のため本日 trend-pattern 投入は許容",
-      "今日の TOP5 は『2026 年 5 月、開発ツール/AI エコシステムが「単機能 1 ツール」から「オールインワン or モジュラー集合体」へ収束しつつある』マクロ視点で 5 本横断統一: oven-sh/bun (Rust / 91,158★ / +414・JS のランタイム・バンドラ・テスト・パッケージ管理を 1 本に束ねるオールインワン化) / K-Dense-AI/scientific-agent-skills (Python / 23,094★ / +669・135 本の研究領域 Skill を一括パック化、Skills 標準準拠) / obra/superpowers (Shell / 193,945★ / +1,281・開発方法論を Skill 群として強制注入、Claude Code/Codex/Cursor で共通利用) / Anil-matcha/Open-Generative-AI (JavaScript / 14,388★ / +393・Flux/Veo3/Sora/Kling/Wan2.2 など画像動画 AI モデル 200 種を 1 画面に集約) / supertone-inc/supertonic (Swift / 6,803★ / +745・99M パラメータの超軽量 TTS で 31 言語対応、Raspberry Pi 動作の端末完結回帰)",
-      "5 本のマクロ収束は 3 軸で同時進行: (a) AI Agent の能力を Skill モジュールで増やす流れ (superpowers / scientific-agent-skills) / (b) カテゴリ内の多モデルを 1 画面に集約する流れ (Open-Generative-AI / Bun) / (c) クラウド依存を切ってエッジ実機で完結させる流れ (supertonic)。3 軸が同じ Sun の TOP5 に同時に並ぶのは稀な素材適合度 5/5",
-      "Primary (CTO/技術選定者) の『次にどこへ投資すべきか』のマクロキャッチアップ文脈に直撃する。Secondary (PdM/事業責任者) の『業界が向かう方向』の理解にも刺さる。Tertiary (学習中エンジニア) には『どの OSS を 1 本選ぶか』ではなく『カテゴリ全体の動き』として伝わるため、ペルソナ重み付けに合致",
-      "重複 2 本 (superpowers / scientific-agent-skills) は 05/15-16 comparison 角度から本日 trend-pattern 角度へ語彙完全切替: 05/16『派閥・哲学の違い』比較語彙 → 本日『○○本の Skill を一括パック化・カテゴリ全体が△△へ収束』マクロ収束語彙で同 method × 同ラインナップ連投ペナルティを構造的に回避",
-      "5 本のライセンス内訳: MIT 3 本想定 (Bun / superpowers / Open-Generative-AI) + OpenRAIL-M 1 本 (supertonic モデル本体・サンプルコードは MIT) + MIT 1 本 (scientific-agent-skills 想定)。trend-pattern 角度では商用適合性比較は主題から外れるため discovery.description で記録のみ",
-      "曜日 × method マトリクスでは trend-pattern × Sun セルが本日初投入で母数 0→1。これまでの trend-pattern 投稿は Sat (05/02=13) と Thu (05/07=6) のみ。Sun=8 avg の最下位曜日帯のため、trend-pattern × Sun の真の avg を 1 サンプルで初判定する評価日も兼ねる",
-      "05/14-16 で続いた silent fail 連投事故 (5/14 データが 5/15 でも再利用、5/16 も updatedAt 未反映) への対策として、本日は PR 経由 squash merge + 着弾検証ステップを必須実行。失敗時は最終レポートに明記しユーザー手動介入を促す",
-      "本日の運用結果は 05/19 以降の PDCA で確定。trend-pattern の n=1→n=2 拡大で 05/07 (=6) と比較した分散測定が可能。同時に 05/16 (comparison) の実測反映後に Method TOP3 ランキングが組み替わる可能性があり、05/19 PDCA でランキング更新を確認"
+      "本日の discovery.method は `tech-deep` (柱① / exploit 枠 80%、全期間 TOP 3 method avg 6.00 / n=2、14 日窓では未投入で目新しさあり、最終投入 04/25 から 23 日空き)。直近 2 日連続禁則 (05/17=trend-pattern / 05/16=comparison) と素材適合制約 (5 本それぞれに明確な固有技術名が存在) を同時に満たす本命候補。柱② 比率 15% の週次必須要件は 05/22-24 で business-angle または self-experiment 投入予定のため本日 tech-deep 投入は許容",
+      "今日の TOP5 は『何が技術的に新しいか』の一点だけで料理: tinyhumansai/openhuman (Rust / 12,985★ / +1,694・Tauri + Memory Trees + TokenJuice + 118 種 OAuth) / HKUDS/CLI-Anything (Python / 35,528★ / +306・Click 製 CLI 自動生成 7 段階パイプライン + 2,280 件テスト) / calcom/cal.diy (TypeScript / 43,228★ / +425・Cal.com の Enterprise/SSO/Workflows を全部剥がした MIT フォーク + T3 スタック) / oven-sh/bun (Rust / 91,696★ / +908・JavaScriptCore + Zig + Rust + C++ で v1.3.14) / Anil-matcha/Open-Generative-AI (JavaScript / 15,043★ / +704・sd.cpp + Wan2GP の 2 推論エンジン + Muapi.ai 2 段階ポーリング)",
+      "5 本の tech-deep ポイントは別カテゴリで揃って『1 つの固有技術名で説明できる』構造: (a) ローカル AI のメモリ圧縮 (Memory Trees/TokenJuice) (b) エージェント向け CLI 自動生成 (7 段階パイプライン) (c) スケジューリング OSS のライセンス再構築 (T3 スタック単一 MIT) (d) JS ランタイムの非 V8 実装 (JavaScriptCore + Zig) (e) 画像動画 AI の 2 推論エンジン併用 (sd.cpp + Wan2GP)。5 本とも『README 引き写しに陥らない固有技術名』が 1 つ以上ある稀な素材適合",
+      "Primary (CTO/技術選定者) の『この OSS は内部で何をしているか』の評価視点に直撃。Secondary (PdM/事業責任者) には『どんな技術構成か』の理解、Tertiary (学習中エンジニア) には『どの技術名を覚えるべきか』として伝わるため、ペルソナ重み付けに合致",
+      "重複 2 本の語彙切替: oven-sh/bun は 05/17 trend-pattern 角度で『4 種ツール統合のオールインワン化』マクロ視点、本日 tech-deep 角度で『JavaScriptCore + Zig 実装の非 V8 構成』内部実装視点。Anil-matcha/Open-Generative-AI は 05/17『200 種モデル集約』マクロ視点、本日『sd.cpp + Wan2GP の 2 推論エンジン併用』実装視点。同 OSS でも切り口が完全に異なるため連投ペナルティ回避",
+      "5 本のライセンス内訳: MIT 5 本 (openhuman / CLI-Anything / cal.diy / bun / Open-Generative-AI、いずれも MIT 想定または明示)。tech-deep 角度ではライセンス比較は主題から外れるため discovery.description で記録のみ",
+      "曜日 × method マトリクスでは tech-deep × Mon セルが本日初投入で母数 0→1。これまでの tech-deep 投稿は Fri (04/24=5) と Sat (04/25=7) のみで、Mon=57 avg 中位帯のため Mon 平均圏 (3 views) を最低、Mon 中位帯 (50 views) を理想と設定",
+      "05/14-16 で続いた silent fail 連投事故 (5/14 データが 5/15 でも再利用、5/16 も updatedAt 未反映) への対策として、本日も PR 経由 squash merge + 着弾検証ステップを必須実行。失敗時は最終レポートに明記しユーザー手動介入を促す",
+      "本日の運用結果は 05/19 以降の PDCA で確定。tech-deep の n=2→n=3 拡大で 04/24 (=5)・04/25 (=7) と比較した分散測定が可能。05/16-17 の実測反映後に Method TOP3 ランキングが組み替わる可能性があり、05/19 PDCA でランキング更新を確認"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-17",
-    "dayOfWeek": "Sun",
+    "date": "2026-05-18",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "業界読み解き",
-      "マクロトレンド",
-      "潮目",
-      "収束",
-      "1機能1ツール時代の終わり",
-      "モジュラー化",
-      "AgentSkills",
-      "ClaudeSkills",
-      "オールインワン",
-      "モジュラー集合体",
-      "オンデバイスAI",
-      "エッジAI",
-      "ツール統合",
-      "AIエコシステム",
+      "技術深掘り",
+      "アーキテクチャ",
+      "実装解説",
+      "内部構造",
+      "技術選定",
+      "エンジニア向け",
+      "Tauri",
+      "MemoryTrees",
+      "TokenJuice",
+      "ClickCLI",
+      "AgentNative",
+      "T3Stack",
+      "tRPC",
+      "JavaScriptCore",
+      "Zig",
+      "PersonalAI",
+      "エージェント基盤",
+      "スケジューリングOSS",
       "JSランタイム",
-      "Bun",
-      "Node互換",
-      "研究AI",
-      "ゲノム解析",
-      "創薬AI",
-      "コーディングAI",
-      "TDD",
       "画像生成AI",
       "動画生成AI",
-      "TTS",
-      "多言語TTS",
       "MIT",
-      "OpenRAIL",
       "Rust",
       "Python",
-      "Shell",
-      "Swift",
+      "TypeScript",
+      "JavaScript",
       "スタートアップ",
       "個人開発",
       "CTO",
-      "PdM",
-      "技術選定"
+      "PdM"
     ],
-    "focus": "日曜 (Sun=8 avg 最下位曜日帯) に `trend-pattern` 角度 (柱① / exploit 枠 80%、14 日窓 TOP method avg 6.00 / n=1、最終投入 05/07 から 10 日空き) を投入。直近 2 日 (05/16 comparison / 05/15 business-angle 由来動画) と method 衝突なし。柱② 比率 15% は 05/14-15 で既達のため本日 trend-pattern 投入は許容。今日の TOP5 (oven-sh/bun JS ツールチェーン統合 / K-Dense-AI/scientific-agent-skills 135 本研究 Skill / obra/superpowers 開発方法論 Skill 強制注入 / Anil-matcha/Open-Generative-AI 200 種モデル集約 / supertone-inc/supertonic 99M 軽量 TTS 端末完結) は 5/5 が「単機能 1 ツール → モジュラー集合体 or オールインワン」のマクロ収束を別カテゴリで体現する稀な素材適合で、trend-pattern 角度の正本命。重複 2 本 (superpowers / scientific-agent-skills) は 05/15-16 comparison 角度から本日 trend-pattern 角度へ語彙完全切替で連投ペナルティ条件外。最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近)、trend-pattern × Sun セル母数 0→1 での評価日も兼ねる。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "月曜 (Mon=57 avg 中位帯) に `tech-deep` 角度 (柱① / exploit 枠 80%、全期間 TOP 3 method avg 6.00 / n=2、14 日窓未投入で目新しさあり、最終投入 04/25 から 23 日空き) を投入。直近 2 日 (05/17 trend-pattern / 05/16 comparison) と method 衝突なし。柱② 比率 15% は 05/22-24 で投入予定のため本日 tech-deep 投入は許容。今日の TOP5 (tinyhumansai/openhuman Tauri+MemoryTrees+TokenJuice / HKUDS/CLI-Anything Click CLI 自動生成 7 段階パイプライン / calcom/cal.diy Cal.com の MIT フォーク T3 スタック / oven-sh/bun JavaScriptCore+Zig 実装 / Anil-matcha/Open-Generative-AI sd.cpp+Wan2GP 2 推論エンジン) は 5/5 が『固有技術名 1 つで差別化できる』tech-deep の本命素材。重複 2 本 (oven-sh/bun・Anil-matcha/Open-Generative-AI) は 05/17 trend-pattern 角度から本日 tech-deep 角度へ語彙完全切替で連投ペナルティ条件外。最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯)、tech-deep × Mon セル母数 0→1 での評価日も兼ねる。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }

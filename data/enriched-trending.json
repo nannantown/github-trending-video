@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日の TOP5 を『2026 年 5 月、開発ツール/AI エコシステムが「単機能 1 ツール」から「オールインワン or モジュラー集合体」へ収束しつつある』というマクロ視点で 5 本横断に料理する。#1 oven-sh/bun は JS のランタイム・バンドラ・テスト・パッケージ管理を 1 本に束ねるオールインワン化、#2 K-Dense-AI/scientific-agent-skills は 135 本の研究領域 Skill を一括パック化、#3 obra/superpowers は開発方法論を Skill 群として強制注入、#4 Anil-matcha/Open-Generative-AI は画像動画 AI モデル 200 種を 1 画面に集約、#5 supertone-inc/supertonic は 99M パラメータの軽量 TTS でクラウド依存から端末完結への揺り戻し、と全 5 本が「1 機能 1 ツール時代の終わり」を別カテゴリで体現。直近 2 日 (05/16=comparison / 05/15=business-angle 由来動画) と method 衝突なし、trend-pattern は 14 日窓 TOP method (avg 6.00 / 05/07=6 が最終投入から 10 日空き)、素材適合度 5/5 で本日の trend-pattern 投入は本命。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sun=8 avg 最下位曜日帯、最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近) を目標値とする。",
+    "method": "tech-deep",
+    "description": "本日の TOP5 を『何が技術的に新しいか』の一点だけで料理する。#1 tinyhumansai/openhuman は Tauri デスクトップに Memory Trees (≤3k token Markdown 階層圧縮) と TokenJuice (HTML→Markdown 変換ベースの最大 80% トークン削減) を実装した点が核。#2 HKUDS/CLI-Anything は『AI エージェント向けに任意ソフトをフル機能 CLI へ自動生成する 7 段階パイプライン』で、MCP の「ツール 1 個ずつ手書き」を「ソースコード解析 → Click 製 CLI + 2,280 件のテスト」で抜く設計。#3 calcom/cal.diy は Cal.com の Open Core モデルから Enterprise / Teams / SSO / Workflows / ライセンスゲートを全部剥がして MIT 単一ライセンスに統合した『純粋 T3 スタック (Next.js + tRPC + Prisma + Postgres) のフォーク』としての構造改編。#4 oven-sh/bun v1.3.14 は JavaScriptCore + Zig (32%) + Rust (46%) + C++ (13%) という非 V8 構成で起動とメモリを削減、runtime/bundler/test runner/package manager を 1 バイナリへ束ねる Node.js ドロップイン互換ランタイム。#5 Anil-matcha/Open-Generative-AI は Next.js + Electron の monorepo で sd.cpp (Metal/CUDA/Vulkan/ROCm) と Wan2GP (HTTP で遠隔 GPU) の 2 推論エンジンを同居させ、Muapi.ai の 2 段階ポーリングと併用してリモート GPU オフロード可能な構成を MIT で公開。直近 2 日 (05-16 comparison / 05-17 trend-pattern) と method 衝突なし、tech-deep は全期間 TOP 3 method (avg 6.00) で直近 14 日窓では未使用、月曜 = Primary ペルソナ (CTO/エンジニア) が GitHub 巡回しやすい曜日帯ということで本日の tech-deep 投入が本命。柱② の週次必須は 05-22〜24 で business-angle または self-experiment 投入を予定。05-14〜16 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/tinyhumansai/openhuman",
+      "https://github.com/HKUDS/CLI-Anything",
+      "https://github.com/calcom/cal.diy",
       "https://github.com/oven-sh/bun",
-      "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/obra/superpowers",
       "https://github.com/Anil-matcha/Open-Generative-AI",
-      "https://github.com/supertone-inc/supertonic",
-      "https://agentskills.io",
+      "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
       "https://docs.anthropic.com/en/docs/claude-code/skills"
     ],
     "query": "",
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "tinyhumansai/openhuman",
+      "name": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "language": "Rust",
+      "stars": 12985,
+      "todayStars": 1694,
+      "description": "Tauri製の個人向けスーパーAI",
+      "detail": "Tauri で動く完全ローカル型の個人 AI。階層型の Memory Trees で会話履歴を 3k token まで圧縮し、TokenJuice が LLM へのトークン送出を最大 80% 削減します。118 種の OAuth 連携で外部サービスも取り込めます。",
+      "narration": "Tauri製の端末完結型の個人AIです。Memory Treesで履歴を圧縮しトークンを80%削減します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "HKUDS/CLI-Anything",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars": 35528,
+      "todayStars": 306,
+      "description": "AIエージェント用にソフトをCLI化",
+      "detail": "AI エージェント向けに任意ソフトを CLI へ自動変換する 7 段階パイプライン。--json と --help 規約で構造化 I/O を提供し、GIMP や Blender 等の実バックエンドへ委譲。各 CLI は 2,280 件のテスト付きで生成されます。",
+      "narration": "ソフトをエージェント用CLIへ自動変換するパイプラインです。--jsonで出力を構造化しMCPより一歩踏み込みます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "calcom/cal.diy",
+      "name": "cal.diy",
+      "url": "https://github.com/calcom/cal.diy",
+      "language": "TypeScript",
+      "stars": 43228,
+      "todayStars": 425,
+      "description": "Cal.comの完全MITフォーク",
+      "detail": "Cal.com からエンタープライズ機能とライセンス縛りを外した MIT フォーク。Next.js・tRPC・Prisma・PostgreSQL の T3 スタックで構成され、SSO や Workflows は除外し自前ホスト前提に振り切っています。",
+      "narration": "Cal.comをMITで再構築したフォークです。Enterprise機能を外し自前ホスト前提に振り切ります。"
+    },
+    {
+      "rank": 4,
       "fullName": "oven-sh/bun",
       "name": "bun",
       "url": "https://github.com/oven-sh/bun",
       "language": "Rust",
-      "stars": 91158,
-      "todayStars": 414,
-      "description": "JSツールチェーンを束ねる一本",
-      "detail": "ランタイム・バンドラ・テスト・パッケージ管理を 1 本の CLI にまとめる、Node.js 互換の高速ツールキット。v1.3 で起動速度と依存解決が大幅に短縮され、JS プロジェクト全体の所要時間を圧縮できます。",
-      "narration": "JavaScriptの4種ツールを束ねるランタイムです。Node.js互換で起動と依存解決が高速化します。"
+      "stars": 91696,
+      "todayStars": 908,
+      "description": "Node.js互換の一体型ランタイム",
+      "detail": "JavaScriptCore 採用で起動とメモリを削減した一体型ランタイム。Zig・Rust・C++ で実装され、runtime・bundler・test runner・package manager を単一 CLI に統合し、Node.js へのドロップイン互換を狙います。",
+      "narration": "JavaScriptCore採用のNode.js互換ランタイムです。Zig実装で起動が速く4種のツールを束ねます。"
     },
     {
-      "rank": 2,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "language": "Python",
-      "stars": 23094,
-      "todayStars": 669,
-      "description": "科学研究AIに135の専門スキル",
-      "detail": "K-Dense Inc が整備した 135 本の科学 Skill パック。ゲノム解析・分子ドッキング・臨床試験・材料科学まで、研究現場のワークフローを AI エージェントへ即座に拡張でき、Skills 標準準拠で複数エージェントに対応します。",
-      "narration": "AIエージェントに研究領域の専門スキルを一括追加できるパックです。ゲノム解析から創薬まで135本を網羅します。"
-    },
-    {
-      "rank": 3,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 193945,
-      "todayStars": 1281,
-      "description": "コーディングAIに開発作法を仕込む",
-      "detail": "Jesse Vincent 氏が主導する開発方法論をエージェントへ強制注入するフレームワーク。TDD・設計レビュー・体系的デバッグなどを Skill として組み込み、Claude Code・Codex・Cursor など主要エージェントで共通利用できます。",
-      "narration": "コーディングAIにTDDなどの開発作法を強制するSkillフレームワークです。CodexやCursorからも使えます。"
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "fullName": "Anil-matcha/Open-Generative-AI",
       "name": "Open-Generative-AI",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "language": "JavaScript",
-      "stars": 14388,
-      "todayStars": 393,
-      "description": "画像動画AIモデル200種を集約",
-      "detail": "Flux・Veo3・Sora・Kling・Wan2.2 など画像と動画の生成モデル 200 種類を 1 つの UI から呼び出せる Studio。Web と Electron で自前ホストでき、Muapi.ai API キーで従量課金、サブスク不要で運用できます。",
-      "narration": "VeoやFluxなど画像動画AIモデル200種を1画面で切替えできるStudioです。MITで自前ホストも可能です。"
-    },
-    {
-      "rank": 5,
-      "fullName": "supertone-inc/supertonic",
-      "name": "supertonic",
-      "url": "https://github.com/supertone-inc/supertonic",
-      "language": "Swift",
-      "stars": 6803,
-      "todayStars": 745,
-      "description": "端末完結の99M超軽量多言語TTS",
-      "detail": "Supertone Inc が ONNX で提供する 99M パラメータの超軽量 TTS。31 言語に対応し、Raspberry Pi でも RTF 0.3 を実現。iOS・Android・WebGPU・Node.js・Rust 対応で、端末内に音声合成を組み込めます。",
-      "narration": "31言語をRaspberry Piでも動かせる端末完結のTTSです。クラウド非依存で音声合成を組み込めます。"
+      "stars": 15043,
+      "todayStars": 704,
+      "description": "200種のAI生成モデルを統合",
+      "detail": "200 種以上の画像・動画生成モデルを統合する Next.js + Electron アプリ。Muapi.ai API の 2 段階ポーリングと sd.cpp・Wan2GP のローカル推論を併用でき、リモート GPU へ推論をオフロードする構成も MIT で取れます。",
+      "narration": "sd.cppとWan2GPでローカル推論できるElectron Studioです。リモートGPUへの推論委譲も可能です。"
     }
   ]
 }
