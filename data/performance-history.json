@@ -1240,7 +1240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1508,10 +1508,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 4,
+        "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1620,10 +1620,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 5,
+        "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
+        "updatedAt": "2026-05-17T23:44:21.110Z"
       }
     },
     {
@@ -1852,19 +1852,67 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-17T23:44:21.110Z"
+      }
+    },
+    {
+      "videoId": "FizVs8IcsU0",
+      "videoUrl": "https://youtube.com/shorts/FizVs8IcsU0",
+      "date": "2026-05-18",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/18 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "projects": [
+        "tinyhumansai/openhuman",
+        "HKUDS/CLI-Anything",
+        "calcom/cal.diy",
+        "oven-sh/bun",
+        "Anil-matcha/Open-Generative-AI"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "本日の TOP5 を『何が技術的に新しいか』の一点だけで料理する。#1 tinyhumansai/openhuman は Tauri デスクトップに Memory Trees (≤3k token Markdown 階層圧縮) と TokenJuice (HTML→Markdown 変換ベースの最大 80% トークン削減) を実装した点が核。#2 HKUDS/CLI-Anything は『AI エージェント向けに任意ソフトをフル機能 CLI へ自動生成する 7 段階パイプライン』で、MCP の「ツール 1 個ずつ手書き」を「ソースコード解析 → Click 製 CLI + 2,280 件のテスト」で抜く設計。#3 calcom/cal.diy は Cal.com の Open Core モデルから Enterprise / Teams / SSO / Workflows / ライセンスゲートを全部剥がして MIT 単一ライセンスに統合した『純粋 T3 スタック (Next.js + tRPC + Prisma + Postgres) のフォーク』としての構造改編。#4 oven-sh/bun v1.3.14 は JavaScriptCore + Zig (32%) + Rust (46%) + C++ (13%) という非 V8 構成で起動とメモリを削減、runtime/bundler/test runner/package manager を 1 バイナリへ束ねる Node.js ドロップイン互換ランタイム。#5 Anil-matcha/Open-Generative-AI は Next.js + Electron の monorepo で sd.cpp (Metal/CUDA/Vulkan/ROCm) と Wan2GP (HTTP で遠隔 GPU) の 2 推論エンジンを同居させ、Muapi.ai の 2 段階ポーリングと併用してリモート GPU オフロード可能な構成を MIT で公開。直近 2 日 (05-16 comparison / 05-17 trend-pattern) と method 衝突なし、tech-deep は全期間 TOP 3 method (avg 6.00) で直近 14 日窓では未使用、月曜 = Primary ペルソナ (CTO/エンジニア) が GitHub 巡回しやすい曜日帯ということで本日の tech-deep 投入が本命。柱② の週次必須は 05-22〜24 で business-angle または self-experiment 投入を予定。05-14〜16 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/HKUDS/CLI-Anything",
+          "https://github.com/calcom/cal.diy",
+          "https://github.com/oven-sh/bun",
+          "https://github.com/Anil-matcha/Open-Generative-AI",
+          "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
+          "https://docs.anthropic.com/en/docs/claude-code/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-15",
-      "changes": [
-        "standard: 452 avg views (10 videos)",
-        "Day performance: Tue=878, Thu=609, Sat=590, Fri=450, Wed=431, Mon=124, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-17",
       "changes": [
@@ -2172,6 +2220,19 @@
         "standard: 223 avg views (37 videos)",
         "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.7x)",
         "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=7"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-17",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.5x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 217 avg views (38 videos)",
+        "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.8x)",
+        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
