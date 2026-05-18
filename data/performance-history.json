@@ -1294,7 +1294,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
+        "updatedAt": "2026-05-18T23:53:11.540Z"
       }
     },
     {
@@ -1908,19 +1908,64 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-18T23:53:11.540Z"
+      }
+    },
+    {
+      "videoId": "dO9e8D7FiXc",
+      "videoUrl": "https://youtube.com/shorts/dO9e8D7FiXc",
+      "date": "2026-05-19",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/19 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Swift"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "Swift"
+      ],
+      "projects": [
+        "tinyhumansai/openhuman",
+        "Imbad0202/academic-research-skills",
+        "HKUDS/CLI-Anything",
+        "K-Dense-AI/scientific-agent-skills",
+        "supertone-inc/supertonic"
+      ],
+      "durationSeconds": 55,
+      "discovery": {
+        "method": "comparison",
+        "description": "今日のTOP5を競合OSSや類似ツールと並べ、どの場面でどれを選ぶべきかを示す比較視点。Primary層(CTO/技術選定者)の『どれを採用するか』判断を直接支援する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/Imbad0202/academic-research-skills",
+          "https://github.com/HKUDS/CLI-Anything",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/supertone-inc/supertonic"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-17",
-      "changes": [
-        "standard: 462 avg views (11 videos)",
-        "Day performance: Tue=912, Sat=591, Wed=491, Thu=490, Fri=451, Mon=129, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-17",
       "changes": [
@@ -2233,6 +2278,19 @@
         "standard: 217 avg views (38 videos)",
         "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.8x)",
         "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-18",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.5x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 212 avg views (39 videos)",
+        "Trending languages: Kotlin (1.9x), C++ (2.5x), Jupyter Notebook (1.8x)",
+        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
