@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18",
+  "updatedAt": "2026-05-19",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -24,83 +24,83 @@
       "date": "2026-05-02",
       "views": 13,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05/01-05/17 / 05/14-16 は silent fail 連投事故影響あり、参考扱い): trend-pattern 6.33 avg n=3 (05/02=13・05/07=6・05/17=0) / use-case 3.00 avg n=1 (05/03=3) / ecosystem 2.75 avg n=4 (05/01=5・05/05=1・05/08=1・05/09=4) / comparison 2.33 avg n=3 (05/10=2・05/11=5・05/16=0) / business-angle 2.00 avg n=3 (05/04=2・05/14=0・05/15=4) / tech-deep 14 日窓では未投入 (全期間で 04/24=5・04/25=7、avg 6.00) / self-experiment 未投入。本日 05/18 (Mon=57 avg 中位帯) は直近 2 日 (05/17=trend-pattern / 05/16=comparison) と method 衝突を避ける必要があり、全期間 TOP 3 method の tech-deep が直近 14 日窓未投入かつ最終投入 04/25 から 23 日空きで素材適合 5/5 (TOP5 全 5 本に明確な技術的独自点が 1 つ以上存在) のため tech-deep を選定。柱② 比率 15% の週次必須要件は 05/22-24 で business-angle または self-experiment 投入を予定。月曜 = Primary ペルソナ (CTO/エンジニア) が GitHub 巡回しやすい曜日帯のため、Mon 上位帯 (過去ピーク 213) への漸近を目指す。最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯) を目標。"
+      "note": "Method 別平均 (14 日窓 05/05-05/18): comparison 2.67 avg n=3 (05/10=2・05/11=6・05/16=0) / trend-pattern 3.00 avg n=2 (05/07=6・05/17=0) / ecosystem 2.33 avg n=3 (05/05=1・05/08=1・05/09=5) / business-angle 2.00 avg n=2 (05/14=0・05/15=4) / tech-deep 0.00 avg n=1 (05/18 計測未確定で参考扱い) / use-case・self-experiment 14 日窓未投入。本日 05/19 (Tue=563 avg 最高曜日) は直近 2 日 (05/18=tech-deep / 05/17=trend-pattern) と method 衝突を避ける必要があり、14 日窓 TOP method の comparison を選定。素材適合 5/5: 全 TOP5 に明確な競合 OSS が存在 (#1 openhuman vs Ollama・#2 academic-research-skills vs #4 scientific-agent-skills 直接対比・#3 CLI-Anything vs MCP・#5 supertonic vs ElevenLabs)。柱② 比率 15% の週次必須要件は 05/14-15 の business-angle 2 連投で本週分は満たされ済、次回は 05/22-24 で self-experiment への振り替えを検討推奨。火曜 = 全曜日最高 avg=563 だが過去 Tue サンプル 2 件のみで母数薄、Tue × comparison の初投入で測定意義が高い。最低 50 views (Tue 中位帯)、理想 300 views (Tue 平均圏) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は月曜 (Mon=57 avg 中位帯)。週初のテック系巡回ピーク曜日のため、最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯) を目標",
-      "新規 5 本構成: tinyhumansai/openhuman・HKUDS/CLI-Anything・calcom/cal.diy・oven-sh/bun・Anil-matcha/Open-Generative-AI と前日 05/17 の TOP5 から 3 本入れ替え (oven-sh/bun と Anil-matcha/Open-Generative-AI は 2 日連続 TOP5 入り、本日 tech-deep 角度で語彙切替)"
+      "本日は火曜 (Tue=563 avg 全曜日最高)。週初のテック巡回ピーク翌日で深掘りモードに入る曜日のため、最低 50 views (Tue 中位帯)、理想 300 views (Tue 平均圏) を目標",
+      "新規 5 本構成: tinyhumansai/openhuman・Imbad0202/academic-research-skills・HKUDS/CLI-Anything・K-Dense-AI/scientific-agent-skills・supertone-inc/supertonic。前日 05/18 の TOP5 から 3 本入れ替え。重複 2 本 (openhuman・CLI-Anything) は本日 comparison 角度で語彙完全切替"
     ],
     "hashtags": [
-      "Mon=57 avg 中位帯 + tech-deep 角度のため、Primary ペルソナ (CTO/技術選定者) のディープダイブ文脈に直撃する『技術深掘り・アーキテクチャ・実装内部』語彙を厚く: #技術深掘り #アーキテクチャ #実装解説 #内部構造 #技術選定 #エンジニア向け",
-      "tech-deep 角度のため、5 本それぞれの固有技術名で語彙を強化: #Tauri #MemoryTrees #TokenJuice #ClickCLI #AgentNative #T3Stack #tRPC #JavaScriptCore #Zig #sd_cpp #Wan2GP",
-      "領域タグ (5 本のカテゴリ): #PersonalAI #エージェント基盤 #スケジューリングOSS #JSランタイム #画像生成AI #動画生成AI",
-      "言語タグは Rust (2 本: openhuman / bun の Trending 表示) / Python (1 本: CLI-Anything) / TypeScript (1 本: cal.diy) / JavaScript (1 本: Open-Generative-AI)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust (0.6x) は控えめ",
-      "前日 05/17 (trend-pattern 角度) の『○○から△△へ収束しています』マクロ収束構文からは距離を置き、本日は『○○というメカニズムで動きます』『○○というアーキテクチャです』の技術深掘り構文へ完全切替",
-      "tech-deep 角度では README 引き写しを絶対回避。各 OSS で『他と何が違うか』を 1 つの固有技術名で示し、narration にその技術名を含める (Memory Trees / 7 段階パイプライン / T3 スタック / JavaScriptCore / sd.cpp と Wan2GP)",
-      "煽り (『〇〇は終わった』『〇〇を超えた』) は戦略 NG パターン違反のため厳禁。tech-deep は『冷静に技術内部を解剖する』トーンを徹底"
+      "Tue=563 avg 全曜日最高 + comparison 角度のため、Primary ペルソナ (CTO/技術選定者) の『どれを採用するか』判断軸に直撃する『選び方・比較・採用判断』語彙を厚く: #技術選定 #OSS比較 #採用判断 #どっちを選ぶ #ライセンス比較 #エンジニア向け",
+      "comparison 角度のため、5 本それぞれの競合 OSS 名で語彙を強化: #Ollama #MCP #ElevenLabs #ClaudeCodeSkills #AgentSkills #Cursor #Tauri #ONNX",
+      "領域タグ (5 本のカテゴリ): #PersonalAI #ローカルAI #エージェント基盤 #論文執筆AI #科学研究AI #オンデバイスTTS",
+      "言語タグは Python (3 本: academic-research-skills / CLI-Anything / scientific-agent-skills) / Rust (1 本: openhuman) / Swift (1 本: supertonic)。Python (1.2x) を厚く、Rust (0.6x) と Swift (新規枠) は控えめ",
+      "前日 05/18 (tech-deep 角度) の『○○製の／○○採用の／○○で動く』アーキテクチャ提示構文からは距離を置き、本日は『XがYなら、こちらはZです』比較構文へ完全切替",
+      "comparison 角度では『どちらが優れている』判定は避け、『どの場面でどれを選ぶか』のシーン分けに徹する。煽り (『〇〇は終わった』『〇〇を超えた』) は戦略 NG パターン違反のため厳禁",
+      "ライセンス比較は #2 (CC-BY-NC4.0) vs #4 (MIT) で対比軸が立つため #ライセンス比較 #商用利用可 を補強。Primary ペルソナの実務判断に刺さる"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 282 文字、TTS +30% 読み上げで約 25 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避 (オープンヒューマン、シーエルアイエニシング、キャル ドット ディーアイワイ、バン、オープンジェネレーティブAI)。固有名詞は原文英語のまま (Tauri, Memory Trees, TokenJuice, MCP, --json, Cal.com, MIT, Next.js, tRPC, JavaScriptCore, Node.js, Zig, sd.cpp, Wan2GP, Electron)",
-      "tech-deep 角度の一貫性: 5 本それぞれが『どんな技術アーキテクチャか』を 1 文目で示し、2 文目で『その実装が何を可能にしているか』固有の技術メリットを 1 つ挙げる 2 文構成 (フック 1 文 + 要点 1 文)",
-      "前日 05/17 trend-pattern の『○○から△△へ収束します』マクロ構文からは距離を置き、本日は『○○製の／○○採用の／○○で動く』アーキテクチャ提示構文へ完全切替",
-      "重複 2 本 (oven-sh/bun は 05/17 で #1 / Anil-matcha/Open-Generative-AI は 05/17 で #4) は本日 tech-deep 角度で別動画として成立: 05/17 はマクロ収束視点 (4 種ツール統合・200 種モデル集約) で 1 文、本日は内部実装視点 (JavaScriptCore + Zig 実装・sd.cpp と Wan2GP の 2 推論エンジン併用) で深掘り",
-      "数値表現はアラビア数字統一 (3k token・80%・118 種・7 段階・2,280 件・200 種・4 種)。漢数字は禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 289 文字、TTS +30% 読み上げで約 26 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避 (オープンヒューマン、アカデミックリサーチスキルズ、シーエルアイエニシング、サイエンティフィックエージェントスキルズ、スーパートニック)。固有名詞は原文英語のまま (Ollama, Notion, Claude Code, MCP, GIMP, MIT, Cursor, ElevenLabs, RaspberryPi)",
+      "comparison 角度の一貫性: 5 本とも『XがYなら、こちらはZです』または『〜と違い、こちらは〜』の対比構文で統一。1 文目で比較軸を提示し、2 文目で本 OSS 固有の差別化ポイントを 1 つ挙げる 2 文構成",
+      "前日 05/18 tech-deep の『○○製の／○○採用の／○○で動く』アーキテクチャ提示構文からは距離を置き、本日は対比構文へ完全切替。重複 2 本 (openhuman・CLI-Anything) は内部実装視点 (Tauri / Memory Trees / 7 段階パイプライン / --json) を 1 文も使わず、競合 OSS 名 (Ollama / MCP) を必ず narration に入れる",
+      "数値表現はアラビア数字統一 (118 連携・80%・31 言語・99M・135 本・13 エージェント・12 エージェント・7 エージェント・18 種・4 段階)。漢数字は禁止"
     ],
     "content": [
-      "本日の discovery.method は `tech-deep` (柱① / exploit 枠 80%、全期間 TOP 3 method avg 6.00 / n=2、14 日窓では未投入で目新しさあり、最終投入 04/25 から 23 日空き)。直近 2 日連続禁則 (05/17=trend-pattern / 05/16=comparison) と素材適合制約 (5 本それぞれに明確な固有技術名が存在) を同時に満たす本命候補。柱② 比率 15% の週次必須要件は 05/22-24 で business-angle または self-experiment 投入予定のため本日 tech-deep 投入は許容",
-      "今日の TOP5 は『何が技術的に新しいか』の一点だけで料理: tinyhumansai/openhuman (Rust / 12,985★ / +1,694・Tauri + Memory Trees + TokenJuice + 118 種 OAuth) / HKUDS/CLI-Anything (Python / 35,528★ / +306・Click 製 CLI 自動生成 7 段階パイプライン + 2,280 件テスト) / calcom/cal.diy (TypeScript / 43,228★ / +425・Cal.com の Enterprise/SSO/Workflows を全部剥がした MIT フォーク + T3 スタック) / oven-sh/bun (Rust / 91,696★ / +908・JavaScriptCore + Zig + Rust + C++ で v1.3.14) / Anil-matcha/Open-Generative-AI (JavaScript / 15,043★ / +704・sd.cpp + Wan2GP の 2 推論エンジン + Muapi.ai 2 段階ポーリング)",
-      "5 本の tech-deep ポイントは別カテゴリで揃って『1 つの固有技術名で説明できる』構造: (a) ローカル AI のメモリ圧縮 (Memory Trees/TokenJuice) (b) エージェント向け CLI 自動生成 (7 段階パイプライン) (c) スケジューリング OSS のライセンス再構築 (T3 スタック単一 MIT) (d) JS ランタイムの非 V8 実装 (JavaScriptCore + Zig) (e) 画像動画 AI の 2 推論エンジン併用 (sd.cpp + Wan2GP)。5 本とも『README 引き写しに陥らない固有技術名』が 1 つ以上ある稀な素材適合",
-      "Primary (CTO/技術選定者) の『この OSS は内部で何をしているか』の評価視点に直撃。Secondary (PdM/事業責任者) には『どんな技術構成か』の理解、Tertiary (学習中エンジニア) には『どの技術名を覚えるべきか』として伝わるため、ペルソナ重み付けに合致",
-      "重複 2 本の語彙切替: oven-sh/bun は 05/17 trend-pattern 角度で『4 種ツール統合のオールインワン化』マクロ視点、本日 tech-deep 角度で『JavaScriptCore + Zig 実装の非 V8 構成』内部実装視点。Anil-matcha/Open-Generative-AI は 05/17『200 種モデル集約』マクロ視点、本日『sd.cpp + Wan2GP の 2 推論エンジン併用』実装視点。同 OSS でも切り口が完全に異なるため連投ペナルティ回避",
-      "5 本のライセンス内訳: MIT 5 本 (openhuman / CLI-Anything / cal.diy / bun / Open-Generative-AI、いずれも MIT 想定または明示)。tech-deep 角度ではライセンス比較は主題から外れるため discovery.description で記録のみ",
-      "曜日 × method マトリクスでは tech-deep × Mon セルが本日初投入で母数 0→1。これまでの tech-deep 投稿は Fri (04/24=5) と Sat (04/25=7) のみで、Mon=57 avg 中位帯のため Mon 平均圏 (3 views) を最低、Mon 中位帯 (50 views) を理想と設定",
-      "05/14-16 で続いた silent fail 連投事故 (5/14 データが 5/15 でも再利用、5/16 も updatedAt 未反映) への対策として、本日も PR 経由 squash merge + 着弾検証ステップを必須実行。失敗時は最終レポートに明記しユーザー手動介入を促す",
-      "本日の運用結果は 05/19 以降の PDCA で確定。tech-deep の n=2→n=3 拡大で 04/24 (=5)・04/25 (=7) と比較した分散測定が可能。05/16-17 の実測反映後に Method TOP3 ランキングが組み替わる可能性があり、05/19 PDCA でランキング更新を確認"
+      "本日の discovery.method は `comparison` (柱① / exploit 枠 80%、14 日窓 TOP method avg 2.67 / n=3、全期間 avg 5.20 / n=5)。直近 2 日連続禁則 (05/18=tech-deep / 05/17=trend-pattern) と素材適合制約 (5 本それぞれに明確な競合 OSS が存在) を同時に満たす本命候補。柱② 比率 15% の週次必須要件は 05/14-15 の business-angle 2 連投で本週分は満たされ済、本日 comparison 投入は許容",
+      "今日の TOP5 は『同じカテゴリで何が違うか』『どの場面でどれを選ぶか』の一点だけで料理: tinyhumansai/openhuman (Rust / 16,991★ / +3,945・Ollama が推論基盤なら統合エージェント) / Imbad0202/academic-research-skills (Python / 11,585★ / +1,302・汎用 Claude Code を論文向け専門化 / CC-BY-NC4.0) / HKUDS/CLI-Anything (Python / 36,568★ / +1,047・MCP がプロトコル仕様なら CLI 自動生成) / K-Dense-AI/scientific-agent-skills (Python / 24,357★ / +610・論文特化と違い 135 本の科学広域 / MIT) / supertone-inc/supertonic (Swift / 8,293★ / +755・ElevenLabs がクラウドなら 99M で端末動作)",
+      "5 本の comparison ポイントは別カテゴリだが全て『1 つの競合 OSS と並べた時の差別化』構造: (a) Ollama (ローカル LLM 単体) vs openhuman (118 連携統合) (b) 汎用 Claude Code vs academic-research-skills (論文 4 段階特化) (c) MCP (プロトコル) vs CLI-Anything (18 種 CLI 自動生成) (d) academic-research-skills (CC-BY-NC・論文深掘り) vs scientific-agent-skills (MIT・科学広域 135 本) (e) ElevenLabs (クラウド) vs supertonic (端末 99M)。5 本とも『比較対象が 1 つ明確』な稀な素材適合",
+      "#2 と #4 の Agent Skills 直接対比は本日の核: 同じ Agent Skills 配布形態でライセンス (CC-BY-NC vs MIT) と特化度 (4 skills 深掘り vs 135 skills 広域) が真逆。Primary (CTO) には『商用なら MIT、研究なら深掘り』のシーン分けが直撃。narration #4 では『先ほどの論文特化と違い』で #2 を明示的に参照する構成",
+      "Primary (CTO/技術選定者) の『どれを採用するか』判断軸に直撃。Secondary (PdM/事業責任者) には『この領域は選択肢があるんだな』の市場マップとして伝わり、Tertiary (学習中エンジニア) には『どれを学ぶべきか』の指針として届く 3 層対応",
+      "重複 2 本の語彙切替: tinyhumansai/openhuman は 05/18 tech-deep 角度で『Tauri+Memory Trees+TokenJuice の内部実装』、本日 comparison 角度で『Ollama 上位レイヤーとしての 118 連携統合』。HKUDS/CLI-Anything は 05/18『--json 出力で MCP より一歩踏み込む』内部実装視点、本日『MCP がプロトコル仕様ならこちらは GIMP 等への CLI 自動生成』ポジショニング視点。同 OSS でも切り口が完全に異なるため連投ペナルティ回避",
+      "5 本のライセンス内訳: GPL-3.0 1 本 (openhuman) / CC-BY-NC4.0 1 本 (academic-research-skills) / Apache 2.0 1 本 (CLI-Anything) / MIT 2 本 (scientific-agent-skills / supertonic)。comparison 角度では特に #2 vs #4 のライセンス対比が主題に絡むため detail に明記",
+      "曜日 × method マトリクスでは comparison × Tue セルが本日初投入で母数 0→1。これまでの comparison 投稿は Sat (05/16=0)・Sun (05/10=2・05/11=6) など週末傾向だったため、Tue=563 avg 最高帯での測定は significance が高い",
+      "05/14-17 の silent fail 連投事故 → 05/18 で PR squash merge + 着弾検証フローが定着。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "本日の運用結果は 05/20 以降の PDCA で確定。comparison の 14 日窓 n=3→n=4 拡大、Tue × comparison セル母数 0→1、tech-deep × Mon (05/18) の実測値確定で 05/20 PDCA は Method ランキング再編集が前提となる"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-18",
-    "dayOfWeek": "Mon",
+    "date": "2026-05-19",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "技術深掘り",
-      "アーキテクチャ",
-      "実装解説",
-      "内部構造",
       "技術選定",
+      "OSS比較",
+      "採用判断",
+      "どっちを選ぶ",
+      "ライセンス比較",
+      "商用利用可",
       "エンジニア向け",
+      "Ollama",
+      "MCP",
+      "ElevenLabs",
+      "ClaudeCodeSkills",
+      "AgentSkills",
+      "Cursor",
       "Tauri",
-      "MemoryTrees",
-      "TokenJuice",
-      "ClickCLI",
-      "AgentNative",
-      "T3Stack",
-      "tRPC",
-      "JavaScriptCore",
-      "Zig",
+      "ONNX",
       "PersonalAI",
+      "ローカルAI",
       "エージェント基盤",
-      "スケジューリングOSS",
-      "JSランタイム",
-      "画像生成AI",
-      "動画生成AI",
+      "論文執筆AI",
+      "科学研究AI",
+      "オンデバイスTTS",
       "MIT",
-      "Rust",
+      "Apache2",
       "Python",
-      "TypeScript",
-      "JavaScript",
+      "Rust",
+      "Swift",
       "スタートアップ",
       "個人開発",
       "CTO",
       "PdM"
     ],
-    "focus": "月曜 (Mon=57 avg 中位帯) に `tech-deep` 角度 (柱① / exploit 枠 80%、全期間 TOP 3 method avg 6.00 / n=2、14 日窓未投入で目新しさあり、最終投入 04/25 から 23 日空き) を投入。直近 2 日 (05/17 trend-pattern / 05/16 comparison) と method 衝突なし。柱② 比率 15% は 05/22-24 で投入予定のため本日 tech-deep 投入は許容。今日の TOP5 (tinyhumansai/openhuman Tauri+MemoryTrees+TokenJuice / HKUDS/CLI-Anything Click CLI 自動生成 7 段階パイプライン / calcom/cal.diy Cal.com の MIT フォーク T3 スタック / oven-sh/bun JavaScriptCore+Zig 実装 / Anil-matcha/Open-Generative-AI sd.cpp+Wan2GP 2 推論エンジン) は 5/5 が『固有技術名 1 つで差別化できる』tech-deep の本命素材。重複 2 本 (oven-sh/bun・Anil-matcha/Open-Generative-AI) は 05/17 trend-pattern 角度から本日 tech-deep 角度へ語彙完全切替で連投ペナルティ条件外。最低 3 views (Mon 平均圏)、理想 50 views (Mon 中位帯)、tech-deep × Mon セル母数 0→1 での評価日も兼ねる。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "火曜 (Tue=563 avg 全曜日最高) に `comparison` 角度 (柱① / exploit 枠 80%、14 日窓 TOP method avg 2.67 / n=3、全期間 avg 5.20 / n=5) を投入。直近 2 日 (05/18 tech-deep / 05/17 trend-pattern) と method 衝突なし。柱② 比率 15% は 05/14-15 の business-angle 2 連投で本週分は満たされ済のため本日 comparison 投入は許容。今日の TOP5 (tinyhumansai/openhuman vs Ollama 統合エージェント / Imbad0202/academic-research-skills 論文特化 CC-BY-NC / HKUDS/CLI-Anything vs MCP の CLI 自動生成 / K-Dense-AI/scientific-agent-skills 科学広域 MIT / supertone-inc/supertonic vs ElevenLabs の端末 TTS) は 5/5 が『1 つの競合 OSS と並べた時の差別化』を持つ comparison の本命素材。特に #2 vs #4 は同じ Agent Skills 配布で論文深掘り CC-BY-NC vs 科学広域 MIT の真逆対比で核に据える。重複 2 本 (openhuman・CLI-Anything) は 05/18 tech-deep 内部実装視点から本日 comparison ポジショニング視点へ語彙完全切替で連投ペナルティ条件外。最低 50 views (Tue 中位帯)、理想 300 views (Tue 平均圏)、comparison × Tue セル母数 0→1 での評価日も兼ねる。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
