@@ -1349,7 +1349,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
+        "updatedAt": "2026-05-19T23:50:34.186Z"
       }
     },
     {
@@ -1961,20 +1961,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-19T23:50:34.186Z"
+      }
+    },
+    {
+      "videoId": "RNpG2YX_7YA",
+      "videoUrl": "https://youtube.com/shorts/RNpG2YX_7YA",
+      "date": "2026-05-20",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/20 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Rust",
+        "Python",
+        "Shell"
+      ],
+      "projects": [
+        "tinyhumansai/openhuman",
+        "HKUDS/CLI-Anything",
+        "Imbad0202/academic-research-skills",
+        "obra/superpowers",
+        "anthropics/claude-plugins-official"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "Anthropic が claude-plugins-official でスキル/プラグイン配布を公式化した今週、自社で内製しようとしていた AI エンジニアリングのコストが消えるという時宜性のあるマクロを起点に、TOP5 全 5 本をそれぞれ『月額 SaaS いくら束ねるか・人月いくら削減するか・外注いくらが内製化されるか』の費用・工数レバーで料理する。Primary (CTO/技術選定者) と Secondary (PdM/事業責任者) の稟議書語彙に直撃する business-angle 角度で 5 本横断統一。直近 2 日 (05-19 comparison / 05-18 tech-deep) と method 衝突なし、柱② (business-angle 比率 15%) の週次必須要件を本週 (05-18〜24) Wed 中位曜日帯で達成。重複 3 本 (openhuman 3日連続 / CLI-Anything 3日連続 / academic-research-skills 2日連続) は 05-18 tech-deep『内部実装』→ 05-19 comparison『競合との位置取り』→ 本日『金額・工数レバー』で語彙完全 3 連切替で連投ペナルティ条件外。5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) 対策として『Anthropic 公式が動いた』時宜性フックを冒頭マクロに置き、単純な月額カタログから一歩抜ける。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/HKUDS/CLI-Anything",
+          "https://github.com/Imbad0202/academic-research-skills",
+          "https://github.com/obra/superpowers",
+          "https://github.com/anthropics/claude-plugins-official",
+          "https://clau.de/plugin-directory-submission",
+          "https://docs.anthropic.com/en/docs/claude-code/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-17",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "standard: 514 avg views (12 videos)",
-        "Day performance: Tue=915, Fri=644, Sat=591, Thu=584, Wed=517, Mon=129, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-19",
       "changes": [
@@ -2291,6 +2336,19 @@
         "standard: 212 avg views (39 videos)",
         "Trending languages: Kotlin (1.9x), C++ (2.5x), Jupyter Notebook (1.8x)",
         "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-19",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 206 avg views (40 videos)",
+        "Trending languages: Kotlin (1.9x), C++ (2.6x), Jupyter Notebook (1.9x)",
+        "Day performance: Tue=432, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
