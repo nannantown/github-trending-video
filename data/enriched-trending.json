@@ -1,15 +1,17 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を競合OSSや類似ツールと並べ、どの場面でどれを選ぶべきかを示す比較視点。Primary層(CTO/技術選定者)の『どれを採用するか』判断を直接支援する。",
+    "method": "business-angle",
+    "description": "Anthropic が claude-plugins-official でスキル/プラグイン配布を公式化した今週、自社で内製しようとしていた AI エンジニアリングのコストが消えるという時宜性のあるマクロを起点に、TOP5 全 5 本をそれぞれ『月額 SaaS いくら束ねるか・人月いくら削減するか・外注いくらが内製化されるか』の費用・工数レバーで料理する。Primary (CTO/技術選定者) と Secondary (PdM/事業責任者) の稟議書語彙に直撃する business-angle 角度で 5 本横断統一。直近 2 日 (05-19 comparison / 05-18 tech-deep) と method 衝突なし、柱② (business-angle 比率 15%) の週次必須要件を本週 (05-18〜24) Wed 中位曜日帯で達成。重複 3 本 (openhuman 3日連続 / CLI-Anything 3日連続 / academic-research-skills 2日連続) は 05-18 tech-deep『内部実装』→ 05-19 comparison『競合との位置取り』→ 本日『金額・工数レバー』で語彙完全 3 連切替で連投ペナルティ条件外。5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) 対策として『Anthropic 公式が動いた』時宜性フックを冒頭マクロに置き、単純な月額カタログから一歩抜ける。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/tinyhumansai/openhuman",
-      "https://github.com/Imbad0202/academic-research-skills",
       "https://github.com/HKUDS/CLI-Anything",
-      "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/supertone-inc/supertonic"
+      "https://github.com/Imbad0202/academic-research-skills",
+      "https://github.com/obra/superpowers",
+      "https://github.com/anthropics/claude-plugins-official",
+      "https://clau.de/plugin-directory-submission",
+      "https://docs.anthropic.com/en/docs/claude-code/skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +23,59 @@
       "name": "openhuman",
       "url": "https://github.com/tinyhumansai/openhuman",
       "language": "Rust",
-      "stars": 16991,
-      "todayStars": 3945,
-      "description": "ローカルAIに118連携を統合",
-      "detail": "Tauri製のローカルAI統合エージェントで、Memory TreeとTokenJuiceでトークンを80%圧縮します。Notion・Gmailなど118連携を1クリックで束ね、Ollamaの上位レイヤーを狙う設計です。",
-      "narration": "Ollamaが推論基盤なら、こちらは統合型AIです。Notionなど118連携を一発で束ね、生活全体を自動化します。"
+      "stars": 21002,
+      "todayStars": 3991,
+      "description": "Notion等118連携の統合AI",
+      "detail": "Tauri製のローカル個人AIで、Notion・Slack・Gmail等118 SaaSを1クリックOAuthで束ねます。TokenJuiceで送信トークン最大80%圧縮、Memory Treesでローカル知識ベース化、SaaS月額とAPI課金を同時に削減できます。",
+      "narration": "Notion等のSaaSを1本に束ねるパーソナルAIです。トークン80%圧縮でAPI課金も同時に削減します。"
     },
     {
       "rank": 2,
-      "fullName": "Imbad0202/academic-research-skills",
-      "name": "academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "language": "Python",
-      "stars": 11585,
-      "todayStars": 1302,
-      "description": "Claude Code向け論文スキル集",
-      "detail": "研究から執筆・査読・改稿・最終化までを13・12・7エージェントで回すClaude Code向けスキル集です。CC-BY-NC4.0で商用不可ですが、人手チェックの整合性ゲートが強みです。",
-      "narration": "汎用Claude Codeを論文向けに専門化するスキル集です。研究・執筆・査読の4段階をエージェントで回します。"
-    },
-    {
-      "rank": 3,
       "fullName": "HKUDS/CLI-Anything",
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 36568,
-      "todayStars": 1047,
-      "description": "18種アプリにCLIを自動生成",
-      "detail": "GIMPやBlender、LibreOfficeなど18種のソフトを7段階の自動パイプラインでCLI化するApache 2.0のツールです。MCPと違いGUI不要でエージェントが直接バックエンドを叩けます。",
-      "narration": "MCPがプロトコル仕様なら、こちらはGIMP等にCLIを自動生成します。GUIを介さずエージェントが直接操作できます。"
+      "stars": 37651,
+      "todayStars": 1027,
+      "description": "18種GUIソフトのCLI自動生成",
+      "detail": "GIMP・Blender・LibreOffice等18種のGUIアプリを7段階パイプラインで自動CLI化するApache 2.0のOSSです。外注していた画像・3D・ドキュメント編集をエージェントが直接叩ける形に内製化、運用コストを圧縮します。",
+      "narration": "GIMP等18種ソフトを自動でCLI化するツールです。外注していた画像・3D編集を社内エージェント化できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "Imbad0202/academic-research-skills",
+      "name": "academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "language": "Python",
+      "stars": 14041,
+      "todayStars": 3184,
+      "description": "Claude Code向け論文スキル",
+      "detail": "研究・執筆・査読・改稿の4工程を13・12・7エージェントで回すClaude Code向けスキル集です。CC-BY-NC4.0で商用は不可ですが、社内R&Dや学術受託の文献調査工数を一気に削減できます。",
+      "narration": "Claude Codeを論文向けに特化させるスキル集です。CC-BY-NCで商用不可、学術受託の調査工数を削減できます。"
     },
     {
       "rank": 4,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "language": "Python",
-      "stars": 24357,
-      "todayStars": 610,
-      "description": "MIT配布の科学スキル135本",
-      "detail": "Cursor・Codex・Gemini CLIなどAgent Skills仕様準拠の全エージェントで動く135本の科学スキル集です。生命科学から金融まで100以上のDBに繋がり、MITで商用利用も可能です。",
-      "narration": "先ほどの論文特化と違い、こちらは135本の科学スキル集です。MITで商用も可能、Cursorなどにも刺さります。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 198304,
+      "todayStars": 1620,
+      "description": "TDD強制の開発手法skill集",
+      "detail": "AIエージェントにブレスト・計画・TDD・コードレビューの7段階を強制するMITのskillパックです。Claude Code・Cursor・Codex CLI等7環境対応、受託案件のレビュー工数とテスト漏れリスクを構造的に削減します。",
+      "narration": "Claude Code等にTDDと計画を強制する開発手法パックです。受託のレビュー工数とテスト漏れリスクを減らします。"
     },
     {
       "rank": 5,
-      "fullName": "supertone-inc/supertonic",
-      "name": "supertonic",
-      "url": "https://github.com/supertone-inc/supertonic",
-      "language": "Swift",
-      "stars": 8293,
-      "todayStars": 755,
-      "description": "31言語の軽量オンデバイスTTS",
-      "detail": "99Mパラメータと小型ながら31言語に対応するONNXベースのTTSです。RaspberryPiでも実時間生成でき、Python・Node.js・WebGPU・iOSまで11種SDKが揃います。",
-      "narration": "ElevenLabsがクラウドなら、こちらは99Mで端末動作する31言語TTSです。RaspberryPiでも動きます。"
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars": 20133,
+      "todayStars": 127,
+      "description": "Anthropic公式プラグイン集",
+      "detail": "Anthropicが審査・配布するClaude Code公式プラグインの集約ディレクトリです。`/plugin install`一発で導入でき、社内Claude Code環境の立ち上げ工数とセキュリティレビュー工数を分単位まで圧縮できます。",
+      "narration": "Anthropic公式のClaude Codeプラグイン集です。社内導入の立ち上げ工数を分単位まで圧縮できます。"
     }
   ]
 }
