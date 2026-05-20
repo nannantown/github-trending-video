@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-20",
+  "updatedAt": "2026-05-21",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
       "Mon": 57,
       "Tue": 563,
       "Wed": 188,
-      "Thu": 159,
+      "Thu": 234,
       "Fri": 405,
       "Sat": 6,
       "Sun": 7
@@ -24,85 +24,87 @@
       "date": "2026-05-07",
       "views": 6,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05/06-05/19、計測確定分): trend-pattern 3.00 avg n=2 (05/07=6・05/17=0) / ecosystem 3.00 avg n=2 (05/08=1・05/09=5) / comparison 2.67 avg n=3 (05/10=2・05/11=6・05/16=0、05/19 未確定) / business-angle 2.00 avg n=2 (05/14=0・05/15=4) / tech-deep 0.00 avg n=1 (05/18 計測短期で参考扱い) / use-case・self-experiment 14 日窓未投入。本日 05/20 (Wed=188 avg 中位曜日) は直近 2 日 (05/19 comparison / 05/18 tech-deep) と method 衝突を避け、柱② (business-angle 比率 15%) の週次必須要件を本週 (05/18〜24) Wed 中位帯で投入。素材適合 5/5: 全 TOP5 に明確な月額/工数削減レバー (#1 openhuman は Notion 等 SaaS 月額の集約と TokenJuice 80% トークン圧縮・#2 CLI-Anything は外注画像・3D 編集の社内エージェント化・#3 academic-research-skills は CC-BY-NC 商用不可下での学術受託調査工数削減・#4 superpowers は TDD/計画強制で受託のレビュー工数とテスト漏れリスク削減・#5 claude-plugins-official は Anthropic 公式で社内 Claude Code 導入の立ち上げ工数を分単位圧縮)。5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) 対策として『Anthropic 公式が動いた』時宜性フックを冒頭マクロに置き、単純な月額カタログから一歩抜ける。最低 30 views (Wed 中位帯)、理想 200 views (Wed 平均圏) を目標。"
+      "note": "Method 別平均 (14 日窓 05/07-05/20、計測確定分): trend-pattern 3.00 avg n=2 (05/07=6・05/17=0) / ecosystem 3.00 avg n=2 (05/08=1・05/09=5) / comparison 2.67 avg n=3 (05/10=2・05/11=6・05/16=0、05/19 計測短期で除外) / business-angle 2.00 avg n=2 (05/14=0・05/15=4、05/20 計測短期で除外) / tech-deep 0.00 avg n=1 (05/18 計測短期で参考扱い) / use-case 14 日窓未投入 (全期間 n=1、05/03 のみ) / self-experiment 全期間未投入。本日 05/21 (Thu=234 avg 中位曜日) は直近 2 日 (05/20 business-angle / 05/19 comparison) と method 衝突を避け、柱① (Trending TOP5 解説 70%) 主軸日として use-case を explore 枠 20% で投入。柱② (business-angle 比率 15%) の週次必須要件は 05/20 で本週 (05/18〜24) 既達。素材適合 5/5: 全 TOP5 に明確な『誰のどの作業シーンで使うか』レバー (#1 codegraph は Claude Code を毎日触るソロ開発者・受託エンジニアの索引DB / #2 academic-research-skills は論文を書く大学院生・受託リサーチコンサルの 4 工程パック / #3 openhuman は Notion/Slack/Gmail を束ねたい個人事業主・SoloCTO の SaaS 統合個人AI / #4 multica-ai/andrej-karpathy-skills は Claude Code 導入初期チームの作法統一 CLAUDE.md / #5 ai-engineering-from-scratch は AI 案件参入で基礎理論不足を感じる中堅エンジニアの体系学習教材)。codegraph 新規 1 位 (9.3k★+1910/d) の 35%トークン減・70%ツール呼び出し減・49%高速化実測値を冒頭マクロのフックに置き、5 本それぞれの作業シーンへ落とす構成。最低 15 views (Thu 下位帯超え)、理想 150 views (Thu 中位帯) を目標。柱③ self-experiment は次回 05/22-24 で投入予定。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は水曜 (Wed=188 avg 中位曜日)。Mon-Tue ピーク翌日で深掘りモード読者帯、Primary ペルソナ (CTO/エンジニア) が GitHub 巡回した翌日の 2 次接触帯。最低 30 views (Wed 中位帯)、理想 200 views (Wed 平均圏) を目標",
-      "新規 2 本 + 重複 3 本構成: tinyhumansai/openhuman・HKUDS/CLI-Anything・Imbad0202/academic-research-skills (3 日連続/3 日連続/2 日連続) + obra/superpowers・anthropics/claude-plugins-official (新規)。重複 3 本は 05/18 tech-deep『内部実装』→ 05/19 comparison『競合との位置取り』→ 本日 business-angle『金額・工数レバー』で語彙完全 3 連切替"
+      "本日は木曜 (Thu=234 avg 中位曜日)。Mon-Tue ピーク後の深掘りモード読者帯、Primary ペルソナ (CTO/エンジニア) が GitHub 巡回で本日トレンドをチェックした直後の 2 次接触帯。最低 15 views (Thu 下位帯超え)、理想 150 views (Thu 中位帯) を目標",
+      "新規 3 本 + 重複 2 本構成: colbymchenry/codegraph (新規 1 位・9.3k★+1910/d)・multica-ai/andrej-karpathy-skills (新規 4 位・140.7k★+2620/d・既存 forrestchang フォークを継承)・rohitg00/ai-engineering-from-scratch (新規 5 位・9.5k★+762/d) + tinyhumansai/openhuman (5 日連続)・Imbad0202/academic-research-skills (4 日連続)。重複 2 本は 05/18 tech-deep『内部実装』→ 05/19 comparison『競合との位置取り』→ 05/20 business-angle『金額・工数レバー』→ 本日 use-case『誰のどの作業シーンで使うか』で語彙完全 4 連切替"
     ],
     "hashtags": [
-      "Wed=188 avg 中位曜日 + business-angle 角度のため、Primary (CTO/技術選定者) + Secondary (PdM/事業責任者) の稟議書語彙に直撃する『コスト・工数・内製化』語彙を厚く: #コスト削減 #人月削減 #SaaS月額 #内製化 #稟議書 #ROI #受託開発 #スタートアップ",
-      "business-angle 角度のため、5 本それぞれの削減対象/レバーで語彙を強化: #Notion #Slack #Gmail #Anthropic公式 #ClaudeCode #ClaudeCodePlugins #TokenJuice #TDD #AgentSkills",
-      "領域タグ (5 本のカテゴリ): #パーソナルAI #エージェント自動化 #論文執筆AI #開発手法 #プラグインマーケット",
-      "言語タグは Python (3 本: CLI-Anything / academic-research-skills / claude-plugins-official) / Rust (1 本: openhuman) / Shell (1 本: superpowers)。Python (1.2x) を厚く、Rust (0.6x) は控えめ、Shell (1.0x) は中性",
-      "前日 05/19 (comparison 角度) の『X が Y なら、こちらは Z です』対比構文からは距離を置き、本日は『〜で月額が消える／〜で工数が圧縮される』金額・工数構文へ完全切替",
-      "business-angle 角度では『○○は終わった』『○○を超えた』煽りは戦略 NG パターン違反のため厳禁。『削減』『圧縮』『内製化』『集約』など中性的な経営語彙に統一",
-      "Anthropic 公式の動きは時宜性が極めて高い。#Anthropic公式 #ClaudeCodePlugins #公式ディレクトリ で『今週の業界動向』として Secondary ペルソナの拾い読みも狙う"
+      "Thu=234 avg 中位曜日 + use-case 角度のため、Primary (CTO/技術選定者) + Secondary (PdM/事業責任者) の現場想起語彙を厚く: #ソロ開発 #受託開発 #個人事業主 #SoloCTO #スタートアップ #現場導入 #ユースケース #実用例",
+      "use-case 角度のため、5 本それぞれの利用シーンで語彙を強化: #ClaudeCode #Codex #Cursor #OpenCode #MCP #CLAUDEmd #索引DB #論文執筆 #大学院生 #SaaS統合 #個人AI #AI体系学習",
+      "領域タグ (5 本のカテゴリ): #AIコーディング #エージェント基盤 #学術スキル #パーソナルAI #AI教育",
+      "言語タグは Python (2 本: academic-research-skills / ai-engineering-from-scratch) / TypeScript (1 本: codegraph) / Rust (1 本: openhuman) / Markdown (1 本: andrej-karpathy-skills)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust (0.6x) は控えめ",
+      "前日 05/20 (business-angle 角度) の『〜が月額/工数を削減できます』金額・工数構文からは距離を置き、本日は『〜向けです、〜できます』ユースケース構文へ完全切替",
+      "use-case 角度では『○○は終わった』『○○を超えた』煽りは戦略 NG パターン違反のため厳禁。『〜向け』『〜現場で使える』『〜シーンで活きる』など中性的な実用語彙に統一",
+      "codegraph の Claude Code エコシステム拡張は時宜性が高い。#Claude Code索引DB #MCPサーバー #トークン削減 で Primary CTO の『Claude Code を本気で運用するなら』2 次接触を狙う"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 284 文字、TTS +30% 読み上げで約 25-26 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避 (オープンヒューマン、シーエルアイエニシング、アカデミックリサーチスキルズ、スーパーパワーズ、クロードプラグインズオフィシャル)。固有名詞は原文英語のまま (Notion, Slack, Gmail, Anthropic, Claude Code, TDD, GIMP, CC-BY-NC)",
-      "business-angle 角度の一貫性: 5 本とも『〜が月額/工数を削減できます』または『〜で○○が圧縮/集約されます』の金額・工数構文で統一。1 文目で OSS の機能/位置づけを提示し、2 文目で具体的な費用・工数レバー (○%圧縮・分単位圧縮・内製化・調査工数削減・リスク削減) を 1 つ挙げる 2 文構成",
-      "前日 05/19 comparison の『X が Y なら、こちらは Z です』対比構文からは距離を置き、本日は金額・工数語彙へ完全切替。重複 3 本 (openhuman・CLI-Anything・academic-research-skills) は競合 OSS 名 (Ollama/MCP/scientific-agent-skills) を 1 文も使わず、削減レバー (月額・トークン課金・外注作業・調査工数) を必ず narration に入れる",
-      "数値表現はアラビア数字統一 (118 連携・80%・18 種・3D・CC-BY-NC・7 段階)。漢数字は禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 269 文字、TTS で約 35-40 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避 (コードグラフ、アカデミックリサーチスキルズ、オープンヒューマン、カルパシースキルズ、エーアイエンジニアリングフロムスクラッチ)。固有名詞は原文英語のまま (Claude Code, Codex, Cursor, OpenCode, MCP, Notion, Slack, Gmail, Karpathy, CLAUDE.md, SQLite)",
+      "use-case 角度の一貫性: 5 本とも『〜向けです』+『〜できます/網羅です』のユースケース構文で統一。1 文目で『誰の/どの作業シーンで使うか』を提示し、2 文目で具体的な機能/数値レバー (70%減・4 工程・118 SaaS・4 原則・435 レッスン) を 1 つ挙げる 2 文構成",
+      "前日 05/20 business-angle の『〜が月額/工数を削減できます』金額・工数構文からは距離を置き、本日はユースケース語彙へ完全切替。重複 2 本 (openhuman・academic-research-skills) は競合 OSS 名 (Ollama/MCP/scientific-agent-skills) と金額/工数語彙 (月額・トークン課金・外注作業・調査工数) を 1 文も使わず、対象ユーザー (個人事業主・SoloCTO・大学院生・研究者) を必ず narration に入れる",
+      "数値表現はアラビア数字統一 (70%・4 工程・118 個・4 原則・20 フェーズ・435 レッスン)。漢数字は禁止"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (柱② / exploit 枠で柱② 比率 15% の週次必須要件達成、14 日窓 avg 2.00 / n=2、全期間 avg 6.00 / n=6)。直近 2 日連続禁則 (05/19=comparison / 05/18=tech-deep) と素材適合制約 (5 本それぞれに明確な月額/工数削減レバー) を同時に満たす本命候補。柱② 週次要件は本週 (05/18〜24) 未投入で本日 Wed が中位曜日帯の許容枠",
-      "今日の TOP5 は『どの月額/工数が消えるか』『どの外注作業が内製化されるか』の費用・工数レバー一点で料理: tinyhumansai/openhuman (Rust / 21,002★ / +3,991・Notion/Slack/Gmail 等 118 SaaS 統合と TokenJuice 80% トークン圧縮で月額と API 課金を同時削減) / HKUDS/CLI-Anything (Python / 37,651★ / +1,027・GIMP/Blender/LibreOffice 等 18 種 GUI ソフトの CLI 自動生成で外注画像・3D 編集を内製化) / Imbad0202/academic-research-skills (Python / 14,041★ / +3,184・Claude Code 論文 4 工程 skill で学術受託の文献調査工数削減、ただし CC-BY-NC 商用不可) / obra/superpowers (Shell / 198,304★ / +1,620・TDD・計画・レビュー 7 段階強制で受託案件の品質保証コスト削減) / anthropics/claude-plugins-official (Python / 20,133★ / +127・Anthropic 公式の Claude Code プラグインディレクトリで社内導入の立ち上げ工数を分単位圧縮)",
-      "本日の核は **anthropics/claude-plugins-official が新規 5 位** で 20.1k★+127/d。Anthropic が『skill/plugin 配布の本気の体制化』に動いた週で、これまで community 列島型 (mattpocock/skills, K-Dense, browserbase/skills, obra/superpowers) が公式マーケットへ吸われていく転換週として読める。冒頭マクロで『Anthropic 公式が動いた今週、自社で内製しようとしていた AI エンジニアリングのコストが消える』というフックを置き、5 本それぞれの具体レバーへ落とす構成",
-      "Primary (CTO/技術選定者) の『稟議書が通る AI 投資』軸に直撃。Secondary (PdM/事業責任者) には『公式ディレクトリの登場で社内 Claude Code 導入が現実的』の市場マップとして伝わり、Tertiary (学習中エンジニア) には『MIT skill から触ってみる』入口として届く 3 層対応",
-      "重複 3 本の語彙 3 連切替: tinyhumansai/openhuman は 05/18 tech-deep『Tauri+Memory Trees+TokenJuice の内部実装』→ 05/19 comparison『Ollama 上位レイヤー統合』→ 本日 business-angle『Notion 等 SaaS 月額と API 課金の同時削減』。HKUDS/CLI-Anything は 05/18『7 段階パイプライン内部』→ 05/19『MCP 対比』→ 本日『外注画像・3D 編集の内製化』。Imbad0202/academic-research-skills は 05/19 comparison『論文特化 vs 科学広域』→ 本日『CC-BY-NC 商用不可制約と学術受託の調査工数』。同 OSS でも切り口が完全に異なるため連投ペナルティ回避",
-      "5 本のライセンス内訳: GPL-3.0 1 本 (openhuman・コピーレフト要注意) / CC-BY-NC4.0 1 本 (academic-research-skills・商用不可) / Apache 2.0 1 本 (CLI-Anything) / MIT 1 本 (superpowers) / プラグイン個別 1 本 (claude-plugins-official・要 LICENSE 確認)。business-angle 角度では Primary CTO の稟議リスク回避のため #3 CC-BY-NC 商用不可と #1 GPL-3.0 コピーレフトを detail/narration に明示",
-      "曜日 × method マトリクスでは business-angle × Wed セルが本日初投入で母数 0→1。これまでの business-angle 投稿は Wed (04/29・04/30=12) と Thu (05/14=0・05/15=4)・Sat (04/26=11)・Mon (05/04=2) で散発、Wed=188 avg 中位帯での再投入は 5 月減衰下のリベンジ枠として significance が高い",
-      "5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) は『○円削れる』語彙摩耗が原因と推測。本日は『Anthropic 公式の動き』時宜性マクロ + 5 本それぞれの具体レバー (○%圧縮・分単位・内製化・調査工数・テスト漏れリスク) で語彙を分散させ、04/29-30 連投型の同 method×同ラインナップペナルティとは構造的に異なる構成",
-      "05/14-17 の silent fail 連投事故 → 05/18 で PR squash merge + 着弾検証フローが定着し、05/19 でも継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "本日の運用結果は 05/21 以降の PDCA で確定。business-angle の 14 日窓 n=2→n=3 拡大、Wed × business-angle セル母数 0→1、comparison × Tue (05/19) の実測値確定で 05/21 PDCA は Method ランキング再編集が前提となる。次回柱② 必須要件 (05/22-24) では self-experiment への振り替えを引き続き検討"
+      "本日の discovery.method は `use-case` (柱① 主軸日 / explore 枠 20%、14 日窓未投入 / 全期間 avg 3.00 / n=1)。直近 2 日連続禁則 (05/20=business-angle / 05/19=comparison) と素材適合制約 (5 本それぞれに明確な利用シーン) を同時に満たす本命候補。柱② 週次必須要件は 05/20 で本週既達のため、本日は柱① 主軸での運用可",
+      "今日の TOP5 は『誰のどの作業シーンで使うか』のユースケース視点一点で料理: colbymchenry/codegraph (TypeScript / 9,297★ / +1,910・Claude Code を毎日触るソロ開発者・受託エンジニアの索引 DB、tree-sitter 19 言語 AST + SQLite + FTS5 + MCP で 35%トークン減・70%ツール呼び出し減・49%高速化) / Imbad0202/academic-research-skills (Python / 16,048★ / +1,639・論文を書く大学院生・受託リサーチコンサルの 4 工程パック、research→write→review→revise→finalize を 13・12・7 エージェント計 42 本体制で回す、ただし CC-BY-NC4.0 商用不可) / tinyhumansai/openhuman (Rust / 23,536★ / +3,603・Notion/Slack/Gmail/GitHub 等 118 サードパーティを束ねたい個人事業主・SoloCTO の SaaS 統合個人 AI、Memory Trees 持続記憶 + TokenJuice 80% トークン圧縮、GPL-3.0) / multica-ai/andrej-karpathy-skills (Markdown / 140,669★ / +2,620・Claude Code 導入初期チームの作法統一 CLAUDE.md、Karpathy の 4 罠 → 4 原則で潰す、Cursor ルール同梱・プラグイン提供、MIT) / rohitg00/ai-engineering-from-scratch (Python / 9,472★ / +762・AI 案件参入で基礎理論不足を感じる中堅エンジニアの体系学習教材、数学→古典 ML→DL→LLM→Agent→Safety を 20 フェーズ 435 レッスン 320 時間で網羅、MIT)",
+      "本日の核は **colbymchenry/codegraph が新規 1 位** で 9.3k★+1910/d。tree-sitter 19 言語 AST 解析+SQLite+FTS5+MCP で Claude Code・Codex・Cursor・OpenCode の 4 エージェントに直結し、7 リポベンチで 35%トークン減・70%ツール呼び出し減・49%高速化の実測値。これまで GitNexus / zilliztech/claude-context が担っていた『AIコーディング索引DB』レイヤーが community OSS で本格化した週として読める。冒頭マクロで『AI コーディング索引 DB が community OSS で本格化した今週、Claude Code を本気で運用する人の選択肢が増えた』フックを置き、5 本それぞれの利用シーンへ落とす構成",
+      "Primary (CTO/技術選定者) の『自分の現場で誰がどう使うか』軸に直撃。Secondary (PdM/事業責任者) には『AI コーディング索引 DB が community OSS で標準化』の市場マップとして伝わり、Tertiary (学習中エンジニア) には『#5 ai-engineering-from-scratch から触ってみる』入口として届く 3 層対応",
+      "重複 2 本の語彙 4 連切替: tinyhumansai/openhuman は 05/18 tech-deep『Tauri+Memory Trees+TokenJuice 実装』→ 05/19 comparison『Ollama 上位レイヤー統合』→ 05/20 business-angle『Notion 等 SaaS 月額と API 課金の同時削減』→ 本日 use-case『個人事業主・SoloCTO の SaaS 統合個人 AI』。Imbad0202/academic-research-skills は 05/19 comparison『論文特化 vs 科学広域』→ 05/20 business-angle『CC-BY-NC 商用不可制約と学術受託の調査工数』→ 本日 use-case『論文書きの大学院生・受託リサーチコンサルが 4 工程を任せる先』。同 OSS でも切り口が完全に異なるため連投ペナルティ回避",
+      "5 本のライセンス内訳: MIT 3 本 (codegraph・andrej-karpathy-skills・ai-engineering-from-scratch) / CC-BY-NC4.0 1 本 (academic-research-skills・商用不可) / GPL-3.0 1 本 (openhuman・コピーレフト要注意)。use-case 角度では Primary CTO の現場導入リスク回避のため #2 CC-BY-NC 商用不可と #3 GPL-3.0 コピーレフトを detail/narration に明示。MIT 3 本は商用受託案件に組み込みやすい",
+      "曜日 × method マトリクスでは use-case × Thu セルが本日初投入で母数 0→1。これまでの use-case 投稿は 05/03 (Sat=155 avg 帯で views=3) 単発のみで、Thu=234 avg 中位帯での再投入は use-case method の評価軸を立てる測定意義あり",
+      "5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) は『○円削れる』語彙摩耗が原因と推測。本日は use-case 角度で『誰の/どの作業シーン』語彙へ完全切替し、Primary CTO の現場想起を狙う。柱③ self-experiment は次回 05/22-24 で投入予定として継続検討",
+      "05/14-17 の silent fail 連投事故 → 05/18 で PR squash merge + 着弾検証フローが定着し、05/19/05/20 でも継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "本日の運用結果は 05/22 以降の PDCA で確定。use-case の 14 日窓 n=0→n=1 拡大、Thu × use-case セル母数 0→1、business-angle × Wed (05/20) の実測値確定で 05/22 PDCA は Method ランキング再編集が前提となる。次回柱③ 投入 (05/22-24) では self-experiment 初投入を引き続き検討"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-20",
-    "dayOfWeek": "Wed",
+    "date": "2026-05-21",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
-      "コスト削減",
-      "人月削減",
-      "SaaS月額",
-      "内製化",
-      "稟議書",
-      "ROI",
+      "ソロ開発",
       "受託開発",
+      "個人事業主",
+      "SoloCTO",
       "スタートアップ",
-      "Notion",
-      "Slack",
-      "Gmail",
-      "Anthropic公式",
+      "現場導入",
+      "ユースケース",
+      "実用例",
       "ClaudeCode",
-      "ClaudeCodePlugins",
-      "TokenJuice",
-      "TDD",
-      "AgentSkills",
+      "Codex",
+      "Cursor",
+      "OpenCode",
+      "MCP",
+      "CLAUDEmd",
+      "索引DB",
+      "論文執筆",
+      "大学院生",
+      "SaaS統合",
+      "個人AI",
+      "AI体系学習",
+      "AIコーディング",
+      "エージェント基盤",
+      "学術スキル",
       "パーソナルAI",
-      "エージェント自動化",
-      "論文執筆AI",
-      "開発手法",
-      "プラグインマーケット",
+      "AI教育",
       "MIT",
-      "Apache2",
       "GPL3",
       "CCBYNC",
       "Python",
+      "TypeScript",
       "Rust",
-      "Shell",
       "CTO",
       "PdM",
       "個人開発"
     ],
-    "focus": "水曜 (Wed=188 avg 中位曜日) に `business-angle` 角度 (柱② / 比率 15% の週次必須要件達成、14 日窓 avg 2.00 / n=2、全期間 avg 6.00 / n=6) を投入。直近 2 日 (05/19 comparison / 05/18 tech-deep) と method 衝突なし。柱② 週次必須要件は本週 (05/18〜24) 未投入で本日が Wed 中位曜日帯の許容枠。今日の TOP5 (tinyhumansai/openhuman は Notion 等 SaaS 月額の集約と TokenJuice 80% 圧縮 / HKUDS/CLI-Anything は外注画像・3D 編集の社内エージェント化 / Imbad0202/academic-research-skills は CC-BY-NC 商用不可下の学術受託調査工数削減 / obra/superpowers は TDD・計画 7 段階強制で受託レビュー工数削減 / anthropics/claude-plugins-official は Anthropic 公式で社内 Claude Code 導入の立ち上げ工数を分単位圧縮) は 5/5 が『明確な月額/工数削減レバー』を持つ business-angle の本命素材。特に #5 claude-plugins-official が新規 5 位 (20.1k★+127/d) で『Anthropic が skill/plugin 配布を公式化した転換週』のマクロフックを冒頭に置き、5 本それぞれの具体レバーへ落とす構成で 5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) の語彙摩耗を回避。重複 3 本 (openhuman 3 日連続 / CLI-Anything 3 日連続 / academic-research-skills 2 日連続) は 05/18 tech-deep 内部実装視点 → 05/19 comparison ポジショニング視点 → 本日 business-angle 金額・工数レバー視点へ語彙完全 3 連切替で連投ペナルティ条件外。最低 30 views (Wed 中位帯)、理想 200 views (Wed 平均圏)、business-angle × Wed セル母数 0→1 での評価日も兼ねる。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。次回柱② 必須要件 (05/22-24) では self-experiment への振り替えを引き続き検討。"
+    "focus": "木曜 (Thu=234 avg 中位曜日) に `use-case` 角度 (柱① 主軸日 / explore 枠 20%、14 日窓未投入 / 全期間 avg 3.00 / n=1) を投入。直近 2 日 (05/20 business-angle / 05/19 comparison) と method 衝突なし。柱② 週次必須要件は 05/20 で本週 (05/18〜24) 既達のため、本日は柱① 主軸で運用可。今日の TOP5 (colbymchenry/codegraph は Claude Code を毎日触るソロ開発者・受託エンジニアの索引 DB / Imbad0202/academic-research-skills は論文書きの大学院生・受託リサーチコンサルの 4 工程パック / tinyhumansai/openhuman は SaaS を束ねたい個人事業主・SoloCTO の統合個人 AI / multica-ai/andrej-karpathy-skills は Claude Code 導入初期チームの作法統一 CLAUDE.md / rohitg00/ai-engineering-from-scratch は AI 案件参入の体系学習教材) は 5/5 が『誰のどの作業シーンで使うか』を持つ use-case の本命素材。特に #1 codegraph が新規 1 位 (9.3k★+1910/d) で 35%トークン減・70%ツール呼び出し減・49%高速化の実測値が時宜性極めて高く、『AI コーディング索引 DB が community OSS で本格化』マクロを冒頭に置き、5 本それぞれの利用シーンへ落とす構成。重複 2 本 (openhuman 5 日連続 / academic-research-skills 4 日連続) は 05/18 tech-deep 内部実装視点 → 05/19 comparison ポジショニング視点 → 05/20 business-angle 金額・工数レバー視点 → 本日 use-case 作業シーン視点へ語彙完全 4 連切替で連投ペナルティ条件外。最低 15 views (Thu 下位帯超え)、理想 150 views (Thu 中位帯)、use-case × Thu セル母数 0→1 での評価日も兼ねる。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。次回柱③ 投入 (05/22-24) では self-experiment 初投入を引き続き検討。"
   }
 }

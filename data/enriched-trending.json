@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "discovery": {
-    "method": "business-angle",
-    "description": "Anthropic が claude-plugins-official でスキル/プラグイン配布を公式化した今週、自社で内製しようとしていた AI エンジニアリングのコストが消えるという時宜性のあるマクロを起点に、TOP5 全 5 本をそれぞれ『月額 SaaS いくら束ねるか・人月いくら削減するか・外注いくらが内製化されるか』の費用・工数レバーで料理する。Primary (CTO/技術選定者) と Secondary (PdM/事業責任者) の稟議書語彙に直撃する business-angle 角度で 5 本横断統一。直近 2 日 (05-19 comparison / 05-18 tech-deep) と method 衝突なし、柱② (business-angle 比率 15%) の週次必須要件を本週 (05-18〜24) Wed 中位曜日帯で達成。重複 3 本 (openhuman 3日連続 / CLI-Anything 3日連続 / academic-research-skills 2日連続) は 05-18 tech-deep『内部実装』→ 05-19 comparison『競合との位置取り』→ 本日『金額・工数レバー』で語彙完全 3 連切替で連投ペナルティ条件外。5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) 対策として『Anthropic 公式が動いた』時宜性フックを冒頭マクロに置き、単純な月額カタログから一歩抜ける。",
+    "method": "use-case",
+    "description": "今日のTOP5を『誰のどの作業シーンで使うか』のユースケース視点で5本横断に料理する。codegraphはClaude Codeで日々中規模リポを読むソロ開発者・受託エンジニアの索引DB、academic-research-skillsは論文を書く大学院生・受託リサーチコンサルが4工程を任せる学術パック、openhumanはNotion/Slack/Gmail等を束ねたい個人事業主・SoloCTOの統合個人AI、multica-ai/andrej-karpathy-skillsはClaude Code導入初期のチームが作法統一に置くCLAUDE.md、ai-engineering-from-scratchはAI案件を受けたいが基礎理論不足を感じる中堅エンジニアの体系学習教材。直近2日(05-20 business-angle / 05-19 comparison)とmethod衝突なし、use-caseは14日窓未投入(全期間n=1、05-03のみ)のexplore枠20%として投入。柱②(business-angle 比率15%)の週次必須要件は本週(05-18〜24)05-20で達成済、本日は柱①(Trending TOP5解説70%)主軸でPrimary(CTO/エンジニア)に『自分の現場で誰がどう使うか』を1動画で配る構成。Thu=234 avgの中位曜日帯で、最低15 views(Thu下位帯超え)、理想150 views(Thu中位帯)を目標。柱③(self-experiment)は次回05-22-24で投入予定として継続検討。重複2本(openhuman 5日連続/academic-research-skills 4日連続)は05-18 tech-deep『内部実装』→05-19 comparison『競合と位置取り』→05-20 business-angle『金額・工数レバー』→本日use-case『誰のどの作業シーンで使うか』の語彙完全4連切替で連投ペナルティ回避。新規3本(colbymchenry/codegraph・multica-ai/andrej-karpathy-skills・rohitg00/ai-engineering-from-scratch)で素材ラインナップを大幅入れ替え、05-14-17で発生した連投0 views事故とは構造的に異なる構成。codegraphはAIコーディング索引DB領域で35%トークン減・70%ツール呼び出し減・49%高速化の実測値があり、本日の本命素材として#1配置。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/tinyhumansai/openhuman",
-      "https://github.com/HKUDS/CLI-Anything",
+      "https://github.com/colbymchenry/codegraph",
       "https://github.com/Imbad0202/academic-research-skills",
-      "https://github.com/obra/superpowers",
-      "https://github.com/anthropics/claude-plugins-official",
-      "https://clau.de/plugin-directory-submission",
-      "https://docs.anthropic.com/en/docs/claude-code/skills"
+      "https://github.com/tinyhumansai/openhuman",
+      "https://github.com/multica-ai/andrej-karpathy-skills",
+      "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "https://docs.anthropic.com/en/docs/claude-code/skills",
+      "https://www.npmjs.com/package/@colbymchenry/codegraph"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "tinyhumansai/openhuman",
-      "name": "openhuman",
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "language": "Rust",
-      "stars": 21002,
-      "todayStars": 3991,
-      "description": "Notion等118連携の統合AI",
-      "detail": "Tauri製のローカル個人AIで、Notion・Slack・Gmail等118 SaaSを1クリックOAuthで束ねます。TokenJuiceで送信トークン最大80%圧縮、Memory Treesでローカル知識ベース化、SaaS月額とAPI課金を同時に削減できます。",
-      "narration": "Notion等のSaaSを1本に束ねるパーソナルAIです。トークン80%圧縮でAPI課金も同時に削減します。"
+      "fullName": "colbymchenry/codegraph",
+      "name": "codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "language": "TypeScript",
+      "stars": 9297,
+      "todayStars": 1910,
+      "description": "AIコーディング用ローカル索引DB",
+      "detail": "tree-sitterで19言語をAST解析しSQLite+FTS5へ索引化、Claude Code・Codex・Cursor・OpenCodeのMCPに直結する。35%コスト減・70%ツール呼び出し減を7リポで実測。MITで100%ローカル動作。",
+      "narration": "Claude Codeで毎日コードを読むエンジニア向けです。ローカル索引でツール呼び出しが70%減ります。"
     },
     {
       "rank": 2,
-      "fullName": "HKUDS/CLI-Anything",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "language": "Python",
-      "stars": 37651,
-      "todayStars": 1027,
-      "description": "18種GUIソフトのCLI自動生成",
-      "detail": "GIMP・Blender・LibreOffice等18種のGUIアプリを7段階パイプラインで自動CLI化するApache 2.0のOSSです。外注していた画像・3D・ドキュメント編集をエージェントが直接叩ける形に内製化、運用コストを圧縮します。",
-      "narration": "GIMP等18種ソフトを自動でCLI化するツールです。外注していた画像・3D編集を社内エージェント化できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "Imbad0202/academic-research-skills",
       "name": "academic-research-skills",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "language": "Python",
-      "stars": 14041,
-      "todayStars": 3184,
-      "description": "Claude Code向け論文スキル",
-      "detail": "研究・執筆・査読・改稿の4工程を13・12・7エージェントで回すClaude Code向けスキル集です。CC-BY-NC4.0で商用は不可ですが、社内R&Dや学術受託の文献調査工数を一気に削減できます。",
-      "narration": "Claude Codeを論文向けに特化させるスキル集です。CC-BY-NCで商用不可、学術受託の調査工数を削減できます。"
+      "stars": 16048,
+      "todayStars": 1639,
+      "description": "Claude Code論文4工程スキル",
+      "detail": "research→write→review→revise→finalizeの4工程を13・12・7エージェントの計42本体制で回す学術パック。文献調査・引用検証・査読・改訂追跡を包括。CC-BY-NC4.0で商用不可。",
+      "narration": "論文を書く大学院生や研究者向けです。4工程をClaude Codeに任せられますが商用利用は不可です。"
+    },
+    {
+      "rank": 3,
+      "fullName": "tinyhumansai/openhuman",
+      "name": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "language": "Rust",
+      "stars": 23536,
+      "todayStars": 3603,
+      "description": "118 SaaS統合の個人AIハブ",
+      "detail": "Notion・Slack・Gmail・GitHub等118サードパーティをOAuth1クリックで束ね、Memory Treesで持続記憶しTokenJuiceで送信トークンを最大80%圧縮するRust製ローカルエージェント。GPL-3.0。",
+      "narration": "NotionやSlackを1つの個人AIに集約したい人向けです。118個のSaaSをローカルで動かせます。"
     },
     {
       "rank": 4,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 198304,
-      "todayStars": 1620,
-      "description": "TDD強制の開発手法skill集",
-      "detail": "AIエージェントにブレスト・計画・TDD・コードレビューの7段階を強制するMITのskillパックです。Claude Code・Cursor・Codex CLI等7環境対応、受託案件のレビュー工数とテスト漏れリスクを構造的に削減します。",
-      "narration": "Claude Code等にTDDと計画を強制する開発手法パックです。受託のレビュー工数とテスト漏れリスクを減らします。"
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "name": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "language": "Markdown",
+      "stars": 140669,
+      "todayStars": 2620,
+      "description": "Karpathy式CLAUDE.md指針集",
+      "detail": "LLMが黙って仮定する・過剰実装する・無関係箇所を触る・成功条件が曖昧の4つの罠を、思考の言語化・最小実装・外科手術的変更・検証ループの4原則で潰すCLAUDE.md。Cursorルール同梱、プラグイン提供。MIT。",
+      "narration": "Claude Code初心者のチーム向けです。Karpathyの4原則をCLAUDE.mdに置けば提案品質が上がります。"
     },
     {
       "rank": 5,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "language": "Python",
-      "stars": 20133,
-      "todayStars": 127,
-      "description": "Anthropic公式プラグイン集",
-      "detail": "Anthropicが審査・配布するClaude Code公式プラグインの集約ディレクトリです。`/plugin install`一発で導入でき、社内Claude Code環境の立ち上げ工数とセキュリティレビュー工数を分単位まで圧縮できます。",
-      "narration": "Anthropic公式のClaude Codeプラグイン集です。社内導入の立ち上げ工数を分単位まで圧縮できます。"
+      "stars": 9472,
+      "todayStars": 762,
+      "description": "AIを基礎から学ぶ20フェーズ教材",
+      "detail": "数学→古典ML→DL→LLM→エージェント→Safetyを20フェーズ435レッスン320時間で網羅。各レッスンが問題→数学→実装→運用の6ビート構成で、Skill/MCP化された373の成果物が付属。MIT。",
+      "narration": "AIを体系的に学び直したいエンジニア向けです。20フェーズ435レッスンで数学から本番運用まで網羅です。"
     }
   ]
 }
