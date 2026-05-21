@@ -1404,7 +1404,7 @@
         "views": 6,
         "likes": 2,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
+        "updatedAt": "2026-05-20T23:58:55.859Z"
       }
     },
     {
@@ -2012,6 +2012,66 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 1,
+        "comments": 0,
+        "updatedAt": "2026-05-20T23:58:55.859Z"
+      }
+    },
+    {
+      "videoId": "G1_BfiJzj30",
+      "videoUrl": "https://youtube.com/shorts/G1_BfiJzj30",
+      "date": "2026-05-21",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/21 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin",
+        "C++",
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Markdown"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Markdown"
+      ],
+      "projects": [
+        "colbymchenry/codegraph",
+        "Imbad0202/academic-research-skills",
+        "tinyhumansai/openhuman",
+        "multica-ai/andrej-karpathy-skills",
+        "rohitg00/ai-engineering-from-scratch"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "use-case",
+        "description": "今日のTOP5を『誰のどの作業シーンで使うか』のユースケース視点で5本横断に料理する。codegraphはClaude Codeで日々中規模リポを読むソロ開発者・受託エンジニアの索引DB、academic-research-skillsは論文を書く大学院生・受託リサーチコンサルが4工程を任せる学術パック、openhumanはNotion/Slack/Gmail等を束ねたい個人事業主・SoloCTOの統合個人AI、multica-ai/andrej-karpathy-skillsはClaude Code導入初期のチームが作法統一に置くCLAUDE.md、ai-engineering-from-scratchはAI案件を受けたいが基礎理論不足を感じる中堅エンジニアの体系学習教材。直近2日(05-20 business-angle / 05-19 comparison)とmethod衝突なし、use-caseは14日窓未投入(全期間n=1、05-03のみ)のexplore枠20%として投入。柱②(business-angle 比率15%)の週次必須要件は本週(05-18〜24)05-20で達成済、本日は柱①(Trending TOP5解説70%)主軸でPrimary(CTO/エンジニア)に『自分の現場で誰がどう使うか』を1動画で配る構成。Thu=234 avgの中位曜日帯で、最低15 views(Thu下位帯超え)、理想150 views(Thu中位帯)を目標。柱③(self-experiment)は次回05-22-24で投入予定として継続検討。重複2本(openhuman 5日連続/academic-research-skills 4日連続)は05-18 tech-deep『内部実装』→05-19 comparison『競合と位置取り』→05-20 business-angle『金額・工数レバー』→本日use-case『誰のどの作業シーンで使うか』の語彙完全4連切替で連投ペナルティ回避。新規3本(colbymchenry/codegraph・multica-ai/andrej-karpathy-skills・rohitg00/ai-engineering-from-scratch)で素材ラインナップを大幅入れ替え、05-14-17で発生した連投0 views事故とは構造的に異なる構成。codegraphはAIコーディング索引DB領域で35%トークン減・70%ツール呼び出し減・49%高速化の実測値があり、本日の本命素材として#1配置。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/colbymchenry/codegraph",
+          "https://github.com/Imbad0202/academic-research-skills",
+          "https://github.com/tinyhumansai/openhuman",
+          "https://github.com/multica-ai/andrej-karpathy-skills",
+          "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "https://docs.anthropic.com/en/docs/claude-code/skills",
+          "https://www.npmjs.com/package/@colbymchenry/codegraph"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2020,15 +2080,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-19",
-      "changes": [
-        "Kotlin: 0.7x avg views → drop",
-        "standard: 555 avg views (13 videos)",
-        "Day performance: Fri=1048, Tue=916, Thu=691, Wed=525, Sat=300, Mon=129, Sun=0"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-19",
       "changes": [
@@ -2349,6 +2400,20 @@
         "standard: 206 avg views (40 videos)",
         "Trending languages: Kotlin (1.9x), C++ (2.6x), Jupyter Notebook (1.9x)",
         "Day performance: Tue=432, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-20",
+      "changes": [
+        "Kotlin: 1.3x avg views → boost",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Go: 0.5x avg views → drop",
+        "standard: 201 avg views (41 videos)",
+        "Trending languages: Kotlin (2.0x), C++ (2.6x), Jupyter Notebook (1.9x)",
+        "Day performance: Tue=432, Fri=413, Thu=234, Wed=214, Sat=104, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
