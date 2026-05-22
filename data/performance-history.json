@@ -1458,7 +1458,7 @@
         "views": 1,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "views": 5,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "views": 6,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
+        "updatedAt": "2026-05-22T23:54:27.651Z"
       }
     },
     {
@@ -2131,6 +2131,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-05-22T23:54:27.651Z"
+      }
+    },
+    {
+      "videoId": "XLFiBTa6TEI",
+      "videoUrl": "https://youtube.com/shorts/XLFiBTa6TEI",
+      "date": "2026-05-23",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/23 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "projects": [
+        "anthropics/claude-plugins-official",
+        "colbymchenry/codegraph",
+        "ruvnet/RuView",
+        "rohitg00/ai-engineering-from-scratch",
+        "ChromeDevTools/chrome-devtools-mcp"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『何の代替か』の比較視点で5本横断に料理する。各リポは明確に異なる縦割り(プラグイン配布/コード索引/空間センシング/AI教材/ブラウザMCP)だが、5本すべてが既存解への対抗OSSという共通項を持つ。#1 anthropics/claude-plugins-official=個別Marketplace/npm registryに代わるAnthropic公式の集約点・/plugin install一発導入 / #2 colbymchenry/codegraph=Sourcegraph・Cody代替を完全ローカルで実現・tree-sitter+SQLite+MCP、7リポ実測で59%トークン減・70%ツール呼び出し減・49%高速化 / #3 ruvnet/RuView=カメラ・レーダー・PIRに代わるWiFi CSIベース見守り・$9のESP32-S3とCognitum Seedで17関節姿勢/呼吸/心拍を非接触取得・GDPR/HIPAA配慮 / #4 rohitg00/ai-engineering-from-scratch=Andrew Ng・fast.aiに対しMITで20フェーズ・435レッスン・約320時間・PyTorch前に逆伝播を自分で書く数学先行カリキュラム / #5 ChromeDevTools/chrome-devtools-mcp=Playwright MCP・browser-useに対しPuppeteer+CDP直結で43ツールをMCPに分解・性能トレース/ネットワーク/ヒープ解析まで呼べる。直近2日(05-22 trend-pattern / 05-21 use-case)とmethod衝突なし、comparisonは最終投入05-19から4日空き、全期間平均TOP4(4.3、サンプル6)。素材適合度5/5(全リポが明確な競合OSS/有償サービスを持ち、各READMEで競合言及が明示)。Primaryペルソナ(CTO/技術選定者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。柱②週次必須要件は05-20で本週(05-18〜24)既達のため、本日は柱①主軸で運用。重複3本(claude-plugins-official 2日連続・codegraph 3日連続・ai-engineering-from-scratch 2日連続)は05-22 trend-pattern『なぜ今週このレイヤーが標準化したか』および05-21 use-case『誰の作業シーンで使うか』から本日comparison『何の代替か』へ語彙完全切替で連投ペナルティ回避。Sat=6 avgの最下位曜日帯、最低3 views(過去Sat下位帯超え)、理想15 views(Sat上位帯=05-09=5の再現を狙う)を目標。注記: 14日窓のmethod平均差(0〜3 views)はn≤4・silent fail汚染で統計的に有意でなく、本選定はノイズ上の運用判断と本日素材の例外的なcomparison適合度を主根拠とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/anthropics/claude-plugins-official",
+          "https://github.com/colbymchenry/codegraph",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "https://clau.de/plugin-directory-submission",
+          "https://www.npmjs.com/package/@colbymchenry/codegraph",
+          "https://crates.io/crates/wifi-densepose-ruvector",
+          "https://www.npmjs.com/package/chrome-devtools-mcp"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2139,15 +2196,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-20",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "standard: 506 avg views (15 videos)",
-        "Day performance: Fri=1225, Tue=916, Thu=692, Wed=525, Sat=300, Mon=86, Sun=7"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-21",
       "changes": [
@@ -2477,6 +2525,20 @@
         "standard: 197 avg views (42 videos)",
         "Trending languages: Kotlin (2.0x), C++ (2.7x), Jupyter Notebook (2.0x)",
         "Day performance: Tue=432, Fri=413, Wed=214, Thu=201, Sat=104, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-22",
+      "changes": [
+        "Rust: 0.6x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.6x avg views → drop",
+        "standard: 192 avg views (43 videos)",
+        "Trending languages: Kotlin (2.1x), C++ (2.7x), Jupyter Notebook (2.0x)",
+        "Day performance: Tue=432, Fri=354, Wed=214, Thu=201, Sat=104, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
