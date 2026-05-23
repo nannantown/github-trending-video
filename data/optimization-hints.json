@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23",
+  "updatedAt": "2026-05-24",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -24,81 +24,78 @@
       "date": "2026-05-11",
       "views": 6,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05/09-05/22): comparison 2.0 avg n=4 (05/10=2・05/11=6・05/16=0 silent fail・05/19=0 計測短期) / business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2 計測短期) / ecosystem 3.0 avg n=2 (05/08 windowing 外/05/09=5・06/10 過去/05/09=5・05/08=1 一部窓内) / trend-pattern 0.0 avg n=2 (05/17=0 silent fail・05/22=0 計測短期) / tech-deep 0.0 avg n=1 (05/18 計測短期) / use-case 0.0 avg n=1 (05/21 計測短期) / self-experiment 43 本中未投入。重要注記: 14 日窓は全 method が 0〜3 views・母数 n≤4・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。4 月の新規アカウント初動ブースト (avg 521・最大 2011) 消失後、5 月は method を変えても 0〜6 views で横ばい = 構造的な露出崩落が本質課題。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用し、別軸 (投稿時刻・サムネ・初速フック・ハッシュタグ設計) の検証を strategy へ提案済。本日 05/23 (Sat=6 avg 最下位曜日) は method=comparison を起用。今日の TOP5 は 5 つの完全に異なる縦割り (プラグイン配布/コード索引/空間センシング/AI 教材/ブラウザ MCP) だが、5 本すべてが明確な競合 OSS/有償サービスを持つという共通項 (claude-plugins-official=個別 Marketplace の代替 / codegraph=Sourcegraph 代替 / RuView=カメラ・レーダー代替 / ai-engineering-from-scratch=Andrew Ng・fast.ai 代替 / chrome-devtools-mcp=Playwright MCP との差別化) で comparison 角度の素材適合度 5/5。最低 3 views (Sat 下位帯超え)、理想 15 views (Sat 上位帯=05-09=5 の再現超え) を目標。"
+      "note": "Method 別平均 (14 日窓 05/10-05/23): ecosystem 3.0 avg n=2 (05/08=1・05/09=5) / use-case 2.0 avg n=1 (05/21=2) / business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2 計測短期) / comparison 1.6 avg n=5 (05/10=2・05/11=6・05/16=0 silent fail・05/19=0・05/23=0 計測短期) / trend-pattern 0.5 avg n=2 (05/17=0 silent fail・05/22=1 計測短期) / tech-deep 0.0 avg n=1 (05/18 計測短期) / self-experiment 全期間未投入。重要注記: 14 日窓は全 method が 0〜3 views・母数 n≤5・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。4 月の新規アカウント初動ブースト消失後、5 月は method を変えても 0〜6 views で横ばい = 構造的な露出崩落が本質課題。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用する。本日 05/24 (Sun=7 avg 下から 2 番目) は method=ecosystem を起用。今日の TOP5 のうち #1 Understand-Anything / #2 claude-plugins-official / #3 codegraph の 3 本が Claude Code / Cursor / Codex / opencode 等 AI エディタエコシステムへの plug-in であり、ecosystem 角度の素材適合度が極めて高い (3/5 が直接適合、#4 教材が AI ツール群網羅、#5 が金融データエコシステム統合で広義の ecosystem 適合)。最低 3 views (Sun 下位帯超え)、理想 10 views (Sun 上位帯超え) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は土曜 (Sat=6 avg 最下位曜日)。週末の Primary ペルソナ GitHub 巡回時間帯が分散する低 stakes 曜日。最低 3 views (Sat 下位帯超え)、理想 15 views (Sat 上位帯=05-09=5 の再現超え) を目標",
-      "新規 2 本 (RuView・chrome-devtools-mcp) + 重複 3 本 (claude-plugins-official 2 日連続・codegraph 3 日連続・ai-engineering-from-scratch 2 日連続) 構成。重複 3 本は 05/21 use-case / 05/22 trend-pattern → 本日 comparison『何の代替か』へ角度を完全切替"
+      "本日は日曜 (Sun=7 avg 下から 2 番目)。週末で Primary ペルソナのキャッチアップ需要は弱め、低 stakes 曜日。最低 3 views、理想 10 views を目標",
+      "新規 3 本 (Understand-Anything・claude-plugins-official 2 日連続継続・FinceptTerminal) + 重複 2 本 (codegraph 4 日連続・ai-engineering-from-scratch 3 日連続) 構成。重複 2 本は前日 05/23 comparison『何の代替か』→ 本日 ecosystem『どの周辺ツールに刺さるか』へ語彙完全切替で連投ペナルティ回避"
     ],
     "hashtags": [
-      "Sat=6 avg 最下位曜日 + comparison 角度のため、Primary (CTO/技術選定者) の意思決定語彙を厚く: #技術選定 #OSS比較 #代替OSS #ローカル開発 #SaaS依存削減 #プライバシー配慮 #フルローカル",
-      "comparison 角度のため、5 本それぞれの競合キーワードを明示的に強化: #ClaudeCode #Sourcegraph #Cursor #PlaywrightMCP #MCP #DevTools #CDP #CLAUDEmd #WiFiセンシング #IoT",
-      "領域タグ (5 本のカテゴリ): #公式プラグイン #コード索引 #WiFiセンシング #AI教材 #ブラウザMCP",
-      "言語タグは Python (2 本: claude-plugins-official, ai-engineering-from-scratch) / TypeScript (2 本: codegraph, chrome-devtools-mcp) / Rust (1 本: RuView)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust (0.6x) は控えめ運用",
-      "前日 05/22 (trend-pattern 角度) の『〜の波が来ています』『標準が横断し始めています』マクロ動勢構文からは距離を置き、本日は『〜に代わり』『〜と違い』『〜なしで』など対抗構文へ完全切替",
-      "comparison 角度でも『○○は終わった』『○○を超えた』『○○キラー』煽りは戦略 NG パターン違反のため厳禁。『〜に代わる』『〜を完全ローカルで』『〜なしで』など中性的な選択肢提示語彙に統一"
+      "Sun=7 avg 下から 2 番目曜日 + ecosystem 角度のため、Primary (CTO/技術選定者) の AI スタック判断語彙を厚く: #AIスタック #技術選定 #開発環境 #エコシステム #プラグイン #MCP",
+      "ecosystem 角度のため、5 本それぞれが繋がる先のプロダクト名を明示: #ClaudeCode #Cursor #Codex #opencode #VSCode #Copilot #GeminiCLI",
+      "領域タグ (5 本のカテゴリ): #知識グラフ #公式プラグイン #コード索引 #AI教材 #金融端末",
+      "言語タグは Python (3 本: claude-plugins-official, ai-engineering-from-scratch, FinceptTerminal) / TypeScript (2 本: Understand-Anything, codegraph)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust は本日不在",
+      "前日 05/23 (comparison 角度) の『〜に代わり』『〜と違い』対抗構文からは距離を置き、本日は『〜に繋がる』『〜から読める』『〜で動く』など接続構文へ完全切替",
+      "ecosystem 角度でも『○○が標準』『○○一強』断定は戦略 NG パターン違反のため厳禁。『〜に刺さる』『〜と組み合わせる』『〜の上で動く』など中性的な統合語彙に統一"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 279 文字 (57+58+47+59+58)、TTS で約 36-40 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Anthropic, Marketplace, Sourcegraph, Claude Code, Cursor, WiFi, Andrew Ng, fast.ai, Playwright MCP, DevTools)",
-      "comparison 角度の一貫性: 5 本すべてに『代わり』『対抗』『無い』『より』『違い』のいずれか比較語を入れ、1 文目で『何の代替か』、2 文目で具体的な機能/数値レバー (約 70%減・17 関節・435 レッスン 等) を 1 つ挙げる 2 文構成",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度でも『6 万スター』等の数値は detail 側へ寄せ、narration は『非接触で取れます』など機能特性で扱う",
-      "数値表現はアラビア数字統一 (59%・70%・17 関節・20 フェーズ・43 ツール・435 レッスン)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (52+53+59+54+57)、TTS で約 36-40 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Claude Code, Cursor, Codex, opencode, Anthropic, MCP, agents, SQLite, FTS5, PyTorch, LangGraph, Claude SDK, Bloomberg Terminal)",
+      "ecosystem 角度の一貫性: 5 本すべてに『繋がる』『読める』『載る』『刺さる』『組み込む』のいずれか接続語を入れ、1 文目で『何の AI/データ環境に乗るか』、2 文目で具体的な統合先 (Claude Code / Cursor / Bloomberg 等) を 1 つ挙げる 2 文構成",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem 角度でも『2 万スター』等の数値は detail 側へ寄せ、narration は『繋がる』『共有できる』など接続特性で扱う",
+      "数値表現はアラビア数字統一 (35%・70%・20 フェーズ・435 レッスン・100 以上・16 社・8 つ)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (柱① 主軸日 / 運用ルール充足型、全期間 method 平均 TOP4 4.3・サンプル 6)。直近 2 日 (05/22 trend-pattern / 05/21 use-case) と method 衝突なし、最終投入 05/19 から 4 日空き。柱② 週次必須要件は 05/20 で本週 (05/18〜24) 既達のため、本日は柱① 主軸で運用",
-      "今日の TOP5 は 5 つの完全に異なる縦割り素材: anthropics/claude-plugins-official (Python / 24,774★ / +2,556・Anthropic 公式の Claude Code プラグイン配布所、/plugins と /external_plugins の 2 階層、/plugin install 一発導入 + Web フォーム経由のディレクトリ申請) / colbymchenry/codegraph (TypeScript / 16,394★ / +3,688・tree-sitter で 19 言語 AST 解析 + SQLite FTS5 + MCP 8 ツール、7 リポ実測 59%トークン減・70%ツール呼び出し減・49%高速化、14 フレームワークの routing 自動検出、MIT) / ruvnet/RuView (Rust / 63,963★ / +992・WiFi CSI 56 サブキャリア × 3 チャネル = 168 仮想サブキャリアで Transformer+GNN・12.2M ステップ事前学習、17 関節姿勢/呼吸 6-30BPM/心拍 40-120BPM 非接触取得、$9 ESP32-S3 + Cognitum Seed BOM 約$140、MIT) / rohitg00/ai-engineering-from-scratch (Python / 11,811★ / +988・20 フェーズ・435 レッスン・約 320 時間・Phase 14 で 120 行のエージェントループ実装・Andrew Ng/fast.ai より数学から踏み込む 4 言語 (Python/TypeScript/Rust/Julia) 構成、MIT) / ChromeDevTools/chrome-devtools-mcp (TypeScript / 40,938★ / +499・Puppeteer+CDP で 43 ツール 10 カテゴリ・性能トレース/ネットワーク/ヒープ解析、Chrome 144+ で auto-connect、Google 公式の Chrome DevTools チーム監修)",
-      "本日のマクロ核: 5 つの異なるレイヤーで OSS が既存解を抜き始めた週として読む。Anthropic 公式ディレクトリ (claude-plugins-official) が個別 Marketplace を束ね、ローカル索引 DB (codegraph) が Sourcegraph を抜き、WiFi 信号 (RuView) がカメラを置き換え、from-scratch 教材 (ai-engineering-from-scratch) が有料スクールを抜き、DevTools MCP (chrome-devtools-mcp) が Playwright MCP に並ぶ。冒頭マクロで『5 本の対抗 OSS が同時に来た日』フックを置き、5 本それぞれを『何の代替か』で接続",
-      "Primary (CTO/技術選定者) には『何を捨てて何を入れるか』の選択肢カタログとして直撃。Secondary (PdM/事業責任者) には『SaaS 月額・有料スクール・専用ハードが OSS に置き換わる業界地図』として、Tertiary (学習中エンジニア) には『#4 ai-engineering-from-scratch の数学先行カリキュラム』入口として届く 3 層対応",
-      "重複 3 本の角度切替: claude-plugins-official は 05/22 trend-pattern『なぜ今週このレイヤーが標準化したか』→ 本日 comparison『個別 Marketplace に代わる Anthropic 公式の集約点』。codegraph は 05/21 use-case『毎日コードを読むソロ開発者の索引 DB』→ 05/22 trend-pattern『エージェント索引基盤の急増 (本日も +3,688/d で継続急増)』→ 本日 comparison『Sourcegraph 代替を完全ローカルで実現』へ 3 連語彙切替。ai-engineering-from-scratch は 05/21 use-case『AI 案件を受けたい中堅エンジニアの体系学習教材』→ 本日 comparison『Andrew Ng・fast.ai より数学から踏み込む』へ語彙完全切替。連投ペナルティ回避",
-      "5 本のライセンスは MIT 4 本 (codegraph・RuView・ai-engineering-from-scratch・chrome-devtools-mcp) + claude-plugins-official は各プラグイン個別ライセンス。comparison 角度では商用受託への組み込みやすさ (MIT 中心 = 4/5) が暗黙的に Primary ペルソナへ訴求するため、detail で license 明示は不要だが narration から外す",
-      "method PDCA の限界を運用に織り込む (2 日連続適用): 14 日窓 method 平均は全て 0〜3 views・n≤4・silent fail 汚染で有意差なし。本日の comparison 採用は『勝ち method だから』ではなく『今日の素材が comparison に例外的に適合し (5/5 が明確な競合を持つ)、連投回避・柱比率の運用ルールを満たすから』。この判断軸を docs/pdca/2026-05-23.md の戦略更新提案で恒久化提案中",
-      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19/20/21/22 でも継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "次回以降の explore 候補 (継続): `platform-strategy` (Anthropic vs Microsoft vs OpenAI のスキル標準覇権争い) が claude-plugins-official 継続登場で本命のまま。`first-impression` (柱③ の現実的代替) は本日 codegraph (npm 1 コマンド) と chrome-devtools-mcp (npx 1 コマンド) が揃っており、次回低 stakes 曜日で初回投入を検討"
+      "本日の discovery.method は `ecosystem` (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の 3.0・サンプル n=2)。直近 2 日 (05/23 comparison / 05/22 trend-pattern) と method 衝突なし、最終投入 05/09 から 15 日空きで鮮度十分。柱② 週次必須要件は 05/20 business-angle で本週 (05/18〜24) 既達のため、本日は柱① 主軸で運用",
+      "今日の TOP5 (Lum1104/Understand-Anything=TypeScript / 21,312★ / +2,331・8 系統 AI エディタ向け知識グラフ / anthropics/claude-plugins-official=Python / 26,369★ / +2,172・Anthropic 公式 Claude Code プラグイン市場 / colbymchenry/codegraph=TypeScript / 19,293★ / +2,434・Claude Code 用ローカル索引 SQLite+FTS5 / rohitg00/ai-engineering-from-scratch=Python / 13,654★ / +1,523・20 フェーズ 435 レッスン AI 教材 / Fincept-Corporation/FinceptTerminal=Python / 23,097★ / +537・C++20 ネイティブの OSS 金融端末) のうち上位 3 本が AI エディタエコシステムへの plug-in 系で素材適合度が極めて高い",
+      "本日のマクロ核: 『AI コーディングエコシステムが標準化フェーズに入った日』として読む。Anthropic 公式 (claude-plugins-official) が公式市場を立て、Lum1104 (Understand-Anything) が 8 エディタ横断グラフを配り、colbymchenry (codegraph) が事前 index DB を入れ、3 本ともが同じ AI エディタ群 (Claude Code / Cursor / Codex / opencode / Copilot / Gemini CLI) を共通プラットフォームとして前提にしている。冒頭マクロで『AI エディタが共通基盤になった』フックを置き、5 本を『どの基盤に乗るか』軸で接続",
+      "Primary (CTO/技術選定者) には『自社の Claude Code / Cursor スタックに何を追加すれば一段加速するか』のカタログとして直撃。Secondary (PdM/事業責任者) には『AI 開発環境が固まり始めた業界地図』として、Tertiary (学習中エンジニア) には『#4 ai-engineering-from-scratch の縦カリキュラム』入口として届く 3 層対応",
+      "重複 2 本の角度切替: codegraph は 05/21 use-case → 05/22 trend-pattern → 05/23 comparison → 本日 ecosystem へ 4 連語彙切替 (本日は『Claude Code・Cursor・Codex・opencode・Hermes Agent に MCP で繋ぐ』接続軸に統一)。ai-engineering-from-scratch は 05/21 use-case → 05/23 comparison → 本日 ecosystem (PyTorch から LangGraph・Claude SDK まで網羅する縦の繋ぎ) へ語彙完全切替。連投ペナルティ回避",
+      "5 本のライセンスは MIT/Apache 系が中心で商用受託への組み込みやすさを暗黙的に Primary ペルソナへ訴求。ただし FinceptTerminal は AGPL-3.0 で SaaS 組み込みは制約があるため、narration では『代替候補』までで留め、組み込み難易度は detail で言及せず読者の判断に委ねる",
+      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜3 views・n≤5・silent fail 汚染で有意差なし。本日の ecosystem 採用は『平均 TOP method だから』を Meta-PDCA の名目根拠としつつ、実質判断は『今日の素材の 3/5 が AI エディタエコシステム plug-in で角度適合度が極めて高い』+『運用ルール (連投回避・柱比率) 充足』で確定。この判断軸を docs/pdca/2026-05-24.md にも明記",
+      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19-23 で継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "次回以降の explore 候補: 提案中の `stack-fit` (Primary ペルソナの『今のスタックに足す 1 OSS』指名買い視点・ecosystem の発展形)、`monetize-angle` (business-angle 強化版で人月換算の見積もり提示)。Phase 1 のフォロワー獲得を支える運用は引き続き ecosystem / use-case / business-angle のローテーション主軸で組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-23",
-    "dayOfWeek": "Sat",
+    "date": "2026-05-24",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
+      "AIスタック",
       "技術選定",
-      "OSS比較",
-      "代替OSS",
-      "ローカル開発",
-      "SaaS依存削減",
-      "プライバシー配慮",
-      "フルローカル",
-      "ClaudeCode",
-      "Sourcegraph",
-      "Cursor",
-      "PlaywrightMCP",
+      "開発環境",
+      "エコシステム",
+      "プラグイン",
       "MCP",
-      "DevTools",
-      "CDP",
-      "CLAUDEmd",
-      "WiFiセンシング",
-      "IoT",
+      "ClaudeCode",
+      "Cursor",
+      "Codex",
+      "opencode",
+      "VSCode",
+      "Copilot",
+      "GeminiCLI",
+      "知識グラフ",
       "公式プラグイン",
       "コード索引",
       "AI教材",
-      "ブラウザMCP",
+      "金融端末",
       "Anthropic",
-      "Google",
+      "PyTorch",
+      "LangGraph",
       "Python",
       "TypeScript",
-      "Rust",
       "CTO",
       "PdM",
       "個人開発"
     ],
-    "focus": "土曜 (Sat=6 avg 最下位曜日) に `comparison` 角度 (柱① 主軸日 / 運用ルール充足型、全期間 method 平均 TOP4 4.3・サンプル 6) を投入。直近 2 日 (05/22 trend-pattern / 05/21 use-case) と method 衝突なし、最終投入 05/19 から 4 日空き。柱② 週次必須要件は 05/20 で本週 (05/18〜24) 既達のため本日は柱① 主軸で運用可。今日の TOP5 (anthropics/claude-plugins-official=Anthropic 公式プラグインディレクトリ・本日 +2,556 / colbymchenry/codegraph=tree-sitter+SQLite+MCP のローカル索引 DB・本日 +3,688 で 3 日連続急増 / ruvnet/RuView=WiFi CSI ベースの非画像見守りシステム / rohitg00/ai-engineering-from-scratch=20 フェーズ・435 レッスンの数学先行 AI 実装教材 / ChromeDevTools/chrome-devtools-mcp=Puppeteer+CDP 直結の Chrome DevTools MCP) は 5 つの完全に異なる縦割り素材だが、5 本すべてが明確な競合 OSS/有償サービスを持つという共通項で comparison 角度の素材適合度 5/5。Anthropic 公式が個別 Marketplace を束ね、ローカル索引 DB が Sourcegraph を抜き、WiFi 信号がカメラを置き換え、from-scratch 教材が有料スクールを抜き、DevTools MCP が Playwright MCP に並ぶ『5 本の対抗 OSS が同時に来た日』を冒頭マクロに置き 5 本を貫く。重複 3 本 (claude-plugins-official 2 日連続 / codegraph 3 日連続 / ai-engineering-from-scratch 2 日連続) は 05/22 trend-pattern『なぜ今週このレイヤーが標準化したか』および 05/21 use-case『誰の作業シーンで使うか』から本日 comparison『何の代替か』へ角度を完全切替し連投ペナルティ回避。注記: 14 日窓の method 平均差は n≤4・silent fail 汚染で統計的に有意でなく、本選定はノイズ上の運用判断と本日素材の例外的な comparison 適合度を主根拠とする (05/22 PDCA で導入した運用ルールを 2 日連続適用)。最低 3 views (Sat 下位帯超え)、理想 15 views (Sat 上位帯=05-09=5 の再現超え) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "日曜 (Sun=7 avg 下から 2 番目曜日) に `ecosystem` 角度 (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の 3.0・サンプル n=2) を投入。直近 2 日 (05/23 comparison / 05/22 trend-pattern) と method 衝突なし、最終投入 05/09 から 15 日空きで鮮度十分。柱② 週次必須要件は 05/20 business-angle で本週 (05/18〜24) 既達のため本日は柱① 主軸で運用可。今日の TOP5 (Lum1104/Understand-Anything=8 系統 AI エディタ向け知識グラフ・本日 +2,331 / anthropics/claude-plugins-official=Anthropic 公式 Claude Code プラグイン市場・本日 +2,172 で 2 日連続継続 / colbymchenry/codegraph=Claude Code 用ローカル索引 SQLite+FTS5・本日 +2,434 で 4 日連続継続 / rohitg00/ai-engineering-from-scratch=20 フェーズ 435 レッスン AI 教材・本日 +1,523 で 3 日連続継続 / Fincept-Corporation/FinceptTerminal=OSS 版 Bloomberg Terminal・本日 +537) は上位 3 本が AI エディタエコシステムへの plug-in 系 (Claude Code / Cursor / Codex / opencode / Copilot / Gemini CLI に繋がる) で ecosystem 角度の素材適合度が極めて高い。Anthropic 公式が公式市場を立て、Lum1104 が 8 エディタ横断グラフを配り、colbymchenry が事前 index DB を入れる『AI エディタが共通基盤になった日』を冒頭マクロに置き 5 本を貫く。重複 2 本 (codegraph 4 日連続 / ai-engineering-from-scratch 3 日連続) は前日 05/23 comparison『何の代替か』から本日 ecosystem『どの周辺ツールに乗るか』へ角度完全切替し連投ペナルティ回避。注記: 14 日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な ecosystem 適合度を併用根拠とする。最低 3 views (Sun 下位帯超え)、理想 10 views (Sun 上位帯超え) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
