@@ -1,19 +1,17 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『何の代替か』の比較視点で5本横断に料理する。各リポは明確に異なる縦割り(プラグイン配布/コード索引/空間センシング/AI教材/ブラウザMCP)だが、5本すべてが既存解への対抗OSSという共通項を持つ。#1 anthropics/claude-plugins-official=個別Marketplace/npm registryに代わるAnthropic公式の集約点・/plugin install一発導入 / #2 colbymchenry/codegraph=Sourcegraph・Cody代替を完全ローカルで実現・tree-sitter+SQLite+MCP、7リポ実測で59%トークン減・70%ツール呼び出し減・49%高速化 / #3 ruvnet/RuView=カメラ・レーダー・PIRに代わるWiFi CSIベース見守り・$9のESP32-S3とCognitum Seedで17関節姿勢/呼吸/心拍を非接触取得・GDPR/HIPAA配慮 / #4 rohitg00/ai-engineering-from-scratch=Andrew Ng・fast.aiに対しMITで20フェーズ・435レッスン・約320時間・PyTorch前に逆伝播を自分で書く数学先行カリキュラム / #5 ChromeDevTools/chrome-devtools-mcp=Playwright MCP・browser-useに対しPuppeteer+CDP直結で43ツールをMCPに分解・性能トレース/ネットワーク/ヒープ解析まで呼べる。直近2日(05-22 trend-pattern / 05-21 use-case)とmethod衝突なし、comparisonは最終投入05-19から4日空き、全期間平均TOP4(4.3、サンプル6)。素材適合度5/5(全リポが明確な競合OSS/有償サービスを持ち、各READMEで競合言及が明示)。Primaryペルソナ(CTO/技術選定者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。柱②週次必須要件は05-20で本週(05-18〜24)既達のため、本日は柱①主軸で運用。重複3本(claude-plugins-official 2日連続・codegraph 3日連続・ai-engineering-from-scratch 2日連続)は05-22 trend-pattern『なぜ今週このレイヤーが標準化したか』および05-21 use-case『誰の作業シーンで使うか』から本日comparison『何の代替か』へ語彙完全切替で連投ペナルティ回避。Sat=6 avgの最下位曜日帯、最低3 views(過去Sat下位帯超え)、理想15 views(Sat上位帯=05-09=5の再現を狙う)を目標。注記: 14日窓のmethod平均差(0〜3 views)はn≤4・silent fail汚染で統計的に有意でなく、本選定はノイズ上の運用判断と本日素材の例外的なcomparison適合度を主根拠とする。",
+    "method": "ecosystem",
+    "description": "本日のTOP5を『どのAIコーディング/データエコシステムにplug-inするか』の周辺接続点視点で横断的に料理する。#1 Understand-Anything=Claude Code/Cursor/VS Code Copilot/Codex/Gemini CLI/opencode等8系統のAIエディタから読める知識グラフを多言語UI(日本語含む)で配布、JSONグラフをgitとgit-lfsでチーム共有 / #2 anthropics/claude-plugins-official=Anthropic公式が運営するClaude Code向けプラグイン市場、MCPサーバー/agents/skills/commandsを.claude-plugin/plugin.jsonで標準化し/plugin install一発で内製・第三者両方を導入 / #3 colbymchenry/codegraph=Claude Code・Cursor・Codex CLI・opencode・Hermes Agentにプラグインする事前indexed SQLite+FTS5、ネイティブOSのfile watcherで常時最新化、トークン35%減・tool calls 70%減を公称 / #4 rohitg00/ai-engineering-from-scratch=PyTorch・JAX・Hugging Face・vLLM・LangGraph・AutoGen・CrewAI・Claude SDK・OpenAI Agentsまで20フェーズ435レッスンで縦に通すカリキュラム、Kubernetes/Docker/observabilityの本番運用までカバー / #5 Fincept-Corporation/FinceptTerminal=Polygon・Kraken・Yahoo Finance・FRED・IMF・World Bank・AkShare等100以上のデータコネクタと、Alpaca・Interactive Brokers・Zerodha・HyperLiquid等16社のブローカーAPIを単一C++20バイナリに統合、Bloomberg Terminal代替候補。直近2日(05-23 comparison / 05-22 trend-pattern)とmethod衝突なし、ecosystemは最終投入05-09から15日空きで鮮度十分、14日窓method平均TOPの3.0 views(n=2)。柱②週次必須要件は05-20 business-angleで本週(05-18〜24)既達のため、本日は柱①主軸で運用。Primaryペルソナ(CTO/技術選定者)向けに『自社の現在のAIスタック(Claude Code/Cursor/Codex)にどう刺さるか』の意思決定軸で5本とも料理する。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/Lum1104/Understand-Anything",
       "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/colbymchenry/codegraph",
-      "https://github.com/ruvnet/RuView",
       "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "https://github.com/Fincept-Corporation/FinceptTerminal",
       "https://clau.de/plugin-directory-submission",
-      "https://www.npmjs.com/package/@colbymchenry/codegraph",
-      "https://crates.io/crates/wifi-densepose-ruvector",
-      "https://www.npmjs.com/package/chrome-devtools-mcp"
+      "https://modelcontextprotocol.io"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,39 +19,39 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "Lum1104/Understand-Anything",
+      "name": "Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "stars": 21312,
+      "todayStars": 2331,
+      "description": "AIエディタ8種を貫く知識グラフ",
+      "detail": "Claude Code、Cursor、VS Code Copilot、Codex、Gemini CLI、opencodeなど8系統のAIエージェントから読める知識グラフです。JSONグラフをgitとgit-lfsで共有でき、日本語UIにも対応します。",
+      "narration": "8つのAIエディタが読める知識グラフです。Claude CodeとCursorで同じ構造を共有できます。"
+    },
+    {
+      "rank": 2,
       "fullName": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "language": "Python",
-      "stars": 24774,
-      "todayStars": 2556,
-      "description": "Anthropic公式のプラグイン配布所",
-      "detail": "Anthropic公式がClaude Code向けプラグインを直接審査・配布する公式ディレクトリ。/plugin install一発で内製と外部の両方を導入できる。個別Marketplaceに代わる集約点です。",
-      "narration": "Anthropic公式がプラグイン配布を引き受けます。個別Marketplaceに代わり、コマンド一発で入ります。"
+      "stars": 26369,
+      "todayStars": 2172,
+      "description": "Anthropic公式プラグイン市場",
+      "detail": "Claude Code向けプラグインをAnthropicが直接運営する公式ディレクトリです。MCPサーバーやagents、skills、commandsを.claude-plugin/plugin.jsonで標準化し、社内配布と検証済み外部拡張を一括導入できます。",
+      "narration": "Anthropic公式のClaude Codeプラグイン市場です。MCPやagentsを一発配布できます。"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "fullName": "colbymchenry/codegraph",
       "name": "codegraph",
       "url": "https://github.com/colbymchenry/codegraph",
       "language": "TypeScript",
-      "stars": 16394,
-      "todayStars": 3688,
+      "stars": 19293,
+      "todayStars": 2434,
       "description": "Claude Code用ローカル索引DB",
-      "detail": "tree-sitterで19言語をAST解析しSQLiteへ事前索引、MCP経由でClaude CodeやCursorに渡す。7リポ実測で59%トークン減・70%ツール呼び出し減・49%高速化。Sourcegraph代替を完全ローカルで実現します。",
-      "narration": "Sourcegraphに対抗する完全ローカル索引DBです。トークン59%減、ツール呼び出し70%減を実測しています。"
-    },
-    {
-      "rank": 3,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 63963,
-      "todayStars": 992,
-      "description": "WiFiだけで人を見るRust製OSS",
-      "detail": "$9のESP32-S3とWiFi電波のCSI56サブキャリアで、17関節の姿勢や呼吸・心拍を非接触で取る。Transformer+GNNを8KBに量子化済み。カメラやレーダー無しでGDPR配慮の見守りを実現します。",
-      "narration": "カメラもレーダーもいらない見守りシステムです。WiFi信号だけで呼吸や心拍を非接触で取れます。"
+      "detail": "Claude Code、Cursor、Codex、opencodeにMCPで繋ぐ事前indexedなSQLite+FTS5です。OSのfile watcherで常時最新化し、トークン35%減・tool calls 70%減を公称します。",
+      "narration": "Claude Code向けに事前構築するコードグラフです。トークン35%・tool calls 70%減を公称します。"
     },
     {
       "rank": 4,
@@ -61,23 +59,23 @@
       "name": "ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "language": "Python",
-      "stars": 11811,
-      "todayStars": 988,
-      "description": "0からAI実装を学ぶMIT教材",
-      "detail": "20フェーズ・435レッスン・約320時間のAI実装カリキュラム。線形代数からAgent・MCP・運用まで、PyTorch前に逆伝播を自分で書く。Andrew Ngやfast.aiより数学から踏み込み、4言語で実装します。",
-      "narration": "Andrew Ngやfast.aiにないAI実装本格教材です。20フェーズで435レッスン、自分で動くコードを書きます。"
+      "stars": 13654,
+      "todayStars": 1523,
+      "description": "AI内製化の20フェーズ教材セット",
+      "detail": "PyTorch、JAX、Hugging Face、vLLM、LangGraph、AutoGen、CrewAI、Claude SDK、OpenAI Agentsまで435レッスンで縦に通すカリキュラムです。Kubernetes・Dockerの本番運用までカバーします。",
+      "narration": "PyTorchやLangGraph、Claude SDKまで網羅する教材です。20フェーズで内製化できます。"
     },
     {
       "rank": 5,
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "language": "TypeScript",
-      "stars": 40938,
-      "todayStars": 499,
-      "description": "ChromeのDevTools直結MCP",
-      "detail": "Puppeteer+CDPでChrome DevToolsを43ツールに分解しMCPで公開。性能トレース、ネットワーク、ヒープ解析までClaude CodeやCursorから呼べる。Playwright MCPに対しデバッグ寄りの選択肢です。",
-      "narration": "Playwright MCPと違いDevTools直結のMCPです。パフォーマンス解析やネットワーク検査が呼べます。"
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "name": "FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "stars": 23097,
+      "todayStars": 537,
+      "description": "OSS版Bloomberg Terminal",
+      "detail": "Polygon、Kraken、FRED、IMF、World Bankなど100以上のデータと、Alpaca・Interactive Brokers等16社のブローカーAPIを単一C++20バイナリに統合します。AGPLで無料、年25,000ドルのBloomberg代替候補です。",
+      "narration": "100以上のデータと16社のブローカーに繋がるOSS端末です。Bloomberg Terminalの代替候補です。"
     }
   ]
 }
