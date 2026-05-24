@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24",
+  "updatedAt": "2026-05-25",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -24,70 +24,75 @@
       "date": "2026-05-11",
       "views": 6,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05/10-05/23): ecosystem 3.0 avg n=2 (05/08=1・05/09=5) / use-case 2.0 avg n=1 (05/21=2) / business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2 計測短期) / comparison 1.6 avg n=5 (05/10=2・05/11=6・05/16=0 silent fail・05/19=0・05/23=0 計測短期) / trend-pattern 0.5 avg n=2 (05/17=0 silent fail・05/22=1 計測短期) / tech-deep 0.0 avg n=1 (05/18 計測短期) / self-experiment 全期間未投入。重要注記: 14 日窓は全 method が 0〜3 views・母数 n≤5・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。4 月の新規アカウント初動ブースト消失後、5 月は method を変えても 0〜6 views で横ばい = 構造的な露出崩落が本質課題。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用する。本日 05/24 (Sun=7 avg 下から 2 番目) は method=ecosystem を起用。今日の TOP5 のうち #1 Understand-Anything / #2 claude-plugins-official / #3 codegraph の 3 本が Claude Code / Cursor / Codex / opencode 等 AI エディタエコシステムへの plug-in であり、ecosystem 角度の素材適合度が極めて高い (3/5 が直接適合、#4 教材が AI ツール群網羅、#5 が金融データエコシステム統合で広義の ecosystem 適合)。最低 3 views (Sun 下位帯超え)、理想 10 views (Sun 上位帯超え) を目標。"
+      "note": "Method 別平均 (14 日窓 05/11-05/23、05/24 ecosystem は計測前): business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2) / use-case 2.0 avg n=1 (05/21=2) / comparison 1.6 avg n=5 (05/11=6・05/16=0 silent fail・05/19=0・05/23=0 計測短期、後発で05/10=2は窓外) / trend-pattern 0.5 avg n=2 (05/17=0 silent fail・05/22=1 計測短期) / tech-deep 0.0 avg n=1 (05/18 計測短期) / ecosystem 14日窓未投入 (前回05/09=5、05/24投入だが計測前) / self-experiment 全期間未投入。重要注記: 14日窓は全 method が 0〜6 views・母数 n≤5・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。4 月の新規アカウント初動ブースト消失後、5 月は method を変えても 0〜6 views で横ばい = 構造的な露出崩落が本質課題。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用する。本日 05/25 (Mon=57 avg 中位曜日帯、週始) は method=business-angle を起用。今日の TOP5 のうち本日新規 trending 入りの #4 anthropics/knowledge-work-plugins (Apache-2.0・11 職種向けプラグイン) が『Anthropic 公式が技術部門から非エンジニア部門への全社展開フェーズに踏み出した日』というマクロ核を提供し、5 本横断 business-angle で『人月いくら浮くか / 月額 SaaS いくら束ねるか / 外注いくらが内製化されるか』を貫通する素材適合度 5/5 の構成。直近 2 日 (05/24 ecosystem / 05/23 comparison) と method 衝突なし、最終 business-angle 投入 05/20 から 5 日空きで鮮度十分。最低 5 views (Mon 下位帯超え)、理想 60 views (Mon 上位帯への漸近) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は日曜 (Sun=7 avg 下から 2 番目)。週末で Primary ペルソナのキャッチアップ需要は弱め、低 stakes 曜日。最低 3 views、理想 10 views を目標",
-      "新規 3 本 (Understand-Anything・claude-plugins-official 2 日連続継続・FinceptTerminal) + 重複 2 本 (codegraph 4 日連続・ai-engineering-from-scratch 3 日連続) 構成。重複 2 本は前日 05/23 comparison『何の代替か』→ 本日 ecosystem『どの周辺ツールに刺さるか』へ語彙完全切替で連投ペナルティ回避"
+      "本日は月曜 (Mon=57 avg 中位曜日帯、週始)。Primary ペルソナ (CTO/技術選定者) が週始に GitHub 巡回するタイミングで business-angle 角度が刺さりやすい。最低 5 views、理想 60 views を目標",
+      "新規 2 本 (Lum1104/Understand-Anything 本日トレンド復帰 +3,987 / anthropics/knowledge-work-plugins 本日新規 trending 入り +486) + 重複 3 本 (claude-plugins-official 3 日連続継続・ai-engineering-from-scratch 2 日連続継続・andrej-karpathy-skills 4 日連続継続) 構成。重複 3 本は 05/23 comparison『何の代替か』 → 05/24 ecosystem『どの周辺ツールに乗るか』 → 本日 business-angle『金額・工数いくら浮くか』へ語彙完全 3 連切替で連投ペナルティ回避"
     ],
     "hashtags": [
-      "Sun=7 avg 下から 2 番目曜日 + ecosystem 角度のため、Primary (CTO/技術選定者) の AI スタック判断語彙を厚く: #AIスタック #技術選定 #開発環境 #エコシステム #プラグイン #MCP",
-      "ecosystem 角度のため、5 本それぞれが繋がる先のプロダクト名を明示: #ClaudeCode #Cursor #Codex #opencode #VSCode #Copilot #GeminiCLI",
-      "領域タグ (5 本のカテゴリ): #知識グラフ #公式プラグイン #コード索引 #AI教材 #金融端末",
-      "言語タグは Python (3 本: claude-plugins-official, ai-engineering-from-scratch, FinceptTerminal) / TypeScript (2 本: Understand-Anything, codegraph)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust は本日不在",
-      "前日 05/23 (comparison 角度) の『〜に代わり』『〜と違い』対抗構文からは距離を置き、本日は『〜に繋がる』『〜から読める』『〜で動く』など接続構文へ完全切替",
-      "ecosystem 角度でも『○○が標準』『○○一強』断定は戦略 NG パターン違反のため厳禁。『〜に刺さる』『〜と組み合わせる』『〜の上で動く』など中性的な統合語彙に統一"
+      "Mon=57 avg 中位曜日帯 + business-angle 角度のため、Primary (CTO/技術選定者) / Secondary (PdM/事業責任者) 双方の稟議書語彙を厚く: #AI投資 #技術投資 #コスト削減 #内製化 #DX #全社AI展開 #稟議書",
+      "business-angle 角度のため、5 本それぞれの金額・工数換算が映える語彙を入れる: #受託 #人月 #onboarding #研修コスト #SaaS削減 #営業DX #法務AI #FinanceAI",
+      "領域タグ (5 本のカテゴリ): #知識グラフ #AI教材 #公式プラグイン #知識労働者 #CLAUDEmd",
+      "言語タグは Python (3 本: ai-engineering-from-scratch, claude-plugins-official, knowledge-work-plugins) / TypeScript (1 本: Understand-Anything) / その他 1 本 (andrej-karpathy-skills は markdown ベースで言語タグなし)。Python (1.2x) と TypeScript (1.1x) を厚く、Rust は本日不在",
+      "前日 05/24 (ecosystem 角度) の『〜に繋がる』『〜から読める』『〜で動く』接続構文から距離を置き、本日は『〜を削減』『〜が浮く』『〜を内製化』『〜が代替』など金額・工数語彙へ完全切替",
+      "business-angle 角度でも『○○が最強』『一強』『終わった』断定は戦略 NG パターン違反のため厳禁。『〜の代わりに使える』『〜の代替候補』『〜を圧縮できる』など中性的な代替・削減語彙に統一",
+      "本日 hashtag に Anthropic (#Anthropic) を厚めに置く: Anthropic 公式リポジトリが 2 本 (#2 ではなく #3 と #4) 同時 TOP5 入りという過去最大の Anthropic 露出比率で、Anthropic 関連語彙の検索流入を最大化"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (52+53+59+54+57)、TTS で約 36-40 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Claude Code, Cursor, Codex, opencode, Anthropic, MCP, agents, SQLite, FTS5, PyTorch, LangGraph, Claude SDK, Bloomberg Terminal)",
-      "ecosystem 角度の一貫性: 5 本すべてに『繋がる』『読める』『載る』『刺さる』『組み込む』のいずれか接続語を入れ、1 文目で『何の AI/データ環境に乗るか』、2 文目で具体的な統合先 (Claude Code / Cursor / Bloomberg 等) を 1 つ挙げる 2 文構成",
-      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem 角度でも『2 万スター』等の数値は detail 側へ寄せ、narration は『繋がる』『共有できる』など接続特性で扱う",
-      "数値表現はアラビア数字統一 (35%・70%・20 フェーズ・435 レッスン・100 以上・16 社・8 つ)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 239 文字 (45+48+48+49+49)、TTS で約 33-37 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Claude Code, Cursor, VS Code Copilot, Tree-sitter, PyTorch, JAX, Hugging Face, vLLM, LangGraph, MCP, agents, skills, plugin.json, CLAUDE.md, Karpathy, Anthropic, Finance, PdM)",
+      "business-angle 角度の一貫性: 5 本すべてに金額・工数語彙 (『工数を削れます』『置き換えられます』『標準化できます』『1 契約で回す土台』『レビュー工数を削れます』) を入れ、1 文目で『何をする OSS か』、2 文目で具体的な金額・工数レバーを 1 つ挙げる 2 文構成",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle 角度でも『1.5 万スター』等の数値は detail 側へ寄せ、narration は『工数』『削減』『置換』『契約』『標準化』など費用換算特性で扱う",
+      "数値表現はアラビア数字統一 (20 万行・1 日・435 レッスン・1 人月・11 本・1 契約・1 枚)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem` (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の 3.0・サンプル n=2)。直近 2 日 (05/23 comparison / 05/22 trend-pattern) と method 衝突なし、最終投入 05/09 から 15 日空きで鮮度十分。柱② 週次必須要件は 05/20 business-angle で本週 (05/18〜24) 既達のため、本日は柱① 主軸で運用",
-      "今日の TOP5 (Lum1104/Understand-Anything=TypeScript / 21,312★ / +2,331・8 系統 AI エディタ向け知識グラフ / anthropics/claude-plugins-official=Python / 26,369★ / +2,172・Anthropic 公式 Claude Code プラグイン市場 / colbymchenry/codegraph=TypeScript / 19,293★ / +2,434・Claude Code 用ローカル索引 SQLite+FTS5 / rohitg00/ai-engineering-from-scratch=Python / 13,654★ / +1,523・20 フェーズ 435 レッスン AI 教材 / Fincept-Corporation/FinceptTerminal=Python / 23,097★ / +537・C++20 ネイティブの OSS 金融端末) のうち上位 3 本が AI エディタエコシステムへの plug-in 系で素材適合度が極めて高い",
-      "本日のマクロ核: 『AI コーディングエコシステムが標準化フェーズに入った日』として読む。Anthropic 公式 (claude-plugins-official) が公式市場を立て、Lum1104 (Understand-Anything) が 8 エディタ横断グラフを配り、colbymchenry (codegraph) が事前 index DB を入れ、3 本ともが同じ AI エディタ群 (Claude Code / Cursor / Codex / opencode / Copilot / Gemini CLI) を共通プラットフォームとして前提にしている。冒頭マクロで『AI エディタが共通基盤になった』フックを置き、5 本を『どの基盤に乗るか』軸で接続",
-      "Primary (CTO/技術選定者) には『自社の Claude Code / Cursor スタックに何を追加すれば一段加速するか』のカタログとして直撃。Secondary (PdM/事業責任者) には『AI 開発環境が固まり始めた業界地図』として、Tertiary (学習中エンジニア) には『#4 ai-engineering-from-scratch の縦カリキュラム』入口として届く 3 層対応",
-      "重複 2 本の角度切替: codegraph は 05/21 use-case → 05/22 trend-pattern → 05/23 comparison → 本日 ecosystem へ 4 連語彙切替 (本日は『Claude Code・Cursor・Codex・opencode・Hermes Agent に MCP で繋ぐ』接続軸に統一)。ai-engineering-from-scratch は 05/21 use-case → 05/23 comparison → 本日 ecosystem (PyTorch から LangGraph・Claude SDK まで網羅する縦の繋ぎ) へ語彙完全切替。連投ペナルティ回避",
-      "5 本のライセンスは MIT/Apache 系が中心で商用受託への組み込みやすさを暗黙的に Primary ペルソナへ訴求。ただし FinceptTerminal は AGPL-3.0 で SaaS 組み込みは制約があるため、narration では『代替候補』までで留め、組み込み難易度は detail で言及せず読者の判断に委ねる",
-      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜3 views・n≤5・silent fail 汚染で有意差なし。本日の ecosystem 採用は『平均 TOP method だから』を Meta-PDCA の名目根拠としつつ、実質判断は『今日の素材の 3/5 が AI エディタエコシステム plug-in で角度適合度が極めて高い』+『運用ルール (連投回避・柱比率) 充足』で確定。この判断軸を docs/pdca/2026-05-24.md にも明記",
-      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19-23 で継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "次回以降の explore 候補: 提案中の `stack-fit` (Primary ペルソナの『今のスタックに足す 1 OSS』指名買い視点・ecosystem の発展形)、`monetize-angle` (business-angle 強化版で人月換算の見積もり提示)。Phase 1 のフォロワー獲得を支える運用は引き続き ecosystem / use-case / business-angle のローテーション主軸で組む"
+      "本日の discovery.method は `business-angle` (柱② 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP3 のうち本日選択可能な business-angle 2.0 avg n=3)。直近 2 日 (05/24 ecosystem / 05/23 comparison) と method 衝突なし、最終 business-angle 投入 05/20 から 5 日空きで鮮度十分。柱② 週次必須要件を本週 (Mon 05/25 〜 Sun 05/31) Day 1 で達成",
+      "今日の TOP5 (Lum1104/Understand-Anything=TypeScript / 25,493★ / +3,987・20 万行コードを 1 日で把握できる知識グラフ / rohitg00/ai-engineering-from-scratch=Python / 15,761★ / +1,836・20 フェーズ 435 レッスンの AI 内製化カリキュラム / anthropics/claude-plugins-official=Python / 27,205★ / +1,179・Anthropic 公式 Claude Code プラグイン市場 / anthropics/knowledge-work-plugins=Python / 13,960★ / +486・本日新規 trending 入り、Anthropic 公式の知識労働者向けプラグイン 11 本 / multica-ai/andrej-karpathy-skills / 151,916★ / +2,555・Karpathy 観察に基づく CLAUDE.md 4 原則) は全 5 本が金額・工数換算可能で business-angle 角度の素材適合度 5/5",
+      "本日のマクロ核: 『AI 導入が技術部門から非エンジニア部門への全社展開フェーズに拡大した日』として読む。本日新規 trending 入りの #4 anthropics/knowledge-work-plugins (Apache-2.0) が、Productivity / Sales / Customer Support / Product Management / Marketing / Legal / Finance / Data / Enterprise Search / Bio Research / Cowork Plugin Management の 11 職種向け公式プラグインを束ね、エンジニア向け #3 claude-plugins-official と同時に Anthropic 公式から提供される構造。冒頭マクロで『AI が全社 KPI になった』フックを置き、5 本を『どの予算項目が削れるか』軸で接続",
+      "Primary (CTO/技術選定者) には『来期の AI 投資配分をどこに振るか』のカタログとして直撃。Secondary (PdM/事業責任者) には『全社 AI 展開の予算根拠 = Anthropic 公式が職種別プラグインを正式公開した』材料として、Tertiary (学習中エンジニア) には『#2 ai-engineering-from-scratch の縦カリキュラム』入口として届く 3 層対応",
+      "重複 3 本の角度切替: claude-plugins-official は 05/22 trend-pattern → 05/23 comparison → 05/24 ecosystem → 本日 business-angle へ 4 連語彙切替 (本日は『社内配布のガバナンス工数を一括標準化』費用軸に統一)。ai-engineering-from-scratch は 05/23 comparison → 05/24 ecosystem → 本日 business-angle (新人 AI エンジニア外部研修 1 人月数十万円を社内教材へ置換) へ 3 連語彙切替。andrej-karpathy-skills は 05/21 use-case → 05/22 trend-pattern → 05/24 ecosystem → 本日 business-angle (CLAUDE.md 一枚で出力品質均一化、レビュー工数削減) へ 4 連語彙切替。連投ペナルティ回避",
+      "5 本のライセンスは MIT / Apache-2.0 が中心で商用受託への組み込みやすさを暗黙的に Primary ペルソナへ訴求 (#1 MIT / #2 MIT / #3 plugin 個別 / #4 Apache-2.0 / #5 MIT)。AGPL や GPL-3.0 の制約付きは本日ゼロで、business-angle の『内製化』語彙に矛盾しないクリーンな構成",
+      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜6 views・n≤5・silent fail 汚染で有意差なし。本日の business-angle 採用は『平均 TOP method 群だから』を Meta-PDCA の名目根拠としつつ、実質判断は『今日の素材 5/5 全てが具体的な金額・工数換算可能』+『#4 knowledge-work-plugins の新規 trending 入りで Secondary ペルソナ直撃のマクロが立つ』+『運用ルール (連投回避・週次柱比率) 充足』で確定",
+      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19-24 で継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "次回以降の explore 候補: 提案中の `monetize-angle` (受託 PoC 見積もりベース・人月換算でいくら浮くかを切り口にする business-angle 強化版、本日 business-angle 投入で素材適合度を実証できれば来週以降の隣接 method として正式提案候補化)、`stack-fit` (Primary ペルソナの『今のスタックに足す 1 OSS』指名買い視点・ecosystem の発展形)。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem のローテーション主軸で組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-24",
-    "dayOfWeek": "Sun",
+    "date": "2026-05-25",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "AIスタック",
-      "技術選定",
-      "開発環境",
-      "エコシステム",
-      "プラグイン",
-      "MCP",
-      "ClaudeCode",
-      "Cursor",
-      "Codex",
-      "opencode",
-      "VSCode",
-      "Copilot",
-      "GeminiCLI",
+      "AI投資",
+      "技術投資",
+      "コスト削減",
+      "内製化",
+      "DX",
+      "全社AI展開",
+      "稟議書",
+      "受託",
+      "人月",
+      "onboarding",
+      "研修コスト",
+      "SaaS削減",
+      "営業DX",
+      "法務AI",
+      "FinanceAI",
       "知識グラフ",
-      "公式プラグイン",
-      "コード索引",
       "AI教材",
-      "金融端末",
+      "公式プラグイン",
+      "知識労働者",
+      "CLAUDEmd",
+      "ClaudeCode",
       "Anthropic",
+      "Cursor",
       "PyTorch",
       "LangGraph",
       "Python",
@@ -96,6 +101,6 @@
       "PdM",
       "個人開発"
     ],
-    "focus": "日曜 (Sun=7 avg 下から 2 番目曜日) に `ecosystem` 角度 (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の 3.0・サンプル n=2) を投入。直近 2 日 (05/23 comparison / 05/22 trend-pattern) と method 衝突なし、最終投入 05/09 から 15 日空きで鮮度十分。柱② 週次必須要件は 05/20 business-angle で本週 (05/18〜24) 既達のため本日は柱① 主軸で運用可。今日の TOP5 (Lum1104/Understand-Anything=8 系統 AI エディタ向け知識グラフ・本日 +2,331 / anthropics/claude-plugins-official=Anthropic 公式 Claude Code プラグイン市場・本日 +2,172 で 2 日連続継続 / colbymchenry/codegraph=Claude Code 用ローカル索引 SQLite+FTS5・本日 +2,434 で 4 日連続継続 / rohitg00/ai-engineering-from-scratch=20 フェーズ 435 レッスン AI 教材・本日 +1,523 で 3 日連続継続 / Fincept-Corporation/FinceptTerminal=OSS 版 Bloomberg Terminal・本日 +537) は上位 3 本が AI エディタエコシステムへの plug-in 系 (Claude Code / Cursor / Codex / opencode / Copilot / Gemini CLI に繋がる) で ecosystem 角度の素材適合度が極めて高い。Anthropic 公式が公式市場を立て、Lum1104 が 8 エディタ横断グラフを配り、colbymchenry が事前 index DB を入れる『AI エディタが共通基盤になった日』を冒頭マクロに置き 5 本を貫く。重複 2 本 (codegraph 4 日連続 / ai-engineering-from-scratch 3 日連続) は前日 05/23 comparison『何の代替か』から本日 ecosystem『どの周辺ツールに乗るか』へ角度完全切替し連投ペナルティ回避。注記: 14 日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な ecosystem 適合度を併用根拠とする。最低 3 views (Sun 下位帯超え)、理想 10 views (Sun 上位帯超え) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "月曜 (Mon=57 avg 中位曜日帯、週始) に `business-angle` 角度 (柱② 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP3 のうち本日選択可能な business-angle 2.0 avg n=3) を投入。直近 2 日 (05/24 ecosystem / 05/23 comparison) と method 衝突なし、最終投入 05/20 から 5 日空きで鮮度十分。柱② 週次必須要件を本週 (Mon 05/25 〜 Sun 05/31) Day 1 で達成。今日の TOP5 (Lum1104/Understand-Anything=20 万行コードを 1 日で把握する知識グラフ・本日 +3,987 / rohitg00/ai-engineering-from-scratch=20 フェーズ 435 レッスン AI 内製化教材・本日 +1,836・2 日連続継続 / anthropics/claude-plugins-official=Anthropic 公式 Claude Code プラグイン市場・本日 +1,179・3 日連続継続 / anthropics/knowledge-work-plugins=Anthropic 公式知識労働者向け 11 職種プラグイン・本日新規 trending 入り +486 / multica-ai/andrej-karpathy-skills=Karpathy 観察に基づく CLAUDE.md 4 原則・本日 +2,555・4 日連続継続) は全 5 本が金額・工数換算可能で business-angle 素材適合度 5/5。本日新規入りの #4 knowledge-work-plugins は Productivity / Sales / Customer Support / Product Management / Marketing / Legal / Finance / Data / Enterprise Search / Bio Research / Cowork Plugin Management の 11 職種向け公式プラグインで、エンジニア向け #3 と同時に Anthropic 公式から提供される構造。『AI 導入が技術部門から非エンジニア部門への全社展開フェーズに拡大した日』を冒頭マクロに置き 5 本を貫く。重複 3 本 (claude-plugins-official 3 日連続 / ai-engineering-from-scratch 2 日連続 / andrej-karpathy-skills 4 日連続) は前日 05/24 ecosystem『どの周辺ツールに乗るか』から本日 business-angle『金額・工数いくら浮くか』へ角度完全切替し連投ペナルティ回避。注記: 14 日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な business-angle 適合度を併用根拠とする。最低 5 views (Mon 下位帯超え)、理想 60 views (Mon 上位帯への漸近) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
