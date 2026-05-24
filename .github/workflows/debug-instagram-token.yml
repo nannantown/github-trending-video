@@ -1,0 +1,103 @@
+name: Debug Instagram Token
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect token, derive Page Token, replay container+status
+        env:
+          FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
+          FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+        run: |
+          set +e
+          GRAPH="https://graph.facebook.com/v22.0"
+          APP_TOKEN="${FACEBOOK_APP_ID}|${FACEBOOK_APP_SECRET}"
+
+          mask() {
+            jq 'walk(if type=="string" and (test("^[A-Za-z0-9_-]{40,}$")) then "<REDACTED:\(length)chars>" else . end)'
+          }
+
+          echo "=========================================="
+          echo "1. debug_token on INSTAGRAM_ACCESS_TOKEN (user token)"
+          echo "=========================================="
+          curl -s "${GRAPH}/debug_token?input_token=${INSTAGRAM_ACCESS_TOKEN}&access_token=${APP_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "2. GET /me with user token"
+          echo "=========================================="
+          curl -s "${GRAPH}/me?fields=id,name&access_token=${INSTAGRAM_ACCESS_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "3. GET /me/accounts (page list) with user token"
+          echo "=========================================="
+          curl -s "${GRAPH}/me/accounts?fields=id,name,access_token&access_token=${INSTAGRAM_ACCESS_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "4. Derive Page Access Token for FACEBOOK_PAGE_ID"
+          echo "=========================================="
+          PAGE_RESP=$(curl -s "${GRAPH}/${FACEBOOK_PAGE_ID}?fields=access_token,name&access_token=${INSTAGRAM_ACCESS_TOKEN}")
+          echo "$PAGE_RESP" | mask
+          PAGE_TOKEN=$(echo "$PAGE_RESP" | jq -r '.access_token // empty')
+          if [ -z "$PAGE_TOKEN" ]; then
+            echo "!! Page Access Token derivation failed"
+            exit 0
+          fi
+
+          echo ""
+          echo "=========================================="
+          echo "5. debug_token on derived Page Token"
+          echo "=========================================="
+          curl -s "${GRAPH}/debug_token?input_token=${PAGE_TOKEN}&access_token=${APP_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "6. GET /{IG_USER_ID} with Page Token"
+          echo "=========================================="
+          curl -s "${GRAPH}/${INSTAGRAM_USER_ID}?fields=id,username&access_token=${PAGE_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "7. Create REELS container (image-only test, no real video)"
+          echo "    Using a dummy video_url to trigger the same code path"
+          echo "=========================================="
+          CONTAINER_RESP=$(curl -s -X POST "${GRAPH}/${INSTAGRAM_USER_ID}/media" \
+            -d "media_type=REELS" \
+            -d "video_url=https://github.com/nannantown/github-trending-video/releases/download/v20260524/trending-20260524.mp4" \
+            -d "caption=debug-$(date -u +%s)" \
+            -d "share_to_feed=true" \
+            -d "access_token=${PAGE_TOKEN}")
+          echo "$CONTAINER_RESP" | mask
+          CID=$(echo "$CONTAINER_RESP" | jq -r '.id // empty')
+          if [ -z "$CID" ]; then
+            echo "!! Container creation failed - this is unusual since prod sees container created OK"
+            exit 0
+          fi
+
+          echo ""
+          echo "=========================================="
+          echo "8. Immediately GET /{containerId}?fields=status_code (the failing call in prod)"
+          echo "=========================================="
+          sleep 2
+          curl -s "${GRAPH}/${CID}?fields=status_code,status&access_token=${PAGE_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "9. Wait 10s and retry status check"
+          echo "=========================================="
+          sleep 10
+          curl -s "${GRAPH}/${CID}?fields=status_code,status&access_token=${PAGE_TOKEN}" | mask
+
+          echo ""
+          echo "=========================================="
+          echo "10. Status check with USER token instead of Page token"
+          echo "=========================================="
+          curl -s "${GRAPH}/${CID}?fields=status_code,status&access_token=${INSTAGRAM_ACCESS_TOKEN}" | mask
