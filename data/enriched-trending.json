@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『人月いくら浮くか・月額SaaSいくら束ねるか・外注いくらが内製化されるか』の費用・工数レバーで5本横断に料理する。冒頭フックは本日新規trending入りの#4 anthropics/knowledge-work-plugins (Apache-2.0)。Anthropicが営業・サポート・法務・Finance・PdM・マーケ・データ・エンタープライズ検索・バイオリサーチ・生産性管理など11職種向けの公式プラグイン集を正式公開した日として、『AI導入が技術部門から非エンジニア部門への全社展開フェーズに拡大した記念碑的シグナル』をマクロに置く。5本それぞれの business-angle 換算: #1 Lum1104/Understand-Anything=20万行コードの引き継ぎ工数を数日→1日に短縮 (受託onboarding削減) / #2 rohitg00/ai-engineering-from-scratch=435レッスン20フェーズのカリキュラムで新人AIエンジニア外部研修1人月数十万円を社内教材化 / #3 anthropics/claude-plugins-official=Anthropic公式のClaude Code開発者向けプラグイン市場でMCP/agents/skillsを標準化、社内配布ガバナンス工数を一括削減 / #4 anthropics/knowledge-work-plugins=11職種向け非エンジニア用プラグインで営業DX・法務AI・Finance自動化を1契約で回す土台 / #5 multica-ai/andrej-karpathy-skills=Karpathy観察に基づく4原則をCLAUDE.md一枚に集約しチームのClaude Code出力品質を均一化、AIレビュー工数を削減。直近2日 (05-24 ecosystem / 05-23 comparison) と method 衝突なし。14日窓 Method TOP3 (business-angle 2.0 avg n=3 / use-case 2.0 avg n=1 / comparison 1.6 avg n=5) のうち本日選択可能な business-angle を exploit 投入。柱② (business-angle 比率 15%) の週次必須要件を本週 (Mon 05-25 〜 Sun 05-31) Day 1 で達成。Mon=57 avgで Primary (CTO/技術選定者) が GitHub 巡回する週始の中位曜日帯、最終 business-angle 投入 05-20 から 5 日空きで鮮度十分。素材適合度 5/5: 全リポが月額 SaaS / 業務委託 / 研修費 / レビュー工数 / 全社展開予算のいずれかへ明確な金額・工数換算が可能。Primary (CTO/技術選定者) には『自社の AI 投資が来期どこに効くか』のカタログ、Secondary (PdM/事業責任者) には『全社展開の予算根拠』、Tertiary (学習中エンジニア) には #2 教材入口として届く3層構成。重複2本 (claude-plugins-official 3日連続継続・andrej-karpathy-skills 2日連続継続) は 05-23 comparison『何の代替か』 → 05-24 ecosystem『どの周辺ツールに乗るか』 → 本日 business-angle『金額・工数いくら浮くか』へ語彙完全切替で連投ペナルティ回避。05-14〜17 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。最低 5 views (Mon 下位帯超え)、理想 60 views (Mon 上位帯への漸近) を目標。注記: 14日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な business-angle 適合度を併用根拠とする。",
+    "method": "use-case",
+    "description": "本日のTOP5を『誰がどの現場で使うか』のシーン軸で5本横断に料理する。冒頭マクロは本日新規trending入りの#5 mukul975/Anthropic-Cybersecurity-Skills (Apache-2.0)。MITRE ATT&CK / NIST CSF 2.0 / MITRE ATLAS / D3FEND / NIST AI RMFの5フレームに対応した754 skillsをAIエージェントへ標準装備させる構造で、『AIエージェントが現場部署の作業手順を直接代行するフェーズへ』というマクロを置く。5本それぞれのuse-case定義: #1 Lum1104/Understand-Anything=受託案件の初日キャッチアップ・新人onboardingシーン (Tree-sitter+マルチエージェント並列解析で大規模リポジトリを対話可能な知識グラフに変換、Claude Code/Cursor/VS Code Copilotから参照) / #2 anthropics/knowledge-work-plugins=営業・サポート・法務・Finance・PdM・マーケ・データなど非エンジニア部門の日常業務AI化シーン (Anthropic公式の知識労働者向け11職種プラグイン集) / #3 rohitg00/ai-engineering-from-scratch=社内勉強会・新人AIエンジニア育成シーン (PyTorch/JAX/Hugging Face/vLLM/LangGraphまで20フェーズ435レッスンの縦カリキュラム) / #4 affaan-m/ECC=Claude Code/Cursor運用チームのエージェント品質統一シーン (61 sub-agents + 246 skills + AgentShieldで12言語・横断harness最適化) / #5 mukul975/Anthropic-Cybersecurity-Skills=SOC・ペンテスト現場・セキュリティ受託のエージェント業務移譲シーン (5フレーム754 skillsをagentskills.io標準でClaude Code/Copilot/Cursor/Gemini CLI等20+プラットフォームへ即日配布)。直近2日 (05-25 business-angle / 05-24 ecosystem) と method 衝突なし。14日窓 Method TOP3 (business-angle 2.0 avg n=3 / use-case 2.0 avg n=1 / trend-pattern 0.5 avg n=2) のうち本日選択可能な use-case を exploit 投入、最終投入 05-21 から 5 日空きで鮮度十分。30日窓 use-case 2.5 avg n=2 (05/03=3・05/21=2) と中位安定。柱② (business-angle 比率 15%) は本週 (Mon 05-25 〜 Sun 05/31) Day 1 で消化済みのため本日 Day 2 は柱① (Trending 解説 70%) 主軸枠で use-case を投入。Tue=563 avg の週次TOP2曜日帯で柱① 主軸を当てる戦略的価値が高い。素材適合度 5/5: 全リポが明確な利用現場 (新人onboarding / 非エンジニア部門業務 / 社内研修 / Claude Code運用 / SOC・ペンテスト) に即日マッピング可能。Primary (CTO/技術選定者) には『自社のどの現場にAIを当てるか』の場面カタログ、Secondary (PdM/事業責任者) には『部門ごとの導入優先順』の判断材料、Tertiary (学習中エンジニア) には #3 教材入口として届く3層構成。重複2本 (knowledge-work-plugins 2日連続継続・ai-engineering-from-scratch 2日連続継続) は 05-25 business-angle『金額・工数いくら浮くか』 → 本日 use-case『どの現場で使うか』へ語彙完全切替で連投ペナルティ回避。新規3本 (Understand-Anything が #1 復帰・ECC・Anthropic-Cybersecurity-Skills) で構造的差別化。05-14〜17 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。最低 30 views (Tue 下位帯)、理想 600 views (Tue 上位帯への漸近) を目標。注記: 14日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な use-case 適合度を併用根拠とする。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/Lum1104/Understand-Anything",
-      "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/anthropics/knowledge-work-plugins",
-      "https://github.com/multica-ai/andrej-karpathy-skills",
+      "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "https://docs.anthropic.com/en/docs/claude-code/skills",
-      "https://clau.de/plugin-directory-submission"
+      "https://agentskills.io"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,59 +23,59 @@
       "name": "Understand-Anything",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "language": "TypeScript",
-      "stars": 25493,
-      "todayStars": 3987,
-      "description": "20万行を1日で読む知識グラフ",
-      "detail": "TypeScript製のマルチエージェントとTree-sitterで、リポジトリを対話可能な知識グラフに変換します。Claude CodeやCursor、VS Code CopilotなどのAIエディタから参照でき、受託案件の引き継ぎ工数を劇的に短縮します。",
-      "narration": "20万行のコードを1日で把握できる知識グラフです。受託の引き継ぎ工数を数日単位で削れます。"
+      "stars": 30814,
+      "todayStars": 5625,
+      "description": "初見コードを対話可能な知識グラフへ",
+      "detail": "Tree-sitterの静的解析と複数LLMの並列要約で、大規模リポジトリを対話できる知識グラフに変換します。Claude CodeやCursor、VS Code Copilotから参照でき、新人や受託案件のコードベース把握を初日に終わらせる現場で効きます。",
+      "narration": "初見のリポジトリを対話できる知識グラフに変えます。受託の初日キャッチアップが一日で終わる現場で使えます。"
     },
     {
       "rank": 2,
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "name": "ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "language": "Python",
-      "stars": 15761,
-      "todayStars": 1836,
-      "description": "AI内製化の435レッスン教材",
-      "detail": "PyTorch、JAX、Hugging Face、vLLM、LangGraphまで20フェーズ435レッスンで縦に通すカリキュラムです。MITで商用利用可、新人AIエンジニアの外部研修コストを社内教材へ置き換えられます。",
-      "narration": "435レッスンのAI内製化カリキュラムです。外部研修1人月数十万円を社内教材で置き換えられます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "language": "Python",
-      "stars": 27205,
-      "todayStars": 1179,
-      "description": "Claude Code公式プラグイン市場",
-      "detail": "Anthropicが直接運営するClaude Code向けプラグインの集約点です。MCPサーバー、agents、skillsをplugin.jsonで標準化し、社内配布と検証済み外部拡張を一括導入できます。",
-      "narration": "Claude Code向けの公式プラグイン市場です。社内配布のガバナンスを一括で標準化できます。"
-    },
-    {
-      "rank": 4,
       "fullName": "anthropics/knowledge-work-plugins",
       "name": "knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "language": "Python",
-      "stars": 13960,
-      "todayStars": 486,
-      "description": "営業・法務向け公式プラグイン11本",
-      "detail": "Anthropic公式の知識労働者向けプラグイン集です。営業、サポート、法務、Finance、PdM、マーケ、データなど11職種にClaudeを特化させ、エンジニア以外の部門にも全社AI展開を広げられます。",
-      "narration": "営業や法務向けの公式Claudeプラグイン11本です。全社AI展開を1契約で回す土台が整いました。"
+      "stars": 15315,
+      "todayStars": 1448,
+      "description": "非エンジニア向け公式Claudeプラグイン",
+      "detail": "Anthropic公式の知識労働者向けプラグイン集です。営業、サポート、法務、Finance、PdM、マーケ、データなど11職種にClaudeを特化させ、非エンジニア部門の日常業務にAIを直接組み込めます。",
+      "narration": "営業や法務など非エンジニア向けの公式Claudeプラグイン集です。職種ごとの日常業務に直接組み込めます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars": 18372,
+      "todayStars": 3167,
+      "description": "AIエンジニア育成の435レッスン教材",
+      "detail": "PyTorchやJAX、Hugging Face、vLLM、LangGraphまで20フェーズ435レッスンで縦に通すカリキュラムです。社内勉強会の進行台本や新人AIエンジニアの育成現場に、そのまま教材として投入できます。",
+      "narration": "AIエンジニア育成の435レッスン教材です。社内勉強会の進行台本としてそのまま使える構成です。"
+    },
+    {
+      "rank": 4,
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 192236,
+      "todayStars": 2052,
+      "description": "Claude Code運用の61エージェント集",
+      "detail": "Claude CodeやCursor、Codex向けに61のサブエージェントと246のskillをまとめた運用フレームです。テストやコードレビュー、セキュリティ監査を社内で標準化し、エージェント運用チームの出力品質を揃えられます。",
+      "narration": "Claude CodeやCursorの運用品質を揃える土台です。61のエージェントと246のskillを社内に配れます。"
     },
     {
       "rank": 5,
-      "fullName": "multica-ai/andrej-karpathy-skills",
-      "name": "andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "language": null,
-      "stars": 151916,
-      "todayStars": 2555,
-      "description": "KarpathyのCLAUDE.md一枚",
-      "detail": "Andrej Karpathyの観察に基づき、AIの過剰実装や不要な変更を抑える4原則をCLAUDE.mdに集約しました。1ファイルを置くだけで、チームのClaude Code出力品質を均一化しレビュー工数を削減できます。",
-      "narration": "Karpathy流のCLAUDE.md一枚です。AI出力品質を社内で揃え、レビュー工数を削れます。"
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "stars": 9156,
+      "todayStars": 999,
+      "description": "AIに渡せる754個のセキュリティ手順",
+      "detail": "MITRE ATT&CKやNIST CSF 2.0などの5フレームに対応した754個のセキュリティ手順集です。SOCやペンテスト受託の現場へ、AIエージェントの行動規範として即日投入できます。",
+      "narration": "AIに渡せる754個のセキュリティ手順集です。SOCやペンテスト現場の作業に即日投入できます。"
     }
   ]
 }
