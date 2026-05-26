@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26",
+  "updatedAt": "2026-05-27",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -21,72 +21,70 @@
       { "language": "Rust", "multiplier": 0.6 }
     ],
     "topPerformingVideo": {
-      "date": "2026-05-15",
-      "views": 4,
+      "date": "2026-05-11",
+      "views": 6,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05/12-05/23、05/24 ecosystem・05/25 business-angle は計測前): business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2) / use-case 2.0 avg n=1 (05/21=2) / comparison 0.0 avg n=3 (05/16=0 silent fail・05/19=0・05/23=0 計測短期) / trend-pattern 0.5 avg n=2 (05/17=0 silent fail・05/22=1 計測短期) / tech-deep 0.0 avg n=1 (05/18 計測短期) / ecosystem 14日窓未投入 (前回05/09=5、05/24投入だが計測前) / self-experiment 全期間未投入。30日窓: ecosystem 67.6 avg n=5 (04/28=326 牽引) / business-angle 5.4 avg n=7 / trend-pattern 5.0 avg n=4 / comparison 3.0 avg n=6 / use-case 2.5 avg n=2 (05/03=3, 05/21=2) / tech-deep 0.0 avg n=1。重要注記: 14日窓は全 method が 0〜6 views・母数 n≤5・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用する。本日 05/26 (Tue=563 avg 週次TOP2曜日帯) は method=use-case を起用。今日の TOP5 のうち本日新規 trending 入りの #5 mukul975/Anthropic-Cybersecurity-Skills (Apache-2.0・MITRE ATT&CK / NIST CSF 2.0 / MITRE ATLAS / D3FEND / NIST AI RMF の 5 フレーム対応 754 skills) と #4 affaan-m/ECC (MIT・61 sub-agents + 246 skills + AgentShield・12 言語対応の harness 最適化システム) が『AI エージェントが現場部署の作業手順を直接代行するフェーズへ』というマクロ核を提供。5 本横断 use-case で『誰がどの現場で使うか』を貫通する素材適合度 5/5 の構成。直近 2 日 (05/25 business-angle / 05/24 ecosystem) と method 衝突なし、最終 use-case 投入 05/21 から 5 日空きで鮮度十分。柱② (business-angle 比率 15%) は本週 (Mon 05/25 〜 Sun 05/31) Day 1 で消化済みのため本日 Day 2 は柱① (Trending 解説 70%) 主軸枠で use-case を投入。最低 30 views (Tue 下位帯)、理想 600 views (Tue 上位帯への漸近) を目標。"
+      "note": "Method 別平均 (14 日窓 05/08-05/23、05/24/25/26 は計測前): ecosystem 3.0 avg n=2 (05/08=1・05/09=5) / business-angle 2.0 avg n=3 (05/14=0 silent fail・05/15=4・05/20=2) / use-case 2.0 avg n=1 (05/21=2) / comparison 1.6 avg n=5 (05/10=2・05/11=6・05/16=0・05/19=0・05/23=0) / trend-pattern 0.5 avg n=2 (05/17=0 silent fail・05/22=1) / tech-deep 0.0 avg n=1 (05/18=0) / self-experiment 全期間未投入。30日窓 (参考): ecosystem 67.6 avg n=5 (04/28=326 牽引) / business-angle 5.4 avg n=7 / trend-pattern 5.0 avg n=4 / comparison 3.0 avg n=6 / use-case 2.5 avg n=2 / tech-deep 0.0 avg n=1。重要注記: 14日窓は全 method が 0〜6 views・母数 n≤5・05/14-17 の silent fail 4 件と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。method PDCA は運用ルール (連投回避・80/20・柱比率) の充足と素材適合度で運用する。本日 05/27 (Wed=188 avg 週次中位帯) は method=ecosystem を起用。本日 TOP5 は昨日 TOP5 と完全に同じ 5 OSS で順位だけ入れ替わり、AI エージェント運用基盤の市場定着フェーズ到達という稀有なマクロシグナル。5 本は綺麗に『AI エージェント運用エコシステムの 5 層』へマッピング可能 (#1 Understand-Anything=入力層 / #2 ECC=harness 中核層 / #3 ai-engineering-from-scratch=教育層 / #4 knowledge-work-plugins=非エンジニア展開層 / #5 Anthropic-Cybersecurity-Skills=垂直分野層) で ecosystem 角度の素材適合度 5/5。直近 2 日 (05/26 use-case / 05/25 business-angle) と method 衝突なし、05/24 ecosystem から 3 日空きで連投ルール非該当。柱② (business-angle 比率 15%) は本週 (Mon 05/25 〜 Sun 05/31) Day 1 で消化済みのため本日 Day 3 (Wed) は柱① (Trending 解説 70%) 主軸枠で ecosystem を投入。最低 30 views (Wed 下位帯)、理想 500 views (Wed 上位帯への漸近) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は火曜 (Tue=563 avg 週次TOP2曜日帯)。Primary ペルソナ (CTO/技術選定者) が週始の意思決定タイミングで GitHub 巡回する曜日帯で use-case 角度が刺さりやすい。最低 30 views、理想 600 views を目標",
-      "新規 3 本 (Lum1104/Understand-Anything #1 復帰 +5,625 / affaan-m/ECC 本日新規 trending 入り +2,052 / mukul975/Anthropic-Cybersecurity-Skills 本日新規 trending 入り +999) + 重複 2 本 (anthropics/knowledge-work-plugins 2 日連続継続 +1,448 / rohitg00/ai-engineering-from-scratch 2 日連続継続 +3,167) 構成。重複 2 本は 05/25 business-angle『金額・工数いくら浮くか』 → 本日 use-case『どの現場で使うか』へ語彙完全切替で連投ペナルティ回避"
+      "本日は水曜 (Wed=188 avg 週次中位帯)。Primary ペルソナ (CTO/技術選定者) が週中盤の継続意思決定タイミングで ecosystem 角度 (全体地図) が刺さりやすい。最低 30 views、理想 500 views を目標",
+      "本日 TOP5 は昨日 TOP5 と完全継続 (同一 5 OSS で順位だけ入れ替わり: 昨日 #4 ECC → 本日 #2 / 昨日 #2 knowledge-work-plugins → 本日 #4)。3 日連続で同一クラスタが TOP5 占有 = AI エージェント運用基盤の市場定着シグナル。重複 5/5 は 05/25 business-angle『金額・工数いくら浮くか』 → 05/26 use-case『どの現場で使うか』 → 本日 ecosystem『全体地図の中でどの層を占めるか』へ 3 日連続で語彙完全切替して連投ペナルティ回避"
     ],
     "hashtags": [
-      "Tue=563 avg 週次TOP2曜日帯 + use-case 角度のため、Primary (CTO/技術選定者) / Secondary (PdM/事業責任者) 双方の現場語彙を厚く: #現場導入 #部門展開 #業務シーン #onboarding #SOC #ペンテスト #社内勉強会 #研修 #エージェント運用",
-      "use-case 角度のため、5 本それぞれの利用シーンが映える語彙を入れる: #新人育成 #コードベース把握 #法務AI #営業DX #FinanceAI #セキュリティ運用 #チーム標準化 #品質統一",
+      "Wed=188 avg 週次中位帯 + ecosystem 角度のため、Primary (CTO/技術選定者) の『スタック導入順序の地図』語彙を厚く: #エコシステム #スタック #導入順序 #全体地図 #AI運用基盤 #harness #skill #エージェント運用",
+      "ecosystem 角度のため、5 層 (入力・harness・教育・非エンジニア展開・垂直分野) それぞれの位置づけが映える語彙を入れる: #入力層 #harness中核 #教育層 #部門展開 #垂直分野 #AI内製化 #社内標準化",
       "領域タグ (5 本のカテゴリ): #知識グラフ #公式プラグイン #AI教材 #エージェント運用 #サイバーセキュリティ #MITREATTCK #NISTCSF",
       "言語タグは Python (3 本: knowledge-work-plugins, ai-engineering-from-scratch, Anthropic-Cybersecurity-Skills) / TypeScript (1 本: Understand-Anything) / JavaScript (1 本: ECC)。Python (1.2x) と TypeScript (1.1x) を厚く、JavaScript (0.9x) は中位扱い",
-      "前日 05/25 (business-angle 角度) の『〜が浮く』『〜を内製化』『〜が代替』など金額・工数語彙から距離を置き、本日は『〜の現場で使えます』『〜に投入できます』『〜に組み込めます』『〜で揃えられます』など利用シーン語彙へ完全切替",
-      "use-case 角度でも『○○が最強』『一強』『終わった』断定は戦略 NG パターン違反のため厳禁。『〜の現場に効く』『〜のシーンで使える』『〜にそのまま投入』など中性的な場面叙述語彙に統一",
-      "本日 hashtag に Anthropic (#Anthropic) を継続的に厚めに置く: Anthropic 公式 / Anthropic 名冠の 2 本 (#2 knowledge-work-plugins / #5 Anthropic-Cybersecurity-Skills) が同時 TOP5 入りで Anthropic 関連語彙の検索流入を最大化"
+      "前日 05/26 (use-case 角度) の『〜の現場で使えます』『〜に投入できます』など利用シーン語彙から距離を置き、本日は『〜の入力層です』『〜のharness中核です』『〜の教育層です』『〜の展開層です』『〜の分野層です』など全体地図の中の位置づけ語彙へ完全切替",
+      "ecosystem 角度でも『○○が最強』『一強』『終わった』断定は戦略 NG パターン違反のため厳禁。『〜層を占める』『〜層に位置する』『〜の地図に組み込まれる』など中性的な位置づけ語彙に統一",
+      "本日 hashtag に Anthropic (#Anthropic) を継続的に厚めに置く: Anthropic 公式 / Anthropic 名冠の 2 本 (#4 knowledge-work-plugins / #5 Anthropic-Cybersecurity-Skills) が同時 TOP5 入りで Anthropic 関連語彙の検索流入を最大化"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 258 文字 (52+52+47+60+47)、TTS で約 35-39 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Claude Code, Cursor, VS Code Copilot, Codex, Tree-sitter, PyTorch, JAX, Hugging Face, vLLM, LangGraph, MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, AgentShield, Anthropic, agentskills.io, MCP, sub-agents, skill, SOC)",
-      "use-case 角度の一貫性: 5 本すべてに利用シーン語彙 (『受託の初日キャッチアップが一日で終わる現場』『職種ごとの日常業務に直接組み込めます』『社内勉強会の進行台本としてそのまま使える』『運用品質を揃える土台です』『SOC やペンテスト現場の作業に即日投入できます』) を入れ、1 文目で『何をする OSS か』、2 文目で『どんな現場で誰がどう使うか』を 1 つ挙げる 2 文構成",
-      "ランクとスター数は narration に含めない (画面カードに表示)。use-case 角度でも『3 万スター』等の数値は detail 側へ寄せ、narration は『現場』『シーン』『業務』『運用』『投入』『組み込み』など場面叙述特性で扱う",
-      "数値表現はアラビア数字統一 (一日・435 レッスン・61 エージェント・246 skill・754 個・11 職種・5 フレーム・1 契約・20 フェーズ)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 260 文字 (55+56+50+50+49)、TTS で約 35-39 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (Claude Code, Cursor, VS Code Copilot, Codex, Tree-sitter, PyTorch, JAX, Hugging Face, vLLM, LangGraph, MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, AgentShield, Anthropic, agentskills.io, MCP, sub-agents, skill, SOC, harness)",
+      "ecosystem 角度の一貫性: 5 本すべてに『〜層』『〜中核』『〜エコシステム』語彙 (『エコシステムの入力層です』『harness 中核です』『教育レイヤーです』『展開層です』『分野層です』) を入れ、1 文目で『エコシステムのどの層か』、2 文目で『その層が運用全体にどう効くか』を 1 つ挙げる 2 文構成",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem 角度でも数値は detail 側へ寄せ、narration は『層』『中核』『エコシステム』『地図』など位置づけ語彙で扱う",
+      "数値表現はアラビア数字統一 (61 エージェント・246 skill・754 個・11 職種・5 フレーム・20 フェーズ・435 レッスン)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `use-case` (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP3 のうち本日選択可能な use-case 2.0 avg n=1)。直近 2 日 (05/25 business-angle / 05/24 ecosystem) と method 衝突なし、最終 use-case 投入 05/21 から 5 日空きで鮮度十分。柱② 週次必須要件は本週 (Mon 05/25 〜 Sun 05/31) Day 1 で消化済みのため本日 Day 2 は柱① 主軸枠を use-case で取りに行く",
-      "今日の TOP5 (Lum1104/Understand-Anything=TypeScript / 30,814★ / +5,625・大規模リポジトリを対話できる知識グラフに変換、新人 onboarding・受託初日キャッチアップ現場 / anthropics/knowledge-work-plugins=Python / 15,315★ / +1,448・Anthropic 公式 11 職種プラグイン、非エンジニア部門の日常業務 AI 化現場 / rohitg00/ai-engineering-from-scratch=Python / 18,372★ / +3,167・20 フェーズ 435 レッスンの AI 内製化カリキュラム、社内勉強会・新人 AI エンジニア育成現場 / affaan-m/ECC=JavaScript / 192,236★ / +2,052・本日新規 trending 入り、61 sub-agents + 246 skill + AgentShield の harness 最適化、Claude Code/Cursor 運用チームの品質統一現場 / mukul975/Anthropic-Cybersecurity-Skills=Python / 9,156★ / +999・本日新規 trending 入り、MITRE ATT&CK/NIST CSF 2.0/MITRE ATLAS/D3FEND/NIST AI RMF の 5 フレーム 754 skills、SOC・ペンテスト受託のエージェント業務移譲現場) は全 5 本が明確な利用現場へ即日マッピング可能で use-case 角度の素材適合度 5/5",
-      "本日のマクロ核: 『AI エージェントが現場部署の作業手順を直接代行するフェーズへ』として読む。本日新規 trending 入りの #5 Anthropic-Cybersecurity-Skills は MITRE ATT&CK 14 戦術・NIST CSF 2.0 の 6 機能・MITRE ATLAS の AI/ML 脅威・D3FEND の防御対策・NIST AI RMF の AI リスク管理 5 フレームを束ねた 754 skill の構造、#4 ECC は 61 sub-agents + 246 skill + AgentShield (1282 tests / 98% coverage / 102 静的解析ルール) + 12 言語対応の harness、両者ともに『エージェントが業務手順そのものを保持して現場へ移譲される』ことを示す象徴的構造。冒頭マクロで『AI が業務手順を持ったエージェントとして現場へ降りる時代』フックを置き、5 本を『どの現場の誰がどの作業を AI に移譲するか』軸で接続",
-      "Primary (CTO/技術選定者) には『自社のどの現場に AI を当てるか』の場面カタログとして直撃。Secondary (PdM/事業責任者) には『部門ごとの導入優先順 = 非エンジニア部門 (#2) / 育成 (#3) / セキュリティ (#5) のどこから着手するか』の判断材料として、Tertiary (学習中エンジニア) には『#3 ai-engineering-from-scratch の縦カリキュラム』入口として届く 3 層対応",
-      "重複 2 本の角度切替: knowledge-work-plugins は 05/25 business-angle『1 契約で全社展開』 → 本日 use-case『非エンジニア部門の日常業務シーン』へ語彙切替 (本日は『営業・法務・Finance などの職種ごとの日常業務に直接組み込む』現場叙述に統一)。ai-engineering-from-scratch は 05/25 business-angle『外部研修 1 人月数十万円を社内教材へ置換』 → 本日 use-case『社内勉強会・新人 AI エンジニア育成シーン』へ語彙切替 (本日は『進行台本としてそのまま使える』現場叙述に統一)。連投ペナルティ回避",
-      "5 本のライセンスは MIT / Apache-2.0 が中心で商用受託への組み込みやすさを暗黙的に Primary ペルソナへ訴求 (#1 確認推奨 / #2 Apache-2.0 / #3 MIT / #4 MIT / #5 Apache-2.0)。AGPL や GPL-3.0 の制約付きは本日ゼロで、use-case の『現場への即日投入』語彙に矛盾しないクリーンな構成",
-      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜6 views・n≤5・silent fail 汚染で有意差なし。本日の use-case 採用は『平均 TOP method 群だから』を Meta-PDCA の名目根拠としつつ、実質判断は『今日の素材 5/5 全てが具体的な利用現場へ即日マッピング可能』+『#4 ECC・#5 Anthropic-Cybersecurity-Skills の新規 trending 入りで現場叙述のマクロが立つ』+『運用ルール (連投回避・週次柱比率) 充足』で確定",
-      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19-25 で継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "次回以降の explore 候補: `persona-pick` (Primary / Secondary / Tertiary のうち X 層がまず触るべき 1 本を 5 本それぞれに割り当てる use-case の派生)、`monetize-angle` (受託 PoC 見積もりベース・人月換算でいくら浮くかを切り口にする business-angle 強化版)、`stack-fit` (Primary ペルソナの『今のスタックに足す 1 OSS』指名買い視点・ecosystem の発展形)。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem のローテーション主軸で組む"
+      "本日の discovery.method は `ecosystem` (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の ecosystem 3.0 avg n=2)。直近 2 日 (05/26 use-case / 05/25 business-angle) と method 衝突なし、05/24 ecosystem から 3 日空きで連投ルール非該当。柱② 週次必須要件は本週 (Mon 05/25 〜 Sun 05/31) Day 1 で消化済みのため本日 Day 3 は柱① 主軸枠を ecosystem で取りに行く",
+      "本日 TOP5 は昨日 TOP5 と完全に同じ 5 OSS で順位だけ入れ替わり (#1 Understand-Anything=TypeScript / 35,571★ / +4,721・コードを対話可能な知識グラフへ・3 日連続継続 / #2 ECC=JavaScript / 194,238★ / +1,912・61 sub-agents + 246 skill + AgentShield・2 日連続継続 / #3 ai-engineering-from-scratch=Python / 20,622★ / +2,169・20 フェーズ 435 レッスン・3 日連続継続 / #4 knowledge-work-plugins=Python / 16,612★ / +1,698・Anthropic 公式 11 職種プラグイン・3 日連続継続 / #5 Anthropic-Cybersecurity-Skills=Python / 10,050★ / +871・MITRE ATT&CK ほか 5 フレーム 754 skills・2 日連続継続)。3 日連続同一クラスタ TOP5 占有 = AI エージェント運用基盤の市場定着フェーズ到達",
+      "本日のマクロ核: 『AI エージェント運用エコシステム 5 層の同時 trending = AI 運用基盤の市場定着フェーズ到達』として読む。5 本は綺麗に 5 層へマッピング: #1 Understand-Anything=入力層 (コード→知識グラフ→Claude Code/Cursor へ供給) / #2 ECC=harness 中核層 (61 sub-agents + 246 skills + AgentShield・12 言語横断) / #3 ai-engineering-from-scratch=教育層 (20 フェーズ 435 レッスンで人材を縦に育てる) / #4 knowledge-work-plugins=非エンジニア展開層 (Anthropic 公式 11 職種) / #5 Anthropic-Cybersecurity-Skills=垂直分野層 (5 フレーム 754 skills・agentskills.io 標準で 20+ プラットフォームへ配布)。冒頭フックは『本日 TOP5 が昨日と同一の 5 OSS で順位だけ入れ替わった』事実に置き、Primary ペルソナの『うちのスタックにどの順で何を足すか』判断に直結",
+      "Primary (CTO/技術選定者) には『スタック導入順序の地図 = 入力 → harness → 教育 → 非エンジニア展開 → 垂直分野』として直撃。Secondary (PdM/事業責任者) には『全社展開の段階モデル = 技術部門 → 育成 → 非エンジニア部門 → 垂直分野』として、Tertiary (学習中エンジニア) には『#3 教育層』入口として届く 3 層対応",
+      "重複 5/5 (TOP5 完全継続) の角度切替: 全 5 本が 05/25 business-angle『金額・工数』 → 05/26 use-case『現場シーン』 → 本日 ecosystem『5 層全体地図』へ 3 日連続で語彙完全切替。アングルの転換そのものが視聴差別化の核心で、Meta-PDCA の有効性を実証する稀有な機会",
+      "5 本のライセンスは MIT / Apache-2.0 が中心で商用受託への組み込みやすさを暗黙的に Primary ペルソナへ訴求 (#2 ECC=MIT / #3 ai-engineering-from-scratch=MIT / #4 knowledge-work-plugins=MIT / #5 Anthropic-Cybersecurity-Skills=Apache-2.0)。AGPL や GPL-3.0 の制約付きは本日ゼロで、ecosystem の『スタックに即日追加』語彙に矛盾しないクリーンな構成",
+      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜6 views・n≤5・silent fail 汚染で有意差なし。本日の ecosystem 採用は『14 日窓 TOP method だから』を Meta-PDCA の名目根拠としつつ、実質判断は『今日の素材 5/5 全てが綺麗に 5 層へマッピング可能』+『3 日連続同一 TOP5 占有という稀有なマクロシグナル』+『運用ルール (連投回避・週次柱比率) 充足』で確定",
+      "05/14-17 の silent fail 連投事故 → 05/18 以降 PR squash merge + 着弾検証フローが定着し 05/19-26 で継続成功。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "次回以降の explore 候補: `stack-map` (Primary ペルソナの『今のスタックに足す 1 OSS』指名買い視点・本日 ecosystem の発展形)、`layer-pick` (5 本を 5 層に当てはめ読者の弱い層を診断するチェックリスト型 ecosystem 派生・本日構成がそのまま雛形)、`persona-pick` (Primary / Secondary / Tertiary のうち X 層がまず触るべき 1 本を 5 本それぞれに割り当てる use-case 派生)、`monetize-angle` (受託 PoC 見積もりベース・人月換算でいくら浮くかを切り口にする business-angle 強化版)。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem のローテーション主軸で組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-26",
-    "dayOfWeek": "Tue",
+    "date": "2026-05-27",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "現場導入",
-      "部門展開",
-      "業務シーン",
-      "onboarding",
-      "SOC",
-      "ペンテスト",
-      "社内勉強会",
-      "研修",
+      "エコシステム",
+      "スタック",
+      "導入順序",
+      "全体地図",
+      "AI運用基盤",
+      "harness",
+      "skill",
       "エージェント運用",
-      "新人育成",
-      "コードベース把握",
-      "法務AI",
-      "営業DX",
-      "FinanceAI",
-      "セキュリティ運用",
-      "チーム標準化",
-      "品質統一",
+      "入力層",
+      "harness中核",
+      "教育層",
+      "部門展開",
+      "垂直分野",
+      "AI内製化",
+      "社内標準化",
       "知識グラフ",
       "公式プラグイン",
       "AI教材",
@@ -105,6 +103,6 @@
       "PdM",
       "個人開発"
     ],
-    "focus": "火曜 (Tue=563 avg 週次TOP2曜日帯、週始の意思決定タイミング) に `use-case` 角度 (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP3 のうち本日選択可能な use-case 2.0 avg n=1) を投入。直近 2 日 (05/25 business-angle / 05/24 ecosystem) と method 衝突なし、最終投入 05/21 から 5 日空きで鮮度十分。柱② 週次必須要件は本週 Day 1 (05/25) で消化済みのため本日 Day 2 は柱① 主軸枠を use-case で取りに行く。今日の TOP5 (Lum1104/Understand-Anything=対話できる知識グラフ・本日 +5,625・#1 復帰 / anthropics/knowledge-work-plugins=Anthropic 公式 11 職種プラグイン・本日 +1,448・2 日連続継続 / rohitg00/ai-engineering-from-scratch=20 フェーズ 435 レッスン教材・本日 +3,167・2 日連続継続 / affaan-m/ECC=61 sub-agents + 246 skill + AgentShield・本日新規 trending 入り +2,052 / mukul975/Anthropic-Cybersecurity-Skills=MITRE ATT&CK ほか 5 フレーム 754 skills・本日新規 trending 入り +999) は全 5 本が明確な利用現場へ即日マッピング可能で use-case 素材適合度 5/5。本日新規入りの #4 ECC と #5 Anthropic-Cybersecurity-Skills は『AI エージェントが現場部署の作業手順を直接代行するフェーズへ』というマクロを共同で立て、5 本を『誰がどの現場で使うか』軸で貫く。重複 2 本 (knowledge-work-plugins 2 日連続 / ai-engineering-from-scratch 2 日連続) は前日 05/25 business-angle『金額・工数いくら浮くか』から本日 use-case『どの現場で使うか』へ角度完全切替し連投ペナルティ回避。注記: 14 日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な use-case 適合度を併用根拠とする。最低 30 views (Tue 下位帯)、理想 600 views (Tue 上位帯への漸近) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "水曜 (Wed=188 avg 週次中位帯、週中盤の継続意思決定タイミング) に `ecosystem` 角度 (柱① 主軸日 / Meta-PDCA exploit、14 日窓 method 平均 TOP の ecosystem 3.0 avg n=2) を投入。直近 2 日 (05/26 use-case / 05/25 business-angle) と method 衝突なし、05/24 ecosystem から 3 日空きで連投ルール非該当。柱② 週次必須要件は本週 Day 1 (05/25) で消化済みのため本日 Day 3 は柱① 主軸枠を ecosystem で取りに行く。本日 TOP5 は昨日 TOP5 と完全に同じ 5 OSS で順位だけ入れ替わり = AI エージェント運用基盤の市場定着フェーズ到達という稀有なマクロシグナル。5 本は綺麗に『AI エージェント運用エコシステムの 5 層』へマッピング: #1 Understand-Anything (TypeScript / 35,571★ / +4,721)=入力層 / #2 ECC (JavaScript / 194,238★ / +1,912)=harness 中核層 / #3 ai-engineering-from-scratch (Python / 20,622★ / +2,169)=教育層 / #4 knowledge-work-plugins (Python / 16,612★ / +1,698)=非エンジニア展開層 / #5 Anthropic-Cybersecurity-Skills (Python / 10,050★ / +871)=垂直分野層。ecosystem 素材適合度 5/5。冒頭フックは『本日 TOP5 が昨日と同一の 5 OSS で順位だけ入れ替わった』事実に置き、Primary ペルソナの『うちのスタックにどの順で何を足すか』判断に直結させる。重複 5/5 (TOP5 完全継続) は 05/25 business-angle『金額・工数』 → 05/26 use-case『現場シーン』 → 本日 ecosystem『5 層全体地図』へ 3 日連続で語彙完全切替し連投ペナルティ回避。アングル転換そのものが視聴差別化の核心で Meta-PDCA の有効性を実証する稀有な機会。注記: 14 日窓の method 平均差は n≤5・silent fail 汚染で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な ecosystem 適合度を併用根拠とする。最低 30 views (Wed 下位帯)、理想 500 views (Wed 上位帯への漸近) を目標。05/14-17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
