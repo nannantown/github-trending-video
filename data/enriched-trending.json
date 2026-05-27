@@ -1,17 +1,16 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『AIエージェント運用エコシステムの5層全体地図』として横断料理する。冒頭マクロは『本日TOP5が昨日と完全に同じ5OSSで順位だけ入れ替わり = AI エージェント運用基盤の市場定着フェーズ到達』。5本は以下5層へ綺麗に対応: #1 Lum1104/Understand-Anything = 入力層 (Tree-sitter静的解析+マルチエージェント並列要約でコードを対話可能な知識グラフへ変換、Claude Code/Cursor/VS Code Copilotへ供給) / #2 affaan-m/ECC = harness 中核層 (61 sub-agents + 246 skills + AgentShield、12言語横断のharness最適化フレーム) / #3 rohitg00/ai-engineering-from-scratch = 教育層 (PyTorch/JAX/Hugging Face/vLLM/LangGraphまで20フェーズ435レッスンで人材を縦に育てるカリキュラム) / #4 anthropics/knowledge-work-plugins = 非エンジニア展開層 (Anthropic公式、営業・サポート・法務・Finance・PdM・マーケ等11職種向けプラグイン集) / #5 mukul975/Anthropic-Cybersecurity-Skills = 垂直分野層 (MITRE ATT&CK/NIST CSF 2.0/MITRE ATLAS/D3FEND/NIST AI RMFの5フレームに対応した754 skills、agentskills.io標準でClaude Code/Copilot/Cursor/Gemini CLI等20+プラットフォームへ即日配布)。直近2日 (05-26 use-case / 05-25 business-angle) と method 衝突なし。05-24 ecosystem から3日空きで連投ルール非該当。14日窓 Method 平均 TOP は ecosystem (3.00 avg n=2) で本日選択可能。柱② (business-angle 比率15%) は本週 (Mon 05-25 〜 Sun 05-31) Day 1で消化済みのため本日 Day 3 (Wed) は柱① (Trending 解説 70%) 主軸枠で ecosystem を投入。素材適合度 5/5: 5本が完全に5層へ対応する稀有な機会。Primary (CTO/技術選定者) には『自社スタックに今足すべき1OSS』の導入順序地図、Secondary (PdM/事業責任者) には『全社展開の段階モデル』、Tertiary (学習中エンジニア) には #3 教育層入口として届く3層構成。本日 TOP5 完全継続 (昨日と同一5OSS) に対し、05-25 business-angle『金額・工数いくら浮くか』 → 05-26 use-case『どの現場で使うか』 → 本日 ecosystem『エコシステム全体地図の中でどの層を占めるか』へ3日連続で語彙完全切替を成立させ Meta-PDCA の有効性自体を実証。アングル転換そのものが視聴差別化の核心。05-14〜17 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。最低 30 views (Wed 中位帯)、理想 500 views (Wed 上位帯への漸近) を目標。注記: 14日窓 method 平均差は n≤5 で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な ecosystem 適合度を併用根拠とする。",
+    "method": "self-experiment",
+    "description": "本日のTOP5を『毎朝AIショート動画を生成している本チャンネル運用者が、自分のpipelineに明日から何を実際に入れるか、何が奪われるか』というself-experiment角度で5本横断料理する。冒頭マクロは『3日連続で同一だったTOP5が本日ついに2本入れ替わり、新規参入の#1 MoneyPrinterTurbo (+1,737★) が本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、#3 stop-slop (+664★) は本チャンネルのナレーション原稿のAI臭を即除去できるskill。残り3本も全て本routineの現場改善に直結する稀有な日』。5本の現場適用: #1 harry0703/MoneyPrinterTurbo = 本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、台本生成から字幕埋め込みまで1クリック化、編集レイヤーは奪われるが選別・PDCAレイヤーは奪われない実体験 / #2 Lum1104/Understand-Anything = 本routineで毎朝5本のREADMEを英語で読む工程をTree-sitter+並列マルチエージェント要約で地図化できる即日導入候補 / #3 hardikpandya/stop-slop = 本チャンネルのナレーションに出るem-dash・万能副詞・throat-clearingをskill 1枚で除去、narration品質改善の最短ルート / #4 affaan-m/ECC = 本routine群を支えるClaude Code SessionStartフック構成の上位互換、61 sub-agents+246 skills+AgentShieldで運用標準化、ただし1人運用には過剰 / #5 anthropics/knowledge-work-plugins = 投稿後のIG/X向けキャプション・hashtag生成にマーケ職種プラグインを当てる実適用。直近2日 (05-26 use-case / 05-27 ecosystem) と method衝突なし、self-experimentは14日窓・30日窓ともゼロ投入のためexplore 20%枠で該当、柱③ (推奨比率10%) の今週分消化。柱②は本週Day 1 (05-25 business-angle) で消化済み。素材適合度5/5: #1がそもそも当チャンネルの完全競合という奇跡的偶然+残り4本も自分のpipelineに足す/足さないの実判断ができる現場保有。Primaryペルソナ (CTO/技術選定者) には『同じ問題を実際に解いている人の所感』、Secondary (PdM/事業責任者) には『AI動画・コンテンツ運用の現場感』、Tertiary (学習中) には『この人は手を動かす人』信頼シグナルとして届く3層構成。05-14〜17のmain到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低30 views、理想500 views (Thu=234 avg 上位帯への漸近) を目標。注記: 14日窓method平均はn≤3で統計的に有意でなく、本選定は素材適合度5/5+柱③週次消化+self-experiment過去ゼロ投入のexplore枠該当を根拠とする。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/harry0703/MoneyPrinterTurbo",
       "https://github.com/Lum1104/Understand-Anything",
+      "https://github.com/hardikpandya/stop-slop",
       "https://github.com/affaan-m/ECC",
-      "https://github.com/rohitg00/ai-engineering-from-scratch",
       "https://github.com/anthropics/knowledge-work-plugins",
-      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "https://docs.anthropic.com/en/docs/claude-code/skills",
-      "https://agentskills.io"
+      "https://docs.anthropic.com/en/docs/claude-code/skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars": 61750,
+      "todayStars": 1737,
+      "description": "AI短編動画の全自動生成スイート",
+      "detail": "トピックを入れるだけで台本、素材、字幕、BGMを自動生成し、9:16と16:9の短編動画を量産できるスイートです。OpenAIやDeepSeek、Geminiなど主要LLMに対応します。",
+      "narration": "毎日AIで動画を出している私の完全競合です。1クリックで台本から字幕までやってくれます。"
+    },
+    {
+      "rank": 2,
       "fullName": "Lum1104/Understand-Anything",
       "name": "Understand-Anything",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "language": "TypeScript",
-      "stars": 35571,
-      "todayStars": 4721,
-      "description": "AI運用エコの入力層、知識グラフ化",
-      "detail": "コードベースを対話可能な知識グラフへ変換し、Claude CodeやCursor、Copilotから参照できる入力層です。AIエージェント運用エコシステムの最初の関門で、出力品質を底上げします。",
-      "narration": "コードを知識グラフ化するエコシステムの入力層です。Claude Codeに渡すコンテキストの質を底上げします。"
+      "stars": 39585,
+      "todayStars": 4466,
+      "description": "コードを対話可能な知識グラフへ",
+      "detail": "Tree-sitter解析とマルチエージェント並列要約でコードを対話可能な知識グラフへ変換し、関数・依存・アーキ層をクリック可視化します。Claude CodeやCursorのコンテキスト供給に直結。",
+      "narration": "私もこの動画作りで5本READMEを読みます。Understand-Anythingで一気に地図化できそうです。"
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "fullName": "hardikpandya/stop-slop",
+      "name": "stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "language": null,
+      "stars": 5630,
+      "todayStars": 664,
+      "description": "AI臭を消すClaude Code skill",
+      "detail": "AIが書いた文章に出がちな決まり文句や万能副詞、em-dash、対比強調などをまとめて除去するためのClaude Code向けskillです。Projectsやシステムプロンプトでも使えます。",
+      "narration": "私の動画ナレーションのAI臭を消すskillです。em-dashや遠回し表現をまとめて除去できます。"
+    },
+    {
+      "rank": 4,
       "fullName": "affaan-m/ECC",
       "name": "ECC",
       "url": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
-      "stars": 194238,
-      "todayStars": 1912,
-      "description": "AI運用ハーネスの中核フレーム",
-      "detail": "Claude CodeやCursor、Codex向けの61サブエージェントと246skillをまとめたharness層です。テストやレビュー、セキュリティ監査を横断で標準化し、運用品質を社内で揃えられます。",
-      "narration": "AIエージェント運用エコシステムのharness中核です。skills・記憶・セキュリティを横断で標準化します。"
+      "stars": 195957,
+      "todayStars": 2062,
+      "description": "agent harnessの最適化フレーム",
+      "detail": "Claude CodeやCursor、Codex向けに61サブエージェントと246skill、AgentShieldを束ねたharnessフレームです。テスト、レビュー、セキュリティ監査を横断で標準化できます。",
+      "narration": "私のClaude Code運用に足したいharness集です。skillとAgentShieldで品質を揃えます。"
     },
     {
-      "rank": 3,
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "name": "ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "language": "Python",
-      "stars": 20622,
-      "todayStars": 2169,
-      "description": "AIエンジニア育成の435レッスン",
-      "detail": "PyTorchやJAX、Hugging Face、vLLM、LangGraphまで20フェーズ435レッスンで縦に通すカリキュラムです。エコシステムを支える人材を社内で量産できる教育レイヤーになります。",
-      "narration": "AIエンジニアを育てる教育レイヤーです。エコシステム全体を支える人材を社内で量産する土台になります。"
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "fullName": "anthropics/knowledge-work-plugins",
       "name": "knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "language": "Python",
-      "stars": 16612,
-      "todayStars": 1698,
-      "description": "非エンジニア向け公式プラグイン",
-      "detail": "Anthropic公式の知識労働者向けプラグイン集です。営業、サポート、法務、Finance、PdM、マーケなど11職種にClaudeを特化させ、AIを非エンジニア部門まで拡張する展開層です。",
-      "narration": "AIを非エンジニア部門へ広げる展開層です。エコシステムを営業や法務まで一気に伸ばす導入口になります。"
-    },
-    {
-      "rank": 5,
-      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
-      "name": "Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "language": "Python",
-      "stars": 10050,
-      "todayStars": 871,
-      "description": "セキュリティ垂直の754 skills",
-      "detail": "MITRE ATT&CKやNIST CSF 2.0など5フレームに対応した754個のセキュリティskill集です。SOCやペンテスト現場へAIを最初に降ろせる、垂直分野展開の代表例になります。",
-      "narration": "AIエージェントを垂直分野に降ろす分野層です。セキュリティ業務をエコシステムへ最初に組み込めます。"
+      "stars": 17221,
+      "todayStars": 695,
+      "description": "11職種向けClaude公式プラグイン",
+      "detail": "Anthropic公式の知識労働者向けプラグイン集です。営業、サポート、法務、Finance、PdM、マーケなど11職種ごとにClaudeを最適化し、非エンジニア部門のAI導入を加速します。",
+      "narration": "私のSNS運用にも効きそうな職種別プラグインです。マーケや法務向けにClaudeを最適化できます。"
     }
   ]
 }
