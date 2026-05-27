@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-26T23:55:16.591Z"
+        "updatedAt": "2026-05-27T23:52:57.011Z"
       }
     },
     {
@@ -2246,20 +2246,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-27T23:52:57.011Z"
+      }
+    },
+    {
+      "videoId": "SjFsxxz2AAU",
+      "videoUrl": "https://youtube.com/shorts/SjFsxxz2AAU",
+      "date": "2026-05-28",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/28 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "Lum1104/Understand-Anything",
+        "hardikpandya/stop-slop",
+        "affaan-m/ECC",
+        "anthropics/knowledge-work-plugins"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本日のTOP5を『毎朝AIショート動画を生成している本チャンネル運用者が、自分のpipelineに明日から何を実際に入れるか、何が奪われるか』というself-experiment角度で5本横断料理する。冒頭マクロは『3日連続で同一だったTOP5が本日ついに2本入れ替わり、新規参入の#1 MoneyPrinterTurbo (+1,737★) が本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、#3 stop-slop (+664★) は本チャンネルのナレーション原稿のAI臭を即除去できるskill。残り3本も全て本routineの現場改善に直結する稀有な日』。5本の現場適用: #1 harry0703/MoneyPrinterTurbo = 本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、台本生成から字幕埋め込みまで1クリック化、編集レイヤーは奪われるが選別・PDCAレイヤーは奪われない実体験 / #2 Lum1104/Understand-Anything = 本routineで毎朝5本のREADMEを英語で読む工程をTree-sitter+並列マルチエージェント要約で地図化できる即日導入候補 / #3 hardikpandya/stop-slop = 本チャンネルのナレーションに出るem-dash・万能副詞・throat-clearingをskill 1枚で除去、narration品質改善の最短ルート / #4 affaan-m/ECC = 本routine群を支えるClaude Code SessionStartフック構成の上位互換、61 sub-agents+246 skills+AgentShieldで運用標準化、ただし1人運用には過剰 / #5 anthropics/knowledge-work-plugins = 投稿後のIG/X向けキャプション・hashtag生成にマーケ職種プラグインを当てる実適用。直近2日 (05-26 use-case / 05-27 ecosystem) と method衝突なし、self-experimentは14日窓・30日窓ともゼロ投入のためexplore 20%枠で該当、柱③ (推奨比率10%) の今週分消化。柱②は本週Day 1 (05-25 business-angle) で消化済み。素材適合度5/5: #1がそもそも当チャンネルの完全競合という奇跡的偶然+残り4本も自分のpipelineに足す/足さないの実判断ができる現場保有。Primaryペルソナ (CTO/技術選定者) には『同じ問題を実際に解いている人の所感』、Secondary (PdM/事業責任者) には『AI動画・コンテンツ運用の現場感』、Tertiary (学習中) には『この人は手を動かす人』信頼シグナルとして届く3層構成。05-14〜17のmain到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低30 views、理想500 views (Thu=234 avg 上位帯への漸近) を目標。注記: 14日窓method平均はn≤3で統計的に有意でなく、本選定は素材適合度5/5+柱③週次消化+self-experiment過去ゼロ投入のexplore枠該当を根拠とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/Lum1104/Understand-Anything",
+          "https://github.com/hardikpandya/stop-slop",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/anthropics/knowledge-work-plugins",
+          "https://docs.anthropic.com/en/docs/claude-code/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-22",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "standard: 520 avg views (15 videos)",
-        "Day performance: Fri=1233, Tue=916, Thu=688, Wed=525, Sat=300, Mon=156, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-22",
       "changes": [
@@ -2599,6 +2644,20 @@
         "standard: 188 avg views (44 videos)",
         "Trending languages: Kotlin (2.1x), C++ (2.8x), Jupyter Notebook (2.1x)",
         "Day performance: Tue=432, Fri=354, Wed=214, Thu=201, Sat=89, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-27",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.6x avg views → drop",
+        "standard: 184 avg views (45 videos)",
+        "Trending languages: Kotlin (2.2x), C++ (2.9x), Jupyter Notebook (2.1x)",
+        "Day performance: Tue=432, Fri=354, Thu=201, Wed=178, Sat=89, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
