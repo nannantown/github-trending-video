@@ -1,16 +1,17 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日のTOP5を『2026 Q2のOSSメインバトルが「AIで作れるか」から「AIで上手く作れるか」へシフトしたマクロ転換』のtrend-pattern角度で5本横断料理する。冒頭マクロ核は『TOP5のうち3本 (#2 ECC=63 sub-agents・249 skills束ねるagent harness, #3 Leonxlnx/taste-skill=AI生成UIの平凡さを潰すデザインskill +2,235★ 新規, #4 hardikpandya/stop-slop=AI文体のクセを削るprose skill +755★) がskill層・anti-slop領域に集中。残り2本 (#1 MoneyPrinterTurbo=AI動画量産が一般化, #5 twenty=AIネイティブCRMでSaaSオープン化) も同じ「AI生産の質と所有」軸で接続。05-25/26/27/28 (business-angle/use-case/ecosystem/self-experiment) と method衝突なし、trend-pattern は14日窓avg 1.5/n=2・28日窓avg 5.5/n=4で28日窓TOP methodに該当、本日Friは週次最強帯 (Fri=405 avg) のため最も伸びる素材適合性。3本同時にskill層OSSがランクインする日は運用開始以来初で、Primary (CTO/技術選定者) への「次の四半期に何にbetするか」マクロ示唆として直撃。柱②(05-25) と柱③(05-28) は本週消化済みのため本日Day5は柱①主軸日。素材適合度4.5/5: 3本のskill層集中という確度の高いマクロシグナル+残り2本も同じ「AI質と所有」軸で接続。05-14〜17のmain到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低40 views、理想500 views (Fri=405 avg 上位帯) を目標。",
+    "method": "comparison",
+    "description": "本日のTOP5を『何の有償SaaSの代替か』のcomparison視点で5本横断料理する。冒頭マクロ核は『2026 Q2の有償AI SaaSに対するOSS代替が同じ週に5本同時に上位入り』。5本のincumbent対応: #1 harry0703/MoneyPrinterTurbo=Pictory/Synthesia/InVideoのAI動画生成SaaS代替・台本から字幕、9:16書き出しまで一括化 / #2 microsoft/markitdown=Unstructured.io/LlamaParseのLLM前処理SaaS代替・Microsoft公式でPDF/Word/Excel/PowerPoint/HTML/EPUB等を一括Markdown化 / #3 EveryInc/compound-engineering-plugin=自作プロンプト集や個別プラグインの代替・Claude Code/Codex/Cursor統合の公式プラグイン / #4 twentyhq/twenty=Salesforce/HubSpotのOSS+AI内蔵CRM代替・NestJS+React+AGPLv3・オブジェクトをコードで定義 / #5 anthropics/claude-code=Cursor/GitHub CopilotのAnthropic公式CLI代替・ターミナルから自然言語でコードを読み編集しコマンドを動かす。直近2日(05-29 trend-pattern / 05-28 self-experiment)とmethod衝突なし、comparisonは前回05-23から7日空きで連投ルール非該当。28日窓comparison avg 2.0/n=5で計測サンプル最多+安定method、14日窓0.67/n=3は弱いがSat=6 avg最下位曜日帯では『何を捨てて何を入れるか』の意思決定軸が短時間視聴で最も伝わりやすい。柱②(05-25 business-angle)・柱③(05-28 self-experiment)は本週(Mon 05-25〜Sun 05-31)消化済みのため本日Day6(Sat)は柱①主軸日。継続2本の角度切替: #1 MoneyPrinterTurbo は05-29 trend-pattern『量産フェーズの象徴』→本日comparison『Pictory/Synthesia代替』へ、#4 twenty は05-29 trend-pattern『SaaSオープン化の波』→本日comparison『Salesforce代替』へ語彙完全切替で連投ペナルティ回避。Microsoft(#2 markitdown)とAnthropic(#5 claude-code)の大手2社公式OSSが同日TOP5入りという稀有なシグナルもcomparison角度に厚みを与える。素材適合度5/5: 5本全てが明確なincumbent SaaSを持つ運用開始以来でも極めて高い適合度。Primary(CTO/技術選定者)が週末に『来週何を入れるか』を意思決定する素材として直撃。Secondary(PdM/事業責任者)には『月額SaaS棚卸しの起点』、Tertiary(学習中エンジニア)には『OSS代替を知る入口』として届く3層構成。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低3 views(Sat中位帯超え)、理想30 views(Sat上位帯への漸近、05-09=5の再現超え)を目標。注記: 14日窓method平均差は n≤3・silent fail汚染で統計的に有意でなく、本選定は28日窓 comparison n=5の安定性 + 素材適合度5/5 + 直近2日method衝突回避 + 柱① 主軸日該当を根拠とする。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/harry0703/MoneyPrinterTurbo",
-      "https://github.com/affaan-m/ECC",
-      "https://github.com/Leonxlnx/taste-skill",
-      "https://github.com/hardikpandya/stop-slop",
+      "https://github.com/microsoft/markitdown",
+      "https://github.com/EveryInc/compound-engineering-plugin",
       "https://github.com/twentyhq/twenty",
-      "https://docs.anthropic.com/en/docs/claude-code/skills"
+      "https://github.com/anthropics/claude-code",
+      "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "https://every.to/"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,59 +23,59 @@
       "name": "MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "language": "Python",
-      "stars": 66105,
-      "todayStars": 4685,
-      "description": "AI短編動画をワンクリック生成",
-      "detail": "OpenAIやGemini、DeepSeekなど主要LLMに対応し、台本、素材、字幕、BGM、9:16の書き出しまでをワンクリックで自動化する短編動画の量産スイートです。AI生成OSSが量産フェーズに入った象徴的存在です。",
-      "narration": "AI動画生成の主戦場が量産フェーズへ突入した象徴です。台本から字幕まで1クリックで完結します。"
+      "stars": 69515,
+      "todayStars": 3563,
+      "description": "Pictoryに代わるAI短編動画生成",
+      "detail": "OpenAIやGemini、DeepSeekなど主要LLMに対応し、台本生成から素材、字幕、BGM、9:16書き出しまで一括化する短編動画スイートです。PictoryやSynthesiaのAI動画SaaS代替として広がっています。",
+      "narration": "PictoryやSynthesiaに代わるOSSのAI動画生成です。台本から字幕まで一括で書き出せます。"
     },
     {
       "rank": 2,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 197180,
-      "todayStars": 1388,
-      "description": "Skill層を束ねるagent harness",
-      "detail": "Claude CodeやCursor、Codex向けに63 sub-agentと249 skill、AgentShield、研究系MCPを束ねるagent harness最適化フレームです。Skill層を制した者が次に勝つ時代の標準化基盤として急伸しています。",
-      "narration": "Skill層を制した者がAIagent覇権を握る時代です。249のskillでClaude Codeを工場化できます。"
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "language": "Python",
+      "stars": 129826,
+      "todayStars": 1876,
+      "description": "Microsoft公式の万能変換OSS",
+      "detail": "PDFやWord、Excel、PowerPointなど広範な形式を一括でMarkdownへ変換する公式OSSです。LLMへの入力前処理の標準として、Unstructured.ioやLlamaParseの代替に使われます。",
+      "narration": "Unstructured.ioに代わるMicrosoft公式OSSです。文書をMarkdownに一括変換できます。"
     },
     {
       "rank": 3,
-      "fullName": "Leonxlnx/taste-skill",
-      "name": "taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "language": "Shell",
-      "stars": 26278,
-      "todayStars": 2235,
-      "description": "AI製UIの平凡さを潰すskill",
-      "detail": "Claude CodeやCursorに『デザインの好み』を注入するskill集です。レイアウト、タイポ、モーションの設計則をSKILL.mdで埋め込み、AI生成UIの平凡さを潰します。skill層のデザイン側の主役です。",
-      "narration": "AI製UIの平凡さを潰すskillが上位入りしました。デザインの好みすらskillで注入する時代です。"
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "name": "compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "language": "TypeScript",
+      "stars": 18109,
+      "todayStars": 354,
+      "description": "AI開発を複利で積む公式plugin",
+      "detail": "Claude CodeやCodex、Cursorなど主要AI開発環境で使える公式プラグインです。プロンプトやワークフローを標準化し、AI支援開発の成果を複利的に積み上げます。自作プロンプト集の集合的代替です。",
+      "narration": "自作プロンプト集に代わる公式の統合プラグインです。Claude CodeやCursorで複利的に生産性を上げます。"
     },
     {
       "rank": 4,
-      "fullName": "hardikpandya/stop-slop",
-      "name": "stop-slop",
-      "url": "https://github.com/hardikpandya/stop-slop",
-      "language": null,
-      "stars": 6372,
-      "todayStars": 755,
-      "description": "AI文体のクセを削るskill",
-      "detail": "AI文体に出がちな決まり文句、em-dash、対比強調、万能副詞などを除去するためのClaude Code向けskillです。文章版のtaste-skillとして並んで急上昇しました。出力品質が新しい勝負どころです。",
-      "narration": "AI文体の決まり文句を削るskillが急上昇です。出力品質が新しい競争軸になった証拠です。"
-    },
-    {
-      "rank": 5,
       "fullName": "twentyhq/twenty",
       "name": "twenty",
       "url": "https://github.com/twentyhq/twenty",
       "language": "TypeScript",
-      "stars": 47800,
-      "todayStars": 495,
-      "description": "AIネイティブのオープンCRM",
-      "detail": "NestJSとReactで作られたOSSのCRMで、Salesforceの代替を狙うAIネイティブ設計です。AI agentやチャットを内蔵し、オブジェクトをコードで定義できます。SaaSのオープン化の波が届いています。",
-      "narration": "SalesforceのAI版を自前で持つ動きが加速しました。CRMにもオープン化の波が届いています。"
+      "stars": 48376,
+      "todayStars": 575,
+      "description": "Salesforce代替のAI内蔵CRM",
+      "detail": "NestJSとReactで作られたAI内蔵のOSS CRMで、Salesforceの代替を狙います。AIエージェントを内蔵しオブジェクトをコードで定義できます。AGPLv3でセルフホスト前提のスタートアップに刺さります。",
+      "narration": "SalesforceやHubSpotに代わるOSSのAI内蔵CRMです。オブジェクトもコードで定義できます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "anthropics/claude-code",
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "language": "Python",
+      "stars": 127838,
+      "todayStars": 460,
+      "description": "Anthropic公式のCLI開発ツール",
+      "detail": "ターミナルから自然言語でコードを読み、編集し、コマンドを動かすAnthropic公式のagentic CLIです。CursorやGitHub Copilotに代わるエディタ外で完結する開発体験を提供します。",
+      "narration": "CursorやCopilotに代わるAnthropic公式のCLIです。自然言語で開発を進められます。"
     }
   ]
 }
