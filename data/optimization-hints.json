@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29",
+  "updatedAt": "2026-05-30",
   "basedOnVideos": 11,
   "summary": {
     "avgViewsByDay": {
@@ -21,92 +21,96 @@
       { "language": "Rust", "multiplier": 0.6 }
     ],
     "topPerformingVideo": {
-      "date": "2026-05-15",
-      "views": 4,
+      "date": "2026-05-22",
+      "views": 3,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05-15〜05-28、計測済みのみ): business-angle 3.0 avg n=2 (05/15=4・05/20=2) / use-case 2.0 avg n=1 (05/21=2) / trend-pattern 1.5 avg n=2 (05/17=0 silent fail・05/22=3) / comparison 0.67 avg n=3 (05/16=0・05/19=0・05/23=2) / tech-deep 0.0 avg n=1 (05/18=0) / ecosystem 0 avg n=1 (05/27 pending) / self-experiment 0 avg n=1 (05/28 pending)。28 日窓 (参考): trend-pattern 5.5 avg n=4 (28 日窓 TOP) / use-case 2.5 avg n=2 / ecosystem 2.4 avg n=5 / business-angle 2.0 avg n=4 / comparison 2.0 avg n=5 / tech-deep 0.0 avg n=1 / self-experiment 0 avg n=1。重要注記: 14 日窓は全 method が 0〜4 views・母数 n≤3・silent fail 汚染と直近 5 件の計測短期で汚染されており、method 平均差は統計的に有意でない。28 日窓は trend-pattern が n=4 で計測完了で最も信頼できる method データ。本日 05-29 (Fri=405 avg 週次最強帯) は method=trend-pattern を起用。本日 TOP5 は 3 本入れ替わり (新規 #3 Leonxlnx/taste-skill=Shell / 26,278★ / +2,235・AI 製 UI の平凡さを潰す skill 集 / 新規 #5 twentyhq/twenty=TypeScript / 47,800★ / +495・Salesforce 代替の AI ネイティブ CRM)。継続 3 本: #1 harry0703/MoneyPrinterTurbo=Python / 66,105★ / +4,685 (本日 +4,685 で約 +2.7 倍加速)、#2 affaan-m/ECC=JavaScript / 197,180★ / +1,388 (4 日連続継続)、#4 hardikpandya/stop-slop=言語なし / 6,372★ / +755 (2 日連続継続)。TOP5 のうち 3 本 (#2 ECC / #3 taste-skill / #4 stop-slop) が Skill 層・Anti-Slop 領域に集中する稀有な日で trend-pattern の運用開始以来最大の機会。素材適合度 4.5/5。直近 2 日 (05-27 ecosystem / 05-28 self-experiment) と method 衝突なし、trend-pattern は 28 日窓 TOP method・14 日窓も TOP3 内の 1.5。柱② は本週 (Mon 05-25 〜 Sun 05-31) Day 1 (05-25 business-angle)、柱③ は Day 4 (05-28 self-experiment) で本週分消化済みのため本日 Day 5 (Fri) は柱① 主軸日。最低 40 views、理想 500 views (Fri 上位帯) を目標。"
+      "note": "Method 別平均 (14 日窓 05-16〜05-29、計測済みのみ): business-angle 2.0 avg n=1 (05/20=2) / use-case 2.0 avg n=1 (05/21=2) / trend-pattern 1.0 avg n=3 (05/17=0 silent fail・05/22=3・05/29=0 pending) / comparison 0.67 avg n=3 (05/16=0・05/19=0・05/23=2) / tech-deep 0.0 avg n=1 (05/18=0) / ecosystem 0 avg n=1 (05/27 pending) / self-experiment 0 avg n=1 (05/28 pending)。28 日窓 (参考): trend-pattern 5.5 avg n=4 (28 日窓 TOP) / use-case 2.5 avg n=2 / ecosystem 2.4 avg n=5 / business-angle 2.0 avg n=4 / comparison 2.0 avg n=5 / tech-deep 0.0 avg n=1 / self-experiment 0 avg n=1。重要注記: 14 日窓は全 method が 0〜3 views・母数 n≤3・silent fail 汚染と直近 3 件 (05-27/28/29) の計測前 pending で汚染されており、method 平均差は統計的に有意でない。28 日窓は comparison が n=5 で最も計測サンプル豊富で安定 method データ。本日 05-30 (Sat=6 avg 週次最下位帯) は method=comparison を起用。本日 TOP5 は 3 本入れ替わり (新規 #2 microsoft/markitdown=Python / 129,826★ / +1,876 / Microsoft 公式 LLM 前処理 OSS・新規 #3 EveryInc/compound-engineering-plugin=TypeScript / 18,109★ / +354 / Claude Code/Codex/Cursor 公式プラグイン・新規 #5 anthropics/claude-code=Python / 127,838★ / +460 / Anthropic 公式 CLI 開発ツール)。継続 2 本: #1 harry0703/MoneyPrinterTurbo=Python / 69,515★ / +3,563 (5 日連続・+4,685→+3,563 で微減速も TOP)、#4 twentyhq/twenty=TypeScript / 48,376★ / +575 (2 日連続継続・+495→+575 で微加速)。5 本全てが明確な incumbent SaaS を持つ稀有な日: #1 Pictory/Synthesia/InVideo・#2 Unstructured.io/LlamaParse・#3 自作プロンプト集や個別プラグイン・#4 Salesforce/HubSpot・#5 Cursor/GitHub Copilot。素材適合度 5/5: 運用開始以来でも極めて高い comparison 適合度。Microsoft (#2) と Anthropic (#5) の大手 2 社公式 OSS が同日 TOP5 入りも稀有なシグナル。直近 2 日 (05-29 trend-pattern / 05-28 self-experiment) と method 衝突なし、comparison は前回 05-23 から 7 日空きで連投ルール非該当。柱② は本週 (Mon 05-25 〜 Sun 05-31) Day 1 (05-25 business-angle)、柱③ は Day 4 (05-28 self-experiment) で本週分消化済みのため本日 Day 6 (Sat) は柱① 主軸日。最低 3 views (Sat 中位帯超え)、理想 30 views (Sat 上位帯への漸近・05-09=5 の再現超え) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は金曜 (Fri=405 avg 週次最強帯)。Primary ペルソナ (CTO/技術選定者) が週末前の意思決定タイミングで trend-pattern 角度 (マクロ転換の読み解き) が刺さりやすい。最低 40 views、理想 500 views を目標",
-      "本日 TOP5 は 3 本入れ替わり (新規 #3 taste-skill, #5 twenty / 継続 #1 MoneyPrinterTurbo, #2 ECC, #4 stop-slop)。3 本 (#2 ECC / #3 taste-skill / #4 stop-slop) が Skill 層・Anti-Slop 領域に集中する稀有な日のため、05-28 の self-experiment『私の現場に』語彙から本日 trend-pattern『主戦場』『象徴』『時代』『証拠』『波』のマクロ語彙へ完全切替で連投ペナルティ回避"
+      "本日は土曜 (Sat=6 avg 週次最下位帯)。Sat=6 実測下位帯では『何を捨てて何を入れるか』の意思決定軸が短時間視聴で最も伝わりやすいため comparison 角度を選択。最低 3 views、理想 30 views を目標",
+      "本日 TOP5 は 3 本入れ替わり (新規 #2 markitdown, #3 compound-engineering-plugin, #5 claude-code / 継続 #1 MoneyPrinterTurbo, #4 twenty)。5 本全てが明確な incumbent SaaS を持つ稀有な日のため、05-29 の trend-pattern『主戦場』『象徴』『時代』『波』マクロ語彙から本日 comparison『代わる』『代替』の直接対比語彙へ完全切替で連投ペナルティ回避"
     ],
     "hashtags": [
-      "Fri=405 avg 週次最強帯 + trend-pattern 角度のため、Primary (CTO/技術選定者) の『次の四半期に何にbet するか』語彙を厚く: #マクロ転換 #トレンド読み解き #四半期bet #技術投資判断 #OSSトレンド #2026Q2",
-      "trend-pattern 角度のため、マクロ性が映える語彙を入れる: #AntiSlop #Skill層 #AI生成品質 #AI出力品質 #生成AIの次フェーズ #量産から品質へ #SaaSオープン化",
-      "領域タグ (5 本のカテゴリ): #AI動画生成 #AgentHarness #AntiSlop #SkillMD #ClaudeSkill #AIネイティブCRM #SalesforceOSS代替",
-      "言語タグは Python (1 本: MoneyPrinterTurbo) / JavaScript (1 本: ECC) / Shell (1 本: taste-skill) / TypeScript (1 本: twenty) / 言語なし (1 本: stop-slop)。Python (1.2x) と TypeScript (1.1x) を厚く、JavaScript (0.9x) と Shell (1.0x) は中位扱い。Rust (0.6x) は本日不在",
-      "前日 05-28 (self-experiment 角度) の『私の』『私の routine に』『私の pipeline に』など 1 人称当事者語彙から距離を置き、本日は『主戦場』『象徴』『時代』『証拠』『波』『シフト』『フェーズ転換』など 3 人称・マクロ・現象観察語彙へ完全切替",
-      "trend-pattern 角度でも『〇〇最強』『一強』『終わった』断定は戦略 NG パターン違反のため厳禁。『〜の象徴』『〜の時代』『〜の波』『〜が新しい競争軸』など中性的・観察ベースの語彙に統一",
-      "本日 hashtag に Anthropic / Claude 系 (#Anthropic #ClaudeCode #ClaudeSkill) を厚めに置く: 5 本中 3 本 (#2 ECC / #3 taste-skill / #4 stop-slop) が Claude Code skill エコシステム直結で Anthropic 関連語彙の検索流入を最大化",
-      "Skill 層 OSS 3 本同時上位という事実をフックにする独自 hashtag: #Skill層集中 #AntiSlop3本同時 #2026Q2はskill勝負 #AIの次の勝負どころ #生成AIフェーズ2"
+      "Sat=6 avg 週次最下位帯 + comparison 角度のため、Primary (CTO/技術選定者) の『何を捨てて何を入れるか』語彙を厚く: #OSS代替 #SaaS棚卸し #月額削減 #技術選定 #意思決定 #来週何を入れるか",
+      "comparison 角度のため、incumbent SaaS との対比語彙を入れる: #SalesforceOSS代替 #Cursor代替 #Copilot代替 #Pictory代替 #Synthesia代替 #Unstructured代替 #LlamaParse代替",
+      "領域タグ (5 本のカテゴリ): #AI動画生成 #LLM前処理 #MarkdownOSS #ClaudeCodePlugin #AIネイティブCRM #agenticCLI",
+      "言語タグは Python (3 本: MoneyPrinterTurbo / markitdown / claude-code) / TypeScript (2 本: compound-engineering-plugin / twenty)。Python (1.2x) と TypeScript (1.1x) が両方厚く出る稀有な日で、Shell / Rust / Go / Ruby など低 multiplier 言語は本日不在",
+      "前日 05-29 (trend-pattern 角度) の『主戦場』『象徴』『時代』『波』『シフト』『フェーズ転換』マクロ語彙から距離を置き、本日は『代わる』『代替』『代わりに使う』『捨てる』『入れる』『置き換える』など直接対比語彙へ完全切替",
+      "comparison 角度でも『〇〇終わった』『〇〇一強』『〇〇最強』断定は戦略 NG パターン違反のため厳禁。『〜の代替』『〜に代わる』『〜の OSS 版』『〜に置き換え可能』など中性的・選択肢提示型語彙に統一",
+      "本日 hashtag に Microsoft / Anthropic 系 (#Microsoft #MicrosoftOSS #Anthropic #ClaudeCode) を厚めに置く: 大手 2 社の公式 OSS 同日 TOP5 入り (#2 markitdown / #5 claude-code) という稀有なシグナルで両ベンダー関連語彙の検索流入を最大化",
+      "5 本全てが incumbent SaaS の代替という事実をフックにする独自 hashtag: #OSS代替5本同時 #2026Q2SaaS棚卸し #有償SaaS代替 #来週の意思決定 #月額契約見直し"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 252 文字 (47+59+51+45+50)、TTS で約 35-38 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (MoneyPrinterTurbo, ECC, taste-skill, stop-slop, twenty, Salesforce, Claude Code, Cursor, Codex, OpenAI, Gemini, DeepSeek, em-dash, skill, harness, AgentShield, sub-agents, SKILL.md, AIagent, Anthropic, NestJS, React, CRM)",
-      "trend-pattern 角度の一貫性: 5 本すべてに『主戦場』『象徴』『時代』『証拠』『波』など macro 観察語彙を 1 文目に置き、2 文目で『その OSS の具体的な技術ファクト』を 1 つ挙げる 2 文構成。前日の self-experiment『私の』当事者語りと完全に語彙を切替",
-      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern 角度でも数値は detail 側へ寄せ、narration は『〜の象徴』『〜の時代』『〜の証拠』『〜の波』など現象観察の語彙で扱う",
-      "数値表現はアラビア数字統一 (1クリック、249のskill、63 sub-agents)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 271 文字 (52+57+57+54+51)、TTS で約 38-41 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (MoneyPrinterTurbo, markitdown, compound-engineering-plugin, twenty, claude-code, Pictory, Synthesia, Unstructured.io, LlamaParse, Microsoft, Salesforce, HubSpot, Cursor, Copilot, Anthropic, Claude Code, Codex, OpenAI, Gemini, DeepSeek, OSS, AGPLv3, NestJS, React, CRM, CLI, LLM, Markdown, PDF, Word, Excel, PowerPoint)",
+      "comparison 角度の一貫性: 5 本すべてに『代わる』『代替』を 1 回入れ、incumbent SaaS の固有名詞 (Pictory, Synthesia, Unstructured.io, Salesforce, HubSpot, Cursor, Copilot) を原文表記で明示。1 文目で『何の代替か』、2 文目で『その OSS の具体的な使いどころ』を 1 つ挙げる 2 文構成。前日 trend-pattern の『主戦場』『象徴』『時代』『波』マクロ語彙と完全に語彙切替",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度でも数値は detail 側へ寄せ、narration は『〜の代替』『〜に代わる』『〜の OSS 版』など意思決定提示の語彙で扱う",
+      "数値表現はアラビア数字統一 (9:16 書き出し、台本から字幕まで一括で)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (28 日窓 TOP method・avg 5.5/n=4 で最も信頼できる method データ、14 日窓も TOP3 内の avg 1.5/n=2)。直近 2 日 (05-27 ecosystem / 05-28 self-experiment) と method 衝突なし。柱② 週次必須要件は本週 (Mon 05-25 〜 Sun 05-31) Day 1 (05-25) で、柱③ は Day 4 (05-28) で消化済みのため本日 Day 5 (Fri) は柱① 主軸日",
-      "本日 TOP5 は 3 本入れ替わり (新規 #3 Leonxlnx/taste-skill=Shell / 26,278★ / +2,235・AI 製 UI の平凡さを潰す skill 集 / 新規 #5 twentyhq/twenty=TypeScript / 47,800★ / +495・Salesforce 代替の AI ネイティブ CRM)。継続 3 本: #1 harry0703/MoneyPrinterTurbo=Python / 66,105★ / +4,685 (本日 +4,685 で前日比約 2.7 倍加速)、#2 affaan-m/ECC=JavaScript / 197,180★ / +1,388 (4 日連続継続)、#4 hardikpandya/stop-slop=言語なし / 6,372★ / +755 (2 日連続継続)。TOP5 のうち 3 本 (#2 ECC / #3 taste-skill / #4 stop-slop) が Skill 層・Anti-Slop 領域に集中する運用開始以来初の稀有な日",
-      "本日のマクロ核: 『2026 Q2 の OSS メインバトルが「AI で作れるか」から「AI で上手く作れるか」へシフトした証拠が TOP5 に 3 本同時に並んだ』として読む。5 本のマクロ配置: #1 MoneyPrinterTurbo=「作れるか」フェーズの完成形 / 量産フェーズの象徴 / #2 ECC=Skill 層を束ねる側の標準化基盤 / #3 taste-skill=Skill 層のデザイン側主役 (AI 生成 UI の平凡さを潰す) / #4 stop-slop=Skill 層の文章側主役 (AI 文体のクセを削る) / #5 twenty=AI 内蔵を前提とした OSS SaaS で「AI で何を所有するか」という別軸。冒頭フックは『TOP5 のうち 3 本が Skill 層 / Anti-Slop』という事実に置き、Primary ペルソナ (CTO / 技術選定者) の『次の四半期に Skill 層に bet するか』の意思決定に直結",
-      "Primary (CTO / 技術選定者) には『マクロ転換の説明と次の bet 先』として直撃。Secondary (PdM / 事業責任者) には『OSS トレンドの読み解き』として、Tertiary (学習中エンジニア) には『今学ぶべき技術領域』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与",
-      "継続 3 本 (#1/2/4) の角度切替: 05-28 self-experiment『私の現場に何が刺さるか』 → 本日 trend-pattern『主戦場が品質フェーズへシフトした象徴・証拠・時代』へ語彙完全切替。新規 2 本 (#3/5) も同じ macro 視点で読み解く。アングル転換そのものが視聴差別化の核心",
-      "5 本のライセンスは MIT 中心 (MoneyPrinterTurbo=MIT / ECC=MIT / stop-slop=MIT / taste-skill=MIT / twenty=AGPLv3) で商用組み込みは twenty 以外スムーズ。trend-pattern 角度では細かいライセンス言及は narration から外し、detail でも触れない (マクロ視点を濁さない)",
-      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜4 views・n≤3・silent fail 汚染で有意差なし。28 日窓 trend-pattern (avg 5.5/n=4) は計測完了で最も信頼できる method データ。本日の trend-pattern 採用は『28 日窓 TOP method』+『素材適合度 4.5/5 で Skill 層 3 本同時集中の運用開始以来最大の機会』+『Fri=405 avg 週次最強帯』+『運用ルール (連投回避・週次柱比率) 充足』で確定",
-      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜28 で継続成功 (11 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "次回以降の explore 候補: `meta-trend` (trend-pattern の上位概念で複数 OSS を四半期マクロとしてまとめる)、`bet-target` (trend-pattern + business-angle のクロスで次の四半期投資領域を 1 つ明示)、既出の `dogfooding` / `competitor-watch` / `stack-map` / `layer-pick` / `persona-pick`。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem / trend-pattern のローテーション主軸 + 月 1〜2 回の self-experiment スパイクで組む。次回 Skill 系 OSS が TOP5 に再出現したときは `meta-trend` を試す候補"
+      "本日の discovery.method は `comparison` (28 日窓 n=5 で計測サンプル最多 + avg 2.0 で安定 method、直近 5 日 (05-25〜29) と method 衝突なし、前回 comparison は 05-23 で 7 日空きで連投ルール非該当)。柱② 週次必須要件は本週 (Mon 05-25 〜 Sun 05-31) Day 1 (05-25) で、柱③ は Day 4 (05-28) で消化済みのため本日 Day 6 (Sat) は柱① 主軸日",
+      "本日 TOP5 は 3 本入れ替わり (新規 #2 microsoft/markitdown=Python / 129,826★ / +1,876・Microsoft 公式 LLM 前処理 OSS / 新規 #3 EveryInc/compound-engineering-plugin=TypeScript / 18,109★ / +354・Claude Code/Codex/Cursor 公式プラグイン / 新規 #5 anthropics/claude-code=Python / 127,838★ / +460・Anthropic 公式 CLI 開発ツール)。継続 2 本: #1 harry0703/MoneyPrinterTurbo=Python / 69,515★ / +3,563 (5 日連続・+4,685→+3,563 で微減速)、#4 twentyhq/twenty=TypeScript / 48,376★ / +575 (2 日連続継続・+495→+575 で微加速)。5 本全てが明確な incumbent SaaS を持つ稀有な日",
+      "本日のマクロ核: 『2026 Q2 の有償 AI SaaS に対する OSS 代替が同じ週に 5 本同時に上位入り』として読む。5 本の incumbent 対応: #1 MoneyPrinterTurbo=Pictory/Synthesia/InVideo の AI 動画 SaaS 代替 / #2 markitdown=Unstructured.io/LlamaParse の LLM 前処理 SaaS 代替・Microsoft 公式 / #3 compound-engineering-plugin=自作プロンプト集や個別プラグインの代替 / #4 twenty=Salesforce/HubSpot の OSS+AI 内蔵 CRM 代替 / #5 claude-code=Cursor/GitHub Copilot の Anthropic 公式 CLI 代替。冒頭フックは『TOP5 が全て有償 SaaS の代替』という事実に置き、Primary ペルソナ (CTO / 技術選定者) の『来週何を捨てて何を入れるか』の意思決定に直撃",
+      "Primary (CTO / 技術選定者) には『何を捨てて何を入れるか』として直撃。Secondary (PdM / 事業責任者) には『月額 SaaS 棚卸しの起点』として、Tertiary (学習中エンジニア) には『OSS 代替を知る入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与",
+      "継続 2 本 (#1 MoneyPrinterTurbo / #4 twenty) の角度切替: 05-29 trend-pattern『主戦場・象徴・時代・波』 → 本日 comparison『何の代替か』へ語彙完全切替。新規 3 本 (#2/3/5) も同じ comparison 視点で読み解く。アングル転換そのものが視聴差別化の核心",
+      "Microsoft (#2 markitdown) + Anthropic (#5 claude-code) の大手 2 社公式 OSS が同日 TOP5 入りは稀有なシグナル。AI 基盤を握るベンダーがエンドユーザー向け OSS を直接出す流れの象徴で、comparison 角度に厚みを与える。今後 Anthropic / Microsoft / Google / Meta の公式 OSS が同日 2 本以上 TOP5 入りする日は `vendor-stance` (大手公式 OSS の意図を読み解く新 angle) を試す候補",
+      "5 本のライセンスは MIT 中心 (MoneyPrinterTurbo=MIT / markitdown=MIT / compound-engineering-plugin=MIT 想定 / claude-code=Anthropic 独自 license / twenty=AGPLv3) で商用組み込みは twenty 以外スムーズ。comparison 角度では細かいライセンス言及は narration から外し、detail でも触れない (意思決定軸を濁さない)",
+      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜3 views・n≤3・silent fail 汚染で有意差なし。28 日窓 comparison (avg 2.0/n=5) は計測完了サンプル最多で最も信頼できる method データ。本日の comparison 採用は『28 日窓 n=5 計測サンプル最多 + avg 2.0 安定 method』+『素材適合度 5/5 で 5 本全てが明確な incumbent SaaS を持つ稀有な日』+『直近 2 日 method 衝突回避』+『柱① 主軸日該当』で確定",
+      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜29 で継続成功 (12 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "次回以降の explore 候補: `incumbent-swap` (comparison の派生で、対比対象を「個別 OSS」ではなく「有償 SaaS」固定にする angle・今日のような『5 本全てが SaaS 代替』の日には incumbent-swap のほうが意思決定に直撃しやすい仮説)、`vendor-stance` (大手ベンダー公式 OSS の意図を読み解く)、`meta-trend` (trend-pattern の上位概念で四半期マクロをまとめる)、`bet-target` (次の四半期投資領域を 1 つ明示)、既出の `dogfooding` / `competitor-watch` / `stack-map` / `layer-pick` / `persona-pick`。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem / trend-pattern / comparison のローテーション主軸 + 月 1〜2 回の self-experiment スパイクで組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-05-29",
-    "dayOfWeek": "Fri",
+    "date": "2026-05-30",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "マクロ転換",
-      "トレンド読み解き",
-      "四半期bet",
-      "技術投資判断",
-      "OSSトレンド",
-      "2026Q2",
-      "AntiSlop",
-      "Skill層",
-      "AI生成品質",
-      "AI出力品質",
-      "生成AIの次フェーズ",
-      "量産から品質へ",
-      "SaaSオープン化",
-      "AI動画生成",
-      "AgentHarness",
-      "SkillMD",
-      "ClaudeSkill",
-      "AIネイティブCRM",
+      "OSS代替",
+      "SaaS棚卸し",
+      "月額削減",
+      "技術選定",
+      "意思決定",
+      "来週何を入れるか",
       "SalesforceOSS代替",
-      "Skill層集中",
-      "AntiSlop3本同時",
-      "AIの次の勝負どころ",
-      "生成AIフェーズ2",
-      "ClaudeCode",
+      "Cursor代替",
+      "Copilot代替",
+      "Pictory代替",
+      "Synthesia代替",
+      "Unstructured代替",
+      "LlamaParse代替",
+      "AI動画生成",
+      "LLM前処理",
+      "MarkdownOSS",
+      "ClaudeCodePlugin",
+      "AIネイティブCRM",
+      "agenticCLI",
+      "Microsoft",
+      "MicrosoftOSS",
       "Anthropic",
+      "ClaudeCode",
       "Cursor",
+      "Codex",
       "OpenAI",
       "Gemini",
       "DeepSeek",
+      "Salesforce",
       "Python",
       "TypeScript",
-      "JavaScript",
       "CTO",
       "PdM",
-      "個人開発"
+      "個人開発",
+      "OSS代替5本同時",
+      "2026Q2SaaS棚卸し",
+      "有償SaaS代替",
+      "月額契約見直し"
     ],
-    "focus": "金曜 (Fri=405 avg 週次最強帯、週末前の意思決定タイミング) に `trend-pattern` 角度 (28 日窓 TOP method・avg 5.5/n=4 で最も信頼できる method データ) を投入。直近 2 日 (05-27 ecosystem / 05-28 self-experiment) と method 衝突なし。柱② 週次必須要件は本週 Day 1 (05-25 business-angle)、柱③ は Day 4 (05-28 self-experiment) で消化済みのため本日 Day 5 は柱① 主軸日。本日 TOP5 は 3 本入れ替わり: 新規 #3 Leonxlnx/taste-skill (Shell / 26,278★ / +2,235) と新規 #5 twentyhq/twenty (TypeScript / 47,800★ / +495)。継続 3 本: #1 harry0703/MoneyPrinterTurbo (Python / 66,105★ / +4,685 で前日比約 2.7 倍加速)、#2 affaan-m/ECC (JavaScript / 197,180★ / +1,388・4 日連続継続)、#4 hardikpandya/stop-slop (言語なし / 6,372★ / +755・2 日連続継続)。TOP5 のうち 3 本 (#2 ECC / #3 taste-skill / #4 stop-slop) が Skill 層・Anti-Slop 領域に集中する運用開始以来初の稀有な日で trend-pattern の運用開始以来最大の機会。素材適合度 4.5/5。本日のマクロ核: 『2026 Q2 の OSS メインバトルが「AI で作れるか」から「AI で上手く作れるか」へシフトした証拠が TOP5 に 3 本同時に並んだ』。冒頭フックは『TOP5 のうち 3 本が Skill 層 / Anti-Slop』という事実に置き、Primary ペルソナ (CTO / 技術選定者) の『次の四半期に Skill 層に bet するか』の意思決定に直結させる。継続 3 本 (#1/2/4) は 05-28 self-experiment『私の現場に何が刺さるか』 → 本日 trend-pattern『主戦場が品質フェーズへシフトした象徴・証拠・時代』へ語彙完全切替し連投ペナルティ回避。アングル転換そのものが視聴差別化の核心で Meta-PDCA の有効性を継続実証する稀有な機会。注記: 14 日窓の method 平均差は n≤3・silent fail 汚染で統計的に有意でなく、本選定は 28 日窓 TOP method + 素材適合度 4.5/5 + Fri=405 avg 週次最強帯 + 柱① 主軸日該当を根拠とする。最低 40 views、理想 500 views (Fri 上位帯) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "土曜 (Sat=6 avg 週次最下位帯、週末の意思決定タイミング) に `comparison` 角度 (28 日窓 n=5 で計測サンプル最多 + avg 2.0 で安定 method) を投入。直近 2 日 (05-29 trend-pattern / 05-28 self-experiment) と method 衝突なし、前回 comparison は 05-23 で 7 日空きで連投ルール非該当。柱② 週次必須要件は本週 Day 1 (05-25 business-angle)、柱③ は Day 4 (05-28 self-experiment) で消化済みのため本日 Day 6 は柱① 主軸日。本日 TOP5 は 3 本入れ替わり: 新規 #2 microsoft/markitdown (Python / 129,826★ / +1,876・Microsoft 公式 LLM 前処理 OSS) と新規 #3 EveryInc/compound-engineering-plugin (TypeScript / 18,109★ / +354・Claude Code/Codex/Cursor 公式プラグイン) と新規 #5 anthropics/claude-code (Python / 127,838★ / +460・Anthropic 公式 CLI 開発ツール)。継続 2 本: #1 harry0703/MoneyPrinterTurbo (Python / 69,515★ / +3,563・5 日連続継続・微減速)、#4 twentyhq/twenty (TypeScript / 48,376★ / +575・2 日連続継続・微加速)。5 本全てが明確な incumbent SaaS を持つ稀有な日で comparison 適合度 5/5 (運用開始以来でも極めて高い)。本日のマクロ核: 『2026 Q2 の有償 AI SaaS に対する OSS 代替が同じ週に 5 本同時に上位入り』。冒頭フックは『TOP5 が全て有償 SaaS の代替』という事実に置き、Primary ペルソナ (CTO / 技術選定者) の『来週何を捨てて何を入れるか』の意思決定に直撃させる。継続 2 本 (#1 MoneyPrinterTurbo / #4 twenty) は 05-29 trend-pattern『主戦場・象徴・時代・波』 → 本日 comparison『何の代替か』へ語彙完全切替し連投ペナルティ回避。Microsoft (#2) と Anthropic (#5) の大手 2 社公式 OSS 同日 TOP5 入りという稀有なシグナルも comparison 角度に厚みを与える。アングル転換そのものが視聴差別化の核心で Meta-PDCA の有効性を継続実証。注記: 14 日窓 method 平均差は n≤3・silent fail 汚染で統計的に有意でなく、本選定は 28 日窓 comparison n=5 計測サンプル最多 + 素材適合度 5/5 + 直近 2 日 method 衝突回避 + 柱① 主軸日該当を根拠とする。最低 3 views (Sat 中位帯超え)、理想 30 views (Sat 上位帯への漸近・05-09=5 の再現超え) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
