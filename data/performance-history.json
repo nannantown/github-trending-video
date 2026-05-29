@@ -1682,7 +1682,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-27T23:52:57.011Z"
+        "updatedAt": "2026-05-28T23:59:45.593Z"
       }
     },
     {
@@ -2300,20 +2300,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-28T23:59:45.593Z"
+      }
+    },
+    {
+      "videoId": "SW1qsTf4WVs",
+      "videoUrl": "https://youtube.com/shorts/SW1qsTf4WVs",
+      "date": "2026-05-29",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/29 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "Shell",
+        "TypeScript"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "affaan-m/ECC",
+        "Leonxlnx/taste-skill",
+        "hardikpandya/stop-slop",
+        "twentyhq/twenty"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日のTOP5を『2026 Q2のOSSメインバトルが「AIで作れるか」から「AIで上手く作れるか」へシフトしたマクロ転換』のtrend-pattern角度で5本横断料理する。冒頭マクロ核は『TOP5のうち3本 (#2 ECC=63 sub-agents・249 skills束ねるagent harness, #3 Leonxlnx/taste-skill=AI生成UIの平凡さを潰すデザインskill +2,235★ 新規, #4 hardikpandya/stop-slop=AI文体のクセを削るprose skill +755★) がskill層・anti-slop領域に集中。残り2本 (#1 MoneyPrinterTurbo=AI動画量産が一般化, #5 twenty=AIネイティブCRMでSaaSオープン化) も同じ「AI生産の質と所有」軸で接続。05-25/26/27/28 (business-angle/use-case/ecosystem/self-experiment) と method衝突なし、trend-pattern は14日窓avg 1.5/n=2・28日窓avg 5.5/n=4で28日窓TOP methodに該当、本日Friは週次最強帯 (Fri=405 avg) のため最も伸びる素材適合性。3本同時にskill層OSSがランクインする日は運用開始以来初で、Primary (CTO/技術選定者) への「次の四半期に何にbetするか」マクロ示唆として直撃。柱②(05-25) と柱③(05-28) は本週消化済みのため本日Day5は柱①主軸日。素材適合度4.5/5: 3本のskill層集中という確度の高いマクロシグナル+残り2本も同じ「AI質と所有」軸で接続。05-14〜17のmain到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低40 views、理想500 views (Fri=405 avg 上位帯) を目標。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/Leonxlnx/taste-skill",
+          "https://github.com/hardikpandya/stop-slop",
+          "https://github.com/twentyhq/twenty",
+          "https://docs.anthropic.com/en/docs/claude-code/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-22",
-      "changes": [
-        "Rust: 0.3x avg views → drop",
-        "standard: 488 avg views (16 videos)",
-        "Day performance: Fri=1231, Tue=916, Thu=688, Wed=352, Sat=300, Mon=156, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-23",
       "changes": [
@@ -2658,6 +2704,20 @@
         "standard: 184 avg views (45 videos)",
         "Trending languages: Kotlin (2.2x), C++ (2.9x), Jupyter Notebook (2.1x)",
         "Day performance: Tue=432, Fri=354, Thu=201, Wed=178, Sat=89, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-28",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.6x avg views → drop",
+        "standard: 180 avg views (46 videos)",
+        "Trending languages: Kotlin (2.2x), C++ (2.9x), Jupyter Notebook (2.2x)",
+        "Day performance: Tue=432, Fri=354, Wed=178, Thu=176, Sat=89, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
