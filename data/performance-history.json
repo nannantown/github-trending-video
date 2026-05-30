@@ -1741,7 +1741,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2300,7 +2300,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-28T23:59:45.593Z"
+        "updatedAt": "2026-05-29T23:59:50.510Z"
       }
     },
     {
@@ -2355,20 +2355,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-05-29T23:59:50.510Z"
+      }
+    },
+    {
+      "videoId": "p-PUPcNwf6A",
+      "videoUrl": "https://youtube.com/shorts/p-PUPcNwf6A",
+      "date": "2026-05-30",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/30 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "microsoft/markitdown",
+        "EveryInc/compound-engineering-plugin",
+        "twentyhq/twenty",
+        "anthropics/claude-code"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『何の有償SaaSの代替か』のcomparison視点で5本横断料理する。冒頭マクロ核は『2026 Q2の有償AI SaaSに対するOSS代替が同じ週に5本同時に上位入り』。5本のincumbent対応: #1 harry0703/MoneyPrinterTurbo=Pictory/Synthesia/InVideoのAI動画生成SaaS代替・台本から字幕、9:16書き出しまで一括化 / #2 microsoft/markitdown=Unstructured.io/LlamaParseのLLM前処理SaaS代替・Microsoft公式でPDF/Word/Excel/PowerPoint/HTML/EPUB等を一括Markdown化 / #3 EveryInc/compound-engineering-plugin=自作プロンプト集や個別プラグインの代替・Claude Code/Codex/Cursor統合の公式プラグイン / #4 twentyhq/twenty=Salesforce/HubSpotのOSS+AI内蔵CRM代替・NestJS+React+AGPLv3・オブジェクトをコードで定義 / #5 anthropics/claude-code=Cursor/GitHub CopilotのAnthropic公式CLI代替・ターミナルから自然言語でコードを読み編集しコマンドを動かす。直近2日(05-29 trend-pattern / 05-28 self-experiment)とmethod衝突なし、comparisonは前回05-23から7日空きで連投ルール非該当。28日窓comparison avg 2.0/n=5で計測サンプル最多+安定method、14日窓0.67/n=3は弱いがSat=6 avg最下位曜日帯では『何を捨てて何を入れるか』の意思決定軸が短時間視聴で最も伝わりやすい。柱②(05-25 business-angle)・柱③(05-28 self-experiment)は本週(Mon 05-25〜Sun 05-31)消化済みのため本日Day6(Sat)は柱①主軸日。継続2本の角度切替: #1 MoneyPrinterTurbo は05-29 trend-pattern『量産フェーズの象徴』→本日comparison『Pictory/Synthesia代替』へ、#4 twenty は05-29 trend-pattern『SaaSオープン化の波』→本日comparison『Salesforce代替』へ語彙完全切替で連投ペナルティ回避。Microsoft(#2 markitdown)とAnthropic(#5 claude-code)の大手2社公式OSSが同日TOP5入りという稀有なシグナルもcomparison角度に厚みを与える。素材適合度5/5: 5本全てが明確なincumbent SaaSを持つ運用開始以来でも極めて高い適合度。Primary(CTO/技術選定者)が週末に『来週何を入れるか』を意思決定する素材として直撃。Secondary(PdM/事業責任者)には『月額SaaS棚卸しの起点』、Tertiary(学習中エンジニア)には『OSS代替を知る入口』として届く3層構成。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低3 views(Sat中位帯超え)、理想30 views(Sat上位帯への漸近、05-09=5の再現超え)を目標。注記: 14日窓method平均差は n≤3・silent fail汚染で統計的に有意でなく、本選定は28日窓 comparison n=5の安定性 + 素材適合度5/5 + 直近2日method衝突回避 + 柱① 主軸日該当を根拠とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/microsoft/markitdown",
+          "https://github.com/EveryInc/compound-engineering-plugin",
+          "https://github.com/twentyhq/twenty",
+          "https://github.com/anthropics/claude-code",
+          "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "https://every.to/"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-23",
-      "changes": [
-        "Rust: 0.4x avg views → drop",
-        "standard: 460 avg views (17 videos)",
-        "Day performance: Fri=1231, Tue=916, Thu=460, Wed=352, Sat=300, Mon=156, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-24",
       "changes": [
@@ -2718,6 +2764,21 @@
         "standard: 180 avg views (46 videos)",
         "Trending languages: Kotlin (2.2x), C++ (2.9x), Jupyter Notebook (2.2x)",
         "Day performance: Tue=432, Fri=354, Wed=178, Thu=176, Sat=89, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-29",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.6x avg views → drop",
+        "standard: 176 avg views (47 videos)",
+        "Trending languages: Kotlin (2.3x), C++ (3.0x), Jupyter Notebook (2.2x)",
+        "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=89, Mon=70, Sun=6"
       ],
       "recommendedTemplate": "standard"
     }
