@@ -1,17 +1,21 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『2026 Q2 AI開発スタック地図』として5本横断でecosystem角度で料理する。冒頭マクロ核は『TOP5がスタックの各層にきれいに分かれて並ぶ稀有な日』。5本のレイヤー対応: #1 microsoft/markitdown=文書前処理レイヤー・Microsoft公式 / #2 harry0703/MoneyPrinterTurbo=コンテンツ生成レイヤー・コミュニティ / #3 anthropics/claude-code=コーディングエージェントレイヤー・Anthropic公式 / #4 cursor/plugins=IDE拡張レイヤー・Cursor公式 / #5 revfactory/harness=メタエージェントレイヤー・Claude Code上のmeta-skill。直近2日(05-30 comparison / 05-29 trend-pattern)とmethod衝突なし、ecosystemは前回05-27から4日空きで連投ルール非該当。28日窓ecosystem avg 2.4/n=5でtrend-patternとuse-caseに次ぐ3位かつ計測サンプル最多で安定method。柱②(05-25 business-angle)・柱③(05-28 self-experiment)は本週(Mon 05-25〜Sun 05-31)消化済みのため本日Day7(Sun)は柱①主軸日。継続3本(#1 markitdown / #2 MoneyPrinterTurbo / #3 claude-code)の角度切替: 05-30 comparison『何の代替か』→ 本日 ecosystem『どの層か』へ語彙完全切替で連投ペナルティ回避。新規2本(#4 cursor/plugins / #5 revfactory/harness)も同じレイヤーマッピングで読み解く。大手ベンダー公式OSSが同日3本(Microsoft markitdown + Anthropic claude-code + Cursor cursor/plugins)TOP5入りは観測上の初例で、前日PDCAで提案した`vendor-stance`新angleの素材適合度を最大化する出来事。本日はecosystem内のflavorとして吸収し、再現性が見えれば次月以降に独立angle化を検討。素材適合度5/5: 5本が異なる層に分かれて並ぶ運用開始以来でも極めて高い適合度。Primary(CTO/技術選定者)が週末に『自社のスタックでどこに置くか』を意思決定する素材として直撃。Secondary(PdM/事業責任者)には『AI開発スタックの全体地図』、Tertiary(学習中エンジニア)には『今のAI開発レイヤーの俯瞰』として届く3層構成。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低3 views(Sun中位帯超え)、理想30 views(Sun上位帯への漸近)を目標。注記: 14日窓method平均差は n≤2・silent fail汚染で統計的に有意でなく、本選定は28日窓 ecosystem n=5の安定性 + 素材適合度5/5 + 直近2日method衝突回避 + 柱① 主軸日該当を根拠とする。",
+    "method": "business-angle",
+    "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本横断料理する。冒頭マクロ核は『2026年6月の週始め(Mon)、PrimaryペルソナのCTO/技術選定者が「今週何を入れて、何の月額を止めるか」の稟議書を書くタイミング』。5本の代替対応: #1 harry0703/MoneyPrinterTurbo=AI動画生成SaaS代替(Pictory月23ドル+Synthesia月30ドル以上+外注代行月20万円が丸ごと止まる) / #2 microsoft/markitdown=LLM前処理SaaS代替(LlamaParseの月数千ドル従量課金を全部削れて社内RAGの前処理が内製化) / #3 D4Vinci/Scrapling=スクレイピングSaaS代替(Bright Dataの月500ドル以上+Apifyの月49ドル+ScraperAPIの月49ドルが抜ける) / #4 nesquena/hermes-webui=社内Agent管理UI自作工数代替(Python+素のJSの軽量UIで2人月分の自作工数と保守費が省ける) / #5 EveryInc/compound-engineering-plugin=外注コンサル代替(37スキル+51エージェントで設計と検証フェーズを構造化、コンサル外注の数百万円を内製化)。直近2日(05/31 ecosystem / 05/30 comparison)とmethod衝突なし、business-angleは14日窓avg 2.0 n=1 (05/20=2) でTOP method同点・28日窓avg 2.0 n=4 で2位の安定method、最終投入05/20から12日空きで連投ルール非該当。柱②(business-angle 比率15%)の新週(06/01〜06/07)Day 1で消化、Mon=Primary層の稟議書語彙でPrimary(CTO/技術選定者)+Secondary(PdM/事業責任者)に直撃。継続2本(#1 MoneyPrinterTurbo 6日連続/#2 markitdown 5日連続)の語彙切替: 05/30 comparison『代わる』→ 05/31 ecosystem『どの層か』→ 本日 business-angle『月いくら削れるか』の3連続完全切替で連投ペナルティ条件外。新規3本(Scrapling・hermes-webui・compound-engineering-plugin)で素材ラインナップを大幅入れ替え、04/29-30型の同method×同ラインナップ連投構造から構造的に外す。素材適合度5/5: 全リポが明確な月額SaaS or 業務委託の代替を持つ稀有な日(MoneyPrinterTurbo=Pictory/Synthesia、markitdown=LlamaParse/Unstructured、Scrapling=Bright Data/Apify、hermes-webui=社内UI自作工数、compound-engineering-plugin=コンサル外注)。05/14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。Mon=70 avg 週次中下位帯のため、最低15 views(過去Mon下位帯超え)、理想200 views(Mon上位帯への漸近)を目標とする。注記: 14日窓method平均差は n≤3・silent fail汚染で統計的に有意でなく、本選定は『28日窓 business-angle n=4 + avg 2.0 安定method』+『素材適合度5/5』+『柱② 週次必須要件Day 1消化』+『直近2日method衝突回避』を根拠とする。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/microsoft/markitdown",
       "https://github.com/harry0703/MoneyPrinterTurbo",
-      "https://github.com/anthropics/claude-code",
-      "https://github.com/cursor/plugins",
-      "https://github.com/revfactory/harness",
-      "https://docs.anthropic.com/en/docs/claude-code/overview",
-      "https://docs.cursor.com/"
+      "https://github.com/microsoft/markitdown",
+      "https://github.com/D4Vinci/Scrapling",
+      "https://github.com/nesquena/hermes-webui",
+      "https://github.com/EveryInc/compound-engineering-plugin",
+      "https://pictory.ai/pricing",
+      "https://www.synthesia.io/pricing",
+      "https://www.llamaindex.ai/pricing",
+      "https://brightdata.com/pricing",
+      "https://apify.com/pricing",
+      "https://every.to/"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +23,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "microsoft/markitdown",
-      "name": "markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "language": "Python",
-      "stars": 132212,
-      "todayStars": 2473,
-      "description": "Microsoft公式の文書前処理OSS",
-      "detail": "PDFやWord、Excel、PowerPointなどを一括でMarkdownへ変換するMicrosoft公式OSSです。LLM入力の前処理を担う文書レイヤーを大手ベンダーが公式で押さえに来た象徴的な動きです。",
-      "narration": "Microsoft公式の文書前処理OSSです。LLM入力の文書レイヤーを大手が公式で押さえに来ました。"
-    },
-    {
-      "rank": 2,
       "fullName": "harry0703/MoneyPrinterTurbo",
       "name": "MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "language": "Python",
-      "stars": 71872,
-      "todayStars": 2775,
-      "description": "AI短編動画生成OSSの代表格",
-      "detail": "OpenAIやGemini、DeepSeekなど主要LLMに対応し、台本生成から素材、字幕、BGM、9:16書き出しまで一括化するAI短編動画スイートです。コンテンツ生成レイヤーをコミュニティ主導で揃えました。",
-      "narration": "AI短編動画生成OSSの代表格です。台本から字幕、9:16書き出しまでをコミュニティが先回りで揃えました。"
+      "stars": 74024,
+      "todayStars": 1937,
+      "description": "AI動画SaaSの月額をまるごと止める",
+      "detail": "ハリー氏のMITプロジェクトで、1クリックで台本・素材・字幕・TTS・縦動画書き出しまで自動化します。Pictoryの月23ドルやSynthesiaの月30ドル以上のサブスク、そして外注代行の月20万円が丸ごと社内化できます。",
+      "narration": "AI動画SaaSの月額がまるごと消えます。Pictory・Synthesia課金と外注代行の固定費を1本に畳めます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "language": "Python",
+      "stars": 134812,
+      "todayStars": 2759,
+      "description": "ドキュメント前処理SaaSの従量課金を消す",
+      "detail": "Microsoft公式のPython製OSSで、PDFやWord、Excel、PowerPointなど20種以上の文書を一括でMarkdownへ変換します。LlamaParseの月数千ドル従量課金を止めて、社内RAGの前処理工程をまるごと内製化できます。",
+      "narration": "Microsoft公式の文書変換OSSです。LlamaParseの従量課金を止めて社内RAGが内製化できます。"
     },
     {
       "rank": 3,
-      "fullName": "anthropics/claude-code",
-      "name": "claude-code",
-      "url": "https://github.com/anthropics/claude-code",
+      "fullName": "D4Vinci/Scrapling",
+      "name": "Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
       "language": "Python",
-      "stars": 128374,
-      "todayStars": 595,
-      "description": "Anthropic公式のagentic CLI",
-      "detail": "ターミナルから自然言語でコードを読み、編集し、コマンドを動かすAnthropic公式のagentic CLIです。エディタ外のコーディングエージェント層をAnthropicが直接握りに来た公式OSSです。",
-      "narration": "Anthropic公式のagentic CLIです。コーディング層をターミナル直の自然言語で握りに来ました。"
+      "stars": 56545,
+      "todayStars": 639,
+      "description": "スクレイピング有償SaaSの月額を抜ける",
+      "detail": "BSD-3のPython製スクレイピングフレームワークで、Cloudflare TurnstileやTLS指紋偽装にも対応します。サイト構造の変化に追従する適応セレクタで、Bright Dataの月500ドルやApifyの月49ドル契約を止められます。",
+      "narration": "Bright Dataの月額契約を抜けるためのフレームワークです。CFバイパスと相対セレクタで保守工数も圧縮できます。"
     },
     {
       "rank": 4,
-      "fullName": "cursor/plugins",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "stars": 1443,
-      "todayStars": 206,
-      "description": "Cursor公式のplugin仕様マーケット",
-      "detail": "Cursor公式のplugin仕様とマーケットのリポジトリです。plugin.json形式と公式pluginを束ね、IDE拡張のレイヤーを自社が公式仕様化することでCursorエコシステムの主導権を維持する狙いです。",
-      "narration": "Cursor公式のplugin仕様とマーケットです。IDE拡張のレイヤーを自社が公式仕様化しました。"
+      "fullName": "nesquena/hermes-webui",
+      "name": "hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "language": "Python",
+      "stars": 9903,
+      "todayStars": 320,
+      "description": "社内Agent管理UIの自作工数を消す",
+      "detail": "Hermes Agent向けの軽量ダークUIで、Python+素のJSのビルド不要構成です。OpenAIやAnthropic、Geminiなど複数プロバイダ横断で、社内エージェントの管理画面を自作した場合の2人月分の工数と保守費が省けます。",
+      "narration": "Hermes Agentにブラウザ画面を足す軽量OSSです。社内向けAgent管理UIの自作工数2人月分が省けます。"
     },
     {
       "rank": 5,
-      "fullName": "revfactory/harness",
-      "name": "harness",
-      "url": "https://github.com/revfactory/harness",
-      "language": "HTML",
-      "stars": 4232,
-      "todayStars": 80,
-      "description": "AIエージェント設計のmeta-skill",
-      "detail": "ドメイン記述からagent teamと専用skillを自動設計するClaude Code上のmeta-skillです。各社AIを束ねるメタエージェント上位レイヤーを担い、ベンダー公式OSSの上に積む層を作ります。",
-      "narration": "AIエージェント設計を自動化するmeta-skillです。各社AIをチームに組む上位レイヤーを担います。"
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "name": "compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "language": "TypeScript",
+      "stars": 18684,
+      "todayStars": 243,
+      "description": "外注コンサルの設計工数を内製化する",
+      "detail": "Every Inc公式のClaude Code・Codex・Cursor対応プラグインで、37個のスキルと51のエージェントを束ねます。ce-strategyからce-code-reviewまで設計と検証の流れを構造化でき、コンサル外注の数百万円が浮きます。",
+      "narration": "37スキルが設計と検証を加速させるClaude Code向けプラグインです。外注コンサルの数百万円を内製化できます。"
     }
   ]
 }
