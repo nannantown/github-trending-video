@@ -1852,7 +1852,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -1961,7 +1961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2188,10 +2188,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2243,10 +2243,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2297,10 +2297,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
-        "likes": 0,
+        "views": 3,
+        "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2352,10 +2352,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2407,10 +2407,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 5,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-05-30T23:47:58.897Z"
+        "updatedAt": "2026-05-31T23:52:52.518Z"
       }
     },
     {
@@ -2464,6 +2464,64 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 4,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-05-31T23:52:52.518Z"
+      }
+    },
+    {
+      "videoId": "iCCZfuIyTbg",
+      "videoUrl": "https://youtube.com/shorts/iCCZfuIyTbg",
+      "date": "2026-06-01",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/01 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "microsoft/markitdown",
+        "D4Vinci/Scrapling",
+        "nesquena/hermes-webui",
+        "EveryInc/compound-engineering-plugin"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本横断料理する。冒頭マクロ核は『2026年6月の週始め(Mon)、PrimaryペルソナのCTO/技術選定者が「今週何を入れて、何の月額を止めるか」の稟議書を書くタイミング』。5本の代替対応: #1 harry0703/MoneyPrinterTurbo=AI動画生成SaaS代替(Pictory月23ドル+Synthesia月30ドル以上+外注代行月20万円が丸ごと止まる) / #2 microsoft/markitdown=LLM前処理SaaS代替(LlamaParseの月数千ドル従量課金を全部削れて社内RAGの前処理が内製化) / #3 D4Vinci/Scrapling=スクレイピングSaaS代替(Bright Dataの月500ドル以上+Apifyの月49ドル+ScraperAPIの月49ドルが抜ける) / #4 nesquena/hermes-webui=社内Agent管理UI自作工数代替(Python+素のJSの軽量UIで2人月分の自作工数と保守費が省ける) / #5 EveryInc/compound-engineering-plugin=外注コンサル代替(37スキル+51エージェントで設計と検証フェーズを構造化、コンサル外注の数百万円を内製化)。直近2日(05/31 ecosystem / 05/30 comparison)とmethod衝突なし、business-angleは14日窓avg 2.0 n=1 (05/20=2) でTOP method同点・28日窓avg 2.0 n=4 で2位の安定method、最終投入05/20から12日空きで連投ルール非該当。柱②(business-angle 比率15%)の新週(06/01〜06/07)Day 1で消化、Mon=Primary層の稟議書語彙でPrimary(CTO/技術選定者)+Secondary(PdM/事業責任者)に直撃。継続2本(#1 MoneyPrinterTurbo 6日連続/#2 markitdown 5日連続)の語彙切替: 05/30 comparison『代わる』→ 05/31 ecosystem『どの層か』→ 本日 business-angle『月いくら削れるか』の3連続完全切替で連投ペナルティ条件外。新規3本(Scrapling・hermes-webui・compound-engineering-plugin)で素材ラインナップを大幅入れ替え、04/29-30型の同method×同ラインナップ連投構造から構造的に外す。素材適合度5/5: 全リポが明確な月額SaaS or 業務委託の代替を持つ稀有な日(MoneyPrinterTurbo=Pictory/Synthesia、markitdown=LlamaParse/Unstructured、Scrapling=Bright Data/Apify、hermes-webui=社内UI自作工数、compound-engineering-plugin=コンサル外注)。05/14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。Mon=70 avg 週次中下位帯のため、最低15 views(過去Mon下位帯超え)、理想200 views(Mon上位帯への漸近)を目標とする。注記: 14日窓method平均差は n≤3・silent fail汚染で統計的に有意でなく、本選定は『28日窓 business-angle n=4 + avg 2.0 安定method』+『素材適合度5/5』+『柱② 週次必須要件Day 1消化』+『直近2日method衝突回避』を根拠とする。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/microsoft/markitdown",
+          "https://github.com/D4Vinci/Scrapling",
+          "https://github.com/nesquena/hermes-webui",
+          "https://github.com/EveryInc/compound-engineering-plugin",
+          "https://pictory.ai/pricing",
+          "https://www.synthesia.io/pricing",
+          "https://www.llamaindex.ai/pricing",
+          "https://brightdata.com/pricing",
+          "https://apify.com/pricing",
+          "https://every.to/"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2472,15 +2530,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-25",
-      "changes": [
-        "Rust: 0.4x avg views → drop",
-        "standard: 412 avg views (19 videos)",
-        "Day performance: Tue=917, Fri=821, Thu=461, Wed=352, Sat=201, Mon=156, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-26",
       "changes": [
@@ -2842,6 +2891,20 @@
         "standard: 172 avg views (48 videos)",
         "Trending languages: Kotlin (2.3x), C++ (3.1x), Jupyter Notebook (2.3x)",
         "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=78, Mon=70, Sun=6"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-05-31",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.7x avg views → drop",
+        "standard: 169 avg views (49 videos)",
+        "Trending languages: Kotlin (2.4x), C++ (3.1x), Jupyter Notebook (2.3x)",
+        "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=79, Mon=70, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
