@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-01",
-  "basedOnVideos": 11,
+  "updatedAt": "2026-06-02",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 57,
@@ -21,84 +21,81 @@
       { "language": "Rust", "multiplier": 0.6 }
     ],
     "topPerformingVideo": {
-      "date": "2026-05-22",
-      "views": 3,
+      "date": "2026-05-30",
+      "views": 5,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05-18〜05-31、計測済 11 件 + 05-31 計測前): business-angle 2.0 avg n=1 (05/20=2) / use-case 2.0 avg n=1 (05/21=2) / trend-pattern 1.5 avg n=2 (05/22=3・05/29=0) / comparison 1.0 avg n=3 (05/19=0・05/23=2・05/30=1) / ecosystem 0.0 avg n=2 (05/27=0・05/31 pending) / self-experiment 0.0 avg n=1 (05/28=0) / tech-deep 0.0 avg n=1 (05/18=0)。28 日窓 (参考、05/04〜05/31): trend-pattern 2.25 avg n=4 (28 日窓 TOP) / business-angle 2.0 avg n=4 / use-case 2.0 avg n=1 / comparison 1.83 avg n=6 / ecosystem 1.4 avg n=5 / self-experiment 0 avg n=1 / tech-deep 0 avg n=1。重要注記: 14 日窓は全 method が 0〜3 views・母数 n≤3・silent fail 汚染と一部 pending で平均差は統計的に有意でない。28 日窓は business-angle が n=4・avg 2.0 で trend-pattern (TOP) に次ぐ 2 位の安定 method データ。本日 06-01 (Mon=70 avg 週次中下位帯・新週 Day 1) は method=business-angle を起用。本日 TOP5 は 3 本入れ替わり (継続 2 本: #1 MoneyPrinterTurbo 6 日連続 74,024★/+1,937 [+2,775→+1,937 で減速]・#2 markitdown 5 日連続 134,812★/+2,759 [+2,473→+2,759 で加速])。新規 3 本: #3 D4Vinci/Scrapling=Python / 56,545★ / +639・BSD-3 適応スクレイピングフレームワーク (Cloudflare Turnstile バイパス + サイト構造変化への追従セレクタ)・#4 nesquena/hermes-webui=Python / 9,903★ / +320・MIT・Hermes Agent 用軽量ダーク Web UI (Python+素のJSビルド不要構成・OpenAI/Anthropic/Gemini/DeepSeek マルチプロバイダ対応)・#5 EveryInc/compound-engineering-plugin=TypeScript / 18,684★ / +243・MIT・Every Inc 公式 Claude Code/Codex/Cursor 対応プラグイン (37 スキル + 51 エージェント、ce-strategy/ce-brainstorm/ce-plan/ce-work/ce-debug/ce-code-review/ce-compound)。5 本全てが明確な月額 SaaS or 業務委託の代替を持つ稀有な日: MoneyPrinterTurbo=Pictory(月23ドル)/Synthesia(月30ドル+)/InVideo/外注代行(月20万円)・markitdown=LlamaParse(月数千ドル従量)/Unstructured.io・Scrapling=Bright Data(月500ドル+)/Apify(月49ドル+)/ScraperAPI(月49ドル+)・hermes-webui=社内Agent管理UI自作2人月+保守費・compound-engineering-plugin=設計コンサル外注数百万円。素材適合度 5/5: 運用開始以来でも極めて高い business-angle 適合度。直近 2 日 (05-31 ecosystem / 05-30 comparison) と method 衝突なし、business-angle は前回 05-20 から 12 日空きで連投ルール非該当。柱② (business-angle 比率 15%) の新週 (06-01 Mon〜06-07 Sun) Day 1 で消化、柱③ は 05-28 self-experiment で前週分消化済み、今週分の柱③ は素材次第で 06-04 木〜06-07 日の本ルーチン側現場経験が揃った日に投入予定。最低 15 views (Mon 下位帯超え)、理想 200 views (Mon 上位帯への漸近) を目標。"
+      "note": "Method 別平均 (14 日窓 05-19〜06-01、計測済 13 件 + 06-01 計測前): self-experiment 3.0 avg n=1 (05/28=3) / ecosystem 2.5 avg n=2 (05/27=1・05/31=4) / comparison 2.25 avg n=4 (05/19=0・05/23=2・05/30=5・05/16=NA[28d外]) / use-case 2.0 avg n=1 (05/21=2) / trend-pattern 1.5 avg n=2 (05/22=3・05/29=0) / business-angle 1.0 avg n=2 (05/20=2・06/01=計測前) / tech-deep 0.0 avg n=1 (05/18=NA[14d外])。28 日窓 (参考、05/05〜06/01): trend-pattern 2.25 avg n=4 / comparison 2.00 avg n=6 (母数最安定TOP2)・ecosystem 1.80 avg n=5 / business-angle 2.0 avg n=4 / use-case 2.0 avg n=1 / self-experiment 0→3 修正 n=1 / tech-deep 0 avg n=1。直近 14d で comparison は 0,1,4,5 と上振れ傾向、28d=2.00 n=6 で母数最安定 TOP2 の安定 method。本日 06-02 (Tue=563 avg 週次最強・新週 Day 2) は method=comparison を起用。本日 TOP5 は 1 本入れ替わり (継続 4 本: #1 markitdown=Python / 138,178★ / +3,086 [+2,759→+3,086 で加速し 6 日連続首位]・#2 hermes-webui=Python / 11,179★ / +984 [+320→+984 で 3 倍超加速し #4→#2 ランクアップ]・#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [+1,937→+3,325 で再加速し #2→#4 ランクダウン]・#5 Scrapling=Python / 57,945★ / +1,475 [+639→+1,475 で加速し #3→#5 ランクダウン]) + 新規 1 本 (#3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張)。EveryInc/compound-engineering-plugin が前日 #5 から TOP5 圏外へ。素材適合度 5/5: 5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日 (markitdown=LlamaParse/Pandoc・hermes-webui=Open WebUI/LibreChat・supermemory=Mem0/Zep・MoneyPrinterTurbo=Pictory/Synthesia/ShortGPT・Scrapling=Scrapy/AutoScraper/BeautifulSoup)。直近 2 日 (06-01 business-angle / 05-31 ecosystem) と method 衝突なし、comparison は前回 05-30 から 3 日空きで連投ルール非該当、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当。柱② (business-angle) は前日 06-01 で消化済、柱③ (self-experiment) は前週 05-28 で消化済、今週分は素材次第。Tue 上位帯への漸近を目標とし、最低 50 views (Tue 下位帯超え)、理想 800 views (Tue 上位帯) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は月曜 (Mon=70 avg 週次中下位帯・新週 Day 1)。Primary ペルソナ (CTO/技術選定者) が週始めに『今週何を入れて、何の月額を止めるか』の稟議書を書くタイミングと合致。最低 15 views、理想 200 views を目標",
-      "本日 TOP5 は 3 本入れ替わり (新規 #3 Scrapling, #4 hermes-webui, #5 compound-engineering-plugin / 継続 #1 MoneyPrinterTurbo 減速で 6 日連続首位 [WAIT: 1 位は markitdown だが MoneyPrinterTurbo は #1→#1 を継続、markitdown は #1 維持]、#2 markitdown 加速で 5 日連続維持)。05-31 ecosystem『レイヤー』『どの層か』語彙から本日 business-angle『月いくら削れるか』『人月いくら浮くか』『稟議書語彙』へ完全切替で連投ペナルティ回避"
+      "本日は火曜 (Tue=563 avg 週次最強・新週 Day 2)。Primary ペルソナ (CTO/技術選定者) が週始めの稟議を経て『今週評価する各 OSS は社内で既に使っている何のかわりになるか』を判断するタイミング。Tue 上位帯への漸近を狙い、最低 50 views、理想 800 views を目標",
+      "本日 TOP5 は 1 本入れ替わり (新規 #3 supermemory・継続 4 本は順位変動: markitdown #1→#1, hermes-webui #4→#2, MoneyPrinterTurbo #2→#4, Scrapling #3→#5)。06-01 business-angle『〇〇の月額が消える』『〇〇人月が浮く』『稟議書』語彙から本日 comparison『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由』語彙へ完全切替で連投ペナルティ回避"
     ],
     "hashtags": [
-      "Mon=70 avg 週次中下位帯 + business-angle 角度のため、Primary (CTO/技術選定者) の『今週何を入れて何の月額を止めるか』語彙を厚く: #稟議書 #SaaSコスト削減 #技術選定 #月額をやめる #内製化 #人月削減 #来週のスタック判断",
-      "business-angle 角度のため、各 SaaS/外注先と月額数字を直接タグ化: #Pictory代替 #Synthesia代替 #LlamaParse代替 #BrightData代替 #Apify代替 #外注コンサル代替",
-      "領域タグ (5 本のカテゴリ): #AI動画生成 #LLM前処理 #ウェブスクレイピング #エージェントUI #ClaudeCodePlugin",
-      "言語タグは Python (4 本: MoneyPrinterTurbo / markitdown / Scrapling / hermes-webui) / TypeScript (1 本: compound-engineering-plugin)。Python (1.2x) が最厚で TypeScript (1.1x) がサブ。Shell / Rust / Go / Ruby は本日不在",
-      "前日 05-31 (ecosystem 角度) の『レイヤー』『層』『スタック地図』『公式が握る』語彙から距離を置き、本日は『月額』『従量課金』『稟議書』『人月削減』『内製化』『外注代行』『コンサル代替』など金額・工数語彙へ完全切替",
-      "business-angle 角度でも『〇〇潰し』『〇〇終わった』『〇〇は不要』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『〇〇月額が消える』『〇〇人月が浮く』『〇〇の固定費を畳める』など中性的な ROI 提示型語彙に統一",
-      "本日 hashtag に SaaS 名 (#Pictory #Synthesia #LlamaParse #BrightData #Apify) を厚めに置く: business-angle 角度の核心は具体 SaaS 名 × 月額数字の組合せで、検索流入とアルゴリズム的なタグ精度を両立",
-      "5 本全てが明確な代替先を持つ事実をフックにする独自 hashtag: #SaaS5本同日代替 #6月稟議書ネタ #月額10万を畳む #2人月が浮く"
+      "Tue=563 avg 週次最強帯 + comparison 角度のため、Primary (CTO/技術選定者) の『今週評価する各 OSS は何のかわりになるか』語彙を厚く: #技術選定 #OSS比較 #どっちを選ぶ #乗り換え検討 #置き換え候補 #SaaS代替検討",
+      "comparison 角度のため、各 1 対 1 の競合相手を直接タグ化: #LlamaParse比較 #OpenWebUI比較 #Mem0比較 #Zep比較 #Pictory比較 #Scrapy比較 #Pandoc代替",
+      "領域タグ (5 本のカテゴリ): #LLM前処理 #AgentUI #AI記憶 #AI動画生成 #ウェブスクレイピング",
+      "言語タグは Python (4 本: markitdown / hermes-webui / MoneyPrinterTurbo / Scrapling) / TypeScript (1 本: supermemory)。Python (1.2x) が最厚で TypeScript (1.1x) がサブ。Shell / Rust / Go / Ruby は本日不在",
+      "前日 06-01 (business-angle 角度) の『月額』『従量課金』『稟議書』『人月削減』『内製化』『外注代行』『コンサル代替』語彙から距離を置き、本日は『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由』『〇〇に勝つのは』『1 対 1 で勝てる』など対比語彙へ完全切替",
+      "comparison 角度でも『〇〇は終わった』『〇〇は不要』『〇〇は死んだ』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由は』など中性的な 1 対 1 対比語彙に統一",
+      "本日 hashtag に 1 対 1 競合 OSS/SaaS 名を厚めに置く: comparison 角度の核心は具体名 × 違いの軸の組合せで、検索流入とアルゴリズム的なタグ精度を両立",
+      "5 本全てが 1 対 1 で名指しの競合を持つ事実をフックにする独自 hashtag: #5本とも1対1比較 #6月の技術選定 #置き換え評価ネタ #OSS同日5本対比"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 288 文字 (58+55+59+58+58)、TTS で約 41-43 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (MoneyPrinterTurbo, markitdown, Scrapling, hermes-webui, compound-engineering-plugin, Microsoft, Pictory, Synthesia, LlamaParse, Bright Data, Apify, Hermes Agent, Claude Code, OSS, SaaS, OpenAI, Anthropic, Gemini, RAG, CF [Cloudflare 略])",
-      "business-angle 角度の一貫性: 5 本すべてに『月額』『固定費』『工数』『内製化』『削減』など金額・工数語彙を 1 回入れ、SaaS 代替先名 (Pictory/Synthesia/LlamaParse/Bright Data/外注代行/コンサル) は narration に明示。1 文目で『何の SaaS/外注先を畳むか』、2 文目で『いくら/何人月削れるか』を 1 つ挙げる 2 文構成。前日 ecosystem の『レイヤー』『層』『スタック地図』語彙と完全に語彙切替",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle 角度でも数値は detail 側へ寄せ、narration は『〇〇月額が消える』『〇〇人月が浮く』『固定費を畳める』など ROI 提示の語彙で扱う",
-      "数値表現はアラビア数字統一 (23 ドル、30 ドル、500 ドル、49 ドル、20 万円、2 人月、37 スキル、51 エージェント)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (59+51+57+55+53)、TTS で約 40-42 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (markitdown, Microsoft, LlamaParse, Pandoc, hermes-webui, Open WebUI, LibreChat, Hermes Agent, supermemory, Mem0, Zep, LongMemEval, LoCoMo, ConvoMem, MoneyPrinterTurbo, Pictory, Synthesia, ShortGPT, Ollama, OpenAI, Scrapling, Scrapy, AutoScraper, BeautifulSoup, Cloudflare, Turnstile, MIT, BSD-3, OSS, API, LLM, TTS, RAG)",
+      "comparison 角度の一貫性: 5 本すべてに『〇〇と違い』『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由は』など 1 対 1 対比語彙を 1 回入れ、1 対 1 競合相手名 (LlamaParse / Open WebUI / Mem0 / Pictory / Scrapy) は narration に明示。1 文目で『何の OSS/SaaS か』、2 文目で『〇〇との違いは〇〇』を 1 つ挙げる 2 文構成。前日 business-angle の『月額』『稟議書』『人月削減』語彙と完全に語彙切替",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度でも数値は detail 側へ寄せ、narration は機能・設計・ベンチの差分軸で扱う (例外: supermemory の『3 指標で 1 位』はベンチ事実なので narration 可)",
+      "数値表現はアラビア数字統一 (3 指標で 1 位、20 種類、5 倍速、6 日連続)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "narration の冒頭フックは 1 文目で『何の OSS か』を即明示し、2 文目で『〇〇と違って何か』に直結させる。05-19 comparison 0 views の反省 = 雑な『5 本まとめて競合』では刺さらない。1 対 1 で具体名を 5/5 で明示"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (28 日窓 n=4 で安定 method・avg 2.0 で trend-pattern (TOP=2.25) に次ぐ 2 位、14 日窓 n=1 で TOP method 同点、直近 2 日 [05-31 ecosystem / 05-30 comparison] と method 衝突なし、前回 business-angle は 05-20 で 12 日空きで連投ルール非該当)。柱② 週次必須要件は本週 (Mon 06-01 〜 Sun 06-07) Day 1 で消化、柱③ は前週 05-28 で消化済み、今週分は素材揃い次第で投入予定",
-      "本日 TOP5 は 3 本入れ替わり (継続 2 本: #1 markitdown=Python / 134,812★ / +2,759・5 日連続首位、#2 MoneyPrinterTurbo=Python / 74,024★ / +1,937 [+2,775→+1,937 で減速し 6 日連続 #2])。新規 3 本: #3 Scrapling=Python / 56,545★ / +639・BSD-3 適応スクレイピング・#4 hermes-webui=Python / 9,903★ / +320・MIT Hermes Agent 用軽量 UI・#5 compound-engineering-plugin=TypeScript / 18,684★ / +243・MIT Every Inc 公式 Claude Code プラグイン。5 本全てが明確な月額 SaaS or 業務委託の代替を持つ稀有な日",
-      "本日のマクロ核: 『2026 年 6 月の週始め (Mon)、PrimaryペルソナのCTO/技術選定者が「今週何を入れて、何の月額を止めるか」の稟議書を書くタイミング』として読む。5 本の代替対応: #1 MoneyPrinterTurbo=Pictory(月23ドル)/Synthesia(月30ドル+)/InVideo/外注代行(月20万円) / #2 markitdown=LlamaParse(月数千ドル従量)/Unstructured.io / #3 Scrapling=Bright Data(月500ドル+)/Apify(月49ドル+)/ScraperAPI / #4 hermes-webui=社内Agent管理UI自作2人月+保守費 / #5 compound-engineering-plugin=設計コンサル外注数百万円。冒頭フックは『5 本全てが明確な月額 SaaS or 業務委託の代替を持つ稀有な日』に置き、Primary ペルソナ (CTO / 技術選定者) の『今週の稟議書ネタ』に直撃",
-      "Primary (CTO / 技術選定者) には『今週入れて月額を止める 5 本セット』として直撃。Secondary (PdM / 事業責任者) には『SaaS 棚卸しの起点』として、Tertiary (学習中エンジニア) には『OSS で月額を畳む発想』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与",
-      "継続 2 本 (#1 markitdown / #2 MoneyPrinterTurbo) の角度切替: 05-30 comparison『何の代替か』→ 05-31 ecosystem『どの層か』→ 本日 business-angle『月いくら削れるか』へ 3 連続で語彙完全切替。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す。新規 3 本 (Scrapling・hermes-webui・compound-engineering-plugin) で素材ラインナップ大幅入れ替え",
-      "前回 business-angle 運用 (04-29/30 / 05-04 / 05-14/15 / 05-20) で『抽象的な実案件で組むなら』『〇〇人月浮く』に留まった反省を踏まえ、本日は全 5 本で具体 SaaS 名 (Pictory・Synthesia・LlamaParse・Bright Data・Apify) と月額数字、そして人月数字を明示。05-20 構文を踏襲して『〇〇月額が止まる』『〇〇人月が浮く』『〇〇外注の数百万円が浮く』を 5/5 で繰り返す",
-      "5 本のライセンスは MIT (MoneyPrinterTurbo / markitdown / hermes-webui / compound-engineering-plugin) + BSD-3 (Scrapling) で商用組み込み・受託案件・社内ツールいずれもおおむねスムーズ。business-angle 角度では細かいライセンス言及は narration から外し、detail でも基本触れない (金額・工数の意思決定軸を濁さない)。ただし社内法務向けに sources の trending URL から参照可能なよう各 README は最新を保つ",
-      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜3 views・n≤3・silent fail 汚染で有意差なし。28 日窓 business-angle (avg 2.0/n=4) は trend-pattern (TOP=2.25/n=4) に次ぐ 2 位の安定 method データ。本日の business-angle 採用は『28 日窓 n=4 安定 method + avg 2.0 で 2 位』+『素材適合度 5/5 で全リポが明確な月額 SaaS/外注代替を持つ稀有な日』+『直近 2 日 method 衝突回避』+『柱② 週次必須要件 Day 1 消化』で確定",
-      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜31 で継続成功 (13 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "次回以降の explore 候補: `vendor-stance` (大手ベンダー公式 OSS の意図を読み解く・5 月後半に素材出現頻度継続上昇・月内再現で独立 angle 化候補)、`incumbent-swap` (Primary ペルソナ向け『今週これを入れて、これを止める』の意思決定提示型 angle・business-angle と use-case の中間)、`stack-map` (ecosystem の派生で『5 本を AI 開発スタックの各層にマッピングする』固定形式)、`dogfooding` (self-experiment の派生で、本チャンネル運用に実際に組み込んだ結果 angle)。Phase 1 のフォロワー獲得を支える運用は引き続き business-angle / use-case / ecosystem / trend-pattern / comparison のローテーション主軸 + 月 1〜2 回の self-experiment スパイクで組む"
+      "本日の discovery.method は `comparison` (28 日窓 n=6 で母数最安定 TOP2・avg 2.00 で trend-pattern (TOP=2.25) に次ぐ位置、14 日窓 n=4 で avg 2.25 TOP3 同点、直近最高 views 05-30=5 も同 method、直近 2 日 [06-01 business-angle / 05-31 ecosystem] と method 衝突なし、前回 comparison は 05-30 で 3 日空きで連投ルール非該当)。柱② 週次必須要件は前日 06-01 で消化、柱③ は前週 05-28 で消化、今週分の柱③ は素材揃い次第で投入予定",
+      "本日 TOP5 は 1 本入れ替わり: 継続 4 本 (順位変動含む) と新規 1 本。継続 4 本: #1 markitdown=Python / 138,178★ / +3,086 [6 日連続首位・加速]、#2 hermes-webui=Python / 11,179★ / +984 [#4→#2 ランクアップ・3 倍超加速]、#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [#2→#4 ランクダウン・再加速]、#5 Scrapling=Python / 57,945★ / +1,475 [#3→#5 ランクダウン・加速]。新規 1 本: #3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張。5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日",
+      "本日のマクロ核: 『2026 年 6 月の火曜 (Tue=563 avg 週次最強・新週 Day 2)、Primary ペルソナの CTO / 技術選定者が週始めの稟議を経て「今週評価する各 OSS は社内で既に使っている何のかわりになるか」を判断するタイミング』として読む。5 本の 1 対 1 対比対応: #1 markitdown vs LlamaParse(従量課金) / Pandoc(構造保持なし) / #2 hermes-webui vs Open WebUI / LibreChat (記憶保持と定時実行の内蔵差分) / #3 supermemory vs Mem0 / Zep (3 ベンチ #1 と自動忘却) / #4 MoneyPrinterTurbo vs Pictory / Synthesia / ShortGPT (複数 LLM/TTS 差し替え) / #5 Scrapling vs Scrapy / AutoScraper / BeautifulSoup (適応セレクタ 5 倍速)。冒頭フックは『5 本全てが 1 対 1 で名指しの競合を持つ稀有な日』に置き、Primary ペルソナの『今週の置き換え評価』に直撃",
+      "Primary (CTO / 技術選定者) には『今週評価する 5 本の置き換え判断材料』として直撃。Secondary (PdM / 事業責任者) には『既存ツールの棚卸し材料』として、Tertiary (学習中エンジニア) には『OSS のカテゴリ理解と 1 対 1 の差分軸』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与",
+      "継続 4 本 (#1 markitdown / #2 hermes-webui / #4 MoneyPrinterTurbo / #5 Scrapling) の角度切替: 05-30 comparison『代わる』→ 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 本日 comparison『〇〇との違いは』へ 4 連続で語彙完全切替。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す: 本日 method=comparison は前回 05-30 と method 同じだが、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当",
+      "05-19 comparison 0 views (雑な 5 本横断の競合並列) の反省を踏まえ、本日は全 5 本で 1 対 1 で名指しの具体的な競合 OSS/SaaS 名 (LlamaParse・Open WebUI・Mem0・Pictory・Scrapy) と差分軸を明示。05-30 comparison の最高 views 5 は同じく 1 対 1 形式 (claude-plugins-official・codegraph・RuView・ai-engineering・chrome-devtools-mcp の各既存解と 1 対 1 対比) で達成しており、本日もこの形式を踏襲",
+      "5 本のライセンスは MIT (markitdown / hermes-webui / supermemory / MoneyPrinterTurbo) + BSD-3 (Scrapling) で商用組み込み・受託案件・社内ツールいずれもおおむねスムーズ。comparison 角度では細かいライセンス言及は narration から外し、detail でも基本触れない (機能・設計・ベンチの差分軸を濁さない)。ただし社内法務向けに sources の trending URL から参照可能なよう各 README は最新を保つ",
+      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜5 views・n≤4 で有意差なし、06-01 計測前。28 日窓 comparison (avg 2.00/n=6) は trend-pattern (TOP=2.25/n=4) に次ぐ 2 位の母数最安定 method データ。本日の comparison 採用は『28 日窓 n=6 母数最安定 method + avg 2.00 で 2 位』+『直近最高 views 05-30=5 も同 method』+『素材適合度 5/5 で全リポが 1 対 1 で名指しの競合を持つ稀有な日』+『直近 2 日 method 衝突回避』+『柱② / 柱③ 既消化』で確定",
+      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜06-01 で継続成功 (14 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "同ラインナップ連投の累積疲労リスク注記: markitdown / MoneyPrinterTurbo が 6 日連続 TOP5・Scrapling / hermes-webui が 4 日連続。method 切替で語彙分散はできているが、視聴者疲労は累積中。本日 narration では各 repo の継続日数自体には触れず、純粋に 1 対 1 対比の差分軸に集中することで『今日も同じ顔ぶれ』の印象を弱める",
+      "次回以降の explore 候補: `benchmark-table` (新、supermemory の 3 ベンチ #1 や Scrapling の 5 倍速など定量ベンチが揃う日に独立形式化)、`vendor-stance` (Microsoft markitdown 6 日連続首位など大手公式 OSS の素材出現頻度上昇)、`incumbent-swap` (Primary 向け『今週入れて何を止めるか』の意思決定提示型)、`stack-map` (ecosystem 派生で固定形式化)、`dogfooding` (self-experiment 派生で本チャンネル運用組み込み結果)。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / business-angle / use-case / ecosystem / trend-pattern のローテーション主軸 + 月 1〜2 回の self-experiment スパイクで組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-01",
-    "dayOfWeek": "Mon",
+    "date": "2026-06-02",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "稟議書",
-      "SaaSコスト削減",
-      "月額をやめる",
-      "内製化",
-      "人月削減",
       "技術選定",
-      "意思決定",
-      "今週の稟議",
-      "コスト削減",
-      "外注代行",
-      "コンサル代替",
-      "Pictory代替",
-      "Synthesia代替",
-      "LlamaParse代替",
-      "BrightData代替",
-      "Apify代替",
-      "AI動画生成",
+      "OSS比較",
+      "どっちを選ぶ",
+      "乗り換え検討",
+      "置き換え候補",
+      "SaaS代替検討",
+      "LlamaParse比較",
+      "OpenWebUI比較",
+      "Mem0比較",
+      "Zep比較",
+      "Pictory比較",
+      "Scrapy比較",
+      "Pandoc代替",
       "LLM前処理",
+      "AgentUI",
+      "AI記憶",
+      "AI動画生成",
       "ウェブスクレイピング",
-      "エージェントUI",
-      "ClaudeCodePlugin",
       "Microsoft",
       "MicrosoftOSS",
-      "Anthropic",
-      "ClaudeCode",
-      "Cursor",
-      "Codex",
+      "Hermes",
+      "Supermemory",
       "Python",
       "TypeScript",
       "CTO",
@@ -106,11 +103,11 @@
       "個人開発",
       "受託開発",
       "スタートアップ",
-      "SaaS5本同日代替",
-      "6月稟議書ネタ",
-      "月額10万を畳む",
-      "2人月が浮く"
+      "5本とも1対1比較",
+      "6月の技術選定",
+      "置き換え評価ネタ",
+      "OSS同日5本対比"
     ],
-    "focus": "月曜 (Mon=70 avg 週次中下位帯・新週 Day 1) に `business-angle` 角度 (28 日窓 n=4 で安定 method・avg 2.0 で trend-pattern (TOP=2.25) に次ぐ 2 位の安定 method、14 日窓 n=1 で TOP method 同点) を投入。直近 2 日 (05-31 ecosystem / 05-30 comparison) と method 衝突なし、前回 business-angle は 05-20 で 12 日空きで連投ルール非該当。柱② 週次必須要件は本週 (Mon 06-01 〜 Sun 06-07) Day 1 で消化、柱③ は前週 05-28 で消化済み、今週分は素材揃い次第で投入予定。本日 TOP5 は 3 本入れ替わり: 継続 2 本 (#1 markitdown=Python / 134,812★ / +2,759 [+2,473→+2,759 で加速し 5 日連続首位]、#2 MoneyPrinterTurbo=Python / 74,024★ / +1,937 [+2,775→+1,937 で減速し 6 日連続 #2 維持])、新規 3 本 (#3 D4Vinci/Scrapling=Python / 56,545★ / +639・BSD-3 適応スクレイピングフレームワーク・#4 nesquena/hermes-webui=Python / 9,903★ / +320・MIT Hermes Agent 用軽量 Web UI・#5 EveryInc/compound-engineering-plugin=TypeScript / 18,684★ / +243・MIT Every Inc 公式 Claude Code プラグイン)。5 本全てが明確な月額 SaaS or 業務委託の代替を持つ稀有な日: MoneyPrinterTurbo=Pictory(月23ドル)/Synthesia(月30ドル+)/InVideo/外注代行(月20万円)・markitdown=LlamaParse(月数千ドル従量)/Unstructured.io・Scrapling=Bright Data(月500ドル+)/Apify(月49ドル+)/ScraperAPI・hermes-webui=社内Agent管理UI自作2人月+保守費・compound-engineering-plugin=設計コンサル外注数百万円。素材適合度 5/5 で business-angle 角度の本命投入。本日のマクロ核: 『2026 年 6 月の週始め、Primary ペルソナの CTO / 技術選定者が「今週何を入れて、何の月額を止めるか」の稟議書を書くタイミング』。冒頭フックは『5 本全てが明確な月額 SaaS or 業務委託の代替を持つ稀有な日』に置き、Primary ペルソナの『今週の稟議書ネタ』に直撃させる。継続 2 本 (#1 markitdown / #2 MoneyPrinterTurbo) は 05-30 comparison『代わる』→ 05-31 ecosystem『どの層か』→ 本日 business-angle『月いくら削れるか』へ 3 連続で語彙完全切替し連投ペナルティ回避。Microsoft 公式 markitdown + Every Inc 公式 compound-engineering-plugin の 2 ベンダー公式 OSS 同日 TOP5 入りも business-angle 角度の信頼性に厚みを与える (公式 OSS は法務通過の難度が下がり稟議が通りやすい)。Meta-PDCA の有効性を継続実証。注記: 14 日窓 method 平均差は n≤3・silent fail 汚染で統計的に有意でなく、本選定は 28 日窓 business-angle n=4 安定 method + 素材適合度 5/5 + 直近 2 日 method 衝突回避 + 柱② 週次必須要件 Day 1 消化を根拠とする。最低 15 views (Mon 下位帯超え)、理想 200 views (Mon 上位帯への漸近) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "火曜 (Tue=563 avg 週次最強帯・新週 Day 2) に `comparison` 角度 (28 日窓 n=6 で母数最安定 TOP2・avg 2.00 で trend-pattern (TOP=2.25) に次ぐ位置、14 日窓 n=4 で avg 2.25 TOP3 同点、直近最高 views 05-30=5 も同 method) を投入。直近 2 日 (06-01 business-angle / 05-31 ecosystem) と method 衝突なし、前回 comparison は 05-30 で 3 日空きで連投ルール非該当、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当。柱② (business-angle) は前日 06-01 で消化済、柱③ (self-experiment) は前週 05-28 で消化済、今週分の柱③ は素材揃い次第で投入予定。本日 TOP5 は 1 本入れ替わり: 継続 4 本 (#1 markitdown=Python / 138,178★ / +3,086 [+2,759→+3,086 で加速し 6 日連続首位]・#2 hermes-webui=Python / 11,179★ / +984 [+320→+984 で 3 倍超加速し #4→#2 ランクアップ]・#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [+1,937→+3,325 で再加速し #2→#4 ランクダウン]・#5 Scrapling=Python / 57,945★ / +1,475 [+639→+1,475 で加速し #3→#5 ランクダウン]) + 新規 1 本 (#3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張)。EveryInc/compound-engineering-plugin が前日 #5 から TOP5 圏外へ。素材適合度 5/5: 5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日 (markitdown=LlamaParse / Pandoc・hermes-webui=Open WebUI / LibreChat・supermemory=Mem0 / Zep・MoneyPrinterTurbo=Pictory / Synthesia / ShortGPT・Scrapling=Scrapy / AutoScraper / BeautifulSoup)。本日のマクロ核: 『2026 年 6 月の火曜、Primary ペルソナの CTO / 技術選定者が週始めの稟議を経て「今週評価する各 OSS は社内で既に使っている何のかわりになるか」を判断するタイミング』。冒頭フックは『5 本全てが 1 対 1 で名指しの競合を持つ稀有な日』に置き、Primary ペルソナの『今週の置き換え評価』に直撃させる。継続 4 本は 05-30 comparison『代わる』→ 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 本日 comparison『〇〇との違いは』へ 4 連続で語彙完全切替し連投ペナルティ回避。Microsoft 公式 markitdown が 6 日連続首位という構造的安定性は comparison 角度でも信頼性を補強 (公式 OSS の比較は法務通過の難度が下がる)。Meta-PDCA の有効性を継続実証。注記: 14 日窓 method 平均差は n≤4・06-01 計測前で統計的に有意でなく、本選定は 28 日窓 comparison n=6 母数最安定 method + 素材適合度 5/5 + 直近最高 views 05-30=5 同 method + 直近 2 日 method 衝突回避 + 柱② / 柱③ 既消化を根拠とする。最低 50 views (Tue 下位帯超え)、理想 800 views (Tue 上位帯) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
