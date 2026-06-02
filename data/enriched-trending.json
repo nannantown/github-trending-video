@@ -1,21 +1,15 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『1対1で名指しの競合OSS/SaaSとどう違うか』の対比視点で5本横断料理する。5本の対比対応: #1 microsoft/markitdown vs LlamaParse・Pandoc(LLM向けに構造保持の文書→Markdown変換) / #2 nesquena/hermes-webui vs Open WebUI・LibreChat(記憶保持と定時実行を最初から内蔵する自前ホスト型Agent UI) / #3 supermemoryai/supermemory vs Mem0・Zep(LongMemEval/LoCoMo/ConvoMemの3ベンチで1位、矛盾解決と自動忘却) / #4 harry0703/MoneyPrinterTurbo vs Pictory・Synthesia・ShortGPT(複数LLM/TTSを差し替え可能なセルフホスト動画生成) / #5 D4Vinci/Scrapling vs Scrapy・AutoScraper・BeautifulSoup(適応セレクタが5倍速の追従でサイト構造変化に強い)。冒頭マクロ核は『2026年6月の火曜、PrimaryペルソナのCTO/技術選定者が「今週評価する各OSSは、社内で既に使っている何のかわりになるか」を判断するタイミング』。本日TOP5は4/5が06-01から継続(markitdown #1→#1・hermes-webui #4→#2・MoneyPrinterTurbo #2→#4・Scrapling #3→#5)、新規1本(#3 supermemoryai/supermemory=TS/23,922★/+660・AI記憶ベンチで3冠)。06-01 business-angle『月いくら削れるか』『稟議書』語彙 → 本日 comparison『〇〇との違いは』『〇〇のかわりに』語彙へ完全切替で連投ペナルティ条件外。method=comparison は14日窓 avg 2.25 n=4(TOP3同点)/28日窓 avg 2.00 n=6(母数最安定TOP2)で両窓で上位安定、直近最高05-30=5 viewsもcomparison。直近2日(06-01 business-angle / 05-31 ecosystem)とmethod衝突なし、前回comparisonは05-30で3日空きで連投ルール非該当、05-30との同ラインナップ重複はmarkitdownとMoneyPrinterTurboの2本のみで3本以上重複ペナルティ非該当。柱②(business-angle)は前日06-01・柱③(self-experiment)は前週05-28で消化済、本日は柱①ローテーション主軸。素材適合度5/5: 全リポが1対1で名指しの明確な競合OSS/SaaSを持つ稀有な日。05-19 comparison 0views(雑な5本横断並列)の反省を踏まえ、本日は5本すべてで具体的な1対1の競合対象を明示。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。注記: 14日窓method平均差はn≤4・06-01計測前で統計的に有意でなく、本選定は『28日窓 comparison n=6 母数最安定+avg 2.00安定method』+『素材適合度5/5(全5本に1対1の競合)』+『直近最高 views 05-30=5 も同 method』+『柱②/柱③ 既消化』を根拠とする。",
+    "method": "self-experiment",
+    "description": "本チャンネルのAIショート動画生成パイプライン運用者が、今日のTOP5を『自分のbotに入れるか』の視点で5本横断に料理する。Claude Routine・SNS自動投稿・データ収集の各レイヤで実装的に評価し、運用者の自腹トーンで語る。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/chopratejas/headroom",
       "https://github.com/microsoft/markitdown",
-      "https://github.com/nesquena/hermes-webui",
-      "https://github.com/supermemoryai/supermemory",
-      "https://github.com/harry0703/MoneyPrinterTurbo",
+      "https://github.com/affaan-m/ECC",
       "https://github.com/D4Vinci/Scrapling",
-      "https://github.com/mem0ai/mem0",
-      "https://github.com/getzep/zep",
-      "https://github.com/open-webui/open-webui",
-      "https://github.com/danny-avila/LibreChat",
-      "https://github.com/run-llama/llama_parse",
-      "https://github.com/scrapy/scrapy"
+      "https://github.com/nesquena/hermes-webui"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "chopratejas/headroom",
+      "name": "headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "language": "Python",
+      "stars": 6209,
+      "todayStars": 1266,
+      "description": "LLM入力を最大92%削るProxy",
+      "detail": "Claude CodeやCursorに渡すログ・RAGを最大92%圧縮するドロップインProxyです。可逆方式なので元データを復元でき、BFCLで精度劣化3%以内を保ちながらトークン費だけ大きく削れます。",
+      "narration": "ログやRAGを9割圧縮するProxyです。私のClaude Routineのトークン費が大幅に減らせそうで導入予定です。"
+    },
+    {
+      "rank": 2,
       "fullName": "microsoft/markitdown",
       "name": "markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "language": "Python",
-      "stars": 138178,
-      "todayStars": 3086,
-      "description": "LLM時代の文書→Markdown標準",
-      "detail": "Microsoft公式のPython製OSSです。PDFやWord、PowerPointなど20種類以上の文書をMarkdownに変換します。LlamaParseの従量課金や軽量Pandocと比べ、見出しや表をLLMが食べやすい形で残す設計が独自です。",
-      "narration": "文書をMarkdownへ変えるMicrosoft公式OSSです。LlamaParseと違い構造をそのまま残す設計です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "nesquena/hermes-webui",
-      "name": "hermes-webui",
-      "url": "https://github.com/nesquena/hermes-webui",
-      "language": "Python",
-      "stars": 11179,
-      "todayStars": 984,
-      "description": "Open WebUIに記憶機能を足す",
-      "detail": "Hermes Agent向けの自前ホストUIで、Python+素のJSのビルド不要構成です。Open WebUIやLibreChatと比べ、セッション横断の記憶と定時実行のcronを最初から内蔵する点が違います。",
-      "narration": "自前ホスト型のエージェント用UIです。Open WebUIとの違いは記憶保持と定時実行を備える点です。"
+      "stars": 141013,
+      "todayStars": 3616,
+      "description": "全ファイルをMarkdown化する変換器",
+      "detail": "PDF・Word・Excel・PowerPointから画像や音声、YouTube URLまで約10種類をLLMが食いやすいMarkdownに統一変換するMicrosoft製ツール。RAG前処理の入口を一本化できる定番です。",
+      "narration": "PDFや画像をMarkdown化する変換器です。毎朝のリポ調査でPDF論文も読み込めて自動化が一段進みそうです。"
     },
     {
       "rank": 3,
-      "fullName": "supermemoryai/supermemory",
-      "name": "supermemory",
-      "url": "https://github.com/supermemoryai/supermemory",
-      "language": "TypeScript",
-      "stars": 23922,
-      "todayStars": 660,
-      "description": "AI記憶ベンチで3冠の共通API",
-      "detail": "AIアプリに記憶を足すTypeScript製のOSSで、LongMemEvalやLoCoMo、ConvoMemの3つのベンチで1位を取得しています。Mem0やZepと比べ、矛盾の自動解決と古い情報の忘却機能を備える点が独自です。",
-      "narration": "AIエージェントに記憶を足す共通APIです。Mem0との違いはLongMemEval含む3指標で1位を取る点です。"
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 203807,
+      "todayStars": 1597,
+      "description": "Claude Codeを本番化する司令塔",
+      "detail": "63のサブエージェントと249のスキル、AgentShield連携の安全ガードを束ね、Claude CodeやCursorを本番運用に耐える形へ拡張するハーネス。CI/CDから多エージェント運用まで一式で揃えられます。",
+      "narration": "Claude Codeを本番運用に育てる一式です。私のRoutineにskillとガードを足せそうで導入を検討中です。"
     },
     {
       "rank": 4,
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "name": "MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "language": "Python",
-      "stars": 76759,
-      "todayStars": 3325,
-      "description": "自前運用できる縦動画ジェネレーター",
-      "detail": "ハリー氏のMIT製OSSで、台本から素材、字幕、TTS、縦動画書き出しまで自動化します。PictoryやSynthesiaなどのSaaSと比べ、OpenAIやOllamaなど複数LLMを差し替えられる自前運用の自由度が違います。",
-      "narration": "AIで縦動画を量産する自前運用OSSです。Pictoryとの違いはLLMもTTSも自由に差し替えられる点です。"
-    },
-    {
-      "rank": 5,
       "fullName": "D4Vinci/Scrapling",
       "name": "Scrapling",
       "url": "https://github.com/D4Vinci/Scrapling",
       "language": "Python",
-      "stars": 57945,
-      "todayStars": 1475,
-      "description": "サイト変化に追従する適応スクレイパー",
-      "detail": "BSD-3のPython製スクレイパーで、Cloudflare Turnstileやサイト構造の変化にも対応します。ScrapyやAutoScraperと比べ、適応セレクタが5倍速の追従と保守の手間を消す設計が独自です。",
-      "narration": "適応セレクタを持つPythonスクレイピング枠組みです。Scrapyとの違いはサイト変化に追従する点です。"
+      "stars": 59098,
+      "todayStars": 1196,
+      "description": "サイト崩れに強い適応スクレイパー",
+      "detail": "似た要素を再発見する適応アルゴリズムでサイト構造変更に自動追従するPython製スクレイピング基盤。MCP連携でClaudeから直接データ取得でき、毎朝の自動収集の保守工数を大きく下げられます。",
+      "narration": "サイト構造が変わっても自動追従するスクレイパーです。私のTrending収集パイプラインの保守工数が大幅に減りそうです。"
+    },
+    {
+      "rank": 5,
+      "fullName": "nesquena/hermes-webui",
+      "name": "hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "language": "Python",
+      "stars": 12499,
+      "todayStars": 1725,
+      "description": "自己学習エージェントのWeb UI",
+      "detail": "セッション間で記憶を保ち、自分でスキルを書き足し、cronで結果をTelegramやSlackに届ける自己学習エージェントHermesのWebUI。SSH越しにスマホからも操作でき、自宅サーバ運用と相性抜群。",
+      "narration": "記憶を持つ自己学習エージェントのWeb版です。私のSNS自動投稿botもこれに置き換えてスマホから操作したくなりました。"
     }
   ]
 }

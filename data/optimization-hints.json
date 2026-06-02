@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-02",
-  "basedOnVideos": 13,
+  "updatedAt": "2026-06-03",
+  "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
       "Mon": 57,
@@ -24,90 +24,90 @@
       "date": "2026-05-30",
       "views": 5,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05-19〜06-01、計測済 13 件 + 06-01 計測前): self-experiment 3.0 avg n=1 (05/28=3) / ecosystem 2.5 avg n=2 (05/27=1・05/31=4) / comparison 2.25 avg n=4 (05/19=0・05/23=2・05/30=5・05/16=NA[28d外]) / use-case 2.0 avg n=1 (05/21=2) / trend-pattern 1.5 avg n=2 (05/22=3・05/29=0) / business-angle 1.0 avg n=2 (05/20=2・06/01=計測前) / tech-deep 0.0 avg n=1 (05/18=NA[14d外])。28 日窓 (参考、05/05〜06/01): trend-pattern 2.25 avg n=4 / comparison 2.00 avg n=6 (母数最安定TOP2)・ecosystem 1.80 avg n=5 / business-angle 2.0 avg n=4 / use-case 2.0 avg n=1 / self-experiment 0→3 修正 n=1 / tech-deep 0 avg n=1。直近 14d で comparison は 0,1,4,5 と上振れ傾向、28d=2.00 n=6 で母数最安定 TOP2 の安定 method。本日 06-02 (Tue=563 avg 週次最強・新週 Day 2) は method=comparison を起用。本日 TOP5 は 1 本入れ替わり (継続 4 本: #1 markitdown=Python / 138,178★ / +3,086 [+2,759→+3,086 で加速し 6 日連続首位]・#2 hermes-webui=Python / 11,179★ / +984 [+320→+984 で 3 倍超加速し #4→#2 ランクアップ]・#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [+1,937→+3,325 で再加速し #2→#4 ランクダウン]・#5 Scrapling=Python / 57,945★ / +1,475 [+639→+1,475 で加速し #3→#5 ランクダウン]) + 新規 1 本 (#3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張)。EveryInc/compound-engineering-plugin が前日 #5 から TOP5 圏外へ。素材適合度 5/5: 5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日 (markitdown=LlamaParse/Pandoc・hermes-webui=Open WebUI/LibreChat・supermemory=Mem0/Zep・MoneyPrinterTurbo=Pictory/Synthesia/ShortGPT・Scrapling=Scrapy/AutoScraper/BeautifulSoup)。直近 2 日 (06-01 business-angle / 05-31 ecosystem) と method 衝突なし、comparison は前回 05-30 から 3 日空きで連投ルール非該当、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当。柱② (business-angle) は前日 06-01 で消化済、柱③ (self-experiment) は前週 05-28 で消化済、今週分は素材次第。Tue 上位帯への漸近を目標とし、最低 50 views (Tue 下位帯超え)、理想 800 views (Tue 上位帯) を目標。"
+      "note": "Method 別平均 (14 日窓 05-20〜06-02, n=12): self-experiment 3.0 avg n=1 (05-28=3) / ecosystem 2.5 avg n=2 (05-27=1・05-31=4) / comparison 2.25 avg n=4 (05-19=0[14d窓ぎりぎり]・05-23=4・05-30=5・06-02=0) / use-case 2.0 avg n=1 (05-21=2) / trend-pattern 2.0 avg n=2 (05-22=3・05-29=1) / business-angle 1.5 avg n=2 (05-20=2・06-01=1) / tech-deep n=0。06-02 comparison=0 が直近最大の警告: 1対1競合明示の素材が揃った日でも viewability 不安定。本日 06-03 (Wed=188 avg) は直近2日 (06-01 business-angle・06-02 comparison) 連投ルールで両 method を除外、TOP3 残りは self-experiment / ecosystem / comparison のうち comparison は除外条件、ecosystem は前々前回 05-31 で 3 日空きだが視聴4で次点、self-experiment は avg 3.0 で TOP1 + 05-28 から 6 日空き + 本日 TOP5 のうち 4/5 が AI agent 周辺ユーティリティで素材適合度高。柱③ (self-experiment) は週次最低1回ルールに対し直近7日内 05-28 で消化済だが、Primary ペルソナへの『手を動かす人』信頼シグナルを 06-02 の 0 views ショックの埋め合わせとして強めに打ちたい。本日 06-03 TOP5: #1 chopratejas/headroom=Python / 6,209★ / +1,266 [新規・LLM入力を最大92%圧縮する Proxy、Claude Code/Cursor/Codex 対応、BFCL で精度劣化3%以内]・#2 microsoft/markitdown=Python / 141,013★ / +3,616 [継続首位・PDF/Word/Excel/PowerPoint/画像/音声/YouTube URL を Markdown に統一変換]・#3 affaan-m/ECC=JavaScript / 203,807★ / +1,597 [継続・Claude Code/Cursor/OpenCode/Codex 用ハーネスで 63 subagent + 249 skill + AgentShield]・#4 D4Vinci/Scrapling=Python / 59,098★ / +1,196 [継続・適応セレクタ・MCP 連携で Claude から直接データ取得可]・#5 nesquena/hermes-webui=Python / 12,499★ / +1,725 [継続・自己学習型エージェント Hermes の WebUI、cron/Telegram/Slack/Email 配信]。Tue=563 avg 強帯から Wed=188 avg へ後退する曜日転換日、最低 30 views (Wed 平均超え)、理想 250 views (Wed 上位帯) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は火曜 (Tue=563 avg 週次最強・新週 Day 2)。Primary ペルソナ (CTO/技術選定者) が週始めの稟議を経て『今週評価する各 OSS は社内で既に使っている何のかわりになるか』を判断するタイミング。Tue 上位帯への漸近を狙い、最低 50 views、理想 800 views を目標",
-      "本日 TOP5 は 1 本入れ替わり (新規 #3 supermemory・継続 4 本は順位変動: markitdown #1→#1, hermes-webui #4→#2, MoneyPrinterTurbo #2→#4, Scrapling #3→#5)。06-01 business-angle『〇〇の月額が消える』『〇〇人月が浮く』『稟議書』語彙から本日 comparison『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由』語彙へ完全切替で連投ペナルティ回避"
+      "本日は水曜 (Wed=188 avg・週次中位)。Primary ペルソナ (CTO/技術選定者) が火曜の稟議結果を受けて『今週どこから手を動かすか』を決める実装着手日。self-experiment 角度で『本チャンネル運用者として実際に入れる/入れない』のトーンに振り、Primary の自分ごと化を狙う",
+      "本日 TOP5 は新規 1 本 + 継続 4 本。新規 #1 headroom (LLM 圧縮 Proxy、+1,266) が首位躍進、Microsoft 公式 markitdown (+3,616) は #2 安定。06-02 comparison『〇〇との違いは』『〇〇のかわりに』語彙 → 本日 self-experiment『私の Routine に入れるか』『自分の bot で試したい』語彙へ完全切替で連投ペナルティ回避"
     ],
     "hashtags": [
-      "Tue=563 avg 週次最強帯 + comparison 角度のため、Primary (CTO/技術選定者) の『今週評価する各 OSS は何のかわりになるか』語彙を厚く: #技術選定 #OSS比較 #どっちを選ぶ #乗り換え検討 #置き換え候補 #SaaS代替検討",
-      "comparison 角度のため、各 1 対 1 の競合相手を直接タグ化: #LlamaParse比較 #OpenWebUI比較 #Mem0比較 #Zep比較 #Pictory比較 #Scrapy比較 #Pandoc代替",
-      "領域タグ (5 本のカテゴリ): #LLM前処理 #AgentUI #AI記憶 #AI動画生成 #ウェブスクレイピング",
-      "言語タグは Python (4 本: markitdown / hermes-webui / MoneyPrinterTurbo / Scrapling) / TypeScript (1 本: supermemory)。Python (1.2x) が最厚で TypeScript (1.1x) がサブ。Shell / Rust / Go / Ruby は本日不在",
-      "前日 06-01 (business-angle 角度) の『月額』『従量課金』『稟議書』『人月削減』『内製化』『外注代行』『コンサル代替』語彙から距離を置き、本日は『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由』『〇〇に勝つのは』『1 対 1 で勝てる』など対比語彙へ完全切替",
-      "comparison 角度でも『〇〇は終わった』『〇〇は不要』『〇〇は死んだ』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由は』など中性的な 1 対 1 対比語彙に統一",
-      "本日 hashtag に 1 対 1 競合 OSS/SaaS 名を厚めに置く: comparison 角度の核心は具体名 × 違いの軸の組合せで、検索流入とアルゴリズム的なタグ精度を両立",
-      "5 本全てが 1 対 1 で名指しの競合を持つ事実をフックにする独自 hashtag: #5本とも1対1比較 #6月の技術選定 #置き換え評価ネタ #OSS同日5本対比"
+      "Wed=188 avg + self-experiment 角度のため、Primary (CTO/技術選定者) の『今週どこから手を動かすか』語彙を厚く: #実装着手 #自分で試す #個人開発ログ #運用知見 #dogfooding #自社運用",
+      "self-experiment 角度の核心は『本チャンネル自体が SNS 自動投稿 bot + Claude Routine の集合体』である自己開示。チャンネル文脈タグ: #Claude #ClaudeCode #ClaudeRoutine #SNS自動化 #自動投稿bot #毎朝AI動画 #AIショート運用",
+      "領域タグ (5 本のカテゴリ): #LLMトークン圧縮 #ファイル変換 #AIエージェント基盤 #ウェブスクレイピング #AgentUI",
+      "言語タグは Python (4 本: headroom / markitdown / Scrapling / hermes-webui) / JavaScript (1 本: ECC)。Python (1.2x) が最厚で JavaScript (0.9x) は薄め",
+      "前日 06-02 (comparison 角度) の『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由』語彙から距離を置き、本日は『私の Routine に』『自分の bot に』『実際に入れるか』『一段進みそう』『試したい』『導入予定』など主観・実装ベース語彙へ完全切替",
+      "self-experiment 角度でも『〇〇は使うな』『〇〇はオワコン』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『私のレイヤに入るか』『試したい』『検討中』など中性的な実装着手語彙に統一",
+      "本日 hashtag に『毎朝の運用』『自分のパイプライン』を厚めに置く: self-experiment 角度の核心は具体的なレイヤ言及 × 運用者の自腹トーンで、フォロワー層への信頼シグナル更新と Primary ペルソナの『この人は手を動かす』認知に直結",
+      "self-experiment 角度の独自 hashtag: #本チャンネルに入れるか #自分のbotで試す #dogfooding5本 #6月の実装着手 #自腹評価ネタ"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (59+51+57+55+53)、TTS で約 40-42 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (markitdown, Microsoft, LlamaParse, Pandoc, hermes-webui, Open WebUI, LibreChat, Hermes Agent, supermemory, Mem0, Zep, LongMemEval, LoCoMo, ConvoMem, MoneyPrinterTurbo, Pictory, Synthesia, ShortGPT, Ollama, OpenAI, Scrapling, Scrapy, AutoScraper, BeautifulSoup, Cloudflare, Turnstile, MIT, BSD-3, OSS, API, LLM, TTS, RAG)",
-      "comparison 角度の一貫性: 5 本すべてに『〇〇と違い』『〇〇との違いは』『〇〇のかわりに』『〇〇を選ぶ理由は』など 1 対 1 対比語彙を 1 回入れ、1 対 1 競合相手名 (LlamaParse / Open WebUI / Mem0 / Pictory / Scrapy) は narration に明示。1 文目で『何の OSS/SaaS か』、2 文目で『〇〇との違いは〇〇』を 1 つ挙げる 2 文構成。前日 business-angle の『月額』『稟議書』『人月削減』語彙と完全に語彙切替",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度でも数値は detail 側へ寄せ、narration は機能・設計・ベンチの差分軸で扱う (例外: supermemory の『3 指標で 1 位』はベンチ事実なので narration 可)",
-      "数値表現はアラビア数字統一 (3 指標で 1 位、20 種類、5 倍速、6 日連続)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "narration の冒頭フックは 1 文目で『何の OSS か』を即明示し、2 文目で『〇〇と違って何か』に直結させる。05-19 comparison 0 views の反省 = 雑な『5 本まとめて競合』では刺さらない。1 対 1 で具体名を 5/5 で明示"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 295 文字 (60+56+59+60+60)、TTS で約 42-44 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (headroom, Claude, Claude Code, Cursor, Codex, BFCL, Proxy, RAG, markitdown, Microsoft, Markdown, PDF, Word, PowerPoint, ECC, skill, Scrapling, MCP, hermes-webui, Hermes Agent, cron, Telegram, Slack, bot, Routine, SNS)",
+      "self-experiment 角度の一貫性: 5 本すべてに『私の』『自分の』『本チャンネル運用』など一人称の主語と『◯◯ Routine』『SNS 自動投稿 bot』『毎朝のリポ調査』『Trending 収集パイプライン』など具体的な自パイプラインの言及を 1 回入れる。1 文目で『何の OSS か』、2 文目で『自分のどのレイヤに入るか + どう変わるか』を 1 つ挙げる 2 文構成。前日 comparison の『〇〇との違いは』『〇〇のかわりに』語彙と完全に語彙切替",
+      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment 角度では数値ベンチも detail 側へ寄せ、narration は『自分の何のレイヤに入って何が変わるか』の実装的主観を優先 (例外: headroom の『9割』のような採用判断軸として強い数値は narration 可)",
+      "数値表現はアラビア数字統一 (9割、92%、10種類)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "narration の冒頭フックは 1 文目で『何の OSS か』を即明示し、2 文目で『私の◯◯ Routine / SNS bot / Trending 収集』への具体的当てはめを直結させる。05-28 self-experiment (avg 3.0) の成功形式 = 一人称 + 自パイプラインへの具体言及 × 5/5 で踏襲。06-02 comparison 0 views の反省 = 一人称が欠落した抽象的対比は刺さらない、本日は 5/5 で『私の』『自分の』を必ず含める"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (28 日窓 n=6 で母数最安定 TOP2・avg 2.00 で trend-pattern (TOP=2.25) に次ぐ位置、14 日窓 n=4 で avg 2.25 TOP3 同点、直近最高 views 05-30=5 も同 method、直近 2 日 [06-01 business-angle / 05-31 ecosystem] と method 衝突なし、前回 comparison は 05-30 で 3 日空きで連投ルール非該当)。柱② 週次必須要件は前日 06-01 で消化、柱③ は前週 05-28 で消化、今週分の柱③ は素材揃い次第で投入予定",
-      "本日 TOP5 は 1 本入れ替わり: 継続 4 本 (順位変動含む) と新規 1 本。継続 4 本: #1 markitdown=Python / 138,178★ / +3,086 [6 日連続首位・加速]、#2 hermes-webui=Python / 11,179★ / +984 [#4→#2 ランクアップ・3 倍超加速]、#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [#2→#4 ランクダウン・再加速]、#5 Scrapling=Python / 57,945★ / +1,475 [#3→#5 ランクダウン・加速]。新規 1 本: #3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張。5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日",
-      "本日のマクロ核: 『2026 年 6 月の火曜 (Tue=563 avg 週次最強・新週 Day 2)、Primary ペルソナの CTO / 技術選定者が週始めの稟議を経て「今週評価する各 OSS は社内で既に使っている何のかわりになるか」を判断するタイミング』として読む。5 本の 1 対 1 対比対応: #1 markitdown vs LlamaParse(従量課金) / Pandoc(構造保持なし) / #2 hermes-webui vs Open WebUI / LibreChat (記憶保持と定時実行の内蔵差分) / #3 supermemory vs Mem0 / Zep (3 ベンチ #1 と自動忘却) / #4 MoneyPrinterTurbo vs Pictory / Synthesia / ShortGPT (複数 LLM/TTS 差し替え) / #5 Scrapling vs Scrapy / AutoScraper / BeautifulSoup (適応セレクタ 5 倍速)。冒頭フックは『5 本全てが 1 対 1 で名指しの競合を持つ稀有な日』に置き、Primary ペルソナの『今週の置き換え評価』に直撃",
-      "Primary (CTO / 技術選定者) には『今週評価する 5 本の置き換え判断材料』として直撃。Secondary (PdM / 事業責任者) には『既存ツールの棚卸し材料』として、Tertiary (学習中エンジニア) には『OSS のカテゴリ理解と 1 対 1 の差分軸』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与",
-      "継続 4 本 (#1 markitdown / #2 hermes-webui / #4 MoneyPrinterTurbo / #5 Scrapling) の角度切替: 05-30 comparison『代わる』→ 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 本日 comparison『〇〇との違いは』へ 4 連続で語彙完全切替。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す: 本日 method=comparison は前回 05-30 と method 同じだが、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当",
-      "05-19 comparison 0 views (雑な 5 本横断の競合並列) の反省を踏まえ、本日は全 5 本で 1 対 1 で名指しの具体的な競合 OSS/SaaS 名 (LlamaParse・Open WebUI・Mem0・Pictory・Scrapy) と差分軸を明示。05-30 comparison の最高 views 5 は同じく 1 対 1 形式 (claude-plugins-official・codegraph・RuView・ai-engineering・chrome-devtools-mcp の各既存解と 1 対 1 対比) で達成しており、本日もこの形式を踏襲",
-      "5 本のライセンスは MIT (markitdown / hermes-webui / supermemory / MoneyPrinterTurbo) + BSD-3 (Scrapling) で商用組み込み・受託案件・社内ツールいずれもおおむねスムーズ。comparison 角度では細かいライセンス言及は narration から外し、detail でも基本触れない (機能・設計・ベンチの差分軸を濁さない)。ただし社内法務向けに sources の trending URL から参照可能なよう各 README は最新を保つ",
-      "method PDCA の限界を運用に織り込む (継続適用): 14 日窓 method 平均は全て 0〜5 views・n≤4 で有意差なし、06-01 計測前。28 日窓 comparison (avg 2.00/n=6) は trend-pattern (TOP=2.25/n=4) に次ぐ 2 位の母数最安定 method データ。本日の comparison 採用は『28 日窓 n=6 母数最安定 method + avg 2.00 で 2 位』+『直近最高 views 05-30=5 も同 method』+『素材適合度 5/5 で全リポが 1 対 1 で名指しの競合を持つ稀有な日』+『直近 2 日 method 衝突回避』+『柱② / 柱③ 既消化』で確定",
-      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜06-01 で継続成功 (14 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "同ラインナップ連投の累積疲労リスク注記: markitdown / MoneyPrinterTurbo が 6 日連続 TOP5・Scrapling / hermes-webui が 4 日連続。method 切替で語彙分散はできているが、視聴者疲労は累積中。本日 narration では各 repo の継続日数自体には触れず、純粋に 1 対 1 対比の差分軸に集中することで『今日も同じ顔ぶれ』の印象を弱める",
-      "次回以降の explore 候補: `benchmark-table` (新、supermemory の 3 ベンチ #1 や Scrapling の 5 倍速など定量ベンチが揃う日に独立形式化)、`vendor-stance` (Microsoft markitdown 6 日連続首位など大手公式 OSS の素材出現頻度上昇)、`incumbent-swap` (Primary 向け『今週入れて何を止めるか』の意思決定提示型)、`stack-map` (ecosystem 派生で固定形式化)、`dogfooding` (self-experiment 派生で本チャンネル運用組み込み結果)。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / business-angle / use-case / ecosystem / trend-pattern のローテーション主軸 + 月 1〜2 回の self-experiment スパイクで組む"
+      "本日の discovery.method は `self-experiment` (14 日窓 n=1 で avg 3.0 TOP1、05-28 から 6 日空きで連投ルール非該当、直近 2 日 [06-01 business-angle / 06-02 comparison] と method 衝突なし、本日 TOP5 のうち 4/5 が本チャンネル自身のスタック [Claude Routine / SNS bot / Trending 収集 / RAG 前処理 / 多エージェント運用] に直結する稀有な素材適合度)。柱③ 週次必須要件は前週 05-28 で消化済だが、06-01 (1 views) と 06-02 (0 views) の連続低迷を受けて Primary ペルソナへの『手を動かす人』信頼シグナル更新を強めに打つ判断",
+      "本日 06-03 TOP5 は新規 1 本 + 継続 4 本: #1 chopratejas/headroom=Python / 6,209★ / +1,266 [新規・LLM 入力を最大 92% 圧縮するドロップイン Proxy、Claude Code/Cursor/Codex/Aider 対応、可逆方式で headroom_retrieve による元データ復元可、BFCL 32% 圧縮で 97% 精度維持]、#2 microsoft/markitdown=Python / 141,013★ / +3,616 [継続首位・PDF/Word/Excel/PowerPoint/画像 (OCR)/音声 (transcription)/HTML/CSV/JSON/XML/ZIP/YouTube URL/EPub を Markdown に統一変換、Azure Document Intelligence 連携可]、#3 affaan-m/ECC=JavaScript / 203,807★ / +1,597 [継続・Claude Code/Cursor/OpenCode/Codex/Zed 用ハーネス、63 subagent + 249 skill + AgentShield (1282 tests / 102 rules) + 15+ event hook]、#4 D4Vinci/Scrapling=Python / 59,098★ / +1,196 [継続・適応セレクタが BeautifulSoup+lxml 比 784 倍速・MCP 連携で Claude/Cursor から直接データ取得可・pause/resume チェックポイント対応]、#5 nesquena/hermes-webui=Python / 12,499★ / +1,725 [継続・自己学習型エージェント Hermes の WebUI、cron による Telegram/Slack/Email 配信、SSH/Tailscale 経由でスマホ操作可]。本日の素材適合度 5/5: 全 5 本が本チャンネル運用 (Claude Routine + SNS 自動投稿 bot + Trending 収集) のいずれかのレイヤに直結",
+      "本日のマクロ核: 『2026 年 6 月の水曜 (Wed=188 avg・週次中位)、Primary ペルソナの CTO / 技術選定者が火曜の稟議結果を受けて「今週どこから手を動かすか」を決める実装着手日』として読む。5 本の自パイプライン対応: #1 headroom = Claude Routine のトークン費 9 割削減 / #2 markitdown = 毎朝のリポ調査の PDF/論文取り込み口 / #3 ECC = Claude Routine 全体のスキル + 安全ガード化 / #4 Scrapling = Trending 収集パイプラインの保守工数削減 / #5 hermes-webui = SNS 自動投稿 bot のスマホ操作 UI 化。冒頭フックは『本チャンネル運用者として、今日の TOP5 を実際に自分の bot に入れるかどうか』に置き、Primary ペルソナの『この人は手を動かす』信頼シグナルに直撃",
+      "Primary (CTO / 技術選定者) には『運用者本人の自腹評価』として直撃。Secondary (PdM / 事業責任者) には『AI 運用スタックの具体的な選定材料』として、Tertiary (学習中エンジニア) には『AI エージェント周辺ユーティリティの俯瞰』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に self-experiment は柱③ で『この人は手を動かす人』の最強シグナル",
+      "継続 4 本 (#2 markitdown / #3 ECC / #4 Scrapling / #5 hermes-webui) の角度切替: 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 06-02 comparison『〇〇との違いは』→ 本日 self-experiment『私の Routine に入れるか』へ 4 連続で語彙完全切替。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す: 本日 method=self-experiment は前回 05-28 から 6 日空きで連投ルール非該当",
+      "06-02 comparison 0 views (一人称欠落の抽象的 1 対 1 対比) の反省を踏まえ、本日は全 5 本で一人称『私の』『自分の』『本チャンネル運用』と自パイプラインの具体レイヤ (Claude Routine / SNS bot / Trending 収集 / RAG 前処理 / 多エージェント運用) を明示。05-28 self-experiment views=3 (14 日 TOP1) の成功形式を踏襲: 一人称 + 自パイプライン具体言及 + 採用判断トーン",
+      "5 本のライセンスは MIT (markitdown / ECC / hermes-webui) + Apache-2.0 系 (headroom / Scrapling 予測) で商用組み込み・受託案件・社内ツールいずれも問題なし。self-experiment 角度ではライセンス言及は detail からも外し、機能・実装適合度に集中する。法務確認用途には sources の各 README リンクを保持",
+      "method PDCA の限界注記: 14 日窓 method 平均は全て 0〜5 views・n≤4 で有意差なし。本日の self-experiment 採用は『14 日窓 n=1 ながら avg 3.0 で TOP1』+『直近 2 日 method 衝突回避 (06-01 business-angle / 06-02 comparison)』+『05-28 から 6 日空きで連投ルール非該当』+『素材適合度 5/5: 全リポが本チャンネル自身のスタックに直結する稀有な日』+『06-01〜06-02 連続低迷を受けた信頼シグナル更新が必要』の 5 根拠で確定。28 日窓 self-experiment は依然 n=1 で統計的弱さは継続中",
+      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-19〜06-02 で継続成功 (15 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "同ラインナップ連投の累積疲労リスク注記: markitdown は 7 日連続 TOP5・Scrapling と hermes-webui も 5 日連続。method 切替で語彙分散はできているが、視聴者疲労は累積中。本日 narration では各 repo の継続日数自体には触れず、純粋に『自分のレイヤに入るか』の実装着手判断に集中することで『今日も同じ顔ぶれ』の印象を弱める",
+      "次回以降の explore 候補: `cost-projection` (新、SaaS vs 自前ホストのキャッシュフロー比較で business-angle の派生)、`failure-mode` (新、本番投入で踏みやすい地雷の警告型で Primary 信頼形成に効く)、`benchmark-table` (定量ベンチが揃う日に独立形式化)、`incumbent-swap` (Primary 向け『今週入れて何を止めるか』の意思決定提示型)、`stack-map` (ecosystem 派生で固定形式化)。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / business-angle / use-case / ecosystem / trend-pattern のローテーション主軸 + self-experiment の月 2〜3 回スパイクで組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-02",
-    "dayOfWeek": "Tue",
+    "date": "2026-06-03",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "技術選定",
-      "OSS比較",
-      "どっちを選ぶ",
-      "乗り換え検討",
-      "置き換え候補",
-      "SaaS代替検討",
-      "LlamaParse比較",
-      "OpenWebUI比較",
-      "Mem0比較",
-      "Zep比較",
-      "Pictory比較",
-      "Scrapy比較",
-      "Pandoc代替",
-      "LLM前処理",
-      "AgentUI",
-      "AI記憶",
-      "AI動画生成",
+      "実装着手",
+      "自分で試す",
+      "個人開発ログ",
+      "運用知見",
+      "dogfooding",
+      "自社運用",
+      "Claude",
+      "ClaudeCode",
+      "ClaudeRoutine",
+      "SNS自動化",
+      "自動投稿bot",
+      "毎朝AI動画",
+      "AIショート運用",
+      "LLMトークン圧縮",
+      "ファイル変換",
+      "AIエージェント基盤",
       "ウェブスクレイピング",
+      "AgentUI",
       "Microsoft",
       "MicrosoftOSS",
       "Hermes",
-      "Supermemory",
       "Python",
-      "TypeScript",
+      "JavaScript",
       "CTO",
       "PdM",
       "個人開発",
       "受託開発",
       "スタートアップ",
-      "5本とも1対1比較",
-      "6月の技術選定",
-      "置き換え評価ネタ",
-      "OSS同日5本対比"
+      "本チャンネルに入れるか",
+      "自分のbotで試す",
+      "dogfooding5本",
+      "6月の実装着手",
+      "自腹評価ネタ"
     ],
-    "focus": "火曜 (Tue=563 avg 週次最強帯・新週 Day 2) に `comparison` 角度 (28 日窓 n=6 で母数最安定 TOP2・avg 2.00 で trend-pattern (TOP=2.25) に次ぐ位置、14 日窓 n=4 で avg 2.25 TOP3 同点、直近最高 views 05-30=5 も同 method) を投入。直近 2 日 (06-01 business-angle / 05-31 ecosystem) と method 衝突なし、前回 comparison は 05-30 で 3 日空きで連投ルール非該当、05-30 との同ラインナップ重複は markitdown と MoneyPrinterTurbo の 2 本のみで 3 本以上重複ペナルティ非該当。柱② (business-angle) は前日 06-01 で消化済、柱③ (self-experiment) は前週 05-28 で消化済、今週分の柱③ は素材揃い次第で投入予定。本日 TOP5 は 1 本入れ替わり: 継続 4 本 (#1 markitdown=Python / 138,178★ / +3,086 [+2,759→+3,086 で加速し 6 日連続首位]・#2 hermes-webui=Python / 11,179★ / +984 [+320→+984 で 3 倍超加速し #4→#2 ランクアップ]・#4 MoneyPrinterTurbo=Python / 76,759★ / +3,325 [+1,937→+3,325 で再加速し #2→#4 ランクダウン]・#5 Scrapling=Python / 57,945★ / +1,475 [+639→+1,475 で加速し #3→#5 ランクダウン]) + 新規 1 本 (#3 supermemoryai/supermemory=TypeScript / 23,922★ / +660・MIT AI 記憶エンジンで LongMemEval/LoCoMo/ConvoMem の 3 ベンチで #1 主張)。EveryInc/compound-engineering-plugin が前日 #5 から TOP5 圏外へ。素材適合度 5/5: 5 本全てが 1 対 1 で名指しの明確な競合 OSS/SaaS を持つ稀有な日 (markitdown=LlamaParse / Pandoc・hermes-webui=Open WebUI / LibreChat・supermemory=Mem0 / Zep・MoneyPrinterTurbo=Pictory / Synthesia / ShortGPT・Scrapling=Scrapy / AutoScraper / BeautifulSoup)。本日のマクロ核: 『2026 年 6 月の火曜、Primary ペルソナの CTO / 技術選定者が週始めの稟議を経て「今週評価する各 OSS は社内で既に使っている何のかわりになるか」を判断するタイミング』。冒頭フックは『5 本全てが 1 対 1 で名指しの競合を持つ稀有な日』に置き、Primary ペルソナの『今週の置き換え評価』に直撃させる。継続 4 本は 05-30 comparison『代わる』→ 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 本日 comparison『〇〇との違いは』へ 4 連続で語彙完全切替し連投ペナルティ回避。Microsoft 公式 markitdown が 6 日連続首位という構造的安定性は comparison 角度でも信頼性を補強 (公式 OSS の比較は法務通過の難度が下がる)。Meta-PDCA の有効性を継続実証。注記: 14 日窓 method 平均差は n≤4・06-01 計測前で統計的に有意でなく、本選定は 28 日窓 comparison n=6 母数最安定 method + 素材適合度 5/5 + 直近最高 views 05-30=5 同 method + 直近 2 日 method 衝突回避 + 柱② / 柱③ 既消化を根拠とする。最低 50 views (Tue 下位帯超え)、理想 800 views (Tue 上位帯) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "水曜 (Wed=188 avg・週次中位・実装着手日) に `self-experiment` 角度 (14 日窓 n=1 ながら avg 3.0 で TOP1、05-28 から 6 日空きで連投ルール非該当、直近 2 日 [06-01 business-angle / 06-02 comparison] と method 衝突なし) を投入。柱③ (self-experiment) 週次必須要件は前週 05-28 で消化済だが、06-01 (1 views) と 06-02 (0 views) の連続低迷を受けて Primary ペルソナへの『手を動かす人』信頼シグナル更新を強めに打つ判断。本日 06-03 TOP5 は新規 1 本 + 継続 4 本: 新規 #1 chopratejas/headroom=Python / 6,209★ / +1,266 [LLM 入力を最大 92% 圧縮するドロップイン Proxy、Claude Code/Cursor/Codex 対応]、継続 #2 microsoft/markitdown=Python / 141,013★ / +3,616 [PDF/Word/Excel/画像/音声を Markdown に統一変換]、継続 #3 affaan-m/ECC=JavaScript / 203,807★ / +1,597 [Claude Code 用ハーネスで 63 subagent + 249 skill + AgentShield]、継続 #4 D4Vinci/Scrapling=Python / 59,098★ / +1,196 [適応セレクタが BeautifulSoup 比 784 倍速・MCP 連携]、継続 #5 nesquena/hermes-webui=Python / 12,499★ / +1,725 [自己学習エージェント Hermes の WebUI、cron による Telegram/Slack 配信]。素材適合度 5/5: 全 5 本が本チャンネル運用 (Claude Routine + SNS 自動投稿 bot + Trending 収集) のいずれかのレイヤに直結する稀有な日。本日のマクロ核: 『2026 年 6 月の水曜、Primary ペルソナの CTO / 技術選定者が火曜の稟議結果を受けて「今週どこから手を動かすか」を決める実装着手日』。冒頭フックは『本チャンネル運用者として、今日の TOP5 を実際に自分の bot に入れるかどうか』に置き、Primary ペルソナの『この人は手を動かす』信頼シグナルに直撃させる。継続 4 本は 05-31 ecosystem『どの層か』→ 06-01 business-angle『月いくら削れるか』→ 06-02 comparison『〇〇との違いは』→ 本日 self-experiment『私の Routine に入れるか』へ 4 連続で語彙完全切替し連投ペナルティ回避。06-02 comparison 0 views (一人称欠落の抽象的対比) の反省を踏まえ、本日は全 5 本で一人称『私の』『自分の』『本チャンネル運用』と自パイプラインの具体レイヤを明示。最低 30 views (Wed 平均超え)、理想 250 views (Wed 上位帯) を目標。05-14〜17 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。"
   }
 }
