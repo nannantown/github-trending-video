@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本チャンネルのAIショート動画生成パイプライン運用者が、今日のTOP5を『自分のbotに入れるか』の視点で5本横断に料理する。Claude Routine・SNS自動投稿・データ収集の各レイヤで実装的に評価し、運用者の自腹トーンで語る。",
+    "method": "ecosystem",
+    "description": "本日のTOP5を『AIプロダクトを本番運用に乗せる5層スタック』として5本横断で料理する。Layer1=LLM効率(headroom: トークン圧縮Proxy)/Layer2=データ整備(markitdown: 全ファイル→Markdown)/Layer3=エージェント管理(ECC: Claude Code向け63 subagent+249 skill+AgentShield)/Layer4=記憶持続(hermes-agent: 自己学習・skill自動生成・記憶横断)/Layer5=セキュリティ(trivy: コンテナ/コード/IaC/K8s脆弱性スキャナ)。冒頭マクロ核は『2026年6月、AI開発が試作から本番運用に入りつつあり、TOP5に5層の主要ピースが同時並びする日』。trivyは唯一の純粋DevSecOpsツールだが、AIアプリの本番運用では依存スキャン/IaC構成検査が必須になりエコシステムの第5層として組み込み価値が高い。直近2日(06-03 self-experiment, 06-02 comparison)とmethod衝突なし。ecosystemは前回05-31から4日空きで連投ルール非該当。14日窓ecosystem avg 2.5 n=2(05-27=1, 05-31=4)で利用可能methodの中で最高、28日窓でも avg 1.8-2.5 n=5前後の安定母数を維持。柱②(business-angle)は06-01、柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Thu(176 avg)は柱①ローテーション主軸。継続3本(headroom #1→#1、ECC #3→#2、markitdown #2→#5)の角度切替: 06-03 self-experiment『私の◯◯ Routineに入れるか』→ 本日 ecosystem『どの層を担うか』へ語彙完全切替、headroom/ECCはself-experiment/comparisonに次ぐ3連続別method配置。新規2本(trivy・hermes-agent)も同じ5層マッピング軸で読み解く。05-31 ecosystem 4 views(14日TOP2)の成功形式=『5本を各層に固定マッピング』を踏襲。素材適合度4.5/5: trivyのみ純AI領域外だが、AI本番化フェーズにおける『依存セキュリティ層』として位置づければ自然に5層モデルに収まる。Primary(CTO/技術選定者)が週後半の実装着手フェーズで『自社のAI本番運用スタックでどの層をどのOSSで埋めるか』を判断する素材として直撃。最低15 views(Thu平均超え)、理想200 views(Thu上位帯への漸近)を目標。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/chopratejas/headroom",
-      "https://github.com/microsoft/markitdown",
       "https://github.com/affaan-m/ECC",
-      "https://github.com/D4Vinci/Scrapling",
-      "https://github.com/nesquena/hermes-webui"
+      "https://github.com/aquasecurity/trivy",
+      "https://github.com/NousResearch/hermes-agent",
+      "https://github.com/microsoft/markitdown"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "headroom",
       "url": "https://github.com/chopratejas/headroom",
       "language": "Python",
-      "stars": 6209,
-      "todayStars": 1266,
-      "description": "LLM入力を最大92%削るProxy",
-      "detail": "Claude CodeやCursorに渡すログ・RAGを最大92%圧縮するドロップインProxyです。可逆方式なので元データを復元でき、BFCLで精度劣化3%以内を保ちながらトークン費だけ大きく削れます。",
-      "narration": "ログやRAGを9割圧縮するProxyです。私のClaude Routineのトークン費が大幅に減らせそうで導入予定です。"
+      "stars": 9491,
+      "todayStars": 3528,
+      "description": "LLM入力を9割削る圧縮Proxy",
+      "detail": "Claude CodeやCursorに入る前のログ、RAG、ファイル、ツール出力を最大92%圧縮するドロップインProxyです。可逆方式で元データに戻せ、AI本番運用のトークン費を一段下げる効率化層になります。",
+      "narration": "LLM入力を9割圧縮するProxy層です。Claude Codeの前に置くだけで本番運用のトークン費が一段下がります。"
     },
     {
       "rank": 2,
-      "fullName": "microsoft/markitdown",
-      "name": "markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "language": "Python",
-      "stars": 141013,
-      "todayStars": 3616,
-      "description": "全ファイルをMarkdown化する変換器",
-      "detail": "PDF・Word・Excel・PowerPointから画像や音声、YouTube URLまで約10種類をLLMが食いやすいMarkdownに統一変換するMicrosoft製ツール。RAG前処理の入口を一本化できる定番です。",
-      "narration": "PDFや画像をMarkdown化する変換器です。毎朝のリポ調査でPDF論文も読み込めて自動化が一段進みそうです。"
-    },
-    {
-      "rank": 3,
       "fullName": "affaan-m/ECC",
       "name": "ECC",
       "url": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
-      "stars": 203807,
-      "todayStars": 1597,
-      "description": "Claude Codeを本番化する司令塔",
-      "detail": "63のサブエージェントと249のスキル、AgentShield連携の安全ガードを束ね、Claude CodeやCursorを本番運用に耐える形へ拡張するハーネス。CI/CDから多エージェント運用まで一式で揃えられます。",
-      "narration": "Claude Codeを本番運用に育てる一式です。私のRoutineにskillとガードを足せそうで導入を検討中です。"
+      "stars": 205622,
+      "todayStars": 2147,
+      "description": "Claude Codeを本番化する管理層",
+      "detail": "63のサブエージェント、249のスキル、AgentShieldの安全ガード、15以上のイベントフックを束ねる管理層です。Claude CodeやCursor、Codexを実運用に耐える形へ拡張できます。",
+      "narration": "63のskillと安全ガードを束ねる管理層です。Claude CodeやCursorを本番運用に耐える形へ拡張できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "aquasecurity/trivy",
+      "name": "trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "language": "Go",
+      "stars": 35373,
+      "todayStars": 26,
+      "description": "コンテナを検査するセキュリティ層",
+      "detail": "コンテナイメージ、コード、Kubernetes、クラウド、IaCを一括検査して脆弱性、設定不備、漏洩、SBOMを洗い出すAqua Security製スキャナです。AI本番運用の依存検査をCI/CDに組み込めるセキュリティ層になります。",
+      "narration": "コンテナと依存を一括検査するセキュリティ層です。AI本番運用に必須の脆弱性検査をCIで自動化できます。"
     },
     {
       "rank": 4,
-      "fullName": "D4Vinci/Scrapling",
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 59098,
-      "todayStars": 1196,
-      "description": "サイト崩れに強い適応スクレイパー",
-      "detail": "似た要素を再発見する適応アルゴリズムでサイト構造変更に自動追従するPython製スクレイピング基盤。MCP連携でClaudeから直接データ取得でき、毎朝の自動収集の保守工数を大きく下げられます。",
-      "narration": "サイト構造が変わっても自動追従するスクレイパーです。私のTrending収集パイプラインの保守工数が大幅に減りそうです。"
+      "stars": 179003,
+      "todayStars": 1736,
+      "description": "記憶を育てる自己学習エージェント",
+      "detail": "会話を超えて記憶を保ち、自分でスキルを書き足し、Telegram、Discord、Slack、メールから操作できる自己学習エージェントです。OpenRouter経由で200以上のモデルに対応し、本番運用の記憶層になります。",
+      "narration": "自分で記憶とskillを育てるエージェント層です。Telegramからも操作でき、本番運用の記憶持続を担えます。"
     },
     {
       "rank": 5,
-      "fullName": "nesquena/hermes-webui",
-      "name": "hermes-webui",
-      "url": "https://github.com/nesquena/hermes-webui",
+      "fullName": "microsoft/markitdown",
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
       "language": "Python",
-      "stars": 12499,
-      "todayStars": 1725,
-      "description": "自己学習エージェントのWeb UI",
-      "detail": "セッション間で記憶を保ち、自分でスキルを書き足し、cronで結果をTelegramやSlackに届ける自己学習エージェントHermesのWebUI。SSH越しにスマホからも操作でき、自宅サーバ運用と相性抜群。",
-      "narration": "記憶を持つ自己学習エージェントのWeb版です。私のSNS自動投稿botもこれに置き換えてスマホから操作したくなりました。"
+      "stars": 142782,
+      "todayStars": 2006,
+      "description": "全ファイルをMarkdown化する変換層",
+      "detail": "PDF、Word、Excel、PowerPoint、画像、音声、HTML、YouTube URLなど10種以上をLLMが食べやすいMarkdownに統一変換するMicrosoft公式ツール。本番RAGの入口を一本化する前処理層です。",
+      "narration": "PDFや画像をMarkdownへ揃える前処理層です。本番RAGの入口を一本化でき、データ整備が安定します。"
     }
   ]
 }
