@@ -2015,7 +2015,7 @@
         "views": 2,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2300,7 +2300,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2355,7 +2355,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2407,10 +2407,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 5,
+        "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.586Z"
+        "updatedAt": "2026-06-03T00:21:07.793Z"
       }
     },
     {
@@ -2580,6 +2580,57 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 4,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-03T00:21:07.793Z"
+      }
+    },
+    {
+      "videoId": "6wLFOG8JeXo",
+      "videoUrl": "https://youtube.com/shorts/6wLFOG8JeXo",
+      "date": "2026-06-03",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/03 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "chopratejas/headroom",
+        "microsoft/markitdown",
+        "affaan-m/ECC",
+        "D4Vinci/Scrapling",
+        "nesquena/hermes-webui"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本チャンネルのAIショート動画生成パイプライン運用者が、今日のTOP5を『自分のbotに入れるか』の視点で5本横断に料理する。Claude Routine・SNS自動投稿・データ収集の各レイヤで実装的に評価し、運用者の自腹トーンで語る。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/chopratejas/headroom",
+          "https://github.com/microsoft/markitdown",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/D4Vinci/Scrapling",
+          "https://github.com/nesquena/hermes-webui"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2588,16 +2639,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-27",
-      "changes": [
-        "Rust: 0.4x avg views → drop",
-        "standard: 374 avg views (21 videos)",
-        "Trending languages: C++ (1.4x)",
-        "Day performance: Tue=917, Fri=821, Thu=461, Wed=353, Sat=201, Mon=119, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-28",
       "changes": [
@@ -2967,6 +3008,20 @@
         "standard: 166 avg views (50 videos)",
         "Trending languages: Kotlin (2.4x), C++ (3.2x), Jupyter Notebook (2.3x)",
         "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=79, Mon=61, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-03",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.7x avg views → drop",
+        "standard: 163 avg views (51 videos)",
+        "Trending languages: Kotlin (2.5x), C++ (3.3x), Jupyter Notebook (2.4x)",
+        "Day performance: Tue=361, Fri=310, Wed=178, Thu=176, Sat=79, Mon=61, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
