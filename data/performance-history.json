@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2300,7 +2300,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2352,10 +2352,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2410,7 +2410,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2583,7 +2583,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
+        "updatedAt": "2026-06-04T00:23:42.806Z"
       }
     },
     {
@@ -2631,6 +2631,58 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-04T00:23:42.806Z"
+      }
+    },
+    {
+      "videoId": "Hk5bDuibBBw",
+      "videoUrl": "https://youtube.com/shorts/Hk5bDuibBBw",
+      "date": "2026-06-04",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/04 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "Go"
+      ],
+      "projects": [
+        "chopratejas/headroom",
+        "affaan-m/ECC",
+        "aquasecurity/trivy",
+        "NousResearch/hermes-agent",
+        "microsoft/markitdown"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日のTOP5を『AIプロダクトを本番運用に乗せる5層スタック』として5本横断で料理する。Layer1=LLM効率(headroom: トークン圧縮Proxy)/Layer2=データ整備(markitdown: 全ファイル→Markdown)/Layer3=エージェント管理(ECC: Claude Code向け63 subagent+249 skill+AgentShield)/Layer4=記憶持続(hermes-agent: 自己学習・skill自動生成・記憶横断)/Layer5=セキュリティ(trivy: コンテナ/コード/IaC/K8s脆弱性スキャナ)。冒頭マクロ核は『2026年6月、AI開発が試作から本番運用に入りつつあり、TOP5に5層の主要ピースが同時並びする日』。trivyは唯一の純粋DevSecOpsツールだが、AIアプリの本番運用では依存スキャン/IaC構成検査が必須になりエコシステムの第5層として組み込み価値が高い。直近2日(06-03 self-experiment, 06-02 comparison)とmethod衝突なし。ecosystemは前回05-31から4日空きで連投ルール非該当。14日窓ecosystem avg 2.5 n=2(05-27=1, 05-31=4)で利用可能methodの中で最高、28日窓でも avg 1.8-2.5 n=5前後の安定母数を維持。柱②(business-angle)は06-01、柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Thu(176 avg)は柱①ローテーション主軸。継続3本(headroom #1→#1、ECC #3→#2、markitdown #2→#5)の角度切替: 06-03 self-experiment『私の◯◯ Routineに入れるか』→ 本日 ecosystem『どの層を担うか』へ語彙完全切替、headroom/ECCはself-experiment/comparisonに次ぐ3連続別method配置。新規2本(trivy・hermes-agent)も同じ5層マッピング軸で読み解く。05-31 ecosystem 4 views(14日TOP2)の成功形式=『5本を各層に固定マッピング』を踏襲。素材適合度4.5/5: trivyのみ純AI領域外だが、AI本番化フェーズにおける『依存セキュリティ層』として位置づければ自然に5層モデルに収まる。Primary(CTO/技術選定者)が週後半の実装着手フェーズで『自社のAI本番運用スタックでどの層をどのOSSで埋めるか』を判断する素材として直撃。最低15 views(Thu平均超え)、理想200 views(Thu上位帯への漸近)を目標。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/chopratejas/headroom",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/aquasecurity/trivy",
+          "https://github.com/NousResearch/hermes-agent",
+          "https://github.com/microsoft/markitdown"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2639,17 +2691,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-28",
-      "changes": [
-        "Rust: 0.4x avg views → drop",
-        "Shell: 0.3x avg views → drop",
-        "standard: 371 avg views (22 videos)",
-        "Trending languages: C++ (1.4x)",
-        "Day performance: Fri=821, Tue=717, Thu=461, Wed=353, Sat=201, Mon=120, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-29",
       "changes": [
@@ -3022,6 +3063,20 @@
         "standard: 163 avg views (51 videos)",
         "Trending languages: Kotlin (2.5x), C++ (3.3x), Jupyter Notebook (2.4x)",
         "Day performance: Tue=361, Fri=310, Wed=178, Thu=176, Sat=79, Mon=61, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-04",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.7x avg views → drop",
+        "standard: 159 avg views (52 videos)",
+        "Trending languages: Kotlin (2.5x), C++ (3.3x), Jupyter Notebook (2.4x)",
+        "Day performance: Tue=361, Fri=310, Thu=176, Wed=153, Sat=79, Mon=61, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
