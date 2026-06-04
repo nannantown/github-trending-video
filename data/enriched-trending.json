@@ -1,15 +1,20 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『AIプロダクトを本番運用に乗せる5層スタック』として5本横断で料理する。Layer1=LLM効率(headroom: トークン圧縮Proxy)/Layer2=データ整備(markitdown: 全ファイル→Markdown)/Layer3=エージェント管理(ECC: Claude Code向け63 subagent+249 skill+AgentShield)/Layer4=記憶持続(hermes-agent: 自己学習・skill自動生成・記憶横断)/Layer5=セキュリティ(trivy: コンテナ/コード/IaC/K8s脆弱性スキャナ)。冒頭マクロ核は『2026年6月、AI開発が試作から本番運用に入りつつあり、TOP5に5層の主要ピースが同時並びする日』。trivyは唯一の純粋DevSecOpsツールだが、AIアプリの本番運用では依存スキャン/IaC構成検査が必須になりエコシステムの第5層として組み込み価値が高い。直近2日(06-03 self-experiment, 06-02 comparison)とmethod衝突なし。ecosystemは前回05-31から4日空きで連投ルール非該当。14日窓ecosystem avg 2.5 n=2(05-27=1, 05-31=4)で利用可能methodの中で最高、28日窓でも avg 1.8-2.5 n=5前後の安定母数を維持。柱②(business-angle)は06-01、柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Thu(176 avg)は柱①ローテーション主軸。継続3本(headroom #1→#1、ECC #3→#2、markitdown #2→#5)の角度切替: 06-03 self-experiment『私の◯◯ Routineに入れるか』→ 本日 ecosystem『どの層を担うか』へ語彙完全切替、headroom/ECCはself-experiment/comparisonに次ぐ3連続別method配置。新規2本(trivy・hermes-agent)も同じ5層マッピング軸で読み解く。05-31 ecosystem 4 views(14日TOP2)の成功形式=『5本を各層に固定マッピング』を踏襲。素材適合度4.5/5: trivyのみ純AI領域外だが、AI本番化フェーズにおける『依存セキュリティ層』として位置づければ自然に5層モデルに収まる。Primary(CTO/技術選定者)が週後半の実装着手フェーズで『自社のAI本番運用スタックでどの層をどのOSSで埋めるか』を判断する素材として直撃。最低15 views(Thu平均超え)、理想200 views(Thu上位帯への漸近)を目標。",
+    "method": "comparison",
+    "description": "本日のTOP5を『何の有償SaaSや先行OSSの代替か』のcomparison視点で5本横断料理する。5本のincumbent対応: #1 chopratejas/headroom vs MicrosoftのLLMLingua/lean-ctx/Compresr/OpenAIの公式conversation compaction(可逆方式CCRと AST/JSON/text の content-aware routing が独自、BFCL 32%圧縮で97%精度を維持) / #2 NousResearch/hermes-agent vs LangGraph/AutoGPT/Letta/mem0(skillを自動生成する self-improving loop + FTS5記憶横断 + 200以上のモデルを `hermes model` で切替可能 + Telegram/Discord/Slack/WhatsApp/Signal/Emailの6メッセンジャー連携を本体内蔵) / #3 affaan-m/ECC vs revfactory/harness/BMAD-METHOD/素のhook運用(63 subagent + 249 skill + AgentShield 1282テスト 102ルール + 15以上のevent hookを束ねるClaude Code/Cursor/OpenCode/Codex/Zed向けharness) / #4 PaddlePaddle/PaddleOCR vs Tesseract/EasyOCR/Marker/Mistral OCR(PP-OCRv5+PaddleOCR-VL-1.6でOmniDocBench v1.6で96.3%、100以上の言語対応・印鑑認識・古文書認識まで対応するBaidu公式VLM OCR) / #5 github/spec-kit vs .cursorrules/AGENTS.md/Aider conventions/Cursor rules(GitHub公式の Spec-Driven Development キット、/speckit.constitution〜/speckit.implementの7段階で実行可能な仕様を生成、GitHub Copilot/Claude Code/Cursor/Gemini CLI/Codex CLI/Qwen CLI など30以上のagentに対応)。冒頭マクロ核は『2026年6月の金曜(Fri=310 avg・週次2位の上位帯)、Primaryペルソナの CTO/技術選定者が週末前に「来週何を捨てて何を入れるか」の最終判断をするタイミング』。本日TOP5は継続3本(#1 headroom 3日連続+3139・#3 ECC 4日連続+1736・#2 hermes-agent 2日連続+1951で順位上昇)+ 新規2本(#4 PaddleOCR 新登場+105・#5 spec-kit 新登場+311)。新規2本はいずれも大手公式OSS(Baidu公式 + GitHub公式)、05-31のMicrosoft+Anthropic+Cursorに続き6月Trendingの『大手公式OSSの比重継続上昇』マクロを補強。method=comparisonは14日窓 avg 5.00 n=3(05-23=4 / 05-30=7 / 06-02=4)で計測済methodの中で唯一突き抜けたTOP1安定method、28日窓も avg 2.83 n=6 で母数最安定TOP2。直近2日(06-04 ecosystem / 06-03 self-experiment)とmethod衝突なし、前回comparison 06-02から3日空きで連投ルール非該当。同ラインナップ重複は06-02との間でhermes-agent ↔ hermes-webuiは別repo(NousResearch vs nesquena)、3本以上の連続重複ペナルティ非該当。継続3本の角度切替: 06-01 business-angle『月いくら削れるか』 → 06-02 comparison『〇〇との違いは』(継続repoはmarkitdown中心、本日継続3本は別)→ 06-03 self-experiment『私の Routine に入れるか』 → 06-04 ecosystem『どの層を担うか』 → 本日 comparison『何の代替か』で5連続語彙完全切替、視聴者疲労を回避。柱②(business-angle)は06-01・柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Fri は柱①ローテーション主軸日として最適配置。素材適合度5/5: 全リポが明確な1対1のincumbent OSS/SaaSを持つ運用開始以来でも極めて高い適合度(headroom→LLMLingua、hermes-agent→LangGraph、ECC→revfactory/harness、PaddleOCR→Tesseract/Marker、spec-kit→.cursorrules)。05-19 comparison 0 views(Rust/Swift 系で AI 競合不明瞭) の反省として、本日は5本すべてで具体的な1対1の競合対象を明示。05-30 comparison 7 views(14日 TOP1) の成功形式『5本すべてで具体的な対比対象を明示』を踏襲。Primary(CTO/技術選定者)が週末前に『来週何を捨てて何を入れるか』を意思決定する素材として直撃、Secondary(PdM/事業責任者)には『月額SaaS棚卸しの起点』、Tertiary(学習中エンジニア)には『OSS代替を知る入口』として届く3層構成。05-14〜17 main到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Fri=310 avg 上位帯、最低40 views(Fri 平均超え)、理想500 views(Fri 上位帯への漸近)を目標。注記: 14日窓method平均差は n≤3 で統計的に有意でないが、本選定は『14日窓 comparison TOP1 (5.00)』+『素材適合度5/5(全5本に1対1の競合)』+『直近最高 views 05-30=7 も同 method』+『柱②/③ 既消化』+『直近2日method衝突回避 + 連投ルール非該当』の5根拠で確定。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/chopratejas/headroom",
-      "https://github.com/affaan-m/ECC",
-      "https://github.com/aquasecurity/trivy",
       "https://github.com/NousResearch/hermes-agent",
-      "https://github.com/microsoft/markitdown"
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/PaddlePaddle/PaddleOCR",
+      "https://github.com/github/spec-kit",
+      "https://github.com/microsoft/LLMLingua",
+      "https://github.com/langchain-ai/langgraph",
+      "https://github.com/tesseract-ocr/tesseract",
+      "https://github.com/JaidedAI/EasyOCR",
+      "https://github.com/VikParuchuri/marker"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +26,59 @@
       "name": "headroom",
       "url": "https://github.com/chopratejas/headroom",
       "language": "Python",
-      "stars": 9491,
-      "todayStars": 3528,
-      "description": "LLM入力を9割削る圧縮Proxy",
-      "detail": "Claude CodeやCursorに入る前のログ、RAG、ファイル、ツール出力を最大92%圧縮するドロップインProxyです。可逆方式で元データに戻せ、AI本番運用のトークン費を一段下げる効率化層になります。",
-      "narration": "LLM入力を9割圧縮するProxy層です。Claude Codeの前に置くだけで本番運用のトークン費が一段下がります。"
+      "stars": 12334,
+      "todayStars": 3139,
+      "description": "LLM入力を圧縮する可逆Proxy",
+      "detail": "Claude Code、Cursor、Aider、Copilotの前段に置くとログ、RAG、ツール出力を最大92%圧縮するProxyです。可逆方式で元データに戻せ、BFCL 32%圧縮で97%精度を維持できます。",
+      "narration": "LLM入力を9割削る圧縮Proxyです。LLMLinguaと違い元データに戻せる可逆方式が独自です。"
     },
     {
       "rank": 2,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 205622,
-      "todayStars": 2147,
-      "description": "Claude Codeを本番化する管理層",
-      "detail": "63のサブエージェント、249のスキル、AgentShieldの安全ガード、15以上のイベントフックを束ねる管理層です。Claude CodeやCursor、Codexを実運用に耐える形へ拡張できます。",
-      "narration": "63のskillと安全ガードを束ねる管理層です。Claude CodeやCursorを本番運用に耐える形へ拡張できます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "aquasecurity/trivy",
-      "name": "trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "language": "Go",
-      "stars": 35373,
-      "todayStars": 26,
-      "description": "コンテナを検査するセキュリティ層",
-      "detail": "コンテナイメージ、コード、Kubernetes、クラウド、IaCを一括検査して脆弱性、設定不備、漏洩、SBOMを洗い出すAqua Security製スキャナです。AI本番運用の依存検査をCI/CDに組み込めるセキュリティ層になります。",
-      "narration": "コンテナと依存を一括検査するセキュリティ層です。AI本番運用に必須の脆弱性検査をCIで自動化できます。"
-    },
-    {
-      "rank": 4,
       "fullName": "NousResearch/hermes-agent",
       "name": "hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 179003,
+      "stars": 180891,
+      "todayStars": 1951,
+      "description": "自分で育つ自己学習エージェント",
+      "detail": "会話を超えて記憶を保ち、自分でskillを書き足していくNous Research製の自己学習エージェントです。200以上のモデルとTelegram、Discord、Slack、メールから操作できます。",
+      "narration": "自分でskillを書き足す自己学習エージェントです。LangGraphと違い記憶持続を本体内蔵で実現します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 207150,
       "todayStars": 1736,
-      "description": "記憶を育てる自己学習エージェント",
-      "detail": "会話を超えて記憶を保ち、自分でスキルを書き足し、Telegram、Discord、Slack、メールから操作できる自己学習エージェントです。OpenRouter経由で200以上のモデルに対応し、本番運用の記憶層になります。",
-      "narration": "自分で記憶とskillを育てるエージェント層です。Telegramからも操作でき、本番運用の記憶持続を担えます。"
+      "description": "Claude Code向けのharness",
+      "detail": "63のsubagent、249のskill、AgentShieldの安全ガードを束ねるClaude Code、Cursor、Codex向けのharnessです。素のhookでは届かない本番運用の品質を1枚で揃えます。",
+      "narration": "Claude Code向け本番運用harnessです。素のhookと違い63のskillと安全ガードを内蔵します。"
+    },
+    {
+      "rank": 4,
+      "fullName": "PaddlePaddle/PaddleOCR",
+      "name": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "language": "Python",
+      "stars": 79820,
+      "todayStars": 105,
+      "description": "PDFを構造化するVLM OCR",
+      "detail": "PDFや画像を100以上の言語でMarkdownや構造化JSONに変換するBaidu公式のOCRツールキット。最新のPaddleOCR-VL 1.6はVLM方式でOmniDocBenchで96.3%の精度を出します。",
+      "narration": "PDFや画像を構造化するOCRです。TesseractやEasyOCRと違いVLMで96%の精度を出します。"
     },
     {
       "rank": 5,
-      "fullName": "microsoft/markitdown",
-      "name": "markitdown",
-      "url": "https://github.com/microsoft/markitdown",
+      "fullName": "github/spec-kit",
+      "name": "spec-kit",
+      "url": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 142782,
-      "todayStars": 2006,
-      "description": "全ファイルをMarkdown化する変換層",
-      "detail": "PDF、Word、Excel、PowerPoint、画像、音声、HTML、YouTube URLなど10種以上をLLMが食べやすいMarkdownに統一変換するMicrosoft公式ツール。本番RAGの入口を一本化する前処理層です。",
-      "narration": "PDFや画像をMarkdownへ揃える前処理層です。本番RAGの入口を一本化でき、データ整備が安定します。"
+      "stars": 108538,
+      "todayStars": 311,
+      "description": "GitHub公式の仕様駆動開発キット",
+      "detail": "自然言語の要件を/specify、/plan、/tasksの7段階で実行可能な仕様に変えるGitHub公式キット。Claude CodeやCursor、Copilotなど30以上のAI agentが実装まで自動生成します。",
+      "narration": "GitHub公式の仕様駆動開発キットです。.cursorrulesと違い実行可能な仕様で実装まで自動生成します。"
     }
   ]
 }
