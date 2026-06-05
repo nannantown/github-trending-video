@@ -2075,7 +2075,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2300,7 +2300,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2355,7 +2355,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2410,7 +2410,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2580,10 +2580,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 4,
+        "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2634,7 +2634,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-04T00:23:42.806Z"
+        "updatedAt": "2026-06-04T23:57:49.650Z"
       }
     },
     {
@@ -2683,6 +2683,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-04T23:57:49.650Z"
+      }
+    },
+    {
+      "videoId": "laZ11riIc98",
+      "videoUrl": "https://youtube.com/shorts/laZ11riIc98",
+      "date": "2026-06-05",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/05 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "chopratejas/headroom",
+        "NousResearch/hermes-agent",
+        "affaan-m/ECC",
+        "PaddlePaddle/PaddleOCR",
+        "github/spec-kit"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『何の有償SaaSや先行OSSの代替か』のcomparison視点で5本横断料理する。5本のincumbent対応: #1 chopratejas/headroom vs MicrosoftのLLMLingua/lean-ctx/Compresr/OpenAIの公式conversation compaction(可逆方式CCRと AST/JSON/text の content-aware routing が独自、BFCL 32%圧縮で97%精度を維持) / #2 NousResearch/hermes-agent vs LangGraph/AutoGPT/Letta/mem0(skillを自動生成する self-improving loop + FTS5記憶横断 + 200以上のモデルを `hermes model` で切替可能 + Telegram/Discord/Slack/WhatsApp/Signal/Emailの6メッセンジャー連携を本体内蔵) / #3 affaan-m/ECC vs revfactory/harness/BMAD-METHOD/素のhook運用(63 subagent + 249 skill + AgentShield 1282テスト 102ルール + 15以上のevent hookを束ねるClaude Code/Cursor/OpenCode/Codex/Zed向けharness) / #4 PaddlePaddle/PaddleOCR vs Tesseract/EasyOCR/Marker/Mistral OCR(PP-OCRv5+PaddleOCR-VL-1.6でOmniDocBench v1.6で96.3%、100以上の言語対応・印鑑認識・古文書認識まで対応するBaidu公式VLM OCR) / #5 github/spec-kit vs .cursorrules/AGENTS.md/Aider conventions/Cursor rules(GitHub公式の Spec-Driven Development キット、/speckit.constitution〜/speckit.implementの7段階で実行可能な仕様を生成、GitHub Copilot/Claude Code/Cursor/Gemini CLI/Codex CLI/Qwen CLI など30以上のagentに対応)。冒頭マクロ核は『2026年6月の金曜(Fri=310 avg・週次2位の上位帯)、Primaryペルソナの CTO/技術選定者が週末前に「来週何を捨てて何を入れるか」の最終判断をするタイミング』。本日TOP5は継続3本(#1 headroom 3日連続+3139・#3 ECC 4日連続+1736・#2 hermes-agent 2日連続+1951で順位上昇)+ 新規2本(#4 PaddleOCR 新登場+105・#5 spec-kit 新登場+311)。新規2本はいずれも大手公式OSS(Baidu公式 + GitHub公式)、05-31のMicrosoft+Anthropic+Cursorに続き6月Trendingの『大手公式OSSの比重継続上昇』マクロを補強。method=comparisonは14日窓 avg 5.00 n=3(05-23=4 / 05-30=7 / 06-02=4)で計測済methodの中で唯一突き抜けたTOP1安定method、28日窓も avg 2.83 n=6 で母数最安定TOP2。直近2日(06-04 ecosystem / 06-03 self-experiment)とmethod衝突なし、前回comparison 06-02から3日空きで連投ルール非該当。同ラインナップ重複は06-02との間でhermes-agent ↔ hermes-webuiは別repo(NousResearch vs nesquena)、3本以上の連続重複ペナルティ非該当。継続3本の角度切替: 06-01 business-angle『月いくら削れるか』 → 06-02 comparison『〇〇との違いは』(継続repoはmarkitdown中心、本日継続3本は別)→ 06-03 self-experiment『私の Routine に入れるか』 → 06-04 ecosystem『どの層を担うか』 → 本日 comparison『何の代替か』で5連続語彙完全切替、視聴者疲労を回避。柱②(business-angle)は06-01・柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Fri は柱①ローテーション主軸日として最適配置。素材適合度5/5: 全リポが明確な1対1のincumbent OSS/SaaSを持つ運用開始以来でも極めて高い適合度(headroom→LLMLingua、hermes-agent→LangGraph、ECC→revfactory/harness、PaddleOCR→Tesseract/Marker、spec-kit→.cursorrules)。05-19 comparison 0 views(Rust/Swift 系で AI 競合不明瞭) の反省として、本日は5本すべてで具体的な1対1の競合対象を明示。05-30 comparison 7 views(14日 TOP1) の成功形式『5本すべてで具体的な対比対象を明示』を踏襲。Primary(CTO/技術選定者)が週末前に『来週何を捨てて何を入れるか』を意思決定する素材として直撃、Secondary(PdM/事業責任者)には『月額SaaS棚卸しの起点』、Tertiary(学習中エンジニア)には『OSS代替を知る入口』として届く3層構成。05-14〜17 main到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Fri=310 avg 上位帯、最低40 views(Fri 平均超え)、理想500 views(Fri 上位帯への漸近)を目標。注記: 14日窓method平均差は n≤3 で統計的に有意でないが、本選定は『14日窓 comparison TOP1 (5.00)』+『素材適合度5/5(全5本に1対1の競合)』+『直近最高 views 05-30=7 も同 method』+『柱②/③ 既消化』+『直近2日method衝突回避 + 連投ルール非該当』の5根拠で確定。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/chopratejas/headroom",
+          "https://github.com/NousResearch/hermes-agent",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/PaddlePaddle/PaddleOCR",
+          "https://github.com/github/spec-kit",
+          "https://github.com/microsoft/LLMLingua",
+          "https://github.com/langchain-ai/langgraph",
+          "https://github.com/tesseract-ocr/tesseract",
+          "https://github.com/JaidedAI/EasyOCR",
+          "https://github.com/VikParuchuri/marker"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -2691,17 +2748,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-04-29",
-      "changes": [
-        "Rust: 0.5x avg views → drop",
-        "Shell: 0.3x avg views → drop",
-        "standard: 356 avg views (23 videos)",
-        "Trending languages: C++ (1.5x)",
-        "Day performance: Fri=822, Tue=718, Thu=462, Wed=266, Sat=202, Mon=120, Sun=9"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-04-30",
       "changes": [
@@ -3077,6 +3123,21 @@
         "standard: 159 avg views (52 videos)",
         "Trending languages: Kotlin (2.5x), C++ (3.3x), Jupyter Notebook (2.4x)",
         "Day performance: Tue=361, Fri=310, Thu=176, Wed=153, Sat=79, Mon=61, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-04",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.7x avg views → drop",
+        "standard: 157 avg views (53 videos)",
+        "Trending languages: Kotlin (2.5x), C++ (3.4x), Jupyter Notebook (2.5x)",
+        "Day performance: Tue=361, Fri=310, Thu=157, Wed=153, Sat=79, Mon=61, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
