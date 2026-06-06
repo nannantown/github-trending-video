@@ -1,21 +1,17 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日 06-06 Sat (Sat=79 avg・週次3位の中位帯) の TOP5 を『AI 開発スタックの 5 層すべてに OSS デファクト候補が同日 Trending 入りする初の構図』trend-pattern 視点で 5 本横断料理する。5 リポの層配置: #1 NousResearch/hermes-agent=Agent backbone (脳)・自己学習エージェント本体・skill 自動生成・FTS5 記憶横断・Honcho dialectic user modeling・200+ モデル切替・Telegram/Discord/Slack/WhatsApp/Signal/Email 6 メッセンジャー対応 / #2 chopratejas/headroom=Cost/infra optimization (コスト)・LLM 入力 60-95% 圧縮 Proxy・SmartCrusher (JSON) + CodeCompressor (AST) + Kompress-base (HuggingFace 専用モデル) + CacheAligner (KV cache 安定化) の 4 方式・BFCL 32% 圧縮で 97% 精度 / #3 CopilotKit/CopilotKit=Frontend/UI (見た目)・React/Angular/Vue/React Native の AI 生成 UI SDK・AG-UI Protocol 作者・Google/Microsoft/AWS/Oracle 採用・$27M Series A 調達済 / #4 lfnovo/open-notebook=Knowledge mgmt (知識)・NotebookLM の OSS 実装・OpenAI/Anthropic/Ollama/Groq/xAI など 18+ LLM 対応・1-4 話者ポッドキャスト生成・PDF/動画/Office 文書対応 / #5 affaan-m/ECC=Dev tooling harness (開発環境)・Claude Code/Cursor/Codex/Zed 用 harness・63 subagent + 251 skill + AgentShield 102 ルール + 8+ event hook・v2.0 でデスクトップ GUI 追加。冒頭マクロ核は『2026 年 6 月の Saturday (Sat=79 avg・週次 3 位の中位帯)、Primary ペルソナの CTO/技術選定者が週末に「来月の技術選定マップを整理する」タイミング』、トレンドは『AI 開発スタックの 5 層すべてに OSS デファクト候補が同日 Trending 入りする運用開始以来初の構図』。AG-UI Protocol を Google/Microsoft/AWS/Oracle が採用 (2026-03〜05 MarkTechPost / Mervin Praison 解説 / CopilotKit 公式 blog) + CopilotKit $27M Series A 調達 + Anthropic/OpenAI/Cursor の harness 公式化 + NotebookLM の OSS clone 加速の 4 つのマクロ伏線が同日収束。method=trend-pattern は 14d 内 n=1 だが 28d 3 件で avg 1.67、ただし過去 trend-pattern 成功条件 (5 リポを 1 つの macro で束ねられるか) を本日は 5/5 で満たす稀有な日。直近 5 日 (06-05 comparison / 06-04 ecosystem / 06-03 self-experiment / 06-02 comparison / 06-01 business-angle) と method 衝突なし、前回 trend-pattern 05-29 から 8 日空きで連投ルール完全非該当。柱②(business-angle) は 06-01・柱③(self-experiment) は 06-03 で本週 (06-01〜06-07) 消化済のため本日 Sat は柱① ローテーション主軸日として最適配置。素材適合度 5/5: 5 リポすべてが AI 開発スタックの異なる層を担当する稀有な構図、過去 trend-pattern 成功例 05-22 (skills エコシステム macro 明確で 3 views) を上回る macro 明確度。同ラインナップ重複は 06-05 と比較すると hermes-agent / headroom / ECC が継続 3 本、CopilotKit / open-notebook が新規 2 本、3 本以上重複は method 完全切替 (comparison → trend-pattern) でペナルティ回避。継続 3 本の角度切替: 06-03 self-experiment『Routine に入れるか』→ 06-04 ecosystem『どの層を担うか』→ 06-05 comparison『何の代替か』→ 本日 trend-pattern『なぜ今 5 層すべてが揃ったか』へ 4 連続で語彙完全切替、視聴者疲労を回避。ECC は本日で 5 日連続 TOP5 入りのため narration では『v2.0 デスクトップ GUI 追加』の新情報を 1 本入れて視聴者疲労を緩和。05-22 trend-pattern 3 views (14d TOP) の成功形式『5 本すべてに 1 つの macro 軸との位置関係を提示』を踏襲、05-17 trend-pattern 0 views (macro 不在で各 repo が単発並列) の反省として本日は『AI 開発スタック層別 OSS 化』macro 軸を全 5 本で完全共有。Primary (CTO/技術選定者) には『来月の技術選定マップ』、Secondary (PdM/事業責任者) には『AI 投資の対象が見えてきた』、Tertiary (学習中エンジニア) には『AI スタック全体地図の入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に trend-pattern は『この人は AI 業界の地図を持っている』シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Sat=79 avg 中位帯、最低 10 views (Sat 平均超え)、理想 80 views (Sat 上位帯への漸近) を目標。注記: 14d window で trend-pattern n=1 で統計有意性は弱いが、本選定は『直近 2 日 (comparison / ecosystem) 連投回避』+『前回 trend-pattern から 8 日空き連投ルール完全非該当』+『素材適合度 5/5 で 5 リポ macro 完全束ね』+『05-22 trend-pattern 3 views 成功条件再現』+『柱②/③ 既消化で柱① 主軸最適』の 5 根拠で確定。",
+    "method": "use-case",
+    "description": "本日 06-07 Sun (Sun=5 avg・週末低トラフィック帯) の TOP5 を『個人/ソロ向け AI スタック 5 ピースが同日 Trending 入り』use-case 視点で 5 本横断料理する。5/5 が個人または小規模チームでの実務 AI 組み込みに直接マッピング可能な稀有な日: #1 mvanhorn/last30days-skill=コンサル/受託エンジニアの商談前リサーチ skill (Reddit/X/YouTube/HN/Polymarket 10+ SNS 横断検索・engagement score で重複統合・Claude skill marketplace 経由インストール)・#2 CopilotKit/CopilotKit=SaaS プロダクトに AI チャットを最短で組み込む React SDK (AG-UI Protocol 作者・Google/Microsoft/AWS 採用・27M USD Series A 調達済)・#3 MemPalace/mempalace=Claude Code を毎日使うソロ開発者向け長期記憶 (LongMemEval 98.4% R@5・コンテキスト圧縮 hook 連動・ChromaDB/SQLite/Qdrant/pgvector 選択可)・#4 danielmiessler/Personal_AI_Infrastructure=自分の人生・仕事を AI に常時管理させる power user 向け生活 OS (45 skill + 171 workflow・Pulse daemon・filesystem ベース・Claude Code 専用設計)・#5 openai/plugins=Figma/Notion/Expo/Netlify と Codex を繋ぐ公式プラグイン集 (社内 AI ワークフロー設計の雛形・Codex plugin manifest 標準)。冒頭マクロ核は『2026 年 6 月の Sunday (Sun=5 avg・週末低トラフィック帯)、Tertiary ペルソナの学習中エンジニア + Secondary の PdM が週末にキャッチアップする時間帯』、トレンドは『AI が個人ユースで使い物になる段階に到達 - 5/5 がエンタープライズではなく「1 人または小規模チーム」を主たる対象に設計された OSS が同日 TOP5 入りする初の構図』。method=use-case は 14d 内 n=1 (avg 2.00) で母数小だが、05-21 use-case (2 views) から 17 日空きで連投ルール完全非該当、直近 2 日 (06-05 comparison / 06-06 trend-pattern) と衝突なし。素材適合度 5/5: 5 リポすべてが明確な 1 つの典型ペルソナを持つ稀有な構図、各 narration で『誰のどんな業務にハマるか』を 1 文で言い切れる。継続 1 本 (#2 CopilotKit、3 日連続) は前日 trend-pattern 角度から use-case へ完全切替で重複ペナルティ回避。柱②(business-angle) は 06-01・柱③(self-experiment) は 06-03 で本週 (06-01〜06-07) 消化済のため本日 Sun は柱① ローテーション主軸日として最適配置。Primary (CTO/技術選定者) には『チームで導入する前に個人で試せる OSS 5 連』、Secondary (PdM/事業責任者) には『AI が個人の生活インフラに浸食している証拠』、Tertiary (学習中エンジニア) には『週末に試せる 5 つのソロ向け AI スタック』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に use-case は『この人は具体ユースケースまで落とし込んでくれる』シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Sun=5 avg 低トラフィック帯、最低 5 views (Sun 平均超え)、理想 30 views (週末上位帯への漸近) を目標。注記: 14d window で use-case n=1 で統計有意性は弱いが、本選定は『直近 2 日 (comparison / trend-pattern) 連投回避』+『前回 use-case から 17 日空き連投ルール完全非該当』+『素材適合度 5/5 で 5 リポすべてに明確な 1 ペルソナ』+『05-21 use-case 2 views の成功条件再現』+『柱②/③ 既消化で柱① 主軸最適』の 5 根拠で確定。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/NousResearch/hermes-agent",
-      "https://github.com/chopratejas/headroom",
+      "https://github.com/mvanhorn/last30days-skill",
       "https://github.com/CopilotKit/CopilotKit",
-      "https://github.com/lfnovo/open-notebook",
-      "https://github.com/affaan-m/ECC",
+      "https://github.com/MemPalace/mempalace",
+      "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "https://github.com/openai/plugins",
       "https://www.copilotkit.ai/ag-ui",
-      "https://www.copilotkit.ai/blog/introducing-ag-ui-the-protocol-where-agents-meet-users",
-      "https://www.marktechpost.com/2026/05/21/how-copilotkit-is-redefining-the-agentic-ai-stack-in-2026/",
-      "https://mer.vin/2026/05/copilotkit-raises-m-why-the-agentic-frontend-stack-and-ag-ui-matter-for-production-ai-apps/",
-      "https://ai2.work/blog/copilotkit-raises-27m-to-make-ag-ui-the-standard-for-in-app-ai-agents",
-      "https://blogs.oracle.com/ai-and-datascience/announcing-agent-spec-for-a2ui-copilotkit-ag-ui"
+      "https://danielmiessler.com/blog/the-real-internet-of-things"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "fullName": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
       "language": "Python",
-      "stars": 183030,
-      "todayStars": 1821,
-      "description": "自分で育つ自己学習エージェント",
-      "detail": "会話を超えて記憶を保ち、自分で新しいskillを書き足していくNous Research製の自己学習エージェントです。200以上のモデルとTelegram、Discord、Slackなど6つのメッセンジャーから操作できます。",
-      "narration": "自分で育つ自己学習エージェントです。AI開発スタックの脳がOSS化する6月の波を象徴します。"
+      "stars": 28739,
+      "todayStars": 441,
+      "description": "SNS横断の事前リサーチskill",
+      "detail": "Reddit、X、YouTube、Hacker News、Polymarketなど10以上のSNSを横断検索して1つのレポートに合成するClaude skillです。人物や企業の事前調査を分単位で済ませられます。",
+      "narration": "気になる人物や企業をSNS横断で1分で調査するClaudeスキルです。商談前の下調べを自動化できます。"
     },
     {
       "rank": 2,
-      "fullName": "chopratejas/headroom",
-      "name": "headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "language": "Python",
-      "stars": 14444,
-      "todayStars": 2503,
-      "description": "LLM入力を圧縮する可逆Proxy",
-      "detail": "Claude CodeやCursor、Aiderの前段に置くだけでログやRAG出力を最大95%圧縮するProxyです。可逆方式で元に戻せ、BFCL 32%圧縮で97%精度を維持します。",
-      "narration": "LLM入力を9割削る圧縮Proxyです。AIコスト最適化層がOSS化する6月の波の主役格です。"
-    },
-    {
-      "rank": 3,
       "fullName": "CopilotKit/CopilotKit",
       "name": "CopilotKit",
       "url": "https://github.com/CopilotKit/CopilotKit",
       "language": "TypeScript",
-      "stars": 32632,
-      "todayStars": 350,
-      "description": "AIのUIを作るReact向けSDK",
-      "detail": "ReactやAngular、VueでAIエージェントの生成UIを作るフルスタックSDKです。Google、Microsoft、AWSが採用するAG-UIプロトコルの作者で、27M USD調達済のAI UI標準候補です。",
-      "narration": "AI UIをReactで作るSDKです。AG-UIプロトコルがAI画面層の標準になる流れを牽引します。"
+      "stars": 33173,
+      "todayStars": 613,
+      "description": "AIエージェントUIを作るReact SDK",
+      "detail": "ReactやAngularでAIエージェントの生成UIを作るフルスタックSDKです。Google、Microsoft、AWSが採用するAG-UIプロトコルの作者で27M USD調達済の標準候補です。",
+      "narration": "ReactにAIエージェントUIを差し込むSDKです。SaaSへのチャット組み込みを最短ルートで済ませます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "MemPalace/mempalace",
+      "name": "mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "language": "Python",
+      "stars": 54247,
+      "todayStars": 441,
+      "description": "OSSのClaude Code向け長期記憶",
+      "detail": "LongMemEval 98.4%のスコアを持つOSS AI記憶エンジンです。Claude Codeのフックと連携し、コンテキスト圧縮で消える会話を全文保存して長期案件で再利用できます。",
+      "narration": "Claude Codeの会話を全文記憶するOSSメモリです。長期プロジェクトの文脈消失をゼロにできます。"
     },
     {
       "rank": 4,
-      "fullName": "lfnovo/open-notebook",
-      "name": "open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
+      "fullName": "danielmiessler/Personal_AI_Infrastructure",
+      "name": "Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "language": "TypeScript",
-      "stars": 25946,
-      "todayStars": 1142,
-      "description": "OSS版NotebookLMの本命",
-      "detail": "PDFや動画から要約と1-4話者のポッドキャストを生成するNotebookLMのOSS実装です。OpenAIやAnthropic、Ollamaなど18のLLMから選べ、自社ホストで運用できます。",
-      "narration": "NotebookLMをOSSで作り直すツールです。AI知識管理層がOSS化する6月の流れの代表格です。"
+      "stars": 14929,
+      "todayStars": 63,
+      "description": "セキュリティ専門家のAI個人OS",
+      "detail": "セキュリティ著名人Daniel Miessler氏が自身の生活と仕事を全てClaude Codeで動かすために組んだAI基盤です。45 skillと171 workflowで目標や予算、健康まで横断管理します。",
+      "narration": "自分の人生と仕事をAIに丸ごと任せるLife OSです。1人で複数事業を回す経営者向けの基盤です。"
     },
     {
       "rank": 5,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "fullName": "openai/plugins",
+      "name": "plugins",
+      "url": "https://github.com/openai/plugins",
       "language": "JavaScript",
-      "stars": 208302,
-      "todayStars": 1368,
-      "description": "Claude Code向け統合harness",
-      "detail": "63のsubagent、251のskill、AgentShieldの102ルールを束ねるClaude CodeやCursor、Codex向けのharnessです。v2.0でデスクトップGUIが追加されました。",
-      "narration": "Claude Code向け本番運用harnessです。AI開発環境層のOSS化が6月に完成する流れを示します。"
+      "stars": 1751,
+      "todayStars": 215,
+      "description": "OpenAI公式のCodexプラグイン集",
+      "detail": "FigmaやNotion、Netlify、ExpoなどとCodexを連携させる公式サンプル集です。社内ツールにAIを差し込むワークフローを設計する際のテンプレートとして利用できます。",
+      "narration": "FigmaやNotionとCodexを繋ぐ公式プラグイン集です。社内AIワークフロー設計の雛形に使えます。"
     }
   ]
 }
