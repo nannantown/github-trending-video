@@ -2191,7 +2191,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2300,7 +2300,7 @@
         "views": 3,
         "likes": 1,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2355,7 +2355,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2410,7 +2410,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2583,7 +2583,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2634,7 +2634,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
+        "updatedAt": "2026-06-06T23:53:26.751Z"
       }
     },
     {
@@ -2803,22 +2803,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-06T23:53:26.751Z"
+      }
+    },
+    {
+      "videoId": "UM8PcpoHgc0",
+      "videoUrl": "https://youtube.com/shorts/UM8PcpoHgc0",
+      "date": "2026-06-07",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/07 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "projects": [
+        "mvanhorn/last30days-skill",
+        "CopilotKit/CopilotKit",
+        "MemPalace/mempalace",
+        "danielmiessler/Personal_AI_Infrastructure",
+        "openai/plugins"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日 06-07 Sun (Sun=5 avg・週末低トラフィック帯) の TOP5 を『個人/ソロ向け AI スタック 5 ピースが同日 Trending 入り』use-case 視点で 5 本横断料理する。5/5 が個人または小規模チームでの実務 AI 組み込みに直接マッピング可能な稀有な日: #1 mvanhorn/last30days-skill=コンサル/受託エンジニアの商談前リサーチ skill (Reddit/X/YouTube/HN/Polymarket 10+ SNS 横断検索・engagement score で重複統合・Claude skill marketplace 経由インストール)・#2 CopilotKit/CopilotKit=SaaS プロダクトに AI チャットを最短で組み込む React SDK (AG-UI Protocol 作者・Google/Microsoft/AWS 採用・27M USD Series A 調達済)・#3 MemPalace/mempalace=Claude Code を毎日使うソロ開発者向け長期記憶 (LongMemEval 98.4% R@5・コンテキスト圧縮 hook 連動・ChromaDB/SQLite/Qdrant/pgvector 選択可)・#4 danielmiessler/Personal_AI_Infrastructure=自分の人生・仕事を AI に常時管理させる power user 向け生活 OS (45 skill + 171 workflow・Pulse daemon・filesystem ベース・Claude Code 専用設計)・#5 openai/plugins=Figma/Notion/Expo/Netlify と Codex を繋ぐ公式プラグイン集 (社内 AI ワークフロー設計の雛形・Codex plugin manifest 標準)。冒頭マクロ核は『2026 年 6 月の Sunday (Sun=5 avg・週末低トラフィック帯)、Tertiary ペルソナの学習中エンジニア + Secondary の PdM が週末にキャッチアップする時間帯』、トレンドは『AI が個人ユースで使い物になる段階に到達 - 5/5 がエンタープライズではなく「1 人または小規模チーム」を主たる対象に設計された OSS が同日 TOP5 入りする初の構図』。method=use-case は 14d 内 n=1 (avg 2.00) で母数小だが、05-21 use-case (2 views) から 17 日空きで連投ルール完全非該当、直近 2 日 (06-05 comparison / 06-06 trend-pattern) と衝突なし。素材適合度 5/5: 5 リポすべてが明確な 1 つの典型ペルソナを持つ稀有な構図、各 narration で『誰のどんな業務にハマるか』を 1 文で言い切れる。継続 1 本 (#2 CopilotKit、3 日連続) は前日 trend-pattern 角度から use-case へ完全切替で重複ペナルティ回避。柱②(business-angle) は 06-01・柱③(self-experiment) は 06-03 で本週 (06-01〜06-07) 消化済のため本日 Sun は柱① ローテーション主軸日として最適配置。Primary (CTO/技術選定者) には『チームで導入する前に個人で試せる OSS 5 連』、Secondary (PdM/事業責任者) には『AI が個人の生活インフラに浸食している証拠』、Tertiary (学習中エンジニア) には『週末に試せる 5 つのソロ向け AI スタック』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に use-case は『この人は具体ユースケースまで落とし込んでくれる』シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Sun=5 avg 低トラフィック帯、最低 5 views (Sun 平均超え)、理想 30 views (週末上位帯への漸近) を目標。注記: 14d window で use-case n=1 で統計有意性は弱いが、本選定は『直近 2 日 (comparison / trend-pattern) 連投回避』+『前回 use-case から 17 日空き連投ルール完全非該当』+『素材適合度 5/5 で 5 リポすべてに明確な 1 ペルソナ』+『05-21 use-case 2 views の成功条件再現』+『柱②/③ 既消化で柱① 主軸最適』の 5 根拠で確定。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/mvanhorn/last30days-skill",
+          "https://github.com/CopilotKit/CopilotKit",
+          "https://github.com/MemPalace/mempalace",
+          "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+          "https://github.com/openai/plugins",
+          "https://www.copilotkit.ai/ag-ui",
+          "https://danielmiessler.com/blog/the-real-internet-of-things"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-01",
-      "changes": [
-        "Rust: 0.5x avg views → drop",
-        "Shell: 0.3x avg views → drop",
-        "standard: 328 avg views (25 videos)",
-        "Trending languages: C++ (1.6x)",
-        "Day performance: Tue=719, Fri=617, Thu=349, Wed=266, Sat=202, Mon=120, Sun=9"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-02",
       "changes": [
@@ -3201,6 +3245,19 @@
         "standard: 154 avg views (54 videos)",
         "Trending languages: Kotlin (2.6x), C++ (3.4x), Jupyter Notebook (2.5x)",
         "Day performance: Tue=361, Fri=276, Thu=157, Wed=153, Sat=79, Mon=61, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-06",
+      "changes": [
+        "JavaScript: 0.0x avg views → drop",
+        "Shell: 0.8x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.7x avg views → drop",
+        "standard: 151 avg views (55 videos)",
+        "Trending languages: Kotlin (2.6x), C++ (3.5x), Jupyter Notebook (2.6x)",
+        "Day performance: Tue=361, Fri=276, Thu=157, Wed=153, Sat=71, Mon=61, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
