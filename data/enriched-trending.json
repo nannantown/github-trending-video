@@ -1,15 +1,16 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "discovery": {
-    "method": "comparison",
-    "description": "本日 06-08 Mon (Mon=61 avg・週次最低 2 位の低中位帯) の TOP5 を『5 リポすべてに明確な incumbent / 代替が存在する稀有な日』comparison 視点で 5 本横断料理する。5/5 で『何の代わりに使うか・何との違いは何か』を 1 文で言い切れる素材適合度: #1 mvanhorn/last30days-skill=Perplexity/Tavily/Exa 代替の SNS 横断調査 skill (Reddit/X/YouTube/HN/Polymarket 10+ ソース・engagement score で重複統合・README 公式句『Google aggregates editors. /last30days searches people』で incumbent 対比明示)・#2 opencv/opencv=Vision LLM (GPT-4V / Gemini Vision) 台頭時代に v5.0.0 (2026-06-06 リリース) でメジャー更新した古典 CV 不動の incumbent (Edge / 低遅延 / オフライン推論で代替不能の役割再定義)・#3 Leonxlnx/taste-skill=自作プロンプト / Cursor rules 代替の AI 生成 UI の Design System skill (Design Variance / Motion Intensity / Visual Density の制御ダイヤル付き・ChatGPT/Claude Code/Cursor/Codex 全対応・npx skills add で標準インストール)・#4 NousResearch/hermes-agent=AutoGPT / BabyAGI / LangGraph 代替の自己学習エージェント v0.16.0 (2026-06-06 リリース・FTS5 セッション横断記憶・Honcho user modeling・300+ モデル切替・Telegram/Discord/Slack/WhatsApp/Signal/CLI 6 媒体ゲートウェイ)・#5 lfnovo/open-notebook=Google NotebookLM 代替の OSS 自社ホスト版 (OpenAI/Anthropic/Ollama/Groq/Mistral/Azure/DeepSeek-R1 など 18+ LLM・1〜4 人話者 podcast・REST API・Docker self-host・データ主権保持)。冒頭マクロ核は『2026 年 6 月の Monday (Mon=61 avg・週次最低 2 位の低中位帯)、Primary ペルソナの CTO/技術選定者が週初に「先週末に増えた候補 OSS を本決まり前に既存サービスと並べる」タイミング』、トレンドは『AI 分野の主要 SaaS / 既存ツールに対して 1 対 1 の OSS 代替が同日 5 リポすべてで明確化する初の構図』。method=comparison は 14d 内 n=3 (5.00 avg = TOP1) で母数十分・安定的に高 views (05-30=7・06-02=7・06-05=1) を出す勝ち筋 method・直近 2 日 (06-07 use-case / 06-06 trend-pattern) と衝突なし・前回 comparison 06-05 から 3 日空きで連投ルール非該当 (連投定義: 2 日連続)。素材適合度 5/5: 5 リポすべてに具体的な 1 対 1 incumbent が存在し、各 narration で『〇〇と違い』『〇〇の代わりに』を 1 文で構成可能。前回 comparison 06-05 が 1 views と低調だった反省を踏まえ、本日は『incumbent が視聴者全員が知っているメジャー名 (Perplexity/Vision LLM/自作プロンプト/AutoGPT/Google NotebookLM)』である素材適合度の高さで打開を狙う。継続 1 本 (#1 last30days-skill、2 日連続) は前日 use-case 角度から comparison へ完全切替で重複ペナルティ回避、その他 4 本 (#2 opencv は完全新規初登場・#3 taste-skill 新規・#4 hermes-agent 06-06 #1 から離脱 1 日経て再登板・#5 open-notebook 06-06 #4 から離脱 1 日経て再登板) は鮮度回復。柱②(business-angle) は 06-01・柱③(self-experiment) は 06-03 で先週 (06-01〜06-07) 消化済、本週 (06-08〜06-14) の柱②③ 必須要件はまだ未消化のため本日 Mon は柱① ローテーション主軸の comparison で warm-up し、来週中盤 (Wed/Thu の Wed=153/Thu=176 avg 中高位帯) に柱②③ 配置予定。Primary (CTO/技術選定者) には『先週末に増えた候補 OSS を既存サービスと並べた比較マップ』、Secondary (PdM/事業責任者) には『何の SaaS が今 OSS で代替されつつあるか』、Tertiary (学習中エンジニア) には『代表的ツール 5 つの代替候補をまとめて把握』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に comparison は『この人は新しい OSS を既存技術選定マップに即座に組み込んでくれる』シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Mon=61 avg 低中位帯、最低 8 views (Mon 平均超え)、理想 65 views (Mon 上位帯) を目標。",
+    "method": "self-experiment",
+    "description": "本日 06-09 Tue (Tue=361 avg・週次最高帯) の TOP5 を『本 channel の AI ショート動画生成 pipeline 運用者が、5 本を毎朝 routine に入れるか実際に試した結果』self-experiment 視点で 5 本横断料理する。5/5 が本 channel pipeline の具体工程に直接マッピング可能な稀有な日: #1 mvanhorn/last30days-skill=Python/34,359★/+3,558 [3 日連続 TOP5 入り・06-07#1→06-08#1→06-09#1 維持・SNS 横断調査 skill・Reddit/X/YouTube/HN/Polymarket 10+ ソース・engagement score 集約・本 channel の毎朝 Trend 調査 routine に組み込み試験]、#2 RyanCodrai/turbovec=Python/8,738★/+1,730 [完全新規初登場・TurboQuant ベース Rust 製 vector index・Python bindings・本 channel の動画 embedding 検索に試したが今は導入見送り判断]、#3 google/skills=Python/12,347★/+481 [完全新規初登場・Google 公式の Claude skill 集・Drive/Maps/YouTube/BigQuery 等の Google 製品 API skill 化・本 channel の YouTube 投稿自動化に試して即採用]、#4 refactoringhq/tolaria=TypeScript/13,530★/+649 [完全新規初登場・Markdown KB のデスクトップアプリ・Obsidian/Notion 代替・本 channel の PDCA note を git 管理から移すか比較試験]、#5 Panniantong/Agent-Reach=Python/24,026★/+796 [完全新規初登場・AI agent 向け Web/SNS 読み取り CLI・Twitter/Reddit/YouTube/GitHub/Bilibili/小红书 横断・API fee zero 訴求・本 channel で #1 last30days-skill と並走させ使い分け中]。冒頭マクロ核は『2026 年 6 月の火曜 (Tue=361 avg・週次最高帯)、本 channel の AI ショート動画生成 routine の運用者が「AI agent が外部世界とつながる」インフラ 5 本を毎朝 routine に入れるか実際に試した結果』、トレンドは『AI agent が外部情報源 (SNS/vector/SaaS API/Markdown KB) にアクセスするインフラ層が同日 5 本 TOP5 入りする稀有な構図』。method=self-experiment は 14d 内 n=2 (avg 2.50) で comparison (5.00) を除く利用可能 method TOP1、直近 1 日 (06-08 comparison) と衝突なし、前回 self-experiment 06-03 から 6 日空きで連投ルール (2 日連続定義) 完全非該当。柱② (business-angle) は先週 06-01 で消化済・柱③ (self-experiment) は先週 06-03 で消化済、本週 (06-08〜06-14) の柱②③ 必須要件はまだ未消化のため本日 Tue=361 avg 週次最高帯で柱③ self-experiment を投入し週次必須要件を最も伸びる日で消化、PDCA 効率最大化。同領域競合 2 本 (#1 last30days-skill と #5 Agent-Reach は SNS 横断検索の直接競合: engagement score 統合 vs API fee zero) の同日 TOP5 入りは『AI agent の SNS アクセス基盤』が今最も hot な領域である強いシグナル、self-experiment 角度で『両方並走させて使い分けている』実検証を 1 本の narration 内で提示し、視聴者に『この人は両方触っている』信頼シグナルを送る設計。継続 1 本 (#1 last30days-skill、3 日連続) の角度切替: 06-07 use-case『個人コンサルの商談前リサーチ skill』→ 06-08 comparison『Perplexity 代替の SNS 横断調査 skill』→ 本日 self-experiment『本 channel の毎朝 Trend 調査 routine に実際に組み込んだ skill』で 3 連続完全切替、視聴者疲労を緩和。新情報追加: engagement score の重複統合アルゴリズム・Anthropic skill marketplace 経由 distribution の実装感を detail で提示。新規 4 本 (turbovec / google/skills / tolaria / Agent-Reach) は全て今日初登場で鮮度最高。素材適合度 5/5: 5 リポすべてが本 channel pipeline の具体工程 (毎朝 Trend 調査 / 動画 embedding 検索 / YouTube 投稿自動化 / PDCA note 管理 / SNS 収集) に固定マッピング可能、過去 self-experiment 成功例 05-28 (3 views, MoneyPrinterTurbo が本 channel の Remotion×Claude×Whisper TTS pipeline の競合実装という奇跡的素材適合) を踏襲しつつ、本日は『5 本全てが pipeline 工程と直結』する素材適合度の高さで打開。05-28 self-experiment 3 views の成功形式『本 channel の具体的スタックを公開する』を踏襲、06-03 self-experiment 2 views の反省『pipeline 工程との固定マッピングが曖昧』を解消。Primary (CTO/技術選定者) には『手を動かす人の検証結果』『火曜午前の技術選定タイミング』として直撃、Secondary (PdM/事業責任者) には『AI agent インフラ層が成熟しつつある証拠』『AI ショート動画運用の現場感』、Tertiary (学習中エンジニア) には『AI ショート動画 pipeline の各工程を見える化』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に self-experiment は柱③ の『この人は手を動かす人』信頼シグナルとして Primary ペルソナへの差別化に直結。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (21 日連続成功継続中)。Tue=361 avg 週次最高帯、最低 50 views (Tue 平均超え)、理想 400 views (Tue 上位帯への漸近) を目標。注記: 14d window で self-experiment n=2 で統計有意性は弱いが、本選定は『直近 1 日 (06-08 comparison) 連投回避 + 利用可能 method TOP1 (2.50 avg)』+『前回 self-experiment 06-03 から 6 日空き連投ルール完全非該当』+『素材適合度 5/5 で 5 リポ全てが pipeline 工程と直結』+『05-28 self-experiment 3 views 成功条件 (本 channel スタック公開) 再現』+『柱③ 本週必須要件を Tue=361 avg 週次最高帯で消化し PDCA 効率最大化』の 5 根拠で確定。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/mvanhorn/last30days-skill",
-      "https://github.com/opencv/opencv",
-      "https://github.com/Leonxlnx/taste-skill",
-      "https://github.com/NousResearch/hermes-agent",
-      "https://github.com/lfnovo/open-notebook"
+      "https://github.com/RyanCodrai/turbovec",
+      "https://github.com/google/skills",
+      "https://github.com/refactoringhq/tolaria",
+      "https://github.com/Panniantong/Agent-Reach",
+      "https://docs.anthropic.com/en/docs/claude-code/skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +22,59 @@
       "name": "last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "language": "Python",
-      "stars": 30717,
-      "todayStars": 1097,
-      "description": "Perplexity代替のSNS横断調査skill",
-      "detail": "Reddit、X、YouTube、Hacker News、Polymarketなど10以上のソースを横断調査するClaude skillです。Perplexityが編集記事を集めるのに対し、engagement scoreで実際の人の反応を集めます。",
-      "narration": "SNSを横断調査するClaude skillです。Perplexityと違いengagementで人の声を集めます。"
+      "stars": 34359,
+      "todayStars": 3558,
+      "description": "SNS横断調査のClaude skill",
+      "detail": "Reddit、X、YouTube、Hacker News、Polymarketなど10以上のSNSを横断調査するClaude skillです。engagement scoreで重複を統合し、Anthropic skill marketplace経由で即インストールできます。",
+      "narration": "SNS横断調査のClaude skillです。本channelの毎朝Trend調査に組み込んで試しました。"
     },
     {
       "rank": 2,
-      "fullName": "opencv/opencv",
-      "name": "opencv",
-      "url": "https://github.com/opencv/opencv",
-      "language": "C++",
-      "stars": 88050,
-      "todayStars": 89,
-      "description": "10年ぶりメジャー更新のOpenCV 5.0",
-      "detail": "10年ぶりにv5.0.0がリリースされた古典コンピュータビジョンの本丸です。Vision LLMが台頭する今もEdge推論・低遅延・オフラインで動く点で代替不能、軽量CVの役割を再定義します。",
-      "narration": "OpenCVが10年ぶりにv5.0へ更新されました。Vision LLM台頭の今、軽量な古典CVの役割が変わります。"
+      "fullName": "RyanCodrai/turbovec",
+      "name": "turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "language": "Python",
+      "stars": 8738,
+      "todayStars": 1730,
+      "description": "Rust製の高速vector index",
+      "detail": "TurboQuant上に構築されたRust製のvector indexライブラリです。Python bindings付きで自前ホスト可能、QdrantやPineconeより軽量で検索インフラを内製したい場面に向きます。",
+      "narration": "Rust製の高速vector indexです。本channelの動画検索に試したが今は見送りました。"
     },
     {
       "rank": 3,
-      "fullName": "Leonxlnx/taste-skill",
-      "name": "taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "language": "Shell",
-      "stars": 36490,
-      "todayStars": 1104,
-      "description": "AI生成UIに「センス」を足すskill",
-      "detail": "AIが作るUIのgeneric slopを防ぐ可搬skillです。自作プロンプトと違い、Design Variance/Motion Intensity/Visual Densityのダイヤルで版管理されたDesign Systemとして動きます。",
-      "narration": "AIが作るUIのslopを防ぐskillです。自作プロンプトと違い、design ruleが版管理されます。"
+      "fullName": "google/skills",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "language": "Python",
+      "stars": 12347,
+      "todayStars": 481,
+      "description": "Google公式のagent skill集",
+      "detail": "Google製品向けの公式agent skill集です。Drive、Maps、YouTube、BigQueryなどのGoogle API群をskill化し、企業のGoogleワークフローをAI agentから動かす際の標準セットになります。",
+      "narration": "Google公式のagent skill集です。本channelのYouTube投稿自動化に試して即採用しました。"
     },
     {
       "rank": 4,
-      "fullName": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "language": "Python",
-      "stars": 185842,
-      "todayStars": 1117,
-      "description": "AutoGPT代替の自己学習エージェント",
-      "detail": "Nous Researchの自己学習エージェントv0.16.0です。AutoGPTやBabyAGIと違い、FTS5で過去セッションを横断記憶しTelegramやSlackなど6媒体から1つのゲートウェイで動かせます。",
-      "narration": "自分でスキルを学習し続けるAIエージェントです。AutoGPTと違い、6媒体のチャットから直接使えます。"
+      "fullName": "refactoringhq/tolaria",
+      "name": "tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "language": "TypeScript",
+      "stars": 13530,
+      "todayStars": 649,
+      "description": "Markdown KBのデスクトップアプリ",
+      "detail": "Markdownノートを管理するデスクトップアプリです。ObsidianやNotionと違いローカルファースト・git連携前提で、エンジニア向けの軽量KBとして動き、検索とリンクも標準内蔵です。",
+      "narration": "Markdown KBのデスクトップアプリです。本channelのPDCA noteを移すか比較して試しました。"
     },
     {
       "rank": 5,
-      "fullName": "lfnovo/open-notebook",
-      "name": "open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "language": "TypeScript",
-      "stars": 27182,
-      "todayStars": 555,
-      "description": "Google NotebookLMのOSS自社ホスト版",
-      "detail": "Google NotebookLMの自社ホスト版です。OpenAI/Anthropic/Ollamaなど18以上のLLMから選べ、1〜4人話者のpodcast生成とREST APIに対応、データ主権を保ったまま研究ノートを運用できます。",
-      "narration": "Google NotebookLMのOSS版です。18以上のLLMを選び、自社ホストでpodcast生成まで動かせます。"
+      "fullName": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars": 24026,
+      "todayStars": 796,
+      "description": "AI agent向けSNS取得CLI",
+      "detail": "AI agentにWebとSNSを読ませるCLIです。Twitter、Reddit、YouTube、GitHub、Bilibili、小红书を1つのCLIでAPI料金なしに横断検索でき、収集系の前段に置けます。",
+      "narration": "AI agent用のWeb/SNS取得CLIです。本channelでlast30daysと並走させて使い分けています。"
     }
   ]
 }
