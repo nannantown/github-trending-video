@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09",
+  "updatedAt": "2026-06-10",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -22,97 +22,100 @@
       { "language": "Rust", "multiplier": 0.7 }
     ],
     "topPerformingVideo": {
-      "date": "2026-06-02",
+      "date": "2026-05-30/2026-06-02",
       "views": 7,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 05-26〜06-08, 計測済 12 件・06-08 計測継続中): comparison 5.00 avg n=3 (05-30=7・06-02=7・06-05=1) で TOP1 安定 method・self-experiment 2.50 avg n=2 (05-28=3・06-03=2)・ecosystem 2.00 avg n=3 (05-27=1・05-31=4・06-04=1)・trend-pattern 1.00 avg n=2 (05-29=2・06-06=0)・business-angle 1.00 avg n=1 (06-01=1)・use-case 0.00 avg n=1 (06-07=0)。本日 06-09 (Tue=361 avg・週次最高帯) は直近 1 日 (06-08 comparison) 連投ルールで comparison を除外、利用可能 TOP method は self-experiment (2.50) → ecosystem (2.00) → trend-pattern (1.00) → business-angle (1.00) → use-case (0.00)。本日 TOP5 は継続 1 本 + 新規 4 本: #1 mvanhorn/last30days-skill=Python / 34,359★ / +3,558 [3 日連続 TOP5 入り・06-07#1→06-08#1→06-09#1 維持・SNS 横断調査 skill・本 channel の毎朝 Trend 調査 routine に組み込み試験]、#2 RyanCodrai/turbovec=Python / 8,738★ / +1,730 [完全新規初登場・TurboQuant ベース Rust 製 vector index・Python bindings・本 channel の動画 embedding 検索に試したが今は導入見送り]、#3 google/skills=Python / 12,347★ / +481 [完全新規初登場・Google 公式の Claude skill 集・Drive/Maps/YouTube/BigQuery 等・本 channel の YouTube 投稿自動化に試して即採用]、#4 refactoringhq/tolaria=TypeScript / 13,530★ / +649 [完全新規初登場・Markdown KB のデスクトップアプリ・Obsidian/Notion 代替・本 channel の PDCA note を git 管理から移すか比較試験]、#5 Panniantong/Agent-Reach=Python / 24,026★ / +796 [完全新規初登場・AI agent 向け Web/SNS 読み取り CLI・Twitter/Reddit/YouTube/GitHub/Bilibili/小红书 横断・API fee zero 訴求・本 channel で #1 last30days-skill と並走中]。本日の素材適合度 5/5: 5 リポすべてが本 channel pipeline の具体工程 (毎朝 Trend 調査 / 動画 embedding 検索 / YouTube 投稿自動化 / PDCA note 管理 / SNS 収集) に固定マッピング可能。柱② (business-angle) は先週 06-01 で消化済・柱③ (self-experiment) は先週 06-03 で消化済、本週 (06-08〜06-14) の柱②③ 必須要件はまだ未消化のため本日 Tue=361 avg 週次最高帯で柱③ self-experiment を投入し週次必須要件を最も伸びる日で消化、PDCA 効率最大化。同領域競合 2 本 (#1 last30days-skill と #5 Agent-Reach は SNS 横断検索の直接競合) の同日 TOP5 入りは『AI agent の SNS アクセス基盤』が今最も hot な領域である強いシグナル。最低 50 views (Tue 平均超え)、理想 400 views (Tue 上位帯への漸近) を目標。"
+      "note": "Method 別平均 (14 日窓 05-27〜06-09, 計測済 13 件・06-09 未計測): comparison 3.75 avg n=4 (05-30=7・06-02=7・06-05=1・06-08=0) で TOP1 安定 method・self-experiment 2.50 avg n=2 (05-28=3・06-03=2)・ecosystem 2.00 avg n=3 (05-27=1・05-31=4・06-04=1)・trend-pattern 1.00 avg n=2 (05-29=2・06-06=0)・business-angle 1.00 avg n=1 (06-01=1)・use-case 0.00 avg n=1 (06-07=0)。本日 06-10 (Wed=153 avg・週次中位帯) は直近 2 日 (06-09 self-experiment / 06-08 comparison) 連投ルールで両 method 除外、利用可能 method は ecosystem (2.00) → trend-pattern (1.00) → business-angle (1.00) → use-case (0.00) → tech-deep (14d 未投入)。本日 TOP5 は継続 3 本 + 新規 1 本 + 再登板 1 本: #1 mvanhorn/last30days-skill=Python / 37,171★ / +3,177 [4 日連続 TOP5 入り・06-07#1→06-08#1→06-09#1→06-10#1 維持・SNS 横断調査 skill・Perplexity Pro 月 20 USD + SerpAPI 月 75 USD 代替]、#2 RyanCodrai/turbovec=Python / 10,105★ / +1,800 [2 日連続・TurboQuant ベース Rust 製 vector index・Python bindings・Pinecone 月 70 USD/百万ベクトル代替]、#3 roboflow/supervision=Python / 42,944★ / +735 [完全新規初登場・Roboflow 公式 Python CV 部品集・物体検出/追跡/annotation/データセット変換・受託 CV 案件の boilerplate 工数削減]、#4 opencv/opencv=C++ / 88,600★ / +169 [06-08 から 1 日空けて再登板・v5.0 リリース直後・Vision LLM API 月数百 USD 代替の edge CV 基盤]、#5 refactoringhq/tolaria=TypeScript / 14,274★ / +821 [2 日連続・Markdown KB デスクトップアプリ・Notion チーム月 8-15 USD/user 代替]。本日の素材適合度 4.5/5: 5 リポすべてに具体的金額の incumbent SaaS or 業務委託コストが対応、特に #1 last30days-skill + #2 turbovec + #5 tolaria は 1 対 1 の明確な incumbent (Perplexity / Pinecone / Notion) を持ち、#3 supervision + #4 opencv は受託 CV 案件の工数削減という現場直結軸で接続。柱② (business-angle) は前週 06-01 で消化、柱③ (self-experiment) は本週 06-09 で消化、本日で柱② を本週消化し週次柱②③ 両方達成、Thu〜Sun は柱① ローテーション主軸で運用可能。CV 系 OSS 2 本同日 TOP5 入り (supervision + opencv) は AI agent ブームの裏側で古典 CV が Vision LLM 時代でも edge/低遅延/オフライン用途で役割再定義されているマクロシグナル。最低 15 views (Wed 平均超え)、理想 150 views (Wed 上位帯への漸近) を目標。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は火曜 (Tue=361 avg・週次最高帯・Primary ペルソナの『火曜午前の技術選定』タイミング)。週初のキックオフ後、CTO/技術選定者が『先週末〜今週始めに増えた候補 OSS を実際に検証する』動機が最高、self-experiment 角度の『私が自分の pipeline で実際に試した結果』は『この人は手を動かす人』信頼シグナルに直結",
-      "本日 TOP5 は継続 1 本 (last30days-skill 3 日連続 TOP5) + 新規 4 本 (turbovec / google/skills / tolaria / Agent-Reach 全て初登場)。鮮度回復が顕著、5/5 が AI agent の外部接続層 (SNS / vector / SaaS API / Markdown KB) で self-experiment 角度に最適"
+      "本日は水曜 (Wed=153 avg・週次中位帯・Primary ペルソナの『月次 SaaS 棚卸し稟議書』タイミング)。Mon キックオフ → Tue 技術選定 → Wed は『来月予算で何を切るか』を考える日、business-angle 角度の『月いくら削れるか』『内製化で取り戻す』は『この OSS は今月の予算稟議書に書ける』直接的判断材料として直撃",
+      "本日 TOP5 は継続 3 本 (last30days-skill 4 日連続 + turbovec 2 日連続 + tolaria 2 日連続) + 新規 1 本 (supervision 初登場) + 再登板 1 本 (opencv v5.0 直後)。AI agent 3 本 + CV 2 本の構成で business-angle 角度の 5/5 整合度が高い"
     ],
     "hashtags": [
-      "Tue=361 avg + self-experiment 角度のため、Primary (CTO/技術選定者) の『手を動かす検証』語彙を厚く: #手を動かす #実際に試した #pipeline検証 #AI動画運用 #routine組み込み #火曜の技術選定",
-      "self-experiment 角度の核心は『私が触った結果を共有』。本日の本 channel pipeline 工程 5 つ: #毎朝Trend調査 #動画embedding #YouTube投稿自動化 #PDCA管理 #SNS収集",
-      "領域タグ (5 本のカテゴリ): #SNS横断調査skill #高速vector index #Google公式skill #Markdown KB #AI agent SNS取得CLI",
-      "言語タグは Python 4 本 (last30days-skill / turbovec / google/skills / Agent-Reach) + TypeScript 1 本 (tolaria)。Python (1.2x) + TypeScript (1.1x) の上位 multiplier 言語が 5/5 で揃い厚みあり",
-      "前日 06-08 (comparison 角度) の『〇〇代替』『〇〇の代わりに』語彙から距離を置き、本日は『本 channel に試した』『routine に入れた』『使い分けている』など self-experiment 語彙へ完全切替",
-      "self-experiment 角度でも『〇〇はオワコン』『〇〇は終わる』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『試した』『見送った』『採用した』など中性的な実検証語彙に統一",
-      "本日 hashtag に『AI動画運用』『routine組み込み』『pipeline検証』を厚めに置く: self-experiment 角度の核心は具体的な pipeline 工程 × 実検証結果で、『この人は手を動かす人』『この人は自分のスタックを公開してくれる』信頼シグナルに直結",
-      "self-experiment 角度の独自 hashtag: #手を動かす #実際に試した #pipeline検証 #AI動画運用 #routine組み込み #火曜の技術選定 #柱3 #柱③"
+      "Wed=153 avg + business-angle 角度のため、Primary (CTO/技術選定者) の『月次 SaaS 棚卸し』語彙を厚く: #SaaS棚卸し #内製化 #月額削減 #予算稟議書 #コスト最適化 #OSS代替",
+      "business-angle 角度の核心は『具体金額』『工数削減』。本日 5 本の incumbent 名: #Perplexity代替 #Pinecone代替 #Roboflow代替 #VLMAPI代替 #Notion代替",
+      "領域タグ (5 本のカテゴリ): #SNS横断調査skill #Rust製vectorIndex #PythonCV部品集 #edge CV基盤 #MarkdownKBアプリ",
+      "言語タグは Python 3 本 (last30days-skill / turbovec / supervision) + C++ 1 本 (opencv) + TypeScript 1 本 (tolaria)。Python (1.2x) + TypeScript (1.1x) の上位 multiplier 言語が 4/5 で揃い、C++ (0.8x) は opencv v5.0 という強素材で補強",
+      "前日 06-09 (self-experiment 角度) の『本 channel routine に試した』語彙から距離を置き、本日は『月額削減』『内製化』『稟議書』『取り戻す』など business-angle 語彙へ完全切替",
+      "business-angle 角度でも『〇〇は時代遅れ』『〇〇は終わる』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁。『月額〇〇 USD 削減』『内製化』『工数圧縮』など中性的な経済語彙に統一",
+      "本日 hashtag に『SaaS棚卸し』『内製化』『月額削減』『コスト最適化』を厚めに置く: business-angle 角度の核心は具体的金額 × 内製化レバーで、『この人は事業視点で技術を語れる』『この人は予算稟議書のたたき台をくれる』信頼シグナルに直結",
+      "business-angle 角度の独自 hashtag: #SaaS棚卸し #内製化 #月額削減 #予算稟議書 #コスト最適化 #OSS代替 #柱2 #柱② #受託案件"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (53+50+57+56+59)、TTS で約 35-37 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (last30days-skill, Claude, skill, channel, Trend, routine, Reddit, X, YouTube, Hacker News, Polymarket, Anthropic, engagement, marketplace, Rust, vector, index, TurboQuant, Python, bindings, Qdrant, Pinecone, embedding, Google, agent, Drive, Maps, BigQuery, Markdown, KB, Obsidian, Notion, git, PDCA, note, AI, Web, SNS, CLI, Twitter, GitHub, Bilibili, 小红书)",
-      "self-experiment 角度の一貫性: 5 本すべての narration を『〇〇です。本 channel の〇〇に試して〇〇でした』の 2 文構成で 5/5 統一。1 文目で『何をする OSS か』を即明示、2 文目で『本 channel pipeline のどこで実際に試したか + 結果どうだったか』を 1 つだけ挙げる固定形式。05-28 self-experiment (3 views, 14d self-experiment TOP1) の成功形式『本 channel の Remotion×Claude×Whisper TTS pipeline の競合実装』を踏襲、06-03 self-experiment (2 views) の反省『pipeline 工程との固定マッピングが曖昧』を解消し本日は 5/5 で具体工程に直結",
-      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment 角度では各 repo の固有機能は detail 側へ寄せ、narration は『本 channel pipeline での実検証結果』(採用 / 見送り / 並走 / 試験) を優先",
-      "数値表現はアラビア数字統一 (10以上、6媒体、1〜4人、18以上)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止 (例: ❌『SNS 横断調査の skill』 → ✅『SNS 横断調査の Claude skill です』)",
-      "narration の冒頭フックは 1 文目で『〇〇です』を即明示、2 文目で『本 channel の〇〇に試した』で pipeline 工程を直結させる。05-28 self-experiment 3 views の成功形式 = 各 repo を本 channel スタックの具体工程と固定マッピング × 5/5 を踏襲、06-03 self-experiment 2 views の反省 = pipeline 工程が抽象的だと刺さらない、本日は『毎朝 Trend 調査』『動画検索』『YouTube 投稿』『PDCA note』『SNS 収集』の具体工程に固定",
-      "last30days-skill は本日 3 日連続 TOP5 入りで視聴者疲労リスク中。narration では『本 channel の毎朝 Trend 調査 routine に組み込んで試しました』として再提示し、前 2 日 (use-case / comparison) から完全切替。detail で『engagement score で重複統合』『Anthropic skill marketplace 経由 distribution』を明示し新情報を追加",
-      "5 本のうち #1 last30days-skill と #5 Agent-Reach は SNS 横断検索の直接競合 (engagement score 統合 vs API fee zero) で、self-experiment 角度では #5 の narration で『本 channel で last30days と並走させて使い分けています』と 1 文で対比し、視聴者に『この人は両方触っている』信頼シグナルを送る設計"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 262 文字 (54+56+47+52+53)、TTS で約 35-37 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
+      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (last30days-skill, SNS, AI, Perplexity, skill, Rust, vector, index, Pinecone, self-host, Python, CV, OpenCV, v5.0, VLM, API, edge, Markdown, KB, Notion, Reddit, X, YouTube, HN, Polymarket, SerpAPI, Tavily, Exa, Qdrant, Weaviate, TurboQuant, Roboflow, annotation, Confluence, Obsidian, git, local-first)",
+      "business-angle 角度の一貫性: 5 本すべての narration を『〇〇です。〇〇の月額を〇〇で止められます/取り戻せます/組めます』の 2 文構成で 5/5 統一。1 文目で『何をする OSS か』を即明示、2 文目で『どの SaaS の月額を、どの内製化レバーで止めるか』を 1 つだけ挙げる固定形式。04-26 business-angle 11 views (Phase 1 期間中の business-angle 最高成績) の成功形式『5 本すべてに具体的金額・工数を提示』を踏襲、06-01 business-angle 1 view の反省『金額イメージが narration に乗らず detail にだけ書かれた』を解消し本日は『月額』『内製化』『止める』『取り戻す』を全 5 本の 2 文目に明示",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle 角度では各 repo の固有機能は detail 側へ寄せ、narration は『どの SaaS 月額を、どの内製化で止めるか』の経済性メッセージを優先",
+      "数値表現はアラビア数字統一 (20 USD, 70 USD, v5.0)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止 (例: ❌『Perplexity 代替の SNS 横断調査』 → ✅『SNS 横断の AI リサーチ skill です』)",
+      "narration の冒頭フックは 1 文目で『〇〇です』を即明示、2 文目で『〇〇の月額を〇〇で止められます』を構成。04-26 business-angle 11 views の成功形式 = 各 repo に具体金額 + 内製化レバー × 5/5 を踏襲、06-01 business-angle 1 view の反省 = 金額抽象的だと刺さらない、本日は『Perplexity の月額』『Pinecone の月額従量課金』『受託 CV 案件の工数』『VLM の API 月額』『Notion の月額』の 5 つの具体的経済対象に固定",
+      "last30days-skill は本日 4 日連続 TOP5 入りで視聴者疲労リスク中。narration では『Perplexity の月額を止めて商談前調査を自前で内製化できます』として再提示し、前 3 日 (use-case / comparison / self-experiment) から完全切替。detail で『Perplexity Pro や SerpAPI の月額を止めて受託コンサルの商談前調査を自前内製化』を明示し新情報 (具体的 SaaS 名 + USD 月額) を追加",
+      "5 本のうち #3 supervision + #4 opencv は CV 系 2 本同日 TOP5 入りで Vision LLM 時代の古典 CV 役割再定義というマクロ伏線あり。business-angle 角度では #3 が『受託 CV 案件の boilerplate 工数削減』+ #4 が『VLM API の月額を edge 推論で月額ゼロ化』で経済軸が異なる 2 本として整理、視聴者疲労を緩和"
     ],
     "content": [
-      "本日の discovery.method は `self-experiment` (14 日窓 n=2 で avg 2.50・comparison [5.00] を除く利用可能 method TOP1、28 日窓でも n=4〜5 前後の安定母数、直近 1 日 [06-08 comparison] と method 衝突なし、前回 self-experiment 06-03 から 6 日空きで連投ルール完全非該当、本日 TOP5 が 5/5 で本 channel pipeline の具体工程に固定マッピング可能な素材適合度 5/5 で過去 self-experiment 成功条件を満たす稀有な日)。柱② 本週必須要件は未消化、柱③ 本週必須要件は本日 Tue 投入で消化、Wed〜Sun は柱① ローテーション主軸で運用、柱② は次週以降の Mon=61 avg 低トラフィック帯に back-loaded で配置予定",
-      "本日 06-09 TOP5 は継続 1 本 + 新規 4 本: #1 mvanhorn/last30days-skill=Python / 34,359★ / +3,558 [3 日連続 TOP5 入り・06-07#1→06-08#1→06-09#1 維持・SNS 横断調査 skill・Reddit/X/YouTube/HN/Polymarket/Bluesky/TikTok 10+ ソース・engagement score で重複統合・Brave Search/Perplexity Sonar オプショナル統合・Claude skill marketplace 経由インストール]、#2 RyanCodrai/turbovec=Python / 8,738★ / +1,730 [完全新規初登場・TurboQuant ベース Rust 製 vector index・Python bindings・自前ホスト可能・Qdrant/Pinecone より軽量訴求]、#3 google/skills=Python / 12,347★ / +481 [完全新規初登場・Google 公式の Claude/Codex/Cursor 対応 skill 集・Drive/Maps/YouTube/BigQuery/Calendar/Sheets/Gmail 等の Google 製品 API skill 化]、#4 refactoringhq/tolaria=TypeScript / 13,530★ / +649 [完全新規初登場・Markdown KB のデスクトップアプリ・Obsidian/Notion 代替・ローカルファースト・git 連携前提・検索とリンク標準内蔵]、#5 Panniantong/Agent-Reach=Python / 24,026★ / +796 [完全新規初登場・AI agent 向け Web/SNS 読み取り CLI・Twitter/Reddit/YouTube/GitHub/Bilibili/小红书 横断・API fee zero 訴求・SerpAPI/Bright Data 代替]。本日の素材適合度 5/5: 5 リポすべてが本 channel pipeline の具体工程に固定マッピング可能",
-      "本日のマクロ核: 『2026 年 6 月の Tuesday (Tue=361 avg・週次最高帯)、本 channel の AI ショート動画生成 routine の運用者が「AI agent が外部世界とつながる」インフラ 5 本を毎朝 routine に入れるか実際に試した結果』として読む。5 リポの pipeline 工程対応: #1 last30days-skill=毎朝 Trend 調査 routine (採用) / #2 turbovec=動画 embedding 検索 (見送り) / #3 google/skills=YouTube 投稿自動化 (採用) / #4 tolaria=PDCA note 管理 (比較中) / #5 Agent-Reach=SNS 収集 (last30days と並走)。冒頭フックは『AI agent が外部情報源 (SNS/vector/SaaS API/Markdown KB) にアクセスするインフラ層が同日 5 本 TOP5 入りする稀有な構図』に置き、特に #1 last30days-skill + #5 Agent-Reach の SNS 横断検索同領域競合 2 本同日 TOP5 入りは『AI agent の SNS アクセス基盤』が今最も hot な領域である強いシグナルとして提示",
-      "Primary (CTO/技術選定者) には『手を動かす人の検証結果』『火曜午前の技術選定タイミング』として直撃、Secondary (PdM/事業責任者) には『AI agent インフラ層が成熟しつつある証拠』『AI ショート動画運用の現場感』、Tertiary (学習中エンジニア) には『AI ショート動画 pipeline の各工程を見える化』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に self-experiment は柱③ の『この人は手を動かす人』信頼シグナルとして Primary ペルソナへの差別化に直結",
-      "継続 1 本 (#1 last30days-skill) の角度切替: 06-07 use-case『個人コンサル/受託エンジニアの商談前リサーチ skill』→ 06-08 comparison『Perplexity 代替の SNS 横断調査 skill』→ 本日 self-experiment『本 channel の毎朝 Trend 調査 routine に実際に組み込んだ skill』へ 3 連続角度完全切替、語彙重複なし。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す: 本日 method=self-experiment は前回 06-03 から 6 日空きで連投ルール完全非該当、ラインナップ重複は last30days-skill のみ 1 本で 3 本以上ペナルティ非該当",
-      "06-08 comparison『〇〇の代わりに』『〇〇と違い』語彙 → 本日 self-experiment『本 channel の〇〇に試した』『routine に入れた』『使い分けている』語彙へ完全切替。05-28 self-experiment (3 views = 14d self-experiment TOP1) の成功形式を踏襲: 各 repo を本 channel pipeline の具体工程と固定マッピングする固定形式",
-      "5 本のライセンスは MIT (last30days-skill / google/skills / tolaria / Agent-Reach 想定) + 確認要 (turbovec)。self-experiment 角度では本 channel pipeline 組み込みの実検証が主軸のためライセンス言及は detail からも外し、実検証結果に集中する。法務確認用途には sources の各 README リンクを保持",
-      "新規 4 本 (turbovec / google/skills / tolaria / Agent-Reach) のうち 3 本 (turbovec / google/skills / Agent-Reach) が『AI agent が外部世界とつながる』インフラ層: turbovec は vector 検索インフラ、google/skills は大手 SaaS API 連携 layer、Agent-Reach は Web/SNS 読み取り layer。06-06 (CopilotKit + open-notebook) / 06-05 (Baidu + GitHub + Nous Research) / 06-08 (4 本同時) / 本日 (4 本同時) と 6 月のマクロシグナル: 『AI agent インフラ層の成熟』は累積 8 件目 (月内 9 日連続観測)",
-      "method PDCA の限界注記: 14 日窓 method 平均は comparison (5.00) を除き全て 0〜2.5 views・n≤3 で有意差は小さい。本日の self-experiment 採用は『直近 1 日 [06-08 comparison] 連投ルール除外で 14d 利用可能 method TOP1 (2.50 avg)』+『前回 self-experiment 06-03 から 6 日空き連投ルール完全非該当』+『素材適合度 5/5: 5 リポすべてが本 channel pipeline 工程に直結』+『05-28 self-experiment 3 views 成功条件 (本 channel スタック公開) 再現』+『柱③ 本週必須要件を Tue=361 avg 週次最高帯で消化し PDCA 効率最大化』の 5 根拠で確定",
-      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-18〜06-08 で継続成功 (21 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "同ラインナップ連続 TOP5 入りの累積疲労リスク注記: last30days-skill は本日で 3 日連続 TOP5 入り (06-07 #1 → 06-08 #1 → 06-09 #1)、他 4 本は完全新規で疲労リスク最低。3 日連続の last30days-skill は本日 self-experiment 角度で『本 channel routine に組み込んで試しました』に切替済、次回 (06-10) 以降も継続入りの場合は detail で『engagement score の重複統合アルゴリズム』『Reddit コメント取得の優位性』『Brave Search/Perplexity Sonar オプショナル統合』など新情報追加義務化対象",
-      "次回以降の explore 候補: `pipeline-fit-matrix` (新・self-experiment 派生で本 channel pipeline 工程 × 5 リポのマトリクス可視化、本日のような全 5 本 pipeline 直結日に独立化候補)、`competitor-cohabit` (新・comparison + trend-pattern 派生で同領域 2 本 TOP5 入り日に両者の差別化軸を 1 つの narration 内で対比、本日 last30days-skill + Agent-Reach で観測可能)、`incumbent-disruption` (06-08 提案、SaaS 主戦場領域への OSS 進出マクロに特化)、`skill-marketplace` (06-08 提案、本日 last30days-skill + google/skills の 2 本で大手公式参入フェーズ到達、月内 3 件目で独立化検討)、`stack-map` (06-04+06-06 で 5 層マッピング実装、次回 ecosystem 日に独立化候補)、`vendor-stance` (本日 google のみで 1 本のため純度低下、累積 5 件目で月内 6 件目で独立化検討)。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / ecosystem / trend-pattern / business-angle / use-case のローテーション主軸 + self-experiment の月 2〜3 回スパイクで組む"
+      "本日の discovery.method は `business-angle` (14 日窓 n=1 で avg 1.00、06-01 から 9 日空きで連投ルール完全非該当、直近 2 日 [06-09 self-experiment / 06-08 comparison] と method 衝突なし、本日 TOP5 が 5/5 で具体的金額の incumbent SaaS or 業務委託コスト対応の素材適合度 4.5/5、戦略柱② [比率 15%] の本週消化として配置)。柱② 本週必須要件は本日 Wed 投入で消化、柱③ は 06-09 Tue で消化済、Thu〜Sun は柱① ローテーション主軸で運用",
+      "本日 06-10 TOP5 は継続 3 本 + 新規 1 本 + 再登板 1 本: #1 mvanhorn/last30days-skill=Python / 37,171★ / +3,177 [4 日連続 TOP5 入り・SNS 横断調査 skill・Perplexity Pro 月 20 USD + Tavily/Exa 月 50-200 USD + SerpAPI 月 75 USD 代替]、#2 RyanCodrai/turbovec=Python / 10,105★ / +1,800 [2 日連続・TurboQuant Rust vector index・Python bindings・Pinecone 月 70 USD/百万ベクトル + Weaviate Cloud 月 25 USD + Qdrant Cloud 従量課金代替]、#3 roboflow/supervision=Python / 42,944★ / +735 [完全新規初登場・Roboflow 公式 Python CV 部品集・物体検出/追跡/annotation/データセット変換・受託 CV 案件の boilerplate 工数を週単位から日単位に圧縮]、#4 opencv/opencv=C++ / 88,600★ / +169 [06-08 から 1 日空けて再登板・v5.0 リリース直後・Vision LLM API 月数百 USD 代替の edge CV 基盤・GDPR/HIPAA 配慮]、#5 refactoringhq/tolaria=TypeScript / 14,274★ / +821 [2 日連続・Markdown KB デスクトップアプリ・Notion チーム月 8-15 USD/user + Confluence + Obsidian Sync 月 4 USD 代替・local-first/git 連携]",
+      "本日のマクロ核: 『2026 年 6 月の Wednesday (Wed=153 avg・週次中位帯)、Primary ペルソナの CTO/技術選定者が「来月の SaaS 棚卸し → OSS 内製化」の稟議書を書くタイミング』として読む。5 リポの incumbent SaaS 対応: #1 last30days-skill=Perplexity Pro + SerpAPI / #2 turbovec=Pinecone + Qdrant Cloud / #3 supervision=Roboflow Enterprise + 自前 CV 開発工数 / #4 opencv=Vision LLM API + 自前 edge CV 構築工数 / #5 tolaria=Notion + Confluence + Obsidian Sync。冒頭フックは『AI agent + CV インフラの主要 SaaS に対して具体的金額を持つ OSS 代替が同日 5 リポすべてに対応する稀有な構図』に置き、特に CV 系 2 本 (supervision + opencv) の同日 TOP5 入りは『AI agent ブームの裏側で古典 CV が Vision LLM 時代でも edge/低遅延/オフライン用途で役割再定義されている』マクロシグナルとして提示",
+      "Primary (CTO/技術選定者) には『月次 SaaS 棚卸しの稟議書素材』『Wed 中位帯の予算判断タイミング』として直撃、Secondary (PdM/事業責任者) には『AI/CV インフラ予算の OSS 代替マップ』『今月の SaaS 棚卸しの起点』、Tertiary (学習中エンジニア) には『有償 SaaS の OSS 代替を学ぶ入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に business-angle は柱② の『この人は事業視点で技術を語れる』Primary ペルソナへの差別化シグナル",
+      "継続 3 本の角度切替: #1 last30days-skill は 06-07 use-case → 06-08 comparison → 06-09 self-experiment → 本日 business-angle へ 4 連続角度完全切替、語彙重複なし。#2 turbovec / #5 tolaria は 06-09 self-experiment『本 channel pipeline 試験』→ 本日 business-angle『SaaS 月額代替』へ語彙完全切替。連投ペナルティ条件 (同 method + 同ラインナップ重複 3 本以上) から外す: 本日 method=business-angle は前回 06-01 から 9 日空きで連投ルール完全非該当、ラインナップ重複は 3 本だが角度語彙の完全切替で視聴者疲労を緩和",
+      "06-09 self-experiment『本 channel の〇〇に試した』『routine に入れた』語彙 → 本日 business-angle『月額〇〇 USD 削減』『内製化』『稟議書』『取り戻す』語彙へ完全切替。04-26 business-angle 11 views (Phase 1 期間中の business-angle 最高成績) の成功形式を踏襲: 各 repo に具体金額 + 内製化レバーを 5/5 で提示",
+      "5 本のライセンスは MIT (last30days-skill / supervision / tolaria 想定) + Apache-2.0 (opencv) + 確認要 (turbovec)。business-angle 角度では月額代替が主軸のためライセンスは『商用利用可』の表現で吸収、detail で詳細は外し具体金額に集中する。法務確認用途には sources の各 README リンクを保持",
+      "新規 1 本 (supervision) + 再登板 1 本 (opencv) で CV 系 2 本が同日 TOP5 入り。06-09 (4 本同時新規) / 本日 (CV 2 本 + AI agent 3 本) と『6 月の Trending が AI agent + CV インフラ層で交互に厚みを増す』マクロが継続。Vision LLM ブームの裏側で edge CV (opencv) と CV 開発 boilerplate (supervision) が再評価される 2026 Q2 のシグナル累積 9 件目",
+      "method PDCA の限界注記: 14 日窓 method 平均は comparison (3.75) を除き全て 0〜2.5 views・n≤3 で有意差は小さい。本日の business-angle 採用は『直近 2 日 [06-09 self-experiment / 06-08 comparison] 連投ルール除外』+『前回 business-angle 06-01 から 9 日空き連投ルール完全非該当』+『素材適合度 4.5/5: 5 リポすべてに具体的月額 SaaS or 工数削減対応』+『04-26 business-angle 11 views の成功条件 (具体金額を全 5 本で提示) 再現』+『柱② 本週必須要件を Wed 中位帯で消化し週次柱②③ 両方達成』の 5 根拠で確定",
+      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-18〜06-09 で継続成功 (22 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
+      "同ラインナップ連続 TOP5 入りの累積疲労リスク注記: last30days-skill は本日で 4 日連続 TOP5 入り (06-07 #1 → 06-08 #1 → 06-09 #1 → 06-10 #1)、turbovec/tolaria は 2 日連続。3 本以上連続の last30days-skill は本日 business-angle 角度で『Perplexity Pro 月 20 USD 代替』に切替済、次回 (06-11) 以降も継続入りの場合は detail で『Tavily/Exa 月 50-200 USD』『SerpAPI 月 75 USD』『engagement score の重複統合アルゴリズム』など金額・新情報の追加義務化対象",
+      "次回以降の explore 候補: `saas-cost-table` (新・business-angle 派生で incumbent SaaS の月額 USD vs OSS の self-host 月額の 2 列テーブル UI、本日 5 リポすべてに具体金額があるため次回 business-angle 日に独立化候補)、`cv-reborn` (新・trend-pattern 派生で Vision LLM 時代の古典 CV 役割再定義マクロ、本日 supervision + opencv で観測、次回 CV 系 3 本以上同日に独立化)、`pipeline-fit-matrix` (06-09 提案・self-experiment 派生)、`competitor-cohabit` (06-09 提案・同領域 2 本同日)、`incumbent-disruption` (06-08〜06-09 観測)、`skill-marketplace` (06-08〜06-09 観測)、`stack-map` (継続提案)、`vendor-stance` (継続提案・本日も純度低下で見送り)、`benchmark-table` (継続提案・本日素材なし)。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / ecosystem / business-angle / use-case / trend-pattern / self-experiment のローテーション主軸 + 新 angle の月 2〜3 回スパイクで組む"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-09",
-    "dayOfWeek": "Tue",
+    "date": "2026-06-10",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "AI",
       "生成AI",
       "OSS",
       "AIエージェント",
-      "手を動かす",
-      "実際に試した",
-      "pipeline検証",
-      "AI動画運用",
-      "routine組み込み",
-      "火曜の技術選定",
+      "SaaS棚卸し",
+      "内製化",
+      "月額削減",
+      "予算稟議書",
+      "コスト最適化",
+      "OSS代替",
+      "受託案件",
       "Claude",
       "ClaudeCode",
-      "Cursor",
-      "Codex",
-      "毎朝Trend調査",
-      "動画embedding",
-      "YouTube投稿自動化",
-      "PDCA管理",
-      "SNS収集",
+      "Perplexity代替",
+      "Pinecone代替",
+      "Notion代替",
+      "VLMAPI代替",
+      "Roboflow代替",
       "SNS横断調査skill",
-      "高速vectorIndex",
-      "Google公式skill",
-      "MarkdownKB",
-      "AIagentSNSCLI",
+      "Rust製vectorIndex",
+      "PythonCV部品集",
+      "edgeCV基盤",
+      "MarkdownKBアプリ",
       "last30daysSkill",
       "turbovec",
-      "googleSkills",
+      "supervision",
+      "OpenCV",
       "tolaria",
-      "AgentReach",
+      "ComputerVision",
+      "CV",
+      "RAG",
+      "VectorDB",
       "Python",
       "TypeScript",
-      "Rust",
+      "Cpp",
       "CTO",
       "PdM",
       "個人開発",
       "受託開発",
       "スタートアップ",
-      "柱3"
+      "柱2"
     ],
-    "focus": "火曜 (Tue=361 avg・週次最高帯・Primary ペルソナの『火曜午前の技術選定』タイミング) に `self-experiment` 角度 (14 日窓 n=2 avg 2.50 で comparison [5.00] を除く利用可能 method TOP1、直近 1 日 [06-08 comparison] と method 衝突なし、前回 self-experiment 06-03 から 6 日空きで連投ルール完全非該当) を投入。柱② (business-angle) と柱③ (self-experiment) は先週 (06-01/06-03) 消化済、本週 (06-08〜06-14) は本日 Tue で柱③ を Tue=361 avg 週次最高帯で消化し週次必須要件を最も伸びる日で消化、PDCA 効率最大化、Wed〜Sun は柱① ローテーション主軸で運用。本日 06-09 TOP5 は継続 1 本 + 新規 4 本: #1 mvanhorn/last30days-skill=Python / 34,359★ / +3,558 [3 日連続 TOP5 入り・SNS 横断調査 skill・本 channel の毎朝 Trend 調査 routine 採用]、#2 RyanCodrai/turbovec=Python / 8,738★ / +1,730 [完全新規初登場・TurboQuant Rust vector index・本 channel の動画 embedding 検索に試して見送り]、#3 google/skills=Python / 12,347★ / +481 [完全新規初登場・Google 公式 skill 集・本 channel の YouTube 投稿自動化に試して即採用]、#4 refactoringhq/tolaria=TypeScript / 13,530★ / +649 [完全新規初登場・Markdown KB デスクトップ・本 channel の PDCA note 比較試験]、#5 Panniantong/Agent-Reach=Python / 24,026★ / +796 [完全新規初登場・AI agent 向け Web/SNS 取得 CLI・本 channel で last30days と並走]。素材適合度 5/5: 5 リポすべてが本 channel pipeline の具体工程 (毎朝 Trend 調査 / 動画 embedding 検索 / YouTube 投稿自動化 / PDCA note 管理 / SNS 収集) に固定マッピング可能、過去 self-experiment 成功例 05-28 (3 views, MoneyPrinterTurbo が本 channel pipeline の競合実装) と同等以上の素材適合度。本日のマクロ核: 『2026 年 6 月の Tuesday、本 channel 運用者が「AI agent が外部世界とつながる」インフラ 5 本を毎朝 routine に入れるか実際に試した結果』。冒頭フックは『AI agent が外部情報源にアクセスするインフラ層が同日 5 本 TOP5 入りする稀有な構図』に置き、特に #1 last30days-skill + #5 Agent-Reach の SNS 横断検索同領域競合 2 本同日 TOP5 入りは『AI agent の SNS アクセス基盤』が今最も hot な領域である強いシグナルとして提示。継続 1 本 (last30days-skill) は 06-07 use-case → 06-08 comparison → 本日 self-experiment へ 3 連続角度完全切替し連投ペナルティ回避。05-28 self-experiment 3 views (14d self-experiment TOP1) の成功形式『本 channel の具体的スタックを公開する』を踏襲、06-03 self-experiment 2 views の反省『pipeline 工程との固定マッピングが曖昧』を解消し本日は 5/5 で具体工程に直結。最低 50 views (Tue 平均超え)、理想 400 views (Tue 上位帯への漸近) を目標。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (21 日連続成功継続中)。"
+    "focus": "水曜 (Wed=153 avg・週次中位帯・Primary ペルソナの『月次 SaaS 棚卸し稟議書』タイミング) に `business-angle` 角度 (14 日窓 n=1 avg 1.00、前回 06-01 から 9 日空きで連投ルール完全非該当、直近 2 日 [06-09 self-experiment / 06-08 comparison] と method 衝突なし、戦略柱② 比率 15% の本週消化として配置) を投入。柱② (business-angle) は前週 06-01 で消化、柱③ (self-experiment) は本週 06-09 Tue で消化、本日 06-10 Wed で柱② を消化し週次柱②③ 両方達成、Thu〜Sun は柱① ローテーション主軸で運用可能。本日 06-10 TOP5 は継続 3 本 + 新規 1 本 + 再登板 1 本: #1 mvanhorn/last30days-skill=Python / 37,171★ / +3,177 [4 日連続 TOP5・Perplexity Pro 月 20 USD + SerpAPI 月 75 USD 代替]、#2 RyanCodrai/turbovec=Python / 10,105★ / +1,800 [2 日連続・Pinecone 月 70 USD/百万ベクトル代替]、#3 roboflow/supervision=Python / 42,944★ / +735 [完全新規初登場・受託 CV 案件の boilerplate 工数を週単位から日単位に圧縮]、#4 opencv/opencv=C++ / 88,600★ / +169 [再登板・v5.0 リリース直後・Vision LLM API 月数百 USD 代替の edge CV 基盤]、#5 refactoringhq/tolaria=TypeScript / 14,274★ / +821 [2 日連続・Notion チーム月 8-15 USD/user 代替]。素材適合度 4.5/5: 5 リポすべてに具体的金額の incumbent SaaS or 業務委託コストが対応、特に #1 + #2 + #5 は 1 対 1 の明確な incumbent (Perplexity / Pinecone / Notion) を持ち、#3 + #4 は受託 CV 案件の工数削減という現場直結軸で接続。本日のマクロ核: 『2026 年 6 月の Wednesday、Primary ペルソナの CTO/技術選定者が「来月の SaaS 棚卸し → OSS 内製化」の稟議書を書くタイミング』。冒頭フックは『AI agent + CV インフラの主要 SaaS に対して具体的金額を持つ OSS 代替が同日 5 リポすべてに対応する稀有な構図』に置き、特に CV 系 2 本 (supervision + opencv) の同日 TOP5 入りは『AI agent ブームの裏側で古典 CV が Vision LLM 時代でも edge/低遅延/オフライン用途で役割再定義されている』マクロシグナルとして提示。継続 3 本 (last30days-skill 4 日連続 / turbovec 2 日連続 / tolaria 2 日連続) は前日 self-experiment 角度から本日 business-angle へ語彙完全切替し連投ペナルティ回避。04-26 business-angle 11 views (Phase 1 期間中の business-angle 最高成績) の成功形式『5 本すべてに具体的金額・工数を提示』を踏襲、06-01 business-angle 1 view の反省『金額イメージが narration に乗らず detail にだけ書かれた』を解消し本日は『月額』『内製化』『止める』『取り戻す』を全 5 本の 2 文目に明示。最低 15 views (Wed 平均超え)、理想 150 views (Wed 上位帯への漸近) を目標。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (22 日連続成功継続中)。"
   }
 }
