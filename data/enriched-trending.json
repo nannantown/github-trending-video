@@ -1,22 +1,19 @@
 {
-  "date": "2026-06-10",
+  "date": "2026-06-11",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 06-10 Wed (Wed=153 avg・週次中位帯) の TOP5 を『受託 / スタートアップが組むなら月いくら削れて何人月浮くか』business-angle 角度で 5 本横断料理する。5 本の incumbent SaaS / 工数対応: #1 mvanhorn/last30days-skill (Python/37,171★/+3,177、4 日連続 TOP5・06-07 #1→06-08 #1→06-09 #1→06-10 #1 維持) = Perplexity Pro 月 20 USD + Tavily/Exa Search の月 50-200 USD + SerpAPI の月 75 USD を内製化、受託コンサル/個人事業主の商談前リサーチ工数を skill 1 枚に圧縮 / #2 RyanCodrai/turbovec (Python/10,105★/+1,800、2 日連続) = Pinecone の月 70 USD/百万ベクトル + Weaviate Cloud の月 25 USD + Qdrant Cloud 従量課金を止めて Python bindings で self-host、AI 検索プロダクトの vector DB 月額ゼロ / #3 roboflow/supervision (Python/42,944★/+735、新規初登場) = Roboflow 公式の Python CV 部品集、物体検出/追跡/annotation/データセット変換を部品化し受託 CV 案件の boilerplate 工数を週単位から日単位に圧縮、Roboflow Enterprise の月額契約から OSS 部分を抜き出して内製化 / #4 opencv/opencv (C++/88,600★/+169、再登板) = v5.0 リリースで不動の CV library が再加速、Vision LLM API (GPT-4V 月数百 USD / Gemini Vision 同等) の月額を止めて edge 推論で月額ゼロ・オフライン・GDPR/HIPAA 配慮の CV 基盤を組める / #5 refactoringhq/tolaria (TypeScript/14,274★/+821、2 日連続) = Notion チーム月 8-15 USD/user + Confluence + Obsidian Sync 月 4 USD を止めて local-first/git 連携で社内ナレッジを自前運用。冒頭マクロ核は『2026 年 6 月の Wednesday (Wed=153 avg・週次中位帯)、Primary ペルソナの CTO/技術選定者が週中盤に「月次の SaaS 棚卸し → OSS 内製化」の稟議書を書くタイミング』、トレンドは『AI agent + CV インフラの主要 SaaS に対して具体的金額を持つ OSS 代替が同日 5 リポすべてに対応する稀有な構図』。method=business-angle は 14d 内 n=1 (avg 1.00, 06-01=1) で母数小だが、06-01 から 9 日空きで連投ルール完全非該当、直近 2 日 (06-09 self-experiment / 06-08 comparison) と衝突なし、戦略柱② (比率 15%) の本週消化として配置。素材適合度 4.5/5: 5 リポすべてが具体的な月額 SaaS or 業務委託の代替を持つ、特に #1 last30days-skill + #2 turbovec + #5 tolaria は 1 対 1 の明確な incumbent (Perplexity / Pinecone / Notion) を持ち、#3 supervision + #4 opencv は受託 CV 案件の工数削減という現場直結軸で接続。継続 3 本の角度切替: #1 last30days-skill は 06-07 use-case → 06-08 comparison → 06-09 self-experiment → 本日 business-angle へ 4 連続完全切替で連投ペナルティ回避、#2 turbovec / #5 tolaria は 06-09 self-experiment から本日 business-angle へ語彙切替。新規 1 本 (#3 supervision = 完全新規初登場) + 再登板 1 本 (#4 opencv = 06-08 から 1 日空けて再登板) で素材ラインナップ鮮度確保、04-29-30 型の同 method × 同ラインナップ連投構造から構造的に外す。柱②(business-angle) は前週 06-01 で消化済、本週 (06-08〜06-14) は 06-09 self-experiment で柱③ 消化済、本日で柱② を消化し週次柱②③ 両方達成、Thu〜Sun は柱① ローテーション主軸で運用可能。Primary (CTO/技術選定者) には『月次 SaaS 棚卸しの稟議書素材』として直撃、Secondary (PdM/事業責任者) には『AI/CV インフラ予算の OSS 代替マップ』、Tertiary (学習中エンジニア) には『有償 SaaS の OSS 代替を学ぶ入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に business-angle は柱② の『この人は事業視点で技術を語れる』Primary ペルソナへの差別化シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (22 日連続成功継続中)。Wed=153 avg 中位帯、最低 15 views (Wed 平均超え)、理想 150 views (Wed 上位帯への漸近) を目標。注記: 14d window で business-angle n=1 で統計有意性は弱いが、本選定は『直近 2 日 (06-09 self-experiment / 06-08 comparison) 連投回避』+『前回 business-angle 06-01 から 9 日空き連投ルール完全非該当』+『素材適合度 4.5/5 で 5 リポすべてに具体的月額 SaaS or 工数削減対応』+『04-26 business-angle 11 views の成功条件「具体金額を全 5 本で提示」を踏襲、06-01 business-angle 1 view の反省「金額イメージが narration に乗らず detail にだけ書かれた」を解消』+『柱② 本週必須要件を Wed 中位帯で消化し週次柱②③ 両方達成』の 5 根拠で確定。",
+    "method": "trend-pattern",
+    "description": "本日 06-11 Thu (Thu=176 avg・週次中位帯) の TOP5 を『2026 年 6 月 11 日、GitHub Trending TOP5 の 3/5 が skill 形式 OSS で占有、Anthropic Claude skill + Cowork marketplace が distribution layer として完全離陸した転換点』というマクロ核で 5 本横断料理する。5 本の skill 経済マッピング: #1 addyosmani/agent-skills (Shell/51,599★/+781、完全新規初登場) = Addy Osmani 本人の 23 個 production-grade engineering skills (spec/plan/build/test/review/code-simplify/ship)、Claude Code/Cursor/Gemini CLI/Windsurf/Copilot に外付け可能、`.claude/commands` 等の agent 固有ディレクトリで動作、skill marketplace の『著名個人 production-grade』段階の旗印 / #2 phuryn/pm-skills (Unknown/14,751★/+775、完全新規初登場) = 9 plugins / 68+ skills / 42 chained workflows で PM 業務全工程 (Discovery / Strategy / Execution / Market Research / Data Analytics / Go-to-Market / Marketing & Growth / Toolkit / AI Shipping) をカバー、`/discover` `/strategy` `/write-prd` 等の slash command で起動、skill marketplace の非エンジニア領域への拡張シグナル / #3 refactoringhq/tolaria (TypeScript/14,858★/+618、3 日連続 TOP5) = Markdown 中心のデスクトップ KB 管理アプリ、git 連携 + local-first で『AI agent が読みやすい自前 KB』のテンプレート、skill が参照する補完層 / #4 mvanhorn/last30days-skill (Python/39,006★/+2,561、5 日連続 TOP5 だが #1→#4 後退) = Reddit/X/YouTube/HN/Polymarket 横断の AI リサーチ skill、累計 +1,835★/14 日、skill marketplace の AI agent 向け代表作 / #5 soxoj/maigret (Python/31,962★/+261、完全新規初登場) = username 1 つから 3,000+ サイトを一括調査する OSINT CLI、Sherlock 上位互換 (recursive search + AI-assisted analysis + HTML/PDF/JSON 出力)、2026-04-26 dev release で更新継続、skill フォーマット普及前の『1 コマンドで定型作業を packaging』のラインを引いた pre-skill packaging の代表例。冒頭マクロ核は『過去 30 日で skill marketplace が 3 段階成熟 (05-21 last30days-skill 単独 → 06-08 google/skills 公式参入 → 06-11 agent-skills + pm-skills + last30days-skill 3 本同日)、エンジニア領域 (#1) + 非エンジニア領域 (#2) + AI agent 向け (#4) の用途横展開がほぼ同時に発生』、トレンドは『AI 時代の業務 packaging が skill / KB アプリ / OSINT CLI と複数フォーマットで同時並行進化する 2026 Q2 のマクロ転換点』。method=trend-pattern は 14d 内 n=2 (avg 1.00, 05-29=2 / 06-06=0) の WORST 帯だが、06-09 PDCA で『次回 skill 系 repo 3 本以上同日 TOP5 入りで独立化検討』と明示記録したトリガー条件が **本日初めて成立** したため、explore 側の意図的投入で次回以降の trend-pattern × 高素材適合度の検証データを取得。直近 2 日 (06-10 business-angle / 06-09 self-experiment) と method 衝突なし、前回 trend-pattern 06-06 から 5 日空きで連投ルール完全非該当、戦略柱① (比率 70%) として配置。素材適合度 5/5 (過去 trend-pattern 2 件で初): 5 リポすべてが skill marketplace マクロの 1 ピースとして接続できる構造、3 リポ (#1+#2+#4) は skill 本体、#3 tolaria は skill が参照する KB 補完層、#5 maigret は pre-skill packaging の代表として『skill 化以前の 1 コマンド packaging が再評価される逆流』で接続。継続 2 本の角度切替: #3 tolaria は 06-09 self-experiment → 06-10 business-angle → 本日 trend-pattern へ 3 連続角度完全切替、#4 last30days-skill は use-case → comparison → self-experiment → business-angle → 本日 trend-pattern へ 5 連続角度完全切替で連投ペナルティ回避。新規 3 本 (#1 agent-skills + #2 pm-skills + #5 maigret = 完全新規初登場) でラインナップ鮮度を最大化、過去 14 日で『同日 3 本新規初登場』は 05-30=7 / 06-02=7 と同等の好構成。柱② (business-angle) は本週 06-10 で消化、柱③ (self-experiment) は本週 06-09 で消化、本週柱②③ 両方達成済、本日は柱① 自由枠で Phase 1 の『時流を見抜く』信頼シグナル最大化。Primary (CTO/技術選定者) には『skill 化 / agent 化を社内に組み込むか判断する時期』として直撃、Secondary (PdM/事業責任者) には『PM 業務の skill 化が始まった』として #2 pm-skills が直撃 (本 channel の Primary 偏重を補正する稀有な機会)、Tertiary (学習中エンジニア) には『新しい配布フォーマットの誕生を観察できる』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に trend-pattern は柱① の『この人は時流を見抜ける』Primary ペルソナへの差別化シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (23 日連続成功継続中)。Thu=176 avg 中位帯、最低 17 views (Thu 平均超え)、理想 180 views (Thu 上位帯への漸近) を目標。注記: 14d window で trend-pattern n=2 avg 1.00 は WORST 帯だが、本選定は『直近 2 日 (06-10 business-angle / 06-09 self-experiment) 連投回避』+『前回 trend-pattern 06-06 から 5 日空き連投ルール完全非該当』+『素材適合度 5/5: 過去 trend-pattern 2 件で初の 5/5 整合』+『06-09 PDCA で明示記録した独立化トリガー (skill 系 3 本以上) が本日成立』+『本週柱②③ 前倒し完了で柱① 自由枠』の 5 根拠で確定。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/mvanhorn/last30days-skill",
-      "https://github.com/RyanCodrai/turbovec",
-      "https://github.com/roboflow/supervision",
-      "https://github.com/opencv/opencv",
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/phuryn/pm-skills",
       "https://github.com/refactoringhq/tolaria",
-      "https://www.perplexity.ai/pro",
-      "https://www.pinecone.io/pricing/",
-      "https://qdrant.tech/pricing/",
-      "https://www.notion.com/pricing",
-      "https://roboflow.com/pricing",
-      "https://opencv.org/releases/",
-      "https://docs.anthropic.com/en/docs/claude-code/skills"
+      "https://github.com/mvanhorn/last30days-skill",
+      "https://github.com/soxoj/maigret",
+      "https://docs.anthropic.com/en/docs/claude-code/skills",
+      "https://www.anthropic.com/news/claude-skills",
+      "https://addyosmani.com/blog/",
+      "https://news.ycombinator.com/from?site=github.com%2Faddyosmani"
     ],
     "query": "",
     "freshness_hours": 1
@@ -24,63 +21,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "mvanhorn/last30days-skill",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "language": "Python",
-      "stars": 37171,
-      "todayStars": 3177,
-      "description": "SNS横断調査でPerplexity代替",
-      "detail": "Reddit・X・YouTube・HN・Polymarketなど10以上のSNSを横断するAIリサーチskillです。Perplexity ProやSerpAPIの月額を止めて、受託コンサルの商談前調査を自前内製化できます。",
-      "narration": "SNS横断のAIリサーチskillです。Perplexityの月額を止めて商談前調査を自前で内製化できます。"
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 51599,
+      "todayStars": 781,
+      "description": "skill経済の標準化を示す起点",
+      "detail": "Addy Osmaniによる23個の本番品質エンジニアリングskill集です。Claude Code・Cursor・Gemini CLIに業務手順を外付けでき、skill marketplaceが標準化フェーズに入った合図として一気にトップへ躍り出ました。",
+      "narration": "AIコーディング向けの本番品質skill集です。skill marketplaceが標準化に入った合図です。"
     },
     {
       "rank": 2,
-      "fullName": "RyanCodrai/turbovec",
-      "name": "turbovec",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "language": "Python",
-      "stars": 10105,
-      "todayStars": 1800,
-      "description": "Rust製vector indexで月額削減",
-      "detail": "TurboQuantを使ったRust製のvector indexです。Pinecone・Qdrant Cloudの月額従量課金を止めて、Python bindingsからself-hostで自社RAGを運用できます。",
-      "narration": "Rust製の高速vector indexです。Pineconeの月額従量課金をself-hostで止められます。"
+      "fullName": "phuryn/pm-skills",
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "language": null,
+      "stars": 14751,
+      "todayStars": 775,
+      "description": "PM業務のskill marketplace",
+      "detail": "プロダクトマネージャー向けの9プラグイン・68以上のskillが揃うmarketplaceです。要件定義から成長まで全工程を/discoverや/strategyのslash commandで起動でき、skill化がPM業務へ拡大しています。",
+      "narration": "プロダクトマネージャー向けのskill marketplaceです。技術領域から事業領域へskill化が広がりました。"
     },
     {
       "rank": 3,
-      "fullName": "roboflow/supervision",
-      "name": "supervision",
-      "url": "https://github.com/roboflow/supervision",
-      "language": "Python",
-      "stars": 42944,
-      "todayStars": 735,
-      "description": "受託CV案件の立ち上げ工数を圧縮",
-      "detail": "Roboflow公式のPython向けCV部品集です。物体検出・追跡・annotation・データセット変換まで部品化し、受託案件の自前実装を週単位から日単位の工数に圧縮できます。",
-      "narration": "Pythonで使うCV部品集です。受託CV案件の立ち上げ工数を週単位から日単位に圧縮できます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "opencv/opencv",
-      "name": "opencv",
-      "url": "https://github.com/opencv/opencv",
-      "language": "C++",
-      "stars": 88600,
-      "todayStars": 169,
-      "description": "VLM API代替のedge CV基盤",
-      "detail": "v5.0が公開された不動のCV libraryです。Vision LLM APIの月額を止めてedge推論で運用すれば、月額ゼロかつオフライン・GDPR配慮のCV基盤を自社で組めます。",
-      "narration": "OpenCV v5.0が出ました。VLMのAPI月額を止めてedge推論で月額ゼロのCV基盤を組めます。"
-    },
-    {
-      "rank": 5,
       "fullName": "refactoringhq/tolaria",
       "name": "tolaria",
       "url": "https://github.com/refactoringhq/tolaria",
       "language": "TypeScript",
-      "stars": 14274,
-      "todayStars": 821,
-      "description": "Notion代替Markdown KBアプリ",
-      "detail": "Markdown中心のデスクトップ型ナレッジ基地です。Notion・Confluenceのチーム月額を止めて、git連携のlocal-firstで社内ドキュメントを自前運用できます。",
-      "narration": "Markdown KBのデスクトップアプリです。Notionの月額を止めて社内ナレッジを自前運用できます。"
+      "stars": 14858,
+      "todayStars": 618,
+      "description": "Markdown中心のKBデスクトップ",
+      "detail": "Markdownナレッジ基地のデスクトップアプリです。git連携とlocal-firstでAI agentが読みやすい自前KBを組め、skillが参照する補完層として3日連続でTrending上位に残り続けています。",
+      "narration": "Markdown中心のKBデスクトップアプリです。skillが参照する自前ナレッジ層として伸びています。"
+    },
+    {
+      "rank": 4,
+      "fullName": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars": 39006,
+      "todayStars": 2561,
+      "description": "SNS横断のAIリサーチskill",
+      "detail": "Reddit・X・YouTube・HN・Polymarketなど10以上のSNSを横断するAIリサーチskillです。当日2,561スター増の加速継続で、AI agent向けskillの代表作として5日連続トレンド入りしています。",
+      "narration": "SNS横断リサーチのAI skillです。Reddit、X、YouTubeを束ね、5日連続でトレンド入りしています。"
+    },
+    {
+      "rank": 5,
+      "fullName": "soxoj/maigret",
+      "name": "maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "language": "Python",
+      "stars": 31962,
+      "todayStars": 261,
+      "description": "username一括OSINT CLI",
+      "detail": "username1つから3,000以上のサイトを一括調査するOSINT CLIです。Sherlockの上位互換でAI支援分析やHTML/PDFレポートも吐き出せ、skill化前夜の代表packagingが再評価されています。",
+      "narration": "username1つから数千サイトを横断するOSINT CLIです。skill前夜の代表ツールが再評価されています。"
     }
   ]
 }
