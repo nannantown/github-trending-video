@@ -2355,7 +2355,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2410,7 +2410,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2583,7 +2583,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2634,7 +2634,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
+        "updatedAt": "2026-06-12T00:11:02.033Z"
       }
     },
     {
@@ -3085,24 +3085,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-12T00:11:02.033Z"
+      }
+    },
+    {
+      "videoId": "mA4K2m4wQlc",
+      "videoUrl": "https://youtube.com/shorts/mA4K2m4wQlc",
+      "date": "2026-06-12",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/12 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Swift",
+        "Python"
+      ],
+      "languages": [
+        "Swift",
+        "Shell",
+        "Python"
+      ],
+      "projects": [
+        "apple/container",
+        "addyosmani/agent-skills",
+        "maziyarpanahi/openmed",
+        "phuryn/pm-skills",
+        "NVIDIA/SkillSpector"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日 06-12 Fri (Fri=310 avg・週次最強帯) の TOP5 を『有償incumbent (SaaS / IDE / API / 監査ツール) vs OSS による内製化』の 1 対 1 対比で 5 本横断料理する。5 本の incumbent マッピング: #1 apple/container (Swift/32,217★/+2,419、完全新規初登場) = Apple Silicon 最適化の軽量 VM 方式 OCI 互換 Linux コンテナ、Docker Desktop の Mac Business プラン月 9 USD/user を直接置き換える Apache-2.0 ライセンス / #2 addyosmani/agent-skills (Shell/54,576★/+3,275、2 日連続 TOP5) = Addy Osmani 本人の 23 個 production-grade engineering skill、Cursor Business / Copilot Enterprise のチーム標準配布機能 ($40/user/month 想定) を OSS で無料化、spec/plan/build/test/review/ship の slash command で Claude Code / Cursor / Gemini CLI / Windsurf / Copilot 横断対応 / #3 maziyarpanahi/openmed (Python/2,721★/+427、完全新規初登場) = 1,000+ 医療特化モデルを束ねた Apache-2.0 OSS、GPT-4 Medical API の従量課金 ($0.03/1k tokens) + 医療データ外部送信リスクを on-device 内製化、HIPAA Safe Harbor 18 項目 PII 除去 + Apple Silicon MLX 24-33 倍速 + 12 言語対応 / #4 phuryn/pm-skills (Unknown/16,157★/+1,944、2 日連続 TOP5) = 9 plugins / 68 skills / 42 chained workflows の PM 業務マーケット、Notion AI 月 10 USD/user + ChatGPT Team 月 30 USD/user = 計 40 USD/user/月を OSS 1 本で内製化、/discover /strategy /write-prd /plan-launch の slash command / #5 NVIDIA/SkillSpector (Python/2,588★/+308、完全新規初登場) = NVIDIA 製の AI agent skill 専用 security scanner、Snyk Code AppSec 月 25 USD/dev の AI 版として無料化、prompt injection / data exfiltration / MCP tool poisoning など 16 カテゴリ 64 パターン検出、研究では既存 skill の 26.1% に脆弱性 + 5.2% に悪意確認。冒頭マクロ核は『2026 年 6 月の金曜日 (Fri=310 avg・週次最強帯)、CTO / PdM が来週の SaaS 棚卸しを確定する金曜タイミングで、Apple 純正 Docker 代替 + Cursor 代替 + GPT-4 Medical API 代替 + Notion AI+ChatGPT Team 代替 + Snyk Code 代替の 5 ストライプが同日に揃った稀有な構図、稟議書に「来月から月 X USD 削減」と即書ける』。method=comparison は 14d 内 TOP method (n=4, avg 3.75, 7-view ピーク 2 件)、前回 comparison 06-08 から 4 日空きで連投ルール完全非該当。直近 2 日 (06-11 trend-pattern / 06-10 business-angle) と method 衝突なし、新規 3 本 (apple/container + openmed + SkillSpector) + 継続 2 本 (agent-skills 2 連続 / pm-skills 2 連続) で鮮度 3/5 確保。継続 2 本の角度切替: agent-skills は 06-11 trend-pattern → 本日 comparison、pm-skills も同様に切替、前日語彙『skill marketplace』『マクロ転換点』『業務 packaging』を本日『月額削減』『内製化』『稟議書』『置き換え』へ完全切替で連投ペナルティを語彙差分で緩和。素材適合度 5/5: 5 リポすべてに具体的 incumbent (Docker Desktop / Cursor Business / GPT-4 Medical API / Notion AI+ChatGPT Team / Snyk Code) が 1:1 で対応、各 incumbent に月額 USD または従量課金ピン留めが narration の 2 文目で 1 文に収まる構造、過去 comparison 7-view ピーク 2 件 (05-30 / 06-02) の成功形式『1:1 対比 + 月額提示』を踏襲。本週 (06-08〜06-14) 柱②③ は 06-09 self-experiment / 06-10 business-angle で前倒し消化済、Thu〜Sun は柱① 自由枠で運用、本日 Fri は週次最強帯で『金曜の今週ハイライト』タイミング、Primary (CTO/技術選定) には『来週の SaaS 整理リスト確定』、Secondary (PdM) には『PM 業務 SaaS の OSS 代替で月 40 USD/user 削減』として 2 層直撃。Phase 1 のフォロワー獲得を支える運用主軸 method の再強化、Phase 1 の『この OSS は今月の予算稟議書に書ける』という直接的判断材料を最大化。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (24 日連続成功継続中)。Fri=310 avg 週次最強帯、最低 30 views (Fri 平均超え)、理想 500 views (Fri 上位帯への漸近) を目標。注記: 14d window で comparison は TOP method だが直近 06-05 (1 view) / 06-08 (0 view) の連敗で『継続偏重で鮮度低下』の失敗パターンも観測、本日は新規 3 本でラインナップ鮮度を 3/5 に引き上げ + 5/5 素材適合度で 06-08 失敗パターンを構造的に解消、本選定は『直近 2 日 (06-11 trend-pattern / 06-10 business-angle) 連投回避』+『前回 comparison 06-08 から 4 日空き連投ルール非該当』+『素材適合度 5/5: 5 リポすべてに 1:1 incumbent 対応』+『Fri=310 avg 週次最強帯』+『新規 3 本でラインナップ鮮度 3/5』の 5 根拠で確定。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/apple/container",
+          "https://github.com/apple/container/blob/main/docs/technical-overview.md",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/maziyarpanahi/openmed",
+          "https://github.com/phuryn/pm-skills",
+          "https://github.com/NVIDIA/SkillSpector",
+          "https://docs.docker.com/subscription/",
+          "https://www.cursor.com/pricing",
+          "https://snyk.io/plans/"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-07",
-      "changes": [
-        "Rust: 0.6x avg views → drop",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.4x avg views → drop",
-        "standard: 275 avg views (30 videos)",
-        "Trending languages: Kotlin (1.5x), C++ (1.9x), Jupyter Notebook (1.4x)",
-        "Day performance: Fri=618, Tue=540, Thu=281, Wed=267, Sat=155, Mon=97, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-08",
       "changes": [
@@ -3489,6 +3533,19 @@
         "standard: 141 avg views (59 videos)",
         "Trending languages: Kotlin (2.8x), C++ (2.3x), Jupyter Notebook (2.8x)",
         "Day performance: Tue=310, Fri=276, Thu=157, Wed=134, Sat=71, Mon=55, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-12",
+      "changes": [
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.8x avg views → drop",
+        "standard: 138 avg views (60 videos)",
+        "Trending languages: Kotlin (2.9x), C++ (2.3x), Jupyter Notebook (2.8x)",
+        "Day performance: Tue=310, Fri=276, Thu=141, Wed=134, Sat=71, Mon=55, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
