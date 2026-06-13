@@ -2410,7 +2410,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2583,7 +2583,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2634,7 +2634,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.939Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-13T00:09:52.436Z"
+        "updatedAt": "2026-06-13T23:54:45.940Z"
       }
     },
     {
@@ -3194,6 +3194,59 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-13T23:54:45.940Z"
+      }
+    },
+    {
+      "videoId": "FkFdUmLyODI",
+      "videoUrl": "https://youtube.com/shorts/FkFdUmLyODI",
+      "date": "2026-06-14",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/14 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Ruby"
+      ],
+      "languages": [
+        "TypeScript",
+        "Shell",
+        "Ruby",
+        "Swift"
+      ],
+      "projects": [
+        "iptv-org/iptv",
+        "addyosmani/agent-skills",
+        "chatwoot/chatwoot",
+        "obra/superpowers",
+        "apple/container"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "5 リポを architecture signature で対比、AI agent skill 実装の 2 方式 + per-VM コンテナ + Rails monolith + 宣言的 M3U catalog の実装図鑑",
+        "sources": [
+          "https://github.com/iptv-org/iptv",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/chatwoot/chatwoot",
+          "https://github.com/obra/superpowers",
+          "https://github.com/apple/container"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -3202,18 +3255,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-09",
-      "changes": [
-        "Rust: 0.6x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.4x avg views → drop",
-        "standard: 258 avg views (32 videos)",
-        "Trending languages: Kotlin (1.5x), C++ (2.1x), Jupyter Notebook (1.5x)",
-        "Day performance: Tue=540, Fri=495, Thu=281, Wed=267, Sat=124, Mon=97, Sun=8"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-10",
       "changes": [
@@ -3603,6 +3644,19 @@
         "standard: 136 avg views (61 videos)",
         "Trending languages: Kotlin (2.9x), C++ (2.3x), Jupyter Notebook (2.9x)",
         "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=71, Mon=55, Sun=5"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-13",
+      "changes": [
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.6x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 134 avg views (62 videos)",
+        "Trending languages: Kotlin (3.0x), C++ (2.4x), Jupyter Notebook (2.9x)",
+        "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=55, Sun=5"
       ],
       "recommendedTemplate": "standard"
     }
