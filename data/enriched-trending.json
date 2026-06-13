@@ -1,15 +1,14 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "discovery": {
-    "method": "ecosystem",
-    "description": "週末に組み立てる self-host スタック — 本日 06-13 Sat (Sat=79 avg・週末モード・週末 DIY 文脈) の TOP5 を『有償 SaaS / クローズド機器に頼らず OSS だけで縦に組み上げる自分のデジタル環境 5 層』として束ねて 1 本の実装ガイドに整える。5 リポの層対応マッピング: #1 addyosmani/agent-skills (Shell/56,702★/+2,660、3 日連続 TOP5・06-11 #1 → 06-12 #2 → 06-13 #1 で順位 V 字復帰) = AI 開発エージェントを動かす『skill 配布層 (workbench layer)』、Addy Osmani の 23 個 production-grade engineering skill を Claude Code / Cursor / Gemini CLI / Windsurf / Copilot に外付け、自前開発環境のワークフロー核となる layer / #2 music-assistant/server (Python/1,759★/+6、完全新規初登場) = 自宅オーディオの『メディアサーバ層 (home media layer)』、Apache-2.0 で Raspberry Pi / NAS / Intel NUC に置き、Spotify 等のストリーミング各社と Sonos 等のスマートスピーカーを横断するハブ、Home Assistant 連携で IoT 自宅環境の音楽核を担う / #3 mattermost/mattermost (TypeScript/37,608★/+391、完全新規初登場) = チームの会話を自社サーバに置く『コラボ層 (collaboration layer)』、Go 製の一枚バイナリ + PostgreSQL、MIT 月次配布、Docker / K8s / オンプレデプロイ、DevSecOps やインシデント対応の常設チャット、Slack / Teams を自前に置き換える / #4 apple/container (Swift/34,996★/+3,513、2 日連続 TOP5・06-12 #1 → 06-13 #4) = Mac で Linux コンテナを動かす『ランタイム実行層 (runtime layer)』、Apple 純正の OCI 互換コンテナツール、Apple Silicon 最適化軽量 VM 方式、macOS 26+、Apache-2.0、self-host スタックの土台 OS layer / #5 iptv-org/iptv (TypeScript/118,000★/+142、完全新規初登場) = 配信コンテンツの『コンテンツ層 (content layer)』、世界各国の公開 IPTV チャンネルを M3U プレイリスト形式で束ねた Unlicense カタログ、VLC 等のプレイヤーに貼るだけで世界中のテレビが見れる、self-host スタックの最上段 content layer。冒頭マクロ核は『2026 年 6 月の土曜日 (Sat=79 avg・週末モード)、開発者 / ホビイスト / リモートチームが週末 DIY で自分のデジタル環境を組み立てるタイミングで、開発エージェント (skill) → コンテナランタイム (apple/container) → コラボ層 (mattermost) → 家のメディア (music-assistant) → 配信コンテンツ (iptv) の縦 5 層が同日 TOP5 に揃った稀有な構図』。method=ecosystem は 14d 内 TOP-2 method (n=2 平均 2.5、05-31 Sat=4 views ピーク + 06-04 Thu=1 view、前回 06-04 から 9 日空きで連投ルール完全非該当、直近 2 日 [06-12 comparison / 06-11 trend-pattern] と method 衝突なし)、戦略柱① (比率 70%) として配置。本週柱② (business-angle) は 06-10 Wed、柱③ (self-experiment) は 06-09 Tue で前倒し消化済、本日 Sat は柱① 自由枠で運用可能。素材適合度 5/5: 5 リポすべてに『self-host スタックの異なる layer 役』が 1 対 1 で対応、各 narration の 2 文目で『何の層で / 何をハブ化するか』を 1 文に収められる構造、過去 ecosystem ピーク 05-31 (4 views) の成功条件『5 本が異なる layer に綺麗に分かれる』を本日も満たす。継続 2 本 (agent-skills 3 連続 / apple/container 2 連続) の角度切替: agent-skills は 06-11 trend-pattern (skill marketplace の旗印) → 06-12 comparison (Cursor Business の月額置き換え) → 06-13 ecosystem (skill 配布層) へ完全切替、apple/container は 06-12 comparison (Docker Desktop の月額置き換え) → 06-13 ecosystem (Mac の Linux ランタイム層) へ切替、語彙『月額削減』『内製化』『置き換え』『稟議書』から『5 層の縦スタック』『self-host』『ハブ化』『DIY 自前』へ完全切替、Primary (CTO/技術選定) には『週末に縦スタック組み直す機会』、Secondary (PdM) には『チームの会話を OSS で自社に取り戻す』、Tertiary (学習中エンジニア + ホビイスト) には『1 本で自分の環境を組める実装ガイド』として届く 3 層対応。Sat=79 avg は週次最弱帯だが『週末 DIY』タイミングは Tertiary (学習中) と Hobby 寄り Primary に届きやすく、self-host スタック角度は曜日適合度が高い。前回 ecosystem 投入 05-31 Sun=4 views で同曜日帯 (Sun=5 avg) の上振れ例あり、本日 Sat=79 avg と組み合わせて再現を狙う。Phase 1 のフォロワー獲得を支える運用主軸の 1 つとして ecosystem を 9 日空け後に再投入、05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (25 日連続成功継続中)。",
+    "method": "tech-deep",
+    "description": "5 リポを architecture signature で対比、AI agent skill 実装の 2 方式 + per-VM コンテナ + Rails monolith + 宣言的 M3U catalog の実装図鑑",
     "sources": [
-      "https://github.com/trending",
+      "https://github.com/iptv-org/iptv",
       "https://github.com/addyosmani/agent-skills",
-      "https://github.com/music-assistant/server",
-      "https://github.com/mattermost/mattermost",
-      "https://github.com/apple/container",
-      "https://github.com/iptv-org/iptv"
+      "https://github.com/chatwoot/chatwoot",
+      "https://github.com/obra/superpowers",
+      "https://github.com/apple/container"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +16,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "Shell",
-      "stars": 56702,
-      "todayStars": 2660,
-      "description": "AIエージェントの開発skill層",
-      "detail": "Addy Osmaniが公開した23本のproduction-grade engineering skill集です。Claude CodeやCursor、Gemini CLI、Windsurf、Copilotに差し込むだけで、AIエージェントの作業フローを横断で揃えられる開発スタックの中核レイヤです。",
-      "narration": "AIエージェントの土台層を担うskill集です。Claude CodeやCursorに足すだけで標準装備にできます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "music-assistant/server",
-      "name": "server",
-      "url": "https://github.com/music-assistant/server",
-      "language": "Python",
-      "stars": 1759,
-      "todayStars": 6,
-      "description": "家の音楽を束ねるメディアサーバ",
-      "detail": "Apache-2.0の自前メディアライブラリです。Raspberry PiやNASに置いてSpotify等のストリーミングを束ね、Sonos等のスマートスピーカーへ配信できます。Home Assistantとつないで自宅オーディオ基盤として動かせます。",
-      "narration": "家の音楽を束ねる自前メディアサーバです。Raspberry PiやNASでストリーミング各社を横断できます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "mattermost/mattermost",
-      "name": "mattermost",
-      "url": "https://github.com/mattermost/mattermost",
-      "language": "TypeScript",
-      "stars": 37608,
-      "todayStars": 391,
-      "description": "自前で建てるSlack代替の会話層",
-      "detail": "MITで自社運用できるSlack / Teams代替の会話プラットフォームです。Go製の一枚バイナリとPostgreSQLで立ち上がり、Docker、Kubernetes、オンプレに置けて、DevSecOpsやインシデント対応の常設チャットに使えます。",
-      "narration": "自社サーバに置けるSlack代替の会話層です。GoとPostgreSQLの一枚バイナリで運用できます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "apple/container",
-      "name": "container",
-      "url": "https://github.com/apple/container",
-      "language": "Swift",
-      "stars": 34996,
-      "todayStars": 3513,
-      "description": "Mac純正のLinuxコンテナ実行層",
-      "detail": "Apple純正のOCI互換コンテナツールで、Apple Silicon最適化の軽量VM方式で起動します。macOS 26以上のMac向けでApache-2.0ライセンス、Docker Desktopに頼らずMac上で自前のLinux実行環境を組み立てられます。",
-      "narration": "MacでLinuxコンテナを動かす純正ランタイムです。Apple Siliconに最適化した軽量VMで起動します。"
-    },
-    {
-      "rank": 5,
       "fullName": "iptv-org/iptv",
       "name": "iptv",
       "url": "https://github.com/iptv-org/iptv",
       "language": "TypeScript",
-      "stars": 118000,
-      "todayStars": 142,
-      "description": "世界中の無料テレビを集めた配信層",
-      "detail": "世界各国の公開IPTVチャンネルをM3Uプレイリスト形式で束ねたUnlicenseのカタログです。VLC等のプレイヤーへURLを貼るだけで世界中のテレビ放送を視聴でき、self-hostスタックの最上段コンテンツ層を担います。",
-      "narration": "世界中のテレビ放送をM3Uで束ねたコンテンツ層です。playerに貼るだけで自前のテレビ環境が組めます。"
+      "stars": 118998,
+      "todayStars": 650,
+      "description": "世界中のテレビを集めた巨大M3U目録",
+      "detail": "世界各国の公開IPTVチャンネルをM3U形式で束ねたUnlicense配布の目録リポジトリです。配信インフラは持たずメタデータと番組URLだけを管理する宣言的catalog設計で、VLCなどのplayerに貼れば動き、CDNを自前で持つ必要がありません。",
+      "narration": "世界中のテレビ局を1枚のプレイリストにまとめた目録です。M3Uを貼るだけでplayerが動きます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 58267,
+      "todayStars": 1507,
+      "description": "24本のMarkdownで作るAI技能集",
+      "detail": "Addy Osmani氏が24本のproduction-grade skillをMarkdownでまとめた配布リポです。Define/Plan/Build/Verify/Review/Shipの6 phaseに対応、Claude CodeやCursorに置くだけで動きます。",
+      "narration": "AI agentの能力をMarkdownの指示書で足す方式です。Claude Codeに24本の.mdを置けば動きます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "chatwoot/chatwoot",
+      "name": "chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "language": "Ruby",
+      "stars": 30820,
+      "todayStars": 86,
+      "description": "自社運用できる問い合わせ統合基盤",
+      "detail": "live chatからメール、SNS、WhatsAppまで顧客接点を1つの受信箱に集める自社運用の問い合わせ基盤です。Ruby on RailsとVue.jsの一枚スタックでDockerから起動でき、MIT配布でIntercomやZendeskの代替として使えます。",
+      "narration": "問い合わせを1つの受信箱に集める自社運用の基盤です。RailsとVueの構成でIntercomの代替になります。"
+    },
+    {
+      "rank": 4,
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 227000,
+      "todayStars": 931,
+      "description": "AI agentに開発手順を仕込む枠組",
+      "detail": "Jesse Vincent氏が設計したagentic skills frameworkで、AI agentに設計から計画、TDD、reviewまでの開発手順を強制する方法論です。Shell中心の薄い実装で複数時間の自律作業セッションを支え、MIT配布で公開されています。",
+      "narration": "AI agentに開発手順そのものを叩き込む枠組みです。設計からTDDまでShellで段階を踏ませる方法論です。"
+    },
+    {
+      "rank": 5,
+      "fullName": "apple/container",
+      "name": "container",
+      "url": "https://github.com/apple/container",
+      "language": "Swift",
+      "stars": 36234,
+      "todayStars": 1471,
+      "description": "Mac純正のLinuxコンテナ実行基盤",
+      "detail": "Apple Silicon最適化の軽量VMでLinuxコンテナを1個ずつ専用VM上で動かすApple純正のランタイムです。macOS 26以上のApache-2.0配布、OCI互換でdockerイメージをそのまま起動できます。",
+      "narration": "コンテナを1個ずつ専用VMで動かすApple純正の方式です。Apple Silicon上でOCI互換が動きます。"
     }
   ]
 }
