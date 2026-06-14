@@ -1,14 +1,14 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "discovery": {
-    "method": "tech-deep",
-    "description": "5 リポを architecture signature で対比、AI agent skill 実装の 2 方式 + per-VM コンテナ + Rails monolith + 宣言的 M3U catalog の実装図鑑",
+    "method": "business-angle",
+    "description": "TOP5 を受託・スタートアップ視点で料理、5 本の mature infrastructure-grade tools が実案件で浮かせる金額や incumbent SaaS の置き換えコストに焦点を当てた『今週の決まり手』図鑑",
     "sources": [
       "https://github.com/iptv-org/iptv",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/chatwoot/chatwoot",
-      "https://github.com/obra/superpowers",
-      "https://github.com/apple/container"
+      "https://github.com/freeCodeCamp/freeCodeCamp",
+      "https://github.com/pytest-dev/pytest",
+      "https://github.com/swc-project/swc",
+      "https://github.com/chatwoot/chatwoot"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,59 +20,59 @@
       "name": "iptv",
       "url": "https://github.com/iptv-org/iptv",
       "language": "TypeScript",
-      "stars": 118998,
-      "todayStars": 650,
-      "description": "世界中のテレビを集めた巨大M3U目録",
-      "detail": "世界各国の公開IPTVチャンネルをM3U形式で束ねたUnlicense配布の目録リポジトリです。配信インフラは持たずメタデータと番組URLだけを管理する宣言的catalog設計で、VLCなどのplayerに貼れば動き、CDNを自前で持つ必要がありません。",
-      "narration": "世界中のテレビ局を1枚のプレイリストにまとめた目録です。M3Uを貼るだけでplayerが動きます。"
+      "stars": 120768,
+      "todayStars": 1531,
+      "description": "自社サービスにTV機能を載せる一次ソース",
+      "detail": "世界各国の公開IPTVチャンネルをM3U形式で束ねたUnlicense配布の目録です。自社のメディアサービスにライブ番組を載せる時、配信CDNを自前で持たずメタデータだけで世界中のチャンネルを組み込めます。",
+      "narration": "自社サービスにライブTV機能を載せる時の一次ソースです。配信インフラを持たずに世界中のチャンネルが使えます。"
     },
     {
       "rank": 2,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "Shell",
-      "stars": 58267,
-      "todayStars": 1507,
-      "description": "24本のMarkdownで作るAI技能集",
-      "detail": "Addy Osmani氏が24本のproduction-grade skillをMarkdownでまとめた配布リポです。Define/Plan/Build/Verify/Review/Shipの6 phaseに対応、Claude CodeやCursorに置くだけで動きます。",
-      "narration": "AI agentの能力をMarkdownの指示書で足す方式です。Claude Codeに24本の.mdを置けば動きます。"
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "name": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "language": "TypeScript",
+      "stars": 447141,
+      "todayStars": 253,
+      "description": "社内エンジニア研修を0円で組める教材",
+      "detail": "コーディング学習の事実上の標準カリキュラムを無料配布する非営利OSSです。数学やプログラミング、CSまで網羅した教材を社内研修に流用すれば、コンテンツ作成費を浮かせて0円から社員教育の骨格を組めます。",
+      "narration": "社内エンジニア研修を0円で組める教材集です。学習カリキュラムをそのまま社員教育の骨格に流用できます。"
     },
     {
       "rank": 3,
+      "fullName": "pytest-dev/pytest",
+      "name": "pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "language": "Python",
+      "stars": 14016,
+      "todayStars": 8,
+      "description": "Python案件の保守費を下げる定番テスト",
+      "detail": "Python向けの事実上の標準テストフレームワークです。assert一行でテストが書け、fixtureとpluginの組み合わせで複雑な統合テストにも対応、受託案件の初期に入れるだけで後の改修・保守コストを大きく圧縮できます。",
+      "narration": "Python案件の保守費を下げる定番テスト基盤です。プロジェクト初期に入れるだけで後の改修コストが大きく減ります。"
+    },
+    {
+      "rank": 4,
+      "fullName": "swc-project/swc",
+      "name": "swc",
+      "url": "https://github.com/swc-project/swc",
+      "language": "Rust",
+      "stars": 33766,
+      "todayStars": 163,
+      "description": "ビルドを20倍速くするRust製コンパイラ",
+      "detail": "Rust製のJavaScript/TypeScriptコンパイラとバンドラーで、Next.jsやTurbopackの心臓部に採用されています。Babel比でビルドが大幅に速くなり、CIの実行時間とクラウド費用の削減に直結する Apache-2.0 配布のツールです。",
+      "narration": "Babelの代わりにビルドを20倍速くするRust製コンパイラです。CI実行時間が短くなり月額費用が下がります。"
+    },
+    {
+      "rank": 5,
       "fullName": "chatwoot/chatwoot",
       "name": "chatwoot",
       "url": "https://github.com/chatwoot/chatwoot",
       "language": "Ruby",
-      "stars": 30820,
-      "todayStars": 86,
-      "description": "自社運用できる問い合わせ統合基盤",
-      "detail": "live chatからメール、SNS、WhatsAppまで顧客接点を1つの受信箱に集める自社運用の問い合わせ基盤です。Ruby on RailsとVue.jsの一枚スタックでDockerから起動でき、MIT配布でIntercomやZendeskの代替として使えます。",
-      "narration": "問い合わせを1つの受信箱に集める自社運用の基盤です。RailsとVueの構成でIntercomの代替になります。"
-    },
-    {
-      "rank": 4,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 227000,
-      "todayStars": 931,
-      "description": "AI agentに開発手順を仕込む枠組",
-      "detail": "Jesse Vincent氏が設計したagentic skills frameworkで、AI agentに設計から計画、TDD、reviewまでの開発手順を強制する方法論です。Shell中心の薄い実装で複数時間の自律作業セッションを支え、MIT配布で公開されています。",
-      "narration": "AI agentに開発手順そのものを叩き込む枠組みです。設計からTDDまでShellで段階を踏ませる方法論です。"
-    },
-    {
-      "rank": 5,
-      "fullName": "apple/container",
-      "name": "container",
-      "url": "https://github.com/apple/container",
-      "language": "Swift",
-      "stars": 36234,
-      "todayStars": 1471,
-      "description": "Mac純正のLinuxコンテナ実行基盤",
-      "detail": "Apple Silicon最適化の軽量VMでLinuxコンテナを1個ずつ専用VM上で動かすApple純正のランタイムです。macOS 26以上のApache-2.0配布、OCI互換でdockerイメージをそのまま起動できます。",
-      "narration": "コンテナを1個ずつ専用VMで動かすApple純正の方式です。Apple Silicon上でOCI互換が動きます。"
+      "stars": 31184,
+      "todayStars": 399,
+      "description": "Intercom月額を丸ごと置き換える基盤",
+      "detail": "live chatやメール、WhatsApp、SNSの顧客接点を1つの受信箱に集約するMIT配布のサポート基盤です。Intercomの月99ドルやZendesk Suiteの55ドル/seatをそのまま置き換えられ、50席規模で年に数百万円のサポート費が浮きます。",
+      "narration": "Intercomの月額を丸ごと置き換える自社運用の基盤です。50席規模で年に数百万円のサポート費が浮きます。"
     }
   ]
 }
