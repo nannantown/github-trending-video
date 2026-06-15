@@ -1,13 +1,14 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "discovery": {
-    "method": "business-angle",
-    "description": "TOP5 を受託・スタートアップ視点で料理、5 本の mature infrastructure-grade tools が実案件で浮かせる金額や incumbent SaaS の置き換えコストに焦点を当てた『今週の決まり手』図鑑",
+    "method": "comparison",
+    "description": "本日の TOP5 を商用 SaaS / プロプラ製品との 1:1 差分で語る。Pluto TV・TeslaFi・Apify・Istio + ArgoCD + Rancher・Intercom + Zendesk と、5 本それぞれに明確な incumbent が立つ理想的な対比構図",
     "sources": [
+      "https://github.com/trending",
       "https://github.com/iptv-org/iptv",
-      "https://github.com/freeCodeCamp/freeCodeCamp",
-      "https://github.com/pytest-dev/pytest",
-      "https://github.com/swc-project/swc",
+      "https://github.com/teslamate-org/teslamate",
+      "https://github.com/Panniantong/Agent-Reach",
+      "https://github.com/meshery/meshery",
       "https://github.com/chatwoot/chatwoot"
     ],
     "query": "",
@@ -20,47 +21,47 @@
       "name": "iptv",
       "url": "https://github.com/iptv-org/iptv",
       "language": "TypeScript",
-      "stars": 120768,
-      "todayStars": 1531,
-      "description": "自社サービスにTV機能を載せる一次ソース",
-      "detail": "世界各国の公開IPTVチャンネルをM3U形式で束ねたUnlicense配布の目録です。自社のメディアサービスにライブ番組を載せる時、配信CDNを自前で持たずメタデータだけで世界中のチャンネルを組み込めます。",
-      "narration": "自社サービスにライブTV機能を載せる時の一次ソースです。配信インフラを持たずに世界中のチャンネルが使えます。"
+      "stars": 122786,
+      "todayStars": 2650,
+      "description": "世界中のIPTV局を集めたm3u集",
+      "detail": "Unlicenseで公開された巨大なm3uプレイリストです。Pluto TVやStremioと違い再生プレイヤーは自前で用意しますが、対応国数とチャンネル網羅で頭ひとつ抜けています。",
+      "narration": "Pluto TVより自由度が高いm3u集です。再生環境を自前で組めるならカバー国数で圧倒します。"
     },
     {
       "rank": 2,
-      "fullName": "freeCodeCamp/freeCodeCamp",
-      "name": "freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "language": "TypeScript",
-      "stars": 447141,
-      "todayStars": 253,
-      "description": "社内エンジニア研修を0円で組める教材",
-      "detail": "コーディング学習の事実上の標準カリキュラムを無料配布する非営利OSSです。数学やプログラミング、CSまで網羅した教材を社内研修に流用すれば、コンテンツ作成費を浮かせて0円から社員教育の骨格を組めます。",
-      "narration": "社内エンジニア研修を0円で組める教材集です。学習カリキュラムをそのまま社員教育の骨格に流用できます。"
+      "fullName": "teslamate-org/teslamate",
+      "name": "teslamate",
+      "url": "https://github.com/teslamate-org/teslamate",
+      "language": "Elixir",
+      "stars": 8214,
+      "todayStars": 35,
+      "description": "Tesla用の自前データ収集サーバ",
+      "detail": "Postgres+Grafanaで充電履歴と電池劣化、走行コストを可視化します。TeslaFiやTezLabと違い月額不要で、車両のスリープを邪魔せず電池減りを抑える設計が固有の強みです。",
+      "narration": "TeslaFiの月額が惜しい人向けの自前データ基盤です。スリープを壊さない設計が他と決定的に違います。"
     },
     {
       "rank": 3,
-      "fullName": "pytest-dev/pytest",
-      "name": "pytest",
-      "url": "https://github.com/pytest-dev/pytest",
+      "fullName": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
       "language": "Python",
-      "stars": 14016,
-      "todayStars": 8,
-      "description": "Python案件の保守費を下げる定番テスト",
-      "detail": "Python向けの事実上の標準テストフレームワークです。assert一行でテストが書け、fixtureとpluginの組み合わせで複雑な統合テストにも対応、受託案件の初期に入れるだけで後の改修・保守コストを大きく圧縮できます。",
-      "narration": "Python案件の保守費を下げる定番テスト基盤です。プロジェクト初期に入れるだけで後の改修コストが大きく減ります。"
+      "stars": 30024,
+      "todayStars": 1045,
+      "description": "AIエージェント用のWeb閲覧CLI",
+      "detail": "yt-dlpなど実績のあるOSSを束ねTwitterやReddit、Bilibiliを横断検索します。Apifyのような従量課金は不要で、フォールバック切替で取得失敗にも強い構成です。",
+      "narration": "ApifyやBright Dataの代わりに無料OSSで束ねる発想です。失敗時のバックエンド切替も自動です。"
     },
     {
       "rank": 4,
-      "fullName": "swc-project/swc",
-      "name": "swc",
-      "url": "https://github.com/swc-project/swc",
-      "language": "Rust",
-      "stars": 33766,
-      "todayStars": 163,
-      "description": "ビルドを20倍速くするRust製コンパイラ",
-      "detail": "Rust製のJavaScript/TypeScriptコンパイラとバンドラーで、Next.jsやTurbopackの心臓部に採用されています。Babel比でビルドが大幅に速くなり、CIの実行時間とクラウド費用の削減に直結する Apache-2.0 配布のツールです。",
-      "narration": "Babelの代わりにビルドを20倍速くするRust製コンパイラです。CI実行時間が短くなり月額費用が下がります。"
+      "fullName": "meshery/meshery",
+      "name": "meshery",
+      "url": "https://github.com/meshery/meshery",
+      "language": "TypeScript",
+      "stars": 10605,
+      "todayStars": 227,
+      "description": "380連携のCloud Native管理盤",
+      "detail": "Istio制御面やArgoCDに留まらず、380以上の統合をビジュアルで設計できる管理プレーンです。Rancherより範囲が広く、マルチクラウドのGitOpsを一画面でまとめられます。",
+      "narration": "IstioやArgoCDを束ねる管理プレーンです。380連携を画面上で設計でき、社内基盤の入口に向きます。"
     },
     {
       "rank": 5,
@@ -68,11 +69,11 @@
       "name": "chatwoot",
       "url": "https://github.com/chatwoot/chatwoot",
       "language": "Ruby",
-      "stars": 31184,
-      "todayStars": 399,
-      "description": "Intercom月額を丸ごと置き換える基盤",
-      "detail": "live chatやメール、WhatsApp、SNSの顧客接点を1つの受信箱に集約するMIT配布のサポート基盤です。Intercomの月99ドルやZendesk Suiteの55ドル/seatをそのまま置き換えられ、50席規模で年に数百万円のサポート費が浮きます。",
-      "narration": "Intercomの月額を丸ごと置き換える自社運用の基盤です。50席規模で年に数百万円のサポート費が浮きます。"
+      "stars": 31639,
+      "todayStars": 431,
+      "description": "Intercom代替のOSSカスタマーサポート",
+      "detail": "ライブチャットからWhatsApp、メールまで一画面で扱えるOSSです。Intercomと違い月額不要で、AIエージェントCaptainで一次返信を自動化できる構成に進化しています。",
+      "narration": "IntercomやZendeskを毎月払うのが惜しい人向けのOSSです。AI CaptainでFAQ自動応答も組めます。"
     }
   ]
 }
