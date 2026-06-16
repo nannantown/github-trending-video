@@ -2583,7 +2583,7 @@
         "views": 7,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2634,7 +2634,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.539Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.539Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.539Z"
+        "updatedAt": "2026-06-16T00:19:56.013Z"
       }
     },
     {
@@ -3305,24 +3305,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-16T00:19:56.013Z"
+      }
+    },
+    {
+      "videoId": "pcDXa3wKmy0",
+      "videoUrl": "https://youtube.com/shorts/pcDXa3wKmy0",
+      "date": "2026-06-16",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/16 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Elixir",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Elixir",
+        "Python",
+        "Ruby"
+      ],
+      "projects": [
+        "iptv-org/iptv",
+        "teslamate-org/teslamate",
+        "Panniantong/Agent-Reach",
+        "meshery/meshery",
+        "chatwoot/chatwoot"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日の TOP5 を商用 SaaS / プロプラ製品との 1:1 差分で語る。Pluto TV・TeslaFi・Apify・Istio + ArgoCD + Rancher・Intercom + Zendesk と、5 本それぞれに明確な incumbent が立つ理想的な対比構図",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/iptv-org/iptv",
+          "https://github.com/teslamate-org/teslamate",
+          "https://github.com/Panniantong/Agent-Reach",
+          "https://github.com/meshery/meshery",
+          "https://github.com/chatwoot/chatwoot"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-13",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "standard: 243 avg views (34 videos)",
-        "Trending languages: Kotlin (1.6x), C++ (2.2x), Jupyter Notebook (1.6x)",
-        "Day performance: Tue=540, Fri=495, Thu=281, Wed=267, Sat=124, Mon=82, Sun=7"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-14",
       "changes": [
@@ -3713,6 +3755,21 @@
         "standard: 132 avg views (63 videos)",
         "Trending languages: Kotlin (3.0x), C++ (2.4x), Jupyter Notebook (3.0x)",
         "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=55, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-16",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 130 avg views (64 videos)",
+        "Trending languages: Kotlin (3.1x), C++ (2.4x), Jupyter Notebook (3.0x)",
+        "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
