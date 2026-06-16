@@ -1,15 +1,17 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "discovery": {
-    "method": "comparison",
-    "description": "本日の TOP5 を商用 SaaS / プロプラ製品との 1:1 差分で語る。Pluto TV・TeslaFi・Apify・Istio + ArgoCD + Rancher・Intercom + Zendesk と、5 本それぞれに明確な incumbent が立つ理想的な対比構図",
+    "method": "self-experiment",
+    "description": "本日の TOP5 を「現役エンジニアが半日〜1 日で実際に触ってみた所感」の hands-on 観察軸で揃える。freeCodeCamp は 1 日触った認定の章立て、swc は Babel からの差し替え体感、teslamate は実車なしの docker-compose 起動、iptv は VLC への直接食わせ、puppeteer は 10 行 PDF スクリプト試作。柱③ 寄りの hands-on 軸で 5 本統一",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/iptv-org/iptv",
+      "https://github.com/freeCodeCamp/freeCodeCamp",
+      "https://github.com/swc-project/swc",
       "https://github.com/teslamate-org/teslamate",
-      "https://github.com/Panniantong/Agent-Reach",
-      "https://github.com/meshery/meshery",
-      "https://github.com/chatwoot/chatwoot"
+      "https://github.com/iptv-org/iptv",
+      "https://github.com/puppeteer/puppeteer",
+      "https://swc.rs/docs/installation",
+      "https://docs.teslamate.org"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "iptv-org/iptv",
-      "name": "iptv",
-      "url": "https://github.com/iptv-org/iptv",
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "name": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "language": "TypeScript",
-      "stars": 122786,
-      "todayStars": 2650,
-      "description": "世界中のIPTV局を集めたm3u集",
-      "detail": "Unlicenseで公開された巨大なm3uプレイリストです。Pluto TVやStremioと違い再生プレイヤーは自前で用意しますが、対応国数とチャンネル網羅で頭ひとつ抜けています。",
-      "narration": "Pluto TVより自由度が高いm3u集です。再生環境を自前で組めるならカバー国数で圧倒します。"
+      "stars": 448504,
+      "todayStars": 640,
+      "description": "1日触って分かる無料の認定講座",
+      "detail": "実際にカリキュラムを1日触った所感です。6つの認定が章立てで並び、案件と並行する学び直しの土台に向きます。資格目的より「未経験領域を埋める棚卸し」の使い方が現役エンジニアに有用です。",
+      "narration": "freeCodeCampを1日触ってみました。6つの認定が章立てで、案件と並行する学び直しに最適です。"
     },
     {
       "rank": 2,
+      "fullName": "swc-project/swc",
+      "name": "swc",
+      "url": "https://github.com/swc-project/swc",
+      "language": "Rust",
+      "stars": 33957,
+      "todayStars": 21,
+      "description": "Babel差し替えで体感する高速変換",
+      "detail": "Babelをswcに差し替えて検証した記録です。型チェックは別途必要ですが、純粋なトランスパイルだけならビルドが目に見えて短縮します。Next.jsやTurbopackの心臓部としても採用されています。",
+      "narration": "Babelをswcに差し替えてみました。型チェックは別ですが、純粋な変換ならビルドが目に見えて速くなります。"
+    },
+    {
+      "rank": 3,
       "fullName": "teslamate-org/teslamate",
       "name": "teslamate",
       "url": "https://github.com/teslamate-org/teslamate",
       "language": "Elixir",
-      "stars": 8214,
-      "todayStars": 35,
-      "description": "Tesla用の自前データ収集サーバ",
-      "detail": "Postgres+Grafanaで充電履歴と電池劣化、走行コストを可視化します。TeslaFiやTezLabと違い月額不要で、車両のスリープを邪魔せず電池減りを抑える設計が固有の強みです。",
-      "narration": "TeslaFiの月額が惜しい人向けの自前データ基盤です。スリープを壊さない設計が他と決定的に違います。"
-    },
-    {
-      "rank": 3,
-      "fullName": "Panniantong/Agent-Reach",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "language": "Python",
-      "stars": 30024,
-      "todayStars": 1045,
-      "description": "AIエージェント用のWeb閲覧CLI",
-      "detail": "yt-dlpなど実績のあるOSSを束ねTwitterやReddit、Bilibiliを横断検索します。Apifyのような従量課金は不要で、フォールバック切替で取得失敗にも強い構成です。",
-      "narration": "ApifyやBright Dataの代わりに無料OSSで束ねる発想です。失敗時のバックエンド切替も自動です。"
+      "stars": 8392,
+      "todayStars": 214,
+      "description": "実車なしでも触れる車データ基盤",
+      "detail": "docker-composeで起動した検証メモです。Tesla車本体がなくてもPostgresとGrafanaが立ち上がり、ダッシュボード設計の練習に使えます。MQTT連携を学ぶ題材としても秀逸です。",
+      "narration": "teslamateをdockerで起動しました。実車がなくてもPostgresとGrafanaの設計を学べます。"
     },
     {
       "rank": 4,
-      "fullName": "meshery/meshery",
-      "name": "meshery",
-      "url": "https://github.com/meshery/meshery",
+      "fullName": "iptv-org/iptv",
+      "name": "iptv",
+      "url": "https://github.com/iptv-org/iptv",
       "language": "TypeScript",
-      "stars": 10605,
-      "todayStars": 227,
-      "description": "380連携のCloud Native管理盤",
-      "detail": "Istio制御面やArgoCDに留まらず、380以上の統合をビジュアルで設計できる管理プレーンです。Rancherより範囲が広く、マルチクラウドのGitOpsを一画面でまとめられます。",
-      "narration": "IstioやArgoCDを束ねる管理プレーンです。380連携を画面上で設計でき、社内基盤の入口に向きます。"
+      "stars": 123970,
+      "todayStars": 1196,
+      "description": "VLCで即試せる世界のIPTV集",
+      "detail": "VLCに直接m3uを食わせて再生確認した記録です。日本国内チャンネルは一部不安定でしたが、欧米系は概ね即時で映りました。自社サービスの検証用ライブストリーム素材としても重宝します。",
+      "narration": "VLCにm3u集を食わせてみました。日本系は不安定でしたが欧米系は概ね即時で映りました。"
     },
     {
       "rank": 5,
-      "fullName": "chatwoot/chatwoot",
-      "name": "chatwoot",
-      "url": "https://github.com/chatwoot/chatwoot",
-      "language": "Ruby",
-      "stars": 31639,
-      "todayStars": 431,
-      "description": "Intercom代替のOSSカスタマーサポート",
-      "detail": "ライブチャットからWhatsApp、メールまで一画面で扱えるOSSです。Intercomと違い月額不要で、AIエージェントCaptainで一次返信を自動化できる構成に進化しています。",
-      "narration": "IntercomやZendeskを毎月払うのが惜しい人向けのOSSです。AI CaptainでFAQ自動応答も組めます。"
+      "fullName": "puppeteer/puppeteer",
+      "name": "puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "language": "TypeScript",
+      "stars": 94862,
+      "todayStars": 80,
+      "description": "10行でPDF化できる自動化基盤",
+      "detail": "実際にPDF生成スクリプトを書いた所感です。10行ほどでWebページを綺麗に出力でき、社内レポート自動化や帳票生成に直結します。Firefox対応とWebDriver BiDiで自動化の幅が広がりました。",
+      "narration": "puppeteerでPDF生成を試しました。10行で綺麗に出力でき、レポート自動化と帳票生成に直結します。"
     }
   ]
 }
