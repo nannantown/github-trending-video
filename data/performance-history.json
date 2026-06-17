@@ -2634,7 +2634,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
+        "updatedAt": "2026-06-17T00:06:39.643Z"
       }
     },
     {
@@ -3357,6 +3357,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-17T00:06:39.643Z"
+      }
+    },
+    {
+      "videoId": "2FYbAE87d_o",
+      "videoUrl": "https://youtube.com/shorts/2FYbAE87d_o",
+      "date": "2026-06-17",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/17 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Elixir"
+      ],
+      "languages": [
+        "TypeScript",
+        "Rust",
+        "Elixir"
+      ],
+      "projects": [
+        "freeCodeCamp/freeCodeCamp",
+        "swc-project/swc",
+        "teslamate-org/teslamate",
+        "iptv-org/iptv",
+        "puppeteer/puppeteer"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本日の TOP5 を「現役エンジニアが半日〜1 日で実際に触ってみた所感」の hands-on 観察軸で揃える。freeCodeCamp は 1 日触った認定の章立て、swc は Babel からの差し替え体感、teslamate は実車なしの docker-compose 起動、iptv は VLC への直接食わせ、puppeteer は 10 行 PDF スクリプト試作。柱③ 寄りの hands-on 軸で 5 本統一",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/freeCodeCamp/freeCodeCamp",
+          "https://github.com/swc-project/swc",
+          "https://github.com/teslamate-org/teslamate",
+          "https://github.com/iptv-org/iptv",
+          "https://github.com/puppeteer/puppeteer",
+          "https://swc.rs/docs/installation",
+          "https://docs.teslamate.org"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -3365,19 +3420,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-14",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "standard: 236 avg views (35 videos)",
-        "Trending languages: Kotlin (1.7x), C++ (2.2x), Jupyter Notebook (1.7x)",
-        "Day performance: Tue=540, Fri=495, Wed=267, Thu=234, Sat=124, Mon=82, Sun=7"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-15",
       "changes": [
@@ -3770,6 +3812,21 @@
         "standard: 130 avg views (64 videos)",
         "Trending languages: Kotlin (3.1x), C++ (2.4x), Jupyter Notebook (3.0x)",
         "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-17",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 128 avg views (65 videos)",
+        "Trending languages: Kotlin (3.1x), C++ (2.5x), Jupyter Notebook (3.0x)",
+        "Day performance: Tue=271, Fri=248, Thu=141, Wed=134, Sat=64, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
