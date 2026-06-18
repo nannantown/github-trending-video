@@ -2686,7 +2686,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3194,10 +3194,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
+        "updatedAt": "2026-06-18T00:06:11.648Z"
       }
     },
     {
@@ -3415,24 +3415,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-18T00:06:11.648Z"
+      }
+    },
+    {
+      "videoId": "ZlAHghwZoX8",
+      "videoUrl": "https://youtube.com/shorts/ZlAHghwZoX8",
+      "date": "2026-06-18",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/18 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "C",
+        "Rust",
+        "Python",
+        "TypeScript",
+        "Shell"
+      ],
+      "projects": [
+        "DeusData/codebase-memory-mcp",
+        "n0-computer/iroh",
+        "Panniantong/Agent-Reach",
+        "meshery/meshery",
+        "obra/superpowers"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日の TOP5 を「AI コーディング agent 生態系の階層化」マクロ核で揃える。codebase-memory-mcp (記憶層/MCP)、Agent-Reach (情報取得層/CLI)、obra/superpowers (方法論層/skills framework) の 3 本で AI coding agent 生態系の 3 階層を立て、iroh (P2P 通信生態系の土台層) と meshery (CNCF cloud-native 生態系のクラスタ管理層) を隣接 ecosystem として並べる。柱① 寄りで 5 本統一",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/DeusData/codebase-memory-mcp",
+          "https://github.com/n0-computer/iroh",
+          "https://github.com/Panniantong/Agent-Reach",
+          "https://github.com/meshery/meshery",
+          "https://github.com/obra/superpowers",
+          "https://iroh.computer",
+          "https://meshery.io",
+          "https://deusdata.github.io/codebase-memory-mcp/"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-15",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 229 avg views (36 videos)",
-        "Trending languages: Kotlin (1.7x), C++ (2.3x), Jupyter Notebook (1.7x)",
-        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=125, Mon=82, Sun=7"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-16",
       "changes": [
@@ -3827,6 +3873,21 @@
         "standard: 128 avg views (65 videos)",
         "Trending languages: Kotlin (3.1x), C++ (2.5x), Jupyter Notebook (3.0x)",
         "Day performance: Tue=271, Fri=248, Thu=141, Wed=134, Sat=64, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-18",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 126 avg views (66 videos)",
+        "Trending languages: Kotlin (3.2x), C++ (2.5x), Jupyter Notebook (3.1x)",
+        "Day performance: Tue=271, Fri=248, Thu=141, Wed=119, Sat=64, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
