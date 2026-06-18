@@ -1,18 +1,20 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日の TOP5 を「AI コーディング agent 生態系の階層化」マクロ核で揃える。codebase-memory-mcp (記憶層/MCP)、Agent-Reach (情報取得層/CLI)、obra/superpowers (方法論層/skills framework) の 3 本で AI coding agent 生態系の 3 階層を立て、iroh (P2P 通信生態系の土台層) と meshery (CNCF cloud-native 生態系のクラスタ管理層) を隣接 ecosystem として並べる。柱① 寄りで 5 本統一",
+    "method": "comparison",
+    "description": "本日の TOP5 を「同じ役割の主要 OSS / 商用」と1対1で対比し、視聴者の選定軸を提示する。timesfm⇔AmazonのChronos / iroh⇔libp2p / freeCodeCamp⇔Coursera / superpowers⇔CLAUDE.md・Anthropic公式Skills / GLM-5⇔Codex の5組を立てる。柱① 主軸、Primary CTO の技術選定判断に直結させる",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/DeusData/codebase-memory-mcp",
+      "https://github.com/google-research/timesfm",
+      "https://github.com/amazon-science/chronos-forecasting",
       "https://github.com/n0-computer/iroh",
-      "https://github.com/Panniantong/Agent-Reach",
-      "https://github.com/meshery/meshery",
+      "https://github.com/libp2p/specs",
+      "https://github.com/freeCodeCamp/freeCodeCamp",
       "https://github.com/obra/superpowers",
+      "https://github.com/anthropics/skills",
+      "https://github.com/zai-org/GLM-5",
       "https://iroh.computer",
-      "https://meshery.io",
-      "https://deusdata.github.io/codebase-memory-mcp/"
+      "https://www.freecodecamp.org"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,15 +22,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "DeusData/codebase-memory-mcp",
-      "name": "codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "language": "C",
-      "stars": 5128,
-      "todayStars": 718,
-      "description": "AI agentの記憶を担うMCP層",
-      "detail": "AIコーディングエージェント生態系で記憶層を担うMCPです。Claude CodeやCursorなど11ツールと連携し、158言語のコードを知識グラフ化します。トークン消費の大幅圧縮に直結します。",
-      "narration": "Claude CodeやCursorに記憶を渡すMCP層です。コードを知識グラフ化し、トークン9割減を狙えます。"
+      "fullName": "google-research/timesfm",
+      "name": "timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "language": "Python",
+      "stars": 23058,
+      "todayStars": 858,
+      "description": "Google製のゼロショット時系列FM",
+      "detail": "Google製の時系列基盤モデルです。学習なしで需要や在庫の予測を回せ、200Mから2Bまで複数サイズを提供します。AmazonのChronosと並ぶゼロショット予測勢力の本命です。",
+      "narration": "Google製の時系列基盤モデルです。AmazonのChronosと並ぶゼロショット需要予測の本命です。"
     },
     {
       "rank": 2,
@@ -36,47 +38,47 @@
       "name": "iroh",
       "url": "https://github.com/n0-computer/iroh",
       "language": "Rust",
-      "stars": 9621,
-      "todayStars": 422,
+      "stars": 9992,
+      "todayStars": 369,
       "description": "公開鍵で繋ぐRust製P2P基盤",
-      "detail": "P2P・分散ネットワーク生態系の土台層に位置するRust製スタックです。公開鍵で接続しNAT越えやリレー切替を自動化、ブロブ転送やゴシップ等の上位プロトコルが乗ります。共同編集の通信基盤に応用できます。",
-      "narration": "IPアドレスの代わりに公開鍵で繋ぐP2Pスタックです。QUIC上でNATを越え、配信や同期の土台になります。"
+      "detail": "P2Pネットワーク土台層に位置するRust製スタックです。libp2pより軽量でNAT越えやQUIC接続が標準装備、ブロブ転送やゴシップ等が乗り共同編集や同期の通信基盤に応用できます。",
+      "narration": "IPを使わず公開鍵で繋ぐP2P基盤です。libp2pより軽量で、NAT越えとQUICが標準装備です。"
     },
     {
       "rank": 3,
-      "fullName": "Panniantong/Agent-Reach",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "language": "Python",
-      "stars": 33094,
-      "todayStars": 1154,
-      "description": "AI agentにWeb閲覧を渡すCLI",
-      "detail": "AIエージェントツール生態系の情報取得層に当たるCLIです。Twitter・Reddit・YouTube・GitHub・Bilibili・小紅書を有料APIなしで横断検索でき、調査と動向把握に直結します。",
-      "narration": "AIエージェントへネットの目を渡すCLIです。Twitter・Reddit・YouTubeを無料で読み調査を圧縮します。"
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "name": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "language": "TypeScript",
+      "stars": 449519,
+      "todayStars": 417,
+      "description": "完全無料の実装系学習カリキュラム",
+      "detail": "完全無料で受講できるコーディング学習基盤です。Web開発からデータサイエンスまで実装演習中心のカリキュラムを提供し、修了証もすべて0円で取得できます。Coursera有料路線への対抗軸です。",
+      "narration": "完全無料のコーディング学習基盤です。Coursera有料路線に対し、修了証まで0円で取れます。"
     },
     {
       "rank": 4,
-      "fullName": "meshery/meshery",
-      "name": "meshery",
-      "url": "https://github.com/meshery/meshery",
-      "language": "TypeScript",
-      "stars": 11002,
-      "todayStars": 199,
-      "description": "CNCFのK8s統合管理プラットフォーム",
-      "detail": "CNCFインキュベーション下のKubernetes統合管理基盤です。380超のクラウドネイティブ統合を備え、ArgoやCrossplaneと並ぶ複数クラスタを束ねる管理面の標準候補です。GitOpsと可観測性をUIに集約します。",
-      "narration": "CNCFが推すKubernetes統合管理基盤です。380連携で複数クラスタを一枚絵にし運用と監視を束ねます。"
-    },
-    {
-      "rank": 5,
       "fullName": "obra/superpowers",
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 230989,
-      "todayStars": 1205,
-      "description": "Claude Code向け方法論スキル層",
-      "detail": "AIエージェントの方法論を共有資産化するスキル層です。Claude CodeやCursorに導入でき、設計から検証までを構造化します。属人化していた手順を組織で再利用できる仕組みになります。",
-      "narration": "Claude Codeに開発手順を仕込むスキル層です。設計から検証までを共有資産にし手順の属人化を解きます。"
+      "stars": 232354,
+      "todayStars": 1435,
+      "description": "Claude Codeに方法論を差すSkills",
+      "detail": "Claude Codeに開発手順を差し込むSkillsフレームワークです。CLAUDE.mdより踏み込み、設計から検証までを共有資産化します。Anthropic公式Skillsと並ぶ方法論層の選択肢です。",
+      "narration": "Claude CodeにSkillsを差し込む方法論です。CLAUDE.mdより踏み込み、検証まで雛形化します。"
+    },
+    {
+      "rank": 5,
+      "fullName": "zai-org/GLM-5",
+      "name": "GLM-5",
+      "url": "https://github.com/zai-org/GLM-5",
+      "language": null,
+      "stars": 4087,
+      "todayStars": 286,
+      "description": "中国製のコーディング特化LLM",
+      "detail": "中国Zhipu系のコーディング特化LLMです。Vibe CodingからAgentic Engineeringへの移行を狙う設計で、Claude CodeやCodex路線に対し中国市場発の選択肢を提示します。",
+      "narration": "中国製のコーディング特化LLMです。Codexに対しエージェント運用を主眼にした設計が特徴です。"
     }
   ]
 }
