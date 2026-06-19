@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
+        "updatedAt": "2026-06-19T00:16:57.957Z"
       }
     },
     {
@@ -3474,24 +3474,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-19T00:16:57.957Z"
+      }
+    },
+    {
+      "videoId": "S4M25BlmZzY",
+      "videoUrl": "https://youtube.com/shorts/S4M25BlmZzY",
+      "date": "2026-06-19",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/19 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "Rust",
+        "TypeScript",
+        "Shell"
+      ],
+      "projects": [
+        "google-research/timesfm",
+        "n0-computer/iroh",
+        "freeCodeCamp/freeCodeCamp",
+        "obra/superpowers",
+        "zai-org/GLM-5"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日の TOP5 を「同じ役割の主要 OSS / 商用」と1対1で対比し、視聴者の選定軸を提示する。timesfm⇔AmazonのChronos / iroh⇔libp2p / freeCodeCamp⇔Coursera / superpowers⇔CLAUDE.md・Anthropic公式Skills / GLM-5⇔Codex の5組を立てる。柱① 主軸、Primary CTO の技術選定判断に直結させる",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/google-research/timesfm",
+          "https://github.com/amazon-science/chronos-forecasting",
+          "https://github.com/n0-computer/iroh",
+          "https://github.com/libp2p/specs",
+          "https://github.com/freeCodeCamp/freeCodeCamp",
+          "https://github.com/obra/superpowers",
+          "https://github.com/anthropics/skills",
+          "https://github.com/zai-org/GLM-5",
+          "https://iroh.computer",
+          "https://www.freecodecamp.org"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-16",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 223 avg views (37 videos)",
-        "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.7x)",
-        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=7"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-17",
       "changes": [
@@ -3888,6 +3934,21 @@
         "standard: 126 avg views (66 videos)",
         "Trending languages: Kotlin (3.2x), C++ (2.5x), Jupyter Notebook (3.1x)",
         "Day performance: Tue=271, Fri=248, Thu=141, Wed=119, Sat=64, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-19",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 124 avg views (67 videos)",
+        "Trending languages: Kotlin (3.2x), C++ (2.6x), Jupyter Notebook (3.1x)",
+        "Day performance: Tue=271, Fri=248, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
