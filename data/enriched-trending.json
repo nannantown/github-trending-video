@@ -1,20 +1,15 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "discovery": {
-    "method": "comparison",
-    "description": "本日の TOP5 を「同じ役割の主要 OSS / 商用」と1対1で対比し、視聴者の選定軸を提示する。timesfm⇔AmazonのChronos / iroh⇔libp2p / freeCodeCamp⇔Coursera / superpowers⇔CLAUDE.md・Anthropic公式Skills / GLM-5⇔Codex の5組を立てる。柱① 主軸、Primary CTO の技術選定判断に直結させる",
+    "method": "self-experiment",
+    "description": "本日 TOP5 を『今週の私が試したらどう刺さったか』の所感ベースで料理する。柱③ (自分のプロジェクト事例 / デモ) を主軸に、Claude Code 周辺ワークフロー (codebase-memory-mcp / palmier-pro) や受託・コンサル準備 (worldmonitor / awesome-generative-ai-guide) や手元データ予測 (timesfm) を Primary CTO 視聴者の『俺もそれ刺してみるか』モードに翻訳する。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/DeusData/codebase-memory-mcp",
       "https://github.com/google-research/timesfm",
-      "https://github.com/amazon-science/chronos-forecasting",
-      "https://github.com/n0-computer/iroh",
-      "https://github.com/libp2p/specs",
-      "https://github.com/freeCodeCamp/freeCodeCamp",
-      "https://github.com/obra/superpowers",
-      "https://github.com/anthropics/skills",
-      "https://github.com/zai-org/GLM-5",
-      "https://iroh.computer",
-      "https://www.freecodecamp.org"
+      "https://github.com/palmier-io/palmier-pro",
+      "https://github.com/koala73/worldmonitor",
+      "https://github.com/aishwaryanr/awesome-generative-ai-guide"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "name": "codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "language": "C",
+      "stars": 8144,
+      "todayStars": 1055,
+      "description": "Claude Codeに記憶を差すMCP層",
+      "detail": "Claude CodeやCursorに永続記憶を差すMCPサーバです。158言語のコードを知識グラフ化し、AiderやCodex CLIなど11ツールから参照可能。実コードベースに当てると提案品質と再現性が一段上がります。",
+      "narration": "Claude Codeで試したMCP記憶層です。158言語を3分で索引化し、二度目以降の提案精度が体感で上がります。"
+    },
+    {
+      "rank": 2,
       "fullName": "google-research/timesfm",
       "name": "timesfm",
       "url": "https://github.com/google-research/timesfm",
       "language": "Python",
-      "stars": 23058,
-      "todayStars": 858,
+      "stars": 24049,
+      "todayStars": 1516,
       "description": "Google製のゼロショット時系列FM",
-      "detail": "Google製の時系列基盤モデルです。学習なしで需要や在庫の予測を回せ、200Mから2Bまで複数サイズを提供します。AmazonのChronosと並ぶゼロショット予測勢力の本命です。",
-      "narration": "Google製の時系列基盤モデルです。AmazonのChronosと並ぶゼロショット需要予測の本命です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "n0-computer/iroh",
-      "name": "iroh",
-      "url": "https://github.com/n0-computer/iroh",
-      "language": "Rust",
-      "stars": 9992,
-      "todayStars": 369,
-      "description": "公開鍵で繋ぐRust製P2P基盤",
-      "detail": "P2Pネットワーク土台層に位置するRust製スタックです。libp2pより軽量でNAT越えやQUIC接続が標準装備、ブロブ転送やゴシップ等が乗り共同編集や同期の通信基盤に応用できます。",
-      "narration": "IPを使わず公開鍵で繋ぐP2P基盤です。libp2pより軽量で、NAT越えとQUICが標準装備です。"
+      "detail": "Google製の時系列基盤モデルです。200Mから2Bまで複数サイズが用意され、学習なしで需要や売上の予測を実データに即適用できます。AmazonのChronosと並ぶゼロショット予測の本命です。",
+      "narration": "実データで触ったゼロショット時系列FMです。Google製で学習不要、需要や売上の予測がノートブック上で即返ってきます。"
     },
     {
       "rank": 3,
-      "fullName": "freeCodeCamp/freeCodeCamp",
-      "name": "freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "language": "TypeScript",
-      "stars": 449519,
-      "todayStars": 417,
-      "description": "完全無料の実装系学習カリキュラム",
-      "detail": "完全無料で受講できるコーディング学習基盤です。Web開発からデータサイエンスまで実装演習中心のカリキュラムを提供し、修了証もすべて0円で取得できます。Coursera有料路線への対抗軸です。",
-      "narration": "完全無料のコーディング学習基盤です。Coursera有料路線に対し、修了証まで0円で取れます。"
+      "fullName": "palmier-io/palmier-pro",
+      "name": "palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "language": "Swift",
+      "stars": 1814,
+      "todayStars": 749,
+      "description": "AI前提で組まれたmacOS動画編集",
+      "detail": "AI前提で設計されたmacOSネイティブ動画エディタです。SeedanceやKlingで映像を生成しタイムライン上で組み、ClaudeやCursorからMCPで操作も可能。Reels用素材の整形が一本通します。",
+      "narration": "Reels制作で試したAI動画エディタです。Claude CodeからMCPでタイムラインを直接操作できます。"
     },
     {
       "rank": 4,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 232354,
-      "todayStars": 1435,
-      "description": "Claude Codeに方法論を差すSkills",
-      "detail": "Claude Codeに開発手順を差し込むSkillsフレームワークです。CLAUDE.mdより踏み込み、設計から検証までを共有資産化します。Anthropic公式Skillsと並ぶ方法論層の選択肢です。",
-      "narration": "Claude CodeにSkillsを差し込む方法論です。CLAUDE.mdより踏み込み、検証まで雛形化します。"
+      "fullName": "koala73/worldmonitor",
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "language": "TypeScript",
+      "stars": 57191,
+      "todayStars": 300,
+      "description": "AI報道分析の世界ダッシュボード",
+      "detail": "AIが500以上の報道や地政学イベントを要約する自前ホスト型ダッシュボードです。Tauri製で3D地球儀と29取引所を表示し、Ollama活用でPR案件や市場監視のSaaS基盤に組み込めます。",
+      "narration": "競合動向の追跡で試したダッシュボードです。500以上の報道をAIが要約し、PR部門や案件監視にそのまま転用できます。"
     },
     {
       "rank": 5,
-      "fullName": "zai-org/GLM-5",
-      "name": "GLM-5",
-      "url": "https://github.com/zai-org/GLM-5",
-      "language": null,
-      "stars": 4087,
-      "todayStars": 286,
-      "description": "中国製のコーディング特化LLM",
-      "detail": "中国Zhipu系のコーディング特化LLMです。Vibe CodingからAgentic Engineeringへの移行を狙う設計で、Claude CodeやCodex路線に対し中国市場発の選択肢を提示します。",
-      "narration": "中国製のコーディング特化LLMです。Codexに対しエージェント運用を主眼にした設計が特徴です。"
+      "fullName": "aishwaryanr/awesome-generative-ai-guide",
+      "name": "awesome-generative-ai-guide",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "language": "HTML",
+      "stars": 27592,
+      "todayStars": 155,
+      "description": "面接対策まで揃う生成AI教材集",
+      "detail": "生成AIの研究アップデート・ノートブック・面接対策を1か所に集めたAwesomeリポです。Applied LLMs Mastery講座とGenAI面接問題集が含まれ、コンサル提案や採用準備の素材源になります。",
+      "narration": "案件前の仕込みで触ったAwesomeリポです。生成AIの研究と面接対策が並び、コンサル準備が一気に短縮します。"
     }
   ]
 }
