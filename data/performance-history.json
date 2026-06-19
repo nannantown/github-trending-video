@@ -2743,7 +2743,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T00:16:57.957Z"
+        "updatedAt": "2026-06-19T23:55:24.052Z"
       }
     },
     {
@@ -3533,24 +3533,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-19T23:55:24.052Z"
+      }
+    },
+    {
+      "videoId": "bSMKTMVGm8M",
+      "videoUrl": "https://youtube.com/shorts/bSMKTMVGm8M",
+      "date": "2026-06-20",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/20 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin",
+        "C",
+        "Python",
+        "TypeScript",
+        "HTML"
+      ],
+      "languages": [
+        "C",
+        "Python",
+        "Swift",
+        "TypeScript",
+        "HTML"
+      ],
+      "projects": [
+        "DeusData/codebase-memory-mcp",
+        "google-research/timesfm",
+        "palmier-io/palmier-pro",
+        "koala73/worldmonitor",
+        "aishwaryanr/awesome-generative-ai-guide"
+      ],
+      "durationSeconds": 55,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本日 TOP5 を『今週の私が試したらどう刺さったか』の所感ベースで料理する。柱③ (自分のプロジェクト事例 / デモ) を主軸に、Claude Code 周辺ワークフロー (codebase-memory-mcp / palmier-pro) や受託・コンサル準備 (worldmonitor / awesome-generative-ai-guide) や手元データ予測 (timesfm) を Primary CTO 視聴者の『俺もそれ刺してみるか』モードに翻訳する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/DeusData/codebase-memory-mcp",
+          "https://github.com/google-research/timesfm",
+          "https://github.com/palmier-io/palmier-pro",
+          "https://github.com/koala73/worldmonitor",
+          "https://github.com/aishwaryanr/awesome-generative-ai-guide"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-17",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 217 avg views (38 videos)",
-        "Trending languages: Kotlin (1.8x), C++ (2.4x), Jupyter Notebook (1.8x)",
-        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=82, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-18",
       "changes": [
@@ -3949,6 +3994,21 @@
         "standard: 124 avg views (67 videos)",
         "Trending languages: Kotlin (3.2x), C++ (2.6x), Jupyter Notebook (3.1x)",
         "Day performance: Tue=271, Fri=248, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-19",
+      "changes": [
+        "Kotlin: 1.3x avg views → boost",
+        "JavaScript: 0.1x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 122 avg views (68 videos)",
+        "Trending languages: Kotlin (3.3x), C++ (2.6x), Jupyter Notebook (3.2x)",
+        "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
