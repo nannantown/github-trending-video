@@ -2803,7 +2803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -2858,7 +2858,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
+        "updatedAt": "2026-06-20T23:55:59.904Z"
       }
     },
     {
@@ -3591,24 +3591,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-20T23:55:59.904Z"
+      }
+    },
+    {
+      "videoId": "ClqE4sgQN4g",
+      "videoUrl": "https://youtube.com/shorts/ClqE4sgQN4g",
+      "date": "2026-06-21",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/21 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Clojure",
+        "Python",
+        "Rust",
+        "C"
+      ],
+      "languages": [
+        "Swift",
+        "Clojure",
+        "Python",
+        "Rust",
+        "C"
+      ],
+      "projects": [
+        "palmier-io/palmier-pro",
+        "penpot/penpot",
+        "calesthio/OpenMontage",
+        "tursodatabase/turso",
+        "DeusData/codebase-memory-mcp"
+      ],
+      "durationSeconds": 54,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日 06-21 (Sun) の TOP5 を『AI動画 / 設計ツール / 組み込みDB / MCPサーバ — 各エコシステムの主役級が同日に動いた』ecosystem 視点で 5 本横断料理する。AI動画ツールチェーンの上位 (palmier-pro) と下位 (OpenMontage) が同日に Trending 入り、設計領域では Penpot v2.16 が Figma 対抗の本命として MCP 接続を実装、組み込み DB では Turso が libSQL の戦略的後継として SQLite ファミリーの世代交代を象徴、MCP サーバ群では codebase-memory-mcp が汎用記憶 (mem0 等) と棲み分けて『コード専用層』のポジションを確立。冒頭マクロ核は『今週、各エコシステムで世代交代の主役が同時に動いた』、各 narration では『どのエコの中でどう位置するか』を 1 文目に置き、2 文目で具体差別化要素を出す。直近 06-20 self-experiment / 06-19 comparison の連投ルールで自然に exploit TOP1 (ecosystem 14d avg=1.50) が選択可能、Sun=4 avg 低トラフィック帯でも『地図を描く回』として保存・後追い検索に向く設計。Primary CTO 層には『どの層に何を採用するか』の整理として、Secondary PdM 層には『各カテゴリの本命が誰か』の把握として、Tertiary 学習層には『エコシステム俯瞰の入口』として 3 層対応。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/palmier-io/palmier-pro",
+          "https://github.com/penpot/penpot",
+          "https://github.com/calesthio/OpenMontage",
+          "https://github.com/tursodatabase/turso",
+          "https://github.com/DeusData/codebase-memory-mcp"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-18",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.5x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 212 avg views (39 videos)",
-        "Trending languages: Kotlin (1.9x), C++ (2.5x), Jupyter Notebook (1.8x)",
-        "Day performance: Tue=540, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-19",
       "changes": [
@@ -4009,6 +4053,21 @@
         "standard: 122 avg views (68 videos)",
         "Trending languages: Kotlin (3.3x), C++ (2.6x), Jupyter Notebook (3.2x)",
         "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-20",
+      "changes": [
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.6x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "standard: 120 avg views (69 videos)",
+        "Trending languages: Kotlin (3.3x), C++ (2.6x), Jupyter Notebook (3.2x)",
+        "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
