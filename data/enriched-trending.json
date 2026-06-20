@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日 TOP5 を『今週の私が試したらどう刺さったか』の所感ベースで料理する。柱③ (自分のプロジェクト事例 / デモ) を主軸に、Claude Code 周辺ワークフロー (codebase-memory-mcp / palmier-pro) や受託・コンサル準備 (worldmonitor / awesome-generative-ai-guide) や手元データ予測 (timesfm) を Primary CTO 視聴者の『俺もそれ刺してみるか』モードに翻訳する。",
+    "method": "ecosystem",
+    "description": "本日 06-21 (Sun) の TOP5 を『AI動画 / 設計ツール / 組み込みDB / MCPサーバ — 各エコシステムの主役級が同日に動いた』ecosystem 視点で 5 本横断料理する。AI動画ツールチェーンの上位 (palmier-pro) と下位 (OpenMontage) が同日に Trending 入り、設計領域では Penpot v2.16 が Figma 対抗の本命として MCP 接続を実装、組み込み DB では Turso が libSQL の戦略的後継として SQLite ファミリーの世代交代を象徴、MCP サーバ群では codebase-memory-mcp が汎用記憶 (mem0 等) と棲み分けて『コード専用層』のポジションを確立。冒頭マクロ核は『今週、各エコシステムで世代交代の主役が同時に動いた』、各 narration では『どのエコの中でどう位置するか』を 1 文目に置き、2 文目で具体差別化要素を出す。直近 06-20 self-experiment / 06-19 comparison の連投ルールで自然に exploit TOP1 (ecosystem 14d avg=1.50) が選択可能、Sun=4 avg 低トラフィック帯でも『地図を描く回』として保存・後追い検索に向く設計。Primary CTO 層には『どの層に何を採用するか』の整理として、Secondary PdM 層には『各カテゴリの本命が誰か』の把握として、Tertiary 学習層には『エコシステム俯瞰の入口』として 3 層対応。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/DeusData/codebase-memory-mcp",
-      "https://github.com/google-research/timesfm",
       "https://github.com/palmier-io/palmier-pro",
-      "https://github.com/koala73/worldmonitor",
-      "https://github.com/aishwaryanr/awesome-generative-ai-guide"
+      "https://github.com/penpot/penpot",
+      "https://github.com/calesthio/OpenMontage",
+      "https://github.com/tursodatabase/turso",
+      "https://github.com/DeusData/codebase-memory-mcp"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "DeusData/codebase-memory-mcp",
-      "name": "codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "language": "C",
-      "stars": 8144,
-      "todayStars": 1055,
-      "description": "Claude Codeに記憶を差すMCP層",
-      "detail": "Claude CodeやCursorに永続記憶を差すMCPサーバです。158言語のコードを知識グラフ化し、AiderやCodex CLIなど11ツールから参照可能。実コードベースに当てると提案品質と再現性が一段上がります。",
-      "narration": "Claude Codeで試したMCP記憶層です。158言語を3分で索引化し、二度目以降の提案精度が体感で上がります。"
-    },
-    {
-      "rank": 2,
-      "fullName": "google-research/timesfm",
-      "name": "timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "language": "Python",
-      "stars": 24049,
-      "todayStars": 1516,
-      "description": "Google製のゼロショット時系列FM",
-      "detail": "Google製の時系列基盤モデルです。200Mから2Bまで複数サイズが用意され、学習なしで需要や売上の予測を実データに即適用できます。AmazonのChronosと並ぶゼロショット予測の本命です。",
-      "narration": "実データで触ったゼロショット時系列FMです。Google製で学習不要、需要や売上の予測がノートブック上で即返ってきます。"
-    },
-    {
-      "rank": 3,
       "fullName": "palmier-io/palmier-pro",
       "name": "palmier-pro",
       "url": "https://github.com/palmier-io/palmier-pro",
       "language": "Swift",
-      "stars": 1814,
-      "todayStars": 749,
-      "description": "AI前提で組まれたmacOS動画編集",
-      "detail": "AI前提で設計されたmacOSネイティブ動画エディタです。SeedanceやKlingで映像を生成しタイムライン上で組み、ClaudeやCursorからMCPで操作も可能。Reels用素材の整形が一本通します。",
-      "narration": "Reels制作で試したAI動画エディタです。Claude CodeからMCPでタイムラインを直接操作できます。"
+      "stars": 3237,
+      "todayStars": 904,
+      "description": "Macネイティブの動画AIエディタ",
+      "detail": "Seedance、Kling、Nano Banana ProをMacのタイムラインへ統合した動画エディタです。Claude CodeやCursorからMCP経由で指示でき、macOS 26 + Apple Silicon限定でGPLv3配布されます。",
+      "narration": "Macのタイムラインに主要動画生成AIを束ねるエディタです。MCP経由でClaude Codeからも操作できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "penpot/penpot",
+      "name": "penpot",
+      "url": "https://github.com/penpot/penpot",
+      "language": "Clojure",
+      "stars": 51351,
+      "todayStars": 424,
+      "description": "Figma対抗のOSSデザイン本命",
+      "detail": "自己ホスト可能なFigma対抗の設計プラットフォームです。v2.16でデザイントークンとCSS Gridを刷新し、MCPサーバ経由で設計とコードを双方向につなぎます。プラグイン拡張も可能で、SVGとCSS標準でデータを持ちます。",
+      "narration": "Figmaの牙城にMCPで切り込むOSSの本命です。デザイントークンとCSS Gridで自前ホストできます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "calesthio/OpenMontage",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "language": "Python",
+      "stars": 6989,
+      "todayStars": 677,
+      "description": "AIに映像制作を全任せできる司令塔",
+      "detail": "Claudeなどのコーディング AIに映像制作を全工程任せられるエージェントシステムです。Kling、Veo、FLUXなど50以上のツールを束ね、12種のパイプラインで台本から最終レンダーまで自動化します。AGPL-3.0で公開。",
+      "narration": "Veo、Klingなど50超のツールをAIが束ねる映像制作の司令塔です。ComfyUIと並ぶ生成AI動画の新中核です。"
     },
     {
       "rank": 4,
-      "fullName": "koala73/worldmonitor",
-      "name": "worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "language": "TypeScript",
-      "stars": 57191,
-      "todayStars": 300,
-      "description": "AI報道分析の世界ダッシュボード",
-      "detail": "AIが500以上の報道や地政学イベントを要約する自前ホスト型ダッシュボードです。Tauri製で3D地球儀と29取引所を表示し、Ollama活用でPR案件や市場監視のSaaS基盤に組み込めます。",
-      "narration": "競合動向の追跡で試したダッシュボードです。500以上の報道をAIが要約し、PR部門や案件監視にそのまま転用できます。"
+      "fullName": "tursodatabase/turso",
+      "name": "turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "language": "Rust",
+      "stars": 20284,
+      "todayStars": 774,
+      "description": "SQLite継ぐRust製組み込みDB",
+      "detail": "SQLite互換のままRustで再構築した組み込みDBです。BEGIN CONCURRENTでの多版書き込みや非同期I/O、ベクトル検索を備え、libSQLの戦略的後継として育っています。MITライセンス。",
+      "narration": "SQLite互換のままRustで書き直した組み込みDBです。非同期I/Oとベクトル検索でlibSQLを継ぎます。"
     },
     {
       "rank": 5,
-      "fullName": "aishwaryanr/awesome-generative-ai-guide",
-      "name": "awesome-generative-ai-guide",
-      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-      "language": "HTML",
-      "stars": 27592,
-      "todayStars": 155,
-      "description": "面接対策まで揃う生成AI教材集",
-      "detail": "生成AIの研究アップデート・ノートブック・面接対策を1か所に集めたAwesomeリポです。Applied LLMs Mastery講座とGenAI面接問題集が含まれ、コンサル提案や採用準備の素材源になります。",
-      "narration": "案件前の仕込みで触ったAwesomeリポです。生成AIの研究と面接対策が並び、コンサル準備が一気に短縮します。"
+      "fullName": "DeusData/codebase-memory-mcp",
+      "name": "codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "language": "C",
+      "stars": 9269,
+      "todayStars": 1267,
+      "description": "コード理解に特化した知識グラフMCP",
+      "detail": "158言語をtree-sitterで構造解析し、知識グラフ化して保存するMCPサーバです。mem0などの汎用記憶と棲み分け、Claude CodeやCursorなど11個のエージェントに自動接続し、5問のクエリでファイル走査の99%トークンを節約します。MITで公開。",
+      "narration": "mem0系の汎用記憶と並ぶ、コード特化のMCPサーバです。158言語を3分で索引化しClaude Codeに繋がります。"
     }
   ]
 }
