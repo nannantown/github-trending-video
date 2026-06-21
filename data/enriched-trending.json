@@ -1,15 +1,18 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日 06-21 (Sun) の TOP5 を『AI動画 / 設計ツール / 組み込みDB / MCPサーバ — 各エコシステムの主役級が同日に動いた』ecosystem 視点で 5 本横断料理する。AI動画ツールチェーンの上位 (palmier-pro) と下位 (OpenMontage) が同日に Trending 入り、設計領域では Penpot v2.16 が Figma 対抗の本命として MCP 接続を実装、組み込み DB では Turso が libSQL の戦略的後継として SQLite ファミリーの世代交代を象徴、MCP サーバ群では codebase-memory-mcp が汎用記憶 (mem0 等) と棲み分けて『コード専用層』のポジションを確立。冒頭マクロ核は『今週、各エコシステムで世代交代の主役が同時に動いた』、各 narration では『どのエコの中でどう位置するか』を 1 文目に置き、2 文目で具体差別化要素を出す。直近 06-20 self-experiment / 06-19 comparison の連投ルールで自然に exploit TOP1 (ecosystem 14d avg=1.50) が選択可能、Sun=4 avg 低トラフィック帯でも『地図を描く回』として保存・後追い検索に向く設計。Primary CTO 層には『どの層に何を採用するか』の整理として、Secondary PdM 層には『各カテゴリの本命が誰か』の把握として、Tertiary 学習層には『エコシステム俯瞰の入口』として 3 層対応。",
+    "method": "comparison",
+    "description": "本日 06-22 (Mon) の TOP5 を『5 本それぞれが業界の王者に正面から挑む』comparison 視点で横断料理する。palmier-pro は CapCut / Final Cut Pro に MCP で挑む Mac 専用エディタ、OpenMontage は ComfyUI や単発生成ツールと違い全工程を AI が束ねる動画 OSS、headroom は LLMLingua と並ぶ AI エージェント向けコンテキスト圧縮層 (Apache 2.0、Netflix エンジニア Tejas Chopra 製、+2,617★/日)、Turso は fork 系の libSQL と違い SQLite を Rust でゼロから書き直した次世代組み込み DB、Penpot は Figma に対抗する自己ホスト型 OSS 設計ツール。冒頭マクロ核は『今日の TOP5、それぞれが王者に正面から挑む 1 日』、各 narration では『どの王者と並ぶ / 違い / 挑むか』を 1 文目に置き、2 文目で『具体差別化点 1 つ』を出す。直近 06-21 ecosystem / 06-20 self-experiment の連投ルールで自然に exploit TOP 2 (comparison 14d avg=0.50, n=4 で標本数最大) が唯一の TOP 3 候補に絞り込まれる、機械的決定。Mon=70 avg は Tue=432 / Fri=413 に次ぐ中位帯、対比軸で『採用判断のショートカット』として保存向きの設計。Primary CTO 層には『どれを採用するか』の比較表として、Secondary PdM 層には『業界の地殻変動』のキャッチアップとして、Tertiary 学習層には『カテゴリ別の本命を学ぶ入口』として 3 層対応。継続 4 本 (palmier-pro / OpenMontage / Turso / Penpot) は 06-21 ecosystem 角度から comparison 角度へ完全切替で語彙リセット、新規 1 本 (headroom) は LLMLingua 対比で初回紹介。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/palmier-io/palmier-pro",
-      "https://github.com/penpot/penpot",
       "https://github.com/calesthio/OpenMontage",
+      "https://github.com/chopratejas/headroom",
       "https://github.com/tursodatabase/turso",
-      "https://github.com/DeusData/codebase-memory-mcp"
+      "https://github.com/penpot/penpot",
+      "https://chopratejas.github.io/headroom/",
+      "https://andrew.ooo/posts/headroom-context-compression-llm-agents-review/",
+      "https://knightli.com/en/2026/06/06/headroom-ai-context-compression/"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,35 +24,35 @@
       "name": "palmier-pro",
       "url": "https://github.com/palmier-io/palmier-pro",
       "language": "Swift",
-      "stars": 3237,
-      "todayStars": 904,
-      "description": "Macネイティブの動画AIエディタ",
-      "detail": "Seedance、Kling、Nano Banana ProをMacのタイムラインへ統合した動画エディタです。Claude CodeやCursorからMCP経由で指示でき、macOS 26 + Apple Silicon限定でGPLv3配布されます。",
-      "narration": "Macのタイムラインに主要動画生成AIを束ねるエディタです。MCP経由でClaude Codeからも操作できます。"
+      "stars": 4964,
+      "todayStars": 1829,
+      "description": "CapCutに挑むMac専用AI動画ツール",
+      "detail": "Seedance、Kling、Nano Banana ProをMacのタイムラインに統合したGPLv3のAI動画エディタです。MCPサーバを内蔵しClaude CodeやCursorから直接編集操作できます。macOS 26とApple Silicon限定です。",
+      "narration": "CapCutに挑むMac専用のAI動画エディタです。Claude CodeからMCPで直接タイムライン操作できます。"
     },
     {
       "rank": 2,
-      "fullName": "penpot/penpot",
-      "name": "penpot",
-      "url": "https://github.com/penpot/penpot",
-      "language": "Clojure",
-      "stars": 51351,
-      "todayStars": 424,
-      "description": "Figma対抗のOSSデザイン本命",
-      "detail": "自己ホスト可能なFigma対抗の設計プラットフォームです。v2.16でデザイントークンとCSS Gridを刷新し、MCPサーバ経由で設計とコードを双方向につなぎます。プラグイン拡張も可能で、SVGとCSS標準でデータを持ちます。",
-      "narration": "Figmaの牙城にMCPで切り込むOSSの本命です。デザイントークンとCSS Gridで自前ホストできます。"
-    },
-    {
-      "rank": 3,
       "fullName": "calesthio/OpenMontage",
       "name": "OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "language": "Python",
-      "stars": 6989,
-      "todayStars": 677,
-      "description": "AIに映像制作を全任せできる司令塔",
-      "detail": "Claudeなどのコーディング AIに映像制作を全工程任せられるエージェントシステムです。Kling、Veo、FLUXなど50以上のツールを束ね、12種のパイプラインで台本から最終レンダーまで自動化します。AGPL-3.0で公開。",
-      "narration": "Veo、Klingなど50超のツールをAIが束ねる映像制作の司令塔です。ComfyUIと並ぶ生成AI動画の新中核です。"
+      "stars": 8536,
+      "todayStars": 993,
+      "description": "ComfyUIに対抗する司令塔OSS",
+      "detail": "ComfyUIや単発生成ツールに対抗する全工程自動化型の動画制作OSSです。Kling、Veo、FLUXなど52ツールを束ね12種のパイプラインで研究から最終レンダーまでAIに任せられます。AGPL-3.0公開。",
+      "narration": "ComfyUIや単発生成と違い全工程をAIが束ねる動画OSSです。12パイプラインで台本から仕上げまで自動化します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "chopratejas/headroom",
+      "name": "headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "language": "Python",
+      "stars": 44159,
+      "todayStars": 2617,
+      "description": "LLMLinguaと並ぶ文脈圧縮層",
+      "detail": "AIエージェントが読むツール出力やRAG断片を60-95%圧縮するライブラリです。LLMLinguaと違いコードはAST単位で削りMCP経由で原文も復元できます。Apache 2.0でPython/TypeScriptから使えます。",
+      "narration": "LLMLinguaと並ぶエージェント向けの文脈圧縮層です。コードもJSONも60-95%削れMCP経由で復元できます。"
     },
     {
       "rank": 4,
@@ -57,23 +60,23 @@
       "name": "turso",
       "url": "https://github.com/tursodatabase/turso",
       "language": "Rust",
-      "stars": 20284,
-      "todayStars": 774,
-      "description": "SQLite継ぐRust製組み込みDB",
-      "detail": "SQLite互換のままRustで再構築した組み込みDBです。BEGIN CONCURRENTでの多版書き込みや非同期I/O、ベクトル検索を備え、libSQLの戦略的後継として育っています。MITライセンス。",
-      "narration": "SQLite互換のままRustで書き直した組み込みDBです。非同期I/Oとベクトル検索でlibSQLを継ぎます。"
+      "stars": 20761,
+      "todayStars": 543,
+      "description": "libSQLを継ぐRust製の組み込みDB",
+      "detail": "SQLite互換のままRustでゼロから書き直した組み込みDBです。fork系のlibSQLと違いio_uringによる非同期I/Oや並行書き込み、ベクトル検索を備えます。MITで配布されv0.6.1まで進んでいます。",
+      "narration": "libSQLと違いSQLiteをRustで丸ごと書き直した組み込みDBです。非同期I/Oとベクトル検索が武器です。"
     },
     {
       "rank": 5,
-      "fullName": "DeusData/codebase-memory-mcp",
-      "name": "codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "language": "C",
-      "stars": 9269,
-      "todayStars": 1267,
-      "description": "コード理解に特化した知識グラフMCP",
-      "detail": "158言語をtree-sitterで構造解析し、知識グラフ化して保存するMCPサーバです。mem0などの汎用記憶と棲み分け、Claude CodeやCursorなど11個のエージェントに自動接続し、5問のクエリでファイル走査の99%トークンを節約します。MITで公開。",
-      "narration": "mem0系の汎用記憶と並ぶ、コード特化のMCPサーバです。158言語を3分で索引化しClaude Codeに繋がります。"
+      "fullName": "penpot/penpot",
+      "name": "penpot",
+      "url": "https://github.com/penpot/penpot",
+      "language": "Clojure",
+      "stars": 52173,
+      "todayStars": 1131,
+      "description": "Figmaに対抗するOSS設計ツール",
+      "detail": "Figmaに正面から挑む自己ホスト型のOSS設計ツールです。v2.16でデザイントークンとCSS Gridを刷新し、MCPサーバで設計とコードを双方向に接続します。MPL-2.0でDockerやKubernetesに載せられます。",
+      "narration": "Figmaに対抗する自己ホスト型のOSS設計ツールです。デザイントークンとCSS Gridで仕様もコードへ渡せます。"
     }
   ]
 }
