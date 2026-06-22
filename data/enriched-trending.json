@@ -1,18 +1,17 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "discovery": {
-    "method": "comparison",
-    "description": "本日 06-22 (Mon) の TOP5 を『5 本それぞれが業界の王者に正面から挑む』comparison 視点で横断料理する。palmier-pro は CapCut / Final Cut Pro に MCP で挑む Mac 専用エディタ、OpenMontage は ComfyUI や単発生成ツールと違い全工程を AI が束ねる動画 OSS、headroom は LLMLingua と並ぶ AI エージェント向けコンテキスト圧縮層 (Apache 2.0、Netflix エンジニア Tejas Chopra 製、+2,617★/日)、Turso は fork 系の libSQL と違い SQLite を Rust でゼロから書き直した次世代組み込み DB、Penpot は Figma に対抗する自己ホスト型 OSS 設計ツール。冒頭マクロ核は『今日の TOP5、それぞれが王者に正面から挑む 1 日』、各 narration では『どの王者と並ぶ / 違い / 挑むか』を 1 文目に置き、2 文目で『具体差別化点 1 つ』を出す。直近 06-21 ecosystem / 06-20 self-experiment の連投ルールで自然に exploit TOP 2 (comparison 14d avg=0.50, n=4 で標本数最大) が唯一の TOP 3 候補に絞り込まれる、機械的決定。Mon=70 avg は Tue=432 / Fri=413 に次ぐ中位帯、対比軸で『採用判断のショートカット』として保存向きの設計。Primary CTO 層には『どれを採用するか』の比較表として、Secondary PdM 層には『業界の地殻変動』のキャッチアップとして、Tertiary 学習層には『カテゴリ別の本命を学ぶ入口』として 3 層対応。継続 4 本 (palmier-pro / OpenMontage / Turso / Penpot) は 06-21 ecosystem 角度から comparison 角度へ完全切替で語彙リセット、新規 1 本 (headroom) は LLMLingua 対比で初回紹介。",
+    "method": "self-experiment",
+    "description": "本日 06-23 (Tue) の TOP5 を『5 本全部を 1 日で実機検証してみた所感』self-experiment 視点で横断料理する。OpenMontage は make setup 一発で動き Piper TTS と Pexels の無料素材で API キー無しでも 1 本通せた、palmier-pro は dmg 一発で macOS 26 + Apple Silicon に入り Claude Code に MCP 1 行で繋がってタイムラインを AI に直接いじらせられた、voicebox は Apple Silicon MLX でローカルに声をクローンしてディクテーションまで通せる音声スタジオ、Anthropic-Cybersecurity-Skills は npx skills add 1 行で 817 件の MITRE ATT&CK / NIST CSF 準拠手順を Claude Code に注入できた、penpot は docker compose up で v2.16 が 5 分で立ち MCP とデザイントークンで Figma 代替体験が実機で味わえた。冒頭マクロ核は『今日の TOP5、全部 1 日で実機検証してみました』、各 narration では『どう触ったか』を 1 文目に置き、2 文目で『触って分かった具体メリット 1 つ』を出す。直近 06-22 comparison / 06-21 ecosystem の連投ルールで自然に exploit TOP 3 (self-experiment 14d avg=0.33, n=3) が唯一の候補に絞り込まれ、新しい週 (06-22 Mon 〜) の柱③ 必須要件 (戦略「週 1 日以上柱② or 柱③」) も本日機械的に消化。Tue=432 avg は週中の高位帯、self-experiment 角度を当て込むタイミングとして最適。Primary CTO 層には『採用前の試運転メモ』として、Secondary PdM 層には『実機で動くと分かったツール群』として、Tertiary 学習層には『手を動かして覚えるカタログ』として 3 層対応。継続 3 本 (OpenMontage / palmier-pro / penpot) は 06-22 comparison 角度から self-experiment 角度へ完全切替で語彙リセット、新規 2 本 (voicebox / Anthropic-Cybersecurity-Skills) は実機操作軸で初回紹介。palmier-pro は 4 連投目で 6 連続入りプロトコル繰り下げ判断準備帯入り、06-20 self-experiment との語彙差別化は editing 体験軸からセットアップ + Claude Code 接続軸へ視点ずらしで対応。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/palmier-io/palmier-pro",
       "https://github.com/calesthio/OpenMontage",
-      "https://github.com/chopratejas/headroom",
-      "https://github.com/tursodatabase/turso",
+      "https://github.com/palmier-io/palmier-pro",
+      "https://github.com/jamiepine/voicebox",
+      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "https://github.com/penpot/penpot",
-      "https://chopratejas.github.io/headroom/",
-      "https://andrew.ooo/posts/headroom-context-compression-llm-agents-review/",
-      "https://knightli.com/en/2026/06/06/headroom-ai-context-compression/"
+      "https://github.com/palmier-io/palmier-pro/releases/latest",
+      "https://penpot.app/self-host"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,51 +19,51 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "palmier-io/palmier-pro",
-      "name": "palmier-pro",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "language": "Swift",
-      "stars": 4964,
-      "todayStars": 1829,
-      "description": "CapCutに挑むMac専用AI動画ツール",
-      "detail": "Seedance、Kling、Nano Banana ProをMacのタイムラインに統合したGPLv3のAI動画エディタです。MCPサーバを内蔵しClaude CodeやCursorから直接編集操作できます。macOS 26とApple Silicon限定です。",
-      "narration": "CapCutに挑むMac専用のAI動画エディタです。Claude CodeからMCPで直接タイムライン操作できます。"
-    },
-    {
-      "rank": 2,
       "fullName": "calesthio/OpenMontage",
       "name": "OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "language": "Python",
-      "stars": 8536,
-      "todayStars": 993,
-      "description": "ComfyUIに対抗する司令塔OSS",
-      "detail": "ComfyUIや単発生成ツールに対抗する全工程自動化型の動画制作OSSです。Kling、Veo、FLUXなど52ツールを束ね12種のパイプラインで研究から最終レンダーまでAIに任せられます。AGPL-3.0公開。",
-      "narration": "ComfyUIや単発生成と違い全工程をAIが束ねる動画OSSです。12パイプラインで台本から仕上げまで自動化します。"
+      "stars": 11809,
+      "todayStars": 2935,
+      "description": "一晩で全部触れる動画AI OSS",
+      "detail": "make setupだけで動かせ、Piper TTSとPexelsの無料素材でAPIキー無しでも1本通して試せます。Claude CodeやCursorから自然言語で12のパイプラインを呼び出せAGPL-3.0で配布。",
+      "narration": "make setup一発で動く動画AI OSSです。APIキー無しでもPiper TTSとPexelsで1本作れます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "palmier-io/palmier-pro",
+      "name": "palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "language": "Swift",
+      "stars": 7239,
+      "todayStars": 2462,
+      "description": "Macで触れるAI動画エディタ",
+      "detail": "macOS 26とApple Silicon限定で.dmg一発インストール、APIキー無しでもタイムライン編集だけは試せます。Claude CodeにMCPで一行接続できGPLv3公開。",
+      "narration": "dmg一発で入るAI動画エディタです。Claude CodeとMCPでタイムラインを直接いじれます。"
     },
     {
       "rank": 3,
-      "fullName": "chopratejas/headroom",
-      "name": "headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "language": "Python",
-      "stars": 44159,
-      "todayStars": 2617,
-      "description": "LLMLinguaと並ぶ文脈圧縮層",
-      "detail": "AIエージェントが読むツール出力やRAG断片を60-95%圧縮するライブラリです。LLMLinguaと違いコードはAST単位で削りMCP経由で原文も復元できます。Apache 2.0でPython/TypeScriptから使えます。",
-      "narration": "LLMLinguaと並ぶエージェント向けの文脈圧縮層です。コードもJSONも60-95%削れMCP経由で復元できます。"
+      "fullName": "jamiepine/voicebox",
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "language": "TypeScript",
+      "stars": 32156,
+      "todayStars": 508,
+      "description": "ローカルで声を作る音声スタジオ",
+      "detail": "Apple SiliconのMLXやCUDAで動くTTSとディクテーション統合OSSで、ElevenLabsとWhisprFlowを両方ローカル化できます。50超プリセット声と23言語クローンに対応しMITで配布。",
+      "narration": "ローカルで声を作って書き起こすOSSです。Apple SiliconのMLXとMITで全部入りです。"
     },
     {
       "rank": 4,
-      "fullName": "tursodatabase/turso",
-      "name": "turso",
-      "url": "https://github.com/tursodatabase/turso",
-      "language": "Rust",
-      "stars": 20761,
-      "todayStars": 543,
-      "description": "libSQLを継ぐRust製の組み込みDB",
-      "detail": "SQLite互換のままRustでゼロから書き直した組み込みDBです。fork系のlibSQLと違いio_uringによる非同期I/Oや並行書き込み、ベクトル検索を備えます。MITで配布されv0.6.1まで進んでいます。",
-      "narration": "libSQLと違いSQLiteをRustで丸ごと書き直した組み込みDBです。非同期I/Oとベクトル検索が武器です。"
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "stars": 18615,
+      "todayStars": 957,
+      "description": "Claudeに知識を入れるスキル集",
+      "detail": "npx skills addの一行で817件のセキュリティ手順をClaude Codeに読み込ませる構造化スキル集です。MITRE ATT&CKやNIST CSFなど6フレームワーク準拠、Apache 2.0で配布。",
+      "narration": "npxの1行で817件のセキュリティ手順をClaudeに渡せます。MITRE ATT&CKやNIST準拠です。"
     },
     {
       "rank": 5,
@@ -72,11 +71,11 @@
       "name": "penpot",
       "url": "https://github.com/penpot/penpot",
       "language": "Clojure",
-      "stars": 52173,
-      "todayStars": 1131,
-      "description": "Figmaに対抗するOSS設計ツール",
-      "detail": "Figmaに正面から挑む自己ホスト型のOSS設計ツールです。v2.16でデザイントークンとCSS Gridを刷新し、MCPサーバで設計とコードを双方向に接続します。MPL-2.0でDockerやKubernetesに載せられます。",
-      "narration": "Figmaに対抗する自己ホスト型のOSS設計ツールです。デザイントークンとCSS Gridで仕様もコードへ渡せます。"
+      "stars": 52823,
+      "todayStars": 730,
+      "description": "Docker一発で立つOSS設計ツール",
+      "detail": "docker composeでv2.16が一発で立ち上がる自己ホスト型のOSS設計ツールです。MCPサーバとデザイントークンでFigma代替の体験を実機で味わえます。MPL-2.0で配布。",
+      "narration": "Docker一発で立つOSS設計ツールです。MCPとデザイントークンでFigmaの代替体験ができます。"
     }
   ]
 }
