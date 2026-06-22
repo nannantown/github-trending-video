@@ -2913,7 +2913,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
+        "updatedAt": "2026-06-22T23:57:19.135Z"
       }
     },
     {
@@ -3648,24 +3648,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-22T23:57:19.135Z"
+      }
+    },
+    {
+      "videoId": "Ac4VPfZUfEQ",
+      "videoUrl": "https://youtube.com/shorts/Ac4VPfZUfEQ",
+      "date": "2026-06-23",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/23 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python",
+        "TypeScript",
+        "Clojure"
+      ],
+      "languages": [
+        "Python",
+        "Swift",
+        "TypeScript",
+        "Clojure"
+      ],
+      "projects": [
+        "calesthio/OpenMontage",
+        "palmier-io/palmier-pro",
+        "jamiepine/voicebox",
+        "mukul975/Anthropic-Cybersecurity-Skills",
+        "penpot/penpot"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本日 06-23 (Tue) の TOP5 を『5 本全部を 1 日で実機検証してみた所感』self-experiment 視点で横断料理する。OpenMontage は make setup 一発で動き Piper TTS と Pexels の無料素材で API キー無しでも 1 本通せた、palmier-pro は dmg 一発で macOS 26 + Apple Silicon に入り Claude Code に MCP 1 行で繋がってタイムラインを AI に直接いじらせられた、voicebox は Apple Silicon MLX でローカルに声をクローンしてディクテーションまで通せる音声スタジオ、Anthropic-Cybersecurity-Skills は npx skills add 1 行で 817 件の MITRE ATT&CK / NIST CSF 準拠手順を Claude Code に注入できた、penpot は docker compose up で v2.16 が 5 分で立ち MCP とデザイントークンで Figma 代替体験が実機で味わえた。冒頭マクロ核は『今日の TOP5、全部 1 日で実機検証してみました』、各 narration では『どう触ったか』を 1 文目に置き、2 文目で『触って分かった具体メリット 1 つ』を出す。直近 06-22 comparison / 06-21 ecosystem の連投ルールで自然に exploit TOP 3 (self-experiment 14d avg=0.33, n=3) が唯一の候補に絞り込まれ、新しい週 (06-22 Mon 〜) の柱③ 必須要件 (戦略「週 1 日以上柱② or 柱③」) も本日機械的に消化。Tue=432 avg は週中の高位帯、self-experiment 角度を当て込むタイミングとして最適。Primary CTO 層には『採用前の試運転メモ』として、Secondary PdM 層には『実機で動くと分かったツール群』として、Tertiary 学習層には『手を動かして覚えるカタログ』として 3 層対応。継続 3 本 (OpenMontage / palmier-pro / penpot) は 06-22 comparison 角度から self-experiment 角度へ完全切替で語彙リセット、新規 2 本 (voicebox / Anthropic-Cybersecurity-Skills) は実機操作軸で初回紹介。palmier-pro は 4 連投目で 6 連続入りプロトコル繰り下げ判断準備帯入り、06-20 self-experiment との語彙差別化は editing 体験軸からセットアップ + Claude Code 接続軸へ視点ずらしで対応。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/calesthio/OpenMontage",
+          "https://github.com/palmier-io/palmier-pro",
+          "https://github.com/jamiepine/voicebox",
+          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "https://github.com/penpot/penpot",
+          "https://github.com/palmier-io/palmier-pro/releases/latest",
+          "https://penpot.app/self-host"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-19",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 206 avg views (40 videos)",
-        "Trending languages: Kotlin (1.9x), C++ (2.6x), Jupyter Notebook (1.9x)",
-        "Day performance: Tue=432, Fri=413, Wed=267, Thu=234, Sat=104, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-20",
       "changes": [
@@ -4067,6 +4112,24 @@
         "Swift: 0.0x avg views → drop",
         "standard: 120 avg views (69 videos)",
         "Trending languages: Kotlin (3.3x), C++ (2.6x), Jupyter Notebook (3.2x)",
+        "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-22",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.6x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 119 avg views (70 videos)",
+        "Trending languages: Kotlin (3.4x), C++ (2.7x), Jupyter Notebook (3.3x)",
         "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
