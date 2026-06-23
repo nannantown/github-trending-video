@@ -2966,7 +2966,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-22T23:57:19.135Z"
+        "updatedAt": "2026-06-23T23:44:44.921Z"
       }
     },
     {
@@ -3706,25 +3706,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-23T23:44:44.921Z"
+      }
+    },
+    {
+      "videoId": "mOeTW1k2dDM",
+      "videoUrl": "https://youtube.com/shorts/mOeTW1k2dDM",
+      "date": "2026-06-24",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/24 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "calesthio/OpenMontage",
+        "ZhuLinsen/daily_stock_analysis",
+        "mukul975/Anthropic-Cybersecurity-Skills",
+        "garrytan/gstack",
+        "bytedance/deer-flow"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日 06-24 (Wed) の TOP5 を『AI エージェント周辺エコシステムの 5 つの空きピース』ecosystem 視点で横断料理する。OpenMontage は Claude Code から自然言語で 12 種の動画パイプラインを呼ぶ動画生成オーケストレータの位置、daily_stock_analysis は OpenBB や yfinance やニュース API の上に LLM 判断層を載せる FinAI ダッシュボード層、Anthropic-Cybersecurity-Skills は agentskills.io 規格で 817 件のセキュリティ手順を Claude / Cursor / Copilot / Gemini CLI / Codex に注入できる規格束ね型 skill pack、gstack は Y Combinator 社長 Garry Tan 氏の Claude Code 環境一式 (23 ツール + MCP + slash + agents + rules) を丸ごと配る curated dotfiles、deer-flow は ByteDance 製の LangGraph + MCP 上に組まれた長尺タスク用 SuperAgent harness で Manus 代替を狙う位置。冒頭マクロ核は『AI エージェントの周辺地図、今日の TOP5 が 5 つの空きを埋める』、各 narration は『〇〇の役目を果たすOSSです。〇〇と繋がる / 束ねる / 上に乗る / 一式入る』の「位置 + 接続」2 文構成で 5/5 統一。直近 06-23 self-experiment / 06-22 comparison の連投ルールで 14d TOP 3 候補は ecosystem (1.00 avg, n=3) 一択に機械的収束、本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠で TOP 1 method を当て込み。Wed=153 avg は週次 4 位帯、ecosystem 角度を投入するタイミングとして最適。Primary (CTO/技術選定) には『今の AI スタックの空きピース』として、Secondary (PdM) には『業務領域別に AI が入る場所』として、Tertiary (学習中) には『AI エコシステムの全景マップ』として 3 層対応。継続 2 本 (OpenMontage 2 連続 / Anthropic-Cybersecurity-Skills 2 連続) は前日 self-experiment の操作軸 / 導入軸から本日 ecosystem の位置軸 / 規格束ね軸へ完全切替で連投ペナルティ回避、新規 3 本 (daily_stock_analysis / gstack / deer-flow) で素材鮮度を最大化。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/calesthio/OpenMontage",
+          "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "https://github.com/garrytan/gstack",
+          "https://github.com/bytedance/deer-flow",
+          "https://agentskills.io",
+          "https://news.ycombinator.com/from?site=github.com/calesthio"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-20",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Go: 0.5x avg views → drop",
-        "standard: 201 avg views (41 videos)",
-        "Trending languages: Kotlin (2.0x), C++ (2.6x), Jupyter Notebook (1.9x)",
-        "Day performance: Tue=432, Fri=413, Thu=234, Wed=214, Sat=104, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-21",
       "changes": [
@@ -4131,6 +4171,23 @@
         "standard: 119 avg views (70 videos)",
         "Trending languages: Kotlin (3.4x), C++ (2.7x), Jupyter Notebook (3.3x)",
         "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-23",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.6x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 117 avg views (71 videos)",
+        "Trending languages: Kotlin (3.4x), C++ (2.7x), Jupyter Notebook (3.3x)",
+        "Day performance: Tue=241, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
