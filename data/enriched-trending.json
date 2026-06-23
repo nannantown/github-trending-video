@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日 06-23 (Tue) の TOP5 を『5 本全部を 1 日で実機検証してみた所感』self-experiment 視点で横断料理する。OpenMontage は make setup 一発で動き Piper TTS と Pexels の無料素材で API キー無しでも 1 本通せた、palmier-pro は dmg 一発で macOS 26 + Apple Silicon に入り Claude Code に MCP 1 行で繋がってタイムラインを AI に直接いじらせられた、voicebox は Apple Silicon MLX でローカルに声をクローンしてディクテーションまで通せる音声スタジオ、Anthropic-Cybersecurity-Skills は npx skills add 1 行で 817 件の MITRE ATT&CK / NIST CSF 準拠手順を Claude Code に注入できた、penpot は docker compose up で v2.16 が 5 分で立ち MCP とデザイントークンで Figma 代替体験が実機で味わえた。冒頭マクロ核は『今日の TOP5、全部 1 日で実機検証してみました』、各 narration では『どう触ったか』を 1 文目に置き、2 文目で『触って分かった具体メリット 1 つ』を出す。直近 06-22 comparison / 06-21 ecosystem の連投ルールで自然に exploit TOP 3 (self-experiment 14d avg=0.33, n=3) が唯一の候補に絞り込まれ、新しい週 (06-22 Mon 〜) の柱③ 必須要件 (戦略「週 1 日以上柱② or 柱③」) も本日機械的に消化。Tue=432 avg は週中の高位帯、self-experiment 角度を当て込むタイミングとして最適。Primary CTO 層には『採用前の試運転メモ』として、Secondary PdM 層には『実機で動くと分かったツール群』として、Tertiary 学習層には『手を動かして覚えるカタログ』として 3 層対応。継続 3 本 (OpenMontage / palmier-pro / penpot) は 06-22 comparison 角度から self-experiment 角度へ完全切替で語彙リセット、新規 2 本 (voicebox / Anthropic-Cybersecurity-Skills) は実機操作軸で初回紹介。palmier-pro は 4 連投目で 6 連続入りプロトコル繰り下げ判断準備帯入り、06-20 self-experiment との語彙差別化は editing 体験軸からセットアップ + Claude Code 接続軸へ視点ずらしで対応。",
+    "method": "ecosystem",
+    "description": "本日 06-24 (Wed) の TOP5 を『AI エージェント周辺エコシステムの 5 つの空きピース』ecosystem 視点で横断料理する。OpenMontage は Claude Code から自然言語で 12 種の動画パイプラインを呼ぶ動画生成オーケストレータの位置、daily_stock_analysis は OpenBB や yfinance やニュース API の上に LLM 判断層を載せる FinAI ダッシュボード層、Anthropic-Cybersecurity-Skills は agentskills.io 規格で 817 件のセキュリティ手順を Claude / Cursor / Copilot / Gemini CLI / Codex に注入できる規格束ね型 skill pack、gstack は Y Combinator 社長 Garry Tan 氏の Claude Code 環境一式 (23 ツール + MCP + slash + agents + rules) を丸ごと配る curated dotfiles、deer-flow は ByteDance 製の LangGraph + MCP 上に組まれた長尺タスク用 SuperAgent harness で Manus 代替を狙う位置。冒頭マクロ核は『AI エージェントの周辺地図、今日の TOP5 が 5 つの空きを埋める』、各 narration は『〇〇の役目を果たすOSSです。〇〇と繋がる / 束ねる / 上に乗る / 一式入る』の「位置 + 接続」2 文構成で 5/5 統一。直近 06-23 self-experiment / 06-22 comparison の連投ルールで 14d TOP 3 候補は ecosystem (1.00 avg, n=3) 一択に機械的収束、本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠で TOP 1 method を当て込み。Wed=153 avg は週次 4 位帯、ecosystem 角度を投入するタイミングとして最適。Primary (CTO/技術選定) には『今の AI スタックの空きピース』として、Secondary (PdM) には『業務領域別に AI が入る場所』として、Tertiary (学習中) には『AI エコシステムの全景マップ』として 3 層対応。継続 2 本 (OpenMontage 2 連続 / Anthropic-Cybersecurity-Skills 2 連続) は前日 self-experiment の操作軸 / 導入軸から本日 ecosystem の位置軸 / 規格束ね軸へ完全切替で連投ペナルティ回避、新規 3 本 (daily_stock_analysis / gstack / deer-flow) で素材鮮度を最大化。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/calesthio/OpenMontage",
-      "https://github.com/palmier-io/palmier-pro",
-      "https://github.com/jamiepine/voicebox",
+      "https://github.com/ZhuLinsen/daily_stock_analysis",
       "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "https://github.com/penpot/penpot",
-      "https://github.com/palmier-io/palmier-pro/releases/latest",
-      "https://penpot.app/self-host"
+      "https://github.com/garrytan/gstack",
+      "https://github.com/bytedance/deer-flow",
+      "https://agentskills.io",
+      "https://news.ycombinator.com/from?site=github.com/calesthio"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,59 +23,59 @@
       "name": "OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "language": "Python",
-      "stars": 11809,
-      "todayStars": 2935,
-      "description": "一晩で全部触れる動画AI OSS",
-      "detail": "make setupだけで動かせ、Piper TTSとPexelsの無料素材でAPIキー無しでも1本通して試せます。Claude CodeやCursorから自然言語で12のパイプラインを呼び出せAGPL-3.0で配布。",
-      "narration": "make setup一発で動く動画AI OSSです。APIキー無しでもPiper TTSとPexelsで1本作れます。"
+      "stars": 15453,
+      "todayStars": 3590,
+      "description": "Claude Code動画司令塔OSS",
+      "detail": "12種類の動画パイプラインを自然言語で並べ替えできるエージェント基盤です。Piper TTSとPexelsの無料素材を束ねるのでAPIキー無しでも1本通せます。AGPL-3.0で配布。",
+      "narration": "Claude Codeから動画生成を回す司令塔OSSです。12のパイプラインを自然言語で繋いで動かせます。"
     },
     {
       "rank": 2,
-      "fullName": "palmier-io/palmier-pro",
-      "name": "palmier-pro",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "language": "Swift",
-      "stars": 7239,
-      "todayStars": 2462,
-      "description": "Macで触れるAI動画エディタ",
-      "detail": "macOS 26とApple Silicon限定で.dmg一発インストール、APIキー無しでもタイムライン編集だけは試せます。Claude CodeにMCPで一行接続できGPLv3公開。",
-      "narration": "dmg一発で入るAI動画エディタです。Claude CodeとMCPでタイムラインを直接いじれます。"
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars": 46968,
+      "todayStars": 1121,
+      "description": "LLMで世界市場を毎朝分析するOSS",
+      "detail": "OpenBBやニュースAPIの上にLLMの判断層が乗る投資補助プラットフォームです。複数市場の値動きを毎朝ダッシュボードに集約し、Bloomberg代替を狙う構図でMITで配布されています。",
+      "narration": "LLMで複数市場を毎朝レポート化するOSSです。OpenBBやニュースAPIの上に判断層が乗ります。"
     },
     {
       "rank": 3,
-      "fullName": "jamiepine/voicebox",
-      "name": "voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "language": "TypeScript",
-      "stars": 32156,
-      "todayStars": 508,
-      "description": "ローカルで声を作る音声スタジオ",
-      "detail": "Apple SiliconのMLXやCUDAで動くTTSとディクテーション統合OSSで、ElevenLabsとWhisprFlowを両方ローカル化できます。50超プリセット声と23言語クローンに対応しMITで配布。",
-      "narration": "ローカルで声を作って書き起こすOSSです。Apple SiliconのMLXとMITで全部入りです。"
-    },
-    {
-      "rank": 4,
       "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
       "name": "Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "language": "Python",
-      "stars": 18615,
-      "todayStars": 957,
-      "description": "Claudeに知識を入れるスキル集",
-      "detail": "npx skills addの一行で817件のセキュリティ手順をClaude Codeに読み込ませる構造化スキル集です。MITRE ATT&CKやNIST CSFなど6フレームワーク準拠、Apache 2.0で配布。",
-      "narration": "npxの1行で817件のセキュリティ手順をClaudeに渡せます。MITRE ATT&CKやNIST準拠です。"
+      "stars": 19608,
+      "todayStars": 1040,
+      "description": "Claude向け817件のセキュリティ束",
+      "detail": "MITRE ATT&CKやNIST CSFなど6つのフレームワークを束ねた構造化スキル集です。npx skills addの1行でClaude CodeやCursorに追加でき、Apache 2.0で配布されています。",
+      "narration": "Claudeに817件のセキュリティ知識を載せる束です。MITRE ATT&CKなど6規格を周辺に取り込めます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "garrytan/gstack",
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "language": "TypeScript",
+      "stars": 114008,
+      "todayStars": 1012,
+      "description": "Garry Tan流Claude Code環境一式",
+      "detail": "Y CombinatorのGarry Tan氏が日常使う23ツールとMCP設定をそのまま配布するスタックです。エージェント、スラッシュコマンド、ルールまで一括導入でき、MITで公開されています。",
+      "narration": "Garry Tan氏のClaude Code環境一式OSSです。23個の厳選ツールとMCPがそのまま入ります。"
     },
     {
       "rank": 5,
-      "fullName": "penpot/penpot",
-      "name": "penpot",
-      "url": "https://github.com/penpot/penpot",
-      "language": "Clojure",
-      "stars": 52823,
-      "todayStars": 730,
-      "description": "Docker一発で立つOSS設計ツール",
-      "detail": "docker composeでv2.16が一発で立ち上がる自己ホスト型のOSS設計ツールです。MCPサーバとデザイントークンでFigma代替の体験を実機で味わえます。MPL-2.0で配布。",
-      "narration": "Docker一発で立つOSS設計ツールです。MCPとデザイントークンでFigmaの代替体験ができます。"
+      "fullName": "bytedance/deer-flow",
+      "name": "deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "language": "Python",
+      "stars": 73867,
+      "todayStars": 741,
+      "description": "ByteDance製の長尺エージェント",
+      "detail": "研究、コーディング、創作を1本のフローで完結させる長尺タスク向けエージェント基盤です。LangGraphとMCPの上に組まれ、Manus代替を狙う立ち位置でMITで配布されています。",
+      "narration": "ByteDance製の長尺タスク用エージェントOSSです。研究と開発と制作を1つのフローで束ねます。"
     }
   ]
 }
