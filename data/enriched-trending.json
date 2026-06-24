@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日 06-24 (Wed) の TOP5 を『AI エージェント周辺エコシステムの 5 つの空きピース』ecosystem 視点で横断料理する。OpenMontage は Claude Code から自然言語で 12 種の動画パイプラインを呼ぶ動画生成オーケストレータの位置、daily_stock_analysis は OpenBB や yfinance やニュース API の上に LLM 判断層を載せる FinAI ダッシュボード層、Anthropic-Cybersecurity-Skills は agentskills.io 規格で 817 件のセキュリティ手順を Claude / Cursor / Copilot / Gemini CLI / Codex に注入できる規格束ね型 skill pack、gstack は Y Combinator 社長 Garry Tan 氏の Claude Code 環境一式 (23 ツール + MCP + slash + agents + rules) を丸ごと配る curated dotfiles、deer-flow は ByteDance 製の LangGraph + MCP 上に組まれた長尺タスク用 SuperAgent harness で Manus 代替を狙う位置。冒頭マクロ核は『AI エージェントの周辺地図、今日の TOP5 が 5 つの空きを埋める』、各 narration は『〇〇の役目を果たすOSSです。〇〇と繋がる / 束ねる / 上に乗る / 一式入る』の「位置 + 接続」2 文構成で 5/5 統一。直近 06-23 self-experiment / 06-22 comparison の連投ルールで 14d TOP 3 候補は ecosystem (1.00 avg, n=3) 一択に機械的収束、本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠で TOP 1 method を当て込み。Wed=153 avg は週次 4 位帯、ecosystem 角度を投入するタイミングとして最適。Primary (CTO/技術選定) には『今の AI スタックの空きピース』として、Secondary (PdM) には『業務領域別に AI が入る場所』として、Tertiary (学習中) には『AI エコシステムの全景マップ』として 3 層対応。継続 2 本 (OpenMontage 2 連続 / Anthropic-Cybersecurity-Skills 2 連続) は前日 self-experiment の操作軸 / 導入軸から本日 ecosystem の位置軸 / 規格束ね軸へ完全切替で連投ペナルティ回避、新規 3 本 (daily_stock_analysis / gstack / deer-flow) で素材鮮度を最大化。",
+    "method": "comparison",
+    "description": "本日 06-25 (Thu=176 avg・週次 3 位帯) の TOP5 を『各 OSS は何の代替・対抗馬か』comparison 角度で 5/5 統一料理する。直近 2 日 (06-24 ecosystem / 06-23 self-experiment) は連投ルールで除外、14d 残存 TOP 候補は comparison (0.67 avg n=3) で機械的収束。最終 comparison 投入は 06-19 で 6 日空き、視聴者疲労リスクなし。本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠。本日 lineup は完全新規 5/5 で素材鮮度を最大化、各 OSS に明確な incumbent SaaS or 既存ツールが立つ理想 comparison 構図: #1 OpenMontage は Sora / Runway / Veo に対抗する『1 クリップ生成ではなく番組丸ごとを組む』orchestrator 位置、#2 daily_stock_analysis は OpenBB / FinGPT に対抗する『判断レポートを毎朝チャットに自動配信』する閉ループ自動化、#3 apple/container は Docker Desktop / OrbStack / Colima / Podman に対抗する『1 コンテナ 1 VM の Apple 純正実装』、#4 ai-website-cloner-template は HTTrack / wget の HTML 丸写しでも v0 / Bolt / Lovable の白紙生成でもなく『既存サイトを Next.js + Tailwind の編集可能コードに変換』する中間ポジション、#5 hermes-agent は Claude Code / OpenHands / AutoGPT に対抗する『自己改善ループと skill 学習が組み込み』。冒頭マクロ核は『今日の TOP5、それぞれ何の代替か』、各 narration は『〇〇OSSです。〇〇と違い〇〇できます』の『対抗軸 + 差別化点』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/calesthio/OpenMontage",
       "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "https://github.com/garrytan/gstack",
-      "https://github.com/bytedance/deer-flow",
-      "https://agentskills.io",
-      "https://news.ycombinator.com/from?site=github.com/calesthio"
+      "https://github.com/apple/container",
+      "https://github.com/JCodesMore/ai-website-cloner-template",
+      "https://github.com/NousResearch/hermes-agent",
+      "https://openbb.co",
+      "https://www.docker.com/products/docker-desktop"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,11 +23,11 @@
       "name": "OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "language": "Python",
-      "stars": 15453,
-      "todayStars": 3590,
-      "description": "Claude Code動画司令塔OSS",
-      "detail": "12種類の動画パイプラインを自然言語で並べ替えできるエージェント基盤です。Piper TTSとPexelsの無料素材を束ねるのでAPIキー無しでも1本通せます。AGPL-3.0で配布。",
-      "narration": "Claude Codeから動画生成を回す司令塔OSSです。12のパイプラインを自然言語で繋いで動かせます。"
+      "stars": 19163,
+      "todayStars": 3703,
+      "description": "番組を丸ごと自動で組むAI動画OSS",
+      "detail": "12のパイプラインと500種以上のスキルを束ね、企画から編集までを自動化します。SoraやRunwayが1クリップを作るのに対し、Archive.orgなど実素材で長尺の番組を組み立てます。",
+      "narration": "OpenMontageは番組丸ごとを組み立てる動画OSSです。Soraと違い実素材で長尺を作れます。"
     },
     {
       "rank": 2,
@@ -35,47 +35,47 @@
       "name": "daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "language": "Python",
-      "stars": 46968,
-      "todayStars": 1121,
-      "description": "LLMで世界市場を毎朝分析するOSS",
-      "detail": "OpenBBやニュースAPIの上にLLMの判断層が乗る投資補助プラットフォームです。複数市場の値動きを毎朝ダッシュボードに集約し、Bloomberg代替を狙う構図でMITで配布されています。",
-      "narration": "LLMで複数市場を毎朝レポート化するOSSです。OpenBBやニュースAPIの上に判断層が乗ります。"
+      "stars": 48407,
+      "todayStars": 1461,
+      "description": "AIが毎朝の市場判断を配信するOSS",
+      "detail": "A株、米株、香港株、ETFのウォッチリストをLLMで分析し、ニュースやセンチメントを束ねて毎朝レポートをチャットに配信します。OpenBBが画面表示なのに対し、判断の自動配信が強みです。",
+      "narration": "daily_stock_analysisはLLMで毎朝判断レポを出すOSSです。OpenBBより自動配信が強みです。"
     },
     {
       "rank": 3,
-      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
-      "name": "Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "language": "Python",
-      "stars": 19608,
-      "todayStars": 1040,
-      "description": "Claude向け817件のセキュリティ束",
-      "detail": "MITRE ATT&CKやNIST CSFなど6つのフレームワークを束ねた構造化スキル集です。npx skills addの1行でClaude CodeやCursorに追加でき、Apache 2.0で配布されています。",
-      "narration": "Claudeに817件のセキュリティ知識を載せる束です。MITRE ATT&CKなど6規格を周辺に取り込めます。"
+      "fullName": "apple/container",
+      "name": "container",
+      "url": "https://github.com/apple/container",
+      "language": "Swift",
+      "stars": 42121,
+      "todayStars": 1746,
+      "description": "Apple純正のMacコンテナ実行基盤",
+      "detail": "Apple Virtualization FrameworkでApple Silicon上に1コンテナ1VMを立て、OCI互換イメージを使います。Docker DesktopやColimaより軽量で、Mac純正で速度も最適化されています。",
+      "narration": "apple/containerはApple純正VMで動くコンテナOSSです。Docker Desktopより軽量です。"
     },
     {
       "rank": 4,
-      "fullName": "garrytan/gstack",
-      "name": "gstack",
-      "url": "https://github.com/garrytan/gstack",
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "name": "ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "language": "TypeScript",
-      "stars": 114008,
-      "todayStars": 1012,
-      "description": "Garry Tan流Claude Code環境一式",
-      "detail": "Y CombinatorのGarry Tan氏が日常使う23ツールとMCP設定をそのまま配布するスタックです。エージェント、スラッシュコマンド、ルールまで一括導入でき、MITで公開されています。",
-      "narration": "Garry Tan氏のClaude Code環境一式OSSです。23個の厳選ツールとMCPがそのまま入ります。"
+      "stars": 19247,
+      "todayStars": 693,
+      "description": "サイトをNext.jsに再構築するOSS",
+      "detail": "スクショ解析からデザイントークン抽出、並列でのコード生成までを多段パイプラインで実行し、Next.jsとTailwindのコードを出します。HTTrackがHTML丸写しなのに対し、編集可能なReactコードが手に入ります。",
+      "narration": "ai-website-clonerはサイトをNext.jsに変換するOSSです。HTTrackと違い保守可能です。"
     },
     {
       "rank": 5,
-      "fullName": "bytedance/deer-flow",
-      "name": "deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 73867,
-      "todayStars": 741,
-      "description": "ByteDance製の長尺エージェント",
-      "detail": "研究、コーディング、創作を1本のフローで完結させる長尺タスク向けエージェント基盤です。LangGraphとMCPの上に組まれ、Manus代替を狙う立ち位置でMITで配布されています。",
-      "narration": "ByteDance製の長尺タスク用エージェントOSSです。研究と開発と制作を1つのフローで束ねます。"
+      "stars": 201996,
+      "todayStars": 1174,
+      "description": "自分でスキルを増やすAIエージェント",
+      "detail": "Nous Researchが公開した自己改善型エージェントで、経験からスキルを生成し継続的に磨きます。CLIやTelegram、Slackなど複数チャネルに対応し、5ドルVPSでも動きます。",
+      "narration": "hermes-agentは自分でスキルを覚えるOSSエージェントです。Claude Codeと違い学習機能内蔵です。"
     }
   ]
 }
