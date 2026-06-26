@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
+        "updatedAt": "2026-06-26T00:01:36.779Z"
       }
     },
     {
@@ -3760,24 +3760,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-26T00:01:36.779Z"
+      }
+    },
+    {
+      "videoId": "q7ssbq8IxHY",
+      "videoUrl": "https://youtube.com/shorts/q7ssbq8IxHY",
+      "date": "2026-06-26",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/26 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "Swift",
+        "TypeScript"
+      ],
+      "projects": [
+        "calesthio/OpenMontage",
+        "ZhuLinsen/daily_stock_analysis",
+        "apple/container",
+        "JCodesMore/ai-website-cloner-template",
+        "NousResearch/hermes-agent"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日 06-25 (Thu=176 avg・週次 3 位帯) の TOP5 を『各 OSS は何の代替・対抗馬か』comparison 角度で 5/5 統一料理する。直近 2 日 (06-24 ecosystem / 06-23 self-experiment) は連投ルールで除外、14d 残存 TOP 候補は comparison (0.67 avg n=3) で機械的収束。最終 comparison 投入は 06-19 で 6 日空き、視聴者疲労リスクなし。本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠。本日 lineup は完全新規 5/5 で素材鮮度を最大化、各 OSS に明確な incumbent SaaS or 既存ツールが立つ理想 comparison 構図: #1 OpenMontage は Sora / Runway / Veo に対抗する『1 クリップ生成ではなく番組丸ごとを組む』orchestrator 位置、#2 daily_stock_analysis は OpenBB / FinGPT に対抗する『判断レポートを毎朝チャットに自動配信』する閉ループ自動化、#3 apple/container は Docker Desktop / OrbStack / Colima / Podman に対抗する『1 コンテナ 1 VM の Apple 純正実装』、#4 ai-website-cloner-template は HTTrack / wget の HTML 丸写しでも v0 / Bolt / Lovable の白紙生成でもなく『既存サイトを Next.js + Tailwind の編集可能コードに変換』する中間ポジション、#5 hermes-agent は Claude Code / OpenHands / AutoGPT に対抗する『自己改善ループと skill 学習が組み込み』。冒頭マクロ核は『今日の TOP5、それぞれ何の代替か』、各 narration は『〇〇OSSです。〇〇と違い〇〇できます』の『対抗軸 + 差別化点』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/calesthio/OpenMontage",
+          "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "https://github.com/apple/container",
+          "https://github.com/JCodesMore/ai-website-cloner-template",
+          "https://github.com/NousResearch/hermes-agent",
+          "https://openbb.co",
+          "https://www.docker.com/products/docker-desktop"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-21",
-      "changes": [
-        "Rust: 0.6x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Go: 0.6x avg views → drop",
-        "standard: 197 avg views (42 videos)",
-        "Trending languages: Kotlin (2.0x), C++ (2.7x), Jupyter Notebook (2.0x)",
-        "Day performance: Tue=432, Fri=413, Wed=214, Thu=201, Sat=104, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-22",
       "changes": [
@@ -4188,6 +4230,23 @@
         "standard: 117 avg views (71 videos)",
         "Trending languages: Kotlin (3.4x), C++ (2.7x), Jupyter Notebook (3.3x)",
         "Day performance: Tue=241, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-26",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.6x avg views → drop",
+        "Shell: 0.8x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 115 avg views (72 videos)",
+        "Trending languages: Kotlin (3.5x), C++ (2.7x), Jupyter Notebook (3.4x)",
+        "Day performance: Tue=241, Fri=226, Thu=128, Wed=107, Sat=58, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
