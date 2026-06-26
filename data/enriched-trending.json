@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-27",
   "discovery": {
-    "method": "comparison",
-    "description": "本日 06-25 (Thu=176 avg・週次 3 位帯) の TOP5 を『各 OSS は何の代替・対抗馬か』comparison 角度で 5/5 統一料理する。直近 2 日 (06-24 ecosystem / 06-23 self-experiment) は連投ルールで除外、14d 残存 TOP 候補は comparison (0.67 avg n=3) で機械的収束。最終 comparison 投入は 06-19 で 6 日空き、視聴者疲労リスクなし。本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠。本日 lineup は完全新規 5/5 で素材鮮度を最大化、各 OSS に明確な incumbent SaaS or 既存ツールが立つ理想 comparison 構図: #1 OpenMontage は Sora / Runway / Veo に対抗する『1 クリップ生成ではなく番組丸ごとを組む』orchestrator 位置、#2 daily_stock_analysis は OpenBB / FinGPT に対抗する『判断レポートを毎朝チャットに自動配信』する閉ループ自動化、#3 apple/container は Docker Desktop / OrbStack / Colima / Podman に対抗する『1 コンテナ 1 VM の Apple 純正実装』、#4 ai-website-cloner-template は HTTrack / wget の HTML 丸写しでも v0 / Bolt / Lovable の白紙生成でもなく『既存サイトを Next.js + Tailwind の編集可能コードに変換』する中間ポジション、#5 hermes-agent は Claude Code / OpenHands / AutoGPT に対抗する『自己改善ループと skill 学習が組み込み』。冒頭マクロ核は『今日の TOP5、それぞれ何の代替か』、各 narration は『〇〇OSSです。〇〇と違い〇〇できます』の『対抗軸 + 差別化点』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。",
+    "method": "business-angle",
+    "description": "本日 06-27 (Sat=79 avg・週次 6 位帯) の TOP5 を『この OSS は実案件でいくら効くか / 受託・コンサル視点で何を売れるか』business-angle 角度で 5/5 統一料理する。直近 12 日 (06-15 が最終) 柱② 不在による Primary (CTO/技術選定) 直撃の長期サボりを補正、weekly 柱②/柱③ 要件は 06-23 self-experiment で消化済のため本日は柱② 追加投入で年間 15% 比率目標に近づける。Method 別 14d 実績は ecosystem 0.75 avg n=4・comparison 0.67 avg n=3 が TOP だが標本サイズ的にノイズ域、TOP method を 3 連投 (06-21 ecosystem / 06-24 ecosystem / 06-26 comparison) しても views=0 連続のため exploit 一辺倒では打開不能、本日は explore 寄せで柱② 直撃。本日 lineup の business-angle 構図: #1 simplex-chat は『電話番号もユーザー ID も持たない暗号化通信』を Signal/Telegram の SaaS 代替として法律事務所・医療機関・規制業界向け自社ホスト案件 (年間 SaaS 費削減 + 監査対応) で売れる、#2 design.md は『AI 生成 UI のブランドガイド YAML』として制作会社・受託エージェンシーが Claude Code / Cursor 案件にバンドルできるレビュー工数削減ツール (1 案件レビュー工数▲40% 目安) で売れる、#3 openpilot は『300 車種で動く運転支援 + ハード comma four 販売』として OSS 無料配布 + 専用ハードで稼ぐ収益モデル教科書、ロボティクス受託の値付け参考、#4 no-mistakes は『git push に AI 検査を挟む』として AI 生成コード納品時の品質保証 (lint+docs+test 整合性 + 人間ワンクリック承認) で受託会社が CI エラー削減 + 顧客レビュー往復削減を提案できる、#5 grafana は『Datadog 代替の可観測 OSS 定番』として月数十万の SaaS 費削減 + AI エージェント監視への拡張で受託の古典的アップセル素材。冒頭マクロ核は『今日の TOP5、実案件で何を売れるか』、各 narration は『〇〇OSSです。〇〇で〇〇できます』の『役割 + 事業価値』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『SaaS 費削減と受託パッケージ化の素材リスト』として、Secondary (PdM) には『この OSS を社内に入れた時の経済効果』として、Tertiary (学習中) には『自分が触ると稼げる OSS の地図』として 3 層直撃。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (39 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/calesthio/OpenMontage",
-      "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "https://github.com/apple/container",
-      "https://github.com/JCodesMore/ai-website-cloner-template",
-      "https://github.com/NousResearch/hermes-agent",
-      "https://openbb.co",
-      "https://www.docker.com/products/docker-desktop"
+      "https://github.com/simplex-chat/simplex-chat",
+      "https://github.com/google-labs-code/design.md",
+      "https://github.com/commaai/openpilot",
+      "https://github.com/kunchenguid/no-mistakes",
+      "https://github.com/grafana/grafana",
+      "https://comma.ai/shop",
+      "https://grafana.com/docs"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "calesthio/OpenMontage",
-      "name": "OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "language": "Python",
-      "stars": 19163,
-      "todayStars": 3703,
-      "description": "番組を丸ごと自動で組むAI動画OSS",
-      "detail": "12のパイプラインと500種以上のスキルを束ね、企画から編集までを自動化します。SoraやRunwayが1クリップを作るのに対し、Archive.orgなど実素材で長尺の番組を組み立てます。",
-      "narration": "OpenMontageは番組丸ごとを組み立てる動画OSSです。Soraと違い実素材で長尺を作れます。"
+      "fullName": "simplex-chat/simplex-chat",
+      "name": "simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "language": "Haskell",
+      "stars": 12466,
+      "todayStars": 191,
+      "description": "識別子なしで連絡できる暗号化OSS",
+      "detail": "電話番号もユーザーIDも持たず、毎接続ごとに使い捨てキューで会話します。SignalやTelegramと違い、誰と誰が話したかのメタデータが漏れず、規制業界のセルフホスト運用に向きます。",
+      "narration": "SimpleX Chatは識別子ゼロの通信OSSです。規制業界の顧客連絡をSaaS非依存で構築できます。"
     },
     {
       "rank": 2,
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "language": "Python",
-      "stars": 48407,
-      "todayStars": 1461,
-      "description": "AIが毎朝の市場判断を配信するOSS",
-      "detail": "A株、米株、香港株、ETFのウォッチリストをLLMで分析し、ニュースやセンチメントを束ねて毎朝レポートをチャットに配信します。OpenBBが画面表示なのに対し、判断の自動配信が強みです。",
-      "narration": "daily_stock_analysisはLLMで毎朝判断レポを出すOSSです。OpenBBより自動配信が強みです。"
+      "fullName": "google-labs-code/design.md",
+      "name": "design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "language": "TypeScript",
+      "stars": 21142,
+      "todayStars": 2319,
+      "description": "AI生成UIに使う設計仕様書OSS",
+      "detail": "ブランド色やタイポグラフィなどの設計トークンをYAMLで記述し、Claude CodeやCursorが読み取って一貫したUIを出力します。受託案件で毎回ブランドガイドを説明する手間が消え、修正往復が減ります。",
+      "narration": "design.mdはAI生成UIにブランド統一を効かせる仕様です。制作会社のレビュー工数を大幅に削れます。"
     },
     {
       "rank": 3,
-      "fullName": "apple/container",
-      "name": "container",
-      "url": "https://github.com/apple/container",
-      "language": "Swift",
-      "stars": 42121,
-      "todayStars": 1746,
-      "description": "Apple純正のMacコンテナ実行基盤",
-      "detail": "Apple Virtualization FrameworkでApple Silicon上に1コンテナ1VMを立て、OCI互換イメージを使います。Docker DesktopやColimaより軽量で、Mac純正で速度も最適化されています。",
-      "narration": "apple/containerはApple純正VMで動くコンテナOSSです。Docker Desktopより軽量です。"
+      "fullName": "commaai/openpilot",
+      "name": "openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "language": "Python",
+      "stars": 61765,
+      "todayStars": 67,
+      "description": "300車種対応の運転支援OSS",
+      "detail": "300車種以上で使えるADASを、ハード『comma four』販売で持続的に開発しています。OSSを無料配布しつつ専用ハードで収益化する好事例で、ロボット領域の受託や自社製品の値付けに参考になります。",
+      "narration": "openpilotは300車種で動く運転支援OSSです。ハード販売で稼ぐOSSモデルの教科書になります。"
     },
     {
       "rank": 4,
-      "fullName": "JCodesMore/ai-website-cloner-template",
-      "name": "ai-website-cloner-template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "language": "TypeScript",
-      "stars": 19247,
-      "todayStars": 693,
-      "description": "サイトをNext.jsに再構築するOSS",
-      "detail": "スクショ解析からデザイントークン抽出、並列でのコード生成までを多段パイプラインで実行し、Next.jsとTailwindのコードを出します。HTTrackがHTML丸写しなのに対し、編集可能なReactコードが手に入ります。",
-      "narration": "ai-website-clonerはサイトをNext.jsに変換するOSSです。HTTrackと違い保守可能です。"
+      "fullName": "kunchenguid/no-mistakes",
+      "name": "no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "language": "Go",
+      "stars": 3388,
+      "todayStars": 412,
+      "description": "git push前にAI検査するOSS",
+      "detail": "ローカルにGitプロキシを立て、push前にAIがlint・docs・テスト整合性を検査し、人がワンクリック承認します。Claude Codeなど自動生成と組み合わせると、納品コードのCIエラーを激減できます。",
+      "narration": "no-mistakesはgit pushにAI検査を挟むOSSです。AI生成コードの納品品質を担保できます。"
     },
     {
       "rank": 5,
-      "fullName": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "language": "Python",
-      "stars": 201996,
-      "todayStars": 1174,
-      "description": "自分でスキルを増やすAIエージェント",
-      "detail": "Nous Researchが公開した自己改善型エージェントで、経験からスキルを生成し継続的に磨きます。CLIやTelegram、Slackなど複数チャネルに対応し、5ドルVPSでも動きます。",
-      "narration": "hermes-agentは自分でスキルを覚えるOSSエージェントです。Claude Codeと違い学習機能内蔵です。"
+      "fullName": "grafana/grafana",
+      "name": "grafana",
+      "url": "https://github.com/grafana/grafana",
+      "language": "TypeScript",
+      "stars": 74872,
+      "todayStars": 17,
+      "description": "Datadog代替の可観測OSS定番",
+      "detail": "Prometheus、Loki、ElasticsearchなどをまとめてダッシュボードにできるOSS定番で、最新v13系も継続更新中です。Datadogから移すと月数十万円のSaaS費を削れ、AIエージェントの監視にもそのまま使えます。",
+      "narration": "grafanaは可観測の定番OSSです。Datadog置き換えで月数十万のSaaS費を削減提案できます。"
     }
   ]
 }
