@@ -3142,7 +3142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3197,7 +3197,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3250,7 +3250,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3760,7 +3760,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-26T00:01:36.779Z"
+        "updatedAt": "2026-06-26T23:52:01.627Z"
       }
     },
     {
@@ -3812,6 +3812,64 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-06-26T23:52:01.627Z"
+      }
+    },
+    {
+      "videoId": "k0K28-zCbWc",
+      "videoUrl": "https://youtube.com/shorts/k0K28-zCbWc",
+      "date": "2026-06-27",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/27 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Haskell",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "languages": [
+        "Haskell",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "projects": [
+        "simplex-chat/simplex-chat",
+        "google-labs-code/design.md",
+        "commaai/openpilot",
+        "kunchenguid/no-mistakes",
+        "grafana/grafana"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日 06-27 (Sat=79 avg・週次 6 位帯) の TOP5 を『この OSS は実案件でいくら効くか / 受託・コンサル視点で何を売れるか』business-angle 角度で 5/5 統一料理する。直近 12 日 (06-15 が最終) 柱② 不在による Primary (CTO/技術選定) 直撃の長期サボりを補正、weekly 柱②/柱③ 要件は 06-23 self-experiment で消化済のため本日は柱② 追加投入で年間 15% 比率目標に近づける。Method 別 14d 実績は ecosystem 0.75 avg n=4・comparison 0.67 avg n=3 が TOP だが標本サイズ的にノイズ域、TOP method を 3 連投 (06-21 ecosystem / 06-24 ecosystem / 06-26 comparison) しても views=0 連続のため exploit 一辺倒では打開不能、本日は explore 寄せで柱② 直撃。本日 lineup の business-angle 構図: #1 simplex-chat は『電話番号もユーザー ID も持たない暗号化通信』を Signal/Telegram の SaaS 代替として法律事務所・医療機関・規制業界向け自社ホスト案件 (年間 SaaS 費削減 + 監査対応) で売れる、#2 design.md は『AI 生成 UI のブランドガイド YAML』として制作会社・受託エージェンシーが Claude Code / Cursor 案件にバンドルできるレビュー工数削減ツール (1 案件レビュー工数▲40% 目安) で売れる、#3 openpilot は『300 車種で動く運転支援 + ハード comma four 販売』として OSS 無料配布 + 専用ハードで稼ぐ収益モデル教科書、ロボティクス受託の値付け参考、#4 no-mistakes は『git push に AI 検査を挟む』として AI 生成コード納品時の品質保証 (lint+docs+test 整合性 + 人間ワンクリック承認) で受託会社が CI エラー削減 + 顧客レビュー往復削減を提案できる、#5 grafana は『Datadog 代替の可観測 OSS 定番』として月数十万の SaaS 費削減 + AI エージェント監視への拡張で受託の古典的アップセル素材。冒頭マクロ核は『今日の TOP5、実案件で何を売れるか』、各 narration は『〇〇OSSです。〇〇で〇〇できます』の『役割 + 事業価値』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『SaaS 費削減と受託パッケージ化の素材リスト』として、Secondary (PdM) には『この OSS を社内に入れた時の経済効果』として、Tertiary (学習中) には『自分が触ると稼げる OSS の地図』として 3 層直撃。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (39 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/simplex-chat/simplex-chat",
+          "https://github.com/google-labs-code/design.md",
+          "https://github.com/commaai/openpilot",
+          "https://github.com/kunchenguid/no-mistakes",
+          "https://github.com/grafana/grafana",
+          "https://comma.ai/shop",
+          "https://grafana.com/docs"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -3820,20 +3878,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-22",
-      "changes": [
-        "Rust: 0.6x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.6x avg views → drop",
-        "standard: 192 avg views (43 videos)",
-        "Trending languages: Kotlin (2.1x), C++ (2.7x), Jupyter Notebook (2.0x)",
-        "Day performance: Tue=432, Fri=354, Wed=214, Thu=201, Sat=104, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-26",
       "changes": [
@@ -4247,6 +4291,23 @@
         "standard: 115 avg views (72 videos)",
         "Trending languages: Kotlin (3.5x), C++ (2.7x), Jupyter Notebook (3.4x)",
         "Day performance: Tue=241, Fri=226, Thu=128, Wed=107, Sat=58, Mon=49, Sun=4"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-26",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.6x avg views → drop",
+        "Shell: 0.8x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 114 avg views (73 videos)",
+        "Trending languages: Kotlin (3.5x), C++ (2.8x), Jupyter Notebook (3.4x)",
+        "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=58, Mon=49, Sun=4"
       ],
       "recommendedTemplate": "standard"
     }
