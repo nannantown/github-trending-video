@@ -1,17 +1,15 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 06-27 (Sat=79 avg・週次 6 位帯) の TOP5 を『この OSS は実案件でいくら効くか / 受託・コンサル視点で何を売れるか』business-angle 角度で 5/5 統一料理する。直近 12 日 (06-15 が最終) 柱② 不在による Primary (CTO/技術選定) 直撃の長期サボりを補正、weekly 柱②/柱③ 要件は 06-23 self-experiment で消化済のため本日は柱② 追加投入で年間 15% 比率目標に近づける。Method 別 14d 実績は ecosystem 0.75 avg n=4・comparison 0.67 avg n=3 が TOP だが標本サイズ的にノイズ域、TOP method を 3 連投 (06-21 ecosystem / 06-24 ecosystem / 06-26 comparison) しても views=0 連続のため exploit 一辺倒では打開不能、本日は explore 寄せで柱② 直撃。本日 lineup の business-angle 構図: #1 simplex-chat は『電話番号もユーザー ID も持たない暗号化通信』を Signal/Telegram の SaaS 代替として法律事務所・医療機関・規制業界向け自社ホスト案件 (年間 SaaS 費削減 + 監査対応) で売れる、#2 design.md は『AI 生成 UI のブランドガイド YAML』として制作会社・受託エージェンシーが Claude Code / Cursor 案件にバンドルできるレビュー工数削減ツール (1 案件レビュー工数▲40% 目安) で売れる、#3 openpilot は『300 車種で動く運転支援 + ハード comma four 販売』として OSS 無料配布 + 専用ハードで稼ぐ収益モデル教科書、ロボティクス受託の値付け参考、#4 no-mistakes は『git push に AI 検査を挟む』として AI 生成コード納品時の品質保証 (lint+docs+test 整合性 + 人間ワンクリック承認) で受託会社が CI エラー削減 + 顧客レビュー往復削減を提案できる、#5 grafana は『Datadog 代替の可観測 OSS 定番』として月数十万の SaaS 費削減 + AI エージェント監視への拡張で受託の古典的アップセル素材。冒頭マクロ核は『今日の TOP5、実案件で何を売れるか』、各 narration は『〇〇OSSです。〇〇で〇〇できます』の『役割 + 事業価値』2 文構成で 5/5 統一。Primary (CTO/技術選定) には『SaaS 費削減と受託パッケージ化の素材リスト』として、Secondary (PdM) には『この OSS を社内に入れた時の経済効果』として、Tertiary (学習中) には『自分が触ると稼げる OSS の地図』として 3 層直撃。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (39 日連続成功継続見込み)。",
+    "method": "use-case",
+    "description": "TOP5 を Primary ペルソナ (CTO / 受託 / 個人開発) の現場シーン別に切り分け、誰がいつ採用するかで料理する角度。直近 2 日 (06-27 business-angle / 06-26 comparison) 連続使用回避制約をクリアしつつ、14 日窓で未試行の use-case method を回しサンプル数を増やす。weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済のため本日は柱① 内で角度差別化。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/simplex-chat/simplex-chat",
-      "https://github.com/google-labs-code/design.md",
+      "https://github.com/xbtlin/ai-berkshire",
       "https://github.com/commaai/openpilot",
-      "https://github.com/kunchenguid/no-mistakes",
-      "https://github.com/grafana/grafana",
-      "https://comma.ai/shop",
-      "https://grafana.com/docs"
+      "https://github.com/IceWhaleTech/CasaOS",
+      "https://github.com/ripienaar/free-for-dev"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,23 +21,23 @@
       "name": "simplex-chat",
       "url": "https://github.com/simplex-chat/simplex-chat",
       "language": "Haskell",
-      "stars": 12466,
-      "todayStars": 191,
-      "description": "識別子なしで連絡できる暗号化OSS",
-      "detail": "電話番号もユーザーIDも持たず、毎接続ごとに使い捨てキューで会話します。SignalやTelegramと違い、誰と誰が話したかのメタデータが漏れず、規制業界のセルフホスト運用に向きます。",
-      "narration": "SimpleX Chatは識別子ゼロの通信OSSです。規制業界の顧客連絡をSaaS非依存で構築できます。"
+      "stars": 13776,
+      "todayStars": 1470,
+      "description": "ID不要の匿名メッセンジャーOSS",
+      "detail": "電話番号もユーザーIDも持たない設計のメッセージング基盤です。Signalからの乗り換え先として、メタデータ漏洩を嫌う法律事務所や医療系チャットなど、内部告発の現場で自前ホスト運用できます。",
+      "narration": "ユーザーIDを持たない匿名メッセージング基盤です。弁護士や記者の業務連絡に自前で立てて使えます。"
     },
     {
       "rank": 2,
-      "fullName": "google-labs-code/design.md",
-      "name": "design.md",
-      "url": "https://github.com/google-labs-code/design.md",
-      "language": "TypeScript",
-      "stars": 21142,
-      "todayStars": 2319,
-      "description": "AI生成UIに使う設計仕様書OSS",
-      "detail": "ブランド色やタイポグラフィなどの設計トークンをYAMLで記述し、Claude CodeやCursorが読み取って一貫したUIを出力します。受託案件で毎回ブランドガイドを説明する手間が消え、修正往復が減ります。",
-      "narration": "design.mdはAI生成UIにブランド統一を効かせる仕様です。制作会社のレビュー工数を大幅に削れます。"
+      "fullName": "xbtlin/ai-berkshire",
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "language": "Python",
+      "stars": 4050,
+      "todayStars": 686,
+      "description": "AI複数エージェントで株を分析",
+      "detail": "バフェット流の価値投資ロジックを18種のSkillとして分担させ、4体のAIエージェントが並列で銘柄を診断します。個人投資家がアナリストを雇わずに、買い・持続・見送りの判断まで出せます。",
+      "narration": "バフェット流の投資判断を再現するマルチエージェントです。個人投資家が銘柄分析を1人で完結できます。"
     },
     {
       "rank": 3,
@@ -47,35 +45,35 @@
       "name": "openpilot",
       "url": "https://github.com/commaai/openpilot",
       "language": "Python",
-      "stars": 61765,
-      "todayStars": 67,
-      "description": "300車種対応の運転支援OSS",
-      "detail": "300車種以上で使えるADASを、ハード『comma four』販売で持続的に開発しています。OSSを無料配布しつつ専用ハードで収益化する好事例で、ロボット領域の受託や自社製品の値付けに参考になります。",
-      "narration": "openpilotは300車種で動く運転支援OSSです。ハード販売で稼ぐOSSモデルの教科書になります。"
+      "stars": 62054,
+      "todayStars": 322,
+      "description": "300車種で動くOSS運転支援システム",
+      "detail": "対応300車種の市販車に後付けで装着できる運転支援OSです。古い車にも自動運転的な機能を載せたい個人ガレージや、自動運転研究の土台を社内に欲しいロボティクススタートアップが使えます。",
+      "narration": "300車種に後付けできるOSS運転支援システムです。中古車のADAS化や自動運転研究の土台に使えます。"
     },
     {
       "rank": 4,
-      "fullName": "kunchenguid/no-mistakes",
-      "name": "no-mistakes",
-      "url": "https://github.com/kunchenguid/no-mistakes",
+      "fullName": "IceWhaleTech/CasaOS",
+      "name": "CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
       "language": "Go",
-      "stars": 3388,
-      "todayStars": 412,
-      "description": "git push前にAI検査するOSS",
-      "detail": "ローカルにGitプロキシを立て、push前にAIがlint・docs・テスト整合性を検査し、人がワンクリック承認します。Claude Codeなど自動生成と組み合わせると、納品コードのCIエラーを激減できます。",
-      "narration": "no-mistakesはgit pushにAI検査を挟むOSSです。AI生成コードの納品品質を担保できます。"
+      "stars": 35760,
+      "todayStars": 502,
+      "description": "1クリック導入の自宅クラウドOS",
+      "detail": "古いPCやRaspberry PiをワンクリックでNextcloud入りのファイルサーバーに変えるOSです。GoogleドライブやDropboxを置き換えたい個人や小さなチームに向きます。",
+      "narration": "Dockerアプリを1クリックで入れる自宅クラウドOSです。Google Drive代替を古いPCで自前運用できます。"
     },
     {
       "rank": 5,
-      "fullName": "grafana/grafana",
-      "name": "grafana",
-      "url": "https://github.com/grafana/grafana",
-      "language": "TypeScript",
-      "stars": 74872,
-      "todayStars": 17,
-      "description": "Datadog代替の可観測OSS定番",
-      "detail": "Prometheus、Loki、ElasticsearchなどをまとめてダッシュボードにできるOSS定番で、最新v13系も継続更新中です。Datadogから移すと月数十万円のSaaS費を削れ、AIエージェントの監視にもそのまま使えます。",
-      "narration": "grafanaは可観測の定番OSSです。Datadog置き換えで月数十万のSaaS費を削減提案できます。"
+      "fullName": "ripienaar/free-for-dev",
+      "name": "free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "language": "HTML",
+      "stars": 124145,
+      "todayStars": 459,
+      "description": "開発者向け無料SaaSの大全集",
+      "detail": "AWSの750時間枠やGitHub無料CI、Firebase無料DBなど開発で使えるSaaSとPaaSの無料枠を分野別にまとめたリストです。MVPやハッカソンの最初の選択肢が一覧で見渡せます。",
+      "narration": "開発者向け無料SaaSとAPIの無料枠を分野別にまとめた一覧です。MVPやハッカソンの初手選びが早くなります。"
     }
   ]
 }
