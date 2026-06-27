@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27",
-  "basedOnVideos": 15,
+  "updatedAt": "2026-06-28",
+  "basedOnVideos": 12,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -23,95 +23,72 @@
       { "language": "Rust", "multiplier": 0.7 }
     ],
     "topPerformingVideo": {
-      "date": "2026-06-13",
-      "views": 3,
+      "date": "2026-06-16",
+      "views": 2,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 06-10〜06-24, 14 件): ecosystem 1.00 avg n=3〜4 (06-13=3 / 06-18=0 / 06-21=0 / 06-24=0) で TOP1・comparison 0.67 avg n=3 (06-12=0 / 06-16=2 / 06-19=0) で TOP2・self-experiment 0.33 avg n=3 (06-17=0 / 06-20=0 / 06-23=0) で TOP3・business-angle 0.00 avg n=2・tech-deep 0.00 avg n=1・trend-pattern 0.00 avg n=1。18 連続 flat-line (06-07 〜 06-24) 継続中、7 method すべて検証済の状況で本日 06-25 (Thu=176 avg・週次 3 位帯) を迎える。直近 2 日 (06-24 ecosystem / 06-23 self-experiment) 連投ルールで除外、利用可能 method は comparison (0.67) / business-angle (0.00) / tech-deep (0.00) / trend-pattern (0.00)、TOP 残存は **comparison (0.67) 一択**。本日は exploit (80%) 側の comparison を採用、(a) 14d TOP 残存 1 つ (b) 最終投入 06-19 で 6 日空き (c) 本週柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠 (d) 本日 lineup は完全新規 5/5 で素材鮮度最大化 + 各 OSS に明確な incumbent が立つ理想 comparison 構図 の 4 軸で正当化。本日 06-25 TOP5 は完全新規 5/5: #1 calesthio/OpenMontage=Python / 19,163★ / +3,703 [4 日連続 TOP5 候補・06-22→06-23→06-24→06-25・累計 9 日で +12,000★ 超のペース・AGPL-3.0・12 パイプライン + 500 スキルで番組丸ごと組む agentic 動画生成 orchestrator・Sora や Runway が 1 クリップなのに対し実素材で長尺]、#2 ZhuLinsen/daily_stock_analysis=Python / 48,407★ / +1,461 [2 日連続 TOP5 候補・LLM 駆動の多市場分析 + 毎朝チャット配信・OpenBB が画面表示なのに対し判断レポを自動配信]、#3 apple/container=Swift / 42,121★ / +1,746 [完全新規初登場・Apple Virtualization Framework + Apple Silicon 専用・1 コンテナ 1 VM の Apple 純正実装・Docker Desktop や Colima に対抗]、#4 JCodesMore/ai-website-cloner-template=TypeScript / 19,247★ / +693 [完全新規初登場・スクショ解析 + デザイントークン抽出 + 並列コード生成で Next.js + Tailwind + shadcn/ui コード出力・HTTrack 丸写しでも v0 / Bolt 白紙生成でもなく『編集可能 React コード変換』の中間ポジション]、#5 NousResearch/hermes-agent=Python / 201,996★ / +1,174 [完全新規初登場・自己改善型エージェント (経験からスキル生成 + 継続改善) + マルチプラットフォーム (CLI/Telegram/Slack/WhatsApp/Discord/Email) + 5 ドル VPS でも動作・Claude Code や OpenHands に対抗する『学習組み込み』差別化、星数 20 万超は要監視]。本日の素材適合度 5/5 (comparison 初の理想条件投入): 5 リポすべてに明確な incumbent が 1:1 で立ち、対抗カテゴリも完全分離 (動画 / 金融 / コンテナ / Web 生成 / エージェント)。本週 (06-22〜06-28) Wed 06-24 ecosystem + Thu 06-25 comparison の TOP 1〜2 method 連続投入で、Fri〜Sun の 3 日は柱① 自由枠継続可。本日マクロ核: 『今日の TOP5、それぞれ何の代替か』。冒頭フックは『AI hype 真っ只中、5 本それぞれが殺しに行く対抗馬』に置き、Primary (CTO/技術選定) には『今の選定肢の差別化軸』として全 5 本が直撃、Secondary (PdM) には『SaaS を置き換える OSS の地図』、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。継続 1 本 (OpenMontage 06-23→06-24→06-25 の 3 連続入り警戒帯) の語彙完全切替 (操作軸→位置軸→対抗軸) で連投ペナルティを最大緩和。05-14〜17 で続いた main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行 (38 日連続成功継続中)。"
+      "note": "Method 別平均 (14 日窓 06-14〜06-27, 12 件): comparison 1.0 avg n=3 (06-16=2 / 06-19=0 / 06-26=1) で TOP1・ecosystem 0.0 avg n=3・self-experiment 0.0 avg n=3・business-angle 0.0 avg n=2・tech-deep 0.0 avg n=1。直近 2 日 (06-27 business-angle / 06-26 comparison) 連投ルールで除外、本日 06-28 (Sat=79 avg・週次 6 位帯) は exploit 候補が枯渇、explore で `use-case` を採用。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定。そのまま維持",
-      "本日は木曜 (Thu=176 avg・週次 3 位帯・Tue 361・Fri 310・Wed 153 + Mon 61 + Sat 79 + Sun 5 の中間位置・週半ばで技術キャッチアップ需要が高まる曜日・Primary [CTO] が今週の選定肢を整理する曜日)。comparison 角度は Primary (CTO/技術選定) 直撃語彙が機能するかの仮説検証 (06-16 Tue で views 2 の 14d 内 TOP 2 動画の再現性測定)",
-      "本日 TOP5 は完全新規 5/5 (OpenMontage + daily_stock_analysis + apple/container + ai-website-cloner-template + hermes-agent)。AI hype 真っ只中、5/5 全 OSS に明確な incumbent が 1:1 で立つ comparison 適合度上限構図"
+      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
+      "本日は土曜 (Sat=79 avg・週次 6 位帯)、Sun=5 直前で週末モードに入る曜日。use-case 角度で『自分の現場で使うなら』を即イメージできる切り口に統一"
     ],
     "hashtags": [
-      "Thu=176 avg + comparison 角度のため、Primary (CTO/技術選定者) + Secondary (PdM/事業責任者) の『今の選定肢に対する OSS の立ち位置』語彙を厚く: #comparison #OSS代替 #SaaS置き換え #self_host #技術選定 #受託開発 #スタートアップ #CTO #PdM",
-      "comparison 角度の核心は『何の代替か』。本日 5 本の対抗マッピング: #OpenMontage #Sora代替 #Runway代替 #AI動画 (OpenMontage) / #daily_stock_analysis #OpenBB代替 #FinAI #LLM分析 (daily_stock_analysis) / #apple_container #DockerDesktop代替 #AppleSilicon #コンテナ (apple/container) / #ai_website_cloner #HTTrack代替 #Next_js #サイト変換 (ai-website-cloner-template) / #hermes_agent #ClaudeCode代替 #AIエージェント #NousResearch (hermes-agent)",
-      "領域タグ (5 本のカテゴリ): #AI動画生成 #FinAI #金融AI #Macコンテナ #AppleSilicon #サイトクローン #Webコード生成 #AIエージェント #自己改善 #エージェント学習",
-      "言語タグは Python 3 本 (OpenMontage + daily_stock_analysis + hermes-agent) + Swift 1 本 (apple/container) + TypeScript 1 本 (ai-website-cloner-template)。Python (1.2x = 最強) + TypeScript (1.1x = 2 位) + Swift (1.0x = 3 位) で multiplier 上位構成、Mac 開発者層 (Swift) と AI 開発者層 (Python) を同時にカバー",
-      "前日 06-24 (ecosystem 角度) の『AI エージェントの周辺地図』『5 つの空きピース』『規格束ね』『curated dotfiles』『SuperAgent harness』語彙から距離を置き、本日は『〇〇の代替』『〇〇と違い』『〇〇より』『1:1 対抗』『差別化軸』など comparison 対抗軸語彙へ完全切替",
-      "comparison 角度でも『〇〇は時代遅れ』『〇〇に勝った』など断定・煽り系語彙は戦略 NG パターン違反のため厳禁、『〇〇の代替』『〇〇より〇〇』『〇〇と違い』など中性的な差別化記述語彙に統一。また『入門者向け深すぎる技術解説』NG 回避のため『〇〇のアーキテクチャ詳細』『〇〇のソースコード比較』等の深堀り技術解説には踏み込まない",
-      "本日 hashtag に『comparison』『OSS代替』『SaaS置き換え』『self_host』『技術選定』を厚めに置く: comparison 角度の核心は『何の代替か』の差別化提示で、Primary (CTO/技術選定) ペルソナへの『技術選定で代替肢を語れる人』の信頼シグナルに直結",
-      "comparison 角度の独自 hashtag: #comparison #OSS代替 #SaaS置き換え #self_host #技術選定 #Sora代替 #Runway代替 #AI動画 #OpenBB代替 #FinAI #DockerDesktop代替 #AppleSilicon #Macコンテナ #HTTrack代替 #Webコード生成 #ClaudeCode代替 #AIエージェント #NousResearch #柱1 #柱①"
+      "use-case 角度の核心は『どのペルソナがどのシーンで使うか』。本日 5 本の現場マッピング: #simplex_chat #匿名メッセージ #内部告発 #法律事務所 / #ai_berkshire #個人投資家 #バフェット流 #マルチエージェント / #openpilot #中古車 #ADAS #自動運転研究 / #CasaOS #自宅サーバー #自前クラウド #RaspberryPi / #free_for_dev #無料SaaS #MVP #ハッカソン",
+      "言語タグは Python 2 + Haskell 1 + Go 1 + HTML 1。Python (1.2x) のみ multiplier 上位、Haskell は週次珍しい言語のため『言語タグ多様性』語彙で『普段見ない技術が並ぶ日』として補正",
+      "use-case 角度の独自 hashtag: #use_case #ユースケース #現場で使う #自前運用 #個人開発 #受託 #スタートアップ #CTO #PdM #柱1 #柱①"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 282 文字 (50+58+59+57+58)、TTS で約 38-42 秒 (プロジェクト分のみ、opening/ending と合わせて 55 秒以内)",
-      "カタカナ発音を想定して TTS の誤読を回避。固有名詞は原文英語のまま (OpenMontage, Sora, daily_stock_analysis, LLM, OpenBB, apple, container, Apple, VM, Docker Desktop, ai-website-cloner, Next.js, HTTrack, hermes-agent, OSS, Claude Code)",
-      "comparison 角度の一貫性: 5 本すべての narration を『〇〇OSSです。〇〇と違い/より〇〇できます/強みです』の 2 文構成で 5/5 統一。1 文目で『何の役目の OSS か』を即明示、2 文目で『何の代替で何ができるか』を差別化動詞付きで構成する固定形式",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度では各 repo の『〇〇と違い〇〇できる』の対抗軸 + 差別化点を narration に 5/5 で必ず含める",
-      "数値表現はアラビア数字統一 (1 クリップ, 12 パイプライン, 5 ドル). 漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止 (例: ❌『Sora の代替』 → ✅『Sora と違い実素材で長尺を作れる動画 OSS です』)",
-      "narration の冒頭フックは 1 文目で『〇〇は〇〇OSSです』を即明示、2 文目で『〇〇と違い/より〇〇できます』を構成。comparison の本日 5 つの具体構造で固定: 『番組丸ごと組む動画 + Sora と違い実素材』『毎朝判断レポ配信 + OpenBB より自動配信』『Apple 純正 VM コンテナ + Docker Desktop より軽量』『サイトを Next.js 変換 + HTTrack と違い保守可能』『自分でスキルを覚える + Claude Code と違い学習機能内蔵』",
-      "OpenMontage は本日 4 連続 TOP5 入りで視聴者疲労警戒帯入り。前日 ecosystem 『Claude Code から呼ぶ動画生成オーケストレータ』→ 前々日 self-experiment 『make setup 一発 + Piper TTS + Pexels』→ 本日 comparison 『Sora と違い実素材で長尺を作れる』へ語彙完全切替で連投ペナルティを緩和。順位変動 (#1 維持の可能性) には触れず comparison の『対抗軸提示』の 1 ピースとして横並び再提示"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 262 文字 (48+49+51+59+55)、TTS で約 35-40 秒、opening/ending と合わせて 55 秒以内",
+      "use-case 角度の一貫性: 5 本すべての narration を『〇〇OSSです。〇〇な現場で〇〇できます』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『どのペルソナがどの現場で使えるか』を具体名で固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。use-case 角度では『弁護士 / 個人投資家 / 中古車 / 自宅サーバー / MVP』など具体ペルソナ名を 5/5 で必ず含める",
+      "数値表現はアラビア数字統一 (300車種, 1クリック, 18種, 4体)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (14 日窓 0.67 avg n=3 で 7 method 中 TOP2、TOP1 ecosystem と TOP3 self-experiment は連投ルールで除外、TOP 残存は comparison 一択、exploit [80%] 枠として配置、戦略柱① [比率 70%] として配置)。本週 (06-22〜06-28) Tue 06-23 で柱③ 消化済のため、Wed 以降 5 日は柱① 自由枠",
-      "本日 06-25 TOP5 は完全新規 5/5: #1 calesthio/OpenMontage=Python / 19,163★ / +3,703 [4 日連続 TOP5 候補・AGPL-3.0・12 パイプライン + 500 スキルで番組丸ごと組む agentic 動画生成 orchestrator]、#2 ZhuLinsen/daily_stock_analysis=Python / 48,407★ / +1,461 [2 日連続候補・LLM 駆動の多市場分析 + 毎朝チャット配信]、#3 apple/container=Swift / 42,121★ / +1,746 [完全新規初登場・Apple Virtualization Framework + Apple Silicon 専用]、#4 JCodesMore/ai-website-cloner-template=TypeScript / 19,247★ / +693 [完全新規初登場・スクショ解析 + デザイントークン抽出 + 並列コード生成で Next.js + Tailwind 出力]、#5 NousResearch/hermes-agent=Python / 201,996★ / +1,174 [完全新規初登場・自己改善型エージェント + マルチプラットフォーム + 5 ドル VPS 動作・星数 20 万超は要監視]",
-      "本日のマクロ核: 『AI hype 真っ只中、今日の TOP5、それぞれ何の代替か』。冒頭フックは『今日の TOP5、5 本それぞれが殺しに行く対抗馬』に置く",
-      "Primary (CTO/技術選定者) には『今の選定肢の差別化軸 + 自社の技術選定で代替肢を語れる材料』として全 5 本が直撃、Secondary (PdM/事業責任者) には『SaaS を置き換える OSS の地図 + どのカテゴリで何が来ているか』として全 5 本が直撃、Tertiary (学習中エンジニア) には『各カテゴリの代表 5 本のインフラ図鑑』として全体構図が直撃する 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に comparison は柱① の中心的角度",
-      "継続 1 本 (OpenMontage 4 連続入り警戒帯) の角度切替: 06-22 → 06-23 self-experiment (make setup + Piper TTS + Pexels の操作軸) → 06-24 ecosystem (Claude Code 司令塔 + 12 パイプラインの位置軸) → 06-25 comparison (Sora と違い実素材で長尺の対抗軸) へ 3 連続切替。前日語彙『Claude Code 司令塔』『12 パイプライン』を本日『Sora の対抗馬』『実素材で長尺』へ完全切替。連投ペナルティ条件: 本日 method=comparison は 14d で n=3 投入済 (06-12 / 06-16 / 06-19) で連投ルール非該当 (最終 06-19 で 6 日空き)、ラインナップ重複は OpenMontage 1 本のみで警戒帯入り、4 連続入りは連続入りプロトコル発動",
-      "06-24 ecosystem 『AI エージェントの周辺地図』『5 つの空きピース』『規格束ね』『curated dotfiles』『SuperAgent harness』語彙 → 本日 comparison 『〇〇の代替』『〇〇と違い』『〇〇より』『1:1 対抗』『差別化軸』語彙へ完全切替。comparison 5/5 lineup の初の理想条件投入で『comparison 適合度判定基準』の初回検証 (5 本中 5 本に明確な incumbent + 対抗カテゴリ 5 つが完全分離 + 差別化動詞 5/5 配置可能)",
-      "5 本のライセンス確認: OpenMontage = AGPL-3.0 / daily_stock_analysis = 未確認 (OSS 配布) / apple/container = Apache-2.0 / ai-website-cloner-template = 未確認 (OSS 配布) / hermes-agent = 未確認 (OSS 配布)。AGPL-3.0 (OpenMontage) は商用統合時に注意必要、Primary (CTO/技術選定) の『社内導入時のライセンス審査』語彙では明示しないが narration の補足候補",
-      "完全新規 5/5 でラインナップ鮮度を最大化、特に apple/container は WWDC 余韻 + macOS 26 リリース直前の Mac 開発者向け超直球、Swift (1.0x multiplier) ながら Primary (CTO/技術選定) と重複度高で補正。hermes-agent は累計 201,996★ で本 channel 過去 2 番目のスター数 (06-15 freeCodeCamp 447,141★ に次ぐ) の権威性、ただし star count の異常値は要監視",
-      "method PDCA の決定的反証 (継続): 14 日窓で 7 method すべて検証完了、いずれも 0-3 views 帯で flat-line 継続。本日 comparison が『TOP 2 method の再投入確認』として 10 つ目の検証、これも 0 views に着地した場合は『method 切替単独では flat-line 脱出不能』が確証、『動画外要因 (時刻/動画長/サムネ/冒頭 0.5 秒 hook/アルゴリズム露出) の優先検証へ転換』を `docs/strategy.md` に明文化候補",
-      "05-14〜17 の silent fail 連投事故 → 05-18 以降 PR squash merge + 着弾検証フローが定着し 05-18〜06-24 で継続成功 (38 日連続)。本日も同手順を継続し、PR merge 失敗 or 着弾検証 WARN 時は最終レポートに明記してユーザー手動介入を促す",
-      "同ラインナップ連続 TOP5 入りの累積疲労リスク注記: OpenMontage は本日で 4 日連続 TOP5 入り (連続入りプロトコル発動)、4 連続入り = 語彙完全切替必須、本日語彙『Sora の対抗馬 + 実素材で長尺』は前 3 日 (操作軸 / 位置軸) と意味的に完全差分化済。次回 06-26 で OpenMontage が 5 連続入りに到達した場合は警戒帯 +2 へ昇格し、TOP5 紹介継続 vs #6 繰り下げ判断プロトコルを `docs/strategy.md` に明文化検討",
-      "次回以降の explore 候補: `incumbent-killer` (新・本日 comparison 派生・5 本の incumbent SaaS を 1:1 で並べる angle・次回 5/5 で明確 incumbent lineup 時に独立化最有力)、`positioning-map` (新・本日 comparison 派生・OSS の業界地図ポジショニング angle・次回 5/5 で中間ポジション lineup 時に独立化評価)、`apple-silicon-edge` (06-12 以降継続提案・本日 apple/container 初登場で再評価・次回 Apple Silicon 系 OSS 複数 TOP5 入りで発動候補)、`fin-ai-shelf` (06-24 提案・継続)、`agent-harness-zoo` / `claude-orbit` / `ai-stack-map` (06-24 提案・継続)、`king-challenger` (06-22 提案・本日 comparison 角度と機能重複高で統合候補)、その他継続提案多数。Phase 1 のフォロワー獲得を支える運用は引き続き comparison / ecosystem / business-angle / use-case / trend-pattern / self-experiment / tech-deep のローテーション主軸 + 新 angle の月 2〜3 回スパイクで組む"
+      "本日の discovery.method は `use-case` (explore 枠)。14 日窓で未試行の method を回しサンプル数を増やす狙い。直近 2 日 (06-27 business-angle / 06-26 comparison) 連投ルール回避と週次 1 位帯 comparison が枯渇した状況下での合理選択",
+      "本日 06-28 TOP5: #1 simplex-chat/simplex-chat=Haskell / 13,776★ / +1,470 [Jack Dorsey 出資・ID なしメッセンジャー]、#2 xbtlin/ai-berkshire=Python / 4,050★ / +686 [4 体マルチエージェント株分析]、#3 commaai/openpilot=Python / 62,054★ / +322 [300 車種 OSS 運転支援]、#4 IceWhaleTech/CasaOS=Go / 35,760★ / +502 [自宅クラウド OS]、#5 ripienaar/free-for-dev=HTML / 124,145★ / +459 [無料 SaaS 大全集]",
+      "本日のマクロ核: 『今日の TOP5、それぞれ誰がどの現場で使うか』。冒頭フックは『あなたの現場、この 5 本のどれが効くか』",
+      "Primary (CTO/技術選定) には『自社の現場で採用判断する材料』、Secondary (PdM) には『社内の困りごとに当てる OSS の地図』、Tertiary (学習中) には『各リポを触る時の目線』として 3 層直撃",
+      "weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済、柱④ は月内不在のまま。月末 06-30 までに柱④ (業界読み解き) を 1 本投入する強制リマインダを次回ルーチンで発火する案を `docs/strategy.md` 更新提案に記載"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-25",
-    "dayOfWeek": "Thu",
+    "date": "2026-06-28",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "comparison",
-      "OSS代替",
-      "SaaS置き換え",
-      "self_host",
-      "技術選定",
-      "受託開発",
+      "use_case",
+      "ユースケース",
+      "現場で使う",
+      "自前運用",
+      "個人開発",
+      "受託",
       "スタートアップ",
       "CTO",
       "PdM",
-      "OpenMontage",
-      "Sora代替",
-      "Runway代替",
-      "AI動画生成",
-      "daily_stock_analysis",
-      "OpenBB代替",
-      "FinAI",
-      "金融AI",
-      "LLM分析",
-      "apple_container",
-      "DockerDesktop代替",
-      "AppleSilicon",
-      "Macコンテナ",
-      "ai_website_cloner",
-      "HTTrack代替",
-      "Next_js",
-      "Webコード生成",
-      "サイトクローン",
-      "hermes_agent",
-      "ClaudeCode代替",
-      "AIエージェント",
-      "NousResearch",
+      "simplex_chat",
+      "匿名メッセージ",
+      "Signal代替",
+      "ai_berkshire",
+      "マルチエージェント",
+      "個人投資家",
+      "openpilot",
+      "ADAS",
+      "自動運転",
+      "CasaOS",
+      "自宅サーバー",
+      "RaspberryPi",
+      "free_for_dev",
+      "無料SaaS",
+      "MVP",
       "Python",
-      "TypeScript",
-      "Swift",
+      "Haskell",
+      "Go",
       "柱1",
       "柱①"
     ],
-    "focus": "木曜 (Thu=176 avg・週次 3 位帯) に `comparison` 角度 (14 日窓 0.67 avg n=3 で 7 method 中 TOP2、TOP1 ecosystem と TOP3 self-experiment は連投ルールで除外) を投入。本週 (06-22〜06-28) 柱② / 柱③ mandate は 06-23 self-experiment で消化済、本日は柱① 自由枠で残存 TOP method を週次 3 位帯日に配置できる構図。本日 06-25 TOP5: #1 calesthio/OpenMontage=Python / 19,163★ / +3,703 [4 日連続 TOP5 候補・連続入りプロトコル発動・Sora や Runway との対抗で再提示]、#2 ZhuLinsen/daily_stock_analysis=Python / 48,407★ / +1,461 [2 日連続候補・OpenBB との対抗]、#3 apple/container=Swift / 42,121★ / +1,746 [完全新規初登場・Docker Desktop との対抗]、#4 JCodesMore/ai-website-cloner-template=TypeScript / 19,247★ / +693 [完全新規初登場・HTTrack や v0 / Bolt との対抗]、#5 NousResearch/hermes-agent=Python / 201,996★ / +1,174 [完全新規初登場・Claude Code との対抗、星数 20 万超は要監視]。素材適合度 5/5: 5 本すべてに明確な incumbent SaaS / OSS が 1:1 で立つ理想的な comparison lineup。narration は『〇〇OSSです。〇〇と違い/より〇〇できます』の 2 文構成で 5/5 統一、冒頭で incumbent 名を即明示し 0.5 秒 hook を最強化。Primary (CTO/技術選定) には『この OSS は何を置き換えるか』が即伝わる構図、Secondary (PdM) には『SaaS を置き換える OSS の地図』、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。継続 1 本 (OpenMontage 4 連続入り警戒帯) は語彙完全切替 (操作軸→位置軸→対抗軸) で連投ペナルティ回避。OpenMontage は 06-23 self-experiment (操作軸) → 06-24 ecosystem (位置軸) → 06-25 comparison (対抗軸) と毎日語彙差分化、警戒帯 +1。05-14〜17 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。"
+    "focus": "土曜 (Sat=79 avg) に `use-case` 角度 (explore 枠) を投入。直近 2 日連投ルール (06-27 business-angle / 06-26 comparison) + 残存 TOP method 枯渇状況下での合理選択。本日 5 本に明確な現場ペルソナを 1:1 で立て、Primary (CTO/技術選定) には『自社現場での採用判断材料』として直撃。narration は『〇〇OSSです。〇〇な現場で〇〇できます』の 2 文構成で 5/5 統一。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
