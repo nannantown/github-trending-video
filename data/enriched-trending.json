@@ -1,14 +1,14 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "discovery": {
-    "method": "use-case",
-    "description": "TOP5 を Primary ペルソナ (CTO / 受託 / 個人開発) の現場シーン別に切り分け、誰がいつ採用するかで料理する角度。直近 2 日 (06-27 business-angle / 06-26 comparison) 連続使用回避制約をクリアしつつ、14 日窓で未試行の use-case method を回しサンプル数を増やす。weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済のため本日は柱① 内で角度差別化。",
+    "method": "comparison",
+    "description": "TOP5 を『各 OSS は何の incumbent SaaS / 製品の代替か』comparison 角度で 5/5 統一料理する。本日 4/5 が 06-28 からの継続 (simplex-chat / free-for-dev / openpilot / ai-berkshire) で同素材を別角度で語り直す日、唯一の新規 lingbot-map (3D 基盤モデル) も DROID-SLAM との対比軸が明確。14 日窓 Method 別 TOP1 は comparison (1.33 avg n=3、views=2 を 2 回) で唯一の再現的勝ち筋、直近 2 日 (06-28 use-case / 06-27 business-angle) 連投ルールクリア、最終投入 06-26 から 3 日空きで疲労リスクなし。本日 06-29 (Sun=5 avg・週次最弱帯) は『地図系』comparison の保存・後追い検索適合度が高い曜日。各 narration は『〇〇OSSです。〇〇と違い〇〇できます』の 2 文構成で 5/5 統一。incumbent マッピング: lingbot-map vs DROID-SLAM (反復最適化 → feed-forward 一気通貫)、ai-berkshire vs Bloomberg Terminal (有料端末 → OSS 無料 + 18 Skill)、simplex-chat vs Signal (アカウント保持 → ID 不要)、openpilot vs Tesla Autopilot (専用車 → 300 車種後付け)、free-for-dev vs G2/Capterra (有料レビュー → 無料枠カタログ)。継続 4 本の語彙は 06-28 use-case の現場ペルソナ語彙 (弁護士 / 個人投資家 / 中古車 / MVP) を一旦封印し、incumbent 名指し対比語彙に完全切替で 4 連投ペナルティ回避。Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃。weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済、本日は柱① 自由枠で TOP1 method を当て込み。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (40 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/simplex-chat/simplex-chat",
+      "https://github.com/Robbyant/lingbot-map",
       "https://github.com/xbtlin/ai-berkshire",
+      "https://github.com/simplex-chat/simplex-chat",
       "https://github.com/commaai/openpilot",
-      "https://github.com/IceWhaleTech/CasaOS",
       "https://github.com/ripienaar/free-for-dev"
     ],
     "query": "",
@@ -17,15 +17,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "simplex-chat/simplex-chat",
-      "name": "simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "language": "Haskell",
-      "stars": 13776,
-      "todayStars": 1470,
-      "description": "ID不要の匿名メッセンジャーOSS",
-      "detail": "電話番号もユーザーIDも持たない設計のメッセージング基盤です。Signalからの乗り換え先として、メタデータ漏洩を嫌う法律事務所や医療系チャットなど、内部告発の現場で自前ホスト運用できます。",
-      "narration": "ユーザーIDを持たない匿名メッセージング基盤です。弁護士や記者の業務連絡に自前で立てて使えます。"
+      "fullName": "Robbyant/lingbot-map",
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "language": "Python",
+      "stars": 8178,
+      "todayStars": 372,
+      "description": "動画から3D空間を再構築するAIモデル",
+      "detail": "カメラ映像を入れるだけで3D空間を作るfeed-forward型の基盤モデルです。SLAMの反復最適化を捨て20FPSで処理し、1万フレーム超の長尺シーンも一気通貫。VFXや自律ロボットの空間理解の基盤になります。",
+      "narration": "動画ストリームから3D空間を再構築するAIモデルです。SLAMと違い20FPSの一気通貫で1万フレームを処理します。"
     },
     {
       "rank": 2,
@@ -33,35 +33,35 @@
       "name": "ai-berkshire",
       "url": "https://github.com/xbtlin/ai-berkshire",
       "language": "Python",
-      "stars": 4050,
-      "todayStars": 686,
-      "description": "AI複数エージェントで株を分析",
-      "detail": "バフェット流の価値投資ロジックを18種のSkillとして分担させ、4体のAIエージェントが並列で銘柄を診断します。個人投資家がアナリストを雇わずに、買い・持続・見送りの判断まで出せます。",
-      "narration": "バフェット流の投資判断を再現するマルチエージェントです。個人投資家が銘柄分析を1人で完結できます。"
+      "stars": 5238,
+      "todayStars": 1456,
+      "description": "バフェット流のAIエージェント株分析",
+      "detail": "バフェット流の価値投資ロジックを18のSkillに分解し、4体のエージェントが並列で銘柄を診断します。買い・継続・撤退の判断とレポート出力までを自動化、Bloomberg Terminal契約せずに個人投資家が同等の調査体験を手にできます。",
+      "narration": "バフェット流の銘柄分析をAIで自動化するOSSです。Bloombergと違い個人投資家が無料で使えます。"
     },
     {
       "rank": 3,
+      "fullName": "simplex-chat/simplex-chat",
+      "name": "simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "language": "Haskell",
+      "stars": 14920,
+      "todayStars": 1183,
+      "description": "ID不要の暗号化メッセンジャー",
+      "detail": "電話番号もユーザーIDも持たない設計のメッセージング基盤です。Signalがアカウントと電話番号を握り続ける課題を排し、メタデータすら漏れない自前ホスト運用に対応。法律事務所や医療チャットの内部告発経路で使えます。",
+      "narration": "電話番号もIDも持たない匿名メッセンジャーです。Signalと違いメタデータすら漏れない設計で自前運用できます。"
+    },
+    {
+      "rank": 4,
       "fullName": "commaai/openpilot",
       "name": "openpilot",
       "url": "https://github.com/commaai/openpilot",
       "language": "Python",
-      "stars": 62054,
-      "todayStars": 322,
+      "stars": 62350,
+      "todayStars": 265,
       "description": "300車種で動くOSS運転支援システム",
-      "detail": "対応300車種の市販車に後付けで装着できる運転支援OSです。古い車にも自動運転的な機能を載せたい個人ガレージや、自動運転研究の土台を社内に欲しいロボティクススタートアップが使えます。",
-      "narration": "300車種に後付けできるOSS運転支援システムです。中古車のADAS化や自動運転研究の土台に使えます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "IceWhaleTech/CasaOS",
-      "name": "CasaOS",
-      "url": "https://github.com/IceWhaleTech/CasaOS",
-      "language": "Go",
-      "stars": 35760,
-      "todayStars": 502,
-      "description": "1クリック導入の自宅クラウドOS",
-      "detail": "古いPCやRaspberry PiをワンクリックでNextcloud入りのファイルサーバーに変えるOSです。GoogleドライブやDropboxを置き換えたい個人や小さなチームに向きます。",
-      "narration": "Dockerアプリを1クリックで入れる自宅クラウドOSです。Google Drive代替を古いPCで自前運用できます。"
+      "detail": "対応300車種の中古車に後付けで装着できる運転支援OSです。Teslaのように専用車を買わずとも、Honda CivicやToyota Corollaなどに後付けハードと組み合わせるだけで車線維持や追従走行が手に入ります。",
+      "narration": "300車種で動くOSSの運転支援システムです。Tesla Autopilotと違い古い中古車にも後付けで載せられます。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "free-for-dev",
       "url": "https://github.com/ripienaar/free-for-dev",
       "language": "HTML",
-      "stars": 124145,
-      "todayStars": 459,
-      "description": "開発者向け無料SaaSの大全集",
-      "detail": "AWSの750時間枠やGitHub無料CI、Firebase無料DBなど開発で使えるSaaSとPaaSの無料枠を分野別にまとめたリストです。MVPやハッカソンの最初の選択肢が一覧で見渡せます。",
-      "narration": "開発者向け無料SaaSとAPIの無料枠を分野別にまとめた一覧です。MVPやハッカソンの初手選びが早くなります。"
+      "stars": 125111,
+      "todayStars": 472,
+      "description": "開発者向け無料枠SaaSの大全集",
+      "detail": "AWSの750時間枠やGitHub ActionsのCI分、Firebaseの無料DBなど開発に効く無料枠だけを分野別に束ねたカタログです。G2やCapterraと違い『無料ラインだけ』に絞られ、MVPやハッカソンの初手選定が秒で済みます。",
+      "narration": "開発者向けSaaSの無料枠だけを束ねたカタログです。G2の有料レビュー網と違い無料ラインが一覧で分かります。"
     }
   ]
 }
