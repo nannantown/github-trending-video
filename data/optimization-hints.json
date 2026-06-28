@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28",
-  "basedOnVideos": 12,
+  "updatedAt": "2026-06-29",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -26,69 +26,73 @@
       "date": "2026-06-16",
       "views": 2,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 06-14〜06-27, 12 件): comparison 1.0 avg n=3 (06-16=2 / 06-19=0 / 06-26=1) で TOP1・ecosystem 0.0 avg n=3・self-experiment 0.0 avg n=3・business-angle 0.0 avg n=2・tech-deep 0.0 avg n=1。直近 2 日 (06-27 business-angle / 06-26 comparison) 連投ルールで除外、本日 06-28 (Sat=79 avg・週次 6 位帯) は exploit 候補が枯渇、explore で `use-case` を採用。"
+      "note": "Method 別平均 (14 日窓 06-15〜06-28, 13 件): comparison 1.33 avg n=3 (06-16=2 / 06-19=0 / 06-26=2) で TOP1・business-angle 0.50 avg n=2 (06-15=0 / 06-27=1)・ecosystem 0.33 avg n=3 (06-18=0 / 06-21=0 / 06-24=1)・self-experiment 0.00 avg n=3・use-case 0.00 avg n=1・tech-deep/trend-pattern 14d 内不在。直近 2 日 (06-28 use-case / 06-27 business-angle) 連投ルール除外で comparison が機械的 TOP 候補、06-26 から 3 日空きで疲労リスクなし。本日 06-29 (Sun=5 avg・週次最弱帯) は『地図系』comparison の保存・後追い検索適合度が高い、exploit 80% で comparison を再投入。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は土曜 (Sat=79 avg・週次 6 位帯)、Sun=5 直前で週末モードに入る曜日。use-case 角度で『自分の現場で使うなら』を即イメージできる切り口に統一"
+      "本日は日曜 (Sun=5 avg・週次最弱帯)。トラフィック期待値は最低だが、comparison 角度は『地図系』として保存・後追い検索適合度が高く曜日適性は悪くない"
     ],
     "hashtags": [
-      "use-case 角度の核心は『どのペルソナがどのシーンで使うか』。本日 5 本の現場マッピング: #simplex_chat #匿名メッセージ #内部告発 #法律事務所 / #ai_berkshire #個人投資家 #バフェット流 #マルチエージェント / #openpilot #中古車 #ADAS #自動運転研究 / #CasaOS #自宅サーバー #自前クラウド #RaspberryPi / #free_for_dev #無料SaaS #MVP #ハッカソン",
-      "言語タグは Python 2 + Haskell 1 + Go 1 + HTML 1。Python (1.2x) のみ multiplier 上位、Haskell は週次珍しい言語のため『言語タグ多様性』語彙で『普段見ない技術が並ぶ日』として補正",
-      "use-case 角度の独自 hashtag: #use_case #ユースケース #現場で使う #自前運用 #個人開発 #受託 #スタートアップ #CTO #PdM #柱1 #柱①"
+      "comparison 角度の核心は『incumbent 1 対 1 対比』。本日 5 本の incumbent マッピング: #lingbot_map vs #DROID_SLAM / #LiDAR / #SLAM / #3D再構築、#ai_berkshire vs #Bloomberg / #バフェット流 / #価値投資、#simplex_chat vs #Signal / #匿名チャット / #自前ホスト、#openpilot vs #TeslaAutopilot / #ADAS / #中古車後付け、#free_for_dev vs #G2 / #Capterra / #無料SaaS",
+      "言語タグは Python 3 + Haskell 1 + HTML 1。Python (1.2x) multiplier 上位継続、Haskell は週次珍しい言語のため『言語タグ多様性』語彙で『普段見ない技術が並ぶ日』として補正",
+      "comparison 角度の独自 hashtag: #comparison #比較 #SaaS代替 #置き換え #incumbent #柱1 #柱① #CTO #PdM #技術選定"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 262 文字 (48+49+51+59+55)、TTS で約 35-40 秒、opening/ending と合わせて 55 秒以内",
-      "use-case 角度の一貫性: 5 本すべての narration を『〇〇OSSです。〇〇な現場で〇〇できます』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『どのペルソナがどの現場で使えるか』を具体名で固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。use-case 角度では『弁護士 / 個人投資家 / 中古車 / 自宅サーバー / MVP』など具体ペルソナ名を 5/5 で必ず含める",
-      "数値表現はアラビア数字統一 (300車種, 1クリック, 18種, 4体)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 280 文字 (58+52+57+59+54)、TTS で約 38-42 秒、opening/ending と合わせて 55 秒以内",
+      "comparison 角度の一貫性: 5 本すべての narration を『〇〇OSSです。〇〇と違い〇〇できます』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『何の incumbent と違ってどう優位か』を具体名で固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度では『SLAM / Bloomberg / Signal / Tesla Autopilot / G2』など incumbent 固有名詞を 5/5 で必ず含める",
+      "数値表現はアラビア数字統一 (300車種, 1万フレーム, 20FPS, 18Skill)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "継続 4 本 (simplex-chat / openpilot / ai-berkshire / free-for-dev) の語彙は 06-28 use-case の現場ペルソナ語彙 (弁護士 / 個人投資家 / 中古車 / MVP) を一旦封印し、incumbent 名指し対比語彙に完全切替で同素材 4 連投ペナルティを回避"
     ],
     "content": [
-      "本日の discovery.method は `use-case` (explore 枠)。14 日窓で未試行の method を回しサンプル数を増やす狙い。直近 2 日 (06-27 business-angle / 06-26 comparison) 連投ルール回避と週次 1 位帯 comparison が枯渇した状況下での合理選択",
-      "本日 06-28 TOP5: #1 simplex-chat/simplex-chat=Haskell / 13,776★ / +1,470 [Jack Dorsey 出資・ID なしメッセンジャー]、#2 xbtlin/ai-berkshire=Python / 4,050★ / +686 [4 体マルチエージェント株分析]、#3 commaai/openpilot=Python / 62,054★ / +322 [300 車種 OSS 運転支援]、#4 IceWhaleTech/CasaOS=Go / 35,760★ / +502 [自宅クラウド OS]、#5 ripienaar/free-for-dev=HTML / 124,145★ / +459 [無料 SaaS 大全集]",
-      "本日のマクロ核: 『今日の TOP5、それぞれ誰がどの現場で使うか』。冒頭フックは『あなたの現場、この 5 本のどれが効くか』",
-      "Primary (CTO/技術選定) には『自社の現場で採用判断する材料』、Secondary (PdM) には『社内の困りごとに当てる OSS の地図』、Tertiary (学習中) には『各リポを触る時の目線』として 3 層直撃",
-      "weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済、柱④ は月内不在のまま。月末 06-30 までに柱④ (業界読み解き) を 1 本投入する強制リマインダを次回ルーチンで発火する案を `docs/strategy.md` 更新提案に記載"
+      "本日の discovery.method は `comparison` (exploit 80% 枠)。14 日窓 TOP method (1.33 avg n=3)、views=2 を 2 回 (06-16 / 06-26) 出した唯一の再現的勝ち筋。直近 2 日連投ルール (06-28 use-case / 06-27 business-angle) クリア、最終投入 06-26 から 3 日空きで疲労リスクなし",
+      "本日 06-29 TOP5: #1 Robbyant/lingbot-map=Python / 8,178★ / +372 [新規・feed-forward 3D 基盤モデル]、#2 xbtlin/ai-berkshire=Python / 5,238★ / +1,456 [2 日連続・最大伸び]、#3 simplex-chat/simplex-chat=Haskell / 14,920★ / +1,183 [2 日連続]、#4 commaai/openpilot=Python / 62,350★ / +265 [2 日連続]、#5 ripienaar/free-for-dev=HTML / 125,111★ / +472 [2 日連続・evergreen]",
+      "本日のマクロ核: 『今日の TOP5、それぞれ何の代替か』。冒頭フックは『SLAM / Bloomberg / Signal / Tesla / G2 — 今日の TOP5 が置き換える 5 つの incumbent』",
+      "Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃",
+      "weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済、柱④ は月内不在のまま 4 週連続。月末 06-30 に柱④ (業界読み解き — 2026 Q2 AI コーディング agent エコシステム再編) を投入する強制リマインダを次回ルーチンで発火する案を PDCA レポートに記載"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-28",
-    "dayOfWeek": "Sat",
+    "date": "2026-06-29",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "use_case",
-      "ユースケース",
-      "現場で使う",
-      "自前運用",
-      "個人開発",
-      "受託",
-      "スタートアップ",
-      "CTO",
-      "PdM",
-      "simplex_chat",
-      "匿名メッセージ",
-      "Signal代替",
+      "comparison",
+      "比較",
+      "SaaS代替",
+      "置き換え",
+      "incumbent",
+      "lingbot_map",
+      "3D再構築",
+      "SLAM",
+      "DROID_SLAM",
       "ai_berkshire",
-      "マルチエージェント",
+      "バフェット流",
+      "Bloomberg代替",
       "個人投資家",
+      "simplex_chat",
+      "匿名チャット",
+      "Signal代替",
+      "自前ホスト",
       "openpilot",
+      "Tesla代替",
       "ADAS",
-      "自動運転",
-      "CasaOS",
-      "自宅サーバー",
-      "RaspberryPi",
+      "中古車後付け",
       "free_for_dev",
       "無料SaaS",
       "MVP",
       "Python",
       "Haskell",
-      "Go",
+      "HTML",
+      "CTO",
+      "PdM",
+      "技術選定",
       "柱1",
       "柱①"
     ],
-    "focus": "土曜 (Sat=79 avg) に `use-case` 角度 (explore 枠) を投入。直近 2 日連投ルール (06-27 business-angle / 06-26 comparison) + 残存 TOP method 枯渇状況下での合理選択。本日 5 本に明確な現場ペルソナを 1:1 で立て、Primary (CTO/技術選定) には『自社現場での採用判断材料』として直撃。narration は『〇〇OSSです。〇〇な現場で〇〇できます』の 2 文構成で 5/5 統一。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "日曜 (Sun=5 avg・週次最弱帯) に `comparison` 角度 (exploit 80% 枠) を投入。14 日窓 TOP method (1.33 avg n=3、views=2 を 2 回出した唯一の再現的勝ち筋)、直近 2 日連投ルール (06-28 use-case / 06-27 business-angle) + 06-26 から 3 日空きクリア。本日 4/5 が 06-28 からの継続素材のため、語彙を use-case (現場ペルソナ) → comparison (incumbent 対比) へ完全切替で連投ペナルティ回避。narration は『〇〇OSSです。〇〇と違い〇〇できます』の 2 文構成で 5/5 統一。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
