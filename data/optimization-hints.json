@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-06-30",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -16,6 +16,7 @@
       { "language": "TypeScript", "multiplier": 1.1 },
       { "language": "Shell", "multiplier": 1.0 },
       { "language": "Swift", "multiplier": 1.0 },
+      { "language": "Haskell", "multiplier": 1.0 },
       { "language": "Go", "multiplier": 0.9 },
       { "language": "JavaScript", "multiplier": 0.9 },
       { "language": "C++", "multiplier": 0.8 },
@@ -26,73 +27,77 @@
       "date": "2026-06-16",
       "views": 2,
       "projects": [],
-      "note": "Method 別平均 (14 日窓 06-15〜06-28, 13 件): comparison 1.33 avg n=3 (06-16=2 / 06-19=0 / 06-26=2) で TOP1・business-angle 0.50 avg n=2 (06-15=0 / 06-27=1)・ecosystem 0.33 avg n=3 (06-18=0 / 06-21=0 / 06-24=1)・self-experiment 0.00 avg n=3・use-case 0.00 avg n=1・tech-deep/trend-pattern 14d 内不在。直近 2 日 (06-28 use-case / 06-27 business-angle) 連投ルール除外で comparison が機械的 TOP 候補、06-26 から 3 日空きで疲労リスクなし。本日 06-29 (Sun=5 avg・週次最弱帯) は『地図系』comparison の保存・後追い検索適合度が高い、exploit 80% で comparison を再投入。"
+      "note": "Method 別平均 (14 日窓 06-16〜06-29, 13 件): comparison 0.75 avg n=4 (06-16=2 / 06-19=0 / 06-26=1 / 06-29=0) で TOP1 だが 06-29 の views=0 で平均急落 (前回 1.33 → 0.75)、3 連続使用で素材適合度低下の疑い。business-angle 0.50 avg n=2・ecosystem 0.33 avg n=3・self-experiment / use-case 0.00・tech-deep / trend-pattern 14d 内不在。直近 2 日 (06-29 comparison / 06-28 use-case) 連投ルール除外で comparison は機械的 TOP 候補だが 4 連投ペナルティ濃厚、本日 06-30 は exploit を捨て柱④ 19 日不在解消の explore 20% 枠として trend-pattern を強制発火。Tue=361 avg (週次 TOP1) で新角度の試行コスト最小、06-29 PDCA 戦略更新提案『月末 06-30 に柱④ 投入』を本日消化。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は日曜 (Sun=5 avg・週次最弱帯)。トラフィック期待値は最低だが、comparison 角度は『地図系』として保存・後追い検索適合度が高く曜日適性は悪くない"
+      "本日は火曜 (Tue=361 avg・週次 TOP1 帯)。trend-pattern 角度は四半期最終日の振り返りとして時期適合度が極めて高く、Q2 終了の節目語彙を入れる余地あり"
     ],
     "hashtags": [
-      "comparison 角度の核心は『incumbent 1 対 1 対比』。本日 5 本の incumbent マッピング: #lingbot_map vs #DROID_SLAM / #LiDAR / #SLAM / #3D再構築、#ai_berkshire vs #Bloomberg / #バフェット流 / #価値投資、#simplex_chat vs #Signal / #匿名チャット / #自前ホスト、#openpilot vs #TeslaAutopilot / #ADAS / #中古車後付け、#free_for_dev vs #G2 / #Capterra / #無料SaaS",
-      "言語タグは Python 3 + Haskell 1 + HTML 1。Python (1.2x) multiplier 上位継続、Haskell は週次珍しい言語のため『言語タグ多様性』語彙で『普段見ない技術が並ぶ日』として補正",
-      "comparison 角度の独自 hashtag: #comparison #比較 #SaaS代替 #置き換え #incumbent #柱1 #柱① #CTO #PdM #技術選定"
+      "trend-pattern 角度の核心は『Q2 マクロ潮流 1 本に 5 リポを位置づける』。本日 5 本の Q2 潮流マッピング: #simplex_chat #agency_agents #cupy #FluidVoice #maigret = 全て『脱クラウド再加熱 → 端末・OSS で完結』",
+      "言語タグは Python 2 + Haskell 1 + Shell 1 + Swift 1。Python (1.2x) 上位継続、Haskell + Shell + Swift の言語多様性は『普段見ない技術が並ぶ日』として trend-pattern マクロ語彙と相性が良い",
+      "trend-pattern 角度の独自 hashtag: #trend_pattern #業界読み解き #Q2振り返り #2026Q2 #柱4 #柱④ #脱クラウド #ローカルファースト #OSSシフト #CTO #PdM #技術選定"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 280 文字 (58+52+57+59+54)、TTS で約 38-42 秒、opening/ending と合わせて 55 秒以内",
-      "comparison 角度の一貫性: 5 本すべての narration を『〇〇OSSです。〇〇と違い〇〇できます』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『何の incumbent と違ってどう優位か』を具体名で固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison 角度では『SLAM / Bloomberg / Signal / Tesla Autopilot / G2』など incumbent 固有名詞を 5/5 で必ず含める",
-      "数値表現はアラビア数字統一 (300車種, 1万フレーム, 20FPS, 18Skill)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "継続 4 本 (simplex-chat / openpilot / ai-berkshire / free-for-dev) の語彙は 06-28 use-case の現場ペルソナ語彙 (弁護士 / 個人投資家 / 中古車 / MVP) を一旦封印し、incumbent 名指し対比語彙に完全切替で同素材 4 連投ペナルティを回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 259 文字 (47+53+52+52+55)、TTS で約 38-42 秒、opening/ending と合わせて 55 秒以内",
+      "trend-pattern 角度の一貫性: 5 本すべての narration を『〇〇の OSS です。2026 Q2 の〇〇潮流が〇〇しています』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『Q2 マクロ潮流のどこに位置するか』を固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では incumbent 固有名詞 (Signal / Bloomberg / Wispr Flow) を 1 文目には入れず、2 文目のマクロ語彙 (脱クラウド / 端末完結 / Q2 潮流 / 主流化 / 再加熱) を全 5 本で使う",
+      "数値表現はアラビア数字統一 (232 体, 16 部門, 3000 サイト, 2026 Q2)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率は高め (前日 06-29 からの継続は simplex-chat のみ、残り 4 本は新規)。継続 1 本 simplex-chat の narration は 06-29 の Signal 対比語彙を一旦封印し『Q2 脱クラウド再ブレイク』語彙に切替で同素材 2 連投ペナルティを回避"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (exploit 80% 枠)。14 日窓 TOP method (1.33 avg n=3)、views=2 を 2 回 (06-16 / 06-26) 出した唯一の再現的勝ち筋。直近 2 日連投ルール (06-28 use-case / 06-27 business-angle) クリア、最終投入 06-26 から 3 日空きで疲労リスクなし",
-      "本日 06-29 TOP5: #1 Robbyant/lingbot-map=Python / 8,178★ / +372 [新規・feed-forward 3D 基盤モデル]、#2 xbtlin/ai-berkshire=Python / 5,238★ / +1,456 [2 日連続・最大伸び]、#3 simplex-chat/simplex-chat=Haskell / 14,920★ / +1,183 [2 日連続]、#4 commaai/openpilot=Python / 62,350★ / +265 [2 日連続]、#5 ripienaar/free-for-dev=HTML / 125,111★ / +472 [2 日連続・evergreen]",
-      "本日のマクロ核: 『今日の TOP5、それぞれ何の代替か』。冒頭フックは『SLAM / Bloomberg / Signal / Tesla / G2 — 今日の TOP5 が置き換える 5 つの incumbent』",
-      "Primary (CTO/技術選定) には『今の選定肢に対する OSS の立ち位置』として、Secondary (PdM) には『SaaS を置き換える OSS の地図』として、Tertiary (学習中) には『各カテゴリの代表 5 本』として 3 層直撃",
-      "weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済、柱④ は月内不在のまま 4 週連続。月末 06-30 に柱④ (業界読み解き — 2026 Q2 AI コーディング agent エコシステム再編) を投入する強制リマインダを次回ルーチンで発火する案を PDCA レポートに記載"
+      "本日の discovery.method は `trend-pattern` (explore 20% 枠・柱④ 強制発火)。14 日窓完全不在、月内不在 19 日連続、目標比率 5% に対し月内実績 0% を回収する月末強制発火日",
+      "本日 06-30 TOP5: #1 simplex-chat/simplex-chat=Haskell / 16,504★ / +1,611 [2 日連続]、#2 msitarzewski/agency-agents=Shell / 118,788★ / +1,221 [新規・232 体エージェント Marketplace]、#3 cupy/cupy=Python / 11,802★ / +352 [新規・GPU NumPy 14.1.1 リリース直後]、#4 altic-dev/FluidVoice=Swift / 4,344★ / +836 [新規・完全ローカル音声入力]、#5 soxoj/maigret=Python / 34,334★ / +191 [新規・3000 サイト OSINT]",
+      "本日のマクロ核: 『2026 Q2、クラウド SaaS を手元の OSS と端末に置き換える脱クラウド再加熱が稼動した四半期』。冒頭フックは『2026 Q2 が今日で終わります。今日の TOP5 が示す Q2 最大の潮流を一気にまとめます』",
+      "Primary (CTO/技術選定) には『Q2 で何が地殻変動したかの一望図』として、Secondary (PdM) には『来 Q の技術投資先指針』として、Tertiary (学習中) には『四半期の代表 5 OSS』として 3 層直撃",
+      "comparison 連投上限の新ルール提案: 14d 内同一 method は上限 3 件、直近 7 日内 2 件まで。06-29 で comparison 4 連投の views=0 が観測されたため、次週ルーチンから機械的に発動する案を docs/strategy.md に追記候補",
+      "quarterly 強制リマインダ: 毎四半期の最終 routine 実行日 (3月末 / 6月末 / 9月末 / 12月末) は trend-pattern を強制発火する季節ルール案。本日 06-30 が初回テストケース、結果次第で 9月末に再投入"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-06-29",
-    "dayOfWeek": "Sun",
+    "date": "2026-06-30",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "comparison",
-      "比較",
-      "SaaS代替",
-      "置き換え",
-      "incumbent",
-      "lingbot_map",
-      "3D再構築",
-      "SLAM",
-      "DROID_SLAM",
-      "ai_berkshire",
-      "バフェット流",
-      "Bloomberg代替",
-      "個人投資家",
+      "trend_pattern",
+      "業界読み解き",
+      "Q2振り返り",
+      "2026Q2",
+      "脱クラウド",
+      "ローカルファースト",
+      "OSSシフト",
       "simplex_chat",
-      "匿名チャット",
+      "暗号化メッセンジャー",
       "Signal代替",
-      "自前ホスト",
-      "openpilot",
-      "Tesla代替",
-      "ADAS",
-      "中古車後付け",
-      "free_for_dev",
-      "無料SaaS",
-      "MVP",
+      "agency_agents",
+      "AIエージェント",
+      "GPTs代替",
+      "agent市場",
+      "cupy",
+      "GPU",
+      "NumPy",
+      "SciPy",
+      "FluidVoice",
+      "macOS",
+      "音声入力",
+      "Whisper",
+      "WisprFlow代替",
+      "maigret",
+      "OSINT",
+      "Sherlock",
       "Python",
       "Haskell",
-      "HTML",
+      "Shell",
+      "Swift",
       "CTO",
       "PdM",
       "技術選定",
-      "柱1",
-      "柱①"
+      "柱4",
+      "柱④"
     ],
-    "focus": "日曜 (Sun=5 avg・週次最弱帯) に `comparison` 角度 (exploit 80% 枠) を投入。14 日窓 TOP method (1.33 avg n=3、views=2 を 2 回出した唯一の再現的勝ち筋)、直近 2 日連投ルール (06-28 use-case / 06-27 business-angle) + 06-26 から 3 日空きクリア。本日 4/5 が 06-28 からの継続素材のため、語彙を use-case (現場ペルソナ) → comparison (incumbent 対比) へ完全切替で連投ペナルティ回避。narration は『〇〇OSSです。〇〇と違い〇〇できます』の 2 文構成で 5/5 統一。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "火曜 (Tue=361 avg・週次 TOP1 帯) に `trend-pattern` 角度 (explore 20% 枠・柱④ 強制発火) を投入。14d 完全不在、月内不在 19 日連続、目標 5% 比率の月内実績 0% を本日で回収する月末強制発火日。06-29 PDCA 戦略更新提案『月末 06-30 に柱④ 投入』を本日消化。本日のマクロ核は『2026 Q2 = クラウド SaaS を手元の OSS と端末で置き換える脱クラウド再加熱の四半期』、5/5 が新規/継続を問わず純度高くこのマクロパターンへ整列する稀な日。narration は『〇〇の OSS です。2026 Q2 の〇〇潮流が〇〇しています』の 2 文構成で 5/5 統一。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
