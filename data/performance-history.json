@@ -3305,7 +3305,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3360,7 +3360,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3760,7 +3760,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3815,7 +3815,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3873,7 +3873,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3927,7 +3927,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
+        "updatedAt": "2026-06-29T23:46:42.847Z"
       }
     },
     {
@@ -3981,25 +3981,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-06-29T23:46:42.847Z"
+      }
+    },
+    {
+      "videoId": "1kVTewV7yrI",
+      "videoUrl": "https://youtube.com/shorts/1kVTewV7yrI",
+      "date": "2026-06-30",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/30 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "C++",
+        "Python"
+      ],
+      "languages": [
+        "Haskell",
+        "Shell",
+        "Python",
+        "Swift"
+      ],
+      "projects": [
+        "simplex-chat/simplex-chat",
+        "msitarzewski/agency-agents",
+        "cupy/cupy",
+        "altic-dev/FluidVoice",
+        "soxoj/maigret"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "2026 Q2 最終日の振り返りとして、TOP5 を貫く 2026 Q2 マクロ潮流『クラウド SaaS を手元の OSS / 端末で置き換える脱クラウド再加熱』trend-pattern 角度で 5/5 統一料理する。柱④ 業界読み解きは 06-11 trend-pattern 以降 19 日連続不在、目標 5% 比率に対し月内実績 0%、06-29 PDCA 戦略更新提案で『月末 06-30 に柱④ を強制発火』を明示済み、本日がその発火日。本日は Tue=361 avg (週次 TOP1) でトラフィック期待値が週内最高、新角度 explore 試行コストが最小化する曜日適合。本日の TOP5 マクロマッピング: simplex-chat = 脱 Signal クラウド ID / agency-agents 232 体 = 脱 GPTs クラウド agent 市場 / cupy = 脱 SaaS GPU 計算で既存 NumPy コード再利用 / FluidVoice = 脱 Wispr Flow 完全ローカル音声入力 / maigret = 脱 OSINT SaaS の 3000 サイト手元横断 — 5/5 が『端末・OSS で完結』マクロパターンへ純度高く整列する稀な日。narration は『〇〇の OSS です。2026 Q2 の〇〇潮流が〇〇しています』2 文構成で 5/5 統一、1 文目で repo の正体、2 文目で Q2 マクロパターンへの位置づけを固定。Primary (CTO / 技術選定) には『Q2 で何が地殻変動したかの一望図』として、Secondary (PdM) には『来 Q の技術投資先指針』として、Tertiary (学習中) には『四半期の代表 5 OSS』として 3 層直撃。直近 2 日 (06-29 comparison / 06-28 use-case) 連投ルールクリア、trend-pattern は 14d 完全不在で疲労リスクゼロ。05-14 系 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (41 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/simplex-chat/simplex-chat",
+          "https://github.com/msitarzewski/agency-agents",
+          "https://github.com/cupy/cupy",
+          "https://github.com/altic-dev/FluidVoice",
+          "https://github.com/soxoj/maigret"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-28",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.6x avg views → drop",
-        "standard: 180 avg views (46 videos)",
-        "Trending languages: Kotlin (2.2x), C++ (2.9x), Jupyter Notebook (2.2x)",
-        "Day performance: Tue=432, Fri=354, Wed=178, Thu=176, Sat=89, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-29",
       "changes": [
@@ -4425,6 +4465,26 @@
         "standard: 111 avg views (75 videos)",
         "Trending languages: Kotlin (3.6x), C++ (2.9x), Jupyter Notebook (3.5x)",
         "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=53, Mon=49, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-06-29",
+      "changes": [
+        "Rust: 0.7x avg views → drop",
+        "C++: 1.3x avg views → boost",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Shell: 0.8x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.8x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 109 avg views (76 videos)",
+        "Trending languages: Kotlin (3.6x), C++ (2.9x), Jupyter Notebook (3.6x)",
+        "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=53, Mon=45, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
