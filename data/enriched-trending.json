@@ -1,15 +1,17 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "2026 Q2 最終日の振り返りとして、TOP5 を貫く 2026 Q2 マクロ潮流『クラウド SaaS を手元の OSS / 端末で置き換える脱クラウド再加熱』trend-pattern 角度で 5/5 統一料理する。柱④ 業界読み解きは 06-11 trend-pattern 以降 19 日連続不在、目標 5% 比率に対し月内実績 0%、06-29 PDCA 戦略更新提案で『月末 06-30 に柱④ を強制発火』を明示済み、本日がその発火日。本日は Tue=361 avg (週次 TOP1) でトラフィック期待値が週内最高、新角度 explore 試行コストが最小化する曜日適合。本日の TOP5 マクロマッピング: simplex-chat = 脱 Signal クラウド ID / agency-agents 232 体 = 脱 GPTs クラウド agent 市場 / cupy = 脱 SaaS GPU 計算で既存 NumPy コード再利用 / FluidVoice = 脱 Wispr Flow 完全ローカル音声入力 / maigret = 脱 OSINT SaaS の 3000 サイト手元横断 — 5/5 が『端末・OSS で完結』マクロパターンへ純度高く整列する稀な日。narration は『〇〇の OSS です。2026 Q2 の〇〇潮流が〇〇しています』2 文構成で 5/5 統一、1 文目で repo の正体、2 文目で Q2 マクロパターンへの位置づけを固定。Primary (CTO / 技術選定) には『Q2 で何が地殻変動したかの一望図』として、Secondary (PdM) には『来 Q の技術投資先指針』として、Tertiary (学習中) には『四半期の代表 5 OSS』として 3 層直撃。直近 2 日 (06-29 comparison / 06-28 use-case) 連投ルールクリア、trend-pattern は 14d 完全不在で疲労リスクゼロ。05-14 系 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (41 日連続成功継続見込み)。",
+    "method": "business-angle",
+    "description": "2026 Q3 初日かつ月初の 07-01。本日の TOP5 は 5/5 すべてが既存の有償サービス・SaaS・人月コストに 1 対 1 で対応する稀な day で、business-angle の素材純度が極めて高い。strix=外注ペネトレ 1 回数十万円 / agency-agents=採用 1 人月分の専門役割 / FluidVoice=月額制 Wispr Flow 系 / OmniRoute=LLM API 月課金 / exercises-dataset=ExerciseDB API 系のデータ素材費、と全 5 本で具体額のコスト圧縮ストーリーが語れる。柱② (15% 比率) 適合度は最大、Primary CTO/技術選定ペルソナ直撃。Method 別累積 (n>0): ecosystem 36 / tech-deep 6 / trend-pattern 6 / business-angle 5 / comparison 5 / use-case 3 / self-experiment 2。business-angle は累積 #2、サンプル n=8 で安定枠。直近 2 日 (06-30 trend-pattern / 06-29 comparison) 連投ルール余裕でクリア、business-angle 自体は 06-27 以来 4 日空きで疲労リスク無。月初の予算検討タイミングに合わせ、Primary 層への露出最大化を狙う季節ルール案の初回テストケース。narration は『〇〇のOSSです。〇〇を月○円/年○万円/1人月分削れます』2 文型で 5/5 統一、1 文目で repo の正体、2 文目で具体的コスト圧縮を固定。05-14 系 main 到達失敗事故対策の PR squash merge + 着弾検証を必須実行 (42 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/simplex-chat/simplex-chat",
+      "https://github.com/hasaneyldrm/exercises-dataset",
+      "https://github.com/usestrix/strix",
       "https://github.com/msitarzewski/agency-agents",
-      "https://github.com/cupy/cupy",
       "https://github.com/altic-dev/FluidVoice",
-      "https://github.com/soxoj/maigret"
+      "https://github.com/diegosouzapw/OmniRoute",
+      "https://oss.exercisedb.dev",
+      "https://app.strix.ai"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,39 +19,39 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "simplex-chat/simplex-chat",
-      "name": "simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "language": "Haskell",
-      "stars": 16504,
-      "todayStars": 1611,
-      "description": "IDを持たない暗号化メッセンジャー",
-      "detail": "電話番号もアカウントもIDも持たず、会話ごとに使い捨てのqueue識別子で繋がる設計のメッセージング基盤です。Trail of Bits監査とポスト量子暗号で守られ、Jack Dorseyからの出資も背景に2026 Q2を通して勢いが継続しています。",
-      "narration": "IDを持たない暗号化メッセンジャーです。2026 Q2の脱クラウド潮流で再ブレイクしています。"
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "name": "exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "language": "HTML",
+      "stars": 6455,
+      "todayStars": 1413,
+      "description": "1,324種類の運動データ大全集",
+      "detail": "ExerciseDB v1から派生した1,324種類の運動データを6言語の解説付きで配布するJSONデータセットです。フィットネスアプリの初動素材を丸ごと節約でき、AIの運動推薦やレコメンドデータ基盤としても流用できます。",
+      "narration": "1,324種類の運動データを丸ごと配布するOSSです。フィットネスアプリの立ち上げで数十万円分の素材費を即削れます。"
     },
     {
       "rank": 2,
+      "fullName": "usestrix/strix",
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "language": "Python",
+      "stars": 28068,
+      "todayStars": 395,
+      "description": "自律AI型の脆弱性診断OSS",
+      "detail": "OWASP Top 10を実際のPoC付きで検出する自律ペネトレ用AIエージェント群です。GitHub ActionsやJira、Slack連携を備え、外注で1回数十万円かかる脆弱性診断を内製化、Apache 2.0で無料導入できます。",
+      "narration": "AIが自律でペネトレーションテストを走らせるOSSです。1回数十万円の脆弱性診断委託をPoC付きで内製化できます。"
+    },
+    {
+      "rank": 3,
       "fullName": "msitarzewski/agency-agents",
       "name": "agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
       "language": "Shell",
-      "stars": 118788,
-      "todayStars": 1221,
+      "stars": 120760,
+      "todayStars": 1793,
       "description": "232体のAIエージェント大全集",
-      "detail": "232体の役割別エージェントを16部門にまとめたMarketplace型OSSです。Claude CodeやCursor、Aider向けに変換スクリプト1本で配備でき、CrewAIのような自前コーディングなしで専門人員を即組成できます。",
-      "narration": "232体の専門AIエージェントを束ねたOSSです。2026 Q2はagent市場の整理が一気に進んでいます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "cupy/cupy",
-      "name": "cupy",
-      "url": "https://github.com/cupy/cupy",
-      "language": "Python",
-      "stars": 11802,
-      "todayStars": 352,
-      "description": "NumPyとSciPyのGPU版ライブラリ",
-      "detail": "NumPyやSciPy互換のAPIをCUDAとROCmで動かせるGPU配列ライブラリです。CPUコードのimportを書き換えるだけで動き、Preferred Networks主導で科学計算と機械学習の現場に深く根付き14.1.1がリリースされたばかりです。",
-      "narration": "NumPyとSciPyをGPUで動かすライブラリです。LLM時代に科学計算のGPU化が再加速しています。"
+      "detail": "16部門232体の専門AIエージェントをMarkdownで束ねた配布OSSです。Claude CodeやCursor、Aider向けの一括変換スクリプトとデスクトップアプリ付きで、採用1人月分の役割を15分で社内に組成できます。",
+      "narration": "232体のAIエージェントを揃えたOSSです。採用1人月分の役割をClaude Codeに15分で組み込めます。"
     },
     {
       "rank": 4,
@@ -57,23 +59,23 @@
       "name": "FluidVoice",
       "url": "https://github.com/altic-dev/FluidVoice",
       "language": "Swift",
-      "stars": 4344,
-      "todayStars": 836,
-      "description": "完全ローカルのmacOS音声入力",
-      "detail": "WhisperやNemotron Speech 3.5など複数のローカルモデルを切り替えて使うmacOS向け音声入力アプリです。クラウド送信なしでアプリ内補正まで完結し、有料のWispr Flowの代替として無料・GPLv3で導入できます。",
-      "narration": "完全オフラインのmacOS向け音声入力アプリです。端末で全部完結する流れが2026に主流化しています。"
+      "stars": 4884,
+      "todayStars": 586,
+      "description": "完全ローカル動作のmacOS音声入力",
+      "detail": "Whisper、Parakeet、Nemotron Speech 3.5などローカルモデルを切り替えて使うmacOS向け音声入力アプリです。GPLv3で無料公開され、月額制のWispr Flow系の代替として年1万円以上の経費が浮きます。",
+      "narration": "完全ローカルで動くmacOS向け音声入力アプリです。月額制のWispr Flow代替で、年1万円以上の経費が浮きます。"
     },
     {
       "rank": 5,
-      "fullName": "soxoj/maigret",
-      "name": "maigret",
-      "url": "https://github.com/soxoj/maigret",
-      "language": "Python",
-      "stars": 34334,
-      "todayStars": 191,
-      "description": "ユーザー名で3000サイトを横断調査",
-      "detail": "ユーザー名一つを入れると3000以上のサイトを横断検索して人物プロファイルを束ねるOSINTツールです。Sherlockから派生し、再帰探索とグラフ可視化、AI解析を追加。記者やred teamの現場の取材インフラとして定着しています。",
-      "narration": "3000サイトを横断するOSINT調査OSSです。SaaSに頼らず手元で取材を完結する流れが定番化しています。"
+      "fullName": "diegosouzapw/OmniRoute",
+      "name": "OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "stars": 8427,
+      "todayStars": 459,
+      "description": "231AI提供元を束ねる中継proxy",
+      "detail": "231以上のAI提供元と11社の永久無料枠を束ね、9段階パイプラインで15から95%のトークン圧縮を行うセルフホストAI gatewayです。Claude CodeやCursor等16ツール対応、MITでOpenRouter代替に。",
+      "narration": "231以上のAIをまとめるOSSの中継proxyです。トークン圧縮と無料枠でAPI課金を月数万円削れます。"
     }
   ]
 }
