@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "discovery": {
-    "method": "business-angle",
-    "description": "2026 Q3 初日かつ月初の 07-01。本日の TOP5 は 5/5 すべてが既存の有償サービス・SaaS・人月コストに 1 対 1 で対応する稀な day で、business-angle の素材純度が極めて高い。strix=外注ペネトレ 1 回数十万円 / agency-agents=採用 1 人月分の専門役割 / FluidVoice=月額制 Wispr Flow 系 / OmniRoute=LLM API 月課金 / exercises-dataset=ExerciseDB API 系のデータ素材費、と全 5 本で具体額のコスト圧縮ストーリーが語れる。柱② (15% 比率) 適合度は最大、Primary CTO/技術選定ペルソナ直撃。Method 別累積 (n>0): ecosystem 36 / tech-deep 6 / trend-pattern 6 / business-angle 5 / comparison 5 / use-case 3 / self-experiment 2。business-angle は累積 #2、サンプル n=8 で安定枠。直近 2 日 (06-30 trend-pattern / 06-29 comparison) 連投ルール余裕でクリア、business-angle 自体は 06-27 以来 4 日空きで疲労リスク無。月初の予算検討タイミングに合わせ、Primary 層への露出最大化を狙う季節ルール案の初回テストケース。narration は『〇〇のOSSです。〇〇を月○円/年○万円/1人月分削れます』2 文型で 5/5 統一、1 文目で repo の正体、2 文目で具体的コスト圧縮を固定。05-14 系 main 到達失敗事故対策の PR squash merge + 着弾検証を必須実行 (42 日連続成功継続見込み)。",
+    "method": "ecosystem",
+    "description": "本日の TOP5 は 5/5 とも『どのエコシステムに位置づくか』が第一の理解軸となる素材構成。agency-agents は Claude Code/Cursor/Aider ほか 14 AI コーディングツールを横断するハブ、strix は Nuclei と Playwright を土台に GitHub/Jira/Slack/GitLab/Bitbucket に直結する DevSecOps 層、exercises-dataset は ExerciseDB v1 派生で wger と並ぶ 6 言語対応の fitness OSS 選択肢、Vibe-Trading は LangChain 1.x + MCP + FastAPI + React 19 の複合で 13 LLM + 10 broker + 18 データ源を束ねる香港大学発フレームワーク、facebook/astryx は shadcn/ui と Material の中間に据わり Meta 社内 13,000 アプリ実績を持つ StyleX ベース設計システム。5 本全てで『周辺 OSS/サービスとの相対位置』が明確に語れる稀なマーケット状況で、ecosystem angle の素材純度は最大。Method 別累積 (n>0) は ecosystem 27.5 で断トツ TOP、business-angle 3.6 / comparison 3.1 / tech-deep 3.0 / trend-pattern 3.0 と 7 倍以上の差。ecosystem 最終使用は 06-24 で 8 日空き、疲労なく再投入できる稀な windows。直近 2 日 (06-30 trend-pattern / 07-01 business-angle) 連投ルールは余裕でクリア、柱② 週次ノルマも 06-27/07-01 で当週消化済み。narration は『(周辺 OSS/ツール) を土台/中間に置く OSSです。(具体エコシステムでの位置)』の 2 文型で 5/5 統一、1 文目で正体、2 文目で連携先・位置づけを固定。数値は『連携先の数』を全 5 本で語る (14 ツール / 5 サービス / 6 言語 / 13 LLM+10 broker / 13,000 アプリ)。05-14 系 main 到達失敗事故対策の PR squash merge + 着弾検証を必須実行 (43 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/hasaneyldrm/exercises-dataset",
-      "https://github.com/usestrix/strix",
       "https://github.com/msitarzewski/agency-agents",
-      "https://github.com/altic-dev/FluidVoice",
-      "https://github.com/diegosouzapw/OmniRoute",
-      "https://oss.exercisedb.dev",
-      "https://app.strix.ai"
+      "https://github.com/usestrix/strix",
+      "https://github.com/hasaneyldrm/exercises-dataset",
+      "https://github.com/HKUDS/Vibe-Trading",
+      "https://github.com/facebook/astryx",
+      "https://app.strix.ai",
+      "https://exercisedb.dev"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,15 +19,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "hasaneyldrm/exercises-dataset",
-      "name": "exercises-dataset",
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "language": "HTML",
-      "stars": 6455,
-      "todayStars": 1413,
-      "description": "1,324種類の運動データ大全集",
-      "detail": "ExerciseDB v1から派生した1,324種類の運動データを6言語の解説付きで配布するJSONデータセットです。フィットネスアプリの初動素材を丸ごと節約でき、AIの運動推薦やレコメンドデータ基盤としても流用できます。",
-      "narration": "1,324種類の運動データを丸ごと配布するOSSです。フィットネスアプリの立ち上げで数十万円分の素材費を即削れます。"
+      "fullName": "msitarzewski/agency-agents",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars": 123237,
+      "todayStars": 2097,
+      "description": "14ツール互換のAIエージェント集",
+      "detail": "Claude Code、Cursor、Aider、GitHub Copilotなど14ツールに232体の専門AIエージェントをMITで一括配布するOSSです。convert.shで各ツール形式に自動変換され、Claude系エコシステム全体のエージェント基盤ハブとして機能します。",
+      "narration": "Claude Code、Cursor、Aiderなど14ツールに配れるAIエージェント集です。232体を一括変換します。"
     },
     {
       "rank": 2,
@@ -35,47 +35,47 @@
       "name": "strix",
       "url": "https://github.com/usestrix/strix",
       "language": "Python",
-      "stars": 28068,
-      "todayStars": 395,
-      "description": "自律AI型の脆弱性診断OSS",
-      "detail": "OWASP Top 10を実際のPoC付きで検出する自律ペネトレ用AIエージェント群です。GitHub ActionsやJira、Slack連携を備え、外注で1回数十万円かかる脆弱性診断を内製化、Apache 2.0で無料導入できます。",
-      "narration": "AIが自律でペネトレーションテストを走らせるOSSです。1回数十万円の脆弱性診断委託をPoC付きで内製化できます。"
+      "stars": 29596,
+      "todayStars": 1195,
+      "description": "NucleiとPlaywrightのAI型",
+      "detail": "NucleiとPlaywrightを土台に、OWASP Top 10をAIが自律で探索するApache 2.0ペネトレOSSです。GitHub Actions、Jira、Slack、GitLab、Bitbucketと直結し、既存のDevSecOpsパイプラインへ差し込めます。",
+      "narration": "NucleiとPlaywrightを束ねるAI型ペネトレOSSです。GitHub ActionsとJiraに直結します。"
     },
     {
       "rank": 3,
-      "fullName": "msitarzewski/agency-agents",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "language": "Shell",
-      "stars": 120760,
-      "todayStars": 1793,
-      "description": "232体のAIエージェント大全集",
-      "detail": "16部門232体の専門AIエージェントをMarkdownで束ねた配布OSSです。Claude CodeやCursor、Aider向けの一括変換スクリプトとデスクトップアプリ付きで、採用1人月分の役割を15分で社内に組成できます。",
-      "narration": "232体のAIエージェントを揃えたOSSです。採用1人月分の役割をClaude Codeに15分で組み込めます。"
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "name": "exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "language": "HTML",
+      "stars": 8338,
+      "todayStars": 2203,
+      "description": "多言語1,324運動データOSS",
+      "detail": "ExerciseDB v1から派生した1,324種類、6言語対応の運動データJSONです。wgerや商用フィットネスAPIと並ぶOSS選択肢として、フィットネスアプリやAIトレーナーの学習・レコメンド基盤に転用できます。",
+      "narration": "ExerciseDB派生の多言語運動データOSSです。6言語で1,324種類を配布しAIコーチの素材に使えます。"
     },
     {
       "rank": 4,
-      "fullName": "altic-dev/FluidVoice",
-      "name": "FluidVoice",
-      "url": "https://github.com/altic-dev/FluidVoice",
-      "language": "Swift",
-      "stars": 4884,
-      "todayStars": 586,
-      "description": "完全ローカル動作のmacOS音声入力",
-      "detail": "Whisper、Parakeet、Nemotron Speech 3.5などローカルモデルを切り替えて使うmacOS向け音声入力アプリです。GPLv3で無料公開され、月額制のWispr Flow系の代替として年1万円以上の経費が浮きます。",
-      "narration": "完全ローカルで動くmacOS向け音声入力アプリです。月額制のWispr Flow代替で、年1万円以上の経費が浮きます。"
+      "fullName": "HKUDS/Vibe-Trading",
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "language": "Python",
+      "stars": 16477,
+      "todayStars": 682,
+      "description": "LangChain×MCPの取引基盤",
+      "detail": "LangChain 1.xとMCPを軸に、13のLLM、10以上のブローカー、18の市場データ源を束ねる香港大学発の取引エージェント基盤です。450以上の量的因子とスウォーム構成で、Backtrader系OSSの上位互換を狙います。",
+      "narration": "LangChainとMCPで13LLMと10ブローカーを束ねる取引OSSです。450以上の量的因子を初期搭載しています。"
     },
     {
       "rank": 5,
-      "fullName": "diegosouzapw/OmniRoute",
-      "name": "OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "fullName": "facebook/astryx",
+      "name": "astryx",
+      "url": "https://github.com/facebook/astryx",
       "language": "TypeScript",
-      "stars": 8427,
-      "todayStars": 459,
-      "description": "231AI提供元を束ねる中継proxy",
-      "detail": "231以上のAI提供元と11社の永久無料枠を束ね、9段階パイプラインで15から95%のトークン圧縮を行うセルフホストAI gatewayです。Claude CodeやCursor等16ツール対応、MITでOpenRouter代替に。",
-      "narration": "231以上のAIをまとめるOSSの中継proxyです。トークン圧縮と無料枠でAPI課金を月数万円削れます。"
+      "stars": 2540,
+      "todayStars": 714,
+      "description": "Meta由来のReact設計システム",
+      "detail": "Meta社内で13,000アプリを支えたStyleXベースの設計システムをMITで公開したOSSです。shadcn/uiとMaterialの中間の抽象度で、AIエージェントが人と同じAPI規約で扱える設計になっています。",
+      "narration": "Meta社内13,000アプリで使う設計システムOSSです。shadcnとMaterialの中間層でAI連携も可能です。"
     }
   ]
 }
