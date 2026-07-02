@@ -3415,7 +3415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3474,7 +3474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3533,7 +3533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3760,7 +3760,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3812,10 +3812,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3870,10 +3870,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3924,10 +3924,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -3978,10 +3978,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
+        "updatedAt": "2026-07-01T23:59:31.895Z"
       }
     },
     {
@@ -4032,6 +4032,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-01T23:59:31.895Z"
+      }
+    },
+    {
+      "videoId": "WKDK9pysCi8",
+      "videoUrl": "https://youtube.com/shorts/WKDK9pysCi8",
+      "date": "2026-07-02",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/02 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Shell",
+        "Python",
+        "HTML",
+        "TypeScript"
+      ],
+      "projects": [
+        "msitarzewski/agency-agents",
+        "usestrix/strix",
+        "hasaneyldrm/exercises-dataset",
+        "HKUDS/Vibe-Trading",
+        "facebook/astryx"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日の TOP5 は 5/5 とも『どのエコシステムに位置づくか』が第一の理解軸となる素材構成。agency-agents は Claude Code/Cursor/Aider ほか 14 AI コーディングツールを横断するハブ、strix は Nuclei と Playwright を土台に GitHub/Jira/Slack/GitLab/Bitbucket に直結する DevSecOps 層、exercises-dataset は ExerciseDB v1 派生で wger と並ぶ 6 言語対応の fitness OSS 選択肢、Vibe-Trading は LangChain 1.x + MCP + FastAPI + React 19 の複合で 13 LLM + 10 broker + 18 データ源を束ねる香港大学発フレームワーク、facebook/astryx は shadcn/ui と Material の中間に据わり Meta 社内 13,000 アプリ実績を持つ StyleX ベース設計システム。5 本全てで『周辺 OSS/サービスとの相対位置』が明確に語れる稀なマーケット状況で、ecosystem angle の素材純度は最大。Method 別累積 (n>0) は ecosystem 27.5 で断トツ TOP、business-angle 3.6 / comparison 3.1 / tech-deep 3.0 / trend-pattern 3.0 と 7 倍以上の差。ecosystem 最終使用は 06-24 で 8 日空き、疲労なく再投入できる稀な windows。直近 2 日 (06-30 trend-pattern / 07-01 business-angle) 連投ルールは余裕でクリア、柱② 週次ノルマも 06-27/07-01 で当週消化済み。narration は『(周辺 OSS/ツール) を土台/中間に置く OSSです。(具体エコシステムでの位置)』の 2 文型で 5/5 統一、1 文目で正体、2 文目で連携先・位置づけを固定。数値は『連携先の数』を全 5 本で語る (14 ツール / 5 サービス / 6 言語 / 13 LLM+10 broker / 13,000 アプリ)。05-14 系 main 到達失敗事故対策の PR squash merge + 着弾検証を必須実行 (43 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/msitarzewski/agency-agents",
+          "https://github.com/usestrix/strix",
+          "https://github.com/hasaneyldrm/exercises-dataset",
+          "https://github.com/HKUDS/Vibe-Trading",
+          "https://github.com/facebook/astryx",
+          "https://app.strix.ai",
+          "https://exercisedb.dev"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4040,21 +4097,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-29",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.6x avg views → drop",
-        "standard: 176 avg views (47 videos)",
-        "Trending languages: Kotlin (2.3x), C++ (3.0x), Jupyter Notebook (2.2x)",
-        "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=89, Mon=70, Sun=6"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-05-30",
       "changes": [
@@ -4485,6 +4527,24 @@
         "standard: 109 avg views (76 videos)",
         "Trending languages: Kotlin (3.6x), C++ (2.9x), Jupyter Notebook (3.6x)",
         "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=53, Mon=45, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-01",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.8x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 108 avg views (77 videos)",
+        "Trending languages: Kotlin (3.7x), C++ (2.9x), Jupyter Notebook (3.6x)",
+        "Day performance: Tue=217, Fri=207, Thu=128, Wed=107, Sat=53, Mon=45, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
