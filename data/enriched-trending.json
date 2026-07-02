@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日の TOP5 は 5/5 とも『どのエコシステムに位置づくか』が第一の理解軸となる素材構成。agency-agents は Claude Code/Cursor/Aider ほか 14 AI コーディングツールを横断するハブ、strix は Nuclei と Playwright を土台に GitHub/Jira/Slack/GitLab/Bitbucket に直結する DevSecOps 層、exercises-dataset は ExerciseDB v1 派生で wger と並ぶ 6 言語対応の fitness OSS 選択肢、Vibe-Trading は LangChain 1.x + MCP + FastAPI + React 19 の複合で 13 LLM + 10 broker + 18 データ源を束ねる香港大学発フレームワーク、facebook/astryx は shadcn/ui と Material の中間に据わり Meta 社内 13,000 アプリ実績を持つ StyleX ベース設計システム。5 本全てで『周辺 OSS/サービスとの相対位置』が明確に語れる稀なマーケット状況で、ecosystem angle の素材純度は最大。Method 別累積 (n>0) は ecosystem 27.5 で断トツ TOP、business-angle 3.6 / comparison 3.1 / tech-deep 3.0 / trend-pattern 3.0 と 7 倍以上の差。ecosystem 最終使用は 06-24 で 8 日空き、疲労なく再投入できる稀な windows。直近 2 日 (06-30 trend-pattern / 07-01 business-angle) 連投ルールは余裕でクリア、柱② 週次ノルマも 06-27/07-01 で当週消化済み。narration は『(周辺 OSS/ツール) を土台/中間に置く OSSです。(具体エコシステムでの位置)』の 2 文型で 5/5 統一、1 文目で正体、2 文目で連携先・位置づけを固定。数値は『連携先の数』を全 5 本で語る (14 ツール / 5 サービス / 6 言語 / 13 LLM+10 broker / 13,000 アプリ)。05-14 系 main 到達失敗事故対策の PR squash merge + 着弾検証を必須実行 (43 日連続成功継続見込み)。",
+    "method": "tech-deep",
+    "description": "本日 07-03 (金) は tech-deep 角度で 5/5 統一。14 日内 tech-deep=0 件、最終使用 06-14 で 19 日空き、全期間累積 avg 3.0 (n=4) の試行回数不足枠を金曜 (Fri=310 avg・週次 #2) で本格テスト。昨日 07-02 の PDCA が明示的に『次回 07-03 は tech-deep もしくは use-case を優先』と当日推薦済みで exploit 側 80% 枠として素直に採用。連投ルール抵触も回避: 直近 2 日 (07-02 ecosystem / 06-30 trend-pattern) 連投ルール余裕クリア、business-angle は 07-01 直近 2 日抵触で除外、ecosystem は 14d 内 3 件目でここで打ち止め。柱② 週次ノルマは 07-01 で既達成、柱③ は今週 2 件で消化済み。今日の TOP5 は 5/5 とも内部メカニズムが明確な素材構成: strix=Graph of Agents 並列オーケストレーション+LiteLLM で GPT-5.4/Claude Sonnet 4.6/Gemini 3 Pro 切替+Caido・Playwright・Nuclei 束ねて実動 PoC 生成、caveman=出力層専用 Claude Code Skill で lite/full/ultra/wenyan の 4 段階圧縮 (平均 65% 最大 87% 実測)、agency-agents=Markdown 定義から convert.sh が MDC/CONVENTIONS.md/.windsurfrules/SKILL.md の 8 CLI 形式へ自動変換、exercises-dataset=1,324 レコード JSON 1 ファイル 6 言語 instructions フィールド+ExerciseDB v1 media_id、career-ops=canonical AGENTS.md 1 枚を CLI 別 wrapper で包み batch-runner.sh が claude -p/opencode run で 10 件以上並列評価。narration は『(技術メカニズム 1 文)。(具体的な数値/構成 1 文)』の 2 文型で 5/5 統一、5 本合計 271 文字 (51+50+60+54+56)、TTS で約 39-42 秒、opening/ending と合わせて 55 秒枠内。数値は動作特性の定量 (Graph of Agents / 平均 65%削減 / 14 ツール変換 / 6 言語 1,324 種 / 10 件以上並列) を全 5 本で必ず含める。README 読み上げ回避のため各 detail に内部モジュール名 (LiteLLM/Caido/Nuclei/convert.sh/batch-runner.sh) を最低 1 つ埋めてカード詳細レイヤで差別化。05-14 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (44 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/msitarzewski/agency-agents",
       "https://github.com/usestrix/strix",
+      "https://github.com/JuliusBrussee/caveman",
+      "https://github.com/msitarzewski/agency-agents",
       "https://github.com/hasaneyldrm/exercises-dataset",
-      "https://github.com/HKUDS/Vibe-Trading",
-      "https://github.com/facebook/astryx",
+      "https://github.com/santifer/career-ops",
       "https://app.strix.ai",
       "https://exercisedb.dev"
     ],
@@ -19,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "msitarzewski/agency-agents",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "language": "Shell",
-      "stars": 123237,
-      "todayStars": 2097,
-      "description": "14ツール互換のAIエージェント集",
-      "detail": "Claude Code、Cursor、Aider、GitHub Copilotなど14ツールに232体の専門AIエージェントをMITで一括配布するOSSです。convert.shで各ツール形式に自動変換され、Claude系エコシステム全体のエージェント基盤ハブとして機能します。",
-      "narration": "Claude Code、Cursor、Aiderなど14ツールに配れるAIエージェント集です。232体を一括変換します。"
-    },
-    {
-      "rank": 2,
       "fullName": "usestrix/strix",
       "name": "strix",
       "url": "https://github.com/usestrix/strix",
       "language": "Python",
-      "stars": 29596,
-      "todayStars": 1195,
-      "description": "NucleiとPlaywrightのAI型",
-      "detail": "NucleiとPlaywrightを土台に、OWASP Top 10をAIが自律で探索するApache 2.0ペネトレOSSです。GitHub Actions、Jira、Slack、GitLab、Bitbucketと直結し、既存のDevSecOpsパイプラインへ差し込めます。",
-      "narration": "NucleiとPlaywrightを束ねるAI型ペネトレOSSです。GitHub ActionsとJiraに直結します。"
+      "stars": 32032,
+      "todayStars": 2167,
+      "description": "Graph of Agents型ペネトレ",
+      "detail": "LiteLLM経由でGPTやClaudeを切替え、Caido、Playwright、Nucleiを束ねてOWASP Top 10を並列探索し、実動するPoCまで自動生成する自律ペネトレOSSです。GitHub Actionsに直結します。",
+      "narration": "AIが並列に脆弱性を探る自律ペネトレOSSです。GPTとClaudeを切替え実動PoCまで生成します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "JuliusBrussee/caveman",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "language": "JavaScript",
+      "stars": 80760,
+      "todayStars": 866,
+      "description": "Claude Codeトークン削減skill",
+      "detail": "推論トークンには手をつけず出力層だけを圧縮するClaude Code Skillです。lite・full・ultra・wenyanの4段階で平均65%、最大87%のトークンを削減しつつコードやURLは原文保持します。",
+      "narration": "Claude Codeの出力を短縮するskillです。トークンを平均65%削減し推論品質は維持します。"
     },
     {
       "rank": 3,
+      "fullName": "msitarzewski/agency-agents",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars": 125417,
+      "todayStars": 2925,
+      "description": "232体エージェント14ツール変換",
+      "detail": "Markdownで書かれたエージェント定義を1コマンドでCursor、Aider、Windsurf、OpenCodeなど14CLIの流儀に自動変換するOSSです。convert.shがMDCやCONVENTIONS.mdへ吐き出します。",
+      "narration": "AIエージェント定義を14ツール形式に自動変換するOSSです。CursorやAiderの流儀にも1コマンドで対応します。"
+    },
+    {
+      "rank": 4,
       "fullName": "hasaneyldrm/exercises-dataset",
       "name": "exercises-dataset",
       "url": "https://github.com/hasaneyldrm/exercises-dataset",
       "language": "HTML",
-      "stars": 8338,
-      "todayStars": 2203,
-      "description": "多言語1,324運動データOSS",
-      "detail": "ExerciseDB v1から派生した1,324種類、6言語対応の運動データJSONです。wgerや商用フィットネスAPIと並ぶOSS選択肢として、フィットネスアプリやAIトレーナーの学習・レコメンド基盤に転用できます。",
-      "narration": "ExerciseDB派生の多言語運動データOSSです。6言語で1,324種類を配布しAIコーチの素材に使えます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "HKUDS/Vibe-Trading",
-      "name": "Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "language": "Python",
-      "stars": 16477,
-      "todayStars": 682,
-      "description": "LangChain×MCPの取引基盤",
-      "detail": "LangChain 1.xとMCPを軸に、13のLLM、10以上のブローカー、18の市場データ源を束ねる香港大学発の取引エージェント基盤です。450以上の量的因子とスウォーム構成で、Backtrader系OSSの上位互換を狙います。",
-      "narration": "LangChainとMCPで13LLMと10ブローカーを束ねる取引OSSです。450以上の量的因子を初期搭載しています。"
+      "stars": 9216,
+      "todayStars": 942,
+      "description": "1,324種類の運動データJSON",
+      "detail": "ExerciseDB v1派生の1,324種類の運動データをJSON 1ファイルで配布するOSSです。6言語の説明文、部位・器具・筋群タグ、外部CDNのGIF参照IDが1レコードに揃い、直接アプリに投入できます。",
+      "narration": "1,324種の運動データを1つのJSONに詰めたOSSです。6言語の説明文と部位分類でアプリに直接使えます。"
     },
     {
       "rank": 5,
-      "fullName": "facebook/astryx",
-      "name": "astryx",
-      "url": "https://github.com/facebook/astryx",
-      "language": "TypeScript",
-      "stars": 2540,
-      "todayStars": 714,
-      "description": "Meta由来のReact設計システム",
-      "detail": "Meta社内で13,000アプリを支えたStyleXベースの設計システムをMITで公開したOSSです。shadcn/uiとMaterialの中間の抽象度で、AIエージェントが人と同じAPI規約で扱える設計になっています。",
-      "narration": "Meta社内13,000アプリで使う設計システムOSSです。shadcnとMaterialの中間層でAI連携も可能です。"
+      "fullName": "santifer/career-ops",
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "language": "JavaScript",
+      "stars": 57752,
+      "todayStars": 322,
+      "description": "AI CLI連携の求職支援14モード",
+      "detail": "canonical AGENTS.md 1枚を各CLI用のCLAUDE.md、OPENCODE.md、GEMINI.mdに包み分ける求職特化OSSです。batch-runner.shがclaude -pやopencode runで10件以上のオファーを並列評価します。",
+      "narration": "AI CLIで求職活動を回すJS製OSSです。14モードを共有Markdownで束ね並列でオファーを評価します。"
     }
   ]
 }
