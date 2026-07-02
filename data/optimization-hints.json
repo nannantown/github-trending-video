@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01",
+  "updatedAt": "2026-07-03",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -17,9 +17,8 @@
       { "language": "Shell", "multiplier": 1.0 },
       { "language": "Swift", "multiplier": 1.0 },
       { "language": "HTML", "multiplier": 1.0 },
-      { "language": "Haskell", "multiplier": 1.0 },
-      { "language": "Go", "multiplier": 0.9 },
       { "language": "JavaScript", "multiplier": 0.9 },
+      { "language": "Go", "multiplier": 0.9 },
       { "language": "C++", "multiplier": 0.8 },
       { "language": "Ruby", "multiplier": 0.8 },
       { "language": "Rust", "multiplier": 0.7 }
@@ -28,83 +27,80 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 36 avg n=10 TOP1 / tech-deep 6 n=2 / trend-pattern 6 n=4 / business-angle 5 n=8 / comparison 5 n=10 / use-case 3 n=2 / self-experiment 2 n=3。直近 2 日 (06-30 trend-pattern / 06-29 comparison) 連投ルール除外で機械的 exploit 候補は ecosystem だが、直近 14d 内に既に 3 連投 (06-18 / 06-21 / 06-24) で素材適合度低下リスク。本日 07-01 は柱② 月初強制発火日として business-angle を投入。business-angle は累積 #2 (n=8 avg 5)、06-27 以来 4 日空き、本日 5/5 が有償サービス・SaaS・人月コストに 1 対 1 対応する稀な素材純度日 (strix=外注ペネトレ / agency-agents=採用 1 人月 / FluidVoice=Wispr Flow 系月額 / OmniRoute=LLM API / exercises-dataset=ExerciseDB API 系)。Wed=153 avg は中位帯、business-angle 投入で月初 Primary 層への露出最大化を狙う。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 25 avg n=14 TOP1 / business-angle 4 n=11 / comparison 3 n=16 / trend-pattern 3 n=8 / tech-deep 3 n=4 (試行不足) / use-case 2 n=4 / self-experiment 1 n=6。直近 2 日 (07-02 ecosystem / 06-30 trend-pattern) 連投ルール除外+ecosystem 14d 内 3 件目で以降打ち止め+business-angle は 07-01 直近 2 日抵触。本日 07-03 (金) は前日 07-02 PDCA が『次回 07-03 は tech-deep もしくは use-case 優先』と明示推薦した tech-deep を採用。tech-deep は 14 日内ゼロ件、最終使用 06-14 で 19 日空き、Fri=310 avg (週次 #2) の露出を使って n=4 の試行不足枠を本格テスト。5/5 とも内部メカニズムが明確な素材構成 (strix=Graph of Agents+LiteLLM / caveman=出力層専用 Skill+平均 65%削減 / agency-agents=convert.sh の 8 CLI 変換 / exercises-dataset=JSON 1 ファイル 6 言語 / career-ops=AGENTS.md+batch-runner.sh 並列 worker) で素材純度は最大クラス。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は水曜 (Wed=153 avg・週次 #4)・2026 Q3 初日・月初 07-01。business-angle 角度は『月をまたぐ予算検討タイミング』に時期適合度が高く、月初語彙 (今月から / 月額 / 経費 / 削減) を入れる余地あり"
+      "本日は金曜 (Fri=310 avg・週次 #2) の Primary エンジニア/CTO 露出ウィンドウ。tech-deep 角度は『READMEだけ読んでも辿り着けない実装の芯』を提供する語彙 (内部モジュール名・アーキテクチャ用語・数値ベンチ) が刺さる時期適合度が高い"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5 リポを有償サービス・SaaS・人月コストに 1 対 1 対応で並べる』。本日 5 本のコスト圧縮マッピング: #exercises_dataset=ExerciseDB API 系の素材費 / #strix=外注ペネトレ 1 回数十万円 / #agency_agents=採用 1 人月分 / #FluidVoice=Wispr Flow 系月額 / #OmniRoute=LLM API 課金",
-      "言語タグは Python 2 + HTML 1 + Shell 1 + Swift 1 + TypeScript 1。Python (1.2x) と TypeScript (1.1x) の安定組、HTML は今期初登場 (運動データ集の素材 dataset 系)",
-      "business-angle 角度の独自 hashtag: #business_angle #柱2 #柱② #コスト削減 #経費削減 #内製化 #SaaS代替 #受託開発 #スタートアップ #技術投資 #CTO #PdM #技術選定 #月初"
+      "tech-deep 角度の核心は『5 リポの内部メカニズム/主要スクリプト/数値ベンチを 1 対 1 で並べる』。本日 5 本の内部要素: #strix=Graph of Agents+LiteLLM+Caido/Playwright/Nuclei / #caveman=出力層専用 Skill+lite/full/ultra/wenyan の 4 段階+平均 65%削減 / #agency_agents=convert.sh の Markdown→MDC/.windsurfrules/SKILL.md の 8 CLI 変換 / #exercises_dataset=JSON 1 ファイル 1,324 レコード 6 言語 instructions / #career_ops=canonical AGENTS.md+batch-runner.sh の claude -p/opencode run 並列 worker",
+      "言語タグは Python 1 + JavaScript 2 + Shell 1 + HTML 1。JavaScript が 2 本入る珍しい構成 (Python 1.2x が今日 1 本のみ、JS 0.9x が 2 本、Shell 1.0x/HTML 1.0x が各 1 本)",
+      "tech-deep 角度の独自 hashtag: #tech_deep #柱1 #柱① #実装解剖 #アーキテクチャ #内部構造 #ソースコード #READMEの先 #CTO #ソロCTO #技術選定 #エンジニア #実装力"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 283 文字 (58+57+56+59+53)、TTS で約 42-45 秒、opening/ending と合わせて 55 秒以内",
-      "business-angle 角度の一貫性: 5 本すべての narration を『〇〇のOSSです。〇〇を月○円/年○万円/1人月分削れます』の 2 文構成で 5/5 統一。1 文目で『何の OSS か』を即明示、2 文目で『具体的なコスト圧縮ストーリー』を固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では具体額の数値 (1,324 種類 / 数十万円 / 1 人月 / 年 1 万円以上 / 月数万円) を 5/5 で必ず入れ、曖昧表現を避ける",
-      "数値表現はアラビア数字統一 (1,324 種類, 232 体, 16 部門, 231 以上, 15 から 95%, 1 万円, 数十万円, 月数万円)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率は高め (前日 06-30 からの継続は agency-agents と FluidVoice の 2 本、残り 3 本は新規)。継続 2 本の narration は 06-30 の trend-pattern マクロ語彙 (脱クラウド再加熱 / 端末完結 / Q2 潮流) を一旦封印し、business-angle のコスト圧縮語彙 (1 人月 / 年 1 万円以上 / 月額代替) に完全切替で 2 連投ペナルティを回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 272 文字 (51+51+60+54+56)、TTS で約 39-42 秒、opening/ending と合わせて 55 秒以内",
+      "tech-deep 角度の一貫性: 5 本すべての narration を『(技術メカニズム 1 文)。(具体的な数値/構成 1 文)』の 2 文構成で 5/5 統一。1 文目で『技術的にどう動くか』を即明示、2 文目で『動作特性の定量』(GPT/Claude 切替・平均 65% 削減・14 ツール変換・6 言語 1,324 種・10 件以上並列) を固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『内部モジュール/スクリプト/数値』を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (1,324 種, 65%, 14 ツール, 6 言語, 10 件, 232 体)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 前日 07-02 からの継続は strix / agency-agents / exercises-dataset の 3 本、caveman と career-ops は新規流入。継続 3 本の narration は 07-02 の ecosystem 語彙 (エコシステム位置づけ / 周辺 OSS ハブ) を封印し、tech-deep の実装内部語彙 (Graph of Agents / convert.sh / JSON 1 ファイル) に完全切替で 3 連投による角度疲労を回避"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (柱② 月初強制発火枠)。累積 #2 (n=8 avg 5)、直近 4 日空きで疲労リスク無、5/5 が有償サービスに 1 対 1 対応する素材純度日",
-      "本日 07-01 TOP5: #1 hasaneyldrm/exercises-dataset=HTML / 6,455★ / +1,413 [新規・1,324 種類運動データ ExerciseDB v1 派生]、#2 usestrix/strix=Python / 28,068★ / +395 [新規・自律 AI ペネトレ OWASP Top 10 PoC]、#3 msitarzewski/agency-agents=Shell / 120,760★ / +1,793 [2 日連続・232 体エージェント、月初に 1,972→1,793 でやや減速も TOP3 維持]、#4 altic-dev/FluidVoice=Swift / 4,884★ / +586 [2 日連続・完全ローカル音声入力]、#5 diegosouzapw/OmniRoute=TypeScript / 8,427★ / +459 [新規・231 AI 提供元中継 proxy MIT]",
-      "本日のコスト圧縮核: 『2026 Q3 初日、各 OSS が何の有償サービスを何円分置き換えるか』。冒頭フックは『今月から経費を削れる OSS だけ揃いました。今日の TOP5 で何が何円分置き換わるかを 50 秒で整理します』",
-      "Primary (CTO/技術選定) には『来月の予算で何を内製化できるか』として、Secondary (PdM) には『社内 SaaS リプレース提案の弾』として、Tertiary (学習中) には『有償サービスのオープンソース置換マップ』として 3 層直撃",
-      "月初強制リマインダ案: 毎月 1 日は business-angle を強制発火する季節ルール。月をまたぐ予算検討タイミングに合わせ Primary 層への露出最大化を狙う。本日 07-01 が初回テストケース、結果次第で 08-01 / 09-01 に再投入",
-      "comparison 連投上限ルール (前回提案): 14d 内同一 method は上限 3 件、直近 7 日内 2 件まで。06-29 で comparison 4 連投の views=0 が観測されたため、次週ルーチンから機械的に発動する案を docs/strategy.md に追記候補"
+      "本日の discovery.method は `tech-deep` (前日 PDCA の明示推薦を採用)。累積 avg 3.0 (n=4) は上位ではないが試行回数不足、14d 内ゼロ件で 19 日空き、金曜 (Fri=310 avg) の露出で本格テスト",
+      "本日 07-03 TOP5: #1 usestrix/strix=Python / 32,032★ / +2,167 [2 日連続・Graph of Agents で LLM 並列オーケストレーション、Caido・Playwright・Nuclei で実動 PoC 生成]、#2 JuliusBrussee/caveman=JavaScript / 80,760★ / +866 [新規・Claude Code Skill、出力層のみ圧縮で平均 65%・最大 87% トークン削減]、#3 msitarzewski/agency-agents=Shell / 125,417★ / +2,925 [2 日連続・232 体エージェント、convert.sh で 8 CLI 形式に自動変換]、#4 hasaneyldrm/exercises-dataset=HTML / 9,216★ / +942 [2 日連続・1,324 レコード JSON 1 ファイル、6 言語 instructions と ExerciseDB v1 media_id]、#5 santifer/career-ops=JavaScript / 57,752★ / +322 [新規・canonical AGENTS.md + batch-runner.sh の並列 worker、14 モード共有 Markdown 設計]",
+      "本日の tech-deep 核: 『5 本の内部メカニズムを 30 秒で辿るショーケース』。冒頭フックは『READMEだけでは辿り着けない実装の芯を、5 本の OSS で 50 秒で並べます』",
+      "Primary (CTO/技術選定) には『内部アーキテクチャの実物例』として、Secondary (PdM) には『発注時に技術評価できる用語集』として、Tertiary (学習中) には『READMEの先を読む視点の練習素材』として 3 層直撃",
+      "連投上限ルール: 14d 内 tech-deep=1 件 (本日)、07-10 まで tech-deep 再投入は回避、07-10 以降金曜再現テスト候補。ecosystem は 07-02 で 14d 内 3 件目に到達、以降 07-08 まで再投入は 7 日ローリング 2 件ルール抵触で回避"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-01",
-    "dayOfWeek": "Wed",
+    "date": "2026-07-03",
+    "dayOfWeek": "Fri",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "business_angle",
-      "柱2",
-      "柱②",
-      "コスト削減",
-      "経費削減",
-      "内製化",
-      "SaaS代替",
-      "月初",
-      "exercises_dataset",
-      "フィットネス",
-      "ExerciseDB",
-      "データセット",
+      "tech_deep",
+      "柱1",
+      "柱①",
+      "実装解剖",
+      "アーキテクチャ",
+      "内部構造",
+      "ソースコード",
+      "READMEの先",
       "strix",
       "ペネトレ",
       "脆弱性診断",
       "セキュリティ",
       "OWASP",
+      "LiteLLM",
+      "caveman",
+      "ClaudeCode",
+      "トークン削減",
+      "AIコスト",
       "agency_agents",
       "AIエージェント",
-      "ClaudeCode",
       "Cursor",
-      "FluidVoice",
-      "macOS",
-      "音声入力",
-      "Whisper",
-      "Parakeet",
-      "WisprFlow代替",
-      "OmniRoute",
-      "AIGateway",
-      "LLMコスト",
-      "OpenRouter代替",
+      "Aider",
+      "Windsurf",
+      "exercises_dataset",
+      "フィットネス",
+      "ExerciseDB",
+      "データセット",
+      "career_ops",
+      "求職",
+      "AICLI",
+      "OpenCode",
       "Python",
-      "TypeScript",
-      "Swift",
+      "JavaScript",
       "Shell",
       "HTML",
       "CTO",
-      "PdM",
+      "エンジニア",
       "技術選定",
-      "受託開発",
-      "スタートアップ"
+      "実装力"
     ],
-    "focus": "水曜 (Wed=153 avg・週次 #4)・2026 Q3 初日・月初 07-01 に `business-angle` 角度 (柱② 月初強制発火枠) を投入。累積 method TOP は ecosystem (36) だが直近 14d 内 3 連投で疲労気味、本日 5/5 が有償サービス・SaaS・人月コストに 1 対 1 対応する business-angle 素材純度日 (strix=外注ペネトレ / agency-agents=採用 1 人月 / FluidVoice=Wispr Flow 系月額 / OmniRoute=LLM API / exercises-dataset=ExerciseDB API 系)。business-angle は 06-27 以来 4 日空きで疲労リスク無、累積 #2 (n=8 avg 5) の安定枠。月をまたぐ予算検討タイミングに合わせて Primary CTO/技術選定ペルソナへの露出最大化を狙う。narration は『〇〇のOSSです。〇〇を月○円/年○万円/1人月分削れます』2 文構成で 5/5 統一、5 本合計 283 文字。PR 経由 squash merge + 着弾検証は必須実行 (42 日連続成功継続見込み)。"
+    "focus": "金曜 (Fri=310 avg・週次 #2)、Primary エンジニア/CTO 露出ウィンドウで `tech-deep` 角度 (前日 07-02 PDCA が明示推薦・累積 n=4 avg 3.0 の試行不足枠) を投入。14 日内 tech-deep=0 件・最終使用 06-14 で 19 日空き、疲労リスク無で本格テスト適期。ecosystem は 07-02 で 14d 内 3 件目に到達し打ち止め、business-angle は 07-01 直近 2 日抵触、trend-pattern は 06-30 直近 2 日抵触で除外、tech-deep は連投ルール余裕クリア。柱② 週次ノルマは 07-01 で消化済み、柱③ は今週 2 件消化済み、柱④ は今週未使用だが accumulate avg 3.1 のため tech-deep 優先。narration は『(技術メカニズム 1 文)。(具体的な数値/構成 1 文)』2 文構成で 5/5 統一、5 本合計 272 文字。内部モジュール名 (LiteLLM/Caido/Nuclei/convert.sh/batch-runner.sh) を全 5 本に最低 1 つ埋めて README 読み上げレベルを回避。PR 経由 squash merge + 着弾検証は必須実行 (43 日連続成功継続見込み)。"
   }
 }
