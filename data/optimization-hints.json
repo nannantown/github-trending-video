@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03",
+  "updatedAt": "2026-07-04",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -20,6 +20,7 @@
       { "language": "JavaScript", "multiplier": 0.9 },
       { "language": "Go", "multiplier": 0.9 },
       { "language": "C++", "multiplier": 0.8 },
+      { "language": "Java", "multiplier": 0.8 },
       { "language": "Ruby", "multiplier": 0.8 },
       { "language": "Rust", "multiplier": 0.7 }
     ],
@@ -27,80 +28,81 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 25 avg n=14 TOP1 / business-angle 4 n=11 / comparison 3 n=16 / trend-pattern 3 n=8 / tech-deep 3 n=4 (試行不足) / use-case 2 n=4 / self-experiment 1 n=6。直近 2 日 (07-02 ecosystem / 06-30 trend-pattern) 連投ルール除外+ecosystem 14d 内 3 件目で以降打ち止め+business-angle は 07-01 直近 2 日抵触。本日 07-03 (金) は前日 07-02 PDCA が『次回 07-03 は tech-deep もしくは use-case 優先』と明示推薦した tech-deep を採用。tech-deep は 14 日内ゼロ件、最終使用 06-14 で 19 日空き、Fri=310 avg (週次 #2) の露出を使って n=4 の試行不足枠を本格テスト。5/5 とも内部メカニズムが明確な素材構成 (strix=Graph of Agents+LiteLLM / caveman=出力層専用 Skill+平均 65%削減 / agency-agents=convert.sh の 8 CLI 変換 / exercises-dataset=JSON 1 ファイル 6 言語 / career-ops=AGENTS.md+batch-runner.sh 並列 worker) で素材純度は最大クラス。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 25.5 avg n=14 TOP1 / business-angle 3.7 n=11 / comparison 3.2 n=16 (最大サンプル) / trend-pattern 3.1 n=8 / tech-deep 2.4 n=5 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-03 tech-deep / 07-02 ecosystem) 連投ルール除外+ecosystem 14d 内 3 件目で以降打ち止め。本日 07-04 (土) は comparison を採用: 06-29 最終使用で 5 日空き、n=16 で信号品質最上、Sat=79 avg の週内最弱曜での低リスク exploit 枠として最適。5/5 とも比較対象が README 直読でも一発で立つ稀な素材構成 (strix=SAST/DAST/Burp / codex-plugin-cc=Codex vs Claude を 1 CLI 併用 / caveman=Claude Code default vs skill 挿入 A/B / elasticsearch=Pinecone/Weaviate/OpenSearch / actions/checkout=素の git clone/自前スクリプト)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は金曜 (Fri=310 avg・週次 #2) の Primary エンジニア/CTO 露出ウィンドウ。tech-deep 角度は『READMEだけ読んでも辿り着けない実装の芯』を提供する語彙 (内部モジュール名・アーキテクチャ用語・数値ベンチ) が刺さる時期適合度が高い"
+      "本日は土曜 (Sat=79 avg・週内 4 番目) の弱曜露出ウィンドウ。comparison 角度は『何を何に置き換えるか』の意思決定材料を提示する語彙 (競合プロダクト名・数値ベンチ・置換対象) が刺さる時期適合度が中〜高"
     ],
     "hashtags": [
-      "tech-deep 角度の核心は『5 リポの内部メカニズム/主要スクリプト/数値ベンチを 1 対 1 で並べる』。本日 5 本の内部要素: #strix=Graph of Agents+LiteLLM+Caido/Playwright/Nuclei / #caveman=出力層専用 Skill+lite/full/ultra/wenyan の 4 段階+平均 65%削減 / #agency_agents=convert.sh の Markdown→MDC/.windsurfrules/SKILL.md の 8 CLI 変換 / #exercises_dataset=JSON 1 ファイル 1,324 レコード 6 言語 instructions / #career_ops=canonical AGENTS.md+batch-runner.sh の claude -p/opencode run 並列 worker",
-      "言語タグは Python 1 + JavaScript 2 + Shell 1 + HTML 1。JavaScript が 2 本入る珍しい構成 (Python 1.2x が今日 1 本のみ、JS 0.9x が 2 本、Shell 1.0x/HTML 1.0x が各 1 本)",
-      "tech-deep 角度の独自 hashtag: #tech_deep #柱1 #柱① #実装解剖 #アーキテクチャ #内部構造 #ソースコード #READMEの先 #CTO #ソロCTO #技術選定 #エンジニア #実装力"
+      "comparison 角度の核心は『5 リポの比較対象/置換対象/A-B 選択軸を 1 対 1 で並べる』。本日 5 本の比較軸: #strix=SAST/DAST/Burp/Metasploit を置換する自律 pentest / #codex_plugin_cc=Codex と Claude の二社 AI CLI を 1 セッションで併用 / #caveman=Claude Code default vs skill 挿入の平均 65%/最大 87% トークン圧縮 A/B / #elasticsearch=Pinecone/Weaviate/OpenSearch/Meilisearch の RAG 時代選定 / #actions_checkout=素の git clone/自前認証スクリプトの置換基盤 v7 pwn request 対応",
+      "言語タグは Python 1 + JavaScript 2 + Java 1 + TypeScript 1。JavaScript が 2 本、Java が久々に 1 本 (Java 0.8x の低倍率だが elasticsearch は素材強度で相殺可)、TypeScript 1.1x が 1 本、Python 1.2x が 1 本",
+      "comparison 角度の独自 hashtag: #comparison #比較 #柱1 #柱① #技術選定 #意思決定 #置換 #代替 #A_B #CTO #ソロCTO #発注者向け #受託 #スタートアップ #エンジニア"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 272 文字 (51+51+60+54+56)、TTS で約 39-42 秒、opening/ending と合わせて 55 秒以内",
-      "tech-deep 角度の一貫性: 5 本すべての narration を『(技術メカニズム 1 文)。(具体的な数値/構成 1 文)』の 2 文構成で 5/5 統一。1 文目で『技術的にどう動くか』を即明示、2 文目で『動作特性の定量』(GPT/Claude 切替・平均 65% 削減・14 ツール変換・6 言語 1,324 種・10 件以上並列) を固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『内部モジュール/スクリプト/数値』を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (1,324 種, 65%, 14 ツール, 6 言語, 10 件, 232 体)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 前日 07-02 からの継続は strix / agency-agents / exercises-dataset の 3 本、caveman と career-ops は新規流入。継続 3 本の narration は 07-02 の ecosystem 語彙 (エコシステム位置づけ / 周辺 OSS ハブ) を封印し、tech-deep の実装内部語彙 (Graph of Agents / convert.sh / JSON 1 ファイル) に完全切替で 3 連投による角度疲労を回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 271 文字 (54+55+54+51+57)、TTS で約 40-42 秒、opening/ending と合わせて 55 秒以内",
+      "comparison 角度の一貫性: 5 本すべての narration を『(比較対象を 1 文で提示)。(独自価値を数値/機能で 1 文)』の 2 文構成で 5/5 統一。1 文目で『何と比較して選ぶか』を明示、2 文目で『独自の数値/機能』(実動 PoC 生成・二社併用・平均 65% 削減・Pinecone 選択肢化・v7 pwn 遮断) を固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『比較対象の固有名詞』(SASTBurpMetasploit / Codex / Pinecone / git clone) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (65%, 87%, v7)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 前日 07-03 からの継続は strix / caveman の 2 本、codex-plugin-cc / elasticsearch / actions/checkout の 3 本が新規流入。継続 2 本の narration は 07-03 の tech-deep 語彙 (内部メカニズム / Graph of Agents / 4 段階圧縮) を封印し、comparison の対比語彙 (SAST/DAST/Burp を置換・default vs skill A/B) に完全切替で 2 連投による角度疲労を回避"
     ],
     "content": [
-      "本日の discovery.method は `tech-deep` (前日 PDCA の明示推薦を採用)。累積 avg 3.0 (n=4) は上位ではないが試行回数不足、14d 内ゼロ件で 19 日空き、金曜 (Fri=310 avg) の露出で本格テスト",
-      "本日 07-03 TOP5: #1 usestrix/strix=Python / 32,032★ / +2,167 [2 日連続・Graph of Agents で LLM 並列オーケストレーション、Caido・Playwright・Nuclei で実動 PoC 生成]、#2 JuliusBrussee/caveman=JavaScript / 80,760★ / +866 [新規・Claude Code Skill、出力層のみ圧縮で平均 65%・最大 87% トークン削減]、#3 msitarzewski/agency-agents=Shell / 125,417★ / +2,925 [2 日連続・232 体エージェント、convert.sh で 8 CLI 形式に自動変換]、#4 hasaneyldrm/exercises-dataset=HTML / 9,216★ / +942 [2 日連続・1,324 レコード JSON 1 ファイル、6 言語 instructions と ExerciseDB v1 media_id]、#5 santifer/career-ops=JavaScript / 57,752★ / +322 [新規・canonical AGENTS.md + batch-runner.sh の並列 worker、14 モード共有 Markdown 設計]",
-      "本日の tech-deep 核: 『5 本の内部メカニズムを 30 秒で辿るショーケース』。冒頭フックは『READMEだけでは辿り着けない実装の芯を、5 本の OSS で 50 秒で並べます』",
-      "Primary (CTO/技術選定) には『内部アーキテクチャの実物例』として、Secondary (PdM) には『発注時に技術評価できる用語集』として、Tertiary (学習中) には『READMEの先を読む視点の練習素材』として 3 層直撃",
-      "連投上限ルール: 14d 内 tech-deep=1 件 (本日)、07-10 まで tech-deep 再投入は回避、07-10 以降金曜再現テスト候補。ecosystem は 07-02 で 14d 内 3 件目に到達、以降 07-08 まで再投入は 7 日ローリング 2 件ルール抵触で回避"
+      "本日の discovery.method は `comparison` (n=16 の最大サンプル + 5 日空き + 土曜 exploit 枠)。累積 avg 3.2、業界標準 vs OSS、レガシー vs 新興、A vs B の判断軸提供に最適",
+      "本日 07-04 TOP5: #1 usestrix/strix=Python / 34,509★ / +2,804 [2 日連続・SAST/DAST/Burp/Metasploit を置換する自律 pentest、GPT-5.4/Claude Sonnet 4.6/Gemini 3 Pro 切替+Caido/Playwright/Nuclei で実動 PoC]、#2 openai/codex-plugin-cc=JavaScript / 23,166★ / +629 [新規・Claude Code 内から Codex CLI 呼出、/codex:review・/codex:rescue で二社 AI CLI を 1 セッション併用]、#3 JuliusBrussee/caveman=JavaScript / 82,867★ / +2,851 [2 日連続・Claude Code default vs skill 挿入 A/B、lite/full/ultra/wenyan の 4 段階で平均 65%・最大 87% トークン削減]、#4 elastic/elasticsearch=Java / 77,326★ / +77 [新規・全文検索+分析+密ベクター統合、Pinecone/Weaviate/OpenSearch/Meilisearch と対比した RAG 時代の選定起点]、#5 actions/checkout=TypeScript / 8,257★ / +129 [新規・素の git clone/自前認証スクリプトの置換基盤、v7 でフォーク PR pwn request を既定遮断]",
+      "本日の comparison 核: 『5 本の置換対象を 30 秒で辿るショーケース』。冒頭フックは『どのOSSも既存の何かを置き換えるために作られています。今日の 5 本は比較対象がREADMEに明示済みの稀な組合せです』",
+      "Primary (CTO/技術選定) には『発注/選定時の 1 対 1 対比表』として、Secondary (PdM) には『なぜ既存を置換するか』のビジネス言語として、Tertiary (学習中) には『既存プロダクトを知る導線』として 3 層直撃",
+      "連投上限ルール: 14d 内 comparison=3 件 (含本日)、7d/14d 共に本日で連投上限に達したので 07-05〜07-11 は comparison 再投入を回避、07-11 以降解禁。ecosystem は 07-02 で 14d 内 3 件目に到達、以降 07-08 まで再投入は 7 日ローリング 2 件ルール抵触で回避"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-03",
-    "dayOfWeek": "Fri",
+    "date": "2026-07-04",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "tech_deep",
+      "comparison",
+      "比較",
       "柱1",
       "柱①",
-      "実装解剖",
-      "アーキテクチャ",
-      "内部構造",
-      "ソースコード",
-      "READMEの先",
+      "技術選定",
+      "意思決定",
+      "置換",
+      "代替",
       "strix",
       "ペネトレ",
       "脆弱性診断",
+      "SAST",
+      "DAST",
+      "Burp",
       "セキュリティ",
-      "OWASP",
-      "LiteLLM",
-      "caveman",
+      "codex",
       "ClaudeCode",
+      "Codex",
+      "OpenAI",
+      "AICLI",
+      "caveman",
       "トークン削減",
       "AIコスト",
-      "agency_agents",
-      "AIエージェント",
-      "Cursor",
-      "Aider",
-      "Windsurf",
-      "exercises_dataset",
-      "フィットネス",
-      "ExerciseDB",
-      "データセット",
-      "career_ops",
-      "求職",
-      "AICLI",
-      "OpenCode",
+      "elasticsearch",
+      "検索",
+      "RAG",
+      "Pinecone",
+      "Weaviate",
+      "ベクター検索",
+      "actions_checkout",
+      "GitHubActions",
+      "CI",
+      "CD",
       "Python",
       "JavaScript",
-      "Shell",
-      "HTML",
+      "Java",
+      "TypeScript",
       "CTO",
       "エンジニア",
-      "技術選定",
-      "実装力"
+      "発注者向け"
     ],
-    "focus": "金曜 (Fri=310 avg・週次 #2)、Primary エンジニア/CTO 露出ウィンドウで `tech-deep` 角度 (前日 07-02 PDCA が明示推薦・累積 n=4 avg 3.0 の試行不足枠) を投入。14 日内 tech-deep=0 件・最終使用 06-14 で 19 日空き、疲労リスク無で本格テスト適期。ecosystem は 07-02 で 14d 内 3 件目に到達し打ち止め、business-angle は 07-01 直近 2 日抵触、trend-pattern は 06-30 直近 2 日抵触で除外、tech-deep は連投ルール余裕クリア。柱② 週次ノルマは 07-01 で消化済み、柱③ は今週 2 件消化済み、柱④ は今週未使用だが accumulate avg 3.1 のため tech-deep 優先。narration は『(技術メカニズム 1 文)。(具体的な数値/構成 1 文)』2 文構成で 5/5 統一、5 本合計 272 文字。内部モジュール名 (LiteLLM/Caido/Nuclei/convert.sh/batch-runner.sh) を全 5 本に最低 1 つ埋めて README 読み上げレベルを回避。PR 経由 squash merge + 着弾検証は必須実行 (43 日連続成功継続見込み)。"
+    "focus": "土曜 (Sat=79 avg・週内 4 番目) の弱曜露出ウィンドウで `comparison` 角度 (累積 n=16 の最大サンプル・avg 3.2・06-29 から 5 日空き) を投入。ecosystem は 07-02 で 14d 内 3 件目に到達し打ち止め、tech-deep は 07-03 直近 2 日抵触、business-angle は 14d 内余力あるが今週柱② ノルマは 07-01 で消化済、comparison は連投ルール余裕クリア。5/5 とも比較対象が README 直読でも一発で立つ稀な素材構成 (strix=SAST/DAST/Burp/Metasploit / codex-plugin-cc=Codex vs Claude / caveman=default vs skill A/B / elasticsearch=Pinecone/Weaviate/OpenSearch / actions/checkout=素の git clone/自前スクリプト)。narration は『(比較対象を 1 文で提示)。(独自価値を数値/機能で 1 文)』2 文構成で 5/5 統一、5 本合計 271 文字。比較対象の固有名詞 (SASTBurpMetasploit/Codex/Pinecone/git clone) を全 5 本に埋めて README 読み上げレベルを回避。PR 経由 squash merge + 着弾検証は必須実行 (44 日連続成功継続見込み)。"
   }
 }
