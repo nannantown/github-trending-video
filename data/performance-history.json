@@ -3591,7 +3591,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3760,7 +3760,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3815,7 +3815,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3873,7 +3873,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3927,7 +3927,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -3981,7 +3981,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -4035,7 +4035,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -4092,7 +4092,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-03T23:52:26.969Z"
+        "updatedAt": "2026-07-04T23:48:37.824Z"
       }
     },
     {
@@ -4148,25 +4148,64 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-07-04T23:48:37.824Z"
+      }
+    },
+    {
+      "videoId": "waikjuAI2zk",
+      "videoUrl": "https://youtube.com/shorts/waikjuAI2zk",
+      "date": "2026-07-05",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/05 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "openai/codex-plugin-cc",
+        "JuliusBrussee/caveman",
+        "alibaba/page-agent",
+        "usestrix/strix",
+        "ChromeDevTools/chrome-devtools-mcp"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日 07-05 (日) は business-angle 角度で 5/5 統一。累積 avg 3.7 (n=11、全 method 内で ecosystem を除いた最高値、直近使用 07-01 で 4 日空き、14d 内 1 件のみで余力大) を、日曜低露出枠の Sunday でも Primary エンジニア/CTO 層に効かせる exploit 80% 枠。連投ルール抵触なし: 直近 2 日 (07-04 comparison / 07-03 tech-deep) と重ならず、7d ローリング 1 件 (07-01)・14d ローリング 1 件どちらも余裕クリア。除外候補: comparison (07-04 直近抵触かつ 14d 3 件 cap 到達)、tech-deep (07-03 直近抵触)、ecosystem (07-02 で 14d 3 件 cap 到達)。他の候補 self-experiment (avg 1.0)・use-case (avg 1.5)・trend-pattern (avg 3.1) より business-angle avg 3.7 が最強シグナル。今日の TOP5 は素材構成が完璧に business-angle 型 (5/5 とも『何を replace してコスト/工数を削るか』の営業トークが README 直読で立つ): codex-plugin-cc=Claude と Codex の二社 AI サブスク重複課金を 1 CLI に集約 / caveman=Claude Code API 従量課金を lite/full/ultra/wenyan 4 段で平均 65% 最大 87% 削減 / page-agent=月額 500〜5000 ドル級 RPA を in-page JS で置換 / strix=1 回 10 万〜数十万円の外注 pentest を内製化 (80-95% コスト削減) / chrome-devtools-mcp=手動 QA と Selenium 保守の工数圧縮。narration は『(何を replace するか 1 文)。(独自の削減インパクト 1 文)』の 2 文型で 5/5 統一、5 本合計 269 文字 (58+55+48+50+58)、TTS で約 40-42 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な内部モジュール/CLI コマンド/価格レンジで 5/5 埋めて README 読み上げ回避 (/codex:review・/codex:rescue / lite・full・ultra・wenyan / DOM 操作 JS / GPT-5.4・Claude Sonnet 4.6・Gemini 3 Pro・Caido・Playwright・Nuclei / Puppeteer 60 超ツール)。柱② のビジネス視点を Primary/Secondary ペルソナ (CTO・PdM) に直接刺す週次ノルマ達成枠。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (46 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/openai/codex-plugin-cc",
+          "https://github.com/JuliusBrussee/caveman",
+          "https://github.com/alibaba/page-agent",
+          "https://github.com/usestrix/strix",
+          "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-05-31",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "standard: 169 avg views (49 videos)",
-        "Trending languages: Kotlin (2.4x), C++ (3.1x), Jupyter Notebook (2.3x)",
-        "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=79, Mon=70, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-02",
       "changes": [
@@ -4605,6 +4644,25 @@
         "standard: 107 avg views (78 videos)",
         "Trending languages: Kotlin (3.7x), C++ (3.0x), Jupyter Notebook (3.7x)",
         "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=53, Mon=45, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-04",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.8x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 105 avg views (79 videos)",
+        "Trending languages: Kotlin (3.8x), C++ (3.0x), Java (2.1x), Jupyter Notebook (3.7x)",
+        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
