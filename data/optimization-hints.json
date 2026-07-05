@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04",
-  "basedOnVideos": 13,
+  "updatedAt": "2026-07-06",
+  "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -28,81 +28,84 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 25.5 avg n=14 TOP1 / business-angle 3.7 n=11 / comparison 3.2 n=16 (最大サンプル) / trend-pattern 3.1 n=8 / tech-deep 2.4 n=5 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-03 tech-deep / 07-02 ecosystem) 連投ルール除外+ecosystem 14d 内 3 件目で以降打ち止め。本日 07-04 (土) は comparison を採用: 06-29 最終使用で 5 日空き、n=16 で信号品質最上、Sat=79 avg の週内最弱曜での低リスク exploit 枠として最適。5/5 とも比較対象が README 直読でも一発で立つ稀な素材構成 (strix=SAST/DAST/Burp / codex-plugin-cc=Codex vs Claude を 1 CLI 併用 / caveman=Claude Code default vs skill 挿入 A/B / elasticsearch=Pinecone/Weaviate/OpenSearch / actions/checkout=素の git clone/自前スクリプト)。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 25.6 avg n=14 TOP1 (2 位以下の 8 倍以上・4-28 の TOP 326 views 素材も ecosystem) / business-angle 3.4 n=12 / comparison 3.0 n=17 (最大サンプル) / trend-pattern 3.1 n=8 / tech-deep 3.0 n=4 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-05 business-angle / 07-04 comparison) 連投ルール除外+comparison 14d 内 3 件目で 07-11 まで打ち止め。本日 07-06 (月) は ecosystem を採用: 07-02 最終使用で 4 日空き、n=14 avg 25.6 で圧倒的最強シグナル、Mon=61 avg の週内 3 番目 (中位曜) の中リスク exploit 枠として最適。5/5 とも乗り先エコシステムが README 直読でも一発で立つ稀な素材構成 (meetily=Whisper.cpp/Ollama/Tauri on-device スタック / codex-plugin-cc=Claude Code plugin marketplace に OpenAI 公式参入 / system_prompts_leaks=11 社 100 超のプロンプト DB / taste-skill=Vercel Agent Skills / claude-skills=agentskills.io 標準 13 エディタ)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は土曜 (Sat=79 avg・週内 4 番目) の弱曜露出ウィンドウ。comparison 角度は『何を何に置き換えるか』の意思決定材料を提示する語彙 (競合プロダクト名・数値ベンチ・置換対象) が刺さる時期適合度が中〜高"
+      "本日は月曜 (Mon=61 avg・週内 3 番目) の中位曜露出ウィンドウ。ecosystem 角度は『どのエコシステムに乗り、何を横断できるか』の全体地図を提示する語彙 (共存プロダクト名・依存モジュール名・横展開先の列挙) が刺さる時期適合度が高〜最高"
     ],
     "hashtags": [
-      "comparison 角度の核心は『5 リポの比較対象/置換対象/A-B 選択軸を 1 対 1 で並べる』。本日 5 本の比較軸: #strix=SAST/DAST/Burp/Metasploit を置換する自律 pentest / #codex_plugin_cc=Codex と Claude の二社 AI CLI を 1 セッションで併用 / #caveman=Claude Code default vs skill 挿入の平均 65%/最大 87% トークン圧縮 A/B / #elasticsearch=Pinecone/Weaviate/OpenSearch/Meilisearch の RAG 時代選定 / #actions_checkout=素の git clone/自前認証スクリプトの置換基盤 v7 pwn request 対応",
-      "言語タグは Python 1 + JavaScript 2 + Java 1 + TypeScript 1。JavaScript が 2 本、Java が久々に 1 本 (Java 0.8x の低倍率だが elasticsearch は素材強度で相殺可)、TypeScript 1.1x が 1 本、Python 1.2x が 1 本",
-      "comparison 角度の独自 hashtag: #comparison #比較 #柱1 #柱① #技術選定 #意思決定 #置換 #代替 #A_B #CTO #ソロCTO #発注者向け #受託 #スタートアップ #エンジニア"
+      "ecosystem 角度の核心は『5 リポの乗り先エコシステム/共存プロダクト/横展開先を 1 対 1 で並べる』。本日 5 本の乗り先: #meetily=Whisper.cpp+Ollama+Screenpipe+Tauri の on-device LLM スタックに乗る自前会議AI / #codex_plugin_cc=Claude Code plugin marketplace に OpenAI Codex CLI が公式参入 / #system_prompts_leaks=11 社 100 超のプロンプト DB (プロンプト工学参照実装) / #taste_skill=Vercel Agent Skills framework に乗る SKILL.md で Codex/Cursor/Claude Code 横断 / #claude_skills=agentskills.io 標準準拠で 13 エディタ 1 コマンド展開",
+      "言語タグは Rust 1 + JavaScript 3 + Python 1。JavaScript 3 本 (0.9x)、Python 1 本 (1.2x)、Rust 1 本 (0.7x)。JavaScript 集中は倍率的にやや不利だが meetily の Rust は素材強度で相殺可、Python 1 本の 1.2x で言語ミックスを底上げ",
+      "ecosystem 角度の独自 hashtag: #ecosystem #エコシステム #柱1 #柱① #技術選定 #意思決定 #onDevice #ローカルLLM #ClaudeCode #Codex #plugin #skill #Vercel #Whisper #Ollama #CTO #ソロCTO #エンジニア"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 271 文字 (54+55+54+51+57)、TTS で約 40-42 秒、opening/ending と合わせて 55 秒以内",
-      "comparison 角度の一貫性: 5 本すべての narration を『(比較対象を 1 文で提示)。(独自価値を数値/機能で 1 文)』の 2 文構成で 5/5 統一。1 文目で『何と比較して選ぶか』を明示、2 文目で『独自の数値/機能』(実動 PoC 生成・二社併用・平均 65% 削減・Pinecone 選択肢化・v7 pwn 遮断) を固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『比較対象の固有名詞』(SASTBurpMetasploit / Codex / Pinecone / git clone) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (65%, 87%, v7)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 前日 07-03 からの継続は strix / caveman の 2 本、codex-plugin-cc / elasticsearch / actions/checkout の 3 本が新規流入。継続 2 本の narration は 07-03 の tech-deep 語彙 (内部メカニズム / Graph of Agents / 4 段階圧縮) を封印し、comparison の対比語彙 (SAST/DAST/Burp を置換・default vs skill A/B) に完全切替で 2 連投による角度疲労を回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 286 文字 (54+59+57+58+58)、TTS で約 42-45 秒、opening/ending と合わせて 55 秒以内",
+      "ecosystem 角度の一貫性: 5 本すべての narration を『(どのエコシステムに乗るか 1 文で提示)。(独自の利点を数値/機能で 1 文)』の 2 文構成で 5/5 統一。1 文目で『どの周辺エコに乗るか』を明示、2 文目で『独自の横断範囲/横展開先』(Otter 置換・Claude と Codex 併走・横断比較・Codex と Claude Code 併用・13 エディタに展開) を固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『乗り先エコシステム/共存プロダクトの固有名詞』(Whisper.cpp+Ollama / Claude Code+Codex / system prompt / Vercel Agent Skills / agentskills.io) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (100 種、354 skill、13 エディタ、1 コマンド)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 前日 07-05 からの継続は codex-plugin-cc の 1 本のみ、他 4 本 (meetily / system_prompts_leaks / taste-skill / claude-skills) が新規流入。継続 1 本の narration は 07-05 の business-angle 語彙 (2 社の AI サブスク重複を集約) を封印し、ecosystem の位置づけ語彙 (Claude Code 拡張に OpenAI 公式参入) に完全切替で 2 連投による角度疲労を回避"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (n=16 の最大サンプル + 5 日空き + 土曜 exploit 枠)。累積 avg 3.2、業界標準 vs OSS、レガシー vs 新興、A vs B の判断軸提供に最適",
-      "本日 07-04 TOP5: #1 usestrix/strix=Python / 34,509★ / +2,804 [2 日連続・SAST/DAST/Burp/Metasploit を置換する自律 pentest、GPT-5.4/Claude Sonnet 4.6/Gemini 3 Pro 切替+Caido/Playwright/Nuclei で実動 PoC]、#2 openai/codex-plugin-cc=JavaScript / 23,166★ / +629 [新規・Claude Code 内から Codex CLI 呼出、/codex:review・/codex:rescue で二社 AI CLI を 1 セッション併用]、#3 JuliusBrussee/caveman=JavaScript / 82,867★ / +2,851 [2 日連続・Claude Code default vs skill 挿入 A/B、lite/full/ultra/wenyan の 4 段階で平均 65%・最大 87% トークン削減]、#4 elastic/elasticsearch=Java / 77,326★ / +77 [新規・全文検索+分析+密ベクター統合、Pinecone/Weaviate/OpenSearch/Meilisearch と対比した RAG 時代の選定起点]、#5 actions/checkout=TypeScript / 8,257★ / +129 [新規・素の git clone/自前認証スクリプトの置換基盤、v7 でフォーク PR pwn request を既定遮断]",
-      "本日の comparison 核: 『5 本の置換対象を 30 秒で辿るショーケース』。冒頭フックは『どのOSSも既存の何かを置き換えるために作られています。今日の 5 本は比較対象がREADMEに明示済みの稀な組合せです』",
-      "Primary (CTO/技術選定) には『発注/選定時の 1 対 1 対比表』として、Secondary (PdM) には『なぜ既存を置換するか』のビジネス言語として、Tertiary (学習中) には『既存プロダクトを知る導線』として 3 層直撃",
-      "連投上限ルール: 14d 内 comparison=3 件 (含本日)、7d/14d 共に本日で連投上限に達したので 07-05〜07-11 は comparison 再投入を回避、07-11 以降解禁。ecosystem は 07-02 で 14d 内 3 件目に到達、以降 07-08 まで再投入は 7 日ローリング 2 件ルール抵触で回避"
+      "本日の discovery.method は `ecosystem` (n=14 の avg 25.6 で他 method の 8 倍以上の圧倒的最強シグナル、4 日空き、14d 内 2 件で 3 件 cap まで残り 1 枠)。累積 avg 25.6、周辺ツール・エコシステム全体の位置づけ提示に最適",
+      "本日 07-06 TOP5: #1 Zackriya-Solutions/meetily=Rust / 16,808★ / +1,409 [新規・Whisper.cpp+Ollama+Screenpipe+Tauri の on-device LLM スタックに乗る自前会議AI、GPU 加速 (CUDA/Vulkan/Metal) 対応で Otter/Fireflies クラウド SaaS を置換]、#2 openai/codex-plugin-cc=JavaScript / 25,402★ / +1,519 [2 日連続・Claude Code plugin marketplace に OpenAI Codex CLI が公式参入、/codex:review・/codex:rescue・/codex:transfer の 6 コマンドで 2 社 CLI 併走]、#3 asgeirtj/system_prompts_leaks=JavaScript / 49,865★ / +981 [新規・Anthropic/OpenAI/Google/xAI/Microsoft 11 社 100 超の system prompt を 1 リポに集約した CC0 カタログ、プロンプト工学の参照実装]、#4 Leonxlnx/taste-skill=JavaScript / 57,387★ / +850 [新規・Vercel Agent Skills framework に乗る SKILL.md 集で Codex/Cursor/Claude Code 3 者横断、GSAP パターン・em-dash 禁止など UI 品位ルール]、#5 alirezarezvani/claude-skills=Python / 20,510★ / +394 [新規・agentskills.io 標準に準拠した 354 skill を 18 ドメイン組織化、Claude Code/Cursor/Codex/Aider/Windsurf など 13 エディタに 1 コマンド横展開]",
+      "本日の ecosystem 核: 『5 本の乗り先エコを 30 秒で辿るエコシステム地図ショーケース』。冒頭フックは『どの OSS も既存エコに乗って上手く回すために作られています。今日の 5 本は乗り先が README に明示済みの稀な組合せです』",
+      "Primary (CTO/技術選定) には『AI エコシステム全体地図』として、Secondary (PdM) には『どのプラットフォームに賭けるか』のビジネス言語として、Tertiary (学習中) には『既存エコを知る導線』として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=3 件 (含本日)、7d/14d 共に本日で連投上限に達したので 07-07〜07-15 は ecosystem 再投入を回避、07-16 以降解禁 (07-02 の脱落タイミング)。comparison は 07-04 で 14d 内 3 件目に到達し 07-11 まで再投入不可、business-angle は 14d 内 2 件で残り 1 枠 (今週 07-08〜07-10 のどこかで柱② 差し込み候補)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-04",
-    "dayOfWeek": "Sat",
+    "date": "2026-07-06",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "comparison",
-      "比較",
+      "ecosystem",
+      "エコシステム",
       "柱1",
       "柱①",
       "技術選定",
       "意思決定",
-      "置換",
-      "代替",
-      "strix",
-      "ペネトレ",
-      "脆弱性診断",
-      "SAST",
-      "DAST",
-      "Burp",
-      "セキュリティ",
+      "onDevice",
+      "ローカルLLM",
+      "meetily",
+      "会議AI",
+      "Whisper",
+      "Ollama",
+      "Tauri",
       "codex",
       "ClaudeCode",
       "Codex",
       "OpenAI",
+      "plugin",
       "AICLI",
-      "caveman",
-      "トークン削減",
-      "AIコスト",
-      "elasticsearch",
-      "検索",
-      "RAG",
-      "Pinecone",
-      "Weaviate",
-      "ベクター検索",
-      "actions_checkout",
-      "GitHubActions",
-      "CI",
-      "CD",
-      "Python",
+      "systemprompt",
+      "プロンプト",
+      "プロンプト工学",
+      "Anthropic",
+      "Google",
+      "xAI",
+      "Microsoft",
+      "taste_skill",
+      "AgentSkills",
+      "Vercel",
+      "SKILL_md",
+      "UI品位",
+      "claude_skills",
+      "agentskills_io",
+      "skill",
+      "Cursor",
+      "Aider",
+      "Windsurf",
+      "Rust",
       "JavaScript",
-      "Java",
-      "TypeScript",
+      "Python",
       "CTO",
       "エンジニア",
       "発注者向け"
     ],
-    "focus": "土曜 (Sat=79 avg・週内 4 番目) の弱曜露出ウィンドウで `comparison` 角度 (累積 n=16 の最大サンプル・avg 3.2・06-29 から 5 日空き) を投入。ecosystem は 07-02 で 14d 内 3 件目に到達し打ち止め、tech-deep は 07-03 直近 2 日抵触、business-angle は 14d 内余力あるが今週柱② ノルマは 07-01 で消化済、comparison は連投ルール余裕クリア。5/5 とも比較対象が README 直読でも一発で立つ稀な素材構成 (strix=SAST/DAST/Burp/Metasploit / codex-plugin-cc=Codex vs Claude / caveman=default vs skill A/B / elasticsearch=Pinecone/Weaviate/OpenSearch / actions/checkout=素の git clone/自前スクリプト)。narration は『(比較対象を 1 文で提示)。(独自価値を数値/機能で 1 文)』2 文構成で 5/5 統一、5 本合計 271 文字。比較対象の固有名詞 (SASTBurpMetasploit/Codex/Pinecone/git clone) を全 5 本に埋めて README 読み上げレベルを回避。PR 経由 squash merge + 着弾検証は必須実行 (44 日連続成功継続見込み)。"
+    "focus": "月曜 (Mon=61 avg・週内 3 番目) の中位曜露出ウィンドウで `ecosystem` 角度 (累積 n=14 の avg 25.6 で他 method の 8 倍以上の圧倒的最強シグナル・07-02 から 4 日空き・14d 内 3 件 cap まで残り 1 枠) を投入。business-angle は 07-05 直近 2 日抵触、comparison は 07-04 直近 2 日抵触かつ 14d 3 件 cap 到達、tech-deep は 07-03 使用で候補外ではないが avg 3.0 で ecosystem 25.6 に劣り exploit 優先で ecosystem 選択。5/5 とも乗り先エコシステムが README 直読でも一発で立つ稀な素材構成 (meetily=Whisper.cpp+Ollama+Tauri on-device / codex-plugin-cc=Claude Code plugin marketplace に OpenAI 公式参入 / system_prompts_leaks=11 社 100 超のプロンプト DB / taste-skill=Vercel Agent Skills / claude-skills=agentskills.io 標準 13 エディタ)。narration は『(乗り先エコを 1 文で提示)。(独自の利点を数値/機能で 1 文)』2 文構成で 5/5 統一、5 本合計 286 文字。乗り先エコの固有名詞 (Whisper.cpp+Ollama/Claude Code+Codex/11 社/Vercel Agent Skills/agentskills.io) を全 5 本に埋めて README 読み上げレベルを回避。PR 経由 squash merge + 着弾検証は必須実行 (47 日連続成功継続見込み)。"
   }
 }
