@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 07-05 (日) は business-angle 角度で 5/5 統一。累積 avg 3.7 (n=11、全 method 内で ecosystem を除いた最高値、直近使用 07-01 で 4 日空き、14d 内 1 件のみで余力大) を、日曜低露出枠の Sunday でも Primary エンジニア/CTO 層に効かせる exploit 80% 枠。連投ルール抵触なし: 直近 2 日 (07-04 comparison / 07-03 tech-deep) と重ならず、7d ローリング 1 件 (07-01)・14d ローリング 1 件どちらも余裕クリア。除外候補: comparison (07-04 直近抵触かつ 14d 3 件 cap 到達)、tech-deep (07-03 直近抵触)、ecosystem (07-02 で 14d 3 件 cap 到達)。他の候補 self-experiment (avg 1.0)・use-case (avg 1.5)・trend-pattern (avg 3.1) より business-angle avg 3.7 が最強シグナル。今日の TOP5 は素材構成が完璧に business-angle 型 (5/5 とも『何を replace してコスト/工数を削るか』の営業トークが README 直読で立つ): codex-plugin-cc=Claude と Codex の二社 AI サブスク重複課金を 1 CLI に集約 / caveman=Claude Code API 従量課金を lite/full/ultra/wenyan 4 段で平均 65% 最大 87% 削減 / page-agent=月額 500〜5000 ドル級 RPA を in-page JS で置換 / strix=1 回 10 万〜数十万円の外注 pentest を内製化 (80-95% コスト削減) / chrome-devtools-mcp=手動 QA と Selenium 保守の工数圧縮。narration は『(何を replace するか 1 文)。(独自の削減インパクト 1 文)』の 2 文型で 5/5 統一、5 本合計 269 文字 (58+55+48+50+58)、TTS で約 40-42 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な内部モジュール/CLI コマンド/価格レンジで 5/5 埋めて README 読み上げ回避 (/codex:review・/codex:rescue / lite・full・ultra・wenyan / DOM 操作 JS / GPT-5.4・Claude Sonnet 4.6・Gemini 3 Pro・Caido・Playwright・Nuclei / Puppeteer 60 超ツール)。柱② のビジネス視点を Primary/Secondary ペルソナ (CTO・PdM) に直接刺す週次ノルマ達成枠。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (46 日連続成功継続見込み)。",
+    "method": "ecosystem",
+    "description": "本日 07-06 (月) は ecosystem 角度で 5/5 統一。全 method 累積 avg 25.6 (n=14) で明確に TOP method、直近使用 07-02 で 4 日空き、14d ローリング 2 件と 3 件 cap まで余力 1 枠あり。連投ルール抵触なし: 直近 2 日 (07-05 business-angle / 07-04 comparison) と重ならず。除外候補: business-angle (07-05 直近抵触かつ 14d 内 2 件、余力あるが exploit 優先で ecosystem を選択)、comparison (07-04 直近抵触かつ 14d 3 件 cap 到達)、tech-deep (07-03 使用、直近 2 日ルール外だが avg 3.0 で ecosystem 25.6 に劣る)。今日の TOP5 は素材構成が偶然にも ecosystem 型として揃った稀な並び: 5/5 とも『どのエコシステムの周辺ツールに乗るか』の位置づけが README 直読で立つ。meetily=Whisper.cpp/Ollama/Screenpipe/Tauri の on-device LLM スタックに乗る自前会議AI (Otter/Fireflies クラウド SaaS を丸ごと置換) / codex-plugin-cc=Claude Code plugin marketplace 側に OpenAI Codex CLI が公式参入 (Anthropic 側エコに OpenAI 自身が乗る歴史的シグナル) / system_prompts_leaks=100超の system prompt を横断カタログ化しプロンプトエンジニアリング研究エコの参照実装として機能 / taste-skill=Vercel Agent Skills framework に乗る SKILL.md 集で Codex/Cursor/Claude Code の 3 者横断 UI 品位ルール / claude-skills=agentskills.io 標準に準拠した 354 skill が Claude Code/Cursor/Codex など 13 種の AI エディタに 1 コマンドで展開可能。narration は『(どのエコシステムに乗るか 1 文)。(独自の利点 1 文)』の 2 文型で 5/5 統一、5 本合計 286 文字 (54+59+57+58+58)、TTS で約 42-45 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/共存プロダクト名で 5/5 埋めて README 読み上げ回避 (Whisper.cpp・Ollama・Tauri・GPU 加速 / /codex:review・/codex:rescue・plugin marketplace / Anthropic・OpenAI・Google・xAI・Microsoft 11 社・CC0 / SKILL.md・GSAP・em-dash 禁止 / Engineering・Marketing・C-Level・18 ドメイン・354 skill・13 エディタ)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『今のエコシステム地図』を提示する exploit 枠。周辺ツール・エコシステム全体の位置づけがカードの詳細で数値化される。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (47 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/Zackriya-Solutions/meetily",
       "https://github.com/openai/codex-plugin-cc",
-      "https://github.com/JuliusBrussee/caveman",
-      "https://github.com/alibaba/page-agent",
-      "https://github.com/usestrix/strix",
-      "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      "https://github.com/asgeirtj/system_prompts_leaks",
+      "https://github.com/Leonxlnx/taste-skill",
+      "https://github.com/alirezarezvani/claude-skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "Zackriya-Solutions/meetily",
+      "name": "meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "language": "Rust",
+      "stars": 16808,
+      "todayStars": 1409,
+      "description": "ローカルLLMで動く会議アシスタント",
+      "detail": "Whisper.cppとOllamaを束ねるTauri製の会議アシスタントです。GPU加速も対応し、OtterやFirefliesなどのクラウド型SaaSを丸ごとローカルLLMスタックへ置き換えられます。",
+      "narration": "Whisper.cppとOllamaで動く自前会議AIです。Otterなどをオンデバイスで置き換えられます。"
+    },
+    {
+      "rank": 2,
       "fullName": "openai/codex-plugin-cc",
       "name": "codex-plugin-cc",
       "url": "https://github.com/openai/codex-plugin-cc",
       "language": "JavaScript",
-      "stars": 24298,
-      "todayStars": 716,
-      "description": "二社のAI課金を1つに集約",
-      "detail": "Claude CodeからOpenAI Codex CLIを直接叩ける公式プラグインです。/codex:reviewや/codex:rescueで、二社のAIサブスクを1つのCLIに集約でき、契約管理の手間と重複課金を減らせます。",
-      "narration": "Claude CodeからCodex CLIを呼び出せる公式OSSです。二社のAI課金を1セッションに集約できます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "JuliusBrussee/caveman",
-      "name": "caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "language": "JavaScript",
-      "stars": 83896,
-      "todayStars": 1089,
-      "description": "月額APIを65%削減するskill",
-      "detail": "Claude Codeの出力層だけを圧縮するskillです。lite・full・ultra・wenyanの4段で平均65%・最大87%削減し、API従量課金を継続的に下げられます。",
-      "narration": "Claude Codeの月額APIを平均65%圧縮するskillです。回答品質を保ちつつ通信量だけを削れます。"
+      "stars": 25402,
+      "todayStars": 1519,
+      "description": "Claude CodeとCodexを繋ぐ公式拡張",
+      "detail": "Claude Code内から/codex:reviewや/codex:rescueでOpenAI Codex CLIを叩ける公式プラグインです。Claude Codeのplugin基盤にOpenAI自身が参入し、2社のAI CLIを1画面で併用できます。",
+      "narration": "Claude Code拡張にOpenAIが公式参入したOSSです。ClaudeとCodexを1コマンドで併走できます。"
     },
     {
       "rank": 3,
-      "fullName": "alibaba/page-agent",
-      "name": "page-agent",
-      "url": "https://github.com/alibaba/page-agent",
-      "language": "TypeScript",
-      "stars": 23064,
-      "todayStars": 726,
-      "description": "RPAを置き換える自然言語UI",
-      "detail": "ブラウザ内のDOMを自然言語で操作するJavaScriptライブラリです。ヘッドレスや拡張機能なしで動作し、月額500〜5000ドル級のRPA製品や自作Selenium運用の代替になります。",
-      "narration": "ブラウザUIを自然言語で操れるOSSです。月額数百ドルのRPAを1画面のJSで置き換えられます。"
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "name": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "language": "JavaScript",
+      "stars": 49865,
+      "todayStars": 981,
+      "description": "主要AIのsystem prompt保管庫",
+      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社100超のsystem promptを1リポに集約したCC0カタログです。差分も追え、プロンプト設計や競合分析の参照実装として使えます。",
+      "narration": "主要AI 100種のsystem promptを1リポに集約したカタログです。プロンプト設計の横断比較に使えます。"
     },
     {
       "rank": 4,
-      "fullName": "usestrix/strix",
-      "name": "strix",
-      "url": "https://github.com/usestrix/strix",
-      "language": "Python",
-      "stars": 35965,
-      "todayStars": 1910,
-      "description": "外注pentestを内製する自律AI",
-      "detail": "SAST/DAST/Burpを自律で走らせるAI pentestです。GPT-5.4・Claude Sonnet 4.6・Gemini 3 Pro対応で、Caido・Playwright・Nucleiを束ね、外注1回数十万円の脆弱性診断を内製化できます。",
-      "narration": "AI自律ペネトレOSSです。数十万円規模の外注pentestを内製で回せる案件用の選択肢になります。"
+      "fullName": "Leonxlnx/taste-skill",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "language": "JavaScript",
+      "stars": 57387,
+      "todayStars": 850,
+      "description": "Codex横断のUI品位skill",
+      "detail": "Vercel Agent Skillsに乗るSKILL.md集で、AI生成UIに品位を与えるルールをCodex・Cursor・Claude Codeへ共通で読ませられます。GSAPパターンやem-dash禁止など具体的な制約も入っています。",
+      "narration": "Vercel Agent Skillsに乗るUI品位ルール集です。CodexとClaude Codeで併用できます。"
     },
     {
       "rank": 5,
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "language": "TypeScript",
-      "stars": 45749,
-      "todayStars": 303,
-      "description": "手動QAを減らすDevTools MCP",
-      "detail": "Chromeの実ブラウザを60超のツール群でエージェントに開放するMCPサーバーです。Puppeteerでネットワーク・トレース・DOM検査まで自動化でき、手動QAとSelenium保守の工数を圧縮します。",
-      "narration": "AIコーディングにChrome DevToolsを繋ぐMCPです。Selenium保守や手動QAの工数を減らせます。"
+      "fullName": "alirezarezvani/claude-skills",
+      "name": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "stars": 20510,
+      "todayStars": 394,
+      "description": "13エディタ対応のskill 354本",
+      "detail": "agentskills.io標準に準拠した354 skillのライブラリです。Engineering・Marketing・C-Levelなど18ドメインをカバーし、Claude Code・Cursor・Codexなど13エディタに1コマンドで展開できます。",
+      "narration": "agentskills.io標準の354 skillライブラリです。1コマンドで13種のAIエディタに展開できます。"
     }
   ]
 }
