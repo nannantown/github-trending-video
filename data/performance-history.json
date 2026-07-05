@@ -3648,7 +3648,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3706,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3760,7 +3760,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3815,7 +3815,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3873,7 +3873,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3927,7 +3927,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -3981,7 +3981,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -4035,7 +4035,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -4092,7 +4092,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -4148,7 +4148,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-04T23:48:37.824Z"
+        "updatedAt": "2026-07-05T23:52:06.467Z"
       }
     },
     {
@@ -4201,25 +4201,63 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-07-05T23:52:06.467Z"
+      }
+    },
+    {
+      "videoId": "GY_F6v6U-z0",
+      "videoUrl": "https://youtube.com/shorts/GY_F6v6U-z0",
+      "date": "2026-07-06",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/06 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Rust",
+        "JavaScript",
+        "Python"
+      ],
+      "projects": [
+        "Zackriya-Solutions/meetily",
+        "openai/codex-plugin-cc",
+        "asgeirtj/system_prompts_leaks",
+        "Leonxlnx/taste-skill",
+        "alirezarezvani/claude-skills"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日 07-06 (月) は ecosystem 角度で 5/5 統一。全 method 累積 avg 25.6 (n=14) で明確に TOP method、直近使用 07-02 で 4 日空き、14d ローリング 2 件と 3 件 cap まで余力 1 枠あり。連投ルール抵触なし: 直近 2 日 (07-05 business-angle / 07-04 comparison) と重ならず。除外候補: business-angle (07-05 直近抵触かつ 14d 内 2 件、余力あるが exploit 優先で ecosystem を選択)、comparison (07-04 直近抵触かつ 14d 3 件 cap 到達)、tech-deep (07-03 使用、直近 2 日ルール外だが avg 3.0 で ecosystem 25.6 に劣る)。今日の TOP5 は素材構成が偶然にも ecosystem 型として揃った稀な並び: 5/5 とも『どのエコシステムの周辺ツールに乗るか』の位置づけが README 直読で立つ。meetily=Whisper.cpp/Ollama/Screenpipe/Tauri の on-device LLM スタックに乗る自前会議AI (Otter/Fireflies クラウド SaaS を丸ごと置換) / codex-plugin-cc=Claude Code plugin marketplace 側に OpenAI Codex CLI が公式参入 (Anthropic 側エコに OpenAI 自身が乗る歴史的シグナル) / system_prompts_leaks=100超の system prompt を横断カタログ化しプロンプトエンジニアリング研究エコの参照実装として機能 / taste-skill=Vercel Agent Skills framework に乗る SKILL.md 集で Codex/Cursor/Claude Code の 3 者横断 UI 品位ルール / claude-skills=agentskills.io 標準に準拠した 354 skill が Claude Code/Cursor/Codex など 13 種の AI エディタに 1 コマンドで展開可能。narration は『(どのエコシステムに乗るか 1 文)。(独自の利点 1 文)』の 2 文型で 5/5 統一、5 本合計 286 文字 (54+59+57+58+58)、TTS で約 42-45 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/共存プロダクト名で 5/5 埋めて README 読み上げ回避 (Whisper.cpp・Ollama・Tauri・GPU 加速 / /codex:review・/codex:rescue・plugin marketplace / Anthropic・OpenAI・Google・xAI・Microsoft 11 社・CC0 / SKILL.md・GSAP・em-dash 禁止 / Engineering・Marketing・C-Level・18 ドメイン・354 skill・13 エディタ)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『今のエコシステム地図』を提示する exploit 枠。周辺ツール・エコシステム全体の位置づけがカードの詳細で数値化される。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (47 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/Zackriya-Solutions/meetily",
+          "https://github.com/openai/codex-plugin-cc",
+          "https://github.com/asgeirtj/system_prompts_leaks",
+          "https://github.com/Leonxlnx/taste-skill",
+          "https://github.com/alirezarezvani/claude-skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-02",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "standard: 166 avg views (50 videos)",
-        "Trending languages: Kotlin (2.4x), C++ (3.2x), Jupyter Notebook (2.3x)",
-        "Day performance: Tue=432, Fri=310, Wed=178, Thu=176, Sat=79, Mon=61, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-03",
       "changes": [
@@ -4662,6 +4700,25 @@
         "Haskell: 0.0x avg views → drop",
         "standard: 105 avg views (79 videos)",
         "Trending languages: Kotlin (3.8x), C++ (3.0x), Java (2.1x), Jupyter Notebook (3.7x)",
+        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-05",
+      "changes": [
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Go: 0.8x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 104 avg views (80 videos)",
+        "Trending languages: Kotlin (3.8x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.7x)",
         "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
       ],
       "recommendedTemplate": "standard"
