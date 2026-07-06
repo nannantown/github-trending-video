@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日 07-06 (月) は ecosystem 角度で 5/5 統一。全 method 累積 avg 25.6 (n=14) で明確に TOP method、直近使用 07-02 で 4 日空き、14d ローリング 2 件と 3 件 cap まで余力 1 枠あり。連投ルール抵触なし: 直近 2 日 (07-05 business-angle / 07-04 comparison) と重ならず。除外候補: business-angle (07-05 直近抵触かつ 14d 内 2 件、余力あるが exploit 優先で ecosystem を選択)、comparison (07-04 直近抵触かつ 14d 3 件 cap 到達)、tech-deep (07-03 使用、直近 2 日ルール外だが avg 3.0 で ecosystem 25.6 に劣る)。今日の TOP5 は素材構成が偶然にも ecosystem 型として揃った稀な並び: 5/5 とも『どのエコシステムの周辺ツールに乗るか』の位置づけが README 直読で立つ。meetily=Whisper.cpp/Ollama/Screenpipe/Tauri の on-device LLM スタックに乗る自前会議AI (Otter/Fireflies クラウド SaaS を丸ごと置換) / codex-plugin-cc=Claude Code plugin marketplace 側に OpenAI Codex CLI が公式参入 (Anthropic 側エコに OpenAI 自身が乗る歴史的シグナル) / system_prompts_leaks=100超の system prompt を横断カタログ化しプロンプトエンジニアリング研究エコの参照実装として機能 / taste-skill=Vercel Agent Skills framework に乗る SKILL.md 集で Codex/Cursor/Claude Code の 3 者横断 UI 品位ルール / claude-skills=agentskills.io 標準に準拠した 354 skill が Claude Code/Cursor/Codex など 13 種の AI エディタに 1 コマンドで展開可能。narration は『(どのエコシステムに乗るか 1 文)。(独自の利点 1 文)』の 2 文型で 5/5 統一、5 本合計 286 文字 (54+59+57+58+58)、TTS で約 42-45 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/共存プロダクト名で 5/5 埋めて README 読み上げ回避 (Whisper.cpp・Ollama・Tauri・GPU 加速 / /codex:review・/codex:rescue・plugin marketplace / Anthropic・OpenAI・Google・xAI・Microsoft 11 社・CC0 / SKILL.md・GSAP・em-dash 禁止 / Engineering・Marketing・C-Level・18 ドメイン・354 skill・13 エディタ)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『今のエコシステム地図』を提示する exploit 枠。周辺ツール・エコシステム全体の位置づけがカードの詳細で数値化される。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (47 日連続成功継続見込み)。",
+    "method": "trend-pattern",
+    "description": "本日 07-07 (火) は trend-pattern 角度で 5/5 統一。全期間累積 avg 3.1 (n=8) で ecosystem/comparison/business-angle 除外後の残候補中で最強、直近使用 06-30 で 7 日空き、14d ローリング 1 件で 3 件 cap まで余力 2 枠あり。連投ルール抵触なし: 直近 2 日 (07-06 ecosystem / 07-05 business-angle) と重ならず。除外候補: ecosystem (07-06 直近抵触かつ 14d 3 件 cap 到達 07-16 まで再投入不可)、business-angle (07-05 直近抵触かつ 14d 内 2 件で本日は避ける)、comparison (14d 内 3 件 cap 到達 07-11 まで再投入不可)、tech-deep (avg 3.0, n=4 で trend-pattern に僅差で劣る)。今日の TOP5 は 4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な並び: system_prompts_leaks=各社システムプロンプト自体を業界共有資産カタログ化 (Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超) / agent-skills=Addy Osmani の 24 workflow を SKILL.md フォーマットに落とし MCP+slash command で agent へ差し替え式に注入 / meetily=Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq へ差し替え可能な会議 AI (LLM 本体はコモディティ、周辺 skill が価値) / RuView=ESP32-S3 の 9 ドル級ノードと WiFi CSI で映像なしの新入力層を AI に渡すセンサー skill / taste-skill=デザイン品位を skill として渡し Claude Code・Cursor・Codex 横断で slop 防止 (VARIANCE/MOTION/VISUAL DENSITY 3 ダイヤル+GSAP+em-dash 禁止)。narration は『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』の 2 文型で 5/5 統一、5 本合計 268 文字 (56+58+55+47+52)、TTS で約 42-52 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/数値スペックで 5/5 埋めて README 読み上げ回避 (Claude Sonnet 5・Claude Design・11 社・The Washington Post / SKILL.md・MCP・slash command・24 workflow / Whisper・Parakeet・Ollama・Metal/CUDA/Vulkan・Rust+Tauri / ESP32-S3・9 ドル・WiFi CSI・呼吸 6-30BPM・8KB 量子化 / VARIANCE・MOTION・GSAP・em-dash 禁止・Claude Code・Cursor・Codex)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『AI エージェント時代の新しい競争軸 = カセット構造』というマクロ判断材料を提供する exploit 枠。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」の連続 2 日マクロ物語配置。柱②/③ 週次ノルマは 07-08〜07-10 の 3 日枠で business-angle か self-experiment を差し込み予定 (07-05 の business-angle から 3〜5 日空きを確保)。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (48 日連続成功継続見込み)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Zackriya-Solutions/meetily",
-      "https://github.com/openai/codex-plugin-cc",
       "https://github.com/asgeirtj/system_prompts_leaks",
-      "https://github.com/Leonxlnx/taste-skill",
-      "https://github.com/alirezarezvani/claude-skills"
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/Zackriya-Solutions/meetily",
+      "https://github.com/ruvnet/RuView",
+      "https://github.com/Leonxlnx/taste-skill"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Zackriya-Solutions/meetily",
-      "name": "meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "language": "Rust",
-      "stars": 16808,
-      "todayStars": 1409,
-      "description": "ローカルLLMで動く会議アシスタント",
-      "detail": "Whisper.cppとOllamaを束ねるTauri製の会議アシスタントです。GPU加速も対応し、OtterやFirefliesなどのクラウド型SaaSを丸ごとローカルLLMスタックへ置き換えられます。",
-      "narration": "Whisper.cppとOllamaで動く自前会議AIです。Otterなどをオンデバイスで置き換えられます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "openai/codex-plugin-cc",
-      "name": "codex-plugin-cc",
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "language": "JavaScript",
-      "stars": 25402,
-      "todayStars": 1519,
-      "description": "Claude CodeとCodexを繋ぐ公式拡張",
-      "detail": "Claude Code内から/codex:reviewや/codex:rescueでOpenAI Codex CLIを叩ける公式プラグインです。Claude Codeのplugin基盤にOpenAI自身が参入し、2社のAI CLIを1画面で併用できます。",
-      "narration": "Claude Code拡張にOpenAIが公式参入したOSSです。ClaudeとCodexを1コマンドで併走できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "asgeirtj/system_prompts_leaks",
       "name": "system_prompts_leaks",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "language": "JavaScript",
-      "stars": 49865,
-      "todayStars": 981,
-      "description": "主要AIのsystem prompt保管庫",
-      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社100超のsystem promptを1リポに集約したCC0カタログです。差分も追え、プロンプト設計や競合分析の参照実装として使えます。",
-      "narration": "主要AI 100種のsystem promptを1リポに集約したカタログです。プロンプト設計の横断比較に使えます。"
+      "stars": 51413,
+      "todayStars": 1386,
+      "description": "主要AI 50超のsystem prompt集",
+      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社50超のsystem promptを1リポに集めた公開資産です。Claude Sonnet 5やClaude Designも直近で追加されました。",
+      "narration": "主要AIのsystem promptを丸ごと集めた資産です。AIの中身が業界共有の知識に変わる転換点を映します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "Shell",
+      "stars": 70732,
+      "todayStars": 1114,
+      "description": "24 skillをSKILL.md化した資産",
+      "detail": "Addy Osmani製の24 workflowをSKILL.mdに落とし、Define/Plan/Build/Verify/Review/Shipの6段階でAIへ差し替え式に注入します。MCPとslash commandからClaude Codeなどへ届きます。",
+      "narration": "AIコーディング用24 skillを1リポに集めた資産です。SKILL.mdでagentへ差し替え式に注入できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "Zackriya-Solutions/meetily",
+      "name": "meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "language": "Rust",
+      "stars": 19258,
+      "todayStars": 2493,
+      "description": "LLM差し替え式のローカル会議AI",
+      "detail": "Rust+Tauri製の会議アシスタントで、Parakeetが従来Whisperの4倍速で話者分離まで自前化します。要約LLMはOllama・Claude・Groqなどを差し替えられ、Metal/CUDA/Vulkanで動きます。",
+      "narration": "Whisperで話者分離まで自前化した会議AIです。LLMはOllamaやClaudeを差し替えて動かせます。"
     },
     {
       "rank": 4,
+      "fullName": "ruvnet/RuView",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "language": "Rust",
+      "stars": 77463,
+      "todayStars": 471,
+      "description": "WiFi電波で呼吸や姿勢を測るOSS",
+      "detail": "ESP32-S3の9ドル級ノードとWiFi CSIで呼吸6-30BPMや心拍40-120BPM、17点の姿勢推定まで実現します。8KB量子化モデルでedgeに載り、AIエージェントに映像なしの新入力を渡せます。",
+      "narration": "WiFi電波だけで呼吸や姿勢を測るOSSです。AIに映像なしで室内状況を渡す新しい入力層です。"
+    },
+    {
+      "rank": 5,
       "fullName": "Leonxlnx/taste-skill",
       "name": "taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "language": "JavaScript",
-      "stars": 57387,
-      "todayStars": 850,
-      "description": "Codex横断のUI品位skill",
-      "detail": "Vercel Agent Skillsに乗るSKILL.md集で、AI生成UIに品位を与えるルールをCodex・Cursor・Claude Codeへ共通で読ませられます。GSAPパターンやem-dash禁止など具体的な制約も入っています。",
-      "narration": "Vercel Agent Skillsに乗るUI品位ルール集です。CodexとClaude Codeで併用できます。"
-    },
-    {
-      "rank": 5,
-      "fullName": "alirezarezvani/claude-skills",
-      "name": "claude-skills",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "language": "Python",
-      "stars": 20510,
-      "todayStars": 394,
-      "description": "13エディタ対応のskill 354本",
-      "detail": "agentskills.io標準に準拠した354 skillのライブラリです。Engineering・Marketing・C-Levelなど18ドメインをカバーし、Claude Code・Cursor・Codexなど13エディタに1コマンドで展開できます。",
-      "narration": "agentskills.io標準の354 skillライブラリです。1コマンドで13種のAIエディタに展開できます。"
+      "stars": 58844,
+      "todayStars": 1453,
+      "description": "AI UIに品位を与えるskill集",
+      "detail": "AI生成UIの単調さを防ぐskill集で、VARIANCE・MOTION・VISUAL DENSITYの3ダイヤルやGSAPパターン、em-dash禁止など具体ルールが並びます。Claude Code・Cursor・Codexへ差し替えて読ませられます。",
+      "narration": "AI UI生成に品位を与えるskill集です。ClaudeやCursorやCodexへ差し替え可能です。"
     }
   ]
 }
