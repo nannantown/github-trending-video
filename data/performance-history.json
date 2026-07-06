@@ -2,48 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "edvajJVpbpg",
-      "videoUrl": "https://youtube.com/shorts/edvajJVpbpg",
-      "date": "2026-04-06",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/06 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "Python",
-        "TypeScript",
-        "Rust"
-      ],
-      "languages": [
-        "Kotlin",
-        "Python",
-        "TypeScript",
-        "Rust"
-      ],
-      "projects": [
-        "google-ai-edge/gallery",
-        "Blaizzy/mlx-vlm",
-        "siddharthvaddem/openscreen",
-        "block/goose",
-        "onyx-dot-app/onyx"
-      ],
-      "durationSeconds": 79,
-      "stats": {
-        "views": 8,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-04-19T23:24:40.698Z"
-      }
-    },
-    {
       "videoId": "aq1S2rcnj_Q",
       "videoUrl": "https://youtube.com/shorts/aq1S2rcnj_Q",
       "date": "2026-04-07",
@@ -3706,7 +3664,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -3760,7 +3718,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -3815,7 +3773,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -3873,7 +3831,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -3927,7 +3885,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -3981,7 +3939,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -4035,7 +3993,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -4092,7 +4050,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -4148,7 +4106,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -4198,10 +4156,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
+        "updatedAt": "2026-07-06T23:54:08.729Z"
       }
     },
     {
@@ -4250,6 +4208,58 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-06T23:54:08.729Z"
+      }
+    },
+    {
+      "videoId": "fEyZz-vmDc4",
+      "videoUrl": "https://youtube.com/shorts/fEyZz-vmDc4",
+      "date": "2026-07-07",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/07 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Kotlin"
+      ],
+      "languages": [
+        "JavaScript",
+        "Shell",
+        "Rust"
+      ],
+      "projects": [
+        "asgeirtj/system_prompts_leaks",
+        "addyosmani/agent-skills",
+        "Zackriya-Solutions/meetily",
+        "ruvnet/RuView",
+        "Leonxlnx/taste-skill"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日 07-07 (火) は trend-pattern 角度で 5/5 統一。全期間累積 avg 3.1 (n=8) で ecosystem/comparison/business-angle 除外後の残候補中で最強、直近使用 06-30 で 7 日空き、14d ローリング 1 件で 3 件 cap まで余力 2 枠あり。連投ルール抵触なし: 直近 2 日 (07-06 ecosystem / 07-05 business-angle) と重ならず。除外候補: ecosystem (07-06 直近抵触かつ 14d 3 件 cap 到達 07-16 まで再投入不可)、business-angle (07-05 直近抵触かつ 14d 内 2 件で本日は避ける)、comparison (14d 内 3 件 cap 到達 07-11 まで再投入不可)、tech-deep (avg 3.0, n=4 で trend-pattern に僅差で劣る)。今日の TOP5 は 4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な並び: system_prompts_leaks=各社システムプロンプト自体を業界共有資産カタログ化 (Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超) / agent-skills=Addy Osmani の 24 workflow を SKILL.md フォーマットに落とし MCP+slash command で agent へ差し替え式に注入 / meetily=Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq へ差し替え可能な会議 AI (LLM 本体はコモディティ、周辺 skill が価値) / RuView=ESP32-S3 の 9 ドル級ノードと WiFi CSI で映像なしの新入力層を AI に渡すセンサー skill / taste-skill=デザイン品位を skill として渡し Claude Code・Cursor・Codex 横断で slop 防止 (VARIANCE/MOTION/VISUAL DENSITY 3 ダイヤル+GSAP+em-dash 禁止)。narration は『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』の 2 文型で 5/5 統一、5 本合計 268 文字 (56+58+55+47+52)、TTS で約 42-52 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/数値スペックで 5/5 埋めて README 読み上げ回避 (Claude Sonnet 5・Claude Design・11 社・The Washington Post / SKILL.md・MCP・slash command・24 workflow / Whisper・Parakeet・Ollama・Metal/CUDA/Vulkan・Rust+Tauri / ESP32-S3・9 ドル・WiFi CSI・呼吸 6-30BPM・8KB 量子化 / VARIANCE・MOTION・GSAP・em-dash 禁止・Claude Code・Cursor・Codex)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『AI エージェント時代の新しい競争軸 = カセット構造』というマクロ判断材料を提供する exploit 枠。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」の連続 2 日マクロ物語配置。柱②/③ 週次ノルマは 07-08〜07-10 の 3 日枠で business-angle か self-experiment を差し込み予定 (07-05 の business-angle から 3〜5 日空きを確保)。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (48 日連続成功継続見込み)。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/asgeirtj/system_prompts_leaks",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/Zackriya-Solutions/meetily",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/Leonxlnx/taste-skill"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4258,20 +4268,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-03",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "standard: 163 avg views (51 videos)",
-        "Trending languages: Kotlin (2.5x), C++ (3.3x), Jupyter Notebook (2.4x)",
-        "Day performance: Tue=361, Fri=310, Wed=178, Thu=176, Sat=79, Mon=61, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-04",
       "changes": [
@@ -4720,6 +4716,25 @@
         "standard: 104 avg views (80 videos)",
         "Trending languages: Kotlin (3.8x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.7x)",
         "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-06",
+      "changes": [
+        "Kotlin: 1.3x avg views → boost",
+        "Rust: 0.8x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 103 avg views (81 videos)",
+        "Trending languages: Kotlin (3.9x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.8x)",
+        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=41, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
