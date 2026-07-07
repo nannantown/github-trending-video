@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07",
+  "updatedAt": "2026-07-08",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -28,84 +28,80 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 23.9 avg n=15 TOP1 (2 位以下の 7 倍以上・4-28 の TOP 326 views 素材も ecosystem) / business-angle 3.4 n=12 / trend-pattern 3.1 n=8 / comparison 3.0 n=17 (最大サンプル) / tech-deep 3.0 n=4 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-06 ecosystem / 07-05 business-angle) 連投ルール除外+ecosystem 14d 3 件 cap (07-16 まで再投入不可)+comparison 14d 3 件 cap (07-11 まで再投入不可)。本日 07-07 (火) は trend-pattern を採用: 06-30 最終使用で 7 日空き、n=8 avg 3.1 で残候補中 TOP (tech-deep 3.0 に僅差で優る)、Tue=361 avg の週内 TOP1 という強曜露出ウィンドウで trend-pattern の初回強露出テスト。4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な素材並び (system_prompts_leaks=各社システムプロンプト自体を業界共有資産化 / agent-skills=SKILL.md で workflow を注入 / meetily=LLM 本体を差し替え式に / RuView=映像なし新入力層をセンサー skill 化 / taste-skill=デザイン品位を skill として渡す)。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.5 avg n=16 TOP1 (2 位以下の 6 倍以上・4-28 の TOP 326 views 素材も ecosystem) / business-angle 3.4 n=12 / trend-pattern 2.8 n=9 / comparison 3.0 n=17 (最大サンプル) / tech-deep 3.0 n=4 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-07 trend-pattern / 07-06 ecosystem) 連投ルール除外+ecosystem 14d 3 件 cap (07-16 まで再投入不可)+comparison 14d 3 件 cap (07-11 まで再投入不可)。本日 07-08 (水) は business-angle を採用: 07-05 最終使用で 3 日空き、n=12 avg 3.4 で残候補中 TOP、柱② 週次ノルマ (07-06〜07-12) の本週唯一の消化機会 (07-11 以降 business-angle 14d cap 抵触見込み)。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入 (2,402 stars/day で首位)。昨日 07-07 trend-pattern の『カセット化潮流』マクロ視点と真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業視点に反転させて同じ 4 リポでも切り口を変える方針。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は火曜 (Tue=361 avg・週内 TOP1) の最強曜露出ウィンドウ。trend-pattern 角度は『なぜ今週この 5 本が同時に流行っているか』のマクロ物語を提示する語彙 (共通潮流・カセット化・差し替え可能・時代の転換点) が刺さる時期適合度が高〜最高。強曜での trend-pattern 初回 exploit として仕込みは万全"
+      "本日は水曜 (Wed=153 avg・週内 4 位) の中位曜露出。business-angle 角度は『実案件で幾ら削れる/幾ら稼げる』の商流視点で Primary エンジニア/CTO 層と Secondary PdM 層の商談材料として刺さる。曜日効果は中位でも柱② 週次ノルマ確定消化の 07-08 が唯一の投入窓 (07-11 以降 14d cap 抵触)"
     ],
     "hashtags": [
-      "trend-pattern 角度の核心は『5 リポを 1 つのマクロ潮流に貫く』。本日 5 本の共通軸: #system_prompts_leaks=システムプロンプト自体を業界共有資産化 / #agent_skills=SKILL.md で workflow を差し替え式に注入 / #meetily=LLM 本体を差し替え可能な会議 AI (LLM=コモディティ、周辺 skill が価値) / #RuView=映像なし新入力層をセンサー skill 化 / #taste_skill=デザイン品位を skill として渡す。マクロ潮流=『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む)』",
-      "言語タグは JavaScript 2 + Shell 1 + Rust 2。JavaScript 2 本 (0.9x)、Shell 1 本 (1.0x)、Rust 2 本 (0.7x)。Shell の 1.0x で言語ミックスを底上げ、Rust 2 本 (meetily・RuView) は素材強度で相殺可、JavaScript 2 本は system_prompts_leaks/taste-skill 共に skill・prompt DB として trend-pattern 角度に嵌る",
-      "trend-pattern 角度の独自 hashtag: #trendpattern #マクロ潮流 #柱1 #柱① #AIエージェント #skill #prompt #カセット化 #差し替え可能 #SKILLmd #systemprompt #ClaudeCode #Cursor #Codex #Ollama #Whisper #WiFiCSI #ESP32 #CTO #ソロCTO #エンジニア"
+      "business-angle 角度の核心は『5 リポを 1 つの事業視点で貫く』。本日 5 本の商流軸: #ai_job_search=Claude Code で転職エージェント業務 (紹介手数料 30-50 万円/件) を個人で代替 / #meetily=Otter (月 30 USD) / Fireflies (月 18 USD) 相当をローカル自前化して月額削減 / #agent_skills=SKILL.md で受託社内標準を資産化して案件間で使い回し / #RuView=ESP32-S3 9 ドル+WiFi CSI で BtoB IoT (介護見守り・店舗滞留・オフィス空席) をカメラなし低コストで組む / #system_prompts_leaks=11 社 50 超の system prompt を叩き台にプロンプト設計工数圧縮",
+      "言語タグは TypeScript 1 + Rust 2 + JavaScript 2。TypeScript (1.1x) で言語ミックスを底上げ、JavaScript 2 本 (0.9x)、Rust 2 本 (0.7x) は素材強度と business-angle での商流視点で相殺可、TS の ai-job-search が首位 stars/day で牽引",
+      "business-angle 角度の独自 hashtag: #businessangle #ビジネス視点 #受託 #柱2 #柱② #案件獲得 #SaaS削減 #紹介手数料 #転職エージェント #ClaudeCode #会議AI #Otter #Fireflies #SKILLmd #WiFiCSI #ESP32 #IoT #介護見守り #CTO #ソロCTO #PdM #発注者向け #システムプロンプト"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 268 文字 (56+58+55+47+52)、TTS で約 42-52 秒、opening/ending と合わせて 55 秒以内",
-      "trend-pattern 角度の一貫性: 5 本すべての narration を『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』の 2 文構成で 5/5 統一。1 文目で『何がカセット化された』を明示、2 文目で『その意味 = 業界共有知識化 / agent 注入 / LLM 差し替え / 新入力層 / 品位カセット』を固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では『マクロ潮流の位置づけキーワード』(業界共有知識・差し替え式に注入・LLM を差し替えて動かせます・新しい入力層・差し替え可能) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (50 超、24 skill、6-30BPM、40-120BPM、9 ドル、8KB、17 点、3 ダイヤル)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 前日 07-06 からの継続は system_prompts_leaks / taste-skill の 2 本、他 3 本 (agent-skills / meetily / RuView) が新規流入。継続 2 本の narration は 07-06 の ecosystem 語彙 (11 社 100 超のプロンプト DB・Vercel Agent Skills 3 者横断) を封印し、trend-pattern のマクロ物語語彙 (業界共有の知識に変わる転換点・品位を skill として渡す) に完全切替で 2 連投による角度疲労を回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 282 文字 (58+59+55+51+59)、TTS で約 51 秒、opening/ending と合わせて 55 秒以内",
+      "business-angle 角度の一貫性: 5 本すべての narration を『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』の 2 文構成で 5/5 統一。1 文目で機能、2 文目で商流・料金・工数削減など事業インパクトを固定",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『具体的な事業ワード』(転職エージェント業務・OtterやFireflies月額・受託案件・介護や店舗・プロンプト設計工数) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (11 社、24 種、9 ドル)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-07 からの継続は meetily・agent-skills・RuView・system_prompts_leaks の 4 本、新規流入は ai-job-search (2,402 stars/day で首位)。継続 4 本の narration は 07-07 の trend-pattern 語彙 (カセット化潮流・差し替え可能・時代の転換点) を封印し、business-angle の事業インパクト語彙 (紹介手数料代替・Otter/Fireflies月額削減・受託社内標準・BtoB IoT・プロンプト工数圧縮) に完全切替で 2 連投による角度疲労を回避"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (avg 3.1, n=8 で ecosystem/comparison/business-angle 除外後の残候補中で TOP。7 日空き、14d 内 1 件で 3 件 cap まで残り 2 枠)。マクロ潮流の位置づけ提示に最適",
-      "本日 07-07 TOP5: #1 asgeirtj/system_prompts_leaks=JavaScript / 51,413★ / +1,386 [2 日連続・Anthropic/OpenAI/Google/xAI/Microsoft 11 社 50 超のシステムプロンプトを 1 リポに集約した CC0 資産、Claude Sonnet 5 (07-01)・Claude Design (06-26) 追加、Washington Post 2026-05 報道契機]、#2 addyosmani/agent-skills=Shell / 70,732★ / +1,114 [新規・Addy Osmani の 24 workflow を Define/Plan/Build/Verify/Review/Ship の 6 段階で SKILL.md 化、MCP+slash command で Claude Code/Cursor/Copilot へ差し替え式に注入]、#3 Zackriya-Solutions/meetily=Rust / 19,258★ / +2,493 [新規・Rust+Tauri+Parakeet で Whisper の 4 倍速、LLM 部だけ Ollama/Claude/Groq を差し替え可能、Metal/CUDA/Vulkan 対応]、#4 ruvnet/RuView=Rust / 77,463★ / +471 [新規・ESP32-S3 9 ドル+WiFi CSI で呼吸 6-30BPM・心拍 40-120BPM・17 点 pose 82.69% PCK、8KB 量子化で edge に載る]、#5 Leonxlnx/taste-skill=JavaScript / 58,844★ / +1,453 [2 日連続・VARIANCE/MOTION/VISUAL DENSITY の 3 ダイヤル+GSAP+em-dash 禁止で AI UI 生成の slop 防止、Claude Code/Cursor/Codex/ChatGPT Images 横断]",
-      "本日の trend-pattern 核: 『5 本を 1 つの潮流 (AI エージェント時代のカセット化構造) に貫くマクロ物語ショーケース』。冒頭フックは『AI エージェントは skill/prompt/knowledge/入力層を差し替えて質を決める時代に入りました。今日の 5 本はどの層がカセット化されたかが README で明確な稀な組合せです』",
-      "Primary (CTO/技術選定) には『AI エージェント時代の新しい競争軸 = カセット構造』のマクロ判断材料として、Secondary (PdM) には『AI 本体はコモディティ化、周辺 skill が価値』というビジネス言語として、Tertiary (学習中) には『AI 業界の潮流を 1 枚地図で掴む導線』として 3 層直撃",
-      "連投上限ルール: 14d 内 trend-pattern=2 件 (含本日 06-30+07-07)、7d/14d 共に本日で 3 件 cap まで残り 1 枠、07-14 以降に再投入余力あり。ecosystem は 07-16 以降解禁 (07-02 の脱落タイミング)、comparison は 07-11 以降解禁、business-angle は 14d 内 2 件で 07-08〜07-12 に 1 枠 (柱② 週次ノルマ枠として 07-08〜07-10 のどこかで消化予定)。柱③ self-experiment は 14d 圏内直近 0 件で余力大 (最終使用 06-23 が本日 07-07 で 14d 圏外へ脱落)"
+      "本日の discovery.method は `business-angle` (avg 3.4, n=12 で ecosystem/comparison 除外後の残候補中で TOP。3 日空き、14d 内 2 件で 3 件 cap まで残り 1 枠、07-11 以降再投入 0 枠)。柱② 週次ノルマの本週唯一の消化機会",
+      "本日 07-08 TOP5: #1 MadsLorentzen/ai-job-search=TypeScript / 10,588★ / +2,402 [新規・Claude Code ベースの求人応募自動化・`/scrape`/`/apply`/`/rank` などで求人スコア→LaTeX CV→ATS 検証→面接準備を 1 パイプ・LinkedIn+Jobindex 対応・drafter/reviewer 2 段 agent 構成・MIT]、#2 Zackriya-Solutions/meetily=Rust / 20,633★ / +1,781 [継続・Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq 差し替え可能・Metal/CUDA/Vulkan 対応・商談機密ローカル会議 AI]、#3 addyosmani/agent-skills=JavaScript / 72,063★ / +1,311 [継続・Addy Osmani の 24 workflow を SKILL.md 化・Define/Plan/Build/Verify/Review/Ship の 6 段階で AI 注入]、#4 ruvnet/RuView=Rust / 78,461★ / +1,122 [継続・ESP32-S3 (~$9) + WiFi CSI で呼吸 6-30BPM・心拍 40-120BPM・17-keypoint pose 82.69% PCK・8KB 量子化]、#5 asgeirtj/system_prompts_leaks=JavaScript / 52,906★ / +1,704 [継続・Anthropic/OpenAI/Google/xAI/Microsoft 11 社 50 超のシステムプロンプト DB]",
+      "本日の business-angle 核: 『5 本を 1 つの事業視点 (幾ら削れる/幾ら稼げる/誰に売れる) で貫く商談ネタショーケース』。冒頭フックは『AI OSS は事業に幾らインパクトを出せる時代です。今日の 5 本は転職エージェント代替・月額 SaaS 削減・受託資産化・BtoB IoT 提案・プロンプト工数圧縮の具体商流です』",
+      "Primary (CTO/技術選定) には『実案件での料金削減額と商流置換の具体構図』として、Secondary (PdM/事業責任者) には『AI OSS を事業インパクトで語る言語』として、Tertiary (学習中) には『技術がビジネスに接続する現場感』として 3 層直撃",
+      "連投上限ルール: 14d 内 business-angle=3 件 (含本日 06-27+07-05+07-08)、07-11 まで再投入 0 枠、07-12 以降 06-27 が脱落して 1 枠回復。ecosystem は 07-16 以降解禁 (07-02 脱落タイミング)、comparison は 07-11 以降解禁、trend-pattern は 07-14 以降 (06-30 脱落) まで残 1 枠、柱③ self-experiment は 14d 圏内 0 件で余力大 (最終使用 06-23 が既に 14d 圏外脱落済み)、07-12 以降の柱③ 週次ノルマ枠として仕込み予定"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-07",
-    "dayOfWeek": "Tue",
+    "date": "2026-07-08",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "trendpattern",
-      "マクロ潮流",
-      "柱1",
-      "柱①",
-      "AIエージェント",
-      "skill",
-      "prompt",
-      "カセット化",
-      "差し替え可能",
-      "SKILLmd",
-      "systemprompt",
+      "businessangle",
+      "ビジネス視点",
+      "受託",
+      "柱2",
+      "柱②",
+      "案件獲得",
+      "SaaS削減",
+      "紹介手数料",
+      "転職エージェント代替",
       "ClaudeCode",
-      "Cursor",
-      "Codex",
-      "Copilot",
-      "Ollama",
-      "Whisper",
-      "Parakeet",
-      "meetily",
       "会議AI",
-      "onDevice",
-      "ローカルLLM",
-      "WiFiCSI",
-      "ESP32",
-      "センシング",
+      "Otter代替",
+      "Fireflies代替",
+      "SKILLmd",
       "AgentSkills",
       "AddyOsmani",
       "systempromptsleaks",
-      "tasteskill",
-      "UI品位",
-      "GSAP",
+      "WiFiCSI",
+      "ESP32",
+      "IoT",
+      "介護見守り",
+      "店舗DX",
+      "オフィスDX",
       "Anthropic",
       "OpenAI",
       "Google",
       "xAI",
       "Microsoft",
       "Rust",
+      "TypeScript",
       "JavaScript",
-      "Shell",
       "CTO",
       "ソロCTO",
+      "PdM",
       "エンジニア",
-      "発注者向け"
+      "発注者向け",
+      "AIジョブサーチ",
+      "meetily",
+      "RuView"
     ],
-    "focus": "火曜 (Tue=361 avg・週内 TOP1) の最強曜露出ウィンドウで `trend-pattern` 角度 (avg 3.1 n=8 で ecosystem/comparison/business-angle 除外後の残候補中で TOP・06-30 から 7 日空き・14d 内 1 件で 3 件 cap まで残り 2 枠) を投入。ecosystem は 07-06 直近 2 日抵触かつ 14d 3 件 cap 到達、business-angle は 07-05 直近 2 日抵触、comparison は 14d 3 件 cap 到達、tech-deep は avg 3.0 で trend-pattern に僅差で劣る。4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な素材並び (system_prompts_leaks=各社システムプロンプト自体を業界共有資産化 / agent-skills=SKILL.md で workflow を注入 / meetily=LLM 本体を差し替え式に / RuView=映像なし新入力層をセンサー skill 化 / taste-skill=デザイン品位を skill として渡す)。narration は『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』2 文構成で 5/5 統一、5 本合計 268 文字。マクロ潮流の位置づけキーワード (業界共有知識・差し替え式に注入・LLM を差し替えて動かせます・新しい入力層・差し替え可能) を全 5 本に埋めて README 読み上げレベルを回避。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」の連続 2 日マクロ物語配置で月火のマクロ視点シリーズ実験。PR 経由 squash merge + 着弾検証は必須実行 (48 日連続成功継続見込み)。"
+    "focus": "水曜 (Wed=153 avg・週内 4 位) の中位曜露出。`business-angle` (avg 3.4 n=12 で ecosystem/comparison 除外後の残候補中で TOP・07-05 から 3 日空き・14d 内 2 件で 3 件 cap まで残り 1 枠・07-11 以降 14d cap 抵触見込み) を投入、柱② 週次ノルマ (07-06〜07-12) の本週唯一の消化機会。ecosystem は 07-06 直近 2 日抵触かつ 14d 3 件 cap 到達、trend-pattern は 07-07 直近 2 日抵触、comparison は 14d 3 件 cap 到達、tech-deep/use-case/self-experiment は avg で business-angle に劣後。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入 (2,402 stars/day で首位)。昨日 07-07 trend-pattern の『カセット化潮流』マクロと真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業視点に反転させて同じ 4 リポでも切り口を変える方針。narration は『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』2 文構成で 5/5 統一、5 本合計 282 文字。事業ワード (転職エージェント業務・OtterやFireflies月額・受託案件・介護や店舗・プロンプト設計工数) を全 5 本に埋めて README 読み上げレベルを回避。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」→ 07-08 「事業視点」の月火水 3 段連続マクロ視点実験。PR 経由 squash merge + 着弾検証は必須実行 (48 日連続成功継続で本日 49 日目)。"
   }
 }
