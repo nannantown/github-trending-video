@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日 07-07 (火) は trend-pattern 角度で 5/5 統一。全期間累積 avg 3.1 (n=8) で ecosystem/comparison/business-angle 除外後の残候補中で最強、直近使用 06-30 で 7 日空き、14d ローリング 1 件で 3 件 cap まで余力 2 枠あり。連投ルール抵触なし: 直近 2 日 (07-06 ecosystem / 07-05 business-angle) と重ならず。除外候補: ecosystem (07-06 直近抵触かつ 14d 3 件 cap 到達 07-16 まで再投入不可)、business-angle (07-05 直近抵触かつ 14d 内 2 件で本日は避ける)、comparison (14d 内 3 件 cap 到達 07-11 まで再投入不可)、tech-deep (avg 3.0, n=4 で trend-pattern に僅差で劣る)。今日の TOP5 は 4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な並び: system_prompts_leaks=各社システムプロンプト自体を業界共有資産カタログ化 (Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超) / agent-skills=Addy Osmani の 24 workflow を SKILL.md フォーマットに落とし MCP+slash command で agent へ差し替え式に注入 / meetily=Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq へ差し替え可能な会議 AI (LLM 本体はコモディティ、周辺 skill が価値) / RuView=ESP32-S3 の 9 ドル級ノードと WiFi CSI で映像なしの新入力層を AI に渡すセンサー skill / taste-skill=デザイン品位を skill として渡し Claude Code・Cursor・Codex 横断で slop 防止 (VARIANCE/MOTION/VISUAL DENSITY 3 ダイヤル+GSAP+em-dash 禁止)。narration は『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』の 2 文型で 5/5 統一、5 本合計 268 文字 (56+58+55+47+52)、TTS で約 42-52 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/数値スペックで 5/5 埋めて README 読み上げ回避 (Claude Sonnet 5・Claude Design・11 社・The Washington Post / SKILL.md・MCP・slash command・24 workflow / Whisper・Parakeet・Ollama・Metal/CUDA/Vulkan・Rust+Tauri / ESP32-S3・9 ドル・WiFi CSI・呼吸 6-30BPM・8KB 量子化 / VARIANCE・MOTION・GSAP・em-dash 禁止・Claude Code・Cursor・Codex)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『AI エージェント時代の新しい競争軸 = カセット構造』というマクロ判断材料を提供する exploit 枠。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」の連続 2 日マクロ物語配置。柱②/③ 週次ノルマは 07-08〜07-10 の 3 日枠で business-angle か self-experiment を差し込み予定 (07-05 の business-angle から 3〜5 日空きを確保)。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (48 日連続成功継続見込み)。",
+    "method": "business-angle",
+    "description": "本日 07-08 (水) は business-angle 角度で 5/5 統一。今週 (07-06〜) の柱② 週次ノルマ消化枠として、Primary エンジニア/CTO 層と Secondary 事業責任者/PdM 層に『実案件でこう使える・こう見積もれる・こう料金削れる』の判断材料を提供。method 選定根拠: 直近 2 日 (07-06 ecosystem / 07-07 trend-pattern) と重ならず連投抵触なし、直近使用 07-05 で 3 日空き、14d ローリング 2 件で 3 件 cap まで余力 1 枠、全期間 avg 3.4 (n=12) は ecosystem 除いた exploit 候補中で最強、ecosystem (07-06 直近抵触かつ 14d 3 件 cap) と comparison (07-11 まで 14d cap 抵触) を除外した残候補中で最上位、柱②/③ 週次ノルマの本週唯一の消化機会 (07-11 は business-angle 14d cap 抵触見込み)。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入したため、trend-pattern (昨日の『カセット化潮流』macro) と真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業角度で切り替え、同じ 4 リポでも切り口を反転させることで視聴者飽きを回避しつつ Primary 層の商談材料になる並びを構成: ai-job-search=Claude Code で求人評価・CV・面接まで自動化し転職エージェント業務 (紹介手数料 30-50 万円/件) を個人で置き換え・Danish 系 4 portal + LinkedIn 対応で日本市場向けは /add-portal でスキャフォールド・LaTeX 生成と ATS 検証まで組み込み / meetily=Rust+Tauri+Parakeet の商談機密ローカル会議 AI で Otter.ai (月 30 USD) や Fireflies (月 18 USD) の月額を丸ごと削り LLM 部だけ Ollama/Claude/Groq に差し替えて外部 API 依存ゼロで商談機密案件を提案 / agent-skills=Addy Osmani の 24 workflow を SKILL.md で社内標準化し受託案件間でノウハウ資産を使い回して案件立ち上げ工数を圧縮 (skill 設計自体をコンサル商材化する余地も) / RuView=ESP32-S3 (~$9) + WiFi CSI で介護見守り・店舗滞留・オフィス空席をカメラなしで組む BtoB IoT 案件の低コスト提案基盤 (プライバシー配慮ニーズに刺さる) / system_prompts_leaks=Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超の system prompt を叩き台にして受託でのプロンプト設計をゼロから書く工数を圧縮 (社内 AI 導入研修の教材にも転用可能)。narration は『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』の 2 文型で 5/5 統一、5 本合計 282 文字 (58+59+55+51+59)、TTS で約 51 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な CLI コマンド・依存モジュール・料金・数値スペックで README 読み上げ回避 (`/scrape`/`/apply`・LinkedIn・Jobindex・LaTeX / Rust+Tauri・Parakeet・Ollama・Claude・Groq・Otter・Fireflies / SKILL.md・Define/Plan/Build/Verify/Review/Ship・24 workflow / ESP32-S3・9 ドル・WiFi CSI・8KB 量子化 / Anthropic・OpenAI・Google・xAI・Microsoft・11 社)。柱② ビジネス視点 (15% 比率) の週次ノルマ消化枠を Primary エンジニア/CTO 層と Secondary PdM 層に届けつつ、直近 3 日連続のマクロ視点 (07-06 エコシステム地図 → 07-07 カセット化潮流 → 07-08 事業視点) の 3 段構成で週前半にマクロを完結させる週構造テンプレを試行。05-11〜15 の main 到達失敗事故対策 (PR squash merge + 着弾検証) は 48 日連続成功、本日で 49 日目継続。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/asgeirtj/system_prompts_leaks",
-      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/MadsLorentzen/ai-job-search",
       "https://github.com/Zackriya-Solutions/meetily",
+      "https://github.com/addyosmani/agent-skills",
       "https://github.com/ruvnet/RuView",
-      "https://github.com/Leonxlnx/taste-skill"
+      "https://github.com/asgeirtj/system_prompts_leaks"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,39 +17,39 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "name": "system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "language": "JavaScript",
-      "stars": 51413,
-      "todayStars": 1386,
-      "description": "主要AI 50超のsystem prompt集",
-      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社50超のsystem promptを1リポに集めた公開資産です。Claude Sonnet 5やClaude Designも直近で追加されました。",
-      "narration": "主要AIのsystem promptを丸ごと集めた資産です。AIの中身が業界共有の知識に変わる転換点を映します。"
+      "fullName": "MadsLorentzen/ai-job-search",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "language": "TypeScript",
+      "stars": 10588,
+      "todayStars": 2402,
+      "description": "Claude Codeで転職活動を自動化",
+      "detail": "Claude Codeで動く求人応募の自動化基盤で、求人スコアリング・CV作成・添え状・面接準備までを`/scrape`や`/apply`で回します。LinkedInやJobindexなど複数媒体に対応し、転職エージェント代替を個人で組めます。",
+      "narration": "Claude Codeで求人評価とCVと面接まで自動化するOSSです。転職エージェント業務を個人で置き換えられます。"
     },
     {
       "rank": 2,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "Shell",
-      "stars": 70732,
-      "todayStars": 1114,
-      "description": "24 skillをSKILL.md化した資産",
-      "detail": "Addy Osmani製の24 workflowをSKILL.mdに落とし、Define/Plan/Build/Verify/Review/Shipの6段階でAIへ差し替え式に注入します。MCPとslash commandからClaude Codeなどへ届きます。",
-      "narration": "AIコーディング用24 skillを1リポに集めた資産です。SKILL.mdでagentへ差し替え式に注入できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "Zackriya-Solutions/meetily",
       "name": "meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "language": "Rust",
-      "stars": 19258,
-      "todayStars": 2493,
-      "description": "LLM差し替え式のローカル会議AI",
-      "detail": "Rust+Tauri製の会議アシスタントで、Parakeetが従来Whisperの4倍速で話者分離まで自前化します。要約LLMはOllama・Claude・Groqなどを差し替えられ、Metal/CUDA/Vulkanで動きます。",
-      "narration": "Whisperで話者分離まで自前化した会議AIです。LLMはOllamaやClaudeを差し替えて動かせます。"
+      "stars": 20633,
+      "todayStars": 1781,
+      "description": "商談機密を守るローカル会議AI",
+      "detail": "Rust+Tauri製の会議AIで、Parakeetで話者分離まで自前化しLLMはOllamaやClaudeを差し替えます。Otterやフォアフライを避けたい商談機密案件で、外部API依存を丸ごと切って提案できます。",
+      "narration": "議事録AIを社内サーバーで動かすOSSです。商談の機密を外に出さずOtterやFireflies月額を丸ごと削れます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars": 72063,
+      "todayStars": 1311,
+      "description": "AI開発の社内標準skill集24種",
+      "detail": "Addy Osmani製の24 workflowをSKILL.mdに落とし、Define/Plan/Build/Verify/Review/Shipの6段階でAIに注入します。受託の社内標準を1リポで資産化し、案件間でノウハウを使い回せます。",
+      "narration": "AI開発の社内標準をSKILL.md 24種で資産化するOSSです。受託案件をまたいでノウハウを使い回せます。"
     },
     {
       "rank": 4,
@@ -57,23 +57,23 @@
       "name": "RuView",
       "url": "https://github.com/ruvnet/RuView",
       "language": "Rust",
-      "stars": 77463,
-      "todayStars": 471,
-      "description": "WiFi電波で呼吸や姿勢を測るOSS",
-      "detail": "ESP32-S3の9ドル級ノードとWiFi CSIで呼吸6-30BPMや心拍40-120BPM、17点の姿勢推定まで実現します。8KB量子化モデルでedgeに載り、AIエージェントに映像なしの新入力を渡せます。",
-      "narration": "WiFi電波だけで呼吸や姿勢を測るOSSです。AIに映像なしで室内状況を渡す新しい入力層です。"
+      "stars": 78461,
+      "todayStars": 1122,
+      "description": "9ドルWiFiノードで人流計測",
+      "detail": "ESP32-S3の約9ドルノードとWiFi CSIで呼吸や姿勢や滞留を捉え、8KB量子化モデルでedgeに載せます。介護見守りやオフィス空席・店舗人流の提案をカメラなしプライバシー配慮で組めます。",
+      "narration": "WiFi電波で人流や見守りを測る9ドル級OSSです。介護や店舗の滞留分析をカメラなしで一気に組めます。"
     },
     {
       "rank": 5,
-      "fullName": "Leonxlnx/taste-skill",
-      "name": "taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "name": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "language": "JavaScript",
-      "stars": 58844,
-      "todayStars": 1453,
-      "description": "AI UIに品位を与えるskill集",
-      "detail": "AI生成UIの単調さを防ぐskill集で、VARIANCE・MOTION・VISUAL DENSITYの3ダイヤルやGSAPパターン、em-dash禁止など具体ルールが並びます。Claude Code・Cursor・Codexへ差し替えて読ませられます。",
-      "narration": "AI UI生成に品位を与えるskill集です。ClaudeやCursorやCodexへ差し替え可能です。"
+      "stars": 52906,
+      "todayStars": 1704,
+      "description": "AI 11社のsystem prompt資産",
+      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社50超のsystem promptを1リポに集めた公開資産です。受託でのプロンプト設計をゼロから書かず、主要各社の書式を叩き台として工数を圧縮できます。",
+      "narration": "主要AI 11社のsystem promptを集めた公開資産です。受託でのプロンプト設計をゼロから書く工数を省けます。"
     }
   ]
 }
