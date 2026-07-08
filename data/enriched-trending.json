@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 07-08 (水) は business-angle 角度で 5/5 統一。今週 (07-06〜) の柱② 週次ノルマ消化枠として、Primary エンジニア/CTO 層と Secondary 事業責任者/PdM 層に『実案件でこう使える・こう見積もれる・こう料金削れる』の判断材料を提供。method 選定根拠: 直近 2 日 (07-06 ecosystem / 07-07 trend-pattern) と重ならず連投抵触なし、直近使用 07-05 で 3 日空き、14d ローリング 2 件で 3 件 cap まで余力 1 枠、全期間 avg 3.4 (n=12) は ecosystem 除いた exploit 候補中で最強、ecosystem (07-06 直近抵触かつ 14d 3 件 cap) と comparison (07-11 まで 14d cap 抵触) を除外した残候補中で最上位、柱②/③ 週次ノルマの本週唯一の消化機会 (07-11 は business-angle 14d cap 抵触見込み)。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入したため、trend-pattern (昨日の『カセット化潮流』macro) と真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業角度で切り替え、同じ 4 リポでも切り口を反転させることで視聴者飽きを回避しつつ Primary 層の商談材料になる並びを構成: ai-job-search=Claude Code で求人評価・CV・面接まで自動化し転職エージェント業務 (紹介手数料 30-50 万円/件) を個人で置き換え・Danish 系 4 portal + LinkedIn 対応で日本市場向けは /add-portal でスキャフォールド・LaTeX 生成と ATS 検証まで組み込み / meetily=Rust+Tauri+Parakeet の商談機密ローカル会議 AI で Otter.ai (月 30 USD) や Fireflies (月 18 USD) の月額を丸ごと削り LLM 部だけ Ollama/Claude/Groq に差し替えて外部 API 依存ゼロで商談機密案件を提案 / agent-skills=Addy Osmani の 24 workflow を SKILL.md で社内標準化し受託案件間でノウハウ資産を使い回して案件立ち上げ工数を圧縮 (skill 設計自体をコンサル商材化する余地も) / RuView=ESP32-S3 (~$9) + WiFi CSI で介護見守り・店舗滞留・オフィス空席をカメラなしで組む BtoB IoT 案件の低コスト提案基盤 (プライバシー配慮ニーズに刺さる) / system_prompts_leaks=Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超の system prompt を叩き台にして受託でのプロンプト設計をゼロから書く工数を圧縮 (社内 AI 導入研修の教材にも転用可能)。narration は『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』の 2 文型で 5/5 統一、5 本合計 282 文字 (58+59+55+51+59)、TTS で約 51 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な CLI コマンド・依存モジュール・料金・数値スペックで README 読み上げ回避 (`/scrape`/`/apply`・LinkedIn・Jobindex・LaTeX / Rust+Tauri・Parakeet・Ollama・Claude・Groq・Otter・Fireflies / SKILL.md・Define/Plan/Build/Verify/Review/Ship・24 workflow / ESP32-S3・9 ドル・WiFi CSI・8KB 量子化 / Anthropic・OpenAI・Google・xAI・Microsoft・11 社)。柱② ビジネス視点 (15% 比率) の週次ノルマ消化枠を Primary エンジニア/CTO 層と Secondary PdM 層に届けつつ、直近 3 日連続のマクロ視点 (07-06 エコシステム地図 → 07-07 カセット化潮流 → 07-08 事業視点) の 3 段構成で週前半にマクロを完結させる週構造テンプレを試行。05-11〜15 の main 到達失敗事故対策 (PR squash merge + 着弾検証) は 48 日連続成功、本日で 49 日目継続。",
+    "method": "tech-deep",
+    "description": "各 OSS の READMEを英語で読み、内部アーキテクチャ・具体スペック・数値を抜き出して技術独自性を伝える",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/MadsLorentzen/ai-job-search",
-      "https://github.com/Zackriya-Solutions/meetily",
       "https://github.com/addyosmani/agent-skills",
       "https://github.com/ruvnet/RuView",
-      "https://github.com/asgeirtj/system_prompts_leaks"
+      "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "https://github.com/prisma/prisma",
+      "https://github.com/mvanhorn/last30days-skill"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "MadsLorentzen/ai-job-search",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "language": "TypeScript",
-      "stars": 10588,
-      "todayStars": 2402,
-      "description": "Claude Codeで転職活動を自動化",
-      "detail": "Claude Codeで動く求人応募の自動化基盤で、求人スコアリング・CV作成・添え状・面接準備までを`/scrape`や`/apply`で回します。LinkedInやJobindexなど複数媒体に対応し、転職エージェント代替を個人で組めます。",
-      "narration": "Claude Codeで求人評価とCVと面接まで自動化するOSSです。転職エージェント業務を個人で置き換えられます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "Zackriya-Solutions/meetily",
-      "name": "meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "language": "Rust",
-      "stars": 20633,
-      "todayStars": 1781,
-      "description": "商談機密を守るローカル会議AI",
-      "detail": "Rust+Tauri製の会議AIで、Parakeetで話者分離まで自前化しLLMはOllamaやClaudeを差し替えます。Otterやフォアフライを避けたい商談機密案件で、外部API依存を丸ごと切って提案できます。",
-      "narration": "議事録AIを社内サーバーで動かすOSSです。商談の機密を外に出さずOtterやFireflies月額を丸ごと削れます。"
-    },
-    {
-      "rank": 3,
       "fullName": "addyosmani/agent-skills",
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 72063,
-      "todayStars": 1311,
-      "description": "AI開発の社内標準skill集24種",
-      "detail": "Addy Osmani製の24 workflowをSKILL.mdに落とし、Define/Plan/Build/Verify/Review/Shipの6段階でAIに注入します。受託の社内標準を1リポで資産化し、案件間でノウハウを使い回せます。",
-      "narration": "AI開発の社内標準をSKILL.md 24種で資産化するOSSです。受託案件をまたいでノウハウを使い回せます。"
+      "stars": 73907,
+      "todayStars": 1322,
+      "description": "AI開発を型化する24 skill集",
+      "detail": "DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIPの6 phaseを24枚のSKILL.mdに固めたAI開発規律集です。/build autoで自律実装、Rationalizations Tableで手抜き言い訳を先回りブロックします。",
+      "narration": "AI開発の6phaseを24 SKILL.mdに固める規律集です。手抜き言い訳を先回りで潰します。"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "fullName": "ruvnet/RuView",
       "name": "RuView",
       "url": "https://github.com/ruvnet/RuView",
       "language": "Rust",
-      "stars": 78461,
-      "todayStars": 1122,
-      "description": "9ドルWiFiノードで人流計測",
-      "detail": "ESP32-S3の約9ドルノードとWiFi CSIで呼吸や姿勢や滞留を捉え、8KB量子化モデルでedgeに載せます。介護見守りやオフィス空席・店舗人流の提案をカメラなしプライバシー配慮で組めます。",
-      "narration": "WiFi電波で人流や見守りを測る9ドル級OSSです。介護や店舗の滞留分析をカメラなしで一気に組めます。"
+      "stars": 79099,
+      "todayStars": 793,
+      "description": "ESP32でWiFi CSIから生体計測",
+      "detail": "$9のESP32-S3が飛び交うWiFiの反射を解析し、呼吸6-30BPM・心拍40-120BPM・17keypointの姿勢を推定します。55KBの量子化モデルがedge単独稼働、壁越し5m検知でカメラ不要のプライバシー設計です。",
+      "narration": "$9のESP32でWiFi反射から呼吸心拍を測ります。55KBモデルで壁越し5m検知が可能です。"
+    },
+    {
+      "rank": 3,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "name": "TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "language": "TypeScript",
+      "stars": 7598,
+      "todayStars": 351,
+      "description": "AI記憶を4層で圧縮するローカルDB",
+      "detail": "会話→事実→シーン→ペルソナと4層でAIの記憶を圧縮する完全ローカルDBです。SQLite+sqlite-vecで動きBM25とベクトルをRRFで統合、WideSearchでtoken 61%削減・成功率+51%を達成します。",
+      "narration": "AIの記憶を会話・事実・シーン・ペルソナの4層に圧縮するローカルDBです。tokenを61%削減できます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "prisma/prisma",
+      "name": "prisma",
+      "url": "https://github.com/prisma/prisma",
+      "language": "TypeScript",
+      "stars": 46528,
+      "todayStars": 30,
+      "description": "Node.js向けの型安全ORM老舗",
+      "detail": "1枚のschema.prismaからPostgreSQL・MongoDBなど9種DBの型付きクライアントとmigration SQLを自動生成するNode.js/TypeScript向けORMです。Rust製query engineが型安全なクエリを実行します。",
+      "narration": "1枚のschema.prismaから型付きクライアントとmigration SQLを9DB向けに自動生成するORMです。"
     },
     {
       "rank": 5,
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "name": "system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "language": "JavaScript",
-      "stars": 52906,
-      "todayStars": 1704,
-      "description": "AI 11社のsystem prompt資産",
-      "detail": "Anthropic・OpenAI・Google・xAI・Microsoftなど11社50超のsystem promptを1リポに集めた公開資産です。受託でのプロンプト設計をゼロから書かず、主要各社の書式を叩き台として工数を圧縮できます。",
-      "narration": "主要AI 11社のsystem promptを集めた公開資産です。受託でのプロンプト設計をゼロから書く工数を省けます。"
+      "fullName": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars": 50707,
+      "todayStars": 373,
+      "description": "9媒体横断で調査するAI skill",
+      "detail": "Reddit・X・YouTube・HN・Polymarketなど9媒体を横断して調査するSKILL.mdです。yt-dlpで動画字幕、Polymarketで賭け率まで集め引用付き要約を生成、Claude・Cursor・Copilotに対応します。",
+      "narration": "Reddit・X・YouTube・HN・Polymarketの9媒体を横断して引用付き要約を生成するskillです。"
     }
   ]
 }
