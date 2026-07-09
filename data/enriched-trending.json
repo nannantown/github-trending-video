@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "discovery": {
-    "method": "tech-deep",
-    "description": "各 OSS の READMEを英語で読み、内部アーキテクチャ・具体スペック・数値を抜き出して技術独自性を伝える",
+    "method": "ecosystem",
+    "description": "Trending TOP5のうち4本がAIコーディングエージェントの周辺レイヤ。各リポの生態系上の位置と役割分担 (規律層・design token層・Office操作層・個人業務workflow層) を示す",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/MadsLorentzen/ai-job-search",
+      "https://github.com/SmartlyDressedGames/U3-SDK",
       "https://github.com/addyosmani/agent-skills",
-      "https://github.com/ruvnet/RuView",
-      "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "https://github.com/prisma/prisma",
-      "https://github.com/mvanhorn/last30days-skill"
+      "https://github.com/VoltAgent/awesome-design-md",
+      "https://github.com/iOfficeAI/OfficeCLI"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "MadsLorentzen/ai-job-search",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "language": "TypeScript",
+      "stars": 18785,
+      "todayStars": 3728,
+      "description": "Claude Codeで就活を自動化",
+      "detail": "CLAUDE.mdに履歴書を置き、/scrapeで求人検索、/applyで職務経歴書と志望動機の下書き生成まで一気通貫で回すClaude Codeフレームワークです。TypeScriptのポータルCLIとLaTeX moderncvも同梱します。",
+      "narration": "Claude Codeで就活を回すフレームワークです。/applyで応募書類の下書きまで自動生成します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "SmartlyDressedGames/U3-SDK",
+      "name": "U3-SDK",
+      "url": "https://github.com/SmartlyDressedGames/U3-SDK",
+      "language": "C#",
+      "stars": 1983,
+      "todayStars": 541,
+      "description": "Unturnedのフルソース公開",
+      "detail": "ゾンビサバイバルUnturned第3世代のUnityフルソースをGitHubに公開しました。Unity 2022.3.62f3で開くと、現役の商用ゲーム設計をそのまま読める大型学習素材になります。",
+      "narration": "ゾンビサバイバルUnturnedのUnity全ソース公開です。現役の商用ゲーム設計をそのまま学べます。"
+    },
+    {
+      "rank": 3,
       "fullName": "addyosmani/agent-skills",
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 73907,
-      "todayStars": 1322,
-      "description": "AI開発を型化する24 skill集",
-      "detail": "DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIPの6 phaseを24枚のSKILL.mdに固めたAI開発規律集です。/build autoで自律実装、Rationalizations Tableで手抜き言い訳を先回りブロックします。",
-      "narration": "AI開発の6phaseを24 SKILL.mdに固める規律集です。手抜き言い訳を先回りで潰します。"
-    },
-    {
-      "rank": 2,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 79099,
-      "todayStars": 793,
-      "description": "ESP32でWiFi CSIから生体計測",
-      "detail": "$9のESP32-S3が飛び交うWiFiの反射を解析し、呼吸6-30BPM・心拍40-120BPM・17keypointの姿勢を推定します。55KBの量子化モデルがedge単独稼働、壁越し5m検知でカメラ不要のプライバシー設計です。",
-      "narration": "$9のESP32でWiFi反射から呼吸心拍を測ります。55KBモデルで壁越し5m検知が可能です。"
-    },
-    {
-      "rank": 3,
-      "fullName": "TencentCloud/TencentDB-Agent-Memory",
-      "name": "TencentDB-Agent-Memory",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "language": "TypeScript",
-      "stars": 7598,
-      "todayStars": 351,
-      "description": "AI記憶を4層で圧縮するローカルDB",
-      "detail": "会話→事実→シーン→ペルソナと4層でAIの記憶を圧縮する完全ローカルDBです。SQLite+sqlite-vecで動きBM25とベクトルをRRFで統合、WideSearchでtoken 61%削減・成功率+51%を達成します。",
-      "narration": "AIの記憶を会話・事実・シーン・ペルソナの4層に圧縮するローカルDBです。tokenを61%削減できます。"
+      "stars": 75801,
+      "todayStars": 2582,
+      "description": "70+ agent対応の規律層",
+      "detail": "DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIPの6 phaseに24 SKILL.mdを配置し、70+のエージェントで動くAI開発規律集です。Rationalizations Tableで手抜き言い訳を先回りで塞ぎます。",
+      "narration": "6 phase 24 SKILL.mdで70+エージェントを規律付けます。手抜き言い訳を先回りで潰します。"
     },
     {
       "rank": 4,
-      "fullName": "prisma/prisma",
-      "name": "prisma",
-      "url": "https://github.com/prisma/prisma",
-      "language": "TypeScript",
-      "stars": 46528,
-      "todayStars": 30,
-      "description": "Node.js向けの型安全ORM老舗",
-      "detail": "1枚のschema.prismaからPostgreSQL・MongoDBなど9種DBの型付きクライアントとmigration SQLを自動生成するNode.js/TypeScript向けORMです。Rust製query engineが型安全なクエリを実行します。",
-      "narration": "1枚のschema.prismaから型付きクライアントとmigration SQLを9DB向けに自動生成するORMです。"
+      "fullName": "VoltAgent/awesome-design-md",
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "language": null,
+      "stars": 99576,
+      "todayStars": 1233,
+      "description": "73ブランドのDESIGN.md集",
+      "detail": "Tesla・Figma・Nike・NintendoなどのブランドをGoogle Stitch規格の9セクション (色・タイポ・コンポーネント・レイアウト等) に整理したDESIGN.md集です。エージェントにコピーするだけでUI生成の一貫性が保てます。",
+      "narration": "Tesla・Figmaなど73ブランドのDESIGN.md集です。UI生成の一貫性が丸ごと跳ねます。"
     },
     {
       "rank": 5,
-      "fullName": "mvanhorn/last30days-skill",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "language": "Python",
-      "stars": 50707,
-      "todayStars": 373,
-      "description": "9媒体横断で調査するAI skill",
-      "detail": "Reddit・X・YouTube・HN・Polymarketなど9媒体を横断して調査するSKILL.mdです。yt-dlpで動画字幕、Polymarketで賭け率まで集め引用付き要約を生成、Claude・Cursor・Copilotに対応します。",
-      "narration": "Reddit・X・YouTube・HN・Polymarketの9媒体を横断して引用付き要約を生成するskillです。"
+      "fullName": "iOfficeAI/OfficeCLI",
+      "name": "OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "stars": 13353,
+      "todayStars": 1923,
+      "description": "Office文書を操るMCPサーバ",
+      "detail": "Word・Excel・PowerPointをnative binary 1本で読み書きするMCPサーバです。350+のExcel関数を自動評価し、path指定でスライド内オブジェクトも決定的に編集できます。Claude Code・Cursor・VS Code対応。",
+      "narration": "Word・Excel・PPTを操るMCPサーバです。Claude Codeから文書を決定的に編集できます。"
     }
   ]
 }
