@@ -2,88 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "7Njgmp5v1J8",
-      "videoUrl": "https://youtube.com/shorts/7Njgmp5v1J8",
-      "date": "2026-04-08",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/08 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "C++",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Kotlin",
-        "C++",
-        "Python",
-        "TypeScript"
-      ],
-      "projects": [
-        "google-ai-edge/gallery",
-        "google-ai-edge/LiteRT-LM",
-        "NVIDIA/personaplex",
-        "abhigyanpatwari/GitNexus",
-        "tobi/qmd"
-      ],
-      "durationSeconds": 68,
-      "stats": {
-        "views": 504,
-        "likes": 3,
-        "comments": 0,
-        "updatedAt": "2026-04-22T23:36:08.326Z"
-      }
-    },
-    {
-      "videoId": "3AdK4ow0ZLs",
-      "videoUrl": "https://youtube.com/shorts/3AdK4ow0ZLs",
-      "date": "2026-04-09",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/09 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "Kotlin",
-        "C++"
-      ],
-      "languages": [
-        "Python",
-        "Kotlin",
-        "C++"
-      ],
-      "projects": [
-        "forrestchang/andrej-karpathy-skills",
-        "TheCraigHewitt/seomachine",
-        "google-ai-edge/gallery",
-        "NVIDIA/personaplex",
-        "google-ai-edge/LiteRT-LM"
-      ],
-      "durationSeconds": 64,
-      "stats": {
-        "views": 609,
-        "likes": 7,
-        "comments": 0,
-        "updatedAt": "2026-04-23T23:34:22.931Z"
-      }
-    },
-    {
       "videoId": "iMGuXTc2UOU",
       "videoUrl": "https://youtube.com/shorts/iMGuXTc2UOU",
       "date": "2026-04-10",
@@ -3676,7 +3594,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -3731,7 +3649,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -3789,7 +3707,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -3843,7 +3761,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -3897,7 +3815,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -3951,7 +3869,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4008,7 +3926,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4064,7 +3982,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4117,7 +4035,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4169,7 +4087,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4221,7 +4139,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
+        "updatedAt": "2026-07-08T23:56:19.474Z"
       }
     },
     {
@@ -4274,26 +4192,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-07-08T23:56:19.474Z"
+      }
+    },
+    {
+      "videoId": "gbhAtXIfYYY",
+      "videoUrl": "https://youtube.com/shorts/gbhAtXIfYYY",
+      "date": "2026-07-09",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/09 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "JavaScript",
+        "Rust",
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "addyosmani/agent-skills",
+        "ruvnet/RuView",
+        "TencentCloud/TencentDB-Agent-Memory",
+        "prisma/prisma",
+        "mvanhorn/last30days-skill"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "各 OSS の READMEを英語で読み、内部アーキテクチャ・具体スペック・数値を抜き出して技術独自性を伝える",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "https://github.com/prisma/prisma",
+          "https://github.com/mvanhorn/last30days-skill"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-04",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "standard: 157 avg views (53 videos)",
-        "Trending languages: Kotlin (2.5x), C++ (3.4x), Jupyter Notebook (2.5x)",
-        "Day performance: Tue=361, Fri=310, Thu=157, Wed=153, Sat=79, Mon=61, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-05",
       "changes": [
@@ -4749,6 +4706,24 @@
         "standard: 103 avg views (81 videos)",
         "Trending languages: Kotlin (5.2x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.8x)",
         "Day performance: Fri=207, Tue=197, Thu=118, Wed=107, Sat=49, Mon=44, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-08",
+      "changes": [
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 0.7x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "Shell: 0.7x avg views → drop",
+        "Markdown: 0.1x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 97 avg views (81 videos)",
+        "Trending languages: Kotlin (5.8x), C++ (2.9x), Java (2.3x), Jupyter Notebook (4.0x)",
+        "Day performance: Fri=207, Tue=170, Thu=118, Wed=97, Sat=49, Mon=44, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
