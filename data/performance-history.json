@@ -3649,7 +3649,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3707,7 +3707,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3761,7 +3761,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3815,7 +3815,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3869,7 +3869,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3926,7 +3926,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -3982,7 +3982,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -4035,7 +4035,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -4087,7 +4087,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -4136,10 +4136,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -4192,7 +4192,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
+        "updatedAt": "2026-07-09T23:55:31.822Z"
       }
     },
     {
@@ -4243,6 +4243,59 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-09T23:55:31.822Z"
+      }
+    },
+    {
+      "videoId": "6PyRxitTjX4",
+      "videoUrl": "https://youtube.com/shorts/6PyRxitTjX4",
+      "date": "2026-07-10",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/10 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "C#"
+      ],
+      "languages": [
+        "TypeScript",
+        "C#",
+        "JavaScript"
+      ],
+      "projects": [
+        "MadsLorentzen/ai-job-search",
+        "SmartlyDressedGames/U3-SDK",
+        "addyosmani/agent-skills",
+        "VoltAgent/awesome-design-md",
+        "iOfficeAI/OfficeCLI"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "Trending TOP5のうち4本がAIコーディングエージェントの周辺レイヤ。各リポの生態系上の位置と役割分担 (規律層・design token層・Office操作層・個人業務workflow層) を示す",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/MadsLorentzen/ai-job-search",
+          "https://github.com/SmartlyDressedGames/U3-SDK",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/VoltAgent/awesome-design-md",
+          "https://github.com/iOfficeAI/OfficeCLI"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4251,21 +4304,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-05",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.0x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "standard: 154 avg views (54 videos)",
-        "Trending languages: Kotlin (2.6x), C++ (3.4x), Jupyter Notebook (2.5x)",
-        "Day performance: Tue=361, Fri=276, Thu=157, Wed=153, Sat=79, Mon=61, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-06",
       "changes": [
@@ -4724,6 +4762,24 @@
         "standard: 97 avg views (81 videos)",
         "Trending languages: Kotlin (5.8x), C++ (2.9x), Java (2.3x), Jupyter Notebook (4.0x)",
         "Day performance: Fri=207, Tue=170, Thu=118, Wed=97, Sat=49, Mon=44, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-09",
+      "changes": [
+        "C++: 0.3x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "Markdown: 0.1x avg views → drop",
+        "Kotlin: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 84 avg views (80 videos)",
+        "Trending languages: Java (2.7x), Jupyter Notebook (4.6x)",
+        "Day performance: Fri=207, Tue=170, Thu=67, Wed=57, Sat=49, Mon=44, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
