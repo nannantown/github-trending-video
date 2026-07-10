@@ -1,15 +1,16 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "discovery": {
-    "method": "ecosystem",
-    "description": "Trending TOP5のうち4本がAIコーディングエージェントの周辺レイヤ。各リポの生態系上の位置と役割分担 (規律層・design token層・Office操作層・個人業務workflow層) を示す",
+    "method": "comparison",
+    "description": "Trending TOP5の各リポを類似OSSと1対1で対比し、いつどちらを選ぶかの判断軸を示す",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/MadsLorentzen/ai-job-search",
-      "https://github.com/SmartlyDressedGames/U3-SDK",
+      "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "https://github.com/oven-sh/bun",
+      "https://github.com/abseil/abseil-cpp",
       "https://github.com/addyosmani/agent-skills",
-      "https://github.com/VoltAgent/awesome-design-md",
-      "https://github.com/iOfficeAI/OfficeCLI"
+      "https://github.com/jbeder/yaml-cpp",
+      "https://github.com/biojppm/rapidyaml"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "MadsLorentzen/ai-job-search",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "fullName": "wonderwhy-er/DesktopCommanderMCP",
+      "name": "DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "language": "TypeScript",
-      "stars": 18785,
-      "todayStars": 3728,
-      "description": "Claude Codeで就活を自動化",
-      "detail": "CLAUDE.mdに履歴書を置き、/scrapeで求人検索、/applyで職務経歴書と志望動機の下書き生成まで一気通貫で回すClaude Codeフレームワークです。TypeScriptのポータルCLIとLaTeX moderncvも同梱します。",
-      "narration": "Claude Codeで就活を回すフレームワークです。/applyで応募書類の下書きまで自動生成します。"
+      "stars": 7238,
+      "todayStars": 349,
+      "description": "ClaudeにPCの全権を渡すMCP",
+      "detail": "ターミナル操作・ファイル検索・diff編集に加え、Excel/PDF/DOCXの読み書きまで積んだClaude用MCPサーバです。公式filesystem-mcpより機能が広く、Docker sandboxやaudit logで運用の安全側にも振れる点が差別化になります。",
+      "narration": "ClaudeにPCの全権を渡すMCPサーバです。公式より広く、Excel編集やaudit logまで揃います。"
     },
     {
       "rank": 2,
-      "fullName": "SmartlyDressedGames/U3-SDK",
-      "name": "U3-SDK",
-      "url": "https://github.com/SmartlyDressedGames/U3-SDK",
-      "language": "C#",
-      "stars": 1983,
-      "todayStars": 541,
-      "description": "Unturnedのフルソース公開",
-      "detail": "ゾンビサバイバルUnturned第3世代のUnityフルソースをGitHubに公開しました。Unity 2022.3.62f3で開くと、現役の商用ゲーム設計をそのまま読める大型学習素材になります。",
-      "narration": "ゾンビサバイバルUnturnedのUnity全ソース公開です。現役の商用ゲーム設計をそのまま学べます。"
+      "fullName": "oven-sh/bun",
+      "name": "bun",
+      "url": "https://github.com/oven-sh/bun",
+      "language": "Rust",
+      "stars": 94178,
+      "todayStars": 307,
+      "description": "Node.js置換の統合ランタイム",
+      "detail": "JavaScriptCore+Rustで組んだJS/TSランタイムに、bundler・test runner・package managerを1本の実行ファイルへ統合します。Node LTSより速く、Deno単体より周辺ツールが揃うので置換対象を選びやすいです。",
+      "narration": "Node.jsの代替を狙う統合JSランタイムです。ランタイム・bundler・testを1本にまとめます。"
     },
     {
       "rank": 3,
+      "fullName": "abseil/abseil-cpp",
+      "name": "abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "language": "C++",
+      "stars": 17506,
+      "todayStars": 106,
+      "description": "gRPCとprotobufを支える基盤",
+      "detail": "flat_hash_mapやabsl::StatusなどモダンC++の欠けを埋めるGoogle製ライブラリ集です。gRPC/protobuf/TensorFlowが依存する土台で、Boostほど全部盛りではなくFollyより広く採用されている実戦部品集です。",
+      "narration": "gRPCやprotobufを支えるGoogle製C++基盤です。BoostやFollyより実戦向けの部品集です。"
+    },
+    {
+      "rank": 4,
       "fullName": "addyosmani/agent-skills",
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 75801,
-      "todayStars": 2582,
-      "description": "70+ agent対応の規律層",
-      "detail": "DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIPの6 phaseに24 SKILL.mdを配置し、70+のエージェントで動くAI開発規律集です。Rationalizations Tableで手抜き言い訳を先回りで塞ぎます。",
-      "narration": "6 phase 24 SKILL.mdで70+エージェントを規律付けます。手抜き言い訳を先回りで潰します。"
-    },
-    {
-      "rank": 4,
-      "fullName": "VoltAgent/awesome-design-md",
-      "name": "awesome-design-md",
-      "url": "https://github.com/VoltAgent/awesome-design-md",
-      "language": null,
-      "stars": 99576,
-      "todayStars": 1233,
-      "description": "73ブランドのDESIGN.md集",
-      "detail": "Tesla・Figma・Nike・NintendoなどのブランドをGoogle Stitch規格の9セクション (色・タイポ・コンポーネント・レイアウト等) に整理したDESIGN.md集です。エージェントにコピーするだけでUI生成の一貫性が保てます。",
-      "narration": "Tesla・Figmaなど73ブランドのDESIGN.md集です。UI生成の一貫性が丸ごと跳ねます。"
+      "stars": 76773,
+      "todayStars": 1114,
+      "description": "AIエージェントの規律SKILL集",
+      "detail": "6 phase (DEFINE→…→SHIP) に24 SKILL.mdと8 slash commandを配置します。CLAUDE.mdの単発ルールと違い、Anti-Rationalization Tableでエージェントの言い訳を先回りに塞ぎます。",
+      "narration": "CLAUDE.mdの上位互換にあたる24 SKILL集です。エージェントの言い訳と手抜きを型で塞ぎます。"
     },
     {
       "rank": 5,
-      "fullName": "iOfficeAI/OfficeCLI",
-      "name": "OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "language": "C#",
-      "stars": 13353,
-      "todayStars": 1923,
-      "description": "Office文書を操るMCPサーバ",
-      "detail": "Word・Excel・PowerPointをnative binary 1本で読み書きするMCPサーバです。350+のExcel関数を自動評価し、path指定でスライド内オブジェクトも決定的に編集できます。Claude Code・Cursor・VS Code対応。",
-      "narration": "Word・Excel・PPTを操るMCPサーバです。Claude Codeから文書を決定的に編集できます。"
+      "fullName": "jbeder/yaml-cpp",
+      "name": "yaml-cpp",
+      "url": "https://github.com/jbeder/yaml-cpp",
+      "language": "C++",
+      "stars": 6072,
+      "todayStars": 65,
+      "description": "C++で定番のYAMLパーサ実装",
+      "detail": "YAML 1.2に準拠したC++の定番パーサ・エミッタで、Qt/UnrealEngineラッパの層も厚いです。速度重視ならrapidyamlが16〜30倍高速、統合の楽さや長年の実績で選ぶならyaml-cppが第一候補です。",
+      "narration": "C++の定番YAMLパーサです。速度ならrapidyamlが16倍上、実績と統合の楽さでyaml-cppを選びます。"
     }
   ]
 }
