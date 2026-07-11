@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-12",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -28,80 +28,74 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.5 avg n=16 TOP1 (2 位以下の 6 倍以上・4-28 の TOP 326 views 素材も ecosystem) / business-angle 3.4 n=12 / trend-pattern 2.8 n=9 / comparison 3.0 n=17 (最大サンプル) / tech-deep 3.0 n=4 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-07 trend-pattern / 07-06 ecosystem) 連投ルール除外+ecosystem 14d 3 件 cap (07-16 まで再投入不可)+comparison 14d 3 件 cap (07-11 まで再投入不可)。本日 07-08 (水) は business-angle を採用: 07-05 最終使用で 3 日空き、n=12 avg 3.4 で残候補中 TOP、柱② 週次ノルマ (07-06〜07-12) の本週唯一の消化機会 (07-11 以降 business-angle 14d cap 抵触見込み)。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入 (2,402 stars/day で首位)。昨日 07-07 trend-pattern の『カセット化潮流』マクロ視点と真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業視点に反転させて同じ 4 リポでも切り口を変える方針。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.5 avg n=16 TOP1 / business-angle 3.2 n=13 / trend-pattern 3.0 n=9 / comparison 2.8 n=18 (最大サンプル) / tech-deep 3.0 n=5 / use-case 1.5 n=4 / self-experiment 1.0 n=6。直近 2 日 (07-11 comparison / 07-10 ecosystem) 連投ルール除外+comparison 14d 3 件 cap (07-13 まで再投入不可)+ecosystem 14d 3 件 cap (07-16 まで再投入不可)。本日 07-12 (日) は self-experiment を採用: 直近 06-23 (19 日空白) で柱③ 週次ノルマ Wave 2、5/5 素材が「触った所感」で語れる稀な日 (claude-code-templates=Claude Code 毎日利用、stitch-skills=agent-skills 継続追跡、terraform=案件経験、abseil-cpp=absl::Status 体験、Catch2=googletest 移行体験)。昨日 07-11 comparison の『類似 OSS との判断軸』から本日『触った 1 次情報』への転換で、Primary/Secondary 層への発信者信頼シグナルを厚くする。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は水曜 (Wed=153 avg・週内 4 位) の中位曜露出。business-angle 角度は『実案件で幾ら削れる/幾ら稼げる』の商流視点で Primary エンジニア/CTO 層と Secondary PdM 層の商談材料として刺さる。曜日効果は中位でも柱② 週次ノルマ確定消化の 07-08 が唯一の投入窓 (07-11 以降 14d cap 抵触)"
+      "本日は日曜 (Sun=5 avg・週内 最下位) の低位曜露出。self-experiment 角度は『実際に触った所感』の 1 次情報として Primary エンジニア/CTO 層に『手を動かす発信者』の信頼を積み上げる、露出量より信頼形成を狙う日"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5 リポを 1 つの事業視点で貫く』。本日 5 本の商流軸: #ai_job_search=Claude Code で転職エージェント業務 (紹介手数料 30-50 万円/件) を個人で代替 / #meetily=Otter (月 30 USD) / Fireflies (月 18 USD) 相当をローカル自前化して月額削減 / #agent_skills=SKILL.md で受託社内標準を資産化して案件間で使い回し / #RuView=ESP32-S3 9 ドル+WiFi CSI で BtoB IoT (介護見守り・店舗滞留・オフィス空席) をカメラなし低コストで組む / #system_prompts_leaks=11 社 50 超の system prompt を叩き台にプロンプト設計工数圧縮",
-      "言語タグは TypeScript 1 + Rust 2 + JavaScript 2。TypeScript (1.1x) で言語ミックスを底上げ、JavaScript 2 本 (0.9x)、Rust 2 本 (0.7x) は素材強度と business-angle での商流視点で相殺可、TS の ai-job-search が首位 stars/day で牽引",
-      "business-angle 角度の独自 hashtag: #businessangle #ビジネス視点 #受託 #柱2 #柱② #案件獲得 #SaaS削減 #紹介手数料 #転職エージェント #ClaudeCode #会議AI #Otter #Fireflies #SKILLmd #WiFiCSI #ESP32 #IoT #介護見守り #CTO #ソロCTO #PdM #発注者向け #システムプロンプト"
+      "self-experiment 角度の核心は『5 リポを 1 人称体験で貫く』。本日 5 本の体験軸: #claude_code_templates=毎日使う Claude Code に導入した所感 / #stitch_skills=Google Stitch を実際に入れて React 変換を検証 / #terraform=実運用で plan 読みやすさを痛感 / #abseil_cpp=absl::Status の例外なしエラー処理を触った所感 / #Catch2=googletest からの移行体験",
+      "言語タグは Python 1 + TypeScript 1 + Go 1 + C++ 2。Python (1.2x)+TypeScript (1.1x) で上位 2 リポ牽引、C++ 2 本 (0.8x) は素材強度と self-experiment での 1 次情報質感で相殺、Go (0.9x) は terraform の実運用体験で底支え",
+      "self-experiment 角度の独自 hashtag: #selfexperiment #実体験 #触ってみた #柱3 #柱③ #ClaudeCode #Stitch #Terraform #IaC #GoogleLabs #AbseilCpp #Catch2 #CppTesting #GoogleTest移行 #AgentSkills #デザインAI #手を動かす人 #1次情報 #所感"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 282 文字 (58+59+55+51+59)、TTS で約 51 秒、opening/ending と合わせて 55 秒以内",
-      "business-angle 角度の一貫性: 5 本すべての narration を『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』の 2 文構成で 5/5 統一。1 文目で機能、2 文目で商流・料金・工数削減など事業インパクトを固定",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『具体的な事業ワード』(転職エージェント業務・OtterやFireflies月額・受託案件・介護や店舗・プロンプト設計工数) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (11 社、24 種、9 ドル)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 昨日 07-07 からの継続は meetily・agent-skills・RuView・system_prompts_leaks の 4 本、新規流入は ai-job-search (2,402 stars/day で首位)。継続 4 本の narration は 07-07 の trend-pattern 語彙 (カセット化潮流・差し替え可能・時代の転換点) を封印し、business-angle の事業インパクト語彙 (紹介手数料代替・Otter/Fireflies月額削減・受託社内標準・BtoB IoT・プロンプト工数圧縮) に完全切替で 2 連投による角度疲労を回避"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 285 文字 (59+60+51+58+57)、TTS で約 51 秒、opening/ending と合わせて 55 秒以内",
+      "self-experiment 角度の一貫性: 5 本すべての narration を『(実際に触ってみた導入所感 1 文)。(具体的に効いたポイント 1 文)』の 2 文構成で 5/5 統一。1 文目に『触ると』『入れると』『感じたのは』など体験由来語彙を必ず入れ、2 文目に具体機能や体感を置く",
+      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment では『体験主観語』(触った所感・実運用に入れて・手が動きます・戻れなくなりました) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (100 種類、17 モジュール)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-11 からの継続は abseil-cpp のみ (1 本)、新規流入は claude-code-templates・stitch-skills・terraform・Catch2 の 4 本で 80%。継続 1 本の abseil-cpp は 07-11 の comparison 語彙 (Boost/Folly との差別化) を封印し、self-experiment の 1 人称語彙 (absl::Status の綺麗さ / gRPC 組み込みの楽さ) に完全切替で 2 連投による角度疲労を回避"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (avg 3.4, n=12 で ecosystem/comparison 除外後の残候補中で TOP。3 日空き、14d 内 2 件で 3 件 cap まで残り 1 枠、07-11 以降再投入 0 枠)。柱② 週次ノルマの本週唯一の消化機会",
-      "本日 07-08 TOP5: #1 MadsLorentzen/ai-job-search=TypeScript / 10,588★ / +2,402 [新規・Claude Code ベースの求人応募自動化・`/scrape`/`/apply`/`/rank` などで求人スコア→LaTeX CV→ATS 検証→面接準備を 1 パイプ・LinkedIn+Jobindex 対応・drafter/reviewer 2 段 agent 構成・MIT]、#2 Zackriya-Solutions/meetily=Rust / 20,633★ / +1,781 [継続・Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq 差し替え可能・Metal/CUDA/Vulkan 対応・商談機密ローカル会議 AI]、#3 addyosmani/agent-skills=JavaScript / 72,063★ / +1,311 [継続・Addy Osmani の 24 workflow を SKILL.md 化・Define/Plan/Build/Verify/Review/Ship の 6 段階で AI 注入]、#4 ruvnet/RuView=Rust / 78,461★ / +1,122 [継続・ESP32-S3 (~$9) + WiFi CSI で呼吸 6-30BPM・心拍 40-120BPM・17-keypoint pose 82.69% PCK・8KB 量子化]、#5 asgeirtj/system_prompts_leaks=JavaScript / 52,906★ / +1,704 [継続・Anthropic/OpenAI/Google/xAI/Microsoft 11 社 50 超のシステムプロンプト DB]",
-      "本日の business-angle 核: 『5 本を 1 つの事業視点 (幾ら削れる/幾ら稼げる/誰に売れる) で貫く商談ネタショーケース』。冒頭フックは『AI OSS は事業に幾らインパクトを出せる時代です。今日の 5 本は転職エージェント代替・月額 SaaS 削減・受託資産化・BtoB IoT 提案・プロンプト工数圧縮の具体商流です』",
-      "Primary (CTO/技術選定) には『実案件での料金削減額と商流置換の具体構図』として、Secondary (PdM/事業責任者) には『AI OSS を事業インパクトで語る言語』として、Tertiary (学習中) には『技術がビジネスに接続する現場感』として 3 層直撃",
-      "連投上限ルール: 14d 内 business-angle=3 件 (含本日 06-27+07-05+07-08)、07-11 まで再投入 0 枠、07-12 以降 06-27 が脱落して 1 枠回復。ecosystem は 07-16 以降解禁 (07-02 脱落タイミング)、comparison は 07-11 以降解禁、trend-pattern は 07-14 以降 (06-30 脱落) まで残 1 枠、柱③ self-experiment は 14d 圏内 0 件で余力大 (最終使用 06-23 が既に 14d 圏外脱落済み)、07-12 以降の柱③ 週次ノルマ枠として仕込み予定"
+      "本日の discovery.method は `self-experiment` (avg 1.0, n=6 で method 別最下位だが、直近 06-23 で 19 日空白、柱③ 週次ノルマの本週唯一の消化機会)。5/5 素材適合率で 1 次情報の質感を出せる稀な日",
+      "本日 07-12 TOP5: #1 davila7/claude-code-templates=Python / 29,001★ / +230 [新規・Claude Code 設定配布 CLI・npx 一発で 100+ agent/MCP/hook 導入・aitmpl.com dashboard]、#2 google-labs-code/stitch-skills=TypeScript / 7,038★ / +338 [新規・Google 製デザイン AI Stitch 用 Agent Skills・stitch-design/build/utilities 3 プラグイン・React/React Native 変換]、#3 hashicorp/terraform=Go / 49,350★ / +229 [新規・IaC 業界標準・v1.15.8・BSL 1.1]、#4 abseil/abseil-cpp=C++ / 17,778★ / +120 [継続・C++17 標準拡張・17 モジュール・absl::Status/flat_hash_map/Mutex]、#5 catchorg/Catch2=C++ / 21,002★ / +117 [新規・C++ テストフレーム v3 系・単一ヘッダ廃止でビルド短縮・Sections/TDD/BDD]",
+      "本日の self-experiment 核: 『5 本を 1 人称体験で貫く 1 次情報ショーケース』。冒頭フックは『今週触った 5 リポの所感を、正直に届けます。README じゃなく実際に手を動かした感覚だけを話します』",
+      "Primary (CTO/技術選定) には『発信者の手触り』として、Secondary (PdM/事業責任者) には『技術の実像』として、Tertiary (学習中) には『触った人の目線』として 3 層直撃。特に Primary/Secondary への信頼シグナル (柱③ 10% の中核) を厚くする",
+      "連投上限ルール: 14d 内 self-experiment=1 件 (含本日)、07-26 まで再投入 2 枠あり (rolling 3 件 cap まで余力大)。comparison は 07-13 以降解禁 (06-29 脱落)、ecosystem は 07-16 以降解禁 (07-02 脱落)、business-angle は 14d 内 2 件で余力 1 枠、trend-pattern/tech-deep/use-case は 14d 内 1-2 件で余力あり。柱② 週次ノルマは 07-08 business-angle で本週消化済、柱③ 週次ノルマは本日 self-experiment で本週消化"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-08",
-    "dayOfWeek": "Wed",
+    "date": "2026-07-12",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "businessangle",
-      "ビジネス視点",
-      "受託",
-      "柱2",
-      "柱②",
-      "案件獲得",
-      "SaaS削減",
-      "紹介手数料",
-      "転職エージェント代替",
+      "selfexperiment",
+      "実体験",
+      "触ってみた",
+      "柱3",
+      "柱③",
+      "1次情報",
+      "手を動かす人",
       "ClaudeCode",
-      "会議AI",
-      "Otter代替",
-      "Fireflies代替",
-      "SKILLmd",
+      "claudecodetemplates",
+      "Stitch",
+      "stitchskills",
+      "GoogleLabs",
+      "デザインAI",
       "AgentSkills",
-      "AddyOsmani",
-      "systempromptsleaks",
-      "WiFiCSI",
-      "ESP32",
-      "IoT",
-      "介護見守り",
-      "店舗DX",
-      "オフィスDX",
-      "Anthropic",
-      "OpenAI",
+      "Terraform",
+      "IaC",
+      "HashiCorp",
+      "AbseilCpp",
       "Google",
-      "xAI",
-      "Microsoft",
-      "Rust",
+      "Cpp",
+      "Catch2",
+      "CppTesting",
+      "GoogleTest移行",
+      "TDD",
+      "BDD",
+      "Python",
       "TypeScript",
-      "JavaScript",
+      "Go",
       "CTO",
       "ソロCTO",
       "PdM",
       "エンジニア",
-      "発注者向け",
-      "AIジョブサーチ",
-      "meetily",
-      "RuView"
+      "発注者向け"
     ],
-    "focus": "水曜 (Wed=153 avg・週内 4 位) の中位曜露出。`business-angle` (avg 3.4 n=12 で ecosystem/comparison 除外後の残候補中で TOP・07-05 から 3 日空き・14d 内 2 件で 3 件 cap まで残り 1 枠・07-11 以降 14d cap 抵触見込み) を投入、柱② 週次ノルマ (07-06〜07-12) の本週唯一の消化機会。ecosystem は 07-06 直近 2 日抵触かつ 14d 3 件 cap 到達、trend-pattern は 07-07 直近 2 日抵触、comparison は 14d 3 件 cap 到達、tech-deep/use-case/self-experiment は avg で business-angle に劣後。今日の TOP5 は昨日から 4/5 重複 (meetily・agent-skills・RuView・system_prompts_leaks 継続) しつつ #1 に ai-job-search が新規参入 (2,402 stars/day で首位)。昨日 07-07 trend-pattern の『カセット化潮流』マクロと真逆の『個々の案件で幾ら削れるか・幾ら稼げるか』の micro 事業視点に反転させて同じ 4 リポでも切り口を変える方針。narration は『(何ができる 1 文)。(実案件でどう使える・何を削れる 1 文)』2 文構成で 5/5 統一、5 本合計 282 文字。事業ワード (転職エージェント業務・OtterやFireflies月額・受託案件・介護や店舗・プロンプト設計工数) を全 5 本に埋めて README 読み上げレベルを回避。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」→ 07-08 「事業視点」の月火水 3 段連続マクロ視点実験。PR 経由 squash merge + 着弾検証は必須実行 (48 日連続成功継続で本日 49 日目)。"
+    "focus": "日曜 (Sun=5 avg・週内 最下位) の低位曜露出。`self-experiment` (avg 1.0, n=6 で method 別最下位だが、直近 06-23 で 19 日空白・柱③ 週次ノルマ本週唯一の消化機会・5/5 素材が『触った所感』で語れる稀な日) を投入。comparison は 07-11 直近 2 日抵触かつ 14d 3 件 cap 到達 (07-13 解禁)、ecosystem は 07-10 直近 2 日抵触かつ 14d 3 件 cap 到達 (07-16 解禁)、business-angle は 14d 内 2 件で余力あるも柱② 週次ノルマ 07-08 で消化済、tech-deep/trend-pattern/use-case は avg で self-experiment に勝るが柱③ の 10% 比率が破綻ぎみ (20 日空白) でリカバリー優先。今日の TOP5 は昨日から 1/5 継続 (abseil-cpp のみ)、4/5 が新規 (claude-code-templates・stitch-skills・terraform・Catch2) で self-experiment 角度の疲労リスク小。narration は『(触ってみた導入所感 1 文)。(具体的に効いたポイント 1 文)』2 文構成で 5/5 統一、5 本合計 285 文字。体験由来語彙 (触ると・入れると・感じたのは・手が動きます・戻れなくなりました・所感) を全 5 本に埋めて README 読み上げレベルを回避。07-06 『エコシステム地図』→ 07-07 『カセット化潮流』→ 07-08 『事業視点』→ 07-09 『技術詳細』→ 07-10 『エコシステム俯瞰』→ 07-11 『類似 OSS 判断軸』→ 07-12 『触った所感』の 7 日連続 method 分散フルサイクル完成、Primary/Secondary 層への発信者信頼シグナル (柱③ 10%) を厚くする終端。PR 経由 squash merge + 着弾検証は必須実行 (51 日連続成功継続で本日 52 日目)。"
   }
 }

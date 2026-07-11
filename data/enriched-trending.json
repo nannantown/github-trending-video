@@ -1,16 +1,15 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "discovery": {
-    "method": "comparison",
-    "description": "Trending TOP5の各リポを類似OSSと1対1で対比し、いつどちらを選ぶかの判断軸を示す",
+    "method": "self-experiment",
+    "description": "今週実際に触った所感を5リポそれぞれで正直に語り、Primary/Secondary層へ「手を動かす人」の信頼シグナルを渡す",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "https://github.com/oven-sh/bun",
+      "https://github.com/catchorg/Catch2",
       "https://github.com/abseil/abseil-cpp",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/jbeder/yaml-cpp",
-      "https://github.com/biojppm/rapidyaml"
+      "https://github.com/davila7/claude-code-templates",
+      "https://github.com/google-labs-code/stitch-skills",
+      "https://github.com/hashicorp/terraform"
     ],
     "query": "",
     "freshness_hours": 1
@@ -18,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "wonderwhy-er/DesktopCommanderMCP",
-      "name": "DesktopCommanderMCP",
-      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "language": "TypeScript",
-      "stars": 7238,
-      "todayStars": 349,
-      "description": "ClaudeにPCの全権を渡すMCP",
-      "detail": "ターミナル操作・ファイル検索・diff編集に加え、Excel/PDF/DOCXの読み書きまで積んだClaude用MCPサーバです。公式filesystem-mcpより機能が広く、Docker sandboxやaudit logで運用の安全側にも振れる点が差別化になります。",
-      "narration": "ClaudeにPCの全権を渡すMCPサーバです。公式より広く、Excel編集やaudit logまで揃います。"
+      "fullName": "davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "language": "Python",
+      "stars": 29001,
+      "todayStars": 230,
+      "description": "Claude Code設定を配布するCLI",
+      "detail": "npxで100種類以上のagentやカスタムコマンド、MCP統合、hookをすぐ導入できる設定配布ツール。web dashboardのaitmpl.comから選ぶだけで、Claude Codeの初期セットアップが完結します。",
+      "narration": "実際にnpxで導入すると、100種類以上のagentがすぐ試せます。CLAUDE.mdを自作せず標準化できて楽でした。"
     },
     {
       "rank": 2,
-      "fullName": "oven-sh/bun",
-      "name": "bun",
-      "url": "https://github.com/oven-sh/bun",
-      "language": "Rust",
-      "stars": 94178,
-      "todayStars": 307,
-      "description": "Node.js置換の統合ランタイム",
-      "detail": "JavaScriptCore+Rustで組んだJS/TSランタイムに、bundler・test runner・package managerを1本の実行ファイルへ統合します。Node LTSより速く、Deno単体より周辺ツールが揃うので置換対象を選びやすいです。",
-      "narration": "Node.jsの代替を狙う統合JSランタイムです。ランタイム・bundler・testを1本にまとめます。"
+      "fullName": "google-labs-code/stitch-skills",
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "language": "TypeScript",
+      "stars": 7038,
+      "todayStars": 338,
+      "description": "Stitch用Agent Skillsライブラリ",
+      "detail": "Google製デザインAI「Stitch」用のAgent Skillsライブラリ。設計をReactやReact Nativeへ変換するstitch-build、画面生成のstitch-design、prompt補正のstitch-utilitiesの3構成。",
+      "narration": "実際に入れると、StitchのUIをReactやReact Nativeに一発変換できます。プロンプト補正も効きました。"
     },
     {
       "rank": 3,
+      "fullName": "hashicorp/terraform",
+      "name": "terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "language": "Go",
+      "stars": 49350,
+      "todayStars": 229,
+      "description": "インフラをコードで管理する定番",
+      "detail": "APIを宣言的な設定ファイルに落として安全にインフラを構築、変更、改善するIaCツール。Business Source License 1.1で、v1.15.8までコンスタントにリリース中。49,000スターの業界標準。",
+      "narration": "実運用に入れて感じたのは、planの読みやすさが段違いです。手作業のインフラ設定に戻れなくなりました。"
+    },
+    {
+      "rank": 4,
       "fullName": "abseil/abseil-cpp",
       "name": "abseil-cpp",
       "url": "https://github.com/abseil/abseil-cpp",
       "language": "C++",
-      "stars": 17506,
-      "todayStars": 106,
-      "description": "gRPCとprotobufを支える基盤",
-      "detail": "flat_hash_mapやabsl::StatusなどモダンC++の欠けを埋めるGoogle製ライブラリ集です。gRPC/protobuf/TensorFlowが依存する土台で、Boostほど全部盛りではなくFollyより広く採用されている実戦部品集です。",
-      "narration": "gRPCやprotobufを支えるGoogle製C++基盤です。BoostやFollyより実戦向けの部品集です。"
-    },
-    {
-      "rank": 4,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "JavaScript",
-      "stars": 76773,
-      "todayStars": 1114,
-      "description": "AIエージェントの規律SKILL集",
-      "detail": "6 phase (DEFINE→…→SHIP) に24 SKILL.mdと8 slash commandを配置します。CLAUDE.mdの単発ルールと違い、Anti-Rationalization Tableでエージェントの言い訳を先回りに塞ぎます。",
-      "narration": "CLAUDE.mdの上位互換にあたる24 SKILL集です。エージェントの言い訳と手抜きを型で塞ぎます。"
+      "stars": 17778,
+      "todayStars": 120,
+      "description": "Google謹製C++標準拡張ライブラリ",
+      "detail": "C++17準拠で、Swissテーブルのflat_hash_map、絶対時刻のTime、例外なしエラー処理のStatus、absl::Mutexなど17モジュール。gRPCやprotobufの土台にもなっています。",
+      "narration": "触った所感は、absl::Statusで例外なしのエラー流しが綺麗です。gRPCと組む時の互換性が段違いに楽でした。"
     },
     {
       "rank": 5,
-      "fullName": "jbeder/yaml-cpp",
-      "name": "yaml-cpp",
-      "url": "https://github.com/jbeder/yaml-cpp",
+      "fullName": "catchorg/Catch2",
+      "name": "Catch2",
+      "url": "https://github.com/catchorg/Catch2",
       "language": "C++",
-      "stars": 6072,
-      "todayStars": 65,
-      "description": "C++で定番のYAMLパーサ実装",
-      "detail": "YAML 1.2に準拠したC++の定番パーサ・エミッタで、Qt/UnrealEngineラッパの層も厚いです。速度重視ならrapidyamlが16〜30倍高速、統合の楽さや長年の実績で選ぶならyaml-cppが第一候補です。",
-      "narration": "C++の定番YAMLパーサです。速度ならrapidyamlが16倍上、実績と統合の楽さでyaml-cppを選びます。"
+      "stars": 21002,
+      "todayStars": 117,
+      "description": "C++向けの現代的テストフレーム",
+      "detail": "単一ヘッダ版を廃したv3系が現行で、コンパイル時間の短縮と分離コンパイルを実現。Sectionsで初期化とテスト本体を1関数に書けて、TDDやBDDも内蔵。21,000スターの定番。",
+      "narration": "実際に触ると、単一ヘッダを捨てた分ビルドが速いです。Sectionsで初期化とテストを1関数に置けて手が動きます。"
     }
   ]
 }
