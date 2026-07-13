@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13",
+  "updatedAt": "2026-07-14",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -28,77 +28,77 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.6 avg n=16 TOP1 / business-angle 3.2 n=13 / trend-pattern 3.0 n=9 / tech-deep 3.0 n=5 / comparison 2.9 n=18 (最大サンプル) / use-case 1.5 n=4 / self-experiment 0.9 n=7。直近 2 日 (07-12 self-experiment / 07-11 comparison) 連投ルール除外+ecosystem 14d 3 件 cap (07-16 まで再投入不可)。本日 07-13 (月) は business-angle を採用: 14d 内 2 件 (07-05+07-08) で余力 1 枠、5/5 素材が『受託・スタートアップ・コンサル視点』で 1 次価値提案を持つ稀な日 (destructive_command_guard=事故コスト削減+SOC2/FedRAMP監査、DesktopCommanderMCP=サブスク定額でクライアント月額見積、Vibe-Trading=クオンツ工数削減+mandate 境界、Prefect=Airflow 代替でインフラ費削減、awesome-llm-apps=案件提案フェーズの工数半日刻み)。昨日 07-12 self-experiment の『触った所感』から本日 07-13 の『受託の商談に使える言語』への転換で、Phase 2 (フォロワー 1,000 到達後の LP / 相談フォーム動線) の準備を始める終端。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.6 avg n=16 TOP1 / business-angle 3.0 n=14 / trend-pattern 3.0 n=9 / tech-deep 3.0 n=5 / comparison 2.9 n=18 (最大サンプル) / use-case 1.5 n=4 / self-experiment 0.9 n=7。直近 2 日 (07-13 business-angle / 07-12 self-experiment) 連投ルール除外+business-angle 14d 3 件 cap (07-19 まで再投入不可)+ecosystem 14d 2 件で 07-16 まで cap 抵触リスク。本日 07-14 (火) は tech-deep を採用: 14d 内 1 件で余力 2 枠、5/5 素材が技術的独自性 (アーキテクチャ or データフロー or 拡張点) を持ち適合率 100% (OpenCut=Rust core+MCP+plugin+headless, Vibe-Trading=AST事前検証+mandate/kill-switch+19データ源, awesome-llm-apps=100+実装+ADK/OpenAI SDK/CrewAI/LangGraph, Graphify=tree-sitter AST+Leiden+EXTRACTED/INFERRED来歴タグ+MCP, spec-kit=constitution→spec→plan→tasks→implement 6段階+30+エージェント連携)。昨日 07-13 business-angle の『受託の商談言語』から本日 07-14 の『技術設計の骨格』への揺り戻しで、Primary CTO 層に明日の技術選定に使える設計理解を渡す。火曜 (Tue=361 avg, 週内 1 位) の高位曜露出とも整合。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は月曜 (Mon=61 avg・週内 5 位) の中位曜露出。business-angle 角度は『受託・スタートアップ視点の 1 次価値提案』を Primary CTO/Secondary PdM 層に届け、Phase 2 の商談動線を仕込む日"
+      "本日は火曜 (Tue=361 avg・週内 1 位) の高位曜露出。tech-deep 角度は『技術的独自性・アーキテクチャの骨格』を Primary CTO 層に届け、明日の技術選定の材料として仕込む日"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5 リポを事業視点で貫き、明日の見積もりに使える 1 次情報を渡す』。本日 5 本の事業軸: #destructive_command_guard=AI エージェント運用事故の SOC2 監査対応 / #DesktopCommanderMCP=API 課金でなくサブスクだけで自動化案件を回す月額固定見積 / #Vibe_Trading=スタートアップの投資戦略検証で外注クオンツ工数削減 / #Prefect=Airflow より軽い受託データ基盤でインフラ費削減 / #awesome_llm_apps=AI 案件提案フェーズの工数を半日単位で刻む",
-      "言語タグは Rust 1 + TypeScript 1 + Python 3。Python (1.2x) 3 本で上位牽引、TypeScript (1.1x) 1 本で下支え、Rust (0.7x) 1 本は素材強度 (2,796★ +444 で 1 日 stars 増 3 位) と business-angle の事業視点で相殺",
-      "business-angle 角度の独自 hashtag: #businessangle #事業視点 #受託 #案件見積もり #柱2 #柱② #ClaudeCode #MCP #IaC #Prefect #Airflow代替 #AIエージェント #AIコンサル #SOC2 #FedRAMP #スタートアップ #フリーランス #工数削減 #月額固定 #Rust #TypeScript #Python"
+      "tech-deep 角度の核心は『5 リポを技術的独自性で貫き、なぜ今この設計が伸びているかを渡す』。本日 5 本の技術軸: #OpenCut=Rustコアground-up書き直し+Editor API+headlessレンダ+MCP+plugin優先設計 / #Vibe_Trading=LangGraphマルチエージェント+AST事前検証+OHLC完整性ガード+mandate/kill-switch/audit ledger 3層安全 / #awesome_llm_apps=100+実装カタログ+ADK/OpenAI SDK/CrewAI/LangGraph+Agentic RAG/Corrective RAG/Multimodal RAG バリアント / #Graphify=tree-sitter AST+Leidenクラスタ+EXTRACTED/INFERRED来歴タグ+MCP 20+プラットフォーム対応 / #spec_kit=constitution→specify→clarify→plan→tasks→implement 6段階+30+エージェント連携+.specify/ディレクトリ",
+      "言語タグは TypeScript 1 + Python 4。Python (1.2x) 4 本で強く上位牽引、TypeScript (1.1x) 1 本で下支え。Rust 素材 (OpenCut コア書き直し) は language タグでは TypeScript 側だが narration で Rust 明示",
+      "tech-deep 角度の独自 hashtag: #techdeep #アーキテクチャ #柱1 #柱① #MCP #ClaudeCode #Codex #Cursor #LangGraph #CrewAI #ADK #AgenticRAG #treeSitter #Leiden #RustCore #headless #EditorAPI #SpecDriven #Copilot #TypeScript #Python #CTO #技術選定"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 267 文字 (54+50+55+54+54)、TTS で約 48 秒、opening/ending と合わせて 55 秒以内",
-      "business-angle 角度の一貫性: 5 本すべての narration を『(受託 or スタートアップ or コンサル観点の 1 次価値提案 1 文)。(その根拠・条件を数字か固有名詞で 1 文)』の 2 文構成で 5/5 統一。1 文目に『受託で組むなら』『案件見積もり』『月額固定』『工数を削れます』『戻れなくなります』など事業由来語彙を必ず入れ、2 文目に具体機能・数値・SOC2/mandate/Airflow など固有名詞を置く",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『事業視点主観語』(受託・案件・スタートアップ・見積もり・工数削減・境界) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (100+、v3.7.8、19、50 超)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 昨日 07-12 からの継続はゼロ、5/5 全て新規流入 (destructive_command_guard・DesktopCommanderMCP・Vibe-Trading・Prefect・awesome-llm-apps)。昨日の self-experiment 語彙 (触った所感・入れると) を完全封印し、business-angle の事業視点語彙 (受託で組むなら・工数を削れます) に切替で角度疲労リスクゼロ"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 294 文字 (59+60+58+57+60)、TTS で約 53 秒、opening/ending と合わせて 55 秒以内",
+      "tech-deep 角度の一貫性: 5 本すべての narration を『(一言でどんなリポか、フック 1 文)。(技術的独自性・アーキテクチャの特徴を固有名詞で 1 文)』の 2 文構成で 5/5 統一。1 文目に『OSS 動画エディタ』『マルチエージェント基盤』『実装カタログ』『知識グラフ化 CLI』『開発ツールキット』などリポの本質規定を置き、2 文目に『Rust コア』『plugin/headless/MCP』『AST 事前検証』『mandate』『CrewAI/LangGraph』『tree-sitter/Leiden』『Spec-Driven』など技術固有名詞を必ず入れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『技術主観語』(アーキテクチャ・データフロー・拡張点・設計パターン) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (100+, 19, 30+)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-13 からの継続は 2 本 (Vibe-Trading rank3→2 / awesome-llm-apps rank5→3)、新規流入 3 本 (OpenCut / Graphify / spec-kit)。継続 2 本は昨日の business-angle 語彙 (受託・工数削減) を完全封印し、tech-deep の技術固有名詞語彙 (AST 事前検証・mandate / CrewAI・LangGraph 設計パターン) に切替で角度疲労リスクなし"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (avg 3.2, n=13 で method 別 2 位、ecosystem 除外時の実質最強候補)。5/5 素材適合率で 1 次価値提案の質感を出せる稀な日",
-      "本日 07-13 TOP5: #1 Dicklesworthstone/destructive_command_guard=Rust / 2,796★ / +444 [新規・AI agent の破壊コマンド遮断 Rust フック・50+ セキュリティパック・Claude Code+Codex CLI+Cursor 自動セットアップ・SOC2/FedRAMP 監査対応]、#2 wonderwhy-er/DesktopCommanderMCP=TypeScript / 7,965★ / +207 [新規・Claude Desktop 用 MCP・端末+FS+Excel/PDF/DOCX+Docker 隔離+allowedDirectories・API 課金回避のサブスク定額運用]、#3 HKUDS/Vibe-Trading=Python / 20,486★ / +776 [新規・自然言語 → 戦略 → バックテスト マルチエージェント・19 マーケットデータ源・IB/Alpaca 接続・mandate+kill-switch]、#4 PrefectHQ/prefect=Python / 23,123★ / +55 [新規・Apache 2.0 Python ワークフロー基盤・v3.7.8・@flow/@task・セルフホスト・Fortune 50 Progressive 実績]、#5 Shubhamsaboo/awesome-llm-apps=Python / 118,473★ / +450 [新規・Apache 2.0 100+ AI Agent/RAG カタログ・Claude/OpenAI/Gemini/MCP/CrewAI/LangGraph 網羅]",
-      "本日の business-angle 核: 『5 本を事業視点で貫く 1 次価値提案ショーケース』。冒頭フックは『今日の 5 リポを、受託と事業視点で切ります。読み上げでなく、明日の見積もりに使える言葉だけ渡します』",
-      "Primary (CTO/技術選定) には『受託パートナーとしての言語』として、Secondary (PdM/事業責任者) には『技術投資の事業インパクト』として、Tertiary (学習中) には『事業側から見た OSS の使いどころ』として 3 層直撃。特に Primary/Secondary への商談動線 (Phase 2 の LP / 相談フォーム準備) を厚くする",
-      "連投上限ルール: 14d 内 business-angle=3 件 (含本日)、07-19 に 07-05 脱落まで再投入 0 枠 (rolling 3 件 cap 到達)。comparison は 07-13 以降解禁 (06-29 脱落)、ecosystem は 07-16 以降解禁 (07-02 脱落)、self-experiment は 07-12 直近 2 日抵触で本日除外、tech-deep/trend-pattern は 14d 内 1-2 件で余力あり、use-case は 14d 内 0 件で 20 日空白 (柱① 低位方向のリカバリ候補)。柱② 週次ノルマは本日 business-angle で本週消化、柱③ 週次ノルマは 07-12 self-experiment で先週消化済"
+      "本日の discovery.method は `tech-deep` (avg 3.0, n=5 で method 別 3-4 位 tie、business-angle と ecosystem 除外時の実質最強候補)。5/5 素材適合率で技術的独自性の質感を出せる稀な日",
+      "本日 07-14 TOP5: #1 OpenCut-app/OpenCut=TypeScript / 66,087★ / +1,077 [新規・OSS CapCut 代替動画エディタ・Rust コア ground-up 書き直し・Moon monorepo + Bun + Cloudflare Workers・Editor API + plugin + headless + MCP]、#2 HKUDS/Vibe-Trading=Python / 21,676★ / +1,148 [昨日 rank3 継続・LangGraph マルチエージェント基盤・AST 事前検証 + OHLC 完整性ガード・19 データ源 + 10 broker (IB/Alpaca/Binance/OKX 等)・mandate/kill-switch/audit ledger 3 層安全機構]、#3 Shubhamsaboo/awesome-llm-apps=Python / 119,527★ / +1,006 [昨日 rank5 継続・Apache 2.0 100+ AI Agent/RAG カタログ・Google ADK / OpenAI SDK / CrewAI / LangGraph / AG2 実装例・Agentic RAG / Corrective RAG / Multimodal RAG / Voice / Multi-agent teams パターン]、#4 Graphify-Labs/graphify=Python / 84,584★ / +1,028 [新規・tree-sitter AST + Leiden クラスタで自動知識グラフ化・EXTRACTED / INFERRED / AMBIGUOUS 来歴タグ・graph.json ポータブル + Neo4j/FalkorDB オプション export・MCP サーバとして 20+ プラットフォーム対応]、#5 github/spec-kit=Python / 120,554★ / +508 [新規・GitHub 公式 Spec-Driven Development ツールキット・constitution→specify→clarify→plan→tasks→implement 6 段階 CLI・.specify/ ディレクトリと /speckit.* slash commands・30+ AI エージェント連携]",
+      "本日の tech-deep 核: 『5 本を技術的独自性で貫くアーキテクチャショーケース』。冒頭フックは『今日の 5 リポを、Rust コア、AST 事前検証、Leiden クラスタ、Spec-Driven の視点で切ります。読み上げでなく、明日の技術選定に使える設計の骨格だけ渡します』",
+      "Primary (CTO/技術選定) には『技術投資判断の材料』として、Secondary (PdM/事業責任者) には『技術用語の輪郭』として、Tertiary (学習中) には『設計パターン学習リポ紹介』として 3 層直撃。特に Primary への訴求を厚く、AI エージェント stack の設計判断 (host / protocol / skill / orchestration / tool) をカード裏で示唆",
+      "連投上限ルール: 14d 内 tech-deep=2 件 (含本日、07-09+07-14)、余力 1 枠。business-angle は 07-19 に 07-05 脱落まで再投入 0 枠 (rolling 3 件 cap 到達)、ecosystem は 07-16 以降解禁 (07-02 脱落)、comparison は 14d 2 件で余力 1 枠、trend-pattern は 14d 1 件 (07-07)、use-case は 14d 0 件 (20 日空白 = 柱① 低位リカバリ候補)、self-experiment は 07-12 直近 2 日抵触で本日除外。柱② 週次ノルマは 07-13 消化済、柱③ 週次ノルマは 07-12 消化済で来週日曜は柱①③ どちらでも可"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-13",
-    "dayOfWeek": "Mon",
+    "date": "2026-07-14",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "businessangle",
-      "事業視点",
-      "受託",
-      "案件見積もり",
-      "柱2",
-      "柱②",
-      "商談",
+      "techdeep",
+      "アーキテクチャ",
+      "柱1",
+      "柱①",
+      "技術選定",
+      "設計パターン",
       "AIエージェント",
-      "AIコンサル",
-      "ClaudeCode",
       "MCP",
-      "DesktopCommander",
-      "Trading",
-      "FinTech",
-      "スタートアップ",
-      "クオンツ",
-      "Prefect",
-      "Airflow代替",
-      "データ基盤",
-      "IaC",
-      "LLMApps",
-      "RAG",
+      "ClaudeCode",
+      "Codex",
+      "Cursor",
+      "Copilot",
       "LangGraph",
       "CrewAI",
-      "SOC2",
-      "FedRAMP",
-      "コンプラ",
-      "Rust",
+      "ADK",
+      "AgenticRAG",
+      "treeSitter",
+      "Leiden",
+      "RustCore",
+      "headless",
+      "EditorAPI",
+      "SpecDriven",
+      "OpenCut",
+      "Vibe_Trading",
+      "awesome_llm_apps",
+      "Graphify",
+      "spec_kit",
       "TypeScript",
       "Python",
       "CTO",
       "ソロCTO",
       "PdM",
-      "フリーランス",
-      "月額固定",
-      "工数削減"
+      "動画編集",
+      "Trading",
+      "RAG",
+      "KnowledgeGraph"
     ],
-    "focus": "月曜 (Mon=61 avg・週内 5 位) の中位曜露出。`business-angle` (avg 3.2, n=13 で method 別 2 位、ecosystem 除外時の実質最強・14d 内 2 件で余力 1 枠・5/5 素材が『受託・スタートアップ・コンサル視点』で 1 次価値提案) を投入。ecosystem は 07-10 直近 2 日抵触かつ 14d 3 件 cap 到達 (07-16 解禁)、comparison は 07-11 直近 2 日抵触 (07-13 解禁後の初日投入は控え、明日以降に温存)、self-experiment は 07-12 直近 2 日抵触で除外、tech-deep/trend-pattern/use-case は avg で business-angle に劣り 14d 内使用済または柱バランス劣後で見送り。本日の TOP5 は 5/5 全て新規 (継続ゼロ) で business-angle 角度の疲労リスクゼロ。narration は『(受託・スタートアップ・コンサル観点の 1 次価値提案 1 文)。(その根拠・条件を数字か固有名詞で 1 文)』2 文構成で 5/5 統一、5 本合計 267 文字。事業由来語彙 (受託・案件・スタートアップ・見積もり・工数削減・境界・戻れなくなります) を全 5 本に埋めて README 読み上げレベルを回避。07-06 『エコシステム地図』→ 07-07 『カセット化潮流』→ 07-08 『事業視点』→ 07-09 『技術詳細』→ 07-10 『エコシステム俯瞰』→ 07-11 『類似 OSS 判断軸』→ 07-12 『触った所感』→ 07-13 『受託の商談言語』の 8 日連続 method 分散フルサイクル完成、Phase 2 (フォロワー 1,000 到達後の LP / 相談フォーム動線) の準備を始める終端。PR 経由 squash merge + 着弾検証は必須実行 (52 日連続成功継続で本日 53 日目)。"
+    "focus": "火曜 (Tue=361 avg・週内 1 位) の高位曜露出。`tech-deep` (avg 3.0, n=5 で method 別 3-4 位 tie、business-angle 14d cap / ecosystem 14d 2 件抵触リスク / self-experiment 直近 2 日抵触の除外時の実質最強・14d 内 1 件で余力 2 枠・5/5 素材が技術的独自性で適合率 100%) を投入。business-angle は 07-13 直近 2 日抵触かつ 14d 3 件 cap 到達 (07-19 解禁)、ecosystem は 14d 2 件で 07-16 まで cap 抵触リスク、comparison は 14d 2 件で余力 1 枠だが avg 2.9 で tech-deep に劣後、trend-pattern は 14d 1 件で有力候補だが素材適合率で tech-deep に劣後 (5/5 が技術独自性素材)、use-case は 20 日空白だが avg 1.5 で見送り、self-experiment は 07-12 直近 2 日抵触で除外。本日の TOP5 は 3/5 新規 (OpenCut/Graphify/spec-kit)、2/5 継続 (Vibe-Trading rank3→2 / awesome-llm-apps rank5→3) で継続分は昨日 business-angle 語彙を完全封印し tech-deep の技術固有名詞語彙に切替で角度疲労リスクなし。narration は『(一言でどんなリポか、フック 1 文)。(技術的独自性・アーキテクチャの特徴を固有名詞で 1 文)』2 文構成で 5/5 統一、5 本合計 294 文字。技術主観語 (アーキテクチャ・データフロー・拡張点・設計パターン) と技術固有名詞 (Rust コア・plugin/headless/MCP・AST 事前検証・mandate・CrewAI/LangGraph・tree-sitter/Leiden・Spec-Driven) を全 5 本に埋めて README 読み上げレベルを回避。07-08 『業務適用』→ 07-09 『技術詳細』→ 07-10 『エコシステム俯瞰』→ 07-11 『類似 OSS 判断軸』→ 07-12 『触った所感』→ 07-13 『受託の商談言語』→ 07-14 『技術設計の骨格』の 7 method 完全網羅サイクル達成、Primary CTO 層への訴求を最高地点で仕込む。PR 経由 squash merge + 着弾検証は必須実行 (53 日連続成功継続で本日 54 日目)。"
   }
 }

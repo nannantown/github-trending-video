@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "discovery": {
-    "method": "business-angle",
-    "description": "5リポそれぞれに「受託・スタートアップ・コンサル観点で何が削れるか」を数字と固有名詞で提示し、Primary CTO/Secondary PdM 層に明日の見積もり・意思決定に使える1次情報を渡す",
+    "method": "tech-deep",
+    "description": "5リポそれぞれの技術的独自性(アーキテクチャ・データフロー・拡張点)を、READMEとリリースノートを英語で読み解き、Primary CTO/Secondary PdM 層に『なぜ今この設計が伸びているか』を渡す",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "https://github.com/OpenCut-app/OpenCut",
       "https://github.com/HKUDS/Vibe-Trading",
-      "https://github.com/PrefectHQ/prefect",
-      "https://github.com/Shubhamsaboo/awesome-llm-apps"
+      "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "https://github.com/Graphify-Labs/graphify",
+      "https://github.com/github/spec-kit"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Dicklesworthstone/destructive_command_guard",
-      "name": "destructive_command_guard",
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "language": "Rust",
-      "stars": 2796,
-      "todayStars": 444,
-      "description": "エージェント暴走を防ぐshellガード",
-      "detail": "AI agentが実行する破壊コマンドを実行前に止めるRust製フック。git reset --hardやrm -rf、DROP TABLEを50超のセキュリティパックで遮断でき、Claude Codeなど主要CLIに自動セットアップ可能です。",
-      "narration": "受託でAIエージェント運用するなら、事故1回のリカバリ工数を丸ごと削れます。SOC2の監査ログにも効きます。"
+      "fullName": "OpenCut-app/OpenCut",
+      "name": "OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "language": "TypeScript",
+      "stars": 66087,
+      "todayStars": 1077,
+      "description": "Rustコア書き直し中のOSS動画編集",
+      "detail": "Rustコアでdesktop/mobile/browserを一本化する動画編集の書き直し。Editor APIとheadlessレンダ、MCP連携でAIから編集を叩けます。プラグイン優先設計で拡張性が高いです。",
+      "narration": "CapCut互換のOSS動画エディタです。Rustコア書き直しで、pluginとheadlessとMCPを内蔵します。"
     },
     {
       "rank": 2,
-      "fullName": "wonderwhy-er/DesktopCommanderMCP",
-      "name": "DesktopCommanderMCP",
-      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "language": "TypeScript",
-      "stars": 7965,
-      "todayStars": 207,
-      "description": "Claude Desktop用のフル制御MCP",
-      "detail": "Claude Desktopから端末やファイル、Excel・PDF・DOCXまで扱えるMCPサーバ。Docker隔離とallowedDirectories制御を備え、API課金ではなくサブスクだけで自動化が回ります。",
-      "narration": "受託の自動化案件、API課金でなくサブスクだけで回せます。月額固定でクライアント見積もりが立ちます。"
-    },
-    {
-      "rank": 3,
       "fullName": "HKUDS/Vibe-Trading",
       "name": "Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "language": "Python",
-      "stars": 20486,
-      "todayStars": 776,
-      "description": "個人向けAIトレーディング研究基盤",
-      "detail": "自然言語で戦略を作りバックテストまで回すマルチエージェント研究基盤。19の無料マーケットデータ源を自動フォールバック、ペーパートレードやIB/Alpaca接続も可能。ライブ発注は事前のmandateで縛れます。",
-      "narration": "スタートアップの投資戦略検証、外注のクオンツ工数を丸ごと削れます。ライブ発注はmandateで境界を作れます。"
+      "stars": 21676,
+      "todayStars": 1148,
+      "description": "AIが戦略を書き検証する取引基盤",
+      "detail": "LangGraphで組んだマルチエージェント基盤。生成したPython戦略をASTで事前検証し、19源のデータでbacktest、mandateとkill-switch付きでIB/Alpacaへのlive発注も可能。",
+      "narration": "自然言語で戦略を書くマルチエージェント基盤です。ASTで生成コードを事前検証し、mandate機構で本番発注も安全です。"
     },
     {
-      "rank": 4,
-      "fullName": "PrefectHQ/prefect",
-      "name": "prefect",
-      "url": "https://github.com/PrefectHQ/prefect",
-      "language": "Python",
-      "stars": 23123,
-      "todayStars": 55,
-      "description": "Python向けワークフローOSS基盤",
-      "detail": "Apache 2.0のPython製ワークフロー基盤で、v3.7.8までリリース中。@flow/@taskデコレータで学習コストが低く、セルフホスト運用でクラウド費用を抑えつつAirflowより軽い運用が可能です。",
-      "narration": "受託のデータ基盤、Airflowより軽くセルフホストで組めます。学習コストとインフラ費を同時に下げられます。"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "fullName": "Shubhamsaboo/awesome-llm-apps",
       "name": "awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "language": "Python",
-      "stars": 118473,
-      "todayStars": 450,
-      "description": "100超のAIエージェント実装集",
-      "detail": "Apache 2.0で配布される100+のAI Agent/RAG実装カタログ。Claude・OpenAI・GeminiやMCP、CrewAI、LangGraphを網羅し、Voice Agent、常駐Agent、Multi-agent Teamまで揃います。",
-      "narration": "AI案件の提案フェーズ、実装済みテンプレを使えば工数見積もりを半日単位で刻めます。受託の初動が速くなります。"
+      "stars": 119527,
+      "todayStars": 1006,
+      "description": "100超のAIエージェント実装カタログ",
+      "detail": "Apache 2.0で配布される100+のAI Agent・RAG実装集。Google ADK、OpenAI SDK、CrewAI、LangGraphの実例を並べ、Agentic RAGやVoice、Multi-agent teamsの設計パターンを学べます。",
+      "narration": "100超のAgent実装を集めた無料カタログです。MCP、CrewAI、LangGraphの設計パターンが学べます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Graphify-Labs/graphify",
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "language": "Python",
+      "stars": 84584,
+      "todayStars": 1028,
+      "description": "コード資産を知識グラフ化するCLI",
+      "detail": "tree-sitterでASTを解析し、Leidenクラスタで自動分割する知識グラフCLI。edgeにEXTRACTED/INFERREDの来歴タグが付き、MCP経由でClaude CodeやCodexから直接クエリできます。",
+      "narration": "コードや資料を知識グラフ化します。tree-sitterとLeidenで解析し、MCP経由でAIから直接引けます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "github/spec-kit",
+      "name": "spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "language": "Python",
+      "stars": 120554,
+      "todayStars": 508,
+      "description": "GitHub製のSpec-Driven開発CLI",
+      "detail": "constitution→spec→plan→tasks→implementの5段階をCLIで生成する開発キット。/speckit.*コマンドをClaudeやCopilotなど30+のエージェントから叩けます。",
+      "narration": "GitHub製のSpec-Driven開発ツールキットです。specやplanを分けAIエージェントに段階実装させます。"
     }
   ]
 }
