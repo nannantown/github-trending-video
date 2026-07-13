@@ -2,45 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "d2Gs5FkSEsQ",
-      "videoUrl": "https://youtube.com/shorts/d2Gs5FkSEsQ",
-      "date": "2026-04-13",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/13 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "projects": [
-        "NousResearch/hermes-agent",
-        "shiyu-coder/Kronos",
-        "forrestchang/andrej-karpathy-skills",
-        "microsoft/markitdown",
-        "multica-ai/multica"
-      ],
-      "durationSeconds": 66,
-      "stats": {
-        "views": 251,
-        "likes": 7,
-        "comments": 0,
-        "updatedAt": "2026-04-27T23:40:34.284Z"
-      }
-    },
-    {
       "videoId": "qbf2-Dgvr78",
       "videoUrl": "https://youtube.com/shorts/qbf2-Dgvr78",
       "date": "2026-04-14",
@@ -3701,7 +3662,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -3755,7 +3716,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -3812,7 +3773,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -3868,7 +3829,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -3921,7 +3882,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -3973,7 +3934,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4025,7 +3986,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4078,7 +4039,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4132,7 +4093,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4185,7 +4146,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4239,7 +4200,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4294,7 +4255,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
+        "updatedAt": "2026-07-13T23:39:49.616Z"
       }
     },
     {
@@ -4344,6 +4305,58 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-13T23:39:49.616Z"
+      }
+    },
+    {
+      "videoId": "ykWdU9RmLlk",
+      "videoUrl": "https://youtube.com/shorts/ykWdU9RmLlk",
+      "date": "2026-07-14",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/14 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "OpenCut-app/OpenCut",
+        "HKUDS/Vibe-Trading",
+        "Shubhamsaboo/awesome-llm-apps",
+        "Graphify-Labs/graphify",
+        "github/spec-kit"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "5リポそれぞれの技術的独自性(アーキテクチャ・データフロー・拡張点)を、READMEとリリースノートを英語で読み解き、Primary CTO/Secondary PdM 層に『なぜ今この設計が伸びているか』を渡す",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/OpenCut-app/OpenCut",
+          "https://github.com/HKUDS/Vibe-Trading",
+          "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "https://github.com/Graphify-Labs/graphify",
+          "https://github.com/github/spec-kit"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4352,18 +4365,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-10",
-      "changes": [
-        "JavaScript: 0.0x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "standard: 143 avg views (58 videos)",
-        "Trending languages: Kotlin (2.8x), C++ (2.8x), Jupyter Notebook (2.7x)",
-        "Day performance: Tue=310, Fri=276, Thu=157, Wed=153, Sat=71, Mon=55, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-11",
       "changes": [
@@ -4843,6 +4844,24 @@
         "standard: 70 avg views (81 videos)",
         "Trending languages: Jupyter Notebook (5.5x)",
         "Day performance: Tue=170, Fri=170, Thu=67, Wed=57, Mon=44, Sat=4, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-13",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "JavaScript: 0.1x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "Markdown: 0.1x avg views → drop",
+        "Kotlin: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 70 avg views (81 videos)",
+        "Trending languages: Jupyter Notebook (5.5x)",
+        "Day performance: Tue=170, Fri=170, Thu=67, Wed=57, Mon=41, Sat=4, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
