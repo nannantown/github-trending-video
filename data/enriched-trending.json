@@ -1,15 +1,16 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "discovery": {
-    "method": "tech-deep",
-    "description": "5リポそれぞれの技術的独自性(アーキテクチャ・データフロー・拡張点)を、READMEとリリースノートを英語で読み解き、Primary CTO/Secondary PdM 層に『なぜ今この設計が伸びているか』を渡す",
+    "method": "trend-pattern",
+    "description": "本日の5リポを『AIエージェントがプロンプト駆動からskill駆動へ移り、安全層が半年遅れで追いついてきた』週として読み解く。実装カタログ(awesome-llm-apps) → skill配布(mattpocock/skills) → 安全ガード(destructive_command_guard) → AIが操作するツール(OpenCut) → 業種特化エージェント(ai-hedge-fund)という5段階で、Primary CTO 層に『来週の技術選定で何が主戦場になるか』のマクロ視点を渡す",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/OpenCut-app/OpenCut",
-      "https://github.com/HKUDS/Vibe-Trading",
       "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "https://github.com/Graphify-Labs/graphify",
-      "https://github.com/github/spec-kit"
+      "https://github.com/mattpocock/skills",
+      "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "https://github.com/OpenCut-app/OpenCut",
+      "https://github.com/virattt/ai-hedge-fund",
+      "https://github.com/OpenCut-app/OpenCut/releases"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "OpenCut-app/OpenCut",
-      "name": "OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "language": "TypeScript",
-      "stars": 66087,
-      "todayStars": 1077,
-      "description": "Rustコア書き直し中のOSS動画編集",
-      "detail": "Rustコアでdesktop/mobile/browserを一本化する動画編集の書き直し。Editor APIとheadlessレンダ、MCP連携でAIから編集を叩けます。プラグイン優先設計で拡張性が高いです。",
-      "narration": "CapCut互換のOSS動画エディタです。Rustコア書き直しで、pluginとheadlessとMCPを内蔵します。"
-    },
-    {
-      "rank": 2,
-      "fullName": "HKUDS/Vibe-Trading",
-      "name": "Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "language": "Python",
-      "stars": 21676,
-      "todayStars": 1148,
-      "description": "AIが戦略を書き検証する取引基盤",
-      "detail": "LangGraphで組んだマルチエージェント基盤。生成したPython戦略をASTで事前検証し、19源のデータでbacktest、mandateとkill-switch付きでIB/Alpacaへのlive発注も可能。",
-      "narration": "自然言語で戦略を書くマルチエージェント基盤です。ASTで生成コードを事前検証し、mandate機構で本番発注も安全です。"
-    },
-    {
-      "rank": 3,
       "fullName": "Shubhamsaboo/awesome-llm-apps",
       "name": "awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "language": "Python",
-      "stars": 119527,
-      "todayStars": 1006,
-      "description": "100超のAIエージェント実装カタログ",
-      "detail": "Apache 2.0で配布される100+のAI Agent・RAG実装集。Google ADK、OpenAI SDK、CrewAI、LangGraphの実例を並べ、Agentic RAGやVoice、Multi-agent teamsの設計パターンを学べます。",
-      "narration": "100超のAgent実装を集めた無料カタログです。MCP、CrewAI、LangGraphの設計パターンが学べます。"
+      "stars": 120717,
+      "todayStars": 1104,
+      "description": "100超のAgent&RAG実装カタログ",
+      "detail": "100超のAgent・RAGアプリを集めた公式カタログです。Google ADK、OpenAI SDK、CrewAI、LangGraphの実装例が並び、Agentic RAGやVoice、Multi-agent teamsの設計パターンを一気に俯瞰できます。",
+      "narration": "100+のAgentとRAG実装を集めた無料カタログです。実装参照が主戦場になった時代の必読リポです。"
+    },
+    {
+      "rank": 2,
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 170131,
+      "todayStars": 1864,
+      "description": "TS界の権威が公開する.claudeスキル集",
+      "detail": "TypeScript教育で著名なmattpocockが自身の.claudeディレクトリを丸ごと公開したスキル集です。/tddや/grill-meなどのslash commandに加え、model-invokedの専門スキルもv1.1.0で束ねられています。",
+      "narration": "mattpocockの.claudeスキル集が公開されました。プロンプト駆動からskill駆動への潮目が来ています。"
+    },
+    {
+      "rank": 3,
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "name": "destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "language": "Rust",
+      "stars": 4369,
+      "todayStars": 481,
+      "description": "Rust製AIエージェント安全弁",
+      "detail": "git reset --hardやrm -rf、DROP TABLEをエージェント実行前に1ms以下で止めるRust hookです。Claude Code、Codex、Cursor、Copilot、Gemini CLIに同時に差し込めます。",
+      "narration": "git resetやrm -rfをAI実行前に止めるRustガードです。半年遅れで安全層が追いついてきました。"
     },
     {
       "rank": 4,
-      "fullName": "Graphify-Labs/graphify",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "language": "Python",
-      "stars": 84584,
-      "todayStars": 1028,
-      "description": "コード資産を知識グラフ化するCLI",
-      "detail": "tree-sitterでASTを解析し、Leidenクラスタで自動分割する知識グラフCLI。edgeにEXTRACTED/INFERREDの来歴タグが付き、MCP経由でClaude CodeやCodexから直接クエリできます。",
-      "narration": "コードや資料を知識グラフ化します。tree-sitterとLeidenで解析し、MCP経由でAIから直接引けます。"
+      "fullName": "OpenCut-app/OpenCut",
+      "name": "OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "language": "TypeScript",
+      "stars": 69084,
+      "todayStars": 4349,
+      "description": "AI時代のOSS動画エディタ",
+      "detail": "OSS版CapCutを目指す動画エディタです。Rustコアで書き直され、Editor APIとheadlessレンダ、MCP経由でAIエージェントから直接編集を叩けます。プロプラ動画ツールから離れる動きの中心です。",
+      "narration": "OSS版CapCutです。RustコアとMCP対応で、AIエージェントが動画を編集する時代の設計になっています。"
     },
     {
       "rank": 5,
-      "fullName": "github/spec-kit",
-      "name": "spec-kit",
-      "url": "https://github.com/github/spec-kit",
+      "fullName": "virattt/ai-hedge-fund",
+      "name": "ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
       "language": "Python",
-      "stars": 120554,
-      "todayStars": 508,
-      "description": "GitHub製のSpec-Driven開発CLI",
-      "detail": "constitution→spec→plan→tasks→implementの5段階をCLIで生成する開発キット。/speckit.*コマンドをClaudeやCopilotなど30+のエージェントから叩けます。",
-      "narration": "GitHub製のSpec-Driven開発ツールキットです。specやplanを分けAIエージェントに段階実装させます。"
+      "stars": 61840,
+      "todayStars": 156,
+      "description": "投資家人格を持つ19エージェント",
+      "detail": "BuffettやMunger、Cathie Wood、Michael Burryなど19名の投資家人格をエージェント化した教育用リポです。Portfolio Managerが合議し、backtestとpaper tradingでシミュレートできます。",
+      "narration": "Buffett等19人の投資家人格を持つ教育用エージェント基盤です。agentの垂直特化と人格モデリングの好例です。"
     }
   ]
 }
