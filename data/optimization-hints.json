@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14",
+  "updatedAt": "2026-07-15",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -28,77 +28,77 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.6 avg n=16 TOP1 / business-angle 3.0 n=14 / trend-pattern 3.0 n=9 / tech-deep 3.0 n=5 / comparison 2.9 n=18 (最大サンプル) / use-case 1.5 n=4 / self-experiment 0.9 n=7。直近 2 日 (07-13 business-angle / 07-12 self-experiment) 連投ルール除外+business-angle 14d 3 件 cap (07-19 まで再投入不可)+ecosystem 14d 2 件で 07-16 まで cap 抵触リスク。本日 07-14 (火) は tech-deep を採用: 14d 内 1 件で余力 2 枠、5/5 素材が技術的独自性 (アーキテクチャ or データフロー or 拡張点) を持ち適合率 100% (OpenCut=Rust core+MCP+plugin+headless, Vibe-Trading=AST事前検証+mandate/kill-switch+19データ源, awesome-llm-apps=100+実装+ADK/OpenAI SDK/CrewAI/LangGraph, Graphify=tree-sitter AST+Leiden+EXTRACTED/INFERRED来歴タグ+MCP, spec-kit=constitution→spec→plan→tasks→implement 6段階+30+エージェント連携)。昨日 07-13 business-angle の『受託の商談言語』から本日 07-14 の『技術設計の骨格』への揺り戻しで、Primary CTO 層に明日の技術選定に使える設計理解を渡す。火曜 (Tue=361 avg, 週内 1 位) の高位曜露出とも整合。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.7 avg n=16 TOP1 / business-angle 3.1 n=14 / trend-pattern 3.0 n=9 / comparison 2.9 n=18 (最大サンプル) / tech-deep 2.5 n=6 / use-case 1.5 n=4 / self-experiment 1.0 n=7。直近 2 日 (07-14 tech-deep / 07-13 business-angle) 連投ルール除外+ecosystem 14d 3 件 cap (07-16 まで再投入不可)+business-angle 14d 3 件 cap (07-19 まで再投入不可)。本日 07-15 (水) は trend-pattern を採用: 14d 内 1 件で余力 2 枠、5/5 素材が『AI エージェント成熟の 5 段階レイヤ (実装参照 / skill / 安全 / AI 使用ツール / 垂直特化)』に完璧に並ぶ稀有な日 (awesome-llm-apps=Layer 1 実装参照カタログ, mattpocock/skills=Layer 2 skill 駆動配布 v1.1.0, destructive_command_guard=Layer 3 半年遅れ Rust hook 安全層, OpenCut=Layer 4 Rust+MCP AI 操作動画エディタ, ai-hedge-fund=Layer 5 19 名投資家人格垂直特化)。昨日 07-14 tech-deep の『Rust コア・AST・LangGraph・tree-sitter』語彙から本日 07-15 の『成熟フェーズ・adoption・skill 駆動・半年遅れ・垂直特化』macro 語彙への視座引き上げで、Primary CTO 層に『明日の技術選定だけでなく来月・来四半期の投資判断』の材料を渡す。水曜 (Wed=153 avg, 週内 4 位) の中位曜露出だが 5 リポを 1 本の macro 物語で貫く trend-pattern の本領発揮日として整合。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は火曜 (Tue=361 avg・週内 1 位) の高位曜露出。tech-deep 角度は『技術的独自性・アーキテクチャの骨格』を Primary CTO 層に届け、明日の技術選定の材料として仕込む日"
+      "本日は水曜 (Wed=153 avg・週内 4 位) の中位曜露出。trend-pattern 角度は『5 リポを AI エージェント成熟の 5 段階レイヤに貫く 1 本の macro 物語』を Primary CTO 層に届け、来月・来四半期の投資判断の材料として仕込む日"
     ],
     "hashtags": [
-      "tech-deep 角度の核心は『5 リポを技術的独自性で貫き、なぜ今この設計が伸びているかを渡す』。本日 5 本の技術軸: #OpenCut=Rustコアground-up書き直し+Editor API+headlessレンダ+MCP+plugin優先設計 / #Vibe_Trading=LangGraphマルチエージェント+AST事前検証+OHLC完整性ガード+mandate/kill-switch/audit ledger 3層安全 / #awesome_llm_apps=100+実装カタログ+ADK/OpenAI SDK/CrewAI/LangGraph+Agentic RAG/Corrective RAG/Multimodal RAG バリアント / #Graphify=tree-sitter AST+Leidenクラスタ+EXTRACTED/INFERRED来歴タグ+MCP 20+プラットフォーム対応 / #spec_kit=constitution→specify→clarify→plan→tasks→implement 6段階+30+エージェント連携+.specify/ディレクトリ",
-      "言語タグは TypeScript 1 + Python 4。Python (1.2x) 4 本で強く上位牽引、TypeScript (1.1x) 1 本で下支え。Rust 素材 (OpenCut コア書き直し) は language タグでは TypeScript 側だが narration で Rust 明示",
-      "tech-deep 角度の独自 hashtag: #techdeep #アーキテクチャ #柱1 #柱① #MCP #ClaudeCode #Codex #Cursor #LangGraph #CrewAI #ADK #AgenticRAG #treeSitter #Leiden #RustCore #headless #EditorAPI #SpecDriven #Copilot #TypeScript #Python #CTO #技術選定"
+      "trend-pattern 角度の核心は『5 リポを 1 本の macro 物語で貫き、AI エージェント成熟の 5 段階レイヤを渡す』。本日 5 本の layer 軸: #awesome_llm_apps=Layer 1 実装参照期 (Google ADK/OpenAI SDK/CrewAI/LangGraph 100+ 実装カタログ) / #mattpocock_skills=Layer 2 skill 駆動配布 (.claude ディレクトリ公開 v1.1.0 + /tdd + /grill-me + model-invoked skill) / #destructive_command_guard=Layer 3 半年遅れ安全層 (Rust hook 1ms 未満 + Claude Code/Codex/Cursor/Copilot/Gemini CLI 同時対応 + 50+ セキュリティパック) / #OpenCut=Layer 4 AI 操作 OSS ツール (Rust コア書き直し + Editor API + headless + MCP) / #ai_hedge_fund=Layer 5 業種垂直特化 (Buffett/Munger/Wood/Burry 19 名投資家人格 + Portfolio Manager 合議 + backtest/paper trading)",
+      "言語タグは Python 2 + TypeScript 1 + Shell 1 + Rust 1 の初の 4 言語ミックス。Python (1.2x) 2 本と TypeScript (1.1x) 1 本で上位牽引、Shell (1.0x) は Claude スキル配布ツールとして中立、Rust (0.7x) は素材の質で押し切る",
+      "trend-pattern 角度の独自 hashtag: #trendpattern #マクロ潮流 #柱1 #柱① #AIエージェント #skill駆動 #ClaudeCode #Codex #Cursor #Copilot #Gemini #GrokCLI #Antigravity #MCP #Rust #LangGraph #CrewAI #ADK #CTO #技術投資判断 #成熟フェーズ #半年遅れ #垂直特化"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 294 文字 (59+60+58+57+60)、TTS で約 53 秒、opening/ending と合わせて 55 秒以内",
-      "tech-deep 角度の一貫性: 5 本すべての narration を『(一言でどんなリポか、フック 1 文)。(技術的独自性・アーキテクチャの特徴を固有名詞で 1 文)』の 2 文構成で 5/5 統一。1 文目に『OSS 動画エディタ』『マルチエージェント基盤』『実装カタログ』『知識グラフ化 CLI』『開発ツールキット』などリポの本質規定を置き、2 文目に『Rust コア』『plugin/headless/MCP』『AST 事前検証』『mandate』『CrewAI/LangGraph』『tree-sitter/Leiden』『Spec-Driven』など技術固有名詞を必ず入れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『技術主観語』(アーキテクチャ・データフロー・拡張点・設計パターン) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
-      "数値表現はアラビア数字統一 (100+, 19, 30+)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 昨日 07-13 からの継続は 2 本 (Vibe-Trading rank3→2 / awesome-llm-apps rank5→3)、新規流入 3 本 (OpenCut / Graphify / spec-kit)。継続 2 本は昨日の business-angle 語彙 (受託・工数削減) を完全封印し、tech-deep の技術固有名詞語彙 (AST 事前検証・mandate / CrewAI・LangGraph 設計パターン) に切替で角度疲労リスクなし"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 278 文字 (51+58+55+56+58)、TTS で約 50 秒、opening/ending と合わせて 55 秒以内",
+      "trend-pattern 角度の一貫性: 5 本すべての narration を『(一言でどんなリポか、フック 1 文)。(この週の macro pattern のどこに位置するか 1 文)』の 2 文構成で 5/5 統一。1 文目に『無料カタログ』『スキル集』『Rust ガード』『OSS 動画エディタ』『教育用エージェント基盤』などリポの本質規定を置き、2 文目に『実装参照が主戦場になった時代』『プロンプト駆動から skill 駆動への潮目』『半年遅れで安全層が追いつく』『AI エージェントが動画を編集する時代の設計』『agent の垂直特化と人格モデリング』など macro 語彙を必ず入れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では『macro 主観語』(潮目・時代・adoption・成熟フェーズ・普及に遅れる) を 5/5 で必ず入れ、README 読み上げレベルの雑な要約を避ける",
+      "数値表現はアラビア数字統一 (100+, 19, 5, 半年)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-14 からの継続は 2 本 (awesome-llm-apps rank3→1 / OpenCut rank1→4)、新規流入 3 本 (mattpocock/skills / destructive_command_guard / ai-hedge-fund)。継続 2 本は昨日の tech-deep 語彙 (Rust コア・plugin/headless/MCP・AST・tree-sitter) を完全封印し、trend-pattern の macro 語彙 (実装参照期・AI エージェントの時代・成熟フェーズ) に切替で角度疲労リスクなし"
     ],
     "content": [
-      "本日の discovery.method は `tech-deep` (avg 3.0, n=5 で method 別 3-4 位 tie、business-angle と ecosystem 除外時の実質最強候補)。5/5 素材適合率で技術的独自性の質感を出せる稀な日",
-      "本日 07-14 TOP5: #1 OpenCut-app/OpenCut=TypeScript / 66,087★ / +1,077 [新規・OSS CapCut 代替動画エディタ・Rust コア ground-up 書き直し・Moon monorepo + Bun + Cloudflare Workers・Editor API + plugin + headless + MCP]、#2 HKUDS/Vibe-Trading=Python / 21,676★ / +1,148 [昨日 rank3 継続・LangGraph マルチエージェント基盤・AST 事前検証 + OHLC 完整性ガード・19 データ源 + 10 broker (IB/Alpaca/Binance/OKX 等)・mandate/kill-switch/audit ledger 3 層安全機構]、#3 Shubhamsaboo/awesome-llm-apps=Python / 119,527★ / +1,006 [昨日 rank5 継続・Apache 2.0 100+ AI Agent/RAG カタログ・Google ADK / OpenAI SDK / CrewAI / LangGraph / AG2 実装例・Agentic RAG / Corrective RAG / Multimodal RAG / Voice / Multi-agent teams パターン]、#4 Graphify-Labs/graphify=Python / 84,584★ / +1,028 [新規・tree-sitter AST + Leiden クラスタで自動知識グラフ化・EXTRACTED / INFERRED / AMBIGUOUS 来歴タグ・graph.json ポータブル + Neo4j/FalkorDB オプション export・MCP サーバとして 20+ プラットフォーム対応]、#5 github/spec-kit=Python / 120,554★ / +508 [新規・GitHub 公式 Spec-Driven Development ツールキット・constitution→specify→clarify→plan→tasks→implement 6 段階 CLI・.specify/ ディレクトリと /speckit.* slash commands・30+ AI エージェント連携]",
-      "本日の tech-deep 核: 『5 本を技術的独自性で貫くアーキテクチャショーケース』。冒頭フックは『今日の 5 リポを、Rust コア、AST 事前検証、Leiden クラスタ、Spec-Driven の視点で切ります。読み上げでなく、明日の技術選定に使える設計の骨格だけ渡します』",
-      "Primary (CTO/技術選定) には『技術投資判断の材料』として、Secondary (PdM/事業責任者) には『技術用語の輪郭』として、Tertiary (学習中) には『設計パターン学習リポ紹介』として 3 層直撃。特に Primary への訴求を厚く、AI エージェント stack の設計判断 (host / protocol / skill / orchestration / tool) をカード裏で示唆",
-      "連投上限ルール: 14d 内 tech-deep=2 件 (含本日、07-09+07-14)、余力 1 枠。business-angle は 07-19 に 07-05 脱落まで再投入 0 枠 (rolling 3 件 cap 到達)、ecosystem は 07-16 以降解禁 (07-02 脱落)、comparison は 14d 2 件で余力 1 枠、trend-pattern は 14d 1 件 (07-07)、use-case は 14d 0 件 (20 日空白 = 柱① 低位リカバリ候補)、self-experiment は 07-12 直近 2 日抵触で本日除外。柱② 週次ノルマは 07-13 消化済、柱③ 週次ノルマは 07-12 消化済で来週日曜は柱①③ どちらでも可"
+      "本日の discovery.method は `trend-pattern` (avg 3.0, n=9 で method 別 3 位、business-angle/ecosystem 14d cap + tech-deep 直近 2 日除外時の実質最強候補)。5/5 素材が『AI エージェント成熟の 5 段階レイヤ』に完璧に並ぶ稀有な日",
+      "本日 07-15 TOP5: #1 Shubhamsaboo/awesome-llm-apps=Python / 120,717★ / +1,104 [昨日 rank3→今日 rank1・Apache 2.0 100+ AI Agent/RAG カタログ・Google ADK / OpenAI SDK / CrewAI / LangGraph / AG2 実装例・Layer 1 実装参照期]、#2 mattpocock/skills=Shell / 170,131★ / +1,864 [新規流入・TypeScript 教育で著名な Matt Pocock 作・.claude ディレクトリ丸ごと公開・v1.1.0 (2026-07-08) + /tdd + /grill-me + model-invoked skill・Layer 2 skill 駆動配布]、#3 Dicklesworthstone/destructive_command_guard=Rust / 4,369★ / +481 [新規流入・Jeffrey Emanuel 作・git reset --hard/rm -rf/DROP TABLE を <1ms で止める Rust hook・Claude Code/Codex/Cursor/Copilot CLI/Gemini CLI/Hermes/Grok/Antigravity 同時対応 + 50+ セキュリティパック・Layer 3 半年遅れの安全層]、#4 OpenCut-app/OpenCut=TypeScript / 69,084★ / +4,349 [昨日 rank1→今日 rank4・OSS CapCut 代替動画エディタ・Rust コア書き直し + Editor API + headless レンダ + MCP・Layer 4 AI 操作 OSS ツール]、#5 virattt/ai-hedge-fund=Python / 61,840★ / +156 [返り咲き (04-16 露出後 3 ヶ月ぶり)・Buffett/Munger/Cathie Wood/Michael Burry 19 名投資家人格エージェント + Portfolio Manager 合議 + backtest/paper trading・Layer 5 業種垂直特化]",
+      "本日の trend-pattern 核: 『5 リポを AI エージェント成熟の 5 段階レイヤで貫く 1 本の macro 物語』。冒頭フックは『今日の 5 リポは、AI エージェント成熟の 5 段階レイヤに完璧に並びました。実装参照・skill 配布・安全ガード・AI が使うツール・業種特化の順で、来月の技術投資判断の材料だけ渡します』",
+      "Primary (CTO/技術選定) には『来月・来四半期の投資判断の材料』として、Secondary (PdM/事業責任者) には『AI エージェント業界の全体像』として、Tertiary (学習中) には『どのレイヤから学ぶべきか』の学習ガイドとして 3 層直撃。特に Primary への訴求を厚く、AI エージェント stack の成熟フェーズ (実装参照期 → skill 期 → 安全期 → tool 期 → 垂直特化期) をカード裏で示唆",
+      "連投上限ルール: 14d 内 trend-pattern=2 件 (含本日、07-07+07-15)、余力 1 枠。ecosystem は 07-16 に 07-02 脱落で解禁 (07-17 金以降が本命)、business-angle は 07-19 に 07-05 脱落まで再投入 0 枠、comparison は 14d 2 件で余力 1 枠、tech-deep は 07-14 直近 2 日抵触で本日除外 (14d 内 2 件で余力 1 枠)、self-experiment は 14d 1 件 (07-12) で余力 2 枠、use-case は 14d 0 件 (20 日空白 = 柱① 低位リカバリ候補)。柱② 週次ノルマは 07-13 消化済、柱③ 週次ノルマは 07-12 消化済で来週日曜は柱①③ どちらでも可"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-14",
-    "dayOfWeek": "Tue",
+    "date": "2026-07-15",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "techdeep",
-      "アーキテクチャ",
+      "trendpattern",
+      "マクロ潮流",
       "柱1",
       "柱①",
-      "技術選定",
-      "設計パターン",
       "AIエージェント",
-      "MCP",
+      "skill駆動",
+      "成熟フェーズ",
+      "半年遅れ",
+      "垂直特化",
       "ClaudeCode",
       "Codex",
       "Cursor",
       "Copilot",
+      "Gemini",
+      "GrokCLI",
+      "Antigravity",
+      "MCP",
+      "Rust",
       "LangGraph",
       "CrewAI",
       "ADK",
-      "AgenticRAG",
-      "treeSitter",
-      "Leiden",
-      "RustCore",
-      "headless",
-      "EditorAPI",
-      "SpecDriven",
-      "OpenCut",
-      "Vibe_Trading",
       "awesome_llm_apps",
-      "Graphify",
-      "spec_kit",
-      "TypeScript",
+      "mattpocock_skills",
+      "destructive_command_guard",
+      "OpenCut",
+      "ai_hedge_fund",
       "Python",
+      "TypeScript",
+      "Shell",
       "CTO",
       "ソロCTO",
       "PdM",
       "動画編集",
       "Trading",
       "RAG",
-      "KnowledgeGraph"
+      "技術投資判断"
     ],
-    "focus": "火曜 (Tue=361 avg・週内 1 位) の高位曜露出。`tech-deep` (avg 3.0, n=5 で method 別 3-4 位 tie、business-angle 14d cap / ecosystem 14d 2 件抵触リスク / self-experiment 直近 2 日抵触の除外時の実質最強・14d 内 1 件で余力 2 枠・5/5 素材が技術的独自性で適合率 100%) を投入。business-angle は 07-13 直近 2 日抵触かつ 14d 3 件 cap 到達 (07-19 解禁)、ecosystem は 14d 2 件で 07-16 まで cap 抵触リスク、comparison は 14d 2 件で余力 1 枠だが avg 2.9 で tech-deep に劣後、trend-pattern は 14d 1 件で有力候補だが素材適合率で tech-deep に劣後 (5/5 が技術独自性素材)、use-case は 20 日空白だが avg 1.5 で見送り、self-experiment は 07-12 直近 2 日抵触で除外。本日の TOP5 は 3/5 新規 (OpenCut/Graphify/spec-kit)、2/5 継続 (Vibe-Trading rank3→2 / awesome-llm-apps rank5→3) で継続分は昨日 business-angle 語彙を完全封印し tech-deep の技術固有名詞語彙に切替で角度疲労リスクなし。narration は『(一言でどんなリポか、フック 1 文)。(技術的独自性・アーキテクチャの特徴を固有名詞で 1 文)』2 文構成で 5/5 統一、5 本合計 294 文字。技術主観語 (アーキテクチャ・データフロー・拡張点・設計パターン) と技術固有名詞 (Rust コア・plugin/headless/MCP・AST 事前検証・mandate・CrewAI/LangGraph・tree-sitter/Leiden・Spec-Driven) を全 5 本に埋めて README 読み上げレベルを回避。07-08 『業務適用』→ 07-09 『技術詳細』→ 07-10 『エコシステム俯瞰』→ 07-11 『類似 OSS 判断軸』→ 07-12 『触った所感』→ 07-13 『受託の商談言語』→ 07-14 『技術設計の骨格』の 7 method 完全網羅サイクル達成、Primary CTO 層への訴求を最高地点で仕込む。PR 経由 squash merge + 着弾検証は必須実行 (53 日連続成功継続で本日 54 日目)。"
+    "focus": "水曜 (Wed=153 avg・週内 4 位) の中位曜露出。`trend-pattern` (avg 3.0, n=9 で method 別 3 位、business-angle/ecosystem 14d 3 件 cap + tech-deep 直近 2 日抵触の除外時の実質最強・14d 内 1 件で余力 2 枠・5/5 素材が『AI エージェント成熟の 5 段階レイヤ』に完璧一致で適合率 100%) を投入。ecosystem は 07-16 に 07-02 脱落で解禁予定 (07-17 金以降が本命)、business-angle は 07-19 に 07-05 脱落まで再投入 0 枠 (rolling 3 件 cap 到達)、tech-deep は 07-14 直近 2 日抵触で除外 (14d 内 2 件で余力 1 枠)、comparison は 14d 2 件で余力 1 枠だが avg 2.9 で trend-pattern に劣後、self-experiment は 07-12 使用で 14d 内 1 件だが avg 1.0 で見送り、use-case は 20 日空白だが avg 1.5 で今日は見送り (木曜以降に温存)。本日の TOP5 は 3/5 新規 (mattpocock/skills / destructive_command_guard / ai-hedge-fund 返り咲き)、2/5 継続 (awesome-llm-apps rank3→1 / OpenCut rank1→4) で継続分は昨日 tech-deep 語彙を完全封印し trend-pattern の macro 語彙に切替で角度疲労リスクなし。narration は『(一言でどんなリポか、フック 1 文)。(この週の macro pattern のどこに位置するか 1 文)』2 文構成で 5/5 統一、5 本合計 278 文字。macro 主観語 (潮目・時代・adoption・成熟フェーズ・普及に遅れる) と各 layer の固有事実 (100+ 実装カタログ・v1.1.0 skill 集・1ms 未満 Rust hook・Rust コア+MCP・19 名投資家人格) を全 5 本に埋めて README 読み上げレベルを回避。07-09『技術詳細』→ 07-10『エコシステム俯瞰』→ 07-11『類似 OSS 判断軸』→ 07-12『触った所感』→ 07-13『受託の商談言語』→ 07-14『技術設計の骨格』→ 07-15『AI エージェント成熟の 5 段階マップ』の 7 method 完全網羅サイクル達成、Primary CTO 層への訴求を macro 視座で最高地点に引き上げ。PR 経由 squash merge + 着弾検証は必須実行 (54 日連続成功継続で本日 55 日目)。"
   }
 }
