@@ -2,44 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "Ia7EQsACw9A",
-      "videoUrl": "https://youtube.com/shorts/Ia7EQsACw9A",
-      "date": "2026-04-15",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/15 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "forrestchang/andrej-karpathy-skills",
-        "thedotmack/claude-mem",
-        "jamiepine/voicebox",
-        "pascalorg/editor",
-        "microsoft/markitdown"
-      ],
-      "durationSeconds": 64,
-      "stats": {
-        "views": 547,
-        "likes": 8,
-        "comments": 0,
-        "updatedAt": "2026-04-29T23:41:36.704Z"
-      }
-    },
-    {
       "videoId": "PMLpOaLasks",
       "videoUrl": "https://youtube.com/shorts/PMLpOaLasks",
       "date": "2026-04-16",
@@ -3735,7 +3697,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -3791,7 +3753,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -3844,7 +3806,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -3896,7 +3858,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -3948,7 +3910,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4001,7 +3963,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4055,7 +4017,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4108,7 +4070,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4162,7 +4124,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4214,10 +4176,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4270,7 +4232,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4322,7 +4284,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
+        "updatedAt": "2026-07-15T23:45:36.019Z"
       }
     },
     {
@@ -4375,6 +4337,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-15T23:45:36.019Z"
+      }
+    },
+    {
+      "videoId": "LatTvoKzDAg",
+      "videoUrl": "https://youtube.com/shorts/LatTvoKzDAg",
+      "date": "2026-07-16",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/16 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "Go",
+        "Shell",
+        "TypeScript",
+        "CSS"
+      ],
+      "languages": [
+        "Shell",
+        "TypeScript",
+        "CSS",
+        "Rust"
+      ],
+      "projects": [
+        "mattpocock/skills",
+        "OpenCut-app/OpenCut",
+        "Nutlope/hallmark",
+        "moeru-ai/airi",
+        "Dicklesworthstone/destructive_command_guard"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日の5リポを『誰がどのシーンで使うか』という具体的な利用者像で切り取る。SNS動画担当・デザイナー未在チーム・個人開発者・ホビイスト研究者・本番運用CTOの5レイヤに1リポずつ当てはめ、Primary エンジニア/CTO 層に『明日から自チームで置くならこう組み込む』の具体像を渡す。use-case は14d内0件・直近利用は06-28で20日近い空白があり、リカバリ枠として最適。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/OpenCut-app/OpenCut",
+          "https://github.com/Nutlope/hallmark",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/moeru-ai/airi",
+          "https://github.com/Dicklesworthstone/destructive_command_guard"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4383,19 +4402,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-12",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "standard: 138 avg views (60 videos)",
-        "Trending languages: Kotlin (2.9x), C++ (2.3x), Jupyter Notebook (2.8x)",
-        "Day performance: Tue=310, Fri=276, Thu=141, Wed=134, Sat=71, Mon=55, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-13",
       "changes": [
@@ -4886,6 +4892,26 @@
         "standard: 67 avg views (81 videos)",
         "Trending languages: Jupyter Notebook (5.8x)",
         "Day performance: Fri=170, Tue=155, Thu=67, Wed=57, Mon=22, Sat=4, Sun=3"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-15",
+      "changes": [
+        "JavaScript: 0.1x avg views → drop",
+        "HTML: 1.4x avg views → boost",
+        "Rust: 0.0x avg views → drop",
+        "Markdown: 0.1x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "C++: 0.0x avg views → drop",
+        "Kotlin: 0.0x avg views → drop",
+        "Ruby: 0.0x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 50 avg views (81 videos)",
+        "Trending languages: Jupyter Notebook (7.7x)",
+        "Day performance: Fri=170, Thu=67, Wed=52, Tue=34, Mon=22, Sat=4, Sun=3"
       ],
       "recommendedTemplate": "standard"
     }
