@@ -2,44 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "0mbfwZMwoaw",
-      "videoUrl": "https://youtube.com/shorts/0mbfwZMwoaw",
-      "date": "2026-04-17",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/17 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "forrestchang/andrej-karpathy-skills",
-        "thedotmack/claude-mem",
-        "lsdefine/GenericAgent",
-        "jamiepine/voicebox",
-        "vercel-labs/open-agents"
-      ],
-      "durationSeconds": 32,
-      "stats": {
-        "views": 2011,
-        "likes": 8,
-        "comments": 0,
-        "updatedAt": "2026-05-01T23:39:37.066Z"
-      }
-    },
-    {
       "videoId": "YHNc0JQ35lw",
       "videoUrl": "https://youtube.com/shorts/YHNc0JQ35lw",
       "date": "2026-04-18",
@@ -3713,7 +3675,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -3766,7 +3728,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -3818,7 +3780,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -3870,7 +3832,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -3923,7 +3885,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -3977,7 +3939,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4030,7 +3992,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4084,7 +4046,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4139,7 +4101,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4192,7 +4154,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4244,7 +4206,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4300,7 +4262,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4357,7 +4319,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-16T23:44:21.039Z"
+        "updatedAt": "2026-07-17T23:39:06.441Z"
       }
     },
     {
@@ -4409,6 +4371,65 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-17T23:39:06.441Z"
+      }
+    },
+    {
+      "videoId": "YlQC3ELnpNY",
+      "videoUrl": "https://youtube.com/shorts/YlQC3ELnpNY",
+      "date": "2026-07-18",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/18 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "Go",
+        "Python",
+        "TypeScript",
+        "CSS",
+        "Java"
+      ],
+      "languages": [
+        "Markdown",
+        "Python",
+        "TypeScript",
+        "CSS",
+        "Java"
+      ],
+      "projects": [
+        "codecrafters-io/build-your-own-x",
+        "PostHog/posthog",
+        "HenryNdubuaku/maths-cs-ai-compendium",
+        "Nutlope/hallmark",
+        "github/copilot-sdk"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日の5リポを『実案件の月次コスト削減と受託見積り』の視点で切り取る。hallmark=デザイン外注月20万削減 / PostHog=Amplitude月20万請求書ゼロ化 / build-your-own-x=新人研修外注費ゼロ化 / maths-cs-ai-compendium=社内AI人材育成費ゼロ化 / copilot-sdk=自社製品AI組込工数の1週間構造化。5リポ全てが具体的な数値ROIに落ちる稀有な日で、Primary CTO層に『明日の見積書に載る5本のコスト削減ネタ』を渡す。business-angleは全期間avg 3.1でuse-case (直近2日ルール抵触) 除外後の method 別 TOP相当、直近07-13で5日空白・14d内2件で余力1枠、柱②週次ノルマの二回目消化で Primary への訴求密度強化。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/codecrafters-io/build-your-own-x",
+          "https://github.com/PostHog/posthog",
+          "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+          "https://github.com/Nutlope/hallmark",
+          "https://github.com/github/copilot-sdk"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4417,19 +4438,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-13",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.6x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 134 avg views (62 videos)",
-        "Trending languages: Kotlin (3.0x), C++ (2.4x), Jupyter Notebook (2.9x)",
-        "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=55, Sun=5"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-14",
       "changes": [
@@ -4931,6 +4939,26 @@
         "standard: 44 avg views (81 videos)",
         "Trending languages: Jupyter Notebook (8.9x)",
         "Day performance: Fri=170, Thu=62, Tue=34, Mon=22, Sat=4, Sun=3, Wed=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-17",
+      "changes": [
+        "JavaScript: 0.2x avg views → drop",
+        "HTML: 1.6x avg views → boost",
+        "Rust: 0.1x avg views → drop",
+        "Markdown: 0.1x avg views → drop",
+        "Go: 1.6x avg views → boost",
+        "C++: 0.1x avg views → drop",
+        "Kotlin: 0.0x avg views → drop",
+        "Ruby: 0.1x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.0x avg views → drop",
+        "standard: 34 avg views (81 videos)",
+        "Trending languages: Go (1.4x)",
+        "Day performance: Fri=157, Tue=34, Mon=22, Sat=4, Sun=3, Thu=3, Wed=2"
       ],
       "recommendedTemplate": "standard"
     }
