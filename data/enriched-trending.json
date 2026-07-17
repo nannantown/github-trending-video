@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "discovery": {
-    "method": "use-case",
-    "description": "本日の5リポを『誰がどのシーンで使うか』という具体的な利用者像で切り取る。SNS動画担当・デザイナー未在チーム・個人開発者・ホビイスト研究者・本番運用CTOの5レイヤに1リポずつ当てはめ、Primary エンジニア/CTO 層に『明日から自チームで置くならこう組み込む』の具体像を渡す。use-case は14d内0件・直近利用は06-28で20日近い空白があり、リカバリ枠として最適。",
+    "method": "ecosystem",
+    "description": "本日の5リポを『AI時代エンジニアリング・スタックの全体地図』として切り取る。基礎教養 (ossu/computer-science)・実装筋トレ (build-your-own-x)・AI協働作業手順 (mattpocock/skills)・AIのコード理解 (Graphify)・エージェント運用 (lobehub) の5レイヤに1リポずつ当てはめ、Primary エンジニア/CTO 層に『自チームのAI時代スタックのどこが空いているか』の全体地図を渡す。ecosystem は全期間 avg 22.7 で method 別 TOP1、直近使用 07-10 で7日空白、14d 内2件で余力1枠、use-case/trend-pattern が直近2日ルール抵触の中で最有力枠。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/OpenCut-app/OpenCut",
-      "https://github.com/Nutlope/hallmark",
       "https://github.com/mattpocock/skills",
-      "https://github.com/moeru-ai/airi",
-      "https://github.com/Dicklesworthstone/destructive_command_guard"
+      "https://github.com/codecrafters-io/build-your-own-x",
+      "https://github.com/ossu/computer-science",
+      "https://github.com/Graphify-Labs/graphify",
+      "https://github.com/lobehub/lobehub"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 172183,
-      "todayStars": 2160,
-      "description": "TS権威の作業手順まるごと公開",
-      "detail": "TypeScript教育で有名なmattpocockが自身の.claudeを丸ごと公開しました。v1.1.0では/tddや/grill-me、model-invokedの専門スキルが揃い、個人開発者が第一線の作業手順を即模倣できます。",
-      "narration": "TypeScript教育の権威が作業手順を丸ごと公開しました。個人開発者は即コピペで真似できます。"
+      "stars": 174209,
+      "todayStars": 2060,
+      "description": "AIと働く作業手順の標準化スキル集",
+      "detail": "TypeScript教育の第一人者mattpocockが自身の.claude設定を丸ごと公開したスキル集です。v1.1.0で/tddやgrill-meなどが揃い、Claude Codeにplugin marketplace経由で一発導入できます。",
+      "narration": "AIと働く作業手順の標準化スキル集です。エコシステム上ではClaude Codeプラグインの入り口を担います。"
     },
     {
       "rank": 2,
-      "fullName": "OpenCut-app/OpenCut",
-      "name": "OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "language": "TypeScript",
-      "stars": 71486,
-      "todayStars": 1505,
-      "description": "OSS版CapCutが本格化します",
-      "detail": "OSS版CapCutを目指す動画エディタです。Rustコアへ書き直され、Editor APIとMCPサーバー経由でAIから編集できます。CapCutサブスクをやめたい制作現場やSNS運用チームが本命候補です。",
-      "narration": "OSS版CapCutが本格化します。MCPでAIエージェントから編集できる時代の動画ツールです。"
+      "fullName": "codecrafters-io/build-your-own-x",
+      "name": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "language": "Markdown",
+      "stars": 526280,
+      "todayStars": 435,
+      "description": "作って学ぶ王道チュートリアル集",
+      "detail": "DBやOS、機械学習まで30以上の分野を作って学ぶ王道チュートリアル集です。CC0ライセンスで526,000スターに達し、AI時代でも実装力を鍛える定番教材の地位をさらに強めています。",
+      "narration": "AI時代でも実装力は消えない、と再確認させる定番教材です。エコシステムでは基礎筋トレの位置を担います。"
     },
     {
       "rank": 3,
-      "fullName": "Nutlope/hallmark",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "language": "CSS",
-      "stars": 8306,
-      "todayStars": 1119,
-      "description": "AIくささを消すデザインスキル",
-      "detail": "Claude Code、Cursor、Codexで使えるanti-AI-slopデザインスキルです。57の検証ゲートと20テーマのテンプレを持ち、デザイナー未在のスタートアップがAIくさくないUIを量産できます。",
-      "narration": "AIっぽいUIを避けるための設計スキルです。デザイナーを雇えないチームが職人品質を得ます。"
+      "fullName": "ossu/computer-science",
+      "name": "computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "language": "HTML",
+      "stars": 206500,
+      "todayStars": 107,
+      "description": "独学CS学部の決定版カリキュラム",
+      "detail": "無料で学べる大学レベルのCSカリキュラムです。Intro/Core/Advanced/最終プロジェクトの4段構成で、週20時間で2年、独学CTO志望の骨太な基礎教養レイヤを担います。",
+      "narration": "大学CS学部レベルを独学で走れる無料カリキュラムです。エコシステム最下層の教養レイヤを担います。"
     },
     {
       "rank": 4,
-      "fullName": "moeru-ai/airi",
-      "name": "airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "language": "TypeScript",
-      "stars": 42470,
-      "todayStars": 144,
-      "description": "自宅で走る音声AIコンパニオン",
-      "detail": "自宅マシンで動く音声AIコンパニオンです。VRMやLive2Dで顔を持ち、Minecraft、Factorio、Discord、Telegramに対応します。ホビイスト研究者向けにCUDAやWebGPUで動きます。",
-      "narration": "自宅マシンで走る音声AIコンパニオンです。MinecraftやFactorioを一緒に遊ぶ相棒になります。"
+      "fullName": "Graphify-Labs/graphify",
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "language": "Python",
+      "stars": 89017,
+      "todayStars": 1107,
+      "description": "コードをナレッジグラフに変換するツール",
+      "detail": "プロジェクト全体をコード・PDF・画像込みでナレッジグラフに変換します。tree-sitterで40言語をローカル解析し、Claude CodeやCursorなど15以上のAIから直接呼べます。",
+      "narration": "AIアシスタントにコードベース全体を理解させるナレッジグラフです。エコシステム連携ハブを担います。"
     },
     {
       "rank": 5,
-      "fullName": "Dicklesworthstone/destructive_command_guard",
-      "name": "destructive_command_guard",
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "language": "Rust",
-      "stars": 4743,
-      "todayStars": 497,
-      "description": "Rust製AIエージェント安全弁",
-      "detail": "git reset --hardやrm -rf、DROP TABLEをエージェント実行前に1ms以下で止めるRust hookです。Claude Code、Codex、Cursor、Copilot、Gemini CLIに同時挿入でき、本番運用の安全弁になります。",
-      "narration": "rm -rfやDROP TABLEをAIから守るRust hookです。事故ゼロ運用が求められる本番現場向きです。"
+      "fullName": "lobehub/lobehub",
+      "name": "lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "language": "TypeScript",
+      "stars": 80146,
+      "todayStars": 71,
+      "description": "複数エージェント24時間運用OS",
+      "detail": "エージェントを雇い回し報告させる4層で運用するAgent Operating Systemです。OpenAIやClaude、GeminiをMCP経由で束ね、10,000超のツールを共有ライブラリ化します。",
+      "narration": "複数のAIエージェントを24時間運用するOSです。エコシステムの上流・オーケストレーション層を担います。"
     }
   ]
 }
