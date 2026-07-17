@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -15,6 +15,7 @@
       { "language": "Python", "multiplier": 1.2 },
       { "language": "TypeScript", "multiplier": 1.1 },
       { "language": "Shell", "multiplier": 1.0 },
+      { "language": "Markdown", "multiplier": 1.0 },
       { "language": "Swift", "multiplier": 1.0 },
       { "language": "HTML", "multiplier": 1.0 },
       { "language": "JavaScript", "multiplier": 0.9 },
@@ -29,75 +30,75 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.7 avg n=16 TOP1 / business-angle 3.1 n=14 / trend-pattern 3.0 n=9 / comparison 2.9 n=18 (最大サンプル) / tech-deep 2.5 n=6 / use-case 1.5 n=4 / self-experiment 1.0 n=7。直近 2 日 (07-15 trend-pattern / 07-14 tech-deep) 連投ルール除外+business-angle 14d 3 件 cap (07-19 まで再投入不可)。本日 07-16 (木) は use-case を採用: 14d 内 0 件で 20 日近い空白 (最終 06-28)、柱① 低位リカバリ枠として理想。5/5 素材が『異なる利用者像 (個人開発者 / SNS 運用 / デザイン内製化 / ホビイスト / 本番運用 CTO)』にきれいに並ぶ稀有な日 (mattpocock/skills=個人開発者が第一線の作業手順を即コピペ, OpenCut=CapCut サブスクをやめたい SNS 運用チーム, Nutlope/hallmark=デザイナー未在のスタートアップ, moeru-ai/airi=ホビイスト研究者, destructive_command_guard=本番運用 CTO)。昨日 07-15 trend-pattern の『成熟フェーズ・adoption・skill 駆動・半年遅れ・垂直特化』macro 語彙から本日 07-16 の『誰が / どのシーンで / 明日どう置くか』具体語彙への視座降下で、Primary エンジニア/CTO 層に『今週 3 日で見たものを自チームでどう試すか』の具体的アクション材料を渡す。木曜 (Thu=176 avg, 週内 3 位) の中位曜露出。同一リポ 3 本 (mattpocock/skills, OpenCut, destructive_command_guard) を 2 日連続露出だが 07-15 (trend-pattern) と 07-16 (use-case) で角度を完全に切替、07-30 頃に views 比較で角度切替再露出の効果検証。"
+      "note": "Method 別累積平均 (全期間 views>0 n>=2): ecosystem 22.7 avg n=16 TOP1 / business-angle 3.1 n=14 / trend-pattern 2.9 n=10 / comparison 2.9 n=18 (最大サンプル) / tech-deep 2.5 n=6 / use-case 1.2 n=6 / self-experiment 1.1 n=7。直近 2 日 (07-16 use-case / 07-15 trend-pattern) 連投ルール除外、business-angle は 07-13 消化済で週次ノルマ達成後の非投入枠。本日 07-17 (金) は ecosystem を採用: avg 22.7 で method 別 TOP1、直近使用 07-10 で 7 日空白 (07-06 は 11 日前)、14d 内 2 件で余力 1 枠、金曜 (Fri=310 avg・週内 2 位) の高位曜との掛け算で本週のピーク候補。5/5 素材が『AI 時代エンジニアリング・スタック』の異なる 5 レイヤ (基礎教養 / 実装筋トレ / AI 協働作業手順 / AI のコード理解 / エージェント運用) に完璧一致で適合率 100%。昨日 07-16 use-case の『誰が / どのシーンで / 明日どう置くか』具体語彙を封印し、ecosystem の『全体スタックのどこ / エコシステムでの位置 / 上下流の連携』マクロ語彙に切替。5 リポの新規率は 4/5 (build-your-own-x, ossu/computer-science, Graphify-Labs/graphify, lobehub/lobehub が新規流入)、継続は mattpocock/skills 1 本のみ (07-16 rank1 → 07-17 rank1) で昨日 use-case (個人開発者向け即コピペ) から本日 ecosystem (Claude Code plugin marketplace の入り口レイヤ) に完全切替。今週 07-13 (business-angle) → 07-14 (tech-deep) → 07-15 (trend-pattern) → 07-16 (use-case) → 07-17 (ecosystem) と 5 method 完全分散継続。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は木曜 (Thu=176 avg・週内 3 位) の中位曜露出。use-case 角度は『5 リポを 5 種類の利用者像に落とし込み、明日から自チームで置く具体像』を Primary エンジニア/CTO 層に届け、今週の技術投資判断の実行フェーズを支援する日"
+      "本日は金曜 (Fri=310 avg・週内 2 位、Tue=361 の次点) の高位曜露出。ecosystem 22.7 avg との掛け算で理論値は本週のピーク候補。ecosystem 角度は『5 リポを AI 時代エンジニアリング・スタックの 5 レイヤ (基礎教養 / 実装筋トレ / AI 協働作業手順 / AI のコード理解 / エージェント運用) に配置し、Primary エンジニア/CTO 層に自チームのスタック地図を渡す』"
     ],
     "hashtags": [
-      "use-case 角度の核心は『5 リポを 5 種類の利用者像 (個人開発者 / SNS 運用 / デザイン内製化 / ホビイスト / 本番運用 CTO) に落とし込む』。本日 5 本の利用者軸: #mattpocock_skills=個人開発者が第一線の作業手順 (/tdd + /grill-me + model-invoked skill v1.1.0) を即コピペ / #OpenCut=CapCut サブスクをやめたい SNS 運用チーム (Rust コア + Editor API + MCP) / #hallmark=デザイナー未在のスタートアップが anti-AI-slop UI を量産 (57 検証ゲート + 20 テンプレ + Claude Code/Cursor/Codex 対応) / #airi=ホビイスト研究者が自宅マシンで音声 AI コンパニオン (VRM/Live2D + Minecraft/Factorio + Discord/Telegram + WebGPU/CUDA/Metal) / #destructive_command_guard=本番運用 CTO の事故ゼロ運用 (<1ms Rust hook + Claude Code/Codex/Cursor/Copilot/Gemini CLI 同時 + 50+ セキュリティパック)",
-      "言語タグは Shell 1 + TypeScript 2 + CSS 1 + Rust 1 の 4 言語ミックス。TypeScript (1.1x) 2 本で上位牽引、Shell (1.0x) は Claude スキル配布ツールで中立、CSS (0.8x) は anti-AI-slop デザインスキルの新素材、Rust (0.7x) は安全弁 use-case で押し切る",
-      "use-case 角度の独自 hashtag: #usecase #柱1 #柱① #個人開発者 #ソロ開発 #SNS運用 #デザイン内製化 #ホビイスト #本番運用 #CTO #自宅マシン #ClaudeCode #Cursor #Codex #Copilot #Gemini #MCP #Rust #TypeScript #VRM #Live2D #WebGPU #antiAIslop"
+      "ecosystem 角度の核心は『5 リポを AI 時代エンジニアリング・スタックの 5 レイヤに配置』。本日 5 本のレイヤ軸: #mattpocock_skills=AI 協働作業手順の標準化スキル集 (v1.1.0 + /tdd + grill-me + plugin marketplace) / #build_your_own_x=実装筋トレの王道教材 (30+ 分野 + CC0 + 526K スター) / #ossu_computer_science=基礎教養の大学 CS カリキュラム (Intro/Core/Advanced/最終 Project 4 段 + 週 20h × 2 年) / #graphify=AI のコード理解ナレッジグラフ (tree-sitter 40 言語 + v0.9.17 + 15+ AI アシスタント対応) / #lobehub=エージェント運用 OS (4 層構造 + OpenAI/Claude/Gemini/DeepSeek/GLM + MCP + 10,000+ ツール)",
+      "言語タグは Shell 1 + Markdown 1 + HTML 1 + Python 1 + TypeScript 1 の 5 言語ミックス。Python (1.2x) と TypeScript (1.1x) の上位牽引 2 本、Shell/Markdown/HTML の中立 3 本で 5/5 バランス良好。TypeScript = lobehub のエージェント運用 OS 素材、Python = graphify のナレッジグラフ AI 解析素材、Shell = mattpocock/skills の Claude Code 標準化素材、Markdown = build-your-own-x の学習教材集大成、HTML = ossu/computer-science の CS 学部代替カリキュラム、と各言語がレイヤ役割に対応",
+      "ecosystem 角度の独自 hashtag: #ecosystem #柱1 #柱① #AI時代スタック #エンジニアリング #スタック地図 #基礎教養 #実装筋トレ #AI協働 #AIコード理解 #エージェント運用 #ClaudeCode #Cursor #Codex #Copilot #Gemini #MCP #tree_sitter #NLPナレッジグラフ #AgentOS #独学CS #TypeScript #Python #Markdown"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 252 文字 (49+48+45+53+57)、TTS で約 45 秒、opening/ending と合わせて 55 秒以内",
-      "use-case 角度の一貫性: 5 本すべての narration を『(このリポは何か、フック 1 文)。(具体的な利用者像 or シーン 1 文)』の 2 文構成で 5/5 統一。1 文目に『作業手順を公開』『OSS 版 CapCut』『AI っぽい UI を避ける設計スキル』『音声 AI コンパニオン』『rm -rf を止めるガード』などリポの本質規定を置き、2 文目に『個人開発者は即コピペで真似』『AI エージェントから編集できる時代の動画ツール』『デザイナーを雇えないチームが職人品質』『Minecraft や Factorio を一緒に遊ぶ相棒』『事故ゼロ運用が求められる本番現場』など具体的な利用者像を必ず入れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。use-case では『誰が / どのシーンで』を 5/5 で必ず入れ、抽象的な技術解説を避ける",
-      "数値表現はアラビア数字統一 (57, 20, 19, 1)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 昨日 07-15 からの継続は 3 本 (mattpocock/skills rank2→1 / OpenCut rank4→2 / destructive_command_guard rank3→5)、新規流入 2 本 (Nutlope/hallmark / moeru-ai/airi)。継続 3 本は昨日の trend-pattern 語彙 (成熟フェーズ・skill 駆動・半年遅れ・AI 操作) を完全封印し、use-case の具体語彙 (個人開発者・SNS 運用・本番現場) に切替で角度疲労リスクなし"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 255 文字 (55+51+48+49+52)、TTS で約 46 秒、opening/ending と合わせて 55 秒以内",
+      "ecosystem 角度の一貫性: 5 本すべての narration を『(このリポは何か、フック 1 文)。(エコシステム上でこのレイヤを担う、位置づけ 1 文)』の 2 文構成で 5/5 統一。1 文目に『AI と働く作業手順の標準化』『AI 時代でも実装力は消えない』『大学 CS 学部レベルを独学で走れる』『AI にコードベース全体を理解させる』『複数の AI エージェントを 24 時間運用する』などリポの本質規定を置き、2 文目に『Claude Code プラグインの入り口』『エコシステムの基礎筋トレ位置』『エコシステム最下層の教養レイヤ』『エコシステム連携ハブ』『エコシステム上流のオーケストレーション層』などスタック上の位置づけを必ず入れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『エコシステム / スタック / レイヤ』の 3 語彙を 5/5 で必ず入れ、抽象的な機能紹介を避けて全体地図の中の位置を明示",
+      "数値表現はアラビア数字統一 (526,000, 20, 4, 24, 15, 40, 10,000)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-16 からの継続は 1 本 (mattpocock/skills rank1 → 1、24 時間で +2,060 スター積み増し継続)、新規流入 4 本 (build-your-own-x / ossu/computer-science / Graphify-Labs/graphify / lobehub/lobehub)。継続 1 本は昨日の use-case 語彙 (個人開発者・即コピペ・真似) を完全封印し、ecosystem の位置語彙 (プラグイン marketplace・作業手順の標準化・エコシステムの入り口) に切替で角度疲労リスクなし"
     ],
     "content": [
-      "本日の discovery.method は `use-case` (avg 1.5, n=4 で method 別 6 位、14d 内 0 件で 20 日近い空白 = 柱① 低位リカバリ、trend-pattern/tech-deep 直近 2 日除外 + business-angle 14d cap の除外時の唯一 14d 完全ゼロ枠)。5/5 素材が『5 種類の利用者像』にきれいに並ぶ稀有な日",
-      "本日 07-16 TOP5: #1 mattpocock/skills=Shell / 172,183★ / +2,160 [昨日 rank2→今日 rank1・.claude 丸ごと公開 v1.1.0 + /tdd + /grill-me + model-invoked skill・個人開発者向け]、#2 OpenCut-app/OpenCut=TypeScript / 71,486★ / +1,505 [昨日 rank4→今日 rank2・Rust コア書き直し + Editor API + MCP・SNS 運用向け]、#3 Nutlope/hallmark=CSS / 8,306★ / +1,119 [新規流入・anti-AI-slop デザインスキル・57 検証ゲート + 20 テンプレ・Build/Audit/Redesign/Study 4 モード・Claude Code/Cursor/Codex 対応・デザイナー未在チーム向け]、#4 moeru-ai/airi=TypeScript / 42,470★ / +144 [新規流入・Neuro-sama インスパイアの自宅マシン音声 AI コンパニオン・VRM/Live2D + Minecraft/Factorio + Discord/Telegram + WebGPU/CUDA/Metal・ホビイスト研究者向け]、#5 Dicklesworthstone/destructive_command_guard=Rust / 4,743★ / +497 [昨日 rank3→今日 rank5 継続・<1ms で rm -rf/DROP TABLE 停止・Claude Code/Codex/Cursor/Copilot/Gemini CLI 同時対応 + 50+ セキュリティパック・本番運用 CTO 向け]",
-      "本日の use-case 核: 『5 リポを 5 種類の利用者像に落とし込み、明日から自チームで置く具体像を渡す』。冒頭フックは『今日の 5 リポは、個人開発者、SNS 運用、デザイン内製化、ホビイスト、本番運用 CTO の 5 つの利用シーンにきれいに分かれます。明日の自チームでどう置くかまで持ち帰ってください』",
-      "Primary (CTO/技術選定) には『明日から自チームで置く具体像』として、Secondary (PdM/事業責任者) には『部門横断で使える 5 つのシーン地図』として、Tertiary (学習中) には『自分のロールに近い 1 本から学ぶ』の学習ガイドとして 3 層直撃。特に Primary への訴求を厚く、AI エージェント stack を自チームに埋め込む具体的手順を narration + detail の 2 層で示唆",
-      "連投上限ルール: 14d 内 use-case=1 件 (含本日 07-16 のみ)、余力 2 枠。ecosystem は 07-16 に 07-02 脱落で解禁 (07-17 金以降が本命)、business-angle は 07-19 に 07-05 脱落まで再投入 0 枠、comparison は 14d 2 件で余力 1 枠、tech-deep は 07-14 直近 2 日抵触で本日除外 (14d 内 2 件で余力 1 枠)、trend-pattern は 07-15 直近 2 日抵触で本日除外 (14d 内 2 件で余力 1 枠)、self-experiment は 14d 1 件 (07-12) で余力 2 枠。柱② 週次ノルマは 07-13 消化済、柱③ 週次ノルマは 07-12 消化済で来週日曜は柱①③ どちらでも可"
+      "本日の discovery.method は `ecosystem` (avg 22.7, n=16 で method 別 TOP1、14d 内 2 件で余力 1 枠、直近使用 07-10 で 7 日空白)。5/5 素材が『AI 時代エンジニアリング・スタックの 5 レイヤ』にきれいに並ぶ稀有な日、07-16 PDCA 末尾で『金=ecosystem』と本日投入を明示予告済",
+      "本日 07-17 TOP5: #1 mattpocock/skills=Shell / 174,209★ / +2,060 [07-16 rank1 継続・v1.1.0 + /tdd + grill-me + plugin marketplace・AI 協働作業手順レイヤ]、#2 codecrafters-io/build-your-own-x=Markdown / 526,280★ / +435 [新規流入・30+ 分野 + CC0・実装筋トレレイヤ]、#3 ossu/computer-science=HTML / 206,500★ / +107 [新規流入・Intro/Core/Advanced/最終 Project 4 段 + 週 20h × 2 年・基礎教養レイヤ]、#4 Graphify-Labs/graphify=Python / 89,017★ / +1,107 [新規流入・tree-sitter 40 言語 + v0.9.17 + 15+ AI アシスタント対応・AI のコード理解レイヤ]、#5 lobehub/lobehub=TypeScript / 80,146★ / +71 [新規流入・4 層 Operator/Create/Collaborate/Evolve + OpenAI/Claude/Gemini/DeepSeek/GLM + MCP + 10,000+ ツール・エージェント運用レイヤ]",
+      "本日の ecosystem 核: 『5 リポを AI 時代エンジニアリング・スタックの 5 レイヤに配置し、自チームのスタック地図のどこが空いているかを渡す』。冒頭フックは『今日の 5 リポは、AI 時代のエンジニアリング・スタックを綺麗に 5 レイヤで埋めています。基礎教養、実装筋トレ、AI 協働、AI コード理解、エージェント運用の 5 段。自チームでどこが空いているか確認してください』",
+      "Primary (CTO/技術選定) には『自チーム AI 時代スタックの全体地図とギャップ診断』として、Secondary (PdM/事業責任者) には『部門横断で使える 5 つのレイヤ地図』として、Tertiary (学習中) には『下から順に登れる学習ラダー』として 3 層直撃。特に Primary への訴求を厚く、AI 時代スタックの全体像と埋め方の順序を narration + detail の 2 層で示唆",
+      "連投上限ルール: 14d 内 ecosystem=3 件 (07-06, 07-10, 07-17) となり 14d cap 到達、07-20 に 07-06 が 14d 圏外に脱落するまで再投入 0 枠 (07-21 以降 1 枠、07-25 以降 2 枠)。use-case は 07-16, 07-17 の連続で 14d 内 2 件だが直近 2 日ルールで 07-19 まで除外、trend-pattern は 07-15 で直近 2 日ルール抵触継続 (07-18 以降解除)、tech-deep は 07-14 で 14d 内 2 件で余力 1 枠 (07-18 以降選択可)、comparison は 07-04 が本日 14d 圏内最終日で 07-18 以降 1 枠に減少、business-angle は 07-13 消化済で余力 1 枠 (07-19 まで 3 件 cap リスクなし)、self-experiment は 07-12 消化済で余力 2 枠。柱② 週次ノルマは 07-13 消化済、柱③ 週次ノルマは 07-12 消化済で来週日曜は柱①③ どちらでも可"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-16",
-    "dayOfWeek": "Thu",
+    "date": "2026-07-17",
+    "dayOfWeek": "Fri",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "usecase",
+      "ecosystem",
       "柱1",
       "柱①",
-      "個人開発者",
-      "ソロ開発",
-      "SNS運用",
-      "デザイン内製化",
-      "ホビイスト",
-      "本番運用",
-      "CTO",
-      "自宅マシン",
+      "AI時代スタック",
+      "エンジニアリング",
+      "スタック地図",
+      "基礎教養",
+      "実装筋トレ",
+      "AI協働",
+      "AIコード理解",
+      "エージェント運用",
       "ClaudeCode",
       "Cursor",
       "Codex",
       "Copilot",
       "Gemini",
       "MCP",
-      "Rust",
+      "tree_sitter",
+      "ナレッジグラフ",
+      "AgentOS",
+      "独学CS",
       "TypeScript",
+      "Python",
+      "Markdown",
       "Shell",
-      "CSS",
-      "VRM",
-      "Live2D",
-      "WebGPU",
-      "antiAIslop",
+      "HTML",
       "mattpocock_skills",
-      "OpenCut",
-      "hallmark",
-      "airi",
-      "destructive_command_guard",
-      "PdM",
-      "動画編集",
-      "AIエージェント",
-      "デザインスキル"
+      "build_your_own_x",
+      "ossu",
+      "graphify",
+      "lobehub",
+      "CTO",
+      "技術選定",
+      "AIエージェント"
     ],
-    "focus": "木曜 (Thu=176 avg・週内 3 位) の中位曜露出。`use-case` (avg 1.5, n=4 で method 別 6 位だが 14d 内 0 件で 20 日空白の柱① 低位リカバリ枠、trend-pattern/tech-deep 直近 2 日抵触 + business-angle 14d cap の除外時の唯一 14d 完全ゼロ枠) を投入。5/5 素材が『個人開発者 / SNS 運用 / デザイン内製化 / ホビイスト / 本番運用 CTO』の 5 種類の利用者像に完璧一致で適合率 100%。ecosystem は 07-17 金以降が本命、business-angle は 07-19 に 07-05 脱落まで再投入 0 枠、comparison は 14d 2 件で余力 1 枠だが avg 2.9 で今日は use-case にリカバリ、self-experiment は 07-12 使用で 14d 1 件だが avg 1.0 で今日は見送り。本日の TOP5 は 2/5 新規 (Nutlope/hallmark / moeru-ai/airi)、3/5 継続 (mattpocock/skills rank2→1 / OpenCut rank4→2 / destructive_command_guard rank3→5) で継続分は昨日 trend-pattern 語彙 (成熟フェーズ・skill 駆動・半年遅れ・AI 操作) を完全封印し use-case の具体語彙 (個人開発者・SNS 運用・本番現場) に切替で角度疲労リスクなし。同一リポ 3 本の 2 日連続露出は角度切替の効果を 07-30 頃の views 比較で検証予定。narration は『(このリポは何か、フック 1 文)。(具体的な利用者像 or シーン 1 文)』2 文構成で 5/5 統一、5 本合計 252 文字。具体語彙 (個人開発者・SNS 運用・デザイナー未在チーム・ホビイスト研究者・本番現場) と各リポの固有事実 (v1.1.0 skill 集・MCP 動画編集・57 検証ゲート・VRM/Live2D + Minecraft/Factorio・<1ms Rust hook) を全 5 本に埋めて README 読み上げレベルを回避。07-14『技術設計の骨格』→ 07-15『AI エージェント成熟の 5 段階マップ』→ 07-16『明日から自チームで置く具体像』の 3 日連続で視座を『技術詳細 → マクロ潮流 → 実装への落とし込み』に螺旋降下、Primary CTO 層への訴求を実行フェーズに引き渡す。PR 経由 squash merge + 着弾検証は必須実行 (55 日連続成功継続で本日 56 日目)。"
+    "focus": "金曜 (Fri=310 avg・週内 2 位、Tue=361 の次点) の高位曜露出。`ecosystem` (avg 22.7, n=16 で method 別 TOP1、14d 内 2 件で余力 1 枠、直近使用 07-10 で 7 日空白) を投入。5/5 素材が『AI 時代エンジニアリング・スタックの 5 レイヤ (基礎教養 / 実装筋トレ / AI 協働 / AI コード理解 / エージェント運用)』に完璧一致で適合率 100%。use-case (07-16, 07-17) は直近 2 日ルールで除外、trend-pattern (07-15) も直近 2 日ルールで除外、business-angle は 07-13 消化で余力 1 枠残りだが今日は ecosystem TOP1 を優先、comparison/tech-deep/self-experiment は本日は非投入。本日の TOP5 は 4/5 新規 (build-your-own-x / ossu/computer-science / graphify / lobehub)、1/5 継続 (mattpocock/skills rank1 → 1) で継続分は昨日 use-case 語彙 (個人開発者・即コピペ) を完全封印し ecosystem の位置語彙 (プラグイン marketplace・作業手順の標準化) に切替で角度疲労リスクなし。同一リポの角度切替効果は 07-30 頃の views 比較で検証予定。narration は『(このリポは何か、フック 1 文)。(エコシステム上でこのレイヤを担う、位置づけ 1 文)』2 文構成で 5/5 統一、5 本合計 255 文字。位置語彙 (プラグインの入り口 / 基礎筋トレの位置 / 最下層の教養レイヤ / 連携ハブ / 上流のオーケストレーション層) と各リポの固有事実 (v1.1.0 skill 集・30+ 分野 CC0・週 20h × 2 年・tree-sitter 40 言語・4 層 + MCP + 10,000+ ツール) を全 5 本に埋めて README 読み上げレベルを回避。07-14『技術設計の骨格』→ 07-15『AI エージェント成熟の 5 段階マップ』→ 07-16『明日から自チームで置く具体像』→ 07-17『AI 時代エンジニアリング・スタックの全体地図』の 4 日連続で視座を『技術詳細 → マクロ潮流 → 実装 → 全体地図』へ螺旋展開、Primary CTO 層への訴求を『自チームスタックのギャップ診断』フェーズに引き上げる。PR 経由 squash merge + 着弾検証は必須実行 (56 日連続成功継続で本日 57 日目)。"
   }
 }
