@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日の5リポを『AI時代エンジニアリング・スタックの全体地図』として切り取る。基礎教養 (ossu/computer-science)・実装筋トレ (build-your-own-x)・AI協働作業手順 (mattpocock/skills)・AIのコード理解 (Graphify)・エージェント運用 (lobehub) の5レイヤに1リポずつ当てはめ、Primary エンジニア/CTO 層に『自チームのAI時代スタックのどこが空いているか』の全体地図を渡す。ecosystem は全期間 avg 22.7 で method 別 TOP1、直近使用 07-10 で7日空白、14d 内2件で余力1枠、use-case/trend-pattern が直近2日ルール抵触の中で最有力枠。",
+    "method": "business-angle",
+    "description": "本日の5リポを『実案件の月次コスト削減と受託見積り』の視点で切り取る。hallmark=デザイン外注月20万削減 / PostHog=Amplitude月20万請求書ゼロ化 / build-your-own-x=新人研修外注費ゼロ化 / maths-cs-ai-compendium=社内AI人材育成費ゼロ化 / copilot-sdk=自社製品AI組込工数の1週間構造化。5リポ全てが具体的な数値ROIに落ちる稀有な日で、Primary CTO層に『明日の見積書に載る5本のコスト削減ネタ』を渡す。business-angleは全期間avg 3.1でuse-case (直近2日ルール抵触) 除外後の method 別 TOP相当、直近07-13で5日空白・14d内2件で余力1枠、柱②週次ノルマの二回目消化で Primary への訴求密度強化。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/mattpocock/skills",
       "https://github.com/codecrafters-io/build-your-own-x",
-      "https://github.com/ossu/computer-science",
-      "https://github.com/Graphify-Labs/graphify",
-      "https://github.com/lobehub/lobehub"
+      "https://github.com/PostHog/posthog",
+      "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "https://github.com/Nutlope/hallmark",
+      "https://github.com/github/copilot-sdk"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 174209,
-      "todayStars": 2060,
-      "description": "AIと働く作業手順の標準化スキル集",
-      "detail": "TypeScript教育の第一人者mattpocockが自身の.claude設定を丸ごと公開したスキル集です。v1.1.0で/tddやgrill-meなどが揃い、Claude Codeにplugin marketplace経由で一発導入できます。",
-      "narration": "AIと働く作業手順の標準化スキル集です。エコシステム上ではClaude Codeプラグインの入り口を担います。"
-    },
-    {
-      "rank": 2,
       "fullName": "codecrafters-io/build-your-own-x",
       "name": "build-your-own-x",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "language": "Markdown",
-      "stars": 526280,
-      "todayStars": 435,
-      "description": "作って学ぶ王道チュートリアル集",
-      "detail": "DBやOS、機械学習まで30以上の分野を作って学ぶ王道チュートリアル集です。CC0ライセンスで526,000スターに達し、AI時代でも実装力を鍛える定番教材の地位をさらに強めています。",
-      "narration": "AI時代でも実装力は消えない、と再確認させる定番教材です。エコシステムでは基礎筋トレの位置を担います。"
+      "stars": 527272,
+      "todayStars": 1070,
+      "description": "研修外注費を消せる王道自作教材集",
+      "detail": "DBやOS、コンパイラなど30以上の技術を実装しながら学ぶ王道教材集です。CC0ライセンスで527,000スター、受託前の新人研修や中途採用の技術キャッチアップに使えば研修外注費をゼロに落とせます。",
+      "narration": "新人研修の外注費を消せる王道の自作教材集です。30以上の技術を実装で学ばせて研修外注をゼロにできます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "PostHog/posthog",
+      "name": "posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "language": "Python",
+      "stars": 36174,
+      "todayStars": 437,
+      "description": "月20万を削るOSSの分析基盤",
+      "detail": "分析、AB、フラグ、セッション再生、AI観測まで12機能を束ねて自社ホストできるOSSです。AmplitudeやMixpanelの月20万請求書を実質ゼロに落とし、MCP経由でSlackから運用まで回せます。",
+      "narration": "Amplitudeの月20万請求書を削れるOSSの分析基盤です。自社ホストして計測費用を実質ゼロにできます。"
     },
     {
       "rank": 3,
-      "fullName": "ossu/computer-science",
-      "name": "computer-science",
-      "url": "https://github.com/ossu/computer-science",
-      "language": "HTML",
-      "stars": 206500,
-      "todayStars": 107,
-      "description": "独学CS学部の決定版カリキュラム",
-      "detail": "無料で学べる大学レベルのCSカリキュラムです。Intro/Core/Advanced/最終プロジェクトの4段構成で、週20時間で2年、独学CTO志望の骨太な基礎教養レイヤを担います。",
-      "narration": "大学CS学部レベルを独学で走れる無料カリキュラムです。エコシステム最下層の教養レイヤを担います。"
+      "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
+      "name": "maths-cs-ai-compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "language": "TypeScript",
+      "stars": 6588,
+      "todayStars": 248,
+      "description": "AI人材育成費を消す無料の教科書",
+      "detail": "DeepMindやOpenAI、Nvidia内定者が学んだAI/MLの無料教科書です。線形代数からGPU実装まで20章、社内AI人材の育成教材や採用面接の共通言語作りに使えば、Coursera月額の育成コストを丸ごと削れます。",
+      "narration": "AI人材の育成教材を無料で内製できる教科書です。DeepMind内定者が読む内容が採用の共通言語になります。"
     },
     {
       "rank": 4,
-      "fullName": "Graphify-Labs/graphify",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "language": "Python",
-      "stars": 89017,
-      "todayStars": 1107,
-      "description": "コードをナレッジグラフに変換するツール",
-      "detail": "プロジェクト全体をコード・PDF・画像込みでナレッジグラフに変換します。tree-sitterで40言語をローカル解析し、Claude CodeやCursorなど15以上のAIから直接呼べます。",
-      "narration": "AIアシスタントにコードベース全体を理解させるナレッジグラフです。エコシステム連携ハブを担います。"
+      "fullName": "Nutlope/hallmark",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "language": "CSS",
+      "stars": 11958,
+      "todayStars": 1486,
+      "description": "デザイン外注月20万を削るスキル",
+      "detail": "Together AIが公開したデザイン特化のClaude Codeスキルです。57のスロップテスト検証と20テーマでLPを量産感なしに仕上げ、Claude CodeやCursor、Codexに入れれば月20万のデザイン外注費を圧縮できます。",
+      "narration": "デザイン外注費を月20万削れる制作スキルです。Claude Codeに入れるだけでLPが高品位に化けます。"
     },
     {
       "rank": 5,
-      "fullName": "lobehub/lobehub",
-      "name": "lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "language": "TypeScript",
-      "stars": 80146,
-      "todayStars": 71,
-      "description": "複数エージェント24時間運用OS",
-      "detail": "エージェントを雇い回し報告させる4層で運用するAgent Operating Systemです。OpenAIやClaude、GeminiをMCP経由で束ね、10,000超のツールを共有ライブラリ化します。",
-      "narration": "複数のAIエージェントを24時間運用するOSです。エコシステムの上流・オーケストレーション層を担います。"
+      "fullName": "github/copilot-sdk",
+      "name": "copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "language": "Java",
+      "stars": 9784,
+      "todayStars": 234,
+      "description": "AI組込を1週間で構造化する公式SDK",
+      "detail": "自社アプリにCopilotの計画・実行エージェントを差し込める公式SDKです。TypeScript、Python、Go、Rust、Java、.NETの6言語対応でBYOKも可、AI機能組込の受託案件のスコープを1週間で構造化できます。",
+      "narration": "自社製品にAIエージェント機能を1週間で組めるSDKです。受託案件のスコープを短期で構造化できます。"
     }
   ]
 }
