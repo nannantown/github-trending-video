@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日の5リポを『実案件の月次コスト削減と受託見積り』の視点で切り取る。hallmark=デザイン外注月20万削減 / PostHog=Amplitude月20万請求書ゼロ化 / build-your-own-x=新人研修外注費ゼロ化 / maths-cs-ai-compendium=社内AI人材育成費ゼロ化 / copilot-sdk=自社製品AI組込工数の1週間構造化。5リポ全てが具体的な数値ROIに落ちる稀有な日で、Primary CTO層に『明日の見積書に載る5本のコスト削減ネタ』を渡す。business-angleは全期間avg 3.1でuse-case (直近2日ルール抵触) 除外後の method 別 TOP相当、直近07-13で5日空白・14d内2件で余力1枠、柱②週次ノルマの二回目消化で Primary への訴求密度強化。",
+    "method": "ecosystem",
+    "description": "本日の5リポをAI/データ/観測/UI/教育の各エコシステム層の位置づけで切り取る。lingbot-map=3D基盤モデル層 (VGGT/DINOv2系譜) / Apache Ossie=データ意味論層 (dbt/GoodData標準化) / PostHog=観測レイヤ (Amplitude/Mixpanel/LangSmith置換) / ui-skills=UI実装スキル層 (Prompt Kit系 ibelick 氏) / ai-engineering-from-scratch=AI教育スタック統合層 (RAG/MCP/Agent 20フェーズ)。ecosystem は14d avg 2.5でTOP1 method、直近使用07-10で9日空白、07-06が07-20に14d圏外脱落するため今日投入で余力2枠に復活。連投2日ルール (07-17 use-case / 07-18 business-angle) をクリア、柱②は07-13/07-18で本週消化済で柱③は07-12消化済のため本週ノルマ充足、exploit側TOP method に賭ける。Primary CTO層に『今AI/データ/UIの各層で何が主役か』の一枚地図を渡し、業務での技術選定判断に直結させる。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/codecrafters-io/build-your-own-x",
+      "https://github.com/Robbyant/lingbot-map",
+      "https://github.com/apache/ossie",
       "https://github.com/PostHog/posthog",
-      "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "https://github.com/Nutlope/hallmark",
-      "https://github.com/github/copilot-sdk"
+      "https://github.com/ibelick/ui-skills",
+      "https://github.com/rohitg00/ai-engineering-from-scratch"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "codecrafters-io/build-your-own-x",
-      "name": "build-your-own-x",
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "language": "Markdown",
-      "stars": 527272,
-      "todayStars": 1070,
-      "description": "研修外注費を消せる王道自作教材集",
-      "detail": "DBやOS、コンパイラなど30以上の技術を実装しながら学ぶ王道教材集です。CC0ライセンスで527,000スター、受託前の新人研修や中途採用の技術キャッチアップに使えば研修外注費をゼロに落とせます。",
-      "narration": "新人研修の外注費を消せる王道の自作教材集です。30以上の技術を実装で学ばせて研修外注をゼロにできます。"
+      "fullName": "Robbyant/lingbot-map",
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "language": "Python",
+      "stars": 12876,
+      "todayStars": 827,
+      "description": "3Dシーンを組み立てる基盤モデル",
+      "detail": "ストリーミング映像から3Dシーンを feed-forward で再構築する新しい基盤モデルです。VGGT・DINOv2の系譜を継ぎ、518×378で約20FPS。AR/VRとロボティクスのリアルタイム3D理解のハブになる可能性があります。",
+      "narration": "リアルタイムで3Dシーンを再構築するモデルです。VGGTの流れを継ぐ、AR/VRとロボティクスの共通基盤です。"
     },
     {
       "rank": 2,
+      "fullName": "apache/ossie",
+      "name": "ossie",
+      "url": "https://github.com/apache/ossie",
+      "language": "Python",
+      "stars": 1260,
+      "todayStars": 48,
+      "description": "KPI定義を統一するセマンティック仕様",
+      "detail": "分析・AI・BIツール間で食い違うKPI定義をベンダー中立の仕様で統一する Apache incubation プロジェクトです。dbt、GoodData、Polaris、Salesforce 向けのリファレンスコンバータを持ち、データ基盤の共通言語を狙います。",
+      "narration": "KPI定義の食い違いを消す共通仕様です。dbtやGoodDataと繋がる、データ基盤の新しい真ん中を狙います。"
+    },
+    {
+      "rank": 3,
       "fullName": "PostHog/posthog",
       "name": "posthog",
       "url": "https://github.com/PostHog/posthog",
       "language": "Python",
-      "stars": 36174,
-      "todayStars": 437,
-      "description": "月20万を削るOSSの分析基盤",
-      "detail": "分析、AB、フラグ、セッション再生、AI観測まで12機能を束ねて自社ホストできるOSSです。AmplitudeやMixpanelの月20万請求書を実質ゼロに落とし、MCP経由でSlackから運用まで回せます。",
-      "narration": "Amplitudeの月20万請求書を削れるOSSの分析基盤です。自社ホストして計測費用を実質ゼロにできます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
-      "name": "maths-cs-ai-compendium",
-      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "language": "TypeScript",
-      "stars": 6588,
-      "todayStars": 248,
-      "description": "AI人材育成費を消す無料の教科書",
-      "detail": "DeepMindやOpenAI、Nvidia内定者が学んだAI/MLの無料教科書です。線形代数からGPU実装まで20章、社内AI人材の育成教材や採用面接の共通言語作りに使えば、Coursera月額の育成コストを丸ごと削れます。",
-      "narration": "AI人材の育成教材を無料で内製できる教科書です。DeepMind内定者が読む内容が採用の共通言語になります。"
+      "stars": 36562,
+      "todayStars": 337,
+      "description": "分析・リプレイ・AI観測の統合OSS",
+      "detail": "プロダクト分析、セッションリプレイ、フラグ、実験、エラー、ログ、AI観測を一つに束ねるOSSプラットフォームです。AmplitudeやMixpanel、LangSmith、Sentryの層を自社ホストで統合し、AI時代の観測レイヤを担います。",
+      "narration": "分析とAI観測を1つに束ねるOSSです。Amplitudeやセッションリプレイの層を、自社ホストで統合できます。"
     },
     {
       "rank": 4,
-      "fullName": "Nutlope/hallmark",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "language": "CSS",
-      "stars": 11958,
-      "todayStars": 1486,
-      "description": "デザイン外注月20万を削るスキル",
-      "detail": "Together AIが公開したデザイン特化のClaude Codeスキルです。57のスロップテスト検証と20テーマでLPを量産感なしに仕上げ、Claude CodeやCursor、Codexに入れれば月20万のデザイン外注費を圧縮できます。",
-      "narration": "デザイン外注費を月20万削れる制作スキルです。Claude Codeに入れるだけでLPが高品位に化けます。"
+      "fullName": "ibelick/ui-skills",
+      "name": "ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "language": "TypeScript",
+      "stars": 4969,
+      "todayStars": 242,
+      "description": "デザインエンジニア向けのUIスキル集",
+      "detail": "デザインエンジニア向けにモーションや Baseline UI などのパターン集を配布する OSS です。CLI から取り出せて、UI系OSSで知られる ibelick 氏による AI 時代のフロントエンド実装スキルを束ねる新しいエコシステム層です。",
+      "narration": "デザインエンジニア向けのスキル集OSSです。CLIから取り出せて、AI時代のUI実装エコシステムを整えます。"
     },
     {
       "rank": 5,
-      "fullName": "github/copilot-sdk",
-      "name": "copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "language": "Java",
-      "stars": 9784,
-      "todayStars": 234,
-      "description": "AI組込を1週間で構造化する公式SDK",
-      "detail": "自社アプリにCopilotの計画・実行エージェントを差し込める公式SDKです。TypeScript、Python、Go、Rust、Java、.NETの6言語対応でBYOKも可、AI機能組込の受託案件のスコープを1週間で構造化できます。",
-      "narration": "自社製品にAIエージェント機能を1週間で組めるSDKです。受託案件のスコープを短期で構造化できます。"
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars": 39072,
+      "todayStars": 240,
+      "description": "AI技術を自作で学ぶ20フェーズ教材",
+      "detail": "数学の基礎から Transformer、RAG、MCP、Agent、多エージェントまで20フェーズ503レッスンで自作しながら学ぶOSS教材です。Python/TypeScript/Rust/Julia の4言語横断で、AIエンジニアリングの技術地図全体を繋げます。",
+      "narration": "AIエンジニアリングを自作で学ぶ教材です。数学からMCPやAgentまで、20フェーズで技術地図が繋がります。"
     }
   ]
 }
