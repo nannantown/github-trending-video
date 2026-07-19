@@ -2,88 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "YHNc0JQ35lw",
-      "videoUrl": "https://youtube.com/shorts/YHNc0JQ35lw",
-      "date": "2026-04-18",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/18 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "forrestchang/andrej-karpathy-skills",
-        "thedotmack/claude-mem",
-        "lsdefine/GenericAgent",
-        "jamiepine/voicebox",
-        "vercel-labs/open-agents"
-      ],
-      "durationSeconds": 63,
-      "stats": {
-        "views": 8,
-        "likes": 2,
-        "comments": 0,
-        "updatedAt": "2026-04-19T02:56:10.357Z"
-      }
-    },
-    {
-      "videoId": "nRWwd31lWX8",
-      "videoUrl": "https://youtube.com/shorts/nRWwd31lWX8",
-      "date": "2026-04-19",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/19 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Dart",
-        "Python",
-        "JavaScript",
-        "Cuda"
-      ],
-      "languages": [
-        "TypeScript",
-        "Dart",
-        "Python",
-        "JavaScript",
-        "Cuda"
-      ],
-      "projects": [
-        "thunderbird/thunderbolt",
-        "BasedHardware/omi",
-        "openai/openai-agents-python",
-        "EvoMap/evolver",
-        "deepseek-ai/DeepGEMM"
-      ],
-      "durationSeconds": 62,
-      "stats": {
-        "views": 17,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-03T23:32:23.139Z"
-      }
-    },
-    {
       "videoId": "tNktQwSBzPY",
       "videoUrl": "https://youtube.com/shorts/tNktQwSBzPY",
       "date": "2026-04-20",
@@ -3728,7 +3646,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -3780,7 +3698,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -3832,7 +3750,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -3885,7 +3803,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -3939,7 +3857,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -3992,7 +3910,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4046,7 +3964,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4101,7 +4019,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4154,7 +4072,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4206,7 +4124,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4262,7 +4180,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4319,7 +4237,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4374,7 +4292,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-17T23:39:06.441Z"
+        "updatedAt": "2026-07-19T23:42:54.103Z"
       }
     },
     {
@@ -4430,6 +4348,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-19T23:42:54.103Z"
+      }
+    },
+    {
+      "videoId": "2nEaGcFuk8g",
+      "videoUrl": "https://youtube.com/shorts/2nEaGcFuk8g",
+      "date": "2026-07-20",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/20 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "Shell",
+        "Go",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "bojieli/ai-agent-book",
+        "tirth8205/code-review-graph",
+        "kvcache-ai/ktransformers",
+        "rohitg00/ai-engineering-from-scratch",
+        "jamiepine/voicebox"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日の5リポを各領域の既存インカンベントとの差分視点で切り取る。ai-agent-book=LangChain入門/HF Agent Courseとの本番運用への振り切り差分 / code-review-graph=LSP/grep/RAG/tree-sitterでは追えない多段影響グラフの差分 / ktransformers=vLLM/TGI(GPU専用)とllama.cpp(小型)の谷を埋めるCPU-GPU異構MoE推論の差分 / ai-engineering-from-scratch=Karpathy(深く狭い)/fast.ai(直感先行)/HF(APIより)/Chip Huyen(システム設計)の中間を埋める503レッスン線形教材の差分 / voicebox=ElevenLabs(出力)/WisprFlow(入力)クラウド前提に対するローカル完結入出力統合の差分。今日07-20は昨日07-19がecosystem/07-18がbusiness-angleで連投2日ルールを踏まえ、all-time avg 2.89 n=18 で ecosystem 次点かつ大サンプルの安定リソースであるcomparisonを採用。5/5素材が明確なインカンベントを持つ稀有な日でCTO/技術選定層に『何と比べて選ぶか』の判断軸を渡す。柱②は07-13/07-18で本週2回消化・柱③は07-12消化済で今週ノルマ充足。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/bojieli/ai-agent-book",
+          "https://github.com/tirth8205/code-review-graph",
+          "https://github.com/kvcache-ai/ktransformers",
+          "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "https://github.com/jamiepine/voicebox"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4438,19 +4411,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-14",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 132 avg views (63 videos)",
-        "Trending languages: Kotlin (3.0x), C++ (2.4x), Jupyter Notebook (3.0x)",
-        "Day performance: Tue=310, Fri=248, Thu=141, Wed=134, Sat=64, Mon=55, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-16",
       "changes": [
@@ -4959,6 +4919,28 @@
         "standard: 34 avg views (81 videos)",
         "Trending languages: Go (1.4x)",
         "Day performance: Fri=157, Tue=34, Mon=22, Sat=4, Sun=3, Thu=3, Wed=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-19",
+      "changes": [
+        "JavaScript: 0.7x avg views → drop",
+        "HTML: 4.7x avg views → boost",
+        "Rust: 0.2x avg views → drop",
+        "Shell: 4.7x avg views → boost",
+        "Markdown: 0.5x avg views → drop",
+        "Go: 5.1x avg views → boost",
+        "C++: 0.2x avg views → drop",
+        "Kotlin: 0.2x avg views → drop",
+        "Ruby: 0.2x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.1x avg views → drop",
+        "CSS: 0.2x avg views → drop",
+        "standard: 9 avg views (81 videos)",
+        "Trending languages: HTML (3.9x), Shell (1.6x), Go (5.1x)",
+        "Day performance: Tue=34, Mon=22, Sat=4, Sun=3, Thu=3, Wed=2, Fri=2"
       ],
       "recommendedTemplate": "standard"
     }
