@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日の5リポをAI/データ/観測/UI/教育の各エコシステム層の位置づけで切り取る。lingbot-map=3D基盤モデル層 (VGGT/DINOv2系譜) / Apache Ossie=データ意味論層 (dbt/GoodData標準化) / PostHog=観測レイヤ (Amplitude/Mixpanel/LangSmith置換) / ui-skills=UI実装スキル層 (Prompt Kit系 ibelick 氏) / ai-engineering-from-scratch=AI教育スタック統合層 (RAG/MCP/Agent 20フェーズ)。ecosystem は14d avg 2.5でTOP1 method、直近使用07-10で9日空白、07-06が07-20に14d圏外脱落するため今日投入で余力2枠に復活。連投2日ルール (07-17 use-case / 07-18 business-angle) をクリア、柱②は07-13/07-18で本週消化済で柱③は07-12消化済のため本週ノルマ充足、exploit側TOP method に賭ける。Primary CTO層に『今AI/データ/UIの各層で何が主役か』の一枚地図を渡し、業務での技術選定判断に直結させる。",
+    "method": "comparison",
+    "description": "本日の5リポを各領域の既存インカンベントとの差分視点で切り取る。ai-agent-book=LangChain入門/HF Agent Courseとの本番運用への振り切り差分 / code-review-graph=LSP/grep/RAG/tree-sitterでは追えない多段影響グラフの差分 / ktransformers=vLLM/TGI(GPU専用)とllama.cpp(小型)の谷を埋めるCPU-GPU異構MoE推論の差分 / ai-engineering-from-scratch=Karpathy(深く狭い)/fast.ai(直感先行)/HF(APIより)/Chip Huyen(システム設計)の中間を埋める503レッスン線形教材の差分 / voicebox=ElevenLabs(出力)/WisprFlow(入力)クラウド前提に対するローカル完結入出力統合の差分。今日07-20は昨日07-19がecosystem/07-18がbusiness-angleで連投2日ルールを踏まえ、all-time avg 2.89 n=18 で ecosystem 次点かつ大サンプルの安定リソースであるcomparisonを採用。5/5素材が明確なインカンベントを持つ稀有な日でCTO/技術選定層に『何と比べて選ぶか』の判断軸を渡す。柱②は07-13/07-18で本週2回消化・柱③は07-12消化済で今週ノルマ充足。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Robbyant/lingbot-map",
-      "https://github.com/apache/ossie",
-      "https://github.com/PostHog/posthog",
-      "https://github.com/ibelick/ui-skills",
-      "https://github.com/rohitg00/ai-engineering-from-scratch"
+      "https://github.com/bojieli/ai-agent-book",
+      "https://github.com/tirth8205/code-review-graph",
+      "https://github.com/kvcache-ai/ktransformers",
+      "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "https://github.com/jamiepine/voicebox"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Robbyant/lingbot-map",
-      "name": "lingbot-map",
-      "url": "https://github.com/Robbyant/lingbot-map",
+      "fullName": "bojieli/ai-agent-book",
+      "name": "ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
       "language": "Python",
-      "stars": 12876,
-      "todayStars": 827,
-      "description": "3Dシーンを組み立てる基盤モデル",
-      "detail": "ストリーミング映像から3Dシーンを feed-forward で再構築する新しい基盤モデルです。VGGT・DINOv2の系譜を継ぎ、518×378で約20FPS。AR/VRとロボティクスのリアルタイム3D理解のハブになる可能性があります。",
-      "narration": "リアルタイムで3Dシーンを再構築するモデルです。VGGTの流れを継ぐ、AR/VRとロボティクスの共通基盤です。"
+      "stars": 5316,
+      "todayStars": 1734,
+      "description": "LangChain入門との違い",
+      "detail": "LangChain入門やHF Agent Courseはフレームワークの使い方までですが、本書はContext圧縮・ツール統合・評価まで本番運用に焦点を絞ります。Chinese/English/Tamil版と全10章の動くコードが揃うAI Agent設計本です。",
+      "narration": "LangChain入門と違い本番運用に振り切ったAI Agent設計本です。Context圧縮から評価まで扱います。"
     },
     {
       "rank": 2,
-      "fullName": "apache/ossie",
-      "name": "ossie",
-      "url": "https://github.com/apache/ossie",
+      "fullName": "tirth8205/code-review-graph",
+      "name": "code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
       "language": "Python",
-      "stars": 1260,
-      "todayStars": 48,
-      "description": "KPI定義を統一するセマンティック仕様",
-      "detail": "分析・AI・BIツール間で食い違うKPI定義をベンダー中立の仕様で統一する Apache incubation プロジェクトです。dbt、GoodData、Polaris、Salesforce 向けのリファレンスコンバータを持ち、データ基盤の共通言語を狙います。",
-      "narration": "KPI定義の食い違いを消す共通仕様です。dbtやGoodDataと繋がる、データ基盤の新しい真ん中を狙います。"
+      "stars": 21090,
+      "todayStars": 551,
+      "description": "Cursor共有のASTグラフ",
+      "detail": "LSPは言語別、grepは1-hop、RAGは類似ベクトルどまりですが、本OSSはASTから多段の影響グラフを作りMCPで返します。Cursor、Claude Code、Codex、Windsurfから叩けてトークンを最大82倍削減できます。",
+      "narration": "grepやRAGでは追えない多段の影響をASTグラフで返します。CursorやClaude Codeで82倍節約します。"
     },
     {
       "rank": 3,
-      "fullName": "PostHog/posthog",
-      "name": "posthog",
-      "url": "https://github.com/PostHog/posthog",
+      "fullName": "kvcache-ai/ktransformers",
+      "name": "ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
       "language": "Python",
-      "stars": 36562,
-      "todayStars": 337,
-      "description": "分析・リプレイ・AI観測の統合OSS",
-      "detail": "プロダクト分析、セッションリプレイ、フラグ、実験、エラー、ログ、AI観測を一つに束ねるOSSプラットフォームです。AmplitudeやMixpanel、LangSmith、Sentryの層を自社ホストで統合し、AI時代の観測レイヤを担います。",
-      "narration": "分析とAI観測を1つに束ねるOSSです。Amplitudeやセッションリプレイの層を、自社ホストで統合できます。"
+      "stars": 18322,
+      "todayStars": 328,
+      "description": "MoEを24GBで動かす枠組み",
+      "detail": "vLLMやTGIはGPU専用、llama.cppは小型モデル向けですが、本枠組みはCPU-GPU異構でDeepSeek-V3級の巨大MoEを24GB GPUで動かします。清華MADSys Lab発、SGLangにも統合済みで研究とサービス両面で使えます。",
+      "narration": "vLLMは大型GPU前提、llama.cppは小型向け、本枠組みはDeepSeek-V3を24GB GPUで動かします。"
     },
     {
       "rank": 4,
-      "fullName": "ibelick/ui-skills",
-      "name": "ui-skills",
-      "url": "https://github.com/ibelick/ui-skills",
-      "language": "TypeScript",
-      "stars": 4969,
-      "todayStars": 242,
-      "description": "デザインエンジニア向けのUIスキル集",
-      "detail": "デザインエンジニア向けにモーションや Baseline UI などのパターン集を配布する OSS です。CLI から取り出せて、UI系OSSで知られる ibelick 氏による AI 時代のフロントエンド実装スキルを束ねる新しいエコシステム層です。",
-      "narration": "デザインエンジニア向けのスキル集OSSです。CLIから取り出せて、AI時代のUI実装エコシステムを整えます。"
-    },
-    {
-      "rank": 5,
       "fullName": "rohitg00/ai-engineering-from-scratch",
       "name": "ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "language": "Python",
-      "stars": 39072,
-      "todayStars": 240,
-      "description": "AI技術を自作で学ぶ20フェーズ教材",
-      "detail": "数学の基礎から Transformer、RAG、MCP、Agent、多エージェントまで20フェーズ503レッスンで自作しながら学ぶOSS教材です。Python/TypeScript/Rust/Julia の4言語横断で、AIエンジニアリングの技術地図全体を繋げます。",
-      "narration": "AIエンジニアリングを自作で学ぶ教材です。数学からMCPやAgentまで、20フェーズで技術地図が繋がります。"
+      "stars": 39615,
+      "todayStars": 507,
+      "description": "Karpathyとfast.aiの中間解",
+      "detail": "Karpathyのzero-to-heroは基礎に深く狭く、fast.aiは直感先行、HuggingFaceはAPI寄り、Chip Huyenはシステム設計中心ですが、本教材は数学からエージェント・Safetyまで20フェーズ503本を線形に積み上げます。",
+      "narration": "Karpathyは深く狭く、fast.aiは直感先行、本教材は数学から20フェーズ503本で積み上げます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "jamiepine/voicebox",
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "language": "TypeScript",
+      "stars": 43287,
+      "todayStars": 629,
+      "description": "ローカル完結の音声OSS",
+      "detail": "ElevenLabsは出力、WisprFlowは入力どちらもクラウド前提ですが、本OSSは7つのTTSとWhisperをローカル完結で1つに束ねます。MCPサーバー付きでClaude CodeやCursorに任意の声を持たせられ、MITライセンスで商用可です。",
+      "narration": "ElevenLabsやWisprFlowはクラウド前提、本OSSはローカル完結で入出力を1つに束ねます。"
     }
   ]
 }
