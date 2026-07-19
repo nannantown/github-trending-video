@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -30,75 +30,82 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d 直近 avg (2026-07-05〜18): ecosystem 2.5 avg n=2 TOP1 / trend-pattern 2.0 n=2 / self-experiment 2.0 n=1 / tech-deep 1.5 n=2 / use-case 1.5 n=2 / comparison 1.0 n=1 / business-angle 0.75 n=4 WORST。直近 2 日 (07-18 business-angle / 07-17 use-case) 連投ルールで両者除外、business-angle は 14d 4 件で cap 到達 (07-22 に 07-08 圏外脱落まで 0 枠)。本日 07-19 (日) は ecosystem を採用: 14d avg TOP1、直近使用 07-10 で 9 日空白、07-20 に 07-06 が 14d 圏外脱落するため今日投入で余力 2 枠に復活。柱② は 07-13/07-18 で本週 2 回消化済、柱③ は 07-12 消化済で本週ノルマは充足済、exploit 側 TOP method に賭ける判断。5/5 素材が『AI/データ/観測/UI/教育のエコシステム層マップ』構造にきれいに載る稀有な日で適合率 100%。lingbot-map (3D 基盤モデル層) / apache/ossie (データ意味論層) / PostHog (観測レイヤ) / ui-skills (UI 実装スキル層) / ai-engineering-from-scratch (AI 教育スタック統合層) で下から積み上げるレイヤ構造を narration + detail の 2 層で示唆。5 リポの新規率は 4/5 (lingbot-map, apache/ossie, ui-skills, ai-engineering-from-scratch が新規流入)、継続は PostHog のみ (07-18 rank2 → 07-19 rank3、24 時間で -100 stars/day 減衰も依然 337 stars/day で上位維持) で昨日 07-18 意図の business-angle 語彙 (月○円削減・請求書ゼロ化・受託見積り) を封印し ecosystem (共通基盤・繋がる・層・エコシステム) に完全切替、同一リポの角度切替効果を 2 度目の検証機会に。今週 07-13 (business-angle) → 07-14 (tech-deep) → 07-15 (trend-pattern) → 07-16 (use-case) → 07-17 (意図 ecosystem / 実配信 use-case) → 07-18 (business-angle) → 07-19 (ecosystem 本日) と 7 method 中 5 method 消化、method 分散は継続。日曜 (Sun=5 avg・週内 7 位) は最低位曜だが ecosystem 2.5 avg × 日曜低位で Primary CTO 層への LTV 補強、『月曜朝の技術会議で使える 5 層マップ』を渡す。07-31 頃の views 計測ラグ回復で同一素材 (PostHog) 角度切替 (business-angle → ecosystem) の効果検証予定。"
+      "note": "Method 別 14d 直近 (2026-07-06〜18、n=13): ecosystem 2.50 n=2 TOP1 / trend-pattern 2.00 n=2 / self-experiment 2.00 n=1 / tech-deep 1.50 n=2 / use-case 1.50 n=2 / comparison 1.00 n=1 / business-angle 0.67 n=3 WORST。全期間 (n=68): ecosystem 22.69 n=16 TOP1 / business-angle 2.93 n=15 / trend-pattern 2.90 n=10 / comparison 2.89 n=18 / tech-deep 2.50 n=6 / use-case 1.50 n=6 / self-experiment 1.14 n=7。直近 2 日 (07-19 ecosystem / 07-18 business-angle) は連投ルールで本日除外。本日 07-20 (月) は `comparison` を採用: 全期間 avg 2.89 で ecosystem 次点かつ n=18 の大サンプル安定、14d 直近使用 07-11 で 9 日空白、5/5 素材が明確なインカンベント (LangChain/HF Agent Course、LSP/grep/RAG、vLLM/llama.cpp、Karpathy/fast.ai/HF/Chip Huyen、ElevenLabs/WisprFlow) を持つ稀有な日で角度と素材の整合率 100%。柱② は 07-13/07-18 で本週 2 回消化済、柱③ は 07-12 消化済で本週ノルマ充足、exploit 側で ecosystem 次点の安定リソースに賭ける判断。月曜 (Mon=61 avg・週内 5 位) は日曜 (Sun=5) より露出量が期待できる曜日で、CTO 層への『今週の技術選定で何と何を比べるか』の判断軸提示に comparison 角度が最短距離で刺さる。5 リポの新規率は 5/5 (bojieli/ai-agent-book, tirth8205/code-review-graph, kvcache-ai/ktransformers, rohitg00/ai-engineering-from-scratch, jamiepine/voicebox いずれも 07-19 からは非継続、ai-engineering-from-scratch のみ 07-19 rank5 から 07-20 rank4 で継続、他は 4/5 新規流入)。ai-engineering-from-scratch 継続分は 07-19 意図の ecosystem 語彙 (統合層・技術地図・繋がる) を封印し comparison の差分語彙 (Karpathy 深く狭く・fast.ai 直感先行・線形に積み上げる) に切替で角度疲労リスクなし。同一リポの角度切替効果 3 度目の検証機会 (1 度目=build-your-own-x 07-17 use-case → 07-18 business-angle、2 度目=PostHog 07-18 business-angle → 07-19 ecosystem、3 度目=ai-engineering-from-scratch 07-19 ecosystem → 07-20 comparison)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は日曜 (Sun=5 avg・週内 7 位) の最低位曜露出。ecosystem 2.5 avg との掛け算は本週の中位候補で火曜 (Tue=361) 金曜 (Fri=310) ほどのピーク性なし。ecosystem 角度は『5 リポを AI/データ/観測/UI/教育の各層で位置づけ、Primary CTO 層に月曜朝の技術会議で使える 5 層マップを渡す』"
+      "本日は月曜 (Mon=61 avg・週内 5 位) の中位曜露出。comparison 全期間 avg 2.89 との掛け算は本週の中位候補で火曜 (Tue=361) 金曜 (Fri=310) ほどのピーク性なし。comparison 角度は『5 リポを既存インカンベントとの差分で位置づけ、CTO 層に月曜の技術選定会議で使える判断軸を渡す』"
     ],
     "hashtags": [
-      "ecosystem 角度の核心は『5 リポを AI/データ/観測/UI/教育の各層で位置づけ』。本日 5 本の層マップ: #lingbot_map=3D 基盤モデル層 (VGGT/DINOv2 系譜 + feed-forward + 20FPS + AR/VR/ロボ) / #apache_ossie=データ意味論層 (dbt/GoodData/Polaris/Salesforce 接続 + KPI 定義統一 + Apache incubation) / #posthog=観測レイヤ (Amplitude/Mixpanel/LangSmith/Sentry 置換 + 12 機能 + 自社ホスト) / #ui_skills=UI 実装スキル層 (ibelick 氏 + CLI 配布 + Baseline UI/モーション + AI 時代のフロント) / #ai_engineering_from_scratch=AI 教育スタック統合層 (20 フェーズ 503 レッスン + RAG/MCP/Agent + 4 言語横断)",
-      "言語タグは Python 3 + TypeScript 2 の 2 言語ミックス。Python (1.2x) と TypeScript (1.1x) の上位牽引 2 言語のみで構成、下位言語混入ゼロは 7 月内で稀な素材品質。Python = lingbot-map (3D 基盤モデル) + apache/ossie (KPI 仕様) + PostHog (観測 OSS) + ai-engineering-from-scratch (AI 教育) の 4 本、TypeScript = ui-skills (UI 実装スキル) の 1 本、と各言語がエコシステム層に対応",
-      "ecosystem 角度の独自 hashtag: #ecosystem #柱1 #柱① #エコシステム地図 #技術選定 #レイヤ #スタック #Primary訴求 #CTO #技術投資 #3D基盤モデル #VGGT #DINOv2 #セマンティックレイヤ #dbt #GoodData #観測レイヤ #Amplitude置換 #Mixpanel置換 #LangSmith #Sentry #自社ホスト #UI実装 #Baseline #AI教育 #RAG #MCP #Agent"
+      "comparison 角度の核心は『5 リポを既存インカンベントとの差分で位置づけ』。本日 5 本の比較軸マップ: #ai_agent_book=LangChain入門/HF Agent Course との本番運用差分 (Context圧縮/ツール統合/評価にフォーカス) / #code_review_graph=LSP/grep/RAG/tree-sitter との多段影響差分 (AST多段グラフ + 30 MCP tools + Cursor/Claude Code/Codex/Windsurf 対応 + 82倍削減) / #ktransformers=vLLM/TGI (GPU専用) と llama.cpp (小型) の谷を埋める差分 (CPU-GPU異構 + DeepSeek-V3/Qwen3/Kimi-K2 + SGLang統合 + 24GB GPU) / #ai_engineering_from_scratch=Karpathy (深く狭い) / fast.ai (直感先行) / HF (API寄り) / Chip Huyen (システム) の中間差分 (503レッスン + 20フェーズ + 4言語 + Math→Agents→Safety) / #voicebox=ElevenLabs (出力) / WisprFlow (入力) クラウド前提との差分 (ローカル完結 + 7TTS + Whisper + MCP + MIT)",
+      "言語タグは Python 4 + TypeScript 1 の 2 言語ミックス。Python (1.2x) と TypeScript (1.1x) の上位牽引 2 言語のみで構成、下位言語混入ゼロは 7 月内で稀な素材品質。Python = ai-agent-book (AI Agent教科書) + code-review-graph (AST影響グラフ) + ktransformers (CPU-GPU異構MoE) + ai-engineering-from-scratch (AI養成カリキュラム) の 4 本、TypeScript = voicebox (ローカル音声スタジオ) の 1 本、と各言語が comparison の各差分軸に対応",
+      "comparison 角度の独自 hashtag: #comparison #柱1 #柱① #比較軸 #技術選定 #差分 #vs #Primary訴求 #CTO #技術投資 #AIAgent #LangChain #HFAgent #Context圧縮 #ASTグラフ #MCP #LSP #RAG #Cursor #ClaudeCode #Codex #Windsurf #vLLM #llamacpp #DeepSeek #MoE #SGLang #Karpathy #fastai #HuggingFace #ChipHuyen #ElevenLabs #WisprFlow #ローカルAI #音声OSS"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 275 文字 (55+55+56+54+55)、TTS で約 49 秒、opening/ending と合わせて 55 秒以内",
-      "ecosystem 角度の一貫性: 5 本すべての narration を『(どのレイヤの OSS か、フック 1 文)。(そのレイヤの中でどう繋がるか、位置づけ 1 文)』の 2 文構成で 5/5 統一。1 文目に『リアルタイムで3Dシーンを再構築するモデル』『KPI 定義の食い違いを消す共通仕様』『分析と AI 観測を 1 つに束ねる OSS』『デザインエンジニア向けのスキル集 OSS』『AI エンジニアリングを自作で学ぶ教材』などレイヤの本体機能を置き、2 文目に『VGGT の流れを継ぐ AR/VR/ロボの共通基盤』『dbt/GoodData と繋がるデータ基盤の真ん中』『Amplitude/セッションリプレイの層を自社ホストで統合』『AI 時代の UI 実装エコシステムを整える』『20 フェーズで技術地図が繋がる』などエコシステム内の位置づけを必ず入れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『共通基盤・繋がる・層・エコシステム・地図・標準』の 6 語彙を 5/5 で必ず入れ、業務 KPI 削減語彙 (月○円削減・請求書ゼロ化・受託見積り) は昨日 07-18 で完全消化済のため本日はゼロ、抽象的な機能紹介を避けてエコシステム内の位置づけを明示",
-      "数値表現はアラビア数字統一 (3, 20, 518, 378, 503, 4)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
-      "本日 5 本の素材新規率: 昨日 07-18 からの継続は 1 本 (PostHog rank2 → rank3、24 時間で -100 stars/day 減衰も 337 stars/day 上位維持)、新規流入 4 本 (lingbot-map / apache/ossie / ui-skills / ai-engineering-from-scratch)。継続 1 本は昨日意図の business-angle 語彙 (月 20 万・請求書ゼロ・受託見積り) を完全封印し、ecosystem の位置づけ語彙 (観測レイヤ・自社ホスト・Amplitude/LangSmith 層) に切替で角度疲労リスクなし。同一リポ角度切替の 2 度目の検証機会 (1 度目 = 07-17 use-case → 07-18 business-angle の build-your-own-x)"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 283 文字 (58+60+60+53+52)、TTS で約 50 秒、opening/ending と合わせて 55 秒以内",
+      "comparison 角度の一貫性: 5 本すべての narration を『(既存インカンベント A/B) は X ですが、本 OSS は Y』の 1 文構造で 5/5 統一。1 本目『LangChain入門と違い本番運用に振り切ったAI Agent設計本』、2 本目『grepやRAGでは追えない多段の影響をASTグラフで返す』、3 本目『vLLMは大型GPU前提、llama.cppは小型向け、本枠組みはDeepSeek-V3を24GB GPUで動かす』、4 本目『Karpathyは深く狭く、fast.aiは直感先行、本教材は数学から20フェーズ503本で積み上げる』、5 本目『ElevenLabsやWisprFlowはクラウド前提、本OSSはローカル完結で入出力を1つに束ねる』でインカンベント名と本 OSS の差分軸を必ず入れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『違い・前提・向け・深く・狭く・振り切った・完結・束ねる』の差分語彙を 5/5 で必ず入れ、エコシステム位置づけ語彙 (統合層・共通基盤・繋がる・地図) は昨日 07-19 で完全消化済のため本日はゼロ、抽象的な機能紹介を避けてインカンベントとの差分を明示",
+      "数値表現はアラビア数字統一 (20, 24, 82, 503)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止",
+      "本日 5 本の素材新規率: 昨日 07-19 からの継続は 1 本 (ai-engineering-from-scratch rank5 → rank4、24 時間で +267 stars/day で加速)、新規流入 4 本 (bojieli/ai-agent-book / tirth8205/code-review-graph / kvcache-ai/ktransformers / jamiepine/voicebox)。継続 1 本は昨日意図の ecosystem 語彙 (統合層・技術地図・繋がる) を完全封印し、comparison の差分語彙 (Karpathy 深く狭く・fast.ai 直感先行・線形に積み上げる) に切替で角度疲労リスクなし。同一リポ角度切替の 3 度目の検証機会 (1 度目=build-your-own-x 07-17 use-case → 07-18 business-angle、2 度目=PostHog 07-18 business-angle → 07-19 ecosystem、3 度目=ai-engineering-from-scratch 07-19 ecosystem → 07-20 comparison)"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem` (14d avg 2.5, n=2 で method 別 TOP1、直近使用 07-10 で 9 日空白、07-20 に 07-06 が 14d 圏外脱落するため今日投入で余力 2 枠に復活)。5/5 素材が『AI/データ/観測/UI/教育の各層で位置づけ』構造にきれいに載る稀有な日、柱① 週次消化フェーズで Primary CTO 層への技術選定支援を密度強化",
-      "本日 07-19 TOP5: #1 Robbyant/lingbot-map=Python / 12,876★ / +827 [新規流入・feed-forward 3D 基盤モデル + VGGT/DINOv2 系譜 + 518×378 で 20FPS + AR/VR/ロボの共通基盤]、#2 apache/ossie=Python / 1,260★ / +48 [新規流入・KPI 定義統一仕様 + Apache incubation + dbt/GoodData/Polaris/Salesforce 接続 + データ基盤の共通言語]、#3 PostHog/posthog=Python / 36,562★ / +337 [07-18 rank2 継続、本日 rank3・分析+リプレイ+フラグ+実験+エラー+ログ+AI 観測 12 機能 + Amplitude/Mixpanel/LangSmith/Sentry 置換 + 自社ホスト観測レイヤ]、#4 ibelick/ui-skills=TypeScript / 4,969★ / +242 [新規流入・デザインエンジニア向けスキル集 + CLI 配布 + Baseline UI/モーション + AI 時代の UI 実装エコシステム]、#5 rohitg00/ai-engineering-from-scratch=Python / 39,072★ / +240 [新規流入・20 フェーズ 503 レッスン + Python/TypeScript/Rust/Julia + Math→ML→DL→Transformer→RAG→MCP→Agent → AI 技術地図の全体教材]",
-      "本日の ecosystem 核: 『5 リポを AI/データ/観測/UI/教育の各層で位置づけ、Primary CTO 層に月曜朝の技術会議で使える 5 層マップを渡す』。冒頭フックは『今日の 5 リポは、AI・データ・観測・UI・教育の各層で今起きている主役です。この 5 本を並べれば、月曜朝の技術会議で使える一枚のエコシステム地図になります』",
-      "Primary (CTO/技術選定) には『5 層マップと自チームでの位置づけ判断』として、Secondary (PdM/事業責任者) には『部門横断の技術トレンドマップ』として、Tertiary (学習中) には『AI 業界全体の地図として何を学ぶかの指針』として 3 層直撃。特に Primary への訴求を厚く、ecosystem のレイヤ視座と各 OSS の位置づけを narration + detail の 2 層で示唆",
-      "連投上限ルール: 14d 内 ecosystem=07-06, 07-10, 07-19 で 3 件到達 (07-20 に 07-06 圏外脱落で再び 2 件、余力 1 枠復活)、07-24 に 07-10 圏外脱落でさらに 1 枠復活。business-angle は 07-05/07-08/07-13/07-18 で 14d 4 件 cap 到達、07-19 に 07-05 圏外脱落で 3 件残、07-22 に 07-08 圏外脱落で 2 件、07-27 に 07-13 圏外脱落で 1 件、08-01 に 07-18 圏外脱落で 0 件。use-case は 07-16/07-17 で 14d 2 件残、07-30 に 07-16 圏外脱落で 1 件、07-31 に 07-17 圏外脱落で 0 件。trend-pattern は 07-07/07-15 で 14d 2 件残、07-21 に 07-07 圏外脱落で 1 件、07-29 に 07-15 圏外脱落で 0 件。tech-deep は 07-09/07-14 で 14d 2 件残、07-23 に 07-09 圏外脱落で 1 件。comparison は 07-11 で 14d 1 件残 (07-25 圏外脱落)、self-experiment は 07-12 で 14d 1 件残 (07-26 圏外脱落)。柱② 週次ノルマは 07-13/07-18 で本週 2 回消化済で余裕、柱③ 週次ノルマは 07-12 消化済で 07-19 (本日 Sun) 再消化候補だったが ecosystem 優先で来週 07-26 (Sun) に再消化予定"
+      "本日の discovery.method は `comparison` (全期間 avg 2.89, n=18 で ecosystem 次点かつ大サンプル安定、14d 直近使用 07-11 で 9 日空白、5/5 素材が明確なインカンベントを持つ稀有な日)。5/5 素材が『既存インカンベント A/B vs 本 OSS の差分』構造にきれいに載る稀有な日、柱① 週次消化フェーズで CTO 層への技術選定支援を密度強化",
+      "本日 07-20 TOP5: #1 bojieli/ai-agent-book=Python / 5,316★ / +1,734 [新規流入・李博杰 (Li Bojie) 著『Deep Understanding of AI Agents』の公式リポ + 全10章 + Chinese/English/Tamil PDF + 動くサンプルコード + Agent=LLM+Context+Tools + Karpathy教材が触れない本番運用/context圧縮/評価/MCP 統合]、#2 tirth8205/code-review-graph=Python / 21,090★ / +551 [新規流入・Tree-sitter でコードベースをグラフ化 + 30 MCP tools + Cursor/Claude Code/Codex/Windsurf/Zed/Continue/Copilot 対応 + 6 リポジトリでトークン82倍中央値削減 + 30+言語対応 + <2秒 インクリメンタル更新]、#3 kvcache-ai/ktransformers=Python / 18,322★ / +328 [新規流入・清華 MADSys Lab/Approaching.AI 発 + CPU-GPU 異構推論 + DeepSeek-V3/Qwen3/GLM-5/Kimi-K2/MiniMax-M3 + INT4/INT8 CPU 側 + hot expert GPU 側 + SGLang 統合 + RTX 4090 で 24GB VRAM 級を動かす]、#4 rohitg00/ai-engineering-from-scratch=Python / 39,615★ / +507 [07-19 rank5 継続、本日 rank4・503 レッスン + 20 フェーズ + Python/TypeScript/Rust/Julia + build-before-frameworks + math→ML→DL→transformer→LLM→agents→multi-agent→infra→safety + 85 capstone レッスン]、#5 jamiepine/voicebox=TypeScript / 43,287★ / +629 [新規流入・Jamie Pine (@jamiepine) 発 + 7 TTS エンジン (Qwen3-TTS/LuxTTS/Chatterbox/TADA/Kokoro) + 23 言語 + Whisper 入力 + Stories Editor + 8 音響エフェクト + MCP サーバー + Qwen3 0.6B-4B 内蔵 + MLX/CUDA/ROCm/DirectML/Intel Arc + MIT]",
+      "本日の comparison 核: 『5 リポを既存インカンベントとの差分で位置づけ、CTO 層に月曜の技術選定会議で使える判断軸を渡す』。冒頭フックは『今日の 5 リポは、どれも既存の第一想起 OSS があります。何と比べて何が違うのか、を並べれば、月曜朝の技術選定会議で使える判断軸になります』",
+      "Primary (CTO/技術選定) には『5 つの差分軸と自チームでの採択判断』として、Secondary (PdM/事業責任者) には『各領域の代表 OSS と新興 OSS の並べ方』として、Tertiary (学習中) には『AI 業界で今並べて評価される OSS 群』として 3 層直撃。特に Primary への訴求を厚く、comparison のインカンベント差分と各 OSS の位置づけを narration + detail の 2 層で示唆",
+      "連投上限ルール: 14d 内 comparison=07-11, 07-20 で 2 件到達 (07-25 に 07-11 圏外脱落で 1 件残)、ecosystem=07-06, 07-10, 07-19 で 3 件到達 (07-20 に 07-06 圏外脱落で 2 件残、07-24 に 07-10 圏外脱落で 1 件)、business-angle=07-08, 07-13, 07-18 で 3 件 (07-22 に 07-08 圏外脱落で 2 件残)、use-case は 07-16/07-17 で 2 件残、trend-pattern は 07-07/07-15 で 2 件残 (07-21 に 07-07 圏外脱落で 1 件)、tech-deep は 07-09/07-14 で 2 件残 (07-23 に 07-09 圏外脱落で 1 件)、self-experiment は 07-12 で 1 件残 (07-26 圏外脱落)。柱② 週次ノルマは 07-13/07-18 で本週 2 回消化済、柱③ 週次ノルマは 07-12 消化済で本週充足済のため exploit 側 comparison に賭ける"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-19",
-    "dayOfWeek": "Sun",
+    "date": "2026-07-20",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "ecosystem",
+      "comparison",
       "柱1",
       "柱①",
-      "エコシステム地図",
+      "比較軸",
       "技術選定",
-      "レイヤ",
-      "スタック",
+      "差分",
+      "vs",
       "CTO",
       "技術投資",
-      "3D基盤モデル",
-      "VGGT",
-      "DINOv2",
-      "セマンティックレイヤ",
-      "dbt",
-      "GoodData",
-      "観測レイヤ",
-      "Amplitude置換",
-      "Mixpanel置換",
-      "LangSmith",
-      "Sentry",
-      "自社ホスト",
-      "UI実装",
-      "Baseline",
-      "AI教育",
-      "RAG",
+      "AIAgent",
+      "LangChain",
+      "HFAgent",
+      "Context圧縮",
+      "ASTグラフ",
       "MCP",
-      "Agent",
+      "LSP",
+      "RAG",
+      "Cursor",
+      "ClaudeCode",
+      "Codex",
+      "Windsurf",
+      "vLLM",
+      "llamacpp",
+      "DeepSeek",
+      "MoE",
+      "SGLang",
+      "Karpathy",
+      "fastai",
+      "HuggingFace",
+      "ChipHuyen",
+      "ElevenLabs",
+      "WisprFlow",
+      "ローカルAI",
+      "音声OSS",
       "Python",
       "TypeScript",
-      "lingbot_map",
-      "apache_ossie",
-      "posthog",
-      "ui_skills",
-      "ai_engineering_from_scratch"
+      "ai_agent_book",
+      "code_review_graph",
+      "ktransformers",
+      "ai_engineering_from_scratch",
+      "voicebox"
     ],
-    "focus": "日曜 (Sun=5 avg・週内 7 位) の最低位曜露出。`ecosystem` (14d avg 2.5, n=2 で method 別 TOP1、直近使用 07-10 で 9 日空白、07-20 に 07-06 が 14d 圏外脱落するため今日投入で余力 2 枠に復活) を投入。5/5 素材が『AI/データ/観測/UI/教育の各層で位置づけ』構造 (3D 基盤モデル / KPI 意味論仕様 / 観測レイヤ統合 / UI 実装スキル / AI 教育スタック統合) に完璧一致で適合率 100%。business-angle (07-18 実配信) は連投 2 日ルール + 14d cap で完全除外、use-case (07-16, 07-17 実配信 2 連続) は直近 2 日ルール + 14d cap で完全除外、trend-pattern/tech-deep/comparison は本日は非投入 (来週再投入予定)、self-experiment は柱③ ノルマ済で本日非投入。本日の TOP5 は 4/5 新規 (lingbot-map / apache/ossie / ui-skills / ai-engineering-from-scratch)、1/5 継続 (PostHog rank2 → 3) で継続分は昨日意図 business-angle 語彙 (月 20 万・請求書ゼロ・受託見積り) を完全封印し ecosystem の位置づけ語彙 (観測レイヤ・自社ホスト・Amplitude/LangSmith 層) に切替で角度疲労リスクなし。同一リポ角度切替効果は 07-31 頃の views 比較で検証予定 (1 度目 = build-your-own-x 07-17 use-case → 07-18 business-angle、2 度目 = PostHog 07-18 business-angle → 07-19 ecosystem)。narration は『(どのレイヤの OSS か、フック 1 文)。(そのレイヤの中でどう繋がるか、位置づけ 1 文)』2 文構成で 5/5 統一、5 本合計 275 文字。エコシステム語彙 (共通基盤 / 繋がる / 層 / 真ん中 / 地図) と各リポの固有事実 (VGGT/DINOv2 系譜・dbt/GoodData 接続・Amplitude/セッションリプレイ層・CLI 配布・20 フェーズ 503 レッスン) を全 5 本に埋めて README 読み上げレベルを回避。07-14『技術設計の骨格』→ 07-15『AI エージェント成熟の 5 段階マップ』→ 07-16『明日から自チームで置く具体像』→ 07-17 意図『AI 時代エンジニアリング・スタックの全体地図』/ 実配信『(07-16 流用)』→ 07-18『見積書に載るコスト削減 5 軸』→ 07-19『月曜朝の技術会議で使える 5 層マップ』の 6 日連続で視座を『技術詳細 → マクロ潮流 → 実装 → 全体地図 → 個別 ROI → レイヤ地図』へ螺旋展開、Primary CTO 層への訴求を『自チームのコスト構造から具体的な削減案を出す』から『自チームの技術スタックの各層で今の主役 OSS を並べる』フェーズに引き上げる。PR 経由 squash merge + 着弾検証は必須実行 (58 日連続成功継続で本日 59 日目、07-17 の enriched.json 遅延事故を受けて着弾検証を 3 段階に強化)。"
+    "focus": "月曜 (Mon=61 avg・週内 5 位) の中位曜露出。`comparison` (全期間 avg 2.89, n=18 で ecosystem 次点かつ大サンプル安定、14d 直近使用 07-11 で 9 日空白) を投入。5/5 素材が『既存インカンベント A/B vs 本 OSS の差分』構造 (LangChain/HF Agent Course vs 本番運用設計本 / LSP/grep/RAG/tree-sitter vs AST多段影響グラフ / vLLM(GPU専用)/llama.cpp(小型) vs CPU-GPU異構MoE / Karpathy/fast.ai/HF/Chip Huyen vs 503レッスン線形教材 / ElevenLabs(出力)/WisprFlow(入力)クラウド vs ローカル完結入出力統合) に完璧一致で適合率 100%。ecosystem (07-19 実配信) は連投 2 日ルールで除外、business-angle (07-18 実配信) も連投 2 日ルール + 14d cap で除外、trend-pattern/tech-deep/self-experiment/use-case は本日は非投入 (来週再投入予定)。本日の TOP5 は 4/5 新規 (bojieli/ai-agent-book, tirth8205/code-review-graph, kvcache-ai/ktransformers, jamiepine/voicebox)、1/5 継続 (ai-engineering-from-scratch rank5 → 4、+267 stars/day 加速) で継続分は昨日意図 ecosystem 語彙 (統合層・技術地図・繋がる) を完全封印し comparison の差分語彙 (Karpathy 深く狭く・fast.ai 直感先行・線形に積み上げる) に切替で角度疲労リスクなし。同一リポ角度切替効果は 08-01 頃の views 比較で検証予定 (1 度目=build-your-own-x 07-17→07-18、2 度目=PostHog 07-18→07-19、3 度目=ai-engineering-from-scratch 07-19→07-20)。narration は『(既存インカンベント A/B) は X ですが、本 OSS は Y』の 1 文構造で 5/5 統一、5 本合計 283 文字。差分語彙 (違い/前提/向け/深く/狭く/振り切った/完結/束ねる) と各リポの固有事実 (Context 圧縮 + 全 10 章 PDF + Chinese/English/Tamil、AST 多段グラフ + 30 MCP tools + 82倍削減、CPU-GPU 異構 + DeepSeek-V3 + 清華 MADSys、20 フェーズ 503 レッスン + 4 言語、7 TTS + Whisper + MCP + MIT) を全 5 本に埋めて README 読み上げレベルを回避。07-15『AI エージェント成熟の 5 段階マップ』→ 07-16『明日から自チームで置く具体像』→ 07-17『AI 時代エンジニアリング・スタックの全体地図』→ 07-18『見積書に載るコスト削減 5 軸』→ 07-19『月曜朝の技術会議で使える 5 層マップ』→ 07-20『月曜の技術選定会議で使える 5 差分軸』の 6 日連続で視座を『マクロ潮流 → 実装 → 全体地図 → 個別 ROI → レイヤ地図 → 差分軸』へ螺旋展開、Primary CTO 層への訴求を『自チームの技術スタックの各層で今の主役 OSS を並べる』から『自チームで採用検討する OSS を何と比べて選ぶかの軸を持つ』フェーズに引き上げる。PR 経由 squash merge + 着弾検証は必須実行 (59 日連続成功継続で本日 60 日目)。"
   }
 }
