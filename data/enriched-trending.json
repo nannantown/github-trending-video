@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "discovery": {
-    "method": "comparison",
-    "description": "本日の5リポを各領域の既存インカンベントとの差分視点で切り取る。ai-agent-book=LangChain入門/HF Agent Courseとの本番運用への振り切り差分 / code-review-graph=LSP/grep/RAG/tree-sitterでは追えない多段影響グラフの差分 / ktransformers=vLLM/TGI(GPU専用)とllama.cpp(小型)の谷を埋めるCPU-GPU異構MoE推論の差分 / ai-engineering-from-scratch=Karpathy(深く狭い)/fast.ai(直感先行)/HF(APIより)/Chip Huyen(システム設計)の中間を埋める503レッスン線形教材の差分 / voicebox=ElevenLabs(出力)/WisprFlow(入力)クラウド前提に対するローカル完結入出力統合の差分。今日07-20は昨日07-19がecosystem/07-18がbusiness-angleで連投2日ルールを踏まえ、all-time avg 2.89 n=18 で ecosystem 次点かつ大サンプルの安定リソースであるcomparisonを採用。5/5素材が明確なインカンベントを持つ稀有な日でCTO/技術選定層に『何と比べて選ぶか』の判断軸を渡す。柱②は07-13/07-18で本週2回消化・柱③は07-12消化済で今週ノルマ充足。",
+    "method": "trend-pattern",
+    "description": "本日07-21のTOP5は稀な現象——5/5全てがAIコーディング/エージェント基盤(#1 code-review-graph=コード地図MCP / #2 jcode=Rust製エージェントハーネス / #3 OmniRoute=271社統合ゲートウェイ / #4 ai-engineering-from-scratch=AI養成教材 / #5 agency-agents=230種エージェント役割集)。2026年後半、GitHub Trending が AIコーディング一色に寡占されつつある週次マクロ潮流を、CTO/技術投資判断者に3分でわたす。method選定: 直近2日ルールでcomparison(07-20)/ecosystem(07-19)を除外、trend-pattern は14d avg 2.0 でecosystem(2.5, 除外)/self-experiment(2.0)と並ぶTOP相当・全期間 avg 2.90 n=10 で安定、直近使用07-15で6日空白のクリーン枠。素材整合率100%、月曜より視聴期待高い火曜(Tue=170-361 avg・週内TOP)に強角度を投入。柱②/柱③は今週まだ未消化だが7/26までに1回入れれば充足するため後半戦(07-23〜)にずらす判断。同一リポ角度切替の4度目=code-review-graph 07-20 comparison → 07-21 trend-pattern(comparison差分語彙『追えない・叩ける』を封印し trend-pattern の潮流語彙『中核・全部・地図』に切替)。継続2/5・新規3/5でネタ疲れなし。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/bojieli/ai-agent-book",
       "https://github.com/tirth8205/code-review-graph",
-      "https://github.com/kvcache-ai/ktransformers",
+      "https://github.com/1jehuang/jcode",
+      "https://github.com/diegosouzapw/OmniRoute",
       "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "https://github.com/jamiepine/voicebox"
+      "https://github.com/msitarzewski/agency-agents"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,39 +17,39 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "bojieli/ai-agent-book",
-      "name": "ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "language": "Python",
-      "stars": 5316,
-      "todayStars": 1734,
-      "description": "LangChain入門との違い",
-      "detail": "LangChain入門やHF Agent Courseはフレームワークの使い方までですが、本書はContext圧縮・ツール統合・評価まで本番運用に焦点を絞ります。Chinese/English/Tamil版と全10章の動くコードが揃うAI Agent設計本です。",
-      "narration": "LangChain入門と違い本番運用に振り切ったAI Agent設計本です。Context圧縮から評価まで扱います。"
-    },
-    {
-      "rank": 2,
       "fullName": "tirth8205/code-review-graph",
       "name": "code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
       "language": "Python",
-      "stars": 21090,
-      "todayStars": 551,
-      "description": "Cursor共有のASTグラフ",
-      "detail": "LSPは言語別、grepは1-hop、RAGは類似ベクトルどまりですが、本OSSはASTから多段の影響グラフを作りMCPで返します。Cursor、Claude Code、Codex、Windsurfから叩けてトークンを最大82倍削減できます。",
-      "narration": "grepやRAGでは追えない多段の影響をASTグラフで返します。CursorやClaude Codeで82倍節約します。"
+      "stars": 23027,
+      "todayStars": 1876,
+      "description": "AIエディタ全部に配るコード地図MCP",
+      "detail": "Tree-sitterでコードベースをASTグラフ化し、MCP経由でCursor / Claude Code / Codex / Windsurfなど14以上のクライアントに文脈を渡します。6リポでのレビュー時トークン量を中央値82倍・最大528倍削減、更新は2秒以内で回ります。",
+      "narration": "今週の波の中核、AIエディタ全部に一枚のコード地図を渡します。ASTグラフで文脈を82倍圧縮できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "1jehuang/jcode",
+      "name": "jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "language": "Rust",
+      "stars": 9579,
+      "todayStars": 612,
+      "description": "Rust製の軽量コーディング基盤",
+      "detail": "セマンティックなベクトル記憶で過去文脈を自動で呼び戻し、単セッションRAM 27.8MBで初回描画14ms。Claude Code / Codex / OpenCode / Piとセッションを渡り歩けるマルチハーネス設計で、自己修正やスウォーム協調も内蔵します。",
+      "narration": "Rust製の次世代コーディングエージェントです。Claude CodeやCodexとセッションを引き継げます。"
     },
     {
       "rank": 3,
-      "fullName": "kvcache-ai/ktransformers",
-      "name": "ktransformers",
-      "url": "https://github.com/kvcache-ai/ktransformers",
-      "language": "Python",
-      "stars": 18322,
-      "todayStars": 328,
-      "description": "MoEを24GBで動かす枠組み",
-      "detail": "vLLMやTGIはGPU専用、llama.cppは小型モデル向けですが、本枠組みはCPU-GPU異構でDeepSeek-V3級の巨大MoEを24GB GPUで動かします。清華MADSys Lab発、SGLangにも統合済みで研究とサービス両面で使えます。",
-      "narration": "vLLMは大型GPU前提、llama.cppは小型向け、本枠組みはDeepSeek-V3を24GB GPUで動かします。"
+      "fullName": "diegosouzapw/OmniRoute",
+      "name": "OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "stars": 21678,
+      "todayStars": 1300,
+      "description": "271社のAIをまとめる無料ゲートウェイ",
+      "detail": "271プロバイダを1本のAPIで束ねるローカルゲートウェイ。Claude Code、Cursor、Cline、Copilotなど26以上のツールに差し込むと、18種のルーティング戦略と月14億の無料トークン枠を自動で回します。",
+      "narration": "271社のAIを1本のAPIで束ねるゲートウェイです。Claude CodeやCursorに差すだけで自動切替できます。"
     },
     {
       "rank": 4,
@@ -57,23 +57,23 @@
       "name": "ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "language": "Python",
-      "stars": 39615,
-      "todayStars": 507,
-      "description": "Karpathyとfast.aiの中間解",
-      "detail": "Karpathyのzero-to-heroは基礎に深く狭く、fast.aiは直感先行、HuggingFaceはAPI寄り、Chip Huyenはシステム設計中心ですが、本教材は数学からエージェント・Safetyまで20フェーズ503本を線形に積み上げます。",
-      "narration": "Karpathyは深く狭く、fast.aiは直感先行、本教材は数学から20フェーズ503本で積み上げます。"
+      "stars": 40477,
+      "todayStars": 846,
+      "description": "AI開発者を育てる503レッスン",
+      "detail": "数学、ML、DL、Transformer、LLM、Agents、Infra、Safetyの20フェーズを503レッスンで線形に積み上げ、Python / TypeScript / Rust / Juliaの4言語で実装。Karpathyとfast.aiの中間を埋める線形教材です。",
+      "narration": "波を担う人材側の教科書です。数学からAgentsまで20フェーズ503レッスンでAI開発者を線形に育てます。"
     },
     {
       "rank": 5,
-      "fullName": "jamiepine/voicebox",
-      "name": "voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "language": "TypeScript",
-      "stars": 43287,
-      "todayStars": 629,
-      "description": "ローカル完結の音声OSS",
-      "detail": "ElevenLabsは出力、WisprFlowは入力どちらもクラウド前提ですが、本OSSは7つのTTSとWhisperをローカル完結で1つに束ねます。MCPサーバー付きでClaude CodeやCursorに任意の声を持たせられ、MITライセンスで商用可です。",
-      "narration": "ElevenLabsやWisprFlowはクラウド前提、本OSSはローカル完結で入出力を1つに束ねます。"
+      "fullName": "msitarzewski/agency-agents",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars": 134664,
+      "todayStars": 744,
+      "description": "Claude Codeに差す230種の役割集",
+      "detail": "エンジニア、デザイナー、マーケ、医療、GISまで18分野230種以上のエージェント役割をMarkdown化。Claude CodeやCursorに貼るだけで、MVP開発やキャンペーン運用の役割分担が組めます。",
+      "narration": "Claude Codeに差し込む230種のエージェントプロンプト集です。マーケや医療まで18分野を1リポで揃えます。"
     }
   ]
 }
