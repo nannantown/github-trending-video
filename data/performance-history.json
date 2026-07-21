@@ -3710,7 +3710,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -3763,7 +3763,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -3817,7 +3817,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -3870,7 +3870,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -3924,7 +3924,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -3979,7 +3979,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4032,7 +4032,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4084,7 +4084,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4140,7 +4140,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4197,7 +4197,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4252,7 +4252,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4311,7 +4311,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4366,7 +4366,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-20T23:43:45.924Z"
+        "updatedAt": "2026-07-21T23:44:26.443Z"
       }
     },
     {
@@ -4420,6 +4420,62 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-21T23:44:26.443Z"
+      }
+    },
+    {
+      "videoId": "hZUVb17NZFk",
+      "videoUrl": "https://youtube.com/shorts/hZUVb17NZFk",
+      "date": "2026-07-22",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/22 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript",
+        "Python",
+        "JavaScript"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "koala73/worldmonitor",
+        "bojieli/ai-agent-book",
+        "tirth8205/code-review-graph",
+        "ayghri/i-have-adhd",
+        "earthtojake/text-to-cad"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日07-22のTOP5は5/5全てが『コーディングagent OS(Claude Code / Codex / Cursor / Windsurf / Zed 等)』を共通ランタイムとし、OSINT / AI教育 / 開発生産性 / ADHD支援 / CAD・ハードウェア設計 の異ドメインappが同一 Skill/MCP プラグイン層で接続される週。#1 worldmonitor は 500 フィードを MCP サーバで配布、#3 code-review-graph は 14 種 agent 共通の AST コード地図 MCP、#4 i-have-adhd は Claude marketplace と Codex に配布可能な Skill、#5 text-to-cad は Skill→Build123d/OpenCASCADE/Bambu Labs へのハードウェア橋渡し、#2 ai-agent-book は同層自体を10章88プロジェクトで教科書化。CTO/技術投資判断者に『2026 後半、自社の内製 app もこの層に載せる時期か』の判断素材を渡す。method選定: 直近2日 07-20 comparison / 07-21 trend-pattern を連投ルールで除外、ecosystem は 14d avg 3.00 (n=1) で TOP、全期間 avg 22.69 (n=16) で突出 champion、直近使用 07-19 で 3 日空白の安全枠。5/5 素材が MCP/Skill レイヤに乗る稀な整合日で角度整合率 100%。柱②/③ は今週 07-23 木・07-24 金に投入予定で本日は最強角度に賭ける。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/koala73/worldmonitor",
+          "https://github.com/bojieli/ai-agent-book",
+          "https://github.com/tirth8205/code-review-graph",
+          "https://github.com/ayghri/i-have-adhd",
+          "https://github.com/earthtojake/text-to-cad"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4428,21 +4484,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-17",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 128 avg views (65 videos)",
-        "Trending languages: Kotlin (3.1x), C++ (2.5x), Jupyter Notebook (3.0x)",
-        "Day performance: Tue=271, Fri=248, Thu=141, Wed=134, Sat=64, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-18",
       "changes": [
@@ -4964,6 +5005,27 @@
         "standard: 9 avg views (80 videos)",
         "Trending languages: HTML (4.0x), Shell (1.6x), Go (5.2x)",
         "Day performance: Tue=34, Mon=20, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-21",
+      "changes": [
+        "Rust: 0.3x avg views → drop",
+        "Shell: 5.4x avg views → boost",
+        "Markdown: 0.8x avg views → drop",
+        "Go: 5.8x avg views → boost",
+        "C++: 0.3x avg views → drop",
+        "Kotlin: 0.2x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "HTML: 0.2x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.3x avg views → drop",
+        "standard: 7 avg views (80 videos)",
+        "Trending languages: Shell (2.2x), Go (7.3x)",
+        "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
       ],
       "recommendedTemplate": "standard"
     }
