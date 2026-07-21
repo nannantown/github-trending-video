@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日07-21のTOP5は稀な現象——5/5全てがAIコーディング/エージェント基盤(#1 code-review-graph=コード地図MCP / #2 jcode=Rust製エージェントハーネス / #3 OmniRoute=271社統合ゲートウェイ / #4 ai-engineering-from-scratch=AI養成教材 / #5 agency-agents=230種エージェント役割集)。2026年後半、GitHub Trending が AIコーディング一色に寡占されつつある週次マクロ潮流を、CTO/技術投資判断者に3分でわたす。method選定: 直近2日ルールでcomparison(07-20)/ecosystem(07-19)を除外、trend-pattern は14d avg 2.0 でecosystem(2.5, 除外)/self-experiment(2.0)と並ぶTOP相当・全期間 avg 2.90 n=10 で安定、直近使用07-15で6日空白のクリーン枠。素材整合率100%、月曜より視聴期待高い火曜(Tue=170-361 avg・週内TOP)に強角度を投入。柱②/柱③は今週まだ未消化だが7/26までに1回入れれば充足するため後半戦(07-23〜)にずらす判断。同一リポ角度切替の4度目=code-review-graph 07-20 comparison → 07-21 trend-pattern(comparison差分語彙『追えない・叩ける』を封印し trend-pattern の潮流語彙『中核・全部・地図』に切替)。継続2/5・新規3/5でネタ疲れなし。",
+    "method": "ecosystem",
+    "description": "本日07-22のTOP5は5/5全てが『コーディングagent OS(Claude Code / Codex / Cursor / Windsurf / Zed 等)』を共通ランタイムとし、OSINT / AI教育 / 開発生産性 / ADHD支援 / CAD・ハードウェア設計 の異ドメインappが同一 Skill/MCP プラグイン層で接続される週。#1 worldmonitor は 500 フィードを MCP サーバで配布、#3 code-review-graph は 14 種 agent 共通の AST コード地図 MCP、#4 i-have-adhd は Claude marketplace と Codex に配布可能な Skill、#5 text-to-cad は Skill→Build123d/OpenCASCADE/Bambu Labs へのハードウェア橋渡し、#2 ai-agent-book は同層自体を10章88プロジェクトで教科書化。CTO/技術投資判断者に『2026 後半、自社の内製 app もこの層に載せる時期か』の判断素材を渡す。method選定: 直近2日 07-20 comparison / 07-21 trend-pattern を連投ルールで除外、ecosystem は 14d avg 3.00 (n=1) で TOP、全期間 avg 22.69 (n=16) で突出 champion、直近使用 07-19 で 3 日空白の安全枠。5/5 素材が MCP/Skill レイヤに乗る稀な整合日で角度整合率 100%。柱②/③ は今週 07-23 木・07-24 金に投入予定で本日は最強角度に賭ける。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/koala73/worldmonitor",
+      "https://github.com/bojieli/ai-agent-book",
       "https://github.com/tirth8205/code-review-graph",
-      "https://github.com/1jehuang/jcode",
-      "https://github.com/diegosouzapw/OmniRoute",
-      "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "https://github.com/msitarzewski/agency-agents"
+      "https://github.com/ayghri/i-have-adhd",
+      "https://github.com/earthtojake/text-to-cad"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "koala73/worldmonitor",
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "language": "TypeScript",
+      "stars": 65163,
+      "todayStars": 1167,
+      "description": "500フィードを束ねるOSS監視盤",
+      "detail": "地政学 / 金融 / エネルギー / 航空 / サイバーなど65プロバイダ500フィードを1画面に集約。Ollama / Groq / OpenRouter でローカル要約でき、MCP サーバとして Cursor や Claude Code から直接叩けます。",
+      "narration": "500フィードを1画面に束ねるOSS監視盤です。OllamaやOpenRouterで全部ローカル要約できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "bojieli/ai-agent-book",
+      "name": "ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "language": "Python",
+      "stars": 14276,
+      "todayStars": 4434,
+      "description": "AI Agent実装を1冊で学ぶ教科書",
+      "detail": "「Agent = LLM + Context + Tools」の公式で10章88プロジェクト。MCP / RAG / マルチエージェント / VLA まで、Kimi / GLM / OpenRouter を並行使いで比較しながら学べます。",
+      "narration": "AI Agent実装を1冊で学ぶ88プロジェクトです。MCPやRAGを組みながら10章で線形に積み上げます。"
+    },
+    {
+      "rank": 3,
       "fullName": "tirth8205/code-review-graph",
       "name": "code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
       "language": "Python",
-      "stars": 23027,
-      "todayStars": 1876,
-      "description": "AIエディタ全部に配るコード地図MCP",
-      "detail": "Tree-sitterでコードベースをASTグラフ化し、MCP経由でCursor / Claude Code / Codex / Windsurfなど14以上のクライアントに文脈を渡します。6リポでのレビュー時トークン量を中央値82倍・最大528倍削減、更新は2秒以内で回ります。",
-      "narration": "今週の波の中核、AIエディタ全部に一枚のコード地図を渡します。ASTグラフで文脈を82倍圧縮できます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "1jehuang/jcode",
-      "name": "jcode",
-      "url": "https://github.com/1jehuang/jcode",
-      "language": "Rust",
-      "stars": 9579,
-      "todayStars": 612,
-      "description": "Rust製の軽量コーディング基盤",
-      "detail": "セマンティックなベクトル記憶で過去文脈を自動で呼び戻し、単セッションRAM 27.8MBで初回描画14ms。Claude Code / Codex / OpenCode / Piとセッションを渡り歩けるマルチハーネス設計で、自己修正やスウォーム協調も内蔵します。",
-      "narration": "Rust製の次世代コーディングエージェントです。Claude CodeやCodexとセッションを引き継げます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "diegosouzapw/OmniRoute",
-      "name": "OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "language": "TypeScript",
-      "stars": 21678,
-      "todayStars": 1300,
-      "description": "271社のAIをまとめる無料ゲートウェイ",
-      "detail": "271プロバイダを1本のAPIで束ねるローカルゲートウェイ。Claude Code、Cursor、Cline、Copilotなど26以上のツールに差し込むと、18種のルーティング戦略と月14億の無料トークン枠を自動で回します。",
-      "narration": "271社のAIを1本のAPIで束ねるゲートウェイです。Claude CodeやCursorに差すだけで自動切替できます。"
+      "stars": 24486,
+      "todayStars": 1921,
+      "description": "14種AIエディタ共通のコード地図MCP",
+      "detail": "Cursor / Claude Code / Windsurf / Zed / Copilot / Gemini CLI など14ツールに、AST由来のコード地図をMCPで配布。トークンを中央値82倍削減し、更新は2秒で回ります。",
+      "narration": "14種のAIエディタ共通のコード地図MCPです。CursorやClaude Codeの文脈を82倍に圧縮できます。"
     },
     {
       "rank": 4,
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "name": "ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "language": "Python",
-      "stars": 40477,
-      "todayStars": 846,
-      "description": "AI開発者を育てる503レッスン",
-      "detail": "数学、ML、DL、Transformer、LLM、Agents、Infra、Safetyの20フェーズを503レッスンで線形に積み上げ、Python / TypeScript / Rust / Juliaの4言語で実装。Karpathyとfast.aiの中間を埋める線形教材です。",
-      "narration": "波を担う人材側の教科書です。数学からAgentsまで20フェーズ503レッスンでAI開発者を線形に育てます。"
+      "fullName": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "language": null,
+      "stars": 6744,
+      "todayStars": 1846,
+      "description": "AIの前置きを封じるClaude Skill",
+      "detail": "Claude Code のプラグイン市場と Codex に配布できる軽量 Skill。10条ルールで前置きや〆の文を封じ、番号付きの次アクションから始まる回答に整形します。ADHD気味の開発者向け。",
+      "narration": "AIの前置きを封じるClaude Skillです。Claude CodeとCodexに差せば即実行手順が返ります。"
     },
     {
       "rank": 5,
-      "fullName": "msitarzewski/agency-agents",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "language": "Shell",
-      "stars": 134664,
-      "todayStars": 744,
-      "description": "Claude Codeに差す230種の役割集",
-      "detail": "エンジニア、デザイナー、マーケ、医療、GISまで18分野230種以上のエージェント役割をMarkdown化。Claude CodeやCursorに貼るだけで、MVP開発やキャンペーン運用の役割分担が組めます。",
-      "narration": "Claude Codeに差し込む230種のエージェントプロンプト集です。マーケや医療まで18分野を1リポで揃えます。"
+      "fullName": "earthtojake/text-to-cad",
+      "name": "text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "language": "JavaScript",
+      "stars": 9059,
+      "todayStars": 378,
+      "description": "AIをCAD設計者にする10種のSkill",
+      "detail": "Claude Code と Codex に差せる10種の Skill。STEP / URDF / SDF / G-code を Build123d と OpenCASCADE で生成し、Bambu Labs 3Dプリンタや SendCutSend に直接投げます。",
+      "narration": "Claude CodeをCAD設計者にする10種のSkillです。Bambu Labs 3Dプリンタまで直接投げます。"
     }
   ]
 }
