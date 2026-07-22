@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "ciXiFuDL4K0",
-      "videoUrl": "https://youtube.com/shorts/ciXiFuDL4K0",
-      "date": "2026-04-22",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/22 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript",
-        "Rust",
-        "Jupyter Notebook"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "Rust",
-        "Jupyter Notebook"
-      ],
-      "projects": [
-        "Fincept-Corporation/FinceptTerminal",
-        "thunderbird/thunderbolt",
-        "zilliztech/claude-context",
-        "ruvnet/RuView",
-        "microsoft/ai-agents-for-beginners"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "comparison",
-        "description": "TOP5を既存の有償・クローズド代替(Bloomberg / ChatGPT Plus / Cursor / 監視カメラ / 有料スクール)と1対1で対比し、Primaryペルソナが『何を何に置き換えるか』の意思決定に使える軸で料理する",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/Fincept-Corporation/FinceptTerminal",
-          "https://github.com/thunderbird/thunderbolt",
-          "https://github.com/zilliztech/claude-context",
-          "https://github.com/ruvnet/RuView",
-          "https://github.com/microsoft/ai-agents-for-beginners"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 9,
-        "likes": 3,
-        "comments": 0,
-        "updatedAt": "2026-05-06T23:38:30.916Z"
-      }
-    },
-    {
       "videoId": "JhtHMkvYAq4",
       "videoUrl": "https://youtube.com/shorts/JhtHMkvYAq4",
       "date": "2026-04-23",
@@ -3763,7 +3707,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -3817,7 +3761,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -3870,7 +3814,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -3924,7 +3868,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -3979,7 +3923,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4032,7 +3976,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4084,7 +4028,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4140,7 +4084,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4197,7 +4141,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4252,7 +4196,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4311,7 +4255,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4366,7 +4310,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4423,7 +4367,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
+        "updatedAt": "2026-07-22T23:49:01.136Z"
       }
     },
     {
@@ -4476,6 +4420,62 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-22T23:49:01.136Z"
+      }
+    },
+    {
+      "videoId": "emsMrEi3fDU",
+      "videoUrl": "https://youtube.com/shorts/emsMrEi3fDU",
+      "date": "2026-07-23",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/23 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Rust",
+        "Python",
+        "Go"
+      ],
+      "projects": [
+        "koala73/worldmonitor",
+        "ruvnet/RuView",
+        "ayghri/i-have-adhd",
+        "schollz/croc",
+        "likec4/likec4"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日07-23のTOP5は5/5全てが『既存の商用サービス・専用機・受託成果物の置換候補』を持つ稀な整合日。#1 worldmonitor はPalantir相当のOSINT盤(年$10k級)をAGPL/MCPで自社ホスト・受託納品可、#2 RuViewは9ドルESP32で店舗動線カメラ($2k/room級)とホテルHVACの商用機を置換しGDPR/HIPAA回避、#3 i-have-adhdはSaaS生産性ツール相当をSkillとして配布しClaude Code/Codex/Cursor経由で社内エンジニア数十人規模の意思決定を高速化、#4 crocはWeTransfer/Dropbox Transfer($15/user/mo)のライセンス費と機密漏洩リスクを丸ごと不要化、#5 likec4はStructurizrやMiroの有償設計運用をDSLで内製化しCTO受託の設計納品物を常に最新化。Primary=CTO/スタートアップ/受託ソロCTOの技術投資判断に、既存商用ライセンス費と受託見積を数字で置き換える素材を提供。method選定: 直近2日07-21 trend-pattern / 07-22 ecosystemの連投ルールで両者除外、business-angleは14d avg 2.00 (n=2) でself-experimentと同率TOPかつ全期間n=15でサンプル厚みが2倍で信頼性高、全期間avg 3.07でecosystemに次ぐ2位champion、5/5素材が明確な商用置換対象を持つ稀な整合日で角度整合率100%。柱②週次ノルマ(前回07-18で5日空白)の消化枠、07-24金explore枠 / 07-25土 self-experimentの週内配置を維持。narration 5本合計256文字でTTS約51秒、opening/ending込み55秒枠内。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/koala73/worldmonitor",
+          "https://github.com/ruvnet/RuView",
+          "https://github.com/ayghri/i-have-adhd",
+          "https://github.com/schollz/croc",
+          "https://github.com/likec4/likec4"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4484,21 +4484,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-18",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 126 avg views (66 videos)",
-        "Trending languages: Kotlin (3.2x), C++ (2.5x), Jupyter Notebook (3.1x)",
-        "Day performance: Tue=271, Fri=248, Thu=141, Wed=119, Sat=64, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-19",
       "changes": [
@@ -5025,6 +5010,28 @@
         "CSS: 0.3x avg views → drop",
         "standard: 7 avg views (80 videos)",
         "Trending languages: Shell (2.2x), Go (7.3x)",
+        "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-22",
+      "changes": [
+        "Rust: 0.3x avg views → drop",
+        "Shell: 5.0x avg views → boost",
+        "Markdown: 0.8x avg views → drop",
+        "Go: 5.2x avg views → boost",
+        "C++: 0.3x avg views → drop",
+        "JavaScript: 0.3x avg views → drop",
+        "Kotlin: 0.2x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "HTML: 0.2x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.3x avg views → drop",
+        "standard: 6 avg views (81 videos)",
+        "Trending languages: Shell (2.2x), Go (7.4x)",
         "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
       ],
       "recommendedTemplate": "standard"
