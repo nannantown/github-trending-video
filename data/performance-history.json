@@ -2,58 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "JhtHMkvYAq4",
-      "videoUrl": "https://youtube.com/shorts/JhtHMkvYAq4",
-      "date": "2026-04-23",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/23 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "zilliztech/claude-context",
-        "Fincept-Corporation/FinceptTerminal",
-        "koala73/worldmonitor",
-        "langfuse/langfuse",
-        "KeygraphHQ/shannon"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『生成AIプロダクト運用スタック』の別レイヤー(コーディング文脈→エージェント観測→自動ペンテスト→情報収集→金融AI)として同居紹介し、Primaryペルソナが『自社で1本作るならどこにOSSを置くか』を判断できる軸で料理する",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/zilliztech/claude-context",
-          "https://github.com/Fincept-Corporation/FinceptTerminal",
-          "https://github.com/koala73/worldmonitor",
-          "https://github.com/langfuse/langfuse",
-          "https://github.com/KeygraphHQ/shannon"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 10,
-        "likes": 2,
-        "comments": 0,
-        "updatedAt": "2026-05-07T23:40:44.464Z"
-      }
-    },
-    {
       "videoId": "8LQn_MN-23o",
       "videoUrl": "https://youtube.com/shorts/8LQn_MN-23o",
       "date": "2026-04-24",
@@ -3761,7 +3709,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -3814,7 +3762,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -3868,7 +3816,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -3923,7 +3871,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -3976,7 +3924,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4028,7 +3976,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4084,7 +4032,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4141,7 +4089,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4196,7 +4144,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4255,7 +4203,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4310,7 +4258,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4367,7 +4315,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4420,10 +4368,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-22T23:49:01.136Z"
+        "updatedAt": "2026-07-23T23:45:16.240Z"
       }
     },
     {
@@ -4476,6 +4424,62 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-23T23:45:16.240Z"
+      }
+    },
+    {
+      "videoId": "A6Xdp-IYmDk",
+      "videoUrl": "https://youtube.com/shorts/A6Xdp-IYmDk",
+      "date": "2026-07-24",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/24 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "Rust",
+        "TypeScript",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "block/buzz",
+        "koala73/worldmonitor",
+        "shiyu-coder/Kronos",
+        "Pumpkin-MC/Pumpkin",
+        "citrolabs/ego-lite"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "stack-migration",
+        "description": "本日 07-24 の TOP5 は 5/5 全てが『既存スタック層の置換候補』を明確に持つ稀な整合日。#1 block/buzz は Slack + GitHub Bot + 承認 + CI ログを 1 つの Rust イベントログに集約し AI agent を正会員扱い、#2 worldmonitor は商用 OSINT + 複数 RSS リーダー + X 監視 dashboard を 1 画面 + Ollama ローカル要約でスタック統合、#3 Kronos は LSTM や XGBoost のスクラッチ学習を Hugging Face Hub のロード 1 行に置換する金融基盤モデル、#4 Pumpkin は Java Paper/Spigot を Rust 実装で置換する Minecraft サーバー、#5 ego-lite は Chrome + Playwright agent automation を各 agent 専用 Space を持つ macOS ブラウザで置換。CTO 目線の「採用時にどのスタック層を何に差し替えるか」移行設計に整合率 100%、Primary=CTO/スタートアップ/受託ソロ CTO の技術投資判断に直撃する角度。method 選定: 直近 2 日 07-22 ecosystem / 07-23 business-angle の連投ルールで両者除外、07-23 PDCA と 07-22 PDCA で 2 日連続 explore 候補として提案されていた新カテゴリ stack-migration を 07-24 金の explore 20% 枠で正式試投入、48h 後の views 本評価で Angle Methods タグへの正式追加を判断。柱② は 07-23 で消化済み、柱③ は 07-25 土 で必投入 (07-12 から 12 日空白)。narration 5 本合計 271 文字で TTS 換算約 54 秒、opening/ending 込みで 55 秒枠内。worldmonitor は 07-23 business-angle→07-24 stack-migration で同一リポ角度切替の 7 度目検証。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/block/buzz",
+          "https://github.com/koala73/worldmonitor",
+          "https://github.com/shiyu-coder/Kronos",
+          "https://github.com/Pumpkin-MC/Pumpkin",
+          "https://github.com/citrolabs/ego-lite"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4484,21 +4488,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-19",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 124 avg views (67 videos)",
-        "Trending languages: Kotlin (3.2x), C++ (2.6x), Jupyter Notebook (3.1x)",
-        "Day performance: Tue=271, Fri=248, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-19",
       "changes": [
@@ -5033,6 +5022,28 @@
         "standard: 6 avg views (81 videos)",
         "Trending languages: Shell (2.2x), Go (7.4x)",
         "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-23",
+      "changes": [
+        "Shell: 4.7x avg views → boost",
+        "Markdown: 0.8x avg views → drop",
+        "Go: 4.9x avg views → boost",
+        "C++: 0.3x avg views → drop",
+        "JavaScript: 0.3x avg views → drop",
+        "Kotlin: 0.2x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.1x avg views → drop",
+        "HTML: 0.2x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.3x avg views → drop",
+        "standard: 6 avg views (81 videos)",
+        "Trending languages: Shell (2.2x), Go (6.6x)",
+        "Day performance: Tue=31, Thu=3, Sat=3, Fri=2, Sun=2, Mon=2, Wed=2"
       ],
       "recommendedTemplate": "standard"
     }
