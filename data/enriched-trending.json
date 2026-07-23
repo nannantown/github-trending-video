@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日07-23のTOP5は5/5全てが『既存の商用サービス・専用機・受託成果物の置換候補』を持つ稀な整合日。#1 worldmonitor はPalantir相当のOSINT盤(年$10k級)をAGPL/MCPで自社ホスト・受託納品可、#2 RuViewは9ドルESP32で店舗動線カメラ($2k/room級)とホテルHVACの商用機を置換しGDPR/HIPAA回避、#3 i-have-adhdはSaaS生産性ツール相当をSkillとして配布しClaude Code/Codex/Cursor経由で社内エンジニア数十人規模の意思決定を高速化、#4 crocはWeTransfer/Dropbox Transfer($15/user/mo)のライセンス費と機密漏洩リスクを丸ごと不要化、#5 likec4はStructurizrやMiroの有償設計運用をDSLで内製化しCTO受託の設計納品物を常に最新化。Primary=CTO/スタートアップ/受託ソロCTOの技術投資判断に、既存商用ライセンス費と受託見積を数字で置き換える素材を提供。method選定: 直近2日07-21 trend-pattern / 07-22 ecosystemの連投ルールで両者除外、business-angleは14d avg 2.00 (n=2) でself-experimentと同率TOPかつ全期間n=15でサンプル厚みが2倍で信頼性高、全期間avg 3.07でecosystemに次ぐ2位champion、5/5素材が明確な商用置換対象を持つ稀な整合日で角度整合率100%。柱②週次ノルマ(前回07-18で5日空白)の消化枠、07-24金explore枠 / 07-25土 self-experimentの週内配置を維持。narration 5本合計256文字でTTS約51秒、opening/ending込み55秒枠内。",
+    "method": "stack-migration",
+    "description": "本日 07-24 の TOP5 は 5/5 全てが『既存スタック層の置換候補』を明確に持つ稀な整合日。#1 block/buzz は Slack + GitHub Bot + 承認 + CI ログを 1 つの Rust イベントログに集約し AI agent を正会員扱い、#2 worldmonitor は商用 OSINT + 複数 RSS リーダー + X 監視 dashboard を 1 画面 + Ollama ローカル要約でスタック統合、#3 Kronos は LSTM や XGBoost のスクラッチ学習を Hugging Face Hub のロード 1 行に置換する金融基盤モデル、#4 Pumpkin は Java Paper/Spigot を Rust 実装で置換する Minecraft サーバー、#5 ego-lite は Chrome + Playwright agent automation を各 agent 専用 Space を持つ macOS ブラウザで置換。CTO 目線の「採用時にどのスタック層を何に差し替えるか」移行設計に整合率 100%、Primary=CTO/スタートアップ/受託ソロ CTO の技術投資判断に直撃する角度。method 選定: 直近 2 日 07-22 ecosystem / 07-23 business-angle の連投ルールで両者除外、07-23 PDCA と 07-22 PDCA で 2 日連続 explore 候補として提案されていた新カテゴリ stack-migration を 07-24 金の explore 20% 枠で正式試投入、48h 後の views 本評価で Angle Methods タグへの正式追加を判断。柱② は 07-23 で消化済み、柱③ は 07-25 土 で必投入 (07-12 から 12 日空白)。narration 5 本合計 271 文字で TTS 換算約 54 秒、opening/ending 込みで 55 秒枠内。worldmonitor は 07-23 business-angle→07-24 stack-migration で同一リポ角度切替の 7 度目検証。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/block/buzz",
       "https://github.com/koala73/worldmonitor",
-      "https://github.com/ruvnet/RuView",
-      "https://github.com/ayghri/i-have-adhd",
-      "https://github.com/schollz/croc",
-      "https://github.com/likec4/likec4"
+      "https://github.com/shiyu-coder/Kronos",
+      "https://github.com/Pumpkin-MC/Pumpkin",
+      "https://github.com/citrolabs/ego-lite"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "block/buzz",
+      "name": "buzz",
+      "url": "https://github.com/block/buzz",
+      "language": "Rust",
+      "stars": 6709,
+      "todayStars": 2460,
+      "description": "SlackとCIをRust1枚に集約",
+      "detail": "Slack・GitHub Bot・承認・CIログを1つのRustイベントログに集約し、AI agentをhumanと同等のworkspaceメンバーとして扱えます。Nostr relay準拠で自社ホスト可、6ヶ月の議事録を証拠付きで検索できます。",
+      "narration": "SlackとCIログを1つのRust製workspaceに集約。AI agentも正会員として動けるOSSです。"
+    },
+    {
+      "rank": 2,
       "fullName": "koala73/worldmonitor",
       "name": "worldmonitor",
       "url": "https://github.com/koala73/worldmonitor",
       "language": "TypeScript",
-      "stars": 68794,
-      "todayStars": 4131,
-      "description": "Palantir級OSINT盤を自社で回す",
-      "detail": "地政学 / 金融 / エネルギー / 航空 / サイバー等15カテゴリ500フィードを1画面に統合し、Ollamaでローカル要約。AGPL 3.0とMCPサーバ配布で、Palantir相当のOSINTを自社ホストや受託納品にそのまま流用できます。",
-      "narration": "Palantir級のOSINT盤を自社に置けるOSSです。500フィード束ねAGPLで受託案件にも通せます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "ruvnet/RuView",
-      "name": "RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "language": "Rust",
-      "stars": 83702,
-      "todayStars": 875,
-      "description": "9ドルでWiFiから人流と呼吸検知",
-      "detail": "9ドルのESP32と既存WiFiだけで、人流・呼吸・心拍・17点姿勢まで測るRust実装。カメラ不要でGDPR / HIPAA回避、店舗の動線計測やホテルのHVAC 15〜30%削減、在宅見守り案件にそのまま持ち込めます。",
-      "narration": "9ドルのESP32でWiFiから人と呼吸を測るOSSです。HVAC15%削減や見守り案件に置き換えます。"
+      "stars": 71458,
+      "todayStars": 3196,
+      "description": "商用OSINT盤とRSSを統合",
+      "detail": "地政学・金融・エネルギー・サイバー等15カテゴリ500フィードをOllamaがローカル要約し、商用OSINT盤や複数RSSリーダーを1画面に統合。AGPL 3.0とMCP配布で監視スタックを丸ごと置き換えられます。",
+      "narration": "商用OSINT盤やRSSを1画面のOllama要約に集約。監視スタックを丸ごと置き換えられるOSSです。"
     },
     {
       "rank": 3,
-      "fullName": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
+      "fullName": "shiyu-coder/Kronos",
+      "name": "Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
       "language": "Python",
-      "stars": 8192,
-      "todayStars": 1682,
-      "description": "AI回答を刈り込む10ルールSkill",
-      "detail": "AI回答から前置き・要約・雑談を封じる10条ルールをSkill化。Claude Code / Codex / Cursorに配布でき、番号付きアクションが即座に返るため、社内エンジニア数十人規模でも意思決定を高速化できます。",
-      "narration": "AI回答を10ルールで刈り込むClaude Skillです。前置きを消して開発者の生産性を上げられます。"
+      "stars": 33013,
+      "todayStars": 398,
+      "description": "LSTMをHFロード1行で置換",
+      "detail": "OHLCVを階層トークンに量子化し、Transformerで自己回帰予測する金融基盤モデルです。LSTMやXGBoostのスクラッチ学習をHugging Face Hubのロード1行に置き換え、45取引所の事前学習でBTCやA株の予測に流用できます。",
+      "narration": "自作LSTM予測をHF Hubのロード1行に変えます。金融時系列の学習をまるごと不要にする基盤モデルです。"
     },
     {
       "rank": 4,
-      "fullName": "schollz/croc",
-      "name": "croc",
-      "url": "https://github.com/schollz/croc",
-      "language": "Go",
-      "stars": 37529,
-      "todayStars": 737,
-      "description": "自社ホスト可の暗号化転送CLI",
-      "detail": "PAKE暗号 + 相対アドレスで、社内外どのマシン間でも合言葉だけで安全転送。自社リレーを1台立てればWeTransferやDropbox Transferのライセンス費が丸ごと不要になり、機密ファイルもクラウドに預けずに済みます。",
-      "narration": "WeTransferをゼロ円で代替する暗号化ファイル転送CLIです。自社リレー版で機密案件にも安全です。"
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "name": "Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "language": "Rust",
+      "stars": 8869,
+      "todayStars": 563,
+      "description": "MinecraftサーバーをRust化",
+      "detail": "JavaのPaperやSpigotをマルチスレッドRust実装で置き換えるMinecraftサーバーです。最新JavaとBedrock対応、既知のexploitを封じ、メモリとCPU削減でVPSホスティング費用の圧縮を狙えます。",
+      "narration": "JavaのMinecraftサーバーをRust実装で置換するOSSです。メモリとCPUを削りVPS費を圧縮できます。"
     },
     {
       "rank": 5,
-      "fullName": "likec4/likec4",
-      "name": "likec4",
-      "url": "https://github.com/likec4/likec4",
-      "language": "TypeScript",
-      "stars": 4249,
-      "todayStars": 172,
-      "description": "DSLで書く生きたC4アーキ図",
-      "detail": "アーキテクチャをDSLで記述し、コード変更に追従する対話型ダイアグラムを生成。Structurizrより柔軟な独自表記が組め、CTOや受託先へ常に最新版の設計ドキュメントを納品物として渡せます。",
-      "narration": "アーキ図をDSLで書く設計ツールです。CTO案件で常に最新のドキュメントを納品物にできます。"
+      "fullName": "citrolabs/ego-lite",
+      "name": "ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "language": "JavaScript",
+      "stars": 1580,
+      "todayStars": 219,
+      "description": "Chrome自動化をagent専用に",
+      "detail": "Chromeのログインやクッキーをそのまま引き継ぐmacOSブラウザで、各AI agentは専用Spaceを持ち並列稼働。Playwright系の自動化を統合し、あなたのタブを触らずに複数taskを実行できます。",
+      "narration": "Chrome自動化を統合するmacOSブラウザです。AI agentが専用Spaceで並列に稼働します。"
     }
   ]
 }
