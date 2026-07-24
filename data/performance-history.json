@@ -2,59 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "8LQn_MN-23o",
-      "videoUrl": "https://youtube.com/shorts/8LQn_MN-23o",
-      "date": "2026-04-24",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/24 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "Rust"
-      ],
-      "projects": [
-        "huggingface/ml-intern",
-        "zilliztech/claude-context",
-        "HKUDS/RAG-Anything",
-        "Z4nzu/hackingtool",
-        "ruvnet/RuView"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "tech-deep",
-        "description": "今日のTOP5をそれぞれ『技術的にどこが新しいか』で料理する。ml-internのエージェントループ内部、claude-contextのAST×密ベクトル+Merkle木差分索引、RAG-AnythingのマルチモーダルKG、RuViewのWiFi-CSI+Rustグラフトランスフォーマー、hackingtoolの185ツール束ね構造など、README/コード構造から抽出した実装の独自性だけで通す",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/huggingface/ml-intern",
-          "https://github.com/zilliztech/claude-context",
-          "https://github.com/HKUDS/RAG-Anything",
-          "https://github.com/Z4nzu/hackingtool",
-          "https://github.com/ruvnet/RuView"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 5,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-08T23:42:48.215Z"
-      }
-    },
-    {
       "videoId": "5WSbMlwlZbg",
       "videoUrl": "https://youtube.com/shorts/5WSbMlwlZbg",
       "date": "2026-04-25",
@@ -3762,7 +3709,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -3816,7 +3763,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -3871,7 +3818,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -3924,7 +3871,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -3976,7 +3923,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4032,7 +3979,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4089,7 +4036,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4144,7 +4091,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4203,7 +4150,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4258,7 +4205,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4315,7 +4262,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4371,7 +4318,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4427,7 +4374,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-23T23:45:16.240Z"
+        "updatedAt": "2026-07-24T23:51:07.277Z"
       }
     },
     {
@@ -4480,6 +4427,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-24T23:51:07.277Z"
+      }
+    },
+    {
+      "videoId": "nhjwNAqiq3s",
+      "videoUrl": "https://youtube.com/shorts/nhjwNAqiq3s",
+      "date": "2026-07-25",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/25 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript",
+        "Python"
+      ],
+      "languages": [
+        "Rust",
+        "TypeScript",
+        "Python"
+      ],
+      "projects": [
+        "block/buzz",
+        "koala73/worldmonitor",
+        "ComposioHQ/awesome-claude-skills",
+        "Pumpkin-MC/Pumpkin",
+        "shiyu-coder/Kronos"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "今日のTOP5を『実際に触ってみたらどうか』の視点で料理する。BuzzはRust製Nostr台帳をjust setupで起動、worldmonitorはnpm run devで地球儀を回し、awesome-claude-skillsは1個Claude Codeに読ませ、PumpkinはcargoでMinecraftサーバーを立て、Kronosはmini版を手元GPUで動かす。実際にコマンドを叩いた所感と体感メモリ・数行で動くかの視点で通す。method 選定: 直近2日 07-23 business-angle / 07-24 stack-migration の連投ルールで両者除外、14日 method 別 avg views で self-experiment (n=1, avg 2.0) と ecosystem (n=1, avg 2.0) が TOP tie。柱③ (自プロジェクト事例=self-experiment) は 07-12 以降 13 日連続空白で必投入タイミング、07-15 trend-pattern / 07-21 trend-pattern の再訪パターンと合わせ、TOP method の exploit を優先。narration 5 本合計 255 文字で TTS 換算約 51 秒、opening/ending 込みで 55 秒枠内。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/block/buzz",
+          "https://github.com/koala73/worldmonitor",
+          "https://github.com/ComposioHQ/awesome-claude-skills",
+          "https://github.com/Pumpkin-MC/Pumpkin",
+          "https://github.com/shiyu-coder/Kronos"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4488,21 +4490,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-19",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "JavaScript: 0.1x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "standard: 122 avg views (68 videos)",
-        "Trending languages: Kotlin (3.3x), C++ (2.6x), Jupyter Notebook (3.2x)",
-        "Day performance: Tue=271, Fri=226, Thu=128, Wed=119, Sat=64, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-20",
       "changes": [
@@ -5044,6 +5031,28 @@
         "standard: 6 avg views (81 videos)",
         "Trending languages: Shell (2.2x), Go (6.6x)",
         "Day performance: Tue=31, Thu=3, Sat=3, Fri=2, Sun=2, Mon=2, Wed=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-24",
+      "changes": [
+        "Shell: 4.4x avg views → boost",
+        "Markdown: 0.8x avg views → drop",
+        "Go: 4.6x avg views → boost",
+        "C++: 0.3x avg views → drop",
+        "JavaScript: 0.3x avg views → drop",
+        "Kotlin: 0.2x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.1x avg views → drop",
+        "HTML: 0.2x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.3x avg views → drop",
+        "standard: 6 avg views (81 videos)",
+        "Trending languages: Shell (2.3x), Go (6.7x)",
+        "Day performance: Tue=31, Sat=3, Thu=3, Fri=2, Sun=2, Mon=2, Wed=2"
       ],
       "recommendedTemplate": "standard"
     }
