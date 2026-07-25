@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-26",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -30,64 +30,65 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-11〜24, n=13): self-experiment 2.00 n=1 TOP tie / ecosystem 2.00 n=1 TOP tie / business-angle 1.67 n=3 / trend-pattern 1.50 n=2 / use-case 1.50 n=2 / comparison 1.00 n=2 / tech-deep 0.00 n=1 / stack-migration 0.00 n=1 (07-24 投稿翌朝で計測中)。全期間: ecosystem 21.41 n=17 champion / business-angle 2.72 n=16 / trend-pattern 2.73 n=11 / tech-deep 2.50 n=6 / comparison 2.44 n=18 / use-case 1.50 n=6 / self-experiment 1.14 n=7 / stack-migration 0.00 n=1。直近 2 日 (07-23 business-angle / 07-24 stack-migration) 連投ルールで両者除外、14d TOP tie の self-experiment を採用。柱③ (self-experiment) は 07-12 以降 13 日連続空白で weekly ノルマ絶対消化タイミング。本日 07-25 (土, Sat=79 avg・週内中位) の TOP5 素材は 5/5 全て『実際にコマンド叩いた所感』が語れる整合日 (buzz は just setup 一発起動 / worldmonitor は npm run dev で 3D globe 起動 / awesome-claude-skills は SKILL.md 1 個読ませ / Pumpkin は cargo run で Minecraft 起動 / Kronos は mini 版 4.1M params を手元 GPU) で self-experiment 適合率 100%。worldmonitor は 07-23 → 07-24 → 07-25 の 3 日連続 TOP5、角度切替の 8 度目連続検証 (business-angle → stack-migration → self-experiment)。"
+      "note": "Method 別 14d (2026-07-13〜25, n=13): stack-migration 2.00 n=1 TOP tie / ecosystem 2.00 n=1 TOP tie / business-angle 1.67 n=3 / trend-pattern 1.50 n=2 / use-case 1.50 n=2 / self-experiment 1.00 n=2 (07-25 は投稿翌朝で計測中) / comparison 1.00 n=1 / tech-deep 0.00 n=1。全期間: ecosystem 21.41 n=17 champion / business-angle 2.66 n=16 / trend-pattern 2.73 n=11 / tech-deep 2.50 n=6 / comparison 2.44 n=18 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.14 n=8。直近 2 日 (07-24 stack-migration / 07-25 self-experiment) 連投ルールで両者除外、business-angle は 07-23 消化済み、14d TOP tie 残った ecosystem を採用。07-22 ecosystem 以来 4 日空きで exploit の絶対タイミング、7 月 3 件目 (07-06/07-10/07-22/07-26) で月次 4-6 件枠内。本日 07-26 (日, Sun=5 avg・週内下位) の TOP5 素材は 5/5 全て AI/LLM Agent 隣接領域 (buzz=通信/監査 Nostr / open-code-review=CI レビュー / ego-lite=Agent 共有ブラウザ / awesome-claude-skills=SKILL カタログ / claude-cookbooks=Anthropic 公式) で ecosystem 適合率 100%、『AI Agent 時代の開発スタック地図』として通せる稀有な整合日。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は土曜 (Sat=79 avg・週内中位) で余暇消費層と親和性高い。self-experiment 角度の『自分で触ってみた所感』は Sat の視聴時間帯 (夕方〜夜) と相性良い。柱③ 消化枠として Primary/Secondary への信頼シグナル (この人は手を動かす) を確立"
+      "本日は日曜 (Sun=5 avg・週内下位) だが素材整合率が 5/5 の稀有な日。ecosystem 角度の『今週のスタック俯瞰』は Primary/Secondary の週末キャッチアップ枠と親和性高い。柱① 芯強化で長期フォロワー育成に効かせる"
     ],
     "hashtags": [
-      "self-experiment 角度の核心は『実際に手元で動かした結果』。5 本の実行コマンド: #buzz=`just setup` で Rust workspace 起動 / #worldmonitor=`npm run dev` で 3D globe 即立ち / #awesome_claude_skills=SKILL.md を 1 個 Claude Code に読ませる / #Pumpkin=`cargo run` で Minecraft サーバー起動 + Java 版クライアント接続 / #Kronos=mini 版 (4.1M params) を手元 GPU で動かす",
-      "言語タグは Rust 2 + TypeScript 1 + Python 2 の 3 言語ミックス。Python (1.2x) の上位牽引 + TypeScript (1.1x) 中位 + Rust (0.7x) 下位を含む。Rust 2 本は self-experiment 角度で『cargo で叩ける手軽さ』の実演材料になるため下位倍率は許容",
-      "self-experiment 角度の独自 hashtag: #self_experiment #柱3 #柱③ #触ってみた #ハンズオン #実測 #手元GPU #cargo_run #npm_run_dev #just_setup #Claude_Code #Nostr #Minecraft #Rust #Foundation_Model #Kronos #OHLCV #地政学ダッシュボード #Ollama #ローカルLLM"
+      "ecosystem 角度の核心は『5 本を Agent 開発スタックの層に配置』。5 本の層マッピング: #buzz=通信/監査ログ層 (Nostr) / #open_code_review=CI-CD レビュー層 (Alibaba, Go) / #ego_lite=ブラウザ実行層 (Chrome データ継承) / #awesome_claude_skills=スキル/知識層 (SKILL.md 1000+) / #claude_cookbooks=公式リファレンス層 (Anthropic Notebook)",
+      "言語タグは Rust 1 + Go 1 + JavaScript 1 + Python 1 + Jupyter 1 の 5 言語ミックス。Python (1.2x) 上位 + Go (0.9x) 中位 + JS (0.9x) 中位 + Rust (0.7x) 下位。多言語ミックスで特定コミュニティ偏重を避け、Agent スタック全体の俯瞰を印象付ける",
+      "ecosystem 角度の独自 hashtag: #ecosystem #柱1 #柱① #AI_Agent #Agent開発 #Agentic #開発スタック #Nostr #Claude_Skills #SKILL_md #Claude_Code #Cursor #MCP #Tool_use #Anthropic #Alibaba #Block #Code_Review #Browser_Agent #AI_Browser #Composio"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 255 文字 (56+53+51+48+47)、TTS で約 51 秒、opening/ending と合わせて 55 秒以内",
-      "self-experiment 角度の一貫性: 5 本すべての narration に『実行コマンド + 体感所感』を埋めて 5/5 統一。1 本目『just setup で一発起動しました』、2 本目『npm run dev で即座に地球儀が回りました』、3 本目『1 個 Claude Code に読ませて試しました』、4 本目『cargo run で立ち上げ Java 版クライアントで接続できました』、5 本目『mini 版を手元の GPU で動かしました』でハンズオン語彙 (起動しました・動かしました・接続できました・完走します) を必ず入れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment では『実行コマンド + 体感メモリ / 起動感 / 数行で完走』の身体感覚語彙を 5/5 で必ず入れ、抽象的な機能紹介を避けて『触ったらどうなったか』を明示",
-      "数値表現はアラビア数字統一 (500 超、100 トークン、4M params、45 取引所)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 276 文字 (54+52+56+55+59)、TTS で約 55 秒、opening/ending と合わせて 60 秒枠ギリギリ。次回は 5 本合計 250 文字前後を目標に短縮余地",
+      "ecosystem 角度の一貫性: 5 本すべての narration に『層としての機能』を暗示。1 本目『同じ Nostr 台帳に書きます / イベント履歴に統合』(通信層)、2 本目『ハイブリッド AI レビュー CLI / トークンを 9 分の 1』(レビュー層)、3 本目『Chrome を AI Agent と共有 / Cookie や拡張を渡し』(ブラウザ層)、4 本目『1000 超の Claude Skills / SKILL.md 形式で横に流用』(スキル層)、5 本目『Anthropic 公式のレシピ集 / Tool use や MCP の基本』(公式層) で層分解を全 5 本で徹底",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『何層か + どの既存ワークフローに刺さるか』を明示、単発リポ紹介を避けて『スタックのどこを埋めるか』を打ち出す",
+      "数値表現はアラビア数字統一 (9 分の 1、1000 超、5 本)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `self-experiment` (14d avg 2.00 で ecosystem と TOP tie、柱③ 週次ノルマが 13 日連続空白で絶対消化タイミング、直近 2 日連投ルールで business-angle / stack-migration 除外後の TOP 候補、5/5 素材が『実際にコマンド叩いた所感』を語れる整合日)。土曜 (Sat=79 avg・週内中位) の余暇消費層と self-experiment の親和性を活用",
-      "本日 07-25 TOP5: #1 block/buzz=Rust / 9,822★ / +3,274 [新規流入・Nostr NIP-01/NIP-34 リレーを SST として人+AI Agent 統合、Axum + PostgreSQL + Redis + S3、just setup 一発起動、multi-tenant 対応]、#2 koala73/worldmonitor=TypeScript / 73,195★ / +2,194 [継続・500 超ニュース + 65 超 API 統合、Vercel Edge Functions + Tauri 2 + globe.gl/Three.js + deck.gl、Ollama/Groq/OpenRouter でローカル/クラウド LLM 選択可、npm run dev で即立ち、25 言語 RTL 対応]、#3 ComposioHQ/awesome-claude-skills=Python / 70,011★ / +662 [新規流入・SKILL.md 形式 1000 超スキル集、100 トークン見出し先読み + 5000 トークン以下本文、8 カテゴリ (Document/Dev/Data/Business/Communication/Creative/Productivity/App Automation 78+ SaaS)、Claude.ai + Claude Code + API portable]、#4 Pumpkin-MC/Pumpkin=Rust / 9,308★ / +472 [新規流入・Rust 製 Minecraft サーバー、Java + Bedrock 両対応、マルチスレッド、Bungeecord/Velocity proxy 対応、cargo run で起動、開発途上]、#5 shiyu-coder/Kronos=Python / 33,466★ / +506 [新規流入・金融 K 線初の OSS Foundation Model、45 取引所 OHLCV を離散トークン化 + 自己回帰 Transformer、mini 4.1M / small 24.7M / base 102.3M / large 499.2M (closed)、AAAI 2026 採択]",
-      "本日の self-experiment 核: 『触ったら何秒で立ち、何が体感で変わったか』の実体験を 5 本並べて Primary/Secondary への信頼シグナル (この人は手を動かす) を確立。冒頭フックは『今週の Trending TOP5、全部手元で触ってみました。3 分で 5 本の起動時間と体感メモリを並べます』",
-      "Primary (CTO/技術選定) には『触った上での実装難度・体感メモリ・依存関係の重さ』の一次情報として、Secondary (PdM/事業責任者) には『触った人が語る導入イメージ』として、Tertiary (学習中) には『今週試すべき 5 本のスタート手順』として 3 層直撃",
-      "連投上限ルール: 14d 内 business-angle=07-13, 07-18, 07-23 で 3 件到達 (07-27 に 07-13 圏外脱落で 2 件残)、trend-pattern=07-15, 07-21 で 2 件残 (07-29 に 07-15 圏外脱落で 1 件残)、comparison=07-11, 07-20 で 2 件残 (07-25 に 07-11 圏外脱落で 1 件残)、ecosystem=07-22 で 1 件残、use-case=07-16, 07-17 で 2 件残 (07-30 圏外脱落まで空白)、tech-deep=07-14 で 1 件残 (07-28 圏外脱落)、self-experiment=07-12 で 1 件残 (07-26 圏外脱落) → 本日 07-25 投入で 2 件、stack-migration=07-24 で 1 件残 (48h 後 07-26 の views 本評価待ち)"
+      "本日の discovery.method は `ecosystem` (14d avg 2.00 で stack-migration と TOP tie、全期間 21.41 n=17 champion、07-22 以来 4 日空きで exploit の絶対タイミング、直近 2 日連投ルールで self-experiment / stack-migration 除外、business-angle は 07-23 消化済み、5/5 素材が AI/Agent 隣接領域で『開発スタック地図』の角度整合が完璧)。日曜 (Sun=5 avg) は元来低い曜だが、素材整合率 100% で champion method を投入するのは長期的な柱① 芯強化の正着",
+      "本日 07-26 TOP5: #1 block/buzz=Rust / 11,806★ / +2,506 [新規流入・Nostr リレー上に人+AI Agent+ワークフロー+repos の署名イベントを SST として集約、Block 製 OSS (Apache 2.0)、Slack/GitHub PR/CI dashboard 統合、just setup 一発起動]、#2 alibaba/open-code-review=Go / 12,907★ / +439 [新規流入・ハイブリッド AI コードレビュー CLI、決定的ルーティング + LLM Agent、GitHub Actions/GitLab CI/GitFlic CI/Gerrit 対応、Claude Code/Codex/Cursor 統合、同 LLM で精度向上 + token 1/9]、#3 citrolabs/ego-lite=JavaScript / 3,516★ / +986 [新規流入・AI Agent 共有ブラウザ、Chrome の Cookie/拡張/ログイン継承、ego-browser skill 経由で Claude Code/Codex/Cursor から呼出、Browser-Use/Vercel agent-browser/ChatGPT Atlas/Comet と競合]、#4 ComposioHQ/awesome-claude-skills=Python / 70,546★ / +574 [継続 (07-25 でも #3)・SKILL.md 形式 1000 超スキル集、100 トークン先読み + 5000 トークン以下本文、8 カテゴリ 78+ SaaS、Claude.ai + Claude Code + API portable]、#5 anthropics/claude-cookbooks=Jupyter Notebook / 49,854★ / +144 [新規流入・Anthropic 公式 Notebook 集、Tool use/MCP/Extended thinking/Agentic patterns 網羅、実装リファレンス起点]",
+      "本日の ecosystem 核: 5 本を『AI Agent 開発スタックの層に配置』し、視聴者に『今週このスタック地図で自社は何が欠けているか』を問う設問型で締める。冒頭フックは『今週のTrending、AI Agent スタックの 5 層が全部揃いました。通信・レビュー・ブラウザ・スキル・公式リファレンス、順に見ます』",
+      "Primary (CTO/技術選定) には『Agent 導入時の層別ツール選定リファレンス』として、Secondary (PdM/事業責任者) には『今 Agent を動かすのに何が要るかの地図』として、Tertiary (学習中) には『今週学ぶべき 5 つのキーワード』として 3 層直撃",
+      "連投上限ルール: 14d 内 business-angle=07-13, 07-18, 07-23 で 3 件残 (07-27 に 07-13 圏外脱落で 2 件残)、trend-pattern=07-15, 07-21 で 2 件残 (07-29 に 07-15 圏外脱落で 1 件残)、comparison=07-20 で 1 件残 (07-24 に 07-11 圏外脱落済)、ecosystem=07-22 で 1 件残 (本日投入で 2 件、08-05 圏外脱落まで 2 件維持)、use-case=07-16, 07-17 で 2 件残 (07-30 圏外脱落まで空白)、tech-deep=07-14 で 1 件残 (07-28 圏外脱落)、self-experiment=07-25 で 1 件残 (07-12 圏外脱落済)、stack-migration=07-24 で 1 件残 (48h 後 views=2 確定)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-25",
-    "dayOfWeek": "Sat",
+    "date": "2026-07-26",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "self_experiment",
-      "柱3",
-      "柱③",
-      "触ってみた",
-      "ハンズオン",
-      "実測",
-      "手元GPU",
-      "cargo_run",
-      "npm_run_dev",
-      "just_setup",
-      "Claude_Code",
+      "ecosystem",
+      "柱1",
+      "柱①",
+      "AI_Agent",
+      "Agent開発",
+      "Agentic",
+      "開発スタック",
       "Nostr",
-      "Minecraft",
-      "Rust",
-      "Foundation_Model",
-      "Kronos",
-      "OHLCV",
-      "地政学ダッシュボード",
-      "Ollama",
-      "ローカルLLM",
+      "Claude_Skills",
+      "SKILL_md",
+      "Claude_Code",
+      "Cursor",
+      "MCP",
+      "Tool_use",
+      "Anthropic",
+      "Alibaba",
+      "Block",
+      "Code_Review",
+      "Browser_Agent",
+      "AI_Browser",
+      "Composio",
       "buzz",
-      "worldmonitor",
-      "awesome_claude_skills",
-      "Pumpkin"
+      "ego_lite",
+      "open_code_review",
+      "claude_cookbooks"
     ],
-    "focus": "土曜 (Sat=79 avg・週内中位) は余暇消費層と self-experiment の親和性活用日。`self-experiment` (14d avg 2.00 で ecosystem と TOP tie、柱③ 週次ノルマが 07-12 以降 13 日連続空白で weekly 絶対消化タイミング、直近 2 日連投ルールで 07-23 business-angle / 07-24 stack-migration 除外後の TOP 候補) を投入。5/5 素材が『実際にコマンド叩いた所感』を語れる整合日で適合率 100% (buzz=just setup 一発起動 / worldmonitor=npm run dev で 3D globe 即立ち / awesome-claude-skills=SKILL.md 1 個 Claude Code に読ませ / Pumpkin=cargo run で Minecraft 起動 + Java 版クライアント接続 / Kronos=mini 4.1M params を手元 GPU で完走)。本日の TOP5 は 4/5 新規 (buzz, awesome-claude-skills, Pumpkin, Kronos)、1/5 継続 (worldmonitor は 07-23 business-angle → 07-24 stack-migration → 07-25 self-experiment の 3 日連続 TOP5・角度切替 8 度目連続検証)。narration は 5 本すべてに『実行コマンド + 体感所感』を埋めて 5/5 統一、5 本合計 255 文字。ハンズオン語彙 (just setup / npm run dev / cargo run / 手元 GPU / 起動しました / 動かしました / 完走します) と各リポの固有事実 (Nostr 台帳 + AI Agent が同じ鍵で書き込み / 500 超情報源 + 65 超 API + ローカル LLM / 1000 超スキル + 100 トークン先読み / Java 版クライアント接続 + 体感メモリ軽い / mini 4.1M params 数行の Python で完走) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) は 07-23 で今週消化済み、柱③ (self-experiment) は本日消化、07-26 日 以降は exploit 枠 (ecosystem/business-angle/trend-pattern から素材整合で選択)、07-24 stack-migration の views 本評価 (48h 後 07-26) を待って Angle Methods タグ正式追加を判断。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "日曜 (Sun=5 avg・週内下位) は素の曜日 tailwind は乏しいが、素材整合率 100% の稀有な日。`ecosystem` (14d avg 2.00 で stack-migration と TOP tie、全期間 21.41 n=17 champion、07-22 以来 4 日空きで exploit の絶対タイミング、直近 2 日連投ルールで self-experiment/stack-migration 除外、business-angle は 07-23 消化済み) を投入。5/5 素材が AI/LLM Agent 隣接領域で適合率 100% (buzz=通信/監査ログ層 Nostr / open-code-review=CI-CD レビュー層 / ego-lite=ブラウザ実行層 / awesome-claude-skills=スキル/知識層 / claude-cookbooks=公式リファレンス層)、『AI Agent 時代の開発スタック地図』として通せる稀有な整合日。本日の TOP5 は 4/5 新規 (buzz, open-code-review, ego-lite, claude-cookbooks)、1/5 継続 (awesome-claude-skills は 07-25 self-experiment → 07-26 ecosystem の 2 日連続 TOP5・角度切替 2 度目、限界 3 日には未到達)。narration は 5 本すべてに『層としての機能』を暗示、5 本合計 276 文字 (54+52+56+55+59) で TTS 換算約 55 秒、opening/ending 込み 60 秒枠。層分解語彙 (通信層/レビュー層/ブラウザ層/スキル層/公式リファレンス) と各リポの固有事実 (Nostr 台帳 + AI Agent が同じ鍵 / 決定的ルーティング + LLM で token 1/9 / Chrome Cookie/拡張継承で取り合い解消 / SKILL.md 1000 超で業務手順横流用 / Tool use や MCP の Anthropic 公式) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) は 07-23 で今週消化済み、柱③ (self-experiment) は 07-25 で今週消化済み、本日 07-26 で柱① (ecosystem) 芯強化、07-27 週後半 (Sat 08-01) で柱③ 週次ノルマ再消化、週央 (Wed 07-29 or Thu 07-30) で柱② を素材整合日に投入予定。07-25 self-experiment / 07-23 business-angle の 48h 後 views 本評価 (07-27) を反映してタイミング微調整。stack-migration は 48h 後 views=2 確定で 14d TOP tie、正式タグ化は n=3 到達まで保留、次回素材整合日に再投入予定。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
