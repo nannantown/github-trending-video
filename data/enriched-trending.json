@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "discovery": {
-    "method": "self-experiment",
-    "description": "今日のTOP5を『実際に触ってみたらどうか』の視点で料理する。BuzzはRust製Nostr台帳をjust setupで起動、worldmonitorはnpm run devで地球儀を回し、awesome-claude-skillsは1個Claude Codeに読ませ、PumpkinはcargoでMinecraftサーバーを立て、Kronosはmini版を手元GPUで動かす。実際にコマンドを叩いた所感と体感メモリ・数行で動くかの視点で通す。method 選定: 直近2日 07-23 business-angle / 07-24 stack-migration の連投ルールで両者除外、14日 method 別 avg views で self-experiment (n=1, avg 2.0) と ecosystem (n=1, avg 2.0) が TOP tie。柱③ (自プロジェクト事例=self-experiment) は 07-12 以降 13 日連続空白で必投入タイミング、07-15 trend-pattern / 07-21 trend-pattern の再訪パターンと合わせ、TOP method の exploit を優先。narration 5 本合計 255 文字で TTS 換算約 51 秒、opening/ending 込みで 55 秒枠内。",
+    "method": "ecosystem",
+    "description": "今日のTOP5を『AI Agent時代の開発スタック地図』として通す。buzzが人とAgentの通信/監査ログ層(Nostr)、open-code-reviewがCI-CDに刺さるレビュー層、ego-liteがログイン共有のブラウザ実行層、awesome-claude-skillsがSKILL.mdのカタログ層、claude-cookbooksがAnthropic公式リファレンス層。5本合わせて『Agentを動かすのに今どこに何が要るか』のエコシステム俯瞰。method 選定: 14d avg views で ecosystem (n=1, 2.0) が TOP tie、全期間 avg 21.41 で champion、直近2日連投ルール (07-25 self-experiment / 07-24 stack-migration) で両者除外、business-angle は 07-23 消化済み、07-22 ecosystem 以来 4日空きで exploit の絶対タイミング。柱②(07-23)③(07-25) 週次消化済みで柱①の芯強化が正着。narration 5本合計249文字でTTS換算約50秒、opening/ending込み55秒枠内。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/block/buzz",
-      "https://github.com/koala73/worldmonitor",
+      "https://github.com/alibaba/open-code-review",
+      "https://github.com/citrolabs/ego-lite",
       "https://github.com/ComposioHQ/awesome-claude-skills",
-      "https://github.com/Pumpkin-MC/Pumpkin",
-      "https://github.com/shiyu-coder/Kronos"
+      "https://github.com/anthropics/claude-cookbooks"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "buzz",
       "url": "https://github.com/block/buzz",
       "language": "Rust",
-      "stars": 9822,
-      "todayStars": 3274,
-      "description": "人とAI Agentが同じNostr台帳で議論",
-      "detail": "SlackやGit、CI承認までを1つのNostrリレー上のイベントログに集約するRust製ワークスペース。AIエージェントも人間と同じ鍵で書き込むので、監査ログが1本にまとまる設計です。",
-      "narration": "just setupで一発起動しました。人もAI Agentも同じNostr台帳に集約され監査が1本化されます。"
+      "stars": 11806,
+      "todayStars": 2506,
+      "description": "人とAI Agentが同じNostr台帳へ",
+      "detail": "SlackやGitHub、CI承認までを1つのNostrリレー上の署名付きイベントログに集約するBlock製OSSです。AI Agentも人間と同じ鍵で書き込むので、監査ログが1本にまとまり全文検索できます。",
+      "narration": "人とAI Agentが同じNostr台帳に書きます。Slackもレビューも1本のイベント履歴に統合されます。"
     },
     {
       "rank": 2,
-      "fullName": "koala73/worldmonitor",
-      "name": "worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "language": "TypeScript",
-      "stars": 73195,
-      "todayStars": 2194,
-      "description": "地政学と経済の統合監視ダッシュボード",
-      "detail": "500超のニュース源と65超のAPIをEdge Functions+Tauri 2で束ね、3D globeとdeck.glで可視化するダッシュボード。ローカルLLMも刺せて企業のリスク監視卓に置ける完成度です。",
-      "narration": "npm run devで即座に地球儀が回りました。500超の情報源をローカルLLMで要約できる監視卓です。"
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 12907,
+      "todayStars": 439,
+      "description": "Alibaba製ハイブリッドAIレビュー",
+      "detail": "決定的ルーティングでレビュー対象を選び、LLMで指摘を生成するハイブリッドCLI。GitHub ActionsやClaude Code、Cursorに刺せて、同じLLMで精度を上げつつtokenを9分の1に抑えます。",
+      "narration": "Alibaba製のAIコードレビューCLIです。ルール層とLLMを組合わせトークンを9分の1に抑えます。"
     },
     {
       "rank": 3,
+      "fullName": "citrolabs/ego-lite",
+      "name": "ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "language": "JavaScript",
+      "stars": 3516,
+      "todayStars": 986,
+      "description": "AI Agentと共有するブラウザ",
+      "detail": "初回起動でChromeのCookieや拡張をそのまま引き継ぎ、ログイン済み状態でAI Agentに使わせるブラウザ。Claude CodeやCursorからskill経由で叩けて、あなたのタブと取り合いになりません。",
+      "narration": "ログイン済みChromeをAI Agentと共有するブラウザです。Cookieや拡張を渡し取り合いが起きません。"
+    },
+    {
+      "rank": 4,
       "fullName": "ComposioHQ/awesome-claude-skills",
       "name": "awesome-claude-skills",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "language": "Python",
-      "stars": 70011,
-      "todayStars": 662,
-      "description": "1000超のClaude Skillカタログ",
+      "stars": 70546,
+      "todayStars": 574,
+      "description": "1000超のClaude Skillsカタログ",
       "detail": "SKILL.md形式で書かれた1000超の再利用可能スキル集。文書処理、CRM連携、SaaS 78本まで揃い、フォルダをコピーするだけでClaudeが新しい業務手順をそのまま覚えます。",
-      "narration": "1個Claude Codeに読ませて試しました。100トークンの見出しだけ先読みで的中率が上がります。"
-    },
-    {
-      "rank": 4,
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "name": "Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "language": "Rust",
-      "stars": 9308,
-      "todayStars": 472,
-      "description": "Rust製の高速Minecraftサーバー",
-      "detail": "Java版と互換のMinecraftサーバーをRustで書き直したOSS。マルチスレッドと安全性でメモリと脆弱性を抑えつつ、Java版とBedrock版の最新プロトコルを狙う開発途上プロジェクトです。",
-      "narration": "cargo runで立ち上げJava版クライアントで接続できました。メモリ消費が体感で軽いです。"
+      "narration": "1000超のClaude Skillsを集めたカタログです。SKILL.md形式で業務手順を横に流用できます。"
     },
     {
       "rank": 5,
-      "fullName": "shiyu-coder/Kronos",
-      "name": "Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "language": "Python",
-      "stars": 33466,
-      "todayStars": 506,
-      "description": "金融K線のFoundation Model",
-      "detail": "45取引所のOHLCVを離散トークンに変換して自己回帰Transformerで予測する、金融特化の初のOSS Foundation Model。mini版なら4M paramsで手元GPUでも動くAAAI 2026採択の成果です。",
-      "narration": "mini版を手元のGPUで動かしました。日足OHLCVの予測が数行のPythonで完走します。"
+      "fullName": "anthropics/claude-cookbooks",
+      "name": "claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "language": "Jupyter Notebook",
+      "stars": 49854,
+      "todayStars": 144,
+      "description": "Anthropic公式Claudeレシピ集",
+      "detail": "Tool useやMCP、Extended thinking、Agentic patternsまで解説されたAnthropic公式Notebook集。まず読む場所として最新の推奨実装が学べて、社内標準の起点にできます。",
+      "narration": "Anthropic公式のClaude活用レシピ集です。Tool useやMCPの基本を公式notebookで学べます。"
     }
   ]
 }
