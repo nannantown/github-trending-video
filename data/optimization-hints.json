@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26",
+  "updatedAt": "2026-07-27",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -30,65 +30,65 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-13〜25, n=13): stack-migration 2.00 n=1 TOP tie / ecosystem 2.00 n=1 TOP tie / business-angle 1.67 n=3 / trend-pattern 1.50 n=2 / use-case 1.50 n=2 / self-experiment 1.00 n=2 (07-25 は投稿翌朝で計測中) / comparison 1.00 n=1 / tech-deep 0.00 n=1。全期間: ecosystem 21.41 n=17 champion / business-angle 2.66 n=16 / trend-pattern 2.73 n=11 / tech-deep 2.50 n=6 / comparison 2.44 n=18 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.14 n=8。直近 2 日 (07-24 stack-migration / 07-25 self-experiment) 連投ルールで両者除外、business-angle は 07-23 消化済み、14d TOP tie 残った ecosystem を採用。07-22 ecosystem 以来 4 日空きで exploit の絶対タイミング、7 月 3 件目 (07-06/07-10/07-22/07-26) で月次 4-6 件枠内。本日 07-26 (日, Sun=5 avg・週内下位) の TOP5 素材は 5/5 全て AI/LLM Agent 隣接領域 (buzz=通信/監査 Nostr / open-code-review=CI レビュー / ego-lite=Agent 共有ブラウザ / awesome-claude-skills=SKILL カタログ / claude-cookbooks=Anthropic 公式) で ecosystem 適合率 100%、『AI Agent 時代の開発スタック地図』として通せる稀有な整合日。"
+      "note": "Method 別 14d (2026-07-13〜26, n=13): stack-migration 2.00 n=1 TOP tie / business-angle 1.67 n=3 / trend-pattern 1.50 n=2 / use-case 1.50 n=2 / ecosystem 1.00 n=2 (07-26 は投稿翌朝で計測中) / comparison 1.00 n=1 / self-experiment 1.00 n=1 / tech-deep 0.00 n=1。全期間: ecosystem 20.88 n=17 (07-26 込み計測中) / business-angle 2.94 n=16 / trend-pattern 2.73 n=11 / comparison 2.44 n=18 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.12 n=8 (07-25 込み views=1 確定) / tech-deep 0.75 n=4。直近 2 日 (07-25 self-experiment / 07-26 ecosystem) 連投ルールで両者除外、残る候補で 14d avg TOP tie と全期間 avg 双方の actionable exploit champion となる business-angle を採用。07-23 消化から 4 日空きで再投入 OK、新週 (07-27 Mon〜08-02 Sun) の柱② 週次ノルマ早期消化枠として最適。本日 07-27 (月) の TOP5 素材は 5/5 全て『受託・スタートアップ視点で削減工数を数字で語れる』business-angle 適合の稀有な整合日 (bitchat=災害BCPオフライン通信層 / ego-lite=Playwright運用工数削減 / buzz=Slack+GitHub+Notion統合の監査ログ標準装備でSaaS費圧縮 / t3code=複数AI Coding Agent並列開発環境 / Instatic=Webflow月額サブスクMIT置換)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は日曜 (Sun=5 avg・週内下位) だが素材整合率が 5/5 の稀有な日。ecosystem 角度の『今週のスタック俯瞰』は Primary/Secondary の週末キャッチアップ枠と親和性高い。柱① 芯強化で長期フォロワー育成に効かせる"
+      "本日は月曜 (Mon=61 avg but sample skewed)、週明けの技術ネタキャッチアップ枠。business-angle 角度の『新週にこの5本を見積書に書けば案件が回る』は Primary/Secondary の週初技術判断枠と親和性高い"
     ],
     "hashtags": [
-      "ecosystem 角度の核心は『5 本を Agent 開発スタックの層に配置』。5 本の層マッピング: #buzz=通信/監査ログ層 (Nostr) / #open_code_review=CI-CD レビュー層 (Alibaba, Go) / #ego_lite=ブラウザ実行層 (Chrome データ継承) / #awesome_claude_skills=スキル/知識層 (SKILL.md 1000+) / #claude_cookbooks=公式リファレンス層 (Anthropic Notebook)",
-      "言語タグは Rust 1 + Go 1 + JavaScript 1 + Python 1 + Jupyter 1 の 5 言語ミックス。Python (1.2x) 上位 + Go (0.9x) 中位 + JS (0.9x) 中位 + Rust (0.7x) 下位。多言語ミックスで特定コミュニティ偏重を避け、Agent スタック全体の俯瞰を印象付ける",
-      "ecosystem 角度の独自 hashtag: #ecosystem #柱1 #柱① #AI_Agent #Agent開発 #Agentic #開発スタック #Nostr #Claude_Skills #SKILL_md #Claude_Code #Cursor #MCP #Tool_use #Anthropic #Alibaba #Block #Code_Review #Browser_Agent #AI_Browser #Composio"
+      "business-angle 角度の核心は『5 本を受託・スタートアップ視点でこう料理する』。5 本のビジネス層マッピング: #bitchat=災害BCP案件のオフライン通信層 / #ego_lite=Playwright運用のログイン管理工数削減 / #buzz=Slack+GitHub+Notion統合の監査ログ標準装備でSaaS費圧縮 / #t3code=複数AI Coding Agent並列開発環境 / #Instatic=Webflow月額サブスクMIT置換",
+      "言語タグは Swift 1 + JavaScript 1 + Rust 1 + TypeScript 2 の 4 言語ミックス。TypeScript (1.1x) 上位 + Swift (1.0x) 中位 + JS (0.9x) 中位 + Rust (0.7x) 下位。TypeScript 2 本で iOS/Web 両受託層に直撃",
+      "business-angle 角度の独自 hashtag: #business_angle #柱2 #柱② #受託 #スタートアップ #技術選定 #SaaS費圧縮 #工数削減 #BCP #オフライン通信 #Bluetooth_mesh #Nostr #AI_Agent #Agent開発 #Claude_Code #Cursor #Playwright #Webflow_alternative #self_hosted #Block #Alibaba"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 276 文字 (54+52+56+55+59)、TTS で約 55 秒、opening/ending と合わせて 60 秒枠ギリギリ。次回は 5 本合計 250 文字前後を目標に短縮余地",
-      "ecosystem 角度の一貫性: 5 本すべての narration に『層としての機能』を暗示。1 本目『同じ Nostr 台帳に書きます / イベント履歴に統合』(通信層)、2 本目『ハイブリッド AI レビュー CLI / トークンを 9 分の 1』(レビュー層)、3 本目『Chrome を AI Agent と共有 / Cookie や拡張を渡し』(ブラウザ層)、4 本目『1000 超の Claude Skills / SKILL.md 形式で横に流用』(スキル層)、5 本目『Anthropic 公式のレシピ集 / Tool use や MCP の基本』(公式層) で層分解を全 5 本で徹底",
-      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『何層か + どの既存ワークフローに刺さるか』を明示、単発リポ紹介を避けて『スタックのどこを埋めるか』を打ち出す",
-      "数値表現はアラビア数字統一 (9 分の 1、1000 超、5 本)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 265 文字 (48+53+56+53+55)、TTS で約 53 秒、opening/ending と合わせて 55-58 秒枠内。7/26 の 276 文字から 11 文字短縮達成",
+      "business-angle 角度の一貫性: 5 本すべての narration に『案件・工数・圧縮・置換・費』の削減言語を組み込む。1 本目『災害BCP案件のオフライン通信層に使えます』、2 本目『Playwright案件のログイン工数が減ります』、3 本目『監査ログ標準でSaaS費を圧縮できます』、4 本目『受託の並列AI開発をブラウザで捌けます』、5 本目『案件ごとの月額サブスク費が丸ごと浮きます』で削減言語を全 5 本で徹底",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『何案件に刺さるか + 何工数/費が削れるか』を明示、単発リポ紹介を避けて『見積書に書けるベネフィット』を打ち出す",
+      "数値表現はアラビア数字統一 (2.5倍、1画面、1本)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem` (14d avg 2.00 で stack-migration と TOP tie、全期間 21.41 n=17 champion、07-22 以来 4 日空きで exploit の絶対タイミング、直近 2 日連投ルールで self-experiment / stack-migration 除外、business-angle は 07-23 消化済み、5/5 素材が AI/Agent 隣接領域で『開発スタック地図』の角度整合が完璧)。日曜 (Sun=5 avg) は元来低い曜だが、素材整合率 100% で champion method を投入するのは長期的な柱① 芯強化の正着",
-      "本日 07-26 TOP5: #1 block/buzz=Rust / 11,806★ / +2,506 [新規流入・Nostr リレー上に人+AI Agent+ワークフロー+repos の署名イベントを SST として集約、Block 製 OSS (Apache 2.0)、Slack/GitHub PR/CI dashboard 統合、just setup 一発起動]、#2 alibaba/open-code-review=Go / 12,907★ / +439 [新規流入・ハイブリッド AI コードレビュー CLI、決定的ルーティング + LLM Agent、GitHub Actions/GitLab CI/GitFlic CI/Gerrit 対応、Claude Code/Codex/Cursor 統合、同 LLM で精度向上 + token 1/9]、#3 citrolabs/ego-lite=JavaScript / 3,516★ / +986 [新規流入・AI Agent 共有ブラウザ、Chrome の Cookie/拡張/ログイン継承、ego-browser skill 経由で Claude Code/Codex/Cursor から呼出、Browser-Use/Vercel agent-browser/ChatGPT Atlas/Comet と競合]、#4 ComposioHQ/awesome-claude-skills=Python / 70,546★ / +574 [継続 (07-25 でも #3)・SKILL.md 形式 1000 超スキル集、100 トークン先読み + 5000 トークン以下本文、8 カテゴリ 78+ SaaS、Claude.ai + Claude Code + API portable]、#5 anthropics/claude-cookbooks=Jupyter Notebook / 49,854★ / +144 [新規流入・Anthropic 公式 Notebook 集、Tool use/MCP/Extended thinking/Agentic patterns 網羅、実装リファレンス起点]",
-      "本日の ecosystem 核: 5 本を『AI Agent 開発スタックの層に配置』し、視聴者に『今週このスタック地図で自社は何が欠けているか』を問う設問型で締める。冒頭フックは『今週のTrending、AI Agent スタックの 5 層が全部揃いました。通信・レビュー・ブラウザ・スキル・公式リファレンス、順に見ます』",
-      "Primary (CTO/技術選定) には『Agent 導入時の層別ツール選定リファレンス』として、Secondary (PdM/事業責任者) には『今 Agent を動かすのに何が要るかの地図』として、Tertiary (学習中) には『今週学ぶべき 5 つのキーワード』として 3 層直撃",
-      "連投上限ルール: 14d 内 business-angle=07-13, 07-18, 07-23 で 3 件残 (07-27 に 07-13 圏外脱落で 2 件残)、trend-pattern=07-15, 07-21 で 2 件残 (07-29 に 07-15 圏外脱落で 1 件残)、comparison=07-20 で 1 件残 (07-24 に 07-11 圏外脱落済)、ecosystem=07-22 で 1 件残 (本日投入で 2 件、08-05 圏外脱落まで 2 件維持)、use-case=07-16, 07-17 で 2 件残 (07-30 圏外脱落まで空白)、tech-deep=07-14 で 1 件残 (07-28 圏外脱落)、self-experiment=07-25 で 1 件残 (07-12 圏外脱落済)、stack-migration=07-24 で 1 件残 (48h 後 views=2 確定)"
+      "本日の discovery.method は `business-angle` (14d avg 1.67 n=3 で TOP tie 圏内、全期間 avg 2.94 n=16 で ecosystem 除外時の actionable exploit champion、07-23 消化から 4 日空きで再投入 OK タイミング、直近 2 日連投ルールで ecosystem/self-experiment 除外、5/5 素材が『受託・スタートアップ視点で削減工数を数字で語れる』整合日、新週 07-27 Mon〜08-02 Sun の柱② ノルマ早期消化枠として最適)。月曜 (Mon=61 avg but sample skewed) は週明けの技術ネタキャッチアップ枠、business-angle は Primary/Secondary の週初技術判断枠と親和性高い",
+      "本日 07-27 TOP5: #1 permissionlesstech/bitchat=Swift / 30,181★ / +1,198 [新規流入・BLEマルチホップ 7ホップ + Nostr 290リレー分散chat、Public Domain (Unlicense) 公開、App Store配布、ソースはハッシュ検証可能、Noise Protocol+XChaCha20-Poly1305、災害・イベント時のオフライン通信]、#2 citrolabs/ego-lite=JavaScript / 4,409★ / +898 [継続 (07-25/07-26 でも TOP5)・AI Agent 共有ブラウザ、Chrome の Cookie/拡張/ログイン継承、ego-browser skill 経由で Claude Code/Codex/Cursor から呼出、複雑タスクを 2.5倍速でこなせる、MIT公開・macOS のみ]、#3 block/buzz=Rust / 13,138★ / +1,705 [継続 (07-26 でも TOP5)・Nostr リレー上に人+AI Agent+ワークフロー+repos の署名イベントを SST として集約、Block 製 OSS (Apache 2.0)、Slack/GitHub PR/CI dashboard 統合、just setup 一発起動]、#4 pingdotgg/t3code=TypeScript / 15,026★ / +159 [新規流入・Ping.gg 製軽量 Web GUI、Codex/Claude/Cursor/OpenCode を 1 画面で切替、MIT公開・デスクトップ版+リモート機能、very very early ステータス]、#5 CoreBunch/Instatic=TypeScript / 5,622★ / +892 [新規流入・Bun 製自己ホスト型 CMS、Webflow/Framer/WordPress 代替、AI Agent ビジュアル編集 (35 tools Site + 15 tools Content)、MIT公開・SQLite/Postgres 対応、v0.0.x 早期]",
+      "本日の business-angle 核: 5 本を『受託・スタートアップ視点で見積書に書ける削減工数/費』で語り、視聴者に『来週の商談でこれを提案したら何案件取れるか』を問う設問型で締める。冒頭フックは『今週のTrending、5本すべてが受託の見積書に効きます。BCP通信・Playwright工数・SaaS費・並列AI開発・Webflow月額、順に見ます』",
+      "Primary (CTO/技術選定) には『新週の技術投資判断リファレンス』として、Secondary (PdM/事業責任者) には『次案件で何が削れるかの見積り用地図』として、Tertiary (学習中) には『受託・スタートアップ視点で見るOSS読み方』として 3 層直撃",
+      "連投上限ルール: 14d 内 business-angle=07-13/07-18/07-23 の 3 件残 (本日 07-27 投入で 4 件、07-28 開始で 07-13 圏外脱落し 3 件残)、trend-pattern=07-15/07-21 で 2 件残 (07-29 開始で 07-15 圏外脱落し 1 件残)、comparison=07-20 で 1 件残、ecosystem=07-22/07-26 で 2 件残 (08-05 まで維持)、use-case=07-16/07-17 で 2 件残 (07-30 開始で圏外脱落開始)、tech-deep=07-14 で 1 件残 (07-28 圏外脱落)、self-experiment=07-25 で 1 件残 (48h 後 views=1 確定)、stack-migration=07-24 で 1 件残 (48h 後 views=2 確定)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-26",
-    "dayOfWeek": "Sun",
+    "date": "2026-07-27",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "ecosystem",
-      "柱1",
-      "柱①",
+      "business_angle",
+      "柱2",
+      "柱②",
+      "受託",
+      "スタートアップ",
+      "技術選定",
+      "SaaS費圧縮",
+      "工数削減",
+      "BCP",
+      "オフライン通信",
+      "Bluetooth_mesh",
+      "Nostr",
       "AI_Agent",
       "Agent開発",
-      "Agentic",
-      "開発スタック",
-      "Nostr",
-      "Claude_Skills",
-      "SKILL_md",
       "Claude_Code",
       "Cursor",
-      "MCP",
-      "Tool_use",
-      "Anthropic",
-      "Alibaba",
+      "Playwright",
+      "Webflow_alternative",
+      "self_hosted",
       "Block",
-      "Code_Review",
-      "Browser_Agent",
-      "AI_Browser",
-      "Composio",
-      "buzz",
+      "bitchat",
       "ego_lite",
-      "open_code_review",
-      "claude_cookbooks"
+      "buzz",
+      "t3code",
+      "Instatic"
     ],
-    "focus": "日曜 (Sun=5 avg・週内下位) は素の曜日 tailwind は乏しいが、素材整合率 100% の稀有な日。`ecosystem` (14d avg 2.00 で stack-migration と TOP tie、全期間 21.41 n=17 champion、07-22 以来 4 日空きで exploit の絶対タイミング、直近 2 日連投ルールで self-experiment/stack-migration 除外、business-angle は 07-23 消化済み) を投入。5/5 素材が AI/LLM Agent 隣接領域で適合率 100% (buzz=通信/監査ログ層 Nostr / open-code-review=CI-CD レビュー層 / ego-lite=ブラウザ実行層 / awesome-claude-skills=スキル/知識層 / claude-cookbooks=公式リファレンス層)、『AI Agent 時代の開発スタック地図』として通せる稀有な整合日。本日の TOP5 は 4/5 新規 (buzz, open-code-review, ego-lite, claude-cookbooks)、1/5 継続 (awesome-claude-skills は 07-25 self-experiment → 07-26 ecosystem の 2 日連続 TOP5・角度切替 2 度目、限界 3 日には未到達)。narration は 5 本すべてに『層としての機能』を暗示、5 本合計 276 文字 (54+52+56+55+59) で TTS 換算約 55 秒、opening/ending 込み 60 秒枠。層分解語彙 (通信層/レビュー層/ブラウザ層/スキル層/公式リファレンス) と各リポの固有事実 (Nostr 台帳 + AI Agent が同じ鍵 / 決定的ルーティング + LLM で token 1/9 / Chrome Cookie/拡張継承で取り合い解消 / SKILL.md 1000 超で業務手順横流用 / Tool use や MCP の Anthropic 公式) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) は 07-23 で今週消化済み、柱③ (self-experiment) は 07-25 で今週消化済み、本日 07-26 で柱① (ecosystem) 芯強化、07-27 週後半 (Sat 08-01) で柱③ 週次ノルマ再消化、週央 (Wed 07-29 or Thu 07-30) で柱② を素材整合日に投入予定。07-25 self-experiment / 07-23 business-angle の 48h 後 views 本評価 (07-27) を反映してタイミング微調整。stack-migration は 48h 後 views=2 確定で 14d TOP tie、正式タグ化は n=3 到達まで保留、次回素材整合日に再投入予定。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "月曜 (Mon=61 avg but sample skewed) は週明けの技術ネタキャッチアップ枠、素材整合率 100% の稀有な日。`business-angle` (14d avg 1.67 n=3 で TOP tie 圏内、全期間 avg 2.94 n=16 で ecosystem 除外時の actionable exploit champion、07-23 消化から 4 日空きで再投入 OK、直近 2 日連投ルールで ecosystem/self-experiment 除外) を投入。5/5 素材が『受託・スタートアップ視点で削減工数を数字で語れる』適合率 100% (bitchat=災害BCP案件のオフライン通信層 / ego-lite=Playwright運用のログイン管理工数削減 / buzz=Slack+GitHub+Notion統合の監査ログ標準装備でSaaS費圧縮 / t3code=複数AI Coding Agent並列開発環境 / Instatic=Webflow月額サブスクMIT置換)。本日の TOP5 は 3/5 新規 (bitchat, t3code, Instatic)、2/5 継続 (ego-lite は 07-25/07-26 → 07-27 で 3 日連続 TOP5・角度切替 3 度目でチェーン最大長到達、buzz は 07-26 → 07-27 で 2 日連続・角度切替 2 度目、限界 3 日には未到達)。narration は 5 本すべてに『案件・工数・圧縮・置換・費』の削減言語を組込み、5 本合計 265 文字 (48+53+56+53+55) で TTS 換算約 53 秒、opening/ending 込み 55-58 秒枠。7/26 の 276 文字から 11 文字短縮達成。business-angle 語彙 (BCP/工数/SaaS費/並列開発/サブスク費) と各リポの固有事実 (BLE 7ホップ + Nostr 290リレー / Chrome cookie+拡張継承+2.5倍速 / Block 製 Apache-2.0 + 監査ログ標準 / Ping.gg 製 MIT + 4 provider 統合 / Bun 製 MIT + 35 tools ビジュアル編集) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) を新週初日で早期消化、07-25 で柱③ (self-experiment) を先週消化済み、07-29 or 07-30 で ecosystem/trend-pattern の exploit 投入予定、08-01 or 08-02 で柱③ 週次ノルマ再消化予定。07-26 ecosystem の 48h 後 views 本評価 (07-28) を反映してタイミング微調整。ego-lite 3 日連続 TOP5 でチェーン最大長 3 日ガードレール到達、08 月に入っても TOP5 残留するようなら 4 日目突入は視聴者疲労リスクありとして avoid。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }

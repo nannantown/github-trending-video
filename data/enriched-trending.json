@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5を『AI Agent時代の開発スタック地図』として通す。buzzが人とAgentの通信/監査ログ層(Nostr)、open-code-reviewがCI-CDに刺さるレビュー層、ego-liteがログイン共有のブラウザ実行層、awesome-claude-skillsがSKILL.mdのカタログ層、claude-cookbooksがAnthropic公式リファレンス層。5本合わせて『Agentを動かすのに今どこに何が要るか』のエコシステム俯瞰。method 選定: 14d avg views で ecosystem (n=1, 2.0) が TOP tie、全期間 avg 21.41 で champion、直近2日連投ルール (07-25 self-experiment / 07-24 stack-migration) で両者除外、business-angle は 07-23 消化済み、07-22 ecosystem 以来 4日空きで exploit の絶対タイミング。柱②(07-23)③(07-25) 週次消化済みで柱①の芯強化が正着。narration 5本合計249文字でTTS換算約50秒、opening/ending込み55秒枠内。",
+    "method": "business-angle",
+    "description": "本日のTOP5を『受託・スタートアップ視点でこう料理する』角度で通す。bitchatは災害BCP案件のオフライン通信層、ego-liteはPlaywright運用のログイン管理工数削減、buzzはSlack+GitHub+Notion統合の監査ログ標準装備でSaaS費圧縮、t3codeは複数AI Coding Agentを1画面に束ねる並列開発環境、Instaticは月額サブスクWebflowをMITで丸ごと置換。method選定: 直近2日連投ルール (07-26 ecosystem / 07-25 self-experiment) で両者除外、14d avg TOP tie残の中でbusiness-angle (n=3, avg 1.67) は全期間 avg 2.94 で actionable exploit champion、07-23消化から4日空きで再投入OKタイミング、月初 (07-27 Mon) の週次柱②消化枠として最適。narration 5本合計265文字でTTS換算約53秒、opening/ending込み55-58秒枠内。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/block/buzz",
-      "https://github.com/alibaba/open-code-review",
+      "https://github.com/permissionlesstech/bitchat",
       "https://github.com/citrolabs/ego-lite",
-      "https://github.com/ComposioHQ/awesome-claude-skills",
-      "https://github.com/anthropics/claude-cookbooks"
+      "https://github.com/block/buzz",
+      "https://github.com/pingdotgg/t3code",
+      "https://github.com/CoreBunch/Instatic"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "block/buzz",
-      "name": "buzz",
-      "url": "https://github.com/block/buzz",
-      "language": "Rust",
-      "stars": 11806,
-      "todayStars": 2506,
-      "description": "人とAI Agentが同じNostr台帳へ",
-      "detail": "SlackやGitHub、CI承認までを1つのNostrリレー上の署名付きイベントログに集約するBlock製OSSです。AI Agentも人間と同じ鍵で書き込むので、監査ログが1本にまとまり全文検索できます。",
-      "narration": "人とAI Agentが同じNostr台帳に書きます。Slackもレビューも1本のイベント履歴に統合されます。"
+      "fullName": "permissionlesstech/bitchat",
+      "name": "bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "language": "Swift",
+      "stars": 30181,
+      "todayStars": 1198,
+      "description": "圏外で動くBluetoothメッシュchat",
+      "detail": "BLEマルチホップとNostrで通信する分散chatアプリで、災害やイベント時のオフライン通信を担います。Public Domain公開でApp Storeから即入手でき、ソースはハッシュ検証可能です。",
+      "narration": "圏外でも動くBluetoothメッシュチャットです。災害BCP案件のオフライン通信層に使えます。"
     },
     {
       "rank": 2,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 12907,
-      "todayStars": 439,
-      "description": "Alibaba製ハイブリッドAIレビュー",
-      "detail": "決定的ルーティングでレビュー対象を選び、LLMで指摘を生成するハイブリッドCLI。GitHub ActionsやClaude Code、Cursorに刺せて、同じLLMで精度を上げつつtokenを9分の1に抑えます。",
-      "narration": "Alibaba製のAIコードレビューCLIです。ルール層とLLMを組合わせトークンを9分の1に抑えます。"
-    },
-    {
-      "rank": 3,
       "fullName": "citrolabs/ego-lite",
       "name": "ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "language": "JavaScript",
-      "stars": 3516,
-      "todayStars": 986,
-      "description": "AI Agentと共有するブラウザ",
-      "detail": "初回起動でChromeのCookieや拡張をそのまま引き継ぎ、ログイン済み状態でAI Agentに使わせるブラウザ。Claude CodeやCursorからskill経由で叩けて、あなたのタブと取り合いになりません。",
-      "narration": "ログイン済みChromeをAI Agentと共有するブラウザです。Cookieや拡張を渡し取り合いが起きません。"
+      "stars": 4409,
+      "todayStars": 898,
+      "description": "Agentと共有するChromeブラウザ",
+      "detail": "Chromeのcookieや拡張をそのまま引き継ぎ、AI Agentと人がタブを取り合わずに使えるmacOSブラウザ。Claude CodeやCursorからskill経由で叩け、複雑タスクを2.5倍速でこなせます。",
+      "narration": "Chromeログインを共有するAgent用ブラウザです。Playwright案件のログイン工数が減ります。"
+    },
+    {
+      "rank": 3,
+      "fullName": "block/buzz",
+      "name": "buzz",
+      "url": "https://github.com/block/buzz",
+      "language": "Rust",
+      "stars": 13138,
+      "todayStars": 1705,
+      "description": "Block製Nostr型ワークスペース",
+      "detail": "SlackやissueトラッカーをNostrリレー上の署名付きイベントログに束ねる自己ホスト型OSSワークスペース。Apache-2.0で監査ログ標準、AI Agentも同じ鍵で人と並んで参加します。",
+      "narration": "SlackやGitHubを1本の署名履歴に束ねるBlock製OSSです。監査ログ標準でSaaS費を圧縮できます。"
     },
     {
       "rank": 4,
-      "fullName": "ComposioHQ/awesome-claude-skills",
-      "name": "awesome-claude-skills",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "language": "Python",
-      "stars": 70546,
-      "todayStars": 574,
-      "description": "1000超のClaude Skillsカタログ",
-      "detail": "SKILL.md形式で書かれた1000超の再利用可能スキル集。文書処理、CRM連携、SaaS 78本まで揃い、フォルダをコピーするだけでClaudeが新しい業務手順をそのまま覚えます。",
-      "narration": "1000超のClaude Skillsを集めたカタログです。SKILL.md形式で業務手順を横に流用できます。"
+      "fullName": "pingdotgg/t3code",
+      "name": "t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "language": "TypeScript",
+      "stars": 15026,
+      "todayStars": 159,
+      "description": "複数AI Agentを束ねるGUI",
+      "detail": "Ping.gg製の軽量Web GUIで、Codex、Claude、Cursor、OpenCodeを1画面から叩けます。デスクトップ版とリモート機能付きで、受託の並列AIコーディング環境を数分で用意できます。",
+      "narration": "Codex・Claude・Cursorを1画面に束ねるGUIです。受託の並列AI開発をブラウザで捌けます。"
     },
     {
       "rank": 5,
-      "fullName": "anthropics/claude-cookbooks",
-      "name": "claude-cookbooks",
-      "url": "https://github.com/anthropics/claude-cookbooks",
-      "language": "Jupyter Notebook",
-      "stars": 49854,
-      "todayStars": 144,
-      "description": "Anthropic公式Claudeレシピ集",
-      "detail": "Tool useやMCP、Extended thinking、Agentic patternsまで解説されたAnthropic公式Notebook集。まず読む場所として最新の推奨実装が学べて、社内標準の起点にできます。",
-      "narration": "Anthropic公式のClaude活用レシピ集です。Tool useやMCPの基本を公式notebookで学べます。"
+      "fullName": "CoreBunch/Instatic",
+      "name": "Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "language": "TypeScript",
+      "stars": 5622,
+      "todayStars": 892,
+      "description": "Webflow置換のOSS CMS",
+      "detail": "Bun製の自己ホスト型CMSで、Webflow相当のビジュアル編集をAI Agentが実行します。MIT公開でSQLite/Postgres対応、案件ごとにサブスクを積むフレーマー系ツールを丸ごと置換えられます。",
+      "narration": "Webflowの月額を自社ホスティングに置換えるAI編集OSSです。案件ごとの月額サブスク費が丸ごと浮きます。"
     }
   ]
 }
