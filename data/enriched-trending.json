@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『受託・スタートアップ視点でこう料理する』角度で通す。bitchatは災害BCP案件のオフライン通信層、ego-liteはPlaywright運用のログイン管理工数削減、buzzはSlack+GitHub+Notion統合の監査ログ標準装備でSaaS費圧縮、t3codeは複数AI Coding Agentを1画面に束ねる並列開発環境、Instaticは月額サブスクWebflowをMITで丸ごと置換。method選定: 直近2日連投ルール (07-26 ecosystem / 07-25 self-experiment) で両者除外、14d avg TOP tie残の中でbusiness-angle (n=3, avg 1.67) は全期間 avg 2.94 で actionable exploit champion、07-23消化から4日空きで再投入OKタイミング、月初 (07-27 Mon) の週次柱②消化枠として最適。narration 5本合計265文字でTTS換算約53秒、opening/ending込み55-58秒枠内。",
+    "method": "trend-pattern",
+    "description": "本日のTOP5は5/5が『中央サービスへの依存を切って自分で持つ』macro trendに整合。bitchatはBLEメッシュ+Nostrで通信網、amnezia-vpnは自前サーバー上の検閲耐性VPN、airiは自宅ホストのAI companion、GeoLibreはブラウザ完結のGIS、superfileはターミナルで完結するファイラー。個人・企業ともに『vendor lock-inから離脱する』が今週の共通線。method選定: 直近2日連投ルール (07-27 business-angle / 07-26 ecosystem) で両者除外、次点exploit champion全期間avg 2.73 (n=11) のtrend-patternを採用、07-21消化から7日空きで再投入OKタイミング、素材整合率5/5の稀有な整合日。narration 5本合計252文字でTTS換算約50秒、opening/ending込み55-58秒枠内。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/permissionlesstech/bitchat",
-      "https://github.com/citrolabs/ego-lite",
-      "https://github.com/block/buzz",
-      "https://github.com/pingdotgg/t3code",
-      "https://github.com/CoreBunch/Instatic"
+      "https://github.com/amnezia-vpn/amnezia-client",
+      "https://github.com/moeru-ai/airi",
+      "https://github.com/opengeos/GeoLibre",
+      "https://github.com/yorukot/superfile"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "bitchat",
       "url": "https://github.com/permissionlesstech/bitchat",
       "language": "Swift",
-      "stars": 30181,
-      "todayStars": 1198,
+      "stars": 32178,
+      "todayStars": 2344,
       "description": "圏外で動くBluetoothメッシュchat",
-      "detail": "BLEマルチホップとNostrで通信する分散chatアプリで、災害やイベント時のオフライン通信を担います。Public Domain公開でApp Storeから即入手でき、ソースはハッシュ検証可能です。",
-      "narration": "圏外でも動くBluetoothメッシュチャットです。災害BCP案件のオフライン通信層に使えます。"
+      "detail": "BLEメッシュを7ホップまで中継し、圏外でもP2Pで届くchatです。オンラインではNostr private envelopeにXChaCha20-Poly1305で乗り換え、アカウントも中央サーバーも不要でIRC風に操作します。",
+      "narration": "圏外でも届くBluetoothメッシュchatです。中央サーバーゼロで検閲耐性を持ちます。"
     },
     {
       "rank": 2,
-      "fullName": "citrolabs/ego-lite",
-      "name": "ego-lite",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "language": "JavaScript",
-      "stars": 4409,
-      "todayStars": 898,
-      "description": "Agentと共有するChromeブラウザ",
-      "detail": "Chromeのcookieや拡張をそのまま引き継ぎ、AI Agentと人がタブを取り合わずに使えるmacOSブラウザ。Claude CodeやCursorからskill経由で叩け、複雑タスクを2.5倍速でこなせます。",
-      "narration": "Chromeログインを共有するAgent用ブラウザです。Playwright案件のログイン工数が減ります。"
+      "fullName": "amnezia-vpn/amnezia-client",
+      "name": "amnezia-client",
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "language": "C++",
+      "stars": 13775,
+      "todayStars": 515,
+      "description": "自前サーバーで建てる検閲耐性VPN",
+      "detail": "自分のVPSにSSH接続するだけでdockerで自動構築される自前VPNです。AmneziaWG・WireGuard・OpenVPN・Shadowsocksを一台で切替、CloakやXRayで検閲下でも通る難読化を標準装備します。",
+      "narration": "自分のサーバーに立てるOSSのVPNです。AmneziaWGで検閲下でも接続を通します。"
     },
     {
       "rank": 3,
-      "fullName": "block/buzz",
-      "name": "buzz",
-      "url": "https://github.com/block/buzz",
-      "language": "Rust",
-      "stars": 13138,
-      "todayStars": 1705,
-      "description": "Block製Nostr型ワークスペース",
-      "detail": "SlackやissueトラッカーをNostrリレー上の署名付きイベントログに束ねる自己ホスト型OSSワークスペース。Apache-2.0で監査ログ標準、AI Agentも同じ鍵で人と並んで参加します。",
-      "narration": "SlackやGitHubを1本の署名履歴に束ねるBlock製OSSです。監査ログ標準でSaaS費を圧縮できます。"
+      "fullName": "moeru-ai/airi",
+      "name": "airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "language": "TypeScript",
+      "stars": 43989,
+      "todayStars": 554,
+      "description": "自宅で動くOSSのAI companion",
+      "detail": "25以上のLLMプロバイダを切替えて動くOSSのAI companionです。VRM・Live2DモデルにElevenLabsやKokoroで声を当て、DiscordチャットやMinecraft・Factorio自動プレイまでブラウザで完結します。",
+      "narration": "自宅で動くOSSのAI companion、airiです。25以上のLLMを切替えてVRMで話しかけます。"
     },
     {
       "rank": 4,
-      "fullName": "pingdotgg/t3code",
-      "name": "t3code",
-      "url": "https://github.com/pingdotgg/t3code",
+      "fullName": "opengeos/GeoLibre",
+      "name": "GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
       "language": "TypeScript",
-      "stars": 15026,
-      "todayStars": 159,
-      "description": "複数AI Agentを束ねるGUI",
-      "detail": "Ping.gg製の軽量Web GUIで、Codex、Claude、Cursor、OpenCodeを1画面から叩けます。デスクトップ版とリモート機能付きで、受託の並列AIコーディング環境を数分で用意できます。",
-      "narration": "Codex・Claude・Cursorを1画面に束ねるGUIです。受託の並列AI開発をブラウザで捌けます。"
+      "stars": 2627,
+      "todayStars": 420,
+      "description": "ブラウザで動く700+ツールGIS",
+      "detail": "Tauri・React・DuckDB-WASM Spatial・MapLibre・deck.glで組んだ軽量GISで、700以上のツールをブラウザで実行します。データはローカルに残したままGoogle Earth Engine相当のspatial SQL分析が回せます。",
+      "narration": "ブラウザで動くOSSのGIS、GeoLibreです。DuckDBとMapLibreで自前地図解析を回します。"
     },
     {
       "rank": 5,
-      "fullName": "CoreBunch/Instatic",
-      "name": "Instatic",
-      "url": "https://github.com/CoreBunch/Instatic",
-      "language": "TypeScript",
-      "stars": 5622,
-      "todayStars": 892,
-      "description": "Webflow置換のOSS CMS",
-      "detail": "Bun製の自己ホスト型CMSで、Webflow相当のビジュアル編集をAI Agentが実行します。MIT公開でSQLite/Postgres対応、案件ごとにサブスクを積むフレーマー系ツールを丸ごと置換えられます。",
-      "narration": "Webflowの月額を自社ホスティングに置換えるAI編集OSSです。案件ごとの月額サブスク費が丸ごと浮きます。"
+      "fullName": "yorukot/superfile",
+      "name": "superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "language": "Go",
+      "stars": 20841,
+      "todayStars": 600,
+      "description": "GoでカラフルなTUIファイラー",
+      "detail": "GoとBubble Teaで作られたモダンTUIファイラーで、テーマとプラグインで自分色に染められます。macOS・Linux・WindowsでFinderやExplorerを離れてターミナル1枚で全ファイル操作を捌けます。",
+      "narration": "GoでかっこいいTUIファイラー、superfileです。FinderやExplorerを自分好みに置換えます。"
     }
   ]
 }
