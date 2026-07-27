@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "3kCJJkLLae4",
-      "videoUrl": "https://youtube.com/shorts/3kCJJkLLae4",
-      "date": "2026-04-27",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/27 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Shell",
-        "Python",
-        "Markdown",
-        "TypeScript"
-      ],
-      "languages": [
-        "Shell",
-        "Python",
-        "Markdown",
-        "TypeScript"
-      ],
-      "projects": [
-        "mattpocock/skills",
-        "Z4nzu/hackingtool",
-        "Alishahryar1/free-claude-code",
-        "codecrafters-io/build-your-own-x",
-        "abhigyanpatwari/GitNexus"
-      ],
-      "durationSeconds": 48,
-      "discovery": {
-        "method": "comparison",
-        "description": "今日のTOP5を、それぞれが置き換える既存の代替(Confluence/Notionの社内ナレッジ・Kali Linux/ParrotOS・Cursor/Aider・Coursera/Udemy・Sourcegraph/Copilot Workspace)と1対1で対比し、Primary ペルソナ(CTO・ソロ開発者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。昨日のbusiness-angle『月いくら浮く』から視点を切り替え、3本の重複(mattpocock/skills, hackingtool, free-claude-code)も2日連続の同質ナレーションを避ける",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/mattpocock/skills",
-          "https://github.com/Z4nzu/hackingtool",
-          "https://github.com/Alishahryar1/free-claude-code",
-          "https://github.com/codecrafters-io/build-your-own-x",
-          "https://github.com/abhigyanpatwari/GitNexus"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 10,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-10T23:38:15.420Z"
-      }
-    },
-    {
       "videoId": "sefpfMwOOYA",
       "videoUrl": "https://youtube.com/shorts/sefpfMwOOYA",
       "date": "2026-04-28",
@@ -3766,7 +3710,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -3818,7 +3762,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -3874,7 +3818,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -3931,7 +3875,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -3986,7 +3930,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4045,7 +3989,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4100,7 +4044,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4157,7 +4101,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4213,7 +4157,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4269,7 +4213,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4325,7 +4269,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4380,7 +4324,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4437,7 +4381,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-26T23:47:59.453Z"
+        "updatedAt": "2026-07-27T23:51:24.278Z"
       }
     },
     {
@@ -4489,6 +4433,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-27T23:51:24.278Z"
+      }
+    },
+    {
+      "videoId": "ZdVknE2x4GM",
+      "videoUrl": "https://youtube.com/shorts/ZdVknE2x4GM",
+      "date": "2026-07-28",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/28 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript"
+      ],
+      "languages": [
+        "Swift",
+        "C++",
+        "TypeScript",
+        "Go"
+      ],
+      "projects": [
+        "permissionlesstech/bitchat",
+        "amnezia-vpn/amnezia-client",
+        "moeru-ai/airi",
+        "opengeos/GeoLibre",
+        "yorukot/superfile"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日のTOP5は5/5が『中央サービスへの依存を切って自分で持つ』macro trendに整合。bitchatはBLEメッシュ+Nostrで通信網、amnezia-vpnは自前サーバー上の検閲耐性VPN、airiは自宅ホストのAI companion、GeoLibreはブラウザ完結のGIS、superfileはターミナルで完結するファイラー。個人・企業ともに『vendor lock-inから離脱する』が今週の共通線。method選定: 直近2日連投ルール (07-27 business-angle / 07-26 ecosystem) で両者除外、次点exploit champion全期間avg 2.73 (n=11) のtrend-patternを採用、07-21消化から7日空きで再投入OKタイミング、素材整合率5/5の稀有な整合日。narration 5本合計252文字でTTS換算約50秒、opening/ending込み55-58秒枠内。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/permissionlesstech/bitchat",
+          "https://github.com/amnezia-vpn/amnezia-client",
+          "https://github.com/moeru-ai/airi",
+          "https://github.com/opengeos/GeoLibre",
+          "https://github.com/yorukot/superfile"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4497,23 +4496,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-23",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.6x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 117 avg views (71 videos)",
-        "Trending languages: Kotlin (3.4x), C++ (2.7x), Jupyter Notebook (3.3x)",
-        "Day performance: Tue=241, Fri=226, Thu=128, Wed=119, Sat=58, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-26",
       "changes": [
@@ -5069,6 +5051,27 @@
         "standard: 6 avg views (81 videos)",
         "Trending languages: Shell (2.3x), Go (6.1x)",
         "Day performance: Tue=31, Thu=3, Sat=3, Sun=2, Mon=2, Wed=2, Fri=2"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-27",
+      "changes": [
+        "Shell: 3.9x avg views → boost",
+        "Go: 3.8x avg views → boost",
+        "C++: 0.3x avg views → drop",
+        "JavaScript: 0.3x avg views → drop",
+        "Kotlin: 0.3x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.1x avg views → drop",
+        "HTML: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.4x avg views → drop",
+        "standard: 6 avg views (81 videos)",
+        "Trending languages: Shell (2.4x), Go (6.2x)",
+        "Day performance: Tue=31, Thu=3, Sat=3, Mon=2, Wed=2, Fri=2, Sun=1"
       ],
       "recommendedTemplate": "standard"
     }
