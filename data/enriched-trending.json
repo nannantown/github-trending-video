@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日のTOP5は5/5が『中央サービスへの依存を切って自分で持つ』macro trendに整合。bitchatはBLEメッシュ+Nostrで通信網、amnezia-vpnは自前サーバー上の検閲耐性VPN、airiは自宅ホストのAI companion、GeoLibreはブラウザ完結のGIS、superfileはターミナルで完結するファイラー。個人・企業ともに『vendor lock-inから離脱する』が今週の共通線。method選定: 直近2日連投ルール (07-27 business-angle / 07-26 ecosystem) で両者除外、次点exploit champion全期間avg 2.73 (n=11) のtrend-patternを採用、07-21消化から7日空きで再投入OKタイミング、素材整合率5/5の稀有な整合日。narration 5本合計252文字でTTS換算約50秒、opening/ending込み55-58秒枠内。",
+    "method": "ecosystem",
+    "description": "本日のTOP5は5/5が『2026年AI SaaSを組む時のOSS layer map』にecosystem視点で1対1対応する稀有な整合日。#1 pascal editor=Web App土台層(React 19+WebGPU+Turborepo)、#2 jenkins=CI/CD層(自前ホスト運用の定番、AI案件でも必要)、#3 airi=AIプロダクト層(自宅ホストcompanionで30超LLM切替)、#4 aisuite=LLM抽象化層(Andrew Ng発、30超プロバイダ統合)、#5 ECC=Agent統括層(Claude Code/Cursor/Codexの設定1本化)。Primary(CTO/技術選定)が2026年に新規SaaSを組む時の『どの層をどのOSSで担うか』を一望できる週央layer map構成。method選定: 直近2日連投ルール(07-28 trend-pattern / 07-27 business-angle)で両者除外、次点exploit champion全期間avg 21.00 (n=17) のecosystemを採用、07-26消化から3日空きで再投入OKタイミング、07-28 PDCA週次配置プラン『週央(Wed 07-29 or Thu 07-30)でecosystem/comparison exploit枠』に完全一致。narration 5本合計246文字でTTS換算約49秒、opening/ending込み55-58秒枠内、07-28の252文字からさらに6文字短縮達成。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/permissionlesstech/bitchat",
-      "https://github.com/amnezia-vpn/amnezia-client",
+      "https://github.com/pascalorg/editor",
+      "https://github.com/jenkinsci/jenkins",
       "https://github.com/moeru-ai/airi",
-      "https://github.com/opengeos/GeoLibre",
-      "https://github.com/yorukot/superfile"
+      "https://github.com/andrewyng/aisuite",
+      "https://github.com/affaan-m/ECC"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,27 +17,27 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "permissionlesstech/bitchat",
-      "name": "bitchat",
-      "url": "https://github.com/permissionlesstech/bitchat",
-      "language": "Swift",
-      "stars": 32178,
-      "todayStars": 2344,
-      "description": "圏外で動くBluetoothメッシュchat",
-      "detail": "BLEメッシュを7ホップまで中継し、圏外でもP2Pで届くchatです。オンラインではNostr private envelopeにXChaCha20-Poly1305で乗り換え、アカウントも中央サーバーも不要でIRC風に操作します。",
-      "narration": "圏外でも届くBluetoothメッシュchatです。中央サーバーゼロで検閲耐性を持ちます。"
+      "fullName": "pascalorg/editor",
+      "name": "editor",
+      "url": "https://github.com/pascalorg/editor",
+      "language": "TypeScript",
+      "stars": 18624,
+      "todayStars": 415,
+      "description": "ブラウザで動くOSSの3D建築CAD",
+      "detail": "React 19、Next.js 16、Three.js WebGPUで建てた3D建築デザインツールです。Turborepo monorepoでcore・viewer・editorを分割、プラグイン方式で家具や樹木の追加も自作でき、新規Webアプリの土台にも使えます。",
+      "narration": "ブラウザで動く3D建築CAD、pascalです。React19とWebGPUで新規Webアプリの土台にも使えます。"
     },
     {
       "rank": 2,
-      "fullName": "amnezia-vpn/amnezia-client",
-      "name": "amnezia-client",
-      "url": "https://github.com/amnezia-vpn/amnezia-client",
-      "language": "C++",
-      "stars": 13775,
-      "todayStars": 515,
-      "description": "自前サーバーで建てる検閲耐性VPN",
-      "detail": "自分のVPSにSSH接続するだけでdockerで自動構築される自前VPNです。AmneziaWG・WireGuard・OpenVPN・Shadowsocksを一台で切替、CloakやXRayで検閲下でも通る難読化を標準装備します。",
-      "narration": "自分のサーバーに立てるOSSのVPNです。AmneziaWGで検閲下でも接続を通します。"
+      "fullName": "jenkinsci/jenkins",
+      "name": "jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "language": "Java",
+      "stars": 26059,
+      "todayStars": 180,
+      "description": "自前運用CI/CDの定番Jenkins",
+      "detail": "AI案件でも最終的にビルドとデプロイのCI/CD層は必要で、2000超プラグインを自前ホストで運用できるJenkinsが2026年にも再浮上しています。Declarative Pipelineで案件ごとの複雑なフローも宣言的に組めます。",
+      "narration": "Jenkinsが自前CI/CDの定番として再浮上です。2000超のpluginで案件のビルドを全部自動化します。"
     },
     {
       "rank": 3,
@@ -45,35 +45,35 @@
       "name": "airi",
       "url": "https://github.com/moeru-ai/airi",
       "language": "TypeScript",
-      "stars": 43989,
-      "todayStars": 554,
+      "stars": 44719,
+      "todayStars": 796,
       "description": "自宅で動くOSSのAI companion",
-      "detail": "25以上のLLMプロバイダを切替えて動くOSSのAI companionです。VRM・Live2DモデルにElevenLabsやKokoroで声を当て、DiscordチャットやMinecraft・Factorio自動プレイまでブラウザで完結します。",
-      "narration": "自宅で動くOSSのAI companion、airiです。25以上のLLMを切替えてVRMで話しかけます。"
+      "detail": "30超のLLMプロバイダを切替えて動くOSSのAI companionです。VRM・Live2DモデルにElevenLabsやKokoroで声を当て、Discord連携やMinecraft・Factorio自動プレイまでブラウザで完結する、AIプロダクト層の代表例です。",
+      "narration": "AIプロダクト層のOSS、airiです。30超のLLMを切替えて自分専用の話し相手を組めます。"
     },
     {
       "rank": 4,
-      "fullName": "opengeos/GeoLibre",
-      "name": "GeoLibre",
-      "url": "https://github.com/opengeos/GeoLibre",
-      "language": "TypeScript",
-      "stars": 2627,
-      "todayStars": 420,
-      "description": "ブラウザで動く700+ツールGIS",
-      "detail": "Tauri・React・DuckDB-WASM Spatial・MapLibre・deck.glで組んだ軽量GISで、700以上のツールをブラウザで実行します。データはローカルに残したままGoogle Earth Engine相当のspatial SQL分析が回せます。",
-      "narration": "ブラウザで動くOSSのGIS、GeoLibreです。DuckDBとMapLibreで自前地図解析を回します。"
+      "fullName": "andrewyng/aisuite",
+      "name": "aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "language": "Python",
+      "stars": 15662,
+      "todayStars": 92,
+      "description": "Andrew Ng発のLLM抽象化層",
+      "detail": "Andrew Ng発のPythonライブラリで、OpenAI・Anthropic・Google・Ollamaなど30超プロバイダをprovider:model形式の1本のAPIで叩けます。Agents APIでtool呼び出しやMCP接続まで統一する、LLM抽象化層のOSSです。",
+      "narration": "Andrew Ng発のLLM抽象化層、aisuiteです。30超プロバイダを1つのAPIで叩けます。"
     },
     {
       "rank": 5,
-      "fullName": "yorukot/superfile",
-      "name": "superfile",
-      "url": "https://github.com/yorukot/superfile",
-      "language": "Go",
-      "stars": 20841,
-      "todayStars": 600,
-      "description": "GoでカラフルなTUIファイラー",
-      "detail": "GoとBubble Teaで作られたモダンTUIファイラーで、テーマとプラグインで自分色に染められます。macOS・Linux・WindowsでFinderやExplorerを離れてターミナル1枚で全ファイル操作を捌けます。",
-      "narration": "GoでかっこいいTUIファイラー、superfileです。FinderやExplorerを自分好みに置換えます。"
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 234745,
+      "todayStars": 692,
+      "description": "AIエージェント統括OSS、ECC",
+      "detail": "Claude Code、Cursor、CodexなどのAI Coding Agentの設定を1本化する統括層のharnessです。67 agent・281 skill・94 commandとMemory Vault機能で、案件横断で同じルールと記憶を持ち運べます。MIT配布です。",
+      "narration": "AIエージェント統括層のECCです。Claude Code、Cursor、Codexの設定を1本化します。"
     }
   ]
 }
