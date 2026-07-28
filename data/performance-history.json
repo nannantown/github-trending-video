@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "sefpfMwOOYA",
-      "videoUrl": "https://youtube.com/shorts/sefpfMwOOYA",
-      "date": "2026-04-28",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/28 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Shell",
-        "TypeScript",
-        "Python",
-        "Go"
-      ],
-      "languages": [
-        "Shell",
-        "TypeScript",
-        "Python",
-        "Go"
-      ],
-      "projects": [
-        "mattpocock/skills",
-        "abhigyanpatwari/GitNexus",
-        "ComposioHQ/awesome-codex-skills",
-        "Alishahryar1/free-claude-code",
-        "gastownhall/beads"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『AIコーディングエージェントの主要レイヤ』として5本同居で料理する。skill配布層(mattpocock/skillsとawesome-codex-skillsでClaude Code側とCodex CLI側を二刀流)、コード理解層(GitNexus)、モデルバックエンド差替層(free-claude-code)、永続メモリ層(beads)で、PrimaryペルソナがClaude Code/Codex/Cursor環境を1スタックとして組む際の各レイヤ採用候補を一望できる構成にする。重複3本(mattpocock/skills、free-claude-code、GitNexus)は04/26 business-angle『月いくら削れるか』および04/27 comparison『何の代替か』から、本日はエコシステム位置づけ『どの層を担うか』へ完全に切り口を変えて04/17→04/18型の同ラインナップ急落を回避する",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/mattpocock/skills",
-          "https://github.com/abhigyanpatwari/GitNexus",
-          "https://github.com/ComposioHQ/awesome-codex-skills",
-          "https://github.com/Alishahryar1/free-claude-code",
-          "https://github.com/gastownhall/beads"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 326,
-        "likes": 6,
-        "comments": 0,
-        "updatedAt": "2026-05-10T23:38:15.420Z"
-      }
-    },
-    {
       "videoId": "VdyddeWQSAk",
       "videoUrl": "https://youtube.com/shorts/VdyddeWQSAk",
       "date": "2026-04-29",
@@ -3762,7 +3706,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -3818,7 +3762,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -3875,7 +3819,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -3930,7 +3874,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -3989,7 +3933,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4044,7 +3988,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4101,7 +4045,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4157,7 +4101,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4213,7 +4157,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4269,7 +4213,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4324,7 +4268,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4381,7 +4325,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4436,7 +4380,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-27T23:51:24.278Z"
+        "updatedAt": "2026-07-28T23:46:08.161Z"
       }
     },
     {
@@ -4488,6 +4432,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-28T23:46:08.161Z"
+      }
+    },
+    {
+      "videoId": "4TAQhNKl5XY",
+      "videoUrl": "https://youtube.com/shorts/4TAQhNKl5XY",
+      "date": "2026-07-29",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/29 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Go",
+        "TypeScript",
+        "Java",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "pascalorg/editor",
+        "jenkinsci/jenkins",
+        "moeru-ai/airi",
+        "andrewyng/aisuite",
+        "affaan-m/ECC"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日のTOP5は5/5が『2026年AI SaaSを組む時のOSS layer map』にecosystem視点で1対1対応する稀有な整合日。#1 pascal editor=Web App土台層(React 19+WebGPU+Turborepo)、#2 jenkins=CI/CD層(自前ホスト運用の定番、AI案件でも必要)、#3 airi=AIプロダクト層(自宅ホストcompanionで30超LLM切替)、#4 aisuite=LLM抽象化層(Andrew Ng発、30超プロバイダ統合)、#5 ECC=Agent統括層(Claude Code/Cursor/Codexの設定1本化)。Primary(CTO/技術選定)が2026年に新規SaaSを組む時の『どの層をどのOSSで担うか』を一望できる週央layer map構成。method選定: 直近2日連投ルール(07-28 trend-pattern / 07-27 business-angle)で両者除外、次点exploit champion全期間avg 21.00 (n=17) のecosystemを採用、07-26消化から3日空きで再投入OKタイミング、07-28 PDCA週次配置プラン『週央(Wed 07-29 or Thu 07-30)でecosystem/comparison exploit枠』に完全一致。narration 5本合計246文字でTTS換算約49秒、opening/ending込み55-58秒枠内、07-28の252文字からさらに6文字短縮達成。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/pascalorg/editor",
+          "https://github.com/jenkinsci/jenkins",
+          "https://github.com/moeru-ai/airi",
+          "https://github.com/andrewyng/aisuite",
+          "https://github.com/affaan-m/ECC"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4496,23 +4497,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-26",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.6x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 115 avg views (72 videos)",
-        "Trending languages: Kotlin (3.5x), C++ (2.7x), Jupyter Notebook (3.4x)",
-        "Day performance: Tue=241, Fri=226, Thu=128, Wed=107, Sat=58, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-26",
       "changes": [
@@ -5072,6 +5056,27 @@
         "standard: 6 avg views (81 videos)",
         "Trending languages: Shell (2.4x), Go (6.2x)",
         "Day performance: Tue=31, Thu=3, Sat=3, Mon=2, Wed=2, Fri=2, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-28",
+      "changes": [
+        "Shell: 3.8x avg views → boost",
+        "Go: 3.7x avg views → boost",
+        "C++: 0.4x avg views → drop",
+        "JavaScript: 0.3x avg views → drop",
+        "Kotlin: 0.3x avg views → drop",
+        "Ruby: 0.3x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.1x avg views → drop",
+        "HTML: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.2x avg views → drop",
+        "CSS: 0.4x avg views → drop",
+        "standard: 6 avg views (81 videos)",
+        "Trending languages: Shell (2.4x), Go (5.7x)",
+        "Day performance: Tue=29, Thu=3, Sat=3, Wed=2, Fri=2, Mon=2, Sun=1"
       ],
       "recommendedTemplate": "standard"
     }
