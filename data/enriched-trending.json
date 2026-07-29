@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5は5/5が『2026年AI SaaSを組む時のOSS layer map』にecosystem視点で1対1対応する稀有な整合日。#1 pascal editor=Web App土台層(React 19+WebGPU+Turborepo)、#2 jenkins=CI/CD層(自前ホスト運用の定番、AI案件でも必要)、#3 airi=AIプロダクト層(自宅ホストcompanionで30超LLM切替)、#4 aisuite=LLM抽象化層(Andrew Ng発、30超プロバイダ統合)、#5 ECC=Agent統括層(Claude Code/Cursor/Codexの設定1本化)。Primary(CTO/技術選定)が2026年に新規SaaSを組む時の『どの層をどのOSSで担うか』を一望できる週央layer map構成。method選定: 直近2日連投ルール(07-28 trend-pattern / 07-27 business-angle)で両者除外、次点exploit champion全期間avg 21.00 (n=17) のecosystemを採用、07-26消化から3日空きで再投入OKタイミング、07-28 PDCA週次配置プラン『週央(Wed 07-29 or Thu 07-30)でecosystem/comparison exploit枠』に完全一致。narration 5本合計246文字でTTS換算約49秒、opening/ending込み55-58秒枠内、07-28の252文字からさらに6文字短縮達成。",
+    "method": "business-angle",
+    "description": "本日のTOP5はGeoLibre/airi/ECC/speech-to-speech/jcodeの5本で、5/5が『受託・スタートアップで有償SaaSをOSS自前運用に置換えて開発コストを削る』business-angleで束ねられる稀有な整合日。#1 GeoLibre=QGIS/Google Earth Engine契約を消す自前GIS、#2 airi=Grok Companion相当の有償キャラAIを自宅で運用、#3 ECC=Claude Code/Cursor/Codexの手戻りを削るAI Coding統括層、#4 speech-to-speech=Vapiなど音声SaaSの分課金を切って自前IVR、#5 jcode=Claude Code比RAMを6分の1に削るRust harnessでVM費を桁で削減。method選定: 直近2日連投ルール(07-29 ecosystem / 07-28 trend-pattern)で両者除外、次点exploit championとして14d avg 2.67 n=3・全期間avg 2.56 n=16のbusiness-angleを採用、07-27消化から3日空きで再投入OKタイミング。Primary(CTO/技術選定)の週央『どの有償SaaSをOSSで置換できるか』のコスト削減枠に直撃、Secondary(PdM/事業責任者)の『vendor lock-in離脱でのTCO削減』枠にも訴求。narration 5本合計248文字(50+44+50+52+52)でTTS換算約50秒、opening/ending込み55-58秒枠内、07-29の246文字並みの短さ維持。airi 3日連続TOP5・角度切替2度目(07-28 trend-pattern → 07-29 ecosystem → 07-30 business-angle)で4日目突入回避ライン、ECC 2日連続で角度切替1度目、GeoLibreは07-28 trend-pattern から1日空きでbusiness-angle再投入。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/pascalorg/editor",
-      "https://github.com/jenkinsci/jenkins",
+      "https://github.com/opengeos/GeoLibre",
       "https://github.com/moeru-ai/airi",
-      "https://github.com/andrewyng/aisuite",
-      "https://github.com/affaan-m/ECC"
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/huggingface/speech-to-speech",
+      "https://github.com/1jehuang/jcode"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "pascalorg/editor",
-      "name": "editor",
-      "url": "https://github.com/pascalorg/editor",
+      "fullName": "opengeos/GeoLibre",
+      "name": "GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
       "language": "TypeScript",
-      "stars": 18624,
-      "todayStars": 415,
-      "description": "ブラウザで動くOSSの3D建築CAD",
-      "detail": "React 19、Next.js 16、Three.js WebGPUで建てた3D建築デザインツールです。Turborepo monorepoでcore・viewer・editorを分割、プラグイン方式で家具や樹木の追加も自作でき、新規Webアプリの土台にも使えます。",
-      "narration": "ブラウザで動く3D建築CAD、pascalです。React19とWebGPUで新規Webアプリの土台にも使えます。"
+      "stars": 3994,
+      "todayStars": 667,
+      "description": "自前GISでSaaS料金を削る",
+      "detail": "TauriとDuckDB-WASMで組んだブラウザ完結GISです。QGISやGoogle Earth Engineの契約を外して、700超の解析ツールとspatial SQLで、受託の地理データ案件を自前スタックで完結できます。",
+      "narration": "有償GIS契約を消せるGeoLibreです。QGISやEarth Engineを自前で置換できます。"
     },
     {
       "rank": 2,
-      "fullName": "jenkinsci/jenkins",
-      "name": "jenkins",
-      "url": "https://github.com/jenkinsci/jenkins",
-      "language": "Java",
-      "stars": 26059,
-      "todayStars": 180,
-      "description": "自前運用CI/CDの定番Jenkins",
-      "detail": "AI案件でも最終的にビルドとデプロイのCI/CD層は必要で、2000超プラグインを自前ホストで運用できるJenkinsが2026年にも再浮上しています。Declarative Pipelineで案件ごとの複雑なフローも宣言的に組めます。",
-      "narration": "Jenkinsが自前CI/CDの定番として再浮上です。2000超のpluginで案件のビルドを全部自動化します。"
-    },
-    {
-      "rank": 3,
       "fullName": "moeru-ai/airi",
       "name": "airi",
       "url": "https://github.com/moeru-ai/airi",
       "language": "TypeScript",
-      "stars": 44719,
-      "todayStars": 796,
-      "description": "自宅で動くOSSのAI companion",
-      "detail": "30超のLLMプロバイダを切替えて動くOSSのAI companionです。VRM・Live2DモデルにElevenLabsやKokoroで声を当て、Discord連携やMinecraft・Factorio自動プレイまでブラウザで完結する、AIプロダクト層の代表例です。",
-      "narration": "AIプロダクト層のOSS、airiです。30超のLLMを切替えて自分専用の話し相手を組めます。"
+      "stars": 45349,
+      "todayStars": 676,
+      "description": "有償キャラAIを自宅化するOSS",
+      "detail": "30超のLLMプロバイダを切替えて自宅で動かせるAI companionです。Grok Companion相当の有償キャラAIを自前運用でき、TTS・アバターも差し替え自由で、キャラAI受託案件の土台にも使えます。",
+      "narration": "有償キャラAIを自宅で置換えるairiです。30超LLMを都度切替えて運用費を下げます。"
     },
     {
-      "rank": 4,
-      "fullName": "andrewyng/aisuite",
-      "name": "aisuite",
-      "url": "https://github.com/andrewyng/aisuite",
-      "language": "Python",
-      "stars": 15662,
-      "todayStars": 92,
-      "description": "Andrew Ng発のLLM抽象化層",
-      "detail": "Andrew Ng発のPythonライブラリで、OpenAI・Anthropic・Google・Ollamaなど30超プロバイダをprovider:model形式の1本のAPIで叩けます。Agents APIでtool呼び出しやMCP接続まで統一する、LLM抽象化層のOSSです。",
-      "narration": "Andrew Ng発のLLM抽象化層、aisuiteです。30超プロバイダを1つのAPIで叩けます。"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "fullName": "affaan-m/ECC",
       "name": "ECC",
       "url": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
-      "stars": 234745,
-      "todayStars": 692,
-      "description": "AIエージェント統括OSS、ECC",
-      "detail": "Claude Code、Cursor、CodexなどのAI Coding Agentの設定を1本化する統括層のharnessです。67 agent・281 skill・94 commandとMemory Vault機能で、案件横断で同じルールと記憶を持ち運べます。MIT配布です。",
-      "narration": "AIエージェント統括層のECCです。Claude Code、Cursor、Codexの設定を1本化します。"
+      "stars": 235514,
+      "todayStars": 860,
+      "description": "AI Coding手戻りを削る統括層",
+      "detail": "Claude Code・Cursor・Codexの設定を1本化する統括ハーネスです。67 agent・281 skillで案件横断のTDDやcode review手順を強制でき、AI Coding案件の手戻り時間を実測で削減できます。",
+      "narration": "AI Coding手戻りを削るECCです。Claude CodeにplanとTDDを1本化できます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "huggingface/speech-to-speech",
+      "name": "speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "language": "Python",
+      "stars": 7819,
+      "todayStars": 837,
+      "description": "有償音声SaaS代を削るOSS",
+      "detail": "VAD・STT・LLM・TTSを差し替えできる音声agentフレームです。Vapiなど有償SaaSの分課金を切って、WhisperやQwen3-TTSで自前IVRや音声窓口を構築でき、受託案件に直撃です。",
+      "narration": "音声SaaS代を削るspeech-to-speechです。VADとTTSを自前で組んでIVRが回せます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "1jehuang/jcode",
+      "name": "jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "language": "Rust",
+      "stars": 13410,
+      "todayStars": 652,
+      "description": "Claude Code比RAM 1/6のRust",
+      "detail": "Rust製のcoding agent harnessです。10セッション時のRAMがClaude Codeの2300MBから260MBに落ちる実測で、CI・クラウドVMで並列agentを走らせる案件のインスタンス費を桁で下げられます。",
+      "narration": "RAM 2300MBを260MBに削るjcodeです。並列AgentのVM費を桁で下げるRust製です。"
     }
   ]
 }
