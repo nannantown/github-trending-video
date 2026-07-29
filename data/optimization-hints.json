@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28",
+  "updatedAt": "2026-07-30",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -30,67 +30,72 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-14〜27, n=13): ecosystem 2.00 n=2 TOP tie / stack-migration 2.00 n=1 TOP tie / business-angle 1.67 n=3 (07-27 は投稿翌朝で計測中) / trend-pattern 1.50 n=2 / use-case 1.50 n=2 / comparison 1.00 n=1 / self-experiment 1.00 n=1 / tech-deep 0.00 n=1。全期間: ecosystem 21.00 n=17 (07-26 の 48h 後 views=2 で champion 維持) / trend-pattern 2.73 n=11 / comparison 2.44 n=18 / business-angle 2.38 n=16 (07-27 込み計測中) / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-27 business-angle / 07-26 ecosystem) 連投ルールで両者除外、残る候補で全期間 avg 2.73 (n=11) の trend-pattern が actionable exploit champion、07-21 消化から 7 日空きで再投入 OK タイミング、素材整合率 5/5 で『中央サービスへの依存を切って自分で持つ』macro trend で束ねられる稀有な整合日 (bitchat=BLEメッシュ+Nostrで通信網自前化 / amnezia-vpn=VPS上の検閲耐性VPN / airi=自宅ホストAI companion (Grok Companion対抗) / GeoLibre=ブラウザ完結GIS (Google Earth Engine対抗) / superfile=ターミナル完結ファイラー (Finder/Explorer対抗))。"
+      "note": "Method 別 14d (2026-07-16〜29, n=13): business-angle 2.67 n=3 TOP / stack-migration 2.00 n=1 tie / use-case 1.50 n=2 / ecosystem 1.33 n=3 (07-29 は投稿翌朝で計測中) / trend-pattern 1.00 n=2 / comparison 1.00 n=1 / self-experiment 1.00 n=1。全期間: ecosystem 19.94 n=18 (07-29 の 48h 後実測待ち、champion 維持観測継続) / business-angle 2.56 n=16 / trend-pattern 2.50 n=12 (07-28 実測込みで 2.73→2.50 に微減) / comparison 2.00 n=17 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-29 ecosystem / 07-28 trend-pattern) 連投ルールで両者除外、残る候補で全期間 avg 2.56 (n=16) の business-angle が actionable exploit champion、07-27 消化から 3 日空きで再投入 OK タイミング、素材整合率 5/5 で『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する稀有な整合日 (GeoLibre=QGIS/Earth Engine 契約置換 / airi=Grok Companion 相当の有償キャラ AI 置換 / ECC=Claude Code 手戻り削減 / speech-to-speech=Vapi 音声 SaaS 分課金置換 / jcode=Claude Code RAM 6 分の 1 削減で VM 費削減)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は火曜 (Tue=361 avg、outlier 影響ありだが歴代 TOP 曜日)、週初の技術投資判断枠。trend-pattern 角度の『今週の Trending は self-hosted 系が集中』は Primary/Secondary の week planning 枠と親和性高い"
+      "本日は木曜 (Thu=176 avg、中位曜)、週央の技術投資判断枠。business-angle 角度の『どの有償 SaaS を OSS で置換できるか』は Primary/Secondary の週央発注検討フェーズと親和性高い"
     ],
     "hashtags": [
-      "trend-pattern 角度の核心は『5 本を macro theme で束ねる』。5 本の self-hosted マッピング: #bitchat=BLEメッシュ+Nostrで通信網自前化 / #amnezia_vpn=VPS上の検閲耐性VPN / #airi=自宅ホストAI companion / #GeoLibre=ブラウザ完結GIS / #superfile=ターミナル完結ファイラー",
-      "言語タグは Swift 1 + C++ 1 + TypeScript 2 + Go 1 の 4 言語ミックス。TypeScript (1.1x) 上位 + Swift (1.0x) 中位 + Go (0.9x) 中位 + C++ (0.8x) 下位。TypeScript 2 本で Web/desktop 両受託層に直撃",
-      "trend-pattern 角度の独自 hashtag: #trend_pattern #柱1 #柱① #self_hosted #vendor_lock_in #自前ホスト #中央依存を切る #BCP #オフライン通信 #Bluetooth_mesh #Nostr #VPN #censorship_resilience #AmneziaWG #WireGuard #AI_Agent #VRM #Live2D #GIS #DuckDB #MapLibre #TUI #Bubble_Tea"
+      "business-angle 角度の核心は『5 本を有償 SaaS 置換パターンで束ねる』。5 本の商用置換マッピング: #GeoLibre=QGIS/Earth Engine 契約置換 / #airi=Grok Companion 相当の有償キャラ AI 置換 / #ECC=Claude Code 手戻り削減 / #speech_to_speech=Vapi 音声 SaaS 分課金置換 / #jcode=Claude Code RAM 6 分の 1 削減で VM 費削減",
+      "言語タグは TypeScript 2 + Python 1 + JavaScript 1 + Rust 1 の 4 言語ミックス。TypeScript (1.1x) 上位 + Python (1.2x) 最上位 + JavaScript (0.9x) 中位 + Rust (0.7x) 下位。Python 1 本 + TypeScript 2 本で AI 案件・Web 受託両層に直撃",
+      "business-angle 角度の独自 hashtag: #business_angle #柱2 #柱② #コスト削減 #TCO #vendor_lock_in #有償SaaS置換 #OSS自前運用 #受託開発 #スタートアップ #CTO #GIS #QGIS #Google_Earth_Engine #DuckDB #MapLibre #AI_Agent #AI_Coding #Claude_Code #Cursor #Codex #Vapi #音声Agent #IVR #Whisper #TTS #Rust_harness #Grok_Companion #VRM #Live2D"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 252 文字 (45+44+53+54+56)、TTS で約 50 秒、opening/ending と合わせて 55-58 秒枠内。7/27 の 265 文字からさらに 13 文字短縮達成",
-      "trend-pattern 角度の一貫性: 5 本すべての narration に『中央サーバーゼロ』『自分のサーバー』『自宅で動く』『ブラウザで動く』『自分好みに置換』の自己所有言語を組込み、視聴者に『今週の Trending は self-hosted 系が集中』を感じ取らせる。1 本目『中央サーバーゼロで検閲耐性』、2 本目『AmneziaWGで検閲下でも接続を通します』、3 本目『25以上のLLMを切替えてVRMで話しかけます』、4 本目『DuckDBとMapLibreで自前地図解析』、5 本目『FinderやExplorerを自分好みに置換えます』で自己所有言語を全 5 本で徹底",
-      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では『何を置き換えるか + 何で置き換えるか』を明示、単発リポ紹介を避けて『今週の macro trend 命名』を打ち出す",
-      "数値表現はアラビア数字統一 (25以上、700+、7ホップ)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 248 文字 (50+44+50+52+52)、TTS で約 50 秒、opening/ending と合わせて 55-58 秒枠内。7/29 の 246 文字並みの短さ維持",
+      "business-angle 角度の一貫性: 5 本すべての narration に置換対象の有償サービス名 (QGIS/Earth Engine, 有償キャラ AI, Claude Code 手戻り, 音声 SaaS, Claude Code RAM 2300MB) と削減の定量指標 (自前置換, 都度切替, 1 本化, 自前組, 260MB) を明示、視聴者に『Trending のこの 5 本を自前運用すれば、有償契約を月 X 万円削れる』を感じ取らせる。1 本目『QGIS や Earth Engine を自前で置換』、2 本目『30 超 LLM を都度切替えて運用費を下げます』、3 本目『Claude Code に plan と TDD を 1 本化』、4 本目『VAD と TTS を自前で組んで IVR』、5 本目『RAM 2300MB を 260MB に削る』で商用置換言語を全 5 本で徹底",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『何を有償で払っているか + 何で自前化するか + どれだけ削れるか』の三点セットを明示、単発リポ紹介を避けて『今週の商用置換 5 レイヤー』を打ち出す",
+      "数値表現はアラビア数字統一 (30 超, 2300MB, 260MB, 6 分の 1)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (14d avg 1.50 n=2 で TOP tie 圏内、全期間 avg 2.73 n=11 で ecosystem/business-angle 除外時の actionable exploit champion、07-21 消化から 7 日空きで再投入 OK タイミング、直近 2 日連投ルールで business-angle/ecosystem 除外、5/5 素材が『中央サービスへの依存を切って自分で持つ』macro trend 整合日、Tue 曜日 avg 31.00 の週初技術キャッチアップ枠として最適)。火曜 (Tue=31 avg but outlier 影響) は週初の技術投資判断枠、trend-pattern は Primary/Secondary の week planning 枠と親和性高い",
-      "本日 07-28 TOP5: #1 permissionlesstech/bitchat=Swift / 32,178★ / +2,344 [継続 (07-27 でも TOP5)・BLEマルチホップ 7ホップ + Nostr private envelope (XChaCha20-Poly1305)、Public Domain (Unlicense) 公開、App Store配布、ソースはハッシュ検証可能、Noise Protocol暗号化、災害・イベント時のオフライン通信、takedown demand の対象になった経緯あり]、#2 amnezia-vpn/amnezia-client=C++ / 13,775★ / +515 [新規流入・VPS に SSH ログインするだけで docker で自動構築される自前 VPN、AmneziaWG/WireGuard/OpenVPN/IKEv2/Shadowsocks/Cloak/XRay 対応、Keenetic router 対応 beta あり、GPL、検閲下でも通る難読化を標準装備]、#3 moeru-ai/airi=TypeScript / 43,989★ / +554 [新規流入・xsAI framework で 25+ LLM プロバイダ (OpenAI/Claude/DeepSeek/Qwen/Gemini) 切替、VRM/Live2D モデルに ElevenLabs/Azure/Kokoro TTS 声当て、Discord/Telegram チャット、Minecraft/Factorio 自動プレイ、CUDA/Metal/WebGPU 対応、Vue.js/TypeScript]、#4 opengeos/GeoLibre=TypeScript / 2,627★ / +420 [新規流入・Q. Wu (2026) 著、Tauri v2/React/DuckDB-WASM Spatial/MapLibre GL JS/deck.gl で組んだ客側完結 GIS、700+ GIS ツール、3D Tiles/惑星ベースマップ/spatial SQL workspace 対応、v1.0 launch 直後]、#5 yorukot/superfile=Go / 20,841★ / +600 [新規流入・Go + Bubble Tea 製の TUI ファイラー、プラグイン/テーマ/ホットキー/自動更新、macOS/Linux 対応、Windows は not fully supported、Homebrew/Winget/Scoop 配布、JetBrains Open Source 認定]",
-      "本日の trend-pattern 核: 5 本を『中央サービスへの依存を切って自分で持つ』macro trend で束ね、視聴者に『今週の Trending は self-hosted 系が集中』を感じ取らせる。冒頭フックは『今週のTrending、5本すべてが「自分で持つ」方向。通信・VPN・AI companion・GIS・ファイラー、順に見ます』",
-      "Primary (CTO/技術選定) には『今週の Trending macro pattern リファレンス』として、Secondary (PdM/事業責任者) には『vendor lock-in 離脱の技術地図』として、Tertiary (学習中) には『self-hosted 系 OSS の入り口』として 3 層直撃",
-      "連投上限ルール: 14d 内 business-angle=07-13/07-18/07-23/07-27 の 4 件残 (07-28 開始で 07-13 圏外脱落し 3 件残)、trend-pattern=07-15/07-21 で 2 件残 (本日 07-28 投入で 3 件、07-29 開始で 07-15 圏外脱落し 2 件残)、comparison=07-20 で 1 件残、ecosystem=07-22/07-26 で 2 件残 (08-05 まで維持)、use-case=07-16/07-17 で 2 件残 (07-30 開始で圏外脱落開始)、tech-deep=07-14 で 1 件残 (07-28 圏外脱落)、self-experiment=07-25 で 1 件残、stack-migration=07-24 で 1 件残"
+      "本日の discovery.method は `business-angle` (14d avg 2.67 n=3 で TOP、全期間 avg 2.56 n=16 で ecosystem 除外時の actionable exploit champion、07-27 消化から 3 日空きで再投入 OK タイミング、直近 2 日連投ルールで ecosystem/trend-pattern 除外、5/5 素材が『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する整合日、Thu 曜日 avg 176 の中位曜補正)。木曜 (Thu=176 avg) は週央の技術投資判断枠、business-angle は Primary (CTO/技術選定) の『どの有償 SaaS を OSS で置換できるか』のコスト削減枠と親和性高い",
+      "本日 07-30 TOP5: #1 opengeos/GeoLibre=TypeScript / 3,994★ / +667 [継続 (07-28 では #4)・Tauri v2 + React + DuckDB-WASM Spatial + MapLibre GL JS + deck.gl でブラウザ完結、700+ GIS ツール、3D Tiles/planetary/spatial SQL workspace、Windows/macOS/Linux/Android/Web 対応、Microsoft Store/Google Play/Conda/AUR/Flathub 配布、data local privacy]、#2 moeru-ai/airi=TypeScript / 45,349★ / +676 [継続 3 日連続 (07-28 trend-pattern → 07-29 ecosystem → 07-30 business-angle、4 日目 avoid ライン)・xsAI framework で 25+ LLM プロバイダ (OpenAI/Claude/DeepSeek/Qwen/Gemini) 切替、VRM/Live2D + ElevenLabs/Azure/Kokoro TTS、Discord/Telegram/Minecraft/Factorio 自動プレイ、CUDA/Metal/WebGPU 対応]、#3 affaan-m/ECC=JavaScript / 235,514★ / +860 [継続 2 日連続 (07-29 ecosystem → 07-30 business-angle)・67 agent + 281 skill + 94 command + Memory Vault、Claude Code/Cursor/Codex/Opencode 対応、TDD workflow / /ecc:plan / /code-review 標準装備、MIT]、#4 huggingface/speech-to-speech=Python / 7,819★ / +837 [新規流入・VAD (Silero v5) + STT (Parakeet TDT/Whisper/Faster Whisper/Paraformer/MLX) + LLM (OpenAI 互換/Transformers/mlx-lm/vLLM/llama.cpp) + TTS (Qwen3-TTS/Kokoro/ChatTTS/MMS) の 4 段 pipeline、Reachy Mini 実運用、Apache 2.0]、#5 1jehuang/jcode=Rust / 13,410★ / +652 [新規流入・Rust 製 coding agent harness、Claude Code 比 RAM 6 分の 1 (10 セッション時 2300MB → 260MB)、起動 14ms vs 3436ms、semantic memory (vector embeddings) + multi-agent swarm + Firefox browser automation + self-modification、20+ LLM provider (Claude/OpenAI/Gemini/Copilot/Azure)、MIT]",
+      "本日の business-angle 核: 5 本を『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』商用置換パターンで束ね、視聴者に『Trending のこの 5 本を自前運用すれば、有償契約を月 X 万円削れる』を感じ取らせる。冒頭フックは『今週の Trending は「有償 SaaS を OSS で置換」パターン。GIS・キャラ AI・AI Coding 補助・音声 Agent・RAM 削減、順に見ます』",
+      "Primary (CTO/技術選定) には『2026 年に有償 SaaS を OSS で置換するコスト削減レシピ』として、Secondary (PdM/事業責任者) には『vendor lock-in 離脱で TCO を削る 5 レイヤー』として、Tertiary (学習中) には『商用 SaaS の代替 OSS の入り口』として 3 層直撃",
+      "連投上限ルール: 14d 内 business-angle=07-18/07-23/07-27 の 3 件残 (本日 07-30 投入で 4 件、08-01 開始で 07-18 圏外脱落し 3 件戻る)、trend-pattern=07-21/07-28 で 2 件残 (07-31 で 07-17 圏外脱落なので圏内 2 件維持)、ecosystem=07-22/07-26/07-29 で 3 件残 (08-05 まで維持)、comparison=07-20 で 1 件残 (07-31 圏外脱落開始)、use-case=07-16/07-17 で 2 件残 (本日開始で 07-16 圏外脱落開始し 07-17 のみ)、self-experiment=07-25 で 1 件残、stack-migration=07-24 で 1 件残"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-28",
-    "dayOfWeek": "Tue",
+    "date": "2026-07-30",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "trend_pattern",
-      "柱1",
-      "柱①",
-      "self_hosted",
+      "business_angle",
+      "柱2",
+      "柱②",
+      "コスト削減",
+      "TCO",
       "vendor_lock_in",
-      "自前ホスト",
-      "中央依存を切る",
-      "BCP",
-      "オフライン通信",
-      "Bluetooth_mesh",
-      "Nostr",
-      "VPN",
-      "censorship_resilience",
-      "AmneziaWG",
-      "WireGuard",
-      "AI_Agent",
-      "VRM",
-      "Live2D",
+      "有償SaaS置換",
+      "OSS自前運用",
+      "受託開発",
+      "スタートアップ",
+      "CTO",
       "GIS",
+      "QGIS",
+      "Google_Earth_Engine",
       "DuckDB",
       "MapLibre",
-      "TUI",
-      "bitchat",
-      "amnezia_vpn",
-      "airi",
+      "AI_Agent",
+      "AI_Coding",
+      "Claude_Code",
+      "Cursor",
+      "Codex",
+      "Vapi",
+      "音声Agent",
+      "IVR",
+      "Whisper",
+      "TTS",
+      "Rust_harness",
       "GeoLibre",
-      "superfile"
+      "airi",
+      "ECC",
+      "speech_to_speech",
+      "jcode"
     ],
-    "focus": "火曜 (Tue=361 avg、outlier 影響ありだが歴代 TOP 曜日) は週初の技術投資判断枠、素材整合率 100% の稀有な日。`trend-pattern` (14d avg 1.50 n=2 で TOP tie 圏内、全期間 avg 2.73 n=11 で ecosystem/business-angle 除外時の actionable exploit champion、07-21 消化から 7 日空きで再投入 OK、直近 2 日連投ルールで business-angle/ecosystem 除外) を投入。5/5 素材が『中央サービスへの依存を切って自分で持つ』macro trend で束ねられる整合率 100% (bitchat=BLEメッシュ+Nostrで通信網自前化 / amnezia-vpn=VPS上の検閲耐性VPN / airi=自宅ホストAI companion (Grok Companion対抗) / GeoLibre=ブラウザ完結GIS (Google Earth Engine対抗) / superfile=ターミナル完結ファイラー (Finder/Explorer対抗))。本日の TOP5 は 4/5 新規 (amnezia-vpn, airi, GeoLibre, superfile)、1/5 継続 (bitchat は 07-27 → 07-28 で 2 日連続 TOP5・角度切替 2 度目)。narration は 5 本すべてに『中央サーバーゼロ』『自分のサーバー』『自宅で動く』『ブラウザで動く』『自分好みに置換』の自己所有言語を組込み、5 本合計 252 文字 (45+44+53+54+56) で TTS 換算約 50 秒、opening/ending 込み 55-58 秒枠。7/27 の 265 文字からさらに 13 文字短縮達成。trend-pattern 語彙 (self-hosted / vendor lock-in 離脱 / offline-first / censorship-resilient) と各リポの固有事実 (BLE 7ホップ + Nostr XChaCha20-Poly1305 / AmneziaWG + XRay + Cloak / xsAI 25+ provider + VRM + Live2D + Minecraft/Factorio / Tauri + DuckDB-WASM + 700+ tools + spatial SQL / Bubble Tea + プラグイン + テーマ) を全 5 本に埋めて README 読み上げレベルを回避。柱① (trend-pattern) を本日投入、07-27 で柱② (business-angle) を新週初日消化済、07-25 で柱③ (self-experiment) を先週消化済、07-29 or 07-30 で ecosystem/comparison の exploit 投入予定、08-01 or 08-02 で柱③ 週次ノルマ再消化予定。07-26 ecosystem の 48h 後 views=2 で champion 維持確認済、07-27 business-angle の 48h 後 views 本評価 (07-29) 待ち。bitchat 2 日連続 TOP5・角度切替 2 度目、3 日ガードレール (worldmonitor 事例) は 1 日余裕、07-29 で Trending 残留かつ 3 日目突入は角度切替の是非を判断、4 日目突入は視聴者疲労リスクありとして avoid。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "木曜 (Thu=176 avg、中位曜) は週央の技術投資判断枠、素材整合率 100% の稀有な日。`business-angle` (14d avg 2.67 n=3 で TOP、全期間 avg 2.56 n=16 で ecosystem 除外時の actionable exploit champion、07-27 消化から 3 日空きで再投入 OK、直近 2 日連投ルールで ecosystem/trend-pattern 除外) を投入。5/5 素材が『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する整合率 100% (GeoLibre=QGIS/Earth Engine 契約置換 / airi=Grok Companion 相当の有償キャラ AI 置換 / ECC=Claude Code 手戻り削減 / speech-to-speech=Vapi 音声 SaaS 分課金置換 / jcode=Claude Code RAM 6 分の 1 削減で VM 費削減)。本日の TOP5 は 2/5 新規 (speech-to-speech, jcode)、3/5 継続 (airi は 07-28 → 07-29 → 07-30 で 3 日連続 TOP5・角度切替 2 度目 = 4 日目 07-31 avoid ライン、ECC は 07-29 → 07-30 で 2 日連続 TOP5・角度切替 1 度目、GeoLibre は 07-28 → 07-30 で 1 日空き再登場)。narration は 5 本すべてに置換対象の有償サービス名と削減の定量指標を明示、5 本合計 248 文字 (50+44+50+52+52) で TTS 換算約 50 秒、opening/ending 込み 55-58 秒枠。7/29 の 246 文字並みの短さ維持。business-angle 語彙 (有償 SaaS 置換 / vendor lock-in 離脱 / 自前運用 / コスト削減 / TCO) と各リポの固有事実 (Tauri + DuckDB-WASM + 700+ tools + spatial SQL / xsAI 30+ provider + VRM + Live2D + 自宅 host / 67 agent + 281 skill + TDD workflow + Memory Vault / Silero VAD + Whisper + Qwen3-TTS + vLLM 4 段 pipeline / Rust + 10 sess RAM 6 分の 1 + 起動 14ms + semantic memory) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) を本日投入、07-27 で柱② 消化済のため今週 2 件目で 15% 超過だが素材整合率 100% の稀有な日として超過許容、08-01 or 08-02 で柱③ 週次ノルマ再消化予定、次週 08-03 週は柱① 中心配分で相殺。07-27 business-angle の 48h 後 views=3 で champion 維持観測継続、07-29 ecosystem の 48h 後 views 本評価 (07-31) 待ち。airi 3 日連続 TOP5・角度切替 2 度目、3 日ガードレール (worldmonitor 事例で確立) の境界、4 日目 07-31 突入は視聴者疲労リスクありとして avoid ルール明示適用。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
