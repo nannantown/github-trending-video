@@ -2,59 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "VdyddeWQSAk",
-      "videoUrl": "https://youtube.com/shorts/VdyddeWQSAk",
-      "date": "2026-04-29",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/29 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "Shell",
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "mattpocock/skills",
-        "abhigyanpatwari/GitNexus",
-        "ComposioHQ/awesome-codex-skills",
-        "microsoft/VibeVoice",
-        "davila7/claude-code-templates"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "business-angle",
-        "description": "今日のTOP5を『受託・スタートアップが組むなら、月いくら削れて何人月浮くか』の具体額・具体工数で5本とも統一して料理する。mattpocock/skillsは新人立ち上げ工数の圧縮、GitNexusはSourcegraph月額契約ゼロ化とNDA案件のオンプレ要件、awesome-codex-skillsはComposio経由1000 SaaS連携で連携実装1人月の削減、microsoft/VibeVoiceはElevenLabs課金停止と社内PoC TTS/ASRの内製化、davila7/claude-code-templatesはClaude Code案件の初日キックオフ工数を分単位化。重複3本(mattpocock/skills 4日連続、GitNexus 3日連続、claude-code-templates 3日ぶり再登場)は04/26 cost軸→04/27 代替軸→04/28 スタック軸を経た本日04/29で『月額金額・人月工数』の具体数値軸へ完全切替し、04/24-25型の同method×同ラインナップ連投ペナルティを回避する。Wed(=525 avg)曜日に柱②(business-angle)をPrimaryペルソナのCTO/ソロ開発者向けに直接当てる構成。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/mattpocock/skills",
-          "https://github.com/abhigyanpatwari/GitNexus",
-          "https://github.com/ComposioHQ/awesome-codex-skills",
-          "https://github.com/microsoft/VibeVoice",
-          "https://github.com/davila7/claude-code-templates"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 7,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-13T23:45:23.621Z"
-      }
-    },
-    {
       "videoId": "8nz5vD2O1xU",
       "videoUrl": "https://youtube.com/shorts/8nz5vD2O1xU",
       "date": "2026-04-30",
@@ -3762,7 +3709,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -3819,7 +3766,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -3874,7 +3821,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -3933,7 +3880,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -3988,7 +3935,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4045,7 +3992,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4101,7 +4048,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4157,7 +4104,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4213,7 +4160,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4268,7 +4215,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4322,10 +4269,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4380,7 +4327,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4435,7 +4382,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-28T23:46:08.161Z"
+        "updatedAt": "2026-07-29T23:48:32.719Z"
       }
     },
     {
@@ -4489,6 +4436,61 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-07-29T23:48:32.719Z"
+      }
+    },
+    {
+      "videoId": "L_7OF-7R2SU",
+      "videoUrl": "https://youtube.com/shorts/L_7OF-7R2SU",
+      "date": "2026-07-30",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/30 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "JavaScript",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Rust"
+      ],
+      "projects": [
+        "opengeos/GeoLibre",
+        "moeru-ai/airi",
+        "affaan-m/ECC",
+        "huggingface/speech-to-speech",
+        "1jehuang/jcode"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5はGeoLibre/airi/ECC/speech-to-speech/jcodeの5本で、5/5が『受託・スタートアップで有償SaaSをOSS自前運用に置換えて開発コストを削る』business-angleで束ねられる稀有な整合日。#1 GeoLibre=QGIS/Google Earth Engine契約を消す自前GIS、#2 airi=Grok Companion相当の有償キャラAIを自宅で運用、#3 ECC=Claude Code/Cursor/Codexの手戻りを削るAI Coding統括層、#4 speech-to-speech=Vapiなど音声SaaSの分課金を切って自前IVR、#5 jcode=Claude Code比RAMを6分の1に削るRust harnessでVM費を桁で削減。method選定: 直近2日連投ルール(07-29 ecosystem / 07-28 trend-pattern)で両者除外、次点exploit championとして14d avg 2.67 n=3・全期間avg 2.56 n=16のbusiness-angleを採用、07-27消化から3日空きで再投入OKタイミング。Primary(CTO/技術選定)の週央『どの有償SaaSをOSSで置換できるか』のコスト削減枠に直撃、Secondary(PdM/事業責任者)の『vendor lock-in離脱でのTCO削減』枠にも訴求。narration 5本合計248文字(50+44+50+52+52)でTTS換算約50秒、opening/ending込み55-58秒枠内、07-29の246文字並みの短さ維持。airi 3日連続TOP5・角度切替2度目(07-28 trend-pattern → 07-29 ecosystem → 07-30 business-angle)で4日目突入回避ライン、ECC 2日連続で角度切替1度目、GeoLibreは07-28 trend-pattern から1日空きでbusiness-angle再投入。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/opengeos/GeoLibre",
+          "https://github.com/moeru-ai/airi",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/huggingface/speech-to-speech",
+          "https://github.com/1jehuang/jcode"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4497,23 +4499,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-26",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.6x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 114 avg views (73 videos)",
-        "Trending languages: Kotlin (3.5x), C++ (2.8x), Jupyter Notebook (3.4x)",
-        "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=58, Mon=49, Sun=4"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-27",
       "changes": [
@@ -5077,6 +5062,21 @@
         "standard: 6 avg views (81 videos)",
         "Trending languages: Shell (2.4x), Go (5.7x)",
         "Day performance: Tue=29, Thu=3, Sat=3, Wed=2, Fri=2, Mon=2, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-07-29",
+      "changes": [
+        "Kotlin: 0.8x avg views → drop",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.2x avg views → drop",
+        "Shell: 0.8x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.7x avg views → drop",
+        "standard: 2 avg views (81 videos)",
+        "Trending languages: Markdown (1.5x), C# (1.5x)",
+        "Day performance: Thu=3, Sat=3, Wed=2, Fri=2, Mon=2, Sun=1, Tue=1"
       ],
       "recommendedTemplate": "standard"
     }
