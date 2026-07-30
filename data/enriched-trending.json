@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5はGeoLibre/airi/ECC/speech-to-speech/jcodeの5本で、5/5が『受託・スタートアップで有償SaaSをOSS自前運用に置換えて開発コストを削る』business-angleで束ねられる稀有な整合日。#1 GeoLibre=QGIS/Google Earth Engine契約を消す自前GIS、#2 airi=Grok Companion相当の有償キャラAIを自宅で運用、#3 ECC=Claude Code/Cursor/Codexの手戻りを削るAI Coding統括層、#4 speech-to-speech=Vapiなど音声SaaSの分課金を切って自前IVR、#5 jcode=Claude Code比RAMを6分の1に削るRust harnessでVM費を桁で削減。method選定: 直近2日連投ルール(07-29 ecosystem / 07-28 trend-pattern)で両者除外、次点exploit championとして14d avg 2.67 n=3・全期間avg 2.56 n=16のbusiness-angleを採用、07-27消化から3日空きで再投入OKタイミング。Primary(CTO/技術選定)の週央『どの有償SaaSをOSSで置換できるか』のコスト削減枠に直撃、Secondary(PdM/事業責任者)の『vendor lock-in離脱でのTCO削減』枠にも訴求。narration 5本合計248文字(50+44+50+52+52)でTTS換算約50秒、opening/ending込み55-58秒枠内、07-29の246文字並みの短さ維持。airi 3日連続TOP5・角度切替2度目(07-28 trend-pattern → 07-29 ecosystem → 07-30 business-angle)で4日目突入回避ライン、ECC 2日連続で角度切替1度目、GeoLibreは07-28 trend-pattern から1日空きでbusiness-angle再投入。",
+    "method": "comparison",
+    "description": "本日のTOP5はspeech-to-speech/AI-For-Beginners/awesome-systematic-trading/openwork/Baileysの5本で、全5本が『有償の商用サービスと直接比較できる代替OSS』という稀有な整合日。#1 speech-to-speech=Vapi/ElevenLabs/Retellなど音声Agent SaaSの4段パイプ代替、#2 AI-For-Beginners=Coursera/Udemy/DataCampの有償AI講座と直接競合する12週24講MIT教材、#3 awesome-systematic-trading=Bloomberg/QuantConnectなど有償クオント基盤の代替OSS 97本厳選集、#4 openwork=Anthropic純正Claude CoworkのOSS代替(opencodeベース)、#5 Baileys=Twilio WhatsApp Business APIとMeta Cloud APIの代替TSライブラリ。method選定: 直近2日連投ルール(07-30 business-angle / 07-29 ecosystem)で両者除外、残る候補で全期間avg 2.00 n=17のcomparisonを採用、14d最終使用07-20から11日空きでリフレッシュタイミング。昨日07-30も『有償SaaS→OSS置換』のbusiness-angleを走ったが、本日は同構造を『どのOSSがどの有償サービスの代替か』という技術選定向けの中立比較軸に切り替えることでmethod連投ペナルティを回避する。Primary(CTO/技術選定)の週末レビュー『どの有償契約を代替できるか比較検討』の意思決定枠に直撃。narration 5本合計268文字(54+54+52+54+54)でTTS換算約54秒、opening/ending込み58-60秒枠内。TOP5に前日継続はspeech-to-speech(07-30 #4→07-31 #1、business-angle→comparisonへ角度切替1度目)のみで、4/5が新規流入という日次refresh率80%の高rotation日。金曜日(Fri=310 avg、週内2位の準最強曜日)。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/opengeos/GeoLibre",
-      "https://github.com/moeru-ai/airi",
-      "https://github.com/affaan-m/ECC",
       "https://github.com/huggingface/speech-to-speech",
-      "https://github.com/1jehuang/jcode"
+      "https://github.com/microsoft/AI-For-Beginners",
+      "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "https://github.com/different-ai/openwork",
+      "https://github.com/WhiskeySockets/Baileys"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "opengeos/GeoLibre",
-      "name": "GeoLibre",
-      "url": "https://github.com/opengeos/GeoLibre",
-      "language": "TypeScript",
-      "stars": 3994,
-      "todayStars": 667,
-      "description": "自前GISでSaaS料金を削る",
-      "detail": "TauriとDuckDB-WASMで組んだブラウザ完結GISです。QGISやGoogle Earth Engineの契約を外して、700超の解析ツールとspatial SQLで、受託の地理データ案件を自前スタックで完結できます。",
-      "narration": "有償GIS契約を消せるGeoLibreです。QGISやEarth Engineを自前で置換できます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "moeru-ai/airi",
-      "name": "airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "language": "TypeScript",
-      "stars": 45349,
-      "todayStars": 676,
-      "description": "有償キャラAIを自宅化するOSS",
-      "detail": "30超のLLMプロバイダを切替えて自宅で動かせるAI companionです。Grok Companion相当の有償キャラAIを自前運用でき、TTS・アバターも差し替え自由で、キャラAI受託案件の土台にも使えます。",
-      "narration": "有償キャラAIを自宅で置換えるairiです。30超LLMを都度切替えて運用費を下げます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 235514,
-      "todayStars": 860,
-      "description": "AI Coding手戻りを削る統括層",
-      "detail": "Claude Code・Cursor・Codexの設定を1本化する統括ハーネスです。67 agent・281 skillで案件横断のTDDやcode review手順を強制でき、AI Coding案件の手戻り時間を実測で削減できます。",
-      "narration": "AI Coding手戻りを削るECCです。Claude CodeにplanとTDDを1本化できます。"
-    },
-    {
-      "rank": 4,
       "fullName": "huggingface/speech-to-speech",
       "name": "speech-to-speech",
       "url": "https://github.com/huggingface/speech-to-speech",
       "language": "Python",
-      "stars": 7819,
-      "todayStars": 837,
-      "description": "有償音声SaaS代を削るOSS",
-      "detail": "VAD・STT・LLM・TTSを差し替えできる音声agentフレームです。Vapiなど有償SaaSの分課金を切って、WhisperやQwen3-TTSで自前IVRや音声窓口を構築でき、受託案件に直撃です。",
-      "narration": "音声SaaS代を削るspeech-to-speechです。VADとTTSを自前で組んでIVRが回せます。"
+      "stars": 8693,
+      "todayStars": 627,
+      "description": "音声Agent、SaaSかOSSかの分岐点",
+      "detail": "VADからTTSまで4段パイプが差替え自由なHugging Face製フレームワークです。Vapiなど有償音声SaaSとの比較軸は、モデル差替えと自前運用の可否で、WhisperやQwen3-TTSに載せ替え可能です。",
+      "narration": "音声SaaS代替の分岐はモデル差替えです。speech-to-speechはVADとTTSを差替えできます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "microsoft/AI-For-Beginners",
+      "name": "AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "language": "Jupyter Notebook",
+      "stars": 53830,
+      "todayStars": 115,
+      "description": "有償AI講座に対抗する12週MIT教材",
+      "detail": "Microsoftが公開する12週24講のAIカリキュラムです。有償のCourseraやDataCampとの比較軸は、演習環境で、Jupyter・PyTorch・TensorFlowを直接動かせる完全MITライセンスです。",
+      "narration": "有償AI講座と無料OSSの分岐は演習環境です。AI-For-BeginnersはJupyterで動かせます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "name": "awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "language": "Python",
+      "stars": 10995,
+      "todayStars": 628,
+      "description": "有償クオント基盤の代替OSSリスト",
+      "detail": "97ライブラリと40戦略が並ぶsystematic tradingの厳選集です。BloombergやQuantConnectとの比較軸は、データ源と取引所APIの自前化で、yfinanceやib_insyncで有償契約を外せます。",
+      "narration": "有償クオント代替の入り口です。awesome-systematic-tradingが97本を分類します。"
+    },
+    {
+      "rank": 4,
+      "fullName": "different-ai/openwork",
+      "name": "openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "language": "TypeScript",
+      "stars": 18667,
+      "todayStars": 916,
+      "description": "Claude Cowork代替のOSS",
+      "detail": "OpencodeベースでMCPを配布するAI workflow共有基盤です。Claude Coworkとの比較軸は、agent非依存とorg単位の権限管理で、Claude Code・Cursor・Codex・ChatGPTを横断できます。",
+      "narration": "Claude Cowork代替はagent非依存です。openworkはCursorとCodexを束ねます。"
     },
     {
       "rank": 5,
-      "fullName": "1jehuang/jcode",
-      "name": "jcode",
-      "url": "https://github.com/1jehuang/jcode",
-      "language": "Rust",
-      "stars": 13410,
-      "todayStars": 652,
-      "description": "Claude Code比RAM 1/6のRust",
-      "detail": "Rust製のcoding agent harnessです。10セッション時のRAMがClaude Codeの2300MBから260MBに落ちる実測で、CI・クラウドVMで並列agentを走らせる案件のインスタンス費を桁で下げられます。",
-      "narration": "RAM 2300MBを260MBに削るjcodeです。並列AgentのVM費を桁で下げるRust製です。"
+      "fullName": "WhiskeySockets/Baileys",
+      "name": "Baileys",
+      "url": "https://github.com/WhiskeySockets/Baileys",
+      "language": "JavaScript",
+      "stars": 10419,
+      "todayStars": 12,
+      "description": "WhatsApp公式APIの代替ライブラリ",
+      "detail": "WebSocketでWhatsApp Webを叩くTypeScriptライブラリです。Meta Cloud APIやTwilioとの比較軸は、月額課金の有無と自前運用の自由度で、Node/Bun/DenoでMITライセンス配布です。",
+      "narration": "TwilioかOSSかは課金体系で選びます。BaileysはWebSocketでWhatsAppを叩けます。"
     }
   ]
 }
