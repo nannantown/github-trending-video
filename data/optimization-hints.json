@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-07-31",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -30,72 +30,76 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-16〜29, n=13): business-angle 2.67 n=3 TOP / stack-migration 2.00 n=1 tie / use-case 1.50 n=2 / ecosystem 1.33 n=3 (07-29 は投稿翌朝で計測中) / trend-pattern 1.00 n=2 / comparison 1.00 n=1 / self-experiment 1.00 n=1。全期間: ecosystem 19.94 n=18 (07-29 の 48h 後実測待ち、champion 維持観測継続) / business-angle 2.56 n=16 / trend-pattern 2.50 n=12 (07-28 実測込みで 2.73→2.50 に微減) / comparison 2.00 n=17 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-29 ecosystem / 07-28 trend-pattern) 連投ルールで両者除外、残る候補で全期間 avg 2.56 (n=16) の business-angle が actionable exploit champion、07-27 消化から 3 日空きで再投入 OK タイミング、素材整合率 5/5 で『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する稀有な整合日 (GeoLibre=QGIS/Earth Engine 契約置換 / airi=Grok Companion 相当の有償キャラ AI 置換 / ECC=Claude Code 手戻り削減 / speech-to-speech=Vapi 音声 SaaS 分課金置換 / jcode=Claude Code RAM 6 分の 1 削減で VM 費削減)。"
+      "note": "Method 別 14d (2026-07-17〜30, n=13): ecosystem 2.33 n=3 TOP / use-case 2.00 n=1 tie / business-angle 2.00 n=4 / stack-migration 2.00 n=1 / comparison 1.00 n=1 / trend-pattern 1.00 n=2 / self-experiment 1.00 n=1 (07-30 business-angle=0 は投稿翌朝で計測中、07-29 ecosystem=2 は 48h 後の本計測待ち)。全期間: ecosystem 19.94 n=18 / business-angle 2.56 n=17 / trend-pattern 2.50 n=13 / comparison 2.00 n=17 / stack-migration 2.00 n=1 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-30 business-angle / 07-29 ecosystem) 連投ルールで両者除外、残る候補で全期間 avg 2.00 n=17 の comparison を採用、14d 最終使用 07-20 から 11 日空きでリフレッシュ効果最大。素材整合率 5/5 で『有償の商用サービスと直接比較できる代替 OSS』という稀有な整合日 (speech-to-speech=Vapi/ElevenLabs/Retell 音声 Agent SaaS 代替 / AI-For-Beginners=Coursera/DataCamp 有償講座代替 / awesome-systematic-trading=Bloomberg/QuantConnect 有償クオント基盤代替 / openwork=Claude Cowork 代替 / Baileys=Twilio/Meta Cloud WhatsApp Business API 代替)。前日 07-30 business-angle と構造は近いが、語彙を『月額削減 / TCO』(受託視点) から『比較軸 / 選び所』(技術選定中立) に切り替えて method 連投ペナルティ回避。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は木曜 (Thu=176 avg、中位曜)、週央の技術投資判断枠。business-angle 角度の『どの有償 SaaS を OSS で置換できるか』は Primary/Secondary の週央発注検討フェーズと親和性高い"
+      "本日は金曜 (Fri=310 avg、週内2位の準最強曜日)、Primary (CTO/技術選定) の週末レビュー枠。comparison 角度の『どの有償契約を OSS で代替できるか』は技術選定意思決定と親和性高い"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5 本を有償 SaaS 置換パターンで束ねる』。5 本の商用置換マッピング: #GeoLibre=QGIS/Earth Engine 契約置換 / #airi=Grok Companion 相当の有償キャラ AI 置換 / #ECC=Claude Code 手戻り削減 / #speech_to_speech=Vapi 音声 SaaS 分課金置換 / #jcode=Claude Code RAM 6 分の 1 削減で VM 費削減",
-      "言語タグは TypeScript 2 + Python 1 + JavaScript 1 + Rust 1 の 4 言語ミックス。TypeScript (1.1x) 上位 + Python (1.2x) 最上位 + JavaScript (0.9x) 中位 + Rust (0.7x) 下位。Python 1 本 + TypeScript 2 本で AI 案件・Web 受託両層に直撃",
-      "business-angle 角度の独自 hashtag: #business_angle #柱2 #柱② #コスト削減 #TCO #vendor_lock_in #有償SaaS置換 #OSS自前運用 #受託開発 #スタートアップ #CTO #GIS #QGIS #Google_Earth_Engine #DuckDB #MapLibre #AI_Agent #AI_Coding #Claude_Code #Cursor #Codex #Vapi #音声Agent #IVR #Whisper #TTS #Rust_harness #Grok_Companion #VRM #Live2D"
+      "comparison 角度の核心は『5 本を有償サービスと OSS 代替のペアで束ねる』。5 本の商用比較マッピング: #speech_to_speech=Vapi/ElevenLabs/Retell 音声 Agent SaaS 代替 / #AI_For_Beginners=Coursera/DataCamp 有償講座代替 / #awesome_systematic_trading=Bloomberg/QuantConnect 有償クオント基盤代替 / #openwork=Claude Cowork 代替 / #Baileys=Twilio/Meta Cloud API 代替",
+      "言語タグは Python 2 + TypeScript 1 + JavaScript 1 + Jupyter Notebook 1 の 4 言語ミックス。Python (1.2x) 最上位 2 本 + TypeScript (1.1x) 上位 + JavaScript (0.9x) 中位 + Jupyter Notebook (未計測)。AI/データ案件と Web 受託の両層に直撃",
+      "comparison 角度の独自 hashtag: #comparison #技術選定 #OSS代替 #Vapi #ElevenLabs #Retell #Coursera #DataCamp #Bloomberg #QuantConnect #Claude_Cowork #opencode #Twilio #WhatsApp_Business_API #Meta_Cloud_API #音声Agent #Whisper #Qwen3_TTS #Silero_VAD #MCP #Cursor #Codex #ChatGPT #systematic_trading #yfinance #ib_insync #Freqtrade #vectorbt #PyTorch #TensorFlow"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 248 文字 (50+44+50+52+52)、TTS で約 50 秒、opening/ending と合わせて 55-58 秒枠内。7/29 の 246 文字並みの短さ維持",
-      "business-angle 角度の一貫性: 5 本すべての narration に置換対象の有償サービス名 (QGIS/Earth Engine, 有償キャラ AI, Claude Code 手戻り, 音声 SaaS, Claude Code RAM 2300MB) と削減の定量指標 (自前置換, 都度切替, 1 本化, 自前組, 260MB) を明示、視聴者に『Trending のこの 5 本を自前運用すれば、有償契約を月 X 万円削れる』を感じ取らせる。1 本目『QGIS や Earth Engine を自前で置換』、2 本目『30 超 LLM を都度切替えて運用費を下げます』、3 本目『Claude Code に plan と TDD を 1 本化』、4 本目『VAD と TTS を自前で組んで IVR』、5 本目『RAM 2300MB を 260MB に削る』で商用置換言語を全 5 本で徹底",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『何を有償で払っているか + 何で自前化するか + どれだけ削れるか』の三点セットを明示、単発リポ紹介を避けて『今週の商用置換 5 レイヤー』を打ち出す",
-      "数値表現はアラビア数字統一 (30 超, 2300MB, 260MB, 6 分の 1)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 268 文字 (54+54+52+54+54)、TTS で約 54 秒、opening/ending と合わせて 58-60 秒枠内。07-30 の 248 文字より僅かに長いが個別上限は 54 文字で余裕あり",
+      "comparison 角度の一貫性: 5 本すべての narration に『〇〇の分岐は△△です。<repo> は □□ できます』の comparison 骨格を反復。比較対象の有償サービス名 (音声SaaS, 有償AI講座, 有償クオント基盤, Claude Cowork, Twilio) と選定軸 (モデル差替え / 演習環境 / データ源 / agent 非依存 / 課金体系) を明示、視聴者に『Trending の 5 本が有償のあれとこれを代替する』を技術選定の中立視点で伝える。1 本目『モデル差替え』、2 本目『演習環境』、3 本目『代替の入り口』、4 本目『agent 非依存』、5 本目『課金体系』で選定軸を 5 本すべて別語彙で提示",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『何 (有償サービス) を / 何 (OSS) で / どの軸で選ぶか』の三点セットを明示、単発リポ紹介を避けて『今週の商用比較 5 レイヤー』を打ち出す",
+      "数値表現はアラビア数字統一 (97 本)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (14d avg 2.67 n=3 で TOP、全期間 avg 2.56 n=16 で ecosystem 除外時の actionable exploit champion、07-27 消化から 3 日空きで再投入 OK タイミング、直近 2 日連投ルールで ecosystem/trend-pattern 除外、5/5 素材が『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する整合日、Thu 曜日 avg 176 の中位曜補正)。木曜 (Thu=176 avg) は週央の技術投資判断枠、business-angle は Primary (CTO/技術選定) の『どの有償 SaaS を OSS で置換できるか』のコスト削減枠と親和性高い",
-      "本日 07-30 TOP5: #1 opengeos/GeoLibre=TypeScript / 3,994★ / +667 [継続 (07-28 では #4)・Tauri v2 + React + DuckDB-WASM Spatial + MapLibre GL JS + deck.gl でブラウザ完結、700+ GIS ツール、3D Tiles/planetary/spatial SQL workspace、Windows/macOS/Linux/Android/Web 対応、Microsoft Store/Google Play/Conda/AUR/Flathub 配布、data local privacy]、#2 moeru-ai/airi=TypeScript / 45,349★ / +676 [継続 3 日連続 (07-28 trend-pattern → 07-29 ecosystem → 07-30 business-angle、4 日目 avoid ライン)・xsAI framework で 25+ LLM プロバイダ (OpenAI/Claude/DeepSeek/Qwen/Gemini) 切替、VRM/Live2D + ElevenLabs/Azure/Kokoro TTS、Discord/Telegram/Minecraft/Factorio 自動プレイ、CUDA/Metal/WebGPU 対応]、#3 affaan-m/ECC=JavaScript / 235,514★ / +860 [継続 2 日連続 (07-29 ecosystem → 07-30 business-angle)・67 agent + 281 skill + 94 command + Memory Vault、Claude Code/Cursor/Codex/Opencode 対応、TDD workflow / /ecc:plan / /code-review 標準装備、MIT]、#4 huggingface/speech-to-speech=Python / 7,819★ / +837 [新規流入・VAD (Silero v5) + STT (Parakeet TDT/Whisper/Faster Whisper/Paraformer/MLX) + LLM (OpenAI 互換/Transformers/mlx-lm/vLLM/llama.cpp) + TTS (Qwen3-TTS/Kokoro/ChatTTS/MMS) の 4 段 pipeline、Reachy Mini 実運用、Apache 2.0]、#5 1jehuang/jcode=Rust / 13,410★ / +652 [新規流入・Rust 製 coding agent harness、Claude Code 比 RAM 6 分の 1 (10 セッション時 2300MB → 260MB)、起動 14ms vs 3436ms、semantic memory (vector embeddings) + multi-agent swarm + Firefox browser automation + self-modification、20+ LLM provider (Claude/OpenAI/Gemini/Copilot/Azure)、MIT]",
-      "本日の business-angle 核: 5 本を『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』商用置換パターンで束ね、視聴者に『Trending のこの 5 本を自前運用すれば、有償契約を月 X 万円削れる』を感じ取らせる。冒頭フックは『今週の Trending は「有償 SaaS を OSS で置換」パターン。GIS・キャラ AI・AI Coding 補助・音声 Agent・RAM 削減、順に見ます』",
-      "Primary (CTO/技術選定) には『2026 年に有償 SaaS を OSS で置換するコスト削減レシピ』として、Secondary (PdM/事業責任者) には『vendor lock-in 離脱で TCO を削る 5 レイヤー』として、Tertiary (学習中) には『商用 SaaS の代替 OSS の入り口』として 3 層直撃",
-      "連投上限ルール: 14d 内 business-angle=07-18/07-23/07-27 の 3 件残 (本日 07-30 投入で 4 件、08-01 開始で 07-18 圏外脱落し 3 件戻る)、trend-pattern=07-21/07-28 で 2 件残 (07-31 で 07-17 圏外脱落なので圏内 2 件維持)、ecosystem=07-22/07-26/07-29 で 3 件残 (08-05 まで維持)、comparison=07-20 で 1 件残 (07-31 圏外脱落開始)、use-case=07-16/07-17 で 2 件残 (本日開始で 07-16 圏外脱落開始し 07-17 のみ)、self-experiment=07-25 で 1 件残、stack-migration=07-24 で 1 件残"
+      "本日の discovery.method は `comparison` (全期間 avg 2.00 n=17 で ecosystem/business-angle 除外時の actionable exploit champion、14d 最終使用 07-20 から 11 日空きでリフレッシュ効果最大、直近 2 日連投ルールで business-angle/ecosystem 除外、5/5 素材が『有償の商用サービスと直接比較できる代替 OSS』という 1 対 1 対応する整合日、Fri 曜日 avg 310 の準最強曜日補正)。金曜 (Fri=310 avg) は週末レビュー枠、comparison は Primary (CTO/技術選定) の『どの有償契約を OSS で代替できるか比較検討』の意思決定枠と親和性高い",
+      "本日 07-31 TOP5: #1 huggingface/speech-to-speech=Python / 8,693★ / +627 [継続 (07-30 では #4)・VAD (Silero v5) + STT (Parakeet TDT/Whisper/Faster Whisper/Paraformer/MLX) + LLM (OpenAI 互換/Transformers/mlx-lm/vLLM/llama.cpp) + TTS (Qwen3-TTS/Kokoro/ChatTTS/MMS) の 4 段 pipeline、Reachy Mini 実運用、Apache 2.0]、#2 microsoft/AI-For-Beginners=Jupyter Notebook / 53,830★ / +115 [新規流入・12 週 24 講、ML/DL/CV/NLP/RL/AI 倫理、Jupyter + PyTorch + TensorFlow、50+ 言語翻訳、Microsoft Learn 統合、MIT]、#3 paperswithbacktest/awesome-systematic-trading=Python / 10,995★ / +628 [新規流入・97 ライブラリ + 40 戦略 + 55 書籍 + 23 動画、backtesting/vectorbt/Freqtrade/vnpy/Zipline/PyPortfolioOpt/CCXT/yfinance/ib_insync 収録]、#4 different-ai/openwork=TypeScript / 18,667★ / +916 [新規流入・opencode ベース、macOS/Windows/Linux desktop、MCP で search_capabilities/execute_capability の 2 tool 公開、Claude Code/Cursor/Codex/ChatGPT 横断、OpenWork Den で org 権限管理]、#5 WhiskeySockets/Baileys=JavaScript / 10,419★ / +12 [新規流入・WebSockets ベース TypeScript ライブラリ、Node/Bun/Deno 対応、WhatsApp Web API 非公式実装、MIT、ToS 遵守は利用者責任]",
+      "本日の comparison 核: 5 本を『有償の商用サービスと直接比較できる代替 OSS』ペアで束ね、視聴者に『Trending の 5 本が有償のあれとこれを代替する』を技術選定の中立視点で伝える。冒頭フックは『今週の Trending は「有償サービスと比較できる OSS」パターン。音声 Agent・AI 講座・クオント基盤・Cowork・WhatsApp API、順に代替候補を見ます』",
+      "Primary (CTO/技術選定) には『2026 年に有償契約と比較して OSS を選ぶための 5 軸』として、Secondary (PdM/事業責任者) には『どの SaaS が OSS で代替可能か判断するチェックリスト』として、Tertiary (学習中) には『名指しの商用ツールの OSS カウンターパート一覧』として 3 層直撃",
+      "連投上限ルール: 14d 内 comparison=07-20 の 1 件残 (本日 07-31 投入で 2 件、07-31 開始で 07-17 圏外脱落なので 07-20 は圏内継続)、business-angle=07-18/07-23/07-27/07-30 の 4 件残 (08-01 開始で 07-18 圏外脱落し 3 件に戻る)、ecosystem=07-22/07-26/07-29 の 3 件残 (08-05 まで維持)、trend-pattern=07-21/07-28 の 2 件残 (08-04 まで維持)、use-case=07-17 の 1 件残 (本日 07-31 開始で圏外脱落開始し 0 件になり得るが本日は 07-17 圏内、明日から use-case 圏外)、self-experiment=07-25 の 1 件残、stack-migration=07-24 の 1 件残"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-07-30",
-    "dayOfWeek": "Thu",
+    "date": "2026-07-31",
+    "dayOfWeek": "Fri",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "business_angle",
-      "柱2",
-      "柱②",
-      "コスト削減",
-      "TCO",
-      "vendor_lock_in",
-      "有償SaaS置換",
-      "OSS自前運用",
-      "受託開発",
-      "スタートアップ",
+      "comparison",
+      "技術選定",
+      "OSS代替",
+      "有償SaaS比較",
       "CTO",
-      "GIS",
-      "QGIS",
-      "Google_Earth_Engine",
-      "DuckDB",
-      "MapLibre",
-      "AI_Agent",
-      "AI_Coding",
-      "Claude_Code",
+      "音声Agent",
+      "Vapi",
+      "ElevenLabs",
+      "Retell",
+      "Whisper",
+      "Qwen3_TTS",
+      "Silero_VAD",
+      "AI講座",
+      "Coursera",
+      "DataCamp",
+      "PyTorch",
+      "TensorFlow",
+      "クオント",
+      "systematic_trading",
+      "Bloomberg",
+      "QuantConnect",
+      "Freqtrade",
+      "vectorbt",
+      "Claude_Cowork",
+      "opencode",
+      "MCP",
       "Cursor",
       "Codex",
-      "Vapi",
-      "音声Agent",
-      "IVR",
-      "Whisper",
-      "TTS",
-      "Rust_harness",
-      "GeoLibre",
-      "airi",
-      "ECC",
+      "WhatsApp",
+      "Twilio",
+      "Meta_Cloud_API",
       "speech_to_speech",
-      "jcode"
+      "AI_For_Beginners",
+      "awesome_systematic_trading",
+      "openwork",
+      "Baileys"
     ],
-    "focus": "木曜 (Thu=176 avg、中位曜) は週央の技術投資判断枠、素材整合率 100% の稀有な日。`business-angle` (14d avg 2.67 n=3 で TOP、全期間 avg 2.56 n=16 で ecosystem 除外時の actionable exploit champion、07-27 消化から 3 日空きで再投入 OK、直近 2 日連投ルールで ecosystem/trend-pattern 除外) を投入。5/5 素材が『受託・スタートアップで有償 SaaS を OSS 自前運用に置換えて開発コストを削る』business-angle パターンに 1 対 1 対応する整合率 100% (GeoLibre=QGIS/Earth Engine 契約置換 / airi=Grok Companion 相当の有償キャラ AI 置換 / ECC=Claude Code 手戻り削減 / speech-to-speech=Vapi 音声 SaaS 分課金置換 / jcode=Claude Code RAM 6 分の 1 削減で VM 費削減)。本日の TOP5 は 2/5 新規 (speech-to-speech, jcode)、3/5 継続 (airi は 07-28 → 07-29 → 07-30 で 3 日連続 TOP5・角度切替 2 度目 = 4 日目 07-31 avoid ライン、ECC は 07-29 → 07-30 で 2 日連続 TOP5・角度切替 1 度目、GeoLibre は 07-28 → 07-30 で 1 日空き再登場)。narration は 5 本すべてに置換対象の有償サービス名と削減の定量指標を明示、5 本合計 248 文字 (50+44+50+52+52) で TTS 換算約 50 秒、opening/ending 込み 55-58 秒枠。7/29 の 246 文字並みの短さ維持。business-angle 語彙 (有償 SaaS 置換 / vendor lock-in 離脱 / 自前運用 / コスト削減 / TCO) と各リポの固有事実 (Tauri + DuckDB-WASM + 700+ tools + spatial SQL / xsAI 30+ provider + VRM + Live2D + 自宅 host / 67 agent + 281 skill + TDD workflow + Memory Vault / Silero VAD + Whisper + Qwen3-TTS + vLLM 4 段 pipeline / Rust + 10 sess RAM 6 分の 1 + 起動 14ms + semantic memory) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) を本日投入、07-27 で柱② 消化済のため今週 2 件目で 15% 超過だが素材整合率 100% の稀有な日として超過許容、08-01 or 08-02 で柱③ 週次ノルマ再消化予定、次週 08-03 週は柱① 中心配分で相殺。07-27 business-angle の 48h 後 views=3 で champion 維持観測継続、07-29 ecosystem の 48h 後 views 本評価 (07-31) 待ち。airi 3 日連続 TOP5・角度切替 2 度目、3 日ガードレール (worldmonitor 事例で確立) の境界、4 日目 07-31 突入は視聴者疲労リスクありとして avoid ルール明示適用。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "金曜 (Fri=310 avg、週内2位の準最強曜日) は週末レビュー枠、素材整合率 100% の稀有な日。`comparison` (全期間 avg 2.00 n=17 で ecosystem/business-angle 除外時の actionable exploit champion、14d 最終使用 07-20 から 11 日空きでリフレッシュ効果最大、直近 2 日連投ルールで business-angle/ecosystem 除外) を投入。5/5 素材が『有償の商用サービスと直接比較できる代替 OSS』に 1 対 1 対応する整合率 100% (speech-to-speech=Vapi/ElevenLabs/Retell 音声 Agent SaaS 代替 / AI-For-Beginners=Coursera/DataCamp 有償講座代替 / awesome-systematic-trading=Bloomberg/QuantConnect 有償クオント基盤代替 / openwork=Claude Cowork 代替 / Baileys=Twilio/Meta Cloud WhatsApp Business API 代替)。本日の TOP5 は 4/5 新規 (AI-For-Beginners, awesome-systematic-trading, openwork, Baileys)、1/5 継続 (speech-to-speech は 07-30 #4 → 07-31 #1 で角度切替 1 度目 = business-angle → comparison)、日次 refresh 率 80% の high rotation 日。narration は 5 本すべてに比較対象の有償サービス名と選定軸を明示、5 本合計 268 文字 (54+54+52+54+54) で TTS 換算約 54 秒、opening/ending 込み 58-60 秒枠。前日 07-30 の 248 文字と比べて僅かに長いが個別上限 54 文字で 40-60 レンジ内。comparison 語彙 (分岐 / 選び所 / 選定軸 / 代替) と各リポの固有事実 (Silero VAD + Parakeet TDT + Qwen3-TTS の 4 段 pipeline / 12 週 24 講 + Jupyter + PyTorch + TensorFlow / 97 ライブラリ + 40 戦略 + Freqtrade/vectorbt/Zipline / opencode ベース + MCP + Claude Code/Cursor/Codex/ChatGPT 横断 + OpenWork Den 権限管理 / WebSockets + Node/Bun/Deno + MIT) を全 5 本に埋めて README 読み上げレベルを回避。柱① (comparison) を本日投入、今週の柱② 消化済 (07-27, 07-30) で 15% は既に上限到達、柱③ (07-25 self-experiment) 消化済で週次ノルマは満たしているため 08-01 は柱① 継続 or 柱④ 差し込みで配分バランスを取る。前日 07-30 business-angle の 48h 後 views 本評価 (08-01) 待ち、07-29 ecosystem の 48h 後 views 本評価 (07-31) 待ち。speech-to-speech は 07-30 → 07-31 で 2 日連続 TOP5・角度切替 1 度目、3 日連続 avoid ラインは 08-01 判断。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
