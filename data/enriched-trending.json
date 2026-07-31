@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5はspeech-to-speech/AI-For-Beginners/awesome-systematic-trading/openwork/Baileysの5本で、全5本が『有償の商用サービスと直接比較できる代替OSS』という稀有な整合日。#1 speech-to-speech=Vapi/ElevenLabs/Retellなど音声Agent SaaSの4段パイプ代替、#2 AI-For-Beginners=Coursera/Udemy/DataCampの有償AI講座と直接競合する12週24講MIT教材、#3 awesome-systematic-trading=Bloomberg/QuantConnectなど有償クオント基盤の代替OSS 97本厳選集、#4 openwork=Anthropic純正Claude CoworkのOSS代替(opencodeベース)、#5 Baileys=Twilio WhatsApp Business APIとMeta Cloud APIの代替TSライブラリ。method選定: 直近2日連投ルール(07-30 business-angle / 07-29 ecosystem)で両者除外、残る候補で全期間avg 2.00 n=17のcomparisonを採用、14d最終使用07-20から11日空きでリフレッシュタイミング。昨日07-30も『有償SaaS→OSS置換』のbusiness-angleを走ったが、本日は同構造を『どのOSSがどの有償サービスの代替か』という技術選定向けの中立比較軸に切り替えることでmethod連投ペナルティを回避する。Primary(CTO/技術選定)の週末レビュー『どの有償契約を代替できるか比較検討』の意思決定枠に直撃。narration 5本合計268文字(54+54+52+54+54)でTTS換算約54秒、opening/ending込み58-60秒枠内。TOP5に前日継続はspeech-to-speech(07-30 #4→07-31 #1、business-angle→comparisonへ角度切替1度目)のみで、4/5が新規流入という日次refresh率80%の高rotation日。金曜日(Fri=310 avg、週内2位の準最強曜日)。",
+    "method": "ecosystem",
+    "description": "本日のTOP5(reverse-skill/openwork/last30days-skill/awesome-systematic-trading/AI-For-Beginners)を『AI skill配布経済圏の5レイヤ』として束ねる。#1 reverse-skill=セキュリティ領域のドメインskill層(APK/CTF/malware解析など20以上の場面に手順を自動routing、Claude Code/Cursor/Cline/Kiro対応)、#2 openwork=MCP経由でskill/toolを配布するプラットフォーム層(opencodeベースのdesktop+MCP、Claude Code/Cursor/Codex/ChatGPT横断、OpenWork Denでorg権限管理)、#3 last30days-skill=Reddit/X/YouTube/HN/Polymarketなど8ソース横断の情報収集skill層(engagement順に並べ直して要約、50以上のAgent Skillsホスト対応)、#4 awesome-systematic-trading=分野内toolを目録化するメタキュレーション層(97本のクオントOSSをbacktest/data source/live trading別に分類)、#5 AI-For-Beginners=人間側のupskillingを担う学習基盤層(Microsoft公式12週24講、PyTorch/TensorFlow/Jupyter、50以上の言語翻訳、MIT)。method選定: 直近2日連投ルール(07-31 comparison / 07-30 business-angle)で両者除外、残る候補で14d avg 2.67 n=3のecosystemを採用(全期間 avg 2.06 n=17、14d TOP2の実質exploit champion)。3/5repos(reverse-skill/openwork/last30days-skill)が『AIエージェントに追加skillを配る』という同一構造上に並ぶ稀有な整合日で、残り2本(awesome-systematic-trading=メタskill/AI-For-Beginners=人間のskill基盤)も同経済圏の周縁レイヤとして自然に接続する。前日07-31 comparisonからの差別化: 昨日は『有償SaaSとOSSの1対1代替』の中立比較軸、本日は『5リポを1つのAI skill配布経済圏に位置づける』のレイヤ立体構造。土曜(Sat=79 avg、週内最弱曜日)だが、素材整合率5/5の稀有な日で角度の説明力が強い。narration 5本合計248文字(56+51+47+45+49)でTTS換算約50秒、opening/ending込み55-58秒枠内。TOP5継続率3/5(openwork:07-31#4→08-01#2、awesome-systematic-trading:07-31#3→08-01#4、AI-For-Beginners:07-31#2→08-01#5)、新規2/5(reverse-skill/last30days-skill)で日次refresh率40%だが method切替(comparison→ecosystem)と語彙総入替(分岐/選び所→レイヤ/経済圏)で視聴者疲労回避。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/huggingface/speech-to-speech",
-      "https://github.com/microsoft/AI-For-Beginners",
-      "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "https://github.com/zhaoxuya520/reverse-skill",
       "https://github.com/different-ai/openwork",
-      "https://github.com/WhiskeySockets/Baileys"
+      "https://github.com/mvanhorn/last30days-skill",
+      "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "https://github.com/microsoft/AI-For-Beginners"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "huggingface/speech-to-speech",
-      "name": "speech-to-speech",
-      "url": "https://github.com/huggingface/speech-to-speech",
-      "language": "Python",
-      "stars": 8693,
-      "todayStars": 627,
-      "description": "音声Agent、SaaSかOSSかの分岐点",
-      "detail": "VADからTTSまで4段パイプが差替え自由なHugging Face製フレームワークです。Vapiなど有償音声SaaSとの比較軸は、モデル差替えと自前運用の可否で、WhisperやQwen3-TTSに載せ替え可能です。",
-      "narration": "音声SaaS代替の分岐はモデル差替えです。speech-to-speechはVADとTTSを差替えできます。"
+      "fullName": "zhaoxuya520/reverse-skill",
+      "name": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "stars": 10651,
+      "todayStars": 612,
+      "description": "セキュリティ特化のドメインskill",
+      "detail": "APKやCTFなど20以上の場面をAIコーディングclientsに正しい手順で解かせるskill集です。MASTER-ROUTINGで最短手順に飛び、Claude CodeやCursorで動きます。",
+      "narration": "セキュリティのドメインskillレイヤです。reverse-skillはAPKやCTFに合わせ手順を切替えます。"
     },
     {
       "rank": 2,
-      "fullName": "microsoft/AI-For-Beginners",
-      "name": "AI-For-Beginners",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "language": "Jupyter Notebook",
-      "stars": 53830,
-      "todayStars": 115,
-      "description": "有償AI講座に対抗する12週MIT教材",
-      "detail": "Microsoftが公開する12週24講のAIカリキュラムです。有償のCourseraやDataCampとの比較軸は、演習環境で、Jupyter・PyTorch・TensorFlowを直接動かせる完全MITライセンスです。",
-      "narration": "有償AI講座と無料OSSの分岐は演習環境です。AI-For-BeginnersはJupyterで動かせます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "paperswithbacktest/awesome-systematic-trading",
-      "name": "awesome-systematic-trading",
-      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "language": "Python",
-      "stars": 10995,
-      "todayStars": 628,
-      "description": "有償クオント基盤の代替OSSリスト",
-      "detail": "97ライブラリと40戦略が並ぶsystematic tradingの厳選集です。BloombergやQuantConnectとの比較軸は、データ源と取引所APIの自前化で、yfinanceやib_insyncで有償契約を外せます。",
-      "narration": "有償クオント代替の入り口です。awesome-systematic-tradingが97本を分類します。"
-    },
-    {
-      "rank": 4,
       "fullName": "different-ai/openwork",
       "name": "openwork",
       "url": "https://github.com/different-ai/openwork",
       "language": "TypeScript",
-      "stars": 18667,
-      "todayStars": 916,
-      "description": "Claude Cowork代替のOSS",
-      "detail": "OpencodeベースでMCPを配布するAI workflow共有基盤です。Claude Coworkとの比較軸は、agent非依存とorg単位の権限管理で、Claude Code・Cursor・Codex・ChatGPTを横断できます。",
-      "narration": "Claude Cowork代替はagent非依存です。openworkはCursorとCodexを束ねます。"
+      "stars": 19461,
+      "todayStars": 796,
+      "description": "MCP経由のAI skill配布基盤",
+      "detail": "opencodeベースのdesktopとMCP双方対応のworkflow配布基盤です。Claude Code・Cursor・Codex・ChatGPTを1つのworkspaceで束ね、OpenWork Denでorg権限も一括管理できます。",
+      "narration": "配布プラットフォームレイヤはopenworkです。MCPでClaudeやCursorに横串を刺せます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars": 56194,
+      "todayStars": 660,
+      "description": "8ソース横断の情報収集skill",
+      "detail": "Reddit・X・YouTube・HN・Polymarketなど8つの一次情報源を並列検索し、engagement順に並び直して要約するskillです。Claude Code含む50以上のAgent Skillsホストで動きます。",
+      "narration": "情報収集skillレイヤはlast30daysです。RedditやHNの本音を横断で拾えます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "name": "awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "language": "Python",
+      "stars": 11715,
+      "todayStars": 765,
+      "description": "クオントOSS 97本のawesome",
+      "detail": "VNPy・Zipline・Backtrader・Freqtrade・yfinance・CCXTなど97本のsystematic trading関連OSSを、backtest・data source・live trading別に整理したawesomeリストです。",
+      "narration": "メタキュレーションレイヤはawesomeです。97本のクオントtoolを分野別に並べます。"
     },
     {
       "rank": 5,
-      "fullName": "WhiskeySockets/Baileys",
-      "name": "Baileys",
-      "url": "https://github.com/WhiskeySockets/Baileys",
-      "language": "JavaScript",
-      "stars": 10419,
-      "todayStars": 12,
-      "description": "WhatsApp公式APIの代替ライブラリ",
-      "detail": "WebSocketでWhatsApp Webを叩くTypeScriptライブラリです。Meta Cloud APIやTwilioとの比較軸は、月額課金の有無と自前運用の自由度で、Node/Bun/DenoでMITライセンス配布です。",
-      "narration": "TwilioかOSSかは課金体系で選びます。BaileysはWebSocketでWhatsAppを叩けます。"
+      "fullName": "microsoft/AI-For-Beginners",
+      "name": "AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "language": "Jupyter Notebook",
+      "stars": 55261,
+      "todayStars": 1592,
+      "description": "Microsoft公式の12週AI講座",
+      "detail": "Microsoft公式の12週24講AI基礎カリキュラムです。Symbolic AIからNN・CV・NLP・RL・AI倫理まで、PyTorch・TensorFlow・Jupyterで手を動かせて50以上の言語翻訳とMITライセンスで自由に使えます。",
+      "narration": "人間のAI学習基盤レイヤです。AI-For-Beginnersは12週24講で基礎を固められます。"
     }
   ]
 }
