@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01",
+  "updatedAt": "2026-08-02",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -32,79 +32,79 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-18〜31, n=13): business-angle 2.75 n=4 TOP / ecosystem 2.67 n=3 / stack-migration 2.00 n=1 / trend-pattern 1.00 n=2 / self-experiment 1.00 n=1 / comparison 0.50 n=2 (07-31 comparison=0 は投稿翌朝で計測中、07-30 business-angle=3 は 48h 経過で本計測水準)。全期間: trend-pattern 2.58 n=12 / ecosystem 2.06 n=17 / stack-migration 2.00 n=1 / comparison 1.89 n=18 / business-angle 1.67 n=15 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-31 comparison / 07-30 business-angle) 連投ルールで両者除外、残る候補で 14d avg 2.67 n=3 の ecosystem を採用、全期間 avg 2.06 n=17 も安定 champion。素材整合率 3/5 (reverse-skill / openwork / last30days-skill が『AIエージェントに追加skillを配る』同一構造上に並ぶ稀有な日) + 周縁 2/5 (awesome-systematic-trading = メタキュレーション層 / AI-For-Beginners = 人間の学習基盤層) で角度と素材の一致度が最大化。前日 07-31 comparison と語彙を『分岐 / 選び所』から『レイヤ / 経済圏』に完全切替して method 連投ペナルティ回避。土曜日 (Sat=79 avg、週内最弱曜日) だが 5リポ整合率高い日は explore-adjacent な exploit として狙い目。"
+      "note": "Method 別 14d (2026-07-20〜08-01, n=12): ecosystem 2.67 n=3 TOP / business-angle 2.33 n=3 / stack-migration 2.00 n=1 / trend-pattern 1.00 n=2 / self-experiment 1.00 n=1 / comparison 0.50 n=2 (07-31 comparison=0 は投稿翌朝で計測中、08-01 ecosystem は当日投稿・未計上)。全期間: trend-pattern 2.58 n=12 / ecosystem 2.06 n=17 / stack-migration 2.00 n=1 / comparison 1.89 n=18 / business-angle 1.67 n=15 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-31 comparison / 08-01 ecosystem) 連投ルールで両者除外、残る候補で 14d avg 2.33 n=3 の business-angle を採用 (14d 2位、ecosystem に次ぐ champion tier)。素材整合率 5/5 で『事業/コスト/研修/内製化』の語彙が自然接続する稀有な日 (教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『外部支出→内製化に置換』フレーム)。前日 08-01 ecosystem と語彙を『レイヤ/経済圏』から『月額/内製化/工数』に完全切替して method 連投ペナルティ回避。日曜日 (Sun=5 avg、週内最弱曜日で7日中最低) だが 5リポ整合率高い日は素材の説明力で押す。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は土曜 (Sat=79 avg、週内最弱曜日)、Primary (CTO/技術選定) の週末レビュー枠だが視聴数の期待値低め。ecosystem 角度で『AI skill配布経済圏』というレイヤ立体化により素材の説明力で押す"
+      "本日は日曜 (Sun=5 avg、週内最弱曜日で7日中最低)、Primary (CTO/技術選定) の週次リセット枠で視聴数の絶対値は最低。business-angle 角度で『コスト削減ポートフォリオの5レイヤ』というKPI立体化により素材の説明力で押す"
     ],
     "hashtags": [
-      "ecosystem 角度の核心は『5リポを1つの AI skill配布経済圏に位置づける』。5本のレイヤマッピング: #reverse_skill=ドメインskill層 (セキュリティ) / #openwork=MCP配布プラットフォーム層 / #last30days_skill=情報収集skill層 / #awesome_systematic_trading=メタキュレーション層 / #AI_For_Beginners=人間の学習基盤層",
-      "言語タグは Python 2 + TypeScript 1 + Jupyter Notebook 1 + PowerShell 1 の 4 言語ミックス。Python (1.2x) 最上位 2 本 + TypeScript (1.1x) 上位 + Jupyter Notebook (0.9x) + PowerShell (0.9x)。AI/データ案件と Web 受託の両層に届く",
-      "ecosystem 角度の独自 hashtag: #ecosystem #AI_skill配布 #MCP #AI_Agent_Skills #Claude_Code #Cursor #Codex #ChatGPT #reverse_engineering #malware解析 #CTF #opencode #Reddit #HN #Polymarket #systematic_trading #Freqtrade #vectorbt #Zipline #Backtrader #yfinance #CCXT #PyTorch #TensorFlow #Jupyter #Symbolic_AI #NN #CV #NLP #RL"
+      "business-angle 角度の核心は『5リポを1つのコスト削減ポートフォリオに位置づける』。5本のKPIマッピング: #AI_For_Beginners=AI人材育成コスト層 (外部研修費) / #awesome_systematic_trading=フィンテック内製化調査コスト層 (コンサル外注) / #kaneo=SaaSサブスクコスト層 (Jira/Linear月額) / #reverse_skill=セキュリティ調査工数層 (人手の脆弱性診断) / #generative_ai_for_beginners=Gen AI研修費層 (外部Gen AI研修)",
+      "言語タグは Jupyter Notebook 2 + Python 1 + TypeScript 1 + PowerShell 1 の 4 言語ミックス。Python (1.2x) 上位 + TypeScript (1.1x) 上位 + Jupyter Notebook (0.9x) 2本 + PowerShell (0.9x)。教育/研修受託と SaaS 費削減の両層に届く",
+      "business-angle 角度の独自 hashtag: #business_angle #コスト削減 #内製化 #外部研修 #SaaS費 #DX #受託 #CTO #スタートアップ #Microsoft #Jupyter #PyTorch #TensorFlow #systematic_trading #Zipline #Backtrader #vectorbt #Freqtrade #Jira代替 #Linear代替 #セルフホスト #MIT #Claude_Code #Cursor #Codex #MCP #CTF #APK #セキュリティ #ペネトレテスト #Azure #OpenAI #Foundry_Local"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 248 文字 (56+51+47+45+49)、TTS で約 50 秒、opening/ending と合わせて 55-58 秒枠内。個別上限 56 文字で 40-60 レンジ内。07-31 の 268 文字よりコンパクト",
-      "ecosystem 角度の一貫性: 5 本すべての narration に『〇〇レイヤは<repo>です。<何を提供するか一言>』の ecosystem 骨格を反復。レイヤ名 (ドメインskill / 配布プラットフォーム / 情報収集skill / メタキュレーション / 人間のAI学習基盤) を明示し、視聴者に『Trending の 5 本が 1 つの AI skill配布経済圏を形成する』を階層構造で伝える。1 本目『APK/CTF』、2 本目『MCP横串』、3 本目『Reddit/HN 横断』、4 本目『97本を分野別』、5 本目『12週24講』で各レイヤの中身を別語彙で提示",
-      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『どのレイヤ (経済圏内位置づけ) を / どの repo が / 何で担うか』の三点セットを明示、単発リポ紹介を避けて『今週の AI skill配布経済圏 5 レイヤー』を打ち出す",
-      "数値表現はアラビア数字統一 (97 本、12 週、24 講、20 以上、8 ソース、50 以上)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (58 秒枠)。5 本合計 266 文字 (55+52+53+51+55)、TTS で約 54 秒、opening/ending と合わせて 58 秒枠内。個別上限 55 文字で 40-60 レンジ内。08-01 の 248 文字より 18 文字追加は business-angle の『効果 (削減対象の具体語)』を各本に埋めるため",
+      "business-angle 角度の一貫性: 5 本すべての narration に『〇〇を圧縮/削減/内製化できます』のコスト削減骨格を反復。KPI名 (外部研修費・ヘッジファンド外注・月額SaaS費・脆弱性診断工数・社内研修) を明示し、視聴者に『Trending の 5 本が 1 つのコスト削減ポートフォリオを形成する』を KPI 構造で伝える。1 本目『AI教育を24レッスンで内製化』、2 本目『量的トレード97 OSS 選定』、3 本目『Jira/Linear 月額削減』、4 本目『セキュリティ工数削減』、5 本目『Gen AI 21レッスンで内製化』で各レイヤの中身を別語彙で提示",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『どのコスト (KPI) が / どの repo で / どう削減されるか』の三点セットを明示、単発リポ紹介を避けて『今週のコスト削減 5 レイヤ』を打ち出す",
+      "数値表現はアラビア数字統一 (24 レッスン、97 種類、21 レッスン)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem` (14d avg 2.67 n=3 の champion tier、全期間 avg 2.06 n=17 で長期にも安定、直近 2 日連投ルールで comparison/business-angle 除外時の actionable exploit champion、3/5 素材が『AIエージェントに追加 skill を配る』同一構造上に並ぶ稀有な整合日、Sat 曜日 avg 79 の週内最弱曜日補正)。土曜 (Sat=79 avg) は視聴数の期待値低いが、素材整合率 5/5 の稀有な日で角度の説明力を最大化する",
-      "本日 08-01 TOP5: #1 zhaoxuya520/reverse-skill=PowerShell / 10,651★ / +612 [新規流入・APK/CTF/malware/binary/frontend JS暗号化など20以上の場面に手順を自動routing、MASTER-ROUTING.md ラダー、Claude Code/Cursor/Cline/Kiro 対応、MIT (一部 GPLv3)]、#2 different-ai/openwork=TypeScript / 19,461★ / +796 [継続 (07-31 では #4)・opencode ベース、macOS/Windows/Linux desktop + MCP 双方対応、Claude Code/Cursor/Codex/ChatGPT 横断、OpenWork Den で org 権限管理・skill marketplace 公開]、#3 mvanhorn/last30days-skill=Python / 56,194★ / +660 [新規流入・Reddit/X/YouTube/TikTok/HN/Polymarket/GitHub/arXiv/Techmeme など 8 ソース並列検索、engagement 順に merge・要約、Claude Code/Grok/Codex/Cursor/Copilot/Gemini CLI 含む 50+ Agent Skills ホスト対応、MIT、無料ソース中心 + ScrapeCreators/Perplexity/Brave optional]、#4 paperswithbacktest/awesome-systematic-trading=Python / 11,715★ / +765 [継続 (07-31 では #3)・97 ライブラリ + 40 戦略 + 55 書籍 + 23 動画、VNPy/Zipline/Backtrader/Freqtrade/yfinance/CCXT/Jesse/OpenBB Terminal/nautilus_trader/HFTBacktest など backtest/data source/live trading 別に整理]、#5 microsoft/AI-For-Beginners=Jupyter Notebook / 55,261★ / +1,592 [継続 (07-31 では #2)・12 週 24 講、Symbolic AI/NN/CV/NLP/RL/AI 倫理、Jupyter + PyTorch + TensorFlow + Keras + OpenCV、50+ 言語翻訳、Microsoft Learn 統合、MIT]",
-      "本日の ecosystem 核: 5 本を『AI skill配布経済圏の 5 レイヤ』としてレイヤ立体化し、視聴者に『Trending の 5 本が 1 つの経済圏を階層で形成する』を提示。冒頭フックは『今週の Trending は「AI skill配布経済圏の5レイヤ」パターン。ドメインskill・配布基盤・情報収集skill・メタキュレーション・人間の学習基盤、順にレイヤを見ます』",
-      "Primary (CTO/技術選定) には『2026 年 AI skill 経済圏の 5 レイヤ地図』として、Secondary (PdM/事業責任者) には『どのレイヤに投資すべきか俯瞰チェックリスト』として、Tertiary (学習中) には『AI Agent Skills marketplace の全体像』として 3 層直撃",
-      "連投上限ルール: 14d 内 ecosystem=07-22/07-26/07-29 の 3 件残 (本日 08-01 投入で 4 件、07-18 が 08-01 開始で圏外脱落し実質 3 件で維持)、business-angle=07-23/07-27/07-30 の 3 件残 (08-06 まで維持)、comparison=07-20/07-31 の 2 件残 (08-03 まで維持)、trend-pattern=07-21/07-28 の 2 件残 (08-04 まで維持)、self-experiment=07-25 の 1 件残、stack-migration=07-24 の 1 件残、use-case=0 件 (14d 圏外に脱落、来週 explore 枠で 1回試行推奨)、tech-deep=0 件"
+      "本日の discovery.method は `business-angle` (14d avg 2.33 n=3 の champion tier、全期間 avg 1.67 n=15 の中位だが 14d で急上昇、直近 2 日連投ルールで ecosystem/comparison 除外時の actionable exploit 2位、5/5 素材が『外部支出→内製化に置換』フレームに乗る稀有な整合日、Sun 曜日 avg 5 の週内最弱曜日補正)。日曜 (Sun=5 avg) は視聴数の絶対値が最低だが、素材整合率 5/5 の稀有な日で角度の説明力を最大化する",
+      "本日 08-02 TOP5: #1 microsoft/AI-For-Beginners=Jupyter Notebook / 57,064★ / +869 [継続 (08-01 では #5)・Microsoft公式12週24講、Symbolic AI/NN/CV/NLP/RL/AI 倫理、Jupyter + PyTorch + TensorFlow + Keras + OpenCV、50+ 言語翻訳、Microsoft Learn 統合、MIT・外部研修費の代替として社内転用可]、#2 paperswithbacktest/awesome-systematic-trading=Python / 12,216★ / +529 [継続 (08-01 では #4)・97 ライブラリ + 40 戦略 + 55 書籍 + 23 動画、VNPy/Zipline/Backtrader/Freqtrade/yfinance/CCXT/Jesse/OpenBB Terminal/nautilus_trader/HFTBacktest など backtest/data source/live trading 別に整理・フィンテック内製化調査を1日短縮]、#3 usekaneo/kaneo=TypeScript / 5,651★ / +778 [新規流入・MITライセンス、Docker/Kubernetes(Helm)/drim CLI でセルフホスト、Kanban ワークフロー、Jira/Linear 月額 SaaS 費を削減する軽量プロジェクト管理]、#4 zhaoxuya520/reverse-skill=PowerShell / 11,829★ / +1,360 [継続 (08-01 では #1)・APK/CTF/malware/binary/frontend JS暗号化など20以上の場面に手順を自動routing、MASTER-ROUTING.md ラダー、Claude Code/Cursor/Cline/Kiro/Codex 対応、40+ CTF sub-skills、MIT (一部 GPLv3)・社内セキュリティ調査工数の圧縮]、#5 microsoft/generative-ai-for-beginners=Jupyter Notebook / 114,170★ / +104 [新規流入・Microsoft公式21レッスン、Azure OpenAI/OpenAI API/Foundry Local(オフライン)/.NET Edition、RAG/AI Agents/fine-tuning/SLM/Mistral/Meta、Discord/開発者フォーラム・外部 Gen AI 研修費を丸ごと内製化]",
+      "本日の business-angle 核: 5 本を『コスト削減ポートフォリオの 5 レイヤ』としてKPI立体化し、視聴者に『Trending の 5 本が 1 つのコスト削減ポートフォリオを階層で形成する』を提示。冒頭フックは『今週の Trending は「コスト削減ポートフォリオの5レイヤ」パターン。外部研修・コンサル外注・SaaS費・セキュリティ工数・Gen AI 研修、順にレイヤを見ます』",
+      "Primary (CTO/技術選定) には『2026 年コスト削減の 5 レイヤ地図』として、Secondary (PdM/事業責任者) には『どの外部支出を内製化に置き換えるか俯瞰チェックリスト』として、Tertiary (学習中) には『AI 教育・セキュリティ・PM・トレードの全体像』として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=07-22/07-26/07-29/08-01 の 4 件残 (08-02 見送りで維持)、business-angle=07-23/07-27/07-30 の 3 件残 (本日 08-02 投入で 4 件、07-18 が窓外脱落済で実質 3 件→4 件へ)、comparison=07-20/07-31 の 2 件残 (08-03 まで維持)、trend-pattern=07-21/07-28 の 2 件残 (08-04 まで維持)、self-experiment=07-25 の 1 件残、stack-migration=07-24 の 1 件残、use-case=0 件 (14d 圏外脱落継続、8月第1週で explore 枠 1回試行推奨)、tech-deep=0 件"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-01",
-    "dayOfWeek": "Sat",
+    "date": "2026-08-02",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "ecosystem",
-      "AI_skill配布",
-      "AI_Agent_Skills",
-      "MCP",
+      "business_angle",
+      "コスト削減",
+      "内製化",
+      "外部研修",
+      "SaaS費",
+      "DX",
+      "受託",
+      "CTO",
+      "スタートアップ",
+      "Microsoft",
+      "Jupyter",
+      "PyTorch",
+      "TensorFlow",
+      "systematic_trading",
+      "Zipline",
+      "Backtrader",
+      "vectorbt",
+      "Freqtrade",
+      "Jira代替",
+      "Linear代替",
+      "セルフホスト",
+      "MIT",
       "Claude_Code",
       "Cursor",
       "Codex",
-      "ChatGPT",
-      "opencode",
-      "reverse_engineering",
-      "malware解析",
+      "MCP",
       "CTF",
+      "APK",
       "セキュリティ",
-      "Reddit",
-      "HackerNews",
-      "Polymarket",
-      "情報収集",
-      "systematic_trading",
-      "Freqtrade",
-      "vectorbt",
-      "Zipline",
-      "Backtrader",
-      "yfinance",
-      "CCXT",
-      "PyTorch",
-      "TensorFlow",
-      "Jupyter",
-      "Symbolic_AI",
-      "NLP",
-      "CV",
-      "RL",
-      "Microsoft",
-      "reverse_skill",
-      "openwork",
-      "last30days_skill",
-      "awesome_systematic_trading",
+      "ペネトレテスト",
+      "Azure",
+      "OpenAI",
+      "Foundry_Local",
       "AI_For_Beginners",
-      "CTO",
+      "awesome_systematic_trading",
+      "kaneo",
+      "reverse_skill",
+      "generative_ai_for_beginners",
       "技術選定"
     ],
-    "focus": "土曜 (Sat=79 avg、週内最弱曜日) は視聴数の期待値低いが、素材整合率 100% の稀有な日。`ecosystem` (14d avg 2.67 n=3 の champion tier、全期間 avg 2.06 n=17、直近 2 日連投ルールで comparison/business-angle 除外時の actionable exploit champion) を投入。3/5 素材 (reverse-skill / openwork / last30days-skill) が『AIエージェントに追加 skill を配る』同一構造上に並ぶ稀有な整合日で、残り 2/5 (awesome-systematic-trading = メタキュレーション層 / AI-For-Beginners = 人間の学習基盤層) も同経済圏の周縁レイヤとして自然接続。本日の TOP5 は 2/5 新規 (reverse-skill, last30days-skill)、3/5 継続 (openwork:07-31 #4→08-01 #2、awesome-systematic-trading:07-31 #3→08-01 #4、AI-For-Beginners:07-31 #2→08-01 #5) で日次 refresh 率 40%、method 切替 (comparison→ecosystem) + 語彙総入替 (分岐 / 選び所 → レイヤ / 経済圏) で視聴者疲労回避。narration は 5 本すべてに『〇〇レイヤは<repo>です。<何を提供するか一言>』の骨格を反復、5 本合計 248 文字 (56+51+47+45+49) で TTS 換算約 50 秒、opening/ending 込み 55-58 秒枠。前日 07-31 の 268 文字より短くコンパクト。ecosystem 語彙 (レイヤ / 経済圏 / 位置づけ / 束ねる) と各リポの固有事実 (APK/CTF 20以上・MASTER-ROUTING / opencode ベース + MCP + OpenWork Den / Reddit/X/YouTube/HN/Polymarket 8ソース + engagement順 / 97ライブラリ + backtest/data/live 別 / 12週24講 + PyTorch/TensorFlow + 50言語翻訳) を全 5 本に埋めて README 読み上げレベルを回避。柱① (ecosystem) を本日投入、今週の柱② 消化済 (07-27, 07-30) で 15% 上限到達、柱③ (07-25 self-experiment) 消化済で週次ノルマは満たしているため 08-01 は柱① 継続、08-02 (日曜) 以降は柱④ trend-pattern 差し込みで配分バランスを整える。前日 07-31 comparison の 48h 後 views 本評価 (08-02) 待ち、07-30 business-angle の 48h 後 views 本評価 (08-01) 待ち。継続 3 本 (openwork/awesome-systematic-trading/AI-For-Beginners) は 07-31 → 08-01 で 2 日連続 TOP5・角度切替 1 度目、3 日連続 avoid ラインは 08-02 判断。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "日曜 (Sun=5 avg、週内最弱曜日で7日中最低) は視聴数の絶対値が最低だが、素材整合率 100% の稀有な日。`business-angle` (14d avg 2.33 n=3 の champion tier、全期間 avg 1.67 n=15、直近 2 日連投ルールで ecosystem/comparison 除外時の actionable exploit 2位) を投入。5/5 素材 (AI-For-Beginners / awesome-systematic-trading / kaneo / reverse-skill / generative-ai-for-beginners) が『外部支出→内製化に置換』フレームに乗る稀有な整合日。教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『事業のコストラインをどう削るか』の一貫した business-angle で切れる。本日の TOP5 は 2/5 新規 (kaneo, generative-ai-for-beginners)、3/5 継続 (AI-For-Beginners: 08-01 #5→08-02 #1、awesome-systematic-trading: 08-01 #4→08-02 #2、reverse-skill: 08-01 #1→08-02 #4) で日次 refresh 率 40%、method 切替 (ecosystem→business-angle) + 語彙総入替 (レイヤ/経済圏 → 月額/内製化/工数) で3日連続 TOP5 素材の視聴者疲労を回避。継続3本は 07-31 → 08-01 → 08-02 の3日連続 TOP5 で avoid ライン到達、明日 08-03 は継続比率 1本以下に絞り素材リフレッシュ予定。narration は 5 本すべてに『〇〇を圧縮/削減/内製化できます』のコスト削減骨格を反復、5 本合計 266 文字 (55+52+53+51+55) で TTS 換算約 54 秒、opening/ending 込み 58 秒枠。前日 08-01 の 248 文字より 18 文字追加は business-angle の『効果 (削減対象の具体語)』埋め込みのため。business-angle 語彙 (コスト/月額/内製化/工数/削減) と各リポの固有事実 (24レッスン + Symbolic AI/NN/CV/NLP + 50言語翻訳 / 97ライブラリ + 40戦略 + 55書籍 + backtest/data/live 別 / MIT + Docker/K8s(Helm)/drim CLI + Kanban + Jira/Linear 代替 / 20以上の場面 + MASTER-ROUTING + Claude Code/Cursor/Cline/Kiro/Codex + 40+ CTF sub-skills / 21レッスン + Azure/OpenAI/Foundry Local + RAG/Agents/fine-tuning/SLM) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) を本日投入、今週の柱① 消化済 (08-01 ecosystem)、柱③ (07-25 self-experiment) 消化済で週次ノルマ達成、柱④ (07-28 trend-pattern) 消化済。08-03 (月曜) 以降は use-case explore 枠差し込みで 14d 圏外脱落分の data 補充を予定。前日 08-01 ecosystem の 48h 後 views 本評価 (08-03) 待ち、07-31 comparison の 48h 後 views 本評価 (08-02) 待ち。継続 3 本 (AI-For-Beginners/awesome-systematic-trading/reverse-skill) は 07-31 → 08-01 → 08-02 で 3 日連続 TOP5・avoid ライン到達、明日 08-03 は継続比率 1本以下に絞る予定。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
