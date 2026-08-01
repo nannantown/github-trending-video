@@ -2,113 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "q5l3XVyC7ec",
-      "videoUrl": "https://youtube.com/shorts/q5l3XVyC7ec",
-      "date": "2026-05-01",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/01 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Rust",
-        "Python",
-        "Shell",
-        "TypeScript"
-      ],
-      "projects": [
-        "warpdotdev/warp",
-        "TauricResearch/TradingAgents",
-        "mattpocock/skills",
-        "obra/superpowers",
-        "lukilabs/craft-agents-oss"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『エージェント開発スタックの5レイヤ』として同居紹介する。warpdotdev/warp(Agent Runtime層: Claude Code/Codex/Gemini CLI公式統合の次世代ターミナル) → TauricResearch/TradingAgents(Domain Application層: アナリスト4体+強気弱気論者+トレーダー+リスク管理の8体構成・金融垂直マルチエージェント) → mattpocock/skills(Skill Library層: Claude Code向け16種skill、診断・TDD・PRD化・Issue化) → obra/superpowers(Methodology Plugin層: Brainstorm→Plan→RED-GREEN-REFACTOR強制、Claude Code/Codex/Cursorなど6環境対応) → lukilabs/craft-agents-oss(Application Shell層: Electron+headless server、Anthropic/Google/OpenAI/Ollama横断、Linear/Gmail/SlackをMCPで1画面)。視聴者(CTO/ソロ開発者)が『自社のエージェント開発環境のどこに何を入れるか』を1動画で意思決定できる構成。直近2日(04/29 business-angle / 04/30 business-angle)の連続禁則を回避し、Method別TOP(ecosystem=165 avg、他5-8 avg)をFri=821 avgの準最強曜日帯で投入。ベンチは04/14(1361)・04/17(2010)・04/28(321)の同method帯に置く。重複1本(mattpocock/skills 6日連続)はskill数を最新README実数値(16)に整合させ、04/28『配布層21種』からecosystem角度内で『診断・TDD・PRD化』機能側へ視点切替。新規4本(warp・TradingAgents・superpowers・craft-agents-oss)で04/29-30型の同ラインナップ連投を構造的に回避する。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/warpdotdev/warp",
-          "https://github.com/TauricResearch/TradingAgents",
-          "https://github.com/mattpocock/skills",
-          "https://github.com/obra/superpowers",
-          "https://github.com/lukilabs/craft-agents-oss"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 5,
-        "likes": 2,
-        "comments": 0,
-        "updatedAt": "2026-05-15T23:42:08.329Z"
-      }
-    },
-    {
-      "videoId": "Q_ljXgexJPM",
-      "videoUrl": "https://youtube.com/shorts/Q_ljXgexJPM",
-      "date": "2026-05-02",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/02 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python"
-      ],
-      "languages": [
-        "Python",
-        "Rust",
-        "Shell"
-      ],
-      "projects": [
-        "TauricResearch/TradingAgents",
-        "soxoj/maigret",
-        "warpdotdev/warp",
-        "1jehuang/jcode",
-        "mattpocock/skills"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "今週(2026/05/02時点)のTOP5を『AIエージェントが特定の業務役割そのものを置き換え始めた週』というマクロ視点(柱④)で料理する。TauricResearch/TradingAgents=金融トレーディング部門の8体構成、soxoj/maigret=OSINT調査員役の自動化、warpdotdev/warp=ターミナル作業者役のエージェント化、1jehuang/jcode=コーディングエージェントの司令塔役、mattpocock/skills=熟練エンジニアの作法移植。これまでの『どのAIツールが伸びているか』ニュース型から『どの業務役割がOSS化された週か』に視点を一段引き上げる。直近2日(05/01 ecosystem / 04/30 business-angle)の連続禁則を回避し、未投入のメタ視点(柱④=trend-pattern)を土曜=Sat=202 avgの中位曜日で初投入(explore枠20%)。重複3本(TradingAgents・warp・mattpocock/skills)はecosystem角度『開発スタックの5レイヤ』からtrend-pattern角度『業務役割のOSS化マクロ』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規2本(maigret・jcode)で『金融・調査・ターミナル・コーディング司令塔・エンジニア作法』の役割幅を拡張し、04/29-30型の同method×同ラインナップ連投ペナルティ(5→8 views帯)を構造的に回避する。skill数はREADMEの最新実数値13へ整合(04/28=21・05/01=16から下方修正、ライブの整理を反映)。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/TauricResearch/TradingAgents",
-          "https://github.com/soxoj/maigret",
-          "https://github.com/warpdotdev/warp",
-          "https://github.com/1jehuang/jcode",
-          "https://github.com/mattpocock/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 13,
-        "likes": 3,
-        "comments": 0,
-        "updatedAt": "2026-05-16T23:38:37.015Z"
-      }
-    },
-    {
       "videoId": "QnxVLFE5-Wg",
       "videoUrl": "https://youtube.com/shorts/QnxVLFE5-Wg",
       "date": "2026-05-03",
@@ -3827,7 +3720,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -3882,7 +3775,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -3939,7 +3832,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -3995,7 +3888,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4051,7 +3944,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4107,7 +4000,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4162,7 +4055,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4219,7 +4112,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4274,7 +4167,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4329,7 +4222,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4386,7 +4279,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4441,7 +4334,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-07-30T23:48:50.489Z"
+        "updatedAt": "2026-08-01T23:44:58.085Z"
       }
     },
     {
@@ -4494,6 +4387,62 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-01T23:44:58.085Z"
+      }
+    },
+    {
+      "videoId": "qB5matLAQhU",
+      "videoUrl": "https://youtube.com/shorts/qB5matLAQhU",
+      "date": "2026-08-02",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/02 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Jupyter Notebook",
+        "Python",
+        "TypeScript",
+        "PowerShell"
+      ],
+      "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "TypeScript",
+        "PowerShell"
+      ],
+      "projects": [
+        "microsoft/AI-For-Beginners",
+        "paperswithbacktest/awesome-systematic-trading",
+        "usekaneo/kaneo",
+        "zhaoxuya520/reverse-skill",
+        "microsoft/generative-ai-for-beginners"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5(microsoft/AI-For-Beginners #1・paperswithbacktest/awesome-systematic-trading #2・usekaneo/kaneo #3・zhaoxuya520/reverse-skill #4・microsoft/generative-ai-for-beginners #5)を『事業コストにどう効くか』の一貫した business-angle で切る。#1 AI-For-Beginners=12週24講の公式AI教材で、外部研修(1人あたり数万〜数十万)を丸ごと社内育成に置換。#2 awesome-systematic-trading=97個のクオントOSS+55冊書籍を機能別に分類し、フィンテック内製化調査を1日短縮(コンサル外注3-5万相当)。#3 kaneo=MITライセンスのセルフホスト型プロジェクト管理OSSで、Jira/Linearの月額SaaS費(1人あたり10-30ドル/月)を丸ごと削り、機能過多も同時に回避。#4 reverse-skill=Claude Code/Cursor/Codexなど各種AIエージェントに40超のCTFスキルとツール選択の指針を配るMCPルーターで、APK解析からペネトレまでの社内セキュリティ調査工数を大幅に圧縮。#5 generative-ai-for-beginners=Microsoft公式Gen AI開発の21レッスンで、Azure/OpenAI/Foundry Localのオフライン実行までカバー、外部Gen AI研修に払っている費用を丸ごと自社に取り戻す。method選定: 直近2日連投ルールで 07-31 comparison / 08-01 ecosystem を除外、残る候補で 14d avg 2.33 n=3 の business-angle を採用(全期間 avg 1.67 n=15 の中位だが 14d では ecosystem に次ぐ2位、TOP5継続の勝ち筋)。週次コンテンツ柱②(business-angle 15% target)も同時消化。角度整合率: 5/5素材で『事業/コスト/研修/内製化』の語彙が自然に接続する稀有な整合日(教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『外部支出→内製化に置換』のフレームに乗る)。前日 08-01 ecosystem との差別化: 昨日は『5リポを1つのAI skill配布経済圏に位置づける』のレイヤ立体構造、本日は『5リポを1つのコスト削減ポートフォリオに位置づける』の事業KPI立体構造。日曜(Sun=5 avg、週内最弱曜日で7日中最低)だが、素材整合率5/5+business-angle 14d 2位 method の組合せで、少ないベース視聴でも Primary(CTO/事業判断)への説明力を最大化。narration 5本合計 266文字(55+52+53+51+55) TTS換算約54秒、opening/ending込み58秒枠内。TOP5継続率: 3/5(AI-For-Beginners 08-01 #5→08-02 #1、awesome-systematic-trading 08-01 #4→08-02 #2、reverse-skill 08-01 #1→08-02 #4)+ 新規2/5(kaneo, generative-ai-for-beginners)で日次refresh率40%、method切替(ecosystem→business-angle)と語彙総入替(レイヤ/経済圏→月額/内製化/工数)で3日連続TOP5素材の疲労を回避。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/microsoft/AI-For-Beginners",
+          "https://github.com/paperswithbacktest/awesome-systematic-trading",
+          "https://github.com/usekaneo/kaneo",
+          "https://github.com/zhaoxuya520/reverse-skill",
+          "https://github.com/microsoft/generative-ai-for-beginners"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4502,25 +4451,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-28",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "Rust: 0.7x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.7x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 111 avg views (75 videos)",
-        "Trending languages: Kotlin (3.6x), C++ (2.9x), Jupyter Notebook (3.5x)",
-        "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=53, Mon=49, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-06-29",
       "changes": [
@@ -5076,6 +5006,19 @@
         "standard: 2 avg views (81 videos)",
         "Trending languages: Markdown (1.5x), C# (1.5x)",
         "Day performance: Thu=3, Sat=3, Fri=2, Mon=2, Sun=1, Tue=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-01",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.7x avg views → drop",
+        "standard: 2 avg views (81 videos)",
+        "Trending languages: Markdown (1.6x), C# (1.6x), Jupyter Notebook (1.4x)",
+        "Day performance: Sat=3, Fri=2, Mon=2, Thu=2, Sun=1, Tue=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
