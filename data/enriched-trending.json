@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5(microsoft/AI-For-Beginners #1・paperswithbacktest/awesome-systematic-trading #2・usekaneo/kaneo #3・zhaoxuya520/reverse-skill #4・microsoft/generative-ai-for-beginners #5)を『事業コストにどう効くか』の一貫した business-angle で切る。#1 AI-For-Beginners=12週24講の公式AI教材で、外部研修(1人あたり数万〜数十万)を丸ごと社内育成に置換。#2 awesome-systematic-trading=97個のクオントOSS+55冊書籍を機能別に分類し、フィンテック内製化調査を1日短縮(コンサル外注3-5万相当)。#3 kaneo=MITライセンスのセルフホスト型プロジェクト管理OSSで、Jira/Linearの月額SaaS費(1人あたり10-30ドル/月)を丸ごと削り、機能過多も同時に回避。#4 reverse-skill=Claude Code/Cursor/Codexなど各種AIエージェントに40超のCTFスキルとツール選択の指針を配るMCPルーターで、APK解析からペネトレまでの社内セキュリティ調査工数を大幅に圧縮。#5 generative-ai-for-beginners=Microsoft公式Gen AI開発の21レッスンで、Azure/OpenAI/Foundry Localのオフライン実行までカバー、外部Gen AI研修に払っている費用を丸ごと自社に取り戻す。method選定: 直近2日連投ルールで 07-31 comparison / 08-01 ecosystem を除外、残る候補で 14d avg 2.33 n=3 の business-angle を採用(全期間 avg 1.67 n=15 の中位だが 14d では ecosystem に次ぐ2位、TOP5継続の勝ち筋)。週次コンテンツ柱②(business-angle 15% target)も同時消化。角度整合率: 5/5素材で『事業/コスト/研修/内製化』の語彙が自然に接続する稀有な整合日(教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『外部支出→内製化に置換』のフレームに乗る)。前日 08-01 ecosystem との差別化: 昨日は『5リポを1つのAI skill配布経済圏に位置づける』のレイヤ立体構造、本日は『5リポを1つのコスト削減ポートフォリオに位置づける』の事業KPI立体構造。日曜(Sun=5 avg、週内最弱曜日で7日中最低)だが、素材整合率5/5+business-angle 14d 2位 method の組合せで、少ないベース視聴でも Primary(CTO/事業判断)への説明力を最大化。narration 5本合計 266文字(55+52+53+51+55) TTS換算約54秒、opening/ending込み58秒枠内。TOP5継続率: 3/5(AI-For-Beginners 08-01 #5→08-02 #1、awesome-systematic-trading 08-01 #4→08-02 #2、reverse-skill 08-01 #1→08-02 #4)+ 新規2/5(kaneo, generative-ai-for-beginners)で日次refresh率40%、method切替(ecosystem→business-angle)と語彙総入替(レイヤ/経済圏→月額/内製化/工数)で3日連続TOP5素材の疲労を回避。",
+    "method": "ecosystem",
+    "description": "本日のTOP5(microsoft/AI-For-Beginners #1・usekaneo/kaneo #2・lyogavin/airllm #3・iv-org/invidious #4・codecrafters-io/build-your-own-x #5)を『どのOSSエコシステムに位置するか』の生態系マップで料理する ecosystem angle。#1 AI-For-Beginners=ML/DS/Web-Dev/Gen AIと連なるMicrosoftの'*-For-Beginners'教材群の中核+Azure AI導線。#2 kaneo=Plane/Focalboard/Vikunja/OpenProjectが並ぶJira代替セルフホストPM OSS群にMIT・軽量派として着地。#3 airllm=Ollama/llama.cpp/vLLMが占めるローカルLLM生態系に4GB GPUで70B/405B動作を実現する層別推論という新レイヤを追加。#4 invidious=Piped/FreeTube/NewPipeが並ぶ脱Google動画フロントエンド群の代表格でCrystal製セルフホストミラーを提供。#5 build-your-own-x=The Odin Project/roadmap.sh/freeCodeCampが並ぶ実践型学習エコシステムに500超の自作系実装ガイドを差し込む索引役。method選定: 直近5日 08-02 business-angle/07-31 comparison/07-30 business-angle/07-29 ecosystem(5日前)/07-28 trend-pattern。14d Method 別avg views で ecosystem 1位(2.67 n=3)、stack-migration 2位(2.00 n=1)、business-angle 3位(1.75 n=4)。exploit で 14d TOP method の ecosystem を選択(business-angle は 08-02 に採用直近ゆえ休息)。全期間 avg でも ecosystem は 1.88 (n=16) で 2位安定、直近3週で ecosystem 採用日(07-22/07-26/07-29) は 2/2/3 と平均 2.33 で他 method より優位。5素材の整合率: 5/5(教材ファミリー中核+PM OSS群+ローカルLLM群+動画フロント群+学習OSS群) と稀有な高さ。ecosystem angle は Primary(CTO/事業判断) が『採用検討 OSS の代替候補と競合勢力図』を一枚で把握するのに直接効くフレームで、単発 tech-deep より意思決定資料に近い。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle は昨日 08-02 で消化済み、③self-experiment は 07-25 消化済み、週次比率健全。narration 5本合計 296文字(60+60+57+58+61) TTS +30% で約49-53秒、opening/ending 5秒込み55秒枠内で IG Reels 60秒制約クリア。前日 08-02 との差別化: 昨日 business-angle は『5リポを外部支出→内製化のコストKPIポートフォリオに位置づける』事業KPI立体構造、本日 ecosystem は『5リポを周辺OSS勢力図の座標上に位置づける』競合マップ立体構造で、視聴者側の脳内フレームを180度切替。TOP5継続率 2/5(AI-For-Beginners 08-02 #1→08-03 #1、kaneo 08-02 #3→08-03 #2)+新規3/5(airllm/invidious/build-your-own-x)で40%継続維持、method 切替(business-angle→ecosystem)と語彙総入替(月額/内製化/工数 → 生態系/勢力図/座標/導線)で連日視聴者の疲労回避。前日 WORST3 に 08-02 が入った(views 0)反省として、Sundayオーガニック弱含み+business-angle 5日で3回連続採用の疲労説を採用し、月曜は視聴者に新鮮な frame(ecosystem 5日ぶり)で回復狙い。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/microsoft/AI-For-Beginners",
-      "https://github.com/paperswithbacktest/awesome-systematic-trading",
       "https://github.com/usekaneo/kaneo",
-      "https://github.com/zhaoxuya520/reverse-skill",
-      "https://github.com/microsoft/generative-ai-for-beginners"
+      "https://github.com/lyogavin/airllm",
+      "https://github.com/iv-org/invidious",
+      "https://github.com/codecrafters-io/build-your-own-x"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "AI-For-Beginners",
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "language": "Jupyter Notebook",
-      "stars": 57064,
-      "todayStars": 869,
-      "description": "AI人材育成の内製化に使える教材",
-      "detail": "Microsoft公式の12週間・24レッスンのAIカリキュラムです。ニューラルネット、コンピュータビジョン、NLP、AI倫理までカバーし、社内研修や新人エンジニア育成にそのまま転用して外部研修費を圧縮できます。",
-      "narration": "Microsoft公式のAI教育カリキュラムです。24レッスンを社内研修に転用すれば外部研修費を圧縮できます。"
+      "stars": 58932,
+      "todayStars": 2617,
+      "description": "Microsoft入門教材群の中核",
+      "detail": "Microsoft公式の12週間・24講AI教材です。ML-For-BeginnersやGen AI-For-Beginnersと連なる同社の\"*-For-Beginners\"教材群の中核で、Azure AIサービスへの導線として機能します。",
+      "narration": "Microsoft入門教材ファミリーの中核です。ML/DS/Gen AI教材と連携しAzure AIまで導線を作れます。"
     },
     {
       "rank": 2,
-      "fullName": "paperswithbacktest/awesome-systematic-trading",
-      "name": "awesome-systematic-trading",
-      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "language": "Python",
-      "stars": 12216,
-      "todayStars": 529,
-      "description": "量的トレードOSSの内製化リスト",
-      "detail": "量的トレード関連の97個のOSSと55冊の書籍を機能別に分類したリスト集です。バックテスト、取引所API、リスク管理まで要素技術を外注せず選定でき、フィンテック企業の内製化調査を丸1日短縮できます。",
-      "narration": "量的トレードOSSを97種類まとめた宝庫です。ヘッジファンド外注前に内製化の選択肢を素早く検討できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "usekaneo/kaneo",
       "name": "kaneo",
       "url": "https://github.com/usekaneo/kaneo",
       "language": "TypeScript",
-      "stars": 5651,
-      "todayStars": 778,
-      "description": "Jira代替のセルフホストPM",
-      "detail": "MITライセンスの軽量プロジェクト管理OSSです。DockerやKubernetesで自社サーバに載せられ、JiraやLinearの月額SaaS費を削減しつつ、機能過多を避けたい小規模スタートアップに向いています。",
-      "narration": "Jira代替のセルフホスト型プロジェクト管理OSSです。月額のSaaS費を削り自社データを手元に置けます。"
+      "stars": 6103,
+      "todayStars": 491,
+      "description": "Jira代替PM OSS群の軽量派",
+      "detail": "MITライセンスの軽量セルフホスト型プロジェクト管理OSSです。PlaneやFocalboard、Vikunja、OpenProjectが並ぶJira代替エコシステムに、機能を絞ったミニマル派として加わりました。",
+      "narration": "Jira代替のセルフホストPM生態系の新星です。Plane、Focalboard、Vikunjaと並び軽量派を占めます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "lyogavin/airllm",
+      "name": "airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "language": "Jupyter Notebook",
+      "stars": 25598,
+      "todayStars": 963,
+      "description": "ローカルLLMランタイム群の新機軸",
+      "detail": "低スペックGPUで巨大LLMを走らせるApache 2.0ライブラリです。Ollamaやllama.cpp中心のローカルLLM生態系に、4GBメモリで70B・405Bを動かす層別推論という新レイヤを持ち込みます。",
+      "narration": "ローカルLLMランタイム群の新機軸です。Ollamaやllama.cppと並び4GB GPUで70Bを走らせます。"
     },
     {
       "rank": 4,
-      "fullName": "zhaoxuya520/reverse-skill",
-      "name": "reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "language": "PowerShell",
-      "stars": 11829,
-      "todayStars": 1360,
-      "description": "AI Agentに配るセキュリティ",
-      "detail": "Claude CodeやCursorなどのAIエージェントに40超のCTFスキルとツール選択の指針を配るMCPルーターです。APK解析からペネトレテストまで、社内セキュリティ調査の工数を大幅に圧縮できます。",
-      "narration": "AIエージェントにセキュリティ調査スキルを配るルーターです。人手の脆弱性診断工数を大幅に削減できます。"
+      "fullName": "iv-org/invidious",
+      "name": "invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "language": "Crystal",
+      "stars": 21958,
+      "todayStars": 307,
+      "description": "脱YouTubeフロントの代表格",
+      "detail": "YouTubeのプライバシー配慮代替フロントエンドです。PipedやFreeTube、NewPipeが並ぶ脱Google動画エコシステムの代表格で、Crystal製・セルフホスト可能で自社ミラーも構築できます。",
+      "narration": "脱YouTubeフロントエンドの代表格です。PipedやFreeTubeと並ぶ広告なし動画基盤を自前で運用できます。"
     },
     {
       "rank": 5,
-      "fullName": "microsoft/generative-ai-for-beginners",
-      "name": "generative-ai-for-beginners",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "language": "Jupyter Notebook",
-      "stars": 114170,
-      "todayStars": 104,
-      "description": "Gen AI研修を丸ごと内製化",
-      "detail": "Microsoft公式のGen AI開発21レッスン教材です。Azure、OpenAI、Foundry Localのオフライン実行までカバーし、外部研修に払っている費用を丸ごと自社に取り戻して育成を内製化できます。",
-      "narration": "Gen AI開発の21レッスン公式教材です。Azureやオフライン実行にも対応し社内研修を丸ごと内製できます。"
+      "fullName": "codecrafters-io/build-your-own-x",
+      "name": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "language": "Markdown",
+      "stars": 534782,
+      "todayStars": 710,
+      "description": "500超の自作系OSS学習索引",
+      "detail": "500超の\"○○を自作しよう\"実装ガイドを集めたリポジトリです。The Odin Projectやroadmap.sh、freeCodeCampが並ぶ実践型学習エコシステムで、要素技術を根本から学ぶ索引の役割を担います。",
+      "narration": "自作系学習OSS群の総合索引です。The Odin Projectやroadmap.shと組み技術を根本から学べます。"
     }
   ]
 }

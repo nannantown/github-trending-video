@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-02",
-  "basedOnVideos": 14,
+  "updatedAt": "2026-08-03",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -23,6 +23,7 @@
       { "language": "Go", "multiplier": 0.9 },
       { "language": "PowerShell", "multiplier": 0.9 },
       { "language": "Jupyter Notebook", "multiplier": 0.9 },
+      { "language": "Crystal", "multiplier": 0.8 },
       { "language": "C++", "multiplier": 0.8 },
       { "language": "Java", "multiplier": 0.8 },
       { "language": "Ruby", "multiplier": 0.8 },
@@ -32,79 +33,78 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-20〜08-01, n=12): ecosystem 2.67 n=3 TOP / business-angle 2.33 n=3 / stack-migration 2.00 n=1 / trend-pattern 1.00 n=2 / self-experiment 1.00 n=1 / comparison 0.50 n=2 (07-31 comparison=0 は投稿翌朝で計測中、08-01 ecosystem は当日投稿・未計上)。全期間: trend-pattern 2.58 n=12 / ecosystem 2.06 n=17 / stack-migration 2.00 n=1 / comparison 1.89 n=18 / business-angle 1.67 n=15 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (07-31 comparison / 08-01 ecosystem) 連投ルールで両者除外、残る候補で 14d avg 2.33 n=3 の business-angle を採用 (14d 2位、ecosystem に次ぐ champion tier)。素材整合率 5/5 で『事業/コスト/研修/内製化』の語彙が自然接続する稀有な日 (教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『外部支出→内製化に置換』フレーム)。前日 08-01 ecosystem と語彙を『レイヤ/経済圏』から『月額/内製化/工数』に完全切替して method 連投ペナルティ回避。日曜日 (Sun=5 avg、週内最弱曜日で7日中最低) だが 5リポ整合率高い日は素材の説明力で押す。"
+      "note": "Method 別 14d (2026-07-20〜08-02, n=13): ecosystem 2.67 n=3 TOP / stack-migration 2.00 n=1 / business-angle 1.75 n=4 / comparison 1.50 n=2 / trend-pattern 1.00 n=2 / self-experiment 1.00 n=1 / tech-deep n=0 / use-case n=0。全期間 (n=80): comparison 2.00 n=18 / stack-migration 2.00 n=1 / ecosystem 1.88 n=16 / trend-pattern 1.64 n=11 / business-angle 1.56 n=16 / use-case 1.50 n=6 / self-experiment 1.12 n=8 / tech-deep 0.75 n=4。直近 2 日 (08-02 business-angle / 07-31 comparison) 連投ルールで両者除外、残る候補で 14d avg 2.67 n=3 の ecosystem を採用 (14d TOP、全期間 2 位安定、前回採用 07-29 から 5 日空き)。素材整合率 5/5 (教材群中核 + PM OSS群 + ローカル LLM 群 + 動画フロント群 + 自作系学習 OSS 群) の稀有な日。前日 08-02 business-angle と語彙を『月額/内製化/工数/削減』から『生態系/勢力図/座標/導線』に完全切替して 3 日連続 business-angle 語彙による視聴者疲労を回避。月曜 (Mon=61 avg、週内 2 位) で日曜 (Sun=5) からの回復期待。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は日曜 (Sun=5 avg、週内最弱曜日で7日中最低)、Primary (CTO/技術選定) の週次リセット枠で視聴数の絶対値は最低。business-angle 角度で『コスト削減ポートフォリオの5レイヤ』というKPI立体化により素材の説明力で押す"
+      "本日は月曜 (Mon=61 avg、週内 2 位、日曜比 12 倍)、Primary (CTO/技術選定) の週初め枠。ecosystem 角度で『5 リポを周辺 OSS 勢力図の座標上に位置づける』競合マップ立体化により、意思決定資料として二次利用しやすい構造で押す"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5リポを1つのコスト削減ポートフォリオに位置づける』。5本のKPIマッピング: #AI_For_Beginners=AI人材育成コスト層 (外部研修費) / #awesome_systematic_trading=フィンテック内製化調査コスト層 (コンサル外注) / #kaneo=SaaSサブスクコスト層 (Jira/Linear月額) / #reverse_skill=セキュリティ調査工数層 (人手の脆弱性診断) / #generative_ai_for_beginners=Gen AI研修費層 (外部Gen AI研修)",
-      "言語タグは Jupyter Notebook 2 + Python 1 + TypeScript 1 + PowerShell 1 の 4 言語ミックス。Python (1.2x) 上位 + TypeScript (1.1x) 上位 + Jupyter Notebook (0.9x) 2本 + PowerShell (0.9x)。教育/研修受託と SaaS 費削減の両層に届く",
-      "business-angle 角度の独自 hashtag: #business_angle #コスト削減 #内製化 #外部研修 #SaaS費 #DX #受託 #CTO #スタートアップ #Microsoft #Jupyter #PyTorch #TensorFlow #systematic_trading #Zipline #Backtrader #vectorbt #Freqtrade #Jira代替 #Linear代替 #セルフホスト #MIT #Claude_Code #Cursor #Codex #MCP #CTF #APK #セキュリティ #ペネトレテスト #Azure #OpenAI #Foundry_Local"
+      "ecosystem 角度の核心は『5 リポを 1 枚の勢力図に位置づける』。5 本のマッピング: #AI_For_Beginners=Microsoft *-For-Beginners 教材ファミリー中核 (ML/DS/Web-Dev/Gen AI) + Azure AI 導線 / #kaneo=Jira 代替セルフホスト PM 生態系 (Plane/Focalboard/Vikunja/OpenProject) の軽量派 / #airllm=ローカル LLM ランタイム生態系 (Ollama/llama.cpp/vLLM) に 4GB GPU で 70B/405B 動作の層別推論レイヤを追加 / #invidious=脱 Google 動画フロントエンド群 (Piped/FreeTube/NewPipe) の代表格・Crystal 製セルフホストミラー / #build_your_own_x=実践型学習エコシステム (The Odin Project/roadmap.sh/freeCodeCamp) の 500 超自作系実装ガイド索引",
+      "言語タグは Jupyter Notebook 2 + TypeScript 1 + Crystal 1 + Markdown 1 の 4 言語ミックス。TypeScript (1.1x) 上位 + Markdown (1.0x) 中位 + Jupyter Notebook (0.9x) 2 本 + Crystal (0.8x)。動画基盤・学習カタログ・LLM 推論・PM ツールの 4 領域に届く",
+      "ecosystem 角度の独自 hashtag: #ecosystem #生態系 #勢力図 #競合マップ #代替候補 #セルフホスト #Microsoft #Azure_AI #Jira代替 #Linear代替 #Plane #Focalboard #Vikunja #OpenProject #Ollama #llama_cpp #vLLM #ローカルLLM #Piped #FreeTube #NewPipe #Invidious #Crystal #The_Odin_Project #roadmap_sh #freeCodeCamp #自作系 #実装ガイド #技術選定 #CTO #スタートアップ #OSS #MIT #Apache2"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (58 秒枠)。5 本合計 266 文字 (55+52+53+51+55)、TTS で約 54 秒、opening/ending と合わせて 58 秒枠内。個別上限 55 文字で 40-60 レンジ内。08-01 の 248 文字より 18 文字追加は business-angle の『効果 (削減対象の具体語)』を各本に埋めるため",
-      "business-angle 角度の一貫性: 5 本すべての narration に『〇〇を圧縮/削減/内製化できます』のコスト削減骨格を反復。KPI名 (外部研修費・ヘッジファンド外注・月額SaaS費・脆弱性診断工数・社内研修) を明示し、視聴者に『Trending の 5 本が 1 つのコスト削減ポートフォリオを形成する』を KPI 構造で伝える。1 本目『AI教育を24レッスンで内製化』、2 本目『量的トレード97 OSS 選定』、3 本目『Jira/Linear 月額削減』、4 本目『セキュリティ工数削減』、5 本目『Gen AI 21レッスンで内製化』で各レイヤの中身を別語彙で提示",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『どのコスト (KPI) が / どの repo で / どう削減されるか』の三点セットを明示、単発リポ紹介を避けて『今週のコスト削減 5 レイヤ』を打ち出す",
-      "数値表現はアラビア数字統一 (24 レッスン、97 種類、21 レッスン)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 294 文字 (60+60+57+58+59)、TTS +30% で約 49-53 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 60 文字 x 2 本)。前日 266 文字より 28 文字追加は ecosystem の『周辺 OSS 3-4 個を具体名で列挙』のため",
+      "ecosystem 角度の一貫性: 5 本すべての narration に『〇〇群/生態系/エコシステム』の座標語彙 +『周辺 OSS 3 個を具体名で列挙』の骨格を反復。1 本目『ML/DS/Gen AI 教材ファミリー中核 + Azure AI 導線』、2 本目『Plane/Focalboard/Vikunja と並び軽量派』、3 本目『Ollama/llama.cpp と並び 4GB GPU で 70B』、4 本目『Piped/FreeTube と並ぶ広告なし動画基盤』、5 本目『The Odin Project/roadmap.sh と組み技術を根本から』で、視聴者が『Trending の 5 本を 1 枚の勢力図に配置できる』を語彙で伝える",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『どの周辺 OSS が / どの座標に / どう並ぶか』の三点セットを明示、単発 tech-deep よりも競合勢力図としての意思決定情報を優先",
+      "数値表現はアラビア数字統一 (12 週間、24 講、4GB、70B、500 超)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Plane/Focalboard/Vikunja/Ollama/llama.cpp/Piped/FreeTube/The Odin Project/roadmap.sh) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (14d avg 2.33 n=3 の champion tier、全期間 avg 1.67 n=15 の中位だが 14d で急上昇、直近 2 日連投ルールで ecosystem/comparison 除外時の actionable exploit 2位、5/5 素材が『外部支出→内製化に置換』フレームに乗る稀有な整合日、Sun 曜日 avg 5 の週内最弱曜日補正)。日曜 (Sun=5 avg) は視聴数の絶対値が最低だが、素材整合率 5/5 の稀有な日で角度の説明力を最大化する",
-      "本日 08-02 TOP5: #1 microsoft/AI-For-Beginners=Jupyter Notebook / 57,064★ / +869 [継続 (08-01 では #5)・Microsoft公式12週24講、Symbolic AI/NN/CV/NLP/RL/AI 倫理、Jupyter + PyTorch + TensorFlow + Keras + OpenCV、50+ 言語翻訳、Microsoft Learn 統合、MIT・外部研修費の代替として社内転用可]、#2 paperswithbacktest/awesome-systematic-trading=Python / 12,216★ / +529 [継続 (08-01 では #4)・97 ライブラリ + 40 戦略 + 55 書籍 + 23 動画、VNPy/Zipline/Backtrader/Freqtrade/yfinance/CCXT/Jesse/OpenBB Terminal/nautilus_trader/HFTBacktest など backtest/data source/live trading 別に整理・フィンテック内製化調査を1日短縮]、#3 usekaneo/kaneo=TypeScript / 5,651★ / +778 [新規流入・MITライセンス、Docker/Kubernetes(Helm)/drim CLI でセルフホスト、Kanban ワークフロー、Jira/Linear 月額 SaaS 費を削減する軽量プロジェクト管理]、#4 zhaoxuya520/reverse-skill=PowerShell / 11,829★ / +1,360 [継続 (08-01 では #1)・APK/CTF/malware/binary/frontend JS暗号化など20以上の場面に手順を自動routing、MASTER-ROUTING.md ラダー、Claude Code/Cursor/Cline/Kiro/Codex 対応、40+ CTF sub-skills、MIT (一部 GPLv3)・社内セキュリティ調査工数の圧縮]、#5 microsoft/generative-ai-for-beginners=Jupyter Notebook / 114,170★ / +104 [新規流入・Microsoft公式21レッスン、Azure OpenAI/OpenAI API/Foundry Local(オフライン)/.NET Edition、RAG/AI Agents/fine-tuning/SLM/Mistral/Meta、Discord/開発者フォーラム・外部 Gen AI 研修費を丸ごと内製化]",
-      "本日の business-angle 核: 5 本を『コスト削減ポートフォリオの 5 レイヤ』としてKPI立体化し、視聴者に『Trending の 5 本が 1 つのコスト削減ポートフォリオを階層で形成する』を提示。冒頭フックは『今週の Trending は「コスト削減ポートフォリオの5レイヤ」パターン。外部研修・コンサル外注・SaaS費・セキュリティ工数・Gen AI 研修、順にレイヤを見ます』",
-      "Primary (CTO/技術選定) には『2026 年コスト削減の 5 レイヤ地図』として、Secondary (PdM/事業責任者) には『どの外部支出を内製化に置き換えるか俯瞰チェックリスト』として、Tertiary (学習中) には『AI 教育・セキュリティ・PM・トレードの全体像』として 3 層直撃",
-      "連投上限ルール: 14d 内 ecosystem=07-22/07-26/07-29/08-01 の 4 件残 (08-02 見送りで維持)、business-angle=07-23/07-27/07-30 の 3 件残 (本日 08-02 投入で 4 件、07-18 が窓外脱落済で実質 3 件→4 件へ)、comparison=07-20/07-31 の 2 件残 (08-03 まで維持)、trend-pattern=07-21/07-28 の 2 件残 (08-04 まで維持)、self-experiment=07-25 の 1 件残、stack-migration=07-24 の 1 件残、use-case=0 件 (14d 圏外脱落継続、8月第1週で explore 枠 1回試行推奨)、tech-deep=0 件"
+      "本日の discovery.method は `ecosystem` (14d avg 2.67 n=3 の TOP、全期間 avg 1.88 n=16 の 2 位安定、直近 2 日連投ルールで business-angle/comparison 除外時の actionable exploit 1 位、5/5 素材が『周辺 OSS 群の座標上に位置づく』構造に自然に乗る稀有な整合日、Mon 曜日 avg 61 の週内 2 位補正)。月曜 (Mon=61 avg) は日曜 (Sun=5) からの回復期待、frame 総入替と組合わせて視聴者疲労リセット",
+      "本日 08-03 TOP5: #1 microsoft/AI-For-Beginners=Jupyter Notebook / 58,932★ / +2,617 [継続 (08-02 では #1)・Microsoft 公式 12 週 24 講 AI 教材、ML-For-Beginners/Data-Science-For-Beginners/Web-Dev-For-Beginners/IoT-For-Beginners/Gen AI-For-Beginners と連なる *-For-Beginners ファミリー中核、Azure AI サービスへの導線、MIT]、#2 usekaneo/kaneo=TypeScript / 6,103★ / +491 [継続 (08-02 では #3)・軽量セルフホスト PM、MIT、Docker/K8s (Helm)/drim CLI 展開、Plane/Focalboard/Vikunja/OpenProject が並ぶ Jira 代替セルフホスト PM 生態系のミニマル派]、#3 lyogavin/airllm=Jupyter Notebook / 25,598★ / +963 [新規流入・Apache 2.0、4GB GPU で 70B/405B/671B DeepSeek-V3 動作を実現する層別推論 (layer-wise decomposition + block-wise compression)、Ollama/llama.cpp/vLLM が並ぶローカル LLM ランタイム生態系に新レイヤを追加]、#4 iv-org/invidious=Crystal / 21,958★ / +307 [新規流入・YouTube プライバシー配慮代替フロントエンド、Crystal 製、Piped/FreeTube/NewPipe が並ぶ脱 Google 動画エコシステムの代表格、セルフホストミラー可能]、#5 codecrafters-io/build-your-own-x=Markdown / 534,782★ / +710 [新規流入・500 超の \"○○を自作しよう\" 実装ガイド集、The Odin Project/roadmap.sh/freeCodeCamp が並ぶ実践型学習エコシステムの索引役、要素技術を根本から学ぶ資源]",
+      "本日の ecosystem 核: 5 本を『Trending の 5 本 = 5 個の異なる OSS 生態系の中核座標』としてマップ化し、視聴者に『採用検討 OSS の代替候補と競合勢力図を一枚で把握できる』を提示。冒頭フックは『今日の Trending は「5 つの異なる OSS 生態系」パターン。教育・PM・ローカル LLM・動画フロント・実装ガイドの 5 生態系、順に勢力図を見ます』",
+      "Primary (CTO/技術選定) には『代替候補と競合勢力図の座標マップ』として、Secondary (PdM/事業責任者) には『5 つの技術領域の勢力図一望チェックリスト』として、Tertiary (学習中) には『AI 教育・PM・LLM・動画基盤・自作学習の全体像』として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=07-22/07-26/07-29 の 3 件残 (本日 08-03 投入で 4 件、7 月上旬の窓外脱落で実質維持)、business-angle=07-23/07-27/07-30/08-02 の 4 件残 (08-03 見送りで維持、明日以降 8/15 の 07-23 窓外脱落まで 4 件維持)、comparison=07-20/07-31 の 2 件残 (08-04 に 07-20 が窓外脱落予定)、trend-pattern=07-21/07-28 の 2 件残 (08-05 に 07-21 が窓外脱落予定)、self-experiment=07-25 の 1 件残、stack-migration=07-24 の 1 件残、use-case=0 件 (14d 圏外脱落継続、8 月第 1 週内に explore 枠 1 回試行推奨)、tech-deep=0 件 (14d 圏外脱落継続)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-02",
-    "dayOfWeek": "Sun",
+    "date": "2026-08-03",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "business_angle",
-      "コスト削減",
-      "内製化",
-      "外部研修",
-      "SaaS費",
-      "DX",
-      "受託",
+      "ecosystem",
+      "生態系",
+      "勢力図",
+      "競合マップ",
+      "代替候補",
+      "セルフホスト",
+      "技術選定",
       "CTO",
       "スタートアップ",
       "Microsoft",
-      "Jupyter",
-      "PyTorch",
-      "TensorFlow",
-      "systematic_trading",
-      "Zipline",
-      "Backtrader",
-      "vectorbt",
-      "Freqtrade",
+      "Azure_AI",
       "Jira代替",
       "Linear代替",
-      "セルフホスト",
+      "Plane",
+      "Focalboard",
+      "Vikunja",
+      "OpenProject",
+      "Ollama",
+      "llama_cpp",
+      "vLLM",
+      "ローカルLLM",
+      "Piped",
+      "FreeTube",
+      "NewPipe",
+      "Invidious",
+      "Crystal",
+      "The_Odin_Project",
+      "roadmap_sh",
+      "freeCodeCamp",
+      "自作系",
+      "実装ガイド",
       "MIT",
-      "Claude_Code",
-      "Cursor",
-      "Codex",
-      "MCP",
-      "CTF",
-      "APK",
-      "セキュリティ",
-      "ペネトレテスト",
-      "Azure",
-      "OpenAI",
-      "Foundry_Local",
+      "Apache2",
       "AI_For_Beginners",
-      "awesome_systematic_trading",
       "kaneo",
-      "reverse_skill",
-      "generative_ai_for_beginners",
-      "技術選定"
+      "airllm",
+      "invidious",
+      "build_your_own_x"
     ],
-    "focus": "日曜 (Sun=5 avg、週内最弱曜日で7日中最低) は視聴数の絶対値が最低だが、素材整合率 100% の稀有な日。`business-angle` (14d avg 2.33 n=3 の champion tier、全期間 avg 1.67 n=15、直近 2 日連投ルールで ecosystem/comparison 除外時の actionable exploit 2位) を投入。5/5 素材 (AI-For-Beginners / awesome-systematic-trading / kaneo / reverse-skill / generative-ai-for-beginners) が『外部支出→内製化に置換』フレームに乗る稀有な整合日。教材2本+PM OSS+セキュリティエージェント+クオント目録、全て『事業のコストラインをどう削るか』の一貫した business-angle で切れる。本日の TOP5 は 2/5 新規 (kaneo, generative-ai-for-beginners)、3/5 継続 (AI-For-Beginners: 08-01 #5→08-02 #1、awesome-systematic-trading: 08-01 #4→08-02 #2、reverse-skill: 08-01 #1→08-02 #4) で日次 refresh 率 40%、method 切替 (ecosystem→business-angle) + 語彙総入替 (レイヤ/経済圏 → 月額/内製化/工数) で3日連続 TOP5 素材の視聴者疲労を回避。継続3本は 07-31 → 08-01 → 08-02 の3日連続 TOP5 で avoid ライン到達、明日 08-03 は継続比率 1本以下に絞り素材リフレッシュ予定。narration は 5 本すべてに『〇〇を圧縮/削減/内製化できます』のコスト削減骨格を反復、5 本合計 266 文字 (55+52+53+51+55) で TTS 換算約 54 秒、opening/ending 込み 58 秒枠。前日 08-01 の 248 文字より 18 文字追加は business-angle の『効果 (削減対象の具体語)』埋め込みのため。business-angle 語彙 (コスト/月額/内製化/工数/削減) と各リポの固有事実 (24レッスン + Symbolic AI/NN/CV/NLP + 50言語翻訳 / 97ライブラリ + 40戦略 + 55書籍 + backtest/data/live 別 / MIT + Docker/K8s(Helm)/drim CLI + Kanban + Jira/Linear 代替 / 20以上の場面 + MASTER-ROUTING + Claude Code/Cursor/Cline/Kiro/Codex + 40+ CTF sub-skills / 21レッスン + Azure/OpenAI/Foundry Local + RAG/Agents/fine-tuning/SLM) を全 5 本に埋めて README 読み上げレベルを回避。柱② (business-angle) を本日投入、今週の柱① 消化済 (08-01 ecosystem)、柱③ (07-25 self-experiment) 消化済で週次ノルマ達成、柱④ (07-28 trend-pattern) 消化済。08-03 (月曜) 以降は use-case explore 枠差し込みで 14d 圏外脱落分の data 補充を予定。前日 08-01 ecosystem の 48h 後 views 本評価 (08-03) 待ち、07-31 comparison の 48h 後 views 本評価 (08-02) 待ち。継続 3 本 (AI-For-Beginners/awesome-systematic-trading/reverse-skill) は 07-31 → 08-01 → 08-02 で 3 日連続 TOP5・avoid ライン到達、明日 08-03 は継続比率 1本以下に絞る予定。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "月曜 (Mon=61 avg、週内 2 位、日曜比 12 倍) は日曜 (Sun=5) からの視聴回復期待日。`ecosystem` (14d avg 2.67 n=3 の TOP、全期間 avg 1.88 n=16 の 2 位安定、直近 2 日連投ルールで business-angle/comparison 除外時の actionable exploit 1 位) を投入。5/5 素材 (AI-For-Beginners / kaneo / airllm / invidious / build-your-own-x) が『それぞれ異なる OSS 生態系の中核座標に位置づく』構造に自然に乗る稀有な整合日。Microsoft *-For-Beginners 教材ファミリー + Jira 代替 PM 群 + ローカル LLM ランタイム群 + 脱 Google 動画フロント群 + 実践型学習エコシステムの 5 生態系、全て『採用検討 OSS の代替候補と競合勢力図を一枚で把握』の一貫した ecosystem angle で切れる。本日の TOP5 は 3/5 新規 (airllm, invidious, build-your-own-x)、2/5 継続 (AI-For-Beginners: 08-02 #1→08-03 #1、kaneo: 08-02 #3→08-03 #2) で日次 refresh 率 60%、method 切替 (business-angle→ecosystem) + 語彙総入替 (月額/内製化/工数/削減 → 生態系/勢力図/座標/導線) で 3 日連続 business-angle 語彙による視聴者疲労を回避。継続 2 本は 08-02 → 08-03 の 2 日連続 TOP5 で avoid ラインには未達、明日 08-04 も継続 2 本は許容範囲。narration は 5 本すべてに『〇〇群/生態系/エコシステム』の座標語彙 +『周辺 OSS 3 個を具体名で列挙』の骨格を反復、5 本合計 294 文字 (60+60+57+58+59) で TTS 換算約 49-53 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。前日 08-02 の 266 文字より 28 文字追加は ecosystem の『周辺 OSS 3-4 個を具体名で列挙』埋め込みのため。ecosystem 語彙 (生態系/勢力図/座標/導線/軽量派/新機軸/代表格/索引) と各リポの固有事実 (Microsoft 12 週 24 講 + ML/DS/Web-Dev/Gen AI ファミリー + Azure AI 導線 / MIT + Docker/K8s (Helm)/drim CLI + Plane/Focalboard/Vikunja/OpenProject 代替 / Apache 2.0 + 4GB GPU で 70B/405B + 層別推論 + Ollama/llama.cpp/vLLM 生態系 / Crystal + Piped/FreeTube/NewPipe 並列 + セルフホストミラー / 500 超実装ガイド + The Odin Project/roadmap.sh/freeCodeCamp 生態系) を全 5 本に埋めて README 読み上げレベルを回避。柱① (GitHub Trending 解説 70%) を本日投入、今週の柱② (business-angle 08-02 消化済)、柱③ (self-experiment 07-25 消化済)、柱④ (trend-pattern 07-28 消化済) で週次ノルマ達成。08-04 (火) 以降は comparison / use-case explore 枠差し込みで 14d 圏外脱落分の data 補充を予定。前日 08-02 business-angle の 48h 後 views 本評価 (08-04) 待ち、08-01 ecosystem の 48h 後 views 本評価 (08-03) 待ち。継続 2 本 (AI-For-Beginners/kaneo) は 08-02 → 08-03 で 2 日連続 TOP5・avoid ラインには未達。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
