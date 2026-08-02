@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "QnxVLFE5-Wg",
-      "videoUrl": "https://youtube.com/shorts/QnxVLFE5-Wg",
-      "date": "2026-05-03",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/03 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript",
-        "JavaScript",
-        "Batchfile"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "JavaScript",
-        "Batchfile"
-      ],
-      "projects": [
-        "TauricResearch/TradingAgents",
-        "ruvnet/ruflo",
-        "browserbase/skills",
-        "soxoj/maigret",
-        "Flowseal/zapret-discord-youtube"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "use-case",
-        "description": "今日のTOP5を5つの完全に異なるユーザー像(個人クオンツ/受託開発チーム/Webスクレイピング受託・QA/採用調査・脅威インテリ/通信規制環境ユーザー)で料理し、各OSSが『誰の・どんな現場で・何を吸収するか』を1動画で持ち帰れる構成にする。直近2日連続禁則(05/02 trend-pattern / 05/01 ecosystem)を回避し、Method別TOP3の残候補(comparison 8.0 avg / business-angle 7.3 avg)も同ラインナップ連投リスクから外し、未投入のuse-case角度をSun=9 avgの最低曜日(損失最小)に投入するexplore枠20%。Method×曜日マトリクスでuse-case×Sunセルを母数0→1で新規開拓するメタPDCA価値を併設。重複2本(TradingAgents・maigret)は05/02 trend-pattern角度『業務役割のマクロOSS化』から本日use-case角度『ペルソナ別の実働シーン』へ語彙完全切替で04/24-25 / 04/29-30型の同method×同ラインナップ連投ペナルティを構造的に回避。新規3本(ruflo・browserbase/skills・zapret-discord-youtube)で『個人クオンツ・受託・Web受託・調査員・規制環境ユーザー』の5ペルソナを明確に分割。Sun=9 avg帯のため、最低3 views、理想30 views(Sun過去最高8を超えること)で評価。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/TauricResearch/TradingAgents",
-          "https://github.com/ruvnet/ruflo",
-          "https://github.com/browserbase/skills",
-          "https://github.com/soxoj/maigret",
-          "https://github.com/Flowseal/zapret-discord-youtube"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 3,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-17T23:44:21.110Z"
-      }
-    },
-    {
       "videoId": "IcKjfHDqYC0",
       "videoUrl": "https://youtube.com/shorts/IcKjfHDqYC0",
       "date": "2026-05-04",
@@ -3775,7 +3719,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -3832,7 +3776,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -3888,7 +3832,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -3944,7 +3888,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4000,7 +3944,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4055,7 +3999,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4112,7 +4056,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4167,7 +4111,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4222,7 +4166,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4279,7 +4223,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4334,7 +4278,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4390,7 +4334,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-01T23:44:58.085Z"
+        "updatedAt": "2026-08-02T23:46:03.237Z"
       }
     },
     {
@@ -4443,6 +4387,65 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-02T23:46:03.237Z"
+      }
+    },
+    {
+      "videoId": "3bGFbTr3Hdg",
+      "videoUrl": "https://youtube.com/shorts/3bGFbTr3Hdg",
+      "date": "2026-08-03",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/03 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "JavaScript",
+        "Java",
+        "CSS",
+        "Jupyter Notebook",
+        "TypeScript",
+        "Crystal",
+        "Markdown"
+      ],
+      "languages": [
+        "Jupyter Notebook",
+        "TypeScript",
+        "Crystal",
+        "Markdown"
+      ],
+      "projects": [
+        "microsoft/AI-For-Beginners",
+        "usekaneo/kaneo",
+        "lyogavin/airllm",
+        "iv-org/invidious",
+        "codecrafters-io/build-your-own-x"
+      ],
+      "durationSeconds": 54,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日のTOP5(microsoft/AI-For-Beginners #1・usekaneo/kaneo #2・lyogavin/airllm #3・iv-org/invidious #4・codecrafters-io/build-your-own-x #5)を『どのOSSエコシステムに位置するか』の生態系マップで料理する ecosystem angle。#1 AI-For-Beginners=ML/DS/Web-Dev/Gen AIと連なるMicrosoftの'*-For-Beginners'教材群の中核+Azure AI導線。#2 kaneo=Plane/Focalboard/Vikunja/OpenProjectが並ぶJira代替セルフホストPM OSS群にMIT・軽量派として着地。#3 airllm=Ollama/llama.cpp/vLLMが占めるローカルLLM生態系に4GB GPUで70B/405B動作を実現する層別推論という新レイヤを追加。#4 invidious=Piped/FreeTube/NewPipeが並ぶ脱Google動画フロントエンド群の代表格でCrystal製セルフホストミラーを提供。#5 build-your-own-x=The Odin Project/roadmap.sh/freeCodeCampが並ぶ実践型学習エコシステムに500超の自作系実装ガイドを差し込む索引役。method選定: 直近5日 08-02 business-angle/07-31 comparison/07-30 business-angle/07-29 ecosystem(5日前)/07-28 trend-pattern。14d Method 別avg views で ecosystem 1位(2.67 n=3)、stack-migration 2位(2.00 n=1)、business-angle 3位(1.75 n=4)。exploit で 14d TOP method の ecosystem を選択(business-angle は 08-02 に採用直近ゆえ休息)。全期間 avg でも ecosystem は 1.88 (n=16) で 2位安定、直近3週で ecosystem 採用日(07-22/07-26/07-29) は 2/2/3 と平均 2.33 で他 method より優位。5素材の整合率: 5/5(教材ファミリー中核+PM OSS群+ローカルLLM群+動画フロント群+学習OSS群) と稀有な高さ。ecosystem angle は Primary(CTO/事業判断) が『採用検討 OSS の代替候補と競合勢力図』を一枚で把握するのに直接効くフレームで、単発 tech-deep より意思決定資料に近い。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle は昨日 08-02 で消化済み、③self-experiment は 07-25 消化済み、週次比率健全。narration 5本合計 296文字(60+60+57+58+61) TTS +30% で約49-53秒、opening/ending 5秒込み55秒枠内で IG Reels 60秒制約クリア。前日 08-02 との差別化: 昨日 business-angle は『5リポを外部支出→内製化のコストKPIポートフォリオに位置づける』事業KPI立体構造、本日 ecosystem は『5リポを周辺OSS勢力図の座標上に位置づける』競合マップ立体構造で、視聴者側の脳内フレームを180度切替。TOP5継続率 2/5(AI-For-Beginners 08-02 #1→08-03 #1、kaneo 08-02 #3→08-03 #2)+新規3/5(airllm/invidious/build-your-own-x)で40%継続維持、method 切替(business-angle→ecosystem)と語彙総入替(月額/内製化/工数 → 生態系/勢力図/座標/導線)で連日視聴者の疲労回避。前日 WORST3 に 08-02 が入った(views 0)反省として、Sundayオーガニック弱含み+business-angle 5日で3回連続採用の疲労説を採用し、月曜は視聴者に新鮮な frame(ecosystem 5日ぶり)で回復狙い。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/microsoft/AI-For-Beginners",
+          "https://github.com/usekaneo/kaneo",
+          "https://github.com/lyogavin/airllm",
+          "https://github.com/iv-org/invidious",
+          "https://github.com/codecrafters-io/build-your-own-x"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4451,26 +4454,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-06-29",
-      "changes": [
-        "Rust: 0.7x avg views → drop",
-        "C++: 1.3x avg views → boost",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 109 avg views (76 videos)",
-        "Trending languages: Kotlin (3.6x), C++ (2.9x), Jupyter Notebook (3.6x)",
-        "Day performance: Tue=241, Fri=207, Thu=128, Wed=107, Sat=53, Mon=45, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-01",
       "changes": [
@@ -5019,6 +5002,21 @@
         "standard: 2 avg views (81 videos)",
         "Trending languages: Markdown (1.6x), C# (1.6x), Jupyter Notebook (1.4x)",
         "Day performance: Sat=3, Fri=2, Mon=2, Thu=2, Sun=1, Tue=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-02",
+      "changes": [
+        "JavaScript: 1.3x avg views → boost",
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Java: 1.4x avg views → boost",
+        "CSS: 1.4x avg views → boost",
+        "standard: 2 avg views (80 videos)",
+        "Trending languages: Markdown (1.8x), C# (1.8x), Java (1.4x), CSS (1.4x)",
+        "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Sun=1, Tue=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
