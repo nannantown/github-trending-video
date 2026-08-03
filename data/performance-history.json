@@ -2,60 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "IcKjfHDqYC0",
-      "videoUrl": "https://youtube.com/shorts/IcKjfHDqYC0",
-      "date": "2026-05-04",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/04 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python",
-        "Rust"
-      ],
-      "projects": [
-        "ruvnet/ruflo",
-        "TauricResearch/TradingAgents",
-        "soxoj/maigret",
-        "Hmbown/DeepSeek-TUI",
-        "AIDC-AI/Pixelle-Video"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "business-angle",
-        "description": "今日のTOP5を『どのSaaS月額/単価が消えるか・受託でいくら見積もるか』のROI視点で料理し、Primaryペルソナ(CTO/技術投資判断者)+ Secondaryペルソナ(事業責任者/PdM)が稟議書ベースで採用判断できる構成にする。直近2日連続禁則(05/03 use-case / 05/02 trend-pattern)を回避し、Method TOP3(ecosystem 112.7 avg / business-angle 9.3 avg / comparison 8.5 avg)からbusiness-angleをexploit枠80%で選定。ecosystemは04/28=324の単発外れ値で平均が引き上がっており、05/01=4と直近で底打ちしている上、本日の5本がそれぞれ別vertical(オーケストレーション/金融/OSINT/コーディング/動画生成)で『1つのスタック』に束ねにくい素材適合の問題を回避。business-angleは04/29-30で同ラインナップ連投の轍を踏んだが、本日は新規3本(ruflo・DeepSeek-TUI・Pixelle-Video)+ 重複2本(TradingAgents・maigret)で連投ペナルティ条件(同method+同ラインナップ重複3本以上)から外す。前回business-angle運用(04/29-30)が抽象的な『実案件で組むなら』に留まったのを反省し、本日はLangGraph Cloud / Bloomberg Terminal / Sterling・HireRight / Claude API / Synthesia・HeyGenなど具体SaaS名と月額/単価を5本すべてで明示する角度を取る。柱②(business-angle 比率15%)の週次比率目標に対し、週開始のMon(5/4)に投入することで残り6日の柱①ベース運用と整合。Mon=119 avgの中位曜日で損失リスクは中庸、稟議語彙でPrimaryペルソナへの直撃を狙う。最低15 views(過去Mon平均超え)、理想200 views(過去Mon上位帯)を評価基準とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/ruvnet/ruflo",
-          "https://github.com/TauricResearch/TradingAgents",
-          "https://github.com/soxoj/maigret",
-          "https://github.com/Hmbown/DeepSeek-TUI",
-          "https://github.com/AIDC-AI/Pixelle-Video"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-18T23:53:11.540Z"
-      }
-    },
-    {
       "videoId": "D9Wna4dwG8Q",
       "videoUrl": "https://youtube.com/shorts/D9Wna4dwG8Q",
       "date": "2026-05-05",
@@ -3719,7 +3665,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -3776,7 +3722,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -3832,7 +3778,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -3888,7 +3834,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -3944,7 +3890,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -3999,7 +3945,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4056,7 +4002,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4111,7 +4057,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4166,7 +4112,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4223,7 +4169,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4278,7 +4224,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4334,7 +4280,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4387,10 +4333,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-02T23:46:03.237Z"
+        "updatedAt": "2026-08-03T23:55:40.475Z"
       }
     },
     {
@@ -4446,6 +4392,63 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-03T23:55:40.475Z"
+      }
+    },
+    {
+      "videoId": "BeYhqq5cELU",
+      "videoUrl": "https://youtube.com/shorts/BeYhqq5cELU",
+      "date": "2026-08-04",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/04 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Jupyter Notebook",
+        "PowerShell",
+        "Go",
+        "TypeScript"
+      ],
+      "languages": [
+        "Jupyter Notebook",
+        "PowerShell",
+        "Rust",
+        "Go",
+        "TypeScript"
+      ],
+      "projects": [
+        "lyogavin/airllm",
+        "zhaoxuya520/reverse-skill",
+        "firecrawl/pdf-inspector",
+        "esengine/DeepSeek-Reasonix",
+        "TencentCloud/TencentDB-Agent-Memory"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5(lyogavin/airllm #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・esengine/DeepSeek-Reasonix #4・TencentCloud/TencentDB-Agent-Memory #5)を『類似OSSと何が違うか』の直接比較で料理する comparison angle。#1 airllm=Ollama/llama.cpp/vLLM/exllamav2との差別化点は『レイヤー単位で順次GPUに載せる層別推論』で、4GB GPU一枚で70B/405B/671B DeepSeek-V3が動く。#2 reverse-skill=Cursor Rules/Claude Skills/Kilo Codeが汎用コーディング支援なのに対し、マルウェア解析・APK解析・CTF・ペネトレーションテスト等15領域のセキュリティ手順に振り切ったスキル束。RULES.md→MASTER-ROUTINGの自動振り分けが差別化点。#3 pdf-inspector=pypdf/pdfplumber/Marker/Docling/MarkItDownとのベンチで総合スコア0.875/速度0.470s(200文書)首位、テキストPDFかスキャンかを10-50msで分類してOCRを条件分岐で省く『分類ファースト』設計が差別化。ML不要のpure Rust。#4 DeepSeek-Reasonix=Claude Code/Aider/Cursor CLI/gemini-cliが複数モデル対応なのに対し、DeepSeekのprefix cacheに特化したGo製CLIエージェント。長時間セッションのトークン費用最小化と単一バイナリ配布が差別化。#5 TencentDB-Agent-Memory=mem0(単純embedding)/MemGPT・Letta(単一エージェント)/Zep・LangGraph memory(会話中心)に対し、チーム共有前提でChat Memory/Skills/Wiki/CodeGraphの4種資産に構造化(L0→L1→L2→L3の層別抽出)。PersonaMemベンチで59%改善。method選定: 直近2日 08-03 ecosystem/08-02 business-angle 連投ルールで除外、14d Method 別avg views で残る候補中 comparison は 14d 1.50 n=2 だが全期間 avg 2.00 n=18 で champion tier 安定、前回採用 07-31 から 4 日空き。全期間 n=80 で trend-pattern 1.64/business-angle 1.56/use-case 1.50/self-experiment 1.12/tech-deep 0.75 を上回る best available exploit。5素材の comparison整合率5/5(層別推論vs量子化/セキュリティ特化vs汎用/分類ファーストvs全処理/DeepSeek特化vs汎用CLI/チーム共有vs単一エージェント)と稀有な高さ。曜日補正: 火曜 (Tue=361 avg、週内 1 位、日曜比 72 倍) は Primary(CTO/技術選定) が週初め meeting で技術棚卸しする曜日、『採用検討中の OSS を既存代替と直接比較したい』ニーズにcomparisonがドンピシャ。narration 5本合計281文字(55+56+59+60+51) TTS +30% で約47-50秒、opening/ending 5秒込み55秒枠内でIG Reels 60秒制約クリア。前日 08-03 ecosystem との差別化: 昨日は『5リポを勢力図の座標に置く』の周辺OSS列挙型、本日は『類似OSSと何が違うか』の直接対決型で、視聴者の脳内フレームを『広く配置』から『鋭く区別』に180度切替。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle 08-02消化済、③self-experiment 07-25消化済、④trend-pattern 07-28消化済で週次比率健全。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/lyogavin/airllm",
+          "https://github.com/zhaoxuya520/reverse-skill",
+          "https://github.com/firecrawl/pdf-inspector",
+          "https://github.com/esengine/DeepSeek-Reasonix",
+          "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4454,24 +4457,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-01",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 108 avg views (77 videos)",
-        "Trending languages: Kotlin (3.7x), C++ (2.9x), Jupyter Notebook (3.6x)",
-        "Day performance: Tue=217, Fri=207, Thu=128, Wed=107, Sat=53, Mon=45, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-03",
       "changes": [
@@ -5017,6 +5002,18 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.8x), C# (1.8x), Java (1.4x), CSS (1.4x)",
         "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Sun=1, Tue=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-03",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 2 avg views (80 videos)",
+        "Trending languages: Markdown (1.5x), C# (1.8x), Java (1.4x), CSS (1.4x)",
+        "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Tue=1, Sun=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
