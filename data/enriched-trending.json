@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5(microsoft/AI-For-Beginners #1・usekaneo/kaneo #2・lyogavin/airllm #3・iv-org/invidious #4・codecrafters-io/build-your-own-x #5)を『どのOSSエコシステムに位置するか』の生態系マップで料理する ecosystem angle。#1 AI-For-Beginners=ML/DS/Web-Dev/Gen AIと連なるMicrosoftの'*-For-Beginners'教材群の中核+Azure AI導線。#2 kaneo=Plane/Focalboard/Vikunja/OpenProjectが並ぶJira代替セルフホストPM OSS群にMIT・軽量派として着地。#3 airllm=Ollama/llama.cpp/vLLMが占めるローカルLLM生態系に4GB GPUで70B/405B動作を実現する層別推論という新レイヤを追加。#4 invidious=Piped/FreeTube/NewPipeが並ぶ脱Google動画フロントエンド群の代表格でCrystal製セルフホストミラーを提供。#5 build-your-own-x=The Odin Project/roadmap.sh/freeCodeCampが並ぶ実践型学習エコシステムに500超の自作系実装ガイドを差し込む索引役。method選定: 直近5日 08-02 business-angle/07-31 comparison/07-30 business-angle/07-29 ecosystem(5日前)/07-28 trend-pattern。14d Method 別avg views で ecosystem 1位(2.67 n=3)、stack-migration 2位(2.00 n=1)、business-angle 3位(1.75 n=4)。exploit で 14d TOP method の ecosystem を選択(business-angle は 08-02 に採用直近ゆえ休息)。全期間 avg でも ecosystem は 1.88 (n=16) で 2位安定、直近3週で ecosystem 採用日(07-22/07-26/07-29) は 2/2/3 と平均 2.33 で他 method より優位。5素材の整合率: 5/5(教材ファミリー中核+PM OSS群+ローカルLLM群+動画フロント群+学習OSS群) と稀有な高さ。ecosystem angle は Primary(CTO/事業判断) が『採用検討 OSS の代替候補と競合勢力図』を一枚で把握するのに直接効くフレームで、単発 tech-deep より意思決定資料に近い。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle は昨日 08-02 で消化済み、③self-experiment は 07-25 消化済み、週次比率健全。narration 5本合計 296文字(60+60+57+58+61) TTS +30% で約49-53秒、opening/ending 5秒込み55秒枠内で IG Reels 60秒制約クリア。前日 08-02 との差別化: 昨日 business-angle は『5リポを外部支出→内製化のコストKPIポートフォリオに位置づける』事業KPI立体構造、本日 ecosystem は『5リポを周辺OSS勢力図の座標上に位置づける』競合マップ立体構造で、視聴者側の脳内フレームを180度切替。TOP5継続率 2/5(AI-For-Beginners 08-02 #1→08-03 #1、kaneo 08-02 #3→08-03 #2)+新規3/5(airllm/invidious/build-your-own-x)で40%継続維持、method 切替(business-angle→ecosystem)と語彙総入替(月額/内製化/工数 → 生態系/勢力図/座標/導線)で連日視聴者の疲労回避。前日 WORST3 に 08-02 が入った(views 0)反省として、Sundayオーガニック弱含み+business-angle 5日で3回連続採用の疲労説を採用し、月曜は視聴者に新鮮な frame(ecosystem 5日ぶり)で回復狙い。",
+    "method": "comparison",
+    "description": "本日のTOP5(lyogavin/airllm #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・esengine/DeepSeek-Reasonix #4・TencentCloud/TencentDB-Agent-Memory #5)を『類似OSSと何が違うか』の直接比較で料理する comparison angle。#1 airllm=Ollama/llama.cpp/vLLM/exllamav2との差別化点は『レイヤー単位で順次GPUに載せる層別推論』で、4GB GPU一枚で70B/405B/671B DeepSeek-V3が動く。#2 reverse-skill=Cursor Rules/Claude Skills/Kilo Codeが汎用コーディング支援なのに対し、マルウェア解析・APK解析・CTF・ペネトレーションテスト等15領域のセキュリティ手順に振り切ったスキル束。RULES.md→MASTER-ROUTINGの自動振り分けが差別化点。#3 pdf-inspector=pypdf/pdfplumber/Marker/Docling/MarkItDownとのベンチで総合スコア0.875/速度0.470s(200文書)首位、テキストPDFかスキャンかを10-50msで分類してOCRを条件分岐で省く『分類ファースト』設計が差別化。ML不要のpure Rust。#4 DeepSeek-Reasonix=Claude Code/Aider/Cursor CLI/gemini-cliが複数モデル対応なのに対し、DeepSeekのprefix cacheに特化したGo製CLIエージェント。長時間セッションのトークン費用最小化と単一バイナリ配布が差別化。#5 TencentDB-Agent-Memory=mem0(単純embedding)/MemGPT・Letta(単一エージェント)/Zep・LangGraph memory(会話中心)に対し、チーム共有前提でChat Memory/Skills/Wiki/CodeGraphの4種資産に構造化(L0→L1→L2→L3の層別抽出)。PersonaMemベンチで59%改善。method選定: 直近2日 08-03 ecosystem/08-02 business-angle 連投ルールで除外、14d Method 別avg views で残る候補中 comparison は 14d 1.50 n=2 だが全期間 avg 2.00 n=18 で champion tier 安定、前回採用 07-31 から 4 日空き。全期間 n=80 で trend-pattern 1.64/business-angle 1.56/use-case 1.50/self-experiment 1.12/tech-deep 0.75 を上回る best available exploit。5素材の comparison整合率5/5(層別推論vs量子化/セキュリティ特化vs汎用/分類ファーストvs全処理/DeepSeek特化vs汎用CLI/チーム共有vs単一エージェント)と稀有な高さ。曜日補正: 火曜 (Tue=361 avg、週内 1 位、日曜比 72 倍) は Primary(CTO/技術選定) が週初め meeting で技術棚卸しする曜日、『採用検討中の OSS を既存代替と直接比較したい』ニーズにcomparisonがドンピシャ。narration 5本合計281文字(55+56+59+60+51) TTS +30% で約47-50秒、opening/ending 5秒込み55秒枠内でIG Reels 60秒制約クリア。前日 08-03 ecosystem との差別化: 昨日は『5リポを勢力図の座標に置く』の周辺OSS列挙型、本日は『類似OSSと何が違うか』の直接対決型で、視聴者の脳内フレームを『広く配置』から『鋭く区別』に180度切替。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle 08-02消化済、③self-experiment 07-25消化済、④trend-pattern 07-28消化済で週次比率健全。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/microsoft/AI-For-Beginners",
-      "https://github.com/usekaneo/kaneo",
       "https://github.com/lyogavin/airllm",
-      "https://github.com/iv-org/invidious",
-      "https://github.com/codecrafters-io/build-your-own-x"
+      "https://github.com/zhaoxuya520/reverse-skill",
+      "https://github.com/firecrawl/pdf-inspector",
+      "https://github.com/esengine/DeepSeek-Reasonix",
+      "https://github.com/TencentCloud/TencentDB-Agent-Memory"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "microsoft/AI-For-Beginners",
-      "name": "AI-For-Beginners",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "language": "Jupyter Notebook",
-      "stars": 58932,
-      "todayStars": 2617,
-      "description": "Microsoft入門教材群の中核",
-      "detail": "Microsoft公式の12週間・24講AI教材です。ML-For-BeginnersやGen AI-For-Beginnersと連なる同社の\"*-For-Beginners\"教材群の中核で、Azure AIサービスへの導線として機能します。",
-      "narration": "Microsoft入門教材ファミリーの中核です。ML/DS/Gen AI教材と連携しAzure AIまで導線を作れます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "usekaneo/kaneo",
-      "name": "kaneo",
-      "url": "https://github.com/usekaneo/kaneo",
-      "language": "TypeScript",
-      "stars": 6103,
-      "todayStars": 491,
-      "description": "Jira代替PM OSS群の軽量派",
-      "detail": "MITライセンスの軽量セルフホスト型プロジェクト管理OSSです。PlaneやFocalboard、Vikunja、OpenProjectが並ぶJira代替エコシステムに、機能を絞ったミニマル派として加わりました。",
-      "narration": "Jira代替のセルフホストPM生態系の新星です。Plane、Focalboard、Vikunjaと並び軽量派を占めます。"
-    },
-    {
-      "rank": 3,
       "fullName": "lyogavin/airllm",
       "name": "airllm",
       "url": "https://github.com/lyogavin/airllm",
       "language": "Jupyter Notebook",
-      "stars": 25598,
-      "todayStars": 963,
-      "description": "ローカルLLMランタイム群の新機軸",
-      "detail": "低スペックGPUで巨大LLMを走らせるApache 2.0ライブラリです。Ollamaやllama.cpp中心のローカルLLM生態系に、4GBメモリで70B・405Bを動かす層別推論という新レイヤを持ち込みます。",
-      "narration": "ローカルLLMランタイム群の新機軸です。Ollamaやllama.cppと並び4GB GPUで70Bを走らせます。"
+      "stars": 26988,
+      "todayStars": 1081,
+      "description": "4GB GPUで70Bを動かすLLM",
+      "detail": "Ollamaやllama.cppと違い、モデルを層ごとに順次GPUに載せて推論する仕組みです。4GB GPUで70Bや405B DeepSeek-V3を動かせるため、消費者GPUで巨大モデルを回す選択肢になります。",
+      "narration": "OllamaやvLLMと違い層別推論します。4GB GPUで70Bを動かし消費者GPUで大型モデルが選べます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "name": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "stars": 15617,
+      "todayStars": 2442,
+      "description": "セキュリティ専用のスキル集OSS",
+      "detail": "Cursor RulesやClaude Skillsが汎用コーディング用なのに対し、セキュリティ専用の手順集です。APK解析やCTF、ペネトレーションテストなど15領域の手順を自動で振り分けます。",
+      "narration": "Cursor Rulesと違いセキュリティ専用のスキル束です。マルウェア解析やCTFの手順を自動で振り分けます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "firecrawl/pdf-inspector",
+      "name": "pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "language": "Rust",
+      "stars": 8030,
+      "todayStars": 1769,
+      "description": "OCR前にPDFを分類するRust",
+      "detail": "pypdfやDoclingが常に全PDFを処理するのに対し、テキストかスキャンかを10-50msで分類します。テキスト側はOCRを省けるので費用を丸ごと削れる高速Rustライブラリです。",
+      "narration": "pypdfやDoclingと違いOCR前にPDFを分類する高速Rust製です。半数のPDFでOCR費を丸ごと省けます。"
     },
     {
       "rank": 4,
-      "fullName": "iv-org/invidious",
-      "name": "invidious",
-      "url": "https://github.com/iv-org/invidious",
-      "language": "Crystal",
-      "stars": 21958,
-      "todayStars": 307,
-      "description": "脱YouTubeフロントの代表格",
-      "detail": "YouTubeのプライバシー配慮代替フロントエンドです。PipedやFreeTube、NewPipeが並ぶ脱Google動画エコシステムの代表格で、Crystal製・セルフホスト可能で自社ミラーも構築できます。",
-      "narration": "脱YouTubeフロントエンドの代表格です。PipedやFreeTubeと並ぶ広告なし動画基盤を自前で運用できます。"
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "name": "DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "stars": 29868,
+      "todayStars": 877,
+      "description": "DeepSeek特化のCLIエージェント",
+      "detail": "Claude CodeやAiderが複数モデル対応なのに対し、DeepSeekのprefix cache一択に振り切ったGo製CLIエージェントです。長時間セッションのトークン費用を最小化できます。",
+      "narration": "Claude CodeやAiderと違いDeepSeek特化です。prefix cacheで長時間の費用を最小化します。"
     },
     {
       "rank": 5,
-      "fullName": "codecrafters-io/build-your-own-x",
-      "name": "build-your-own-x",
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "language": "Markdown",
-      "stars": 534782,
-      "todayStars": 710,
-      "description": "500超の自作系OSS学習索引",
-      "detail": "500超の\"○○を自作しよう\"実装ガイドを集めたリポジトリです。The Odin Projectやroadmap.sh、freeCodeCampが並ぶ実践型学習エコシステムで、要素技術を根本から学ぶ索引の役割を担います。",
-      "narration": "自作系学習OSS群の総合索引です。The Odin Projectやroadmap.shと組み技術を根本から学べます。"
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "name": "TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "language": "TypeScript",
+      "stars": 12016,
+      "todayStars": 1091,
+      "description": "チーム共有エージェント記憶ハブ",
+      "detail": "mem0やLettaが単一エージェント向けなのに対し、チーム共有前提の記憶ハブです。会話・スキル・Wiki・CodeGraphの4種資産に整理し、Claude CodeやCodeBuddyから再利用できます。",
+      "narration": "mem0やLettaと違いチーム共有のエージェント記憶です。会話やコードを4種の再利用資産に変えます。"
     }
   ]
 }
