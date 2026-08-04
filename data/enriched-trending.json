@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5(lyogavin/airllm #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・esengine/DeepSeek-Reasonix #4・TencentCloud/TencentDB-Agent-Memory #5)を『類似OSSと何が違うか』の直接比較で料理する comparison angle。#1 airllm=Ollama/llama.cpp/vLLM/exllamav2との差別化点は『レイヤー単位で順次GPUに載せる層別推論』で、4GB GPU一枚で70B/405B/671B DeepSeek-V3が動く。#2 reverse-skill=Cursor Rules/Claude Skills/Kilo Codeが汎用コーディング支援なのに対し、マルウェア解析・APK解析・CTF・ペネトレーションテスト等15領域のセキュリティ手順に振り切ったスキル束。RULES.md→MASTER-ROUTINGの自動振り分けが差別化点。#3 pdf-inspector=pypdf/pdfplumber/Marker/Docling/MarkItDownとのベンチで総合スコア0.875/速度0.470s(200文書)首位、テキストPDFかスキャンかを10-50msで分類してOCRを条件分岐で省く『分類ファースト』設計が差別化。ML不要のpure Rust。#4 DeepSeek-Reasonix=Claude Code/Aider/Cursor CLI/gemini-cliが複数モデル対応なのに対し、DeepSeekのprefix cacheに特化したGo製CLIエージェント。長時間セッションのトークン費用最小化と単一バイナリ配布が差別化。#5 TencentDB-Agent-Memory=mem0(単純embedding)/MemGPT・Letta(単一エージェント)/Zep・LangGraph memory(会話中心)に対し、チーム共有前提でChat Memory/Skills/Wiki/CodeGraphの4種資産に構造化(L0→L1→L2→L3の層別抽出)。PersonaMemベンチで59%改善。method選定: 直近2日 08-03 ecosystem/08-02 business-angle 連投ルールで除外、14d Method 別avg views で残る候補中 comparison は 14d 1.50 n=2 だが全期間 avg 2.00 n=18 で champion tier 安定、前回採用 07-31 から 4 日空き。全期間 n=80 で trend-pattern 1.64/business-angle 1.56/use-case 1.50/self-experiment 1.12/tech-deep 0.75 を上回る best available exploit。5素材の comparison整合率5/5(層別推論vs量子化/セキュリティ特化vs汎用/分類ファーストvs全処理/DeepSeek特化vs汎用CLI/チーム共有vs単一エージェント)と稀有な高さ。曜日補正: 火曜 (Tue=361 avg、週内 1 位、日曜比 72 倍) は Primary(CTO/技術選定) が週初め meeting で技術棚卸しする曜日、『採用検討中の OSS を既存代替と直接比較したい』ニーズにcomparisonがドンピシャ。narration 5本合計281文字(55+56+59+60+51) TTS +30% で約47-50秒、opening/ending 5秒込み55秒枠内でIG Reels 60秒制約クリア。前日 08-03 ecosystem との差別化: 昨日は『5リポを勢力図の座標に置く』の周辺OSS列挙型、本日は『類似OSSと何が違うか』の直接対決型で、視聴者の脳内フレームを『広く配置』から『鋭く区別』に180度切替。週次コンテンツ柱: ①GitHub Trending 70% 枠内、②business-angle 08-02消化済、③self-experiment 07-25消化済、④trend-pattern 07-28消化済で週次比率健全。",
+    "method": "use-case",
+    "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・uber/ADR #4・obra/superpowers #5)を『誰がどう使うか』の具体シーンで料理する use-case angle。#1 TencentDB-Agent-Memory=スタートアップの multi-agent 基盤担当が『社内AIツールを横断する共有記憶』として自社立てして使う、PersonaMem +59% の裏付け。#2 reverse-skill=赤チーム/CTF 参加者/SOC アナリストが日常の手順を Claude Code や Cursor に読ませて自動振り分けする、マルウェア解析・APK解析・ペネトレテストの 15 領域スキル束。#3 pdf-inspector=RAG を組むスタートアップが不要な OCR 費を削るために 200 文書 0.47s の分類ファーストで使う Rust ライブラリ、テキスト PDF 側の OCR を条件分岐で丸ごと省ける。#4 uber/ADR=Uber 本番導入と MLSys 2026 採択済み、社内で Claude Code / Cursor / Codex を配布する大企業のセキュリティ担当が『エージェント挙動監視 + 300 セキュリティタスク + 17 攻撃技法 + 133 MCP サーバー』の観測基盤として使う。#5 obra/superpowers=ソロ開発者 / 少人数チームが Claude Code に『いきなり実装させない』ため設計→計画→TDD(RED-GREEN-REFACTOR)の流れを自動発動させる、Prime Radiant の商用サポート有り。method 選定: 直近 2 日 (08-04 comparison / 08-03 ecosystem) 連投ルールで除外、14d 上位 4 method (ecosystem 2.25 n=4 / business-angle 2.25 n=4 / stack-migration 2.00 n=1 / comparison 1.00 n=2) から連投対象と business-angle 週次過剰採用 (直近 08-02 で 10 日中 4 回 40% 超過、8 月中旬まで休止方針) を除外、残る候補で explore 枠として use-case を採用。use-case は 14d 0 件 (探索脱落継続) で PDCA 07-31/08-02/08-03/08-04 で 4 度連続『8 月第 1〜2 週内 explore 枠 1 回試行必須』と提案されていた必須枠。全期間 avg 1.20 n=5 (先週 08-04 時点 1.50 n=6 から 07-27 の削除で 1.20 n=5 に補正) は tech-deep (0.75) より上位、champion tier からは劣位だが 08-04 comparison 0 views 直後で試行コスト低。素材整合率 5/5: 本日 TOP5 が『スタートアップ (TencentDB) / 赤チーム (reverse-skill) / RAG スタートアップ (pdf-inspector) / 大企業セキュリティ (ADR) / ソロ開発 (superpowers)』の 5 種類の異なる persona × scene に自然に振れる稀有な use-case 高整合日。曜日補正: 水曜 (Wed=153 avg、週内 4 位) で中央値曜日、explore 試行に適した安全帯 (火曜 361 avg のような高期待日を消費せず、日曜 5 avg のような無風日でもない)。前日 08-04 comparison との差別化: 昨日は『類似 OSS と直接対決』の対比骨格、本日は『誰がどう使う』の persona × scene 骨格で、視聴者の脳内フレームを『鋭く区別』から『自分の現場に当てはめる』に切替。narration 5 本合計 250 文字 (48+51+50+50+51) TTS +30% で約 40-42 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。週次コンテンツ柱: ①GitHub Trending 70% 枠、②business-angle は 08-02 消化済で 8 月中旬まで休止、③self-experiment は 07-25 消化済 (11 日前) で新週 (07-30〜08-05) 未消化、④trend-pattern は 07-28 消化済 (8 日前) で新週未消化。use-case は柱①の delivery variant として位置づけ。TOP5 継続 3/新規 2 (継続=TencentDB #5→#1・reverse-skill #2 維持・pdf-inspector #3 維持、新規=uber/ADR #4・obra/superpowers #5): 継続率 60% はやや高いが angle 総入替 (comparison→use-case) + 語彙総入替 (vs/違い/差別化 → 誰が/どう使う/シーン/現場) で視聴者 frame 完全リフレッシュ。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/lyogavin/airllm",
+      "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "https://github.com/zhaoxuya520/reverse-skill",
       "https://github.com/firecrawl/pdf-inspector",
-      "https://github.com/esengine/DeepSeek-Reasonix",
-      "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+      "https://github.com/uber/ADR",
+      "https://github.com/obra/superpowers"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,15 +17,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "lyogavin/airllm",
-      "name": "airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "language": "Jupyter Notebook",
-      "stars": 26988,
-      "todayStars": 1081,
-      "description": "4GB GPUで70Bを動かすLLM",
-      "detail": "Ollamaやllama.cppと違い、モデルを層ごとに順次GPUに載せて推論する仕組みです。4GB GPUで70Bや405B DeepSeek-V3を動かせるため、消費者GPUで巨大モデルを回す選択肢になります。",
-      "narration": "OllamaやvLLMと違い層別推論します。4GB GPUで70Bを動かし消費者GPUで大型モデルが選べます。"
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "name": "TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "language": "TypeScript",
+      "stars": 13477,
+      "todayStars": 1138,
+      "description": "スタートアップ向けAI共有記憶ハブ",
+      "detail": "複数のAIエージェントで会話やコード、Wikiを共有するための記憶ハブです。スタートアップで社内AIツールを横断させるとき、記憶が資産として貯まっていくのが強みで、PersonaMemベンチで正答率が59%改善しました。",
+      "narration": "スタートアップでAI共有記憶を持ちたい時に使うツールです。会話やコードが4種の資産に貯まります。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "reverse-skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
       "language": "PowerShell",
-      "stars": 15617,
-      "todayStars": 2442,
-      "description": "セキュリティ専用のスキル集OSS",
-      "detail": "Cursor RulesやClaude Skillsが汎用コーディング用なのに対し、セキュリティ専用の手順集です。APK解析やCTF、ペネトレーションテストなど15領域の手順を自動で振り分けます。",
-      "narration": "Cursor Rulesと違いセキュリティ専用のスキル束です。マルウェア解析やCTFの手順を自動で振り分けます。"
+      "stars": 17780,
+      "todayStars": 2310,
+      "description": "赤チーム向けセキュリティスキル集",
+      "detail": "赤チームやCTF参加者、SOCアナリストが日々使う手順を1箇所に集めたAI用スキル集です。Claude CodeやCursorに読ませて、APK解析やペネトレテストの流れを自動で振り分けて実行できます。",
+      "narration": "セキュリティ研究者や赤チームが手順を集めたスキル集です。Claude Codeに読ませ解析を任せます。"
     },
     {
       "rank": 3,
@@ -45,35 +45,35 @@
       "name": "pdf-inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
       "language": "Rust",
-      "stars": 8030,
-      "todayStars": 1769,
-      "description": "OCR前にPDFを分類するRust",
-      "detail": "pypdfやDoclingが常に全PDFを処理するのに対し、テキストかスキャンかを10-50msで分類します。テキスト側はOCRを省けるので費用を丸ごと削れる高速Rustライブラリです。",
-      "narration": "pypdfやDoclingと違いOCR前にPDFを分類する高速Rust製です。半数のPDFでOCR費を丸ごと省けます。"
+      "stars": 9910,
+      "todayStars": 2524,
+      "description": "RAG向け高速PDF判定Rust",
+      "detail": "RAGを組むスタートアップが不要なOCR費を削るのに使うRust製ライブラリです。200件のPDFを0.47秒でスキャンかテキストか判定でき、テキストPDF側のOCR費用を丸ごと省けます。",
+      "narration": "RAGを組むスタートアップがOCR費を削るのに使うRust製です。200件を0.47秒で判定します。"
     },
     {
       "rank": 4,
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "name": "DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "language": "Go",
-      "stars": 29868,
-      "todayStars": 877,
-      "description": "DeepSeek特化のCLIエージェント",
-      "detail": "Claude CodeやAiderが複数モデル対応なのに対し、DeepSeekのprefix cache一択に振り切ったGo製CLIエージェントです。長時間セッションのトークン費用を最小化できます。",
-      "narration": "Claude CodeやAiderと違いDeepSeek特化です。prefix cacheで長時間の費用を最小化します。"
+      "fullName": "uber/ADR",
+      "name": "ADR",
+      "url": "https://github.com/uber/ADR",
+      "language": "Python",
+      "stars": 657,
+      "todayStars": 140,
+      "description": "大企業向けAIエージェント監視基盤",
+      "detail": "社内でClaude CodeやCursorを配る大企業のセキュリティ担当が、エージェントの挙動を監視するために使う仕組みです。Uberの本番導入実績とMLSys 2026採択の裏付けがあります。",
+      "narration": "大企業のセキュリティ担当がAIエージェントを監視するのに使います。Uberの本番導入実績があります。"
     },
     {
       "rank": 5,
-      "fullName": "TencentCloud/TencentDB-Agent-Memory",
-      "name": "TencentDB-Agent-Memory",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "language": "TypeScript",
-      "stars": 12016,
-      "todayStars": 1091,
-      "description": "チーム共有エージェント記憶ハブ",
-      "detail": "mem0やLettaが単一エージェント向けなのに対し、チーム共有前提の記憶ハブです。会話・スキル・Wiki・CodeGraphの4種資産に整理し、Claude CodeやCodeBuddyから再利用できます。",
-      "narration": "mem0やLettaと違いチーム共有のエージェント記憶です。会話やコードを4種の再利用資産に変えます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 266432,
+      "todayStars": 777,
+      "description": "ソロ向けAIコーディング手順集",
+      "detail": "ソロ開発者や少人数チームがClaude Codeに正しい開発手順を守らせるためのスキル集です。設計、計画、TDDの流れを自動で発動させ、いきなり実装させないよう制御できるのが特徴です。",
+      "narration": "ソロ開発者がClaude Codeに設計から順に開発させるためのスキル集です。いきなり実装を防ぎます。"
     }
   ]
 }
