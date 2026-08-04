@@ -2,61 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "D9Wna4dwG8Q",
-      "videoUrl": "https://youtube.com/shorts/D9Wna4dwG8Q",
-      "date": "2026-05-05",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/05 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python",
-        "JavaScript"
-      ],
-      "languages": [
-        "TypeScript",
-        "Python",
-        "JavaScript",
-        "Rust"
-      ],
-      "projects": [
-        "ruvnet/ruflo",
-        "TauricResearch/TradingAgents",
-        "browserbase/skills",
-        "Hmbown/DeepSeek-TUI",
-        "soxoj/maigret"
-      ],
-      "durationSeconds": 48,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『AIエージェント時代のフルスタックが1日で揃った日』として5レイヤ同居で料理する。ruvnet/ruflo(オーケストレーション層: Claude Codeに100種以上の専門エージェントとHNSWベクトルメモリ・mTLS連邦化を足す指揮塔、v3.6.27で100+ agents/32 Claude Codeプラグイン同梱) → TauricResearch/TradingAgents(ドメイン特化エージェント層: 4アナリスト+強気弱気論者ペア+トレーダー+リスク管理の8体構成をLangGraphで束ねる金融垂直の参照実装) → browserbase/skills(ツール層: browser・browserbase-cli・UIテスト・CDPトレースなど10種のskillをClaude Codeに足し、CAPTCHA回避や認証付きサイト操作を呼び出せるJS製OSS) → Hmbown/DeepSeek-TUI(代替ランタイム層: DeepSeek V4 Pro/Flash向けRust単一バイナリTUI、Plan/Agent/YOLO 3モード+MCP統合でClaude Code型ワークフローをDeepSeek基盤に差し替え) → soxoj/maigret(データ収集ツール層: username1つを起点に3,000サイトを非同期巡回、エージェントから自律呼び出しできるOSINTバックエンド)。Primaryペルソナ(CTO/技術投資判断者)が『自社のエージェント開発スタックのどこに何を入れるか』を1動画で意思決定できる構成。直近2日(05/03 use-case / 05/04 business-angle)の連続禁則を回避し、Method別TOP1のecosystem(112.7 avg、04/28=326の単発外れ値あり)をTue=917 avgの最強曜日帯で投入(exploit枠80%)。素材適合度は4/5が明確にAIエージェントスタックに当てはまり(残り1のmaigretも『偵察ツール層』として組み込み可能)、05/01 ecosystem=5の『5本がそれぞれ別vertical』失敗パターン(0/5適合)とは構造的に異なる。重複3本(ruflo 3日連続/TradingAgents 5日連続/maigret 3日連続)は05/03 use-case角度『5ペルソナ別の実働シーン』および05/04 business-angle角度『SaaS月額/単価の置き換え』から本日ecosystem角度『5レイヤのエージェントスタック』へ語彙完全切替で同ラインナップ連投ペナルティを回避。新規1本(browserbase/skills)+順位入れ替え1本(DeepSeek-TUI 2日連続だが言及視点を変更)で04/29-30型の同method×同ラインナップ連投構造から構造的に外す。Tue=917 avg帯のため、最低120 views(過去Mon平均超え≒中位帯)、理想320 views(04/28 ecosystem成功帯=Tue×ecosystem=326の再現)を評価基準とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/ruvnet/ruflo",
-          "https://github.com/TauricResearch/TradingAgents",
-          "https://github.com/browserbase/skills",
-          "https://github.com/Hmbown/DeepSeek-TUI",
-          "https://github.com/soxoj/maigret"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-19T23:50:34.186Z"
-      }
-    },
-    {
       "videoId": "X6DrC-mmQuw",
       "videoUrl": "https://youtube.com/shorts/X6DrC-mmQuw",
       "date": "2026-05-07",
@@ -3722,7 +3667,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -3778,7 +3723,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -3834,7 +3779,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -3890,7 +3835,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -3945,7 +3890,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4002,7 +3947,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4057,7 +4002,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4112,7 +4057,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4169,7 +4114,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4224,7 +4169,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4280,7 +4225,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4333,10 +4278,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 2,
+        "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4395,7 +4340,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-03T23:55:40.475Z"
+        "updatedAt": "2026-08-04T23:50:29.756Z"
       }
     },
     {
@@ -4452,30 +4397,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-04T23:50:29.756Z"
+      }
+    },
+    {
+      "videoId": "rn4-noIGNyk",
+      "videoUrl": "https://youtube.com/shorts/rn4-noIGNyk",
+      "date": "2026-08-05",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/05 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "PowerShell",
+        "Python",
+        "Shell"
+      ],
+      "languages": [
+        "TypeScript",
+        "PowerShell",
+        "Rust",
+        "Python",
+        "Shell"
+      ],
+      "projects": [
+        "TencentCloud/TencentDB-Agent-Memory",
+        "zhaoxuya520/reverse-skill",
+        "firecrawl/pdf-inspector",
+        "uber/ADR",
+        "obra/superpowers"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・uber/ADR #4・obra/superpowers #5)を『誰がどう使うか』の具体シーンで料理する use-case angle。#1 TencentDB-Agent-Memory=スタートアップの multi-agent 基盤担当が『社内AIツールを横断する共有記憶』として自社立てして使う、PersonaMem +59% の裏付け。#2 reverse-skill=赤チーム/CTF 参加者/SOC アナリストが日常の手順を Claude Code や Cursor に読ませて自動振り分けする、マルウェア解析・APK解析・ペネトレテストの 15 領域スキル束。#3 pdf-inspector=RAG を組むスタートアップが不要な OCR 費を削るために 200 文書 0.47s の分類ファーストで使う Rust ライブラリ、テキスト PDF 側の OCR を条件分岐で丸ごと省ける。#4 uber/ADR=Uber 本番導入と MLSys 2026 採択済み、社内で Claude Code / Cursor / Codex を配布する大企業のセキュリティ担当が『エージェント挙動監視 + 300 セキュリティタスク + 17 攻撃技法 + 133 MCP サーバー』の観測基盤として使う。#5 obra/superpowers=ソロ開発者 / 少人数チームが Claude Code に『いきなり実装させない』ため設計→計画→TDD(RED-GREEN-REFACTOR)の流れを自動発動させる、Prime Radiant の商用サポート有り。method 選定: 直近 2 日 (08-04 comparison / 08-03 ecosystem) 連投ルールで除外、14d 上位 4 method (ecosystem 2.25 n=4 / business-angle 2.25 n=4 / stack-migration 2.00 n=1 / comparison 1.00 n=2) から連投対象と business-angle 週次過剰採用 (直近 08-02 で 10 日中 4 回 40% 超過、8 月中旬まで休止方針) を除外、残る候補で explore 枠として use-case を採用。use-case は 14d 0 件 (探索脱落継続) で PDCA 07-31/08-02/08-03/08-04 で 4 度連続『8 月第 1〜2 週内 explore 枠 1 回試行必須』と提案されていた必須枠。全期間 avg 1.20 n=5 (先週 08-04 時点 1.50 n=6 から 07-27 の削除で 1.20 n=5 に補正) は tech-deep (0.75) より上位、champion tier からは劣位だが 08-04 comparison 0 views 直後で試行コスト低。素材整合率 5/5: 本日 TOP5 が『スタートアップ (TencentDB) / 赤チーム (reverse-skill) / RAG スタートアップ (pdf-inspector) / 大企業セキュリティ (ADR) / ソロ開発 (superpowers)』の 5 種類の異なる persona × scene に自然に振れる稀有な use-case 高整合日。曜日補正: 水曜 (Wed=153 avg、週内 4 位) で中央値曜日、explore 試行に適した安全帯 (火曜 361 avg のような高期待日を消費せず、日曜 5 avg のような無風日でもない)。前日 08-04 comparison との差別化: 昨日は『類似 OSS と直接対決』の対比骨格、本日は『誰がどう使う』の persona × scene 骨格で、視聴者の脳内フレームを『鋭く区別』から『自分の現場に当てはめる』に切替。narration 5 本合計 250 文字 (48+51+50+50+51) TTS +30% で約 40-42 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。週次コンテンツ柱: ①GitHub Trending 70% 枠、②business-angle は 08-02 消化済で 8 月中旬まで休止、③self-experiment は 07-25 消化済 (11 日前) で新週 (07-30〜08-05) 未消化、④trend-pattern は 07-28 消化済 (8 日前) で新週未消化。use-case は柱①の delivery variant として位置づけ。TOP5 継続 3/新規 2 (継続=TencentDB #5→#1・reverse-skill #2 維持・pdf-inspector #3 維持、新規=uber/ADR #4・obra/superpowers #5): 継続率 60% はやや高いが angle 総入替 (comparison→use-case) + 語彙総入替 (vs/違い/差別化 → 誰が/どう使う/シーン/現場) で視聴者 frame 完全リフレッシュ。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "https://github.com/zhaoxuya520/reverse-skill",
+          "https://github.com/firecrawl/pdf-inspector",
+          "https://github.com/uber/ADR",
+          "https://github.com/obra/superpowers"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-03",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 107 avg views (78 videos)",
-        "Trending languages: Kotlin (3.7x), C++ (3.0x), Jupyter Notebook (3.7x)",
-        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=53, Mon=45, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-04",
       "changes": [
@@ -5014,6 +4997,18 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.5x), C# (1.8x), Java (1.4x), CSS (1.4x)",
         "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Tue=1, Sun=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-04",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 2 avg views (80 videos)",
+        "Trending languages: Markdown (1.5x), C# (1.8x), Java (1.4x), CSS (1.4x)",
+        "Day performance: Thu=2, Fri=2, Sat=2, Mon=2, Tue=1, Sun=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
