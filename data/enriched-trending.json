@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "discovery": {
-    "method": "use-case",
-    "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・zhaoxuya520/reverse-skill #2・firecrawl/pdf-inspector #3・uber/ADR #4・obra/superpowers #5)を『誰がどう使うか』の具体シーンで料理する use-case angle。#1 TencentDB-Agent-Memory=スタートアップの multi-agent 基盤担当が『社内AIツールを横断する共有記憶』として自社立てして使う、PersonaMem +59% の裏付け。#2 reverse-skill=赤チーム/CTF 参加者/SOC アナリストが日常の手順を Claude Code や Cursor に読ませて自動振り分けする、マルウェア解析・APK解析・ペネトレテストの 15 領域スキル束。#3 pdf-inspector=RAG を組むスタートアップが不要な OCR 費を削るために 200 文書 0.47s の分類ファーストで使う Rust ライブラリ、テキスト PDF 側の OCR を条件分岐で丸ごと省ける。#4 uber/ADR=Uber 本番導入と MLSys 2026 採択済み、社内で Claude Code / Cursor / Codex を配布する大企業のセキュリティ担当が『エージェント挙動監視 + 300 セキュリティタスク + 17 攻撃技法 + 133 MCP サーバー』の観測基盤として使う。#5 obra/superpowers=ソロ開発者 / 少人数チームが Claude Code に『いきなり実装させない』ため設計→計画→TDD(RED-GREEN-REFACTOR)の流れを自動発動させる、Prime Radiant の商用サポート有り。method 選定: 直近 2 日 (08-04 comparison / 08-03 ecosystem) 連投ルールで除外、14d 上位 4 method (ecosystem 2.25 n=4 / business-angle 2.25 n=4 / stack-migration 2.00 n=1 / comparison 1.00 n=2) から連投対象と business-angle 週次過剰採用 (直近 08-02 で 10 日中 4 回 40% 超過、8 月中旬まで休止方針) を除外、残る候補で explore 枠として use-case を採用。use-case は 14d 0 件 (探索脱落継続) で PDCA 07-31/08-02/08-03/08-04 で 4 度連続『8 月第 1〜2 週内 explore 枠 1 回試行必須』と提案されていた必須枠。全期間 avg 1.20 n=5 (先週 08-04 時点 1.50 n=6 から 07-27 の削除で 1.20 n=5 に補正) は tech-deep (0.75) より上位、champion tier からは劣位だが 08-04 comparison 0 views 直後で試行コスト低。素材整合率 5/5: 本日 TOP5 が『スタートアップ (TencentDB) / 赤チーム (reverse-skill) / RAG スタートアップ (pdf-inspector) / 大企業セキュリティ (ADR) / ソロ開発 (superpowers)』の 5 種類の異なる persona × scene に自然に振れる稀有な use-case 高整合日。曜日補正: 水曜 (Wed=153 avg、週内 4 位) で中央値曜日、explore 試行に適した安全帯 (火曜 361 avg のような高期待日を消費せず、日曜 5 avg のような無風日でもない)。前日 08-04 comparison との差別化: 昨日は『類似 OSS と直接対決』の対比骨格、本日は『誰がどう使う』の persona × scene 骨格で、視聴者の脳内フレームを『鋭く区別』から『自分の現場に当てはめる』に切替。narration 5 本合計 250 文字 (48+51+50+50+51) TTS +30% で約 40-42 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。週次コンテンツ柱: ①GitHub Trending 70% 枠、②business-angle は 08-02 消化済で 8 月中旬まで休止、③self-experiment は 07-25 消化済 (11 日前) で新週 (07-30〜08-05) 未消化、④trend-pattern は 07-28 消化済 (8 日前) で新週未消化。use-case は柱①の delivery variant として位置づけ。TOP5 継続 3/新規 2 (継続=TencentDB #5→#1・reverse-skill #2 維持・pdf-inspector #3 維持、新規=uber/ADR #4・obra/superpowers #5): 継続率 60% はやや高いが angle 総入替 (comparison→use-case) + 語彙総入替 (vs/違い/差別化 → 誰が/どう使う/シーン/現場) で視聴者 frame 完全リフレッシュ。",
+    "method": "ecosystem",
+    "description": "本日のTOP5(cloudflare/computer #1・huangruiteng/loopx #2・TencentCloud/TencentDB-Agent-Memory #3・donnemartin/system-design-primer #4・firecrawl/pdf-inspector #5)を『既存OSS群のどこに座るか』の勢力図で切る ecosystem angle。#1 cloudflare/computer=Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想FSを載せた新基盤、コンテナ/シェル/JS隔離の3実行環境、E2B・Modal・Daytonaのサンドボックス勢力への対抗軸。#2 huangruiteng/loopx=Claude Code/Cursor/Codex/OpenCodeなど既存の実装エージェントの上に置く長期作業の状態管理層、LangGraph/CrewAI/AutoGenの代替ではなく補完層として目的・計画・証跡・クオータを長時間保持。#3 TencentDB-Agent-Memory=OpenClaw/Hermes/Claude Code/CodeBuddyに接続する自ホスト型の共有記憶ハブ、mem0/Letta/Zepと同じ記憶OSS勢力に加わり、PersonaMemベンチで正答率+59%。#4 system-design-primer=NGINX/HAProxy/Redis/Cassandra/Google Bigtable/Amazon Dynamoなど大規模設計の一次資料を1リポジトリに集めた学習教材集、設計面接勉強生態系の中心資産として15言語に翻訳。#5 firecrawl/pdf-inspector=200件のPDFを0.47秒でテキスト/スキャン/画像/混在の4分類に振り分けるRust製、Docling/Tesseract/PyMuPDF4LLMなど本格OCRの前段に置く分類器としてRAG構築生態系のOCR費削減役。method選定: 直近2日(08-05 use-case / 08-04 comparison)連投ルールで両者除外、14d上位2 method (business-angle 2.50 n=4 / ecosystem 2.33 n=3) から business-angle 週次過剰採用 (10日中4回40%超過、8月中旬まで休止方針継続) を除外、残る候補で ecosystem を exploit 選択。ecosystem 前回採用08-03から3日空き、連投NG該当なし。champion tier 継続。全期間avg 1.88 n=16も2位実績で信頼母集団。素材整合率5/5: 5本すべて『明確な周辺OSS群を持つ』稀有な ecosystem 高整合日 (cloudflare/computer↔E2B・Modal・Daytona / loopx↔LangGraph・CrewAI・AutoGen / TencentDB↔mem0・Letta・Zep / system-design-primer↔NGINX・Redis・Cassandra・Bigtable・Dynamo / pdf-inspector↔Docling・Tesseract・PyMuPDF4LLM)。木曜(Thu=176 avg、週内3位)は中央値上位曜日で ecosystem exploit 展開に適正、日曜5 avg/月曜61 avgの無風日を消費せず、火曜361/金曜310の高期待日温存。前日08-05 use-case 語彙 (誰が/どう使う/シーン/現場/持ちたい) から『生態系/勢力図/位置/周辺/座る/加わる』へ完全切替、視聴者の脳内モードを『自分の現場に当てはめる導入資料』から『同カテゴリ他OSSと並べて見る技術地図』へ 180 度転換。TOP5継続2 (TencentDB #1→#3・pdf-inspector #3→#5)/新規3 (cloudflare/computer・loopx・system-design-primer): continue-rate 40% は視聴者素材疲労管理範囲、angle 総入替 (use-case→ecosystem) と語彙総入替でネタ既視感を回避。narration 5本合計247文字 (51+47+49+49+51) TTS換算約49秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/cloudflare/computer",
+      "https://github.com/huangruiteng/loopx",
       "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "https://github.com/zhaoxuya520/reverse-skill",
-      "https://github.com/firecrawl/pdf-inspector",
-      "https://github.com/uber/ADR",
-      "https://github.com/obra/superpowers"
+      "https://github.com/donnemartin/system-design-primer",
+      "https://github.com/firecrawl/pdf-inspector"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "cloudflare/computer",
+      "name": "computer",
+      "url": "https://github.com/cloudflare/computer",
+      "language": "TypeScript",
+      "stars": 2750,
+      "todayStars": 796,
+      "description": "AIエージェント用Cloudflare仮想FS",
+      "detail": "Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想ファイルシステムを載せた新基盤です。コンテナ・シェル・JS隔離の3種の実行環境を切り替えられ、E2BやModal、Daytonaといったサンドボックス勢力の対抗軸に立ちます。",
+      "narration": "Cloudflare上に立てるAIエージェント用仮想FSです。E2Bらサンドボックス勢力と競合します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "huangruiteng/loopx",
+      "name": "loopx",
+      "url": "https://github.com/huangruiteng/loopx",
+      "language": "Python",
+      "stars": 2061,
+      "todayStars": 327,
+      "description": "AIエージェント長期作業の状態管理層",
+      "detail": "Claude CodeやCursor、Codexなど既存の実装エージェントの上に置く、長期作業向けの状態管理層OSSです。LangGraphやCrewAIの代替ではなく補完層として、目的・計画・証跡・クオータを長時間保持する役割に座ります。",
+      "narration": "Claude Codeなどに載せる長期作業の状態層です。LangGraphらの補完に座ります。"
+    },
+    {
+      "rank": 3,
       "fullName": "TencentCloud/TencentDB-Agent-Memory",
       "name": "TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "language": "TypeScript",
-      "stars": 13477,
-      "todayStars": 1138,
-      "description": "スタートアップ向けAI共有記憶ハブ",
-      "detail": "複数のAIエージェントで会話やコード、Wikiを共有するための記憶ハブです。スタートアップで社内AIツールを横断させるとき、記憶が資産として貯まっていくのが強みで、PersonaMemベンチで正答率が59%改善しました。",
-      "narration": "スタートアップでAI共有記憶を持ちたい時に使うツールです。会話やコードが4種の資産に貯まります。"
+      "stars": 15005,
+      "todayStars": 1891,
+      "description": "チーム向けAIエージェント記憶ハブ",
+      "detail": "OpenClaw、Hermes、Claude Code、CodeBuddyなど複数のエージェントに接続する自ホスト型の共有記憶ハブです。mem0やLetta、Zepと同じ記憶OSS勢力に加わる位置に立ち、PersonaMemベンチで正答率が59%改善します。",
+      "narration": "mem0やLettaと同じチーム向け記憶ハブです。PersonaMemで正答率が59%改善します。"
     },
     {
-      "rank": 2,
-      "fullName": "zhaoxuya520/reverse-skill",
-      "name": "reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "language": "PowerShell",
-      "stars": 17780,
-      "todayStars": 2310,
-      "description": "赤チーム向けセキュリティスキル集",
-      "detail": "赤チームやCTF参加者、SOCアナリストが日々使う手順を1箇所に集めたAI用スキル集です。Claude CodeやCursorに読ませて、APK解析やペネトレテストの流れを自動で振り分けて実行できます。",
-      "narration": "セキュリティ研究者や赤チームが手順を集めたスキル集です。Claude Codeに読ませ解析を任せます。"
+      "rank": 4,
+      "fullName": "donnemartin/system-design-primer",
+      "name": "system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "language": "Python",
+      "stars": 361477,
+      "todayStars": 304,
+      "description": "大規模システム設計の定番学習教材",
+      "detail": "大規模システム設計の一次資料を1リポジトリに集めた学習教材集です。NGINXやRedis、Cassandra、GoogleのBigtableやAmazonのDynamo論文への導線が張られ、面接勉強生態系の中心資産として15言語に翻訳されています。",
+      "narration": "NGINXやRedisなど大規模設計の一次資料を集めた教材です。設計面接勉強の中心資産に座ります。"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "fullName": "firecrawl/pdf-inspector",
       "name": "pdf-inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
       "language": "Rust",
-      "stars": 9910,
-      "todayStars": 2524,
-      "description": "RAG向け高速PDF判定Rust",
-      "detail": "RAGを組むスタートアップが不要なOCR費を削るのに使うRust製ライブラリです。200件のPDFを0.47秒でスキャンかテキストか判定でき、テキストPDF側のOCR費用を丸ごと省けます。",
-      "narration": "RAGを組むスタートアップがOCR費を削るのに使うRust製です。200件を0.47秒で判定します。"
-    },
-    {
-      "rank": 4,
-      "fullName": "uber/ADR",
-      "name": "ADR",
-      "url": "https://github.com/uber/ADR",
-      "language": "Python",
-      "stars": 657,
-      "todayStars": 140,
-      "description": "大企業向けAIエージェント監視基盤",
-      "detail": "社内でClaude CodeやCursorを配る大企業のセキュリティ担当が、エージェントの挙動を監視するために使う仕組みです。Uberの本番導入実績とMLSys 2026採択の裏付けがあります。",
-      "narration": "大企業のセキュリティ担当がAIエージェントを監視するのに使います。Uberの本番導入実績があります。"
-    },
-    {
-      "rank": 5,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 266432,
-      "todayStars": 777,
-      "description": "ソロ向けAIコーディング手順集",
-      "detail": "ソロ開発者や少人数チームがClaude Codeに正しい開発手順を守らせるためのスキル集です。設計、計画、TDDの流れを自動で発動させ、いきなり実装させないよう制御できるのが特徴です。",
-      "narration": "ソロ開発者がClaude Codeに設計から順に開発させるためのスキル集です。いきなり実装を防ぎます。"
+      "stars": 11365,
+      "todayStars": 1583,
+      "description": "RAG前段のPDF高速判定Rust",
+      "detail": "200件のPDFを0.47秒でテキスト型かスキャン型か画像型かに分類するRust製ライブラリです。DoclingやTesseract、PyMuPDF4LLMなど本格OCRの前段に置く分類器として、RAG構築生態系の中で不要なOCR処理を減らします。",
+      "narration": "PDFがテキスト型かスキャン型かを0.47秒で判定します。RAG構築の前段に置きOCR費を減らせます。"
     }
   ]
 }
