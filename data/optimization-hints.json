@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-06",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -33,77 +33,76 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-22〜08-04, n=13): ecosystem 2.25 n=4 / business-angle 2.25 n=4 / stack-migration 2.00 n=1 / comparison 1.00 n=2 / self-experiment 1.00 n=1 / trend-pattern 1.00 n=1 / tech-deep n=0 / use-case n=0。全期間 (n=80): stack-migration 2.00 n=1 / comparison 1.89 n=19 / ecosystem 1.82 n=17 / business-angle 1.67 n=15 / trend-pattern 1.64 n=11 / use-case 1.20 n=5 / self-experiment 1.13 n=8 / tech-deep 0.75 n=4。直近 2 日 (08-04 comparison / 08-03 ecosystem) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針 (10 日中 4 回 40% 超過)、残る候補 stack-migration (n=1 データ薄) と全期間 tier 落ちの trend-pattern / use-case / self-experiment / tech-deep の中から explore 枠として use-case を採用 (07-31/08-02/08-03/08-04 の 4 日連続 PDCA 提案『8 月第 1〜2 週内 use-case 1 回試行必須』を消化)。素材整合率 5/5: 本日 TOP5 は『スタートアップ (TencentDB-Agent-Memory) / 赤チーム (reverse-skill) / RAG スタートアップ (pdf-inspector) / 大企業セキュリティ (uber/ADR) / ソロ開発 (obra/superpowers)』の 5 種類の異なる persona × scene に自然に振れる稀有な use-case 高整合日。前日 08-04 comparison 語彙 (vs/違い/差別化/直接対決/代替) から『誰が/どう使う/シーン/現場/持ちたい』に完全切替、視聴者の脳内モードを『鋭く区別する意思決定資料』から『自分の現場に当てはめる導入資料』へ 180 度転換。水曜 (Wed=153 avg、週内 4 位) は中央値曜日で explore 試行の安全帯 (火曜 361 avg 消費せず、日曜 5 avg 無風日でもない)。08-04 comparison 0 views の再評価は 08-06 (48h 後) で確定判定、method 疲労か素材選定か曜日期待値未達かの切り分けを行う。"
+      "note": "Method 別 14d (2026-07-23〜08-05, n=13): business-angle 2.50 n=4 / ecosystem 2.33 n=3 / stack-migration 2.00 n=1 / comparison 1.00 n=2 / self-experiment 1.00 n=1 / trend-pattern 1.00 n=1 / use-case 0.00 n=1 / tech-deep n=0。全期間 (n=80): stack-migration 2.00 n=1 / comparison 1.89 n=19 / ecosystem 1.88 n=16 / business-angle 1.73 n=15 / trend-pattern 1.64 n=11 / self-experiment 1.13 n=8 / use-case 1.00 n=6 / tech-deep 0.75 n=4。直近 2 日 (08-05 use-case / 08-04 comparison) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針 (10 日中 4 回 40% 超過)、残る候補 stack-migration (n=1 データ薄) と全期間 tier 落ちの trend-pattern / self-experiment / tech-deep の中から exploit 唯一の一手として ecosystem (14d 2 位 avg 2.33 n=3、全期間 2 位 avg 1.88 n=16 の champion tier 信頼母集団) を採用、前回採用 08-03 から 3 日空きで連投 NG 該当なし。素材整合率 5/5: 本日 TOP5 は『5 本すべて明確な周辺 OSS 群を持つ』稀有な ecosystem 高整合日 (cloudflare/computer ↔ E2B・Modal・Daytona / loopx ↔ LangGraph・CrewAI・AutoGen / TencentDB ↔ mem0・Letta・Zep / system-design-primer ↔ NGINX・Redis・Cassandra・Bigtable・Dynamo / pdf-inspector ↔ Docling・Tesseract・PyMuPDF4LLM)。前日 08-05 use-case 語彙 (誰が/どう使う/シーン/現場/持ちたい) から『生態系/勢力図/位置/周辺/座る/加わる/対抗軸』に完全切替、視聴者の脳内モードを『自分の現場に当てはめる導入資料』から『同カテゴリ他 OSS と並べて見る技術地図』へ 180 度転換。木曜 (Thu=176 avg、週内 3 位) は中央値上位曜日で ecosystem exploit 展開に適正、日曜 5 avg/月曜 61 avg の無風日を消費せず、火曜 361/金曜 310 の高期待日温存。連続 2 日 0 views (08-04 comparison + 08-05 use-case) の絶対値低迷期からの回復確認曜日として安全帯。08-06 以降 08-04 comparison 事象の 48h 後本評価は確定 (0 views 定着) で method 疲労か素材選定かの切り分けを次週 PDCA に反映。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は水曜 (Wed=153 avg、週内 4 位、日曜比 30 倍) の中央値曜日。use-case 角度で『誰が/どう使う/シーン』を明示、視聴者が自分の現場に当てはめて再生停止せず最後まで見る誘引を作る"
+      "本日は木曜 (Thu=176 avg、週内 3 位、日曜比 35 倍) の中央値上位曜日。ecosystem 角度で『5 本を周辺 OSS 群と横並びの技術地図』として提示、視聴者が同カテゴリの選択肢を一望できる意思決定資料として位置づけ。連続 2 日 0 views 直後の回復確認曜日として exploit tier 一本集中"
     ],
     "hashtags": [
-      "use-case 角度の核心は『5 リポそれぞれに persona × scene を明示』。5 本のマッピング: #TencentDB_Agent_Memory=スタートアップの multi-agent 基盤担当が『社内 AI ツール横断の共有記憶』として自社立てで使う (PersonaMem +59%) / #reverse_skill=赤チーム/CTF 参加者/SOC アナリストが日常手順を Claude Code や Cursor に読ませて自動振り分け (APK/マルウェア解析/ペネトレ 15 領域) / #pdf_inspector=RAG を組むスタートアップが不要な OCR 費削減に使う Rust ライブラリ (200 文書 0.47s 分類ファースト設計) / #uber_ADR=Uber 本番導入 + MLSys 2026 採択、大企業のセキュリティ担当がエージェント挙動監視に使う (300 セキュリティタスク + 17 攻撃技法 + 133 MCP サーバー) / #obra_superpowers=ソロ開発者/少人数チームが Claude Code に『いきなり実装させない』ため設計→計画→TDD の流れを自動発動 (RED-GREEN-REFACTOR)",
-      "言語タグは TypeScript 1 + PowerShell 1 + Rust 1 + Python 1 + Shell 1 の 5 言語ばらけ。TypeScript (1.1x) 上位 + Python (1.2x) 最上位 + Shell (1.0x) 標準 + PowerShell (0.9x)/Rust (0.7x) の混成。Python 復活 (uber/ADR) と Shell 上位 (obra/superpowers) で言語スコア平均が前日より改善",
-      "use-case 角度の独自 hashtag: #ユースケース #シーン #現場 #導入 #活用 #スタートアップ #大企業 #ソロ開発 #チーム開発 #セキュリティ #マルウェア解析 #CTF #Pentest #レッドチーム #SOC #RAG #PDF #OCR #ClaudeCode #Cursor #Codex #AIエージェント #エージェント記憶 #mem0 #Letta #MemGPT #Uber #MLSys #ADR #TDD #RED_GREEN_REFACTOR #CTO"
+      "ecosystem 角度の核心は『5 リポそれぞれに周辺 OSS 群を明示』。5 本のマッピング: #cloudflare_computer=Cloudflare Workers と Durable Objects の上に AI エージェント用仮想 FS を載せた新基盤、コンテナ/シェル/JS 隔離の 3 実行環境、E2B・Modal・Daytona のサンドボックス勢力への対抗軸 / #huangruiteng_loopx=Claude Code/Cursor/Codex/OpenCode など既存の実装エージェントの上に置く長期作業の状態管理層、LangGraph/CrewAI/AutoGen の代替ではなく補完層 / #TencentDB_Agent_Memory=OpenClaw/Hermes/Claude Code/CodeBuddy に接続する自ホスト型の共有記憶ハブ、mem0/Letta/Zep と同じ記憶 OSS 勢力に加わる (PersonaMem +59%) / #system_design_primer=NGINX/HAProxy/Redis/Cassandra/Google Bigtable/Amazon Dynamo など大規模設計の一次資料を 1 リポに集めた学習教材集、設計面接勉強生態系の中心資産 (15 言語翻訳) / #pdf_inspector=200 件を 0.47 秒でテキスト/スキャン/画像/混在の 4 分類に振り分ける Rust 製、Docling/Tesseract/PyMuPDF4LLM など本格 OCR の前段に置く分類器として RAG 構築生態系の OCR 費削減役",
+      "言語タグは TypeScript 2 + Python 2 + Rust 1 の 5 言語 3 種構成。TypeScript (1.1x) 上位 + Python (1.2x) 最上位のダブル配置で言語スコア平均が前日より改善、Rust (0.7x) は 1 本のみで足枷小、PowerShell/Shell は今日ゼロで平均押し上げ",
+      "ecosystem 角度の独自 hashtag: #エコシステム #勢力図 #技術地図 #周辺OSS #座標 #導入判定 #意思決定 #CTO #技術選定 #AIエージェント #エージェント基盤 #サンドボックス #E2B #Modal #Daytona #Cloudflare #Workers #DurableObjects #LangGraph #CrewAI #AutoGen #mem0 #Letta #Zep #Docling #Tesseract #PyMuPDF #RAG #システム設計 #面接対策"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 250 文字 (48+51+50+50+51)、TTS +30% で約 40-42 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 51 文字 x 3 本)。前日 281 文字より 31 文字削減は use-case の『persona 1 個 + scene 1 個 + 具体効用 1 個』に骨格を絞ったため",
-      "use-case 角度の一貫性: 5 本すべての narration に『[persona] が [場面/目的] で使う』の骨格 + 具体効用 1 個を明示。1 本目『スタートアップで AI 共有記憶を持ちたい時 → 4 種の資産に貯まる』、2 本目『セキュリティ研究者や赤チームが手順を集めた → Claude Code に読ませ解析を任せる』、3 本目『RAG を組むスタートアップが OCR 費を削る → 200 件を 0.47 秒で判定』、4 本目『大企業のセキュリティ担当が AI エージェントを監視 → Uber の本番導入実績』、5 本目『ソロ開発者が Claude Code に設計から順に開発させる → いきなり実装を防ぐ』で、視聴者が『自分の現場が 5 本のどれに当てはまるか』を語彙で判定できる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。use-case では『persona / 場面 / 具体効用』の三点セットを明示、単発 tech-deep や README 引用と違い『自分の現場でどう使うか』を視聴者に想像させる情報密度を優先",
-      "数値表現はアラビア数字統一 (4 種、200 件、0.47 秒)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Uber、RAG、OCR、TDD) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 247 文字 (51+47+49+49+51)、TTS +30% で約 41-43 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 51 文字 x 2 本)。前日 08-05 250 文字とほぼ同水準で連続 0 views 直後の回復確認としてリスク低い尺",
+      "ecosystem 角度の一貫性: 5 本すべての narration に『[対象OSS] が [周辺OSS群] のどこに座るか』の骨格を明示。1 本目『Cloudflare 上に立てる AI エージェント用仮想 FS → E2B らサンドボックス勢力と競合』、2 本目『Claude Code などに載せる長期作業の状態層 → LangGraph らの補完に座る』、3 本目『mem0 や Letta と同じチーム向け記憶ハブ → PersonaMem で正答率が 59% 改善』、4 本目『NGINX や Redis など大規模設計の一次資料を集めた教材 → 設計面接勉強の中心資産に座る』、5 本目『PDF がテキスト型かスキャン型かを 0.47 秒で判定 → RAG 構築の前段に置き OCR 費を減らせる』で、視聴者が『5 本すべての座標を一枚の技術地図で把握』できる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『対象 OSS と周辺 OSS 群の位置関係』を明示、単発 tech-deep や README 引用と違い『技術地図で自社検討中の OSS の代替候補を一望できる』意思決定資料としての情報密度を優先",
+      "数値表現はアラビア数字統一 (59%、0.47 秒、200 件)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Cloudflare、Claude Code、LangGraph、mem0、Letta、NGINX、Redis、RAG、OCR、E2B) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `use-case` (14d 0 件、全期間 avg 1.20 n=5 の explore 枠、07-31/08-02/08-03/08-04 の 4 日連続 PDCA 提案『8 月第 1〜2 週内 use-case 1 回試行必須』を今日 8/5 (水曜、第 2 週頭) で消化、08-04 comparison 0 views 直後で試行コスト低、素材整合率 5/5 で稀有な use-case 高整合日)。水曜 (Wed=153 avg、週内 4 位) は explore 試行の安全帯で、火曜 (Tue=361) 金曜 (Fri=310) の高期待日を消費しない",
-      "本日 08-05 TOP5: #1 TencentCloud/TencentDB-Agent-Memory=TypeScript / 13,477★ / +1,138 [継続 (08-04 では #5、大幅昇格)・Chat Memory/Skills/Wiki/CodeGraph の 4 種資産に構造化、L0→L1→L2→L3 の層別抽出、Docker/K8s 自己ホスト、SDK 統合可、PersonaMem ベンチで 48% → 76% (+59%) 改善、スタートアップ multi-agent 基盤の共有記憶用途]、#2 zhaoxuya520/reverse-skill=PowerShell / 17,780★ / +2,310 [継続 (08-04 でも #2)・セキュリティ 15 領域 (マルウェア解析/APK 解析/CTF/ペネトレ/バイナリ/暗号化 JS/ファームウェア解析/エクスプロイト開発) 特化、RULES.md → MASTER-ROUTING 自動振り分け、Windows/Linux/Kali 対応 + MCP 統合、Claude Code/Cursor/Cline/Kiro 対応、赤チーム/CTF/SOC アナリスト用途]、#3 firecrawl/pdf-inspector=Rust / 9,910★ / +2,524 [継続 (08-04 でも #3)・pdf-inspector 総合スコア 0.875 / 速度 0.470s (200 文書) / 読み順精度 0.915 / テーブル検出 0.814、テキスト/スキャン PDF を 10-50ms で分類、ML 不要 pure Rust、Rust crate + PyO3 + napi-rs + WASM + CLI (pdf2md/detect-pdf)、Firecrawl 開発 MIT、RAG スタートアップの OCR 費削減用途]、#4 uber/ADR=Python / 657★ / +140 [新規流入・Agentic AI Detection and Response、Observability (7+ AI コーディングプラットフォーム対応、intent/tool/execution trace)、ADR-Bench (300+ セキュリティタスク × 17 攻撃技法 × 133 MCP サーバー)、Detection (2 段 tier: high-recall スクリーニング + deep reasoning)、Prevention (社内オフラインエンジンは非公開)、Uber 本番導入 + MLSys 2026 採択、大企業セキュリティ/SRE/AI プラットフォームチーム用途]、#5 obra/superpowers=Shell / 266,432★ / +777 [新規流入・agentic skills framework + software development methodology、設計→計画→TDD (RED-GREEN-REFACTOR)、git worktree による並列開発、subagent workflow で数時間の自律実行、2 段コードレビュー (spec 準拠 + 品質)、Prime Radiant 商用サポート、ソロ開発者/少人数チーム/エンタープライズ全スケール対応]",
-      "本日の use-case 核: 5 本を『5 種類の異なる persona × scene』として提示し、視聴者に『自分の現場が 5 本のどれに当てはまるか』を即時判定できる導入資料を提供。冒頭フックは『今日の Trending は「5 つの現場」パターン。スタートアップ・赤チーム・RAG 現場・大企業セキュリティ・ソロ開発、順に誰が使うかで切ります』",
-      "Primary (CTO/技術選定) には『自社の複数シーンに直接マッピングできる技術棚卸し資料』として、Secondary (PdM/事業責任者) には『どの部門で使えるか一望できる導入判定資料』として、Tertiary (学習中) には『自分がなりたいキャリア (ソロ/赤チーム/RAG エンジニア/セキュリティ/大企業) 別の必須ツール把握』として 3 層直撃",
-      "連投上限ルール: 14d 内 ecosystem=07-22/07-26/07-29/08-03 の 4 件 (08-05 見送りで維持、明日 8/6 の 07-22 窓外脱落で 3 件に減少予定)、business-angle=07-23/07-27/07-30/08-02 の 4 件 (08-05 見送りで維持、8/6 の 07-23 窓外脱落で 3 件に減少予定、8 月中旬まで休止方針継続)、comparison=07-31/08-04 の 2 件 (08-05 見送りで維持、8/14 の 07-31 窓外脱落まで 2 件維持)、trend-pattern=07-28 の 1 件 (8/11 窓外脱落)、self-experiment=07-25 の 1 件 (8/8 窓外脱落)、stack-migration=07-24 の 1 件 (8/7 窓外脱落)、use-case=0 件 → 08-05 投入で 1 件 (8/19 窓外脱落まで維持、explore 消化)、tech-deep=0 件 (14d 圏外脱落継続、8 月中旬に explore 枠試行候補)"
+      "本日の discovery.method は `ecosystem` (14d 2 位 avg 2.33 n=3、全期間 2 位 avg 1.88 n=16 の champion tier 信頼母集団、前回採用 08-03 から 3 日空き、直近 2 日 08-05 use-case/08-04 comparison 連投ルールと business-angle 8 月中旬まで休止方針で exploit 唯一の一手)。木曜 (Thu=176 avg、週内 3 位) は中央値上位曜日で ecosystem exploit 展開に適正、火曜 (Tue=361) 金曜 (Fri=310) の高期待日を消費せず、月曜 (Mon=61) 水曜 (Wed=153) 土曜 (Sat=79) 日曜 (Sun=5) の低期待日でもない安全帯",
+      "本日 08-06 TOP5: #1 cloudflare/computer=TypeScript / 2,750★ / +796 [新規流入・Durable Objects + SQLite でエージェント用仮想 FS を authoritative state 化、コンテナ (Linux sandbox + FUSE) / Isolate Shell (Dynamic Worker + RPC) / Isolate JS (ES module + fs) の 3 バックエンド切替、capnweb RPC + trusted modules (ws:git, ws:artifacts)、5 パッケージ monorepo、preview status で production 非対応、E2B・Modal・Daytona 対抗軸]、#2 huangruiteng/loopx=Python / 2,061★ / +327 [新規流入・agent runtime 非代替の補完層、objective/gates/todos/scope/evidence/quota の durable state、peer agent claims/leases、quota-aware scheduling、evidence tracking、human-in-the-loop gates、safe fallbacks、Codex/Claude Code/Cursor/OpenCode 対応、Feishu/Lark Kanban adapter、LangGraph/CrewAI/AutoGen 補完]、#3 TencentCloud/TencentDB-Agent-Memory=TypeScript / 15,005★ / +1,891 [継続 08-05 #1 → 08-06 #3 位置降格・Chat Memory/Skills/Wiki/CodeGraph の 4 種資産、L0→L1→L2→L3 の層別抽出、Docker/K8s 自己ホスト、SDK 統合可、OpenClaw/Hermes/Claude Code/CodeBuddy 対応、PersonaMem ベンチで 48% → 76% (+59%) 改善、mem0/Letta/Zep 勢力に加入]、#4 donnemartin/system-design-primer=Python / 361,477★ / +304 [新規流入・スケーラビリティ・一貫性・可用性の一次資料、Anki フラッシュカード 3 セット (System Design/Exercises/OO Design)、Harvard 講義動画、LeCloud/company engineering blogs、Google Bigtable/Amazon Dynamo 論文、NGINX/HAProxy/Redis/Cassandra 連携、15 言語翻訳、361K スター定番教材]、#5 firecrawl/pdf-inspector=Rust / 11,365★ / +1,583 [継続 08-05 #3 → 08-06 #5 位置降格・pdf-inspector 総合スコア 0.875 / 速度 0.470s (200 文書) / 読み順精度 0.915 / テーブル検出 0.814、TextBased/Scanned/ImageBased/Mixed の 4 分類、10-50ms per PDF、per-page OCR routing 推奨付き信頼度スコア、LiteParse (0.873/0.750s) OpenDataLoader (0.831/2.569s) PyMuPDF4LLM (0.735/17.117s) MarkItDown (0.589/16.165s) を上回る、テキスト PDF 約 54% の OCR 費削減]",
+      "本日の ecosystem 核: 5 本を『5 種類の異なる周辺 OSS 群を持つ技術地図』として提示し、視聴者に『自社検討中の OSS の代替候補と競合勢力を一望できる意思決定資料』を提供。冒頭フックは『今日の Trending は「5 つの生態系」パターン。サンドボックス基盤・状態管理層・記憶ハブ・設計教材・PDF 前処理、順にどこに座るかで切ります』",
+      "Primary (CTO/技術選定) には『採用検討 OSS の周辺勢力を一枚で把握できる技術地図』として、Secondary (PdM/事業責任者) には『各 OSS がどの生態系に属するか俯瞰』として、Tertiary (学習中) には『技術地図を自分で作れるようになる基礎資料』として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=07-26/07-29/08-03 の 3 件 (07-22 が窓外脱落、08-06 投入で 4 件、8/9 の 07-26 窓外脱落まで 4 件維持)、business-angle=07-23/07-27/07-30/08-02 の 4 件 (08-06 見送りで維持、8/7 の 07-23 窓外脱落で 3 件に減少予定、8 月中旬まで休止方針継続)、comparison=07-31/08-04 の 2 件 (08-06 見送りで維持、8/14 の 07-31 窓外脱落まで 2 件維持)、trend-pattern=07-28 の 1 件 (8/11 窓外脱落)、self-experiment=07-25 の 1 件 (8/8 窓外脱落・今週未消化)、stack-migration=07-24 の 1 件 (8/7 窓外脱落)、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、tech-deep=0 件 (14d 圏外脱落継続、8 月中旬に explore 枠試行候補・ただし 08-05 use-case 0 views 失敗を受け 8/12 まで凍結)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-05",
-    "dayOfWeek": "Wed",
+    "date": "2026-08-06",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "ユースケース",
-      "シーン",
-      "現場",
-      "導入",
-      "活用",
-      "スタートアップ",
-      "大企業",
-      "ソロ開発",
-      "チーム開発",
-      "セキュリティ",
-      "マルウェア解析",
-      "CTF",
-      "Pentest",
-      "レッドチーム",
-      "SOC",
-      "RAG",
-      "PDF",
-      "OCR",
-      "ClaudeCode",
-      "Cursor",
-      "Codex",
+      "エコシステム",
+      "勢力図",
+      "技術地図",
+      "周辺OSS",
+      "座標",
+      "導入判定",
+      "意思決定",
+      "CTO",
+      "技術選定",
       "AIエージェント",
-      "エージェント記憶",
+      "エージェント基盤",
+      "サンドボックス",
+      "E2B",
+      "Modal",
+      "Daytona",
+      "Cloudflare",
+      "Workers",
+      "DurableObjects",
+      "LangGraph",
+      "CrewAI",
+      "AutoGen",
       "mem0",
       "Letta",
-      "MemGPT",
-      "Uber",
-      "MLSys",
-      "ADR",
-      "TDD",
-      "RED_GREEN_REFACTOR",
-      "CTO",
+      "Zep",
+      "Docling",
+      "Tesseract",
+      "PyMuPDF",
+      "RAG",
+      "OCR",
+      "システム設計",
+      "面接対策",
+      "cloudflare_computer",
+      "huangruiteng_loopx",
       "TencentDB_Agent_Memory",
-      "reverse_skill",
-      "pdf_inspector",
-      "uber_ADR",
-      "obra_superpowers"
+      "system_design_primer",
+      "pdf_inspector"
     ],
-    "focus": "水曜 (Wed=153 avg、週内 4 位、日曜比 30 倍) は中央値曜日で explore 試行の安全帯。`use-case` (14d 0 件、全期間 avg 1.20 n=5 の explore 枠、07-31/08-02/08-03/08-04 の 4 日連続 PDCA 提案『8 月第 1〜2 週内 use-case 1 回試行必須』を今日 8/5 で消化、直近 2 日 08-04 comparison/08-03 ecosystem 連投ルールと business-angle 8 月中旬まで休止方針で exploit 上位が全て除外時の必須 explore) を投入。5/5 素材 (TencentDB-Agent-Memory / reverse-skill / pdf-inspector / uber/ADR / obra/superpowers) が『5 種類の異なる persona × scene』(スタートアップ multi-agent / 赤チーム × セキュリティ手順 / RAG スタートアップ × PDF 高速化 / 大企業 × AI エージェント監視 / ソロ開発 × Claude Code 手順制御) に自然に振れる稀有な use-case 高整合日。本日の TOP5 は 3/5 継続 (TencentDB #5→#1 大幅昇格・reverse-skill #2 維持・pdf-inspector #3 維持)、2/5 新規 (uber/ADR #4・obra/superpowers #5) で日次 refresh 率 40%、method 切替 (comparison → use-case) + 語彙総入替 (vs/違い/差別化/直接対決/代替 → 誰が/どう使う/シーン/現場/持ちたい) で 08-04 の 0 views ショック回避と視聴者 frame リフレッシュを両立。narration は 5 本すべてに『[persona] が [場面/目的] で使う + 具体効用 1 個』の骨格を反復、5 本合計 250 文字 (48+51+50+50+51) で TTS 換算約 40-42 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。前日 281 文字より 31 文字削減は use-case の『persona 1 個 + scene 1 個 + 具体効用 1 個』に骨格を絞ったため。use-case 語彙 (誰が/どう使う/シーン/現場/持ちたい/使う/削る/監視/防ぐ) と各リポの固有事実 (Chat Memory/Skills/Wiki/CodeGraph の 4 種資産 + PersonaMem +59% / セキュリティ 15 領域 + Claude Code/Cursor 自動振り分け / 200 文書 0.47s + テキスト PDF の OCR 省略 / Uber 本番導入 + MLSys 2026 採択 / 設計→計画→TDD 自動発動 + RED-GREEN-REFACTOR) を全 5 本に埋めて README 読み上げレベルを回避。柱① (GitHub Trending 解説 70%) を本日投入、今週の柱② (business-angle 08-02 消化済 + 8 月中旬まで休止方針)、柱③ (self-experiment 07-25 消化済 → 新週未消化、来週消化候補)、柱④ (trend-pattern 07-28 消化済 → 新週未消化、来週消化候補)。08-06 (木) 以降は 08-04 comparison 0 views 事象の 48h 後本評価 (method 疲労か素材選定か曜日期待値未達かの切り分け)、08-05 use-case 実験結果の初期観測、来週の柱③/柱④ 消化タイミング判断を反映。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "木曜 (Thu=176 avg、週内 3 位、日曜比 35 倍) は中央値上位曜日で ecosystem exploit 展開に適正。`ecosystem` (14d 2 位 avg 2.33 n=3、全期間 2 位 avg 1.88 n=16 の champion tier 信頼母集団、前回採用 08-03 から 3 日空き、直近 2 日 08-05 use-case/08-04 comparison 連投ルールと business-angle 8 月中旬まで休止方針で exploit 唯一の一手) を投入。5/5 素材 (cloudflare/computer / huangruiteng/loopx / TencentDB-Agent-Memory / system-design-primer / pdf-inspector) が『5 本すべて明確な周辺 OSS 群を持つ』稀有な ecosystem 高整合日 (cloudflare/computer ↔ E2B・Modal・Daytona / loopx ↔ LangGraph・CrewAI・AutoGen / TencentDB ↔ mem0・Letta・Zep / system-design-primer ↔ NGINX・Redis・Cassandra・Bigtable・Dynamo / pdf-inspector ↔ Docling・Tesseract・PyMuPDF4LLM)。本日の TOP5 は 2/5 継続 (TencentDB #1→#3 位置降格・pdf-inspector #3→#5 位置降格)、3/5 新規 (cloudflare/computer #1・huangruiteng/loopx #2・system-design-primer #4) で日次 refresh 率 60%、method 切替 (use-case → ecosystem) + 語彙総入替 (誰が/どう使う/シーン/現場/持ちたい → 生態系/勢力図/位置/周辺/座る/加わる/対抗軸) で 08-04・08-05 連続 2 日 0 views の絶対値低迷期からの exploit tier 一本集中回復狙い。narration は 5 本すべてに『[対象OSS] が [周辺OSS群] のどこに座るか』の骨格を反復、5 本合計 247 文字 (51+47+49+49+51) で TTS 換算約 41-43 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。連続 0 views 直後の回復確認としてリスク低い尺で継続維持。ecosystem 語彙 (生態系/勢力図/位置/周辺/座る/加わる/対抗軸/補完/中心資産) と各リポの固有事実 (Cloudflare Workers+Durable Objects+3実行環境 / Claude Code/Cursor 補完層 / mem0/Letta 記憶勢力 + PersonaMem +59% / NGINX/Redis/Bigtable 教材 + 15 言語翻訳 / 200 文書 0.47s + RAG 前段 OCR 費削減) を全 5 本に埋めて README 読み上げレベルを回避。柱① (GitHub Trending 解説 70%) を本日投入、今週の柱② (business-angle 08-02 消化済 + 8 月中旬まで休止方針)、柱③ (self-experiment 07-25 消化済 → 新週 08-03〜08-09 未消化、8/7-8/8 消化候補)、柱④ (trend-pattern 07-28 消化済 → 新週未消化、来週消化候補)。08-05 use-case 0 views 失敗を受けた explore 枠凍結 (『回復モード』発動) を 8/12 (火曜、Tue=361 avg で回復確認可能日) まで継続、explore 系 (use-case 再挑戦・comparison 再挑戦・tech-deep 新規) はすべて来週送りで exploit tier 一本集中運用。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
