@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5(cloudflare/computer #1・huangruiteng/loopx #2・TencentCloud/TencentDB-Agent-Memory #3・donnemartin/system-design-primer #4・firecrawl/pdf-inspector #5)を『既存OSS群のどこに座るか』の勢力図で切る ecosystem angle。#1 cloudflare/computer=Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想FSを載せた新基盤、コンテナ/シェル/JS隔離の3実行環境、E2B・Modal・Daytonaのサンドボックス勢力への対抗軸。#2 huangruiteng/loopx=Claude Code/Cursor/Codex/OpenCodeなど既存の実装エージェントの上に置く長期作業の状態管理層、LangGraph/CrewAI/AutoGenの代替ではなく補完層として目的・計画・証跡・クオータを長時間保持。#3 TencentDB-Agent-Memory=OpenClaw/Hermes/Claude Code/CodeBuddyに接続する自ホスト型の共有記憶ハブ、mem0/Letta/Zepと同じ記憶OSS勢力に加わり、PersonaMemベンチで正答率+59%。#4 system-design-primer=NGINX/HAProxy/Redis/Cassandra/Google Bigtable/Amazon Dynamoなど大規模設計の一次資料を1リポジトリに集めた学習教材集、設計面接勉強生態系の中心資産として15言語に翻訳。#5 firecrawl/pdf-inspector=200件のPDFを0.47秒でテキスト/スキャン/画像/混在の4分類に振り分けるRust製、Docling/Tesseract/PyMuPDF4LLMなど本格OCRの前段に置く分類器としてRAG構築生態系のOCR費削減役。method選定: 直近2日(08-05 use-case / 08-04 comparison)連投ルールで両者除外、14d上位2 method (business-angle 2.50 n=4 / ecosystem 2.33 n=3) から business-angle 週次過剰採用 (10日中4回40%超過、8月中旬まで休止方針継続) を除外、残る候補で ecosystem を exploit 選択。ecosystem 前回採用08-03から3日空き、連投NG該当なし。champion tier 継続。全期間avg 1.88 n=16も2位実績で信頼母集団。素材整合率5/5: 5本すべて『明確な周辺OSS群を持つ』稀有な ecosystem 高整合日 (cloudflare/computer↔E2B・Modal・Daytona / loopx↔LangGraph・CrewAI・AutoGen / TencentDB↔mem0・Letta・Zep / system-design-primer↔NGINX・Redis・Cassandra・Bigtable・Dynamo / pdf-inspector↔Docling・Tesseract・PyMuPDF4LLM)。木曜(Thu=176 avg、週内3位)は中央値上位曜日で ecosystem exploit 展開に適正、日曜5 avg/月曜61 avgの無風日を消費せず、火曜361/金曜310の高期待日温存。前日08-05 use-case 語彙 (誰が/どう使う/シーン/現場/持ちたい) から『生態系/勢力図/位置/周辺/座る/加わる』へ完全切替、視聴者の脳内モードを『自分の現場に当てはめる導入資料』から『同カテゴリ他OSSと並べて見る技術地図』へ 180 度転換。TOP5継続2 (TencentDB #1→#3・pdf-inspector #3→#5)/新規3 (cloudflare/computer・loopx・system-design-primer): continue-rate 40% は視聴者素材疲労管理範囲、angle 総入替 (use-case→ecosystem) と語彙総入替でネタ既視感を回避。narration 5本合計247文字 (51+47+49+49+51) TTS換算約49秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。",
+    "method": "trend-pattern",
+    "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・addyosmani/agent-skills #2・cloudflare/computer #3・mattpocock/skills #4・goauthentik/authentik #5)を『なぜ今週この5本が同時にTOP入りしたか』の trend-pattern angle で切る。中核観察: AIエージェントOSSの『OS三点セット』(Skills層 / Memory層 / Compute層) が同一週に揃う稀有な週で、素材整合率 4/5=80%。#1 TencentDB-Agent-Memory=OpenClaw/Hermes/Claude Code/CodeBuddyに接続する自ホスト共有記憶ハブ、mem0/Letta/Zepと同じ『エージェント記憶OSS』カテゴリが今週一斉に伸びた文脈で main 昇格 (#3→#1)、PersonaMemベンチ正答率+59%。#2 addyosmani/agent-skills=Google流の工程規律をDefine/Plan/Build/Verify/Review/Shipの6フェーズ・24スキルに体系化した本格開発向けスキルパック、Claude Code/Cursor/Copilot対応。#3 cloudflare/computer=Cloudflare Workers+Durable Objects上のAIエージェント計算基盤 (仮想FS+3実行環境)、昨日 #1 から mid-tier 降格 (#1→#3) するも継続 trending。#4 mattpocock/skills=TypeScript教育で著名なMatt Pocockが自身の.agentsから抽出したスラッシュコマンド式スキル集 (/grill-me/tddなど)、agent-skillsと哲学違い (個人実践派 vs Google流工程主義) の Skills 系OSSが同一週に同時 TOP5 入りは初観測、Skills as OSSカテゴリの独立ジャンル化を示唆。#5 goauthentik/authentik=SAML/OAuth2/OIDC/LDAP/RADIUS対応の自ホストIdP、Okta/Auth0/EntraID代替として『自ホスト/非SaaS潮流』でメイン潮流4本と隣接接続可能。method選定: 直近2日 (08-06 ecosystem / 08-05 use-case) 連投ルールで両者除外、14d上位 method (business-angle 2.50 n=4 / ecosystem 2.00 n=3) から business-angle 週次過剰採用 (10日中4回40%超過、8月中旬まで休止) を除外、ecosystem は連投 NG で除外。残る候補で素材整合率 4/5=80% (運用開始以来 trend-pattern で最高水準) の trend-pattern を『素材主導 exploit』選択。全期間 avg 1.64 n=11 (4位 tier) と信頼母集団は最低限、前回採用07-28から10日空きで方向転換効果あり。金曜 (Fri=310 avg、週内2位の高期待日) は火曜 (Tue=361) 次点で trend-pattern の絶対値回復観測に最適曜日。前日08-06 ecosystem 語彙 (生態系/勢力図/座る/加わる) から『今週/同時に/揃った/一斉に/急伸/揃いました/伸びた週』へ完全切替、視聴者の脳内モードを『同カテゴリ他OSS横並び俯瞰の意思決定資料』から『今週のマクロ潮流を60秒で把握するニュース分析番組』へ180度転換。TOP5継続2 (TencentDB #3→#1・cloudflare/computer #1→#3)/新規3 (agent-skills・mattpocock/skills・authentik) で lineup 感十分刷新。narration 5本合計259文字 (50+52+56+49+52) TTS換算約52秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/cloudflare/computer",
-      "https://github.com/huangruiteng/loopx",
       "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "https://github.com/donnemartin/system-design-primer",
-      "https://github.com/firecrawl/pdf-inspector"
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/cloudflare/computer",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/goauthentik/authentik"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "cloudflare/computer",
-      "name": "computer",
-      "url": "https://github.com/cloudflare/computer",
-      "language": "TypeScript",
-      "stars": 2750,
-      "todayStars": 796,
-      "description": "AIエージェント用Cloudflare仮想FS",
-      "detail": "Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想ファイルシステムを載せた新基盤です。コンテナ・シェル・JS隔離の3種の実行環境を切り替えられ、E2BやModal、Daytonaといったサンドボックス勢力の対抗軸に立ちます。",
-      "narration": "Cloudflare上に立てるAIエージェント用仮想FSです。E2Bらサンドボックス勢力と競合します。"
-    },
-    {
-      "rank": 2,
-      "fullName": "huangruiteng/loopx",
-      "name": "loopx",
-      "url": "https://github.com/huangruiteng/loopx",
-      "language": "Python",
-      "stars": 2061,
-      "todayStars": 327,
-      "description": "AIエージェント長期作業の状態管理層",
-      "detail": "Claude CodeやCursor、Codexなど既存の実装エージェントの上に置く、長期作業向けの状態管理層OSSです。LangGraphやCrewAIの代替ではなく補完層として、目的・計画・証跡・クオータを長時間保持する役割に座ります。",
-      "narration": "Claude Codeなどに載せる長期作業の状態層です。LangGraphらの補完に座ります。"
-    },
-    {
-      "rank": 3,
       "fullName": "TencentCloud/TencentDB-Agent-Memory",
       "name": "TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "language": "TypeScript",
-      "stars": 15005,
-      "todayStars": 1891,
-      "description": "チーム向けAIエージェント記憶ハブ",
-      "detail": "OpenClaw、Hermes、Claude Code、CodeBuddyなど複数のエージェントに接続する自ホスト型の共有記憶ハブです。mem0やLetta、Zepと同じ記憶OSS勢力に加わる位置に立ち、PersonaMemベンチで正答率が59%改善します。",
-      "narration": "mem0やLettaと同じチーム向け記憶ハブです。PersonaMemで正答率が59%改善します。"
+      "stars": 16276,
+      "todayStars": 1053,
+      "description": "AIエージェントの企業向け記憶ハブ",
+      "detail": "OpenClaw、Hermes、Claude Code、CodeBuddyに接続する自ホスト型の共有記憶ハブです。今週mem0やLettaと同じ『エージェント記憶OSS』カテゴリが一斉に伸び、PersonaMemベンチで正答率が59%改善します。",
+      "narration": "エージェントの記憶がOSSで独立層になった週です。mem0らと並ぶ自ホスト記憶ハブが今週揃いました。"
+    },
+    {
+      "rank": 2,
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars": 82863,
+      "todayStars": 588,
+      "description": "AIエージェント用の工程スキル集",
+      "detail": "Define・Plan・Build・Verify・Review・Shipの6フェーズを24のスキルに分解した本格開発パックです。Google流の工程規律をClaude CodeやCursor、Copilot上のAIエージェントに載せられます。",
+      "narration": "今週はAIエージェントのスキル配布がTOP入りしました。24の工程を体系化した本格開発向けのパックです。"
+    },
+    {
+      "rank": 3,
+      "fullName": "cloudflare/computer",
+      "name": "computer",
+      "url": "https://github.com/cloudflare/computer",
+      "language": "TypeScript",
+      "stars": 4732,
+      "todayStars": 2690,
+      "description": "AIエージェント用Cloudflare計算基盤",
+      "detail": "Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想ファイルシステムを載せた新基盤です。コンテナ・シェル・JS隔離の3実行環境を選べ、E2BやModal、Daytonaと同じサンドボックス勢に並びます。",
+      "narration": "エージェント用の計算基盤もOSS化が進む週です。Cloudflare上に仮想FSとサンドボックスを立てられます。"
     },
     {
       "rank": 4,
-      "fullName": "donnemartin/system-design-primer",
-      "name": "system-design-primer",
-      "url": "https://github.com/donnemartin/system-design-primer",
-      "language": "Python",
-      "stars": 361477,
-      "todayStars": 304,
-      "description": "大規模システム設計の定番学習教材",
-      "detail": "大規模システム設計の一次資料を1リポジトリに集めた学習教材集です。NGINXやRedis、Cassandra、GoogleのBigtableやAmazonのDynamo論文への導線が張られ、面接勉強生態系の中心資産として15言語に翻訳されています。",
-      "narration": "NGINXやRedisなど大規模設計の一次資料を集めた教材です。設計面接勉強の中心資産に座ります。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 206907,
+      "todayStars": 2002,
+      "description": "Matt Pocock流の実践スキル集",
+      "detail": "TypeScript教育で知られるMatt Pocockが自身の.agentsから抽出したスキル集です。/grill-meや/tddなどスラッシュコマンド式で、Claude CodeやCodexにTDDや設計規律を差し込めます。",
+      "narration": "個人開発者のスキル集も同じ週に急伸しました。TDDやコードレビューなど工程別のワークフロー集です。"
     },
     {
       "rank": 5,
-      "fullName": "firecrawl/pdf-inspector",
-      "name": "pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "language": "Rust",
-      "stars": 11365,
-      "todayStars": 1583,
-      "description": "RAG前段のPDF高速判定Rust",
-      "detail": "200件のPDFを0.47秒でテキスト型かスキャン型か画像型かに分類するRust製ライブラリです。DoclingやTesseract、PyMuPDF4LLMなど本格OCRの前段に置く分類器として、RAG構築生態系の中で不要なOCR処理を減らします。",
-      "narration": "PDFがテキスト型かスキャン型かを0.47秒で判定します。RAG構築の前段に置きOCR費を減らせます。"
+      "fullName": "goauthentik/authentik",
+      "name": "authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "language": "Python",
+      "stars": 23066,
+      "todayStars": 123,
+      "description": "Okta代替の自ホスト型SSO基盤",
+      "detail": "SAML・OAuth2・OIDC・LDAP・RADIUSを一つで賄う自ホスト型のアイデンティティプロバイダです。OktaやAuth0、EntraIDの代替として、DockerやKubernetesで自社にデプロイして企業SSOを組めます。",
+      "narration": "自ホスト認証基盤も一緒に伸びた週です。Okta代替として企業SSOをSAMLとOIDCで一気に賄えます。"
     }
   ]
 }
