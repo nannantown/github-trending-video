@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -33,78 +33,70 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-24〜08-06, n=13、08-06 計測早期は暫定): business-angle 2.50 n=4 / ecosystem 2.00 n=3 (08-06 除外) / stack-migration 2.00 n=1 / trend-pattern 1.00 n=1 / self-experiment 1.00 n=1 / comparison 1.00 n=2 / use-case 0.00 n=1 / tech-deep n=0。全期間 (n=80): stack-migration 2.00 n=1 / comparison 1.89 n=19 / ecosystem 1.88 n=16 / business-angle 1.73 n=15 / trend-pattern 1.64 n=11 / self-experiment 1.13 n=8 / use-case 1.00 n=6 / tech-deep 0.75 n=4。直近 2 日 (08-06 ecosystem / 08-05 use-case) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針 (10 日中 4 回 40% 超過)。残る exploit 候補が構造的に閉じる中、今日の TOP5 が『AI エージェント関連 4/5』(Skills 層=agent-skills #2・mattpocock/skills #4 / Memory 層=TencentDB #1 / Compute 層=cloudflare/computer #3) の稀有な素材配置日にヒット。素材整合率 4/5=80% の trend-pattern (全期間 avg 1.64 n=11、4 位 tier、前回採用 07-28 から 10 日空き) を『素材主導 exploit』として選択。金曜 (Fri=310 avg、週内 2 位) の高期待日で trend-pattern の絶対値回復観測に最適。前日 08-06 ecosystem 語彙 (生態系/勢力図/座る/加わる) から『今週/同時に/揃った/一斉に/急伸/揃いました/伸びた週』に完全切替、視聴者の脳内モードを『同カテゴリ横並び俯瞰の意思決定資料』から『今週のマクロ潮流を 60 秒で把握するニュース分析番組』へ 180 度転換。TOP5 継続 2 (TencentDB #3→#1・cloudflare/computer #1→#3)/新規 3 (agent-skills・mattpocock/skills・authentik) で lineup 感十分刷新、Skills 系 OSS 同一週複数入りは初観測 (Skills as OSS カテゴリの独立ジャンル化を示唆)。"
+      "note": "Method 別 14d (2026-07-25〜08-07, n=12、08-07 計測早期は暫定): business-angle 3.00 n=3 / ecosystem 2.67 n=3 / comparison 2.00 n=2 / self-experiment 1.00 n=1 / use-case 1.00 n=1 / trend-pattern 0.50 n=2 (07-28:1 / 08-07:0 早期)。全期間 (n=82): ecosystem 2.00 n=15 / comparison 2.00 n=19 / stack-migration 2.00 n=1 / business-angle 1.73 n=15 / use-case 1.17 n=6 / self-experiment 1.12 n=8 / trend-pattern 1.09 n=11 / tech-deep 0.75 n=4。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針 (10 日中 4 回 40% 超過)、comparison は 08-04 消化で cooldown 4 日と短い。今週 (Mon-Sun 08-03〜08-09) は柱② or ③ 未消化 + business-angle 休止中の必然的帰結として self-experiment (柱③) を消化。素材側は 5/5=100% AI エージェント OSS で『Claude Code で日次動画自動化を回している中の人』の自己開示ネタとして完全整合、07-25 分は今日で 14d 窓外脱落し 14d n=0 リセットで新窓 1 本目投入の最良タイミング。前日 08-07 trend-pattern (14d avg 0.50 n=2、48h 後本評価待ち) からの natural progression で『昨日はニュース分析、今日は同じ素材を実運用者がレビュー』という 2 日連続の続き番組フォーマット。TOP5 継続 3 (agent-skills #2 同位置・cloudflare/computer #3 同位置・mattpocock/skills #4 同位置)/新規 2 (prime-agent #1・superpowers #5)、5/5=100% AI エージェント OSS 集中は運用開始以来かつ観測史上初。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は金曜 (Fri=310 avg、週内 2 位、火曜次点の高期待日)。trend-pattern 角度で『今週 AI エージェントの OS 三点セット (Skills / Memory / Compute) が同一週に揃った』のマクロ潮流をニュース分析型で提示、視聴者に『何が今週新しかったか』の記憶残しを狙う"
+      "本日は土曜 (Sat=79 avg、週内下位、日曜 5 avg 除けば低期待日)。self-experiment 角度で『Claude Code で日次動画自動化を回している中の人が 5 本を採否判断するレビュー番組』フォーマット、weekly pillar (柱③) 消化目的の中位 tier method 投入で低期待日リスクを weekly pillar 消化義務でヘッジ"
     ],
     "hashtags": [
-      "trend-pattern 角度の核心は『5 リポの同時 TOP5 入りをマクロ潮流の 1 本の縦串で読み解く』。5 本のマッピング: #TencentDB_Agent_Memory=OpenClaw/Hermes/Claude Code/CodeBuddy に接続する自ホスト型共有記憶ハブ、mem0/Letta/Zep と同じ『エージェント記憶 OSS』カテゴリが今週一斉に伸びた文脈で main 昇格 (#3→#1)、PersonaMem +59% / #agent_skills=Google 流の工程規律 (Define/Plan/Build/Verify/Review/Ship の 6 フェーズ・24 スキル) を Claude Code/Cursor/Copilot に載せる本格開発向けスキルパック / #cloudflare_computer=Cloudflare Workers+Durable Objects 上の AI エージェント計算基盤 (仮想 FS+3 実行環境)、E2B/Modal/Daytona のサンドボックス勢力に並ぶ、昨日 #1 から #3 位置降格するも継続 trending / #mattpocock_skills=TypeScript 教育で著名な Matt Pocock の個人 .agents から抽出したスラッシュコマンド式スキル集 (/grill-me、/tdd、/code-review)、agent-skills と哲学違い (個人実践派 vs Google 流工程主義) で同一週 TOP5 入りは初観測、Skills as OSS カテゴリの独立ジャンル化を示唆 / #authentik=SAML/OAuth2/OIDC/LDAP/RADIUS 対応の自ホスト IdP、Okta/Auth0/EntraID 代替として『自ホスト/非 SaaS 潮流』でメイン潮流 4 本と隣接接続",
-      "言語タグは TypeScript 2 + JavaScript 1 + Shell 1 + Python 1 の 5 言語 4 種構成。TypeScript (1.1x) 2 本上位 + Python (1.2x) 最上位配置で言語スコア平均が前日並、Rust 0 本・PowerShell 0 本で低係数言語ゼロ、Shell (1.0x)・JavaScript (0.9x) は中央値",
-      "trend-pattern 角度の独自 hashtag: #トレンド解説 #今週の潮流 #ニュース分析 #マクロ視点 #Skills #AgentSkills #AIエージェント #エージェント基盤 #エージェント記憶 #エージェント計算 #Claude #ClaudeCode #Cursor #Copilot #Codex #mem0 #Letta #Zep #Cloudflare #Workers #DurableObjects #E2B #Modal #Daytona #Okta #Auth0 #EntraID #SSO #自ホスト #IdP #CTO #技術選定"
+      "self-experiment 角度の核心は『中の人 (Claude Code で日次動画自動化を回す本チャンネル運用者) が 5 本を実運用の採否判断でレビュー』。5 本のマッピング: #prime_agent=Recursive Language Model + Continual Harness で状態をセッション越しに保持する自律エージェント (MIT, TypeScript, +2,271★、PrimeIntellect-ai 開発、初登場 #1)、私自身の日次ルーチンの状態管理 (前日 PDCA を今日の angle 選定に生かす等) に直接効く採用候補 / #agent_skills=Google 流工程規律 (Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキル) を Claude Code/Cursor/Copilot に載せる本格開発向けパック (JavaScript, +1,131★、addyosmani 開発、同位置 #2 継続)、私のルーチンの過剰実装癖 (バグ修正のついでに周辺リファクタしてしまう等) に効く採用候補 / #cloudflare_computer=Cloudflare Workers+Durable Objects 上の AI エージェント計算基盤 (仮想 FS+3 実行環境: コンテナ+Isolate Shell+Isolate JS) (TypeScript, +894★、同位置 #3 継続)、ローカル完結の私のルーチンには過剰で当面採用は保留候補 / #mattpocock_skills=TypeScript 教育で著名な Matt Pocock 個人 .agents から抽出したスラッシュコマンド式スキル集 (/tdd、/grill-me、/code-review) (Shell, +2,180★、同位置 #4 継続)、個人開発者の実運用に近く /tdd あたりを移植して試したい実践派採用候補 / #superpowers=設計→計画→TDD→コードレビューを自動で挿し込むエージェント向け方法論、Claude Code/Cursor/Codex マーケットから導入可 (Shell, +794★、obra=Jesse Vincent 開発、初登場 #5)、日次ルーチンの品質担保 (回帰バグ防止) に自分のワークフローで試したい採用候補",
+      "言語タグは TypeScript 2 + JavaScript 1 + Shell 2 の 4 言語 3 種構成。TypeScript (1.1x) 2 本上位 + JavaScript (0.9x) 中位 + Shell (1.0x) 2 本、Python (1.2x) 最上位が今日は 0 本で言語スコア平均は前日 (Python 1 + TypeScript 2 + JavaScript 1 + Shell 1) より若干低下、Rust 0 本・PowerShell 0 本で低係数言語ゼロは維持",
+      "self-experiment 角度の独自 hashtag: #自作ルーチン #個人開発 #中の人 #実運用レビュー #採否判断 #ClaudeCode運用 #スキル移植 #AIエージェント #自律エージェント #AgentSkills #CodingAgent #Skills #TDD #Cursor #Codex #Copilot #Cloudflare #Workers #DurableObjects #RLM #RecursiveLanguageModel #CTO #技術選定 #個人開発者 #ソロCTO"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 259 文字 (50+52+56+49+52)、TTS +30% で約 43-45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 56 文字)",
-      "trend-pattern 角度の一貫性: 5 本すべての narration に時間軸語彙 (『今週』『同じ週に』『一緒に』『揃った』『急伸』『伸びた週』) を配置。1 本目『エージェントの記憶が OSS で独立層になった週 → mem0 らと並ぶ自ホスト記憶ハブが今週揃いました』、2 本目『今週は AI エージェントのスキル配布が TOP 入り → 24 の工程を体系化した本格開発向けのパック』、3 本目『エージェント用の計算基盤も OSS 化が進む週 → Cloudflare 上に仮想 FS とサンドボックス』、4 本目『個人開発者のスキル集も同じ週に急伸 → TDD やコードレビューなど工程別のワークフロー集』、5 本目『自ホスト認証基盤も一緒に伸びた週 → Okta 代替として企業 SSO を SAML と OIDC で』で、視聴者が『今週 AI エージェントの OS 三点セット + 隣接ニュース 1 本』のマクロ潮流を 60 秒で把握できる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では『同時性 (同一週に揃った事実)』を明示、単発紹介や tech-deep と違い『今週何が新しくなったか』の記憶残し密度を優先",
-      "数値表現はアラビア数字統一 (24、59%)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Cloudflare、mem0、Letta、Okta、SAML、OIDC、TDD) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 254 文字 (46+53+52+52+51)、TTS +30% で約 42-45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 53 文字)",
+      "self-experiment 角度の一貫性: 5 本すべての narration に一人称 (私/自分/自分でも) と自身のプロジェクト言及 (日次ルーチン/Claude Code 運用/私のルーチン) を配置。1 本目『長時間タスク向けの自律エージェント → 日次ルーチンの状態管理に自分でも試したい構成』、2 本目『Google 流の工程規律を 24 スキルに束ねたパック → 私の Claude Code 運用にも入れて過剰実装を抑えたい』、3 本目『Cloudflare に載る自律エージェント用の計算基盤 → 私のルーチンはローカル完結で当面採用は保留候補』(唯一の批判的判断、self-experiment 信頼性担保)、4 本目『Matt Pocock 氏の実践スキル集で /tdd や /grill-me → 私のルーチンにも一部だけ移植したい形式』、5 本目『設計・計画・TDD・レビューを自動で挿す方法論 → 日次ルーチンの品質担保に Claude Code 版を試したい枠』で、視聴者が『中の人が実運用の目線で 5 本を採否判断するレビュー番組』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment では『採用 / 保留の実運用判断』を明示、単発紹介や tech-deep と違い『中の人の実運用シグナル』の信頼密度を優先。5 本中 1 本 (cloudflare/computer #3) を明確に『採用保留』と提示することで残り 4 本の推奨説得力を担保、NG パターン (README 読み上げレベル) を回避",
+      "数値表現はアラビア数字統一 (24、/tdd)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Matt Pocock、Cloudflare、Continual Harness、TDD、RLM) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (全期間 4 位 avg 1.64 n=11、14d は n=1 で薄いが素材整合率 4/5=80% の運用開始以来最高水準で『素材主導 exploit』選択、前回採用 07-28 から 10 日空き、直近 2 日 08-06 ecosystem/08-05 use-case 連投ルールと business-angle 8 月中旬まで休止方針で exploit tier 構造的に閉塞)。金曜 (Fri=310 avg、週内 2 位、火曜次点の高期待日) は trend-pattern の絶対値回復観測に最適曜日、月曜 (Mon=61) 水曜 (Wed=153) 土曜 (Sat=79) 日曜 (Sun=5) の低期待日でなく、火曜 (Tue=361) の最高期待日を消費しない安全帯",
-      "本日 08-07 TOP5: #1 TencentCloud/TencentDB-Agent-Memory=TypeScript / 16,276★ / +1,053 [継続 08-06 #3 → 08-07 #1 位置昇格・Chat Memory/Skills/Wiki/CodeGraph の 4 種資産、L0→L1→L2→L3 の層別抽出、Docker/K8s 自己ホスト、SDK 統合可、OpenClaw/Hermes/Claude Code/CodeBuddy 対応、PersonaMem ベンチで 48% → 76% (+59%) 改善、mem0/Letta/Zep 勢力に加入]、#2 addyosmani/agent-skills=JavaScript / 82,863★ / +588 [新規流入・Define/Plan/Build/Verify/Review/Ship の 6 フェーズを 24 スキル (23 lifecycle + 1 meta) に体系化、anti-rationalization tables、Hyrum's Law/Beyonce Rule/trunk-based development など Google 流工程主義、Superpowers/mattpocock/skills との比較 doc 内蔵、Claude Code/Cursor/Copilot/Cline/Codex 対応]、#3 cloudflare/computer=TypeScript / 4,732★ / +2,690 [継続 08-06 #1 → 08-07 #3 位置降格・Durable Objects + SQLite でエージェント用仮想 FS を authoritative state 化、コンテナ (Linux sandbox + FUSE) / Isolate Shell (Dynamic Worker + RPC) / Isolate JS (ES module + fs) の 3 バックエンド切替、capnweb RPC + trusted modules、5 パッケージ monorepo、preview status、E2B/Modal/Daytona 対抗軸]、#4 mattpocock/skills=Shell / 206,907★ / +2,002 [新規流入・Matt Pocock (TypeScript 教育で著名) の個人 .agents から抽出、スラッシュコマンド式 (/grill-me、/tdd、/code-review)、Grilling sessions で意図整合、TDD/Domain modeling/Architecture analysis、engineering-focused + productivity-focused の 2 カテゴリ、Claude Code/Codex 対応、addyosmani/agent-skills と哲学違い (個人実践派 vs Google 流工程主義)]、#5 goauthentik/authentik=Python / 23,066★ / +123 [新規流入・SAML/OAuth2/OIDC/LDAP/RADIUS 対応の自ホスト IdP、Docker Compose/Kubernetes/AWS CloudFormation/DigitalOcean Marketplace デプロイ、無料版 + 有料 enterprise、Okta/Auth0/EntraID/Ping Identity 代替、23,563 commits の active development]",
-      "本日の trend-pattern 核: 5 本を『今週 AI エージェントの OS 三点セット (Skills 層 / Memory 層 / Compute 層) が同時に揃った稀有な週』というマクロ潮流の 1 本の縦串で解説。冒頭フックは『今週の Trending は AI エージェントの OS スタックが一斉に揃った週。記憶・スキル・計算・そして自ホスト認証まで、順にどう新しくなったかで切ります』。5 本目 (authentik) は AI エージェントから逸れるが『自ホスト/Okta 代替』の非 SaaS 潮流でメイン潮流 4 本と隣接接続、視聴者は『メイン潮流 4 本+隣接 1 本』の構造を無理なく受け取れる",
-      "Primary (CTO/技術選定) には『技術選定の背景潮流 (Skills 独立ジャンル化) を先取り把握』として、Secondary (PdM/事業責任者) には『AI エージェント基盤の全体像アップデート』として、Tertiary (学習中) には『何が今週新しかったか』として 3 層直撃",
-      "連投上限ルール: 14d 内 ecosystem=07-26/07-29/08-03/08-06 の 4 件 (8/9 の 07-26 窓外脱落まで維持)、business-angle=07-27/07-30/08-02 の 3 件 (8/7 の 07-23 窓外脱落で 3 件に減少済・8 月中旬まで休止方針継続)、comparison=07-31/08-04 の 2 件 (8/14 の 07-31 窓外脱落まで維持)、trend-pattern=07-28/08-07 の 1 件 → 2 件へ (8/11 の 07-28 窓外脱落まで維持)、self-experiment=07-25 の 1 件 (8/8 の 07-25 窓外脱落で 0 件へ・今週 08-03〜08-09 未消化・8/8 消化候補)、stack-migration=07-24 の 1 件 (8/7 の 07-24 窓外脱落で 0 件へ)、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、tech-deep=0 件 (14d 圏外脱落継続、8/12 の explore 凍結解除後の投入候補)"
+      "本日の discovery.method は `self-experiment` (全期間 6 位 avg 1.12 n=8、14d は 07-25 分が今日で窓外脱落し n=0 にリセットされる新窓 1 本目投入、直近採用 07-25 から 14 日空きで cooldown 完了)。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルール + business-angle 8 月中旬まで休止方針 + comparison cooldown 4 日短めで exploit tier は構造的に閉塞、今週 (Mon-Sun 08-03〜08-09) 柱② or ③ 未消化状態で 08-08 まで持ち込まれた weekly pillar 消化義務の必然的帰結として選定。素材整合率 5/5=100% AI エージェント OSS 集中 (運用開始以来かつ観測史上初) と『Claude Code で日次動画自動化を回している中の人』self-experiment 角度が accidental sync、07-25 分の 14d 窓外脱落と同日で構造的最良タイミング。土曜 (Sat=79 avg、日曜 5 avg 除けば低期待日) は絶対値期待薄だが、weekly pillar 消化を明日 08-09 (Sun=5 avg 全期間最下位) に持ち込むより 15 倍以上有利",
+      "本日 08-08 TOP5: #1 PrimeIntellect-ai/prime-agent=TypeScript / 6,350★ / +2,271 [初登場 #1・Recursive Language Model 抽象で『context as variables / tools as recursive subagents』、Continual Harness で持続可能な状態、pi フレームワーク上、複数 LLM プロバイダ対応、Skills はスキル用 Python パッケージ、MIT、macOS/Linux + curl インストーラ + IPython 実行時、サンドボックスなしユーザ権限実行]、#2 addyosmani/agent-skills=JavaScript / 83,844★ / +1,131 [同位置 #2 継続・Define/Plan/Build/Verify/Review/Ship の 6 フェーズを 24 スキル (23 lifecycle + 1 meta) に体系化、anti-rationalization tables、Hyrum's Law/Beyonce Rule/trunk-based development など Google 流工程主義、Superpowers/mattpocock/skills との比較 doc 内蔵、Claude Code/Cursor/Copilot/Cline/Codex 対応]、#3 cloudflare/computer=TypeScript / 5,615★ / +894 [同位置 #3 継続・Durable Objects + SQLite でエージェント用仮想 FS を authoritative state 化、コンテナ (Linux sandbox + FUSE) / Isolate Shell (Dynamic Worker + RPC) / Isolate JS (ES module + fs) の 3 バックエンド切替、capnweb RPC + trusted modules、5 パッケージ monorepo、preview status、E2B/Modal/Daytona 対抗軸]、#4 mattpocock/skills=Shell / 208,729★ / +2,180 [同位置 #4 継続・Matt Pocock (TypeScript 教育で著名) の個人 .agents から抽出、スラッシュコマンド式 (/grill-me、/tdd、/code-review)、Grilling sessions で意図整合、TDD/Domain modeling/Architecture analysis、engineering-focused + productivity-focused の 2 カテゴリ、Claude Code/Codex 対応]、#5 obra/superpowers=Shell / 268,713★ / +794 [初登場 #5・obra=Jesse Vincent + Prime Radiant チーム開発、設計→計画→TDD→コードレビューを自動で挿し込む方法論、Red-Green-Refactor TDD 強制 + subagent-driven-development + 数時間の自律実行 + 組み込みコードレビューチェックポイント、Claude Code (official marketplace) / Cursor (/add-plugin superpowers) / Codex / Gemini CLI 対応、markdown-based skills auto-activate、MIT]",
+      "本日の self-experiment 核: 5 本を『Claude Code で日次動画自動化 (このチャンネル運用) を回している中の人が実運用の目線で採否判断するレビュー番組』フォーマットで解説。冒頭フックは『今日の TOP5 は全部 AI エージェントの開発ツールでした。私の Claude Code ルーチンに入れるか、順に決めます』。5 本中 4 本を『試したい / 移植したい / 入れたい』採用寄り、1 本 (cloudflare/computer #3) を『ローカル完結の私のルーチンには過剰で当面採用は保留候補』と明示批判、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保",
+      "Primary (CTO/技術選定) には『同じチャンネル運用者が採否をどう判断したかの実例』として、Secondary (PdM/事業責任者) には『AI エージェントスキルパックをどう選ぶかの現場感』として、Tertiary (学習中) には『どう試すか』の入り口として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=07-26/07-29/08-03/08-06 の 4 件 (8/9 の 07-26 窓外脱落まで維持・翌日 8/10 で 3 件)、business-angle=07-27/07-30/08-02 の 3 件 (8/11 07-27 窓外脱落まで維持・8 月中旬まで休止方針継続)、comparison=07-31/08-04 の 2 件 (8/14 07-31 窓外脱落まで維持)、trend-pattern=07-28/08-07 の 2 件 (8/11 07-28 窓外脱落まで維持)、self-experiment=07-25 → 今日で窓外脱落し 0 件 → 本日 08-08 消化で新窓 1 件、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、stack-migration=07-24 は 8/7 で窓外脱落済 0 件、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で 8/13 以降投入)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-07",
-    "dayOfWeek": "Fri",
+    "date": "2026-08-08",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "トレンド解説",
-      "今週の潮流",
-      "ニュース分析",
-      "マクロ視点",
-      "Skills",
-      "AgentSkills",
+      "自作ルーチン",
+      "個人開発",
+      "中の人",
+      "実運用レビュー",
+      "採否判断",
+      "ClaudeCode運用",
+      "スキル移植",
       "AIエージェント",
-      "エージェント基盤",
-      "エージェント記憶",
-      "エージェント計算",
-      "エージェントスキル",
-      "Claude",
-      "ClaudeCode",
+      "自律エージェント",
+      "AgentSkills",
+      "CodingAgent",
+      "Skills",
+      "TDD",
       "Cursor",
-      "Copilot",
       "Codex",
-      "mem0",
-      "Letta",
-      "Zep",
+      "Copilot",
       "Cloudflare",
       "Workers",
       "DurableObjects",
-      "E2B",
-      "Modal",
-      "Daytona",
-      "Okta",
-      "Auth0",
-      "EntraID",
-      "SSO",
-      "自ホスト",
-      "IdP",
+      "RLM",
+      "RecursiveLanguageModel",
       "CTO",
       "技術選定",
-      "TencentDB_Agent_Memory",
+      "個人開発者",
+      "ソロCTO",
+      "prime_agent",
       "agent_skills",
       "cloudflare_computer",
       "mattpocock_skills",
-      "authentik"
+      "superpowers"
     ],
-    "focus": "金曜 (Fri=310 avg、週内 2 位、火曜次点の高期待日) は trend-pattern の絶対値回復観測に最適曜日。`trend-pattern` (全期間 4 位 avg 1.64 n=11、14d は n=1 で薄いが素材整合率 4/5=80% の運用開始以来最高水準で『素材主導 exploit』選択、前回採用 07-28 から 10 日空き、直近 2 日 08-06 ecosystem/08-05 use-case 連投ルールと business-angle 8 月中旬まで休止方針で exploit tier 構造的に閉塞) を投入。5/5 素材 (TencentDB-Agent-Memory / addyosmani/agent-skills / cloudflare/computer / mattpocock/skills / goauthentik/authentik) のうち 4/5 が AI エージェント OSS の『OS 三点セット』(Skills 層=agent-skills #2・mattpocock/skills #4 / Memory 層=TencentDB #1 / Compute 層=cloudflare/computer #3) を構成する稀有な素材配置日で、隣接 1 本 (authentik #5) は『自ホスト/Okta 代替』の非 SaaS 潮流でメイン潮流に接続可能。本日の TOP5 は 2/5 継続 (TencentDB #3→#1 位置昇格・cloudflare/computer #1→#3 位置降格)、3/5 新規 (agent-skills・mattpocock/skills・authentik) で日次 refresh 率 60%、method 切替 (ecosystem → trend-pattern) + 語彙総入替 (生態系/勢力図/位置/周辺/座る/加わる → 今週/同時に/揃った/一斉に/急伸/揃いました/伸びた週) で視聴者の脳内モードを『同カテゴリ横並び俯瞰の意思決定資料』から『今週のマクロ潮流を 60 秒で把握するニュース分析番組』へ 180 度転換。narration は 5 本すべてに時間軸語彙 (『今週』『同じ週に』『一緒に』『揃った』『急伸』『伸びた週』) を配置、5 本合計 259 文字 (50+52+56+49+52) で TTS 換算約 43-45 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。trend-pattern 語彙 (今週/同時に/揃った/一斉に/急伸/独立層/OS スタック/隣接) と各リポの固有事実 (mem0/Letta 記憶勢力に加入 + PersonaMem +59% / 24 スキル + 6 フェーズ + Google 流工程主義 / Cloudflare Workers+Durable Objects + 3 実行環境 / Matt Pocock 個人 .agents + スラッシュコマンド式 / SAML+OIDC+Okta 代替) を全 5 本に埋めて README 読み上げレベルを回避。柱① (GitHub Trending 解説 70%) を本日投入、今週の柱② (business-angle 08-02 消化済 + 8 月中旬まで休止)、柱③ (self-experiment 07-25 消化済 → 新週 08-03〜08-09 未消化、8/8 消化候補)、柱④ (trend-pattern 07-28 消化済 → 新週未消化) を今日消化。08-05 use-case 0 views 失敗を受けた explore 枠凍結 (『回復モード』発動) を 8/12 (火曜、Tue=361 avg で回復確認可能日) まで継続、explore 系 (use-case 再挑戦・comparison 再挑戦・tech-deep 新規) はすべて来週送りで exploit tier (今日は素材主導) 一本集中運用。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "土曜 (Sat=79 avg、週内下位、日曜 5 avg 除けば低期待日) は絶対値期待薄だが、weekly pillar 消化 (中位 tier method の safe 消化) を明日 08-09 (Sun=5 avg 全期間最下位) に持ち込むより 15 倍以上有利。`self-experiment` (全期間 6 位 avg 1.12 n=8、14d は 07-25 分の窓外脱落で n=0 リセットの新窓 1 本目投入、07-25 消化から 14 日空きで cooldown 完了) を投入。5/5=100% 素材 (PrimeIntellect-ai/prime-agent / addyosmani/agent-skills / cloudflare/computer / mattpocock/skills / obra/superpowers) が AI エージェント / コーディングスキル系 OSS で『Claude Code で日次動画自動化を回している中の人』の self-experiment 角度と完全整合 (運用開始以来かつ観測史上初の 100% 集中)、07-25 分の 14d 窓外脱落と同日で構造的最良タイミング。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルール + business-angle 8 月中旬まで休止 + comparison cooldown 4 日短めで exploit tier 構造的閉塞、今週 (Mon-Sun 08-03〜08-09) 柱② or ③ 未消化の必然的帰結として self-experiment (柱③) 消化義務。本日の TOP5 は 3/5 継続 (agent-skills #2・cloudflare/computer #3・mattpocock/skills #4 すべて同位置)、2/5 新規 (prime-agent #1・superpowers #5) で日次 refresh 率 40% と lineup 感刷新はやや薄いが、method 切替 (trend-pattern → self-experiment) + 語彙総入替 (今週/同時に/揃った/一斉に/急伸/伸びた週 → 私/自分/触ってみたい/日次ルーチン/Claude Code 運用/採用/保留/移植) で視聴者の脳内モードを『今週のマクロ潮流を 60 秒で把握するニュース分析番組』から『中の人が実運用の目線で 5 本を採否判断するレビュー番組』へ 180 度転換、素材同質性 (2 日連続 AI エージェント OSS 集中) を弱みではなく強みに転換 (2 日で 1 セット、テーマ深掘り効果、昨日はニュース分析→今日はそのニュースを受けた実運用者のレビュー) して視聴者体験の同質化を回避。narration は 5 本すべてに一人称 (私/自分) と自身のプロジェクト言及 (日次ルーチン/Claude Code 運用) を配置、5 本合計 254 文字 (46+53+52+52+51) で TTS 換算約 42-45 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。5 本中 4 本を『試したい / 移植したい / 入れたい』採用寄り、1 本 (cloudflare/computer #3) を『ローカル完結の私のルーチンには過剰で当面採用は保留候補』と明示批判、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保、NG パターン (README 読み上げレベル) 回避。柱① (GitHub Trending 解説 70%) は今週 5 日連続消化済、柱② (business-angle 08-02 消化済 + 休止中) 今週消化不可、柱③ (self-experiment 07-25 消化 → 新週 08-03〜08-09 本日消化)、柱④ (trend-pattern 08-07 消化済) を今週消化。08-05 use-case=1 view + 08-07 trend-pattern=0 view (48h 後本評価) を受けた explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・use-case 再挑戦・comparison 再挑戦) はすべて 8/13 以降送りで exploit tier + weekly pillar 消化の 2 軸のみで運用。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }

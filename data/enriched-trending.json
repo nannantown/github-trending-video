@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・addyosmani/agent-skills #2・cloudflare/computer #3・mattpocock/skills #4・goauthentik/authentik #5)を『なぜ今週この5本が同時にTOP入りしたか』の trend-pattern angle で切る。中核観察: AIエージェントOSSの『OS三点セット』(Skills層 / Memory層 / Compute層) が同一週に揃う稀有な週で、素材整合率 4/5=80%。#1 TencentDB-Agent-Memory=OpenClaw/Hermes/Claude Code/CodeBuddyに接続する自ホスト共有記憶ハブ、mem0/Letta/Zepと同じ『エージェント記憶OSS』カテゴリが今週一斉に伸びた文脈で main 昇格 (#3→#1)、PersonaMemベンチ正答率+59%。#2 addyosmani/agent-skills=Google流の工程規律をDefine/Plan/Build/Verify/Review/Shipの6フェーズ・24スキルに体系化した本格開発向けスキルパック、Claude Code/Cursor/Copilot対応。#3 cloudflare/computer=Cloudflare Workers+Durable Objects上のAIエージェント計算基盤 (仮想FS+3実行環境)、昨日 #1 から mid-tier 降格 (#1→#3) するも継続 trending。#4 mattpocock/skills=TypeScript教育で著名なMatt Pocockが自身の.agentsから抽出したスラッシュコマンド式スキル集 (/grill-me/tddなど)、agent-skillsと哲学違い (個人実践派 vs Google流工程主義) の Skills 系OSSが同一週に同時 TOP5 入りは初観測、Skills as OSSカテゴリの独立ジャンル化を示唆。#5 goauthentik/authentik=SAML/OAuth2/OIDC/LDAP/RADIUS対応の自ホストIdP、Okta/Auth0/EntraID代替として『自ホスト/非SaaS潮流』でメイン潮流4本と隣接接続可能。method選定: 直近2日 (08-06 ecosystem / 08-05 use-case) 連投ルールで両者除外、14d上位 method (business-angle 2.50 n=4 / ecosystem 2.00 n=3) から business-angle 週次過剰採用 (10日中4回40%超過、8月中旬まで休止) を除外、ecosystem は連投 NG で除外。残る候補で素材整合率 4/5=80% (運用開始以来 trend-pattern で最高水準) の trend-pattern を『素材主導 exploit』選択。全期間 avg 1.64 n=11 (4位 tier) と信頼母集団は最低限、前回採用07-28から10日空きで方向転換効果あり。金曜 (Fri=310 avg、週内2位の高期待日) は火曜 (Tue=361) 次点で trend-pattern の絶対値回復観測に最適曜日。前日08-06 ecosystem 語彙 (生態系/勢力図/座る/加わる) から『今週/同時に/揃った/一斉に/急伸/揃いました/伸びた週』へ完全切替、視聴者の脳内モードを『同カテゴリ他OSS横並び俯瞰の意思決定資料』から『今週のマクロ潮流を60秒で把握するニュース分析番組』へ180度転換。TOP5継続2 (TencentDB #3→#1・cloudflare/computer #1→#3)/新規3 (agent-skills・mattpocock/skills・authentik) で lineup 感十分刷新。narration 5本合計259文字 (50+52+56+49+52) TTS換算約52秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。",
+    "method": "self-experiment",
+    "description": "本日のTOP5(PrimeIntellect-ai/prime-agent #1・addyosmani/agent-skills #2・cloudflare/computer #3・mattpocock/skills #4・obra/superpowers #5)を、Claude Codeで日次動画自動化(このチャンネル運用そのもの)を回している中の人の目線で『自分のルーチンに入れるか / 保留か』の実運用判断で切る self-experiment angle。素材整合率5/5=100%: 全5本が AI エージェント / コーディングスキル系OSS で、初日から self-experiment (柱③) 角度と完全整合する稀有な素材配置日。#1 prime-agent=Recursive Language Model + Continual Harness で状態をセッション越しに保持する自律エージェント (MIT, TypeScript, +2,271★)、私自身の日次ルーチンの状態管理 (前日の PDCA を今日の angle 選定に生かす等) に直接効く候補。#2 addyosmani/agent-skills=Google 流工程規律を Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキルに体系化した本格開発向けパック (JavaScript, +1,131★)、私のルーチンの過剰実装癖 (バグ修正のついでに周辺リファクタしてしまう等) に効く候補。#3 cloudflare/computer=Cloudflare Workers + Durable Objects 上に仮想FS+3種の実行環境を載せたエージェント計算基盤 (TypeScript, +894★)、私のルーチンはローカル完結型で外部コード実行需要が無く、当面採用は保留候補として提示。#4 mattpocock/skills=TypeScript 教育で著名な Matt Pocock 氏が自身の .agents から抽出したスラッシュコマンド式スキル集 (/tdd、/grill-me、/code-review) (Shell, +2,180★)、個人開発者の実運用にそのまま近く、私のルーチンにも一部 (例: /tdd) を移植して試したい実践派。#5 obra/superpowers=設計→計画→TDD→コードレビューを自動で挿し込むエージェント向け方法論、Claude Code/Cursor/Codex マーケットから導入可 (Shell, +794★)、日次ルーチンの品質担保 (回帰バグ防止) に自分のワークフローで試したい枠。method 選定: 直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルールで両者除外、14d 上位 (business-angle avg 3.00 / ecosystem avg 2.67) から business-angle は 8 月中旬まで休止方針で除外・ecosystem は連投 NG で除外、comparison (14d avg 2.00 n=2) は 08-04 消化で cooldown 4 日と短め、素材適合率で self-experiment に軍配。self-experiment (14d avg 1.00 n=1・全期間 avg 1.12 n=8) は 07-25 消化から 14 日空きで cooldown 完了、しかも 07-25 分は今日で 14d 窓外脱落し 14d n=0 にリセット、方向転換効果最大タイミング。週次柱: 今週 (Mon-Sun 08-03〜08-09) はまだ柱②か柱③のいずれも未消化 (08-03 ecosystem・08-04 comparison・08-05 use-case・08-06 ecosystem・08-07 trend-pattern はすべて柱①探索method)、業務ルール『週最低 1 日は柱②か③を混ぜる』を本日消化する必要あり (残り 08-09 日曜=Sun avg 5 の低期待日で消化するより本日 Sat の中期待日で消化する方が有利)。business-angle 休止方針中のため柱② は選択不可、必然的に self-experiment (柱③) が今週の pillar 補充タイミング。昨日 08-07 PDCA が明示的に『8/8 (土曜) が候補として濃厚』と予告済み、素材が『自身プロジェクト事例に自然に振れる』日 (今日 100% AI エージェント OSS) というトリガー条件も満たす。曜日: 土曜 (Sat=79 avg 全期間・14d 週内で Sun 5 avg 除けば下位帯) は低期待日で high-variance の tech-deep や explore 系を賭けるにはリスク大、self-experiment は運用フェーズ的に既存 pool の method で最低必ず投入すべき pillar として消化するのに適切な位置。前日 08-07 trend-pattern 語彙 (『今週』『同時に』『揃った』『一斉に』『急伸』『伸びた週』) から self-experiment 語彙 (『自分』『私』『触ってみたい』『入れてみたい』『日次ルーチン』『Claude Code 運用』『保留』『移植』) へ 180 度切替、視聴者の脳内モードを『今週のマクロ潮流を 60 秒で把握するニュース分析番組』から『中の人が実運用の目線で 5 本を採否判断するレビュー番組』へ転換。narration は 5 本すべてに一人称 (私 / 自分) と自身のプロジェクト言及 (日次ルーチン / Claude Code 運用) を入れて self-experiment 角度の一貫性を担保、5 本合計 254 文字 (46+53+52+52+51) TTS 換算約 45 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。TOP5 継続 3 (agent-skills #2→#2 同位置維持・cloudflare/computer #3→#3 同位置維持・mattpocock/skills #4→#4 同位置維持)/新規 2 (prime-agent・superpowers) で lineup 半分刷新、素材テーマは 2 日連続で『AI エージェント OSS』集中だが angle を trend-pattern (マクロ潮流) → self-experiment (個人採否判断) に完全切替することで動画コンテンツとしては別モノ、視聴者体験の同質化を回避。Primary (CTO/技術選定) には『同じチャンネル運用者が採否をどう判断したかの実例』として、Secondary (PdM) には『AI エージェントスキルパックをどう選ぶかの現場感』として、Tertiary (学習中) には『どう試すか』の入り口として 3 層直撃。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "https://github.com/PrimeIntellect-ai/prime-agent",
       "https://github.com/addyosmani/agent-skills",
       "https://github.com/cloudflare/computer",
       "https://github.com/mattpocock/skills",
-      "https://github.com/goauthentik/authentik"
+      "https://github.com/obra/superpowers"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,15 +17,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "TencentCloud/TencentDB-Agent-Memory",
-      "name": "TencentDB-Agent-Memory",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "name": "prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "language": "TypeScript",
-      "stars": 16276,
-      "todayStars": 1053,
-      "description": "AIエージェントの企業向け記憶ハブ",
-      "detail": "OpenClaw、Hermes、Claude Code、CodeBuddyに接続する自ホスト型の共有記憶ハブです。今週mem0やLettaと同じ『エージェント記憶OSS』カテゴリが一斉に伸び、PersonaMemベンチで正答率が59%改善します。",
-      "narration": "エージェントの記憶がOSSで独立層になった週です。mem0らと並ぶ自ホスト記憶ハブが今週揃いました。"
+      "stars": 6350,
+      "todayStars": 2271,
+      "description": "長時間タスク向け自律エージェント",
+      "detail": "Recursive Language ModelとContinual Harnessで、セッションを超えて状態を保持する自律エージェントです。日次バッチや長時間の調査タスクに向き、私自身のルーチンの状態管理でも試したい構成です。",
+      "narration": "長時間タスク向けの自律エージェントです。日次ルーチンの状態管理に自分でも試したい構成です。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 82863,
-      "todayStars": 588,
-      "description": "AIエージェント用の工程スキル集",
-      "detail": "Define・Plan・Build・Verify・Review・Shipの6フェーズを24のスキルに分解した本格開発パックです。Google流の工程規律をClaude CodeやCursor、Copilot上のAIエージェントに載せられます。",
-      "narration": "今週はAIエージェントのスキル配布がTOP入りしました。24の工程を体系化した本格開発向けのパックです。"
+      "stars": 83844,
+      "todayStars": 1131,
+      "description": "Claude Code向け24スキル集",
+      "detail": "Define・Plan・Build・Verify・Review・Shipの6フェーズを24スキルに束ねた本格開発パックです。私も日次ルーチンで過剰実装が課題で、この工程規律を自分のClaude Code運用に載せたい候補です。",
+      "narration": "Google流の工程規律を24スキルに束ねたパックです。私のClaude Code運用にも入れて過剰実装を抑えたいです。"
     },
     {
       "rank": 3,
@@ -45,11 +45,11 @@
       "name": "computer",
       "url": "https://github.com/cloudflare/computer",
       "language": "TypeScript",
-      "stars": 4732,
-      "todayStars": 2690,
-      "description": "AIエージェント用Cloudflare計算基盤",
-      "detail": "Cloudflare WorkersとDurable Objectsの上にAIエージェント用の仮想ファイルシステムを載せた新基盤です。コンテナ・シェル・JS隔離の3実行環境を選べ、E2BやModal、Daytonaと同じサンドボックス勢に並びます。",
-      "narration": "エージェント用の計算基盤もOSS化が進む週です。Cloudflare上に仮想FSとサンドボックスを立てられます。"
+      "stars": 5615,
+      "todayStars": 894,
+      "description": "Cloudflare製エージェント計算基盤",
+      "detail": "Cloudflare WorkersとDurable Objects上に仮想FSと3種類の実行環境を載せた基盤です。外部コード実行が要る運用には合いますが、ローカル完結の私のルーチンには過剰で当面採用は保留候補です。",
+      "narration": "Cloudflareに載る自律エージェント用の計算基盤です。私のルーチンはローカル完結で、当面採用は保留候補です。"
     },
     {
       "rank": 4,
@@ -57,23 +57,23 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 206907,
-      "todayStars": 2002,
+      "stars": 208729,
+      "todayStars": 2180,
       "description": "Matt Pocock流の実践スキル集",
-      "detail": "TypeScript教育で知られるMatt Pocockが自身の.agentsから抽出したスキル集です。/grill-meや/tddなどスラッシュコマンド式で、Claude CodeやCodexにTDDや設計規律を差し込めます。",
-      "narration": "個人開発者のスキル集も同じ週に急伸しました。TDDやコードレビューなど工程別のワークフロー集です。"
+      "detail": "TypeScript教育で著名なMatt Pocock氏が自身の.agentsから抽出したスラッシュコマンド式のスキル集です。個人開発者の運用にそのまま近く、私のルーチンにも/tddあたりを移植して試したい実践派です。",
+      "narration": "Matt Pocock氏の実践スキル集で、/tddや/grill-meが並びます。私のルーチンに一部移植したい派です。"
     },
     {
       "rank": 5,
-      "fullName": "goauthentik/authentik",
-      "name": "authentik",
-      "url": "https://github.com/goauthentik/authentik",
-      "language": "Python",
-      "stars": 23066,
-      "todayStars": 123,
-      "description": "Okta代替の自ホスト型SSO基盤",
-      "detail": "SAML・OAuth2・OIDC・LDAP・RADIUSを一つで賄う自ホスト型のアイデンティティプロバイダです。OktaやAuth0、EntraIDの代替として、DockerやKubernetesで自社にデプロイして企業SSOを組めます。",
-      "narration": "自ホスト認証基盤も一緒に伸びた週です。Okta代替として企業SSOをSAMLとOIDCで一気に賄えます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 268713,
+      "todayStars": 794,
+      "description": "設計とTDD自動化のエージェント方法論",
+      "detail": "設計・計画・TDD・コードレビューを自動で挿し込むエージェント向けの方法論です。Claude CodeやCursorのマーケットから入れられ、私も日次ルーチンの品質担保に自分のワークフローで試したい枠です。",
+      "narration": "設計・計画・TDD・レビューを自動で挿す方法論です。日次ルーチンの品質担保にClaude Code版を試したい枠です。"
     }
   ]
 }
