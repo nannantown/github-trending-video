@@ -3726,7 +3726,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -3781,7 +3781,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -3838,7 +3838,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -3893,7 +3893,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -3948,7 +3948,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4005,7 +4005,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4060,7 +4060,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4116,7 +4116,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4169,10 +4169,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 3,
+        "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4231,7 +4231,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4288,7 +4288,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4345,7 +4345,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T01:39:07.237Z"
+        "updatedAt": "2026-08-07T23:21:46.115Z"
       }
     },
     {
@@ -4402,6 +4402,65 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 3,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-07T23:21:46.115Z"
+      }
+    },
+    {
+      "videoId": "SpiUC-Xyc_w",
+      "videoUrl": "https://youtube.com/shorts/SpiUC-Xyc_w",
+      "date": "2026-08-08",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/08 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Markdown",
+        "Java",
+        "CSS",
+        "JavaScript",
+        "Jupyter Notebook",
+        "PowerShell",
+        "TypeScript",
+        "Shell"
+      ],
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Shell"
+      ],
+      "projects": [
+        "PrimeIntellect-ai/prime-agent",
+        "addyosmani/agent-skills",
+        "cloudflare/computer",
+        "mattpocock/skills",
+        "obra/superpowers"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "本日のTOP5(PrimeIntellect-ai/prime-agent #1・addyosmani/agent-skills #2・cloudflare/computer #3・mattpocock/skills #4・obra/superpowers #5)を、Claude Codeで日次動画自動化(このチャンネル運用そのもの)を回している中の人の目線で『自分のルーチンに入れるか / 保留か』の実運用判断で切る self-experiment angle。素材整合率5/5=100%: 全5本が AI エージェント / コーディングスキル系OSS で、初日から self-experiment (柱③) 角度と完全整合する稀有な素材配置日。#1 prime-agent=Recursive Language Model + Continual Harness で状態をセッション越しに保持する自律エージェント (MIT, TypeScript, +2,271★)、私自身の日次ルーチンの状態管理 (前日の PDCA を今日の angle 選定に生かす等) に直接効く候補。#2 addyosmani/agent-skills=Google 流工程規律を Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキルに体系化した本格開発向けパック (JavaScript, +1,131★)、私のルーチンの過剰実装癖 (バグ修正のついでに周辺リファクタしてしまう等) に効く候補。#3 cloudflare/computer=Cloudflare Workers + Durable Objects 上に仮想FS+3種の実行環境を載せたエージェント計算基盤 (TypeScript, +894★)、私のルーチンはローカル完結型で外部コード実行需要が無く、当面採用は保留候補として提示。#4 mattpocock/skills=TypeScript 教育で著名な Matt Pocock 氏が自身の .agents から抽出したスラッシュコマンド式スキル集 (/tdd、/grill-me、/code-review) (Shell, +2,180★)、個人開発者の実運用にそのまま近く、私のルーチンにも一部 (例: /tdd) を移植して試したい実践派。#5 obra/superpowers=設計→計画→TDD→コードレビューを自動で挿し込むエージェント向け方法論、Claude Code/Cursor/Codex マーケットから導入可 (Shell, +794★)、日次ルーチンの品質担保 (回帰バグ防止) に自分のワークフローで試したい枠。method 選定: 直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルールで両者除外、14d 上位 (business-angle avg 3.00 / ecosystem avg 2.67) から business-angle は 8 月中旬まで休止方針で除外・ecosystem は連投 NG で除外、comparison (14d avg 2.00 n=2) は 08-04 消化で cooldown 4 日と短め、素材適合率で self-experiment に軍配。self-experiment (14d avg 1.00 n=1・全期間 avg 1.12 n=8) は 07-25 消化から 14 日空きで cooldown 完了、しかも 07-25 分は今日で 14d 窓外脱落し 14d n=0 にリセット、方向転換効果最大タイミング。週次柱: 今週 (Mon-Sun 08-03〜08-09) はまだ柱②か柱③のいずれも未消化 (08-03 ecosystem・08-04 comparison・08-05 use-case・08-06 ecosystem・08-07 trend-pattern はすべて柱①探索method)、業務ルール『週最低 1 日は柱②か③を混ぜる』を本日消化する必要あり (残り 08-09 日曜=Sun avg 5 の低期待日で消化するより本日 Sat の中期待日で消化する方が有利)。business-angle 休止方針中のため柱② は選択不可、必然的に self-experiment (柱③) が今週の pillar 補充タイミング。昨日 08-07 PDCA が明示的に『8/8 (土曜) が候補として濃厚』と予告済み、素材が『自身プロジェクト事例に自然に振れる』日 (今日 100% AI エージェント OSS) というトリガー条件も満たす。曜日: 土曜 (Sat=79 avg 全期間・14d 週内で Sun 5 avg 除けば下位帯) は低期待日で high-variance の tech-deep や explore 系を賭けるにはリスク大、self-experiment は運用フェーズ的に既存 pool の method で最低必ず投入すべき pillar として消化するのに適切な位置。前日 08-07 trend-pattern 語彙 (『今週』『同時に』『揃った』『一斉に』『急伸』『伸びた週』) から self-experiment 語彙 (『自分』『私』『触ってみたい』『入れてみたい』『日次ルーチン』『Claude Code 運用』『保留』『移植』) へ 180 度切替、視聴者の脳内モードを『今週のマクロ潮流を 60 秒で把握するニュース分析番組』から『中の人が実運用の目線で 5 本を採否判断するレビュー番組』へ転換。narration は 5 本すべてに一人称 (私 / 自分) と自身のプロジェクト言及 (日次ルーチン / Claude Code 運用) を入れて self-experiment 角度の一貫性を担保、5 本合計 254 文字 (46+53+52+52+51) TTS 換算約 45 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。TOP5 継続 3 (agent-skills #2→#2 同位置維持・cloudflare/computer #3→#3 同位置維持・mattpocock/skills #4→#4 同位置維持)/新規 2 (prime-agent・superpowers) で lineup 半分刷新、素材テーマは 2 日連続で『AI エージェント OSS』集中だが angle を trend-pattern (マクロ潮流) → self-experiment (個人採否判断) に完全切替することで動画コンテンツとしては別モノ、視聴者体験の同質化を回避。Primary (CTO/技術選定) には『同じチャンネル運用者が採否をどう判断したかの実例』として、Secondary (PdM) には『AI エージェントスキルパックをどう選ぶかの現場感』として、Tertiary (学習中) には『どう試すか』の入り口として 3 層直撃。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/PrimeIntellect-ai/prime-agent",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/cloudflare/computer",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/obra/superpowers"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4410,25 +4469,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-05",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 104 avg views (80 videos)",
-        "Trending languages: Kotlin (3.8x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.7x)",
-        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-06",
       "changes": [
@@ -4959,6 +4999,24 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.6x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.4x)",
         "Day performance: Thu=2, Fri=2, Sat=2, Mon=2, Tue=2, Sun=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-07",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "Markdown: 1.5x avg views → boost",
+        "C: 0.0x avg views → drop",
+        "Java: 1.4x avg views → boost",
+        "CSS: 1.4x avg views → boost",
+        "JavaScript: 1.4x avg views → boost",
+        "Jupyter Notebook: 1.6x avg views → boost",
+        "PowerShell: 1.4x avg views → boost",
+        "standard: 2 avg views (79 videos)",
+        "Trending languages: Markdown (1.7x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.6x), PowerShell (1.4x)",
+        "Day performance: Sat=2, Sun=2, Mon=2, Fri=2, Tue=2, Thu=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
