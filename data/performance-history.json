@@ -2,115 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "X6DrC-mmQuw",
-      "videoUrl": "https://youtube.com/shorts/X6DrC-mmQuw",
-      "date": "2026-05-07",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/07 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "Ruby"
-      ],
-      "languages": [
-        "Rust",
-        "Shell",
-        "Python",
-        "Ruby"
-      ],
-      "projects": [
-        "Hmbown/DeepSeek-TUI",
-        "addyosmani/agent-skills",
-        "PriorLabs/TabPFN",
-        "docusealco/docuseal",
-        "LearningCircuit/local-deep-research"
-      ],
-      "durationSeconds": 51,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "今日のTOP5を『2026年5月第2週、AI×実務領域でOSSが同時多発的にSaaS依存を抜くマクロ週』として読む。Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製ターミナル開発エージェント、$0.14-0.28/1M token・1Mコンテキスト・MIT、Claude Code月額・トークン課金から離脱) → addyosmani/agent-skills(Addy Osmani監修、Claude Code/Cursor/Gemini/Windsurf/Copilot等向けの実務エンジニアリングスキル集、TDD/Red Flag/検証要件など6項目構造、MIT、AIコーディングのノウハウ層をOSS側で標準化) → PriorLabs/TabPFN(Nature 2025掲載の表データ向け事前学習Transformer、設定なしでXGBoost/LightGBM超え、Apache 2.0+attribution・v2.5/2.6 weightsは非商用、AutoML SaaSや有償ML基盤の前提条件をOSS側から崩す) → docusealco/docuseal(Ruby on Rails+Vue製のDocuSign代替、Docker 1コマンド自社運用、AGPLv3、SaaS依存を抜く動きが署名領域に到達) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索エンジンで自律調査、SimpleQAで約95%、MIT、Perplexity Pro/OpenAI Deep Research/Gemini Deep Research不要化)。直近2日連続禁則(05/06 comparison / 05/05 ecosystem)を回避し、Method TOP3のうち禁則外で唯一のtrend-pattern(avg 13.0、サンプル1)を選定。business-angle(avg 8.0、サンプル4)はTOP4で05/04=2の素材分散トラップが直近にあり、本日5本も垂直分野が分散(コーディング/スキル集/ML/電子署名/研究AI)するため business-angle の素材適合度ルール(5本同一SaaS軸が必要)に未達。一方 trend-pattern なら『SaaS依存を抜くベクトル』という抽象軸で5本横断的に1つのマクロ読みに収束させられる。Thu=350 avgの中位曜日帯で損失リスク中庸、最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu 04/16・04/09=600+の再現)。trend-pattern母数が1→2に増えるため、05/02(=13)との分散測定で再現性を初判定する評価日も兼ねる。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/Hmbown/DeepSeek-TUI",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/PriorLabs/TabPFN",
-          "https://github.com/docusealco/docuseal",
-          "https://github.com/LearningCircuit/local-deep-research",
-          "https://www.nature.com/articles/s41586-024-08328-6"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 6,
-        "likes": 2,
-        "comments": 0,
-        "updatedAt": "2026-05-21T23:45:29.232Z"
-      }
-    },
-    {
-      "videoId": "WmuU9Lb7w9E",
-      "videoUrl": "https://youtube.com/shorts/WmuU9Lb7w9E",
-      "date": "2026-05-08",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/08 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "Rust",
-        "TypeScript"
-      ],
-      "projects": [
-        "anthropics/financial-services",
-        "Hmbown/DeepSeek-TUI",
-        "z-lab/dflash",
-        "InsForge/InsForge",
-        "LearningCircuit/local-deep-research"
-      ],
-      "durationSeconds": 47,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/anthropics/financial-services",
-          "https://github.com/Hmbown/DeepSeek-TUI",
-          "https://github.com/z-lab/dflash",
-          "https://github.com/InsForge/InsForge",
-          "https://github.com/LearningCircuit/local-deep-research"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-22T23:54:27.651Z"
-      }
-    },
-    {
       "videoId": "6pZ-gydmeKM",
       "videoUrl": "https://youtube.com/shorts/6pZ-gydmeKM",
       "date": "2026-05-09",
@@ -3835,7 +3726,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -3890,7 +3781,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -3947,7 +3838,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4002,7 +3893,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4057,7 +3948,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4114,7 +4005,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4169,7 +4060,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4225,7 +4116,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4281,7 +4172,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4337,10 +4228,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4394,10 +4285,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-04T23:50:29.756Z"
+        "updatedAt": "2026-08-07T01:39:07.237Z"
       }
     },
     {
@@ -4451,6 +4342,66 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-07T01:39:07.237Z"
+      }
+    },
+    {
+      "videoId": "k-Oe9p4N9R4",
+      "videoUrl": "https://youtube.com/shorts/k-Oe9p4N9R4",
+      "date": "2026-08-07",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/07 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Markdown",
+        "Java",
+        "CSS",
+        "JavaScript",
+        "Jupyter Notebook",
+        "TypeScript",
+        "Shell",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Shell",
+        "Python"
+      ],
+      "projects": [
+        "TencentCloud/TencentDB-Agent-Memory",
+        "addyosmani/agent-skills",
+        "cloudflare/computer",
+        "mattpocock/skills",
+        "goauthentik/authentik"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日のTOP5(TencentCloud/TencentDB-Agent-Memory #1・addyosmani/agent-skills #2・cloudflare/computer #3・mattpocock/skills #4・goauthentik/authentik #5)を『なぜ今週この5本が同時にTOP入りしたか』の trend-pattern angle で切る。中核観察: AIエージェントOSSの『OS三点セット』(Skills層 / Memory層 / Compute層) が同一週に揃う稀有な週で、素材整合率 4/5=80%。#1 TencentDB-Agent-Memory=OpenClaw/Hermes/Claude Code/CodeBuddyに接続する自ホスト共有記憶ハブ、mem0/Letta/Zepと同じ『エージェント記憶OSS』カテゴリが今週一斉に伸びた文脈で main 昇格 (#3→#1)、PersonaMemベンチ正答率+59%。#2 addyosmani/agent-skills=Google流の工程規律をDefine/Plan/Build/Verify/Review/Shipの6フェーズ・24スキルに体系化した本格開発向けスキルパック、Claude Code/Cursor/Copilot対応。#3 cloudflare/computer=Cloudflare Workers+Durable Objects上のAIエージェント計算基盤 (仮想FS+3実行環境)、昨日 #1 から mid-tier 降格 (#1→#3) するも継続 trending。#4 mattpocock/skills=TypeScript教育で著名なMatt Pocockが自身の.agentsから抽出したスラッシュコマンド式スキル集 (/grill-me/tddなど)、agent-skillsと哲学違い (個人実践派 vs Google流工程主義) の Skills 系OSSが同一週に同時 TOP5 入りは初観測、Skills as OSSカテゴリの独立ジャンル化を示唆。#5 goauthentik/authentik=SAML/OAuth2/OIDC/LDAP/RADIUS対応の自ホストIdP、Okta/Auth0/EntraID代替として『自ホスト/非SaaS潮流』でメイン潮流4本と隣接接続可能。method選定: 直近2日 (08-06 ecosystem / 08-05 use-case) 連投ルールで両者除外、14d上位 method (business-angle 2.50 n=4 / ecosystem 2.00 n=3) から business-angle 週次過剰採用 (10日中4回40%超過、8月中旬まで休止) を除外、ecosystem は連投 NG で除外。残る候補で素材整合率 4/5=80% (運用開始以来 trend-pattern で最高水準) の trend-pattern を『素材主導 exploit』選択。全期間 avg 1.64 n=11 (4位 tier) と信頼母集団は最低限、前回採用07-28から10日空きで方向転換効果あり。金曜 (Fri=310 avg、週内2位の高期待日) は火曜 (Tue=361) 次点で trend-pattern の絶対値回復観測に最適曜日。前日08-06 ecosystem 語彙 (生態系/勢力図/座る/加わる) から『今週/同時に/揃った/一斉に/急伸/揃いました/伸びた週』へ完全切替、視聴者の脳内モードを『同カテゴリ他OSS横並び俯瞰の意思決定資料』から『今週のマクロ潮流を60秒で把握するニュース分析番組』へ180度転換。TOP5継続2 (TencentDB #3→#1・cloudflare/computer #1→#3)/新規3 (agent-skills・mattpocock/skills・authentik) で lineup 感十分刷新。narration 5本合計259文字 (50+52+56+49+52) TTS換算約52秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/cloudflare/computer",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/goauthentik/authentik"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4459,25 +4410,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-04",
-      "changes": [
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Go: 0.8x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 105 avg views (79 videos)",
-        "Trending languages: Kotlin (3.8x), C++ (3.0x), Java (2.1x), Jupyter Notebook (3.7x)",
-        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=45, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-05",
       "changes": [
@@ -5009,6 +4941,24 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.5x), C# (1.8x), Java (1.4x), CSS (1.4x)",
         "Day performance: Thu=2, Fri=2, Sat=2, Mon=2, Tue=1, Sun=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-07",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "Markdown: 1.4x avg views → boost",
+        "C: 0.0x avg views → drop",
+        "Haskell: 0.8x avg views → drop",
+        "Java: 1.3x avg views → boost",
+        "CSS: 1.3x avg views → boost",
+        "JavaScript: 1.3x avg views → boost",
+        "Jupyter Notebook: 1.4x avg views → boost",
+        "standard: 2 avg views (80 videos)",
+        "Trending languages: Markdown (1.6x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.4x)",
+        "Day performance: Thu=2, Fri=2, Sat=2, Mon=2, Tue=2, Sun=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
