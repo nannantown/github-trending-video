@@ -2,59 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "6pZ-gydmeKM",
-      "videoUrl": "https://youtube.com/shorts/6pZ-gydmeKM",
-      "date": "2026-05-09",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/09 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "Rust",
-        "TypeScript"
-      ],
-      "projects": [
-        "anthropics/financial-services",
-        "Hmbown/DeepSeek-TUI",
-        "z-lab/dflash",
-        "InsForge/InsForge",
-        "LearningCircuit/local-deep-research"
-      ],
-      "durationSeconds": 47,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "今日のTOP5を『2026年5月第2週、AIエージェント開発スタックの5層が同時に上位を占めた日』として読む。z-lab/dflash(Block Diffusion+Flash Speculative DecodingでLLM推論を並列加速、Qwen/Gemma/Llama対応・vLLM/SGLang連携、MIT、推論加速層) → InsForge/InsForge(AIコーディングエージェント向けに設計されたPostgresベースBaaS、Auth/Storage/Edge Functions/AI Gateway束ね、Apache 2.0、バックエンドインフラ層) → Hmbown/DeepSeek-TUI(DeepSeek V4 Pro/Flash向けRust製TUI、1Mトークン文脈・プレフィックスキャッシュ対応・MIT、Coding TUI層) → anthropics/financial-services(Claude公式の金融業界向けエージェント集、Pitch/Earnings Reviewer/GL Reconcilerなど11業務、Claude Managed Agents API対応・Apache 2.0、業界垂直層) → LearningCircuit/local-deep-research(Ollama/LM Studio/llama.cppローカルLLM+10種以上検索でSimpleQA約95%、MIT、個人調査層)。直近2日連続禁則(05/07 trend-pattern / 05/06 comparison)を回避し、Method TOP3のうち本日選択可能なecosystem(avg 110.7、サンプル3、04/28=326の単発外れ値含む)を選定。本日5本は『AIエージェント開発の5層スタックを1動画で網羅』という04/28=326と同型の素材適合(5/5が単一スタック図に収束)。Fri=618 avgの強曜日帯で04/28=326の勝ちパターン再現を狙う。最低15 views(過去Fri下位帯超え)、理想600 views(過去Fri上位帯=04/17=2,011を再現はラインナップ依存だが600+は素材適合の上振れ条件)。重複1本(DeepSeek-TUI 5日連続)は05/07 trend-pattern『SaaS依存を抜くマクロ週の象徴』から本日ecosystem『AIコーディングのUI層を担うレイヤ』へ語彙完全切替。anthropics/financial-services(初登場・+1,367★)はAnthropic公式の業界垂直配布として珍しい注目素材。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/anthropics/financial-services",
-          "https://github.com/Hmbown/DeepSeek-TUI",
-          "https://github.com/z-lab/dflash",
-          "https://github.com/InsForge/InsForge",
-          "https://github.com/LearningCircuit/local-deep-research"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 5,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-05-22T23:54:27.651Z"
-      }
-    },
-    {
       "videoId": "b65z-xl7xMU",
       "videoUrl": "https://youtube.com/shorts/b65z-xl7xMU",
       "date": "2026-05-10",
@@ -3781,7 +3728,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -3838,7 +3785,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -3893,7 +3840,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -3948,7 +3895,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4005,7 +3952,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4060,7 +4007,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4116,7 +4063,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4172,7 +4119,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4231,7 +4178,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4288,7 +4235,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4345,7 +4292,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4405,7 +4352,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-07T23:21:46.115Z"
+        "updatedAt": "2026-08-08T23:15:08.666Z"
       }
     },
     {
@@ -4464,30 +4411,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-08T23:15:08.666Z"
+      }
+    },
+    {
+      "videoId": "DjVYD6nrjmM",
+      "videoUrl": "https://youtube.com/shorts/DjVYD6nrjmM",
+      "date": "2026-08-09",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/09 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Jupyter Notebook",
+        "TypeScript",
+        "JavaScript",
+        "Roff",
+        "Python",
+        "Shell"
+      ],
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Roff",
+        "Python",
+        "Shell"
+      ],
+      "projects": [
+        "PrimeIntellect-ai/prime-agent",
+        "addyosmani/agent-skills",
+        "TapXWorld/ChinaTextbook",
+        "google/skills",
+        "mattpocock/skills"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "今週のTOP5(prime-agent #1・addyosmani/agent-skills #2・TapXWorld/ChinaTextbook #3・google/skills #4・mattpocock/skills #5)を、AIエージェントSkills OSSの供給プレーヤー層別(基盤層 / 体系派 / ベンダー公式 / コミュニティ実践派)の勢力図として位置づけるecosystem angle。素材整合率4/5=80%: 5本中4本がAgent Framework or Skills OSS で ecosystem 角度と高整合、残り1本 ChinaTextbook は『同じ週に並走する隣接OSS』として外周から接続。層別化: (a) エージェント基盤層=prime-agent #1 (TypeScript, +2,483★, MIT, Recursive Language Model + Continual Harness で LangGraph/AutoGen/CrewAI と並ぶ基盤層の新顔), (b) 体系派 Skills=addyosmani/agent-skills #2 (JavaScript, +778★, MIT, Google流の工程規律を Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキルに体系化した本格開発向けパック、比較記事内で Superpowers・mattpocock 系との差別化を明示), (c) 教育アクセスOSS=ChinaTextbook #3 (Roff, +591★, 小学から大学までのPDF教科書アーカイブ、Skills 集中の週に唯一並走する非AI/教育系OSSとして外周に配置), (d) ベンダー公式 Skills=google/skills #4 (Python, +481★, Apache 2.0, Gemini/GKE/BigQuery/Firebase/Cloud SQL/Spanner/Cloud Run/gcloud CLI/Google Ads/GA など自社製品連携 Skills をパッケージ化した Google 公式パック、Claude Code/Codex/Antigravity CLI などのマルチランタイム対応), (e) コミュニティ発の実践派=mattpocock/skills #5 (Shell, +1,354★, TypeScript教育で著名な Matt Pocock 氏個人の実践派 Skills、/tdd や /grill-me や /code-review のスラッシュコマンド式で小さく組み替える設計思想、GSD/BMAD/Spec-Kit 等の prescriptive フレームワークとの対比で hackable 志向を明言)。method 選定: 直近 2 日 (08-08 self-experiment / 08-07 trend-pattern) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針で除外、self-experiment は昨日 08-08 消化で cooldown 1 日と短すぎ除外、tech-deep は全期間 avg 0.75 で最下位 tier + explore 系凍結 (回復モード継続) で除外。14d 上位から ecosystem (14d avg 2.67 n=3 = 1 位)・comparison (14d avg 2.00 n=2 = 2 位)・trend-pattern (14d avg 2.00 n=2 = 2 位、連投 NG で除外)・use-case (14d avg 1.00 n=1) が残り、ecosystem が 14d 首位 exploit tier としてトップ候補。ecosystem 直近採用は 08-06 (3 日空き、連投 NG 非該当) で cooldown OK、素材整合率 4/5=80% で 5 本を『Skills OSS 供給プレーヤー層別』の 1 本の縦串で描ける稀有な素材配置、日曜 (Sun=5 avg 全期間最下位) の低期待日に安全側の exploit tier を投入する運用に合致。週次柱: 今週 (Mon-Sun 08-03〜08-09) 柱② or ③ は昨日 08-08 で self-experiment 消化済、本日は柱① (GitHub Trending 解説 70%) 枠でルール達成済、柱② 休止方針 + 柱③ 週内消化済のため柱① 消化で無理なく合致。曜日: 日曜 (Sun=5 avg 全期間最下位、月曜 61 / 火曜 361 / 水曜 153 / 木曜 (未計測) / 金曜 310 / 土曜 79 と比較して極低期待日) は high-variance 系 (tech-deep や explore) を賭けるべきではない位置、安定 tier の ecosystem で 5 本を『同じ週に何が並んだか』の視聴者価値としてまとめる。前日 08-08 self-experiment (『中の人の実運用レビュー番組』) からの natural progression: 昨日『Skills 4種 (agent-skills/computer/mattpocock/superpowers) を採否判断』→ 今日『Skills 4種 (agent-skills/google/mattpocock/prime-agent) を供給プレーヤー層別で位置づけ』で視聴者体験は『採否判断 → 業界地図』へ zoom out。narration の 1 本目に『Skillsが話題の週に基盤側で急伸』の主題を張り、以降 5 本を『基盤層 → 体系派 → 隣接教育 → ベンダー公式 → コミュニティ実践派』の 4 層 + 外周 1 本として提示、視聴者は 60 秒で『Skills OSS カテゴリの層別化』の全体像を受け取れる。Primary (CTO/技術選定) には『Skills 供給を層別で見る技術地図』として、Secondary (PdM) には『AI エージェント Skills の並びと選び方』として、Tertiary (学習中) には『どのタイプの Skills が今週動いているか』の入り口として 3 層直撃。narration 5 本合計 260 文字 TTS 換算約 47 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。TOP5 継続 3 (agent-skills #2→#2 同位置維持・prime-agent #1→#1 同位置維持・mattpocock/skills #4→#5 で 1 位ダウン)/新規 2 (google/skills・ChinaTextbook) で lineup 半分刷新、素材テーマは 3 日連続で『AI エージェント / Skills OSS 集中』だが angle を trend-pattern (マクロ潮流) → self-experiment (個人採否判断) → ecosystem (供給プレーヤー層別) と 3 日で 3 方向に切り替えることで、視聴者体験は『同じ素材を違う切り口で見る 3 日連続シリーズ』へ転換、同質化リスクを深掘り効果に変換。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/PrimeIntellect-ai/prime-agent",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/TapXWorld/ChinaTextbook",
+          "https://github.com/google/skills",
+          "https://github.com/mattpocock/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-06",
-      "changes": [
-        "Kotlin: 1.3x avg views → boost",
-        "Rust: 0.8x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 103 avg views (81 videos)",
-        "Trending languages: Kotlin (3.9x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.8x)",
-        "Day performance: Tue=217, Fri=207, Thu=118, Wed=107, Sat=49, Mon=41, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-07",
       "changes": [
@@ -5015,6 +5002,19 @@
         "Jupyter Notebook: 1.6x avg views → boost",
         "PowerShell: 1.4x avg views → boost",
         "standard: 2 avg views (79 videos)",
+        "Trending languages: Markdown (1.7x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.6x), PowerShell (1.4x)",
+        "Day performance: Sat=2, Sun=2, Mon=2, Fri=2, Tue=2, Thu=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-08",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Jupyter Notebook: 1.4x avg views → boost",
+        "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.7x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.6x), PowerShell (1.4x)",
         "Day performance: Sat=2, Sun=2, Mon=2, Fri=2, Tue=2, Thu=1, Wed=1"
       ],
