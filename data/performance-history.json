@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "b65z-xl7xMU",
-      "videoUrl": "https://youtube.com/shorts/b65z-xl7xMU",
-      "date": "2026-05-10",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/10 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "projects": [
-        "anthropics/financial-services",
-        "bytedance/UI-TARS-desktop",
-        "rohitg00/agentmemory",
-        "datawhalechina/hello-agents",
-        "datawhalechina/easy-vibe"
-      ],
-      "durationSeconds": 51,
-      "discovery": {
-        "method": "comparison",
-        "description": "今日のTOP5を『同じレイヤの既存OSS/有償サービスと比べてどちらを選ぶか』の比較表として読む。anthropics/financial-services(汎用skill集との比較・業界縦割り) → bytedance/UI-TARS-desktop(Anthropic Computer Use / OpenAI Operatorとの比較・ローカル実行) → rohitg00/agentmemory(mem0/Lettaとの比較・95.2%再現率) → datawhalechina/hello-agents(LangChain公式ドキュメントとの比較・体系化) → datawhalechina/easy-vibe(従来の入門書との比較・成果物起点)。直近2日連続禁則(05/08 ecosystem / 05/09 ecosystem)を回避し、Method TOP3のうち本日選択可能な`comparison`(avg 10.0、最終投入04/27=13日前)を選定。曜日Sun(avg 8、過去最弱)で上振れ余地小・損失リスク小の低stakes枠で、過去14日でnが少なく未確定だったcomparisonの2投稿目を当てる。Primaryペルソナ(技術選定をするCTO/エンジニア)に『同レイヤの既存OSSと何が違うか』を1動画で並べて記憶に残す比較カタログとして機能させる狙い。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/anthropics/financial-services",
-          "https://github.com/bytedance/UI-TARS-desktop",
-          "https://github.com/rohitg00/agentmemory",
-          "https://github.com/datawhalechina/hello-agents",
-          "https://github.com/datawhalechina/easy-vibe",
-          "https://docs.claude.com/en/api/managed-agents",
-          "https://github.com/mem0ai/mem0",
-          "https://github.com/letta-ai/letta"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-22T23:54:27.651Z"
-      }
-    },
-    {
       "videoId": "T7qxjW7KkZs",
       "videoUrl": "https://youtube.com/shorts/T7qxjW7KkZs",
       "date": "2026-05-11",
@@ -3785,7 +3729,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -3840,7 +3784,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -3895,7 +3839,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -3952,7 +3896,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4007,7 +3951,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4063,7 +4007,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4119,7 +4063,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4178,7 +4122,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4235,7 +4179,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4292,7 +4236,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4352,7 +4296,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4411,7 +4355,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-08T23:15:08.666Z"
+        "updatedAt": "2026-08-09T23:16:57.960Z"
       }
     },
     {
@@ -4470,28 +4414,67 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-09T23:16:57.960Z"
+      }
+    },
+    {
+      "videoId": "SuCQenSjQ9Y",
+      "videoUrl": "https://youtube.com/shorts/SuCQenSjQ9Y",
+      "date": "2026-08-10",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/10 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python",
+        "Shell",
+        "Go"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "Shell",
+        "Go"
+      ],
+      "projects": [
+        "PrimeIntellect-ai/prime-agent",
+        "vitali87/code-graph-rag",
+        "msitarzewski/agency-agents",
+        "pranshuparmar/witr",
+        "google-deepmind/weathernext"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "comparison",
+        "description": "今日のTOP5を『既存代替 vs 新OSS』の1対1対比として料理するcomparison angle。素材整合率5/5=100%: 5本すべてで既知代替との対比軸が張れる稀有な素材配置。1) PrimeIntellect-ai/prime-agent (#1 継続、+2,319★) vs OpenHands/SWE-agent (自律コーディング基盤層、Recursive Language Model + Continual Harnessでセッション跨ぎの状態保持) 2) vitali87/code-graph-rag (#2 新規、+59★) vs Aider/Sourcegraph Cody (コード理解RAG、Tree-sitter + Memgraphの知識グラフでmonorepo全体をCypherで問える) 3) msitarzewski/agency-agents (#3 新規、+932★) vs CrewAI/AutoGen (エージェント枠組み、Framework依存なしのMarkdown配布で Claude Code/Cursor/Copilot 横断230+ペルソナ) 4) pranshuparmar/witr (#4 新規、+342★) vs lsof/strace/Process Explorer (システム観測CLI、Process→Port→Container→Fileの起源チェーンを1コマンドで物語式表示、TUI付き) 5) google-deepmind/weathernext (#5 新規、+105★) vs GraphCast/Pangu-Weather/FourCastNet (気象AI、WN2 = FGNアーキテクチャで2025年大西洋ハリケーンシーズンに実運用済み)。method選定: 直近2日 (08-09 ecosystem / 08-08 self-experiment) 連投ルールで両者除外、14d首位のbusiness-angleは8月中旬まで休止方針で除外、trend-pattern (14d avg 2.00 n=2) は08-07消化でcooldown 3日とcomparison (6日) より短く鮮度で劣後、use-case (14d avg 1.00 n=1) は08-05消化でcooldown 5日、tech-deepは全期間avg 0.75で最下位 + 回復モード継続で凍結。残る候補でcomparisonが14d avg 2.00 (n=2) tieで上位 + 全期間avg 2.00 (n=19) の1位tier + 6日cooldownで最も鮮度あり + 素材整合率5/5=100%の複合条件で選定に迷いなし。月曜 (Mon=61 avg中位下) の中期待日には安定exploit tierの投入が最適。週次柱: 今週 (Mon-Sun 08-10〜08-16) 柱② or ③消化ゼロだが月曜スタートで消化余地あり、柱②business-angleは8月休止中のため柱③self-experimentを火〜木で消化予定、本日は柱① (GitHub Trending解説 70%) 枠でルール適合。曜日: 月曜 (Mon=61 avg、火 361/水 153/金 310/土 79/日 5 との比較で中位下)、土日より期待値高、火金の高期待帯には及ばず。中期待日には安定exploit tier (comparison) の投入が最適。前日08-09 ecosystem (Skills 供給プレーヤー層別) からのnatural progression: 昨日『同じ週に何が並んだか』の俯瞰業界地図、今日は『各OSSが代替と比べて何を選ぶ理由になるか』の実務選定モードにzoom in。視聴者体験は『業界地図 (俯瞰) → 選定判断 (実務)』の視点移動でPrimary (CTO/技術選定) 直撃、ecosystem → comparisonの2日連続シリーズは初検証ペア。narration 1本目に『自律コーディングの新星がOpenHandsに肩を並べる』の主題を張り、以降5本を各カテゴリの1対1対比 (Aider / CrewAI / lsof / GraphCast) として提示、視聴者は60秒で『5カテゴリ × 既存代替 vs 新OSS』の選定マップを受け取れる。TOP5継続1 (prime-agent #1→#1 で+2,319★の3日連続主役)/新規4 (code-graph-rag/agency-agents/witr/weathernext) でlineup 80%刷新、素材テーマは AI エージェント/コーディング支援 4/5 + 気象AI 1/5 (外周) の80%集中で先週末 (Skills プレーヤー集中週) から気象AI外周が加わる形にシフト、angle を ecosystem (供給プレーヤー層別) → comparison (各カテゴリ1対1対比) へ切替。narration 5本合計約280文字TTS換算約50秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『既存の〇〇と比べて何が違うのか』の実務目線、Secondary (PdM) には『どちらを取るかの判断材料』、Tertiary (学習中) には『既存ツールとの位置関係』の入り口として3層直撃。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/PrimeIntellect-ai/prime-agent",
+          "https://github.com/vitali87/code-graph-rag",
+          "https://github.com/msitarzewski/agency-agents",
+          "https://github.com/pranshuparmar/witr",
+          "https://github.com/google-deepmind/weathernext"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-07",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 0.7x avg views → drop",
-        "Shell: 0.7x avg views → drop",
-        "Markdown: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 103 avg views (81 videos)",
-        "Trending languages: Kotlin (5.2x), C++ (3.1x), Java (2.2x), Jupyter Notebook (3.8x)",
-        "Day performance: Fri=207, Tue=197, Thu=118, Wed=107, Sat=49, Mon=44, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-08",
       "changes": [
@@ -5017,6 +5000,18 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.7x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.6x), PowerShell (1.4x)",
         "Day performance: Sat=2, Sun=2, Mon=2, Fri=2, Tue=2, Thu=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-09",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 2 avg views (80 videos)",
+        "Trending languages: Markdown (1.7x), C# (1.9x), Java (1.5x), CSS (1.5x), Jupyter Notebook (1.7x), PowerShell (1.5x)",
+        "Day performance: Mon=2, Fri=2, Sat=2, Tue=2, Sun=1, Thu=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
