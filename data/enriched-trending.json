@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今週のTOP5(prime-agent #1・addyosmani/agent-skills #2・TapXWorld/ChinaTextbook #3・google/skills #4・mattpocock/skills #5)を、AIエージェントSkills OSSの供給プレーヤー層別(基盤層 / 体系派 / ベンダー公式 / コミュニティ実践派)の勢力図として位置づけるecosystem angle。素材整合率4/5=80%: 5本中4本がAgent Framework or Skills OSS で ecosystem 角度と高整合、残り1本 ChinaTextbook は『同じ週に並走する隣接OSS』として外周から接続。層別化: (a) エージェント基盤層=prime-agent #1 (TypeScript, +2,483★, MIT, Recursive Language Model + Continual Harness で LangGraph/AutoGen/CrewAI と並ぶ基盤層の新顔), (b) 体系派 Skills=addyosmani/agent-skills #2 (JavaScript, +778★, MIT, Google流の工程規律を Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキルに体系化した本格開発向けパック、比較記事内で Superpowers・mattpocock 系との差別化を明示), (c) 教育アクセスOSS=ChinaTextbook #3 (Roff, +591★, 小学から大学までのPDF教科書アーカイブ、Skills 集中の週に唯一並走する非AI/教育系OSSとして外周に配置), (d) ベンダー公式 Skills=google/skills #4 (Python, +481★, Apache 2.0, Gemini/GKE/BigQuery/Firebase/Cloud SQL/Spanner/Cloud Run/gcloud CLI/Google Ads/GA など自社製品連携 Skills をパッケージ化した Google 公式パック、Claude Code/Codex/Antigravity CLI などのマルチランタイム対応), (e) コミュニティ発の実践派=mattpocock/skills #5 (Shell, +1,354★, TypeScript教育で著名な Matt Pocock 氏個人の実践派 Skills、/tdd や /grill-me や /code-review のスラッシュコマンド式で小さく組み替える設計思想、GSD/BMAD/Spec-Kit 等の prescriptive フレームワークとの対比で hackable 志向を明言)。method 選定: 直近 2 日 (08-08 self-experiment / 08-07 trend-pattern) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針で除外、self-experiment は昨日 08-08 消化で cooldown 1 日と短すぎ除外、tech-deep は全期間 avg 0.75 で最下位 tier + explore 系凍結 (回復モード継続) で除外。14d 上位から ecosystem (14d avg 2.67 n=3 = 1 位)・comparison (14d avg 2.00 n=2 = 2 位)・trend-pattern (14d avg 2.00 n=2 = 2 位、連投 NG で除外)・use-case (14d avg 1.00 n=1) が残り、ecosystem が 14d 首位 exploit tier としてトップ候補。ecosystem 直近採用は 08-06 (3 日空き、連投 NG 非該当) で cooldown OK、素材整合率 4/5=80% で 5 本を『Skills OSS 供給プレーヤー層別』の 1 本の縦串で描ける稀有な素材配置、日曜 (Sun=5 avg 全期間最下位) の低期待日に安全側の exploit tier を投入する運用に合致。週次柱: 今週 (Mon-Sun 08-03〜08-09) 柱② or ③ は昨日 08-08 で self-experiment 消化済、本日は柱① (GitHub Trending 解説 70%) 枠でルール達成済、柱② 休止方針 + 柱③ 週内消化済のため柱① 消化で無理なく合致。曜日: 日曜 (Sun=5 avg 全期間最下位、月曜 61 / 火曜 361 / 水曜 153 / 木曜 (未計測) / 金曜 310 / 土曜 79 と比較して極低期待日) は high-variance 系 (tech-deep や explore) を賭けるべきではない位置、安定 tier の ecosystem で 5 本を『同じ週に何が並んだか』の視聴者価値としてまとめる。前日 08-08 self-experiment (『中の人の実運用レビュー番組』) からの natural progression: 昨日『Skills 4種 (agent-skills/computer/mattpocock/superpowers) を採否判断』→ 今日『Skills 4種 (agent-skills/google/mattpocock/prime-agent) を供給プレーヤー層別で位置づけ』で視聴者体験は『採否判断 → 業界地図』へ zoom out。narration の 1 本目に『Skillsが話題の週に基盤側で急伸』の主題を張り、以降 5 本を『基盤層 → 体系派 → 隣接教育 → ベンダー公式 → コミュニティ実践派』の 4 層 + 外周 1 本として提示、視聴者は 60 秒で『Skills OSS カテゴリの層別化』の全体像を受け取れる。Primary (CTO/技術選定) には『Skills 供給を層別で見る技術地図』として、Secondary (PdM) には『AI エージェント Skills の並びと選び方』として、Tertiary (学習中) には『どのタイプの Skills が今週動いているか』の入り口として 3 層直撃。narration 5 本合計 260 文字 TTS 換算約 47 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。TOP5 継続 3 (agent-skills #2→#2 同位置維持・prime-agent #1→#1 同位置維持・mattpocock/skills #4→#5 で 1 位ダウン)/新規 2 (google/skills・ChinaTextbook) で lineup 半分刷新、素材テーマは 3 日連続で『AI エージェント / Skills OSS 集中』だが angle を trend-pattern (マクロ潮流) → self-experiment (個人採否判断) → ecosystem (供給プレーヤー層別) と 3 日で 3 方向に切り替えることで、視聴者体験は『同じ素材を違う切り口で見る 3 日連続シリーズ』へ転換、同質化リスクを深掘り効果に変換。",
+    "method": "comparison",
+    "description": "今日のTOP5を『既存代替 vs 新OSS』の1対1対比として料理するcomparison angle。素材整合率5/5=100%: 5本すべてで既知代替との対比軸が張れる稀有な素材配置。1) PrimeIntellect-ai/prime-agent (#1 継続、+2,319★) vs OpenHands/SWE-agent (自律コーディング基盤層、Recursive Language Model + Continual Harnessでセッション跨ぎの状態保持) 2) vitali87/code-graph-rag (#2 新規、+59★) vs Aider/Sourcegraph Cody (コード理解RAG、Tree-sitter + Memgraphの知識グラフでmonorepo全体をCypherで問える) 3) msitarzewski/agency-agents (#3 新規、+932★) vs CrewAI/AutoGen (エージェント枠組み、Framework依存なしのMarkdown配布で Claude Code/Cursor/Copilot 横断230+ペルソナ) 4) pranshuparmar/witr (#4 新規、+342★) vs lsof/strace/Process Explorer (システム観測CLI、Process→Port→Container→Fileの起源チェーンを1コマンドで物語式表示、TUI付き) 5) google-deepmind/weathernext (#5 新規、+105★) vs GraphCast/Pangu-Weather/FourCastNet (気象AI、WN2 = FGNアーキテクチャで2025年大西洋ハリケーンシーズンに実運用済み)。method選定: 直近2日 (08-09 ecosystem / 08-08 self-experiment) 連投ルールで両者除外、14d首位のbusiness-angleは8月中旬まで休止方針で除外、trend-pattern (14d avg 2.00 n=2) は08-07消化でcooldown 3日とcomparison (6日) より短く鮮度で劣後、use-case (14d avg 1.00 n=1) は08-05消化でcooldown 5日、tech-deepは全期間avg 0.75で最下位 + 回復モード継続で凍結。残る候補でcomparisonが14d avg 2.00 (n=2) tieで上位 + 全期間avg 2.00 (n=19) の1位tier + 6日cooldownで最も鮮度あり + 素材整合率5/5=100%の複合条件で選定に迷いなし。月曜 (Mon=61 avg中位下) の中期待日には安定exploit tierの投入が最適。週次柱: 今週 (Mon-Sun 08-10〜08-16) 柱② or ③消化ゼロだが月曜スタートで消化余地あり、柱②business-angleは8月休止中のため柱③self-experimentを火〜木で消化予定、本日は柱① (GitHub Trending解説 70%) 枠でルール適合。曜日: 月曜 (Mon=61 avg、火 361/水 153/金 310/土 79/日 5 との比較で中位下)、土日より期待値高、火金の高期待帯には及ばず。中期待日には安定exploit tier (comparison) の投入が最適。前日08-09 ecosystem (Skills 供給プレーヤー層別) からのnatural progression: 昨日『同じ週に何が並んだか』の俯瞰業界地図、今日は『各OSSが代替と比べて何を選ぶ理由になるか』の実務選定モードにzoom in。視聴者体験は『業界地図 (俯瞰) → 選定判断 (実務)』の視点移動でPrimary (CTO/技術選定) 直撃、ecosystem → comparisonの2日連続シリーズは初検証ペア。narration 1本目に『自律コーディングの新星がOpenHandsに肩を並べる』の主題を張り、以降5本を各カテゴリの1対1対比 (Aider / CrewAI / lsof / GraphCast) として提示、視聴者は60秒で『5カテゴリ × 既存代替 vs 新OSS』の選定マップを受け取れる。TOP5継続1 (prime-agent #1→#1 で+2,319★の3日連続主役)/新規4 (code-graph-rag/agency-agents/witr/weathernext) でlineup 80%刷新、素材テーマは AI エージェント/コーディング支援 4/5 + 気象AI 1/5 (外周) の80%集中で先週末 (Skills プレーヤー集中週) から気象AI外周が加わる形にシフト、angle を ecosystem (供給プレーヤー層別) → comparison (各カテゴリ1対1対比) へ切替。narration 5本合計約280文字TTS換算約50秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『既存の〇〇と比べて何が違うのか』の実務目線、Secondary (PdM) には『どちらを取るかの判断材料』、Tertiary (学習中) には『既存ツールとの位置関係』の入り口として3層直撃。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/PrimeIntellect-ai/prime-agent",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/TapXWorld/ChinaTextbook",
-      "https://github.com/google/skills",
-      "https://github.com/mattpocock/skills"
+      "https://github.com/vitali87/code-graph-rag",
+      "https://github.com/msitarzewski/agency-agents",
+      "https://github.com/pranshuparmar/witr",
+      "https://github.com/google-deepmind/weathernext"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "language": "TypeScript",
-      "stars": 8757,
-      "todayStars": 2483,
-      "description": "長時間タスク前提のエージェント基盤",
-      "detail": "Recursive Language ModelとContinual Harnessで、セッションを跨ぐ状態保持と自己更新を実現します。LangGraphやAutoGenと並ぶエージェント基盤層の新顔として今週急伸しています。",
-      "narration": "Skillsが話題の週にエージェント基盤側から新星が急伸。長時間タスク前提の設計で存在感を出しています。"
+      "stars": 10910,
+      "todayStars": 2319,
+      "description": "長時間タスク対応のエージェント基盤",
+      "detail": "Recursive Language ModelとContinual Harnessでセッションを跨いだ状態保持を実現します。OpenHandsやSWE-agentと違い、長時間の自律作業を前提とした基盤層に立ちます。",
+      "narration": "自律コーディングの新星がOpenHandsに肩を並べます。長時間セッションを支える設計で棲み分けを狙う一手です。"
     },
     {
       "rank": 2,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "JavaScript",
-      "stars": 84503,
-      "todayStars": 778,
-      "description": "Google流の工程規律を束ねる24スキル集",
-      "detail": "Define・Plan・Build・Verify・Review・Shipの6フェーズを24スキルに体系化した本格開発パックです。同じ週に他Skills勢も並んで登場し、体系派の代表格として位置づいています。",
-      "narration": "Google流の工程規律を24スキルで束ねた本格派。同じ週の他Skills勢と並び体系派の代表格として立ちます。"
+      "fullName": "vitali87/code-graph-rag",
+      "name": "code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "language": "Python",
+      "stars": 2950,
+      "todayStars": 59,
+      "description": "monorepo全体をAIで問えるRAG",
+      "detail": "Tree-sitterで多言語のコード構造をパースし、Memgraphの知識グラフに載せてCypherで問い合わせます。Aiderの行単位編集と違い、monorepo全体をAIに掴ませたい人向けです。",
+      "narration": "monorepo丸ごとをAIで問えるコードRAGです。Aiderの行単位編集と違い、知識グラフでコード全体を掴めます。"
     },
     {
       "rank": 3,
-      "fullName": "TapXWorld/ChinaTextbook",
-      "name": "ChinaTextbook",
-      "url": "https://github.com/TapXWorld/ChinaTextbook",
-      "language": "Roff",
-      "stars": 77891,
-      "todayStars": 591,
-      "description": "教科書PDFを集約する共有OSS",
-      "detail": "小学から大学まで幅広い教科書をPDFで集約し、無料で配布する共有アーカイブです。AI関連のSkills系OSSがTOPを埋める同じ週に、教育アクセスを開くOSSも並走して急伸しています。",
-      "narration": "Skills勢の外側で教科書共有OSSも急伸。同じ週にAIと教育アクセスの2系統が同時に動いています。"
+      "fullName": "msitarzewski/agency-agents",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars": 140593,
+      "todayStars": 932,
+      "description": "230+の専門エージェントペルソナ集",
+      "detail": "230+のエージェントペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのようなPython基盤に縛られず、Claude CodeやCursorに横断で持ち込めます。",
+      "narration": "230種類のエージェントペルソナ集です。CrewAIと違い、Markdownだけで各ツールに横断で使えます。"
     },
     {
       "rank": 4,
-      "fullName": "google/skills",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "language": "Python",
-      "stars": 16694,
-      "todayStars": 481,
-      "description": "Google公式のエージェントSkillsパック",
-      "detail": "Gemini・GKE・BigQueryなど自社製品連携のSkillsをApache2.0で束ねます。ベンダー公式パックとして、同じ週の個人・体系派の並びに公式枠を加える位置づけです。",
-      "narration": "Google公式のSkillsパックが同週に登場。GKEやGemini連携のベンダー枠として並びに加わります。"
+      "fullName": "pranshuparmar/witr",
+      "name": "witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "language": "Go",
+      "stars": 20587,
+      "todayStars": 342,
+      "description": "プロセス起源を辿るGo製CLI",
+      "detail": "なぜ動いているのかを Process→Port→Container→File の起源チェーンで1コマンド解決します。lsofやstraceと違い、TUI付きで物語式に因果を提示します。",
+      "narration": "なぜ動いているかを1コマンドで辿るGo製CLIです。lsofやstraceと違い、起源チェーンを物語式で見せます。"
     },
     {
       "rank": 5,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 209941,
-      "todayStars": 1354,
-      "description": "Matt Pocock氏の個人Skills集",
-      "detail": "/tddや/grill-meなど小さく組み替える設計思想の個人発Skillsです。同じ週の体系派addyosmaniや公式googleと対極に置ける、コミュニティ発の実践派枠です。",
-      "narration": "個人発の実践派SkillsもTOP入り。/tddなど小さく組む派で体系派の対極に位置します。"
+      "fullName": "google-deepmind/weathernext",
+      "name": "weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "language": "Python",
+      "stars": 7055,
+      "todayStars": 105,
+      "description": "DeepMindの気象予測AI後継版",
+      "detail": "GraphCastやGenCastの直系となるWN2、FGNアーキテクチャの気象AIです。サイクロン予測は2025年大西洋ハリケーンシーズンで実運用済み、Apache 2.0で開かれています。",
+      "narration": "DeepMindの気象AI後継版です。GraphCastの直系で、サイクロン予測は2025年に実運用へ投入済みです。"
     }
   ]
 }
