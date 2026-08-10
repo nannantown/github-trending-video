@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『既存代替 vs 新OSS』の1対1対比として料理するcomparison angle。素材整合率5/5=100%: 5本すべてで既知代替との対比軸が張れる稀有な素材配置。1) PrimeIntellect-ai/prime-agent (#1 継続、+2,319★) vs OpenHands/SWE-agent (自律コーディング基盤層、Recursive Language Model + Continual Harnessでセッション跨ぎの状態保持) 2) vitali87/code-graph-rag (#2 新規、+59★) vs Aider/Sourcegraph Cody (コード理解RAG、Tree-sitter + Memgraphの知識グラフでmonorepo全体をCypherで問える) 3) msitarzewski/agency-agents (#3 新規、+932★) vs CrewAI/AutoGen (エージェント枠組み、Framework依存なしのMarkdown配布で Claude Code/Cursor/Copilot 横断230+ペルソナ) 4) pranshuparmar/witr (#4 新規、+342★) vs lsof/strace/Process Explorer (システム観測CLI、Process→Port→Container→Fileの起源チェーンを1コマンドで物語式表示、TUI付き) 5) google-deepmind/weathernext (#5 新規、+105★) vs GraphCast/Pangu-Weather/FourCastNet (気象AI、WN2 = FGNアーキテクチャで2025年大西洋ハリケーンシーズンに実運用済み)。method選定: 直近2日 (08-09 ecosystem / 08-08 self-experiment) 連投ルールで両者除外、14d首位のbusiness-angleは8月中旬まで休止方針で除外、trend-pattern (14d avg 2.00 n=2) は08-07消化でcooldown 3日とcomparison (6日) より短く鮮度で劣後、use-case (14d avg 1.00 n=1) は08-05消化でcooldown 5日、tech-deepは全期間avg 0.75で最下位 + 回復モード継続で凍結。残る候補でcomparisonが14d avg 2.00 (n=2) tieで上位 + 全期間avg 2.00 (n=19) の1位tier + 6日cooldownで最も鮮度あり + 素材整合率5/5=100%の複合条件で選定に迷いなし。月曜 (Mon=61 avg中位下) の中期待日には安定exploit tierの投入が最適。週次柱: 今週 (Mon-Sun 08-10〜08-16) 柱② or ③消化ゼロだが月曜スタートで消化余地あり、柱②business-angleは8月休止中のため柱③self-experimentを火〜木で消化予定、本日は柱① (GitHub Trending解説 70%) 枠でルール適合。曜日: 月曜 (Mon=61 avg、火 361/水 153/金 310/土 79/日 5 との比較で中位下)、土日より期待値高、火金の高期待帯には及ばず。中期待日には安定exploit tier (comparison) の投入が最適。前日08-09 ecosystem (Skills 供給プレーヤー層別) からのnatural progression: 昨日『同じ週に何が並んだか』の俯瞰業界地図、今日は『各OSSが代替と比べて何を選ぶ理由になるか』の実務選定モードにzoom in。視聴者体験は『業界地図 (俯瞰) → 選定判断 (実務)』の視点移動でPrimary (CTO/技術選定) 直撃、ecosystem → comparisonの2日連続シリーズは初検証ペア。narration 1本目に『自律コーディングの新星がOpenHandsに肩を並べる』の主題を張り、以降5本を各カテゴリの1対1対比 (Aider / CrewAI / lsof / GraphCast) として提示、視聴者は60秒で『5カテゴリ × 既存代替 vs 新OSS』の選定マップを受け取れる。TOP5継続1 (prime-agent #1→#1 で+2,319★の3日連続主役)/新規4 (code-graph-rag/agency-agents/witr/weathernext) でlineup 80%刷新、素材テーマは AI エージェント/コーディング支援 4/5 + 気象AI 1/5 (外周) の80%集中で先週末 (Skills プレーヤー集中週) から気象AI外周が加わる形にシフト、angle を ecosystem (供給プレーヤー層別) → comparison (各カテゴリ1対1対比) へ切替。narration 5本合計約280文字TTS換算約50秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『既存の〇〇と比べて何が違うのか』の実務目線、Secondary (PdM) には『どちらを取るかの判断材料』、Tertiary (学習中) には『既存ツールとの位置関係』の入り口として3層直撃。",
+    "method": "self-experiment",
+    "description": "今日のTOP5を『Claude Codeで日次動画自動化を回している中の人が自分のルーチンに入れるか』の一人称採否判断でレビューするself-experiment angle。素材整合率5/5=100%: 1) semantica-agi/semantica (初登場#1、+967★、Python) = 知識グラフ + W3C PROV-O 決定監査、規制ドメイン向けで日次ルーチンには過剰・保留候補 2) msitarzewski/agency-agents (#3→#2、+1,352★、Shell) = 230+ペルソナMarkdown集、Claude Codeにレビュー役を移植したい採用候補 3) NanmiCoder/MediaCrawler (初登場#3、+215★、Python) = 中国SNS 7社 (小紅書/抖音/快手/B站/微博/貼吧/知乎) をPlaywright + ログインキャッシュで収集、私のsns-hubの対象SNSとずれる + 学習用途限定の法的線で当面保留 4) addyosmani/agent-skills (#4再入、+659★、JavaScript) = Define/Plan/Build/Verify/Review/Shipの6フェーズ24スキル、ルーチンの過剰実装癖を止めたい採用候補 5) paperclipai/paperclip (初登場#5、+167★、TypeScript) = Claude/Codex/OpenClaw/シェル等の複数エージェントを社員に見立て、予算/承認/監査付きで運営できるNode.js+React+PostgreSQL自ホストプラットフォーム、日次routine 3本 (github-trending/coffee/figma) の予算管理に入れたい採用候補。method選定: 直近2日 (08-10 comparison / 08-09 ecosystem) 連投ルールで両者除外、14d首位のbusiness-angleは8月中旬まで休止方針で除外、trend-pattern (14d avg 2.00 n=2) は08-07消化でcooldown 4日、use-case (14d avg 1.00 n=1) は08-05消化でcooldown 6日、tech-deepは全期間avg 0.75で最下位 + 回復モード継続で凍結。残るself-experimentは14d avg 0.00 (n=1、08-08 0定着) で最下位だが、(a) 今週 (Mon-Sun 08-10〜08-16) 柱② or ③未消化で消化義務、(b) 火曜 (Tue=361 avg 週内首位) は高期待日でpillar消化のリスクが最も低い、(c) 素材整合率5/5=100% (agent OSS 4本 + sns-hub隣接MediaCrawler 1本)、(d) 前回08-08の失敗条件 (Sat=79 avg + agent-only) から日 (4.6倍期待値) と素材 (sns-hub隣接1本追加) の2軸を変えての別条件再試行、の4条件複合で選定。素材は6日連続AIエージェントOSS集中の到達点として『基盤層 (semantica) / ペルソナ層 (agency-agents) / 工程層 (agent-skills) / 管理層 (paperclip)』の4層フルスタック観測に至った週で、self-experiment角度と最良の相性。前日08-10 comparison (代替比較) からのnatural progression: 昨日『各OSS vs 既存代替』の1対1対比選定モード、今日は同じ4層素材を『中の人が自分のルーチンに入れるか』の一人称モードにzoom in。narration 1本目にsemantica『規制ドメイン向けで日次ルーチンには過剰・保留』、2本目agency-agents『Claude Codeにレビュー役を移植したい採用』、3本目MediaCrawler『sns-hubの対象SNSとずれる・保留』、4本目agent-skills『過剰実装癖を止めたい採用』、5本目paperclip『日次routine 3本の予算管理に入れたい採用』と、3採用+2保留の判断で『中の人が慎重に取捨選択している』ブランド信号を担保。08-08 self-experimentは1本のみ保留で4:1採用寄りで0定着だったため、今日は3:2の慎重比率に修正してNGパターン (README読み上げレベル) 回避と信頼性密度を強化。narration 5本合計254文字TTS換算約43-46秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『同じチャンネル運用者が実運用でどう判断したか』の実例、Secondary (PdM) には『自社での適用感』のシグナル、Tertiary (学習中) には『どう試すか』の入り口として3層直撃。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/PrimeIntellect-ai/prime-agent",
-      "https://github.com/vitali87/code-graph-rag",
+      "https://github.com/semantica-agi/semantica",
       "https://github.com/msitarzewski/agency-agents",
-      "https://github.com/pranshuparmar/witr",
-      "https://github.com/google-deepmind/weathernext"
+      "https://github.com/NanmiCoder/MediaCrawler",
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/paperclipai/paperclip"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "PrimeIntellect-ai/prime-agent",
-      "name": "prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "language": "TypeScript",
-      "stars": 10910,
-      "todayStars": 2319,
-      "description": "長時間タスク対応のエージェント基盤",
-      "detail": "Recursive Language ModelとContinual Harnessでセッションを跨いだ状態保持を実現します。OpenHandsやSWE-agentと違い、長時間の自律作業を前提とした基盤層に立ちます。",
-      "narration": "自律コーディングの新星がOpenHandsに肩を並べます。長時間セッションを支える設計で棲み分けを狙う一手です。"
+      "fullName": "semantica-agi/semantica",
+      "name": "semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "language": "Python",
+      "stars": 4035,
+      "todayStars": 967,
+      "description": "AIの決定を追える知識グラフ基盤",
+      "detail": "知識グラフに事実と決定履歴を載せ、W3C PROV-OでAIの判断根拠を後から辿れるPython製の基盤です。金融や医療のように説明責任がある領域向けで、監査可能なAIとして働きます。",
+      "narration": "AIの決定を全部記録するグラフ基盤です。私のルーチンには過剰、規制ドメイン向けなので保留候補です。"
     },
     {
       "rank": 2,
-      "fullName": "vitali87/code-graph-rag",
-      "name": "code-graph-rag",
-      "url": "https://github.com/vitali87/code-graph-rag",
-      "language": "Python",
-      "stars": 2950,
-      "todayStars": 59,
-      "description": "monorepo全体をAIで問えるRAG",
-      "detail": "Tree-sitterで多言語のコード構造をパースし、Memgraphの知識グラフに載せてCypherで問い合わせます。Aiderの行単位編集と違い、monorepo全体をAIに掴ませたい人向けです。",
-      "narration": "monorepo丸ごとをAIで問えるコードRAGです。Aiderの行単位編集と違い、知識グラフでコード全体を掴めます。"
-    },
-    {
-      "rank": 3,
       "fullName": "msitarzewski/agency-agents",
       "name": "agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
       "language": "Shell",
-      "stars": 140593,
-      "todayStars": 932,
-      "description": "230+の専門エージェントペルソナ集",
-      "detail": "230+のエージェントペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのようなPython基盤に縛られず、Claude CodeやCursorに横断で持ち込めます。",
-      "narration": "230種類のエージェントペルソナ集です。CrewAIと違い、Markdownだけで各ツールに横断で使えます。"
+      "stars": 141757,
+      "todayStars": 1352,
+      "description": "230種類のエージェントペルソナ集",
+      "detail": "エンジニアやマーケター等18分野に230+のペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのような枠組みなしで、Claude CodeやCursorに直接持ち込めます。",
+      "narration": "230種類のエージェントペルソナ集です。私のClaude Codeにレビュー役を移植したい採用候補です。"
+    },
+    {
+      "rank": 3,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "name": "MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "language": "Python",
+      "stars": 60964,
+      "todayStars": 215,
+      "description": "中国SNS 7社の学習用クローラー",
+      "detail": "小紅書、抖音、快手、B站、微博、貼吧、知乎の投稿、コメント、プロフィールをPlaywrightとログインキャッシュで集めます。学習用途限定で、暗号解読なしにブラウザ自動化で動きます。",
+      "narration": "中国SNS 7社を丸ごと集めるクローラーです。私のsns-hubは対象がずれるので当面は保留候補です。"
     },
     {
       "rank": 4,
-      "fullName": "pranshuparmar/witr",
-      "name": "witr",
-      "url": "https://github.com/pranshuparmar/witr",
-      "language": "Go",
-      "stars": 20587,
-      "todayStars": 342,
-      "description": "プロセス起源を辿るGo製CLI",
-      "detail": "なぜ動いているのかを Process→Port→Container→File の起源チェーンで1コマンド解決します。lsofやstraceと違い、TUI付きで物語式に因果を提示します。",
-      "narration": "なぜ動いているかを1コマンドで辿るGo製CLIです。lsofやstraceと違い、起源チェーンを物語式で見せます。"
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars": 85712,
+      "todayStars": 659,
+      "description": "AIエージェント向け工程スキル集",
+      "detail": "Define/Plan/Build/Verify/Review/Shipの6段階に24スキルを配置し、AIエージェントに本格開発の手順を守らせます。Claude Codeやcursorに1コマンドで導入できます。",
+      "narration": "24スキルで工程を縛るClaude Code向けパックです。私の過剰実装癖を止めたい採用候補です。"
     },
     {
       "rank": 5,
-      "fullName": "google-deepmind/weathernext",
-      "name": "weathernext",
-      "url": "https://github.com/google-deepmind/weathernext",
-      "language": "Python",
-      "stars": 7055,
-      "todayStars": 105,
-      "description": "DeepMindの気象予測AI後継版",
-      "detail": "GraphCastやGenCastの直系となるWN2、FGNアーキテクチャの気象AIです。サイクロン予測は2025年大西洋ハリケーンシーズンで実運用済み、Apache 2.0で開かれています。",
-      "narration": "DeepMindの気象AI後継版です。GraphCastの直系で、サイクロン予測は2025年に実運用へ投入済みです。"
+      "fullName": "paperclipai/paperclip",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars": 76429,
+      "todayStars": 167,
+      "description": "AIエージェントの運営プラットフォーム",
+      "detail": "Claude、Codex、OpenClaw、シェル等の複数エージェントを社員に見立て、予算、承認、監査ログ付きで運営できるNode.js+React+PostgreSQLの自ホスト型OSSです。",
+      "narration": "エージェントを社員として運営する管理OSSです。私の日次routine 3本の予算管理に入れたい候補です。"
     }
   ]
 }

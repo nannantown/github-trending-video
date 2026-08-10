@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08",
+  "updatedAt": "2026-08-11",
   "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
@@ -33,36 +33,36 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-25〜08-07, n=12、08-07 計測早期は暫定): business-angle 3.00 n=3 / ecosystem 2.67 n=3 / comparison 2.00 n=2 / self-experiment 1.00 n=1 / use-case 1.00 n=1 / trend-pattern 0.50 n=2 (07-28:1 / 08-07:0 早期)。全期間 (n=82): ecosystem 2.00 n=15 / comparison 2.00 n=19 / stack-migration 2.00 n=1 / business-angle 1.73 n=15 / use-case 1.17 n=6 / self-experiment 1.12 n=8 / trend-pattern 1.09 n=11 / tech-deep 0.75 n=4。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針 (10 日中 4 回 40% 超過)、comparison は 08-04 消化で cooldown 4 日と短い。今週 (Mon-Sun 08-03〜08-09) は柱② or ③ 未消化 + business-angle 休止中の必然的帰結として self-experiment (柱③) を消化。素材側は 5/5=100% AI エージェント OSS で『Claude Code で日次動画自動化を回している中の人』の自己開示ネタとして完全整合、07-25 分は今日で 14d 窓外脱落し 14d n=0 リセットで新窓 1 本目投入の最良タイミング。前日 08-07 trend-pattern (14d avg 0.50 n=2、48h 後本評価待ち) からの natural progression で『昨日はニュース分析、今日は同じ素材を実運用者がレビュー』という 2 日連続の続き番組フォーマット。TOP5 継続 3 (agent-skills #2 同位置・cloudflare/computer #3 同位置・mattpocock/skills #4 同位置)/新規 2 (prime-agent #1・superpowers #5)、5/5=100% AI エージェント OSS 集中は運用開始以来かつ観測史上初。"
+      "note": "Method 別 14d (2026-07-28〜08-10, n=12): business-angle 3.50 n=2 / trend-pattern 2.00 n=2 / ecosystem 1.67 n=3 (08-09 48h 未確定) / comparison 1.33 n=3 (08-10 48h 未確定) / use-case 1.00 n=1 / self-experiment 0.00 n=1 (08-08 0 定着)。全期間 (n=82): stack-migration 2.00 n=1 / comparison 1.89 n=19 / ecosystem 1.87 n=15 / business-angle 1.87 n=15 / trend-pattern 1.25 n=12 / use-case 1.17 n=6 / self-experiment 1.00 n=8 / tech-deep 0.75 n=4。直近 2 日 (08-10 comparison / 08-09 ecosystem) 連投ルールで両者除外、business-angle は 8 月中旬まで休止方針中で除外 (今日 8/11 は中旬入口、8/13 前後で休止解除判定)。今週 (Mon-Sun 08-10〜08-16) 08-10 comparison (柱①) → 08-11 self-experiment (柱③) で pillar 消化を火曜 (高期待日) で完遂させる。素材整合率 5/5=100% (semantica=規制ドメイン向けで保留 / agency-agents=Claude Code にレビュー役移植で採用 / MediaCrawler=sns-hub 対象ずれで保留 / agent-skills=過剰実装癖を止めたい採用 / paperclip=日次 routine 3 本の予算管理に入れたい採用)、3 採用 + 2 保留の慎重比率で 08-08 self-experiment=0 定着の反省を反映。TOP5 継続 1 (agency-agents #3→#2)/新規 4 (semantica #1・MediaCrawler #3・agent-skills #4 再入・paperclip #5)、6 日連続 AI エージェント OSS 集中の到達点として『基盤層/ペルソナ層/工程層/管理層』の 4 層フルスタック観測に至った週。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は土曜 (Sat=79 avg、週内下位、日曜 5 avg 除けば低期待日)。self-experiment 角度で『Claude Code で日次動画自動化を回している中の人が 5 本を採否判断するレビュー番組』フォーマット、weekly pillar (柱③) 消化目的の中位 tier method 投入で低期待日リスクを weekly pillar 消化義務でヘッジ"
+      "本日は火曜 (Tue=361 avg、週内首位、水 153/木 176/金 310/土 79/日 5 との比較で圧倒的首位)。高期待日には安定 exploit tier 投入がセオリーだが、weekly pillar 消化未達 + 素材整合率 100% + 前回 08-08 (Sat) 0 定着の別条件再試行 (日 4.6 倍期待値変更 + sns-hub 隣接素材追加) の 3 軸複合で self-experiment 投入。次回以降の高期待帯 (Fri=310) は trend-pattern または (解除次第で) business-angle 復帰の exploit 投入枠として温存"
     ],
     "hashtags": [
-      "self-experiment 角度の核心は『中の人 (Claude Code で日次動画自動化を回す本チャンネル運用者) が 5 本を実運用の採否判断でレビュー』。5 本のマッピング: #prime_agent=Recursive Language Model + Continual Harness で状態をセッション越しに保持する自律エージェント (MIT, TypeScript, +2,271★、PrimeIntellect-ai 開発、初登場 #1)、私自身の日次ルーチンの状態管理 (前日 PDCA を今日の angle 選定に生かす等) に直接効く採用候補 / #agent_skills=Google 流工程規律 (Define/Plan/Build/Verify/Review/Ship の 6 フェーズ 24 スキル) を Claude Code/Cursor/Copilot に載せる本格開発向けパック (JavaScript, +1,131★、addyosmani 開発、同位置 #2 継続)、私のルーチンの過剰実装癖 (バグ修正のついでに周辺リファクタしてしまう等) に効く採用候補 / #cloudflare_computer=Cloudflare Workers+Durable Objects 上の AI エージェント計算基盤 (仮想 FS+3 実行環境: コンテナ+Isolate Shell+Isolate JS) (TypeScript, +894★、同位置 #3 継続)、ローカル完結の私のルーチンには過剰で当面採用は保留候補 / #mattpocock_skills=TypeScript 教育で著名な Matt Pocock 個人 .agents から抽出したスラッシュコマンド式スキル集 (/tdd、/grill-me、/code-review) (Shell, +2,180★、同位置 #4 継続)、個人開発者の実運用に近く /tdd あたりを移植して試したい実践派採用候補 / #superpowers=設計→計画→TDD→コードレビューを自動で挿し込むエージェント向け方法論、Claude Code/Cursor/Codex マーケットから導入可 (Shell, +794★、obra=Jesse Vincent 開発、初登場 #5)、日次ルーチンの品質担保 (回帰バグ防止) に自分のワークフローで試したい採用候補",
-      "言語タグは TypeScript 2 + JavaScript 1 + Shell 2 の 4 言語 3 種構成。TypeScript (1.1x) 2 本上位 + JavaScript (0.9x) 中位 + Shell (1.0x) 2 本、Python (1.2x) 最上位が今日は 0 本で言語スコア平均は前日 (Python 1 + TypeScript 2 + JavaScript 1 + Shell 1) より若干低下、Rust 0 本・PowerShell 0 本で低係数言語ゼロは維持",
-      "self-experiment 角度の独自 hashtag: #自作ルーチン #個人開発 #中の人 #実運用レビュー #採否判断 #ClaudeCode運用 #スキル移植 #AIエージェント #自律エージェント #AgentSkills #CodingAgent #Skills #TDD #Cursor #Codex #Copilot #Cloudflare #Workers #DurableObjects #RLM #RecursiveLanguageModel #CTO #技術選定 #個人開発者 #ソロCTO"
+      "self-experiment 角度の核心は『中の人 (Claude Code で日次動画自動化を回す本チャンネル運用者) が 5 本を実運用の採否判断でレビュー』。5 本のマッピング: #semantica=知識グラフ + W3C PROV-O 決定監査、金融/医療/法務/政府の規制ドメイン向け『Open Source Palantir for AI Agents』(Python, +967★、初登場 #1)、私の日次ルーチンは MIT で決定監査までは不要なので当面保留候補 / #agency_agents=18 分野に 230+ の専門エージェントペルソナを Markdown で束ねた集大成、CrewAI/AutoGen のような Python 基盤に縛られず Claude Code/Cursor/Copilot/Windsurf に横断で持ち込める (Shell, +1,352★、msitarzewski 開発、3 日連続 TOP5 で #3→#2 上昇)、私の Claude Code に code-reviewer/simplifier 等のレビュー役を 1〜2 個移植して試したい採用候補 / #MediaCrawler=小紅書/抖音/快手/B站/微博/貼吧/知乎の 7 中国 SNS を Playwright + ログインキャッシュ + オプション CDP 接続で集めるスクレイパー、暗号アルゴリズム解読なしのブラウザ自動化 (Python, +215★、初登場 #3)、私の sns-hub は X/YouTube/Instagram/TikTok 対象で中国 SNS は対象外、加えて学習用途限定の法的線注意で当面保留候補 / #agent_skills=Define/Plan/Build/Verify/Review/Ship の 6 フェーズに 24 スキルを配置、anti-rationalization tables + verification gates で AI エージェントに本格開発の手順を守らせる Google 流工程主義 (JavaScript, +659★、addyosmani 開発、08-09 まで #2 → 昨日脱落 → 今日 #4 再入)、私の日次ルーチンの過剰実装癖 (バグ修正のついでに周辺リファクタしてしまう等) に効く採用候補 / #paperclip=Claude/Codex/OpenClaw/Cursor/シェル/HTTP bot 等の複数エージェントを社員に見立てて予算/承認/監査ログ付きで運営、org chart/役割割り当て/コスト制御/人間+エージェント混成チーム対応の Node.js+React+PostgreSQL 自ホスト型プラットフォーム (TypeScript, +167★、初登場 #5、MIT)、私の日次 routine 3 本 (github-trending/coffee/figma) の予算管理と失敗時の approval workflow に入れたい採用候補",
+      "言語タグは Python 2 + Shell 1 + JavaScript 1 + TypeScript 1 の 4 言語構成。Python (1.2x) 最上位 2 本 + TypeScript (1.1x) 1 本上位 + Shell (1.0x) 1 本 + JavaScript (0.9x) 1 本、Rust 0 本・PowerShell 0 本で低係数言語ゼロは維持、言語スコア平均は前日 (TypeScript 2 + Python 1 + Shell 1 + Go 1) より Python 2 本で微上昇",
+      "self-experiment 角度の独自 hashtag: #自作ルーチン #個人開発 #中の人 #実運用レビュー #採否判断 #ClaudeCode運用 #スキル移植 #snshub #予算管理 #AIエージェント #KnowledgeGraph #グラフ基盤 #PROV #Palantir #AgentPersona #Skills #CrewAI #AutoGen #MediaCrawler #小紅書 #抖音 #Bilibili #Playwright #AgentSkills #TDD #Cursor #Copilot #Windsurf #paperclip #OpenClaw #Codex #CTO #技術選定 #個人開発者 #ソロCTO"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 254 文字 (46+53+52+52+51)、TTS +30% で約 42-45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 53 文字)",
-      "self-experiment 角度の一貫性: 5 本すべての narration に一人称 (私/自分/自分でも) と自身のプロジェクト言及 (日次ルーチン/Claude Code 運用/私のルーチン) を配置。1 本目『長時間タスク向けの自律エージェント → 日次ルーチンの状態管理に自分でも試したい構成』、2 本目『Google 流の工程規律を 24 スキルに束ねたパック → 私の Claude Code 運用にも入れて過剰実装を抑えたい』、3 本目『Cloudflare に載る自律エージェント用の計算基盤 → 私のルーチンはローカル完結で当面採用は保留候補』(唯一の批判的判断、self-experiment 信頼性担保)、4 本目『Matt Pocock 氏の実践スキル集で /tdd や /grill-me → 私のルーチンにも一部だけ移植したい形式』、5 本目『設計・計画・TDD・レビューを自動で挿す方法論 → 日次ルーチンの品質担保に Claude Code 版を試したい枠』で、視聴者が『中の人が実運用の目線で 5 本を採否判断するレビュー番組』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment では『採用 / 保留の実運用判断』を明示、単発紹介や tech-deep と違い『中の人の実運用シグナル』の信頼密度を優先。5 本中 1 本 (cloudflare/computer #3) を明確に『採用保留』と提示することで残り 4 本の推奨説得力を担保、NG パターン (README 読み上げレベル) を回避",
-      "数値表現はアラビア数字統一 (24、/tdd)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Matt Pocock、Cloudflare、Continual Harness、TDD、RLM) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 254 文字 (49+52+51+49+53)、TTS +30% で約 43-46 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 53 文字・min 49 文字)",
+      "self-experiment 角度の一貫性: 5 本すべての narration に一人称 (私/自分) と自身のプロジェクト言及 (ルーチン/Claude Code/sns-hub/日次 routine 3 本) を配置。1 本目『AI の決定を全部記録するグラフ基盤 → 私のルーチンには過剰、規制ドメイン向けなので保留候補』、2 本目『230 種類のエージェントペルソナ集 → 私の Claude Code にレビュー役を移植したい採用候補』、3 本目『中国 SNS 7 社を丸ごと集めるクローラー → 私の sns-hub は対象がずれるので当面は保留候補』、4 本目『24 スキルで工程を縛る Claude Code 向けパック → 私の過剰実装癖を止めたい採用候補』、5 本目『エージェントを社員として運営する管理 OSS → 私の日次 routine 3 本の予算管理に入れたい候補』で、視聴者が『中の人が実運用の目線で 5 本を採否判断するレビュー番組』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment では『採用 / 保留の実運用判断』を明示、単発紹介や tech-deep と違い『中の人の実運用シグナル』の信頼密度を優先。5 本中 2 本 (semantica #1・MediaCrawler #3) を明確に『採用保留』と提示、残り 3 本 (agency-agents #2・agent-skills #4・paperclip #5) を『採用候補』とすることで 3:2 の慎重比率、NG パターン (README 読み上げレベル) を回避。08-08 self-experiment は 1 本のみ保留で 4:1 採用寄りで 0 定着だったため、今日は 3:2 に修正して『中の人が慎重に取捨選択している』ブランド信号を強化",
+      "数値表現はアラビア数字統一 (7、24、230、3)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、sns-hub、routine、Node.js、PROV-O、GraphRAG) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `self-experiment` (全期間 6 位 avg 1.12 n=8、14d は 07-25 分が今日で窓外脱落し n=0 にリセットされる新窓 1 本目投入、直近採用 07-25 から 14 日空きで cooldown 完了)。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルール + business-angle 8 月中旬まで休止方針 + comparison cooldown 4 日短めで exploit tier は構造的に閉塞、今週 (Mon-Sun 08-03〜08-09) 柱② or ③ 未消化状態で 08-08 まで持ち込まれた weekly pillar 消化義務の必然的帰結として選定。素材整合率 5/5=100% AI エージェント OSS 集中 (運用開始以来かつ観測史上初) と『Claude Code で日次動画自動化を回している中の人』self-experiment 角度が accidental sync、07-25 分の 14d 窓外脱落と同日で構造的最良タイミング。土曜 (Sat=79 avg、日曜 5 avg 除けば低期待日) は絶対値期待薄だが、weekly pillar 消化を明日 08-09 (Sun=5 avg 全期間最下位) に持ち込むより 15 倍以上有利",
-      "本日 08-08 TOP5: #1 PrimeIntellect-ai/prime-agent=TypeScript / 6,350★ / +2,271 [初登場 #1・Recursive Language Model 抽象で『context as variables / tools as recursive subagents』、Continual Harness で持続可能な状態、pi フレームワーク上、複数 LLM プロバイダ対応、Skills はスキル用 Python パッケージ、MIT、macOS/Linux + curl インストーラ + IPython 実行時、サンドボックスなしユーザ権限実行]、#2 addyosmani/agent-skills=JavaScript / 83,844★ / +1,131 [同位置 #2 継続・Define/Plan/Build/Verify/Review/Ship の 6 フェーズを 24 スキル (23 lifecycle + 1 meta) に体系化、anti-rationalization tables、Hyrum's Law/Beyonce Rule/trunk-based development など Google 流工程主義、Superpowers/mattpocock/skills との比較 doc 内蔵、Claude Code/Cursor/Copilot/Cline/Codex 対応]、#3 cloudflare/computer=TypeScript / 5,615★ / +894 [同位置 #3 継続・Durable Objects + SQLite でエージェント用仮想 FS を authoritative state 化、コンテナ (Linux sandbox + FUSE) / Isolate Shell (Dynamic Worker + RPC) / Isolate JS (ES module + fs) の 3 バックエンド切替、capnweb RPC + trusted modules、5 パッケージ monorepo、preview status、E2B/Modal/Daytona 対抗軸]、#4 mattpocock/skills=Shell / 208,729★ / +2,180 [同位置 #4 継続・Matt Pocock (TypeScript 教育で著名) の個人 .agents から抽出、スラッシュコマンド式 (/grill-me、/tdd、/code-review)、Grilling sessions で意図整合、TDD/Domain modeling/Architecture analysis、engineering-focused + productivity-focused の 2 カテゴリ、Claude Code/Codex 対応]、#5 obra/superpowers=Shell / 268,713★ / +794 [初登場 #5・obra=Jesse Vincent + Prime Radiant チーム開発、設計→計画→TDD→コードレビューを自動で挿し込む方法論、Red-Green-Refactor TDD 強制 + subagent-driven-development + 数時間の自律実行 + 組み込みコードレビューチェックポイント、Claude Code (official marketplace) / Cursor (/add-plugin superpowers) / Codex / Gemini CLI 対応、markdown-based skills auto-activate、MIT]",
-      "本日の self-experiment 核: 5 本を『Claude Code で日次動画自動化 (このチャンネル運用) を回している中の人が実運用の目線で採否判断するレビュー番組』フォーマットで解説。冒頭フックは『今日の TOP5 は全部 AI エージェントの開発ツールでした。私の Claude Code ルーチンに入れるか、順に決めます』。5 本中 4 本を『試したい / 移植したい / 入れたい』採用寄り、1 本 (cloudflare/computer #3) を『ローカル完結の私のルーチンには過剰で当面採用は保留候補』と明示批判、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保",
-      "Primary (CTO/技術選定) には『同じチャンネル運用者が採否をどう判断したかの実例』として、Secondary (PdM/事業責任者) には『AI エージェントスキルパックをどう選ぶかの現場感』として、Tertiary (学習中) には『どう試すか』の入り口として 3 層直撃",
-      "連投上限ルール: 14d 内 ecosystem=07-26/07-29/08-03/08-06 の 4 件 (8/9 の 07-26 窓外脱落まで維持・翌日 8/10 で 3 件)、business-angle=07-27/07-30/08-02 の 3 件 (8/11 07-27 窓外脱落まで維持・8 月中旬まで休止方針継続)、comparison=07-31/08-04 の 2 件 (8/14 07-31 窓外脱落まで維持)、trend-pattern=07-28/08-07 の 2 件 (8/11 07-28 窓外脱落まで維持)、self-experiment=07-25 → 今日で窓外脱落し 0 件 → 本日 08-08 消化で新窓 1 件、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、stack-migration=07-24 は 8/7 で窓外脱落済 0 件、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で 8/13 以降投入)"
+      "本日の discovery.method は `self-experiment` (14d avg 0.00 n=1 で 08-08 分反映で最下位、全期間 avg 1.00 n=8、直近採用 08-08 で cooldown 3 日、連投 NG 非該当)。直近 2 日 (08-10 comparison / 08-09 ecosystem) 連投ルール + business-angle 8 月中旬まで休止方針 + trend-pattern (08-07 消化で cooldown 4 日) + use-case (08-05 消化で cooldown 6 日) + tech-deep (全期間最下位 + 回復モード凍結) の除外で exploit tier は構造的に閉塞、今週 (Mon-Sun 08-10〜08-16) 柱② or ③ 未消化 + 火曜 (Tue=361 avg 週内首位) の高期待日消化リスク最小 + 素材整合率 5/5=100% + 前回 08-08 (Sat=79 avg + agent-only) からの別条件再試行 (日 4.6 倍期待値変更 + sns-hub 隣接素材追加) の 4 条件複合で選定",
+      "本日 08-11 TOP5: #1 semantica-agi/semantica=Python / 4,035★ / +967 [初登場 #1・知識グラフに事実と決定履歴を載せ W3C PROV-O で来歴を追える推論基盤、Databricks/Snowflake/Neo4j/Oxigraph 等 polyglot、Datalog/SPARQL/Rete 網の deterministic reasoning、bi-temporal provenance、GraphRAG-native chunking、`Open Source Palantir for AI Agents` 位置づけ、金融/医療/法務/政府の規制ドメイン向け、v0.6.0 で Databricks Unity Catalog lineage + SQLite vector store + SPARQL CONSTRUCT templates 追加、MIT]、#2 msitarzewski/agency-agents=Shell / 141,757★ / +1,352 [#3→#2 上昇・3 日連続 TOP5・18 分野 (Engineering/Design/Marketing/Sales/Product 等) に 230+ のエージェントペルソナを Markdown で束ねた集大成、CrewAI/AutoGen のような runtime/task queue/coordination なしの pure prompt library、Claude Code/Copilot は .md 直投入、Cursor/Windsurf/Aider は rule ファイル、OpenCode/Gemini CLI/Kimi Code/Codex は変換 script、interactive installer + native desktop app (macOS/Linux/Windows) で one-click 導入]、#3 NanmiCoder/MediaCrawler=Python / 60,964★ / +215 [初登場 #3・小紅書/抖音/快手/B站/微博/貼吧/知乎の 7 中国 SNS スクレイパー、Playwright + ログインキャッシュ + オプション CDP 接続で暗号アルゴリズム解読を回避、キーワード検索/投稿 ID/入れ子コメント/クリエイターホームページ対応、CSV/JSON/SQLite/MySQL 出力 + IP プロキシプール、学習用途限定の disclaimer、WebUI 追加 + MediaCrawlerPro 有償版発表で renewed attention]、#4 addyosmani/agent-skills=JavaScript / 85,712★ / +659 [#4 再入 (08-09 まで #2 → 08-10 脱落 → 今日 #4 再入)・Define/Plan/Build/Verify/Review/Ship の 6 フェーズに 24 スキル配置、anti-rationalization tables + verification gates、Claude Code 8 slash commands (/spec/plan/build/test/review/code-simplify/webperf/ship)、`npx skills add addyosmani/agent-skills` で 70+ agents 対応、Cursor は `.cursor/skills/`、Google 流 (Hyrum's Law/Beyonce Rule/trunk-based) 引用]、#5 paperclipai/paperclip=TypeScript / 76,429★ / +167 [初登場 #5・`If OpenClaw is an employee, Paperclip is the company`、Claude/Codex/OpenClaw/Cursor/シェル/HTTP bot の複数エージェントを社員に見立てて org chart/役割割り当て/予算/承認/監査ログ付きで運営、Node.js + PostgreSQL + React + Vitest + Playwright + pnpm workspaces + TypeScript monorepo、self-hosted MIT で SaaS 依存なし、plugin system + skills manager + scheduled routines + budget enforcement + approval workflows]",
+      "本日の self-experiment 核: 5 本を『Claude Code で日次動画自動化 (このチャンネル運用) を回している中の人が自分のルーチンに入れるか』の目線で採否判断するレビュー番組フォーマットで解説。冒頭フックは『今日の TOP5 も AI エージェント OSS が中心。自分のルーチンに入れるか、順に決めます』。5 本中 3 本を『採用候補』(agency-agents=Claude Code にレビュー役を移植、agent-skills=過剰実装癖を止める、paperclip=日次 routine 3 本の予算管理に入れたい)、2 本を『保留候補』(semantica=規制ドメイン向けで過剰、MediaCrawler=sns-hub の対象 SNS とずれる + 法的線注意) と明示判断、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保。08-08 self-experiment は 1 本のみ保留で 4:1 採用寄りで 0 定着だったため、今日は 3:2 の慎重比率に修正",
+      "Primary (CTO/技術選定) には『同じチャンネル運用者が実運用でどう判断したかの実例』として、Secondary (PdM/事業責任者) には『AI エージェントスタックをどう選ぶかの現場感』として、Tertiary (学習中) には『どう試すか』の入り口として 3 層直撃",
+      "連投上限ルール: 14d 内 ecosystem=07-29/08-03/08-09 の 3 件 (8/12 07-29 窓外脱落まで維持・翌日 8/13 で 2 件)、comparison=07-31/08-04/08-10 の 3 件 (8/14 07-31 窓外脱落まで維持)、business-angle=07-30/08-02 の 2 件 (8/13 07-30 窓外脱落まで維持・8 月中旬まで休止方針で 8/13〜8/15 のいずれかで解除判定)、trend-pattern=07-28/08-07 の 2 件 (8/11 07-28 窓外脱落 → 08-07 のみ 1 件)、self-experiment=08-08 の 1 件 → 本日 08-11 消化で 2 件、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で 8/13 以降投入)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-08",
-    "dayOfWeek": "Sat",
+    "date": "2026-08-11",
+    "dayOfWeek": "Tue",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -73,30 +73,40 @@
       "採否判断",
       "ClaudeCode運用",
       "スキル移植",
+      "snshub",
+      "予算管理",
       "AIエージェント",
-      "自律エージェント",
-      "AgentSkills",
-      "CodingAgent",
+      "KnowledgeGraph",
+      "グラフ基盤",
+      "PROV",
+      "Palantir",
+      "AgentPersona",
       "Skills",
+      "CrewAI",
+      "AutoGen",
+      "MediaCrawler",
+      "小紅書",
+      "抖音",
+      "Bilibili",
+      "Playwright",
+      "AgentSkills",
       "TDD",
       "Cursor",
-      "Codex",
       "Copilot",
-      "Cloudflare",
-      "Workers",
-      "DurableObjects",
-      "RLM",
-      "RecursiveLanguageModel",
+      "Windsurf",
+      "paperclip",
+      "OpenClaw",
+      "Codex",
       "CTO",
       "技術選定",
       "個人開発者",
       "ソロCTO",
-      "prime_agent",
+      "semantica",
+      "agency_agents",
+      "MediaCrawler",
       "agent_skills",
-      "cloudflare_computer",
-      "mattpocock_skills",
-      "superpowers"
+      "paperclip"
     ],
-    "focus": "土曜 (Sat=79 avg、週内下位、日曜 5 avg 除けば低期待日) は絶対値期待薄だが、weekly pillar 消化 (中位 tier method の safe 消化) を明日 08-09 (Sun=5 avg 全期間最下位) に持ち込むより 15 倍以上有利。`self-experiment` (全期間 6 位 avg 1.12 n=8、14d は 07-25 分の窓外脱落で n=0 リセットの新窓 1 本目投入、07-25 消化から 14 日空きで cooldown 完了) を投入。5/5=100% 素材 (PrimeIntellect-ai/prime-agent / addyosmani/agent-skills / cloudflare/computer / mattpocock/skills / obra/superpowers) が AI エージェント / コーディングスキル系 OSS で『Claude Code で日次動画自動化を回している中の人』の self-experiment 角度と完全整合 (運用開始以来かつ観測史上初の 100% 集中)、07-25 分の 14d 窓外脱落と同日で構造的最良タイミング。直近 2 日 (08-07 trend-pattern / 08-06 ecosystem) 連投ルール + business-angle 8 月中旬まで休止 + comparison cooldown 4 日短めで exploit tier 構造的閉塞、今週 (Mon-Sun 08-03〜08-09) 柱② or ③ 未消化の必然的帰結として self-experiment (柱③) 消化義務。本日の TOP5 は 3/5 継続 (agent-skills #2・cloudflare/computer #3・mattpocock/skills #4 すべて同位置)、2/5 新規 (prime-agent #1・superpowers #5) で日次 refresh 率 40% と lineup 感刷新はやや薄いが、method 切替 (trend-pattern → self-experiment) + 語彙総入替 (今週/同時に/揃った/一斉に/急伸/伸びた週 → 私/自分/触ってみたい/日次ルーチン/Claude Code 運用/採用/保留/移植) で視聴者の脳内モードを『今週のマクロ潮流を 60 秒で把握するニュース分析番組』から『中の人が実運用の目線で 5 本を採否判断するレビュー番組』へ 180 度転換、素材同質性 (2 日連続 AI エージェント OSS 集中) を弱みではなく強みに転換 (2 日で 1 セット、テーマ深掘り効果、昨日はニュース分析→今日はそのニュースを受けた実運用者のレビュー) して視聴者体験の同質化を回避。narration は 5 本すべてに一人称 (私/自分) と自身のプロジェクト言及 (日次ルーチン/Claude Code 運用) を配置、5 本合計 254 文字 (46+53+52+52+51) で TTS 換算約 42-45 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。5 本中 4 本を『試したい / 移植したい / 入れたい』採用寄り、1 本 (cloudflare/computer #3) を『ローカル完結の私のルーチンには過剰で当面採用は保留候補』と明示批判、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保、NG パターン (README 読み上げレベル) 回避。柱① (GitHub Trending 解説 70%) は今週 5 日連続消化済、柱② (business-angle 08-02 消化済 + 休止中) 今週消化不可、柱③ (self-experiment 07-25 消化 → 新週 08-03〜08-09 本日消化)、柱④ (trend-pattern 08-07 消化済) を今週消化。08-05 use-case=1 view + 08-07 trend-pattern=0 view (48h 後本評価) を受けた explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・use-case 再挑戦・comparison 再挑戦) はすべて 8/13 以降送りで exploit tier + weekly pillar 消化の 2 軸のみで運用。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "火曜 (Tue=361 avg、週内首位、水 153/木 176/金 310/土 79/日 5 との比較で圧倒的首位) は高期待日で安定 exploit tier 投入がセオリーだが、weekly pillar 消化未達 + 素材整合率 100% + 前回 08-08 (Sat) 0 定着の別条件再試行 (日 4.6 倍期待値変更 + sns-hub 隣接素材追加) の 3 軸複合で `self-experiment` を投入。5/5=100% 素材 (semantica-agi/semantica / msitarzewski/agency-agents / NanmiCoder/MediaCrawler / addyosmani/agent-skills / paperclipai/paperclip) が『中の人が自分のルーチンに入れるか』の一人称採否判断と完全整合、agent OSS 4 本 + sns-hub 隣接 MediaCrawler 1 本の構成で self-experiment 角度の必然的帰結。直近 2 日 (08-10 comparison / 08-09 ecosystem) 連投ルール + business-angle 8 月中旬まで休止 + trend-pattern cooldown 4 日 + use-case cooldown 6 日 + tech-deep 凍結で exploit tier 構造的閉塞、今週 (Mon-Sun 08-10〜08-16) 柱② or ③ 未消化 + 火曜 (高期待日) の pillar 消化リスク最小 + 前回 08-08 の失敗条件 (Sat + agent-only) からの別条件再試行の 4 条件複合で selection 決定。本日の TOP5 は 1/5 継続 (agency-agents #3→#2 の 1 位アップ、+1,352★ で 3 日連続主役)、4/5 新規 (semantica #1 初登場即トップ・MediaCrawler #3 初登場・agent-skills #4 再入・paperclip #5 初登場) で lineup 80% 刷新、素材テーマは 6 日連続 AI エージェント OSS 集中の到達点として『基盤層 (semantica) / ペルソナ層 (agency-agents) / 工程層 (agent-skills) / 管理層 (paperclip)』の 4 層フルスタック観測に至った週。method 切替 (comparison → self-experiment) + 語彙総入替 (vs/代替/違い/棲み分け/どちらを取るか/トレードオフ/既存の → 私/自分/日次ルーチン/Claude Code 運用/sns-hub/採用/保留/移植/試したい/入れたい) で視聴者の脳内モードを『選定判断 (実務)』から『自己適用 (実運用)』へ zoom in、素材同質性 (2 日連続 AI エージェント OSS 集中) を強みに転換 (2 日で 1 セット、テーマ深掘り効果、昨日は代替比較→今日はそのカテゴリを受けた実運用者の自己適用) して視聴者体験の同質化を回避。narration は 5 本すべてに一人称 (私/自分) と自身のプロジェクト言及 (ルーチン/Claude Code/sns-hub/日次 routine 3 本) を配置、5 本合計 254 文字 (49+52+51+49+53) で TTS 換算約 43-46 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。5 本中 3 本を『採用候補』(agency-agents/agent-skills/paperclip)、2 本を『保留候補』(semantica/MediaCrawler) と明示判断、3:2 の慎重比率で 08-08 self-experiment は 1 本のみ保留で 4:1 採用寄りで 0 定着だった反省を反映、self-experiment 信頼性 (中の人が本当に取捨選択している) シグナルを担保、NG パターン (README 読み上げレベル) 回避。柱① (GitHub Trending 解説 70%) は 08-10 消化済 (今週 1 日目)、柱② (business-angle) は 8 月休止中で今週消化不可、柱③ (self-experiment) は本日 08-11 で消化 (今週 pillar ルール消化)、柱④ (trend-pattern) は 08-07 消化済 (先週)。08-08 0 定着 + 08-09/08-10 早期 48h 未確定を受けた explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・use-case 再挑戦) はすべて 8/13 以降送りで exploit tier + weekly pillar 消化の 2 軸のみで運用。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
