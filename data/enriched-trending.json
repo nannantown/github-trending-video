@@ -1,15 +1,16 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "discovery": {
-    "method": "self-experiment",
-    "description": "今日のTOP5を『Claude Codeで日次動画自動化を回している中の人が自分のルーチンに入れるか』の一人称採否判断でレビューするself-experiment angle。素材整合率5/5=100%: 1) semantica-agi/semantica (初登場#1、+967★、Python) = 知識グラフ + W3C PROV-O 決定監査、規制ドメイン向けで日次ルーチンには過剰・保留候補 2) msitarzewski/agency-agents (#3→#2、+1,352★、Shell) = 230+ペルソナMarkdown集、Claude Codeにレビュー役を移植したい採用候補 3) NanmiCoder/MediaCrawler (初登場#3、+215★、Python) = 中国SNS 7社 (小紅書/抖音/快手/B站/微博/貼吧/知乎) をPlaywright + ログインキャッシュで収集、私のsns-hubの対象SNSとずれる + 学習用途限定の法的線で当面保留 4) addyosmani/agent-skills (#4再入、+659★、JavaScript) = Define/Plan/Build/Verify/Review/Shipの6フェーズ24スキル、ルーチンの過剰実装癖を止めたい採用候補 5) paperclipai/paperclip (初登場#5、+167★、TypeScript) = Claude/Codex/OpenClaw/シェル等の複数エージェントを社員に見立て、予算/承認/監査付きで運営できるNode.js+React+PostgreSQL自ホストプラットフォーム、日次routine 3本 (github-trending/coffee/figma) の予算管理に入れたい採用候補。method選定: 直近2日 (08-10 comparison / 08-09 ecosystem) 連投ルールで両者除外、14d首位のbusiness-angleは8月中旬まで休止方針で除外、trend-pattern (14d avg 2.00 n=2) は08-07消化でcooldown 4日、use-case (14d avg 1.00 n=1) は08-05消化でcooldown 6日、tech-deepは全期間avg 0.75で最下位 + 回復モード継続で凍結。残るself-experimentは14d avg 0.00 (n=1、08-08 0定着) で最下位だが、(a) 今週 (Mon-Sun 08-10〜08-16) 柱② or ③未消化で消化義務、(b) 火曜 (Tue=361 avg 週内首位) は高期待日でpillar消化のリスクが最も低い、(c) 素材整合率5/5=100% (agent OSS 4本 + sns-hub隣接MediaCrawler 1本)、(d) 前回08-08の失敗条件 (Sat=79 avg + agent-only) から日 (4.6倍期待値) と素材 (sns-hub隣接1本追加) の2軸を変えての別条件再試行、の4条件複合で選定。素材は6日連続AIエージェントOSS集中の到達点として『基盤層 (semantica) / ペルソナ層 (agency-agents) / 工程層 (agent-skills) / 管理層 (paperclip)』の4層フルスタック観測に至った週で、self-experiment角度と最良の相性。前日08-10 comparison (代替比較) からのnatural progression: 昨日『各OSS vs 既存代替』の1対1対比選定モード、今日は同じ4層素材を『中の人が自分のルーチンに入れるか』の一人称モードにzoom in。narration 1本目にsemantica『規制ドメイン向けで日次ルーチンには過剰・保留』、2本目agency-agents『Claude Codeにレビュー役を移植したい採用』、3本目MediaCrawler『sns-hubの対象SNSとずれる・保留』、4本目agent-skills『過剰実装癖を止めたい採用』、5本目paperclip『日次routine 3本の予算管理に入れたい採用』と、3採用+2保留の判断で『中の人が慎重に取捨選択している』ブランド信号を担保。08-08 self-experimentは1本のみ保留で4:1採用寄りで0定着だったため、今日は3:2の慎重比率に修正してNGパターン (README読み上げレベル) 回避と信頼性密度を強化。narration 5本合計254文字TTS換算約43-46秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『同じチャンネル運用者が実運用でどう判断したか』の実例、Secondary (PdM) には『自社での適用感』のシグナル、Tertiary (学習中) には『どう試すか』の入り口として3層直撃。",
+    "method": "trend-pattern",
+    "description": "今日のTOP5を『なぜ今週この5本が並ぶか』のマクロパターン視点で読み解くtrend-pattern angle。素材整合率5/5=100%: 1) msitarzewski/agency-agents (#2→#1、+971★、Shell) = 4日連続TOP5・230+ペルソナMarkdown集がCrewAI不要のprompt libraryとして首位定着 2) semantica-agi/semantica (#1→#2、+884★、Python) = 4日で4,000→4,825★急伸・W3C PROV-O監査を持ち込む規制ドメイン向け新軸『Open Source Palantir for AI Agents』 3) nvm-sh/nvm (初登場#3、+18★、Shell) = 12年物のNodeバージョン管理古典がCVE-2026-10796修正で再注目、agent OSS集中週にも古典OSS復活の象徴 4) addyosmani/agent-skills (#4不動、+571★、JavaScript) = 6日連続TOP5定着・Define/Plan/Build/Verify/Review/Shipの6フェーズ24スキル・工程主義の本格化 5) ZhuLinsen/daily_stock_analysis (初登場#5、+317★、Python) = LLM駆動のA/HK/US/JP/KR/TW 6市場株式分析ダッシュボード・GitHub Actionsゼロコスト実装・縦割りアプリの新軸。method選定: 直近2日 (08-11 self-experiment / 08-10 comparison) 連投ルールで両者除外、business-angleは8月中旬まで休止方針中 (今日8/12は解除判定日8/13〜8/15の直前だが本日は休止継続)、ecosystem (14d avg 1.00 n=2、08-09 消化でcooldown 3日)とuse-case (14d avg 1.00 n=1、08-05 消化でcooldown 7日)はcooldown OKだが低位、tech-deepは全期間avg 0.75で最下位+回復モード継続で凍結。残るtrend-patternは14d avg 3.00 (n=1、08-07:3) で首位、素材整合率5/5=100%が『なぜ今週この5本が並ぶか』のマクロパターン語りに完全整合。昨日のPDCA注記『次回以降の高期待帯 (Fri=310) はtrend-pattern温存』は素材主導exploitルールの優先で本日は明示的に破棄、素材がexceptionalにfitする日は曜日期待値より素材優先。素材テーマは6日連続AIエージェントOSS集中の到達点+縦割りアプリ+古典OSS復活の3テーマ同居、agent OSS集中週から縦割りアプリ+古典が挟まる週への転換点として観測。前日08-11 self-experiment (一人称採否判断) からのnatural progression: 昨日『5本を中の人視点で採否判断』のミクロ実運用モード、今日は同じ3本 (agency-agents/semantica/agent-skills) を『なぜこれらが6日連続で君臨し、なぜ今日2本の新規が割り込んだか』のマクロ観測モードにzoom out。視聴者は『実運用の当事者視点 (ミクロ) → 業界の観測者視点 (マクロ)』の2段階で今週のagent OSS動向を立体的に把握できる。重要背景: 08-08〜08-11の4日連続0 views定着はmethod選定精度の問題ではなくchannel全体の到達力低下の疑いが濃厚。本日08-12 (trend-pattern・素材整合率100%) の48h後 (8/14夜) 結果で『素材整合率100% × trend-pattern (14d 3.0 top tier method) × Wed中位日』の3条件複合でも0なら、投稿インフラ側の根本問題を確定しコンテンツ側PDCAからinfra側PDCAに投資配分を移す判定を次回PDCA (8/13) で行う。narration 5本すべてに『連続』『定着』『首位』『今週』『6日』『4日連続』のいずれかを配置してtrend-pattern角度の一貫性を担保、5本合計約255文字TTS換算約43-46秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『今週何が動いているかのマクロ』、Secondary (PdM) には『今週の業界トレンド概観』、Tertiary (学習中) には『何が今のホットトピックか』の入り口として3層直撃。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/semantica-agi/semantica",
       "https://github.com/msitarzewski/agency-agents",
-      "https://github.com/NanmiCoder/MediaCrawler",
+      "https://github.com/semantica-agi/semantica",
+      "https://github.com/nvm-sh/nvm",
+      "https://github.com/nvm-sh/nvm/releases",
       "https://github.com/addyosmani/agent-skills",
-      "https://github.com/paperclipai/paperclip"
+      "https://github.com/ZhuLinsen/daily_stock_analysis"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,39 +18,39 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "semantica-agi/semantica",
-      "name": "semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "language": "Python",
-      "stars": 4035,
-      "todayStars": 967,
-      "description": "AIの決定を追える知識グラフ基盤",
-      "detail": "知識グラフに事実と決定履歴を載せ、W3C PROV-OでAIの判断根拠を後から辿れるPython製の基盤です。金融や医療のように説明責任がある領域向けで、監査可能なAIとして働きます。",
-      "narration": "AIの決定を全部記録するグラフ基盤です。私のルーチンには過剰、規制ドメイン向けなので保留候補です。"
-    },
-    {
-      "rank": 2,
       "fullName": "msitarzewski/agency-agents",
       "name": "agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
       "language": "Shell",
-      "stars": 141757,
-      "todayStars": 1352,
+      "stars": 143088,
+      "todayStars": 971,
       "description": "230種類のエージェントペルソナ集",
-      "detail": "エンジニアやマーケター等18分野に230+のペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのような枠組みなしで、Claude CodeやCursorに直接持ち込めます。",
-      "narration": "230種類のエージェントペルソナ集です。私のClaude Codeにレビュー役を移植したい採用候補です。"
+      "detail": "エンジニアやマーケター等18分野に230以上のエージェントペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのような枠組みなしで、Claude CodeやCursorに直接持ち込めます。",
+      "narration": "AIエージェントペルソナ集が4日連続TOP。CrewAI不要のMarkdown主義が今週の主役です。"
+    },
+    {
+      "rank": 2,
+      "fullName": "semantica-agi/semantica",
+      "name": "semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "language": "Python",
+      "stars": 4825,
+      "todayStars": 884,
+      "description": "監査可能なAI用の知識グラフ基盤",
+      "detail": "知識グラフに事実と決定履歴を載せ、W3C PROV-OでAIの判断根拠を後から辿れるPython製の推論基盤です。金融や医療のような規制ドメイン向けで、監査可能なAIとして働きます。",
+      "narration": "監査に耐えるAIグラフ基盤が4日で4,000から4,800まで急伸。規制業界の新軸です。"
     },
     {
       "rank": 3,
-      "fullName": "NanmiCoder/MediaCrawler",
-      "name": "MediaCrawler",
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "language": "Python",
-      "stars": 60964,
-      "todayStars": 215,
-      "description": "中国SNS 7社の学習用クローラー",
-      "detail": "小紅書、抖音、快手、B站、微博、貼吧、知乎の投稿、コメント、プロフィールをPlaywrightとログインキャッシュで集めます。学習用途限定で、暗号解読なしにブラウザ自動化で動きます。",
-      "narration": "中国SNS 7社を丸ごと集めるクローラーです。私のsns-hubは対象がずれるので当面は保留候補です。"
+      "fullName": "nvm-sh/nvm",
+      "name": "nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "language": "Shell",
+      "stars": 94471,
+      "todayStars": 18,
+      "description": "Nodeバージョン管理の古典ツール",
+      "detail": "12年以上メンテされているPOSIX準拠のBashスクリプト製Node.jsバージョン切替ツールです。CVE修正リリースで再注目され、複数プロジェクトを行き来する開発者の必需品として復活しています。",
+      "narration": "12年物のNode管理ツールがTOP3に復活。CVE修正が古典OSSを今週の中心に押し戻しました。"
     },
     {
       "rank": 4,
@@ -57,23 +58,23 @@
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 85712,
-      "todayStars": 659,
-      "description": "AIエージェント向け工程スキル集",
+      "stars": 86193,
+      "todayStars": 571,
+      "description": "AIエージェント向け24スキル集",
       "detail": "Define/Plan/Build/Verify/Review/Shipの6段階に24スキルを配置し、AIエージェントに本格開発の手順を守らせます。Claude Codeやcursorに1コマンドで導入できます。",
-      "narration": "24スキルで工程を縛るClaude Code向けパックです。私の過剰実装癖を止めたい採用候補です。"
+      "narration": "工程を縛るスキルパックが6日連続TOP5定着。AIエージェントの本格運用フェーズ入りのサインです。"
     },
     {
       "rank": 5,
-      "fullName": "paperclipai/paperclip",
-      "name": "paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "language": "TypeScript",
-      "stars": 76429,
-      "todayStars": 167,
-      "description": "AIエージェントの運営プラットフォーム",
-      "detail": "Claude、Codex、OpenClaw、シェル等の複数エージェントを社員に見立て、予算、承認、監査ログ付きで運営できるNode.js+React+PostgreSQLの自ホスト型OSSです。",
-      "narration": "エージェントを社員として運営する管理OSSです。私の日次routine 3本の予算管理に入れたい候補です。"
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars": 62087,
+      "todayStars": 317,
+      "description": "LLM駆動の日次株式分析OSS",
+      "detail": "A株、香港、米国、日本、韓国、台湾の株式をLLMで分析し、毎日『買い、持ち、売り』シグナルを配信するダッシュボードです。GitHub Actions実行でサーバー代ゼロで運用できます。",
+      "narration": "LLMを株式判断に使う縦割りアプリが急上昇。GitHub Actionsでサーバー代ゼロ運用が今週の勝ち筋です。"
     }
   ]
 }
