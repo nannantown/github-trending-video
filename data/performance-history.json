@@ -3783,7 +3783,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -3840,7 +3840,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -3895,7 +3895,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -3951,7 +3951,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4007,7 +4007,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4066,7 +4066,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4123,7 +4123,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4180,7 +4180,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4240,7 +4240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4299,7 +4299,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4358,7 +4358,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4414,7 +4414,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-10T23:22:05.677Z"
+        "updatedAt": "2026-08-11T23:26:32.355Z"
       }
     },
     {
@@ -4470,29 +4470,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-11T23:26:32.355Z"
+      }
+    },
+    {
+      "videoId": "NQ2cyK5RjaQ",
+      "videoUrl": "https://youtube.com/shorts/NQ2cyK5RjaQ",
+      "date": "2026-08-12",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/12 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Markdown",
+        "Java",
+        "CSS",
+        "Jupyter Notebook",
+        "Shell",
+        "Python",
+        "JavaScript"
+      ],
+      "languages": [
+        "Shell",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "msitarzewski/agency-agents",
+        "semantica-agi/semantica",
+        "nvm-sh/nvm",
+        "addyosmani/agent-skills",
+        "ZhuLinsen/daily_stock_analysis"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "今日のTOP5を『なぜ今週この5本が並ぶか』のマクロパターン視点で読み解くtrend-pattern angle。素材整合率5/5=100%: 1) msitarzewski/agency-agents (#2→#1、+971★、Shell) = 4日連続TOP5・230+ペルソナMarkdown集がCrewAI不要のprompt libraryとして首位定着 2) semantica-agi/semantica (#1→#2、+884★、Python) = 4日で4,000→4,825★急伸・W3C PROV-O監査を持ち込む規制ドメイン向け新軸『Open Source Palantir for AI Agents』 3) nvm-sh/nvm (初登場#3、+18★、Shell) = 12年物のNodeバージョン管理古典がCVE-2026-10796修正で再注目、agent OSS集中週にも古典OSS復活の象徴 4) addyosmani/agent-skills (#4不動、+571★、JavaScript) = 6日連続TOP5定着・Define/Plan/Build/Verify/Review/Shipの6フェーズ24スキル・工程主義の本格化 5) ZhuLinsen/daily_stock_analysis (初登場#5、+317★、Python) = LLM駆動のA/HK/US/JP/KR/TW 6市場株式分析ダッシュボード・GitHub Actionsゼロコスト実装・縦割りアプリの新軸。method選定: 直近2日 (08-11 self-experiment / 08-10 comparison) 連投ルールで両者除外、business-angleは8月中旬まで休止方針中 (今日8/12は解除判定日8/13〜8/15の直前だが本日は休止継続)、ecosystem (14d avg 1.00 n=2、08-09 消化でcooldown 3日)とuse-case (14d avg 1.00 n=1、08-05 消化でcooldown 7日)はcooldown OKだが低位、tech-deepは全期間avg 0.75で最下位+回復モード継続で凍結。残るtrend-patternは14d avg 3.00 (n=1、08-07:3) で首位、素材整合率5/5=100%が『なぜ今週この5本が並ぶか』のマクロパターン語りに完全整合。昨日のPDCA注記『次回以降の高期待帯 (Fri=310) はtrend-pattern温存』は素材主導exploitルールの優先で本日は明示的に破棄、素材がexceptionalにfitする日は曜日期待値より素材優先。素材テーマは6日連続AIエージェントOSS集中の到達点+縦割りアプリ+古典OSS復活の3テーマ同居、agent OSS集中週から縦割りアプリ+古典が挟まる週への転換点として観測。前日08-11 self-experiment (一人称採否判断) からのnatural progression: 昨日『5本を中の人視点で採否判断』のミクロ実運用モード、今日は同じ3本 (agency-agents/semantica/agent-skills) を『なぜこれらが6日連続で君臨し、なぜ今日2本の新規が割り込んだか』のマクロ観測モードにzoom out。視聴者は『実運用の当事者視点 (ミクロ) → 業界の観測者視点 (マクロ)』の2段階で今週のagent OSS動向を立体的に把握できる。重要背景: 08-08〜08-11の4日連続0 views定着はmethod選定精度の問題ではなくchannel全体の到達力低下の疑いが濃厚。本日08-12 (trend-pattern・素材整合率100%) の48h後 (8/14夜) 結果で『素材整合率100% × trend-pattern (14d 3.0 top tier method) × Wed中位日』の3条件複合でも0なら、投稿インフラ側の根本問題を確定しコンテンツ側PDCAからinfra側PDCAに投資配分を移す判定を次回PDCA (8/13) で行う。narration 5本すべてに『連続』『定着』『首位』『今週』『6日』『4日連続』のいずれかを配置してtrend-pattern角度の一貫性を担保、5本合計約255文字TTS換算約43-46秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『今週何が動いているかのマクロ』、Secondary (PdM) には『今週の業界トレンド概観』、Tertiary (学習中) には『何が今のホットトピックか』の入り口として3層直撃。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/msitarzewski/agency-agents",
+          "https://github.com/semantica-agi/semantica",
+          "https://github.com/nvm-sh/nvm",
+          "https://github.com/nvm-sh/nvm/releases",
+          "https://github.com/addyosmani/agent-skills",
+          "https://github.com/ZhuLinsen/daily_stock_analysis"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-09",
-      "changes": [
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 84 avg views (80 videos)",
-        "Trending languages: Java (2.7x), Jupyter Notebook (4.6x)",
-        "Day performance: Fri=207, Tue=170, Thu=67, Wed=57, Sat=49, Mon=44, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-10",
       "changes": [
@@ -5006,6 +5047,22 @@
         "standard: 2 avg views (80 videos)",
         "Trending languages: Markdown (1.8x), C# (1.9x), Java (1.5x), CSS (1.5x), Jupyter Notebook (1.7x), PowerShell (1.5x)",
         "Day performance: Mon=2, Fri=2, Sat=2, Tue=2, Thu=1, Sun=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-11",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "Markdown: 1.4x avg views → boost",
+        "C: 0.0x avg views → drop",
+        "Java: 1.4x avg views → boost",
+        "CSS: 1.4x avg views → boost",
+        "Jupyter Notebook: 1.4x avg views → boost",
+        "standard: 1 avg views (80 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.8x), PowerShell (1.6x)",
+        "Day performance: Fri=2, Sat=2, Thu=1, Sun=1, Mon=1, Tue=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
