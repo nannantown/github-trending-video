@@ -1,16 +1,15 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "今日のTOP5を『なぜ今週この5本が並ぶか』のマクロパターン視点で読み解くtrend-pattern angle。素材整合率5/5=100%: 1) msitarzewski/agency-agents (#2→#1、+971★、Shell) = 4日連続TOP5・230+ペルソナMarkdown集がCrewAI不要のprompt libraryとして首位定着 2) semantica-agi/semantica (#1→#2、+884★、Python) = 4日で4,000→4,825★急伸・W3C PROV-O監査を持ち込む規制ドメイン向け新軸『Open Source Palantir for AI Agents』 3) nvm-sh/nvm (初登場#3、+18★、Shell) = 12年物のNodeバージョン管理古典がCVE-2026-10796修正で再注目、agent OSS集中週にも古典OSS復活の象徴 4) addyosmani/agent-skills (#4不動、+571★、JavaScript) = 6日連続TOP5定着・Define/Plan/Build/Verify/Review/Shipの6フェーズ24スキル・工程主義の本格化 5) ZhuLinsen/daily_stock_analysis (初登場#5、+317★、Python) = LLM駆動のA/HK/US/JP/KR/TW 6市場株式分析ダッシュボード・GitHub Actionsゼロコスト実装・縦割りアプリの新軸。method選定: 直近2日 (08-11 self-experiment / 08-10 comparison) 連投ルールで両者除外、business-angleは8月中旬まで休止方針中 (今日8/12は解除判定日8/13〜8/15の直前だが本日は休止継続)、ecosystem (14d avg 1.00 n=2、08-09 消化でcooldown 3日)とuse-case (14d avg 1.00 n=1、08-05 消化でcooldown 7日)はcooldown OKだが低位、tech-deepは全期間avg 0.75で最下位+回復モード継続で凍結。残るtrend-patternは14d avg 3.00 (n=1、08-07:3) で首位、素材整合率5/5=100%が『なぜ今週この5本が並ぶか』のマクロパターン語りに完全整合。昨日のPDCA注記『次回以降の高期待帯 (Fri=310) はtrend-pattern温存』は素材主導exploitルールの優先で本日は明示的に破棄、素材がexceptionalにfitする日は曜日期待値より素材優先。素材テーマは6日連続AIエージェントOSS集中の到達点+縦割りアプリ+古典OSS復活の3テーマ同居、agent OSS集中週から縦割りアプリ+古典が挟まる週への転換点として観測。前日08-11 self-experiment (一人称採否判断) からのnatural progression: 昨日『5本を中の人視点で採否判断』のミクロ実運用モード、今日は同じ3本 (agency-agents/semantica/agent-skills) を『なぜこれらが6日連続で君臨し、なぜ今日2本の新規が割り込んだか』のマクロ観測モードにzoom out。視聴者は『実運用の当事者視点 (ミクロ) → 業界の観測者視点 (マクロ)』の2段階で今週のagent OSS動向を立体的に把握できる。重要背景: 08-08〜08-11の4日連続0 views定着はmethod選定精度の問題ではなくchannel全体の到達力低下の疑いが濃厚。本日08-12 (trend-pattern・素材整合率100%) の48h後 (8/14夜) 結果で『素材整合率100% × trend-pattern (14d 3.0 top tier method) × Wed中位日』の3条件複合でも0なら、投稿インフラ側の根本問題を確定しコンテンツ側PDCAからinfra側PDCAに投資配分を移す判定を次回PDCA (8/13) で行う。narration 5本すべてに『連続』『定着』『首位』『今週』『6日』『4日連続』のいずれかを配置してtrend-pattern角度の一貫性を担保、5本合計約255文字TTS換算約43-46秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。Primary (CTO/技術選定) には『今週何が動いているかのマクロ』、Secondary (PdM) には『今週の業界トレンド概観』、Tertiary (学習中) には『何が今のホットトピックか』の入り口として3層直撃。",
+    "method": "business-angle",
+    "description": "今日のTOP5を『実案件でこう使えば月○円削れる/工数が減る』の受託・SaaS費削減・規制ドメイン差別化のbusiness-angle視点で読み解く。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1新規、+2,951★、HTML) = 受託資料の生産時間30分→3分の時短、コンサル/agencyの成果物量産で月数十時間削減、Claude Codeにブランドカラーを引き継がせる 2) macro-inc/macro (#2新規、+325★、Rust) = email+chat+doc+task+CRM統合OSS・AGPLv3・Slack/Notion/Linear/Gmail/HubSpotの5サブスク統合で5-50人チームで月数万円のSaaS費削減 3) semantica-agi/semantica (#3、+834★、Python) = W3C PROV-O準拠の監査可能AI・金融/医療/法務/政府の規制ドメイン受託でコンプラ差別化の武器 4) stablyai/orca (#4新規、+1,215★、TypeScript) = 5並列でClaude Code/Codex/OpenCode/Piを一括操作するADE・受託実装のスループット向上・自subscription持ち込み 5) msitarzewski/agency-agents (#5、+1,969★、Shell) = 230+エージェントペルソナMarkdown集・CrewAI/AutoGen不要・受託案件の設計/実装分業テンプレ。method選定: 直近2日 (08-12 trend-pattern / 08-11 self-experiment) 連投ルールで両者除外、comparison (08-10消化3日cooldown OKだが14d avg 1.33中位)、ecosystem (14d avg 1.00低位)、use-case (14d avg 1.00低位)、tech-deep (全期間最下位+回復モード凍結) は候補外。残るbusiness-angleは14d avg 4.00 (n=1、08-02:4) で首位、全期間avg 1.87 (n=15、2位tier) と14d/全期間が完全整合。8月中旬までの休止方針は昨日PDCAで提示の8/13〜8/15 window初日で解除、素材整合率60%以上の条件も本日100%で満たす。週次柱②15%消化義務は今週未消化で本日消化必須 (8/14 Fri高期待日は素材依存で不確実、8/15-16は低期待日で不適)。5日連続0 views定着 (08-08〜08-12) の危機下で『危機打破のための最強method + 業績視点素材 + 柱義務消化』の複合打ちが本日の判断。素材テーマは『6日連続agent OSS集中週の終わり、開発者インフラ・統合ワークスペースへの関心シフト』のTOP5 turnover 60% (3/5新規) の転換点。前日08-12 trend-pattern (マクロ観測) からのnatural progression: 昨日『なぜこれらが6日連続で君臨したか』のマクロ観測モード、今日は同じsemantica/agency-agentsを含む5本を『自チームで採用すると工数何割減か、既存SaaS費用をこう置換できるか』のミクロ実利モードにzoom in。視聴者の脳内モードは『業界観測』から『自案件への適用』へ、Primary (CTO/技術選定) には『自チーム採用時の工数減』、Secondary (PdM/事業責任者) には『既存SaaS費用置換』、Tertiary (学習中) には『受託案件で提案できると単価上がる』の入り口として3層直撃。narration 5本すべてに『受託』『案件』『削減』『時短』『月○円』『分業』のいずれかを配置してbusiness-angle角度の一貫性を担保、5本合計約240文字TTS換算約41-44秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。重要背景: 08-08〜08-12の5日連続0 views定着で『channel全体の到達力低下』疑惑がほぼ確定。本日08-13 (business-angle・素材整合率100%) の48h後 (8/15夜) 結果で『素材整合率100% × business-angle (14d 4.0 top tier) × Thu中位日 × 週次柱②未消化』の4条件複合でも0なら、コンテンツ側method議論を一時停止しinfra側 (post-time/hashtag/title語彙/thumbnail) の徹底点検を先行させる判定を8/14 PDCAで行う。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/msitarzewski/agency-agents",
+      "https://github.com/cathrynlavery/diagram-design",
+      "https://github.com/macro-inc/macro",
       "https://github.com/semantica-agi/semantica",
-      "https://github.com/nvm-sh/nvm",
-      "https://github.com/nvm-sh/nvm/releases",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/ZhuLinsen/daily_stock_analysis"
+      "https://github.com/stablyai/orca",
+      "https://github.com/msitarzewski/agency-agents"
     ],
     "query": "",
     "freshness_hours": 1
@@ -18,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "msitarzewski/agency-agents",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "language": "Shell",
-      "stars": 143088,
-      "todayStars": 971,
-      "description": "230種類のエージェントペルソナ集",
-      "detail": "エンジニアやマーケター等18分野に230以上のエージェントペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenのような枠組みなしで、Claude CodeやCursorに直接持ち込めます。",
-      "narration": "AIエージェントペルソナ集が4日連続TOP。CrewAI不要のMarkdown主義が今週の主役です。"
+      "fullName": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars": 10078,
+      "todayStars": 2951,
+      "description": "Claude Code用のダイアグラム集",
+      "detail": "アーキテクチャ図やシーケンス図など29種類のダイアグラムをHTML+SVGで生成するClaude Code用スキル集です。ブランドカラーとフォントを一度渡すだけで全種類が自動で継承します。",
+      "narration": "Claude Codeでダイアグラム29種を出せるOSSです。受託資料の作成時間を30分から3分に削減できます。"
     },
     {
       "rank": 2,
+      "fullName": "macro-inc/macro",
+      "name": "macro",
+      "url": "https://github.com/macro-inc/macro",
+      "language": "Rust",
+      "stars": 1697,
+      "todayStars": 325,
+      "description": "全部入りRust製ワークスペースOSS",
+      "detail": "メール、チャット、ドキュメント、タスク、CRMを1本に統合するAGPLv3のRust製ワークスペースです。SlackやNotionやHubSpotをまとめて置き換え、セルフホスト運用が可能です。",
+      "narration": "SaaSを5個まとめるRust製OSSです。5から50人チームで月数万円のSaaS費を削減できる案件武器になります。"
+    },
+    {
+      "rank": 3,
       "fullName": "semantica-agi/semantica",
       "name": "semantica",
       "url": "https://github.com/semantica-agi/semantica",
       "language": "Python",
-      "stars": 4825,
-      "todayStars": 884,
-      "description": "監査可能なAI用の知識グラフ基盤",
-      "detail": "知識グラフに事実と決定履歴を載せ、W3C PROV-OでAIの判断根拠を後から辿れるPython製の推論基盤です。金融や医療のような規制ドメイン向けで、監査可能なAIとして働きます。",
-      "narration": "監査に耐えるAIグラフ基盤が4日で4,000から4,800まで急伸。規制業界の新軸です。"
-    },
-    {
-      "rank": 3,
-      "fullName": "nvm-sh/nvm",
-      "name": "nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "language": "Shell",
-      "stars": 94471,
-      "todayStars": 18,
-      "description": "Nodeバージョン管理の古典ツール",
-      "detail": "12年以上メンテされているPOSIX準拠のBashスクリプト製Node.jsバージョン切替ツールです。CVE修正リリースで再注目され、複数プロジェクトを行き来する開発者の必需品として復活しています。",
-      "narration": "12年物のNode管理ツールがTOP3に復活。CVE修正が古典OSSを今週の中心に押し戻しました。"
+      "stars": 5658,
+      "todayStars": 834,
+      "description": "監査可能AIの知識グラフ基盤",
+      "detail": "AIの判断根拠と決定履歴をW3C PROV-Oで追跡できるPython製の知識グラフ基盤です。金融や医療や法務のような規制ドメイン受託で監査要件を満たす武器になります。",
+      "narration": "監査可能AIの知識グラフ基盤です。金融や医療の規制受託でコンプラ差別化と単価アップを狙えます。"
     },
     {
       "rank": 4,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "JavaScript",
-      "stars": 86193,
-      "todayStars": 571,
-      "description": "AIエージェント向け24スキル集",
-      "detail": "Define/Plan/Build/Verify/Review/Shipの6段階に24スキルを配置し、AIエージェントに本格開発の手順を守らせます。Claude Codeやcursorに1コマンドで導入できます。",
-      "narration": "工程を縛るスキルパックが6日連続TOP5定着。AIエージェントの本格運用フェーズ入りのサインです。"
+      "fullName": "stablyai/orca",
+      "name": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "language": "TypeScript",
+      "stars": 43793,
+      "todayStars": 1215,
+      "description": "5並列エージェント制御ADE",
+      "detail": "Claude Code、Codex、OpenCode、Piなどを5並列で走らせ結果を比較しマージするADEです。自分のsubscriptionをそのまま持ち込み、モバイルからも進捗を追えます。",
+      "narration": "エージェントを5並列で走らせるIDEです。受託実装のスループットが上がり月あたりの案件数を伸ばせます。"
     },
     {
       "rank": 5,
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "language": "Python",
-      "stars": 62087,
-      "todayStars": 317,
-      "description": "LLM駆動の日次株式分析OSS",
-      "detail": "A株、香港、米国、日本、韓国、台湾の株式をLLMで分析し、毎日『買い、持ち、売り』シグナルを配信するダッシュボードです。GitHub Actions実行でサーバー代ゼロで運用できます。",
-      "narration": "LLMを株式判断に使う縦割りアプリが急上昇。GitHub Actionsでサーバー代ゼロ運用が今週の勝ち筋です。"
+      "fullName": "msitarzewski/agency-agents",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars": 144525,
+      "todayStars": 1969,
+      "description": "230種類のエージェントペルソナ集",
+      "detail": "フロントエンド専門家からマーケター、レビュアーまで230種類のペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenなしでClaude Codeにそのまま持ち込めます。",
+      "narration": "230種類のペルソナ集です。受託案件の設計と実装を役割ごとに分業する標準テンプレとして使えます。"
     }
   ]
 }
