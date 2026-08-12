@@ -3840,7 +3840,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -3895,7 +3895,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -3951,7 +3951,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4007,7 +4007,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4066,7 +4066,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4123,7 +4123,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4180,7 +4180,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4240,7 +4240,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4299,7 +4299,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4358,7 +4358,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4414,7 +4414,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4467,10 +4467,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-11T23:26:32.355Z"
+        "updatedAt": "2026-08-12T23:26:50.427Z"
       }
     },
     {
@@ -4529,29 +4529,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-12T23:26:50.427Z"
+      }
+    },
+    {
+      "videoId": "XCTq1J_A86s",
+      "videoUrl": "https://youtube.com/shorts/XCTq1J_A86s",
+      "date": "2026-08-13",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/13 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "Python",
+        "TypeScript",
+        "Shell"
+      ],
+      "languages": [
+        "HTML",
+        "Rust",
+        "Python",
+        "TypeScript",
+        "Shell"
+      ],
+      "projects": [
+        "cathrynlavery/diagram-design",
+        "macro-inc/macro",
+        "semantica-agi/semantica",
+        "stablyai/orca",
+        "msitarzewski/agency-agents"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日のTOP5を『実案件でこう使えば月○円削れる/工数が減る』の受託・SaaS費削減・規制ドメイン差別化のbusiness-angle視点で読み解く。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1新規、+2,951★、HTML) = 受託資料の生産時間30分→3分の時短、コンサル/agencyの成果物量産で月数十時間削減、Claude Codeにブランドカラーを引き継がせる 2) macro-inc/macro (#2新規、+325★、Rust) = email+chat+doc+task+CRM統合OSS・AGPLv3・Slack/Notion/Linear/Gmail/HubSpotの5サブスク統合で5-50人チームで月数万円のSaaS費削減 3) semantica-agi/semantica (#3、+834★、Python) = W3C PROV-O準拠の監査可能AI・金融/医療/法務/政府の規制ドメイン受託でコンプラ差別化の武器 4) stablyai/orca (#4新規、+1,215★、TypeScript) = 5並列でClaude Code/Codex/OpenCode/Piを一括操作するADE・受託実装のスループット向上・自subscription持ち込み 5) msitarzewski/agency-agents (#5、+1,969★、Shell) = 230+エージェントペルソナMarkdown集・CrewAI/AutoGen不要・受託案件の設計/実装分業テンプレ。method選定: 直近2日 (08-12 trend-pattern / 08-11 self-experiment) 連投ルールで両者除外、comparison (08-10消化3日cooldown OKだが14d avg 1.33中位)、ecosystem (14d avg 1.00低位)、use-case (14d avg 1.00低位)、tech-deep (全期間最下位+回復モード凍結) は候補外。残るbusiness-angleは14d avg 4.00 (n=1、08-02:4) で首位、全期間avg 1.87 (n=15、2位tier) と14d/全期間が完全整合。8月中旬までの休止方針は昨日PDCAで提示の8/13〜8/15 window初日で解除、素材整合率60%以上の条件も本日100%で満たす。週次柱②15%消化義務は今週未消化で本日消化必須 (8/14 Fri高期待日は素材依存で不確実、8/15-16は低期待日で不適)。5日連続0 views定着 (08-08〜08-12) の危機下で『危機打破のための最強method + 業績視点素材 + 柱義務消化』の複合打ちが本日の判断。素材テーマは『6日連続agent OSS集中週の終わり、開発者インフラ・統合ワークスペースへの関心シフト』のTOP5 turnover 60% (3/5新規) の転換点。前日08-12 trend-pattern (マクロ観測) からのnatural progression: 昨日『なぜこれらが6日連続で君臨したか』のマクロ観測モード、今日は同じsemantica/agency-agentsを含む5本を『自チームで採用すると工数何割減か、既存SaaS費用をこう置換できるか』のミクロ実利モードにzoom in。視聴者の脳内モードは『業界観測』から『自案件への適用』へ、Primary (CTO/技術選定) には『自チーム採用時の工数減』、Secondary (PdM/事業責任者) には『既存SaaS費用置換』、Tertiary (学習中) には『受託案件で提案できると単価上がる』の入り口として3層直撃。narration 5本すべてに『受託』『案件』『削減』『時短』『月○円』『分業』のいずれかを配置してbusiness-angle角度の一貫性を担保、5本合計約240文字TTS換算約41-44秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。重要背景: 08-08〜08-12の5日連続0 views定着で『channel全体の到達力低下』疑惑がほぼ確定。本日08-13 (business-angle・素材整合率100%) の48h後 (8/15夜) 結果で『素材整合率100% × business-angle (14d 4.0 top tier) × Thu中位日 × 週次柱②未消化』の4条件複合でも0なら、コンテンツ側method議論を一時停止しinfra側 (post-time/hashtag/title語彙/thumbnail) の徹底点検を先行させる判定を8/14 PDCAで行う。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/cathrynlavery/diagram-design",
+          "https://github.com/macro-inc/macro",
+          "https://github.com/semantica-agi/semantica",
+          "https://github.com/stablyai/orca",
+          "https://github.com/msitarzewski/agency-agents"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-10",
-      "changes": [
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 83 avg views (81 videos)",
-        "Trending languages: Java (2.7x), Jupyter Notebook (4.7x)",
-        "Day performance: Fri=191, Tue=170, Thu=67, Wed=57, Sat=49, Mon=44, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-11",
       "changes": [
@@ -5063,6 +5102,18 @@
         "standard: 1 avg views (80 videos)",
         "Trending languages: Markdown (1.9x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.8x), PowerShell (1.6x)",
         "Day performance: Fri=2, Sat=2, Thu=1, Sun=1, Mon=1, Tue=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-12",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (81 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.8x), PowerShell (1.6x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Thu=1, Sun=1, Mon=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
