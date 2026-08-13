@@ -1,15 +1,16 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5を『実案件でこう使えば月○円削れる/工数が減る』の受託・SaaS費削減・規制ドメイン差別化のbusiness-angle視点で読み解く。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1新規、+2,951★、HTML) = 受託資料の生産時間30分→3分の時短、コンサル/agencyの成果物量産で月数十時間削減、Claude Codeにブランドカラーを引き継がせる 2) macro-inc/macro (#2新規、+325★、Rust) = email+chat+doc+task+CRM統合OSS・AGPLv3・Slack/Notion/Linear/Gmail/HubSpotの5サブスク統合で5-50人チームで月数万円のSaaS費削減 3) semantica-agi/semantica (#3、+834★、Python) = W3C PROV-O準拠の監査可能AI・金融/医療/法務/政府の規制ドメイン受託でコンプラ差別化の武器 4) stablyai/orca (#4新規、+1,215★、TypeScript) = 5並列でClaude Code/Codex/OpenCode/Piを一括操作するADE・受託実装のスループット向上・自subscription持ち込み 5) msitarzewski/agency-agents (#5、+1,969★、Shell) = 230+エージェントペルソナMarkdown集・CrewAI/AutoGen不要・受託案件の設計/実装分業テンプレ。method選定: 直近2日 (08-12 trend-pattern / 08-11 self-experiment) 連投ルールで両者除外、comparison (08-10消化3日cooldown OKだが14d avg 1.33中位)、ecosystem (14d avg 1.00低位)、use-case (14d avg 1.00低位)、tech-deep (全期間最下位+回復モード凍結) は候補外。残るbusiness-angleは14d avg 4.00 (n=1、08-02:4) で首位、全期間avg 1.87 (n=15、2位tier) と14d/全期間が完全整合。8月中旬までの休止方針は昨日PDCAで提示の8/13〜8/15 window初日で解除、素材整合率60%以上の条件も本日100%で満たす。週次柱②15%消化義務は今週未消化で本日消化必須 (8/14 Fri高期待日は素材依存で不確実、8/15-16は低期待日で不適)。5日連続0 views定着 (08-08〜08-12) の危機下で『危機打破のための最強method + 業績視点素材 + 柱義務消化』の複合打ちが本日の判断。素材テーマは『6日連続agent OSS集中週の終わり、開発者インフラ・統合ワークスペースへの関心シフト』のTOP5 turnover 60% (3/5新規) の転換点。前日08-12 trend-pattern (マクロ観測) からのnatural progression: 昨日『なぜこれらが6日連続で君臨したか』のマクロ観測モード、今日は同じsemantica/agency-agentsを含む5本を『自チームで採用すると工数何割減か、既存SaaS費用をこう置換できるか』のミクロ実利モードにzoom in。視聴者の脳内モードは『業界観測』から『自案件への適用』へ、Primary (CTO/技術選定) には『自チーム採用時の工数減』、Secondary (PdM/事業責任者) には『既存SaaS費用置換』、Tertiary (学習中) には『受託案件で提案できると単価上がる』の入り口として3層直撃。narration 5本すべてに『受託』『案件』『削減』『時短』『月○円』『分業』のいずれかを配置してbusiness-angle角度の一貫性を担保、5本合計約240文字TTS換算約41-44秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。重要背景: 08-08〜08-12の5日連続0 views定着で『channel全体の到達力低下』疑惑がほぼ確定。本日08-13 (business-angle・素材整合率100%) の48h後 (8/15夜) 結果で『素材整合率100% × business-angle (14d 4.0 top tier) × Thu中位日 × 週次柱②未消化』の4条件複合でも0なら、コンテンツ側method議論を一時停止しinfra側 (post-time/hashtag/title語彙/thumbnail) の徹底点検を先行させる判定を8/14 PDCAで行う。",
+    "method": "comparison",
+    "description": "今日のTOP5を『既存の類似ツール vs これ』の1対1比較で切り、選択の意思決定材料を提供する。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1継続、14,251★、+4,504、HTML) vs Mermaid/Excalidraw = editorial品質×ブランド60秒自動抽出 (Mermaidは汎用フロー、diagram-designはブランド継承の自動化とWCAG AAが差別化点)、Loop/flywheel等29種類、draw.io/Mermaid import対応 2) semantica-agi/semantica (#2、6,576★、+727、Python) vs LangChain/LlamaIndex/RAG = 判断根拠をW3C PROV-Oグラフで永続記録、金融/医療/法務/政府の規制ドメインで『なぜAIがこう判断したか』に監査対応の答えが出せる 3) anthropics/skills (#3新規、168,983★、+383、Python) vs Cursor Rules/CLAUDE.md/MCP = SkillsはClaudeの推論を教える、MCPは外部ツール接続、Cursor Rulesはプロジェクト設定というレイヤー分業、YAML+Markdownフォルダ形式で公式Skills集を配布 4) cactus-compute/needle (#4新規、4,918★、+768、Python) vs Gemma-3n/Phi-3-mini/TinyLlama/FunctionGemma 270M/LFM2.5 230M/Apple FM = 45Mパラメータを14MBバイナリに圧縮、5倍〜70倍小さくCQ2-bit量子化、28MB RAMで phone/watch/robotで動く、tool calling×confidence gating×256トークン sliding window 5) altic-dev/FluidVoice (#5新規、9,828★、+187、Swift) vs macOS標準ディクテーション/Whisper/Superwhisper/MacWhisper/Wispr Flow = ローカルAI整形『Fluid Intelligence』+ command mode + write mode、GPLv3で無料、Nemotron/Parakeet/Cohere/Apple Speech/Whisperをスイッチ可能、'a local Wispr Flow alternative'を公式ポジションとして表明。method選定: 直近2日 (08-13 business-angle / 08-12 trend-pattern) 連投ルールで両者除外、self-experiment (08-11消化3日cooldownでOKだが14d avg 0.5最下位)、ecosystem (14d avg 1.0低位)、use-case (14d avg 1.0低位)、tech-deep (全期間最下位+回復モード凍結) は候補外。残るcomparisonは14d avg 1.33 (n=3、07-31:2/08-04:2/08-10:0)、全期間avg 1.67 (n=18、2位tier)、直近採用08-10で cooldown 4日OK、14d/全期間ともに2位tierで exploit tierとして最適。素材整合率100%は本日のTOP5に明確な競合が存在する構造 (diagram vs Mermaid、AI基盤 vs LangChain、Skills vs Cursor/MCP、tiny LLM vs Phi/Gemma、macOS音声 vs Wispr Flow) で、視聴者の脳内モードは『何がどう違うか、どっちを選ぶか』の意思決定に直結。曜日はFri (=310 avg、高期待日) で14d首位を除いた最強exploit方針。Primary (CTO/技術選定) には『類似OSSの中でどれを選ぶか』の技術選定判断材料、Secondary (PdM/事業責任者) には『何が今の標準を置き換えるか』のトレンドキャッチアップ、Tertiary (学習中) には『類似ツールの違いを整理して覚える』学習材料として3層に届く。narration 5本すべてに『◯◯と違い』『◯◯より』のcomparison構文を配置してcomparison角度の一貫性を担保、5本合計約276文字TTS換算約46-52秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。重要背景: 08-08〜08-13の6日連続0-1 views定着 (08-08:0/08-09:0/08-10:0/08-11:1/08-12:0/08-13:0) で『channel全体の到達力低下』がほぼ確定局面。本日08-14 (comparison・Fri高期待日) の48h後 (8/16夜) 結果でも『14d 2位method + 素材整合率100% + Fri高期待日』の3条件複合で0-1定着なら、コンテンツ側method議論を一時停止しinfra側 (post-time/hashtag/title語彙/thumbnail) の徹底点検を先行させる判定を8/15 PDCAで行う。今週の柱消化状況: 柱① (comparison) 08-10消化・本日08-14も柱①系、柱② (business-angle) 08-13消化、柱③ (self-experiment) 08-11消化、柱④ (trend-pattern) 08-12消化で pillar 4/4完遂、本日はcomparison exploit で純粋な視聴数取り。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/cathrynlavery/diagram-design",
-      "https://github.com/macro-inc/macro",
       "https://github.com/semantica-agi/semantica",
-      "https://github.com/stablyai/orca",
-      "https://github.com/msitarzewski/agency-agents"
+      "https://github.com/anthropics/skills",
+      "https://github.com/cactus-compute/needle",
+      "https://github.com/altic-dev/FluidVoice",
+      "https://agentskills.io"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +22,59 @@
       "name": "diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "language": "HTML",
-      "stars": 10078,
-      "todayStars": 2951,
-      "description": "Claude Code用のダイアグラム集",
-      "detail": "アーキテクチャ図やシーケンス図など29種類のダイアグラムをHTML+SVGで生成するClaude Code用スキル集です。ブランドカラーとフォントを一度渡すだけで全種類が自動で継承します。",
-      "narration": "Claude Codeでダイアグラム29種を出せるOSSです。受託資料の作成時間を30分から3分に削減できます。"
+      "stars": 14251,
+      "todayStars": 4504,
+      "description": "Mermaidの上位互換ダイアグラム集",
+      "detail": "29種類のダイアグラムをHTML+SVGで生成するClaude Code用スキル集です。サイトのURLを渡すと60秒でブランド色とフォントを抽出し全種類に一貫適用します。draw.ioやMermaidの図もインポートで再描画できます。",
+      "narration": "Mermaidと違いブランドを60秒で自動抽出できるダイアグラム集です。Claude Codeで29種類出せます。"
     },
     {
       "rank": 2,
-      "fullName": "macro-inc/macro",
-      "name": "macro",
-      "url": "https://github.com/macro-inc/macro",
-      "language": "Rust",
-      "stars": 1697,
-      "todayStars": 325,
-      "description": "全部入りRust製ワークスペースOSS",
-      "detail": "メール、チャット、ドキュメント、タスク、CRMを1本に統合するAGPLv3のRust製ワークスペースです。SlackやNotionやHubSpotをまとめて置き換え、セルフホスト運用が可能です。",
-      "narration": "SaaSを5個まとめるRust製OSSです。5から50人チームで月数万円のSaaS費を削減できる案件武器になります。"
-    },
-    {
-      "rank": 3,
       "fullName": "semantica-agi/semantica",
       "name": "semantica",
       "url": "https://github.com/semantica-agi/semantica",
       "language": "Python",
-      "stars": 5658,
-      "todayStars": 834,
-      "description": "監査可能AIの知識グラフ基盤",
-      "detail": "AIの判断根拠と決定履歴をW3C PROV-Oで追跡できるPython製の知識グラフ基盤です。金融や医療や法務のような規制ドメイン受託で監査要件を満たす武器になります。",
-      "narration": "監査可能AIの知識グラフ基盤です。金融や医療の規制受託でコンプラ差別化と単価アップを狙えます。"
+      "stars": 6576,
+      "todayStars": 727,
+      "description": "監査対応の知識グラフAI基盤",
+      "detail": "AIの判断ごとの根拠をW3C PROV-O準拠のグラフノードに残せるPython基盤です。LangChainやLlamaIndexと違い決定履歴の因果連鎖まで永続保存でき、金融や医療の規制受託でコンプラを満たす武器になります。",
+      "narration": "LangChainと違い判断根拠をW3C PROV-Oで残せる知識基盤です。金融や医療の監査受託で武器になります。"
+    },
+    {
+      "rank": 3,
+      "fullName": "anthropics/skills",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "stars": 168983,
+      "todayStars": 383,
+      "description": "Anthropic公式のSkills集",
+      "detail": "SKILL.mdとscriptsをフォルダに束ねClaudeに専門ワークフローを教える公式リポジトリです。Cursor Rulesが設定、MCPが外部ツール接続なのに対しSkillsは推論そのものを再利用可能に定義します。",
+      "narration": "Cursor RulesやMCPと違いClaudeの推論を教える公式Skills集です。YAMLだけで書けます。"
     },
     {
       "rank": 4,
-      "fullName": "stablyai/orca",
-      "name": "orca",
-      "url": "https://github.com/stablyai/orca",
-      "language": "TypeScript",
-      "stars": 43793,
-      "todayStars": 1215,
-      "description": "5並列エージェント制御ADE",
-      "detail": "Claude Code、Codex、OpenCode、Piなどを5並列で走らせ結果を比較しマージするADEです。自分のsubscriptionをそのまま持ち込み、モバイルからも進捗を追えます。",
-      "narration": "エージェントを5並列で走らせるIDEです。受託実装のスループットが上がり月あたりの案件数を伸ばせます。"
+      "fullName": "cactus-compute/needle",
+      "name": "needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "language": "Python",
+      "stars": 4918,
+      "todayStars": 768,
+      "description": "14MBの端末組み込み小型LLM",
+      "detail": "45パラメータをCQ2-bit量子化で14MBに圧縮した端末向け推論モデルです。Phi-3-miniやGemma-3nと違い28MB RAMだけで動きスマートウォッチやロボットにも組み込めます。tool callingを標準搭載します。",
+      "narration": "Phi-3やGemma-3nより5倍から70倍小さい14MBの推論モデルです。時計やロボットの上で動きます。"
     },
     {
       "rank": 5,
-      "fullName": "msitarzewski/agency-agents",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "language": "Shell",
-      "stars": 144525,
-      "todayStars": 1969,
-      "description": "230種類のエージェントペルソナ集",
-      "detail": "フロントエンド専門家からマーケター、レビュアーまで230種類のペルソナをMarkdownで束ねた集大成です。CrewAIやAutoGenなしでClaude Codeにそのまま持ち込めます。",
-      "narration": "230種類のペルソナ集です。受託案件の設計と実装を役割ごとに分業する標準テンプレとして使えます。"
+      "fullName": "altic-dev/FluidVoice",
+      "name": "FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "language": "Swift",
+      "stars": 9828,
+      "todayStars": 187,
+      "description": "GPLv3の音声入力アプリ",
+      "detail": "macOS向けのローカル音声入力アプリで有料のWispr Flow相当をGPLv3で提供します。整形AIも端末内で完結しWhisperやParakeetを選べるほかコマンド実行や書き換えモードにも対応します。",
+      "narration": "有料のWispr Flow相当をGPLv3で使えるmacOS音声入力アプリです。整形AIも端末内で動きます。"
     }
   ]
 }
