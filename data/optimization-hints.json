@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14",
-  "basedOnVideos": 12,
+  "updatedAt": "2026-08-15",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -33,79 +33,76 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-07-31〜08-14, n=12): business-angle 2.00 n=2 (08-02:4 / 08-13:0 暫定) / trend-pattern 1.50 n=2 (08-07:3 / 08-12:0) / comparison 1.33 n=3 (07-31:2 / 08-04:2 / 08-10:0) / ecosystem 1.00 n=2 / use-case 1.00 n=1 / self-experiment 0.50 n=2 (08-08:0 / 08-11:1)。全期間 (n=84, 08-13 分暫定反映): stack-migration 2.00 n=1 / business-angle 1.69 n=16 / comparison 1.67 n=18 / ecosystem 1.67 n=15 / trend-pattern 1.25 n=12 / use-case 1.17 n=6 / self-experiment 1.00 n=10 (08-11 1 反映で微増) / tech-deep 0.75 n=4。**重要**: 08-08 から 08-13 まで 6 日連続 0-1 views 定着で channel 全体の到達力低下疑い決定的、8/15 夜の 08-13 business-angle 48h 判定 + 8/15 朝の 08-14 comparison 24h 暫定の両方で 0-1 なら crisis-mode 正式発動判定を 8/15 PDCA で行う。直近 2 日 (08-13 business-angle / 08-12 trend-pattern) 連投ルール除外、self-experiment (14d avg 0.5 最下位) + ecosystem/use-case (14d avg 1.0 低位) + tech-deep (全期間最下位・凍結) の除外で残る最上位が comparison (14d avg 1.33 3 位、全期間 avg 1.67 2 位 tier、直近採用 08-10 で cooldown 4 日 OK)。素材整合率 5/5=100% (diagram-design vs Mermaid・semantica vs LangChain・skills vs Cursor/MCP・needle vs Phi-3/Gemma-3n・FluidVoice vs Wispr Flow の明確な 1 対 1 対抗軸) で本日は comparison を投入。曜日 Fri=310 avg 高期待日で 14d 首位 (business-angle) が連投 NG に触れる中の最強残存 exploit カード。素材テーマは『AI 標準規格 (Skills) + 端末組み込みモデル (needle) + macOS ローカルツール (FluidVoice) の『標準化と on-device 化』週への転換、turnover 60% (3/5 新規)。"
+      "note": "Method 別 14d (2026-07-31〜08-14, n=12 評価済+08-14 24h未達): business-angle 2.50 n=2 (08-02:4 / 08-13:1) / trend-pattern 2.00 n=2 (08-07:3 / 08-12:1) / comparison 1.33 n=3 (07-31:2 / 08-04:2 / 08-10:0) / ecosystem 1.00 n=2 / use-case 1.00 n=1 / self-experiment 0.50 n=2 (08-08:0 / 08-11:1)。全期間 (n=85, 08-13 分反映): stack-migration 2.00 n=1 / business-angle 1.75 n=16 / comparison 1.67 n=18 / ecosystem 1.67 n=15 / trend-pattern 1.31 n=13 / use-case 1.17 n=6 / self-experiment 1.00 n=10 / tech-deep 0.75 n=4。**重要**: 08-08〜08-14 の 7 日連続 0-1 views 定着継続だが、08-11〜08-13 で 1 view の微反応が 3 日連続で発生 = 08-08〜08-10 の 0 定着からの微回復シグナル観測。crisis-mode 起爆条件『7 日連続 0-1 定着 + 5 種類以上の method で 0 定着』は緩い判定では成立、厳密判定 (0 定着のみ) では成立せず、本日 8/15 は crisis-mode 継続判定で保留、正式発動は 8/16 PDCA で 08-14 comparison 48h 確定 + 08-15 use-case 24h 暫定の集計後判定。直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルール除外、trend-pattern (08-12 消化 3 日 cooldown OK だが柱④ 5% target 過剰指数回避で除外)、self-experiment (14d 0.5 最下位)、ecosystem/tech-deep 除外で残る柱① 系最長 cooldown 10 日の use-case (14d 1.00 n=1・全期間 1.17 n=6) を素材整合率 5/5=100% (5 persona 均等配置) と組み合わせて選定。素材テーマは『開発者ワークスペース (diagram-design 3日連続#1・macro 再登場) + on-device AI 継続 (needle 2日連続) + OSINT ツール 2 本同時 TOP5 (holehe + spiderfoot 新規) の 3 潮流同居週』、turnover 60% (3/5 新規)。曜日 Sat=79 avg (直近 28 日 1.7 中低位) は柱① 系最長 cooldown method で fresh 効果狙い + 高期待日 (Tue/Fri) の 14d 首位 tier 温存戦略に合致。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は金曜 (Fri=310 avg、週内 2 位の高期待日、火 361/水 153/月 61/木 176/土 79/日 5 との比較で上位)。高期待日には 14d 首位 tier method で最強札を切る戦略が理想だが、6 日連続 0-1 views 定着で『安全牌』の定義自体が崩壊。素材整合率 5/5=100% + comparison (14d avg 1.33 3 位、連投 NG 除外後の残存最上位 exploit) の 2 条件複合で選定、次回 8/15 (Sat=79 低期待) は 08-13 business-angle 48h 判定結果次第で crisis-mode 正式発動 or 継続、8/16 (Sun=5 最低期待) は投稿見送り + infra チェック実施が有力候補"
+      "本日は土曜 (Sat=79 avg、直近 28 日 1.7 中低位、火 361/水 153/月 61/木 176/金 310/日 5 との比較で下位)。7 日連続 0-1 views 危機下で『安全牌の定義自体が崩壊』しているが、素材整合率 5/5=100% (5 persona 均等配置) + use-case (柱① 系最長 cooldown 10 日) の 2 条件複合で選定、次回 8/16 (Sun=5 最低期待日) は 08-14 comparison 48h 確定 + 08-15 use-case 24h 暫定の両方で 0-1 なら crisis-mode 正式発動 + 投稿見送り + infra チェック実施が有力候補、逆に 08-15 で 1-2 views なら通常投稿継続の判定"
     ],
     "hashtags": [
-      "comparison 角度の核心は『類似カテゴリ内でこの OSS を選ぶ理由』の意思決定支援。5 本のマッピング: #diagram_design=HTML 14,251★ +4,504 (#1 継続・2 日目・cathrynlavery 開発) vs **Mermaid/Excalidraw** = editorial 品質 + サイトから 60 秒でブランド抽出→全 29 種類 (Loop/flywheel/semantic system pattern 等) に一貫適用、WCAG AA + progressive disclosure + semantic routing + draw.io/Mermaid import 対応、Mermaid は汎用フロー・Excalidraw は手描き風で editorial 品質のブランド一貫性は提供しない、`/plugin marketplace add cathrynlavery/diagram-design` で Claude Code に導入 / #semantica=Python 6,576★ +727 (#2、4 日連続 TOP5、6,576★ で累計 +1,700★ 継続伸長、semantica-agi 開発) vs **LangChain/LlamaIndex/標準 RAG** = 判断ごとの根拠を W3C PROV-O グラフノードに永続記録、LangChain/LlamaIndex は embeddings と reasoning steps を記録するが決定履歴の regulator scrutiny に耐える形式では残さない、金融/医療/法務/政府の規制ドメインで『なぜ AI がこう判断したか』に完全な因果連鎖で答えられる / #anthropic_skills=Python 168,983★ +383 (#3 新規・Anthropic 公式) vs **Cursor Rules/CLAUDE.md/MCP** = Skills=Claude の推論を教える (専門ワークフロー・ブランドガイドライン・企業プロセス)、MCP=外部ツール接続 (DB/API/ファイル)、Cursor Rules=プロジェクト設定 (コードスタイル/lint) の 3 者分業、SKILL.md (YAML+Markdown) + scripts/ + resources/ のフォルダ構造、agentskills.io としてクロスプラットフォーム標準化、docx/pdf/pptx/xlsx が Claude 公式書類機能のソース公開 / #needle=Python 4,918★ +768 (#4 新規・cactus-compute 開発) vs **Gemma-3n/Phi-3-mini/TinyLlama/FunctionGemma 270M/LFM2.5 230M/Apple FM** = 45M パラメータを CQ2-bit 量子化で 14MB バイナリに圧縮、5〜70 倍小さく 28MB RAM で phone/watch/smart home/robot で動く、Simple Attention Network + Hadamard MLP + GQA attention + engram key-value memory + multi-lane hyper-connections、256 token sliding window + pinned tool KV sinks + tool calling with confidence gating + LoRA fine-tuning 標準搭載 / #FluidVoice=Swift 9,828★ +187 (#5 新規・altic-dev 開発・GPLv3) vs **Wispr Flow/Superwhisper/MacWhisper/macOS 標準ディクテーション** = 'a local Wispr Flow alternative' 公式ポジション、Fluid Intelligence 独自ローカル AI 整形モデル + Command Mode + Write Mode + Live Preview + Audio History + Global Hotkey + Per-App Configuration、Nemotron/Parakeet/Cohere/Apple Speech/Whisper をスイッチ可能、macOS 15.0+ Apple Silicon 主体、40+ 言語対応、Wispr Flow はクラウド依存の有料 SaaS で本 OSS が GPLv3 で無料代替",
-      "言語タグは Python 3 + HTML 1 + Swift 1 の 3 言語構成。Python (1.2x) 最上位 3 本 + HTML (1.0x) 1 本中位 + Swift (1.0x) 1 本中位、Rust 0 本・PowerShell 0 本・Jupyter Notebook 0 本で低係数言語ゼロ維持、言語スコア平均は前日 (HTML 1 + Rust 1 + Python 1 + TypeScript 1 + Shell 1) より Rust/TypeScript/Shell を Python 2 本 + Swift 1 本に置換 = Python 3 本首位で計 5.4/5 (前日 4.9/5 より +0.5 改善)",
-      "comparison 角度の独自 hashtag: #比較 #選び方 #代替OSS #Mermaid #Excalidraw #LangChain #LlamaIndex #Cursor #MCP #TinyLLM #Phi3 #Gemma3n #WisprFlow #Superwhisper #MacWhisper #音声入力 #KnowledgeGraph #グラフ基盤 #PROV #AgentSkills #agentskills #OnDevice #14MB #GPLv3 #ClaudeCode #Anthropic #ローカルAI #意思決定支援 #技術選定 #CTO #個人開発者 #ソロCTO #スタートアップ"
+      "use-case 角度の核心は『5 本を 5 種類の異なる persona × scene に配って誰の現場に効くかを提示』の適用シーン提示。5 本のマッピング: #diagram_design=HTML 17,140★ +3,651 (#1 継続・3 日目・cathrynlavery 開発) → **コンサル/agency がクライアント資料量産に使う**、URL 1 本で 60 秒ブランド抽出→29 種の editorial ダイアグラム (Loop/flywheel/semantic system pattern 等) に一貫適用、Claude Code marketplace 経由で導入・MIT、accessibility (WCAG AA + aria-labelledby + prefers-reduced-motion) 標準搭載、`/plugin marketplace add cathrynlavery/diagram-design` / #needle=Python 5,569★ +661 (#2 継続・2 日目・cactus-compute 開発) → **ウェアラブル/ロボット/IoT の組込エンジニアが端末側 LLM に使う**、45M パラメータ CQ2-bit 量子化 14MB バイナリ・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval head + byte-level grammar compilation + LoRA fine-tuning 標準搭載・MIT / #holehe=Python 12,820★ +427 (#3 新規・megadose 開発) → **OSINT アナリスト/脅威インテル/レッドチームがメール足取り調査に使う**、120+ サービス (Twitter/Instagram/Imgur 等) の登録有無を non-alerting で CLI/Python ライブラリで一括確認、失念パスワード再発行の挙動を利用・GPLv3・rate limit 検出内蔵 / #macro=Rust 3,007★ +435 (#4 再登場・macro-inc 開発) → **15-20 人スタートアップの CTO/PdM が統合ワークスペースに使う**、email+chat+docs+tasks+CRM+agents+calls+canvas を 1 つの UI に束ねる・Slack/Notion/Linear/Gmail/HubSpot/Superhuman/Salesforce を代替・SolidJS+Rust+PostgreSQL・AGPLv3・self-hosted + cloud / #spiderfoot=Python 20,918★ +292 (#5 新規・smicallef 開発) → **ペネトレテスター/SOC/脅威インテルが攻撃面マッピングに使う**、200+ モジュール (SHODAN/HIBP/GreyNoise/SecurityTrails 等) で単一ドメインから subdomain/IP/email/breach を一括収集・Web UI + CLI・SQLite バックエンド・37 rule YAML correlation engine・MIT",
+      "言語タグは Python 3 + HTML 1 + Rust 1 の 3 言語構成。Python (1.2x) 最上位 3 本 + HTML (1.0x) 1 本中位 + Rust (0.7x) 1 本低位、Rust は係数最下位だが素材主導で許容 (macro が persona 適合最強のため入替不可)、言語スコア平均は 5.0/5 (前日 5.4/5 より Swift → Rust で微減) だが素材品質は use-case 適合で優越",
+      "use-case 角度の独自 hashtag: #使い方 #活用シーン #OSINT #セキュリティ #ペネトレテスト #脅威インテル #コンサル #組込エンジニア #スタートアップ #ウェアラブル #ロボット #IoT #14MB #GPLv3 #AGPLv3 #Rust #Python #HTML #Mermaid #ClaudeCode #WCAG #自ホスト #統合ワークスペース #ローカルAI #現場適用 #CTO #PdM #個人開発者 #ソロCTO #Anthropic"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 276 文字 (57+57+56+54+54)、TTS +30% で約 46-52 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約クリア。個別 40-60 レンジ内 (max 57 文字・min 54 文字) で振れ幅小さく安定",
-      "comparison 角度の一貫性: 5 本すべての narration に『◯◯と違い』『◯◯より』『◯◯相当を』の比較構文を明示配置。1 本目『Mermaidと違いブランドを60秒で自動抽出できるダイアグラム集です』、2 本目『LangChainと違い判断根拠をW3C PROV-Oで残せる知識基盤です』、3 本目『Cursor RulesやMCPと違いClaudeの推論を教える公式Skills集です』、4 本目『Phi-3やGemma-3nより5倍から70倍小さい14MBの推論モデルです』、5 本目『有料のWispr Flow相当をGPLv3で使えるmacOS音声入力アプリです』で、視聴者が『類似カテゴリの中でどれを選ぶかの意思決定支援番組』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『類似 OSS との差別化点の即断』(『60 秒で自動抽出』『W3C PROV-O』『Claude の推論を教える』『5-70 倍小さい 14MB』『Wispr Flow 相当を GPLv3』) を優先、単発紹介や trend-pattern と違い『技術選定シグナル』の信頼密度を担保。前日 business-angle (5 本を実案件でこう使えば月◯円削れるレビュー) のミクロ実利モードから、今日 comparison (5 本を類似 OSS と 1 対 1 で比べて選び方を提示する意思決定支援) にモード切替で 2 日で 1 セットの立体化を達成",
-      "数値表現はアラビア数字統一 (5、60、29、5、70、14MB、W3C)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Mermaid、Excalidraw、LangChain、Cursor Rules、MCP、Skills、YAML、Markdown、Phi-3、Gemma-3n、Wispr Flow、GPLv3、macOS、Claude Code、W3C PROV-O) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、危機下で短めに寄せて安全マージン確保)。5 本合計 248 文字 (51+54+47+52+44)、TTS +30% で約 42-45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。個別 40-60 レンジ内 (max 54 文字・min 44 文字) で振れ幅小さく安定、前日の max 57・min 54 より短めに寄せて聞きやすさ改善",
+      "use-case 角度の一貫性: 5 本すべての narration に persona 語 (『コンサル』『組込エンジニア』『OSINT 担当』『20 人規模のスタートアップ』『ペネトレ担当』) と scene 動詞 (『量産に効く』『載る』『洗える』『一本化できる』『洗い出せる』) を明示配置。1 本目『コンサルの資料量産に効くClaude Code用ダイアグラム集です。60秒でブランド色を引き継ぎます』、2 本目『時計やロボットに載る14MBの小型LLMです。組込エンジニアが端末だけでtool callingを回せます』、3 本目『メール1つで120以上のサイト登録を非侵襲で洗える調査ツールです。OSINT担当が愛用します』、4 本目『20人規模のスタートアップがSlackやNotionを一本化できるRust製OSSです。自ホスト可です』、5 本目『ペネトレ担当が1つのドメインから攻撃面を洗い出せる200モジュールのOSINT基盤です』で、視聴者が『5 本を 5 種類の persona × scene に配って誰の現場に効くかを提示する適用シーン番組』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。use-case では『persona × scene の即断』(『コンサルの資料量産』『時計に載る組込 LLM』『非侵襲で洗える OSINT』『Slack を一本化』『攻撃面を洗い出す』) を優先、単発紹介や comparison と違い『現場適用シグナル』の信頼密度を担保。前日 comparison (5 本を類似 OSS と 1 対 1 で比べる意思決定支援) のカテゴリ内選択モードから、今日 use-case (5 本を 5 種類の persona × scene に配る適用シーン提示) にモード切替で 2 日で 1 セットの立体化を達成 (意思決定支援 → 現場適用の視点移動)",
+      "数値表現はアラビア数字統一 (29、60、14、120、28、20、200、5)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Mermaid、Excalidraw、tool calling、Slack、Notion、Rust、OSINT、LLM、CLI) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (14d avg 1.33 n=3 で 3 位、連投 NG 除外後の残存最上位 exploit、全期間 avg 1.67 n=18 で 2 位 tier、直近採用 08-10 で cooldown 4 日 OK、連投 NG 非該当)。直近 2 日 (08-13 business-angle / 08-12 trend-pattern) 連投ルール + self-experiment (14d avg 0.5 最下位) + ecosystem (14d avg 1.00 低位) + use-case (14d avg 1.00 低位) + tech-deep (全期間最下位・凍結) の除外で comparison が exploit tier で残る最上位、素材整合率 5/5=100% の 2 条件複合で選定。曜日 Fri=310 avg 高期待日で 14d 首位 (business-angle) が連投 NG に触れる中の最強残存 exploit カード",
-      "本日 08-14 TOP5: #1 cathrynlavery/diagram-design=HTML / 14,251★ / +4,504 [#1 継続・2 日目・8/13 と同じく主役継続・累計 10,078→14,251★ の急伸継続・29 editorial diagram types (Loop/flywheel/semantic system pattern 等)・サイトから 60 秒でブランド抽出→全種類一貫適用・WCAG AA + progressive disclosure + semantic routing + draw.io/Mermaid import 対応・Claude Code marketplace 経由・vs Mermaid/Excalidraw]、#2 semantica-agi/semantica=Python / 6,576★ / +727 [#3→#2 継続・4 日連続 TOP5・累計 4,825→6,576★ で継続伸長・W3C PROV-O グラフノードで判断ごとの因果連鎖を永続記録・Databricks/Snowflake/Neo4j/Oxigraph polyglot・Datalog/SPARQL/Rete 網 deterministic reasoning・bi-temporal provenance・GraphRAG-native chunking・v0.6.0 で Databricks Unity Catalog lineage + SPARQL CONSTRUCT templates 追加・vs LangChain/LlamaIndex/標準 RAG]、#3 anthropics/skills=Python / 168,983★ / +383 [初登場 #3・Anthropic 公式・SKILL.md (YAML+Markdown) + scripts/ + resources/ フォルダ構造・agentskills.io としてクロスプラットフォーム標準化・docx/pdf/pptx/xlsx が Claude 公式書類機能のソース公開・Claude.ai/Claude Code/Claude API 全対応・Cursor Rules は設定、MCP は外部接続、Skills は推論を教える 3 者分業・vs Cursor Rules/CLAUDE.md/MCP]、#4 cactus-compute/needle=Python / 4,918★ / +768 [初登場 #4・cactus-compute 開発・45M パラメータを CQ2-bit 量子化で 14MB バイナリに圧縮・28MB RAM で phone/watch/smart home/robot 動作・Simple Attention Network + Hadamard MLP + GQA attention + engram key-value memory + multi-lane hyper-connections・256 token sliding window + pinned tool KV sinks + tool calling with confidence gating + LoRA fine-tuning・FunctionGemma 270M/LFM2.5 230M/Apple FM と benchmark trade-off で 5-70 倍小さく 2 bit・vs Gemma-3n/Phi-3-mini/TinyLlama]、#5 altic-dev/FluidVoice=Swift / 9,828★ / +187 [初登場 #5・altic-dev 開発・GPLv3・'a local Wispr Flow alternative' 公式ポジション・Fluid Intelligence 独自ローカル AI 整形モデル・Command Mode + Write Mode + Live Preview + Audio History + Global Hotkey + Per-App Configuration・Nemotron/Parakeet/Cohere/Apple Speech/Whisper スイッチ可能・macOS 15.0+ Apple Silicon 主体・40+ 言語・iOS/Windows 版 GitHub Sponsors 募集中・vs Wispr Flow/Superwhisper/MacWhisper/macOS 標準ディクテーション]",
-      "本日の comparison 核: 5 本を『同じカテゴリで代替となる既存ツール』と 1 対 1 で比較し『何がどう違うか、どっちを選ぶか』の意思決定支援。冒頭フックは『今日のTOP5は既存の類似ツールと明確に競合します。5 本の選び方を比較で提示します』。5 本を『ダイアグラム (diagram-design vs Mermaid)』『AI 知識基盤 (semantica vs LangChain)』『AI エージェント設定 (Skills vs Cursor/MCP)』『端末組み込み LLM (needle vs Phi-3/Gemma-3n)』『macOS 音声入力 (FluidVoice vs Wispr Flow)』の 5 カテゴリで語り、各 OSS の差別化点を 1 つずつ明示。前日 08-13 business-angle (ミクロ実利) からの natural zoom out で 2 日で 1 セットの立体化",
-      "Primary (CTO/技術選定) には『類似 OSS の中でどれを選ぶかの技術選定判断』、Secondary (PdM/事業責任者) には『何が今の標準を置き換えるかのトレンドキャッチアップ』、Tertiary (学習中) には『類似ツールの違いを整理して覚える学習材料』の入り口として 3 層直撃",
-      "**channel 到達力低下疑惑 (crisis-mode 分水嶺)**: 08-08〜08-13 の 6 日連続 0-1 views 定着 (08-08〜08-10:0 確定 / 08-11:1 微反応 / 08-12:0 ほぼ確定 / 08-13:0 暫定) は method 選定精度の問題ではなく channel 全体の到達力低下 (シャドウバン / アルゴ変更 / 投稿タイミングずれ / アカウント健全性) の疑いが決定的。本日 08-14 (comparison・Fri 高期待日・素材整合率 100%) は crisis-mode の分水嶺、48h 後 (8/16 夜) 結果で『Fri 高期待日 × 14d 2 位 tier method × 素材整合率 100%』の 3 条件複合でも 0-1 定着なら、投稿インフラ側の根本問題を確定しコンテンツ側 PDCA から infra 側 PDCA (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) に投資配分を移す判定を明日 PDCA (8/15) で行う。8/16 (Sat 低期待) は投稿見送り + infra チェック実施が有力候補",
-      "連投上限ルール: 14d 内 ecosystem=07-29 窓外脱落 → 08-03/08-09 の 2 件 (8/17 08-03 窓外脱落まで維持)、comparison=07-31/08-04/08-10 の 3 件 (8/15 07-31 窓外脱落で 2 件に減、本日 08-14 追加で 3 件維持)、business-angle=08-02/08-13 の 2 件 (8/16 08-02 窓外脱落まで維持、8/16 以降は再投入可能)、trend-pattern=08-07/08-12 の 2 件 (8/21 08-07 窓外脱落まで維持)、self-experiment=08-08/08-11 の 2 件 (8/22 まで維持)、use-case=08-05 の 1 件 (8/19 窓外脱落まで維持)、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で crisis-mode 判定次第で投入判定)"
+      "本日の discovery.method は `use-case` (14d avg 1.00 n=1 で 4 位、柱① 系最長 cooldown 10 日、全期間 avg 1.17 n=6 で 4 位 tier、素材整合率 5/5=100% (5 persona 均等配置))。直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルール + trend-pattern (08-12 消化 3 日 cooldown OK だが柱④ 5% target 過剰指数回避で除外) + self-experiment (14d avg 0.5 最下位) + ecosystem (14d avg 1.0 中位、素材で use-case に劣後) + tech-deep (全期間最下位・凍結) の除外で残る柱① 系最長 cooldown method。7 日連続 0-1 views 危機下で 14d 首位 tier を消費せず柱① 系 fresh 効果狙い + 高期待日 (Tue/Fri) の 14d 首位 tier 温存戦略に合致。",
+      "本日 08-15 TOP5: #1 cathrynlavery/diagram-design=HTML / 17,140★ / +3,651 [#1 継続・3 日目・8/13〜8/15 3 日連続主役・累計 10,078→14,251→17,140★ の急伸継続・29 editorial diagram types (Loop/flywheel/semantic system pattern 等)・サイトから 60 秒でブランド抽出→全種類一貫適用・WCAG AA + progressive disclosure + semantic routing + draw.io/Mermaid import 対応・Claude Code marketplace 経由・**コンサル/agency がクライアント資料量産に使う**]、#2 cactus-compute/needle=Python / 5,569★ / +661 [#4→#2 継続・2 日目・累計 4,918→5,569★ で継続伸長・45M パラメータを CQ2-bit 量子化で 14MB バイナリに圧縮・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval head + byte-level grammar compilation + LoRA fine-tuning + MIT・**ウェアラブル/ロボット/IoT の組込エンジニアが端末側 LLM に使う**]、#3 megadose/holehe=Python / 12,820★ / +427 [初登場 #3・megadose 開発・GPLv3・120+ サービス (Twitter/Instagram/Imgur 等) の登録有無を non-alerting で CLI/Python ライブラリで一括確認・失念パスワード再発行の挙動を利用・rate limit 検出内蔵・**OSINT アナリスト/脅威インテル/レッドチームがメール足取り調査に使う**]、#4 macro-inc/macro=Rust / 3,007★ / +435 [08-13 #2 → 08-14 圏外 → 08-15 #4 再登場・macro-inc 開発・AGPLv3・email+chat+docs+tasks+CRM+agents+calls+canvas を 1 つの UI に束ねる・Slack/Notion/Linear/Gmail/HubSpot/Superhuman/Salesforce を代替・SolidJS+Rust+PostgreSQL・self-hosted + cloud・**15-20 人スタートアップの CTO/PdM が統合ワークスペースに使う**]、#5 smicallef/spiderfoot=Python / 20,918★ / +292 [初登場 #5・smicallef 開発・MIT・200+ モジュール (SHODAN/HIBP/GreyNoise/SecurityTrails 等) で単一ドメインから subdomain/IP/email/breach を一括収集・Web UI + CLI・SQLite バックエンド・37 rule YAML correlation engine・**ペネトレテスター/SOC/脅威インテルが攻撃面マッピングに使う**]",
+      "本日の use-case 核: 5 本を『誰がどう使うか』の persona × scene で 1 対 1 対応させて『現場適用シーン』を提示。冒頭フックは『今日のTOP5は5種類の異なる現場に効きます。5 本を誰がどう使うかで並べます』。5 本を『コンサル (diagram-design)』『組込エンジニア (needle)』『OSINT 担当 (holehe)』『スタートアップ CTO (macro)』『ペネトレ担当 (spiderfoot)』の 5 persona で語り、各 OSS の適用シーンを 1 つずつ明示。前日 08-14 comparison (類似カテゴリ内選択支援) からの natural zoom in で 2 日で 1 セットの立体化 (類似 OSS 選択支援 → 5 persona × 5 scene 現場適用)",
+      "Primary (CTO/技術選定) には『自チーム/顧客案件で誰がどう使うか』の実装イメージ、Secondary (PdM/事業責任者) には『どの職種にどう投入すべきか』の配布イメージ、Tertiary (学習中) には『どのカテゴリの OSS が誰向けか』の学習材料として 3 層直撃",
+      "**channel 到達力低下疑惑 (crisis-mode 分水嶺)**: 08-08〜08-14 の 7 日連続 0-1 views 定着継続だが、08-11〜08-13 で 1 view 微反応が 3 日連続発生 = 08-08〜08-10 の 0 定着からの微回復シグナル観測。crisis-mode 起爆条件『7 日連続 0-1 定着 + 5 種類以上の method で 0 定着』は緩い判定では成立、厳密判定 (0 定着のみ) では成立せず、本日 8/15 は crisis-mode 継続判定で保留。明日 8/16 PDCA で 08-14 comparison 48h 確定 + 08-15 use-case 24h 暫定の集計後 crisis-mode 正式発動 or 継続判定を行う。もし両方で 0-1 なら crisis-mode 正式発動 + 8/16 (Sun 最低期待日) 投稿見送り + infra チェック実施 (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) が有力候補",
+      "連投上限ルール: 14d 内 ecosystem=08-03 窓外脱落待機 (8/17)、comparison=07-31 窓外脱落 (8/14) / 08-04・08-10 の 2 件 + 08-14 で 3 件維持 (8/18 08-04 窓外脱落まで維持)、business-angle=08-02 窓外脱落 (8/16) / 08-13 の 1 件 (8/27 08-13 窓外脱落まで維持)、trend-pattern=08-07/08-12 の 2 件 (8/21 08-07 窓外脱落まで維持)、self-experiment=08-08/08-11 の 2 件 (8/22 まで維持)、use-case=08-05 窓外脱落 (8/19) + 本日 08-15 追加で 1 件維持 (8/29 まで維持)、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で crisis-mode 判定次第で投入判定)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-14",
-    "dayOfWeek": "Fri",
+    "date": "2026-08-15",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "比較",
-      "選び方",
-      "代替OSS",
-      "Mermaid",
-      "Excalidraw",
-      "LangChain",
-      "LlamaIndex",
-      "Cursor",
-      "MCP",
-      "TinyLLM",
-      "Phi3",
-      "Gemma3n",
-      "WisprFlow",
-      "Superwhisper",
-      "MacWhisper",
-      "音声入力",
-      "KnowledgeGraph",
-      "グラフ基盤",
-      "PROV",
-      "AgentSkills",
-      "agentskills",
-      "OnDevice",
+      "使い方",
+      "活用シーン",
+      "OSINT",
+      "セキュリティ",
+      "ペネトレテスト",
+      "脅威インテル",
+      "コンサル",
+      "組込エンジニア",
+      "スタートアップ",
+      "ウェアラブル",
+      "ロボット",
+      "IoT",
       "14MB",
       "GPLv3",
+      "AGPLv3",
+      "Rust",
+      "Python",
+      "HTML",
+      "Mermaid",
       "ClaudeCode",
-      "Anthropic",
+      "WCAG",
+      "自ホスト",
+      "統合ワークスペース",
       "ローカルAI",
-      "意思決定支援",
-      "技術選定",
+      "現場適用",
       "CTO",
+      "PdM",
       "個人開発者",
       "ソロCTO",
-      "スタートアップ",
+      "Anthropic",
       "diagram_design",
-      "semantica",
-      "anthropic_skills",
       "needle",
-      "FluidVoice"
+      "holehe",
+      "macro",
+      "spiderfoot"
     ],
-    "focus": "金曜 (Fri=310 avg、週内 2 位の高期待日、火 361/水 153/月 61/木 176/土 79/日 5 との比較で上位) は高期待日、14d 首位 tier method で最強札を切る戦略が理想だが、直近 6 日連続 0-1 views 定着で『安全牌』の定義自体が崩壊。素材整合率 5/5=100% + comparison (14d avg 1.33 3 位、連投 NG 除外後の残存最上位 exploit) の 2 条件複合で `comparison` を投入。5/5=100% 素材 (cathrynlavery/diagram-design #1 継続 vs Mermaid/Excalidraw の editorial 品質 + ブランド 60 秒抽出差別化 / semantica-agi/semantica #2 vs LangChain/LlamaIndex の W3C PROV-O 決定履歴永続化差別化 / anthropics/skills #3 新規 vs Cursor Rules/MCP の Claude 推論を教える標準規格差別化 / cactus-compute/needle #4 新規 vs Phi-3/Gemma-3n の 5-70 倍小さい 14MB バイナリ + CQ2-bit 量子化差別化 / altic-dev/FluidVoice #5 新規 vs Wispr Flow/Superwhisper の GPLv3 で Wispr Flow 相当をローカル AI 整形付き提供差別化) が『類似カテゴリ内でこの OSS を選ぶ理由』の意思決定支援語りと完全整合。直近 2 日 (08-13 business-angle / 08-12 trend-pattern) 連投ルール + self-experiment (14d 0.5 最下位) + ecosystem/use-case 低位 + tech-deep 凍結で comparison が exploit tier で残る最上位。本日の TOP5 は 2/5 継続 (diagram-design/semantica)、3/5 新規 (skills/needle/FluidVoice) で lineup 60% 刷新、素材テーマは『AI 標準規格 (Skills) + 端末組み込みモデル (needle) + macOS ローカルツール (FluidVoice) の『標準化と on-device 化』週への転換。method 切替 (business-angle → comparison) + 語彙総入替 (受託/案件/削減/時短/月◯円/分業 → ◯◯と違い/◯◯より/◯倍小さい/置き換える/代わりに/相当/上位互換/対応/選択肢/比較/切り分け) で視聴者の脳内モードを『ミクロ実利 (自案件適用)』から『意思決定支援 (類似カテゴリ内選択)』へ zoom out、素材同質性 (AI エージェント OSS 集中週) からの natural transition (標準化 + on-device 化週) を選択支援型 comparison で切り分け。narration は 5 本すべてに『◯◯と違い』『◯◯より』『◯◯相当を』の比較構文を配置、5 本合計 276 文字 (57+57+56+54+54) で TTS 換算約 46-52 秒、opening/ending 込み 55 秒枠内で IG Reels 60 秒制約クリア。柱① (GitHub Trending 解説 70%) は 08-10 消化済 + 本日 08-14 で追加消化 (今週 comparison 系 2 本目、pillar 4/4 完遂後の純粋 exploit)、柱② (business-angle) は 08-13 消化・今週完遂、柱③ (self-experiment) は 08-11 消化・今週完遂、柱④ (trend-pattern) は 08-12 消化・今週完遂。**crisis 分水嶺**: 08-08〜08-13 の 6 日連続 0-1 views 定着で channel 到達力低下 (シャドウバン/アルゴ/投稿タイミング) の疑い決定的、本日 08-14 (Fri 高期待日 + 14d 2 位 tier method + 素材整合率 100%) の 48h 後 (8/16 夜) で『高期待日効果 + top tier method + 素材整合率 100%』3 条件複合でも 0-1 なら明日 8/15 PDCA で crisis-mode 正式発動、8/16 (Sat 低期待) は投稿見送り + infra チェック実施 (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) が有力候補。explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・infra-health-check・platform-migration・selection-guide 提案) はすべて crisis-mode 判定後の 8/16 以降送り。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "土曜 (Sat=79 avg、直近 28 日 1.7 中低位、火 361/金 310/木 176/水 153/月 61/日 5 との比較で下位) は低期待日、14d 首位 tier method を消費するより柱① 系最長 cooldown method で fresh 効果狙い + 高期待日 (Tue/Fri) の 14d 首位 tier 温存戦略に合致。素材整合率 5/5=100% + use-case (柱① 系最長 cooldown 10 日) の 2 条件複合で `use-case` を投入。5/5=100% 素材 (cathrynlavery/diagram-design #1 継続 3 日目 → コンサル/agency のクライアント資料量産 / cactus-compute/needle #2 継続 2 日目 → ウェアラブル/ロボット/IoT の組込エンジニア端末側 LLM / megadose/holehe #3 新規 → OSINT アナリスト/脅威インテル/レッドチームのメール足取り調査 / macro-inc/macro #4 再登場 → 15-20 人スタートアップ CTO/PdM の統合ワークスペース / smicallef/spiderfoot #5 新規 → ペネトレテスター/SOC/脅威インテルの攻撃面マッピング) が『5 本を 5 種類の異なる persona × scene に配って誰の現場に効くかを提示』の適用シーン語りと完全整合。特に OSINT ツール 2 本 (holehe + spiderfoot) が同日 TOP5 に並んだのは前例が薄く、セキュリティ persona に 40% 集中しつつ残り 60% が開発/組込/スタートアップに分散、5 persona 均等に埋まる整合率 100% の理想配置。直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルール + trend-pattern (08-12 消化 3 日 cooldown OK だが柱④ 5% target 過剰指数回避で除外) + self-experiment (14d 0.5 最下位) + ecosystem (14d 1.0 中位で素材劣後) + tech-deep 凍結で use-case が柱① 系最長 cooldown method で残る最鮮度カード。本日の TOP5 は 2/5 継続 (diagram-design/needle)、1/5 再登場 (macro)、2/5 新規 (holehe/spiderfoot) で lineup 60% 刷新、素材テーマは『開発者ワークスペース (diagram-design 3 日連続 #1 + macro 再登場) + on-device AI 継続 (needle 2 日連続) + OSINT ツール 2 本同時 TOP5 (holehe + spiderfoot 新規) の 3 潮流同居週』。method 切替 (comparison → use-case) + 語彙総入替 (◯◯と違い/◯◯より/◯倍小さい/置き換える → ◯◯が使う/◯◯向け/◯◯の現場で/◯◯に効く/◯◯を回せる/◯◯を洗える) で視聴者の脳内モードを『類似カテゴリの中でどれを選ぶか (意思決定支援)』から『自分の現場に当てはめる (適用シーン)』へ zoom in、素材同質性 (OSINT 2 本同時) を『5 persona 均等分散』の広さで訴求。narration は 5 本すべてに persona 語 (『コンサル』『組込エンジニア』『OSINT 担当』『20 人規模のスタートアップ』『ペネトレ担当』) と scene 動詞 (『量産に効く』『載る』『洗える』『一本化できる』『洗い出せる』) を配置、5 本合計 248 文字 (51+54+47+52+44) で TTS 換算約 42-45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕。柱① (GitHub Trending 解説 70%) は 08-10 comparison + 08-14 comparison + 本日 08-15 use-case で 3 本目 (今週柱① 3/7=43%)、柱② 08-13 消化・今週完遂、柱③ 08-11 消化・今週完遂、柱④ 08-12 消化・今週完遂。**crisis 分水嶺**: 08-08〜08-14 の 7 日連続 0-1 views 定着継続 + 08-11〜08-13 の 3 日連続 1 view 微反応で crisis-mode 起爆条件の緩い判定は成立 (7 日連続 0-1 + 5 種類以上 method で 0 定着) だが厳密判定 (0 定着のみ) では成立せず、本日 8/15 は継続判定で保留、明日 8/16 PDCA で 08-14 comparison 48h 確定 + 08-15 use-case 24h 暫定の集計後正式判定。8/16 (Sun=5 最低期待日) は投稿見送り + infra チェック実施 (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) が有力候補、逆に 08-15 use-case が 1-2 views なら通常投稿継続の判定。explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・infra-health-check・platform-migration・persona-scenario-deep 提案) はすべて crisis-mode 判定後の 8/17 以降送り。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }

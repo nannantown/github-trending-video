@@ -1,16 +1,15 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5を『既存の類似ツール vs これ』の1対1比較で切り、選択の意思決定材料を提供する。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1継続、14,251★、+4,504、HTML) vs Mermaid/Excalidraw = editorial品質×ブランド60秒自動抽出 (Mermaidは汎用フロー、diagram-designはブランド継承の自動化とWCAG AAが差別化点)、Loop/flywheel等29種類、draw.io/Mermaid import対応 2) semantica-agi/semantica (#2、6,576★、+727、Python) vs LangChain/LlamaIndex/RAG = 判断根拠をW3C PROV-Oグラフで永続記録、金融/医療/法務/政府の規制ドメインで『なぜAIがこう判断したか』に監査対応の答えが出せる 3) anthropics/skills (#3新規、168,983★、+383、Python) vs Cursor Rules/CLAUDE.md/MCP = SkillsはClaudeの推論を教える、MCPは外部ツール接続、Cursor Rulesはプロジェクト設定というレイヤー分業、YAML+Markdownフォルダ形式で公式Skills集を配布 4) cactus-compute/needle (#4新規、4,918★、+768、Python) vs Gemma-3n/Phi-3-mini/TinyLlama/FunctionGemma 270M/LFM2.5 230M/Apple FM = 45Mパラメータを14MBバイナリに圧縮、5倍〜70倍小さくCQ2-bit量子化、28MB RAMで phone/watch/robotで動く、tool calling×confidence gating×256トークン sliding window 5) altic-dev/FluidVoice (#5新規、9,828★、+187、Swift) vs macOS標準ディクテーション/Whisper/Superwhisper/MacWhisper/Wispr Flow = ローカルAI整形『Fluid Intelligence』+ command mode + write mode、GPLv3で無料、Nemotron/Parakeet/Cohere/Apple Speech/Whisperをスイッチ可能、'a local Wispr Flow alternative'を公式ポジションとして表明。method選定: 直近2日 (08-13 business-angle / 08-12 trend-pattern) 連投ルールで両者除外、self-experiment (08-11消化3日cooldownでOKだが14d avg 0.5最下位)、ecosystem (14d avg 1.0低位)、use-case (14d avg 1.0低位)、tech-deep (全期間最下位+回復モード凍結) は候補外。残るcomparisonは14d avg 1.33 (n=3、07-31:2/08-04:2/08-10:0)、全期間avg 1.67 (n=18、2位tier)、直近採用08-10で cooldown 4日OK、14d/全期間ともに2位tierで exploit tierとして最適。素材整合率100%は本日のTOP5に明確な競合が存在する構造 (diagram vs Mermaid、AI基盤 vs LangChain、Skills vs Cursor/MCP、tiny LLM vs Phi/Gemma、macOS音声 vs Wispr Flow) で、視聴者の脳内モードは『何がどう違うか、どっちを選ぶか』の意思決定に直結。曜日はFri (=310 avg、高期待日) で14d首位を除いた最強exploit方針。Primary (CTO/技術選定) には『類似OSSの中でどれを選ぶか』の技術選定判断材料、Secondary (PdM/事業責任者) には『何が今の標準を置き換えるか』のトレンドキャッチアップ、Tertiary (学習中) には『類似ツールの違いを整理して覚える』学習材料として3層に届く。narration 5本すべてに『◯◯と違い』『◯◯より』のcomparison構文を配置してcomparison角度の一貫性を担保、5本合計約276文字TTS換算約46-52秒、opening/ending込み55秒枠内でIG Reels 60秒制約クリア。重要背景: 08-08〜08-13の6日連続0-1 views定着 (08-08:0/08-09:0/08-10:0/08-11:1/08-12:0/08-13:0) で『channel全体の到達力低下』がほぼ確定局面。本日08-14 (comparison・Fri高期待日) の48h後 (8/16夜) 結果でも『14d 2位method + 素材整合率100% + Fri高期待日』の3条件複合で0-1定着なら、コンテンツ側method議論を一時停止しinfra側 (post-time/hashtag/title語彙/thumbnail) の徹底点検を先行させる判定を8/15 PDCAで行う。今週の柱消化状況: 柱① (comparison) 08-10消化・本日08-14も柱①系、柱② (business-angle) 08-13消化、柱③ (self-experiment) 08-11消化、柱④ (trend-pattern) 08-12消化で pillar 4/4完遂、本日はcomparison exploit で純粋な視聴数取り。",
+    "method": "use-case",
+    "description": "本日のTOP5を『誰がどう使うか』の persona × scene で切り分ける use-case angle。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1継続、17,140★、+3,651、HTML) = コンサル/agency のクライアント資料量産、URL1本で60秒ブランド抽出→29種の editorial ダイアグラムに一貫適用、Claude Code marketplace 経由で導入・MIT 2) cactus-compute/needle (#2継続、5,569★、+661、Python) = ウェアラブル/ロボット/IoT の組込エンジニア、45M パラメータ CQ2-bit 量子化 14MB バイナリ・28MB RAM で phone/watch/smart home/robot 動作・tool calling + LoRA fine-tuning 標準・MIT 3) megadose/holehe (#3新規、12,820★、+427、Python) = OSINT アナリスト/脅威インテル/レッドチームのメール足取り調査、120+ サービスの登録有無を non-alerting でCLI/Python ライブラリで一括確認、失念パスワード再発行の挙動を利用・GPLv3 4) macro-inc/macro (#4再登場、3,007★、+435、Rust) = 15-20 人スタートアップの統合ワークスペース、email+chat+docs+tasks+CRM+agents+calls+canvas を一つの UI に束ねる・Slack/Notion/Linear/Gmail/HubSpot/Superhuman/Salesforce を代替・SolidJS+Rust+PostgreSQL・AGPLv3 5) smicallef/spiderfoot (#5新規、20,918★、+292、Python) = ペネトレテスター/SOC/脅威インテルの攻撃面マッピング、200+ モジュール (SHODAN/HIBP/GreyNoise/SecurityTrails 等) で単一ドメインから subdomain/IP/email/breach を一括収集・Web UI + CLI・SQLite バックエンド・37 rule YAML correlation engine・MIT。method 選定: 直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルールで両者除外、trend-pattern (08-12 消化 3 日 cooldown OK だが 14d avg 2.00 で高位ながら同method を今週2度打つと柱④ 5% target 過剰指数)、self-experiment (08-11 消化 4 日 cooldown OK だが 14d avg 0.5 最下位)、ecosystem (08-09 消化 6 日 cooldown OK・14d avg 1.0 中位)、tech-deep (全期間 avg 0.75 最下位・回復モード凍結) は候補外。残る use-case は 14d avg 1.00 (n=1、08-05:1)・全期間 avg 1.17 (n=6)・直近採用 08-05 で cooldown 10 日と最鮮度・柱① (GitHub Trending 解説 70%) 系の中で最長 cooldown。素材整合率 100% (5本が『コンサル/組込エンジニア/OSINT アナリスト/スタートアップ CTO/ペネトレテスター』の 5 persona に自然に振れる稀有な素材配置) は今週 use-case で切るのに最適な条件。特に本日は OSINT ツール 2 本 (holehe + SpiderFoot) が同日 TOP5 = セキュリティ persona に 2/5 = 40% 集中、逆に開発者・組込・スタートアップ persona に 3/5 = 60% 分散で 5 persona 均等に埋まる。曜日 Sat=79 avg (週内 6 位・低期待日) は explore に賭けるより 柱① の中で fresh cooldown の method 投入が安全策、危機下 (08-08〜08-14 で 7 日連続 0-1 views 定着) では大穴狙いより 素材整合率主導 exploit で確実に narration 品質を上げる方が優先。narration 5 本すべてに persona 語 (『コンサル』『組込エンジニア』『OSINT 担当』『20 人規模のスタートアップ』『ペネトレ担当』) と scene 動詞 (『量産に効く』『載る』『洗える』『一本化できる』『洗い出せる』) を明示配置して use-case 角度の一貫性を担保。narration 5 本合計 248 文字 (51+54+47+52+44) TTS +30% で約 42-45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。重要背景: 08-08〜08-14 の 7 日連続 0-1 views 定着 (08-08〜08-10:0 確定 / 08-11:1 微反応 / 08-12:1 / 08-13:1 / 08-14:0 24h暫定) で『channel 全体の到達力低下疑惑』はほぼ確定局面だが、08-11〜08-13 の 3 日連続で 1 view が入ったのは 08-08〜08-10 の 0 定着からの微回復シグナル、明日 8/16 (Sun=5 最低期待日) の PDCA で crisis-mode 正式発動 or 継続判定と post-time/hashtag/title 語彙の infra 側点検を行う。今週の柱消化状況: 柱① 08-10 comparison + 08-14 comparison + 本日 08-15 use-case = 3 本目、柱② 08-13 business-angle、柱③ 08-11 self-experiment、柱④ 08-12 trend-pattern で pillar 4/4 完遂済、本日は柱① 系の純粋 exploit で視聴数取り。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/cathrynlavery/diagram-design",
-      "https://github.com/semantica-agi/semantica",
-      "https://github.com/anthropics/skills",
       "https://github.com/cactus-compute/needle",
-      "https://github.com/altic-dev/FluidVoice",
-      "https://agentskills.io"
+      "https://github.com/megadose/holehe",
+      "https://github.com/macro-inc/macro",
+      "https://github.com/smicallef/spiderfoot"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,59 +21,59 @@
       "name": "diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "language": "HTML",
-      "stars": 14251,
-      "todayStars": 4504,
-      "description": "Mermaidの上位互換ダイアグラム集",
-      "detail": "29種類のダイアグラムをHTML+SVGで生成するClaude Code用スキル集です。サイトのURLを渡すと60秒でブランド色とフォントを抽出し全種類に一貫適用します。draw.ioやMermaidの図もインポートで再描画できます。",
-      "narration": "Mermaidと違いブランドを60秒で自動抽出できるダイアグラム集です。Claude Codeで29種類出せます。"
+      "stars": 17140,
+      "todayStars": 3651,
+      "description": "コンサル向け29種のダイアグラム集",
+      "detail": "29種類の editorial ダイアグラムを HTML+SVG で生成する Claude Code 用スキル集です。サイトの URL を渡すと60秒でブランド色を抽出し、コンサルや広告代理店のクライアント資料を一括で自社ブランド化できます。",
+      "narration": "コンサルの資料量産に効くClaude Code用ダイアグラム集です。60秒でブランド色を引き継ぎます。"
     },
     {
       "rank": 2,
-      "fullName": "semantica-agi/semantica",
-      "name": "semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "language": "Python",
-      "stars": 6576,
-      "todayStars": 727,
-      "description": "監査対応の知識グラフAI基盤",
-      "detail": "AIの判断ごとの根拠をW3C PROV-O準拠のグラフノードに残せるPython基盤です。LangChainやLlamaIndexと違い決定履歴の因果連鎖まで永続保存でき、金融や医療の規制受託でコンプラを満たす武器になります。",
-      "narration": "LangChainと違い判断根拠をW3C PROV-Oで残せる知識基盤です。金融や医療の監査受託で武器になります。"
-    },
-    {
-      "rank": 3,
-      "fullName": "anthropics/skills",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "language": "Python",
-      "stars": 168983,
-      "todayStars": 383,
-      "description": "Anthropic公式のSkills集",
-      "detail": "SKILL.mdとscriptsをフォルダに束ねClaudeに専門ワークフローを教える公式リポジトリです。Cursor Rulesが設定、MCPが外部ツール接続なのに対しSkillsは推論そのものを再利用可能に定義します。",
-      "narration": "Cursor RulesやMCPと違いClaudeの推論を教える公式Skills集です。YAMLだけで書けます。"
-    },
-    {
-      "rank": 4,
       "fullName": "cactus-compute/needle",
       "name": "needle",
       "url": "https://github.com/cactus-compute/needle",
       "language": "Python",
-      "stars": 4918,
-      "todayStars": 768,
-      "description": "14MBの端末組み込み小型LLM",
-      "detail": "45パラメータをCQ2-bit量子化で14MBに圧縮した端末向け推論モデルです。Phi-3-miniやGemma-3nと違い28MB RAMだけで動きスマートウォッチやロボットにも組み込めます。tool callingを標準搭載します。",
-      "narration": "Phi-3やGemma-3nより5倍から70倍小さい14MBの推論モデルです。時計やロボットの上で動きます。"
+      "stars": 5569,
+      "todayStars": 661,
+      "description": "時計にも積める14MBの小型LLM",
+      "detail": "45パラメータのモデルを CQ2-bit 量子化で14MBバイナリに収めた組み込み用 LLM です。ウェアラブルやロボットの組込エンジニアが28MB RAM で tool calling や構造化抽出を端末側で完結できます。",
+      "narration": "時計やロボットに載る14MBの小型LLMです。組込エンジニアが端末だけでtool callingを回せます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "megadose/holehe",
+      "name": "holehe",
+      "url": "https://github.com/megadose/holehe",
+      "language": "Python",
+      "stars": 12820,
+      "todayStars": 427,
+      "description": "メール調査OSINT用CLIツール",
+      "detail": "メールアドレスから120以上のサービスの登録有無を一括確認できる Python の CLI/ライブラリです。パスワード再発行の挙動を利用するので対象にアラートを出さず、OSINT 担当が足取りを非侵襲で追えます。",
+      "narration": "メール1つで120以上のサイト登録を非侵襲で洗える調査ツールです。OSINT担当が愛用します。"
+    },
+    {
+      "rank": 4,
+      "fullName": "macro-inc/macro",
+      "name": "macro",
+      "url": "https://github.com/macro-inc/macro",
+      "language": "Rust",
+      "stars": 3007,
+      "todayStars": 435,
+      "description": "メールもタスクも束ねる統合OSS",
+      "detail": "メール・チャット・ドキュメント・タスク・CRM を1つの UI に束ねる AGPLv3 の Rust 製ワークスペースです。20人前後のスタートアップが Slack や Notion や HubSpot の月額を丸ごと止められます。",
+      "narration": "20人規模のスタートアップがSlackやNotionを一本化できるRust製OSSです。自ホスト可です。"
     },
     {
       "rank": 5,
-      "fullName": "altic-dev/FluidVoice",
-      "name": "FluidVoice",
-      "url": "https://github.com/altic-dev/FluidVoice",
-      "language": "Swift",
-      "stars": 9828,
-      "todayStars": 187,
-      "description": "GPLv3の音声入力アプリ",
-      "detail": "macOS向けのローカル音声入力アプリで有料のWispr Flow相当をGPLv3で提供します。整形AIも端末内で完結しWhisperやParakeetを選べるほかコマンド実行や書き換えモードにも対応します。",
-      "narration": "有料のWispr Flow相当をGPLv3で使えるmacOS音声入力アプリです。整形AIも端末内で動きます。"
+      "fullName": "smicallef/spiderfoot",
+      "name": "spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "language": "Python",
+      "stars": 20918,
+      "todayStars": 292,
+      "description": "200種の攻撃面マッピングOSS",
+      "detail": "200以上の OSINT モジュールでドメインからサブドメインや漏洩情報を一括で引く攻撃面マッピング OSS です。ペネトレテスターや脅威インテル担当が調査資料の一次収集に使えます。",
+      "narration": "ペネトレ担当が1つのドメインから攻撃面を洗い出せる200モジュールのOSINT基盤です。"
     }
   ]
 }
