@@ -2,65 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "gGuGtbRqCGQ",
-      "videoUrl": "https://youtube.com/shorts/gGuGtbRqCGQ",
-      "date": "2026-05-15",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/15 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "TypeScript",
-        "Go"
-      ],
-      "languages": [
-        "Rust",
-        "TypeScript",
-        "Shell",
-        "Go"
-      ],
-      "projects": [
-        "tinyhumansai/openhuman",
-        "rohitg00/agentmemory",
-        "obra/superpowers",
-        "yikart/AiToEarn",
-        "influxdata/telegraf"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "business-angle",
-        "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本とも統一して料理する。tinyhumansai/openhuman(GPL-3.0・Rust製118 SaaS連携ローカルAI=Notion・Slack・GmailなどSaaS月額の積み上がりを束ね、TokenJuiceで送信トークン最大8割圧縮) / rohitg00/agentmemory(MIT・SQLite完結のAIコーディング長期記憶=mem0比R@5 95.2%・年間トークン費約170K/$10で従来$500/年クラスのホスト記憶SaaS契約を圧縮) / obra/superpowers(11 skill方法論パック=Claude Code/Cursor/Codex/Gemini CLIなど7環境でTDDと計画フェーズを強制、受託案件のレビュー工数・テスト漏れの保証コストを削減) / yikart/AiToEarn(MIT・TikTok/YouTube/X/Douyinなど13プラットフォーム自動配信=SNS運用代行月数万円〜の代替で中小企業の内製化原資) / influxdata/telegraf(MIT・300+プラグインのGo製エージェント=Datadog/New Relic月額の代替で自社運用観測基盤)。直近2日連続禁則(05/10 comparison / 05/11 comparison)を回避。Method別TOP3(ecosystem 66.8 avg n=5・但し04/28=326の外れ値で中央値1/trend-pattern 9.5 avg n=2/business-angle 7.0 avg n=3)のうち、ecosystemは直近3投稿(05/05・05/08・05/09)が全て1viewと底打ち中の素材適合制約を回避、business-angleを選択。柱②(business-angle 比率15%)の週次必須要件(週1)に対して、最終投入05/04(=2)から10日空き、Thu=350 avgの中位曜日帯でPrimary(CTO/エンジニア)+Secondary(PdM/事業責任者)に稟議語彙で直撃する低中stakes枠。素材適合度は5/5(全リポが月額SaaS or 業務委託の代替明示可能)で、04/29-30型『5本ともに具体額・具体工数で統一』の成功構文を再現。最低15 views(過去Thu下位帯超え)、理想320 views(過去Thu上位帯=Thu04/16・04/09の600超レンジへ素材適合に応じて漸近)。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/tinyhumansai/openhuman",
-          "https://github.com/rohitg00/agentmemory",
-          "https://github.com/obra/superpowers",
-          "https://github.com/yikart/AiToEarn",
-          "https://github.com/influxdata/telegraf",
-          "https://github.com/mem0ai/mem0",
-          "https://github.com/letta-ai/letta",
-          "https://www.datadoghq.com/pricing/",
-          "https://newrelic.com/pricing"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 4,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-29T23:59:50.510Z"
-      }
-    },
-    {
       "videoId": "OnJmfoIfz0c",
       "videoUrl": "https://youtube.com/shorts/OnJmfoIfz0c",
       "date": "2026-05-16",
@@ -3892,7 +3833,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -3948,7 +3889,7 @@
         "views": 4,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4007,7 +3948,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4064,7 +4005,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4121,7 +4062,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4181,7 +4122,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4240,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4299,7 +4240,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4355,7 +4296,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4408,10 +4349,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4470,7 +4411,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4527,7 +4468,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-13T23:27:41.954Z"
+        "updatedAt": "2026-08-14T23:10:10.601Z"
       }
     },
     {
@@ -4578,6 +4519,59 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-14T23:10:10.601Z"
+      }
+    },
+    {
+      "videoId": "kMl6rjnXWo0",
+      "videoUrl": "https://youtube.com/shorts/kMl6rjnXWo0",
+      "date": "2026-08-15",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/15 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "Python"
+      ],
+      "languages": [
+        "HTML",
+        "Python",
+        "Rust"
+      ],
+      "projects": [
+        "cathrynlavery/diagram-design",
+        "cactus-compute/needle",
+        "megadose/holehe",
+        "macro-inc/macro",
+        "smicallef/spiderfoot"
+      ],
+      "durationSeconds": 46,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日のTOP5を『誰がどう使うか』の persona × scene で切り分ける use-case angle。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1継続、17,140★、+3,651、HTML) = コンサル/agency のクライアント資料量産、URL1本で60秒ブランド抽出→29種の editorial ダイアグラムに一貫適用、Claude Code marketplace 経由で導入・MIT 2) cactus-compute/needle (#2継続、5,569★、+661、Python) = ウェアラブル/ロボット/IoT の組込エンジニア、45M パラメータ CQ2-bit 量子化 14MB バイナリ・28MB RAM で phone/watch/smart home/robot 動作・tool calling + LoRA fine-tuning 標準・MIT 3) megadose/holehe (#3新規、12,820★、+427、Python) = OSINT アナリスト/脅威インテル/レッドチームのメール足取り調査、120+ サービスの登録有無を non-alerting でCLI/Python ライブラリで一括確認、失念パスワード再発行の挙動を利用・GPLv3 4) macro-inc/macro (#4再登場、3,007★、+435、Rust) = 15-20 人スタートアップの統合ワークスペース、email+chat+docs+tasks+CRM+agents+calls+canvas を一つの UI に束ねる・Slack/Notion/Linear/Gmail/HubSpot/Superhuman/Salesforce を代替・SolidJS+Rust+PostgreSQL・AGPLv3 5) smicallef/spiderfoot (#5新規、20,918★、+292、Python) = ペネトレテスター/SOC/脅威インテルの攻撃面マッピング、200+ モジュール (SHODAN/HIBP/GreyNoise/SecurityTrails 等) で単一ドメインから subdomain/IP/email/breach を一括収集・Web UI + CLI・SQLite バックエンド・37 rule YAML correlation engine・MIT。method 選定: 直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルールで両者除外、trend-pattern (08-12 消化 3 日 cooldown OK だが 14d avg 2.00 で高位ながら同method を今週2度打つと柱④ 5% target 過剰指数)、self-experiment (08-11 消化 4 日 cooldown OK だが 14d avg 0.5 最下位)、ecosystem (08-09 消化 6 日 cooldown OK・14d avg 1.0 中位)、tech-deep (全期間 avg 0.75 最下位・回復モード凍結) は候補外。残る use-case は 14d avg 1.00 (n=1、08-05:1)・全期間 avg 1.17 (n=6)・直近採用 08-05 で cooldown 10 日と最鮮度・柱① (GitHub Trending 解説 70%) 系の中で最長 cooldown。素材整合率 100% (5本が『コンサル/組込エンジニア/OSINT アナリスト/スタートアップ CTO/ペネトレテスター』の 5 persona に自然に振れる稀有な素材配置) は今週 use-case で切るのに最適な条件。特に本日は OSINT ツール 2 本 (holehe + SpiderFoot) が同日 TOP5 = セキュリティ persona に 2/5 = 40% 集中、逆に開発者・組込・スタートアップ persona に 3/5 = 60% 分散で 5 persona 均等に埋まる。曜日 Sat=79 avg (週内 6 位・低期待日) は explore に賭けるより 柱① の中で fresh cooldown の method 投入が安全策、危機下 (08-08〜08-14 で 7 日連続 0-1 views 定着) では大穴狙いより 素材整合率主導 exploit で確実に narration 品質を上げる方が優先。narration 5 本すべてに persona 語 (『コンサル』『組込エンジニア』『OSINT 担当』『20 人規模のスタートアップ』『ペネトレ担当』) と scene 動詞 (『量産に効く』『載る』『洗える』『一本化できる』『洗い出せる』) を明示配置して use-case 角度の一貫性を担保。narration 5 本合計 248 文字 (51+54+47+52+44) TTS +30% で約 42-45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。重要背景: 08-08〜08-14 の 7 日連続 0-1 views 定着 (08-08〜08-10:0 確定 / 08-11:1 微反応 / 08-12:1 / 08-13:1 / 08-14:0 24h暫定) で『channel 全体の到達力低下疑惑』はほぼ確定局面だが、08-11〜08-13 の 3 日連続で 1 view が入ったのは 08-08〜08-10 の 0 定着からの微回復シグナル、明日 8/16 (Sun=5 最低期待日) の PDCA で crisis-mode 正式発動 or 継続判定と post-time/hashtag/title 語彙の infra 側点検を行う。今週の柱消化状況: 柱① 08-10 comparison + 08-14 comparison + 本日 08-15 use-case = 3 本目、柱② 08-13 business-angle、柱③ 08-11 self-experiment、柱④ 08-12 trend-pattern で pillar 4/4 完遂済、本日は柱① 系の純粋 exploit で視聴数取り。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/cathrynlavery/diagram-design",
+          "https://github.com/cactus-compute/needle",
+          "https://github.com/megadose/holehe",
+          "https://github.com/macro-inc/macro",
+          "https://github.com/smicallef/spiderfoot"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4586,24 +4580,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-12",
-      "changes": [
-        "C++: 0.4x avg views → drop",
-        "JavaScript: 0.1x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 70 avg views (81 videos)",
-        "Trending languages: Jupyter Notebook (5.5x)",
-        "Day performance: Tue=170, Fri=170, Thu=67, Wed=57, Mon=44, Sat=4, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-13",
       "changes": [
@@ -5103,6 +5079,18 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.8x), PowerShell (1.6x)",
         "Day performance: Fri=2, Sat=2, Tue=2, Thu=1, Sun=1, Mon=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-14",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 2 avg views (82 videos)",
+        "Trending languages: Markdown (1.8x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.7x), PowerShell (1.6x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Sun=1, Mon=1, Wed=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
