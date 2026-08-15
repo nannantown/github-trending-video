@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "discovery": {
-    "method": "use-case",
-    "description": "本日のTOP5を『誰がどう使うか』の persona × scene で切り分ける use-case angle。素材整合率5/5=100%: 1) cathrynlavery/diagram-design (#1継続、17,140★、+3,651、HTML) = コンサル/agency のクライアント資料量産、URL1本で60秒ブランド抽出→29種の editorial ダイアグラムに一貫適用、Claude Code marketplace 経由で導入・MIT 2) cactus-compute/needle (#2継続、5,569★、+661、Python) = ウェアラブル/ロボット/IoT の組込エンジニア、45M パラメータ CQ2-bit 量子化 14MB バイナリ・28MB RAM で phone/watch/smart home/robot 動作・tool calling + LoRA fine-tuning 標準・MIT 3) megadose/holehe (#3新規、12,820★、+427、Python) = OSINT アナリスト/脅威インテル/レッドチームのメール足取り調査、120+ サービスの登録有無を non-alerting でCLI/Python ライブラリで一括確認、失念パスワード再発行の挙動を利用・GPLv3 4) macro-inc/macro (#4再登場、3,007★、+435、Rust) = 15-20 人スタートアップの統合ワークスペース、email+chat+docs+tasks+CRM+agents+calls+canvas を一つの UI に束ねる・Slack/Notion/Linear/Gmail/HubSpot/Superhuman/Salesforce を代替・SolidJS+Rust+PostgreSQL・AGPLv3 5) smicallef/spiderfoot (#5新規、20,918★、+292、Python) = ペネトレテスター/SOC/脅威インテルの攻撃面マッピング、200+ モジュール (SHODAN/HIBP/GreyNoise/SecurityTrails 等) で単一ドメインから subdomain/IP/email/breach を一括収集・Web UI + CLI・SQLite バックエンド・37 rule YAML correlation engine・MIT。method 選定: 直近 2 日 (08-14 comparison / 08-13 business-angle) 連投ルールで両者除外、trend-pattern (08-12 消化 3 日 cooldown OK だが 14d avg 2.00 で高位ながら同method を今週2度打つと柱④ 5% target 過剰指数)、self-experiment (08-11 消化 4 日 cooldown OK だが 14d avg 0.5 最下位)、ecosystem (08-09 消化 6 日 cooldown OK・14d avg 1.0 中位)、tech-deep (全期間 avg 0.75 最下位・回復モード凍結) は候補外。残る use-case は 14d avg 1.00 (n=1、08-05:1)・全期間 avg 1.17 (n=6)・直近採用 08-05 で cooldown 10 日と最鮮度・柱① (GitHub Trending 解説 70%) 系の中で最長 cooldown。素材整合率 100% (5本が『コンサル/組込エンジニア/OSINT アナリスト/スタートアップ CTO/ペネトレテスター』の 5 persona に自然に振れる稀有な素材配置) は今週 use-case で切るのに最適な条件。特に本日は OSINT ツール 2 本 (holehe + SpiderFoot) が同日 TOP5 = セキュリティ persona に 2/5 = 40% 集中、逆に開発者・組込・スタートアップ persona に 3/5 = 60% 分散で 5 persona 均等に埋まる。曜日 Sat=79 avg (週内 6 位・低期待日) は explore に賭けるより 柱① の中で fresh cooldown の method 投入が安全策、危機下 (08-08〜08-14 で 7 日連続 0-1 views 定着) では大穴狙いより 素材整合率主導 exploit で確実に narration 品質を上げる方が優先。narration 5 本すべてに persona 語 (『コンサル』『組込エンジニア』『OSINT 担当』『20 人規模のスタートアップ』『ペネトレ担当』) と scene 動詞 (『量産に効く』『載る』『洗える』『一本化できる』『洗い出せる』) を明示配置して use-case 角度の一貫性を担保。narration 5 本合計 248 文字 (51+54+47+52+44) TTS +30% で約 42-45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。重要背景: 08-08〜08-14 の 7 日連続 0-1 views 定着 (08-08〜08-10:0 確定 / 08-11:1 微反応 / 08-12:1 / 08-13:1 / 08-14:0 24h暫定) で『channel 全体の到達力低下疑惑』はほぼ確定局面だが、08-11〜08-13 の 3 日連続で 1 view が入ったのは 08-08〜08-10 の 0 定着からの微回復シグナル、明日 8/16 (Sun=5 最低期待日) の PDCA で crisis-mode 正式発動 or 継続判定と post-time/hashtag/title 語彙の infra 側点検を行う。今週の柱消化状況: 柱① 08-10 comparison + 08-14 comparison + 本日 08-15 use-case = 3 本目、柱② 08-13 business-angle、柱③ 08-11 self-experiment、柱④ 08-12 trend-pattern で pillar 4/4 完遂済、本日は柱① 系の純粋 exploit で視聴数取り。",
+    "method": "ecosystem",
+    "description": "本日のTOP5を『5本=5生態系のハブor中核ポイントとして俯瞰する空間俯瞰』の ecosystem angle で切り分ける。素材整合率5/5=100%: 1) cordiverse/cordis (#1新規、4,029★、+616、TypeScript) = TS製プラグイン合成のメタ基盤OSS、Koishi等のTS botフレームワークが依存する上流基盤・MIT・spatiotemporal composability の学術論文リファレンス実装・550 commits で active 開発 2) cathrynlavery/diagram-design (#2継続4日目、18,549★、+1,619、HTML) = Claude Codeスキル生態系の29種図解OSS、Anthropic Claude Code + Codex + Pi から利用可能・60秒ブランド抽出→29種の editorial ダイアグラム適用・MIT・consultant profile管理でagency案件並列対応 3) cursor/plugins (#3新規、2,941★、+152、TypeScript) = Cursor公式プラグインマーケット規格OSS、Cursor IDEの拡張プラグイン仕様+公式プラグイン集約リポジトリ・Salesforce/HubSpot/Gmail/Google Drive/Apollo/Gong/Ashbyの SaaS連携プラグイン既に並ぶ・MIT・.cursor-plugin/plugin.json+marketplace.json の標準規格 4) cactus-compute/needle (#4継続3日目、6,040★、+551、Python) = オンデバイスLLM生態系の14MBリファレンス、45Mパラメータ CQ2-bit量子化 14MBバイナリ・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval + confidence score・MIT・FunctionGemma 270M / LFM2.5 230M / Apple FM と競合 5) unslothai/unsloth (#5新規、72,012★、+435、Python) = ローカルLLM学習エコシステムの中心軸、Qwen 3.5-3.8 / Kimi K3 / Gemma 4 / DeepSeek-V4 / Llama 3.1-3.2 / Mistral / FLUX 対応・2× faster fine-tuning + 70% VRAM 削減 + GRPO 80% 削減・Unsloth Studio Web UI 新登場・Apache 2.0 + AGPL-3.0 dual license。method 選定: 直近 2 日 (08-15 use-case / 08-14 comparison) 連投ルールで両者除外、business-angle (08-13 消化 3 日 cooldown OK・14d avg 2.50 首位) と trend-pattern (08-12 消化 4 日 cooldown OK・14d avg 2.00 2 位) は柱② と柱④ の target 過剰指数回避のため today は柱① 系 exploit に譲る、self-experiment (08-11 消化 5 日 cooldown OK・柱③ 消化済) は今週の柱③ 2 本目でルール逸脱、tech-deep は全期間 avg 0.75 最下位で回復モード凍結。残る ecosystem は柱① 系で最長 cooldown 7 日 + 全期間 avg 1.67 で 2 位 tier + 素材整合率 5/5=100% の 3 条件で第一選択肢。narration 5 本すべてに『生態系』『マーケット』『中核』『拡張ポイント』『中心軸』などのエコシステム語を明示配置して ecosystem 角度の一貫性を担保。narration 5 本合計 261 文字 (52+49+53+52+55) TTS +30% で約 47 秒、opening/ending 5 秒込み 52 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。重要背景: 08-11 self-experiment が 1→2 views に 48h 更新で 14d TOP 3 tie に浮上、微回復トレンド継続が明確化、crisis-mode 正式発動閾値から 1 段離脱、8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して最終判定。今週の柱消化状況: 柱① 08-10 comparison + 08-14 comparison + 08-15 use-case + 本日 08-16 ecosystem = 4 本目 (4/7=57%、target 70% 微下位だが cooldown 制約下では妥当帯)、柱② 08-13 business-angle、柱③ 08-11 self-experiment、柱④ 08-12 trend-pattern で pillar 4/4 完遂で本日は柱① 系純粋 exploit で週次締め。曜日 Sun=直近 28 日 avg 2.3 サンプル薄で不安定だが週内首位 tier、前日 PDCA の『投稿見送り候補』シナリオは選択せず通常投稿を実行。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/cordiverse/cordis",
       "https://github.com/cathrynlavery/diagram-design",
+      "https://github.com/cursor/plugins",
       "https://github.com/cactus-compute/needle",
-      "https://github.com/megadose/holehe",
-      "https://github.com/macro-inc/macro",
-      "https://github.com/smicallef/spiderfoot"
+      "https://github.com/unslothai/unsloth"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "cordiverse/cordis",
+      "name": "cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "language": "TypeScript",
+      "stars": 4029,
+      "todayStars": 616,
+      "description": "TS製プラグイン基盤のメタOSS",
+      "detail": "TypeScript製の時空間プラグイン合成メタ基盤で、MITライセンスで公開されています。Koishiなどのbotフレームワークが依存し、TS側のプラグインエコシステムの底を支える立ち位置になっています。",
+      "narration": "cordisはTS製プラグイン合成のメタ基盤です。Koishi等のbot開発エコシステムを底で支えます。"
+    },
+    {
+      "rank": 2,
       "fullName": "cathrynlavery/diagram-design",
       "name": "diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "language": "HTML",
-      "stars": 17140,
-      "todayStars": 3651,
-      "description": "コンサル向け29種のダイアグラム集",
-      "detail": "29種類の editorial ダイアグラムを HTML+SVG で生成する Claude Code 用スキル集です。サイトの URL を渡すと60秒でブランド色を抽出し、コンサルや広告代理店のクライアント資料を一括で自社ブランド化できます。",
-      "narration": "コンサルの資料量産に効くClaude Code用ダイアグラム集です。60秒でブランド色を引き継ぎます。"
+      "stars": 18549,
+      "todayStars": 1619,
+      "description": "Claude Codeの29種図解スキル",
+      "detail": "Claude CodeやCodexから29種類のeditorial図をHTMLとSVGで生成できるスキル集OSSです。ホームページから60秒でブランド色と書体を抽出し、Anthropicのスキル生態系の中心的存在に育ちました。",
+      "narration": "Claude Codeのスキル生態系に29種の図解を持ち込みます。トレンド上位を占め続けています。"
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "fullName": "cursor/plugins",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "language": "TypeScript",
+      "stars": 2941,
+      "todayStars": 152,
+      "description": "Cursor公式プラグインの市場",
+      "detail": "Cursorが公開する公式プラグインの集約リポジトリで、MITライセンスの拡張規格が同梱されています。SalesforceやHubSpotやGmailなどSaaS連携の初期プラグインも並び、IDE中心のマーケットが立ち上がりました。",
+      "narration": "Cursorが公式プラグインマーケットを開きました。SalesforceやGmailの連携も既に並びます。"
+    },
+    {
+      "rank": 4,
       "fullName": "cactus-compute/needle",
       "name": "needle",
       "url": "https://github.com/cactus-compute/needle",
       "language": "Python",
-      "stars": 5569,
-      "todayStars": 661,
-      "description": "時計にも積める14MBの小型LLM",
-      "detail": "45パラメータのモデルを CQ2-bit 量子化で14MBバイナリに収めた組み込み用 LLM です。ウェアラブルやロボットの組込エンジニアが28MB RAM で tool calling や構造化抽出を端末側で完結できます。",
-      "narration": "時計やロボットに載る14MBの小型LLMです。組込エンジニアが端末だけでtool callingを回せます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "megadose/holehe",
-      "name": "holehe",
-      "url": "https://github.com/megadose/holehe",
-      "language": "Python",
-      "stars": 12820,
-      "todayStars": 427,
-      "description": "メール調査OSINT用CLIツール",
-      "detail": "メールアドレスから120以上のサービスの登録有無を一括確認できる Python の CLI/ライブラリです。パスワード再発行の挙動を利用するので対象にアラートを出さず、OSINT 担当が足取りを非侵襲で追えます。",
-      "narration": "メール1つで120以上のサイト登録を非侵襲で洗える調査ツールです。OSINT担当が愛用します。"
-    },
-    {
-      "rank": 4,
-      "fullName": "macro-inc/macro",
-      "name": "macro",
-      "url": "https://github.com/macro-inc/macro",
-      "language": "Rust",
-      "stars": 3007,
-      "todayStars": 435,
-      "description": "メールもタスクも束ねる統合OSS",
-      "detail": "メール・チャット・ドキュメント・タスク・CRM を1つの UI に束ねる AGPLv3 の Rust 製ワークスペースです。20人前後のスタートアップが Slack や Notion や HubSpot の月額を丸ごと止められます。",
-      "narration": "20人規模のスタートアップがSlackやNotionを一本化できるRust製OSSです。自ホスト可です。"
+      "stars": 6040,
+      "todayStars": 551,
+      "description": "14MBで動く端末側LLM基盤",
+      "detail": "45Mパラメータを14MBバイナリと28MB RAMに収めた組込LLMで、MITライセンスで公開されています。時計やIoT機器で動きながらtool callingや構造化出力もでき、オンデバイスAI生態系の中核として支持を集めています。",
+      "narration": "オンデバイスLLM生態系の中核として14MB版が登場です。時計やIoTでもtool callが動きます。"
     },
     {
       "rank": 5,
-      "fullName": "smicallef/spiderfoot",
-      "name": "spiderfoot",
-      "url": "https://github.com/smicallef/spiderfoot",
+      "fullName": "unslothai/unsloth",
+      "name": "unsloth",
+      "url": "https://github.com/unslothai/unsloth",
       "language": "Python",
-      "stars": 20918,
-      "todayStars": 292,
-      "description": "200種の攻撃面マッピングOSS",
-      "detail": "200以上の OSINT モジュールでドメインからサブドメインや漏洩情報を一括で引く攻撃面マッピング OSS です。ペネトレテスターや脅威インテル担当が調査資料の一次収集に使えます。",
-      "narration": "ペネトレ担当が1つのドメインから攻撃面を洗い出せる200モジュールのOSINT基盤です。"
+      "stars": 72012,
+      "todayStars": 435,
+      "description": "70%省VRAMのLLM学習OSS",
+      "detail": "Qwen3.8やDeepSeek-V4やGemma 4を70%省VRAMで学習できるOSS基盤で、Apache 2.0で提供されています。Studioと呼ぶ学習UIも登場し、ローカルLLMの学習・運用エコシステムの中心軸となっています。",
+      "narration": "unslothがローカルLLM学習の中心OSSです。省VRAM70%とStudio UIで研究者を吸引します。"
     }
   ]
 }
