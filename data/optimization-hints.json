@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-16",
-  "basedOnVideos": 13,
+  "updatedAt": "2026-08-17",
+  "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -33,75 +33,79 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-08-02〜08-15, n=12 評価済+08-15 24h未達): business-angle 2.50 n=2 (08-02:4 / 08-13:1) / trend-pattern 2.00 n=2 (08-07:3 / 08-12:1) / comparison 1.00 n=3 (08-04:2 / 08-10:0 / 08-14:1) / ecosystem 1.00 n=2 (08-03:2 / 08-09:0) / use-case 1.00 n=1 (08-05:1) / self-experiment 1.00 n=2 (08-08:0 / 08-11:2 前回1→2更新済)。全期間 (n=86, 08-14 分反映): stack-migration 2.00 n=1 / business-angle 1.75 n=16 / ecosystem 1.67 n=15 / comparison 1.63 n=19 / trend-pattern 1.31 n=13 / use-case 1.17 n=6 / self-experiment 1.09 n=11 / tech-deep 0.75 n=4。**重要**: 08-11 self-experiment が 24h→48h で 1→2 views に更新済 = 14d TOP 3 tie に浮上、微回復トレンド継続が明確化、前日 PDCA の crisis-mode 起爆条件『7 日連続 0-1 定着 + 5 method 全滅』の緩い判定は 08-11 2 views で不成立、8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して最終判定に持ち込む方針。crisis-mode 発動閾値からは 1 段離脱で通常運用継続シナリオが最有力。直近 2 日 (08-15 use-case / 08-14 comparison) 連投ルール除外、business-angle (08-13 消化 3 日 cooldown OK・14d首位 2.50 だが柱② 15% target 過剰指数回避) + trend-pattern (08-12 消化 4 日 cooldown OK・14d 2 位 2.00 だが柱④ 5% target 過剰指数回避) + self-experiment (08-11 消化 5 日 cooldown OK・柱③ 消化済で今週 2 本目はルール逸脱) + tech-deep (全期間最下位・凍結) の除外で残る柱① 系最長 cooldown 7 日の ecosystem (14d 1.00 n=2・全期間 1.67 n=15 で 2 位 tier) を素材整合率 5/5=100% (5 生態系のハブ配置) と組み合わせて選定。素材テーマは『TS プラグイン合成メタ基盤 (cordis 新規 #1) + Claude Code スキル生態系 (diagram-design 4 日連続 #2) + Cursor 公式プラグイン市場 (cursor/plugins 新規 #3) + オンデバイス LLM 生態系 (needle 3 日連続 #4) + ローカル LLM 学習エコシステム (unsloth 新規 #5) の 5 生態系ハブ同居週』、turnover 60% (3/5 新規)。曜日 Sun=直近 28 日 avg 2.3 (n=3 サンプル薄だが週内首位 tier) は柱① 系首位 tier temporarily 投入で期待値高い可能性、本日 ecosystem 全期間 1.67 で 2 位 tier に自然着地。"
+      "note": "Method 別 14d (2026-08-03〜08-16, n=13 評価済+08-16 24h未達): trend-pattern 2.00 n=2 (08-07:3 / 08-12:1) / ecosystem 1.00 n=2 (08-03:2 / 08-09:0) / comparison 1.00 n=3 (08-04:2 / 08-10:0 / 08-14:1) / business-angle 1.00 n=1 (08-13:1 、08-02 4views 窓外脱落で 2.50→1.00 大幅低下) / self-experiment 1.00 n=2 (08-08:0 / 08-11:2) / use-case 0.50 n=2 (08-05:1 / 08-15:0 暫定)。全期間 (n=87, 08-16 分は 24h 未達で集計外、8/18 反映予定): stack-migration 2.00 n=1 / business-angle 1.75 n=16 / ecosystem 1.67 n=15 / comparison 1.63 n=19 / trend-pattern 1.31 n=13 / use-case 1.17 n=6 / self-experiment 1.09 n=11 / tech-deep 0.75 n=4。**重要変化**: 08-02 (business-angle 4 views) の 14d 窓外脱落で trend-pattern が 14d 新首位 (2.00) に浮上、business-angle 14d は 3 位 tie 帯へ降格。crisis-mode 最終判定は『5 日連続 0 定着』および『7 日連続 0-1 定着 + 5 method 全滅』が 08-11 self-experiment 2 views で不成立継続、正式発動見送りで通常運用継続シナリオ確定。ただし『微回復』は 08-11 単発ノイズ依存で脆弱、8/18 以降も 0-1 定着継続なら次回 crisis-mode 判定に再持ち込む。直近 2 日 (08-16 ecosystem / 08-15 use-case) 連投ルール除外 + trend-pattern (08-12 消化 5 日 cooldown OK・14d 新首位だが Sun/Fri 高期待日に温存) + comparison (08-14 消化 3 日 cooldown OK・14d 内 2 件で連投リスク) + self-experiment (08-11 消化・柱③ は 8/18 以降に温存) + tech-deep (全期間最下位・凍結) の除外で残る business-angle (14d 首位ポジション崩壊からの復権試験) を素材整合率 5/5=100% (5 種類のコスト削減 or 案件見積武器化) と組み合わせて選定。素材テーマは『TS プラグイン合成メタ基盤 (cordis 新規 #1) + DHH 流 Arch 系 Linux (omarchy 継続 #2) + 省 VRAM LLM 学習 (unsloth 新規 #3) + CapCut 代替 OSS 動画 (OpenCut 継続 #4) + 無料 API 巨大カタログ (public-apis 継続 #5) の 5 種類の月額削減 or 案件見積武器化週』、turnover 40% (2/5 新規、3/5 継続)。曜日 Mon=直近 28 日 avg 1.5 (n=4 中位帯) は復権期待 method の実地検証枠、business-angle 14d 首位崩壊からの復権試験に自然着地。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は日曜 (Sun=直近 28 日 avg 2.3 n=3 サンプル薄で不安定、全期間 5 avg 最低期待日 tier とはズレて直近 28 日では週内首位 tier 浮上)。08-11 self-experiment 24h→48h で 1→2 views 更新 = 微回復トレンド継続明確化、crisis-mode 発動閾値から 1 段離脱で通常投稿継続、前日 PDCA の投稿見送りシナリオは選択せず。素材整合率 5/5=100% (5 生態系のハブ配置) + ecosystem (柱① 系最長 cooldown 7 日 + 全期間 avg 1.67 で 2 位 tier) の 2 条件複合で選定、8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して crisis-mode 最終判定"
+      "本日は月曜 (Mon=直近 28 日 avg 1.5 n=4 中位帯)、週次リセット初日で新週 (08-17〜08-23) の柱ローテ初回投入。08-02 (business-angle 4 views) 14d 窓外脱落で trend-pattern が 14d 新首位 (2.00) に浮上、business-angle は 3 位 tie 帯降格 = 復権試験ポジションに移行、Mon 中位期待日で復権可否を実地検証。crisis-mode 最終判定は 08-11 self-experiment 2 views で不成立継続、通常運用継続シナリオ確定。素材整合率 5/5=100% (5 種類の月額削減 or 案件見積武器化) + business-angle (14d 首位崩壊からの復権試験) の 2 条件複合で選定、8/18 PDCA で 08-15 use-case 24h 確定 + 08-16 ecosystem 24h 確定 + 08-17 business-angle 24h 暫定を集計して復権判定と微回復トレンド継続性判定"
     ],
     "hashtags": [
-      "ecosystem 角度の核心は『5 本を 5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰』。5 本のマッピング: #cordis=TypeScript 4,029★ +616 (#1 新規・cordiverse 開発) → **TS 製プラグイン合成のメタ基盤 OSS**、Koishi などの TS bot フレームワークが依存する上流基盤・MIT・spatiotemporal composability の学術論文リファレンス実装 / #diagram_design=HTML 18,549★ +1,619 (#2 継続・4 日目・cathrynlavery 開発) → **Claude Code スキル生態系の 29 種図解 OSS**、Anthropic Claude Code + Codex + Pi から利用可能・60 秒ブランド抽出→29 種の editorial ダイアグラム適用・MIT・consultant profile 管理で agency 案件並列対応 / #cursor_plugins=TypeScript 2,941★ +152 (#3 新規・cursor 開発) → **Cursor 公式プラグインマーケット規格 OSS**、Cursor IDE の拡張プラグイン仕様 + 公式プラグイン集約リポジトリ・Salesforce/HubSpot/Gmail/Google Drive/Apollo/Gong/Ashby の SaaS 連携プラグイン既に並ぶ・MIT / #needle=Python 6,040★ +551 (#4 継続・3 日目・cactus-compute 開発) → **オンデバイス LLM 生態系の 14MB リファレンス**、45M パラメータ CQ2-bit 量子化 14MB バイナリ・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval + confidence score・MIT / #unsloth=Python 72,012★ +435 (#5 新規・unslothai 開発) → **ローカル LLM 学習エコシステムの中心軸**、Qwen 3.5-3.8 / Kimi K3 / Gemma 4 / DeepSeek-V4 / Llama 3.1-3.2 / Mistral / FLUX 対応・2× faster fine-tuning + 70% VRAM 削減 + GRPO 80% 削減・Unsloth Studio Web UI 新登場・Apache 2.0 + AGPL-3.0 dual license",
-      "言語タグは Python 2 + TypeScript 2 + HTML 1 の 3 言語構成。Python (1.2x) 最上位 2 本 + TypeScript (1.1x) 2 本 + HTML (1.0x) 1 本中位、言語スコア平均は 5.2/5 (前日 5.0/5 より TypeScript 2 本追加で微増) で言語適合帯厚い",
-      "ecosystem 角度の独自 hashtag: #OSS #生態系 #エコシステム #マーケット #中心軸 #Anthropic #ClaudeCode #Cursor #Koishi #TypeScript #Python #HTML #MIT #Apache2 #AGPLv3 #オンデバイスAI #ローカルLLM #ローカル学習 #プラグイン開発 #IDE拡張 #14MB #Qwen #DeepSeek #Gemma #Kimi #Llama #FLUX #スキル拡張 #CTO #個人開発者"
+      "business-angle 角度の核心は『5 本を 5 種類の月額削減 or 案件見積武器化の切り口として事業視点で並べる』。5 本のマッピング: #cordis=TypeScript 4,682★ +719 (#1 新規・cordiverse 開発) → **TS 製プラグイン合成のメタ基盤 OSS**、Koishi 等の TS bot フレームワークが依存する上流基盤・MIT → 受託でチャット・自動化基盤を組む土台 / #omarchy=Shell 25,339★ +225 (#2 継続・basecamp 開発・DHH 個人プロジェクト) → **DHH 流 Arch 系 Linux ディストロ**、Neovim/Hyprland/LSP 即セットアップ済 → チーム環境構築半日で macOS 月額削減 / #unsloth=Python 72,527★ +580 (#3 新規・unslothai 開発) → **省 VRAM LLM 学習エコシステムの中心軸**、Qwen/Kimi/Gemma/DeepSeek 対応・2× faster + 70% VRAM 削減・Apache 2.0 + AGPL-3.0 dual license → 受託カスタム LLM 案件の学習コスト圧縮 / #OpenCut=TypeScript 83,844★ +134 (#4 継続・OpenCut-app 開発) → **CapCut 代替の OSS 動画エディタ**、タイムライン編集/エフェクト/エクスポート完備 → 制作会社サブスク費削減 + SaaS 組込 / #public_apis=Python 461,644★ +1,583 (#5 継続・public-apis 開発) → **無料 API 巨大カタログ**、1,400+ 種類/認証方式/CORS 対応明記 → PoC の API 調査コストほぼゼロ",
+      "言語タグは Python 2 + TypeScript 2 + Shell 1 の 3 言語構成。Python (1.2x) 最上位 2 本 + TypeScript (1.1x) 2 本 + Shell (1.0x) 1 本中位、言語スコア平均は 5.2/5 (前日と同水準) で言語適合帯厚い",
+      "business-angle 角度の独自 hashtag: #OSS #受託 #見積 #月額削減 #サブスク費削減 #SaaS組込 #PoC #案件武器化 #Basecamp #DHH #ArchLinux #Neovim #Hyprland #LSP #ClaudeCode #CapCut #FLUX #Qwen #DeepSeek #Gemma #Kimi #Llama #Apache2 #AGPLv3 #MIT #TypeScript #Python #Shell #CTO #個人開発者 #スタートアップ #受託開発 #技術選定 #コスト構造"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、通常運用復帰で標準レンジ)。5 本合計 261 文字 (52+49+53+52+55)、TTS +30% で約 47 秒、opening/ending 5 秒込み 52 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。個別 40-60 レンジ内 (max 55 文字・min 49 文字) で振れ幅小さく安定、前日の max 54・min 44 より上に寄せて情報密度改善",
-      "ecosystem 角度の一貫性: 5 本すべての narration に生態系語 (『メタ基盤』『生態系』『マーケット』『中核』『中心 OSS』) を明示配置。1 本目『cordisはTS製プラグイン合成のメタ基盤です。Koishi等のbot開発エコシステムを底で支えます』、2 本目『Claude Codeのスキル生態系に29種の図解を持ち込みます。トレンド上位を占め続けています』、3 本目『Cursorが公式プラグインマーケットを開きました。SalesforceやGmailの連携も既に並びます』、4 本目『オンデバイスLLM生態系の中核として14MB版が登場です。時計やIoTでもtool callが動きます』、5 本目『unslothがローカルLLM学習の中心OSSです。省VRAM70%とStudio UIで研究者を吸引します』で、視聴者が『5 本 = 5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰番組』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『生態系の中心/ハブ/中核/拡張ポイント』(『TS bot 生態系の底』『Claude Code スキル生態系の中心』『Cursor プラグインマーケット』『オンデバイス LLM 生態系の中核』『ローカル LLM 学習の中心 OSS』) を優先、単発紹介や use-case と違い『生態系ポジショニング』の信頼密度を担保。前日 use-case (5 本を 5 種類の persona × scene に配って誰の現場に効くかを提示する適用シーン番組) のカテゴリ内配布モードから、今日 ecosystem (5 本 = 5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰番組) にモード切替で 2 日で 1 セットの立体化を達成 (現場適用 → 生態系俯瞰の視点移動)",
-      "数値表現はアラビア数字統一 (29、60、14、70、120)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Salesforce、Gmail、Koishi、tool call、LLM、TS、Studio UI、VRAM、bot、IoT) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、通常運用継続で標準レンジ)。5 本合計 297 文字 (60+60+60+58+59)、TTS +30% で約 53 秒、opening/ending 5 秒込み 58 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。個別 40-60 レンジ内 (max 60 文字・min 58 文字) で振れ幅極小 (2 文字差) 安定、business-angle 語の情報密度を全 5 本で均等分配",
+      "business-angle 角度の一貫性: 5 本すべての narration に business-angle 語 (『受託』『見積』『月額』『削減』『圧縮』『SaaS 組込』『PoC』) を明示配置。1 本目『プラグイン合成のTypeScript製メタ基盤です。ボット基盤の土台にでき、受託のチャット案件を高速に立ち上げられます』、2 本目『DHHが作ったArch系Linuxディストロです。開発チームに配ると環境構築が半日で終わり、macOS脱却も現実的です』、3 本目『LLMを70%省VRAMで学習できるツールです。GPU代を圧縮でき、受託のカスタムモデル案件の見積を大きく下げられます』、4 本目『CapCut代替のOSS動画エディタです。制作会社のサブスク費を削れ、SaaSへ組み込めば動画機能を自前で持てます』、5 本目『無料APIを網羅した巨大リストです。PoCで有料契約する前にここで無料枠を探せ、API調査コストをほぼゼロにできます』で、視聴者が『5 本 = 5 種類の月額削減 or 案件見積武器化の事業視点番組』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『事業インパクト/コスト構造/受託見積』(『受託のチャット案件』『macOS 月額脱却』『受託のカスタムモデル見積』『制作会社サブスク費』『PoC の API 調査コスト』) を優先、単発紹介や ecosystem と違い『事業視点の信頼密度』を担保。前日 ecosystem (5 本 = 5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰番組) の空間俯瞰モードから、今日 business-angle (5 本 = 5 種類の月額削減 or 案件見積武器化の事業視点番組) にモード切替で 2 日で 1 セットの立体化を達成 (生態系俯瞰 → 事業視点の視点移動)",
+      "数値表現はアラビア数字統一 (70、1400)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (CapCut、SaaS、PoC、API、Qwen、Kimi、Gemma、DeepSeek、LLM、GPU、VRAM、DHH、Arch、macOS、Linux、Neovim、Hyprland、LSP、TypeScript) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `ecosystem` (14d avg 1.00 n=2 で 3 位 tie、柱① 系最長 cooldown 7 日、全期間 avg 1.67 n=15 で 2 位 tier、素材整合率 5/5=100% (5 生態系のハブ配置))。直近 2 日 (08-15 use-case / 08-14 comparison) 連投ルール + business-angle (08-13 消化 3 日 cooldown OK・14d 首位 2.50 だが柱② 15% target 過剰指数回避で除外) + trend-pattern (08-12 消化 4 日 cooldown OK・14d 2 位 2.00 だが柱④ 5% target 過剰指数回避で除外) + self-experiment (08-11 消化 5 日 cooldown OK・柱③ 消化済で今週 2 本目はルール逸脱) + tech-deep (全期間最下位・凍結) の除外で残る柱① 系最長 cooldown method。08-11 self-experiment 24h→48h で 1→2 views 更新で微回復トレンド継続明確化、crisis-mode 発動閾値から 1 段離脱で通常運用継続、柱① 系 fresh 効果狙い + 高期待日 (Tue/Fri) の 14d 首位 tier 温存戦略に合致。",
-      "本日 08-16 TOP5: #1 cordiverse/cordis=TypeScript / 4,029★ / +616 [初登場 #1・cordiverse 開発・MIT・spatiotemporal composability の学術論文リファレンス実装・550 commits で active 開発・14 open issues + 20 open PRs で高活性・**TS 製プラグイン合成のメタ基盤 OSS**、Koishi などの TS bot フレームワークが依存する上流基盤]、#2 cathrynlavery/diagram-design=HTML / 18,549★ / +1,619 [#1→#2 継続・4 日目・8/13〜8/16 4 日連続 top-tier・累計 10,078→14,251→17,140→18,549★ の急伸継続・29 editorial diagram types (Loop/flywheel/semantic system pattern 等)・サイトから 60 秒でブランド抽出→全種類一貫適用・WCAG AA + progressive disclosure + semantic routing + draw.io/Mermaid import 対応・Claude Code + Codex + Pi marketplace 経由・**Claude Code スキル生態系の 29 種図解 OSS**]、#3 cursor/plugins=TypeScript / 2,941★ / +152 [初登場 #3・cursor 開発・MIT・.cursor-plugin/plugin.json + marketplace.json の標準規格・Thermos (PR review) + Cursor SDK (TS 開発) + Salesforce/HubSpot/Gmail/Google Drive/Apollo/Gong/Ashby の SaaS 連携プラグイン既に並ぶ・**Cursor 公式プラグインマーケット規格 OSS**]、#4 cactus-compute/needle=Python / 6,040★ / +551 [#2→#4 継続・3 日目・累計 4,918→5,569→6,040★ で継続伸長・45M パラメータを CQ2-bit 量子化で 14MB バイナリに圧縮・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval head + confidence score + LoRA fine-tuning + MIT・FunctionGemma 270M / LFM2.5 230M / Apple FM と競合・**オンデバイス LLM 生態系の 14MB リファレンス**]、#5 unslothai/unsloth=Python / 72,012★ / +435 [初登場 #5・unslothai 開発・Apache 2.0 + AGPL-3.0 dual license・Qwen 3.5-3.8 / Kimi K3 / Gemma 4 / DeepSeek-V4 / Llama 3.1-3.2 / Mistral Ministral / FLUX 対応・2× faster fine-tuning + 70% VRAM 削減 + GRPO 80% 削減 + embedding models 20% 削減・Unsloth Studio Web UI 新登場・**ローカル LLM 学習エコシステムの中心軸**]",
-      "本日の ecosystem 核: 5 本を『各生態系のハブ or 中核ポイント』として俯瞰させ、視聴者に OSS 業界の生態系マップを提示。冒頭フックは『今日のTOP5は5つの生態系の中心にいます。5 本を俯瞰で並べます』。5 本を『TS プラグイン開発生態系 (cordis)』『Claude Code スキル生態系 (diagram-design)』『Cursor プラグインマーケット生態系 (cursor/plugins)』『オンデバイス LLM 生態系 (needle)』『ローカル LLM 学習エコシステム (unsloth)』の 5 生態系で語り、各 OSS の生態系ポジションを 1 つずつ明示。前日 08-15 use-case (5 persona × 5 scene の現場適用) からの natural zoom out で 2 日で 1 セットの立体化 (現場適用 → 生態系俯瞰の視点移動)",
-      "Primary (CTO/技術選定) には『どの生態系に張るべきか』の投資判断イメージ、Secondary (PdM/事業責任者) には『各エコシステムの現在地』のキャッチアップ材料、Tertiary (学習中) には『OSS の生態系全体像』の学習フレームとして 3 層直撃",
-      "**channel 到達力低下疑惑 (crisis-mode 分水嶺、1 段離脱)**: 08-11 self-experiment 24h→48h で 1→2 views 更新 = 微回復トレンド継続明確化、crisis-mode 発動閾値から 1 段離脱。前日 PDCA の crisis-mode 起爆条件『7 日連続 0-1 定着 + 5 種類以上の method で 0 定着』の緩い判定は 08-11 2 views で不成立、厳密判定 (0 定着のみ) は 08-11 で既に不成立。8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して最終判定するが、現時点では crisis-mode 発動は非現実的で通常運用継続シナリオが最有力。infra チェック (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) の緊急性は低下、必要判断時のみ 8/17 以降実施",
-      "連投上限ルール: 14d 内 ecosystem=08-03 窓外脱落 (8/17) + 08-09 の 1 件 + 本日 08-16 追加で 2 件維持 (8/23 08-09 窓外脱落まで維持)、comparison=08-04・08-10・08-14 の 3 件維持 (8/18 08-04 窓外脱落まで維持)、business-angle=08-02 窓外脱落 (8/16) / 08-13 の 1 件 (8/27 まで維持)、trend-pattern=08-07/08-12 の 2 件 (8/21 08-07 窓外脱落まで維持)、self-experiment=08-08/08-11 の 2 件 (8/22 まで維持)、use-case=08-05/08-15 の 2 件 (8/19 08-05 窓外脱落まで維持)、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で crisis-mode 判定次第で投入判定)"
+      "本日の discovery.method は `business-angle` (14d avg 1.00 n=1 で 3 位 tie、08-02 4 views 窓外脱落で 14d 首位ポジション崩壊、全期間 avg 1.75 n=16 で 首位 tier、素材整合率 5/5=100% (5 種類の月額削減 or 案件見積武器化))。直近 2 日 (08-16 ecosystem / 08-15 use-case) 連投ルール + trend-pattern (08-12 消化 5 日 cooldown OK・14d 新首位 2.00 だが Sun/Fri 高期待日に温存) + comparison (08-14 消化 3 日 cooldown OK・14d 内 2 件で連投リスク) + self-experiment (08-11 消化 6 日 cooldown OK・柱③ は 8/18 以降に温存) + tech-deep (全期間最下位・凍結) の除外で残る business-angle (14d 首位崩壊からの復権試験)。crisis-mode 最終判定は不成立継続で通常運用継続シナリオ確定、Mon 中位期待日 (直近 28 日 avg 1.5) の復権試験枠で business-angle 復権可否を実地検証。",
+      "本日 08-17 TOP5: #1 cordiverse/cordis=TypeScript / 4,682★ / +719 [初登場 #1・cordiverse 開発・MIT・spatiotemporal composability 設計・active 開発・**TS 製プラグイン合成のメタ基盤 OSS**、Koishi 等の TS bot フレームワークが依存する上流基盤 → 受託でチャット・自動化基盤を組む土台]、#2 basecamp/omarchy=Shell / 25,339★ / +225 [継続・basecamp 開発 (DHH 個人プロジェクト)・**DHH 流 Arch 系 Linux ディストロ**、Beautiful/Modern/Opinionated Linux・Neovim/Hyprland/LSP 即セットアップ済 → チーム環境構築半日で macOS 月額削減]、#3 unslothai/unsloth=Python / 72,527★ / +580 [初登場 #3・unslothai 開発・Apache 2.0 + AGPL-3.0 dual license・Qwen 3.5-3.8 / Kimi K3 / Gemma 4 / DeepSeek-V4 / Llama 3.1-3.2 / Mistral / FLUX 対応・2× faster fine-tuning + 70% VRAM 削減・**省 VRAM LLM 学習エコシステムの中心軸** → 受託カスタム LLM 案件の学習コスト圧縮]、#4 OpenCut-app/OpenCut=TypeScript / 83,844★ / +134 [継続・OpenCut-app 開発・**CapCut 代替の OSS 動画エディタ**、タイムライン編集/エフェクト/エクスポート完備 → 制作会社サブスク費削減 + SaaS 組込]、#5 public-apis/public-apis=Python / 461,644★ / +1,583 [継続・public-apis 開発・**無料 API 巨大カタログ**、1,400+ 種類/認証方式/CORS 対応明記 → PoC の API 調査コストほぼゼロ]",
+      "本日の business-angle 核: 5 本を『各 OSS の事業インパクト or コスト削減の切り口』として事業視点で並べ、視聴者に自分の案件・自社のコスト構造への当てはめを提示。冒頭フックは『今日のTOP5は5種類のコスト削減 or 案件見積武器化です。5 本の事業視点を並べます』。5 本を『受託でチャット基盤を組む土台 (cordis)』『チーム環境構築 macOS 月額削減 (omarchy)』『受託カスタム LLM 案件の学習コスト圧縮 (unsloth)』『制作会社サブスク費削減 + SaaS 組込 (OpenCut)』『PoC の API 調査コストほぼゼロ (public-apis)』の 5 種類の事業視点で語り、各 OSS の事業価値を 1 つずつ明示。前日 08-16 ecosystem (5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰) からの natural switch で 2 日で 1 セットの立体化 (生態系俯瞰 → 事業視点の視点移動)",
+      "Primary (CTO/技術選定) には『受託案件の見積とコスト構造で使う』の投資判断、Secondary (PdM/事業責任者) には『月額サブスク費削減の武器』のキャッチアップ材料、Tertiary (学習中) には『OSS の事業価値の理解』の学習フレームとして 3 層直撃",
+      "**crisis-mode 最終判定 (正式発動見送り、通常運用継続)**: 08-08〜08-16 の 9 日窓で 08-08/09/10/15/16 が 0 views (5 日 0 定着)、08-11 は 2 views、08-12/13/14 は各 1 view。『5 日連続 0 定着』は 08-11 2 views で不成立、『7 日連続 0-1 views 定着』も 08-11 2 views で不成立継続。厳密判定条件両方とも不成立で crisis-mode 正式発動見送り、通常運用継続シナリオ確定。ただし『微回復トレンド』は 08-11 単発の 2 views 依存で脆弱、8/18 以降も 0-1 定着継続なら次回 crisis-mode 判定に再持ち込む。infra チェック (post-time / hashtag 数 / title 語彙 / thumbnail / channel age 節目 / platform-migration 検討) の緊急性は継続低下、必要判断時のみ 8/18 以降実施",
+      "連投上限ルール: 14d 内 business-angle=08-02 窓外脱落 (8/17) / 08-13 の 1 件 + 本日 08-17 追加で 2 件維持 (8/27 まで維持)、ecosystem=08-03 窓外脱落 (8/17) + 08-09 の 1 件 + 08-16 追加で 2 件維持 (8/23 08-09 窓外脱落まで維持)、comparison=08-04・08-10・08-14 の 3 件 → 08-04 が 8/18 で窓外脱落予定で 2 件へ縮小、trend-pattern=08-07/08-12 の 2 件 (8/21 08-07 窓外脱落まで維持)、self-experiment=08-08/08-11 の 2 件 (8/22 まで維持)、use-case=08-05/08-15 の 2 件 → 08-05 が 8/19 で窓外脱落予定で 1 件へ縮小、tech-deep=0 件 (14d 圏外脱落継続、explore 凍結延長候補で 8/20 前後の中位曜日に投入判定)"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-16",
-    "dayOfWeek": "Sun",
+    "date": "2026-08-17",
+    "dayOfWeek": "Mon",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
-      "生態系",
-      "エコシステム",
-      "マーケット",
-      "中心軸",
-      "Anthropic",
+      "受託",
+      "見積",
+      "月額削減",
+      "サブスク費削減",
+      "SaaS組込",
+      "PoC",
+      "案件武器化",
+      "Basecamp",
+      "DHH",
+      "ArchLinux",
+      "Neovim",
+      "Hyprland",
+      "LSP",
       "ClaudeCode",
-      "Cursor",
-      "Koishi",
-      "TypeScript",
-      "Python",
-      "HTML",
-      "MIT",
-      "Apache2",
-      "AGPLv3",
-      "オンデバイスAI",
-      "ローカルLLM",
-      "ローカル学習",
-      "プラグイン開発",
-      "IDE拡張",
-      "14MB",
+      "CapCut",
+      "FLUX",
       "Qwen",
       "DeepSeek",
       "Gemma",
       "Kimi",
       "Llama",
-      "FLUX",
-      "スキル拡張",
+      "Apache2",
+      "AGPLv3",
+      "MIT",
+      "TypeScript",
+      "Python",
+      "Shell",
       "CTO",
       "個人開発者",
+      "スタートアップ",
+      "受託開発",
+      "技術選定",
+      "コスト構造",
       "cordis",
-      "diagram_design",
-      "cursor_plugins",
-      "needle",
-      "unsloth"
+      "omarchy",
+      "unsloth",
+      "OpenCut",
+      "public_apis"
     ],
-    "focus": "日曜 (Sun=直近 28 日 avg 2.3 n=3 サンプル薄で不安定、全期間 5 avg 最低期待日 tier とはズレて直近 28 日では週内首位 tier 浮上) は高期待日 tier で通常投稿。08-11 self-experiment 24h→48h で 1→2 views 更新 = 微回復トレンド継続明確化、前日 PDCA の crisis-mode 起爆条件『7 日連続 0-1 定着 + 5 method 全滅』の緩い判定は 08-11 2 views で不成立、crisis-mode 発動閾値から 1 段離脱で通常投稿継続、投稿見送りシナリオは選択せず。素材整合率 5/5=100% (5 生態系のハブ配置) + ecosystem (柱① 系最長 cooldown 7 日 + 全期間 avg 1.67 で 2 位 tier) の 2 条件複合で `ecosystem` を投入。5/5=100% 素材 (cordiverse/cordis #1 新規 → TS 製プラグイン合成のメタ基盤 / cathrynlavery/diagram-design #2 継続 4 日目 → Claude Code スキル生態系の 29 種図解 / cursor/plugins #3 新規 → Cursor 公式プラグインマーケット規格 / cactus-compute/needle #4 継続 3 日目 → オンデバイス LLM 生態系の 14MB リファレンス / unslothai/unsloth #5 新規 → ローカル LLM 学習エコシステムの中心軸) が『5 本 = 5 生態系のハブ or 中核ポイントとして俯瞰する空間俯瞰』の生態系語りと完全整合。特に本日は cordis (TS プラグイン合成) と cursor/plugins (Cursor プラグイン規格) が同じ TS プラグイン系譜、needle (14MB LLM) と unsloth (省VRAM 学習) が同じ local AI 系譜、diagram-design (Claude Code スキル) が Anthropic 系譜の生態系マップ断面図として並ぶ稀有な配置。直近 2 日 (08-15 use-case / 08-14 comparison) 連投ルール + business-angle (08-13 消化・柱② 過剰指数回避) + trend-pattern (08-12 消化・柱④ 過剰指数回避) + self-experiment (08-11 消化・柱③ 消化済で今週 2 本目はルール逸脱) + tech-deep 凍結で ecosystem が柱① 系最長 cooldown method で残る最鮮度カード。本日の TOP5 は 2/5 継続 (diagram-design 4 日目/needle 3 日目)、3/5 新規 (cordis/cursor/plugins/unsloth) で lineup 60% 刷新、素材テーマは『TS プラグイン合成メタ基盤 (cordis) + Claude Code スキル生態系 (diagram-design) + Cursor 公式プラグイン市場 (cursor/plugins) + オンデバイス LLM 生態系 (needle) + ローカル LLM 学習エコシステム (unsloth) の 5 生態系ハブ同居週』。method 切替 (use-case → ecosystem) + 語彙総入替 (◯◯が使う/◯◯向け/◯◯の現場で/◯◯に効く/◯◯を洗える → ◯◯生態系の中核/◯◯マーケットの中心/◯◯エコシステムのハブ/◯◯の拡張ポイント/◯◯の中心軸) で視聴者の脳内モードを『自分の現場に当てはめる (適用シーン)』から『今の OSS 業界の生態系マップを俯瞰する (空間俯瞰)』へ 90 度回転、素材同質性 (TS 2 本 + Python 2 本) を『5 生態系ハブ並列』の広さで訴求。narration は 5 本すべてに生態系語 (『メタ基盤』『生態系』『マーケット』『中核』『中心 OSS』) を配置、5 本合計 261 文字 (52+49+53+52+55) で TTS 換算約 47 秒、opening/ending 5 秒込み 52 秒枠内で IG Reels 60 秒制約に余裕。柱① (GitHub Trending 解説 70%) は 08-10 comparison + 08-14 comparison + 08-15 use-case + 本日 08-16 ecosystem で 4 本目 (今週柱① 4/7=57%、target 70% 微下位だが cooldown 制約下では妥当帯)、柱② 08-13 消化・今週完遂、柱③ 08-11 消化・今週完遂、柱④ 08-12 消化・今週完遂、pillar 4/4 完遂で本日は柱① 系純粋 exploit で週次締め。**crisis 分水嶺 (1 段離脱)**: 08-11 self-experiment 2 views 更新で crisis-mode 発動閾値から 1 段離脱、通常運用継続シナリオが最有力、8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して最終判定。infra チェックの緊急性は低下、必要判断時のみ 8/17 以降実施。explore 枠凍結 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・infra-health-check・platform-migration・persona-scenario-deep・ecosystem-map 提案) はすべて crisis-mode 最終判定後の 8/17 以降送り。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "月曜 (Mon=直近 28 日 avg 1.5 n=4 中位帯) は復権期待 method の実地検証枠、週次リセット初日で新週 (08-17〜08-23) の柱ローテ初回投入。08-02 (business-angle 4 views) 14d 窓外脱落で trend-pattern が 14d 新首位 (2.00) に浮上、business-angle は 3 位 tie 帯降格 = 復権試験ポジション。crisis-mode 最終判定は 08-11 self-experiment 2 views で不成立継続、正式発動見送りで通常運用継続シナリオ確定。素材整合率 5/5=100% (5 種類の月額削減 or 案件見積武器化) + business-angle (14d 首位崩壊からの復権試験) の 2 条件複合で `business-angle` を投入。5/5=100% 素材 (cordiverse/cordis #1 新規 → TS 製プラグイン合成のメタ基盤 (受託でチャット基盤を組む土台) / basecamp/omarchy #2 継続 → DHH 流 Arch 系 Linux (チーム環境構築 macOS 月額削減) / unslothai/unsloth #3 新規 → 省 VRAM LLM 学習 (受託カスタム LLM 案件の学習コスト圧縮) / OpenCut-app/OpenCut #4 継続 → CapCut 代替 OSS 動画 (制作会社サブスク費削減 + SaaS 組込) / public-apis/public-apis #5 継続 → 無料 API 巨大カタログ (PoC の API 調査コストほぼゼロ)) が『5 本 = 5 種類の月額削減 or 案件見積武器化の事業視点』の business-angle 語りと完全整合。特に本日は cordis/unsloth (受託開発の土台と武器)、omarchy/OpenCut (月額サブスク費削減)、public-apis (PoC の初期コスト圧縮) の 3 タイプの事業インパクトが並ぶ稀有な素材配置。直近 2 日 (08-16 ecosystem / 08-15 use-case) 連投ルール + trend-pattern (08-12 消化・Sun/Fri 高期待日に温存) + comparison (08-14 消化・14d 内 2 件で連投リスク) + self-experiment (08-11 消化・柱③ は 8/18 以降に温存) + tech-deep 凍結で business-angle が残る復権試験カード。本日の TOP5 は 2/5 新規 (cordis/unsloth)、3/5 継続 (omarchy/OpenCut/public-apis) で lineup 40% 刷新、素材テーマは『TS プラグイン合成メタ基盤 (cordis) + DHH 流 Arch 系 Linux (omarchy) + 省 VRAM LLM 学習 (unsloth) + CapCut 代替 OSS 動画 (OpenCut) + 無料 API 巨大カタログ (public-apis) の 5 種類の月額削減 or 案件見積武器化週』。method 切替 (ecosystem → business-angle) + 語彙総入替 (◯◯生態系の中核/◯◯マーケットの中心/◯◯エコシステムのハブ/◯◯の拡張ポイント/◯◯の中心軸 → 受託で組む土台/月額を削れる/案件見積の武器/サブスク費を削減/PoC の API 調査コストを圧縮) で視聴者の脳内モードを『今の OSS 業界の生態系マップを俯瞰する (空間俯瞰)』から『自分の案件・自社のコスト構造に落とし込む (事業視点)』へ 90 度回転、素材同質性 (TS 2 本 + Python 2 本 + Shell 1 本) を『5 種類の事業インパクト並列』の広さで訴求。narration は 5 本すべてに business-angle 語 (『受託』『見積』『月額』『削減』『圧縮』『SaaS 組込』『PoC』) を配置、5 本合計 297 文字 (60+60+60+58+59) で TTS 換算約 53 秒、opening/ending 5 秒込み 58 秒枠内で IG Reels 60 秒制約に余裕。柱② (business-angle 15%) は今週 1 本目、以降 8/18〜8/23 で柱① 系 4-5 本 + 柱③ 1 本 + 柱④ 1 本 (or tech-deep explore) を配置予定、pillar 週次ローテ再開で本日は柱② 週次初回投入。**crisis 分水嶺 (正式発動見送り確定)**: 08-11 self-experiment 2 views 単発ノイズで crisis-mode 発動閾値離脱継続、通常運用継続シナリオ確定。8/18 PDCA で 08-15 use-case 24h 確定 + 08-16 ecosystem 24h 確定 + 08-17 business-angle 24h 暫定を集計して業復権判定と微回復トレンド継続性判定。infra チェックの緊急性は継続低下、必要判断時のみ 8/18 以降実施。explore 枠 (『回復モード』発動) は継続、explore 系 (tech-deep 新規・infra-health-check・platform-migration・persona-scenario-deep・business-outcome-timeline 提案・enterprise-adoption-check 提案・freemium-migration-cost 提案) はすべて 8/20 前後の中位曜日に投入判定。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
