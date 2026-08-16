@@ -1,15 +1,17 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『5本=5生態系のハブor中核ポイントとして俯瞰する空間俯瞰』の ecosystem angle で切り分ける。素材整合率5/5=100%: 1) cordiverse/cordis (#1新規、4,029★、+616、TypeScript) = TS製プラグイン合成のメタ基盤OSS、Koishi等のTS botフレームワークが依存する上流基盤・MIT・spatiotemporal composability の学術論文リファレンス実装・550 commits で active 開発 2) cathrynlavery/diagram-design (#2継続4日目、18,549★、+1,619、HTML) = Claude Codeスキル生態系の29種図解OSS、Anthropic Claude Code + Codex + Pi から利用可能・60秒ブランド抽出→29種の editorial ダイアグラム適用・MIT・consultant profile管理でagency案件並列対応 3) cursor/plugins (#3新規、2,941★、+152、TypeScript) = Cursor公式プラグインマーケット規格OSS、Cursor IDEの拡張プラグイン仕様+公式プラグイン集約リポジトリ・Salesforce/HubSpot/Gmail/Google Drive/Apollo/Gong/Ashbyの SaaS連携プラグイン既に並ぶ・MIT・.cursor-plugin/plugin.json+marketplace.json の標準規格 4) cactus-compute/needle (#4継続3日目、6,040★、+551、Python) = オンデバイスLLM生態系の14MBリファレンス、45Mパラメータ CQ2-bit量子化 14MBバイナリ・28MB RAM で phone/watch/smart home/robot 動作・256-token sliding window + tool retrieval + confidence score・MIT・FunctionGemma 270M / LFM2.5 230M / Apple FM と競合 5) unslothai/unsloth (#5新規、72,012★、+435、Python) = ローカルLLM学習エコシステムの中心軸、Qwen 3.5-3.8 / Kimi K3 / Gemma 4 / DeepSeek-V4 / Llama 3.1-3.2 / Mistral / FLUX 対応・2× faster fine-tuning + 70% VRAM 削減 + GRPO 80% 削減・Unsloth Studio Web UI 新登場・Apache 2.0 + AGPL-3.0 dual license。method 選定: 直近 2 日 (08-15 use-case / 08-14 comparison) 連投ルールで両者除外、business-angle (08-13 消化 3 日 cooldown OK・14d avg 2.50 首位) と trend-pattern (08-12 消化 4 日 cooldown OK・14d avg 2.00 2 位) は柱② と柱④ の target 過剰指数回避のため today は柱① 系 exploit に譲る、self-experiment (08-11 消化 5 日 cooldown OK・柱③ 消化済) は今週の柱③ 2 本目でルール逸脱、tech-deep は全期間 avg 0.75 最下位で回復モード凍結。残る ecosystem は柱① 系で最長 cooldown 7 日 + 全期間 avg 1.67 で 2 位 tier + 素材整合率 5/5=100% の 3 条件で第一選択肢。narration 5 本すべてに『生態系』『マーケット』『中核』『拡張ポイント』『中心軸』などのエコシステム語を明示配置して ecosystem 角度の一貫性を担保。narration 5 本合計 261 文字 (52+49+53+52+55) TTS +30% で約 47 秒、opening/ending 5 秒込み 52 秒枠内で IG Reels 60 秒制約に余裕を持ってクリア。重要背景: 08-11 self-experiment が 1→2 views に 48h 更新で 14d TOP 3 tie に浮上、微回復トレンド継続が明確化、crisis-mode 正式発動閾値から 1 段離脱、8/17 PDCA で 08-15 use-case 24h 確定 + 08-14 comparison 48h 最終を集計して最終判定。今週の柱消化状況: 柱① 08-10 comparison + 08-14 comparison + 08-15 use-case + 本日 08-16 ecosystem = 4 本目 (4/7=57%、target 70% 微下位だが cooldown 制約下では妥当帯)、柱② 08-13 business-angle、柱③ 08-11 self-experiment、柱④ 08-12 trend-pattern で pillar 4/4 完遂で本日は柱① 系純粋 exploit で週次締め。曜日 Sun=直近 28 日 avg 2.3 サンプル薄で不安定だが週内首位 tier、前日 PDCA の『投稿見送り候補』シナリオは選択せず通常投稿を実行。",
+    "method": "business-angle",
+    "description": "各OSSを受託開発・スタートアップ視点で料理し、月額削減や案件見積の武器化を提示",
     "sources": [
       "https://github.com/trending",
       "https://github.com/cordiverse/cordis",
-      "https://github.com/cathrynlavery/diagram-design",
-      "https://github.com/cursor/plugins",
-      "https://github.com/cactus-compute/needle",
-      "https://github.com/unslothai/unsloth"
+      "https://github.com/basecamp/omarchy",
+      "https://github.com/unslothai/unsloth",
+      "https://github.com/OpenCut-app/OpenCut",
+      "https://github.com/public-apis/public-apis",
+      "https://news.ycombinator.com/from?site=github.com%2Funslothai%2Funsloth",
+      "https://news.ycombinator.com/from?site=github.com%2Fbasecamp%2Fomarchy"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +23,59 @@
       "name": "cordis",
       "url": "https://github.com/cordiverse/cordis",
       "language": "TypeScript",
-      "stars": 4029,
-      "todayStars": 616,
-      "description": "TS製プラグイン基盤のメタOSS",
-      "detail": "TypeScript製の時空間プラグイン合成メタ基盤で、MITライセンスで公開されています。Koishiなどのbotフレームワークが依存し、TS側のプラグインエコシステムの底を支える立ち位置になっています。",
-      "narration": "cordisはTS製プラグイン合成のメタ基盤です。Koishi等のbot開発エコシステムを底で支えます。"
+      "stars": 4682,
+      "todayStars": 719,
+      "description": "プラグイン合成のメタ基盤フレーム",
+      "detail": "TypeScript製のプラグイン合成メタ基盤で、Koishi等のボットフレームワークが依存する上流基盤です。受託開発でチャット・自動化プラットフォームを組む時に土台として使え、拡張ポイントを最初から用意できます。",
+      "narration": "プラグイン合成のTypeScript製メタ基盤です。ボット基盤の土台にでき、受託のチャット案件を高速に立ち上げられます。"
     },
     {
       "rank": 2,
-      "fullName": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "language": "HTML",
-      "stars": 18549,
-      "todayStars": 1619,
-      "description": "Claude Codeの29種図解スキル",
-      "detail": "Claude CodeやCodexから29種類のeditorial図をHTMLとSVGで生成できるスキル集OSSです。ホームページから60秒でブランド色と書体を抽出し、Anthropicのスキル生態系の中心的存在に育ちました。",
-      "narration": "Claude Codeのスキル生態系に29種の図解を持ち込みます。トレンド上位を占め続けています。"
+      "fullName": "basecamp/omarchy",
+      "name": "omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "language": "Shell",
+      "stars": 25339,
+      "todayStars": 225,
+      "description": "DHH流Arch系Linuxディストロ",
+      "detail": "Basecamp創業者DHHが構築したArchベースの開発者向けLinuxで、Neovim・Hyprland・LSPが即セットアップ済みです。チームに配れば環境構築が半日で完了し、macOSの月額を削り開発者投資を効率化できます。",
+      "narration": "DHHが作ったArch系Linuxディストロです。開発チームに配ると環境構築が半日で終わり、macOS脱却も現実的です。"
     },
     {
       "rank": 3,
-      "fullName": "cursor/plugins",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "stars": 2941,
-      "todayStars": 152,
-      "description": "Cursor公式プラグインの市場",
-      "detail": "Cursorが公開する公式プラグインの集約リポジトリで、MITライセンスの拡張規格が同梱されています。SalesforceやHubSpotやGmailなどSaaS連携の初期プラグインも並び、IDE中心のマーケットが立ち上がりました。",
-      "narration": "Cursorが公式プラグインマーケットを開きました。SalesforceやGmailの連携も既に並びます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "cactus-compute/needle",
-      "name": "needle",
-      "url": "https://github.com/cactus-compute/needle",
-      "language": "Python",
-      "stars": 6040,
-      "todayStars": 551,
-      "description": "14MBで動く端末側LLM基盤",
-      "detail": "45Mパラメータを14MBバイナリと28MB RAMに収めた組込LLMで、MITライセンスで公開されています。時計やIoT機器で動きながらtool callingや構造化出力もでき、オンデバイスAI生態系の中核として支持を集めています。",
-      "narration": "オンデバイスLLM生態系の中核として14MB版が登場です。時計やIoTでもtool callが動きます。"
-    },
-    {
-      "rank": 5,
       "fullName": "unslothai/unsloth",
       "name": "unsloth",
       "url": "https://github.com/unslothai/unsloth",
       "language": "Python",
-      "stars": 72012,
-      "todayStars": 435,
-      "description": "70%省VRAMのLLM学習OSS",
-      "detail": "Qwen3.8やDeepSeek-V4やGemma 4を70%省VRAMで学習できるOSS基盤で、Apache 2.0で提供されています。Studioと呼ぶ学習UIも登場し、ローカルLLMの学習・運用エコシステムの中心軸となっています。",
-      "narration": "unslothがローカルLLM学習の中心OSSです。省VRAM70%とStudio UIで研究者を吸引します。"
+      "stars": 72527,
+      "todayStars": 580,
+      "description": "70%省VRAMのLLM学習フレーム",
+      "detail": "Qwen・Kimi・Gemma・DeepSeekなど主要LLMをRTX 3090級のGPUで2倍高速に微調整でき、VRAMを70%削減します。受託でカスタムLLMを組む案件の学習コストを大幅に圧縮でき、見積の競争力が上がります。",
+      "narration": "LLMを70%省VRAMで学習できるツールです。GPU代を圧縮でき、受託のカスタムモデル案件の見積を大きく下げられます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "OpenCut-app/OpenCut",
+      "name": "OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "language": "TypeScript",
+      "stars": 83844,
+      "todayStars": 134,
+      "description": "CapCut代替のOSS動画エディタ",
+      "detail": "CapCutの完全代替を目指すOSS動画エディタで、タイムライン編集・エフェクト・エクスポートを備えます。制作会社のサブスク費を削れる他、SaaSへ組み込めば自社動画編集機能をライセンス料ゼロで展開できます。",
+      "narration": "CapCut代替のOSS動画エディタです。制作会社のサブスク費を削れ、SaaSへ組み込めば動画機能を自前で持てます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "public-apis/public-apis",
+      "name": "public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "language": "Python",
+      "stars": 461644,
+      "todayStars": 1583,
+      "description": "無料APIを網羅した巨大カタログ",
+      "detail": "1400種類以上の無料APIをカテゴリ別に整理した巨大リストで、認証方式やCORS対応も明記されます。PoCで有料APIを契約する前にここで無料枠を洗え、初期のAPI調査コストと月額をほぼゼロにできます。",
+      "narration": "無料APIを網羅した巨大リストです。PoCで有料契約する前にここで無料枠を探せ、API調査コストをほぼゼロにできます。"
     }
   ]
 }
