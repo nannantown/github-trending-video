@@ -2,63 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "EJrzs9vKMxg",
-      "videoUrl": "https://youtube.com/shorts/EJrzs9vKMxg",
-      "date": "2026-05-17",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/17 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "Swift"
-      ],
-      "languages": [
-        "Rust",
-        "Python",
-        "Shell",
-        "JavaScript",
-        "Swift"
-      ],
-      "projects": [
-        "oven-sh/bun",
-        "K-Dense-AI/scientific-agent-skills",
-        "obra/superpowers",
-        "Anil-matcha/Open-Generative-AI",
-        "supertone-inc/supertonic"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "本日の TOP5 を『2026 年 5 月、開発ツール/AI エコシステムが「単機能 1 ツール」から「オールインワン or モジュラー集合体」へ収束しつつある』というマクロ視点で 5 本横断に料理する。#1 oven-sh/bun は JS のランタイム・バンドラ・テスト・パッケージ管理を 1 本に束ねるオールインワン化、#2 K-Dense-AI/scientific-agent-skills は 135 本の研究領域 Skill を一括パック化、#3 obra/superpowers は開発方法論を Skill 群として強制注入、#4 Anil-matcha/Open-Generative-AI は画像動画 AI モデル 200 種を 1 画面に集約、#5 supertone-inc/supertonic は 99M パラメータの軽量 TTS でクラウド依存から端末完結への揺り戻し、と全 5 本が「1 機能 1 ツール時代の終わり」を別カテゴリで体現。直近 2 日 (05/16=comparison / 05/15=business-angle 由来動画) と method 衝突なし、trend-pattern は 14 日窓 TOP method (avg 6.00 / 05/07=6 が最終投入から 10 日空き)、素材適合度 5/5 で本日の trend-pattern 投入は本命。柱② 比率 15% の週次必須要件は 05/14-15 business-angle 投入で既達。05/14-16 で続いた main 到達失敗事故への対策として PR 経由 squash merge + 着弾検証を必須実行。Sun=8 avg 最下位曜日帯、最低 2 views (過去 Sun 下位帯超え)、理想 15 views (Sun 上位帯への漸近) を目標値とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/oven-sh/bun",
-          "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "https://github.com/obra/superpowers",
-          "https://github.com/Anil-matcha/Open-Generative-AI",
-          "https://github.com/supertone-inc/supertonic",
-          "https://agentskills.io",
-          "https://docs.anthropic.com/en/docs/claude-code/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-31T23:52:52.518Z"
-      }
-    },
-    {
       "videoId": "FizVs8IcsU0",
       "videoUrl": "https://youtube.com/shorts/FizVs8IcsU0",
       "date": "2026-05-18",
@@ -3835,7 +3778,7 @@
         "views": 5,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -3894,7 +3837,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -3951,7 +3894,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4008,7 +3951,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4068,7 +4011,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4127,7 +4070,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4186,7 +4129,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4242,7 +4185,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4298,7 +4241,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4357,7 +4300,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4414,7 +4357,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4468,7 +4411,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4521,7 +4464,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-15T23:08:02.515Z"
+        "updatedAt": "2026-08-16T23:06:51.545Z"
       }
     },
     {
@@ -4577,29 +4520,67 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-16T23:06:51.545Z"
+      }
+    },
+    {
+      "videoId": "OAEfl_Qnbkg",
+      "videoUrl": "https://youtube.com/shorts/OAEfl_Qnbkg",
+      "date": "2026-08-17",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/17 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Shell",
+        "Python"
+      ],
+      "languages": [
+        "TypeScript",
+        "Shell",
+        "Python"
+      ],
+      "projects": [
+        "cordiverse/cordis",
+        "basecamp/omarchy",
+        "unslothai/unsloth",
+        "OpenCut-app/OpenCut",
+        "public-apis/public-apis"
+      ],
+      "durationSeconds": 57,
+      "discovery": {
+        "method": "business-angle",
+        "description": "各OSSを受託開発・スタートアップ視点で料理し、月額削減や案件見積の武器化を提示",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/cordiverse/cordis",
+          "https://github.com/basecamp/omarchy",
+          "https://github.com/unslothai/unsloth",
+          "https://github.com/OpenCut-app/OpenCut",
+          "https://github.com/public-apis/public-apis",
+          "https://news.ycombinator.com/from?site=github.com%2Funslothai%2Funsloth",
+          "https://news.ycombinator.com/from?site=github.com%2Fbasecamp%2Fomarchy"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-14",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "C++: 0.0x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 67 avg views (81 videos)",
-        "Trending languages: Jupyter Notebook (5.8x)",
-        "Day performance: Fri=170, Tue=155, Thu=67, Wed=57, Mon=22, Sat=4, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-15",
       "changes": [
@@ -5089,6 +5070,18 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
         "Day performance: Sat=2, Tue=2, Fri=2, Sun=1, Mon=1, Wed=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-16",
+      "changes": [
+        "Swift: 0.0x avg views → drop",
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
+        "Day performance: Tue=2, Fri=2, Sat=2, Sun=1, Mon=1, Wed=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
