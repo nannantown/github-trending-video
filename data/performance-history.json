@@ -2,62 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "FizVs8IcsU0",
-      "videoUrl": "https://youtube.com/shorts/FizVs8IcsU0",
-      "date": "2026-05-18",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/18 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Rust",
-        "Python",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "projects": [
-        "tinyhumansai/openhuman",
-        "HKUDS/CLI-Anything",
-        "calcom/cal.diy",
-        "oven-sh/bun",
-        "Anil-matcha/Open-Generative-AI"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "tech-deep",
-        "description": "本日の TOP5 を『何が技術的に新しいか』の一点だけで料理する。#1 tinyhumansai/openhuman は Tauri デスクトップに Memory Trees (≤3k token Markdown 階層圧縮) と TokenJuice (HTML→Markdown 変換ベースの最大 80% トークン削減) を実装した点が核。#2 HKUDS/CLI-Anything は『AI エージェント向けに任意ソフトをフル機能 CLI へ自動生成する 7 段階パイプライン』で、MCP の「ツール 1 個ずつ手書き」を「ソースコード解析 → Click 製 CLI + 2,280 件のテスト」で抜く設計。#3 calcom/cal.diy は Cal.com の Open Core モデルから Enterprise / Teams / SSO / Workflows / ライセンスゲートを全部剥がして MIT 単一ライセンスに統合した『純粋 T3 スタック (Next.js + tRPC + Prisma + Postgres) のフォーク』としての構造改編。#4 oven-sh/bun v1.3.14 は JavaScriptCore + Zig (32%) + Rust (46%) + C++ (13%) という非 V8 構成で起動とメモリを削減、runtime/bundler/test runner/package manager を 1 バイナリへ束ねる Node.js ドロップイン互換ランタイム。#5 Anil-matcha/Open-Generative-AI は Next.js + Electron の monorepo で sd.cpp (Metal/CUDA/Vulkan/ROCm) と Wan2GP (HTTP で遠隔 GPU) の 2 推論エンジンを同居させ、Muapi.ai の 2 段階ポーリングと併用してリモート GPU オフロード可能な構成を MIT で公開。直近 2 日 (05-16 comparison / 05-17 trend-pattern) と method 衝突なし、tech-deep は全期間 TOP 3 method (avg 6.00) で直近 14 日窓では未使用、月曜 = Primary ペルソナ (CTO/エンジニア) が GitHub 巡回しやすい曜日帯ということで本日の tech-deep 投入が本命。柱② の週次必須は 05-22〜24 で business-angle または self-experiment 投入を予定。05-14〜16 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/tinyhumansai/openhuman",
-          "https://github.com/HKUDS/CLI-Anything",
-          "https://github.com/calcom/cal.diy",
-          "https://github.com/oven-sh/bun",
-          "https://github.com/Anil-matcha/Open-Generative-AI",
-          "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
-          "https://docs.anthropic.com/en/docs/claude-code/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-05-31T23:52:52.518Z"
-      }
-    },
-    {
       "videoId": "dO9e8D7FiXc",
       "videoUrl": "https://youtube.com/shorts/dO9e8D7FiXc",
       "date": "2026-05-19",
@@ -3837,7 +3781,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -3894,7 +3838,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -3951,7 +3895,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4011,7 +3955,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4070,7 +4014,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4129,7 +4073,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4185,7 +4129,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4241,7 +4185,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4300,7 +4244,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4357,7 +4301,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4411,7 +4355,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4464,7 +4408,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4520,7 +4464,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-16T23:06:51.545Z"
+        "updatedAt": "2026-08-17T23:19:32.055Z"
       }
     },
     {
@@ -4576,31 +4520,62 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-17T23:19:32.055Z"
+      }
+    },
+    {
+      "videoId": "u4j_Zzh0Bjo",
+      "videoUrl": "https://youtube.com/shorts/u4j_Zzh0Bjo",
+      "date": "2026-08-18",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/18 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python"
+      ],
+      "languages": [
+        "Python",
+        "Rust"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "usestrix/strix",
+        "nautechsystems/nautilus_trader",
+        "akitaonrails/ai-memory",
+        "mukul975/Anthropic-Cybersecurity-Skills"
+      ],
+      "durationSeconds": 56,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "今週のGitHub Trendingは『AIエージェント時代の垂直特化インフラ』が急伸中。5本中4本がAI Agent系(動画生成の完全自動化、自律ペンテスト、エージェント間メモリ共有、817種のAIセキュリティスキル集)で、残る1本が本番級Rust実装(nautilus_trader)。生成AIの実務適用が『汎用チャット』から『特定垂直の完全自動化ワークフロー』へ移行するマクロトレンドを2026-08-18 TOP5が象徴しており、trend-pattern角度で5本を横串に読む。柱④(業界読み解き、5% target)で週1差込枠、Tuesday=中位期待日(直近28日 avg 1.5)への投入。8/17 business-angle連投回避+8/16 ecosystem連投回避で連投ルール準拠、14d avg 2.00の首位method exploitで通常運用継続。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/usestrix/strix",
+          "https://github.com/nautechsystems/nautilus_trader",
+          "https://github.com/akitaonrails/ai-memory",
+          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-15",
-      "changes": [
-        "JavaScript: 0.1x avg views → drop",
-        "HTML: 1.4x avg views → boost",
-        "Rust: 0.0x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "Go: 1.3x avg views → boost",
-        "C++: 0.0x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 50 avg views (81 videos)",
-        "Trending languages: Jupyter Notebook (7.7x)",
-        "Day performance: Fri=170, Thu=67, Wed=52, Tue=34, Mon=22, Sat=4, Sun=3"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-16",
       "changes": [
@@ -5082,6 +5057,17 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
         "Day performance: Tue=2, Fri=2, Sat=2, Sun=1, Mon=1, Wed=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-17",
+      "changes": [
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
+        "Day performance: Tue=2, Fri=2, Sat=2, Mon=1, Wed=1, Thu=1, Sun=1"
       ],
       "recommendedTemplate": "standard"
     }
