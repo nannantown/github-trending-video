@@ -1,17 +1,15 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "discovery": {
-    "method": "business-angle",
-    "description": "各OSSを受託開発・スタートアップ視点で料理し、月額削減や案件見積の武器化を提示",
+    "method": "trend-pattern",
+    "description": "今週のGitHub Trendingは『AIエージェント時代の垂直特化インフラ』が急伸中。5本中4本がAI Agent系(動画生成の完全自動化、自律ペンテスト、エージェント間メモリ共有、817種のAIセキュリティスキル集)で、残る1本が本番級Rust実装(nautilus_trader)。生成AIの実務適用が『汎用チャット』から『特定垂直の完全自動化ワークフロー』へ移行するマクロトレンドを2026-08-18 TOP5が象徴しており、trend-pattern角度で5本を横串に読む。柱④(業界読み解き、5% target)で週1差込枠、Tuesday=中位期待日(直近28日 avg 1.5)への投入。8/17 business-angle連投回避+8/16 ecosystem連投回避で連投ルール準拠、14d avg 2.00の首位method exploitで通常運用継続。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/cordiverse/cordis",
-      "https://github.com/basecamp/omarchy",
-      "https://github.com/unslothai/unsloth",
-      "https://github.com/OpenCut-app/OpenCut",
-      "https://github.com/public-apis/public-apis",
-      "https://news.ycombinator.com/from?site=github.com%2Funslothai%2Funsloth",
-      "https://news.ycombinator.com/from?site=github.com%2Fbasecamp%2Fomarchy"
+      "https://github.com/harry0703/MoneyPrinterTurbo",
+      "https://github.com/usestrix/strix",
+      "https://github.com/nautechsystems/nautilus_trader",
+      "https://github.com/akitaonrails/ai-memory",
+      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "cordiverse/cordis",
-      "name": "cordis",
-      "url": "https://github.com/cordiverse/cordis",
-      "language": "TypeScript",
-      "stars": 4682,
-      "todayStars": 719,
-      "description": "プラグイン合成のメタ基盤フレーム",
-      "detail": "TypeScript製のプラグイン合成メタ基盤で、Koishi等のボットフレームワークが依存する上流基盤です。受託開発でチャット・自動化プラットフォームを組む時に土台として使え、拡張ポイントを最初から用意できます。",
-      "narration": "プラグイン合成のTypeScript製メタ基盤です。ボット基盤の土台にでき、受託のチャット案件を高速に立ち上げられます。"
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars": 105897,
+      "todayStars": 1275,
+      "description": "AI動画生成の完全自動化ツール",
+      "detail": "キーワード1つからHD縦・横動画を丸ごと生成するAIワークフローです。台本・素材・字幕・BGM・音声を一括で作り、TikTok/YouTube Shortsまで自動投稿します。WebUI/API/CLI/AI Agentの4モードで運用でき、複数のTTS・LLMを選べます。",
+      "narration": "AI動画生成の裾野拡大が今週の流れです。キーワードから台本・字幕・投稿まで完全自動で走るPython製ツールです。"
     },
     {
       "rank": 2,
-      "fullName": "basecamp/omarchy",
-      "name": "omarchy",
-      "url": "https://github.com/basecamp/omarchy",
-      "language": "Shell",
-      "stars": 25339,
-      "todayStars": 225,
-      "description": "DHH流Arch系Linuxディストロ",
-      "detail": "Basecamp創業者DHHが構築したArchベースの開発者向けLinuxで、Neovim・Hyprland・LSPが即セットアップ済みです。チームに配れば環境構築が半日で完了し、macOSの月額を削り開発者投資を効率化できます。",
-      "narration": "DHHが作ったArch系Linuxディストロです。開発チームに配ると環境構築が半日で終わり、macOS脱却も現実的です。"
+      "fullName": "usestrix/strix",
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "language": "Python",
+      "stars": 54089,
+      "todayStars": 656,
+      "description": "AIエージェント群で自律ペンテスト",
+      "detail": "AIエージェントの群れが本当に攻撃を試す自律ペンテスト基盤です。OWASP Top10などを実際にexploitして誤検知を排除し、証明つきレポートを返します。GitHub Actions連携でPR単位のセキュリティスキャンも可能です。",
+      "narration": "自律AIペンテストが今週の急伸カテゴリです。エージェント群で実際に攻撃を試し本物の脆弱性だけを証明つきで返します。"
     },
     {
       "rank": 3,
-      "fullName": "unslothai/unsloth",
-      "name": "unsloth",
-      "url": "https://github.com/unslothai/unsloth",
-      "language": "Python",
-      "stars": 72527,
-      "todayStars": 580,
-      "description": "70%省VRAMのLLM学習フレーム",
-      "detail": "Qwen・Kimi・Gemma・DeepSeekなど主要LLMをRTX 3090級のGPUで2倍高速に微調整でき、VRAMを70%削減します。受託でカスタムLLMを組む案件の学習コストを大幅に圧縮でき、見積の競争力が上がります。",
-      "narration": "LLMを70%省VRAMで学習できるツールです。GPU代を圧縮でき、受託のカスタムモデル案件の見積を大きく下げられます。"
+      "fullName": "nautechsystems/nautilus_trader",
+      "name": "nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "language": "Rust",
+      "stars": 25877,
+      "todayStars": 115,
+      "description": "Rust製の本番級トレーディング基盤",
+      "detail": "Rustコアの本番級トレーディングエンジンでPythonから戦略を書けます。研究・バックテスト・ライブ運用を同じコードで動かせ、ナノ秒精度のイベント駆動基盤で研究と本番の分断を消します。仮想通貨・株など16以上の会場と接続済です。",
+      "narration": "本番級Rust実装への流れが金融領域にも来ています。研究と本番を同じコードで走らせるナノ秒精度のトレーディング基盤です。"
     },
     {
       "rank": 4,
-      "fullName": "OpenCut-app/OpenCut",
-      "name": "OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "language": "TypeScript",
-      "stars": 83844,
-      "todayStars": 134,
-      "description": "CapCut代替のOSS動画エディタ",
-      "detail": "CapCutの完全代替を目指すOSS動画エディタで、タイムライン編集・エフェクト・エクスポートを備えます。制作会社のサブスク費を削れる他、SaaSへ組み込めば自社動画編集機能をライセンス料ゼロで展開できます。",
-      "narration": "CapCut代替のOSS動画エディタです。制作会社のサブスク費を削れ、SaaSへ組み込めば動画機能を自前で持てます。"
+      "fullName": "akitaonrails/ai-memory",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "language": "Rust",
+      "stars": 1994,
+      "todayStars": 207,
+      "description": "AIエージェント間の記憶共有基盤",
+      "detail": "別々のAIエージェント間で作業記憶を共有するRust製基盤です。プロンプトやツール呼び出しをフックで捕捉して16KiB以下のmarkdownに要約し、次のエージェントに引き継ぎます。FTS5全文検索とentityグラフで文脈を高速再現します。",
+      "narration": "エージェント横断の記憶共有が今週の新カテゴリです。ClaudeとCodexで文脈をmarkdownで引き継ぎます。"
     },
     {
       "rank": 5,
-      "fullName": "public-apis/public-apis",
-      "name": "public-apis",
-      "url": "https://github.com/public-apis/public-apis",
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "language": "Python",
-      "stars": 461644,
-      "todayStars": 1583,
-      "description": "無料APIを網羅した巨大カタログ",
-      "detail": "1400種類以上の無料APIをカテゴリ別に整理した巨大リストで、認証方式やCORS対応も明記されます。PoCで有料APIを契約する前にここで無料枠を洗え、初期のAPI調査コストと月額をほぼゼロにできます。",
-      "narration": "無料APIを網羅した巨大リストです。PoCで有料契約する前にここで無料枠を探せ、API調査コストをほぼゼロにできます。"
+      "stars": 28368,
+      "todayStars": 156,
+      "description": "817種のAIセキュリティスキル集",
+      "detail": "AIエージェント向けに書かれた817種のセキュリティ手順集です。MITRE ATT&CK・NIST CSFなど6大フレームに紐付き、約30トークンで発見・約2,000トークンで実行できます。Claude Code等26以上のエージェントで利用可能です。",
+      "narration": "AIスキル集の急伸が今週も続きます。817種の手順をMITRE ATT&CKなど6大フレームで即実行できます。"
     }
   ]
 }
