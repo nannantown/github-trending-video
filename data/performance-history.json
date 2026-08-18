@@ -2,59 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "dO9e8D7FiXc",
-      "videoUrl": "https://youtube.com/shorts/dO9e8D7FiXc",
-      "date": "2026-05-19",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/19 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "Swift"
-      ],
-      "languages": [
-        "Rust",
-        "Python",
-        "Swift"
-      ],
-      "projects": [
-        "tinyhumansai/openhuman",
-        "Imbad0202/academic-research-skills",
-        "HKUDS/CLI-Anything",
-        "K-Dense-AI/scientific-agent-skills",
-        "supertone-inc/supertonic"
-      ],
-      "durationSeconds": 55,
-      "discovery": {
-        "method": "comparison",
-        "description": "今日のTOP5を競合OSSや類似ツールと並べ、どの場面でどれを選ぶべきかを示す比較視点。Primary層(CTO/技術選定者)の『どれを採用するか』判断を直接支援する。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/tinyhumansai/openhuman",
-          "https://github.com/Imbad0202/academic-research-skills",
-          "https://github.com/HKUDS/CLI-Anything",
-          "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "https://github.com/supertone-inc/supertonic"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-02T00:02:43.585Z"
-      }
-    },
-    {
       "videoId": "RNpG2YX_7YA",
       "videoUrl": "https://youtube.com/shorts/RNpG2YX_7YA",
       "date": "2026-05-20",
@@ -3838,7 +3785,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -3895,7 +3842,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -3955,7 +3902,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4014,7 +3961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4073,7 +4020,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4129,7 +4076,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4185,7 +4132,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4244,7 +4191,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4301,7 +4248,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4355,7 +4302,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4408,7 +4355,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4464,7 +4411,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4520,7 +4467,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-17T23:19:32.055Z"
+        "updatedAt": "2026-08-18T23:11:22.405Z"
       }
     },
     {
@@ -4571,29 +4518,64 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-18T23:11:22.405Z"
+      }
+    },
+    {
+      "videoId": "X-TjHC9lqg0",
+      "videoUrl": "https://youtube.com/shorts/X-TjHC9lqg0",
+      "date": "2026-08-19",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/19 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "chaitanyagiri/munder-difflin",
+        "akitaonrails/ai-memory",
+        "volcengine/OpenViking",
+        "mukul975/Anthropic-Cybersecurity-Skills"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5は3種類のAIエージェント記憶実装(ai-memory=markdown+git wiki、OpenViking=viking://仮想FS、munder-difflin=SQLite+semantic recall)が同日並存する稀有な比較素材日。残る2本(MoneyPrinterTurbo=動画完全自動化ワークフロー、Anthropic-Cybersecurity-Skills=817種セキュリティスキル集)も『どのカテゴリの第一候補か』が明確に立つ。Primary(CTO/技術選定)の『AIエージェント記憶層/統合層/スキル層に今すぐ張るならどれか』判断ユーティリティを100%で提供する。柱①(GitHub Trending解説70% target)の今週1本目、Wed中位期待日(直近28日 avg 1.3)への投入。8/18 trend-pattern連投回避+8/17 business-angle連投回避で連投ルール準拠。crisis-mode条件(7日連続0-1定着+6 method全滅)が8/19 PDCAで成立、Explore傾斜の第一手として素材整合率100%のcomparisonを選定。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/chaitanyagiri/munder-difflin",
+          "https://github.com/akitaonrails/ai-memory",
+          "https://github.com/volcengine/OpenViking",
+          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-16",
-      "changes": [
-        "JavaScript: 0.2x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "C++: 0.0x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.0x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 44 avg views (81 videos)",
-        "Trending languages: Jupyter Notebook (8.9x)",
-        "Day performance: Fri=170, Thu=62, Tue=34, Mon=22, Sat=4, Sun=3, Wed=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-17",
       "changes": [
@@ -5068,6 +5050,17 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
         "Day performance: Tue=2, Fri=2, Sat=2, Mon=1, Wed=1, Thu=1, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-18",
+      "changes": [
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
+        "Day performance: Fri=2, Sat=2, Tue=1, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
