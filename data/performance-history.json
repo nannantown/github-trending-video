@@ -2,60 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "RNpG2YX_7YA",
-      "videoUrl": "https://youtube.com/shorts/RNpG2YX_7YA",
-      "date": "2026-05-20",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/20 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python"
-      ],
-      "languages": [
-        "Rust",
-        "Python",
-        "Shell"
-      ],
-      "projects": [
-        "tinyhumansai/openhuman",
-        "HKUDS/CLI-Anything",
-        "Imbad0202/academic-research-skills",
-        "obra/superpowers",
-        "anthropics/claude-plugins-official"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "business-angle",
-        "description": "Anthropic が claude-plugins-official でスキル/プラグイン配布を公式化した今週、自社で内製しようとしていた AI エンジニアリングのコストが消えるという時宜性のあるマクロを起点に、TOP5 全 5 本をそれぞれ『月額 SaaS いくら束ねるか・人月いくら削減するか・外注いくらが内製化されるか』の費用・工数レバーで料理する。Primary (CTO/技術選定者) と Secondary (PdM/事業責任者) の稟議書語彙に直撃する business-angle 角度で 5 本横断統一。直近 2 日 (05-19 comparison / 05-18 tech-deep) と method 衝突なし、柱② (business-angle 比率 15%) の週次必須要件を本週 (05-18〜24) Wed 中位曜日帯で達成。重複 3 本 (openhuman 3日連続 / CLI-Anything 3日連続 / academic-research-skills 2日連続) は 05-18 tech-deep『内部実装』→ 05-19 comparison『競合との位置取り』→ 本日『金額・工数レバー』で語彙完全 3 連切替で連投ペナルティ条件外。5 月 business-angle 減衰 (4 月 avg 7+→5 月 avg 2) 対策として『Anthropic 公式が動いた』時宜性フックを冒頭マクロに置き、単純な月額カタログから一歩抜ける。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/tinyhumansai/openhuman",
-          "https://github.com/HKUDS/CLI-Anything",
-          "https://github.com/Imbad0202/academic-research-skills",
-          "https://github.com/obra/superpowers",
-          "https://github.com/anthropics/claude-plugins-official",
-          "https://clau.de/plugin-directory-submission",
-          "https://docs.anthropic.com/en/docs/claude-code/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-06-03T00:21:07.793Z"
-      }
-    },
-    {
       "videoId": "G1_BfiJzj30",
       "videoUrl": "https://youtube.com/shorts/G1_BfiJzj30",
       "date": "2026-05-21",
@@ -3842,7 +3788,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -3902,7 +3848,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -3961,7 +3907,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4020,7 +3966,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4076,7 +4022,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4132,7 +4078,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4191,7 +4137,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4248,7 +4194,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4302,7 +4248,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4355,7 +4301,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4411,7 +4357,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4467,7 +4413,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4518,7 +4464,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-18T23:11:22.405Z"
+        "updatedAt": "2026-08-19T23:11:05.429Z"
       }
     },
     {
@@ -4571,31 +4517,64 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-19T23:11:05.429Z"
+      }
+    },
+    {
+      "videoId": "u4eywb-gJRA",
+      "videoUrl": "https://youtube.com/shorts/u4eywb-gJRA",
+      "date": "2026-08-20",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/20 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Rust"
+      ],
+      "projects": [
+        "harry0703/MoneyPrinterTurbo",
+        "volcengine/OpenViking",
+        "chaitanyagiri/munder-difflin",
+        "mukul975/Anthropic-Cybersecurity-Skills",
+        "nautechsystems/nautilus_trader"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日のTOP5を『誰が使うか』の主要ユースケース別に並べる判断ユーティリティ回。5本すべてに明確な主要ユーザー像がある稀有な素材配置(SNS運用代行/エンタープライズAIチーム/ソロ開発者/SOC・セキュリティコンサル/個人クオンツ)で、Primary(CTO/技術選定)には自社/自案件のどこに乗せるかの即断材料、Secondary(PdM)には各OSSがどの現場に効くかのキャッチアップ材料を提供する。crisis-mode継続下のExplore傾斜(40/60)で、14d avg 0.00最下位のuse-caseに素材整合率100%の場を与えて再現性を測る。直近使用08-15(5日cooldown OK)+08-19 comparison/08-18 trend-pattern連投回避+柱①(GitHub Trending解説70% target)の今週2本目消化。8/19 comparison 24h暫定は未確定、8/21 PDCAで08-19確定と08-20 use-case暫定を集計してcrisis-mode継続/解除判定。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/volcengine/OpenViking",
+          "https://github.com/chaitanyagiri/munder-difflin",
+          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "https://github.com/nautechsystems/nautilus_trader"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-17",
-      "changes": [
-        "JavaScript: 0.2x avg views → drop",
-        "HTML: 1.6x avg views → boost",
-        "Rust: 0.1x avg views → drop",
-        "Markdown: 0.1x avg views → drop",
-        "Go: 1.6x avg views → boost",
-        "C++: 0.1x avg views → drop",
-        "Kotlin: 0.0x avg views → drop",
-        "Ruby: 0.1x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.0x avg views → drop",
-        "standard: 34 avg views (81 videos)",
-        "Trending languages: Go (1.4x)",
-        "Day performance: Fri=157, Tue=34, Mon=22, Sat=4, Sun=3, Thu=3, Wed=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-19",
       "changes": [
@@ -5061,6 +5040,17 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
         "Day performance: Fri=2, Sat=2, Tue=1, Wed=1, Thu=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-19",
+      "changes": [
+        "Rust: 0.3x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
