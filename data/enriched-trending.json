@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5は3種類のAIエージェント記憶実装(ai-memory=markdown+git wiki、OpenViking=viking://仮想FS、munder-difflin=SQLite+semantic recall)が同日並存する稀有な比較素材日。残る2本(MoneyPrinterTurbo=動画完全自動化ワークフロー、Anthropic-Cybersecurity-Skills=817種セキュリティスキル集)も『どのカテゴリの第一候補か』が明確に立つ。Primary(CTO/技術選定)の『AIエージェント記憶層/統合層/スキル層に今すぐ張るならどれか』判断ユーティリティを100%で提供する。柱①(GitHub Trending解説70% target)の今週1本目、Wed中位期待日(直近28日 avg 1.3)への投入。8/18 trend-pattern連投回避+8/17 business-angle連投回避で連投ルール準拠。crisis-mode条件(7日連続0-1定着+6 method全滅)が8/19 PDCAで成立、Explore傾斜の第一手として素材整合率100%のcomparisonを選定。",
+    "method": "use-case",
+    "description": "本日のTOP5を『誰が使うか』の主要ユースケース別に並べる判断ユーティリティ回。5本すべてに明確な主要ユーザー像がある稀有な素材配置(SNS運用代行/エンタープライズAIチーム/ソロ開発者/SOC・セキュリティコンサル/個人クオンツ)で、Primary(CTO/技術選定)には自社/自案件のどこに乗せるかの即断材料、Secondary(PdM)には各OSSがどの現場に効くかのキャッチアップ材料を提供する。crisis-mode継続下のExplore傾斜(40/60)で、14d avg 0.00最下位のuse-caseに素材整合率100%の場を与えて再現性を測る。直近使用08-15(5日cooldown OK)+08-19 comparison/08-18 trend-pattern連投回避+柱①(GitHub Trending解説70% target)の今週2本目消化。8/19 comparison 24h暫定は未確定、8/21 PDCAで08-19確定と08-20 use-case暫定を集計してcrisis-mode継続/解除判定。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/harry0703/MoneyPrinterTurbo",
-      "https://github.com/chaitanyagiri/munder-difflin",
-      "https://github.com/akitaonrails/ai-memory",
       "https://github.com/volcengine/OpenViking",
-      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+      "https://github.com/chaitanyagiri/munder-difflin",
+      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "https://github.com/nautechsystems/nautilus_trader"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "language": "Python",
-      "stars": 108449,
-      "todayStars": 2306,
-      "description": "LLM/TTS選べる動画完全自動化",
-      "detail": "キーワード1つからHD動画を完全自動で作るAIパイプラインです。台本・素材・字幕・音声を一括生成し、Kimi・DeepSeek・Gemini等10以上のLLMとTTSから選べます。WebUI・API・CLI・AI Agentの4モード運用に対応します。",
-      "narration": "動画自動生成の第一候補はこれです。10以上のLLMとTTSから選べる完全自動化パイプラインです。"
+      "stars": 110510,
+      "todayStars": 2221,
+      "description": "Shorts量産代行に効く動画自動化",
+      "detail": "キーワード1つから台本・素材・字幕・音声まで一括で作る動画自動化パイプラインです。Kimi・Gemini等10以上のLLMとEdge・Azure・ElevenLabs等のTTSから選べます。SNS運用代行や個人チャンネルのShorts量産に向きます。",
+      "narration": "Shorts量産の代行業者に効くツールです。キーワードから台本と字幕まで自動で作れます。"
     },
     {
       "rank": 2,
-      "fullName": "chaitanyagiri/munder-difflin",
-      "name": "munder-difflin",
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
-      "language": "TypeScript",
-      "stars": 1983,
-      "todayStars": 256,
-      "description": "Claude/Grok/Kimi CLIを束ねる",
-      "detail": "Claude Code・Grok・Kimi等の複数AI CLIを1つのデスクトップで束ねるElectron製ハーネスです。node-pty経由で各CLIをPTYごと立ち上げ、SQLite+gitで記憶と会話を保存し、エージェント同士が仕事を引き継げます。",
-      "narration": "複数のAI CLIを束ねるデスクトップ型の選択肢です。SQLite記憶でエージェント同士が仕事を引き継げます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "akitaonrails/ai-memory",
-      "name": "ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "language": "Rust",
-      "stars": 2681,
-      "todayStars": 730,
-      "description": "markdown+gitで記憶を引継ぐMCP",
-      "detail": "Claude CodeやCodex等のCLIをまたいで作業記憶を引き継ぐRust製MCPサーバーです。観測をmarkdownで書き出しgitで版管理し、次のエージェントのSessionStartでHTTP経由で読み込みます。FTS5全文検索も持ちます。",
-      "narration": "エージェント間の記憶引継ぎは可読性重視ならこれです。SQLiteとgit管理のmarkdownで人も追える設計です。"
-    },
-    {
-      "rank": 4,
       "fullName": "volcengine/OpenViking",
       "name": "OpenViking",
       "url": "https://github.com/volcengine/OpenViking",
       "language": "Python",
-      "stars": 29319,
-      "todayStars": 298,
-      "description": "viking://で辿る仮想FS型記憶DB",
-      "detail": "ByteDance系Volcengineが公開したAIエージェント向け仮想ファイルシステム型の記憶DBです。ls・treeで辿れるviking://階層に記憶・RAG・スキルを束ね、要約100トークンで発見・2000トークンで詳細と段階読み込みができます。",
-      "narration": "本格運用ならByteDance系のOpenVikingです。ls・treeで辿れる仮想FSに記憶と知識を貯めます。"
+      "stars": 30123,
+      "todayStars": 803,
+      "description": "仮想FS型のエンタープライズ記憶",
+      "detail": "ByteDance系Volcengineが公開したAIエージェント向け仮想FS型の記憶DBです。ls・treeで辿れるviking://階層に記憶・RAG・スキルを束ね、L0/L1/L2の3階層で段階読み込みします。エンタープライズAI基盤にそのまま乗せられます。",
+      "narration": "エンタープライズAI基盤に効きます。仮想FS発想で記憶とスキルをまとめて管理できます。"
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "fullName": "chaitanyagiri/munder-difflin",
+      "name": "munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "language": "TypeScript",
+      "stars": 2646,
+      "todayStars": 797,
+      "description": "複数AI CLIを束ねる開発者GUI",
+      "detail": "Claude Code・Grok・Kimi等の複数AI CLIをElectron GUIで束ねる多エージェントハーネスです。node-pty経由でPTYごと立ち上げ、SQLite+gitで記憶を保存しエージェント同士が引き継げます。ソロ開発者や小規模devチームに向きます。",
+      "narration": "ソロ開発者に効く複数AI CLIの束ねハーネスです。ClaudeとGrokをGUIで並行運用できます。"
+    },
+    {
+      "rank": 4,
       "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
       "name": "Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "language": "Python",
-      "stars": 29136,
-      "todayStars": 726,
-      "description": "AIエージェント用817種セキュリティ集",
-      "detail": "AIエージェント向けに書かれた817種のセキュリティ手順集です。MITRE ATT&CKやNIST CSFなど6大フレームに紐付き、約30トークンで検索・約2000トークンで実行に到達します。Claude Codeなど26以上のエージェントで即読み込みできます。",
-      "narration": "エージェントに配るスキル面ならこの巨大集が選択肢です。817手順をMITRE ATT&CKなど6大枠に紐付けます。"
+      "stars": 29792,
+      "todayStars": 767,
+      "description": "817手順のセキュリティスキル集",
+      "detail": "AIエージェント向けに整えた817種のセキュリティ手順スキル集です。MITRE ATT&CK・NIST CSFなど6大フレームに紐付き、約30トークンで発見・約2000トークンで実行できます。SOCや脆弱性診断の受託自動化に向きます。",
+      "narration": "SOCの自動化に効くセキュリティスキル集です。817手順をClaude Codeにそのまま読み込めます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "nautechsystems/nautilus_trader",
+      "name": "nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "language": "Rust",
+      "stars": 26426,
+      "todayStars": 79,
+      "description": "個人クオンツ向けRust取引エンジン",
+      "detail": "Rust製で決定論的イベント駆動アーキテクチャの本番グレード量的取引エンジンです。バックテストとライブ取引を同じPythonコードで走らせ、20以上の取引所・複数資産クラスに対応します。個人クオンツや小規模量的ファンドに向きます。",
+      "narration": "個人クオンツに効くトレードエンジンです。Rustの決定論エンジンでバックテストと本番を同一化します。"
     }
   ]
 }
