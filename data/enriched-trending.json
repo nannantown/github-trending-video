@@ -1,15 +1,18 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "discovery": {
-    "method": "use-case",
-    "description": "本日のTOP5を『誰が使うか』の主要ユースケース別に並べる判断ユーティリティ回。5本すべてに明確な主要ユーザー像がある稀有な素材配置(SNS運用代行/エンタープライズAIチーム/ソロ開発者/SOC・セキュリティコンサル/個人クオンツ)で、Primary(CTO/技術選定)には自社/自案件のどこに乗せるかの即断材料、Secondary(PdM)には各OSSがどの現場に効くかのキャッチアップ材料を提供する。crisis-mode継続下のExplore傾斜(40/60)で、14d avg 0.00最下位のuse-caseに素材整合率100%の場を与えて再現性を測る。直近使用08-15(5日cooldown OK)+08-19 comparison/08-18 trend-pattern連投回避+柱①(GitHub Trending解説70% target)の今週2本目消化。8/19 comparison 24h暫定は未確定、8/21 PDCAで08-19確定と08-20 use-case暫定を集計してcrisis-mode継続/解除判定。",
+    "method": "self-experiment",
+    "description": "本日のTOP5を『触った所感/インストール一発で〜』の追体験実況として並べる体験談番組。crisis-mode継続深化下の柱③(self-experiment/自身プロジェクト事例10% target)をFri高期待日(直近28日avg 2.0、Sunに次ぐ第2位曜日)に固定枠として配置する運用の初日。5本すべてが5分以内でインストール可能な即体験性100%(modular=公式インストーラー/mattpocock/skills=npx一発/OpenLogi=Rust GUIダウンロード/superpowers=/plugin install一発/cursor/plugins=Cursor UIから選択)で素材整合率5/5=100%、体験広さも5分野(Mojo言語基盤/Claude Codeスキル/ハードウェア制御/Claude Code方法論/Cursorプラグイン)横断で5/5満点。直近使用08-11(10日cooldown OK)+08-20 use-case/08-19 comparison連投回避+柱③週次1本目消化+Fri高期待日フィットの6条件揃い。前回08-11 self-experiment(1 views)からの再現性測定と柱③ Fri固定運用の第1回、視聴者のBookmark動機(『後で試す』)刺激で保存率上振れ狙い。8/22 PDCAで08-20 use-case完全確定と08-21 self-experiment 24h暫定を集計して柱③ Fri固定運用の再現性判定+infraチェック開始判断。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/harry0703/MoneyPrinterTurbo",
-      "https://github.com/volcengine/OpenViking",
-      "https://github.com/chaitanyagiri/munder-difflin",
-      "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "https://github.com/nautechsystems/nautilus_trader"
+      "https://github.com/modular/modular",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/AprilNEA/OpenLogi",
+      "https://github.com/obra/superpowers",
+      "https://github.com/cursor/plugins",
+      "https://docs.modular.com/mojo/",
+      "https://docs.modular.com/max/",
+      "https://docs.anthropic.com/en/docs/claude-code/plugins"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "name": "MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "language": "Python",
-      "stars": 110510,
-      "todayStars": 2221,
-      "description": "Shorts量産代行に効く動画自動化",
-      "detail": "キーワード1つから台本・素材・字幕・音声まで一括で作る動画自動化パイプラインです。Kimi・Gemini等10以上のLLMとEdge・Azure・ElevenLabs等のTTSから選べます。SNS運用代行や個人チャンネルのShorts量産に向きます。",
-      "narration": "Shorts量産の代行業者に効くツールです。キーワードから台本と字幕まで自動で作れます。"
+      "fullName": "modular/modular",
+      "name": "modular",
+      "url": "https://github.com/modular/modular",
+      "language": "Mojo",
+      "stars": 27887,
+      "todayStars": 340,
+      "description": "Python感覚で書けるMojo+MAX",
+      "detail": "MojoはPython風の文法でGPUカーネルまで書ける新言語、MAXはOpenAI互換の推論サーバやモデルパイプラインをまとめた基盤です。公式インストーラーで即動かせて、CPython比の大幅な高速化がMLIRベースコンパイラで得られます。",
+      "narration": "触るとMojoでGPUカーネルが書けます。Python感覚で速いバイナリが出る新言語基盤です。"
     },
     {
       "rank": 2,
-      "fullName": "volcengine/OpenViking",
-      "name": "OpenViking",
-      "url": "https://github.com/volcengine/OpenViking",
-      "language": "Python",
-      "stars": 30123,
-      "todayStars": 803,
-      "description": "仮想FS型のエンタープライズ記憶",
-      "detail": "ByteDance系Volcengineが公開したAIエージェント向け仮想FS型の記憶DBです。ls・treeで辿れるviking://階層に記憶・RAG・スキルを束ね、L0/L1/L2の3階層で段階読み込みします。エンタープライズAI基盤にそのまま乗せられます。",
-      "narration": "エンタープライズAI基盤に効きます。仮想FS発想で記憶とスキルをまとめて管理できます。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 226308,
+      "todayStars": 2267,
+      "description": "npx一発で入るClaude実務スキル集",
+      "detail": "Matt PocockがAgentディレクトリから公開した実務スキル集です。grill-with-docsやTDDやコードレビュー等が揃い、npx skills@latest addでClaude CodeやCursorに合成可能な単位で追加できます。",
+      "narration": "触るとClaude Codeに実務スキルが即入るnpm一発パッケージです。TDDとバグ解剖が特に使えます。"
     },
     {
       "rank": 3,
-      "fullName": "chaitanyagiri/munder-difflin",
-      "name": "munder-difflin",
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
-      "language": "TypeScript",
-      "stars": 2646,
-      "todayStars": 797,
-      "description": "複数AI CLIを束ねる開発者GUI",
-      "detail": "Claude Code・Grok・Kimi等の複数AI CLIをElectron GUIで束ねる多エージェントハーネスです。node-pty経由でPTYごと立ち上げ、SQLite+gitで記憶を保存しエージェント同士が引き継げます。ソロ開発者や小規模devチームに向きます。",
-      "narration": "ソロ開発者に効く複数AI CLIの束ねハーネスです。ClaudeとGrokをGUIで並行運用できます。"
+      "fullName": "AprilNEA/OpenLogi",
+      "name": "OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "language": "Rust",
+      "stars": 11769,
+      "todayStars": 1540,
+      "description": "Rust製Logi Options+の代替",
+      "detail": "Rust+GPUIで書かれたLogitech Options+の代替クライアントです。macOS/Linux/Windows対応で、HID++直接通信でボタン割当やDPIを制御でき、TOML平文設定+CLI付きでクラウド不要です。",
+      "narration": "触るとLogitech Options+の代替がRustで動きます。ボタン割当を設定ファイルで管理できます。"
     },
     {
       "rank": 4,
-      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
-      "name": "Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "language": "Python",
-      "stars": 29792,
-      "todayStars": 767,
-      "description": "817手順のセキュリティスキル集",
-      "detail": "AIエージェント向けに整えた817種のセキュリティ手順スキル集です。MITRE ATT&CK・NIST CSFなど6大フレームに紐付き、約30トークンで発見・約2000トークンで実行できます。SOCや脆弱性診断の受託自動化に向きます。",
-      "narration": "SOCの自動化に効くセキュリティスキル集です。817手順をClaude Codeにそのまま読み込めます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 274902,
+      "todayStars": 749,
+      "description": "Claude Code用の方法論FW",
+      "detail": "Jesse VincentらのClaude Code向け方法論フレームワークです。設計・計画・TDD開発・レビュー・PRの5工程を自動化し、plugin install一発で導入でき、git worktreeで隔離しながらYAGNIを徹底します。",
+      "narration": "触るとClaude Codeが設計から実装まで段取り自動化されます。TDDと計画分解が標準工程で走ります。"
     },
     {
       "rank": 5,
-      "fullName": "nautechsystems/nautilus_trader",
-      "name": "nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "language": "Rust",
-      "stars": 26426,
-      "todayStars": 79,
-      "description": "個人クオンツ向けRust取引エンジン",
-      "detail": "Rust製で決定論的イベント駆動アーキテクチャの本番グレード量的取引エンジンです。バックテストとライブ取引を同じPythonコードで走らせ、20以上の取引所・複数資産クラスに対応します。個人クオンツや小規模量的ファンドに向きます。",
-      "narration": "個人クオンツに効くトレードエンジンです。Rustの決定論エンジンでバックテストと本番を同一化します。"
+      "fullName": "cursor/plugins",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "language": "TypeScript",
+      "stars": 4052,
+      "todayStars": 473,
+      "description": "Cursor公式プラグイン基盤",
+      "detail": "Cursor公式のプラグイン仕様と35以上の純正プラグインです。manifestとAGENT.mdとcursor rulesとMCP設定を1構造で統合し、GmailやGitHubやPlaywright等をUIから選ぶだけで入ります。",
+      "narration": "触るとCursorに公式35以上のプラグインが入ります。メールやGitHub連携が一気に整います。"
     }
   ]
 }
