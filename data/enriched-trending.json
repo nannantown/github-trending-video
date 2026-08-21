@@ -1,18 +1,17 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日のTOP5を『触った所感/インストール一発で〜』の追体験実況として並べる体験談番組。crisis-mode継続深化下の柱③(self-experiment/自身プロジェクト事例10% target)をFri高期待日(直近28日avg 2.0、Sunに次ぐ第2位曜日)に固定枠として配置する運用の初日。5本すべてが5分以内でインストール可能な即体験性100%(modular=公式インストーラー/mattpocock/skills=npx一発/OpenLogi=Rust GUIダウンロード/superpowers=/plugin install一発/cursor/plugins=Cursor UIから選択)で素材整合率5/5=100%、体験広さも5分野(Mojo言語基盤/Claude Codeスキル/ハードウェア制御/Claude Code方法論/Cursorプラグイン)横断で5/5満点。直近使用08-11(10日cooldown OK)+08-20 use-case/08-19 comparison連投回避+柱③週次1本目消化+Fri高期待日フィットの6条件揃い。前回08-11 self-experiment(1 views)からの再現性測定と柱③ Fri固定運用の第1回、視聴者のBookmark動機(『後で試す』)刺激で保存率上振れ狙い。8/22 PDCAで08-20 use-case完全確定と08-21 self-experiment 24h暫定を集計して柱③ Fri固定運用の再現性判定+infraチェック開始判断。",
+    "method": "ecosystem",
+    "description": "本日のTOP5を『既存の巨大エコシステムに対する位置づけ (対抗/補完/local-first置換/統合)』の地図として並べる ecosystem 番組。全期間 top-3 method (avg 1.56 n=16) を 6 日 cooldown 経過で再投入、crisis-mode 継続下でシグナル差が最も出やすい枠を突く。5 本の共通軸: (a) mattpocock/skills = Claude Code Skills 生態系の実務スタンダード候補、(b) google-timeline-visualizer = Google Maps Timeline データの privacy 補完視覚化、(c) MoneyPrinterTurbo = Sora/Runway 対抗の OSS 動画パイプライン (Claude/Gemini/ElevenLabs/WaveSpeed 差し替え可能)、(d) OpenLogi = Logitech Options+ 生態系の local-first Rust 置換、(e) PostHog = Amplitude/Segment/LaunchDarkly を 1 枚に束ねる OSS 分析基盤。柱① (Trending 解説 70%) の枠で今週消化、柱② は 08-17 business-angle、柱③ は 08-21 self-experiment で消化済。直近 2 日 (08-20 use-case / 08-21 self-experiment) 連投回避 + trend-pattern (08-18 消化 4 日) 微妙 + comparison (08-19 消化 3 日) 微妙 + business-angle (08-17 消化 5 日、柱② 週内消化) + use-case (08-20 直近 + 全期間最下位) + tech-deep (14d 圏外) 除外で ecosystem が残る。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/modular/modular",
       "https://github.com/mattpocock/skills",
+      "https://github.com/mahlernim/google-timeline-visualizer",
+      "https://github.com/harry0703/MoneyPrinterTurbo",
       "https://github.com/AprilNEA/OpenLogi",
-      "https://github.com/obra/superpowers",
-      "https://github.com/cursor/plugins",
-      "https://docs.modular.com/mojo/",
-      "https://docs.modular.com/max/",
-      "https://docs.anthropic.com/en/docs/claude-code/plugins"
+      "https://github.com/PostHog/posthog",
+      "https://docs.anthropic.com/en/docs/claude-code/skills",
+      "https://posthog.com/product-analytics"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +19,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "modular/modular",
-      "name": "modular",
-      "url": "https://github.com/modular/modular",
-      "language": "Mojo",
-      "stars": 27887,
-      "todayStars": 340,
-      "description": "Python感覚で書けるMojo+MAX",
-      "detail": "MojoはPython風の文法でGPUカーネルまで書ける新言語、MAXはOpenAI互換の推論サーバやモデルパイプラインをまとめた基盤です。公式インストーラーで即動かせて、CPython比の大幅な高速化がMLIRベースコンパイラで得られます。",
-      "narration": "触るとMojoでGPUカーネルが書けます。Python感覚で速いバイナリが出る新言語基盤です。"
-    },
-    {
-      "rank": 2,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 226308,
-      "todayStars": 2267,
-      "description": "npx一発で入るClaude実務スキル集",
-      "detail": "Matt PocockがAgentディレクトリから公開した実務スキル集です。grill-with-docsやTDDやコードレビュー等が揃い、npx skills@latest addでClaude CodeやCursorに合成可能な単位で追加できます。",
-      "narration": "触るとClaude Codeに実務スキルが即入るnpm一発パッケージです。TDDとバグ解剖が特に使えます。"
+      "stars": 229339,
+      "todayStars": 3368,
+      "description": "AI開発者向けスキル集の決定版",
+      "detail": "TDD、コードレビュー、実装計画などをAIエージェントに与えるスキル定義集です。GSDやSpec-Kitと違い工程を固定せず、Claude CodeとCodex両対応のプラグイン形式で自分で改造して育てます",
+      "narration": "AIエージェント用スキル集の決定版。Claude CodeとCodex両対応のプラグイン形式です"
+    },
+    {
+      "rank": 2,
+      "fullName": "mahlernim/google-timeline-visualizer",
+      "name": "google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "language": "Kotlin",
+      "stars": 2194,
+      "todayStars": 1040,
+      "description": "移動履歴を動画化するローカルアプリ",
+      "detail": "Google TimelineのJSON出力を読み込み、1年分の移動を90秒程度のアニメ動画に変換します。処理は端末内で完結し、位置情報やアカウント権限を一切要求しないプライバシー重視設計です",
+      "narration": "あなたの1年の移動履歴がアニメ動画に変身。全てローカルで動きクラウド送信は一切ありません"
     },
     {
       "rank": 3,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars": 113850,
+      "todayStars": 1187,
+      "description": "AIショート動画自動化のOSSハブ",
+      "detail": "トピックを入れるだけでスクリプト生成、素材収集、音声合成まで自動化するOSSです。Claude、Gemini、ElevenLabs等の主要APIを差し替えて使え、SoraやRunwayに依存しない自社パイプラインを構築できます",
+      "narration": "AI動画自動生成のOSSハブ。Claudeやelevenlabsなど主要APIを差し替えて使えます"
+    },
+    {
+      "rank": 4,
       "fullName": "AprilNEA/OpenLogi",
       "name": "OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "language": "Rust",
-      "stars": 11769,
-      "todayStars": 1540,
-      "description": "Rust製Logi Options+の代替",
-      "detail": "Rust+GPUIで書かれたLogitech Options+の代替クライアントです。macOS/Linux/Windows対応で、HID++直接通信でボタン割当やDPIを制御でき、TOML平文設定+CLI付きでクラウド不要です。",
-      "narration": "触るとLogitech Options+の代替がRustで動きます。ボタン割当を設定ファイルで管理できます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 274902,
-      "todayStars": 749,
-      "description": "Claude Code用の方法論FW",
-      "detail": "Jesse VincentらのClaude Code向け方法論フレームワークです。設計・計画・TDD開発・レビュー・PRの5工程を自動化し、plugin install一発で導入でき、git worktreeで隔離しながらYAGNIを徹底します。",
-      "narration": "触るとClaude Codeが設計から実装まで段取り自動化されます。TDDと計画分解が標準工程で走ります。"
+      "stars": 12845,
+      "todayStars": 1372,
+      "description": "Logi Options+のRust製代替",
+      "detail": "アカウント不要、テレメトリなしで動くLogitech純正ソフトの置換品です。設定はTOMLで手元管理、任意のボタンにジェスチャーを割り当てるなどOptions+では不可能な事も可能です",
+      "narration": "Logitech Options+のRust製代替。設定はTOMLファイルで完全ローカル管理です"
     },
     {
       "rank": 5,
-      "fullName": "cursor/plugins",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "stars": 4052,
-      "todayStars": 473,
-      "description": "Cursor公式プラグイン基盤",
-      "detail": "Cursor公式のプラグイン仕様と35以上の純正プラグインです。manifestとAGENT.mdとcursor rulesとMCP設定を1構造で統合し、GmailやGitHubやPlaywright等をUIから選ぶだけで入ります。",
-      "narration": "触るとCursorに公式35以上のプラグインが入ります。メールやGitHub連携が一気に整います。"
+      "fullName": "PostHog/posthog",
+      "name": "posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "language": "Python",
+      "stars": 38274,
+      "todayStars": 334,
+      "description": "OSS版の統合プロダクト分析基盤",
+      "detail": "分析、セッション再生、A/Bテスト、フラグ、エラー追跡までを1つに束ねる自社ホスト可能OSSです。AmplitudeとLaunchDarklyとSegmentをまとめて置き換えるスタックとして育っています",
+      "narration": "Amplitudeを自社ホストで置き換える統合分析基盤。分析、実験、フラグを1つに集約します"
     }
   ]
 }
