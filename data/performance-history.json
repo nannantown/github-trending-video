@@ -2,65 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "TTzsqvcuwp0",
-      "videoUrl": "https://youtube.com/shorts/TTzsqvcuwp0",
-      "date": "2026-05-22",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/22 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript",
-        "Markdown",
-        "C#"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "Markdown",
-        "C#",
-        "Shell"
-      ],
-      "projects": [
-        "anthropics/claude-plugins-official",
-        "colbymchenry/codegraph",
-        "multica-ai/andrej-karpathy-skills",
-        "dotnet/skills",
-        "obra/superpowers"
-      ],
-      "durationSeconds": 48,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "本日のTOP5は5本すべてが『AIコーディングエージェントのスキル/プラグイン』レイヤーに収束。2025年末にAnthropicが公開したAgent Skills Open Standard(agentskills.io)が約半年で32ツールへ普及し、本週はAnthropic公式(claude-plugins-official)とMicrosoft .NET公式(dotnet/skills)が同時にTOP入りした『標準化フェーズ』の象徴的な週。method=trend-patternはこの単一マクロ(なぜ今週この5本が同時に来たか=スキル標準のベンダー横断的な公式化)で5本を一貫して貫く構成。exploit枠の根拠: trend-patternは全期間の追跡method中で最高平均(all-time 6.33・直近は05-17のみ)、直近2日(05-21 use-case / 05-20 business-angle)とmethod衝突なし、前回trend-patternは05-17で連続なし。柱②(business-angle)の週次必須要件は本週(05-18〜24)05-20で達成済、本日は柱①(Trending TOP5解説70%)主軸+柱④(業界読み解き5%)の味付け。素材適合5/5: #1 claude-plugins-official=Anthropic公式プラグインディレクトリ / #2 codegraph=エージェントを安く動かす索引基盤(本日+4222/dの急増) / #3 andrej-karpathy-skills=LLMの暴走を抑えるガードレールskill / #4 dotnet/skills=Microsoft .NET公式skill集 / #5 superpowers=テスト駆動を強制する方法論skillフレームワーク。Fri=405 avgの上位曜日帯、最低30 views・理想200 viewsを目標。注記: 14日窓のmethod平均差(0〜3 views)は母数n≤4かつ05-14〜17のsilent fail汚染で統計的に有意でなく、本選定はノイズ上の運用判断と本日素材の例外的なtrend-pattern適合度を主根拠とする。重複2本(codegraph 2日連続/andrej-karpathy-skills 2日連続)は05-21 use-case『誰の作業シーンで使うか』→本日trend-pattern『なぜ今週このレイヤーが標準化したか』で角度を完全切替。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/anthropics/claude-plugins-official",
-          "https://github.com/colbymchenry/codegraph",
-          "https://github.com/multica-ai/andrej-karpathy-skills",
-          "https://github.com/dotnet/skills",
-          "https://github.com/obra/superpowers",
-          "https://agentskills.io/home",
-          "https://news.ycombinator.com/item?id=47314090"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 3,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-05T23:56:10.379Z"
-      }
-    },
-    {
       "videoId": "XLFiBTa6TEI",
       "videoUrl": "https://youtube.com/shorts/XLFiBTa6TEI",
       "date": "2026-05-23",
@@ -3788,7 +3729,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -3847,7 +3788,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -3906,7 +3847,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -3962,7 +3903,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4018,7 +3959,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4077,7 +4018,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4134,7 +4075,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4188,7 +4129,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4241,7 +4182,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4297,7 +4238,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4353,7 +4294,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4404,7 +4345,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4457,7 +4398,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.105Z"
       }
     },
     {
@@ -4510,7 +4451,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-20T23:12:52.159Z"
+        "updatedAt": "2026-08-21T23:11:22.106Z"
       }
     },
     {
@@ -4570,32 +4511,68 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-21T23:11:22.106Z"
+      }
+    },
+    {
+      "videoId": "xhG_8AuRLCs",
+      "videoUrl": "https://youtube.com/shorts/xhG_8AuRLCs",
+      "date": "2026-08-22",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/22 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Kotlin",
+        "Python"
+      ],
+      "languages": [
+        "Shell",
+        "Kotlin",
+        "Python",
+        "Rust"
+      ],
+      "projects": [
+        "mattpocock/skills",
+        "mahlernim/google-timeline-visualizer",
+        "harry0703/MoneyPrinterTurbo",
+        "AprilNEA/OpenLogi",
+        "PostHog/posthog"
+      ],
+      "durationSeconds": 46,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日のTOP5を『既存の巨大エコシステムに対する位置づけ (対抗/補完/local-first置換/統合)』の地図として並べる ecosystem 番組。全期間 top-3 method (avg 1.56 n=16) を 6 日 cooldown 経過で再投入、crisis-mode 継続下でシグナル差が最も出やすい枠を突く。5 本の共通軸: (a) mattpocock/skills = Claude Code Skills 生態系の実務スタンダード候補、(b) google-timeline-visualizer = Google Maps Timeline データの privacy 補完視覚化、(c) MoneyPrinterTurbo = Sora/Runway 対抗の OSS 動画パイプライン (Claude/Gemini/ElevenLabs/WaveSpeed 差し替え可能)、(d) OpenLogi = Logitech Options+ 生態系の local-first Rust 置換、(e) PostHog = Amplitude/Segment/LaunchDarkly を 1 枚に束ねる OSS 分析基盤。柱① (Trending 解説 70%) の枠で今週消化、柱② は 08-17 business-angle、柱③ は 08-21 self-experiment で消化済。直近 2 日 (08-20 use-case / 08-21 self-experiment) 連投回避 + trend-pattern (08-18 消化 4 日) 微妙 + comparison (08-19 消化 3 日) 微妙 + business-angle (08-17 消化 5 日、柱② 週内消化) + use-case (08-20 直近 + 全期間最下位) + tech-deep (14d 圏外) 除外で ecosystem が残る。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/mahlernim/google-timeline-visualizer",
+          "https://github.com/harry0703/MoneyPrinterTurbo",
+          "https://github.com/AprilNEA/OpenLogi",
+          "https://github.com/PostHog/posthog",
+          "https://docs.anthropic.com/en/docs/claude-code/skills",
+          "https://posthog.com/product-analytics"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-20",
-      "changes": [
-        "HTML: 4.0x avg views → boost",
-        "Rust: 0.2x avg views → drop",
-        "Shell: 4.3x avg views → boost",
-        "Markdown: 0.5x avg views → drop",
-        "Go: 4.6x avg views → boost",
-        "C++: 0.2x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.2x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.1x avg views → drop",
-        "CSS: 0.2x avg views → drop",
-        "standard: 9 avg views (80 videos)",
-        "Trending languages: HTML (4.0x), Shell (1.6x), Go (5.2x)",
-        "Day performance: Tue=34, Mon=20, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-21",
       "changes": [
@@ -5042,6 +5019,17 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (2.0x), PowerShell (1.9x)",
         "Day performance: Fri=2, Sat=2, Tue=2, Thu=1, Wed=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-21",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Markdown (2.1x), C# (2.1x), Java (1.7x), CSS (1.7x), Jupyter Notebook (2.0x), PowerShell (1.9x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
