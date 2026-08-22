@@ -2,63 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "XLFiBTa6TEI",
-      "videoUrl": "https://youtube.com/shorts/XLFiBTa6TEI",
-      "date": "2026-05-23",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/23 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "Rust"
-      ],
-      "projects": [
-        "anthropics/claude-plugins-official",
-        "colbymchenry/codegraph",
-        "ruvnet/RuView",
-        "rohitg00/ai-engineering-from-scratch",
-        "ChromeDevTools/chrome-devtools-mcp"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "comparison",
-        "description": "本日のTOP5を『何の代替か』の比較視点で5本横断に料理する。各リポは明確に異なる縦割り(プラグイン配布/コード索引/空間センシング/AI教材/ブラウザMCP)だが、5本すべてが既存解への対抗OSSという共通項を持つ。#1 anthropics/claude-plugins-official=個別Marketplace/npm registryに代わるAnthropic公式の集約点・/plugin install一発導入 / #2 colbymchenry/codegraph=Sourcegraph・Cody代替を完全ローカルで実現・tree-sitter+SQLite+MCP、7リポ実測で59%トークン減・70%ツール呼び出し減・49%高速化 / #3 ruvnet/RuView=カメラ・レーダー・PIRに代わるWiFi CSIベース見守り・$9のESP32-S3とCognitum Seedで17関節姿勢/呼吸/心拍を非接触取得・GDPR/HIPAA配慮 / #4 rohitg00/ai-engineering-from-scratch=Andrew Ng・fast.aiに対しMITで20フェーズ・435レッスン・約320時間・PyTorch前に逆伝播を自分で書く数学先行カリキュラム / #5 ChromeDevTools/chrome-devtools-mcp=Playwright MCP・browser-useに対しPuppeteer+CDP直結で43ツールをMCPに分解・性能トレース/ネットワーク/ヒープ解析まで呼べる。直近2日(05-22 trend-pattern / 05-21 use-case)とmethod衝突なし、comparisonは最終投入05-19から4日空き、全期間平均TOP4(4.3、サンプル6)。素材適合度5/5(全リポが明確な競合OSS/有償サービスを持ち、各READMEで競合言及が明示)。Primaryペルソナ(CTO/技術選定者)が『何を捨てて何を入れるか』の意思決定軸で5本とも料理する。柱②週次必須要件は05-20で本週(05-18〜24)既達のため、本日は柱①主軸で運用。重複3本(claude-plugins-official 2日連続・codegraph 3日連続・ai-engineering-from-scratch 2日連続)は05-22 trend-pattern『なぜ今週このレイヤーが標準化したか』および05-21 use-case『誰の作業シーンで使うか』から本日comparison『何の代替か』へ語彙完全切替で連投ペナルティ回避。Sat=6 avgの最下位曜日帯、最低3 views(過去Sat下位帯超え)、理想15 views(Sat上位帯=05-09=5の再現を狙う)を目標。注記: 14日窓のmethod平均差(0〜3 views)はn≤4・silent fail汚染で統計的に有意でなく、本選定はノイズ上の運用判断と本日素材の例外的なcomparison適合度を主根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/anthropics/claude-plugins-official",
-          "https://github.com/colbymchenry/codegraph",
-          "https://github.com/ruvnet/RuView",
-          "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-          "https://clau.de/plugin-directory-submission",
-          "https://www.npmjs.com/package/@colbymchenry/codegraph",
-          "https://crates.io/crates/wifi-densepose-ruvector",
-          "https://www.npmjs.com/package/chrome-devtools-mcp"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 4,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-06T23:53:26.751Z"
-      }
-    },
-    {
       "videoId": "v0i0YGAX2ZE",
       "videoUrl": "https://youtube.com/shorts/v0i0YGAX2ZE",
       "date": "2026-05-27",
@@ -3788,7 +3731,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -3847,7 +3790,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -3903,7 +3846,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -3959,7 +3902,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4018,7 +3961,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4075,7 +4018,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4129,7 +4072,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4182,7 +4125,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4238,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4294,7 +4237,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4345,7 +4288,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4398,7 +4341,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.105Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4451,7 +4394,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.106Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4511,7 +4454,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-21T23:11:22.106Z"
+        "updatedAt": "2026-08-22T23:08:03.980Z"
       }
     },
     {
@@ -4568,32 +4511,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-22T23:08:03.980Z"
+      }
+    },
+    {
+      "videoId": "6rUjZGQ7DUQ",
+      "videoUrl": "https://youtube.com/shorts/6rUjZGQ7DUQ",
+      "date": "2026-08-23",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/23 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Jupyter Notebook",
+        "Shell",
+        "JavaScript"
+      ],
+      "languages": [
+        "Rust",
+        "Shell",
+        "JavaScript",
+        "Go"
+      ],
+      "projects": [
+        "openai/codex",
+        "mattpocock/skills",
+        "affaan-m/ECC",
+        "obra/superpowers",
+        "Wei-Shaw/sub2api"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5を『CTO/技術投資判断者が今週どのAIコーディングエージェントを標準化して、どのSaaSを止めるか』の意思決定リストとして並べる business-angle 番組。全期間 TOP2 method (avg 1.64 n=14) で直近使用 08-17 から 6 日空き、Saturday 曜日 exploit では単独 TOP (avg 3.00、08-02 の 5 views が 8 月唯一の 3 views 超え)、直近 2 日 (08-21 self-experiment / 08-22 ecosystem) と衝突なし。5 本の共通軸: (a) openai/codex = 既存 ChatGPT Plus/Pro 契約に含まれる端末エージェント (Cursor 月20ドルの席を止められる)、(b) mattpocock/skills = 購読6万人の TS 実務家 Matt Pocock 氏の作法をチームに強制配布 (シニア設計レビュー負荷の平準化)、(c) affaan-m/ECC = 計画→テスト→レビュー→検証を 7 段階で強制する Claude Code 拡張 (AgentShield 102 ルールで静的解析ツール別途契約が不要)、(d) obra/superpowers = Devin (月500ドル相当) 風の自動開発を Claude Code/Cursor/Codex/Gemini 上で無料再現、(e) Wei-Shaw/sub2api = Claude/OpenAI/Gemini/Grok サブスクを 1 本の API に束ねる自社ホスト中継 (TOS 違反リスク明示、社内検証用に限定)。柱② (business-angle 15%) の週内 2 本目投入で Primary ペルソナ (技術投資判断者) 向けリーチ強化。前週 (08-17) の readme 要約止まりの反省を踏まえ、5 本すべてに具体 SaaS 名 (Cursor 月20ドル / Devin 月500ドル / ChatGPT Plus/Pro / AgentShield 相当) と月額数字を narration に明記。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/openai/codex",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/obra/superpowers",
+          "https://github.com/Wei-Shaw/sub2api",
+          "https://help.openai.com/en/articles/8555741-openai-o1-in-chatgpt",
+          "https://ecc.tools",
+          "https://blog.fsck.com"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-21",
-      "changes": [
-        "Rust: 0.3x avg views → drop",
-        "Shell: 5.4x avg views → boost",
-        "Markdown: 0.8x avg views → drop",
-        "Go: 5.8x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "HTML: 0.2x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.3x avg views → drop",
-        "standard: 7 avg views (80 videos)",
-        "Trending languages: Shell (2.2x), Go (7.3x)",
-        "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-22",
       "changes": [
@@ -5030,6 +5011,19 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Markdown (2.1x), C# (2.1x), Java (1.7x), CSS (1.7x), Jupyter Notebook (2.0x), PowerShell (1.9x)",
         "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-22",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "Jupyter Notebook: 1.3x avg views → boost",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Java (1.7x), CSS (1.7x), Markdown (2.2x), Jupyter Notebook (2.0x), PowerShell (2.0x)",
+        "Day performance: Sat=2, Fri=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
