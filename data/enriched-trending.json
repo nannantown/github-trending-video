@@ -1,17 +1,18 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『既存の巨大エコシステムに対する位置づけ (対抗/補完/local-first置換/統合)』の地図として並べる ecosystem 番組。全期間 top-3 method (avg 1.56 n=16) を 6 日 cooldown 経過で再投入、crisis-mode 継続下でシグナル差が最も出やすい枠を突く。5 本の共通軸: (a) mattpocock/skills = Claude Code Skills 生態系の実務スタンダード候補、(b) google-timeline-visualizer = Google Maps Timeline データの privacy 補完視覚化、(c) MoneyPrinterTurbo = Sora/Runway 対抗の OSS 動画パイプライン (Claude/Gemini/ElevenLabs/WaveSpeed 差し替え可能)、(d) OpenLogi = Logitech Options+ 生態系の local-first Rust 置換、(e) PostHog = Amplitude/Segment/LaunchDarkly を 1 枚に束ねる OSS 分析基盤。柱① (Trending 解説 70%) の枠で今週消化、柱② は 08-17 business-angle、柱③ は 08-21 self-experiment で消化済。直近 2 日 (08-20 use-case / 08-21 self-experiment) 連投回避 + trend-pattern (08-18 消化 4 日) 微妙 + comparison (08-19 消化 3 日) 微妙 + business-angle (08-17 消化 5 日、柱② 週内消化) + use-case (08-20 直近 + 全期間最下位) + tech-deep (14d 圏外) 除外で ecosystem が残る。",
+    "method": "business-angle",
+    "description": "本日のTOP5を『CTO/技術投資判断者が今週どのAIコーディングエージェントを標準化して、どのSaaSを止めるか』の意思決定リストとして並べる business-angle 番組。全期間 TOP2 method (avg 1.64 n=14) で直近使用 08-17 から 6 日空き、Saturday 曜日 exploit では単独 TOP (avg 3.00、08-02 の 5 views が 8 月唯一の 3 views 超え)、直近 2 日 (08-21 self-experiment / 08-22 ecosystem) と衝突なし。5 本の共通軸: (a) openai/codex = 既存 ChatGPT Plus/Pro 契約に含まれる端末エージェント (Cursor 月20ドルの席を止められる)、(b) mattpocock/skills = 購読6万人の TS 実務家 Matt Pocock 氏の作法をチームに強制配布 (シニア設計レビュー負荷の平準化)、(c) affaan-m/ECC = 計画→テスト→レビュー→検証を 7 段階で強制する Claude Code 拡張 (AgentShield 102 ルールで静的解析ツール別途契約が不要)、(d) obra/superpowers = Devin (月500ドル相当) 風の自動開発を Claude Code/Cursor/Codex/Gemini 上で無料再現、(e) Wei-Shaw/sub2api = Claude/OpenAI/Gemini/Grok サブスクを 1 本の API に束ねる自社ホスト中継 (TOS 違反リスク明示、社内検証用に限定)。柱② (business-angle 15%) の週内 2 本目投入で Primary ペルソナ (技術投資判断者) 向けリーチ強化。前週 (08-17) の readme 要約止まりの反省を踏まえ、5 本すべてに具体 SaaS 名 (Cursor 月20ドル / Devin 月500ドル / ChatGPT Plus/Pro / AgentShield 相当) と月額数字を narration に明記。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/openai/codex",
       "https://github.com/mattpocock/skills",
-      "https://github.com/mahlernim/google-timeline-visualizer",
-      "https://github.com/harry0703/MoneyPrinterTurbo",
-      "https://github.com/AprilNEA/OpenLogi",
-      "https://github.com/PostHog/posthog",
-      "https://docs.anthropic.com/en/docs/claude-code/skills",
-      "https://posthog.com/product-analytics"
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/obra/superpowers",
+      "https://github.com/Wei-Shaw/sub2api",
+      "https://help.openai.com/en/articles/8555741-openai-o1-in-chatgpt",
+      "https://ecc.tools",
+      "https://blog.fsck.com"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "openai/codex",
+      "name": "codex",
+      "url": "https://github.com/openai/codex",
+      "language": "Rust",
+      "stars": 113222,
+      "todayStars": 1978,
+      "description": "ChatGPT契約で使うコード補助",
+      "detail": "既存ChatGPT Plus・Pro契約に含まれる端末型コーディングエージェントです。VS CodeやCursorに刺す形で使え、Cursor月20ドルの席をそのまま止めてChatGPT契約に統合できます",
+      "narration": "ChatGPT契約者は追加費用ゼロでコーディングエージェント化。Cursor月20ドルの席をそのまま止められます"
+    },
+    {
+      "rank": 2,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 229339,
-      "todayStars": 3368,
-      "description": "AI開発者向けスキル集の決定版",
-      "detail": "TDD、コードレビュー、実装計画などをAIエージェントに与えるスキル定義集です。GSDやSpec-Kitと違い工程を固定せず、Claude CodeとCodex両対応のプラグイン形式で自分で改造して育てます",
-      "narration": "AIエージェント用スキル集の決定版。Claude CodeとCodex両対応のプラグイン形式です"
-    },
-    {
-      "rank": 2,
-      "fullName": "mahlernim/google-timeline-visualizer",
-      "name": "google-timeline-visualizer",
-      "url": "https://github.com/mahlernim/google-timeline-visualizer",
-      "language": "Kotlin",
-      "stars": 2194,
-      "todayStars": 1040,
-      "description": "移動履歴を動画化するローカルアプリ",
-      "detail": "Google TimelineのJSON出力を読み込み、1年分の移動を90秒程度のアニメ動画に変換します。処理は端末内で完結し、位置情報やアカウント権限を一切要求しないプライバシー重視設計です",
-      "narration": "あなたの1年の移動履歴がアニメ動画に変身。全てローカルで動きクラウド送信は一切ありません"
+      "stars": 231910,
+      "todayStars": 2684,
+      "description": "TS界の実務家が組んだAI作法集",
+      "detail": "購読6万人のTypeScript実務家Matt Pocock氏が組んだスキル集で、TDDやコードレビュー、実装計画などをClaude CodeやCodexで強制できるプラグイン形式です",
+      "narration": "6万人購読の実務家が組んだAIエージェント作法集。チーム全員に同じ設計基準を強制配布できます"
     },
     {
       "rank": 3,
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "name": "MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "language": "Python",
-      "stars": 113850,
-      "todayStars": 1187,
-      "description": "AIショート動画自動化のOSSハブ",
-      "detail": "トピックを入れるだけでスクリプト生成、素材収集、音声合成まで自動化するOSSです。Claude、Gemini、ElevenLabs等の主要APIを差し替えて使え、SoraやRunwayに依存しない自社パイプラインを構築できます",
-      "narration": "AI動画自動生成のOSSハブ。Claudeやelevenlabsなど主要APIを差し替えて使えます"
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 242152,
+      "todayStars": 428,
+      "description": "AIコーディング用の統制フレームワーク",
+      "detail": "計画→テスト→実装→レビュー→検証→記憶→改善の7段階を強制するClaude Code拡張です。AgentShield 102ルールでセキュリティ監査までパイプラインに含められます",
+      "narration": "計画テストレビューを7段階で強制するClaude Code拡張。属人化を消して受託の再現性を担保できます"
     },
     {
       "rank": 4,
-      "fullName": "AprilNEA/OpenLogi",
-      "name": "OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "language": "Rust",
-      "stars": 12845,
-      "todayStars": 1372,
-      "description": "Logi Options+のRust製代替",
-      "detail": "アカウント不要、テレメトリなしで動くLogitech純正ソフトの置換品です。設定はTOMLで手元管理、任意のボタンにジェスチャーを割り当てるなどOptions+では不可能な事も可能です",
-      "narration": "Logitech Options+のRust製代替。設定はTOMLファイルで完全ローカル管理です"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 276160,
+      "todayStars": 592,
+      "description": "多harness対応の自動開発方式",
+      "detail": "Claude CodeやCursor、Codex、Gemini等7つのharnessで動く『勝手にTDDと2段レビューを回す』フレームワークです。Devin相当の自動開発を無料で組めます",
+      "narration": "Devin風の自動開発をClaude CodeやCursor上で無料再現。有償エージェント月500ドルの代替に育ちます"
     },
     {
       "rank": 5,
-      "fullName": "PostHog/posthog",
-      "name": "posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "language": "Python",
-      "stars": 38274,
-      "todayStars": 334,
-      "description": "OSS版の統合プロダクト分析基盤",
-      "detail": "分析、セッション再生、A/Bテスト、フラグ、エラー追跡までを1つに束ねる自社ホスト可能OSSです。AmplitudeとLaunchDarklyとSegmentをまとめて置き換えるスタックとして育っています",
-      "narration": "Amplitudeを自社ホストで置き換える統合分析基盤。分析、実験、フラグを1つに集約します"
+      "fullName": "Wei-Shaw/sub2api",
+      "name": "sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "language": "Go",
+      "stars": 38773,
+      "todayStars": 264,
+      "description": "AIサブスクを1本のAPIに束ねる中継",
+      "detail": "Claude・OpenAI・Gemini・Grokの各サブスク契約を統一APIとしてチーム全体に配布できる自社ホスト中継です。ただしTOS違反リスクを認める警告があり社内検証用に留める運用が現実的です",
+      "narration": "AIサブスクを1本のAPIに束ねる自社ホスト中継。TOS違反リスクを認めた社内検証用ツールです"
     }
   ]
 }
