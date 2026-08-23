@@ -1,18 +1,17 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『CTO/技術投資判断者が今週どのAIコーディングエージェントを標準化して、どのSaaSを止めるか』の意思決定リストとして並べる business-angle 番組。全期間 TOP2 method (avg 1.64 n=14) で直近使用 08-17 から 6 日空き、Saturday 曜日 exploit では単独 TOP (avg 3.00、08-02 の 5 views が 8 月唯一の 3 views 超え)、直近 2 日 (08-21 self-experiment / 08-22 ecosystem) と衝突なし。5 本の共通軸: (a) openai/codex = 既存 ChatGPT Plus/Pro 契約に含まれる端末エージェント (Cursor 月20ドルの席を止められる)、(b) mattpocock/skills = 購読6万人の TS 実務家 Matt Pocock 氏の作法をチームに強制配布 (シニア設計レビュー負荷の平準化)、(c) affaan-m/ECC = 計画→テスト→レビュー→検証を 7 段階で強制する Claude Code 拡張 (AgentShield 102 ルールで静的解析ツール別途契約が不要)、(d) obra/superpowers = Devin (月500ドル相当) 風の自動開発を Claude Code/Cursor/Codex/Gemini 上で無料再現、(e) Wei-Shaw/sub2api = Claude/OpenAI/Gemini/Grok サブスクを 1 本の API に束ねる自社ホスト中継 (TOS 違反リスク明示、社内検証用に限定)。柱② (business-angle 15%) の週内 2 本目投入で Primary ペルソナ (技術投資判断者) 向けリーチ強化。前週 (08-17) の readme 要約止まりの反省を踏まえ、5 本すべてに具体 SaaS 名 (Cursor 月20ドル / Devin 月500ドル / ChatGPT Plus/Pro / AgentShield 相当) と月額数字を narration に明記。",
+    "method": "comparison",
+    "description": "本日のTOP5を『類似OSSと何が違うか』の比較表として並べるcomparison角度。Claude Code(codex vs), Midjourney系プロンプト集(awesome-gpt-image-2 vs), BMAD/Spec-Kit(mattpocock/skills vs), NixOS/Regolith(omarchy vs), Solaar/Steermouse(OpenLogi vs)で座標感を提示",
     "sources": [
       "https://github.com/trending",
       "https://github.com/openai/codex",
+      "https://github.com/freestylefly/awesome-gpt-image-2",
       "https://github.com/mattpocock/skills",
-      "https://github.com/affaan-m/ECC",
-      "https://github.com/obra/superpowers",
-      "https://github.com/Wei-Shaw/sub2api",
-      "https://help.openai.com/en/articles/8555741-openai-o1-in-chatgpt",
-      "https://ecc.tools",
-      "https://blog.fsck.com"
+      "https://github.com/basecamp/omarchy",
+      "https://github.com/AprilNEA/OpenLogi",
+      "https://news.ycombinator.com/from?site=github.com/openai/codex",
+      "https://news.ycombinator.com/from?site=github.com/basecamp/omarchy"
     ],
     "query": "",
     "freshness_hours": 1
@@ -24,59 +23,59 @@
       "name": "codex",
       "url": "https://github.com/openai/codex",
       "language": "Rust",
-      "stars": 113222,
-      "todayStars": 1978,
-      "description": "ChatGPT契約で使うコード補助",
-      "detail": "既存ChatGPT Plus・Pro契約に含まれる端末型コーディングエージェントです。VS CodeやCursorに刺す形で使え、Cursor月20ドルの席をそのまま止めてChatGPT契約に統合できます",
-      "narration": "ChatGPT契約者は追加費用ゼロでコーディングエージェント化。Cursor月20ドルの席をそのまま止められます"
+      "stars": 115096,
+      "todayStars": 2729,
+      "description": "ターミナル型AIコーディング代替",
+      "detail": "Claude CodeやCursorに対抗するOpenAI公式ターミナル版。Rust製で軽量、ChatGPT契約またはAPIキーで認証できます。IDE非依存でCLI主体の開発者が対象。",
+      "narration": "Claude Codeに対抗するOpenAI発のターミナル型エージェント。ChatGPT契約で使えます"
     },
     {
       "rank": 2,
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "language": "JavaScript",
+      "stars": 12658,
+      "todayStars": 440,
+      "description": "画像生成プロンプト工業級ライブラリ",
+      "detail": "GPT-Image2向けに470件超の事例を逆解析した中国発の工業級プロンプトライブラリ。プロンプトを主題や照明などの部品に分割し、20種類以上のテンプレとJSONで再利用できる設計です。",
+      "narration": "画像生成プロンプトを部品化した工業級ライブラリ。470件超の事例とテンプレを収録"
+    },
+    {
+      "rank": 3,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 231910,
-      "todayStars": 2684,
-      "description": "TS界の実務家が組んだAI作法集",
-      "detail": "購読6万人のTypeScript実務家Matt Pocock氏が組んだスキル集で、TDDやコードレビュー、実装計画などをClaude CodeやCodexで強制できるプラグイン形式です",
-      "narration": "6万人購読の実務家が組んだAIエージェント作法集。チーム全員に同じ設計基準を強制配布できます"
-    },
-    {
-      "rank": 3,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 242152,
-      "todayStars": 428,
-      "description": "AIコーディング用の統制フレームワーク",
-      "detail": "計画→テスト→実装→レビュー→検証→記憶→改善の7段階を強制するClaude Code拡張です。AgentShield 102ルールでセキュリティ監査までパイプラインに含められます",
-      "narration": "計画テストレビューを7段階で強制するClaude Code拡張。属人化を消して受託の再現性を担保できます"
+      "stars": 233769,
+      "todayStars": 2448,
+      "description": "AIエージェント用スキル集の決定版",
+      "detail": "GSD/BMAD/Spec-Kitと違い工程を固定せず、部品としてスキルを合成する設計。Claude Code公式プラグイン、Codex、直編集の3経路すべてに載せられる実務標準候補です。",
+      "narration": "BMADやSpec-Kit系と違い工程を固定しないスキル集。Claude CodeとCodex両対応です"
     },
     {
       "rank": 4,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
+      "fullName": "basecamp/omarchy",
+      "name": "omarchy",
+      "url": "https://github.com/basecamp/omarchy",
       "language": "Shell",
-      "stars": 276160,
-      "todayStars": 592,
-      "description": "多harness対応の自動開発方式",
-      "detail": "Claude CodeやCursor、Codex、Gemini等7つのharnessで動く『勝手にTDDと2段レビューを回す』フレームワークです。Devin相当の自動開発を無料で組めます",
-      "narration": "Devin風の自動開発をClaude CodeやCursor上で無料再現。有償エージェント月500ドルの代替に育ちます"
+      "stars": 29063,
+      "todayStars": 814,
+      "description": "DHH監修モダンLinuxディストロ",
+      "detail": "DHH自作のArch Linuxベース即席ディストロ。Hyprland構成やクリップボード、AIツール、Windows VMまで初期同梱。macOSやWindowsからの移行導線が公式マニュアルで整備済み。",
+      "narration": "DHH監修のArch Linux即席セット。macOSやWindowsから移る人向けに最適化されています"
     },
     {
       "rank": 5,
-      "fullName": "Wei-Shaw/sub2api",
-      "name": "sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "language": "Go",
-      "stars": 38773,
-      "todayStars": 264,
-      "description": "AIサブスクを1本のAPIに束ねる中継",
-      "detail": "Claude・OpenAI・Gemini・Grokの各サブスク契約を統一APIとしてチーム全体に配布できる自社ホスト中継です。ただしTOS違反リスクを認める警告があり社内検証用に留める運用が現実的です",
-      "narration": "AIサブスクを1本のAPIに束ねる自社ホスト中継。TOS違反リスクを認めた社内検証用ツールです"
+      "fullName": "AprilNEA/OpenLogi",
+      "name": "OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "language": "Rust",
+      "stars": 14872,
+      "todayStars": 1008,
+      "description": "Logitech公式ツールのOSS代替",
+      "detail": "Logitech Options+のRust製ローカル代替。HID++直叩きでボタンやDPI、SmartShiftを再割当し、アカウント登録とテレメトリなし、TOML平文設定でSolaarとも差別化されています。",
+      "narration": "Logitech Options+の完全ローカルRust版。アカウント登録もテレメトリもありません"
     }
   ]
 }
