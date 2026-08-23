@@ -3790,7 +3790,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -3846,7 +3846,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -3902,7 +3902,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -3961,7 +3961,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4018,7 +4018,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4072,7 +4072,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4125,7 +4125,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4181,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4237,7 +4237,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4288,7 +4288,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4341,7 +4341,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4394,7 +4394,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4454,7 +4454,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4511,7 +4511,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-22T23:08:03.980Z"
+        "updatedAt": "2026-08-23T23:07:53.878Z"
       }
     },
     {
@@ -4570,33 +4570,66 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-23T23:07:53.878Z"
+      }
+    },
+    {
+      "videoId": "YySMhRU9xUI",
+      "videoUrl": "https://youtube.com/shorts/YySMhRU9xUI",
+      "date": "2026-08-24",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/24 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "JavaScript",
+        "Shell"
+      ],
+      "languages": [
+        "Rust",
+        "JavaScript",
+        "Shell"
+      ],
+      "projects": [
+        "openai/codex",
+        "freestylefly/awesome-gpt-image-2",
+        "mattpocock/skills",
+        "basecamp/omarchy",
+        "AprilNEA/OpenLogi"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『類似OSSと何が違うか』の比較表として並べるcomparison角度。Claude Code(codex vs), Midjourney系プロンプト集(awesome-gpt-image-2 vs), BMAD/Spec-Kit(mattpocock/skills vs), NixOS/Regolith(omarchy vs), Solaar/Steermouse(OpenLogi vs)で座標感を提示",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/openai/codex",
+          "https://github.com/freestylefly/awesome-gpt-image-2",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/basecamp/omarchy",
+          "https://github.com/AprilNEA/OpenLogi",
+          "https://news.ycombinator.com/from?site=github.com/openai/codex",
+          "https://news.ycombinator.com/from?site=github.com/basecamp/omarchy"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-22",
-      "changes": [
-        "Rust: 0.3x avg views → drop",
-        "Shell: 5.0x avg views → boost",
-        "Markdown: 0.8x avg views → drop",
-        "Go: 5.2x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "HTML: 0.2x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.3x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.2x), Go (7.4x)",
-        "Day performance: Tue=31, Thu=3, Sat=3, Wed=2, Fri=2, Sun=2, Mon=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-23",
       "changes": [
@@ -5024,6 +5057,17 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Java (1.7x), CSS (1.7x), Markdown (2.2x), Jupyter Notebook (2.0x), PowerShell (2.0x)",
         "Day performance: Sat=2, Fri=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-23",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.1x), PowerShell (2.0x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
