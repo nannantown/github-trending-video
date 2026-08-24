@@ -3846,7 +3846,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -3902,7 +3902,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -3961,7 +3961,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4018,7 +4018,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4072,7 +4072,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4125,7 +4125,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4181,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4237,7 +4237,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4288,7 +4288,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4341,7 +4341,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4394,7 +4394,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4454,7 +4454,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4511,7 +4511,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4570,7 +4570,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-23T23:07:53.878Z"
+        "updatedAt": "2026-08-24T23:11:29.360Z"
       }
     },
     {
@@ -4625,33 +4625,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-24T23:11:29.360Z"
+      }
+    },
+    {
+      "videoId": "1E5EKhOonNI",
+      "videoUrl": "https://youtube.com/shorts/1E5EKhOonNI",
+      "date": "2026-08-25",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/25 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "Rust",
+        "TypeScript"
+      ],
+      "projects": [
+        "Alishahryar1/free-claude-code",
+        "openai/codex",
+        "MadsLorentzen/ai-job-search",
+        "multica-ai/andrej-karpathy-skills",
+        "makeplane/plane"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "ecosystem",
+        "description": "本日のTOP5を『周辺エコの中でどこに立つか』の座標軸で並べるecosystem角度。free-claude-code(LiteLLM/OpenRouter系のLLMプロキシ層)、codex(ChatGPT契約経済圏に組み込むCLIエコ)、ai-job-search(Claude Code Skills+MCPの実用アプリ例)、karpathy-skills(Skills/Subagentsに次ぐ第3の軽量設定層)、plane(OpenProject/Focalboard系MCP対応PM)",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/Alishahryar1/free-claude-code",
+          "https://github.com/openai/codex",
+          "https://github.com/MadsLorentzen/ai-job-search",
+          "https://github.com/multica-ai/andrej-karpathy-skills",
+          "https://github.com/makeplane/plane"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-23",
-      "changes": [
-        "Shell: 4.7x avg views → boost",
-        "Markdown: 0.8x avg views → drop",
-        "Go: 4.9x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "HTML: 0.2x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.3x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.2x), Go (6.6x)",
-        "Day performance: Tue=31, Thu=3, Sat=3, Fri=2, Sun=2, Mon=2, Wed=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-24",
       "changes": [
@@ -5067,6 +5099,18 @@
         "C: 0.0x avg views → drop",
         "standard: 1 avg views (82 videos)",
         "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.1x), PowerShell (2.0x)",
+        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-24",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.2x), PowerShell (2.0x)",
         "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
