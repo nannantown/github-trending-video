@@ -1,17 +1,15 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『類似OSSと何が違うか』の比較表として並べるcomparison角度。Claude Code(codex vs), Midjourney系プロンプト集(awesome-gpt-image-2 vs), BMAD/Spec-Kit(mattpocock/skills vs), NixOS/Regolith(omarchy vs), Solaar/Steermouse(OpenLogi vs)で座標感を提示",
+    "method": "ecosystem",
+    "description": "本日のTOP5を『周辺エコの中でどこに立つか』の座標軸で並べるecosystem角度。free-claude-code(LiteLLM/OpenRouter系のLLMプロキシ層)、codex(ChatGPT契約経済圏に組み込むCLIエコ)、ai-job-search(Claude Code Skills+MCPの実用アプリ例)、karpathy-skills(Skills/Subagentsに次ぐ第3の軽量設定層)、plane(OpenProject/Focalboard系MCP対応PM)",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/Alishahryar1/free-claude-code",
       "https://github.com/openai/codex",
-      "https://github.com/freestylefly/awesome-gpt-image-2",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/basecamp/omarchy",
-      "https://github.com/AprilNEA/OpenLogi",
-      "https://news.ycombinator.com/from?site=github.com/openai/codex",
-      "https://news.ycombinator.com/from?site=github.com/basecamp/omarchy"
+      "https://github.com/MadsLorentzen/ai-job-search",
+      "https://github.com/multica-ai/andrej-karpathy-skills",
+      "https://github.com/makeplane/plane"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "Alishahryar1/free-claude-code",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "stars": 48889,
+      "todayStars": 889,
+      "description": "50社の無料LLM枠を束ねるプロキシ",
+      "detail": "Claude Code、Codex、Cline、OpenCode等の主要CLIを1本のローカルプロキシに束ねる集約層。NVIDIA NIM、Groq、DeepInfra等の無料枠を横断し、失敗時は自動fallbackで席替えします。",
+      "narration": "50社超のLLM無料枠を束ねるプロキシです。Claude CodeやCodexから叩けます"
+    },
+    {
+      "rank": 2,
       "fullName": "openai/codex",
       "name": "codex",
       "url": "https://github.com/openai/codex",
       "language": "Rust",
-      "stars": 115096,
-      "todayStars": 2729,
-      "description": "ターミナル型AIコーディング代替",
-      "detail": "Claude CodeやCursorに対抗するOpenAI公式ターミナル版。Rust製で軽量、ChatGPT契約またはAPIキーで認証できます。IDE非依存でCLI主体の開発者が対象。",
-      "narration": "Claude Codeに対抗するOpenAI発のターミナル型エージェント。ChatGPT契約で使えます"
-    },
-    {
-      "rank": 2,
-      "fullName": "freestylefly/awesome-gpt-image-2",
-      "name": "awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "language": "JavaScript",
-      "stars": 12658,
-      "todayStars": 440,
-      "description": "画像生成プロンプト工業級ライブラリ",
-      "detail": "GPT-Image2向けに470件超の事例を逆解析した中国発の工業級プロンプトライブラリ。プロンプトを主題や照明などの部品に分割し、20種類以上のテンプレとJSONで再利用できる設計です。",
-      "narration": "画像生成プロンプトを部品化した工業級ライブラリ。470件超の事例とテンプレを収録"
+      "stars": 116989,
+      "todayStars": 1990,
+      "description": "OpenAI公式ターミナルエージェント",
+      "detail": "Claude CodeやCursor CLIに対抗するOpenAI公式のRust製CLI。ChatGPT Plus/Pro契約で使え、VS Code拡張、Cursor/Windsurf連携、デスクトップ版まで並ぶマルチエントリー設計です。",
+      "narration": "ChatGPT契約で動くOpenAI公式のターミナル型エージェントです。VS Codeやデスクトップ版も揃います"
     },
     {
       "rank": 3,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 233769,
-      "todayStars": 2448,
-      "description": "AIエージェント用スキル集の決定版",
-      "detail": "GSD/BMAD/Spec-Kitと違い工程を固定せず、部品としてスキルを合成する設計。Claude Code公式プラグイン、Codex、直編集の3経路すべてに載せられる実務標準候補です。",
-      "narration": "BMADやSpec-Kit系と違い工程を固定しないスキル集。Claude CodeとCodex両対応です"
+      "fullName": "MadsLorentzen/ai-job-search",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "language": "Python",
+      "stars": 33989,
+      "todayStars": 378,
+      "description": "Claude Code製の求職支援フレーム",
+      "detail": "Claude Codeを土台に求人スクレイパー、CV最適化、面接対策、reviewer subagentを合成した実用アプリ。GmailやNotionをMCP経由で接続し応募状況を同期する導入見本です。",
+      "narration": "Claude Codeで動く求職支援フレームワークです。GmailやNotionをMCP経由で連携します"
     },
     {
       "rank": 4,
-      "fullName": "basecamp/omarchy",
-      "name": "omarchy",
-      "url": "https://github.com/basecamp/omarchy",
-      "language": "Shell",
-      "stars": 29063,
-      "todayStars": 814,
-      "description": "DHH監修モダンLinuxディストロ",
-      "detail": "DHH自作のArch Linuxベース即席ディストロ。Hyprland構成やクリップボード、AIツール、Windows VMまで初期同梱。macOSやWindowsからの移行導線が公式マニュアルで整備済み。",
-      "narration": "DHH監修のArch Linux即席セット。macOSやWindowsから移る人向けに最適化されています"
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "name": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "language": null,
+      "stars": 206453,
+      "todayStars": 491,
+      "description": "Karpathy流CLAUDE.md一枚設定",
+      "detail": "Andrej Karpathyの観察を4原則にしたClaude Code矯正ルール集。過剰実装や勝手な仮定、無関係な編集を抑制します。公式プラグイン版と直配置版の両方に載る、SkillsやSubagentsに次ぐ軽量エコ層です。",
+      "narration": "Claude Codeを賢くする一枚のCLAUDE.mdです。過剰実装や勘違いを防ぐルールが効きます"
     },
     {
       "rank": 5,
-      "fullName": "AprilNEA/OpenLogi",
-      "name": "OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "language": "Rust",
-      "stars": 14872,
-      "todayStars": 1008,
-      "description": "Logitech公式ツールのOSS代替",
-      "detail": "Logitech Options+のRust製ローカル代替。HID++直叩きでボタンやDPI、SmartShiftを再割当し、アカウント登録とテレメトリなし、TOML平文設定でSolaarとも差別化されています。",
-      "narration": "Logitech Options+の完全ローカルRust版。アカウント登録もテレメトリもありません"
+      "fullName": "makeplane/plane",
+      "name": "plane",
+      "url": "https://github.com/makeplane/plane",
+      "language": "TypeScript",
+      "stars": 57892,
+      "todayStars": 268,
+      "description": "Jira代替のOSSプロジェクト管理",
+      "detail": "Cycles、Modules、AI Pagesを備えるJira/Linear代替。Docker/K8s自己ホストとPlane Cloudの両建てで、API/MCP経由でAIエージェントから直接タスク操作もできる新世代PMです。",
+      "narration": "Jira代替のOSS PMツールです。MCP対応でAIエージェントから直接タスク操作できます"
     }
   ]
 }
