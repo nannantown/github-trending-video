@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "discovery": {
-    "method": "ecosystem",
-    "description": "本日のTOP5を『周辺エコの中でどこに立つか』の座標軸で並べるecosystem角度。free-claude-code(LiteLLM/OpenRouter系のLLMプロキシ層)、codex(ChatGPT契約経済圏に組み込むCLIエコ)、ai-job-search(Claude Code Skills+MCPの実用アプリ例)、karpathy-skills(Skills/Subagentsに次ぐ第3の軽量設定層)、plane(OpenProject/Focalboard系MCP対応PM)",
+    "method": "business-angle",
+    "description": "本日のTOP5を『受託・スタートアップ・エージェンシーがどう稼ぐ／削減するか』のビジネス視点で切り取る。awesome-gpt-image-2(制作会社のデザイン外注圧縮)、claude-plugins-community(受託ツールの顧客配布導線)、apache-maka(金融・医療の監査対応が要る受託基盤)、TradingAgents(フィンテック案件のPoC素材)、claude-obsidian(コンサル知見の資産化)",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Alishahryar1/free-claude-code",
-      "https://github.com/openai/codex",
-      "https://github.com/MadsLorentzen/ai-job-search",
-      "https://github.com/multica-ai/andrej-karpathy-skills",
-      "https://github.com/makeplane/plane"
+      "https://github.com/freestylefly/awesome-gpt-image-2",
+      "https://github.com/anthropics/claude-plugins-community",
+      "https://github.com/apache/maka",
+      "https://github.com/TauricResearch/TradingAgents",
+      "https://github.com/AgriciDaniel/claude-obsidian"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Alishahryar1/free-claude-code",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "language": "Python",
-      "stars": 48889,
-      "todayStars": 889,
-      "description": "50社の無料LLM枠を束ねるプロキシ",
-      "detail": "Claude Code、Codex、Cline、OpenCode等の主要CLIを1本のローカルプロキシに束ねる集約層。NVIDIA NIM、Groq、DeepInfra等の無料枠を横断し、失敗時は自動fallbackで席替えします。",
-      "narration": "50社超のLLM無料枠を束ねるプロキシです。Claude CodeやCodexから叩けます"
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "language": "JavaScript",
+      "stars": 17534,
+      "todayStars": 1698,
+      "description": "画像生成プロンプトの工業テンプレ",
+      "detail": "530超の逆解析事例と20種の量産テンプレをJSON化。Claude CodeやCursorから直接呼べるので、LPやSNSクリエイティブを受託する制作会社は月10〜30万のデザイン外注費を圧縮できます。",
+      "narration": "530個のGPT-Image-2プロンプト集です。受託の広告制作なら月10万円分の外注を巻き取れます"
     },
     {
       "rank": 2,
-      "fullName": "openai/codex",
-      "name": "codex",
-      "url": "https://github.com/openai/codex",
-      "language": "Rust",
-      "stars": 116989,
-      "todayStars": 1990,
-      "description": "OpenAI公式ターミナルエージェント",
-      "detail": "Claude CodeやCursor CLIに対抗するOpenAI公式のRust製CLI。ChatGPT Plus/Pro契約で使え、VS Code拡張、Cursor/Windsurf連携、デスクトップ版まで並ぶマルチエントリー設計です。",
-      "narration": "ChatGPT契約で動くOpenAI公式のターミナル型エージェントです。VS Codeやデスクトップ版も揃います"
+      "fullName": "anthropics/claude-plugins-community",
+      "name": "claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "language": "Python",
+      "stars": 1714,
+      "todayStars": 350,
+      "description": "Claude公式プラグインマーケット",
+      "detail": "Anthropic公式のClaudeプラグイン配布マーケットのミラーです。セキュリティ審査を経て公開されるので、社内ツールをプラグイン化して顧客配布する新チャネルとして受託エージェンシーが使えます。",
+      "narration": "Anthropic公式のプラグインマーケットです。受託で組んだ社内ツールを顧客配布する新導線になります"
     },
     {
       "rank": 3,
-      "fullName": "MadsLorentzen/ai-job-search",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "language": "Python",
-      "stars": 33989,
-      "todayStars": 378,
-      "description": "Claude Code製の求職支援フレーム",
-      "detail": "Claude Codeを土台に求人スクレイパー、CV最適化、面接対策、reviewer subagentを合成した実用アプリ。GmailやNotionをMCP経由で接続し応募状況を同期する導入見本です。",
-      "narration": "Claude Codeで動く求職支援フレームワークです。GmailやNotionをMCP経由で連携します"
+      "fullName": "apache/maka",
+      "name": "maka",
+      "url": "https://github.com/apache/maka",
+      "language": "TypeScript",
+      "stars": 3296,
+      "todayStars": 538,
+      "description": "ローカル完結AIエージェント基盤",
+      "detail": "ローカルで動きモデルAPIも自前選択のApache Maka。全実行ログを追記型で残すのでSOC2やHIPAA領域の受託案件で監査対応が楽になります。金融や医療向けエージェント基盤の下地に。",
+      "narration": "Apache製のローカル完結AIエージェント基盤です。金融や医療の監査対応で受託案件の下地になります"
     },
     {
       "rank": 4,
-      "fullName": "multica-ai/andrej-karpathy-skills",
-      "name": "andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "language": null,
-      "stars": 206453,
-      "todayStars": 491,
-      "description": "Karpathy流CLAUDE.md一枚設定",
-      "detail": "Andrej Karpathyの観察を4原則にしたClaude Code矯正ルール集。過剰実装や勝手な仮定、無関係な編集を抑制します。公式プラグイン版と直配置版の両方に載る、SkillsやSubagentsに次ぐ軽量エコ層です。",
-      "narration": "Claude Codeを賢くする一枚のCLAUDE.mdです。過剰実装や勘違いを防ぐルールが効きます"
+      "fullName": "TauricResearch/TradingAgents",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars": 100178,
+      "todayStars": 191,
+      "description": "マルチエージェント金融取引フレーム",
+      "detail": "アナリストや強気弱気の研究員などLLMエージェントを議論させ売買判断を作るフレーム。研究用と明記なので実弾運用は不可ですが、フィンテック受託の技術検証やコンサル提案の実演素材に使えます。",
+      "narration": "LLMエージェントが議論して売買判断を出すフレームです。フィンテック案件のPoC素材として使えます"
     },
     {
       "rank": 5,
-      "fullName": "makeplane/plane",
-      "name": "plane",
-      "url": "https://github.com/makeplane/plane",
-      "language": "TypeScript",
-      "stars": 57892,
-      "todayStars": 268,
-      "description": "Jira代替のOSSプロジェクト管理",
-      "detail": "Cycles、Modules、AI Pagesを備えるJira/Linear代替。Docker/K8s自己ホストとPlane Cloudの両建てで、API/MCP経由でAIエージェントから直接タスク操作もできる新世代PMです。",
-      "narration": "Jira代替のOSS PMツールです。MCP対応でAIエージェントから直接タスク操作できます"
+      "fullName": "AgriciDaniel/claude-obsidian",
+      "name": "claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "language": "Python",
+      "stars": 12669,
+      "todayStars": 810,
+      "description": "Obsidian連携のナレッジ整理AI",
+      "detail": "Obsidianの上でClaude Codeが出典付きノートを自動整理する二次脳。コンサルや受託で溜まった案件ナレッジを引用元ごと再利用でき、次案件の見積もりや提案の下敷きに転用できます。",
+      "narration": "Obsidianでナレッジを出典付き自動整理するAIです。受託案件の知見を次の見積に流用できます"
     }
   ]
 }
