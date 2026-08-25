@@ -3902,7 +3902,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -3961,7 +3961,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4018,7 +4018,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4072,7 +4072,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4125,7 +4125,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4181,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4237,7 +4237,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4288,7 +4288,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4341,7 +4341,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4394,7 +4394,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4454,7 +4454,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4511,7 +4511,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4570,7 +4570,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4625,7 +4625,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-24T23:11:29.360Z"
+        "updatedAt": "2026-08-25T23:13:53.851Z"
       }
     },
     {
@@ -4679,33 +4679,65 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-25T23:13:53.851Z"
+      }
+    },
+    {
+      "videoId": "CNl6pIFX4g4",
+      "videoUrl": "https://youtube.com/shorts/CNl6pIFX4g4",
+      "date": "2026-08-26",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/26 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "projects": [
+        "freestylefly/awesome-gpt-image-2",
+        "anthropics/claude-plugins-community",
+        "apache/maka",
+        "TauricResearch/TradingAgents",
+        "AgriciDaniel/claude-obsidian"
+      ],
+      "durationSeconds": 50,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5を『受託・スタートアップ・エージェンシーがどう稼ぐ／削減するか』のビジネス視点で切り取る。awesome-gpt-image-2(制作会社のデザイン外注圧縮)、claude-plugins-community(受託ツールの顧客配布導線)、apache-maka(金融・医療の監査対応が要る受託基盤)、TradingAgents(フィンテック案件のPoC素材)、claude-obsidian(コンサル知見の資産化)",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/freestylefly/awesome-gpt-image-2",
+          "https://github.com/anthropics/claude-plugins-community",
+          "https://github.com/apache/maka",
+          "https://github.com/TauricResearch/TradingAgents",
+          "https://github.com/AgriciDaniel/claude-obsidian"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-24",
-      "changes": [
-        "Shell: 4.4x avg views → boost",
-        "Markdown: 0.8x avg views → drop",
-        "Go: 4.6x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "HTML: 0.2x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.3x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.3x), Go (6.7x)",
-        "Day performance: Tue=31, Sat=3, Thu=3, Fri=2, Sun=2, Mon=2, Wed=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-25",
       "changes": [
@@ -5112,6 +5144,17 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.2x), PowerShell (2.0x)",
         "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-25",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (84 videos)",
+        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.2x), PowerShell (2.1x)",
+        "Day performance: Fri=2, Sat=2, Wed=1, Thu=1, Sun=1, Mon=1, Tue=1"
       ],
       "recommendedTemplate": "standard"
     }
