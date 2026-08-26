@@ -1,15 +1,20 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『受託・スタートアップ・エージェンシーがどう稼ぐ／削減するか』のビジネス視点で切り取る。awesome-gpt-image-2(制作会社のデザイン外注圧縮)、claude-plugins-community(受託ツールの顧客配布導線)、apache-maka(金融・医療の監査対応が要る受託基盤)、TradingAgents(フィンテック案件のPoC素材)、claude-obsidian(コンサル知見の資産化)",
+    "method": "comparison",
+    "description": "本日のTOP5を『既存の類似OSS・商用サービスと比較して何が独自か』の comparison 角度で切り取る。archify vs Mermaid/PlantUML、awesome-gpt-image-2 vs PromptHero/Lexica/Prompt Base、claude-plugins-official vs claude-plugins-community、free-claude-code vs Claude Pro/Max・API、ai-job-search vs LinkedIn自動化・Rezi・Jobscan。5本とも代替候補が明確なため comparison が刺さる稀有な日。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/tt-a1i/archify",
       "https://github.com/freestylefly/awesome-gpt-image-2",
-      "https://github.com/anthropics/claude-plugins-community",
-      "https://github.com/apache/maka",
-      "https://github.com/TauricResearch/TradingAgents",
-      "https://github.com/AgriciDaniel/claude-obsidian"
+      "https://github.com/anthropics/claude-plugins-official",
+      "https://github.com/Alishahryar1/free-claude-code",
+      "https://github.com/MadsLorentzen/ai-job-search",
+      "https://mermaid.js.org/",
+      "https://plantuml.com/",
+      "https://prompthero.com/",
+      "https://lexica.art/",
+      "https://github.com/anthropics/claude-plugins-community"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +22,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "tt-a1i/archify",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "language": "HTML",
+      "stars": 17762,
+      "todayStars": 1002,
+      "description": "図解特化のAgent Skill",
+      "detail": "MermaidやPlantUMLはコードから静止図を吐きますが、archifyはClaude Codeから1コマンドで自己完結HTML+モーション付き図を生成します。受託PMなら設計レビュー資料の反映が時間単位で軽くなります。",
+      "narration": "MermaidやPlantUMLと違いモーション付きHTMLで一発出力です。受託の設計レビュー資料が短時間で仕上がります"
+    },
+    {
+      "rank": 2,
       "fullName": "freestylefly/awesome-gpt-image-2",
       "name": "awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "language": "JavaScript",
-      "stars": 17534,
-      "todayStars": 1698,
-      "description": "画像生成プロンプトの工業テンプレ",
-      "detail": "530超の逆解析事例と20種の量産テンプレをJSON化。Claude CodeやCursorから直接呼べるので、LPやSNSクリエイティブを受託する制作会社は月10〜30万のデザイン外注費を圧縮できます。",
-      "narration": "530個のGPT-Image-2プロンプト集です。受託の広告制作なら月10万円分の外注を巻き取れます"
-    },
-    {
-      "rank": 2,
-      "fullName": "anthropics/claude-plugins-community",
-      "name": "claude-plugins-community",
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "language": "Python",
-      "stars": 1714,
-      "todayStars": 350,
-      "description": "Claude公式プラグインマーケット",
-      "detail": "Anthropic公式のClaudeプラグイン配布マーケットのミラーです。セキュリティ審査を経て公開されるので、社内ツールをプラグイン化して顧客配布する新チャネルとして受託エージェンシーが使えます。",
-      "narration": "Anthropic公式のプラグインマーケットです。受託で組んだ社内ツールを顧客配布する新導線になります"
+      "stars": 21210,
+      "todayStars": 4044,
+      "description": "GPT-Image-2逆解析プロンプト集",
+      "detail": "PromptHeroやLexicaはStable Diffusion主軸ですが、こちらはGPT-Image-2に特化した530超の逆解析事例と20種テンプレをJSON化。有料Prompt Baseの代替として社内テンプレに埋め込めます。",
+      "narration": "PromptHeroやLexicaと違いGPT-Image-2専用の逆解析集です。有料テンプレの代替として社内で回せます"
     },
     {
       "rank": 3,
-      "fullName": "apache/maka",
-      "name": "maka",
-      "url": "https://github.com/apache/maka",
-      "language": "TypeScript",
-      "stars": 3296,
-      "todayStars": 538,
-      "description": "ローカル完結AIエージェント基盤",
-      "detail": "ローカルで動きモデルAPIも自前選択のApache Maka。全実行ログを追記型で残すのでSOC2やHIPAA領域の受託案件で監査対応が楽になります。金融や医療向けエージェント基盤の下地に。",
-      "narration": "Apache製のローカル完結AIエージェント基盤です。金融や医療の監査対応で受託案件の下地になります"
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars": 34344,
+      "todayStars": 307,
+      "description": "Claude公式プラグインの正規カタログ",
+      "detail": "昨日話題のcommunity版と違い、Anthropic自身が審査して並べる公式ディレクトリです。community版は探索の幅、official版は導入時の稟議で提示できる信頼性を担い、エンタープライズ導入で棲み分けが可能です。",
+      "narration": "Anthropic公式のプラグイン一覧です。community版は幅、official版は稟議を通せる保証になります"
     },
     {
       "rank": 4,
-      "fullName": "TauricResearch/TradingAgents",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
+      "fullName": "Alishahryar1/free-claude-code",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
       "language": "Python",
-      "stars": 100178,
-      "todayStars": 191,
-      "description": "マルチエージェント金融取引フレーム",
-      "detail": "アナリストや強気弱気の研究員などLLMエージェントを議論させ売買判断を作るフレーム。研究用と明記なので実弾運用は不可ですが、フィンテック受託の技術検証やコンサル提案の実演素材に使えます。",
-      "narration": "LLMエージェントが議論して売買判断を出すフレームです。フィンテック案件のPoC素材として使えます"
+      "stars": 50339,
+      "todayStars": 566,
+      "description": "Claude Code無料アクセス配布ツール",
+      "detail": "Claude Pro/MaxプランやAPI従量課金と違い、1.3B分の無料トークンでClaude Codeを試せる導線です。ただし供給とToSリスクは自己責任。本番はAPI契約、PoC評価はこちらで住み分けるのが安全です。",
+      "narration": "有料のClaude MaxやAPI課金と違い1.3Bトークンを試せます。検証用と本番用で住み分けるのが安全です"
     },
     {
       "rank": 5,
-      "fullName": "AgriciDaniel/claude-obsidian",
-      "name": "claude-obsidian",
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "fullName": "MadsLorentzen/ai-job-search",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
       "language": "Python",
-      "stars": 12669,
-      "todayStars": 810,
-      "description": "Obsidian連携のナレッジ整理AI",
-      "detail": "Obsidianの上でClaude Codeが出典付きノートを自動整理する二次脳。コンサルや受託で溜まった案件ナレッジを引用元ごと再利用でき、次案件の見積もりや提案の下敷きに転用できます。",
-      "narration": "Obsidianでナレッジを出典付き自動整理するAIです。受託案件の知見を次の見積に流用できます"
+      "stars": 36409,
+      "todayStars": 1299,
+      "description": "Claude Code版の求職オートメーション",
+      "detail": "LinkedIn Easy Apply系拡張や有料Rezi・Jobscanと違い、Claude Codeでローカル実行できるOSSです。求人評価から履歴書調整、想定質問生成まで1つのエージェントで一気通貫に扱えます。",
+      "narration": "LinkedIn自動化やReziと違いClaude Codeで自前実行します。求人評価から面接準備まで一気通貫です"
     }
   ]
 }

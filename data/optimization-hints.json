@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26",
-  "basedOnVideos": 14,
+  "updatedAt": "2026-08-27",
+  "basedOnVideos": 13,
   "summary": {
     "avgViewsByDay": {
       "Mon": 61,
@@ -35,36 +35,36 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-08-12〜2026-08-25, n=14): trend-pattern 0.50 n=2 / business-angle 0.33 n=3 / comparison 0.33 n=3 / use-case 0.00 n=2 / ecosystem 0.00 n=3 / self-experiment 0.00 n=1 / tech-deep 圏外 n=0。全期間 (n=84): stack-migration 2.00 n=1 / business-angle 1.53 n=15 / comparison 1.50 n=18 / ecosystem 1.39 n=18 / trend-pattern 1.18 n=11 / tech-deep 1.00 n=3 / self-experiment 0.91 n=11 / use-case 0.71 n=7。**crisis-mode 継続深化 14 日目**: 08-25 ecosystem 24h 暫定 0 views で 14 日連続 0-1 貼り付き。08-26 (Wed) は crisis-mode 下で全期間 top-2 method の business-angle (直近 08-23、3 日 cooldown OK) を投入。直近 2 日 (08-24 comparison / 08-25 ecosystem) 連投 NG + 週次柱②/③ は 08-21 (self-experiment) / 08-23 (business-angle) で下限満了、今日は業務価値訴求で Primary ペルソナ (CTO/技術投資判断) recall を再度厚くする。TOP5 lineup: awesome-gpt-image-2 (制作会社の外注圧縮) / claude-plugins-community (受託ツール配布導線) / apache/maka (金融・医療監査対応) / TradingAgents (フィンテック PoC 素材) / claude-obsidian (コンサル知見資産化) の 5 業務ユースケース対比。"
+      "note": "Method 別 14d (2026-08-13〜2026-08-26, n=13): comparison 0.33 n=3 / business-angle 0.00 n=3 / ecosystem 0.00 n=3 / use-case 0.00 n=2 / self-experiment 0.00 n=1 / trend-pattern 0.00 n=1 / tech-deep 圏外 n=0。全期間 (n=85): stack-migration 2.00 n=1 / comparison 1.50 n=18 / business-angle 1.44 n=16 / ecosystem 1.39 n=18 / trend-pattern 1.18 n=11 / tech-deep 1.00 n=3 / self-experiment 0.91 n=11 / use-case 0.71 n=7。**crisis-mode 継続深化 15 日目**: 08-26 business-angle 24h 暫定 0 views で 15 日連続 0-1 貼り付き。08-27 (Thu) は crisis-mode 下で全期間 top-1 method の comparison (直近 08-24、3 日 cooldown OK) を投入。直近 2 日 (08-25 ecosystem / 08-26 business-angle) 連投 NG + 週次柱②/③ は 08-21 (self-experiment) / 08-23・08-26 (business-angle) で下限満了、今日は柱① 主軸で素材適合度 5/5 (5 本全てに明確な既存比較対象) を活かす。TOP5 lineup: archify (vs Mermaid/PlantUML) / awesome-gpt-image-2 (vs PromptHero/Lexica/Prompt Base) / claude-plugins-official (vs claude-plugins-community) / free-claude-code (vs Claude Max/API) / ai-job-search (vs LinkedIn/Rezi/Jobscan) の 5 対比。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は水曜 (Wed=直近 28 日 avg 153、Tue/Fri に次ぐ第 2 バケット)、crisis-mode 継続深化 14 日目。business-angle (全期間 top-2 avg 1.53 n=15) の 3 日 cooldown 経過 + Wed 中位期待日 + 直近 2 日連投 NG (comparison/ecosystem 除外) + 素材共通軸 5/5=100%『実案件でどう稼ぐ／削減するか』の 3 条件複合で business-angle 選定。柱ローテ 08-25 (柱①) → 08-26 (柱②) で Primary ペルソナへの business 訴求を並行実行"
+      "本日は木曜 (Thu=直近 28 日 avg 176、Fri/Tue/Wed に次ぐ第 4 バケット)、crisis-mode 継続深化 15 日目。comparison (全期間 top-1 avg 1.50 n=18) の 3 日 cooldown 経過 + 直近 2 日連投 NG (ecosystem/business-angle 除外) + 素材共通軸 5/5=100%『既存の類似OSS・商用サービスと何が違うか』の 3 条件複合で comparison 選定。柱ローテ 08-26 (柱②) → 08-27 (柱①) で標準軸に戻し comparison の再現性を測る"
     ],
     "hashtags": [
-      "business-angle 角度の核心は『5 本を 5 本の受託・スタートアップ実案件シナリオとして並べ、視聴者に自分の業務での ROI を計算させて Primary ペルソナ (CTO/技術投資判断) の意思決定 recall を狙う』。5 本のマッピング: #awesome-gpt-image-2=JavaScript 17,534★ +1,698 (#1 新規・freestylefly 開発) → 制作会社の広告・LP デザイン外注月10〜30万圧縮 / #claude-plugins-community=Python 1,714★ +350 (#2 新規・anthropics 公式) → 受託で組んだ社内ツールを Claude Cowork/Code 経由で顧客配布する新チャネル / #maka=TypeScript 3,296★ +538 (#3 新規・apache 開発・Incubating) → SOC2/HIPAA 領域のローカル完結 AI エージェント基盤で金融・医療受託の下地 / #TradingAgents=Python 100,178★ +191 (#4 継続候補・TauricResearch 開発) → 研究用と明記だがフィンテック案件の PoC/コンサル提案の実演素材 / #claude-obsidian=Python 12,669★ +810 (#5 新規・AgriciDaniel 開発) → コンサル・受託案件のナレッジを出典付きで資産化し次案件の見積・提案に流用",
-      "言語タグは Python 3 + TypeScript 1 + JavaScript 1 の 3 言語構成。Python (1.2x) 3 本 + TypeScript (1.1x) 1 本 + JavaScript (0.9x) 1 本、言語スコア平均は約 5.4/5 (前日 4.6/5 から Python 濃度で回復)、Python 3 本濃度が乗数 1.2x で言語スコアはむしろ改善",
-      "business-angle 角度の独自 hashtag: #OSS #AI #エージェント #ClaudeCode #Anthropic #ChatGPT #GPTImage2 #画像生成 #プロンプト #Obsidian #ナレッジ管理 #フィンテック #Trading #Apache #Incubator #ローカルAI #セルフホスト #SOC2 #HIPAA #受託 #コンサル #スタートアップ #CTO #個人開発者 #ROI #DX #制作会社 #デザイン #プラグイン #マーケットプレイス"
+      "comparison 角度の核心は『5 本を 5 本の既存の類似OSS/商用サービスとの明確な比較として並べ、視聴者に選択のガイドを提示して Primary ペルソナ (CTO/技術投資判断) の選定 recall を狙う』。5 本のマッピング: #archify=HTML 17,762★ +1,002 (#1 新規・tt-a1i 開発) → Mermaid/PlantUML と違い Claude Code 1 コマンド + モーション付き自己完結 HTML で受託の設計レビュー資料が短時間で仕上がる / #awesome-gpt-image-2=JavaScript 21,210★ +4,044 (#2 継続・freestylefly 開発) → PromptHero/Lexica の Stable Diffusion 主軸と違い GPT-Image-2 専用逆解析 530+ 事例で有料 Prompt Base の代替 / #claude-plugins-official=Python 34,344★ +307 (#3 新規・anthropics 公式) → 昨日の community 版と違い Anthropic 自身の審査ディレクトリで community=幅・official=稟議で使える保証 / #free-claude-code=Python 50,339★ +566 (#4 新規・Alishahryar1 開発) → 有料 Claude Max/API 課金と違い 1.3B トークン無料枠で検証専用に住み分け / #ai-job-search=Python 36,409★ +1,299 (#5 新規・MadsLorentzen 開発) → LinkedIn Easy Apply/Rezi/Jobscan と違い Claude Code ローカル実行で求人評価から面接準備まで一気通貫",
+      "言語タグは Python 3 + HTML 1 + JavaScript 1 の 3 言語構成。Python (1.2x) 3 本 + HTML (1.0x) 1 本 + JavaScript (0.9x) 1 本、言語スコア平均は約 5.4/5 (Python 3 本濃度で maintain)、視聴者の言語連想は AI/自動化系寄り",
+      "comparison 角度の独自 hashtag: #OSS #AI #エージェント #ClaudeCode #Anthropic #Mermaid #PlantUML #図解 #アーキテクチャ #GPTImage2 #画像生成 #プロンプト #PromptHero #Lexica #プラグイン #マーケットプレイス #Community #Official #ClaudeMax #API #LinkedIn #転職 #履歴書 #比較 #選定 #受託 #コンサル #CTO #個人開発者 #DX"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、crisis-mode 下で密度優先で標準レンジ)。5 本合計 248 文字 (50+51+50+49+48)、TTS +30% で約 45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕。個別 40-60 レンジ内 (max 51 文字・min 48 文字) で振れ幅 3 文字と極めて均等、business-angle 語 (受託/月○円/削減/新導線/監査対応/PoC/流用) の情報密度を全 5 本で均等分配",
-      "business-angle 角度の一貫性: 5 本すべての narration に実案件シナリオ + 金銭/ROI 表現を配置。1 本目『530個のGPT-Image-2プロンプト集です。受託の広告制作なら月10万円分の外注を巻き取れます』(制作会社の外注圧縮)、2 本目『Anthropic公式のプラグインマーケットです。受託で組んだ社内ツールを顧客配布する新導線になります』(受託ツール配布導線)、3 本目『Apache製のローカル完結AIエージェント基盤です。金融や医療の監査対応で受託案件の下地になります』(規制業界の受託基盤)、4 本目『LLMエージェントが議論して売買判断を出すフレームです。フィンテック案件のPoC素材として使えます』(フィンテック PoC)、5 本目『Obsidianでナレッジを出典付き自動整理するAIです。受託案件の知見を次の見積に流用できます』(コンサル知見資産化) で、視聴者が『5 本 = 5 本の受託・コンサル業務での稼ぎ方』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『実案件で金にどう変わるか』を優先、comparison (対比表) や ecosystem (座標軸) と違い『Primary ペルソナが自社/自案件で今日から使う ROI 計算軸』を担保。前日 08-25 ecosystem (座標軸) からのモード切替で 2 日で 1 セットの立体化 (座標軸 → ROI 計算)",
-      "数値表現はアラビア数字統一 (530、10 等は narration/カードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Anthropic、GPT-Image-2、Cursor、Apache、Maka、SOC2、HIPAA、TradingAgents、Obsidian、Cowork) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、crisis-mode 下で密度優先で標準レンジ)。5 本合計 290 文字 (60+60+58+55+57)、TTS +30% で約 52 秒、opening/ending 5 秒込み 57 秒枠内で IG Reels 60 秒制約に薄マージン。個別 40-60 レンジ内 (max 60 文字・min 55 文字) で密度均等",
+      "comparison 角度の一貫性: 5 本すべての narration に『A と違い B が独自』の対比構文 + 実利用シーンを配置。1 本目『MermaidやPlantUMLと違いモーション付きHTMLで一発出力です。受託の設計レビュー資料が短時間で仕上がります』(vs 既存図解OSS)、2 本目『PromptHeroやLexicaと違いGPT-Image-2専用の逆解析集です。有料テンプレの代替として社内で回せます』(vs 汎用プロンプトDB/有料DB)、3 本目『Anthropic公式のプラグイン一覧です。community版は幅、official版は稟議を通せる保証になります』(vs 昨日話題の community 姉妹リポ)、4 本目『有料のClaude MaxやAPI課金と違い1.3Bトークンを試せます。検証用と本番用で住み分けるのが安全です』(vs Claude 有料プラン/API)、5 本目『LinkedIn自動化やReziと違いClaude Codeで自前実行します。求人評価から面接準備まで一気通貫です』(vs 既存求職ツール/有料AIサービス) で、視聴者が『5 本 = 5 本の選定ガイド』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『既存選択肢との違い』を優先、business-angle (ROI 計算) や ecosystem (座標軸) と違い『Primary ペルソナが自社/自案件で今日から使う選定判断軸』を担保。昨日 08-26 business-angle (ROI 計算) からのモード切替で 2 日で 1 セットの立体化 (ROI 計算 → 選定判断)",
+      "数値表現はアラビア数字統一 (1.3、10、530 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Mermaid、PlantUML、Claude Code、Anthropic、GPT-Image-2、PromptHero、Lexica、Prompt Base、Claude Max、API、LinkedIn、Rezi、Jobscan、community、official) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (14d avg 0.33 n=3 で中位、全期間 avg 1.53 n=15 で stack-migration を除き top-2)。直近 2 日 (08-24 comparison / 08-25 ecosystem) 連投ルール + comparison (08-24 直近) + ecosystem (08-25 直近) + use-case (14d/全期間で最下位) + trend-pattern (08-18 消化だが全期間 1.18 で business-angle 1.53 に劣後) + self-experiment (全期間 0.91 で下位) + tech-deep (14d 圏外・全期間 n=3 で信頼低) の除外で残る business-angle (3 日 cooldown OK + 全期間 top-2 avg 1.53 + 素材共通軸『実案件でどう稼ぐ／削減するか』が 5/5 でハマる完全整合)。crisis-mode 継続深化 14 日目、Wed 中位期待日 (直近 28 日 avg 153) で『business-angle の再現性測定』枠として使う。Primary (CTO/技術選定) 直撃『実案件 ROI 計算軸』ユーティリティで crisis-mode 対応の第 6 手にする。前回 08-23 business-angle (0 views) からの再現性測定と素材共通軸 100% 化の切り分け実験。",
-      "本日 08-26 TOP5: #1 freestylefly/awesome-gpt-image-2=JavaScript / 17,534★ / +1,698 [新規・freestylefly 開発・**制作会社のデザイン外注月10〜30万圧縮**、GPT-Image-2 向け 530+ 事例逆解析、20+ 工業級テンプレ + JSON 形式で agent 自動化対応、Claude Code/Cursor から直接呼べる → LP や SNS クリエイティブを受託する制作会社向け]、#2 anthropics/claude-plugins-community=Python / 1,714★ / +350 [新規・anthropics 公式・**受託で組んだ社内ツールを Claude Cowork/Code 経由で顧客配布する新チャネル**、セキュリティ審査後に自動配布、Claude Cowork や Claude Code CLI 両対応 → 受託エージェンシー・独立開発者向け新収益導線]、#3 apache/maka=TypeScript / 3,296★ / +538 [新規・apache 開発 (Incubating)・**ローカル完結 AI エージェント基盤で金融・医療受託の下地**、全実行を追記型ログで残す監査対応、モデル API は自前選択 (cloud/local/gateway) → SOC2/HIPAA 領域受託案件向け]、#4 TauricResearch/TradingAgents=Python / 100,178★ / +191 [継続候補・TauricResearch 開発・**フィンテック案件の PoC/コンサル提案の実演素材**、アナリスト/研究員/トレーダー等のエージェント議論で売買判断、研究用と明記なので実弾運用は不可 → フィンテック受託・技術検証向け]、#5 AgriciDaniel/claude-obsidian=Python / 12,669★ / +810 [新規・AgriciDaniel 開発・**コンサル・受託案件のナレッジを出典付きで資産化し次案件の見積・提案に流用**、Obsidian の上で Claude Code が Capture/Ground/Connect/Retrieve の 4 段自動整理、LYT/PARA/Zettelkasten 対応 → コンサル・独立受託向け知見資産化ツール]",
-      "本日の business-angle 核: 5 本を『受託・コンサル・スタートアップの実案件で今日から金に変わる 5 パターン』として並べ、視聴者に自分の業務での ROI を計算させて Primary ペルソナ (CTO/技術投資判断) の意思決定 recall を狙う。冒頭フックは『今日のTOP5は5本すべてが受託・コンサル案件でそのまま金に変わる OSS です』。5 本を『制作会社の外注月10万圧縮 (awesome-gpt-image-2)』『受託ツールの顧客配布導線 (claude-plugins-community)』『金融・医療監査対応 (apache/maka)』『フィンテック PoC 素材 (TradingAgents)』『コンサル知見の資産化 (claude-obsidian)』の 5 業務シナリオで語り、各 OSS の ROI 計算軸を明示。前日 08-25 ecosystem (5 本 = 5 本の座標軸) からの natural switch で 2 日で 1 セットの立体化継続 (座標軸 → ROI 計算)",
-      "Primary (CTO/技術選定) には『実案件 ROI 計算の一次資料』、Secondary (PdM/事業責任者) には『どの OSS が自社事業で稼ぎに直結するか』、Tertiary (学習中) には『OSS が実際に案件でどう使われるか』として 3 層直撃、business-angle 特有の recall (『あの人は実案件視点で語ってくれる』) で長期記憶に残る",
-      "**crisis-mode 継続深化 14 日目 (Explore 傾斜運用 8 日目 + 柱③ Fri 固定運用 2 回目後)**: 08-25 ecosystem 24h 暫定 0 views で『14 日連続 0-1 定着』延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 40/60 維持、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) 柱③ を Fri 高期待日固定運用継続 (次回 08-28 = 第 3 回)、(e) infra チェック (post-time/hashtag 語彙/thumbnail テキスト量) は 8/26 Wed から 1 項目/日 のペースで検証開始候補。今日 business-angle 再挑戦で『前回 08-23 は素材共通軸が薄かった説』の切り分け"
+      "本日の discovery.method は `comparison` (14d avg 0.33 n=3 で 14d 内トップ、全期間 avg 1.50 n=18 で stack-migration を除き top-1)。直近 2 日 (08-25 ecosystem / 08-26 business-angle) 連投ルール + ecosystem (08-25 直近) + business-angle (08-26 直近) + use-case (14d/全期間で最下位) + trend-pattern (08-18 消化だが全期間 1.18 で comparison 1.50 に劣後) + self-experiment (全期間 0.91 で下位) + tech-deep (14d 圏外・全期間 n=3 で信頼低) の除外で残る comparison (3 日 cooldown OK + 全期間 top-1 avg 1.50 + 素材共通軸『既存の類似OSS・商用サービスと何が違うか』が 5/5 でハマる完全整合)。crisis-mode 継続深化 15 日目、Thu 第4バケット期待日 (直近 28 日 avg 176) で『comparison の再現性測定』枠として使う。Primary (CTO/技術選定) 直撃『選定判断軸』ユーティリティで crisis-mode 対応の第 7 手にする。前回 08-24 comparison (0 views)・08-14 comparison (1 view) からの再現性測定と素材共通軸 100% 化の切り分け実験。",
+      "本日 08-27 TOP5: #1 tt-a1i/archify=HTML / 17,762★ / +1,002 [新規・tt-a1i 開発・**Mermaid/PlantUML と違い Claude Code 1 コマンドで自己完結 HTML + モーション付き図を生成する Agent Skill**、受託 PM の設計レビュー資料反映が時間単位で軽くなる → 受託・スタートアップ CTO 向け]、#2 freestylefly/awesome-gpt-image-2=JavaScript / 21,210★ / +4,044 [継続・freestylefly 開発・**PromptHero/Lexica の Stable Diffusion 主軸と違い GPT-Image-2 専用逆解析 530+ 事例 + 20+ 工業テンプレ**、有料 Prompt Base の代替として社内テンプレに埋め込める → 制作会社・受託エージェンシー向け]、#3 anthropics/claude-plugins-official=Python / 34,344★ / +307 [新規・anthropics 公式・**昨日 08-26 話題の community 版と違い Anthropic 自身の審査による公式ディレクトリ**、community=幅・official=稟議で提示できる信頼性 → エンタープライズ導入担当者・受託エージェンシー向け]、#4 Alishahryar1/free-claude-code=Python / 50,339★ / +566 [新規・Alishahryar1 開発・**有料 Claude Pro/Max/API と違い 1.3B トークン無料枠で Claude Code を試せる**、供給と ToS リスクは自己責任、本番は API 契約・PoC はこちらの住み分け → 個人開発者・PoC 検証担当向け]、#5 MadsLorentzen/ai-job-search=Python / 36,409★ / +1,299 [新規・MadsLorentzen 開発・**LinkedIn Easy Apply 拡張や有料 Rezi/Jobscan と違い Claude Code ローカル実行**、求人評価/履歴書調整/想定質問生成まで 1 エージェント一気通貫 → 転職活動中エンジニア・キャリア相談者向け]",
+      "本日の comparison 核: 5 本を『既存の類似OSS/商用サービスとの明確な比較 = 選定ガイド』として並べ、視聴者に自社/自案件での選定判断を促して Primary ペルソナ (CTO/技術投資判断) の選定 recall を狙う。冒頭フックは『今日のTOP5は5本すべてに明確な既存代替があります。選定ガイドとしてどう選ぶか』。5 本を『vs Mermaid/PlantUML』『vs PromptHero/Lexica』『vs community 版』『vs Claude Max/API』『vs LinkedIn/Rezi』の 5 対比で語り、各 OSS の選定判断軸を明示。昨日 08-26 business-angle (5 本 = 5 本の ROI 計算) からの natural switch で 2 日で 1 セットの立体化継続 (ROI 計算 → 選定判断)。**姉妹リポ現象**: 昨日 08-26 の #2 anthropics/claude-plugins-community と今日 08-27 の #3 anthropics/claude-plugins-official は姉妹リポで、連続視聴者への引っ掛かりが自然に作れる",
+      "Primary (CTO/技術選定) には『選定判断の一次資料』、Secondary (PdM/事業責任者) には『どの OSS が自社事業でどの既存ツールを置き換えるか』、Tertiary (学習中) には『OSS 選定時にどう比較すればいいかの型』として 3 層直撃、comparison 特有の recall (『あの人は比較軸で語ってくれる』) で長期記憶に残る",
+      "**crisis-mode 継続深化 15 日目 (Explore 傾斜運用 9 日目 + 柱③ Fri 固定運用 3 回目直前)**: 08-26 business-angle 24h 暫定 0 views で『15 日連続 0-1 定着』延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 40/60 維持、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) 柱③ を Fri 高期待日固定運用継続 (次回 08-28 = 第 3 回)、(e) infra チェック (post-time/hashtag 語彙/thumbnail テキスト量) は 8/26 Wed から 1 項目/日 のペースで検証開始候補。今日 comparison 再挑戦で『前回 08-24 は素材共通軸が薄かった説』の切り分け"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-26",
-    "dayOfWeek": "Wed",
+    "date": "2026-08-27",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -72,37 +72,37 @@
       "エージェント",
       "ClaudeCode",
       "Anthropic",
-      "ChatGPT",
+      "Mermaid",
+      "PlantUML",
+      "図解",
+      "アーキテクチャ",
       "GPTImage2",
       "画像生成",
       "プロンプト",
-      "Obsidian",
-      "ナレッジ管理",
-      "フィンテック",
-      "Trading",
-      "Apache",
-      "Incubator",
-      "ローカルAI",
-      "セルフホスト",
-      "SOC2",
-      "HIPAA",
-      "受託",
-      "コンサル",
-      "スタートアップ",
-      "CTO",
-      "個人開発者",
-      "ROI",
-      "DX",
-      "制作会社",
-      "デザイン",
+      "PromptHero",
+      "Lexica",
       "プラグイン",
       "マーケットプレイス",
+      "Community",
+      "Official",
+      "ClaudeMax",
+      "API",
+      "LinkedIn",
+      "転職",
+      "履歴書",
+      "比較",
+      "選定",
+      "受託",
+      "コンサル",
+      "CTO",
+      "個人開発者",
+      "DX",
+      "archify",
       "awesome_gpt_image_2",
-      "claude_plugins_community",
-      "apache_maka",
-      "TradingAgents",
-      "claude_obsidian"
+      "claude_plugins_official",
+      "free_claude_code",
+      "ai_job_search"
     ],
-    "focus": "水曜 (Wed=直近 28 日 avg 153、Tue/Fri に次ぐ第 2 バケット) は crisis-mode 下で business-angle 投入 = 全期間 top-2 method の再現性測定に適する。crisis-mode 継続深化 14 日目、Explore 傾斜 (通常 20%→40%) 運用 8 日目。素材共通軸 5/5=100% (『実案件でどう稼ぐ／削減するか』) + business-angle 全期間 top-2 method (1.53 n=15) 3 日 cooldown 経過 + 5 本すべてに受託/コンサル/スタートアップ ROI 計算軸がハマる完全整合の 3 条件複合で `business-angle` を投入。5/5=100% 素材 (awesome-gpt-image-2 → 制作会社の外注月10万圧縮 / claude-plugins-community → 受託ツール配布導線 / apache/maka → 金融・医療監査対応 / TradingAgents → フィンテック PoC 素材 / claude-obsidian → コンサル知見資産化) が『5 本 = 5 本の受託・コンサル ROI 計算表』の business-angle 語りと完全整合。直近 2 日 (08-24 comparison / 08-25 ecosystem) 連投 NG + comparison/ecosystem 除外 + use-case (下位)/self-experiment (下位)/trend-pattern (business-angle 未満)/tech-deep (信頼低) 除外で business-angle が残る。本日の TOP5 は 4/5 新規 (awesome-gpt-image-2, claude-plugins-community, apache/maka, claude-obsidian)、1/5 継続候補 (TradingAgents) で lineup 80% 刷新。method 切替 (ecosystem → business-angle) + 語彙総入替 (座標軸/エコ → 実案件/月○円/受託/PoC) で視聴者の脳内モードを『地図把握』から『ROI 計算』へシフト。narration は 5 本すべてに『実案件シナリオ + 金銭/ROI 表現』を配置、5 本合計 248 文字 (50+51+50+49+48) で TTS 換算約 45 秒、opening/ending 5 秒込み 50 秒枠内で IG Reels 60 秒制約に余裕。柱ローテ: 08-25 (柱①) → 08-26 (柱②) で Primary ペルソナへの business 訴求を並行実行、週次柱②/③ 下限 (15%+10%) は 08-21 (self-experiment) / 08-23 (business-angle) で満了済みなので今日は上乗せで Primary 訴求を強化。**crisis 分水嶺 (継続深化 14 日目)**: 08-25 ecosystem (直近) 24h 暫定 0 views で『14 日連続 0-1 定着』延長、8/26 朝 (本日) PDCA で 08-25 ecosystem 24h 確定を集計。crisis-mode 継続深化なら infra チェック (post-time 08:00→18:00 / hashtag 語彙差替え / thumbnail テキスト量削減) を 8/26 Wed から 1 項目/日 のペースで検証開始候補、柱③ Fri 固定運用の再現性 (次回 08-28 で 3 回目測定) 判定継続。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "木曜 (Thu=直近 28 日 avg 176、Fri/Tue/Wed に次ぐ第 4 バケット) は crisis-mode 下で comparison 投入 = 全期間 top-1 method の再現性測定に適する。crisis-mode 継続深化 15 日目、Explore 傾斜 (通常 20%→40%) 運用 9 日目。素材共通軸 5/5=100% (『既存の類似OSS・商用サービスと何が違うか』) + comparison 全期間 top-1 method (1.50 n=18) 3 日 cooldown 経過 + 5 本すべてに明確な既存比較対象がある完全整合の 3 条件複合で `comparison` を投入。5/5=100% 素材 (archify vs Mermaid/PlantUML / awesome-gpt-image-2 vs PromptHero/Lexica/Prompt Base / claude-plugins-official vs claude-plugins-community / free-claude-code vs Claude Max/API / ai-job-search vs LinkedIn/Rezi/Jobscan) が『5 本 = 5 本の選定ガイド』の comparison 語りと完全整合。直近 2 日 (08-25 ecosystem / 08-26 business-angle) 連投 NG + ecosystem/business-angle 除外 + use-case (下位)/self-experiment (下位)/trend-pattern (comparison 未満)/tech-deep (信頼低) 除外で comparison が残る。本日の TOP5 は 4/5 新規 (archify, claude-plugins-official, free-claude-code, ai-job-search)、1/5 継続 (awesome-gpt-image-2) で lineup 80% 刷新。**姉妹リポ現象**: 昨日 08-26 の #2 anthropics/claude-plugins-community と今日 08-27 の #3 anthropics/claude-plugins-official は姉妹リポ、連続視聴者への引っ掛かりを #3 の対比で自然に演出。method 切替 (business-angle → comparison) + 語彙総入替 (受託/月○円/PoC → vs/違い/選定/代替) で視聴者の脳内モードを『ROI 計算』から『選定判断』へシフト。narration は 5 本すべてに『A と違い B が独自 + 実利用シーン』を配置、5 本合計 290 文字 (60+60+58+55+57) で TTS 換算約 52 秒、opening/ending 5 秒込み 57 秒枠内で IG Reels 60 秒制約に薄マージン。柱ローテ: 08-26 (柱②) → 08-27 (柱①) で標準軸に戻し comparison 再現性を測定、週次柱②/③ 下限 (15%+10%) は 08-21 (self-experiment) / 08-23・08-26 (business-angle) で満了済みなので今日は柱① で問題なし。**crisis 分水嶺 (継続深化 15 日目)**: 08-26 business-angle (直近) 24h 暫定 0 views で『15 日連続 0-1 定着』延長、8/27 朝 (本日) PDCA で 08-26 business-angle 24h 確定を集計。crisis-mode 継続深化なら infra チェック (post-time 08:00→18:00 / hashtag 語彙差替え / thumbnail テキスト量削減) を 8/26 Wed から 1 項目/日 のペースで検証開始候補、柱③ Fri 固定運用の再現性 (次回 08-28 で 3 回目測定) 判定継続。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
