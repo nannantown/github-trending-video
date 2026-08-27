@@ -1,20 +1,15 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『既存の類似OSS・商用サービスと比較して何が独自か』の comparison 角度で切り取る。archify vs Mermaid/PlantUML、awesome-gpt-image-2 vs PromptHero/Lexica/Prompt Base、claude-plugins-official vs claude-plugins-community、free-claude-code vs Claude Pro/Max・API、ai-job-search vs LinkedIn自動化・Rezi・Jobscan。5本とも代替候補が明確なため comparison が刺さる稀有な日。",
+    "method": "tech-deep",
+    "description": "TOP5 を『技術的独自性・アーキテクチャ・なぜ今バズっているか』の tech-deep 角度で 5 本統一。crisis-mode 16 日目、直近 2 日 (08-27 comparison / 08-26 business-angle) 連投 NG + 週次柱②/③ 下限 (08-21 self-experiment・08-23/26 business-angle) 満了済のため柱① 主軸で explore。tech-deep は 14 日 n=0 (全期間 n=3 avg 1.00)、5 本ともコア技術が明確 (Cesium+TLE / Nim scraper / prompt-as-code / self-contained HTML skill / AI-first Go idioms) で素材適合度 5/5、Primary ペルソナ (CTO/技術投資判断) の『中で何が起きているか』recall を狙う。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/tt-a1i/archify",
+      "https://github.com/bilawalsidhu/gods-eye-view",
+      "https://github.com/zedeus/nitter",
       "https://github.com/freestylefly/awesome-gpt-image-2",
-      "https://github.com/anthropics/claude-plugins-official",
-      "https://github.com/Alishahryar1/free-claude-code",
-      "https://github.com/MadsLorentzen/ai-job-search",
-      "https://mermaid.js.org/",
-      "https://plantuml.com/",
-      "https://prompthero.com/",
-      "https://lexica.art/",
-      "https://github.com/anthropics/claude-plugins-community"
+      "https://github.com/tt-a1i/archify",
+      "https://github.com/JetBrains/go-modern-guidelines"
     ],
     "query": "",
     "freshness_hours": 1
@@ -25,12 +20,12 @@
       "fullName": "tt-a1i/archify",
       "name": "archify",
       "url": "https://github.com/tt-a1i/archify",
-      "language": "HTML",
-      "stars": 17762,
-      "todayStars": 1002,
-      "description": "図解特化のAgent Skill",
-      "detail": "MermaidやPlantUMLはコードから静止図を吐きますが、archifyはClaude Codeから1コマンドで自己完結HTML+モーション付き図を生成します。受託PMなら設計レビュー資料の反映が時間単位で軽くなります。",
-      "narration": "MermaidやPlantUMLと違いモーション付きHTMLで一発出力です。受託の設計レビュー資料が短時間で仕上がります"
+      "language": "JavaScript",
+      "stars": 22942,
+      "todayStars": 4260,
+      "description": "Claude Codeでアーキ図を生成",
+      "detail": "Claude Codeから1コマンドで美しく検証可能なアーキテクチャ図やシーケンス図を出力するskillです。モーション付き自己完結HTMLで生成でき、そのまま社内共有や資料化に持ち込めます。",
+      "narration": "アーキ図を1コマンドで生成するskillです。モーション付き自己完結HTMLで検証も再配布もできます。"
     },
     {
       "rank": 2,
@@ -38,47 +33,47 @@
       "name": "awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "language": "JavaScript",
-      "stars": 21210,
-      "todayStars": 4044,
-      "description": "GPT-Image-2逆解析プロンプト集",
-      "detail": "PromptHeroやLexicaはStable Diffusion主軸ですが、こちらはGPT-Image-2に特化した530超の逆解析事例と20種テンプレをJSON化。有料Prompt Baseの代替として社内テンプレに埋め込めます。",
-      "narration": "PromptHeroやLexicaと違いGPT-Image-2専用の逆解析集です。有料テンプレの代替として社内で回せます"
+      "stars": 22954,
+      "todayStars": 2093,
+      "description": "GPT-Image-2の実戦プロンプト集",
+      "detail": "GPT-Image-2の出力を安定させる逆解析済み530事例と20のプロダクション向けテンプレを収録した集大成です。プロンプトをコードとして扱う運用が回り、生成AIの本番投入で頼れます。",
+      "narration": "GPT-Image-2のプロンプトをコードとして扱うテンプレ集です。逆解析済み530事例で品質を安定化できます。"
     },
     {
       "rank": 3,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "language": "Python",
-      "stars": 34344,
-      "todayStars": 307,
-      "description": "Claude公式プラグインの正規カタログ",
-      "detail": "昨日話題のcommunity版と違い、Anthropic自身が審査して並べる公式ディレクトリです。community版は探索の幅、official版は導入時の稟議で提示できる信頼性を担い、エンタープライズ導入で棲み分けが可能です。",
-      "narration": "Anthropic公式のプラグイン一覧です。community版は幅、official版は稟議を通せる保証になります"
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars": 7798,
+      "todayStars": 1984,
+      "description": "衛星OSINTを3D地球儀で可視化",
+      "detail": "実データのスパイ衛星軌道をリアルタイムで受信し、フォトリアルな3D地球儀に重ねて可視化するブラウザ製OSINTツールです。防衛分析や災害監視、報道記者の追跡調査で個人が試せる基盤になります。",
+      "narration": "衛星軌道をブラウザで再現するOSINTツールです。実データのTLEを3D地球儀でリアルタイム追跡できます。"
     },
     {
       "rank": 4,
-      "fullName": "Alishahryar1/free-claude-code",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "language": "Python",
-      "stars": 50339,
-      "todayStars": 566,
-      "description": "Claude Code無料アクセス配布ツール",
-      "detail": "Claude Pro/MaxプランやAPI従量課金と違い、1.3B分の無料トークンでClaude Codeを試せる導線です。ただし供給とToSリスクは自己責任。本番はAPI契約、PoC評価はこちらで住み分けるのが安全です。",
-      "narration": "有料のClaude MaxやAPI課金と違い1.3Bトークンを試せます。検証用と本番用で住み分けるのが安全です"
+      "fullName": "JetBrains/go-modern-guidelines",
+      "name": "go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "language": "Go",
+      "stars": 2050,
+      "todayStars": 314,
+      "description": "AI向けGo作法をJetBrainsが公開",
+      "detail": "AIコーディング支援を前提にモダンGoの書き方を体系化したJetBrains公式のガイド集です。生成AIに与えることで慣用句と型設計が揃い、生成コードの品質と保守性を底上げできます。",
+      "narration": "AIエージェント向けのGo作法をJetBrainsが公開しました。生成コードの品質と一貫性を底上げできます。"
     },
     {
       "rank": 5,
-      "fullName": "MadsLorentzen/ai-job-search",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "language": "Python",
-      "stars": 36409,
-      "todayStars": 1299,
-      "description": "Claude Code版の求職オートメーション",
-      "detail": "LinkedIn Easy Apply系拡張や有料Rezi・Jobscanと違い、Claude Codeでローカル実行できるOSSです。求人評価から履歴書調整、想定質問生成まで1つのエージェントで一気通貫に扱えます。",
-      "narration": "LinkedIn自動化やReziと違いClaude Codeで自前実行します。求人評価から面接準備まで一気通貫です"
+      "fullName": "zedeus/nitter",
+      "name": "nitter",
+      "url": "https://github.com/zedeus/nitter",
+      "language": "Nim",
+      "stars": 13843,
+      "todayStars": 63,
+      "description": "Twitter代替フロントエンド",
+      "detail": "Twitterを公式APIを介さず読み取れる軽量フロントエンドです。Nimで書かれた高速サーバーが匿名タイムライン閲覧やRSS生成を提供し、セルフホスト運用のスクレイピング業務でも現役です。",
+      "narration": "Twitterの代替フロントエンドです。Nimで書かれた軽量サーバーが公開APIを介さず高速表示します。"
     }
   ]
 }
