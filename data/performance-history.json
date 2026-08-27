@@ -2,115 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "v0i0YGAX2ZE",
-      "videoUrl": "https://youtube.com/shorts/v0i0YGAX2ZE",
-      "date": "2026-05-27",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/27 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "Python"
-      ],
-      "projects": [
-        "Lum1104/Understand-Anything",
-        "affaan-m/ECC",
-        "rohitg00/ai-engineering-from-scratch",
-        "anthropics/knowledge-work-plugins",
-        "mukul975/Anthropic-Cybersecurity-Skills"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "本日のTOP5を『AIエージェント運用エコシステムの5層全体地図』として横断料理する。冒頭マクロは『本日TOP5が昨日と完全に同じ5OSSで順位だけ入れ替わり = AI エージェント運用基盤の市場定着フェーズ到達』。5本は以下5層へ綺麗に対応: #1 Lum1104/Understand-Anything = 入力層 (Tree-sitter静的解析+マルチエージェント並列要約でコードを対話可能な知識グラフへ変換、Claude Code/Cursor/VS Code Copilotへ供給) / #2 affaan-m/ECC = harness 中核層 (61 sub-agents + 246 skills + AgentShield、12言語横断のharness最適化フレーム) / #3 rohitg00/ai-engineering-from-scratch = 教育層 (PyTorch/JAX/Hugging Face/vLLM/LangGraphまで20フェーズ435レッスンで人材を縦に育てるカリキュラム) / #4 anthropics/knowledge-work-plugins = 非エンジニア展開層 (Anthropic公式、営業・サポート・法務・Finance・PdM・マーケ等11職種向けプラグイン集) / #5 mukul975/Anthropic-Cybersecurity-Skills = 垂直分野層 (MITRE ATT&CK/NIST CSF 2.0/MITRE ATLAS/D3FEND/NIST AI RMFの5フレームに対応した754 skills、agentskills.io標準でClaude Code/Copilot/Cursor/Gemini CLI等20+プラットフォームへ即日配布)。直近2日 (05-26 use-case / 05-25 business-angle) と method 衝突なし。05-24 ecosystem から3日空きで連投ルール非該当。14日窓 Method 平均 TOP は ecosystem (3.00 avg n=2) で本日選択可能。柱② (business-angle 比率15%) は本週 (Mon 05-25 〜 Sun 05-31) Day 1で消化済みのため本日 Day 3 (Wed) は柱① (Trending 解説 70%) 主軸枠で ecosystem を投入。素材適合度 5/5: 5本が完全に5層へ対応する稀有な機会。Primary (CTO/技術選定者) には『自社スタックに今足すべき1OSS』の導入順序地図、Secondary (PdM/事業責任者) には『全社展開の段階モデル』、Tertiary (学習中エンジニア) には #3 教育層入口として届く3層構成。本日 TOP5 完全継続 (昨日と同一5OSS) に対し、05-25 business-angle『金額・工数いくら浮くか』 → 05-26 use-case『どの現場で使うか』 → 本日 ecosystem『エコシステム全体地図の中でどの層を占めるか』へ3日連続で語彙完全切替を成立させ Meta-PDCA の有効性自体を実証。アングル転換そのものが視聴差別化の核心。05-14〜17 の main 到達失敗事故対策として PR 経由 squash merge + 着弾検証を必須実行。最低 30 views (Wed 中位帯)、理想 500 views (Wed 上位帯への漸近) を目標。注記: 14日窓 method 平均差は n≤5 で統計的に有意でなく、本選定は Meta-PDCA 名目と本日素材の例外的な ecosystem 適合度を併用根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/Lum1104/Understand-Anything",
-          "https://github.com/affaan-m/ECC",
-          "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "https://github.com/anthropics/knowledge-work-plugins",
-          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "https://docs.anthropic.com/en/docs/claude-code/skills",
-          "https://agentskills.io"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-10T00:03:01.595Z"
-      }
-    },
-    {
-      "videoId": "SjFsxxz2AAU",
-      "videoUrl": "https://youtube.com/shorts/SjFsxxz2AAU",
-      "date": "2026-05-28",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/28 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "projects": [
-        "harry0703/MoneyPrinterTurbo",
-        "Lum1104/Understand-Anything",
-        "hardikpandya/stop-slop",
-        "affaan-m/ECC",
-        "anthropics/knowledge-work-plugins"
-      ],
-      "durationSeconds": 47,
-      "discovery": {
-        "method": "self-experiment",
-        "description": "本日のTOP5を『毎朝AIショート動画を生成している本チャンネル運用者が、自分のpipelineに明日から何を実際に入れるか、何が奪われるか』というself-experiment角度で5本横断料理する。冒頭マクロは『3日連続で同一だったTOP5が本日ついに2本入れ替わり、新規参入の#1 MoneyPrinterTurbo (+1,737★) が本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、#3 stop-slop (+664★) は本チャンネルのナレーション原稿のAI臭を即除去できるskill。残り3本も全て本routineの現場改善に直結する稀有な日』。5本の現場適用: #1 harry0703/MoneyPrinterTurbo = 本チャンネルのRemotion×Claude×Whisper TTS pipelineの完全競合実装、台本生成から字幕埋め込みまで1クリック化、編集レイヤーは奪われるが選別・PDCAレイヤーは奪われない実体験 / #2 Lum1104/Understand-Anything = 本routineで毎朝5本のREADMEを英語で読む工程をTree-sitter+並列マルチエージェント要約で地図化できる即日導入候補 / #3 hardikpandya/stop-slop = 本チャンネルのナレーションに出るem-dash・万能副詞・throat-clearingをskill 1枚で除去、narration品質改善の最短ルート / #4 affaan-m/ECC = 本routine群を支えるClaude Code SessionStartフック構成の上位互換、61 sub-agents+246 skills+AgentShieldで運用標準化、ただし1人運用には過剰 / #5 anthropics/knowledge-work-plugins = 投稿後のIG/X向けキャプション・hashtag生成にマーケ職種プラグインを当てる実適用。直近2日 (05-26 use-case / 05-27 ecosystem) と method衝突なし、self-experimentは14日窓・30日窓ともゼロ投入のためexplore 20%枠で該当、柱③ (推奨比率10%) の今週分消化。柱②は本週Day 1 (05-25 business-angle) で消化済み。素材適合度5/5: #1がそもそも当チャンネルの完全競合という奇跡的偶然+残り4本も自分のpipelineに足す/足さないの実判断ができる現場保有。Primaryペルソナ (CTO/技術選定者) には『同じ問題を実際に解いている人の所感』、Secondary (PdM/事業責任者) には『AI動画・コンテンツ運用の現場感』、Tertiary (学習中) には『この人は手を動かす人』信頼シグナルとして届く3層構成。05-14〜17のmain到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低30 views、理想500 views (Thu=234 avg 上位帯への漸近) を目標。注記: 14日窓method平均はn≤3で統計的に有意でなく、本選定は素材適合度5/5+柱③週次消化+self-experiment過去ゼロ投入のexplore枠該当を根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/harry0703/MoneyPrinterTurbo",
-          "https://github.com/Lum1104/Understand-Anything",
-          "https://github.com/hardikpandya/stop-slop",
-          "https://github.com/affaan-m/ECC",
-          "https://github.com/anthropics/knowledge-work-plugins",
-          "https://docs.anthropic.com/en/docs/claude-code/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 3,
-        "likes": 1,
-        "comments": 0,
-        "updatedAt": "2026-06-11T00:05:46.591Z"
-      }
-    },
-    {
       "videoId": "SW1qsTf4WVs",
       "videoUrl": "https://youtube.com/shorts/SW1qsTf4WVs",
       "date": "2026-05-29",
@@ -4018,7 +3909,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4072,7 +3963,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4125,7 +4016,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4181,7 +4072,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4237,7 +4128,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4288,7 +4179,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4341,7 +4232,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4394,7 +4285,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4454,7 +4345,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4511,7 +4402,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4570,7 +4461,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4625,7 +4516,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4679,7 +4570,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-25T23:13:53.851Z"
+        "updatedAt": "2026-08-27T04:06:49.169Z"
       }
     },
     {
@@ -4733,32 +4624,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-27T04:06:49.169Z"
+      }
+    },
+    {
+      "videoId": "FYWSqH22CqI",
+      "videoUrl": "https://youtube.com/shorts/FYWSqH22CqI",
+      "date": "2026-08-27",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/27 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "projects": [
+        "tt-a1i/archify",
+        "freestylefly/awesome-gpt-image-2",
+        "anthropics/claude-plugins-official",
+        "Alishahryar1/free-claude-code",
+        "MadsLorentzen/ai-job-search"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『既存の類似OSS・商用サービスと比較して何が独自か』の comparison 角度で切り取る。archify vs Mermaid/PlantUML、awesome-gpt-image-2 vs PromptHero/Lexica/Prompt Base、claude-plugins-official vs claude-plugins-community、free-claude-code vs Claude Pro/Max・API、ai-job-search vs LinkedIn自動化・Rezi・Jobscan。5本とも代替候補が明確なため comparison が刺さる稀有な日。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tt-a1i/archify",
+          "https://github.com/freestylefly/awesome-gpt-image-2",
+          "https://github.com/anthropics/claude-plugins-official",
+          "https://github.com/Alishahryar1/free-claude-code",
+          "https://github.com/MadsLorentzen/ai-job-search",
+          "https://mermaid.js.org/",
+          "https://plantuml.com/",
+          "https://prompthero.com/",
+          "https://lexica.art/",
+          "https://github.com/anthropics/claude-plugins-community"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-25",
-      "changes": [
-        "Shell: 4.1x avg views → boost",
-        "Go: 4.2x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.2x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "HTML: 0.2x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.3x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.3x), Go (6.7x)",
-        "Day performance: Tue=31, Sat=3, Thu=3, Sun=2, Mon=2, Wed=2, Fri=2"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-26",
       "changes": [
@@ -5154,6 +5083,17 @@
         "C: 0.0x avg views → drop",
         "standard: 1 avg views (84 videos)",
         "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.2x), PowerShell (2.1x)",
+        "Day performance: Fri=2, Sat=2, Wed=1, Thu=1, Sun=1, Mon=1, Tue=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-27",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (85 videos)",
+        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.4x), Jupyter Notebook (2.2x), PowerShell (2.1x)",
         "Day performance: Fri=2, Sat=2, Wed=1, Thu=1, Sun=1, Mon=1, Tue=1"
       ],
       "recommendedTemplate": "standard"
