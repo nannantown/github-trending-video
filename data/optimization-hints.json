@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28",
+  "updatedAt": "2026-08-29",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -36,36 +36,36 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-08-14〜2026-08-27, n=14): comparison 0.25 n=4 / business-angle 0.00 n=3 / ecosystem 0.00 n=3 / use-case 0.00 n=2 / self-experiment 0.00 n=1 / trend-pattern 0.00 n=1 / tech-deep 圏外 n=0。全期間 (n=86): stack-migration 2.00 n=1 / comparison 1.44 n=19 / business-angle 1.44 n=16 / ecosystem 1.39 n=18 / trend-pattern 1.18 n=11 / tech-deep 1.00 n=3 / self-experiment 0.91 n=11 / use-case 0.71 n=7。**crisis-mode 継続深化 16 日目**: 08-27 comparison も 24h 暫定 0 views で 16 日連続 0-1 貼り付き。08-28 (Fri) は直近 2 日 (08-26 business-angle / 08-27 comparison) 連投 NG で全期間 top-3 (comparison/business-angle/ecosystem cooldown 3 日 08-25→08-28) のうち comparison/business-angle 除外、残る ecosystem は cooldown ぎりぎり。crisis-mode 下でシグナルが 14 日全滅している以上、explore 側 tech-deep (14d 圏外 n=0、全期間 n=3 の極小サンプル) を投入して n を積む方が価値が高い。素材適合度 5/5: TOP5 全て『中で何が起きているか』が明快 (Cesium+TLE / Nim scraper / prompt-as-code / self-contained HTML skill / AI-first Go idioms)。週次柱②/③ (15%+10%) は 08-21 (self-experiment)/08-23・08-26 (business-angle) で下限満了、今日は柱① 主軸 OK。TOP5 lineup: archify (Claude skill / モーション付き self-contained HTML) / awesome-gpt-image-2 (GPT-Image-2 逆解析 530 事例 + prompt-as-code) / gods-eye-view (Cesium ベースの 3D 地球儀 + 実 TLE) / go-modern-guidelines (JetBrains 公式 AI-first Go 慣用句集) / nitter (Nim 実装の Twitter 代替フロント、公式 API 非依存) の 5 技術。"
+      "note": "Method 別 14d (2026-08-14〜2026-08-27, n=14): comparison 0.25 n=4 / business-angle 0.00 n=3 / ecosystem 0.00 n=3 / use-case 0.00 n=2 / self-experiment 0.00 n=1 / trend-pattern 0.00 n=1 / tech-deep 圏外 n=0。全期間 (n=84): stack-migration 2.00 n=1 / business-angle 1.44 n=16 / comparison 1.42 n=19 / ecosystem 1.41 n=17 / trend-pattern 1.18 n=11 / tech-deep 1.00 n=3 / use-case 0.71 n=7 / self-experiment 0.70 n=10。**crisis-mode 継続深化 17 日目**: 08-28 tech-deep は 24h stats 未確定、08-27 comparison 24h 暫定 0 views で 17 日連続 0-1 貼り付き延長。08-29 (Sat) は直近 2 日 (08-27 comparison / 08-28 tech-deep) 連投 NG で全期間 top-3 (business-angle 08-26 使用 / comparison 除外 / ecosystem 08-25 から 4 日経過) から ecosystem を選定。素材適合度 5/5=100%: TOP5 の 4/5 (archify=Claude Code アーキ図 skill / scientific-agent-skills=163 skill Python 集 / claude-plugins-official=Anthropic 公式 plugin ディレクトリ / GitNexus=MCP 連携コード知識グラフ) が『AI エディタ拡張エコシステム』集中、残る gods-eye-view=10+ 公開データを Cesium 3D globe に束ねる OSINT ecosystem も同じ設計原則で語れる。週次柱②/③ (15%+10%) は 08-21 (self-experiment)/08-23・08-26 (business-angle) で下限満了、今日は柱① 主軸 OK。TOP5 lineup: archify (継続・+301 star で 4 位維持) / scientific-agent-skills (新規・163 skill 束ね) / claude-plugins-official (新規・Anthropic 公式カタログ) / gods-eye-view (継続・+1414 star で急伸) / GitNexus (新規復活・MCP コード知識グラフ) の 5 リポ。**Anthropic 公式 plugin ディレクトリ登場**が今週の最重要トレンドシグナル、Claude Code エコシステム公式カタログ化フェーズに到達。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は金曜 (Fri=直近 28 日 avg 310、Tue に次ぐ第 2 バケット)、crisis-mode 継続深化 16 日目。直近 2 日連投 NG (comparison/business-angle 除外) + ecosystem 3 日 cooldown ぎりぎり + crisis-mode 下で全 method シグナル 14 日全滅の 3 条件から exploit 側の判定基盤が崩壊、explore 側 tech-deep (14d 圏外 n=0 の未検証 method) を投入して n を積む。柱ローテ 08-27 (柱①) → 08-28 (柱①) で柱① を 2 日連続、週次柱②/③ 下限は 08-21/23/26 で満了済のため柱① 継続で問題なし"
+      "本日は土曜 (Sat=直近 28 日 avg 79、Fri の 1/4 帯)、crisis-mode 継続深化 17 日目。直近 2 日連投 NG (comparison/tech-deep 除外) + business-angle 3 日前使用 (08-26) + ecosystem 4 日前使用 (08-25) から、all-time top-3 のうち ecosystem を選定 (business-angle は週次で 2 回 08-23/26 消化済のため多様化)。柱ローテ 08-27 (柱①) → 08-28 (柱①) → 08-29 (柱①) で柱① 3 日連続、週次柱②/③ 下限は 08-21/23/26 で満了済のため柱① 継続で問題なし"
     ],
     "hashtags": [
-      "tech-deep 角度の核心は『5 本のコア技術と実装アーキテクチャを 1 本ずつ端的に解説し、Primary ペルソナ (CTO/技術投資判断) の技術キーワード recall を狙う』。5 本のマッピング: #archify=JavaScript 22,942★ +4,260 (#1 継続・tt-a1i 開発) → Claude Code の agent skill として動作しモーション付き自己完結 HTML を吐く / #awesome-gpt-image-2=JavaScript 22,954★ +2,093 (#2 継続・freestylefly 開発) → プロンプトをコードとして扱う 530+ 逆解析事例と 20+ プロダクションテンプレを収録 / #gods-eye-view=JavaScript 7,798★ +1,984 (#3 新規・bilawalsidhu 開発) → 実 TLE データストリームを Cesium ベースの 3D globe にリアルタイム重畳する OSINT クライアント / #go-modern-guidelines=Go 2,050★ +314 (#4 新規・JetBrains 公式) → AI コーディングエージェント向けにモダン Go の慣用句・型設計・エラーハンドリングを体系化 / #nitter=Nim 13,843★ +63 (#5 新規復活・zedeus 開発) → 公式 API 非依存の Twitter 代替フロントエンドで Nim 実装により小さなバイナリで高速動作",
-      "言語タグは JavaScript 3 + Go 1 + Nim 1 の 3 言語構成。JavaScript (0.9x) 3 本 + Go (0.9x) 1 本 + Nim (未計測) 1 本、言語スコア平均は約 4.5/5 (Python/TypeScript が無く hints 上位から外れる)。視聴者の言語連想は Web フロントエンド + AI 支援言語系寄り",
-      "tech-deep 角度の独自 hashtag: #OSS #AI #エージェント #ClaudeCode #ClaudeSkill #Anthropic #アーキ図 #シーケンス図 #GPTImage2 #プロンプトエンジニアリング #Cesium #WebGL #3D地球儀 #OSINT #衛星 #TLE #JetBrains #Go言語 #AIコーディング #Nim #スクレイピング #代替フロント #セルフホスト #tech #技術解説 #CTO #個人開発者 #DX #フルスタック #Web3D"
+      "ecosystem 角度の核心は『5 本のうち 4/5 が Claude Code / Cursor / Codex を跨ぐ AI エディタ拡張エコシステムに集中し、公式化・カタログ化フェーズに突入したエコシステム地図として語る』。5 本のマッピング: #archify=JavaScript 27,167★ +4,561 (#1 継続・tt-a1i 開発) → Claude Code/Cursor/Codex 向けアーキ図・シーケンス図 skill、モーション付き自己完結 HTML / #scientific-agent-skills=Python 36,504★ +720 (#2 新規・K-Dense-AI 開発) → 163 の科学 skill と 78 公開 DB を束ねた研究員化ライブラリ、Cursor/Claude Code/Codex/Antigravity 横断 / #claude-plugins-official=Python 35,000★ +457 (#3 新規・Anthropic 公式) → /plugin install で導入できる Claude Code 公式 plugin ディレクトリ、Anthropic 自身が審査 / #gods-eye-view=JavaScript 10,969★ +3,398 (#4 継続・bilawalsidhu 開発) → Cesium 上に衛星/航空機/船舶/火災/カメラなど 10+ 公開データを重ねる OSINT 基盤、OpenAI Realtime API 音声制御 / #GitNexus=TypeScript 46,145★ +189 (#5 新規復活・abhigyanpatwari 開発) → コードベースを Tree-sitter+LadybugDB で知識グラフ化、MCP 経由で Claude Code/Cursor に渡す WebAssembly 完結ブラウザツール",
+      "言語タグは JavaScript 2 + Python 2 + TypeScript 1 の 3 言語構成。Python (1.2x) 2 本 + JavaScript (0.9x) 2 本 + TypeScript (1.1x) 1 本、言語スコア平均は約 1.02 で hints 上位 (Python + TypeScript の両 top-2 が混在)。視聴者の言語連想は AI エージェント + Web フロント両寄りで、tech-deep (08-28 JavaScript 3 + Go 1 + Nim 1) より Primary リーチしやすい構成",
+      "ecosystem 角度の独自 hashtag: #OSS #AI #エージェント #ClaudeCode #ClaudeSkill #ClaudePlugin #Anthropic #plugin #marketplace #skill #MCP #Cursor #Codex #アーキ図 #科学AI #バイオインフォマティクス #創薬 #ドラッグディスカバリー #Cesium #WebGL #3D地球儀 #OSINT #衛星 #WebAssembly #知識グラフ #GraphRAG #tech #技術解説 #CTO #個人開発者 #DX #エコシステム"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、tech-deep で密度優先の標準レンジ)。5 本合計 266 文字 (51+56+53+54+52)、TTS +30% で約 48 秒、opening/ending 5 秒込み 53 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 56 / min 51) で密度均等",
-      "tech-deep 角度の一貫性: 5 本すべての narration に『これは何か + コア技術 1 点』の 2 文構造を配置。1 本目 archify『アーキ図を1コマンドで生成する skill です。モーション付き自己完結 HTML で検証も再配布もできます』(Claude skill × self-contained HTML)、2 本目 awesome-gpt-image-2『GPT-Image-2 のプロンプトをコードとして扱うテンプレ集です。逆解析済み 530 事例で品質を安定化できます』(prompt-as-code × 逆解析事例数)、3 本目 gods-eye-view『衛星軌道をブラウザで再現する OSINT ツールです。実データの TLE を 3D 地球儀でリアルタイム追跡できます』(TLE × 3D globe)、4 本目 go-modern-guidelines『AI エージェント向けの Go 作法を JetBrains が公開しました。生成コードの品質と一貫性を底上げできます』(JetBrains 公式 × AI 前提の慣用句集)、5 本目 nitter『Twitter の代替フロントエンドです。Nim で書かれた軽量サーバーが公開 API を介さず高速表示します』(Nim × API 非依存) で、視聴者が『5 本 = 5 種類のコア技術』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『中で何が起きているか』を優先、comparison (選定判断軸) や business-angle (ROI 計算) と違い『Primary ペルソナ CTO が技術投資判断の一次資料としてキーワード recall する』設計。昨日 08-27 comparison (選定判断) からのモード切替で 2 日で 1 セットの立体化 (選定判断 → 技術内在)",
-      "数値表現はアラビア数字統一 (1、530 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、GPT-Image-2、TLE、3D、JetBrains、Nim、Twitter、API、skill) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、ecosystem で密度優先の標準レンジ)。5 本合計 281 文字 (55+59+56+55+56)、TTS +30% で約 51 秒、opening/ending 5 秒込み 56 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 59 / min 55) で密度均等",
+      "ecosystem 角度の一貫性: 5 本すべての narration に『これは何 + どのエコシステムに接続するか』の 2 文構造を配置。1 本目 archify『Claude Code 系の AI エディタ向け skill です。アーキ図やシーケンス図を単体 HTML で出力できます』(AI エディタエコシステム × 単体 HTML)、2 本目 scientific-agent-skills『AI エージェントをそのまま研究員化する 163 skill 集です。100 超の科学 DB に接続でき、Cursor でも動きます』(agent skill エコシステム × 78 公開 DB)、3 本目 claude-plugins-official『Anthropic 公式の Claude Code plugin 集です。審査済み skill と MCP を即導入できます』(Claude Code plugin marketplace × 公式カタログ)、4 本目 gods-eye-view『衛星や航空機をブラウザで束ねる OSINT 基盤です。Cesium 上に 10 種類以上の公開データが 1 画面で並びます』(公開データエコシステム × 10+ プロバイダ統合)、5 本目 GitNexus『コードベースをブラウザで知識グラフ化するツールです。MCP で Claude Code や Cursor に直接渡せます』(MCP エコシステム × コード知識グラフ) で、視聴者が『5 本 = 5 種類のエコシステム接続点』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。ecosystem では『周辺で何が育っているか / どのハブに接続するか』を優先、tech-deep (昨日) の『中で何が起きているか』からの視座切替で 2 日で 1 セットの立体化 (技術内在 → エコシステム俯瞰)",
+      "数値表現はアラビア数字統一 (163、100、10 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、Cursor、Anthropic、MCP、plugin、skill、Cesium、OSINT、OpenAI、Codex、Antigravity、WebAssembly、Tree-sitter) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `tech-deep` (14d 圏外 n=0、全期間 avg 1.00 n=3)。直近 2 日 (08-26 business-angle / 08-27 comparison) 連投ルールで business-angle/comparison 除外、ecosystem (08-25 直近 3 日 cooldown ぎりぎり) + use-case (下位) + trend-pattern (comparison 未満) + self-experiment (08-21 消化) の検討で、crisis-mode 16 日連続 0-1 でシグナルが崩壊している以上『全期間 top からの exploit』の判定基盤が無い。tech-deep は 14 日 n=0 + 全期間 n=3 と極小サンプルで、逆に『試行不足で判定不能な method』を積む価値が最大化する状況。素材共通軸 5/5 (5 本ともコア技術が明快で説明素材が揃っている) と完全整合。crisis-mode 継続深化 16 日目、Fri 第 2 バケット期待日 (直近 28 日 avg 310) で『tech-deep の n=4 化と当該日の新規サンプル取得』枠として使う。Primary (CTO/技術選定) 直撃『技術キーワード recall』ユーティリティで crisis-mode 対応の第 8 手にする。過去 tech-deep 3 本 (avg 1.00) からの再現性測定と、素材の 5/5 マッチが引き上げるかの切り分け実験。",
-      "本日 08-28 TOP5: #1 tt-a1i/archify=JavaScript / 22,942★ / +4,260 [継続・tt-a1i 開発・**Claude Code の agent skill として 1 コマンドでモーション付き自己完結 HTML のアーキ図/シーケンス図を生成**、自社設計レビュー資料が即席で仕上がる → 受託・スタートアップ CTO 向け]、#2 freestylefly/awesome-gpt-image-2=JavaScript / 22,954★ / +2,093 [継続・freestylefly 開発・**GPT-Image-2 専用の逆解析済 530+ 事例 + 20+ プロダクションテンプレを prompt-as-code で運用**、生成画像の品質安定と社内テンプレ化を両立 → 制作会社・受託エージェンシー・生成 AI 本番導入担当向け]、#3 bilawalsidhu/gods-eye-view=JavaScript / 7,798★ / +1,984 [新規・bilawalsidhu 開発・**実 TLE データストリームを Cesium ベースの 3D 地球儀にリアルタイム重畳する OSINT クライアント**、防衛/災害/報道の追跡調査を個人がブラウザで試せる → 記者・OSINT アナリスト・危機管理担当向け]、#4 JetBrains/go-modern-guidelines=Go / 2,050★ / +314 [新規・JetBrains 公式・**AI コーディングエージェントに与えるためのモダン Go 慣用句・型設計・エラーハンドリングを体系化した公式ガイド**、生成コードの品質と保守性を底上げ → Go チーム TL・AI 導入エンジニア向け]、#5 zedeus/nitter=Nim / 13,843★ / +63 [新規復活・zedeus 開発・**公式 API を介さず Twitter を読み取る Nim 実装の軽量代替フロントエンド**、匿名タイムライン閲覧や RSS 生成をセルフホストで運用可能 → メディア企業・アーカイブ担当・研究者向け]",
-      "本日の tech-deep 核: 5 本を『中で何が起きているか / どのコア技術で成り立っているか』の技術解説として並べ、視聴者に技術キーワードの記憶を刻んで Primary ペルソナ (CTO/技術投資判断) の技術 recall を狙う。冒頭フックは『今日の TOP5 は 5 本すべてコア技術が明快です。中で何が起きているかを 5 秒ずつ解説します』。5 本を『Claude skill × self-contained HTML』『prompt-as-code × 逆解析』『TLE × Cesium 3D』『JetBrains × AI-first Go』『Nim × API 非依存』の 5 技術キーワードで語り、各 OSS のコア技術を明示。昨日 08-27 comparison (5 本 = 5 本の選定ガイド) からの natural switch で 2 日で 1 セットの立体化継続 (選定判断 → 技術内在)。**skill/エージェント連結現象**: #1 archify と #2 awesome-gpt-image-2 はいずれも『AI エージェントに渡すコード/テンプレ』として並び、Claude Code 系の視聴者への連続訴求が自然にできる",
-      "Primary (CTO/技術選定) には『技術投資判断の一次資料』、Secondary (PdM/事業責任者) には『自社事業でどの新技術を試すべきか』、Tertiary (学習中) には『いま押さえておくべき OSS 技術キーワード』として 3 層直撃、tech-deep 特有の recall (『あの人は中身を語ってくれる』) で長期記憶に残る",
-      "**crisis-mode 継続深化 16 日目 (Explore 傾斜運用 10 日目 + 柱③ Fri 固定運用 3 回目該当日)**: 08-27 comparison 24h 暫定 0 views で『16 日連続 0-1 定着』延長。ただし本日 Fri 柱③ 固定運用の予定は crisis-mode 下での柱② と柱③ の週次下限 (15%+10%) が既に 08-21・08-23・08-26 で満了しているため見送り、代わりに tech-deep 未検証カテゴリを埋める判断。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 に振り替え (シグナル崩壊状況では explore を厚くする)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) 柱③ Fri 固定運用は次週にスライド、(e) infra チェック (post-time/hashtag 語彙/thumbnail テキスト量) は 8/26 Wed から 1 項目/日 のペースで検証開始候補継続。今日 tech-deep 投入で『素材適合 5/5 なら未検証 method でも n=4 化して意味のあるサンプルを取れる』の切り分け"
+      "本日の discovery.method は `ecosystem` (14d avg 0.00 n=3、全期間 avg 1.41 n=17 で all-time top-3)。直近 2 日 (08-27 comparison / 08-28 tech-deep) 連投ルールで comparison/tech-deep 除外、business-angle (3 日前 08-26 使用) は cooldown 継続で今日も見送り、残る ecosystem (4 日前 08-25 使用) が best fit。素材共通軸 5/5=100% (4/5 が Claude/AI エディタ拡張エコシステム集中 + 1/5 が公開データエコシステム統合) で ecosystem 角度と完全整合。crisis-mode 継続深化 17 日目、Sat 週末低帯 (avg 79) だが Primary (CTO/技術投資判断) 直撃『エコシステム全体地図』ユーティリティで crisis-mode 対応の第 9 手にする。08-28 tech-deep (中で何が起きているか) → 08-29 ecosystem (周辺で何が育っているか) の視座切替で 2 日 1 セットの立体化継続 (技術内在 → エコシステム俯瞰)。",
+      "本日 08-29 TOP5: #1 tt-a1i/archify=JavaScript / 27,167★ / +4,561 [継続・tt-a1i 開発・**Claude Code / Cursor / Codex を跨ぐアーキ図・シーケンス図 skill、モーション付き自己完結 HTML を吐く**、社内共有・PR レビュー資料が即完成 → CTO/受託エンジニア/技術ライター向け]、#2 K-Dense-AI/scientific-agent-skills=Python / 36,504★ / +720 [新規・K-Dense-AI 開発・**163 skill + 78 公開 DB を束ねて AI エージェントを研究員化する Python ライブラリ、Cursor/Claude Code/Codex/Antigravity 横断**、社内 R&D の検証時間を大幅短縮 → バイオ/創薬/ヘルスケア研究者・R&D 責任者向け]、#3 anthropics/claude-plugins-official=Python / 35,000★ / +457 [新規・Anthropic 公式・**Anthropic 自身が審査して並べる Claude Code plugin 公式ディレクトリ、/plugin install で即導入**、MCP や skill の発見性が段違いに上がりチーム標準化も進む → CTO/DevOps/AI エディタ運用チーム向け]、#4 bilawalsidhu/gods-eye-view=JavaScript / 10,969★ / +3,398 [継続・bilawalsidhu 開発・**衛星/航空機/船舶/火災/カメラなど 10+ 公開データを Cesium 3D globe に束ねる OSINT 基盤、OpenAI Realtime API 音声制御対応**、報道/災害監視/個人追跡調査を 1 画面で回せる → 記者・OSINT アナリスト・危機管理担当向け]、#5 abhigyanpatwari/GitNexus=TypeScript / 46,145★ / +189 [新規復活・abhigyanpatwari 開発・**コードベースを Tree-sitter+LadybugDB で知識グラフ化、MCP 経由で Claude Code/Cursor に渡す WebAssembly 完結ブラウザツール**、コードを外部に出さず調査精度を大幅向上 → セキュリティ厳格な企業・レガシー調査担当・SI 受託チーム向け]",
+      "本日の ecosystem 核: 5 本を『同じエコシステム地図の 5 つのノード』として並べ、視聴者に『Claude Code / Cursor / Codex 系 AI エディタ拡張エコシステムが公式化フェーズに到達した』というマクロシグナルを刻んで Primary ペルソナ (CTO/技術投資判断) の『どの層に賭けるか』判断を支援。冒頭フックは『今日の TOP5 は 5 本中 4 本が同じエコシステムに集中しました。Claude Code や Cursor を拡張する skill/plugin の公式化がついに始まった、その象徴 5 本を一気に見せます』。5 本を『AI エディタ skill (archify)』『agent skill 大量束ね (scientific-agent-skills)』『公式 plugin marketplace (claude-plugins-official)』『公開データ統合基盤 (gods-eye-view)』『MCP コード知識グラフ (GitNexus)』の 5 エコシステム接続点で語り、各 OSS の位置づけを俯瞰マップとして提示。**Anthropic 公式カタログ登場シグナル**: #3 claude-plugins-official と #2 scientific-agent-skills、#5 GitNexus はすべて Claude Code エコシステム内で相互に接続でき、視聴者への連続訴求 (『#3 で公式カタログ → #5 で MCP 接続 → #2 で用途別 skill 集』) が自然に成立",
+      "Primary (CTO/技術選定) には『AI エディタ拡張エコシステム全体地図 = 今どこに賭けるべきか』、Secondary (PdM/事業責任者) には『自社事業でどのエコシステムに乗るべきか』、Tertiary (学習中) には『いま押さえておくべき Claude Code/Cursor 拡張エコシステムの全体像』として 3 層直撃、ecosystem 特有の俯瞰視点 (『あの人はエコシステム全体を見てる』) で信頼シグナルを蓄積",
+      "**crisis-mode 継続深化 17 日目 (Explore 傾斜運用 11 日目 + 柱③ Sat 固定運用は次週スライド継続)**: 08-27 comparison 24h 暫定 0 views + 08-28 tech-deep 24h 未確定で『17 日連続 0-1 定着』延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 (シグナル崩壊状況では explore を厚くする、今日は ecosystem が exploit 側 top-3 だが素材適合 5/5 で選定)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続 (formal 解除基準の追加を戦略更新提案に記載)、(d) 柱③ Sat 固定運用は次週にスライド、(e) infra チェック (post-time/hashtag 語彙/thumbnail テキスト量) は 8/26 Wed から 1 項目/日 のペースで検証開始候補継続。今日 ecosystem 投入で『素材適合 5/5 の exploit top-3 method が crisis-mode 下で再現するか』の切り分け実験"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-08-28",
-    "dayOfWeek": "Fri",
+    "date": "2026-08-29",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -73,37 +73,39 @@
       "エージェント",
       "ClaudeCode",
       "ClaudeSkill",
+      "ClaudePlugin",
       "Anthropic",
+      "plugin",
+      "marketplace",
+      "skill",
+      "MCP",
+      "Cursor",
+      "Codex",
       "アーキ図",
-      "シーケンス図",
-      "GPTImage2",
-      "プロンプトエンジニアリング",
+      "科学AI",
+      "バイオインフォマティクス",
+      "創薬",
+      "ドラッグディスカバリー",
       "Cesium",
       "WebGL",
       "3D地球儀",
       "OSINT",
       "衛星",
-      "TLE",
-      "JetBrains",
-      "Go言語",
-      "AIコーディング",
-      "Nim",
-      "スクレイピング",
-      "代替フロント",
-      "セルフホスト",
+      "WebAssembly",
+      "知識グラフ",
+      "GraphRAG",
       "tech",
       "技術解説",
       "CTO",
       "個人開発者",
       "DX",
-      "フルスタック",
-      "Web3D",
+      "エコシステム",
       "archify",
-      "awesome_gpt_image_2",
+      "scientific_agent_skills",
+      "claude_plugins_official",
       "gods_eye_view",
-      "go_modern_guidelines",
-      "nitter"
+      "GitNexus"
     ],
-    "focus": "金曜 (Fri=直近 28 日 avg 310、Tue に次ぐ第 2 バケット) は crisis-mode 下で本来なら柱③ Fri 固定運用の週だが、週次柱②/③ 下限 (15%+10%) が 08-21 (self-experiment)/08-23・08-26 (business-angle) で既に満了済のため見送り、代わりに未検証 method の tech-deep (14d 圏外 n=0、全期間 n=3 avg 1.00) を投入して n を積む。crisis-mode 継続深化 16 日目、Explore 傾斜 (通常 20%→60% に更に振り替え) 運用 10 日目。素材共通軸 5/5=100% (『中で何が起きているか / コア技術がひとつ明快』) + 直近 2 日 (08-26 business-angle / 08-27 comparison) 連投 NG + ecosystem 3 日 cooldown ぎりぎり + crisis-mode 下で全 method シグナル 14 日全滅で exploit の判定基盤崩壊、の 3 条件複合で `tech-deep` を投入。5/5=100% 素材 (archify=Claude skill+self-contained HTML / awesome-gpt-image-2=prompt-as-code+530 逆解析 / gods-eye-view=TLE+Cesium 3D / go-modern-guidelines=JetBrains 公式 AI-first Go / nitter=Nim+API 非依存) が『5 本 = 5 種類のコア技術』の tech-deep 語りと完全整合。本日の TOP5 は 3/5 新規 (gods-eye-view, go-modern-guidelines, nitter 復活)、2/5 継続 (archify, awesome-gpt-image-2) で lineup 60% 刷新。**skill/エージェント連結現象**: #1 archify と #2 awesome-gpt-image-2 はいずれも『AI エージェントに渡すコード/テンプレ』として並び、Claude Code 系の視聴者への連続訴求が自然。method 切替 (comparison → tech-deep) + 語彙総入替 (vs/違い/選定/代替 → コア技術/実装/アーキテクチャ/内在) で視聴者の脳内モードを『選定判断』から『技術内在』へシフト。narration は 5 本すべてに『これは何か + コア技術 1 点』を配置、5 本合計 266 文字 (51+56+53+54+52) で TTS 換算約 48 秒、opening/ending 5 秒込み 53 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-27 (柱①) → 08-28 (柱①) で柱① 2 日連続、週次柱②/③ 下限は 08-21 (self-experiment) / 08-23・08-26 (business-angle) で満了済のため問題なし。**crisis 分水嶺 (継続深化 16 日目)**: 08-27 comparison (全期間 top-1 method) 24h 暫定 0 views で『16 日連続 0-1 定着』延長、8/28 朝 (本日) PDCA で 08-27 comparison 24h 確定を集計。crisis-mode 下ではシグナル崩壊のため exploit よりも未検証 method の n 積みを優先、infra チェック (post-time 08:00→18:00 / hashtag 語彙差替え / thumbnail テキスト量削減) を 8/26 Wed から 1 項目/日 のペースで検証開始候補継続、柱③ Fri 固定運用は次週にスライドして再現性測定 (次回 09-04 で 3 回目測定) を仕切り直す。PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "土曜 (Sat=直近 28 日 avg 79、Fri の 1/4 帯) は crisis-mode 下で本来なら柱③ Sat 固定運用の週だが、週次柱②/③ 下限 (15%+10%) が 08-21 (self-experiment)/08-23・08-26 (business-angle) で既に満了済のため見送り、代わりに素材適合 5/5 の ecosystem (全期間 top-3 method・avg 1.41 n=17) を投入して exploit top-3 の再現性を測る。crisis-mode 継続深化 17 日目、Explore 傾斜 (通常 20%→60%) 運用 11 日目。素材共通軸 5/5=100% (『AI エディタ拡張エコシステム / 公開データエコシステム』) + 直近 2 日 (08-27 comparison / 08-28 tech-deep) 連投 NG + business-angle 3 日前 (08-26) cooldown 継続、の 3 条件複合で `ecosystem` を投入。5/5=100% 素材 (archify=Claude Code アーキ図 skill / scientific-agent-skills=163 skill Python 集 / claude-plugins-official=Anthropic 公式 plugin ディレクトリ / gods-eye-view=Cesium OSINT 10+ プロバイダ統合 / GitNexus=MCP 連携コード知識グラフ) が『5 本 = 5 エコシステム接続点』の ecosystem 語りと完全整合。本日の TOP5 は 3/5 新規 (scientific-agent-skills, claude-plugins-official, GitNexus)、2/5 継続 (archify, gods-eye-view) で lineup 60% 刷新。**Anthropic 公式 plugin ディレクトリ登場シグナル**: #3 claude-plugins-official / #2 scientific-agent-skills / #5 GitNexus はすべて Claude Code エコシステム内で相互接続でき、視聴者への連続訴求 (『#3 公式カタログ → #5 MCP 接続 → #2 用途別 skill 集』) が自然に成立。method 切替 (tech-deep → ecosystem) + 語彙総入替 (コア技術/実装/アーキテクチャ/内在 → skill/plugin/MCP/ブラウザで/束ねる) で視聴者の脳内モードを『技術内在』から『エコシステム俯瞰』へシフト。narration は 5 本すべてに『これは何 + どのエコシステムに接続するか』を配置、5 本合計 281 文字 (55+59+56+55+56) で TTS 換算約 51 秒、opening/ending 5 秒込み 56 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-27 (柱①) → 08-28 (柱①) → 08-29 (柱①) で柱① 3 日連続、週次柱②/③ 下限は 08-21 (self-experiment) / 08-23・08-26 (business-angle) で満了済のため問題なし。**crisis 分水嶺 (継続深化 17 日目)**: 08-28 tech-deep (未検証 method 新規投入) 24h 未確定、8/29 朝 (本日) PDCA で 08-28 tech-deep 24h の初回集計を待つ。crisis-mode 下ではシグナル崩壊のため exploit よりも未検証 method の n 積みを優先していたが、今日は素材適合 5/5 の exploit top-3 に戻して『素材適合が高ければ exploit が再現するか』を測る。infra チェック (post-time 08:00→18:00 / hashtag 語彙差替え / thumbnail テキスト量削減) を 8/26 Wed から 1 項目/日 のペースで検証開始候補継続、柱③ Sat 固定運用は次週にスライドして再現性測定 (次回 09-05 で 4 回目測定) を仕切り直す。PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }

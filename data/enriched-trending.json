@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "discovery": {
-    "method": "tech-deep",
-    "description": "TOP5 を『技術的独自性・アーキテクチャ・なぜ今バズっているか』の tech-deep 角度で 5 本統一。crisis-mode 16 日目、直近 2 日 (08-27 comparison / 08-26 business-angle) 連投 NG + 週次柱②/③ 下限 (08-21 self-experiment・08-23/26 business-angle) 満了済のため柱① 主軸で explore。tech-deep は 14 日 n=0 (全期間 n=3 avg 1.00)、5 本ともコア技術が明確 (Cesium+TLE / Nim scraper / prompt-as-code / self-contained HTML skill / AI-first Go idioms) で素材適合度 5/5、Primary ペルソナ (CTO/技術投資判断) の『中で何が起きているか』recall を狙う。",
+    "method": "ecosystem",
+    "description": "TOP5 のうち 4/5 (archify / scientific-agent-skills / claude-plugins-official / GitNexus) が『AI エディタ拡張エコシステム』(agent skill / plugin marketplace / MCP 連携コード知識グラフ) に集中。Anthropic 公式 plugin ディレクトリと 163-skill の科学ライブラリと横断ユーティリティ skill (archify) と MCP 経由コード知識グラフ (GitNexus) が同日にランクインし、Claude Code / Cursor / Codex を跨ぐ agent skill 層が『公式化・カタログ化フェーズ』に突入したことを示す象徴的な並び。残る gods-eye-view は独立ドメイン (OSINT) だが、10 種以上の公開データプロバイダを 1 つの Cesium 3D globe に束ねる『データエコシステム設計』として同じ設計原則を共有し、5 本すべて ecosystem 角度で統一料理できる。crisis-mode 継続深化 17 日目、直近 2 日 (08-27 comparison / 08-28 tech-deep) 連投 NG で exploit 側 top-3 (business-angle 08-26 使用 / comparison 除外 / ecosystem 08-25 から 4 日経過) から ecosystem を選定。素材適合度 5/5=100%、Primary ペルソナ (CTO / 技術投資判断) の『どの層に賭けるか』判断素材として直撃。柱ローテ: 週次柱② 消化済 (08-23/26 business-angle) + 柱③ 消化済 (08-21 self-experiment) で今日は柱① 主軸で問題なし。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/zedeus/nitter",
-      "https://github.com/freestylefly/awesome-gpt-image-2",
       "https://github.com/tt-a1i/archify",
-      "https://github.com/JetBrains/go-modern-guidelines"
+      "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "https://github.com/anthropics/claude-plugins-official",
+      "https://github.com/bilawalsidhu/gods-eye-view",
+      "https://github.com/abhigyanpatwari/GitNexus"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "archify",
       "url": "https://github.com/tt-a1i/archify",
       "language": "JavaScript",
-      "stars": 22942,
-      "todayStars": 4260,
-      "description": "Claude Codeでアーキ図を生成",
-      "detail": "Claude Codeから1コマンドで美しく検証可能なアーキテクチャ図やシーケンス図を出力するskillです。モーション付き自己完結HTMLで生成でき、そのまま社内共有や資料化に持ち込めます。",
-      "narration": "アーキ図を1コマンドで生成するskillです。モーション付き自己完結HTMLで検証も再配布もできます。"
+      "stars": 27167,
+      "todayStars": 4561,
+      "description": "Claude Codeでアーキ図を吐くskill",
+      "detail": "Claude CodeやCursorなどのAIエディタが吐くJSONを、そのまま単体HTMLのアーキ図・シーケンス図に組み立てるskillです。モーション付きでダーク/ライト両対応、社内共有や設計レビュー資料が即完成します。",
+      "narration": "Claude Code系のAIエディタ向けskillです。アーキ図やシーケンス図を単体HTMLで出力できます。"
     },
     {
       "rank": 2,
-      "fullName": "freestylefly/awesome-gpt-image-2",
-      "name": "awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "language": "JavaScript",
-      "stars": 22954,
-      "todayStars": 2093,
-      "description": "GPT-Image-2の実戦プロンプト集",
-      "detail": "GPT-Image-2の出力を安定させる逆解析済み530事例と20のプロダクション向けテンプレを収録した集大成です。プロンプトをコードとして扱う運用が回り、生成AIの本番投入で頼れます。",
-      "narration": "GPT-Image-2のプロンプトをコードとして扱うテンプレ集です。逆解析済み530事例で品質を安定化できます。"
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars": 36504,
+      "todayStars": 720,
+      "description": "AIを研究員化する163skill集",
+      "detail": "AIエージェントをそのまま計算生物や化学の研究員として動かせる163skillと78の公開DBを束ねたPython製ライブラリです。Cursor/Claude Code/Codex横断で使えて、社内R&Dの検証時間を大幅短縮できます。",
+      "narration": "AIエージェントをそのまま研究員化する163skill集です。100超の科学DBに接続でき、Cursorでも動きます。"
     },
     {
       "rank": 3,
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars": 35000,
+      "todayStars": 457,
+      "description": "Claude公式のplugin directory",
+      "detail": "Anthropic自身が審査して並べるClaude Code plugin公式ディレクトリです。/plugin installで即導入でき、MCPやskillの発見性がぐっと上がりチーム標準化も進みます。",
+      "narration": "Anthropic公式のClaude Code plugin集です。審査済みskillとMCPを即導入できます。"
+    },
+    {
+      "rank": 4,
       "fullName": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 7798,
-      "todayStars": 1984,
-      "description": "衛星OSINTを3D地球儀で可視化",
-      "detail": "実データのスパイ衛星軌道をリアルタイムで受信し、フォトリアルな3D地球儀に重ねて可視化するブラウザ製OSINTツールです。防衛分析や災害監視、報道記者の追跡調査で個人が試せる基盤になります。",
-      "narration": "衛星軌道をブラウザで再現するOSINTツールです。実データのTLEを3D地球儀でリアルタイム追跡できます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "JetBrains/go-modern-guidelines",
-      "name": "go-modern-guidelines",
-      "url": "https://github.com/JetBrains/go-modern-guidelines",
-      "language": "Go",
-      "stars": 2050,
-      "todayStars": 314,
-      "description": "AI向けGo作法をJetBrainsが公開",
-      "detail": "AIコーディング支援を前提にモダンGoの書き方を体系化したJetBrains公式のガイド集です。生成AIに与えることで慣用句と型設計が揃い、生成コードの品質と保守性を底上げできます。",
-      "narration": "AIエージェント向けのGo作法をJetBrainsが公開しました。生成コードの品質と一貫性を底上げできます。"
+      "stars": 10969,
+      "todayStars": 3398,
+      "description": "衛星と航空機を3D地球儀で追う",
+      "detail": "実データの衛星軌道や航空機、船舶、火災、公開カメラを1つの3D地球儀に重ねるOSINT基盤です。Cesium製で音声制御にも対応し、報道や災害監視、個人の追跡調査を1画面で回せます。",
+      "narration": "衛星や航空機をブラウザで束ねるOSINT基盤です。Cesium上に10種類以上の公開データが1画面で並びます。"
     },
     {
       "rank": 5,
-      "fullName": "zedeus/nitter",
-      "name": "nitter",
-      "url": "https://github.com/zedeus/nitter",
-      "language": "Nim",
-      "stars": 13843,
-      "todayStars": 63,
-      "description": "Twitter代替フロントエンド",
-      "detail": "Twitterを公式APIを介さず読み取れる軽量フロントエンドです。Nimで書かれた高速サーバーが匿名タイムライン閲覧やRSS生成を提供し、セルフホスト運用のスクレイピング業務でも現役です。",
-      "narration": "Twitterの代替フロントエンドです。Nimで書かれた軽量サーバーが公開APIを介さず高速表示します。"
+      "fullName": "abhigyanpatwari/GitNexus",
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "stars": 46145,
+      "todayStars": 189,
+      "description": "コード知識グラフをブラウザで生成",
+      "detail": "コードベースを解析して依存や呼び出し関係の知識グラフを作り、MCP経由でClaude CodeやCursorに渡すツールです。WebAssemblyでブラウザ内完結、コードを外部に出さず調査精度が上がります。",
+      "narration": "コードベースをブラウザで知識グラフ化するツールです。MCPでClaude CodeやCursorに直接渡せます。"
     }
   ]
 }
