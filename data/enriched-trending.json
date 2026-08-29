@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "discovery": {
-    "method": "ecosystem",
-    "description": "TOP5 のうち 4/5 (archify / scientific-agent-skills / claude-plugins-official / GitNexus) が『AI エディタ拡張エコシステム』(agent skill / plugin marketplace / MCP 連携コード知識グラフ) に集中。Anthropic 公式 plugin ディレクトリと 163-skill の科学ライブラリと横断ユーティリティ skill (archify) と MCP 経由コード知識グラフ (GitNexus) が同日にランクインし、Claude Code / Cursor / Codex を跨ぐ agent skill 層が『公式化・カタログ化フェーズ』に突入したことを示す象徴的な並び。残る gods-eye-view は独立ドメイン (OSINT) だが、10 種以上の公開データプロバイダを 1 つの Cesium 3D globe に束ねる『データエコシステム設計』として同じ設計原則を共有し、5 本すべて ecosystem 角度で統一料理できる。crisis-mode 継続深化 17 日目、直近 2 日 (08-27 comparison / 08-28 tech-deep) 連投 NG で exploit 側 top-3 (business-angle 08-26 使用 / comparison 除外 / ecosystem 08-25 から 4 日経過) から ecosystem を選定。素材適合度 5/5=100%、Primary ペルソナ (CTO / 技術投資判断) の『どの層に賭けるか』判断素材として直撃。柱ローテ: 週次柱② 消化済 (08-23/26 business-angle) + 柱③ 消化済 (08-21 self-experiment) で今日は柱① 主軸で問題なし。",
+    "method": "business-angle",
+    "description": "今日の TOP5 は AI 設計 (archify) / OSINT 3D グローブ (gods-eye-view) / AI Scientist skill (scientific-agent-skills) / P2P ネットワーク (tailscale/tailcat) / EdTech マルチエージェント (OpenMAIC) と 5 ドメインに綺麗に分散し、5 本全てで『受託・SaaS・内製化・コスト圧縮』の商流ストーリーが立つ素材適合度 5/5。all-time avg で #1 method の business-angle (1.44) を、直近 2 日 (08-28 tech-deep / 08-29 ecosystem) と被らず 4 日ぶりに exploit。Primary ペルソナ (CTO / 技術投資判断) に効く『使えば月◯円浮く』の切り口で 5 本統一。crisis-mode 18 日目のため top-3 method 保守的運用を継続し、narration には全 5 本『外注費 / SaaS 費 / 初期投資 / 内製化 / 圧縮』の商流語彙を必ず 1 語入れる縛り。柱② は今週 3 本目 (08-23 / 08-26 / 08-30)、柱③ は 9/1-9/3 週前半へ持ち越し。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/tt-a1i/archify",
-      "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/abhigyanpatwari/GitNexus"
+      "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "https://github.com/tailscale/tailcat",
+      "https://github.com/THU-MAIC/OpenMAIC"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "archify",
       "url": "https://github.com/tt-a1i/archify",
       "language": "JavaScript",
-      "stars": 27167,
-      "todayStars": 4561,
-      "description": "Claude Codeでアーキ図を吐くskill",
-      "detail": "Claude CodeやCursorなどのAIエディタが吐くJSONを、そのまま単体HTMLのアーキ図・シーケンス図に組み立てるskillです。モーション付きでダーク/ライト両対応、社内共有や設計レビュー資料が即完成します。",
-      "narration": "Claude Code系のAIエディタ向けskillです。アーキ図やシーケンス図を単体HTMLで出力できます。"
+      "stars": 30876,
+      "todayStars": 3927,
+      "description": "AI設計図の外注費を月10万削減",
+      "detail": "Claude CodeやCursorが吐くJSONを、そのまま単体HTMLのアーキ図やシーケンス図に組み立てるskillです。受託開発の設計資料や社内共有を1コマンドで納品でき、月あたり10万円級の外注費を圧縮できます。",
+      "narration": "アーキ図作成の外注費を月10万減らせるskillです。Claude Codeから単体HTMLで納品資料が出ます。"
     },
     {
       "rank": 2,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "language": "Python",
-      "stars": 36504,
-      "todayStars": 720,
-      "description": "AIを研究員化する163skill集",
-      "detail": "AIエージェントをそのまま計算生物や化学の研究員として動かせる163skillと78の公開DBを束ねたPython製ライブラリです。Cursor/Claude Code/Codex横断で使えて、社内R&Dの検証時間を大幅短縮できます。",
-      "narration": "AIエージェントをそのまま研究員化する163skill集です。100超の科学DBに接続でき、Cursorでも動きます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "language": "Python",
-      "stars": 35000,
-      "todayStars": 457,
-      "description": "Claude公式のplugin directory",
-      "detail": "Anthropic自身が審査して並べるClaude Code plugin公式ディレクトリです。/plugin installで即導入でき、MCPやskillの発見性がぐっと上がりチーム標準化も進みます。",
-      "narration": "Anthropic公式のClaude Code plugin集です。審査済みskillとMCPを即導入できます。"
-    },
-    {
-      "rank": 4,
       "fullName": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 10969,
-      "todayStars": 3398,
-      "description": "衛星と航空機を3D地球儀で追う",
-      "detail": "実データの衛星軌道や航空機、船舶、火災、公開カメラを1つの3D地球儀に重ねるOSINT基盤です。Cesium製で音声制御にも対応し、報道や災害監視、個人の追跡調査を1画面で回せます。",
-      "narration": "衛星や航空機をブラウザで束ねるOSINT基盤です。Cesium上に10種類以上の公開データが1画面で並びます。"
+      "stars": 12549,
+      "todayStars": 1870,
+      "description": "OSINTを内製化する3D地球儀",
+      "detail": "衛星軌道や航空機、船舶、火災、公開カメラの実データを1つのCesium 3Dグローブに束ねるOSSです。報道機関や与信調査、DD業務の内製化ツールとして即納品でき、市販OSINT費を圧縮できます。",
+      "narration": "衛星や航空機の追跡データを1画面に束ねるOSSです。報道や与信調査の内製化ツールとして即納品できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars": 37896,
+      "todayStars": 1604,
+      "description": "AI研究員化する165skill集",
+      "detail": "AIエージェントをそのままバイオや化学の研究員として動かせる165skillと78の公開DBを束ねたPython製ライブラリです。R&D外注費を圧縮でき、スタートアップの検証工数を半減できます。",
+      "narration": "AI研究員化する165skill集で外注R&Dを圧縮できます。バイオや化学スタートアップの検証工数を半減します。"
+    },
+    {
+      "rank": 4,
+      "fullName": "tailscale/tailcat",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "language": "Go",
+      "stars": 3449,
+      "todayStars": 790,
+      "description": "Tailscale上の軽量netcat",
+      "detail": "Tailscaleのデータ面だけを使い、control planeを介さずにピア間でストリームを流せるOSSです。SaaS中継サーバー費や商用VPN月額を削り、機密ファイル転送を自前ネットワークで組めます。",
+      "narration": "Tailscaleのデータ面だけ使うnetcatです。VPN商用ライセンス費なしで社内転送を組めます。"
     },
     {
       "rank": 5,
-      "fullName": "abhigyanpatwari/GitNexus",
-      "name": "GitNexus",
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
       "language": "TypeScript",
-      "stars": 46145,
-      "todayStars": 189,
-      "description": "コード知識グラフをブラウザで生成",
-      "detail": "コードベースを解析して依存や呼び出し関係の知識グラフを作り、MCP経由でClaude CodeやCursorに渡すツールです。WebAssemblyでブラウザ内完結、コードを外部に出さず調査精度が上がります。",
-      "narration": "コードベースをブラウザで知識グラフ化するツールです。MCPでClaude CodeやCursorに直接渡せます。"
+      "stars": 22140,
+      "todayStars": 907,
+      "description": "1クリックで多人数AI授業を起動",
+      "detail": "トピックや資料から複数の生成AIが授業をロールプレイする、多人数AI教室を1クリックで起動できるOSSです。EdTech SaaS開発や社内研修の初期投資を圧縮でき、独自シナリオも投入できます。",
+      "narration": "1クリックで多人数AI授業を立ち上げるOSSです。EdTech SaaS開発や社内研修の初期投資を圧縮できます。"
     }
   ]
 }
