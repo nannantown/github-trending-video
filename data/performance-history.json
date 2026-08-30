@@ -2,63 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "tGpedd50jYo",
-      "videoUrl": "https://youtube.com/shorts/tGpedd50jYo",
-      "date": "2026-05-31",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/05/31 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "Python",
-        "TypeScript",
-        "HTML"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "HTML"
-      ],
-      "projects": [
-        "microsoft/markitdown",
-        "harry0703/MoneyPrinterTurbo",
-        "anthropics/claude-code",
-        "cursor/plugins",
-        "revfactory/harness"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "本日のTOP5を『2026 Q2 AI開発スタック地図』として5本横断でecosystem角度で料理する。冒頭マクロ核は『TOP5がスタックの各層にきれいに分かれて並ぶ稀有な日』。5本のレイヤー対応: #1 microsoft/markitdown=文書前処理レイヤー・Microsoft公式 / #2 harry0703/MoneyPrinterTurbo=コンテンツ生成レイヤー・コミュニティ / #3 anthropics/claude-code=コーディングエージェントレイヤー・Anthropic公式 / #4 cursor/plugins=IDE拡張レイヤー・Cursor公式 / #5 revfactory/harness=メタエージェントレイヤー・Claude Code上のmeta-skill。直近2日(05-30 comparison / 05-29 trend-pattern)とmethod衝突なし、ecosystemは前回05-27から4日空きで連投ルール非該当。28日窓ecosystem avg 2.4/n=5でtrend-patternとuse-caseに次ぐ3位かつ計測サンプル最多で安定method。柱②(05-25 business-angle)・柱③(05-28 self-experiment)は本週(Mon 05-25〜Sun 05-31)消化済みのため本日Day7(Sun)は柱①主軸日。継続3本(#1 markitdown / #2 MoneyPrinterTurbo / #3 claude-code)の角度切替: 05-30 comparison『何の代替か』→ 本日 ecosystem『どの層か』へ語彙完全切替で連投ペナルティ回避。新規2本(#4 cursor/plugins / #5 revfactory/harness)も同じレイヤーマッピングで読み解く。大手ベンダー公式OSSが同日3本(Microsoft markitdown + Anthropic claude-code + Cursor cursor/plugins)TOP5入りは観測上の初例で、前日PDCAで提案した`vendor-stance`新angleの素材適合度を最大化する出来事。本日はecosystem内のflavorとして吸収し、再現性が見えれば次月以降に独立angle化を検討。素材適合度5/5: 5本が異なる層に分かれて並ぶ運用開始以来でも極めて高い適合度。Primary(CTO/技術選定者)が週末に『自社のスタックでどこに置くか』を意思決定する素材として直撃。Secondary(PdM/事業責任者)には『AI開発スタックの全体地図』、Tertiary(学習中エンジニア)には『今のAI開発レイヤーの俯瞰』として届く3層構成。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。最低3 views(Sun中位帯超え)、理想30 views(Sun上位帯への漸近)を目標。注記: 14日窓method平均差は n≤2・silent fail汚染で統計的に有意でなく、本選定は28日窓 ecosystem n=5の安定性 + 素材適合度5/5 + 直近2日method衝突回避 + 柱① 主軸日該当を根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/microsoft/markitdown",
-          "https://github.com/harry0703/MoneyPrinterTurbo",
-          "https://github.com/anthropics/claude-code",
-          "https://github.com/cursor/plugins",
-          "https://github.com/revfactory/harness",
-          "https://docs.anthropic.com/en/docs/claude-code/overview",
-          "https://docs.cursor.com/"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 4,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
-      }
-    },
-    {
       "videoId": "iCCZfuIyTbg",
       "videoUrl": "https://youtube.com/shorts/iCCZfuIyTbg",
       "date": "2026-06-01",
@@ -3962,7 +3905,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4018,7 +3961,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4069,7 +4012,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4122,7 +4065,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4175,7 +4118,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4235,7 +4178,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4292,7 +4235,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4351,7 +4294,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4406,7 +4349,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4460,7 +4403,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4514,7 +4457,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4573,7 +4516,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-29T03:56:01.200Z"
+        "updatedAt": "2026-08-30T00:48:41.234Z"
       }
     },
     {
@@ -4631,32 +4574,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-08-30T00:48:41.234Z"
+      }
+    },
+    {
+      "videoId": "8Uc7Yc5TdeI",
+      "videoUrl": "https://youtube.com/shorts/8Uc7Yc5TdeI",
+      "date": "2026-08-30",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/30 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Jupyter Notebook",
+        "PowerShell",
+        "Markdown",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "TypeScript"
+      ],
+      "projects": [
+        "tt-a1i/archify",
+        "bilawalsidhu/gods-eye-view",
+        "K-Dense-AI/scientific-agent-skills",
+        "tailscale/tailcat",
+        "THU-MAIC/OpenMAIC"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日の TOP5 は AI 設計 (archify) / OSINT 3D グローブ (gods-eye-view) / AI Scientist skill (scientific-agent-skills) / P2P ネットワーク (tailscale/tailcat) / EdTech マルチエージェント (OpenMAIC) と 5 ドメインに綺麗に分散し、5 本全てで『受託・SaaS・内製化・コスト圧縮』の商流ストーリーが立つ素材適合度 5/5。all-time avg で #1 method の business-angle (1.44) を、直近 2 日 (08-28 tech-deep / 08-29 ecosystem) と被らず 4 日ぶりに exploit。Primary ペルソナ (CTO / 技術投資判断) に効く『使えば月◯円浮く』の切り口で 5 本統一。crisis-mode 18 日目のため top-3 method 保守的運用を継続し、narration には全 5 本『外注費 / SaaS 費 / 初期投資 / 内製化 / 圧縮』の商流語彙を必ず 1 語入れる縛り。柱② は今週 3 本目 (08-23 / 08-26 / 08-30)、柱③ は 9/1-9/3 週前半へ持ち越し。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tt-a1i/archify",
+          "https://github.com/bilawalsidhu/gods-eye-view",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/tailscale/tailcat",
+          "https://github.com/THU-MAIC/OpenMAIC"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-27",
-      "changes": [
-        "Shell: 3.9x avg views → boost",
-        "Go: 3.8x avg views → boost",
-        "C++: 0.3x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.3x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "HTML: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.4x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.4x), Go (6.2x)",
-        "Day performance: Tue=31, Thu=3, Sat=3, Mon=2, Wed=2, Fri=2, Sun=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-28",
       "changes": [
@@ -5037,6 +5018,22 @@
         "standard: 1 avg views (84 videos)",
         "Trending languages: Java (1.9x), CSS (1.9x), Markdown (2.4x), Jupyter Notebook (2.3x), PowerShell (2.2x)",
         "Day performance: Fri=2, Sat=2, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-30",
+      "changes": [
+        "C++: 0.3x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "Jupyter Notebook: 1.3x avg views → boost",
+        "PowerShell: 1.4x avg views → boost",
+        "Markdown: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.0x), CSS (2.0x), Markdown (2.6x), Jupyter Notebook (2.4x), PowerShell (2.3x)",
+        "Day performance: Sun=1, Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1"
       ],
       "recommendedTemplate": "standard"
     }
