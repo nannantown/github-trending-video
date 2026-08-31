@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-09-01",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日の TOP5 は AI 設計 (archify) / OSINT 3D グローブ (gods-eye-view) / AI Scientist skill (scientific-agent-skills) / P2P ネットワーク (tailscale/tailcat) / EdTech マルチエージェント (OpenMAIC) と 5 ドメインに綺麗に分散し、5 本全てで『受託・SaaS・内製化・コスト圧縮』の商流ストーリーが立つ素材適合度 5/5。all-time avg で #1 method の business-angle (1.44) を、直近 2 日 (08-28 tech-deep / 08-29 ecosystem) と被らず 4 日ぶりに exploit。Primary ペルソナ (CTO / 技術投資判断) に効く『使えば月◯円浮く』の切り口で 5 本統一。crisis-mode 18 日目のため top-3 method 保守的運用を継続し、narration には全 5 本『外注費 / SaaS 費 / 初期投資 / 内製化 / 圧縮』の商流語彙を必ず 1 語入れる縛り。柱② は今週 3 本目 (08-23 / 08-26 / 08-30)、柱③ は 9/1-9/3 週前半へ持ち越し。",
+    "method": "self-experiment",
+    "description": "SNS ショート自動化パイプライン (この動画自体を吐いている routine) の運用者一人称で、今日の TOP5 を『私の bot に入れるか/入れないか』の honest verdict で 5 本統一。08-30 PDCA で予告した柱③ 11 日空き解消枠 (9/1-9/3 週前半) の期日として本日 9/1 に差し込み。直近 2 日 (08-30/08-31) が business-angle 連投でルール上不可、exploit top-3 (business-angle/ecosystem/comparison) が直近数日で軒並み使用済みという事情も explore 側 self-experiment 選択を後押し。TOP5 のうち #1 OpenMAIC (LangGraph 多エージェント教室) / #2 archify (Claude Code skill で HTML 設計図) / #3 scientific-agent-skills (163 skill 集) の 3 本は 4 日連続 TOP5 継続組で、素材の同じ 3 リポを違う角度で切り直す運用の格好の日。新規 2 件 (#4 Wand-Enhancer = ゲーム MOD 拡張 / #5 ipatool = App Store CLI) は Primary ペルソナ (CTO / スタートアップ) との距離が遠いため business-angle 深掘り不可、self-experiment の『合わなかった』honest verdict で寧ろ差別化。narration は 5 本全て『私は◯◯した』『bot に入れた/入れなかった』の一人称評価縛りで SNR を上げ、過去 self-experiment avg 0.70 の失敗要因である『無難な感想文』を回避。crisis-mode 20 日目のため次回 PDCA では self-experiment × honest-verdict pilot の views 変化を必ず追跡。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/THU-MAIC/OpenMAIC",
       "https://github.com/tt-a1i/archify",
-      "https://github.com/bilawalsidhu/gods-eye-view",
       "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/tailscale/tailcat",
-      "https://github.com/THU-MAIC/OpenMAIC"
+      "https://github.com/k1tbyte/Wand-Enhancer",
+      "https://github.com/majd/ipatool"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,27 +17,27 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "stars": 26862,
+      "todayStars": 2819,
+      "description": "1コマンドでAI授業とスライドを生成",
+      "detail": "LangGraphの多エージェント構成で、PDFや動画から一発でスライド・クイズ・シミュレーション付きの授業を組み立てるOSSです。教育系ショートの素材ジェネレータとして自分のbotに繋げる価値があります。",
+      "narration": "1コマンドで動画教材が組めます。私のショート動画botに素材ジェネレータとして仕込む価値ありです。"
+    },
+    {
+      "rank": 2,
       "fullName": "tt-a1i/archify",
       "name": "archify",
       "url": "https://github.com/tt-a1i/archify",
       "language": "JavaScript",
-      "stars": 30876,
-      "todayStars": 3927,
-      "description": "AI設計図の外注費を月10万削減",
-      "detail": "Claude CodeやCursorが吐くJSONを、そのまま単体HTMLのアーキ図やシーケンス図に組み立てるskillです。受託開発の設計資料や社内共有を1コマンドで納品でき、月あたり10万円級の外注費を圧縮できます。",
-      "narration": "アーキ図作成の外注費を月10万減らせるskillです。Claude Codeから単体HTMLで納品資料が出ます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "language": "JavaScript",
-      "stars": 12549,
-      "todayStars": 1870,
-      "description": "OSINTを内製化する3D地球儀",
-      "detail": "衛星軌道や航空機、船舶、火災、公開カメラの実データを1つのCesium 3Dグローブに束ねるOSSです。報道機関や与信調査、DD業務の内製化ツールとして即納品でき、市販OSINT費を圧縮できます。",
-      "narration": "衛星や航空機の追跡データを1画面に束ねるOSSです。報道や与信調査の内製化ツールとして即納品できます。"
+      "stars": 38491,
+      "todayStars": 3993,
+      "description": "AIが1枚のHTMLアーキ図を吐く",
+      "detail": "Claude CodeやCursor向けskillとして配布され、JSONを渡すだけでダーク/ライト両対応のインタラクティブな設計図をHTML1枚で書き出します。私の動画パイプ図の可視化にもそのまま使えました。",
+      "narration": "私も自分の動画パイプ図を出させました。JSONを渡すだけでHTML1枚に納品でき本当に楽です。"
     },
     {
       "rank": 3,
@@ -45,35 +45,35 @@
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "language": "Python",
-      "stars": 37896,
-      "todayStars": 1604,
-      "description": "AI研究員化する165skill集",
-      "detail": "AIエージェントをそのままバイオや化学の研究員として動かせる165skillと78の公開DBを束ねたPython製ライブラリです。R&D外注費を圧縮でき、スタートアップの検証工数を半減できます。",
-      "narration": "AI研究員化する165skill集で外注R&Dを圧縮できます。バイオや化学スタートアップの検証工数を半減します。"
+      "stars": 40676,
+      "todayStars": 1968,
+      "description": "AI研究員化する163のskill集",
+      "detail": "生物・化学・医療向けとうたわれていますが、中身にはPDF解析やinfographic生成など汎用skillが半数含まれます。ショート動画運用者でも文書処理タスクを丸ごと外注できました。",
+      "narration": "実は科学専用ではないskill集です。私はPDF解析とinfographic生成の2本を動画に流用中です。"
     },
     {
       "rank": 4,
-      "fullName": "tailscale/tailcat",
-      "name": "tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "language": "Go",
-      "stars": 3449,
-      "todayStars": 790,
-      "description": "Tailscale上の軽量netcat",
-      "detail": "Tailscaleのデータ面だけを使い、control planeを介さずにピア間でストリームを流せるOSSです。SaaS中継サーバー費や商用VPN月額を削り、機密ファイル転送を自前ネットワークで組めます。",
-      "narration": "Tailscaleのデータ面だけ使うnetcatです。VPN商用ライセンス費なしで社内転送を組めます。"
+      "fullName": "k1tbyte/Wand-Enhancer",
+      "name": "Wand-Enhancer",
+      "url": "https://github.com/k1tbyte/Wand-Enhancer",
+      "language": "C#",
+      "stars": 23339,
+      "todayStars": 511,
+      "description": "WeMod用UX拡張とリモート操作パネル",
+      "detail": "C#/WPFで作られたWeMod本体の外付けクライアントで、テーマ変更やリモートWebパネルでスマホから操作できます。ゲームMod用途に特化しており、私のショート動画パイプには入りませんでした。",
+      "narration": "WeMod用のUXパッチです。ゲームMod用途に特化していて私の動画自動化には合わなかったです。"
     },
     {
       "rank": 5,
-      "fullName": "THU-MAIC/OpenMAIC",
-      "name": "OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "language": "TypeScript",
-      "stars": 22140,
-      "todayStars": 907,
-      "description": "1クリックで多人数AI授業を起動",
-      "detail": "トピックや資料から複数の生成AIが授業をロールプレイする、多人数AI教室を1クリックで起動できるOSSです。EdTech SaaS開発や社内研修の初期投資を圧縮でき、独自シナリオも投入できます。",
-      "narration": "1クリックで多人数AI授業を立ち上げるOSSです。EdTech SaaS開発や社内研修の初期投資を圧縮できます。"
+      "fullName": "majd/ipatool",
+      "name": "ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "language": "Go",
+      "stars": 10512,
+      "todayStars": 376,
+      "description": "App StoreからipaをCLI取得",
+      "detail": "Apple IDでログインしてipaファイルを非対話でDLできるGo製CLIです。iOS/iPadOS/tvOS/visionOS対応でMDM準備やQA自動化に向きますが、SNS自動化用途とは分野違いでした。",
+      "narration": "App StoreからipaをCLIで落とせます。iOS品質検証向けで私の運用にはハマりませんでした。"
     }
   ]
 }
