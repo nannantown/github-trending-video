@@ -2,64 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "iCCZfuIyTbg",
-      "videoUrl": "https://youtube.com/shorts/iCCZfuIyTbg",
-      "date": "2026-06-01",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/01 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "projects": [
-        "harry0703/MoneyPrinterTurbo",
-        "microsoft/markitdown",
-        "D4Vinci/Scrapling",
-        "nesquena/hermes-webui",
-        "EveryInc/compound-engineering-plugin"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "business-angle",
-        "description": "本日のTOP5を『受託・スタートアップが組むなら月いくら削れて何人月浮くか』の費用・工数視点で5本横断料理する。冒頭マクロ核は『2026年6月の週始め(Mon)、PrimaryペルソナのCTO/技術選定者が「今週何を入れて、何の月額を止めるか」の稟議書を書くタイミング』。5本の代替対応: #1 harry0703/MoneyPrinterTurbo=AI動画生成SaaS代替(Pictory月23ドル+Synthesia月30ドル以上+外注代行月20万円が丸ごと止まる) / #2 microsoft/markitdown=LLM前処理SaaS代替(LlamaParseの月数千ドル従量課金を全部削れて社内RAGの前処理が内製化) / #3 D4Vinci/Scrapling=スクレイピングSaaS代替(Bright Dataの月500ドル以上+Apifyの月49ドル+ScraperAPIの月49ドルが抜ける) / #4 nesquena/hermes-webui=社内Agent管理UI自作工数代替(Python+素のJSの軽量UIで2人月分の自作工数と保守費が省ける) / #5 EveryInc/compound-engineering-plugin=外注コンサル代替(37スキル+51エージェントで設計と検証フェーズを構造化、コンサル外注の数百万円を内製化)。直近2日(05/31 ecosystem / 05/30 comparison)とmethod衝突なし、business-angleは14日窓avg 2.0 n=1 (05/20=2) でTOP method同点・28日窓avg 2.0 n=4 で2位の安定method、最終投入05/20から12日空きで連投ルール非該当。柱②(business-angle 比率15%)の新週(06/01〜06/07)Day 1で消化、Mon=Primary層の稟議書語彙でPrimary(CTO/技術選定者)+Secondary(PdM/事業責任者)に直撃。継続2本(#1 MoneyPrinterTurbo 6日連続/#2 markitdown 5日連続)の語彙切替: 05/30 comparison『代わる』→ 05/31 ecosystem『どの層か』→ 本日 business-angle『月いくら削れるか』の3連続完全切替で連投ペナルティ条件外。新規3本(Scrapling・hermes-webui・compound-engineering-plugin)で素材ラインナップを大幅入れ替え、04/29-30型の同method×同ラインナップ連投構造から構造的に外す。素材適合度5/5: 全リポが明確な月額SaaS or 業務委託の代替を持つ稀有な日(MoneyPrinterTurbo=Pictory/Synthesia、markitdown=LlamaParse/Unstructured、Scrapling=Bright Data/Apify、hermes-webui=社内UI自作工数、compound-engineering-plugin=コンサル外注)。05/14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。Mon=70 avg 週次中下位帯のため、最低15 views(過去Mon下位帯超え)、理想200 views(Mon上位帯への漸近)を目標とする。注記: 14日窓method平均差は n≤3・silent fail汚染で統計的に有意でなく、本選定は『28日窓 business-angle n=4 + avg 2.0 安定method』+『素材適合度5/5』+『柱② 週次必須要件Day 1消化』+『直近2日method衝突回避』を根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/harry0703/MoneyPrinterTurbo",
-          "https://github.com/microsoft/markitdown",
-          "https://github.com/D4Vinci/Scrapling",
-          "https://github.com/nesquena/hermes-webui",
-          "https://github.com/EveryInc/compound-engineering-plugin",
-          "https://pictory.ai/pricing",
-          "https://www.synthesia.io/pricing",
-          "https://www.llamaindex.ai/pricing",
-          "https://brightdata.com/pricing",
-          "https://apify.com/pricing",
-          "https://every.to/"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-14T23:57:23.538Z"
-      }
-    },
-    {
       "videoId": "96xqiV_QN9k",
       "videoUrl": "https://youtube.com/shorts/96xqiV_QN9k",
       "date": "2026-06-02",
@@ -3961,7 +3903,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4012,7 +3954,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4065,7 +4007,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4118,7 +4060,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4178,7 +4120,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4235,7 +4177,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4294,7 +4236,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4349,7 +4291,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4403,7 +4345,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4457,7 +4399,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4516,7 +4458,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4574,7 +4516,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-30T00:48:41.234Z"
+        "updatedAt": "2026-08-31T00:56:57.736Z"
       }
     },
     {
@@ -4630,6 +4572,66 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-08-31T00:56:57.736Z"
+      }
+    },
+    {
+      "videoId": "MsbaZCFtK4o",
+      "videoUrl": "https://youtube.com/shorts/MsbaZCFtK4o",
+      "date": "2026-08-31",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/08/31 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Java",
+        "CSS",
+        "Jupyter Notebook",
+        "PowerShell",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "TypeScript"
+      ],
+      "projects": [
+        "tt-a1i/archify",
+        "bilawalsidhu/gods-eye-view",
+        "K-Dense-AI/scientific-agent-skills",
+        "tailscale/tailcat",
+        "THU-MAIC/OpenMAIC"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "business-angle",
+        "description": "今日の TOP5 は AI 設計 (archify) / OSINT 3D グローブ (gods-eye-view) / AI Scientist skill (scientific-agent-skills) / P2P ネットワーク (tailscale/tailcat) / EdTech マルチエージェント (OpenMAIC) と 5 ドメインに綺麗に分散し、5 本全てで『受託・SaaS・内製化・コスト圧縮』の商流ストーリーが立つ素材適合度 5/5。all-time avg で #1 method の business-angle (1.44) を、直近 2 日 (08-28 tech-deep / 08-29 ecosystem) と被らず 4 日ぶりに exploit。Primary ペルソナ (CTO / 技術投資判断) に効く『使えば月◯円浮く』の切り口で 5 本統一。crisis-mode 18 日目のため top-3 method 保守的運用を継続し、narration には全 5 本『外注費 / SaaS 費 / 初期投資 / 内製化 / 圧縮』の商流語彙を必ず 1 語入れる縛り。柱② は今週 3 本目 (08-23 / 08-26 / 08-30)、柱③ は 9/1-9/3 週前半へ持ち越し。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tt-a1i/archify",
+          "https://github.com/bilawalsidhu/gods-eye-view",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/tailscale/tailcat",
+          "https://github.com/THU-MAIC/OpenMAIC"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4638,27 +4640,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-28",
-      "changes": [
-        "Shell: 3.8x avg views → boost",
-        "Go: 3.7x avg views → boost",
-        "C++: 0.4x avg views → drop",
-        "JavaScript: 0.3x avg views → drop",
-        "Kotlin: 0.3x avg views → drop",
-        "Ruby: 0.3x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.1x avg views → drop",
-        "HTML: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.2x avg views → drop",
-        "CSS: 0.4x avg views → drop",
-        "standard: 6 avg views (81 videos)",
-        "Trending languages: Shell (2.4x), Go (5.7x)",
-        "Day performance: Tue=29, Thu=3, Sat=3, Wed=2, Fri=2, Mon=2, Sun=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-29",
       "changes": [
@@ -5034,6 +5015,23 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.0x), CSS (2.0x), Markdown (2.6x), Jupyter Notebook (2.4x), PowerShell (2.3x)",
         "Day performance: Sun=1, Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-08-31",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.4x avg views → boost",
+        "Java: 1.3x avg views → boost",
+        "CSS: 1.3x avg views → boost",
+        "Jupyter Notebook: 1.3x avg views → boost",
+        "PowerShell: 1.4x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.1x), CSS (2.1x), Markdown (2.7x), Jupyter Notebook (2.5x), PowerShell (2.4x)",
+        "Day performance: Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1"
       ],
       "recommendedTemplate": "standard"
     }
