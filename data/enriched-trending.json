@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "discovery": {
-    "method": "self-experiment",
-    "description": "SNS ショート自動化パイプライン (この動画自体を吐いている routine) の運用者一人称で、今日の TOP5 を『私の bot に入れるか/入れないか』の honest verdict で 5 本統一。08-30 PDCA で予告した柱③ 11 日空き解消枠 (9/1-9/3 週前半) の期日として本日 9/1 に差し込み。直近 2 日 (08-30/08-31) が business-angle 連投でルール上不可、exploit top-3 (business-angle/ecosystem/comparison) が直近数日で軒並み使用済みという事情も explore 側 self-experiment 選択を後押し。TOP5 のうち #1 OpenMAIC (LangGraph 多エージェント教室) / #2 archify (Claude Code skill で HTML 設計図) / #3 scientific-agent-skills (163 skill 集) の 3 本は 4 日連続 TOP5 継続組で、素材の同じ 3 リポを違う角度で切り直す運用の格好の日。新規 2 件 (#4 Wand-Enhancer = ゲーム MOD 拡張 / #5 ipatool = App Store CLI) は Primary ペルソナ (CTO / スタートアップ) との距離が遠いため business-angle 深掘り不可、self-experiment の『合わなかった』honest verdict で寧ろ差別化。narration は 5 本全て『私は◯◯した』『bot に入れた/入れなかった』の一人称評価縛りで SNR を上げ、過去 self-experiment avg 0.70 の失敗要因である『無難な感想文』を回避。crisis-mode 20 日目のため次回 PDCA では self-experiment × honest-verdict pilot の views 変化を必ず追跡。",
+    "method": "comparison",
+    "description": "本日のTOP5を『対抗OSSと比べて何が違うか』の1対1比較で5本統一。直近2日ルール(09-01 self-experiment / 08-31 business-angle 除外)と、exploit top-3 (business-angle=除外 / ecosystem=08-29使用4日前 / comparison=08-27使用6日前) の cooldown 状況から、freshest なexploit method として comparison を選定。09-01 で柱③ (self-experiment) を消化済のため週次柱②/③ 下限は満了、今日は柱① (comparison) 主軸で問題なし。素材適合度: TOP5 のうち #1 openclaude→Claude Code CLI、#2 academic-research-skills→ChatGPT Deep Research/Perplexity、#3 OpenMAIC→Khan Academy AI やdify、#4 invidious→Piped/NewPipe/FreeTube、#5 minimind→nanoGPT/llama2.c と、全 5 本に強い比較対象OSSが存在する compare-friendly な日。crisis-mode 21 日目、all-time top-3 の exploit を素材適合最大の日に投入して再現性を測定する。narration は 5 本すべて『対抗〇〇に対し、これは△△が違う』の 2 文構造で統一、Primary (CTO/技術選定) の『どちらを採るか』判断を直接支援。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/Gitlawb/openclaude",
+      "https://github.com/Imbad0202/academic-research-skills",
       "https://github.com/THU-MAIC/OpenMAIC",
-      "https://github.com/tt-a1i/archify",
-      "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/k1tbyte/Wand-Enhancer",
-      "https://github.com/majd/ipatool"
+      "https://github.com/iv-org/invidious",
+      "https://github.com/jingyaogong/minimind"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "Gitlawb/openclaude",
+      "name": "openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "language": "TypeScript",
+      "stars": 31243,
+      "todayStars": 37,
+      "description": "マルチLLM対応のClaude Code代替",
+      "detail": "Claude CodeをMITで書き直したCLIで、OpenAI・Gemini・GitHub Models・Ollama等に切り替え可能。Anthropicロックが外れ、gRPCサーバとしてCIから叩ける差別化があります。",
+      "narration": "Claude Code CLIのマルチLLM対応版です。OpenAIやOllamaに設定1つで切り替えられます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "Imbad0202/academic-research-skills",
+      "name": "academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "language": "Python",
+      "stars": 44842,
+      "todayStars": 161,
+      "description": "査読まで通せる研究skill集",
+      "detail": "ChatGPT Deep ResearchやPerplexityと違い、Claude Code内で動くhuman-in-the-loop型研究pipelineです。引用検証が通らないと出力を止めるintegrity gateがあり、捏造引用を防ぎます。",
+      "narration": "ChatGPT Deep Researchより厳密な研究skill集です。引用検証を通らない出力を自動で止められます。"
+    },
+    {
+      "rank": 3,
       "fullName": "THU-MAIC/OpenMAIC",
       "name": "OpenMAIC",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "language": "TypeScript",
-      "stars": 26862,
-      "todayStars": 2819,
-      "description": "1コマンドでAI授業とスライドを生成",
-      "detail": "LangGraphの多エージェント構成で、PDFや動画から一発でスライド・クイズ・シミュレーション付きの授業を組み立てるOSSです。教育系ショートの素材ジェネレータとして自分のbotに繋げる価値があります。",
-      "narration": "1コマンドで動画教材が組めます。私のショート動画botに素材ジェネレータとして仕込む価値ありです。"
-    },
-    {
-      "rank": 2,
-      "fullName": "tt-a1i/archify",
-      "name": "archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "language": "JavaScript",
-      "stars": 38491,
-      "todayStars": 3993,
-      "description": "AIが1枚のHTMLアーキ図を吐く",
-      "detail": "Claude CodeやCursor向けskillとして配布され、JSONを渡すだけでダーク/ライト両対応のインタラクティブな設計図をHTML1枚で書き出します。私の動画パイプ図の可視化にもそのまま使えました。",
-      "narration": "私も自分の動画パイプ図を出させました。JSONを渡すだけでHTML1枚に納品でき本当に楽です。"
-    },
-    {
-      "rank": 3,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "language": "Python",
-      "stars": 40676,
-      "todayStars": 1968,
-      "description": "AI研究員化する163のskill集",
-      "detail": "生物・化学・医療向けとうたわれていますが、中身にはPDF解析やinfographic生成など汎用skillが半数含まれます。ショート動画運用者でも文書処理タスクを丸ごと外注できました。",
-      "narration": "実は科学専用ではないskill集です。私はPDF解析とinfographic生成の2本を動画に流用中です。"
+      "stars": 29402,
+      "todayStars": 3122,
+      "description": "多エージェントが授業を丸ごと運営",
+      "detail": "普通のAI家庭教師と違い、LangGraphで教師と生徒役を回して黒板を実況で書き込みます。3D・シミュ・ゲーム等5種の対話シーンを持ち、Slackから1コマンドで授業を組めます。",
+      "narration": "普通のAI家庭教師と違い、多エージェントが黒板で議論しながら教えます。3Dやゲームも展開できます。"
     },
     {
       "rank": 4,
-      "fullName": "k1tbyte/Wand-Enhancer",
-      "name": "Wand-Enhancer",
-      "url": "https://github.com/k1tbyte/Wand-Enhancer",
-      "language": "C#",
-      "stars": 23339,
-      "todayStars": 511,
-      "description": "WeMod用UX拡張とリモート操作パネル",
-      "detail": "C#/WPFで作られたWeMod本体の外付けクライアントで、テーマ変更やリモートWebパネルでスマホから操作できます。ゲームMod用途に特化しており、私のショート動画パイプには入りませんでした。",
-      "narration": "WeMod用のUXパッチです。ゲームMod用途に特化していて私の動画自動化には合わなかったです。"
+      "fullName": "iv-org/invidious",
+      "name": "invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "language": "Crystal",
+      "stars": 23748,
+      "todayStars": 583,
+      "description": "自前サーバで動くYouTube代替",
+      "detail": "PipedやFreeTubeがフロントだけなのに対し、Crystal+Kemalの自前バックエンドを立てるOSSです。JS無しの軽量再生とNewPipe互換の購読エクスポートで、公式APIに依存せず運用できます。",
+      "narration": "PipedやNewPipeと違い、Crystalで書かれた自前サーバとして動きます。JS無しでも動画を見られます。"
     },
     {
       "rank": 5,
-      "fullName": "majd/ipatool",
-      "name": "ipatool",
-      "url": "https://github.com/majd/ipatool",
-      "language": "Go",
-      "stars": 10512,
-      "todayStars": 376,
-      "description": "App StoreからipaをCLI取得",
-      "detail": "Apple IDでログインしてipaファイルを非対話でDLできるGo製CLIです。iOS/iPadOS/tvOS/visionOS対応でMDM準備やQA自動化に向きますが、SNS自動化用途とは分野違いでした。",
-      "narration": "App StoreからipaをCLIで落とせます。iOS品質検証向けで私の運用にはハマりませんでした。"
+      "fullName": "jingyaogong/minimind",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "language": "Python",
+      "stars": 57006,
+      "todayStars": 1005,
+      "description": "2時間で64M LLMを1から学習",
+      "detail": "nanoGPTが教科書止まりなのに対し、pretrain・SFT・LoRA・DPO・PPOまでPyTorchのみで一気通貫できます。3090 1枚で64M LLMを2時間・約3元で学習でき、個人でも実験の全工程を回せます。",
+      "narration": "nanoGPTの学習しか無い枠を超え、LoRAやDPO・PPOまで一気通貫で試せます。GPU 1枚で回せます。"
     }
   ]
 }
