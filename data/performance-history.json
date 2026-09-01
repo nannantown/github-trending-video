@@ -2,64 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "96xqiV_QN9k",
-      "videoUrl": "https://youtube.com/shorts/96xqiV_QN9k",
-      "date": "2026-06-02",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/02 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "projects": [
-        "microsoft/markitdown",
-        "nesquena/hermes-webui",
-        "supermemoryai/supermemory",
-        "harry0703/MoneyPrinterTurbo",
-        "D4Vinci/Scrapling"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "comparison",
-        "description": "本日のTOP5を『1対1で名指しの競合OSS/SaaSとどう違うか』の対比視点で5本横断料理する。5本の対比対応: #1 microsoft/markitdown vs LlamaParse・Pandoc(LLM向けに構造保持の文書→Markdown変換) / #2 nesquena/hermes-webui vs Open WebUI・LibreChat(記憶保持と定時実行を最初から内蔵する自前ホスト型Agent UI) / #3 supermemoryai/supermemory vs Mem0・Zep(LongMemEval/LoCoMo/ConvoMemの3ベンチで1位、矛盾解決と自動忘却) / #4 harry0703/MoneyPrinterTurbo vs Pictory・Synthesia・ShortGPT(複数LLM/TTSを差し替え可能なセルフホスト動画生成) / #5 D4Vinci/Scrapling vs Scrapy・AutoScraper・BeautifulSoup(適応セレクタが5倍速の追従でサイト構造変化に強い)。冒頭マクロ核は『2026年6月の火曜、PrimaryペルソナのCTO/技術選定者が「今週評価する各OSSは、社内で既に使っている何のかわりになるか」を判断するタイミング』。本日TOP5は4/5が06-01から継続(markitdown #1→#1・hermes-webui #4→#2・MoneyPrinterTurbo #2→#4・Scrapling #3→#5)、新規1本(#3 supermemoryai/supermemory=TS/23,922★/+660・AI記憶ベンチで3冠)。06-01 business-angle『月いくら削れるか』『稟議書』語彙 → 本日 comparison『〇〇との違いは』『〇〇のかわりに』語彙へ完全切替で連投ペナルティ条件外。method=comparison は14日窓 avg 2.25 n=4(TOP3同点)/28日窓 avg 2.00 n=6(母数最安定TOP2)で両窓で上位安定、直近最高05-30=5 viewsもcomparison。直近2日(06-01 business-angle / 05-31 ecosystem)とmethod衝突なし、前回comparisonは05-30で3日空きで連投ルール非該当、05-30との同ラインナップ重複はmarkitdownとMoneyPrinterTurboの2本のみで3本以上重複ペナルティ非該当。柱②(business-angle)は前日06-01・柱③(self-experiment)は前週05-28で消化済、本日は柱①ローテーション主軸。素材適合度5/5: 全リポが1対1で名指しの明確な競合OSS/SaaSを持つ稀有な日。05-19 comparison 0views(雑な5本横断並列)の反省を踏まえ、本日は5本すべてで具体的な1対1の競合対象を明示。05-14〜17 main到達失敗事故対策としてPR squash merge+着弾検証を必須実行。注記: 14日窓method平均差はn≤4・06-01計測前で統計的に有意でなく、本選定は『28日窓 comparison n=6 母数最安定+avg 2.00安定method』+『素材適合度5/5(全5本に1対1の競合)』+『直近最高 views 05-30=5 も同 method』+『柱②/柱③ 既消化』を根拠とする。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/microsoft/markitdown",
-          "https://github.com/nesquena/hermes-webui",
-          "https://github.com/supermemoryai/supermemory",
-          "https://github.com/harry0703/MoneyPrinterTurbo",
-          "https://github.com/D4Vinci/Scrapling",
-          "https://github.com/mem0ai/mem0",
-          "https://github.com/getzep/zep",
-          "https://github.com/open-webui/open-webui",
-          "https://github.com/danny-avila/LibreChat",
-          "https://github.com/run-llama/llama_parse",
-          "https://github.com/scrapy/scrapy"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 7,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-16T00:19:56.013Z"
-      }
-    },
-    {
       "videoId": "6wLFOG8JeXo",
       "videoUrl": "https://youtube.com/shorts/6wLFOG8JeXo",
       "date": "2026-06-03",
@@ -3954,7 +3896,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4007,7 +3949,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4060,7 +4002,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4120,7 +4062,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4177,7 +4119,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4236,7 +4178,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4291,7 +4233,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4345,7 +4287,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4399,7 +4341,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4458,7 +4400,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4516,7 +4458,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4572,10 +4514,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-08-31T00:56:57.736Z"
+        "updatedAt": "2026-09-01T01:28:16.588Z"
       }
     },
     {
@@ -4635,26 +4577,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-01T01:28:16.588Z"
+      }
+    },
+    {
+      "videoId": "IW8DERvibek",
+      "videoUrl": "https://youtube.com/shorts/IW8DERvibek",
+      "date": "2026-09-01",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/01 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "C#",
+        "Go"
+      ],
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "C#",
+        "Go"
+      ],
+      "projects": [
+        "THU-MAIC/OpenMAIC",
+        "tt-a1i/archify",
+        "K-Dense-AI/scientific-agent-skills",
+        "k1tbyte/Wand-Enhancer",
+        "majd/ipatool"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "self-experiment",
+        "description": "SNS ショート自動化パイプライン (この動画自体を吐いている routine) の運用者一人称で、今日の TOP5 を『私の bot に入れるか/入れないか』の honest verdict で 5 本統一。08-30 PDCA で予告した柱③ 11 日空き解消枠 (9/1-9/3 週前半) の期日として本日 9/1 に差し込み。直近 2 日 (08-30/08-31) が business-angle 連投でルール上不可、exploit top-3 (business-angle/ecosystem/comparison) が直近数日で軒並み使用済みという事情も explore 側 self-experiment 選択を後押し。TOP5 のうち #1 OpenMAIC (LangGraph 多エージェント教室) / #2 archify (Claude Code skill で HTML 設計図) / #3 scientific-agent-skills (163 skill 集) の 3 本は 4 日連続 TOP5 継続組で、素材の同じ 3 リポを違う角度で切り直す運用の格好の日。新規 2 件 (#4 Wand-Enhancer = ゲーム MOD 拡張 / #5 ipatool = App Store CLI) は Primary ペルソナ (CTO / スタートアップ) との距離が遠いため business-angle 深掘り不可、self-experiment の『合わなかった』honest verdict で寧ろ差別化。narration は 5 本全て『私は◯◯した』『bot に入れた/入れなかった』の一人称評価縛りで SNR を上げ、過去 self-experiment avg 0.70 の失敗要因である『無難な感想文』を回避。crisis-mode 20 日目のため次回 PDCA では self-experiment × honest-verdict pilot の views 変化を必ず追跡。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/THU-MAIC/OpenMAIC",
+          "https://github.com/tt-a1i/archify",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/k1tbyte/Wand-Enhancer",
+          "https://github.com/majd/ipatool"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-29",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.2x avg views → drop",
-        "Shell: 0.8x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.7x avg views → drop",
-        "standard: 2 avg views (81 videos)",
-        "Trending languages: Markdown (1.5x), C# (1.5x)",
-        "Day performance: Thu=3, Sat=3, Wed=2, Fri=2, Mon=2, Sun=1, Tue=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-07-30",
       "changes": [
@@ -5032,6 +5017,18 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.1x), CSS (2.1x), Markdown (2.7x), Jupyter Notebook (2.5x), PowerShell (2.4x)",
         "Day performance: Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-01",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.2x), CSS (2.2x), Markdown (2.8x), Jupyter Notebook (2.6x), PowerShell (2.5x)",
+        "Day performance: Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
