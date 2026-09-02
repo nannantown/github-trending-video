@@ -2,57 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "6wLFOG8JeXo",
-      "videoUrl": "https://youtube.com/shorts/6wLFOG8JeXo",
-      "date": "2026-06-03",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/03 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python"
-      ],
-      "languages": [
-        "Python",
-        "JavaScript"
-      ],
-      "projects": [
-        "chopratejas/headroom",
-        "microsoft/markitdown",
-        "affaan-m/ECC",
-        "D4Vinci/Scrapling",
-        "nesquena/hermes-webui"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "self-experiment",
-        "description": "本チャンネルのAIショート動画生成パイプライン運用者が、今日のTOP5を『自分のbotに入れるか』の視点で5本横断に料理する。Claude Routine・SNS自動投稿・データ収集の各レイヤで実装的に評価し、運用者の自腹トーンで語る。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/chopratejas/headroom",
-          "https://github.com/microsoft/markitdown",
-          "https://github.com/affaan-m/ECC",
-          "https://github.com/D4Vinci/Scrapling",
-          "https://github.com/nesquena/hermes-webui"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-17T00:06:39.643Z"
-      }
-    },
-    {
       "videoId": "Hk5bDuibBBw",
       "videoUrl": "https://youtube.com/shorts/Hk5bDuibBBw",
       "date": "2026-06-04",
@@ -3949,7 +3898,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4002,7 +3951,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4062,7 +4011,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4119,7 +4068,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4178,7 +4127,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4233,7 +4182,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4287,7 +4236,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4341,7 +4290,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4400,7 +4349,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4458,7 +4407,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4517,7 +4466,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4577,7 +4526,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-01T01:28:16.588Z"
+        "updatedAt": "2026-09-02T00:36:23.567Z"
       }
     },
     {
@@ -4635,25 +4584,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-02T00:36:23.567Z"
+      }
+    },
+    {
+      "videoId": "wQ0nYCqCI5s",
+      "videoUrl": "https://youtube.com/shorts/wQ0nYCqCI5s",
+      "date": "2026-09-02",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/02 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Haskell",
+        "Go",
+        "Java",
+        "CSS",
+        "TypeScript",
+        "Python",
+        "Crystal"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "Crystal"
+      ],
+      "projects": [
+        "Gitlawb/openclaude",
+        "Imbad0202/academic-research-skills",
+        "THU-MAIC/OpenMAIC",
+        "iv-org/invidious",
+        "jingyaogong/minimind"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『対抗OSSと比べて何が違うか』の1対1比較で5本統一。直近2日ルール(09-01 self-experiment / 08-31 business-angle 除外)と、exploit top-3 (business-angle=除外 / ecosystem=08-29使用4日前 / comparison=08-27使用6日前) の cooldown 状況から、freshest なexploit method として comparison を選定。09-01 で柱③ (self-experiment) を消化済のため週次柱②/③ 下限は満了、今日は柱① (comparison) 主軸で問題なし。素材適合度: TOP5 のうち #1 openclaude→Claude Code CLI、#2 academic-research-skills→ChatGPT Deep Research/Perplexity、#3 OpenMAIC→Khan Academy AI やdify、#4 invidious→Piped/NewPipe/FreeTube、#5 minimind→nanoGPT/llama2.c と、全 5 本に強い比較対象OSSが存在する compare-friendly な日。crisis-mode 21 日目、all-time top-3 の exploit を素材適合最大の日に投入して再現性を測定する。narration は 5 本すべて『対抗〇〇に対し、これは△△が違う』の 2 文構造で統一、Primary (CTO/技術選定) の『どちらを採るか』判断を直接支援。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/Gitlawb/openclaude",
+          "https://github.com/Imbad0202/academic-research-skills",
+          "https://github.com/THU-MAIC/OpenMAIC",
+          "https://github.com/iv-org/invidious",
+          "https://github.com/jingyaogong/minimind"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-07-30",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.7x avg views → drop",
-        "standard: 2 avg views (81 videos)",
-        "Trending languages: Markdown (1.5x), C# (1.5x)",
-        "Day performance: Thu=3, Sat=3, Fri=2, Mon=2, Sun=1, Tue=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-01",
       "changes": [
@@ -5029,6 +5022,22 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.2x), CSS (2.2x), Markdown (2.8x), Jupyter Notebook (2.6x), PowerShell (2.5x)",
         "Day performance: Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-02",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Haskell: 1.3x avg views → boost",
+        "Go: 1.3x avg views → boost",
+        "Java: 1.3x avg views → boost",
+        "CSS: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
+        "Day performance: Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1"
       ],
       "recommendedTemplate": "standard"
     }
