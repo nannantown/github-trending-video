@@ -1,15 +1,19 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を『対抗OSSと比べて何が違うか』の1対1比較で5本統一。直近2日ルール(09-01 self-experiment / 08-31 business-angle 除外)と、exploit top-3 (business-angle=除外 / ecosystem=08-29使用4日前 / comparison=08-27使用6日前) の cooldown 状況から、freshest なexploit method として comparison を選定。09-01 で柱③ (self-experiment) を消化済のため週次柱②/③ 下限は満了、今日は柱① (comparison) 主軸で問題なし。素材適合度: TOP5 のうち #1 openclaude→Claude Code CLI、#2 academic-research-skills→ChatGPT Deep Research/Perplexity、#3 OpenMAIC→Khan Academy AI やdify、#4 invidious→Piped/NewPipe/FreeTube、#5 minimind→nanoGPT/llama2.c と、全 5 本に強い比較対象OSSが存在する compare-friendly な日。crisis-mode 21 日目、all-time top-3 の exploit を素材適合最大の日に投入して再現性を測定する。narration は 5 本すべて『対抗〇〇に対し、これは△△が違う』の 2 文構造で統一、Primary (CTO/技術選定) の『どちらを採るか』判断を直接支援。",
+    "method": "tech-deep",
+    "description": "本日 09-03 Thu の TOP5 を tech-deep 一貫で 5 本料理する。5 本ともに一枚看板の技術差分が明確に存在: #1 fmtlib/fmt=Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め、iostream 比 20-30 倍高速+コンパイル時書式検証、C++20 std::format のリファレンス実装 / #2 google-research/timesfm=デコーダ型の時系列基盤モデル、TimesFM 3.0 は fev-bench/TIME/GIFT-Eval の 3 ベンチで 1 位、共変量ありの多変量ゼロショット予測を 1 モデルで扱える / #3 DietrichGebert/ponytail=生成前に『書く必要があるか/既に repo・stdlib・依存に存在するか』を判定する rungs 決定ラダー、Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27% を実測 / #4 debpalash/VoiceStudio=レジストリ型で 16 TTS + 11 ASR エンジンをホットスワップする 646 言語対応の ElevenLabs 代替、モデル本体ではなく orchestrator が独自 / #5 sngyai/Sequoia-X=baostock 無料 API + SQLite + Feishu push で反クローラ運用を回避する A 株自動選別ボット。冒頭マクロは『各リポが一枚看板の技術差分で伸びている日』。crisis-mode 22 日目、直近 2 日 (09-02 comparison / 09-01 self-experiment) と method 衝突なし。tech-deep は前回 08-28 から 6 日空きで連投ルール完全非該当。柱②(business-angle) は 08-31・柱③(self-experiment) は 09-01 で本週 (08-31〜09-06) 消化済のため本日 Thu は柱① ローテーション主軸日として最適配置。exploit top-3 の他 method が全て不適格 (business-angle=今週2消化で 3 本目は過剰・ecosystem=素材 3/5 適合で fmt/Sequoia-X が AI スタック外・comparison=直近ブロック) のため、全期間 tech-deep n=3 avg 1.00 と少ないが素材適合 5/5 の日に explore 側 20% 枠で投入する pilot。narration は 5 本すべて『何を解決するか 1 文 + 独自技術ワード 1 文』の 2 文構造で統一し、tech-deep 角度の SNR を最大化する。1 本目 fmt『C++ 書式整形 + Dragonbox 20 倍高速』、2 本目 timesfm『時系列基盤モデル + ゼロショット共変量多変量』、3 本目 ponytail『AI に書かせない思考装置 + LOC-54%』、4 本目 VoiceStudio『端末内音声 AI + 16 TTS ホットスワップ』、5 本目 Sequoia-X『A 株自動選別 + baostock 無料 API+SQLite+Feishu』。Primary (CTO/技術選定) には『実装レベルで何が違うか』、Secondary (PdM/事業責任者) には『各 OSS の 1 枚看板ワード』、Tertiary (学習中エンジニア) には『技術キーワード入口』として届く 3 層対応。素材適合度 5/5 の日は稀 (過去 tech-deep の再現条件)、crisis-mode 打破の pilot として本日投入。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Thu=176 avg 中位帯、最低 1 view (crisis-mode 脱出の最低線)、理想 20 views (7 日 avg ≥ 1.0 目標への貢献) を目標。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Gitlawb/openclaude",
-      "https://github.com/Imbad0202/academic-research-skills",
-      "https://github.com/THU-MAIC/OpenMAIC",
-      "https://github.com/iv-org/invidious",
-      "https://github.com/jingyaogong/minimind"
+      "https://github.com/fmtlib/fmt",
+      "https://github.com/google-research/timesfm",
+      "https://github.com/DietrichGebert/ponytail",
+      "https://github.com/debpalash/VoiceStudio",
+      "https://github.com/sngyai/Sequoia-X",
+      "https://news.ycombinator.com/item?id=44628301",
+      "https://news.ycombinator.com/item?id=49514297",
+      "https://news.ycombinator.com/item?id=48527946",
+      "https://news.ycombinator.com/item?id=44830043"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +21,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Gitlawb/openclaude",
-      "name": "openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "language": "TypeScript",
-      "stars": 31243,
-      "todayStars": 37,
-      "description": "マルチLLM対応のClaude Code代替",
-      "detail": "Claude CodeをMITで書き直したCLIで、OpenAI・Gemini・GitHub Models・Ollama等に切り替え可能。Anthropicロックが外れ、gRPCサーバとしてCIから叩ける差別化があります。",
-      "narration": "Claude Code CLIのマルチLLM対応版です。OpenAIやOllamaに設定1つで切り替えられます。"
+      "fullName": "fmtlib/fmt",
+      "name": "fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "language": "C++",
+      "stars": 24205,
+      "todayStars": 3,
+      "description": "C++の高速書式整形ライブラリ",
+      "detail": "C++20 std::formatのリファレンス実装で、Dragonbox方式でIEEE 754浮動小数を正しく丸めます。iostreamの20〜30倍速く、コンパイル時に書式文字列を検証できるのが独自点です。",
+      "narration": "C++の書式整形を高速化するライブラリです。Dragonbox方式でiostreamの20倍速く小数を整形します。"
     },
     {
       "rank": 2,
-      "fullName": "Imbad0202/academic-research-skills",
-      "name": "academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "fullName": "google-research/timesfm",
+      "name": "timesfm",
+      "url": "https://github.com/google-research/timesfm",
       "language": "Python",
-      "stars": 44842,
-      "todayStars": 161,
-      "description": "査読まで通せる研究skill集",
-      "detail": "ChatGPT Deep ResearchやPerplexityと違い、Claude Code内で動くhuman-in-the-loop型研究pipelineです。引用検証が通らないと出力を止めるintegrity gateがあり、捏造引用を防ぎます。",
-      "narration": "ChatGPT Deep Researchより厳密な研究skill集です。引用検証を通らない出力を自動で止められます。"
+      "stars": 29683,
+      "todayStars": 326,
+      "description": "Google発の時系列基盤モデル",
+      "detail": "Google Researchのデコーダ型時系列基盤モデルで、TimesFM 3.0はfev-bench等3つの基準で1位です。学習なしで共変量ありの多変量を予測でき、BigQuery MLからも呼び出せます。",
+      "narration": "ゼロショットで時系列を予測する基盤モデルです。共変量ありの多変量まで学習不要で扱えます。"
     },
     {
       "rank": 3,
-      "fullName": "THU-MAIC/OpenMAIC",
-      "name": "OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "language": "TypeScript",
-      "stars": 29402,
-      "todayStars": 3122,
-      "description": "多エージェントが授業を丸ごと運営",
-      "detail": "普通のAI家庭教師と違い、LangGraphで教師と生徒役を回して黒板を実況で書き込みます。3D・シミュ・ゲーム等5種の対話シーンを持ち、Slackから1コマンドで授業を組めます。",
-      "narration": "普通のAI家庭教師と違い、多エージェントが黒板で議論しながら教えます。3Dやゲームも展開できます。"
+      "fullName": "DietrichGebert/ponytail",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars": 121384,
+      "todayStars": 1364,
+      "description": "AIに書かせない判断を挟むツール",
+      "detail": "生成AIに『書く前に既にあるか確認しろ』というrungs型判定を挿すプラグインです。Claude Code・Codex・Cursor等15以上で動き、実測でLOC-54%・コスト-20%・速度+27%を達成しました。",
+      "narration": "生成前に既存コードを探すAI用の思考装置です。同じ処理を書き直させず、コード量を54%減らします。"
     },
     {
       "rank": 4,
-      "fullName": "iv-org/invidious",
-      "name": "invidious",
-      "url": "https://github.com/iv-org/invidious",
-      "language": "Crystal",
-      "stars": 23748,
-      "todayStars": 583,
-      "description": "自前サーバで動くYouTube代替",
-      "detail": "PipedやFreeTubeがフロントだけなのに対し、Crystal+Kemalの自前バックエンドを立てるOSSです。JS無しの軽量再生とNewPipe互換の購読エクスポートで、公式APIに依存せず運用できます。",
-      "narration": "PipedやNewPipeと違い、Crystalで書かれた自前サーバとして動きます。JS無しでも動画を見られます。"
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 14596,
+      "todayStars": 834,
+      "description": "端末内で動くElevenLabs代替",
+      "detail": "16のTTSと11のASRエンジンをホットスワップできる音声AIのオーケストレータです。ElevenLabsをローカル完結で置き換え、646言語のクローンや動画吹替を鍵無しで扱えます。",
+      "narration": "全て端末内で動く音声AIのワークベンチです。16種類のTTSを差し替えて646言語を合成できます。"
     },
     {
       "rank": 5,
-      "fullName": "jingyaogong/minimind",
-      "name": "minimind",
-      "url": "https://github.com/jingyaogong/minimind",
+      "fullName": "sngyai/Sequoia-X",
+      "name": "Sequoia-X",
+      "url": "https://github.com/sngyai/Sequoia-X",
       "language": "Python",
-      "stars": 57006,
-      "todayStars": 1005,
-      "description": "2時間で64M LLMを1から学習",
-      "detail": "nanoGPTが教科書止まりなのに対し、pretrain・SFT・LoRA・DPO・PPOまでPyTorchのみで一気通貫できます。3090 1枚で64M LLMを2時間・約3元で学習でき、個人でも実験の全工程を回せます。",
-      "narration": "nanoGPTの学習しか無い枠を超え、LoRAやDPO・PPOまで一気通貫で試せます。GPU 1枚で回せます。"
+      "stars": 6019,
+      "todayStars": 138,
+      "description": "中国A株を自動選別する軽量ボット",
+      "detail": "baostockの無料APIで日足を取得しSQLiteに保存、テクニカル銘柄をFeishuに配信する自動選別ボットです。反クローラ運用を回避でき、翌日の候補を場後に手元へ届けられます。",
+      "narration": "中国株を毎日自動で選別する仕組みです。無料APIとSQLiteで組み立てFeishuに配信します。"
     }
   ]
 }

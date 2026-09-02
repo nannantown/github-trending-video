@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02",
+  "updatedAt": "2026-09-03",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -36,75 +36,75 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-08-19〜2026-09-01, n=13): business-angle 0.25 n=4 / comparison 0.00 n=3 / ecosystem 0.00 n=3 / self-experiment 0.00 n=2 / use-case 0.00 n=1 / trend-pattern 0.00 n=1 / tech-deep 圏外 n=0。全期間 (n=83): stack-migration 2.00 n=1 / business-angle 1.35 n=17 / ecosystem 1.33 n=18 / comparison 1.11 n=18 / trend-pattern 1.10 n=10 / tech-deep 1.00 n=3 / use-case 0.71 n=7 / self-experiment 0.70 n=10。**crisis-mode 継続深化 21 日目**: 09-01 self-experiment × honest-verdict pilot も 24h 暫定 0 views で method マイクロ最適化の効果は依然出ず。09-02 (Wed) は直近 2 日 (08-31 business-angle / 09-01 self-experiment) 連投 NG で business-angle/self-experiment 除外、exploit top-3 の残 (ecosystem 08-29 4 日前 / comparison 08-27 6 日前) から最も freshest な comparison を選定。素材適合度 5/5=100%: TOP5 の全 5 本に強い対抗 OSS が存在する compare-friendly な日 (openclaude→Claude Code CLI / academic-research-skills→ChatGPT Deep Research・Perplexity / OpenMAIC→Khan Academy AI・dify / invidious→Piped・NewPipe・FreeTube / minimind→nanoGPT・llama2.c)。週次柱②/③ (15%+10%) は 09-01 self-experiment で下限満了済、今日は柱① 主軸 OK。TOP5 lineup: openclaude (新規・+37 star・Claude Code CLI の MIT マルチ LLM 代替) / academic-research-skills (新規・+161 star・査読まで通せる研究 skill 集) / OpenMAIC (**5 日連続 TOP5**・+3122 star・多エージェント授業) / invidious (新規・+583 star・YouTube 代替) / minimind (新規・+1005 star・2h で 64M LLM 学習)。**素材 4/5 新規で lineup 80% 刷新**、archify・scientific-agent-skills が同時にランク外に落ちてネタ枯渇局面が緩和。"
+      "note": "Method 別 14d (2026-08-19〜2026-09-02, n=14): business-angle 0.00 n=4 / comparison 0.00 n=4 / ecosystem 0.00 n=3 / self-experiment 0.00 n=2 / use-case 0.00 n=1 / tech-deep 圏外 n=0 / trend-pattern 圏外 n=0。全期間 (n=84): stack-migration 2.00 n=1 / business-angle 1.35 n=17 / ecosystem 1.33 n=18 / comparison 1.05 n=19 / trend-pattern 1.10 n=10 / tech-deep 1.00 n=3 / use-case 0.71 n=7 / self-experiment 0.70 n=10。**crisis-mode 継続深化 22 日目**: 09-02 comparison × 素材適合 5/5 pilot も 24h 暫定 0 views で 22 日連続 0-1 定着。method マイクロ最適化の限界がほぼ確定的、method-agnostic 施策 (opening 3 秒フック / 柱④ 初導入 / タイトル書式 A/B) を strategy.md 追記提案として順次投入検討。09-03 (Thu) は直近 2 日 (09-01 self-experiment / 09-02 comparison) 連投 NG で self-experiment/comparison 除外、exploit top-3 の残 (business-angle=今週 2 消化で過剰・ecosystem=素材 3/5 適合で fmt/Sequoia-X が AI スタック外) がいずれも不適格。全期間 tech-deep n=3 avg 1.00 は小サンプル、しかし本日の TOP5 は 5/5 全てに 1 枚看板の技術差分が明確 (Dragonbox / TimesFM 3.0 3 ベンチ 1 位 / rungs 決定ラダー / 16 TTS ホットスワップ / baostock+SQLite+Feishu) で tech-deep 素材適合 5/5 の稀な日、explore 側 20% 枠で投入。**TOP5 lineup: fmt (新規・+3 star・C++20 std::format 実装で iostream 比 20-30 倍) / timesfm (新規・+326 star・Google Research のデコーダ型時系列基盤モデル) / ponytail (新規・+1364 star・AI に書かせない rungs 決定ラダー) / VoiceStudio (新規・+834 star・端末内 ElevenLabs 代替 16 TTS) / Sequoia-X (新規・+138 star・A 株自動選別 baostock)**、素材 5/5 新規で lineup 100% 刷新、9/2 → 9/3 で archify/OpenMAIC 系継続組全消滅、ネタ枯渇局面が大幅緩和。AI 系 3 本 (timesfm/ponytail/VoiceStudio) + AI 外 2 本 (fmt/Sequoia-X) の分布のため ecosystem/business-angle/trend-pattern は fit 3〜4/5、tech-deep のみ 5/5 統一可能。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は水曜 (Wed=直近 28 日 avg 153、Fri の 1/2 帯)、crisis-mode 継続深化 21 日目。直近 2 日連投 NG (business-angle/self-experiment 除外) + exploit top-3 の残から `comparison` を選定 (最も freshest、6 日前 08-27 使用)。柱ローテ 08-30 (柱②) → 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) で 09-01 に週次柱③ 下限を満了済のため柱① 継続で問題なし"
+      "本日は木曜 (Thu=直近 28 日 avg 176、Wed の 1.15 倍帯)、crisis-mode 継続深化 22 日目。直近 2 日連投 NG (self-experiment/comparison 除外) + exploit top-3 の残 (business-angle=今週 2 消化過剰 / ecosystem=素材 3/5 適合不足) がいずれも不適格のため、素材適合 5/5 の explore 側 `tech-deep` (全期間 avg 1.00 n=3) を投入。柱ローテ 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) で 09-01 に週次柱③ 下限・08-30/08-31 で柱② 下限を満了済のため柱① 継続で問題なし"
     ],
     "hashtags": [
-      "comparison 角度の核心は『5 本すべてに対抗 OSS が存在する日、Primary (CTO/技術投資判断) の 〈どちらを採るか〉 判断を直接支援する 1 対 1 比較の一斉射撃』。5 本のマッピング: #openclaude=TypeScript 31,243★ +37 (#1 新規・Gitlawb 開発) → Claude Code CLI を MIT で書き直し OpenAI・Gemini・GitHub Models・Ollama を切替可能なマルチ LLM 代替、gRPC サーバ経由で CI から叩ける / #academic-research-skills=Python 44,842★ +161 (#2 新規・Imbad0202 開発) → ChatGPT Deep Research/Perplexity 対抗の Claude Code skill 集、引用検証未通過を止める integrity gate で捏造引用を防ぐ / #OpenMAIC=TypeScript 29,402★ +3,122 (#3 継続 5 日目・THU-MAIC 開発) → LangGraph 多エージェントで教師と生徒役を回して黒板議論、3D/シミュ/ゲーム/マインドマップ/コーディングの 5 種対話シーンを持ち Slack から 1 コマンドで授業を組める / #invidious=Crystal 23,748★ +583 (#4 新規・iv-org 開発) → Piped/NewPipe/FreeTube と違い Crystal+Kemal の自前バックエンドを立てる YouTube 代替、公式 API に依存せず JS なしの軽量再生と NewPipe 互換の購読エクスポートを提供 / #minimind=Python 57,006★ +1,005 (#5 新規・jingyaogong 開発) → nanoGPT/llama2.c 対抗で pretrain・SFT・LoRA・DPO・PPO まで PyTorch のみで一気通貫、3090 1 枚で 64M LLM を 2 時間・約 3 元で学習可能",
-      "言語タグは TypeScript 2 + Python 2 + Crystal 1 の 3 言語構成。Python (1.2x) 2 本 + TypeScript (1.1x) 2 本 + Crystal (0.8x) 1 本、言語スコア平均は約 1.08 で hints 上位 (Python + TypeScript の top-2 が 4/5 を占める強構成)。視聴者の言語連想は AI エージェント + Web バックエンド寄り、tech-deep や self-experiment より Primary リーチしやすい構成",
-      "comparison 角度の独自 hashtag: #OSS #AI #ClaudeCode #Anthropic #マルチLLM #OpenAI #Ollama #GitHubModels #Perplexity #DeepResearch #引用検証 #LangGraph #マルチエージェント #Khan #教育AI #YouTube代替 #Piped #NewPipe #FreeTube #Crystal #Kemal #nanoGPT #LoRA #DPO #PPO #PyTorch #tech #技術解説 #CTO #個人開発者 #DX #比較"
+      "tech-deep 角度の核心は『5 本すべてに 1 枚看板の技術ワードが明確な日、Primary (CTO/技術投資判断) の 〈実装レベルで何が違うか〉 を提供する技術キーワードの一斉射撃』。5 本のマッピング: #fmt=C++ 24,205★ +3 (#1 新規・fmtlib 開発) → C++20 std::format のリファレンス実装、Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め iostream 比 20-30 倍高速、コンパイル時に書式文字列を検証 / #timesfm=Python 29,683★ +326 (#2 新規・google-research 開発) → デコーダ型の時系列基盤モデル、TimesFM 3.0 は fev-bench/TIME/GIFT-Eval の 3 ベンチで 1 位、共変量ありの多変量ゼロショット予測、BigQuery ML/Vertex Model Garden 連携 / #ponytail=JavaScript 121,384★ +1,364 (#3 新規・DietrichGebert 開発) → 生成前に『書く必要があるか/既にあるか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27% / #VoiceStudio=Python 14,596★ +834 (#4 新規・debpalash 開発) → 16 TTS + 11 ASR エンジンをホットスワップするレジストリ型音声 AI、646 言語対応で ElevenLabs をローカル完結で置換、OmniVoice/GPT-SoVITS/CosyVoice 3/WhisperX 等収録 / #Sequoia-X=Python 6,019★ +138 (#5 新規・sngyai 開発) → baostock 無料 API で日足を取得し SQLite に保存、テクニカル銘柄を Feishu に配信する A 株自動選別ボット、反クローラ運用を回避",
+      "言語タグは C++ 1 + Python 3 + JavaScript 1 の 3 言語構成。Python (1.2x) 3 本 + JavaScript (0.9x) 1 本 + C++ (0.8x) 1 本、言語スコア平均は約 1.04 で hints 中位 (Python top-1 が 3/5 を占める強構成、JS/C++ は multiplier 0.8-0.9 で下振れ要素)。視聴者の言語連想は AI/ML 寄り、tech-deep 角度と整合",
+      "tech-deep 角度の独自 hashtag: #OSS #AI #tech #技術解説 #CTO #個人開発者 #DX #C++ #Cpp #Dragonbox #フォーマット #stdformat #時系列 #TimeSeries #GoogleResearch #基盤モデル #Foundation #ゼロショット #BigQuery #AIエージェント #ClaudeCode #Codex #Cursor #Copilot #Haiku #音声AI #TTS #ASR #ElevenLabs #ローカルAI #WhisperX #GPTSoVITS #baostock #中国株 #Feishu"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、comparison で密度優先の標準レンジ)。5 本合計 276 文字 (56+59+49+57+55)、TTS +30% で約 50 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 59 / min 49) で密度均等",
-      "comparison 角度の一貫性: 5 本すべての narration に『対抗 〇〇 と違い、これは △△ が違う』の 2 文構造を配置。1 本目 openclaude『Claude Code CLI のマルチ LLM 対応版です。OpenAI や Ollama に設定 1 つで切り替えられます』(対抗=Claude Code CLI × 差分=マルチ LLM 切替)、2 本目 academic-research-skills『ChatGPT Deep Research より厳密な研究 skill 集です。引用検証を通らない出力を自動で止められます』(対抗=ChatGPT Deep Research × 差分=integrity gate)、3 本目 OpenMAIC『普通の AI 家庭教師と違い、多エージェントが黒板で議論しながら教えます。3D やゲームも展開できます』(対抗=普通の AI 家庭教師 × 差分=多エージェント黒板 + 5 種シーン)、4 本目 invidious『Piped や NewPipe と違い、Crystal で書かれた自前サーバとして動きます。JS 無しでも動画を見られます』(対抗=Piped/NewPipe × 差分=自前 Crystal サーバ + JS なし)、5 本目 minimind『nanoGPT の学習しか無い枠を超え、LoRA や DPO・PPO まで一気通貫で試せます。GPU 1 枚で回せます』(対抗=nanoGPT × 差分=RLHF まで全工程 + GPU 1 枚)。視聴者が『5 本 = 5 種類の代替判断の材料』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。comparison では『何と比べて何が違うか』を優先、self-experiment (昨日) の『私の bot に入れる/入れない』からの視座切替で 2 日 1 セットの立体化 (一人称評価 → 対抗との差分)",
-      "数値表現はアラビア数字統一 (1、3D、64M、3090、5 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude Code、OpenAI、Ollama、ChatGPT、Deep Research、LangGraph、Piped、NewPipe、Crystal、nanoGPT、LoRA、DPO、PPO、GPU) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、tech-deep で密度優先の標準レンジ)。5 本合計 248 文字 (57+44+49+49+49)、TTS +30% で約 45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 57 / min 44) で密度均等",
+      "tech-deep 角度の一貫性: 5 本すべての narration に『何を解決するか 1 文 + 独自技術ワード 1 文』の 2 文構造を配置。1 本目 fmt『C++ の書式整形を高速化するライブラリです。Dragonbox 方式で iostream の 20 倍速く小数を整形します』(独自ワード=Dragonbox)、2 本目 timesfm『ゼロショットで時系列を予測する基盤モデルです。共変量ありの多変量まで学習不要で扱えます』(独自ワード=ゼロショット共変量多変量)、3 本目 ponytail『生成前に既存コードを探す AI 用の思考装置です。同じ処理を書き直させず、コード量を 54% 減らします』(独自ワード=既存コード探索+54%削減)、4 本目 VoiceStudio『全て端末内で動く音声 AI のワークベンチです。16 種類の TTS を差し替えて 646 言語を合成できます』(独自ワード=16 TTS ホットスワップ+646 言語)、5 本目 Sequoia-X『中国株を毎日自動で選別する仕組みです。無料 API と SQLite で組み立て Feishu に配信します』(独自ワード=無料 API+SQLite+Feishu)。視聴者が『5 本 = 5 個の技術キーワード』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。tech-deep では『技術的な独自性』を優先、comparison (昨日) の『対抗との差分』からの視座切替で 2 日 1 セットの立体化 (対抗との差分 → 独自技術ワード)",
+      "数値表現はアラビア数字統一 (20 倍、54%、16、646、C++、TTS 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Dragonbox、iostream、TimesFM、BigQuery、Claude Code、Codex、Cursor、ElevenLabs、baostock、SQLite、Feishu) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `comparison` (14d avg 0.00 n=3、全期間 avg 1.11 n=18 で all-time top-3)。直近 2 日 (08-31 business-angle / 09-01 self-experiment) 連投ルールで両除外、exploit top-3 の残 (ecosystem 08-29 4 日前 / comparison 08-27 6 日前) から最も freshest な comparison を選定。素材共通軸 5/5=100% (全 5 本に強い対抗 OSS が存在) で comparison 角度と完全整合。crisis-mode 継続深化 21 日目、Wed 中間帯 (avg 153) で Primary (CTO/技術投資判断) 直撃『対抗との差分』ユーティリティで crisis-mode 対応の第 12 手にする。09-01 self-experiment (一人称評価) → 09-02 comparison (対抗との差分) の視座切替で 2 日 1 セットの立体化継続。",
-      "本日 09-02 TOP5: #1 Gitlawb/openclaude=TypeScript / 31,243★ / +37 [新規・Gitlawb 開発・**Claude Code を MIT で書き直したマルチ LLM 対応 CLI、OpenAI・Gemini・GitHub Models・Ollama へ設定 1 つで切替可能、gRPC サーバ経由で CI から叩ける**、Anthropic ロックを外したいチームや local backend 併用組織に適合 → CTO/DevOps/受託エンジニア向け]、#2 Imbad0202/academic-research-skills=Python / 44,842★ / +161 [新規・Imbad0202 開発・**ChatGPT Deep Research・Perplexity 対抗の Claude Code skill 集、Deep Research/Academic Paper/Reviewer/Pipeline の 4 skill で 10 段階の研究〜査読を回し、引用検証未通過を止める integrity gate で捏造引用を防ぐ**、ソロ研究者・研究チーム・技術ライター向け → 研究者・R&D 担当・ドキュメント執筆者向け]、#3 THU-MAIC/OpenMAIC=TypeScript / 29,402★ / +3,122 [継続 5 日連続・THU-MAIC 開発・**LangGraph で教師と生徒役の多エージェントを回して黒板を実況で書き込み、3D/シミュ/ゲーム/マインドマップ/コーディングの 5 種対話シーンを持ち Slack/Feishu/Telegram から 1 コマンドで授業を組める**、Khan Academy AI や dify workflow より豊富な対話コンポーネント → 教育企業・EdTech スタートアップ・社内研修担当向け]、#4 iv-org/invidious=Crystal / 23,748★ / +583 [新規・iv-org コミュニティ運営・**Crystal+Kemal で書かれた YouTube 代替の自前バックエンド、Piped/NewPipe/FreeTube がフロントだけなのに対しサーバ本体を立てる方式、公式 API に依存せず JS なしの軽量再生と NewPipe 互換の購読エクスポートを提供**、プライバシー重視組織・自己ホスト派向け → セルフホスト愛好家・プライバシー志向 IT 部門向け]、#5 jingyaogong/minimind=Python / 57,006★ / +1,005 [新規・jingyaogong 開発・**nanoGPT・llama2.c 対抗で pretrain・SFT・LoRA・DPO・PPO・agent RL まで PyTorch のみで一気通貫、3090 1 枚で 64M LLM を 2 時間・約 3 元で学習可能**、学習者・研究者・エッジデプロイ担当向け → 個人開発者・ML 学習者・エッジ AI 担当向け]",
-      "本日の comparison 核: 5 本を『5 種類の対抗判断の材料』として並べ、視聴者に『どちらを採るか』のミクロ意思決定を 5 回連続でサポート。冒頭フックは『今日の TOP5 は 5 本すべてに強い対抗 OSS があります。それぞれ何が違うのか、1 対 1 で並べます』。5 本を『Claude Code CLI vs openclaude』『ChatGPT Deep Research vs academic-research-skills』『普通の AI 家庭教師 vs OpenMAIC』『Piped/NewPipe vs invidious』『nanoGPT vs minimind』の 5 セットの対比で語り、各 OSS の差分を明示する。**素材 4/5 新規**: 09-01 から 09-02 で TOP5 が 80% 刷新、ネタ枯渇局面が一旦緩和、OpenMAIC のみ 5 日連続 TOP5 継続で今日は #3 (todayStars +3122 で急伸中)",
-      "Primary (CTO/技術選定) には『対抗 OSS 名で並べた即使える差分表 = どちらを採るか』、Secondary (PdM/事業責任者) には『技術選択肢の見取り図』、Tertiary (学習中) には『いま押さえておくべき代替 OSS 全体像』として 3 層直撃、comparison 特有の直接効用視点 (『あの人は判断の材料をくれる』) で信頼シグナルを蓄積",
-      "**crisis-mode 継続深化 21 日目 (Explore 傾斜運用 15 日目)**: 09-01 self-experiment × honest-verdict pilot も 24h 暫定 0 views で 21 日連続 0-1 定着延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 継続 (今日は素材適合 5/5 の exploit top-3 comparison を選定)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) opening 3 秒フックの強化を戦略更新提案に追加、(e) 柱④ (業界読み解き) の初導入を 9/6 or 9/13 週末枠で試す提案を追加。今日 comparison 投入で『素材適合 5/5 の exploit top-3 method が crisis-mode 下で再現するか』の切り分け実験、09-02 24h 集計で self-experiment (09-01) との比較データを取る"
+      "本日の discovery.method は `tech-deep` (14d 圏外 n=0、全期間 avg 1.00 n=3 で explore 領域)。直近 2 日 (09-01 self-experiment / 09-02 comparison) 連投ルールで両除外、exploit top-3 の残 (business-angle=今週 2 消化で過剰・ecosystem=素材 3/5 適合不足・comparison=直近ブロック) がいずれも不適格のため、素材適合 5/5 の explore 側 tech-deep を投入。crisis-mode 継続深化 22 日目、Thu 中位帯 (avg 176) で Primary (CTO/技術投資判断) 直撃『実装レベルで何が違うか』ユーティリティで crisis-mode 対応の第 13 手にする。09-02 comparison (対抗との差分) → 09-03 tech-deep (独自技術ワード) の視座切替で 2 日 1 セットの立体化継続。",
+      "本日 09-03 TOP5: #1 fmtlib/fmt=C++ / 24,205★ / +3 [新規・fmtlib 開発・**C++20 std::format のリファレンス実装で、Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め iostream 比 20-30 倍高速、コンパイル時に書式文字列を検証**、C++ プロジェクトで書式整形の性能・型安全が必要な組織・組込み・ゲーム・金融系向け]、#2 google-research/timesfm=Python / 29,683★ / +326 [新規・google-research 開発・**デコーダ型の時系列基盤モデル、TimesFM 3.0 は fev-bench/TIME/GIFT-Eval の 3 ベンチで 1 位、共変量ありの多変量ゼロショット予測、BigQuery ML/Vertex Model Garden/HuggingFace PEFT 連携**、需要予測・在庫最適化・売上予測を行うデータ組織・SaaS 向け → PdM・データエンジニア・分析部門向け]、#3 DietrichGebert/ponytail=JavaScript / 121,384★ / +1,364 [新規・DietrichGebert 開発・**生成 AI に『書く必要があるか/既に repo・stdlib・依存に存在するか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27%**、AI コーディングを日常運用している個人開発者・スタートアップ・受託エンジニア向け → 全 AI コーダー向けメタ層]、#4 debpalash/VoiceStudio=Python / 14,596★ / +834 [新規・debpalash 開発・**16 TTS + 11 ASR エンジンをホットスワップするレジストリ型音声 AI、646 言語対応で ElevenLabs をローカル完結で置換、OmniVoice/GPT-SoVITS/CosyVoice 3/VoxCPM2/Sherpa-ONNX/WhisperX 等を収録**、動画吹替・オーディオブック・ポッドキャスト制作組織・ローカル志向企業向け → コンテンツ制作者・音声 AI エンジニア向け]、#5 sngyai/Sequoia-X=Python / 6,019★ / +138 [新規・sngyai 開発・**baostock の無料 API で日足を取得し SQLite に保存、テクニカル銘柄を Feishu に配信する A 株自動選別ボット、反クローラ運用を回避で継続稼働**、中国 A 株を扱う個人投資家・retail quant・ソロ開発者向け → fintech 学習者・quant 個人向け]",
+      "本日の tech-deep 核: 5 本を『5 種類の 1 枚看板技術ワード』として並べ、視聴者に『実装レベルで何が違うか』のミクロ意思決定を 5 回連続でサポート。冒頭フックは『今日の TOP5 は 5 本すべてに一枚看板の技術ワードがあります。実装レベルで何が違うのか、順に見ていきます』。5 本を『Dragonbox で C++ 書式整形 20 倍』『デコーダ型時系列基盤モデルで 3 ベンチ 1 位』『rungs 決定ラダーで LOC-54%』『16 TTS ホットスワップで 646 言語』『baostock 無料 API+SQLite+Feishu で A 株選別』の 5 セットの技術ワードで語り、各 OSS の独自技術を明示する。**素材 5/5 新規**: 09-02 から 09-03 で TOP5 が 100% 刷新、archify/OpenMAIC 系継続組全消滅、Trending が久しぶりに大規模ローテーション、ネタ枯渇局面が大幅緩和",
+      "Primary (CTO/技術選定) には『実装レベルで何が違うか = 技術差分の即使える語彙』、Secondary (PdM/事業責任者) には『各 OSS のワンポイント技術要素』、Tertiary (学習中) には『いま押さえておくべき技術キーワード全体像』として 3 層直撃、tech-deep 特有の権威性視点 (『あの人は実装の中身まで見ている』) で信頼シグナルを蓄積",
+      "**crisis-mode 継続深化 22 日目 (Explore 傾斜運用 16 日目)**: 09-02 comparison × 素材適合 5/5 pilot も 24h 暫定 0 views で 22 日連続 0-1 定着延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 継続 (今日は素材適合 5/5 の explore tech-deep を選定)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) opening 3 秒フックの強化を戦略更新提案に追加継続、(e) 柱④ (業界読み解き) の初導入を 9/6 (Sat) or 9/13 (Sat) 週末枠で試す提案を継続、(f) method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) を優先度上昇として strategy.md 追記提案候補に格上げ。今日 tech-deep 投入で『素材適合 5/5 の explore method が crisis-mode 下で再現するか』の切り分け実験、09-03 24h 集計で comparison (09-02) との比較データを取る"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-09-02",
-    "dayOfWeek": "Wed",
+    "date": "2026-09-03",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
       "AI",
-      "ClaudeCode",
-      "Anthropic",
-      "マルチLLM",
-      "OpenAI",
-      "Ollama",
-      "GitHubModels",
-      "Perplexity",
-      "DeepResearch",
-      "引用検証",
-      "LangGraph",
-      "マルチエージェント",
-      "教育AI",
-      "YouTube代替",
-      "Piped",
-      "NewPipe",
-      "FreeTube",
-      "Crystal",
-      "Kemal",
-      "nanoGPT",
-      "LoRA",
-      "DPO",
-      "PPO",
-      "PyTorch",
       "tech",
       "技術解説",
       "CTO",
       "個人開発者",
       "DX",
-      "比較",
-      "openclaude",
-      "academic_research_skills",
-      "OpenMAIC",
-      "invidious",
-      "minimind"
+      "Cpp",
+      "Dragonbox",
+      "フォーマット",
+      "stdformat",
+      "時系列",
+      "TimeSeries",
+      "GoogleResearch",
+      "基盤モデル",
+      "ゼロショット",
+      "BigQuery",
+      "ClaudeCode",
+      "Codex",
+      "Cursor",
+      "Haiku",
+      "音声AI",
+      "TTS",
+      "ASR",
+      "ElevenLabs",
+      "ローカルAI",
+      "WhisperX",
+      "GPTSoVITS",
+      "baostock",
+      "中国株",
+      "Feishu",
+      "fmt",
+      "timesfm",
+      "ponytail",
+      "VoiceStudio",
+      "SequoiaX"
     ],
-    "focus": "水曜 (Wed=直近 28 日 avg 153、Fri の 1/2 帯) は crisis-mode 継続深化 21 日目、直近 2 日 (08-31 business-angle / 09-01 self-experiment) 連投 NG + exploit top-3 の残 (ecosystem 08-29 4 日前 / comparison 08-27 6 日前) から最も freshest な `comparison` (全期間 top-3 method・avg 1.11 n=18) を投入。素材共通軸 5/5=100% (全 5 本に強い対抗 OSS 存在: openclaude→Claude Code CLI / academic-research-skills→ChatGPT Deep Research・Perplexity / OpenMAIC→Khan Academy AI・dify / invidious→Piped・NewPipe・FreeTube / minimind→nanoGPT・llama2.c) + 直近 2 日 連投 NG の 2 条件複合で `comparison` を投入。5/5=100% 素材が『5 本 = 5 セットの 1 対 1 比較』の comparison 語りと完全整合。本日の TOP5 は 4/5 新規 (openclaude, academic-research-skills, invidious, minimind)、1/5 継続 (OpenMAIC=5 日連続 TOP5) で lineup 80% 刷新、ネタ枯渇局面が緩和。method 切替 (self-experiment → comparison) + 語彙総入替 (私は/bot に入れる → と違い/切り替えられる/一気通貫) で視聴者の脳内モードを『一人称評価』から『対抗との差分』へシフト。narration は 5 本すべてに『対抗 〇〇 と違い、これは △△ が違う』の 2 文構造を配置、5 本合計 276 文字 (56+59+49+57+55) で TTS 換算約 50 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-30 (柱②) → 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) で 09-01 に週次柱③ 下限満了済、柱① 継続で問題なし。**crisis 分水嶺 (継続深化 21 日目)**: 09-01 self-experiment × honest-verdict pilot も 24h 暫定 0 views で method マイクロ最適化の限界がほぼ確定、opening 3 秒フックの強化と柱④ (業界読み解き) の初導入を strategy.md 追記提案。infra チェック (post-time / hashtag 語彙 / thumbnail テキスト量) の検証開始候補は依然継続、PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "木曜 (Thu=直近 28 日 avg 176、Wed の 1.15 倍帯) は crisis-mode 継続深化 22 日目、直近 2 日 (09-01 self-experiment / 09-02 comparison) 連投 NG + exploit top-3 の残 (business-angle=今週 2 消化過剰 / ecosystem=素材 3/5 適合不足 / comparison=直近ブロック) がいずれも不適格のため、素材適合 5/5 の explore 側 `tech-deep` (全期間 avg 1.00 n=3、explore 領域) を投入。素材共通軸 5/5=100% (全 5 本に 1 枚看板の技術ワード存在: fmt→Dragonbox / timesfm→デコーダ型基盤モデル 3 ベンチ 1 位 / ponytail→rungs 決定ラダー LOC-54% / VoiceStudio→16 TTS ホットスワップ 646 言語 / Sequoia-X→baostock+SQLite+Feishu) + 直近 2 日連投 NG + exploit top-3 全不適格の 3 条件複合で `tech-deep` を投入。5/5=100% 素材が『5 本 = 5 個の技術キーワード』の tech-deep 語りと完全整合。本日の TOP5 は 5/5 新規 (fmt, timesfm, ponytail, VoiceStudio, Sequoia-X) で lineup 100% 刷新、archify/OpenMAIC 系継続組全消滅、Trending 大規模ローテーションでネタ枯渇局面が大幅緩和。method 切替 (comparison → tech-deep) + 語彙総入替 (と違い/切り替えられる → 高速化/ゼロショット/思考装置/ホットスワップ/仕組み) で視聴者の脳内モードを『対抗との差分』から『独自技術ワード』へシフト。narration は 5 本すべてに『何を解決するか 1 文 + 独自技術ワード 1 文』の 2 文構造を配置、5 本合計 248 文字 (57+44+49+49+49) で TTS 換算約 45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) で 09-01 に週次柱③ 下限・08-30/08-31 で柱② 下限満了済、柱① 継続で問題なし。**crisis 分水嶺 (継続深化 22 日目)**: 09-02 comparison × 素材適合 5/5 pilot も 24h 暫定 0 views で method マイクロ最適化の限界がほぼ確定、method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) の優先度上昇を strategy.md 追記提案候補に格上げ。infra チェック (post-time / hashtag 語彙 / thumbnail テキスト量) の検証開始候補も依然継続、PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
