@@ -2,58 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "Hk5bDuibBBw",
-      "videoUrl": "https://youtube.com/shorts/Hk5bDuibBBw",
-      "date": "2026-06-04",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/04 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python"
-      ],
-      "languages": [
-        "Python",
-        "JavaScript",
-        "Go"
-      ],
-      "projects": [
-        "chopratejas/headroom",
-        "affaan-m/ECC",
-        "aquasecurity/trivy",
-        "NousResearch/hermes-agent",
-        "microsoft/markitdown"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "本日のTOP5を『AIプロダクトを本番運用に乗せる5層スタック』として5本横断で料理する。Layer1=LLM効率(headroom: トークン圧縮Proxy)/Layer2=データ整備(markitdown: 全ファイル→Markdown)/Layer3=エージェント管理(ECC: Claude Code向け63 subagent+249 skill+AgentShield)/Layer4=記憶持続(hermes-agent: 自己学習・skill自動生成・記憶横断)/Layer5=セキュリティ(trivy: コンテナ/コード/IaC/K8s脆弱性スキャナ)。冒頭マクロ核は『2026年6月、AI開発が試作から本番運用に入りつつあり、TOP5に5層の主要ピースが同時並びする日』。trivyは唯一の純粋DevSecOpsツールだが、AIアプリの本番運用では依存スキャン/IaC構成検査が必須になりエコシステムの第5層として組み込み価値が高い。直近2日(06-03 self-experiment, 06-02 comparison)とmethod衝突なし。ecosystemは前回05-31から4日空きで連投ルール非該当。14日窓ecosystem avg 2.5 n=2(05-27=1, 05-31=4)で利用可能methodの中で最高、28日窓でも avg 1.8-2.5 n=5前後の安定母数を維持。柱②(business-angle)は06-01、柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Thu(176 avg)は柱①ローテーション主軸。継続3本(headroom #1→#1、ECC #3→#2、markitdown #2→#5)の角度切替: 06-03 self-experiment『私の◯◯ Routineに入れるか』→ 本日 ecosystem『どの層を担うか』へ語彙完全切替、headroom/ECCはself-experiment/comparisonに次ぐ3連続別method配置。新規2本(trivy・hermes-agent)も同じ5層マッピング軸で読み解く。05-31 ecosystem 4 views(14日TOP2)の成功形式=『5本を各層に固定マッピング』を踏襲。素材適合度4.5/5: trivyのみ純AI領域外だが、AI本番化フェーズにおける『依存セキュリティ層』として位置づければ自然に5層モデルに収まる。Primary(CTO/技術選定者)が週後半の実装着手フェーズで『自社のAI本番運用スタックでどの層をどのOSSで埋めるか』を判断する素材として直撃。最低15 views(Thu平均超え)、理想200 views(Thu上位帯への漸近)を目標。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/chopratejas/headroom",
-          "https://github.com/affaan-m/ECC",
-          "https://github.com/aquasecurity/trivy",
-          "https://github.com/NousResearch/hermes-agent",
-          "https://github.com/microsoft/markitdown"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-18T00:06:11.648Z"
-      }
-    },
-    {
       "videoId": "laZ11riIc98",
       "videoUrl": "https://youtube.com/shorts/laZ11riIc98",
       "date": "2026-06-05",
@@ -3951,7 +3899,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4011,7 +3959,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4068,7 +4016,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4127,7 +4075,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4182,7 +4130,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4236,7 +4184,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4290,7 +4238,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4349,7 +4297,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4407,7 +4355,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4466,7 +4414,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4526,7 +4474,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4584,7 +4532,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-02T00:36:23.567Z"
+        "updatedAt": "2026-09-03T00:46:40.735Z"
       }
     },
     {
@@ -4642,24 +4590,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-03T00:46:40.735Z"
+      }
+    },
+    {
+      "videoId": "zPp5PUwXCWs",
+      "videoUrl": "https://youtube.com/shorts/zPp5PUwXCWs",
+      "date": "2026-09-03",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/03 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Jupyter Notebook",
+        "Python",
+        "JavaScript"
+      ],
+      "languages": [
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "fmtlib/fmt",
+        "google-research/timesfm",
+        "DietrichGebert/ponytail",
+        "debpalash/VoiceStudio",
+        "sngyai/Sequoia-X"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "tech-deep",
+        "description": "本日 09-03 Thu の TOP5 を tech-deep 一貫で 5 本料理する。5 本ともに一枚看板の技術差分が明確に存在: #1 fmtlib/fmt=Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め、iostream 比 20-30 倍高速+コンパイル時書式検証、C++20 std::format のリファレンス実装 / #2 google-research/timesfm=デコーダ型の時系列基盤モデル、TimesFM 3.0 は fev-bench/TIME/GIFT-Eval の 3 ベンチで 1 位、共変量ありの多変量ゼロショット予測を 1 モデルで扱える / #3 DietrichGebert/ponytail=生成前に『書く必要があるか/既に repo・stdlib・依存に存在するか』を判定する rungs 決定ラダー、Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27% を実測 / #4 debpalash/VoiceStudio=レジストリ型で 16 TTS + 11 ASR エンジンをホットスワップする 646 言語対応の ElevenLabs 代替、モデル本体ではなく orchestrator が独自 / #5 sngyai/Sequoia-X=baostock 無料 API + SQLite + Feishu push で反クローラ運用を回避する A 株自動選別ボット。冒頭マクロは『各リポが一枚看板の技術差分で伸びている日』。crisis-mode 22 日目、直近 2 日 (09-02 comparison / 09-01 self-experiment) と method 衝突なし。tech-deep は前回 08-28 から 6 日空きで連投ルール完全非該当。柱②(business-angle) は 08-31・柱③(self-experiment) は 09-01 で本週 (08-31〜09-06) 消化済のため本日 Thu は柱① ローテーション主軸日として最適配置。exploit top-3 の他 method が全て不適格 (business-angle=今週2消化で 3 本目は過剰・ecosystem=素材 3/5 適合で fmt/Sequoia-X が AI スタック外・comparison=直近ブロック) のため、全期間 tech-deep n=3 avg 1.00 と少ないが素材適合 5/5 の日に explore 側 20% 枠で投入する pilot。narration は 5 本すべて『何を解決するか 1 文 + 独自技術ワード 1 文』の 2 文構造で統一し、tech-deep 角度の SNR を最大化する。1 本目 fmt『C++ 書式整形 + Dragonbox 20 倍高速』、2 本目 timesfm『時系列基盤モデル + ゼロショット共変量多変量』、3 本目 ponytail『AI に書かせない思考装置 + LOC-54%』、4 本目 VoiceStudio『端末内音声 AI + 16 TTS ホットスワップ』、5 本目 Sequoia-X『A 株自動選別 + baostock 無料 API+SQLite+Feishu』。Primary (CTO/技術選定) には『実装レベルで何が違うか』、Secondary (PdM/事業責任者) には『各 OSS の 1 枚看板ワード』、Tertiary (学習中エンジニア) には『技術キーワード入口』として届く 3 層対応。素材適合度 5/5 の日は稀 (過去 tech-deep の再現条件)、crisis-mode 打破の pilot として本日投入。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Thu=176 avg 中位帯、最低 1 view (crisis-mode 脱出の最低線)、理想 20 views (7 日 avg ≥ 1.0 目標への貢献) を目標。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/fmtlib/fmt",
+          "https://github.com/google-research/timesfm",
+          "https://github.com/DietrichGebert/ponytail",
+          "https://github.com/debpalash/VoiceStudio",
+          "https://github.com/sngyai/Sequoia-X",
+          "https://news.ycombinator.com/item?id=44628301",
+          "https://news.ycombinator.com/item?id=49514297",
+          "https://news.ycombinator.com/item?id=48527946",
+          "https://news.ycombinator.com/item?id=44830043"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-01",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Haskell: 0.7x avg views → drop",
-        "standard: 2 avg views (81 videos)",
-        "Trending languages: Markdown (1.6x), C# (1.6x), Jupyter Notebook (1.4x)",
-        "Day performance: Sat=3, Fri=2, Mon=2, Thu=2, Sun=1, Tue=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-02",
       "changes": [
@@ -5038,6 +5031,19 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-03",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Jupyter Notebook: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
+        "Day performance: Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
