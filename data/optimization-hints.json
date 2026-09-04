@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-09-05",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -36,73 +36,71 @@
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "Method 別 14d (2026-08-21〜2026-09-03, n=14): business-angle 0.00 n=4 / comparison 0.00 n=3 / ecosystem 0.00 n=3 / self-experiment 0.00 n=2 / tech-deep 0.00 n=1 / use-case 0.00 n=1 / trend-pattern 圏外 n=0。全期間 (n=83): stack-migration 2.00 n=1 / business-angle 1.29 n=17 / ecosystem 1.19 n=16 / trend-pattern 1.10 n=10 / tech-deep 0.75 n=4 / comparison 0.72 n=18 / use-case 0.71 n=7 / self-experiment 0.50 n=10。**crisis-mode 継続深化 23 日目**: 09-03 tech-deep × 素材適合 5/5 pilot も 24h 暫定 0 views で 23 日連続 0-1 定着。method マイクロ最適化の限界がほぼ確定的、method-agnostic 施策 (opening 3 秒フック / 柱④ 初導入 / タイトル書式 A/B) を strategy.md 追記提案として順次投入検討。09-04 (Fri) は直近 2 日 (09-02 comparison / 09-03 tech-deep) 連投 NG で tech-deep/comparison 除外、exploit top-3 の残 (business-angle=今週 2 消化で過剰・ecosystem=素材適合 4/5 だが agentskills.io 標準を軸にした macro 語りは trend-pattern の方が上位) を再検証し、素材が『複数リポが同じ標準に収束している瞬間』= マクロ視点そのもので trend-pattern が首座、explore 側 20% 枠で投入。**TOP5 lineup: fmt (継続・+955 star・C++20 std::format 実装 Dragonbox で 20-30 倍高速) / mattpocock/skills (新規・+1576 star・個人 .agents ディレクトリのスキルパック配布) / hermes-agent (新規・+778 star・agentskills.io 互換自己成長エージェント) / ponytail (継続・+2138 star・AI に書かせない rungs 決定ラダー) / anthropics/skills (新規・+277 star・Anthropic 公式 Agent Skills リポジトリ)**、素材 3/5 新規で lineup 60% 刷新 (timesfm/VoiceStudio/Sequoia-X が消え mattpocock/skills/hermes-agent/anthropics/skills が入る)、Skills 系一気呑込みで trend-pattern の再現条件が整った日。4/5 が agentskills.io 標準の周辺、1/5 (fmt) が基盤系 outlier で trend-pattern の『マクロで並べる』構図と完全整合。"
+      "note": "Method 別 14d (2026-08-22〜2026-09-04, n=14): comparison 0.33 n=3 / business-angle 0.00 n=4 / ecosystem 0.00 n=3 / self-experiment 0.00 n=2 / tech-deep 0.00 n=1 / trend-pattern 0.00 n=1 / use-case 圏外 n=0。全期間 (n=84): stack-migration 2.00 n=1 / business-angle 1.29 n=17 / ecosystem 1.19 n=16 / trend-pattern 1.00 n=11 / comparison 0.76 n=17 / tech-deep 0.75 n=4 / use-case 0.71 n=7 / self-experiment 0.50 n=10。**crisis-mode 継続深化 24 日目**: 09-04 trend-pattern × 素材適合 5/5 pilot も 24h 暫定 0 views で 24 日連続 0-1 定着延長。method マイクロ最適化の限界がほぼ確定的、method-agnostic 施策 (opening 3 秒フック / 柱④ 初導入 / タイトル書式 A/B) を strategy.md 追記提案として順次投入検討。09-05 (Sat) は直近 2 日 (09-03 tech-deep / 09-04 trend-pattern) 連投 NG で除外、exploit top-3 の残 (business-angle avg 1.29 n=17 首位 / ecosystem 1.19 n=16 / trend-pattern は連投違反) から business-angle を選定、素材が『5 本全て AI 開発運用ツール = 費目単位で削れる』で business-angle 完全適合、前回 08-31 から 5 日空きで連投ルール非該当。**TOP5 lineup: mattpocock/skills (継続・+2,757 star・個人 .agents 配布) / DietrichGebert/ponytail (継続・+1,683 star・生成前抑制メタツール) / affaan-m/ECC (新規・+1,139 star・agent harness 復活) / debpalash/VoiceStudio (新規・+1,345 star・646 言語 voice cloning) / blader/humanizer (新規・+1,132 star・AI 生成痕跡除去)**、素材 3/5 新規で lineup 60% 刷新 (fmt/hermes-agent/anthropics/skills が消え ECC/VoiceStudio/humanizer が入る)、AI 開発運用ツール 5 本一気呑込みで business-angle の再現条件が整った日。5/5 が『どの費目にいくら効くか』で語れる、business-angle の『実案件で月○円削れる』構図と完全整合。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持",
-      "本日は金曜 (Fri=直近 28 日 avg 310、Tue の 361 に次ぐ週次 2 位帯)、crisis-mode 継続深化 23 日目。直近 2 日連投 NG (tech-deep/comparison 除外) + exploit top-3 の残 (business-angle=今週 2 消化過剰 / ecosystem=素材 4/5 だが macro 語り不適) を再検証、素材適合 4/5+outlier 1/5 の explore 側 `trend-pattern` (全期間 avg 1.10 n=10、直近 14 日 n=0) を投入。柱ローテ 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) → 09-04 (柱①) で 09-01 に週次柱③ 下限・08-30/08-31 で柱② 下限を満了済のため柱① 継続で問題なし"
+      "本日は土曜 (Sat=直近 28 日 avg 79、Sun 5 を除けば週次最下位帯)、crisis-mode 継続深化 24 日目。直近 2 日連投 NG (tech-deep/trend-pattern 除外) + exploit top-3 の残 (business-angle avg 1.29 n=17 首位 / ecosystem 1.19 n=16 / trend-pattern は連投違反) から素材適合度で business-angle を選定、素材適合 5/5 (5 本全て AI 開発運用ツールで費目単位で削れる) の exploit 側 `business-angle` (全期間 avg 1.29 n=17、直近 14 日 n=4)。柱ローテ 08-30/08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) → 09-04 (柱①) で 08-30/08-31 に週次柱② 下限・09-01 で柱③ 下限を満了済のため柱② 再投入も許容"
     ],
     "hashtags": [
-      "trend-pattern 角度の核心は『5 本のうち 4 本が agentskills.io 標準の周辺、1 本が基盤系 outlier、= Skills が今週 OSS フォーマット化している瞬間を捉える macro 視点』。5 本のマッピング: #fmt=C++ 25,037★ +955 (#1 継続・fmtlib 開発) → C++20 std::format のリファレンス実装、Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め iostream 比 20-30 倍高速、Skills 系が並ぶ今日のTOP5で唯一の基盤ライブラリ outlier / #mattpocockskills=Shell 247,243★ +1,576 (#2 新規・Matt Pocock 開発) → 個人 .agents ディレクトリを npm/plugin で配布、TDD/コードレビュー/バグ診断/コードベース設計等の職人技をコマンド化、Claude Code の plugin marketplace 経由でインストール可 / #hermesagent=Python 240,802★ +778 (#3 新規・Nous Research 開発) → agentskills.io 互換の自己成長エージェント、複雑タスク後に新スキルを自動生成し SQLite に蓄積、Slack/Discord/Telegram/WhatsApp/Signal 等 7 プラットフォーム対応、MCP 対応 / #ponytail=JavaScript 123,317★ +2,138 (#4 継続・DietrichGebert 開発) → 生成前に『書く必要があるか/既にあるか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27% / #anthropicsskills=Python 173,618★ +277 (#5 新規・Anthropic 公式) → Agent Skills リポジトリ、SKILL.md フォーマットのリファレンス、PDF/DOCX/PPTX/XLSX 等 54 個の実装済みスキル同梱、Claude Code/API/claude.ai から使える",
-      "言語タグは C++ 1 + Shell 1 + Python 2 + JavaScript 1 の 4 言語構成。Python (1.2x) 2 本 + Shell (1.0x) 1 本 + JavaScript (0.9x) 1 本 + C++ (0.8x) 1 本、言語スコア平均は約 1.00 で hints 中位。Skills 系トピックは AI/ML 寄り、trend-pattern 角度と整合",
-      "trend-pattern 角度の独自 hashtag: #OSS #AI #tech #トレンド #マクロ #agentskills #Skills #ClaudeCode #Claude #Anthropic #AIエージェント #Agent #SKILL #NousResearch #Hermes #MattPocock #TDD #コードレビュー #Codex #Cursor #Copilot #MCP #ModelContextProtocol #Python #CTO #個人開発者 #DX #C++ #Cpp #Dragonbox #stdformat #標準化 #フォーマット"
+      "business-angle 角度の核心は『5 本全て AI 開発運用ツール、それぞれ受託・スタートアップの費目マップに 1:1 で対応、= AI 開発運用は費目単位で削れるという macro シグナル』。5 本のマッピング: #skills=Shell 250,244★ +2,757 (#1 継続・Matt Pocock 開発) → 個人 .agents ディレクトリを npm/plugin で配布、TDD/コードレビュー/バグ診断/コードベース設計等の職人技をコマンド化、Claude Code の plugin marketplace 経由で導入可、削れる費目=受託チームの教育・品質統一費 / #ponytail=JavaScript 125,818★ +1,683 (#2 継続・DietrichGebert 開発) → 生成前に『書く必要があるか/既にあるか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27%、削れる費目=LLM API 費 / #ECC=JavaScript 248,443★ +1,139 (#3 新規・affaan-m 開発) → 63 subagent + 251 skill + AgentShield 102 ルール + 8+ event hook の agent harness、v2.0 でデスクトップ GUI 追加、削れる費目=受託チーム標準化費 / #VoiceStudio=Python 17,854★ +1,345 (#4 新規・debpalash 開発) → 646 言語対応の voice cloning/dubbing/transcription、ローカルで動く OpenAI/ElevenLabs 代替、削れる費目=動画外注ナレーション費 / #humanizer=Python 42,646★ +1,132 (#5 新規・blader 開発) → 生成 AI 文章の機械らしさを消す後処理ツール、マーケコピー/SEO 記事量産用、削れる費目=マーケコピー外注費",
+      "言語タグは Shell 1 + JavaScript 2 + Python 2 の 3 言語構成。Python (1.2x) 2 本 + Shell (1.0x) 1 本 + JavaScript (0.9x) 2 本、言語スコア平均は約 1.02 で hints 中位。AI 開発運用ツール系トピックは Primary/Secondary ペルソナに直撃、business-angle 角度と整合",
+      "business-angle 角度の独自 hashtag: #OSS #AI #tech #受託 #スタートアップ #CTO #PdM #コスト削減 #費目 #ClaudeCode #Claude #Anthropic #AIエージェント #Agent #Skills #MattPocock #ponytail #ECC #VoiceStudio #humanizer #Cursor #Codex #Copilot #MCP #voicecloning #dubbing #マーケコピー #SEO #自動化 #DX #個人開発者 #受託開発"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、trend-pattern で密度優先の標準レンジ)。5 本合計 271 文字 (51+56+55+49+60)、TTS +30% で約 45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 60 / min 49) で密度均等",
-      "trend-pattern 角度の一貫性: 5 本すべての narration に『Skills バブルの何番目パターンか (もしくは outlier か)』の位置づけを埋め込む。1 本目 fmt『AI 系が並ぶ中、唯一の基盤系として今日も伸びています』(outlier)、2 本目 mattpocock/skills『個人のノウハウを Claude 向けに配布したスキル集です。TDD やコードレビュー等の職人技をコマンド化しています』(個人配布パターン)、3 本目 hermes-agent『自分でスキルを作って覚える AI エージェントです。agentskills.io 標準に沿って使うほど賢くなります』(自己成長パターン)、4 本目 ponytail『AI に「まず書かない」を教えるメタツールです。生成前に既存コードを探し重複を削り 54% 減らします』(重複抑制メタパターン)、5 本目 anthropics/skills『Anthropic 公式の Agent Skills リポです。SKILL.md 一枚あれば Claude を専門家に育てられます』(公式リファレンスパターン)。視聴者が『5 本 = 4 パターン + 1 outlier』として一貫して受け取れる",
-      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern では『マクロで並べる』を優先、tech-deep (昨日) の『独自技術ワード』からの視座切替で 2 日 1 セットの立体化 (独自技術ワード → マクロ標準の広がり)",
-      "数値表現はアラビア数字統一 (20 倍、54%、SKILL.md 等はカードで表示)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Claude、Anthropic、SKILL.md、agentskills.io、Codex、Cursor、TDD) は原文表記で TTS に読ませる"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、business-angle で密度優先の標準レンジ)。5 本合計 248 文字 (48+46+59+51+44)、TTS +30% で約 43 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 59 / min 44) で密度均等",
+      "business-angle 角度の一貫性: 5 本すべての narration に『どの費目にいくら効くか』の位置づけを埋め込む。1 本目 skills『受託の品質を揃えるスキル配布集です。TDD やコードレビュー手順を npm 経由で共有できます。』(教育・品質統一費)、2 本目 ponytail『AI コーディング費を月 2 割削る決定ラダーです。生成前に既存コードを探し重複を潰します。』(LLM API 費)、3 本目 ECC『AI 受託の標準を揃える harness です。63 subagent と 251 skill で品質を担保できます。』(受託チーム標準化費)、4 本目 VoiceStudio『動画ナレーションの外注費を消す voice ツールです。646 言語で吹き替えと文字起こしが動きます。』(動画外注費)、5 本目 humanizer『マーケコピーの外注費を月単位で圧縮するツールです。AI 生成の痕跡を消して量産できます。』(マーケコピー外注費)。視聴者が『5 本 = 5 費目』として一貫して受け取れる",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle では『どの費目にいくら効くか』を優先、trend-pattern (昨日) の『マクロ標準の広がり』からの視座切替で 2 日 1 セットの立体化 (マクロ標準の広がり → 費目単位の削減)",
+      "数値表現はアラビア数字統一 (2 割、63、251、646 等)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (TDD、npm、harness、subagent、skill、voice) は原文表記で TTS に読ませる"
     ],
     "content": [
-      "本日の discovery.method は `trend-pattern` (14d 圏外 n=0、全期間 avg 1.10 n=10、mid-tier)。直近 2 日 (09-02 comparison / 09-03 tech-deep) 連投ルールで両除外、exploit top-3 の残 (business-angle=今週 2 消化で過剰・ecosystem=素材 4/5 適合だが macro 語り不適・comparison=直近ブロック) を再検証、素材が『複数リポが agentskills.io に収束』= マクロ視点そのもので trend-pattern が首座、explore 側 20% 枠で投入。crisis-mode 継続深化 23 日目、Fri 上位帯 (avg 310) で Primary (CTO/技術投資判断) 直撃『どの標準に賭けるか』ユーティリティで crisis-mode 対応の第 14 手にする。09-03 tech-deep (独自技術ワード) → 09-04 trend-pattern (マクロ標準の広がり) の視座切替で 2 日 1 セットの立体化継続。前回 trend-pattern (08-07) は views 3 で TOP10 入り実績あり、macro-shift 素材適合日の再現性検証。",
-      "本日 09-04 TOP5: #1 fmtlib/fmt=C++ / 25,037★ / +955 [継続・fmtlib 開発・**C++20 std::format のリファレンス実装で、Dragonbox アルゴリズムで IEEE754 浮動小数を正しく丸め iostream 比 20-30 倍高速**、Skills 系が並ぶ今日の TOP5 で唯一の基盤ライブラリ outlier、C++ プロジェクトで書式整形の性能・型安全が必要な組織・組込み・ゲーム・金融系向け]、#2 mattpocock/skills=Shell / 247,243★ / +1,576 [新規・Matt Pocock 開発・**個人 .agents ディレクトリを npm/plugin で配布、TDD/コードレビュー/バグ診断/コードベース設計等の職人技をコマンド化、Claude Code の plugin marketplace 経由でインストール可**、個人配布パターンの代表、AI コーディングを日常運用する個人開発者・受託エンジニア・スタートアップ向け → 個人ノウハウを Skills 化する層]、#3 NousResearch/hermes-agent=Python / 240,802★ / +778 [新規・Nous Research 開発・**agentskills.io 互換の自己成長エージェント、複雑タスク後に新スキルを自動生成し SQLite に蓄積、Slack/Discord/Telegram/WhatsApp/Signal 等 7 プラットフォーム対応、MCP 対応**、自己成長パターンの代表、$5 VPS で動く軽量志向のパワーユーザー向け → 常駐エージェントを自宅サーバで回す層]、#4 DietrichGebert/ponytail=JavaScript / 123,317★ / +2,138 [継続・DietrichGebert 開発・**生成 AI に『書く必要があるか/既に repo・stdlib・依存に存在するか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27%**、重複抑制メタパターンの代表、AI コーディングを日常運用する層 → 全 AI コーダー向けメタ層]、#5 anthropics/skills=Python / 173,618★ / +277 [新規・Anthropic 公式・**Agent Skills リポジトリで SKILL.md フォーマットのリファレンス、PDF/DOCX/PPTX/XLSX 等 54 個の実装済みスキル同梱、Claude Code/API/claude.ai から使える**、公式リファレンスパターンの代表、Claude を業務ワークフローに組込む企業・開発者・エンタープライズ向け → SKILL.md 準拠で自社ワークフローを標準化する層]",
-      "本日の trend-pattern 核: 4/5 が agentskills.io 標準の周辺で並ぶ稀な日、5 本を『個人配布/自己成長/重複抑制メタ/公式リファレンス』の 4 パターン + 1 outlier (fmt) として並べ、視聴者に『Skills が今週 OSS フォーマット化している瞬間』のマクロ気付きを提供。冒頭フックは『今日の TOP5 は 4 本が Skills 関連です。SKILL.md というフォーマットが標準化する瞬間、順に見ていきます』。5 本を『C++ 書式整形 20 倍 (基盤 outlier)』『個人 .agents 配布 (Matt Pocock)』『自己成長エージェント (Nous Research)』『AI 重複抑制 (ponytail)』『公式 Skills リポ (Anthropic)』の 4 パターン+1 outlier 構成で語り、標準化の広がりを明示する。**素材 3/5 新規**: 09-03 から 09-04 で TOP5 が 60% 刷新、Skills 系一気呑込みで trend-pattern の再現条件が整った日",
-      "Primary (CTO/技術選定) には『どの標準に賭けるか = agentskills.io 選定の判断材料 (公式 + サードパーティ + エージェント + メタツールが揃った瞬間)』、Secondary (PdM/事業責任者) には『Skills = 業界標準化しつつある macro シグナル (自社の AI 導入戦略への影響)』、Tertiary (学習中) には『Skills = 新しい OSS フォーマット、SKILL.md 一枚から書ける』として 3 層直撃、trend-pattern 特有の権威性視点 (『あの人は業界のマクロ流れを読んでいる』) で信頼シグナルを蓄積",
-      "**crisis-mode 継続深化 23 日目 (Explore 傾斜運用 17 日目)**: 09-03 tech-deep × 素材適合 5/5 pilot も 24h 暫定 0 views で 23 日連続 0-1 定着延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 継続 (今日は素材適合 4/5+outlier 1/5 の explore trend-pattern を選定)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) opening 3 秒フックの強化を戦略更新提案に追加継続、(e) 柱④ (業界読み解き) の初導入を 9/6 (Sat) or 9/13 (Sat) 週末枠で試す提案を継続、(f) method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) を優先度上昇として strategy.md 追記提案候補に格上げ。今日 trend-pattern 投入で『macro-shift 素材適合日の explore method が crisis-mode 下で再現するか』の切り分け実験、8/7 trend-pattern (views 3) との比較データを取る、09-04 24h 集計で tech-deep (09-03) との比較データも同時取得"
+      "本日の discovery.method は `business-angle` (14d n=4 avg 0.00、全期間 avg 1.29 n=17、top-tier)。直近 2 日 (09-03 tech-deep / 09-04 trend-pattern) 連投ルールで両除外、exploit top-3 の残 (business-angle / ecosystem / trend-pattern は連投違反) から素材適合度で business-angle が首位 (5/5 が『どの費目に効くか』で語れる)、exploit 側 80% 枠で投入。crisis-mode 継続深化 24 日目、Sat 下位帯 (avg 79) で Primary (CTO/技術投資判断) と Secondary (PdM/事業責任者) の両ペルソナに『AI 開発運用の費目単位削減』ユーティリティで crisis-mode 対応の第 15 手にする。09-04 trend-pattern (マクロ標準の広がり) → 09-05 business-angle (費目単位の削減) の視座切替で 2 日 1 セットの立体化継続。前回 business-angle (08-31) から 5 日空きで連投ルール非該当、また前回 business-angle が 0 views だったため素材適合度 5/5 の再挑戦として位置づけ。",
+      "本日 09-05 TOP5: #1 mattpocock/skills=Shell / 250,244★ / +2,757 [継続・Matt Pocock 開発・**個人 .agents ディレクトリを npm/plugin で配布、TDD/コードレビュー/バグ診断/コードベース設計等の職人技をコマンド化、Claude Code の plugin marketplace 経由でインストール可**、削れる費目=受託チームの教育・品質統一費、AI コーディングを日常運用する受託エンジニア・スタートアップ向け → 個人ノウハウを Skills 化する層]、#2 DietrichGebert/ponytail=JavaScript / 125,818★ / +1,683 [継続・DietrichGebert 開発・**生成 AI に『書く必要があるか/既に repo・stdlib・依存に存在するか』を判定する rungs 決定ラダー、Claude Code/Codex/Cursor 等 15 以上で動き Haiku 4.5 baseline で LOC-54%・コスト-20%・速度+27%**、削れる費目=LLM API 費、AI コーディングを日常運用する層 → 全 AI コーダー向けメタ層]、#3 affaan-m/ECC=JavaScript / 248,443★ / +1,139 [新規復活・affaan-m 開発・**63 subagent + 251 skill + AgentShield 102 ルール + 8+ event hook の agent harness、v2.0 でデスクトップ GUI 追加**、削れる費目=受託チーム標準化費、Claude Code/Cursor/Codex/Zed を組織で運用する受託・スタートアップ向け → チーム AI 標準を揃える層]、#4 debpalash/VoiceStudio=Python / 17,854★ / +1,345 [新規・debpalash 開発・**646 言語対応の voice cloning/dubbing/transcription、ローカルで動く OpenAI/ElevenLabs 代替**、削れる費目=動画外注ナレーション費、動画制作を内製化したい個人事業主・受託・スタートアップ向け → 動画外注費を消す層]、#5 blader/humanizer=Python / 42,646★ / +1,132 [新規・blader 開発・**生成 AI 文章の機械らしさを消す後処理ツール、マーケコピー/SEO 記事量産用**、削れる費目=マーケコピー外注費、コンテンツマーケを運用する受託・スタートアップ・個人事業主向け → マーケコピー外注費を圧縮する層 (運用面のリスクは要確認)]",
+      "本日の business-angle 核: 5/5 が AI 開発運用ツールで並ぶ稀な日、5 本を『教育・品質統一費/LLM API 費/受託チーム標準化費/動画外注費/マーケコピー外注費』の 5 費目に 1:1 マッピングして並べ、視聴者に『AI 開発運用は費目単位で削れる』のマクロ気付きを提供。冒頭フックは『今日の TOP5 は 5 本全て AI 開発運用ツールです。受託とスタートアップでどの費目を削れるか、順に見ていきます』。5 本を『教育・品質統一費 (skills)』『LLM API 費 (ponytail)』『受託チーム標準化費 (ECC)』『動画外注費 (VoiceStudio)』『マーケコピー外注費 (humanizer)』の 5 費目マッピングで語り、費目単位削減の広がりを明示する。**素材 3/5 新規**: 09-04 から 09-05 で TOP5 が 60% 刷新、AI 開発運用ツール系一気呑込みで business-angle の再現条件が整った日",
+      "Primary (CTO/技術選定) には『どの費目に何を投入するか = AI 開発運用の費目マップ (5 本 = 5 費目)』、Secondary (PdM/事業責任者) には『AI 開発運用は費目単位で削れる = 自社の AI 導入予算配分の判断材料』、Tertiary (学習中) には『AI ツール = それぞれ削減対象がある、投資対効果を意識する』として 3 層直撃、business-angle 特有の権威性視点 (『あの人は事業経済性で技術を選んでいる』) で信頼シグナルを蓄積",
+      "**crisis-mode 継続深化 24 日目 (Explore 傾斜運用 18 日目)**: 09-04 trend-pattern × 素材適合 5/5 pilot も 24h 暫定 0 views で 24 日連続 0-1 定着延長。crisis-mode 下運用継続: (a) Explore/Exploit 比率 60/40 継続 (今日は素材適合 5/5 の exploit business-angle を選定)、(b) 直近 2 日連投 NG ルール継続、(c) 週次 PDCA で crisis-mode 継続/解除 formal レポート追加継続、(d) opening 3 秒フックの強化を戦略更新提案に追加継続、(e) 柱④ (業界読み解き) の初導入を 9/6 (Sun) or 9/13 (Sat) 週末枠で試す提案を継続、(f) method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) を優先度上昇として strategy.md 追記提案候補に格上げ。今日 business-angle 投入で『素材適合 5/5 の exploit top-1 method が crisis-mode 下で再現するか』の切り分け実験、08-31 business-angle (0 views) との比較データを取る、09-05 24h 集計で trend-pattern (09-04) との比較データも同時取得"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-09-04",
-    "dayOfWeek": "Fri",
+    "date": "2026-09-05",
+    "dayOfWeek": "Sat",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
       "AI",
       "tech",
-      "トレンド",
-      "マクロ",
-      "agentskills",
-      "Skills",
+      "受託",
+      "スタートアップ",
+      "CTO",
+      "PdM",
+      "コスト削減",
+      "費目",
       "ClaudeCode",
       "Claude",
       "Anthropic",
       "AIエージェント",
       "Agent",
-      "SKILL",
-      "NousResearch",
-      "Hermes",
+      "Skills",
       "MattPocock",
-      "TDD",
-      "コードレビュー",
-      "Codex",
-      "Cursor",
-      "MCP",
-      "ModelContextProtocol",
-      "Python",
-      "CTO",
-      "個人開発者",
-      "DX",
-      "Cpp",
-      "Dragonbox",
-      "stdformat",
-      "標準化",
-      "フォーマット",
-      "fmt",
       "ponytail",
-      "hermesagent"
+      "ECC",
+      "VoiceStudio",
+      "humanizer",
+      "Cursor",
+      "Codex",
+      "Copilot",
+      "MCP",
+      "voicecloning",
+      "dubbing",
+      "マーケコピー",
+      "SEO",
+      "自動化",
+      "DX",
+      "個人開発者",
+      "受託開発"
     ],
-    "focus": "金曜 (Fri=直近 28 日 avg 310、Tue の 361 に次ぐ週次 2 位帯) は crisis-mode 継続深化 23 日目、直近 2 日 (09-02 comparison / 09-03 tech-deep) 連投 NG + exploit top-3 の残 (business-angle=今週 2 消化過剰 / ecosystem=素材 4/5 適合だが macro 語り不適 / comparison=直近ブロック) を再検証、素材が『複数リポが agentskills.io に収束』= マクロ視点そのもので trend-pattern が首座、素材適合 4/5+outlier 1/5 の explore 側 `trend-pattern` (全期間 avg 1.10 n=10、直近 14 日 n=0、explore 領域) を投入。素材共通軸 4/5=80% (agentskills.io 標準の周辺: mattpocock/skills=個人配布 / anthropics/skills=公式リファレンス / hermes-agent=自己成長 / ponytail=重複抑制メタ) + 1/5=20% (fmt=基盤系 outlier) + 直近 2 日連投 NG + exploit top-3 全不適格の 4 条件複合で `trend-pattern` を投入。4/5=80% 素材が『Skills バブルを 4 パターン + 1 outlier として並べる』の trend-pattern 語りと完全整合。本日の TOP5 は 3/5 新規 (mattpocock/skills, hermes-agent, anthropics/skills) で lineup 60% 刷新、timesfm/VoiceStudio/Sequoia-X が消え Skills 系が一気に押し寄せた、Trending 大規模ローテーションで trend-pattern の再現条件が整った日。method 切替 (tech-deep → trend-pattern) + 語彙総入替 (Dragonbox/ゼロショット/思考装置/ホットスワップ → Skills/agentskills.io/SKILL.md/標準化/パターン) で視聴者の脳内モードを『独自技術ワード』から『マクロ標準の広がり』へシフト。narration は 5 本すべてに『Skills バブルの何番目パターンか (もしくは outlier か)』の位置づけを埋め込み、5 本合計 271 文字 (51+56+55+49+60) で TTS 換算約 45 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) → 09-04 (柱①) で 09-01 に週次柱③ 下限・08-30/08-31 で柱② 下限満了済、柱① 継続で問題なし。**crisis 分水嶺 (継続深化 23 日目)**: 09-03 tech-deep × 素材適合 5/5 pilot も 24h 暫定 0 views で method マイクロ最適化の限界がほぼ確定、method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) の優先度上昇を strategy.md 追記提案候補に格上げ。infra チェック (post-time / hashtag 語彙 / thumbnail テキスト量) の検証開始候補も依然継続、PR 経由 squash merge + 着弾検証は必須実行。"
+    "focus": "土曜 (Sat=直近 28 日 avg 79、Sun 5 を除けば週次最下位帯) は crisis-mode 継続深化 24 日目、直近 2 日 (09-03 tech-deep / 09-04 trend-pattern) 連投 NG + exploit top-3 の残 (business-angle avg 1.29 n=17 首位 / ecosystem 1.19 n=16 / trend-pattern は連投違反) から素材適合度で business-angle が首位 (5/5 が『どの費目に効くか』で語れる)、素材適合 5/5 の exploit 側 `business-angle` (全期間 avg 1.29 n=17、直近 14 日 n=4、top-tier) を投入。素材共通軸 5/5=100% (AI 開発運用ツール、費目単位で削れる: mattpocock/skills=教育・品質統一費 / ponytail=LLM API 費 / ECC=受託チーム標準化費 / VoiceStudio=動画外注費 / humanizer=マーケコピー外注費) + 直近 2 日連投 NG + exploit top-3 の残から素材適合首位の 3 条件複合で `business-angle` を投入。5/5=100% 素材が『5 費目 1:1 マッピング』の business-angle 語りと完全整合。本日の TOP5 は 3/5 新規 (ECC, VoiceStudio, humanizer) で lineup 60% 刷新、fmt/hermes-agent/anthropics/skills が消え AI 開発運用ツール系が一気に押し寄せた、Trending 大規模ローテーションで business-angle の再現条件が整った日。method 切替 (trend-pattern → business-angle) + 語彙総入替 (Skills/agentskills.io/SKILL.md/標準化/パターン → 費目/削減/受託/スタートアップ/2 割) で視聴者の脳内モードを『マクロ標準の広がり』から『費目単位の削減』へシフト。narration は 5 本すべてに『どの費目にいくら効くか』の位置づけを埋め込み、5 本合計 248 文字 (48+46+59+51+44) で TTS 換算約 43 秒、opening/ending 5 秒込み 55 秒枠内で IG Reels 60 秒制約に十分マージン。柱ローテ: 08-30/08-31 (柱②) → 09-01 (柱③) → 09-02 (柱①) → 09-03 (柱①) → 09-04 (柱①) で 08-30/08-31 に週次柱② 下限・09-01 で柱③ 下限満了済、柱② 再投入も許容。**crisis 分水嶺 (継続深化 24 日目)**: 09-04 trend-pattern × 素材適合 5/5 pilot も 24h 暫定 0 views で method マイクロ最適化の限界がほぼ確定、method-agnostic 施策 (opening 3 秒フック / 柱④ / タイトル書式 A/B) の優先度上昇を strategy.md 追記提案候補に格上げ。infra チェック (post-time / hashtag 語彙 / thumbnail テキスト量) の検証開始候補も依然継続、PR 経由 squash merge + 着弾検証は必須実行。"
   }
 }
