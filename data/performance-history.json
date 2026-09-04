@@ -2,63 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "laZ11riIc98",
-      "videoUrl": "https://youtube.com/shorts/laZ11riIc98",
-      "date": "2026-06-05",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/05 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python"
-      ],
-      "languages": [
-        "Python",
-        "JavaScript"
-      ],
-      "projects": [
-        "chopratejas/headroom",
-        "NousResearch/hermes-agent",
-        "affaan-m/ECC",
-        "PaddlePaddle/PaddleOCR",
-        "github/spec-kit"
-      ],
-      "durationSeconds": 51,
-      "discovery": {
-        "method": "comparison",
-        "description": "本日のTOP5を『何の有償SaaSや先行OSSの代替か』のcomparison視点で5本横断料理する。5本のincumbent対応: #1 chopratejas/headroom vs MicrosoftのLLMLingua/lean-ctx/Compresr/OpenAIの公式conversation compaction(可逆方式CCRと AST/JSON/text の content-aware routing が独自、BFCL 32%圧縮で97%精度を維持) / #2 NousResearch/hermes-agent vs LangGraph/AutoGPT/Letta/mem0(skillを自動生成する self-improving loop + FTS5記憶横断 + 200以上のモデルを `hermes model` で切替可能 + Telegram/Discord/Slack/WhatsApp/Signal/Emailの6メッセンジャー連携を本体内蔵) / #3 affaan-m/ECC vs revfactory/harness/BMAD-METHOD/素のhook運用(63 subagent + 249 skill + AgentShield 1282テスト 102ルール + 15以上のevent hookを束ねるClaude Code/Cursor/OpenCode/Codex/Zed向けharness) / #4 PaddlePaddle/PaddleOCR vs Tesseract/EasyOCR/Marker/Mistral OCR(PP-OCRv5+PaddleOCR-VL-1.6でOmniDocBench v1.6で96.3%、100以上の言語対応・印鑑認識・古文書認識まで対応するBaidu公式VLM OCR) / #5 github/spec-kit vs .cursorrules/AGENTS.md/Aider conventions/Cursor rules(GitHub公式の Spec-Driven Development キット、/speckit.constitution〜/speckit.implementの7段階で実行可能な仕様を生成、GitHub Copilot/Claude Code/Cursor/Gemini CLI/Codex CLI/Qwen CLI など30以上のagentに対応)。冒頭マクロ核は『2026年6月の金曜(Fri=310 avg・週次2位の上位帯)、Primaryペルソナの CTO/技術選定者が週末前に「来週何を捨てて何を入れるか」の最終判断をするタイミング』。本日TOP5は継続3本(#1 headroom 3日連続+3139・#3 ECC 4日連続+1736・#2 hermes-agent 2日連続+1951で順位上昇)+ 新規2本(#4 PaddleOCR 新登場+105・#5 spec-kit 新登場+311)。新規2本はいずれも大手公式OSS(Baidu公式 + GitHub公式)、05-31のMicrosoft+Anthropic+Cursorに続き6月Trendingの『大手公式OSSの比重継続上昇』マクロを補強。method=comparisonは14日窓 avg 5.00 n=3(05-23=4 / 05-30=7 / 06-02=4)で計測済methodの中で唯一突き抜けたTOP1安定method、28日窓も avg 2.83 n=6 で母数最安定TOP2。直近2日(06-04 ecosystem / 06-03 self-experiment)とmethod衝突なし、前回comparison 06-02から3日空きで連投ルール非該当。同ラインナップ重複は06-02との間でhermes-agent ↔ hermes-webuiは別repo(NousResearch vs nesquena)、3本以上の連続重複ペナルティ非該当。継続3本の角度切替: 06-01 business-angle『月いくら削れるか』 → 06-02 comparison『〇〇との違いは』(継続repoはmarkitdown中心、本日継続3本は別)→ 06-03 self-experiment『私の Routine に入れるか』 → 06-04 ecosystem『どの層を担うか』 → 本日 comparison『何の代替か』で5連続語彙完全切替、視聴者疲労を回避。柱②(business-angle)は06-01・柱③(self-experiment)は06-03で本週(06-01〜06-07)消化済のため本日Fri は柱①ローテーション主軸日として最適配置。素材適合度5/5: 全リポが明確な1対1のincumbent OSS/SaaSを持つ運用開始以来でも極めて高い適合度(headroom→LLMLingua、hermes-agent→LangGraph、ECC→revfactory/harness、PaddleOCR→Tesseract/Marker、spec-kit→.cursorrules)。05-19 comparison 0 views(Rust/Swift 系で AI 競合不明瞭) の反省として、本日は5本すべてで具体的な1対1の競合対象を明示。05-30 comparison 7 views(14日 TOP1) の成功形式『5本すべてで具体的な対比対象を明示』を踏襲。Primary(CTO/技術選定者)が週末前に『来週何を捨てて何を入れるか』を意思決定する素材として直撃、Secondary(PdM/事業責任者)には『月額SaaS棚卸しの起点』、Tertiary(学習中エンジニア)には『OSS代替を知る入口』として届く3層構成。05-14〜17 main到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Fri=310 avg 上位帯、最低40 views(Fri 平均超え)、理想500 views(Fri 上位帯への漸近)を目標。注記: 14日窓method平均差は n≤3 で統計的に有意でないが、本選定は『14日窓 comparison TOP1 (5.00)』+『素材適合度5/5(全5本に1対1の競合)』+『直近最高 views 05-30=7 も同 method』+『柱②/③ 既消化』+『直近2日method衝突回避 + 連投ルール非該当』の5根拠で確定。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/chopratejas/headroom",
-          "https://github.com/NousResearch/hermes-agent",
-          "https://github.com/affaan-m/ECC",
-          "https://github.com/PaddlePaddle/PaddleOCR",
-          "https://github.com/github/spec-kit",
-          "https://github.com/microsoft/LLMLingua",
-          "https://github.com/langchain-ai/langgraph",
-          "https://github.com/tesseract-ocr/tesseract",
-          "https://github.com/JaidedAI/EasyOCR",
-          "https://github.com/VikParuchuri/marker"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-19T23:55:24.052Z"
-      }
-    },
-    {
       "videoId": "FNg9m5A0xUg",
       "videoUrl": "https://youtube.com/shorts/FNg9m5A0xUg",
       "date": "2026-06-06",
@@ -3959,7 +3902,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4016,7 +3959,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4075,7 +4018,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4130,7 +4073,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4184,7 +4127,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4238,7 +4181,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4294,10 +4237,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4355,7 +4298,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4414,7 +4357,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4474,7 +4417,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4532,7 +4475,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4590,7 +4533,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-03T00:46:40.735Z"
+        "updatedAt": "2026-09-04T00:31:33.351Z"
       }
     },
     {
@@ -4648,26 +4591,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-04T00:31:33.351Z"
+      }
+    },
+    {
+      "videoId": "DOLf9YOXidw",
+      "videoUrl": "https://youtube.com/shorts/DOLf9YOXidw",
+      "date": "2026-09-04",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/04 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Python",
+        "JavaScript"
+      ],
+      "languages": [
+        "C++",
+        "Shell",
+        "Python",
+        "JavaScript"
+      ],
+      "projects": [
+        "fmtlib/fmt",
+        "mattpocock/skills",
+        "NousResearch/hermes-agent",
+        "DietrichGebert/ponytail",
+        "anthropics/skills"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日 09-04 Fri の TOP5 は同時多発的な Skills バブル。5 本のうち 4 本が agentskills.io 標準の周辺: #2 mattpocock/skills=個人 .agents ディレクトリをそのままスキルパックとして npm/plugin で配布、#3 NousResearch/hermes-agent=agentskills.io 互換で自己成長する Nous Research のエージェント、複雑タスク後に新スキルを自動生成し SQLite に蓄積、#4 DietrichGebert/ponytail=生成前に既存コードを探す rungs 決定ラダーで AI 重複生成を抑える AI メタツール、Claude Code/Codex/Cursor 等 15+ で動く、#5 anthropics/skills=Anthropic 公式の Agent Skills リポジトリ、SKILL.md フォーマットのリファレンスで PDF/DOCX/PPTX/XLSX 等 54 個の実装済みスキルを同梱。残 1 本 #1 fmtlib/fmt=C++20 std::format のリファレンス実装で Dragonbox 方式で IEEE754 浮動小数を正しく丸め iostream 比 20-30 倍高速、完全な outlier で AI 系の裏に基盤ライブラリが残っている構図。冒頭マクロは『今週の Trending は Skills が同時多発的に伸びている。SKILL.md フォーマットが標準化する瞬間』。crisis-mode 継続深化 23 日目、直近 2 日 (09-03 tech-deep / 09-02 comparison) と method 衝突なし、trend-pattern は直近 14 日 n=0 で explore 領域だが全期間 avg 1.10 n=10 で mid-tier、8/7 に views=3 で TOP10 入り実績あり macro-shift 素材の再現性検証に投入。柱②(business-angle) は 08-30/08-31 で 2 消化・柱③(self-experiment) は 09-01 消化で本週 (08-31〜09-06) 下限満了済、本日 Fri は柱① ローテーション主軸日として最適配置。素材適合 4/5 (Skills 標準) + 1/5 (基盤系 outlier) で trend-pattern の『マクロで並べる』構図と完全整合。narration は 5 本すべてに『Skills バブルの何番目パターンか (もしくは outlier か)』の 1 文を組み込み、視聴者に『5 リポ = 4 パターン + 1 outlier』のマクロ気付きを提供する。1 本目 fmt『基盤系 outlier』、2 本目 mattpocock/skills『個人配布パターン』、3 本目 hermes-agent『自己成長パターン』、4 本目 ponytail『重複抑制メタパターン』、5 本目 anthropics/skills『公式リファレンスパターン』。Primary (CTO/技術選定) には『どの標準に賭けるか = agentskills.io 選定の判断材料』、Secondary (PdM/事業責任者) には『Skills が業界標準化しつつある macro シグナル』、Tertiary (学習中エンジニア) には『Skills = 新しい OSS フォーマット』の入口として届く 3 層対応。Fri=310 avg 上位帯、最低 1 view (crisis-mode 脱出の最低線)、理想 3+ views (8/7 trend-pattern の再現、7 日 avg ≥ 1.0 目標への貢献) を目標。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/fmtlib/fmt",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/NousResearch/hermes-agent",
+          "https://github.com/DietrichGebert/ponytail",
+          "https://github.com/anthropics/skills",
+          "https://agentskills.io",
+          "https://news.ycombinator.com/item?id=44628301",
+          "https://news.ycombinator.com/item?id=48527946"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-02",
-      "changes": [
-        "JavaScript: 1.3x avg views → boost",
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Java: 1.4x avg views → boost",
-        "CSS: 1.4x avg views → boost",
-        "standard: 2 avg views (80 videos)",
-        "Trending languages: Markdown (1.8x), C# (1.8x), Java (1.4x), CSS (1.4x)",
-        "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Sun=1, Tue=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-03",
       "changes": [
@@ -5044,6 +5030,18 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
         "Day performance: Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-04",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
+        "Day performance: Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
