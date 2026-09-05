@@ -2,66 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "FNg9m5A0xUg",
-      "videoUrl": "https://youtube.com/shorts/FNg9m5A0xUg",
-      "date": "2026-06-06",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/06 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "projects": [
-        "NousResearch/hermes-agent",
-        "chopratejas/headroom",
-        "CopilotKit/CopilotKit",
-        "lfnovo/open-notebook",
-        "affaan-m/ECC"
-      ],
-      "durationSeconds": 52,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "本日 06-06 Sat (Sat=79 avg・週次3位の中位帯) の TOP5 を『AI 開発スタックの 5 層すべてに OSS デファクト候補が同日 Trending 入りする初の構図』trend-pattern 視点で 5 本横断料理する。5 リポの層配置: #1 NousResearch/hermes-agent=Agent backbone (脳)・自己学習エージェント本体・skill 自動生成・FTS5 記憶横断・Honcho dialectic user modeling・200+ モデル切替・Telegram/Discord/Slack/WhatsApp/Signal/Email 6 メッセンジャー対応 / #2 chopratejas/headroom=Cost/infra optimization (コスト)・LLM 入力 60-95% 圧縮 Proxy・SmartCrusher (JSON) + CodeCompressor (AST) + Kompress-base (HuggingFace 専用モデル) + CacheAligner (KV cache 安定化) の 4 方式・BFCL 32% 圧縮で 97% 精度 / #3 CopilotKit/CopilotKit=Frontend/UI (見た目)・React/Angular/Vue/React Native の AI 生成 UI SDK・AG-UI Protocol 作者・Google/Microsoft/AWS/Oracle 採用・$27M Series A 調達済 / #4 lfnovo/open-notebook=Knowledge mgmt (知識)・NotebookLM の OSS 実装・OpenAI/Anthropic/Ollama/Groq/xAI など 18+ LLM 対応・1-4 話者ポッドキャスト生成・PDF/動画/Office 文書対応 / #5 affaan-m/ECC=Dev tooling harness (開発環境)・Claude Code/Cursor/Codex/Zed 用 harness・63 subagent + 251 skill + AgentShield 102 ルール + 8+ event hook・v2.0 でデスクトップ GUI 追加。冒頭マクロ核は『2026 年 6 月の Saturday (Sat=79 avg・週次 3 位の中位帯)、Primary ペルソナの CTO/技術選定者が週末に「来月の技術選定マップを整理する」タイミング』、トレンドは『AI 開発スタックの 5 層すべてに OSS デファクト候補が同日 Trending 入りする運用開始以来初の構図』。AG-UI Protocol を Google/Microsoft/AWS/Oracle が採用 (2026-03〜05 MarkTechPost / Mervin Praison 解説 / CopilotKit 公式 blog) + CopilotKit $27M Series A 調達 + Anthropic/OpenAI/Cursor の harness 公式化 + NotebookLM の OSS clone 加速の 4 つのマクロ伏線が同日収束。method=trend-pattern は 14d 内 n=1 だが 28d 3 件で avg 1.67、ただし過去 trend-pattern 成功条件 (5 リポを 1 つの macro で束ねられるか) を本日は 5/5 で満たす稀有な日。直近 5 日 (06-05 comparison / 06-04 ecosystem / 06-03 self-experiment / 06-02 comparison / 06-01 business-angle) と method 衝突なし、前回 trend-pattern 05-29 から 8 日空きで連投ルール完全非該当。柱②(business-angle) は 06-01・柱③(self-experiment) は 06-03 で本週 (06-01〜06-07) 消化済のため本日 Sat は柱① ローテーション主軸日として最適配置。素材適合度 5/5: 5 リポすべてが AI 開発スタックの異なる層を担当する稀有な構図、過去 trend-pattern 成功例 05-22 (skills エコシステム macro 明確で 3 views) を上回る macro 明確度。同ラインナップ重複は 06-05 と比較すると hermes-agent / headroom / ECC が継続 3 本、CopilotKit / open-notebook が新規 2 本、3 本以上重複は method 完全切替 (comparison → trend-pattern) でペナルティ回避。継続 3 本の角度切替: 06-03 self-experiment『Routine に入れるか』→ 06-04 ecosystem『どの層を担うか』→ 06-05 comparison『何の代替か』→ 本日 trend-pattern『なぜ今 5 層すべてが揃ったか』へ 4 連続で語彙完全切替、視聴者疲労を回避。ECC は本日で 5 日連続 TOP5 入りのため narration では『v2.0 デスクトップ GUI 追加』の新情報を 1 本入れて視聴者疲労を緩和。05-22 trend-pattern 3 views (14d TOP) の成功形式『5 本すべてに 1 つの macro 軸との位置関係を提示』を踏襲、05-17 trend-pattern 0 views (macro 不在で各 repo が単発並列) の反省として本日は『AI 開発スタック層別 OSS 化』macro 軸を全 5 本で完全共有。Primary (CTO/技術選定者) には『来月の技術選定マップ』、Secondary (PdM/事業責任者) には『AI 投資の対象が見えてきた』、Tertiary (学習中エンジニア) には『AI スタック全体地図の入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に trend-pattern は『この人は AI 業界の地図を持っている』シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行。Sat=79 avg 中位帯、最低 10 views (Sat 平均超え)、理想 80 views (Sat 上位帯への漸近) を目標。注記: 14d window で trend-pattern n=1 で統計有意性は弱いが、本選定は『直近 2 日 (comparison / ecosystem) 連投回避』+『前回 trend-pattern から 8 日空き連投ルール完全非該当』+『素材適合度 5/5 で 5 リポ macro 完全束ね』+『05-22 trend-pattern 3 views 成功条件再現』+『柱②/③ 既消化で柱① 主軸最適』の 5 根拠で確定。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/NousResearch/hermes-agent",
-          "https://github.com/chopratejas/headroom",
-          "https://github.com/CopilotKit/CopilotKit",
-          "https://github.com/lfnovo/open-notebook",
-          "https://github.com/affaan-m/ECC",
-          "https://www.copilotkit.ai/ag-ui",
-          "https://www.copilotkit.ai/blog/introducing-ag-ui-the-protocol-where-agents-meet-users",
-          "https://www.marktechpost.com/2026/05/21/how-copilotkit-is-redefining-the-agentic-ai-stack-in-2026/",
-          "https://mer.vin/2026/05/copilotkit-raises-m-why-the-agentic-frontend-stack-and-ag-ui-matter-for-production-ai-apps/",
-          "https://ai2.work/blog/copilotkit-raises-27m-to-make-ag-ui-the-standard-for-in-app-ai-agents",
-          "https://blogs.oracle.com/ai-and-datascience/announcing-agent-spec-for-a2ui-copilotkit-ag-ui"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-20T23:55:59.904Z"
-      }
-    },
-    {
       "videoId": "UM8PcpoHgc0",
       "videoUrl": "https://youtube.com/shorts/UM8PcpoHgc0",
       "date": "2026-06-07",
@@ -3959,7 +3899,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4018,7 +3958,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4073,7 +4013,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4127,7 +4067,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4181,7 +4121,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4240,7 +4180,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4298,7 +4238,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4357,7 +4297,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4417,7 +4357,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4475,7 +4415,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4533,7 +4473,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4591,7 +4531,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-04T00:31:33.351Z"
+        "updatedAt": "2026-09-05T00:26:14.475Z"
       }
     },
     {
@@ -4649,23 +4589,70 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-05T00:26:14.475Z"
+      }
+    },
+    {
+      "videoId": "UBLNdxo409w",
+      "videoUrl": "https://youtube.com/shorts/UBLNdxo409w",
+      "date": "2026-09-05",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/05 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Shell",
+        "JavaScript",
+        "Python"
+      ],
+      "languages": [
+        "Shell",
+        "JavaScript",
+        "Python"
+      ],
+      "projects": [
+        "mattpocock/skills",
+        "DietrichGebert/ponytail",
+        "affaan-m/ECC",
+        "debpalash/VoiceStudio",
+        "blader/humanizer"
+      ],
+      "durationSeconds": 47,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日 09-05 Sat (Sat=79 avg・週次 6 位下位帯・crisis-mode 24 日目) の TOP5 を『AI 開発運用ツールが5本並ぶ日、それぞれ受託とスタートアップでどの費目を削るか』business-angle 視点で 5 本横断料理する。素材構成: #1 mattpocock/skills=個人 .agents 配布 (受託チームの教育・品質統一費) / #2 DietrichGebert/ponytail=生成前抑制メタツール (LLM API 費) / #3 affaan-m/ECC=agent harness (受託チームの標準化費) / #4 debpalash/VoiceStudio=voice cloning 646 言語 (動画制作外注費) / #5 blader/humanizer=AI 生成痕跡除去 (マーケコピー外注費)。5 本全て『どの費目にいくら効くか』の切り口で語れる稀有な適合日。直近 2 日 (09-04 trend-pattern / 09-03 tech-deep) 連投ルールで両除外、exploit top-3 の残 (business-angle avg 1.29 n=17 首位 / ecosystem 1.19 n=16 / trend-pattern は連投違反) から business-angle を選定。前回 business-angle は 08-31 で 5 日空き、連投ルール非該当。柱ローテ 08-30/08-31 で柱② 消化・09-01 で柱③ 消化済のため本週内で柱② 再投入は許容、Primary (CTO/技術投資判断) と Secondary (PdM/事業責任者) の両ペルソナに直撃する費目削減ユーティリティで crisis-mode 24 日目突破を狙う。narration 一貫方針: 5 本すべてに『どの費目を削るか』を 1 文入れ、business-angle の統一シグナルを 55 秒間通奏低音として置く。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/DietrichGebert/ponytail",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/debpalash/VoiceStudio",
+          "https://github.com/blader/humanizer",
+          "https://news.ycombinator.com/from?site=github.com/mattpocock",
+          "https://news.ycombinator.com/from?site=github.com/anthropics",
+          "https://docs.claude.com/en/docs/claude-code/skills",
+          "https://agentskills.io"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-03",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 2 avg views (80 videos)",
-        "Trending languages: Markdown (1.5x), C# (1.8x), Java (1.4x), CSS (1.4x)",
-        "Day performance: Mon=2, Thu=2, Fri=2, Sat=2, Tue=1, Sun=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-04",
       "changes": [
@@ -5042,6 +5029,19 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
         "Day performance: Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-05",
+      "changes": [
+        "C++: 0.3x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.4x), C# (1.6x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.8x)",
+        "Day performance: Sat=1, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1, Fri=1"
       ],
       "recommendedTemplate": "standard"
     }
