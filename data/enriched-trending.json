@@ -1,19 +1,19 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 09-05 Sat (Sat=79 avg・週次 6 位下位帯・crisis-mode 24 日目) の TOP5 を『AI 開発運用ツールが5本並ぶ日、それぞれ受託とスタートアップでどの費目を削るか』business-angle 視点で 5 本横断料理する。素材構成: #1 mattpocock/skills=個人 .agents 配布 (受託チームの教育・品質統一費) / #2 DietrichGebert/ponytail=生成前抑制メタツール (LLM API 費) / #3 affaan-m/ECC=agent harness (受託チームの標準化費) / #4 debpalash/VoiceStudio=voice cloning 646 言語 (動画制作外注費) / #5 blader/humanizer=AI 生成痕跡除去 (マーケコピー外注費)。5 本全て『どの費目にいくら効くか』の切り口で語れる稀有な適合日。直近 2 日 (09-04 trend-pattern / 09-03 tech-deep) 連投ルールで両除外、exploit top-3 の残 (business-angle avg 1.29 n=17 首位 / ecosystem 1.19 n=16 / trend-pattern は連投違反) から business-angle を選定。前回 business-angle は 08-31 で 5 日空き、連投ルール非該当。柱ローテ 08-30/08-31 で柱② 消化・09-01 で柱③ 消化済のため本週内で柱② 再投入は許容、Primary (CTO/技術投資判断) と Secondary (PdM/事業責任者) の両ペルソナに直撃する費目削減ユーティリティで crisis-mode 24 日目突破を狙う。narration 一貫方針: 5 本すべてに『どの費目を削るか』を 1 文入れ、business-angle の統一シグナルを 55 秒間通奏低音として置く。",
+    "method": "comparison",
+    "description": "TOP5にmattpocock/skillsとanthropics/skillsが同時ランクイン、加えてECC・hermes-agent・opencodeの3agentが並ぶ稀な収束日を、Agent Skills標準とagent harnessの比較軸で5本横断料理する。素材構成: #1 mattpocock/skills=コミュニティskills配布(実務規律コマンド化) vs #5 anthropics/skills=公式Agent Skills標準リファレンス(YAML1枚形式)の直接対照、#2 ECC=単体skill配布ではなくagent harness全体を統合した『OS』的ポジション、#3 hermes-agent=Nous製の学習型agent(モデル選択自由・skills自作)、#4 opencode=CLI完結型OSSコーディングagent(CursorやCodexの代替)。直近2日(09-05 business-angle / 09-04 trend-pattern)連投ルールで両除外、exploit top-3の残(trend-pattern=連投違反 / comparison avg 0.33 n=6 14d / self-experiment avg 0.25 n=4 14d)からcomparisonを選定。前回comparisonは09-02で4日空き、連投ルール非該当。柱ローテ08-30/08-31/09-05(柱②) → 09-01(柱③)で本週柱②③下限満了済、柱①比率70%枠内に戻す最適日。narration一貫方針: 5本すべてを『類似の何と比較すると価値が見えるか』の対照軸で語り、CTOやPdMが技術選定で迷う瞬間に脳内で参照される『比較地図』を提供、Primary/Secondaryペルソナに直撃する。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/mattpocock/skills",
-      "https://github.com/DietrichGebert/ponytail",
+      "https://github.com/anthropics/skills",
       "https://github.com/affaan-m/ECC",
-      "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/blader/humanizer",
-      "https://news.ycombinator.com/from?site=github.com/mattpocock",
-      "https://news.ycombinator.com/from?site=github.com/anthropics",
+      "https://github.com/NousResearch/hermes-agent",
+      "https://github.com/anomalyco/opencode",
+      "https://agentskills.io",
       "https://docs.claude.com/en/docs/claude-code/skills",
-      "https://agentskills.io"
+      "https://news.ycombinator.com/from?site=github.com/anthropics",
+      "https://news.ycombinator.com/from?site=github.com/NousResearch"
     ],
     "query": "",
     "freshness_hours": 1
@@ -25,59 +25,59 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 250244,
-      "todayStars": 2757,
-      "description": "個人 .agents をパック化したスキル集",
-      "detail": "Matt Pocock が個人の .agents ディレクトリを npm と plugin で配布したスキル集です。TDD やコードレビューの手順を受託チームに配れます。Claude Code の plugin marketplace 経由で導入可能です。",
-      "narration": "受託の品質を揃えるスキル配布集です。TDD やコードレビュー手順を npm 経由で共有できます。"
+      "stars": 252492,
+      "todayStars": 2666,
+      "description": "実務家発のClaude Code向けskills集",
+      "detail": "TDD・code-review・diagnosing-bugsといった実務規律をコマンド化したskills配布集です。Anthropic公式形式に沿いつつ、Matt Pocockの現場ノウハウを即入れられます。",
+      "narration": "Claude Code向けskillsを実務家目線でまとめました。公式と併用でTDDやレビュー規律が入ります。"
     },
     {
       "rank": 2,
-      "fullName": "DietrichGebert/ponytail",
-      "name": "ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "language": "JavaScript",
-      "stars": 125818,
-      "todayStars": 1683,
-      "description": "生成前にまず書かないメタツール",
-      "detail": "生成 AI に「まず書かない」を教えるメタツールです。既存コードを探し重複を防ぎ、LOC-54%・コスト-20%・速度+27% を達成します。Claude Code や Cursor 15 種以上で動作します。",
-      "narration": "AI コーディング費を月 2 割削る決定ラダーです。生成前に既存コードを探し重複を潰します。"
-    },
-    {
-      "rank": 3,
       "fullName": "affaan-m/ECC",
       "name": "ECC",
       "url": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
-      "stars": 248443,
-      "todayStars": 1139,
-      "description": "受託標準を揃える agent harness",
-      "detail": "63 subagent と 251 skill、AgentShield 102 ルールを備えた agent harness です。受託チームで Claude Code や Cursor の品質を揃えられます。v2.0 でデスクトップ GUI が追加されました。",
-      "narration": "AI 受託の標準を揃える harness です。63 subagent と 251 skill で品質を担保できます。"
+      "stars": 249809,
+      "todayStars": 1325,
+      "description": "skills配布を超えるagent基盤",
+      "detail": "Claude CodeやCursorなど10種以上で動くagent harnessです。63のsubagent、251のskill、hookと記憶でチーム開発の規律を強制できます。",
+      "narration": "skills集ではなくagent基盤全体を統合したOSSです。Cursor含む10種で記憶とhookが動きます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "language": "Python",
+      "stars": 241970,
+      "todayStars": 573,
+      "description": "使うほど育つNous製学習agent",
+      "detail": "体験からskillsを自作し、会話履歴を自分で検索するNous Research製のagentです。モデルはOpenRouter経由で自由に選べ、DiscordやCLIまで届きます。",
+      "narration": "使うほどskillsを自作するNous製の学習agentです。OpenAIやOpenRouterから自由に選べます。"
     },
     {
       "rank": 4,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "language": "Python",
-      "stars": 17854,
-      "todayStars": 1345,
-      "description": "646 言語対応の voice OSS",
-      "detail": "ローカルで動く voice cloning と dubbing の OSS です。646 言語対応で吹き替えや文字起こしができ、動画制作の外注ナレーション費を単月で大きく削減できます。",
-      "narration": "動画ナレーションの外注費を消す voice ツールです。646 言語で吹き替えと文字起こしが動きます。"
+      "fullName": "anomalyco/opencode",
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "language": "TypeScript",
+      "stars": 204650,
+      "todayStars": 725,
+      "description": "OSSで動くCLIコーディングagent",
+      "detail": "Cursorに頼らずCLIで完結するOSSコーディングagentです。BuildとPlanの2種類のagentで書き換えと読解を分離でき、npmやHomebrewで簡単に導入できます。",
+      "narration": "Cursorの代わりにCLIで動くOSSコーディングagentです。BuildとPlanの二役で読み書きを使い分けます。"
     },
     {
       "rank": 5,
-      "fullName": "blader/humanizer",
-      "name": "humanizer",
-      "url": "https://github.com/blader/humanizer",
+      "fullName": "anthropics/skills",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
       "language": "Python",
-      "stars": 42646,
-      "todayStars": 1132,
-      "description": "AI 生成の痕跡を消して量産へ",
-      "detail": "生成 AI の文章から機械らしさを消す後処理ツールです。マーケコピーや SEO 記事を大量生産する現場で、外注のライター費用を月単位で圧縮できます。運用面のリスクは要確認事項です。",
-      "narration": "マーケコピーの外注費を月単位で圧縮するツールです。AI 生成の痕跡を消して量産できます。"
+      "stars": 174537,
+      "todayStars": 472,
+      "description": "Anthropic公式Agent Skills集",
+      "detail": "YAML1枚で作れるAnthropic公式のAgent Skillsリファレンスです。DOCXやPDF、Excelなど文書系skillsが揃い、Claude CodeとAPIの双方で使えます。",
+      "narration": "Anthropic公式のAgent Skills標準です。YAML1枚で作れ、mattpocock版と併用可能です。"
     }
   ]
 }
