@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "discovery": {
-    "method": "comparison",
-    "description": "TOP5にmattpocock/skillsとanthropics/skillsが同時ランクイン、加えてECC・hermes-agent・opencodeの3agentが並ぶ稀な収束日を、Agent Skills標準とagent harnessの比較軸で5本横断料理する。素材構成: #1 mattpocock/skills=コミュニティskills配布(実務規律コマンド化) vs #5 anthropics/skills=公式Agent Skills標準リファレンス(YAML1枚形式)の直接対照、#2 ECC=単体skill配布ではなくagent harness全体を統合した『OS』的ポジション、#3 hermes-agent=Nous製の学習型agent(モデル選択自由・skills自作)、#4 opencode=CLI完結型OSSコーディングagent(CursorやCodexの代替)。直近2日(09-05 business-angle / 09-04 trend-pattern)連投ルールで両除外、exploit top-3の残(trend-pattern=連投違反 / comparison avg 0.33 n=6 14d / self-experiment avg 0.25 n=4 14d)からcomparisonを選定。前回comparisonは09-02で4日空き、連投ルール非該当。柱ローテ08-30/08-31/09-05(柱②) → 09-01(柱③)で本週柱②③下限満了済、柱①比率70%枠内に戻す最適日。narration一貫方針: 5本すべてを『類似の何と比較すると価値が見えるか』の対照軸で語り、CTOやPdMが技術選定で迷う瞬間に脳内で参照される『比較地図』を提供、Primary/Secondaryペルソナに直撃する。",
+    "method": "trend-pattern",
+    "description": "今週のTOP5をSkills標準化の分水嶺として読み解く。#1 ECC(agent harness統合OS) + #2 mattpocock/skills(コミュニティ発skills) + #3 diagram-design(visual skill) + #4 hermes-agent(自己成長型) + #5 openai/skills(公式Skills)。特に09-06 anthropics/skillsに続いて09-07にopenai/skillsが同週トレンド入り、Anthropic + OpenAI + コミュニティの3陣営で公式Skillsが並ぶ稀な週。agent harnessとskillsの2層構造がAIツールの標準アーキテクチャとして固まりつつある。連投NG(09-06 comparison / 09-05 business-angle)で両除外、exploit top-3の残から素材適合首位はtrend-pattern(30d avg 0.33 n=3、全期間 avg 1.10 n=10で3位)を選定。柱①(70%比率)枠内で週次バランス最適日。narration方針: 5本すべてに『今なぜこのOSSが伸びているのかのマクロ視点』を織り込み、視聴者に『2026-09週=Skills標準化の分水嶺』のマクロ記憶を残す、CTOやPdMが技術投資判断で参照する時間軸の視座を提供する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/anthropics/skills",
       "https://github.com/affaan-m/ECC",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/cathrynlavery/diagram-design",
       "https://github.com/NousResearch/hermes-agent",
-      "https://github.com/anomalyco/opencode",
-      "https://agentskills.io",
+      "https://github.com/openai/skills",
+      "https://github.com/anthropics/skills",
       "https://docs.claude.com/en/docs/claude-code/skills",
-      "https://news.ycombinator.com/from?site=github.com/anthropics",
+      "https://news.ycombinator.com/from?site=github.com/openai",
       "https://news.ycombinator.com/from?site=github.com/NousResearch"
     ],
     "query": "",
@@ -21,63 +21,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 252492,
-      "todayStars": 2666,
-      "description": "実務家発のClaude Code向けskills集",
-      "detail": "TDD・code-review・diagnosing-bugsといった実務規律をコマンド化したskills配布集です。Anthropic公式形式に沿いつつ、Matt Pocockの現場ノウハウを即入れられます。",
-      "narration": "Claude Code向けskillsを実務家目線でまとめました。公式と併用でTDDやレビュー規律が入ります。"
-    },
-    {
-      "rank": 2,
       "fullName": "affaan-m/ECC",
       "name": "ECC",
       "url": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
-      "stars": 249809,
-      "todayStars": 1325,
-      "description": "skills配布を超えるagent基盤",
-      "detail": "Claude CodeやCursorなど10種以上で動くagent harnessです。63のsubagent、251のskill、hookと記憶でチーム開発の規律を強制できます。",
-      "narration": "skills集ではなくagent基盤全体を統合したOSSです。Cursor含む10種で記憶とhookが動きます。"
+      "stars": 251218,
+      "todayStars": 1486,
+      "description": "agent運用を束ねる統合基盤OS",
+      "detail": "Claude Code、Cursor、Codexなど10種以上のagentを1つに束ねる基盤です。63のsubagent、251のskill、記憶やhookを標準搭載し、チーム開発の規律を強制できます。",
+      "narration": "agent harnessをOSに束ねるOSSです。ClaudeやCursor横断で運用標準化の声が急拡大しています。"
+    },
+    {
+      "rank": 2,
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 254434,
+      "todayStars": 2206,
+      "description": "Matt Pocock発のskills配布集",
+      "detail": "TDD、code-review、diagnosing-bugsなど実務規律をコマンド化したskills集です。Anthropic公式のSkills形式に沿い、Claude Code pluginから即セットアップできます。",
+      "narration": "実務家発のskills配布集です。Skills標準化の流れがコミュニティ側から加速する象徴になっています。"
     },
     {
       "rank": 3,
+      "fullName": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars": 32288,
+      "todayStars": 621,
+      "description": "編集品質のdiagram生成skill",
+      "detail": "AIに指示するだけで、architectureやfishboneなど39種のdiagramをHTMLとSVGだけで生成できます。Mermaid slopではなく、単色アクセントで編集品質を狙う設計思想です。",
+      "narration": "編集品質のdiagramを描くAI向けskillです。Mermaidの雑さを卒業したい空気が今週強まっています。"
+    },
+    {
+      "rank": 4,
       "fullName": "NousResearch/hermes-agent",
       "name": "hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 241970,
-      "todayStars": 573,
-      "description": "使うほど育つNous製学習agent",
-      "detail": "体験からskillsを自作し、会話履歴を自分で検索するNous Research製のagentです。モデルはOpenRouter経由で自由に選べ、DiscordやCLIまで届きます。",
-      "narration": "使うほどskillsを自作するNous製の学習agentです。OpenAIやOpenRouterから自由に選べます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "anomalyco/opencode",
-      "name": "opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "language": "TypeScript",
-      "stars": 204650,
-      "todayStars": 725,
-      "description": "OSSで動くCLIコーディングagent",
-      "detail": "Cursorに頼らずCLIで完結するOSSコーディングagentです。BuildとPlanの2種類のagentで書き換えと読解を分離でき、npmやHomebrewで簡単に導入できます。",
-      "narration": "Cursorの代わりにCLIで動くOSSコーディングagentです。BuildとPlanの二役で読み書きを使い分けます。"
+      "stars": 242511,
+      "todayStars": 520,
+      "description": "Nous Research製の自己成長agent",
+      "detail": "使うほどskillsを自作し、会話履歴もFTS5で自分で検索するNous Research製agentです。OpenRouterやOpenAIなど任意モデルで、TelegramやDiscordから呼び出せます。",
+      "narration": "使うほど賢くなるNous Research製agentです。skills自作と記憶を掲げる自己成長派が伸びています。"
     },
     {
       "rank": 5,
-      "fullName": "anthropics/skills",
+      "fullName": "openai/skills",
       "name": "skills",
-      "url": "https://github.com/anthropics/skills",
+      "url": "https://github.com/openai/skills",
       "language": "Python",
-      "stars": 174537,
-      "todayStars": 472,
-      "description": "Anthropic公式Agent Skills集",
-      "detail": "YAML1枚で作れるAnthropic公式のAgent Skillsリファレンスです。DOCXやPDF、Excelなど文書系skillsが揃い、Claude CodeとAPIの双方で使えます。",
-      "narration": "Anthropic公式のAgent Skills標準です。YAML1枚で作れ、mattpocock版と併用可能です。"
+      "stars": 25600,
+      "todayStars": 44,
+      "description": "OpenAI公式のCodex向けSkills集",
+      "detail": "Codex向けにOpenAIが公開したSkillsカタログです。system、curated、experimentalの3層で管理され、Anthropic公式Skillsと並び標準化の分水嶺になっています。",
+      "narration": "OpenAI公式のCodex向けSkills集です。Anthropicに続き公式Skillsが並び、標準化の分水嶺です。"
     }
   ]
 }
