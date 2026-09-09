@@ -2,67 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "xl4elqiTjsY",
-      "videoUrl": "https://youtube.com/shorts/xl4elqiTjsY",
-      "date": "2026-06-10",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/10 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "C++",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "C++",
-        "TypeScript"
-      ],
-      "projects": [
-        "mvanhorn/last30days-skill",
-        "RyanCodrai/turbovec",
-        "roboflow/supervision",
-        "opencv/opencv",
-        "refactoringhq/tolaria"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "business-angle",
-        "description": "本日 06-10 Wed (Wed=153 avg・週次中位帯) の TOP5 を『受託 / スタートアップが組むなら月いくら削れて何人月浮くか』business-angle 角度で 5 本横断料理する。5 本の incumbent SaaS / 工数対応: #1 mvanhorn/last30days-skill (Python/37,171★/+3,177、4 日連続 TOP5・06-07 #1→06-08 #1→06-09 #1→06-10 #1 維持) = Perplexity Pro 月 20 USD + Tavily/Exa Search の月 50-200 USD + SerpAPI の月 75 USD を内製化、受託コンサル/個人事業主の商談前リサーチ工数を skill 1 枚に圧縮 / #2 RyanCodrai/turbovec (Python/10,105★/+1,800、2 日連続) = Pinecone の月 70 USD/百万ベクトル + Weaviate Cloud の月 25 USD + Qdrant Cloud 従量課金を止めて Python bindings で self-host、AI 検索プロダクトの vector DB 月額ゼロ / #3 roboflow/supervision (Python/42,944★/+735、新規初登場) = Roboflow 公式の Python CV 部品集、物体検出/追跡/annotation/データセット変換を部品化し受託 CV 案件の boilerplate 工数を週単位から日単位に圧縮、Roboflow Enterprise の月額契約から OSS 部分を抜き出して内製化 / #4 opencv/opencv (C++/88,600★/+169、再登板) = v5.0 リリースで不動の CV library が再加速、Vision LLM API (GPT-4V 月数百 USD / Gemini Vision 同等) の月額を止めて edge 推論で月額ゼロ・オフライン・GDPR/HIPAA 配慮の CV 基盤を組める / #5 refactoringhq/tolaria (TypeScript/14,274★/+821、2 日連続) = Notion チーム月 8-15 USD/user + Confluence + Obsidian Sync 月 4 USD を止めて local-first/git 連携で社内ナレッジを自前運用。冒頭マクロ核は『2026 年 6 月の Wednesday (Wed=153 avg・週次中位帯)、Primary ペルソナの CTO/技術選定者が週中盤に「月次の SaaS 棚卸し → OSS 内製化」の稟議書を書くタイミング』、トレンドは『AI agent + CV インフラの主要 SaaS に対して具体的金額を持つ OSS 代替が同日 5 リポすべてに対応する稀有な構図』。method=business-angle は 14d 内 n=1 (avg 1.00, 06-01=1) で母数小だが、06-01 から 9 日空きで連投ルール完全非該当、直近 2 日 (06-09 self-experiment / 06-08 comparison) と衝突なし、戦略柱② (比率 15%) の本週消化として配置。素材適合度 4.5/5: 5 リポすべてが具体的な月額 SaaS or 業務委託の代替を持つ、特に #1 last30days-skill + #2 turbovec + #5 tolaria は 1 対 1 の明確な incumbent (Perplexity / Pinecone / Notion) を持ち、#3 supervision + #4 opencv は受託 CV 案件の工数削減という現場直結軸で接続。継続 3 本の角度切替: #1 last30days-skill は 06-07 use-case → 06-08 comparison → 06-09 self-experiment → 本日 business-angle へ 4 連続完全切替で連投ペナルティ回避、#2 turbovec / #5 tolaria は 06-09 self-experiment から本日 business-angle へ語彙切替。新規 1 本 (#3 supervision = 完全新規初登場) + 再登板 1 本 (#4 opencv = 06-08 から 1 日空けて再登板) で素材ラインナップ鮮度確保、04-29-30 型の同 method × 同ラインナップ連投構造から構造的に外す。柱②(business-angle) は前週 06-01 で消化済、本週 (06-08〜06-14) は 06-09 self-experiment で柱③ 消化済、本日で柱② を消化し週次柱②③ 両方達成、Thu〜Sun は柱① ローテーション主軸で運用可能。Primary (CTO/技術選定者) には『月次 SaaS 棚卸しの稟議書素材』として直撃、Secondary (PdM/事業責任者) には『AI/CV インフラ予算の OSS 代替マップ』、Tertiary (学習中エンジニア) には『有償 SaaS の OSS 代替を学ぶ入口』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に business-angle は柱② の『この人は事業視点で技術を語れる』Primary ペルソナへの差別化シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (22 日連続成功継続中)。Wed=153 avg 中位帯、最低 15 views (Wed 平均超え)、理想 150 views (Wed 上位帯への漸近) を目標。注記: 14d window で business-angle n=1 で統計有意性は弱いが、本選定は『直近 2 日 (06-09 self-experiment / 06-08 comparison) 連投回避』+『前回 business-angle 06-01 から 9 日空き連投ルール完全非該当』+『素材適合度 4.5/5 で 5 リポすべてに具体的月額 SaaS or 工数削減対応』+『04-26 business-angle 11 views の成功条件「具体金額を全 5 本で提示」を踏襲、06-01 business-angle 1 view の反省「金額イメージが narration に乗らず detail にだけ書かれた」を解消』+『柱② 本週必須要件を Wed 中位帯で消化し週次柱②③ 両方達成』の 5 根拠で確定。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/mvanhorn/last30days-skill",
-          "https://github.com/RyanCodrai/turbovec",
-          "https://github.com/roboflow/supervision",
-          "https://github.com/opencv/opencv",
-          "https://github.com/refactoringhq/tolaria",
-          "https://www.perplexity.ai/pro",
-          "https://www.pinecone.io/pricing/",
-          "https://qdrant.tech/pricing/",
-          "https://www.notion.com/pricing",
-          "https://roboflow.com/pricing",
-          "https://opencv.org/releases/",
-          "https://docs.anthropic.com/en/docs/claude-code/skills"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
-      }
-    },
-    {
       "videoId": "VlNuQPawTX8",
       "videoUrl": "https://youtube.com/shorts/VlNuQPawTX8",
       "date": "2026-06-11",
@@ -3958,7 +3897,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4017,7 +3956,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4075,7 +4014,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4134,7 +4073,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4194,7 +4133,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4252,7 +4191,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4310,7 +4249,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4368,7 +4307,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4426,7 +4365,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4485,7 +4424,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4545,7 +4484,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4605,7 +4544,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-08T00:45:50.437Z"
+        "updatedAt": "2026-09-09T00:44:54.638Z"
       }
     },
     {
@@ -4663,24 +4602,71 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-09T00:44:54.638Z"
+      }
+    },
+    {
+      "videoId": "miw7e-nh9Gg",
+      "videoUrl": "https://youtube.com/shorts/miw7e-nh9Gg",
+      "date": "2026-09-09",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/09 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "HTML",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "HTML",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "projects": [
+        "ayghri/i-have-adhd",
+        "cathrynlavery/diagram-design",
+        "openai/skills",
+        "affaan-m/ECC",
+        "heygen-com/hyperframes"
+      ],
+      "durationSeconds": 48,
+      "discovery": {
+        "method": "comparison",
+        "description": "TOP5の5本すべてに強い比較対象OSSが存在する compare-friendly な日を、1対1の対照軸で5本統一料理する comparison 特化日。#1 i-have-adhd=素のシステムプロンプトvs10ルール標準化skill、#2 diagram-design=Mermaid slop/Figma手作業vs39種HTML+SVGエディトリアル図、#3 openai/skills=Anthropic版vsCodex専用(かつ本体deprecated→OpenAI Plugins移行)、#4 ECC=Claude Code単体harnessvs7harness横断の68agent/284skill統合OS、#5 hyperframes=Remotion(React+source-available)vsプレーンHTML+Apache 2.0+Lambda分散。連投NG(09-08 business-angle / 09-07 trend-pattern)で両除外、eligibleなmethod群から14d TOP method のcomparison(avg=0.67 n=3、TOP位)を投入。前回comparisonは09-06で3日空き、連投ルール非該当。柱ローテ: 09-08 business-angle(柱②)で今週(09-08〜09-14)の柱②下限確保済のため本日Wedは柱①主軸で問題なし。narration方針: 全5本に『類似○○と何が違うか』の2文構造(何をするか + 対照差)を織り込み、CTOやPdMが技術選定で迷う瞬間に脳内で参照される『比較地図』を提供、Primary/Secondaryペルソナに直撃する。#3 openai/skillsは本体deprecatedを正直に扱い、Anthropic vs OpenAI の標準化競争で誰が勝ちつつあるかの読み解きを1文で提供。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/ayghri/i-have-adhd",
+          "https://github.com/cathrynlavery/diagram-design",
+          "https://github.com/openai/skills",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/heygen-com/hyperframes",
+          "https://github.com/anthropics/skills",
+          "https://github.com/remotion-dev/remotion",
+          "https://mermaid.js.org/",
+          "https://docs.claude.com/en/docs/claude-code/skills",
+          "https://agentskills.io"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-08",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Jupyter Notebook: 1.4x avg views → boost",
-        "standard: 2 avg views (80 videos)",
-        "Trending languages: Markdown (1.7x), C# (1.8x), Java (1.4x), CSS (1.4x), Jupyter Notebook (1.6x), PowerShell (1.4x)",
-        "Day performance: Sat=2, Sun=2, Mon=2, Fri=2, Tue=2, Thu=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-09",
       "changes": [
@@ -5046,6 +5032,19 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-09",
+      "changes": [
+        "C++: 0.3x avg views → drop",
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "JavaScript: 0.8x avg views → drop",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
+        "Day performance: Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1"
       ],
       "recommendedTemplate": "standard"
     }
