@@ -2,64 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "VlNuQPawTX8",
-      "videoUrl": "https://youtube.com/shorts/VlNuQPawTX8",
-      "date": "2026-06-11",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/11 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Shell",
-        "TypeScript",
-        "Python"
-      ],
-      "languages": [
-        "Shell",
-        "TypeScript",
-        "Python"
-      ],
-      "projects": [
-        "addyosmani/agent-skills",
-        "phuryn/pm-skills",
-        "refactoringhq/tolaria",
-        "mvanhorn/last30days-skill",
-        "soxoj/maigret"
-      ],
-      "durationSeconds": 48,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "本日 06-11 Thu (Thu=176 avg・週次中位帯) の TOP5 を『2026 年 6 月 11 日、GitHub Trending TOP5 の 3/5 が skill 形式 OSS で占有、Anthropic Claude skill + Cowork marketplace が distribution layer として完全離陸した転換点』というマクロ核で 5 本横断料理する。5 本の skill 経済マッピング: #1 addyosmani/agent-skills (Shell/51,599★/+781、完全新規初登場) = Addy Osmani 本人の 23 個 production-grade engineering skills (spec/plan/build/test/review/code-simplify/ship)、Claude Code/Cursor/Gemini CLI/Windsurf/Copilot に外付け可能、`.claude/commands` 等の agent 固有ディレクトリで動作、skill marketplace の『著名個人 production-grade』段階の旗印 / #2 phuryn/pm-skills (Unknown/14,751★/+775、完全新規初登場) = 9 plugins / 68+ skills / 42 chained workflows で PM 業務全工程 (Discovery / Strategy / Execution / Market Research / Data Analytics / Go-to-Market / Marketing & Growth / Toolkit / AI Shipping) をカバー、`/discover` `/strategy` `/write-prd` 等の slash command で起動、skill marketplace の非エンジニア領域への拡張シグナル / #3 refactoringhq/tolaria (TypeScript/14,858★/+618、3 日連続 TOP5) = Markdown 中心のデスクトップ KB 管理アプリ、git 連携 + local-first で『AI agent が読みやすい自前 KB』のテンプレート、skill が参照する補完層 / #4 mvanhorn/last30days-skill (Python/39,006★/+2,561、5 日連続 TOP5 だが #1→#4 後退) = Reddit/X/YouTube/HN/Polymarket 横断の AI リサーチ skill、累計 +1,835★/14 日、skill marketplace の AI agent 向け代表作 / #5 soxoj/maigret (Python/31,962★/+261、完全新規初登場) = username 1 つから 3,000+ サイトを一括調査する OSINT CLI、Sherlock 上位互換 (recursive search + AI-assisted analysis + HTML/PDF/JSON 出力)、2026-04-26 dev release で更新継続、skill フォーマット普及前の『1 コマンドで定型作業を packaging』のラインを引いた pre-skill packaging の代表例。冒頭マクロ核は『過去 30 日で skill marketplace が 3 段階成熟 (05-21 last30days-skill 単独 → 06-08 google/skills 公式参入 → 06-11 agent-skills + pm-skills + last30days-skill 3 本同日)、エンジニア領域 (#1) + 非エンジニア領域 (#2) + AI agent 向け (#4) の用途横展開がほぼ同時に発生』、トレンドは『AI 時代の業務 packaging が skill / KB アプリ / OSINT CLI と複数フォーマットで同時並行進化する 2026 Q2 のマクロ転換点』。method=trend-pattern は 14d 内 n=2 (avg 1.00, 05-29=2 / 06-06=0) の WORST 帯だが、06-09 PDCA で『次回 skill 系 repo 3 本以上同日 TOP5 入りで独立化検討』と明示記録したトリガー条件が **本日初めて成立** したため、explore 側の意図的投入で次回以降の trend-pattern × 高素材適合度の検証データを取得。直近 2 日 (06-10 business-angle / 06-09 self-experiment) と method 衝突なし、前回 trend-pattern 06-06 から 5 日空きで連投ルール完全非該当、戦略柱① (比率 70%) として配置。素材適合度 5/5 (過去 trend-pattern 2 件で初): 5 リポすべてが skill marketplace マクロの 1 ピースとして接続できる構造、3 リポ (#1+#2+#4) は skill 本体、#3 tolaria は skill が参照する KB 補完層、#5 maigret は pre-skill packaging の代表として『skill 化以前の 1 コマンド packaging が再評価される逆流』で接続。継続 2 本の角度切替: #3 tolaria は 06-09 self-experiment → 06-10 business-angle → 本日 trend-pattern へ 3 連続角度完全切替、#4 last30days-skill は use-case → comparison → self-experiment → business-angle → 本日 trend-pattern へ 5 連続角度完全切替で連投ペナルティ回避。新規 3 本 (#1 agent-skills + #2 pm-skills + #5 maigret = 完全新規初登場) でラインナップ鮮度を最大化、過去 14 日で『同日 3 本新規初登場』は 05-30=7 / 06-02=7 と同等の好構成。柱② (business-angle) は本週 06-10 で消化、柱③ (self-experiment) は本週 06-09 で消化、本週柱②③ 両方達成済、本日は柱① 自由枠で Phase 1 の『時流を見抜く』信頼シグナル最大化。Primary (CTO/技術選定者) には『skill 化 / agent 化を社内に組み込むか判断する時期』として直撃、Secondary (PdM/事業責任者) には『PM 業務の skill 化が始まった』として #2 pm-skills が直撃 (本 channel の Primary 偏重を補正する稀有な機会)、Tertiary (学習中エンジニア) には『新しい配布フォーマットの誕生を観察できる』として届く 3 層対応。Phase 1 のフォロワー 1,000 到達を支える『信頼形成』に直接寄与、特に trend-pattern は柱① の『この人は時流を見抜ける』Primary ペルソナへの差別化シグナル。05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (23 日連続成功継続中)。Thu=176 avg 中位帯、最低 17 views (Thu 平均超え)、理想 180 views (Thu 上位帯への漸近) を目標。注記: 14d window で trend-pattern n=2 avg 1.00 は WORST 帯だが、本選定は『直近 2 日 (06-10 business-angle / 06-09 self-experiment) 連投回避』+『前回 trend-pattern 06-06 から 5 日空き連投ルール完全非該当』+『素材適合度 5/5: 過去 trend-pattern 2 件で初の 5/5 整合』+『06-09 PDCA で明示記録した独立化トリガー (skill 系 3 本以上) が本日成立』+『本週柱②③ 前倒し完了で柱① 自由枠』の 5 根拠で確定。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/phuryn/pm-skills",
-          "https://github.com/refactoringhq/tolaria",
-          "https://github.com/mvanhorn/last30days-skill",
-          "https://github.com/soxoj/maigret",
-          "https://docs.anthropic.com/en/docs/claude-code/skills",
-          "https://www.anthropic.com/news/claude-skills",
-          "https://addyosmani.com/blog/",
-          "https://news.ycombinator.com/from?site=github.com%2Faddyosmani"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-23T23:44:44.921Z"
-      }
-    },
-    {
       "videoId": "mA4K2m4wQlc",
       "videoUrl": "https://youtube.com/shorts/mA4K2m4wQlc",
       "date": "2026-06-12",
@@ -3956,7 +3898,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4014,7 +3956,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4073,7 +4015,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4133,7 +4075,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4191,7 +4133,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4249,7 +4191,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4307,7 +4249,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4365,7 +4307,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4421,10 +4363,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4484,7 +4426,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4544,7 +4486,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4602,7 +4544,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-09T00:44:54.638Z"
+        "updatedAt": "2026-09-10T00:40:53.480Z"
       }
     },
     {
@@ -4662,23 +4604,69 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
+        "updatedAt": "2026-09-10T00:40:53.480Z"
+      }
+    },
+    {
+      "videoId": "H7rWf6qIQXI",
+      "videoUrl": "https://youtube.com/shorts/H7rWf6qIQXI",
+      "date": "2026-09-10",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/10 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Python",
+        "TypeScript",
+        "Shell"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "Shell"
+      ],
+      "projects": [
+        "ayghri/i-have-adhd",
+        "Tencent/teamai-cli",
+        "obra/superpowers",
+        "pascalorg/editor",
+        "earthtojake/text-to-cad"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "use-case",
+        "description": "TOP5が『AIアシスタント返答矯正 / チームAI標準化 / SDLC方法論 / 3D建築 / CAD-CAE-CAM』の5分野に垂直特化した稀有な日を、『どんな現場の誰向けか + 何ができるようになるか』のjob-to-be-doneで5本統一料理するuse-case特化日。#1 i-have-adhdはAI回答の遠回しに疲れたソロ開発者向けskill、#2 Tencent/teamai-cliはチームでAIツールを揃えたい開発リーダー向けCLI、#3 obra/superpowersはアドホックAI開発を終わらせたいチーム向けframework、#4 pascalorg/editorは個人建築家とAI設計を両立させたい設計事務所向け3D editor、#5 earthtojake/text-to-cadは機械設計・試作を回すエンジニア向けskill群。連投NG(09-09 comparison / 09-08 business-angle)で両除外、eligibleなmethod群から素材適合5/5=100%(5本すべて明確なtarget user)のuse-caseをExplore傾斜で投入。前回use-caseは08-20で21日空き、連投ルール非該当。柱ローテ: 09-08 business-angle(柱②)で今週(09-08〜09-14)の柱②下限確保済のため本日Thuは柱①主軸で問題なし。narration方針: 全5本に『どんな人向けか(1文) + 何ができるようになるか(1文)』の2文構造を織り込み、CTOやPdMが技術選定で迷う瞬間に脳内で参照される『現場マップ』を提供、Primary/Secondaryペルソナに直撃する。#4 pascal editorのMCP経由AI協調は『AI導入コンサル』案件話に自然接続できる素材として保存。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/ayghri/i-have-adhd",
+          "https://github.com/Tencent/teamai-cli",
+          "https://github.com/obra/superpowers",
+          "https://github.com/pascalorg/editor",
+          "https://github.com/earthtojake/text-to-cad",
+          "https://docs.claude.com/en/docs/claude-code/skills",
+          "https://modelcontextprotocol.io/",
+          "https://github.com/anthropics/skills"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
         "updatedAt": null
       }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-09",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 2 avg views (80 videos)",
-        "Trending languages: Markdown (1.7x), C# (1.9x), Java (1.5x), CSS (1.5x), Jupyter Notebook (1.7x), PowerShell (1.5x)",
-        "Day performance: Mon=2, Fri=2, Sat=2, Tue=2, Sun=1, Thu=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-10",
       "changes": [
@@ -5045,6 +5033,18 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
         "Day performance: Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-10",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "Go: 1.3x avg views → boost",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
+        "Day performance: Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1"
       ],
       "recommendedTemplate": "standard"
     }
