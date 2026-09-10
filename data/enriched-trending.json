@@ -1,18 +1,19 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "discovery": {
-    "method": "use-case",
-    "description": "TOP5が『AIアシスタント返答矯正 / チームAI標準化 / SDLC方法論 / 3D建築 / CAD-CAE-CAM』の5分野に垂直特化した稀有な日を、『どんな現場の誰向けか + 何ができるようになるか』のjob-to-be-doneで5本統一料理するuse-case特化日。#1 i-have-adhdはAI回答の遠回しに疲れたソロ開発者向けskill、#2 Tencent/teamai-cliはチームでAIツールを揃えたい開発リーダー向けCLI、#3 obra/superpowersはアドホックAI開発を終わらせたいチーム向けframework、#4 pascalorg/editorは個人建築家とAI設計を両立させたい設計事務所向け3D editor、#5 earthtojake/text-to-cadは機械設計・試作を回すエンジニア向けskill群。連投NG(09-09 comparison / 09-08 business-angle)で両除外、eligibleなmethod群から素材適合5/5=100%(5本すべて明確なtarget user)のuse-caseをExplore傾斜で投入。前回use-caseは08-20で21日空き、連投ルール非該当。柱ローテ: 09-08 business-angle(柱②)で今週(09-08〜09-14)の柱②下限確保済のため本日Thuは柱①主軸で問題なし。narration方針: 全5本に『どんな人向けか(1文) + 何ができるようになるか(1文)』の2文構造を織り込み、CTOやPdMが技術選定で迷う瞬間に脳内で参照される『現場マップ』を提供、Primary/Secondaryペルソナに直撃する。#4 pascal editorのMCP経由AI協調は『AI導入コンサル』案件話に自然接続できる素材として保存。",
+    "method": "business-angle",
+    "description": "TOP5が『個人生産性skill / OSINT-GEOINT vertical / SDLC方法論 / 金融autonomous agent / チームAI governance』の5分野に垂直分岐した稀有な日、5本すべてに明確なSaaS対抗軸または受託案件角度が立つ素材適合5/5=100%の完璧なbusiness-angle日。#1 ayghri/i-have-adhdはプロンプト調整に時間を取られる個人開発者向けskill(時給換算で月数時間戻せる)、#2 bilawalsidhu/gods-eye-viewは商用OSINT SaaS(月1000ドル級のspatial intelligence dashboard)の代替を探す防衛や保険の受託案件向け3D地球儀、#3 obra/superpowersは受託SDLCを商品化したいチーム向けframework(TDDとsubagent駆動で品質担保つき単価設定の根拠)、#4 alsk1992/CloddsBotはCoinruleや3Commas(月30ドル+)を畳みたい個人アルゴトレ開発者向け自己ホスト型bot(1000市場をClaudeが監視)、#5 Tencent/teamai-cliはCursor BusinessやCopilot Enterprise(月40ドル/user)を止めたい開発リーダー向けCLI(1つのrepoでチームAI設定を一括配布)。連投NG(09-10 use-case / 09-09 comparison)で両除外、eligibleなmethod群から素材適合5/5=100%のbusiness-angleをExploit傾斜で投入、前回business-angleは09-08で3日空き連投ルール非該当。Fri=310 avg(週次最強帯)でPrimary(CTO/技術投資判断)への訴求最大化、narration方針は全5本に『どのSaaS/月額の代替か(1文)+ClaudeやOSSで何が置き換えられるか(1文)』の2文構造を織り込み、CTOやPdMが予算稟議で迷う瞬間に脳内で参照される『費目マップ』を提供、Primary/Secondaryペルソナに直撃する。#2 gods-eye-viewは『Halfpixelがhosted版を商用化予定』明言・#4 CloddsBotは『Coinrule/3Commas代替』明言・#5 teamai-cliは『Cursor Business代替』明言と3本が明示的incumbentマッピングを持つ稀有な日、cost-teardown method格上げの伏線としても最適。crisis-mode継続深化30日目、method-agnostic施策(opening 3秒フック / 柱④初導入 / タイトル書式A/B / 投稿時刻A/B)の優先度最上位化をstrategy.md追記提案候補として最優先で投入継続、9/13(Sun)柱④初導入の最終ロック継続、9/14(Mon)からタイトル書式・投稿時刻の週次A/B開始を強く推奨。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/ayghri/i-have-adhd",
-      "https://github.com/Tencent/teamai-cli",
+      "https://github.com/bilawalsidhu/gods-eye-view",
       "https://github.com/obra/superpowers",
-      "https://github.com/pascalorg/editor",
-      "https://github.com/earthtojake/text-to-cad",
-      "https://docs.claude.com/en/docs/claude-code/skills",
-      "https://modelcontextprotocol.io/",
-      "https://github.com/anthropics/skills"
+      "https://github.com/alsk1992/CloddsBot",
+      "https://github.com/Tencent/teamai-cli",
+      "https://3commas.io/pricing",
+      "https://coinrule.com/pricing",
+      "https://www.cursor.com/pricing",
+      "https://github.com/features/copilot"
     ],
     "query": "",
     "freshness_hours": 1
@@ -24,23 +25,23 @@
       "name": "i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
       "language": "Python",
-      "stars": 34404,
-      "todayStars": 4624,
-      "description": "AI回答の遠回し癖を潰すskill",
-      "detail": "Claude CodeやCursorに『答えを先に、番号手順で』を強制する10ルールのSKILL.mdです。プロンプト調整に疲れたソロ開発者が即入れられ、AI時間を毎日大きく削れます。",
-      "narration": "AIの回りくどい回答に疲れたソロ開発者向けskillです。10ルールで即答モードに切り替えられます。"
+      "stars": 38097,
+      "todayStars": 3854,
+      "description": "AIの遠回し回答を止めるskill",
+      "detail": "Claude CodeやCursorに『答えを先、番号手順で』を強制する10ルールのSKILL.mdです。プロンプト調整に時間を取られる個人開発者が即入れられ、月数時間分の思考時間を戻せます。",
+      "narration": "プロンプト調整時間を削りたい個人開発者向けskillです。1枚のSKILL.mdで冗長回答を止め月数時間戻せます。"
     },
     {
       "rank": 2,
-      "fullName": "Tencent/teamai-cli",
-      "name": "teamai-cli",
-      "url": "https://github.com/Tencent/teamai-cli",
-      "language": "TypeScript",
-      "stars": 2921,
-      "todayStars": 563,
-      "description": "チームAI設定を配るTencent製CLI",
-      "detail": "共有repoにskillとルールとdocsを置き、teamai initでメンバー全員のClaude CodeやCursorに一括同期するCLIです。エンジニアリング組織のAI標準化に向きます。",
-      "narration": "チームでAIツールを揃えたい開発リーダー向けのCLIです。共有repoからskillと設定を一括配布できます。"
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars": 24057,
+      "todayStars": 1588,
+      "description": "商用OSINT代替の3D地球儀",
+      "detail": "OpenSkyやAISやCelesTrakやNASA FIRMSの実データを1画面に集約するMIT製3D地球儀です。飛行機11000機や船や衛星を同時に見られ、防衛や保険の受託で商用OSINTの代替に使えます。",
+      "narration": "商用OSINT SaaSの代替を探す防衛や保険の受託案件向けです。実データの3D地球儀を1画面に集約できます。"
     },
     {
       "rank": 3,
@@ -48,35 +49,35 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 283990,
-      "todayStars": 690,
-      "description": "AI開発を方法論に変えるframework",
-      "detail": "brainstormingやTDDやsubagent駆動などのskillを組み、SDLC全工程を強制ワークフロー化するframeworkです。プロンプト頼みの現場を体系化したい受託チームに向きます。",
-      "narration": "AI開発をアドホックで終わらせたくないチーム向けのframeworkです。SDLC全工程をskill化して回せます。"
+      "stars": 284670,
+      "todayStars": 731,
+      "description": "AI開発のSDLC標準化framework",
+      "detail": "brainstormingやTDDやsubagent駆動などのskillでSDLC全工程を強制ワークフロー化するframeworkです。プロンプト頼みを止めたい受託チームが品質担保つき単価で見積もりを提示できます。",
+      "narration": "受託でAI駆動SDLCを商品化したいチーム向けの土台です。subagentとTDDで品質担保つき単価を提示できます。"
     },
     {
       "rank": 4,
-      "fullName": "pascalorg/editor",
-      "name": "editor",
-      "url": "https://github.com/pascalorg/editor",
+      "fullName": "alsk1992/CloddsBot",
+      "name": "CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
       "language": "TypeScript",
-      "stars": 22873,
-      "todayStars": 171,
-      "description": "AIと編める3D建築editor",
-      "detail": "React Three FiberとWebGPUで動くローカル優先の3D建築editorで、CLIがMCPを立ててAI agentが同じ図面を触れます。個人建築家とAI設計を両立したい設計事務所向けです。",
-      "narration": "個人建築家やAI設計者向けの3D editorです。ローカルCLIとMCPでAI agentと同じ図面を編集できます。"
+      "stars": 1598,
+      "todayStars": 299,
+      "description": "1000市場を回すClaude製bot",
+      "detail": "Polymarketや7つのperp取引所や10のprediction marketをClaudeで監視し発注する自己ホスト型botです。119のskillとMCP統合、3Commasの月30ドルを個人トレーダーが畳めます。",
+      "narration": "3Commasの月30ドルを畳みたい個人アルゴトレ開発者向けです。Claudeが1000市場を24時間監視し発注します。"
     },
     {
       "rank": 5,
-      "fullName": "earthtojake/text-to-cad",
-      "name": "text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "language": "Python",
-      "stars": 15010,
-      "todayStars": 97,
-      "description": "AIでSTEPを吐くCAD skill群",
-      "detail": "CAD生成やDXFやURDFやG-codeスライスなど約10種のskillでAI agentから直接STEPや3MFを生成できます。試作を高速化したい機械設計者や個人プロダクトデザイナー向けです。",
-      "narration": "機械設計や試作を回すエンジニア向けskill群です。テキストからSTEPやG-codeを直接生成できます。"
+      "fullName": "Tencent/teamai-cli",
+      "name": "teamai-cli",
+      "url": "https://github.com/Tencent/teamai-cli",
+      "language": "TypeScript",
+      "stars": 3742,
+      "todayStars": 837,
+      "description": "チームAI設定を配るTencent製CLI",
+      "detail": "共有repoにskillとルールとdocsを置きteamai initで全員のClaude CodeやCursorに一括同期するTencent公式CLIです。Cursor Businessの40ドル月額を止めたい開発リーダーに向きます。",
+      "narration": "Cursor Businessの40ドル月額を畳みたい開発リーダー向けCLIです。1つのrepoからAI設定を配れます。"
     }
   ]
 }
