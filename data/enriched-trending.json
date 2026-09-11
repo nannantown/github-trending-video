@@ -1,19 +1,15 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "discovery": {
-    "method": "business-angle",
-    "description": "TOP5が『個人生産性skill / OSINT-GEOINT vertical / SDLC方法論 / 金融autonomous agent / チームAI governance』の5分野に垂直分岐した稀有な日、5本すべてに明確なSaaS対抗軸または受託案件角度が立つ素材適合5/5=100%の完璧なbusiness-angle日。#1 ayghri/i-have-adhdはプロンプト調整に時間を取られる個人開発者向けskill(時給換算で月数時間戻せる)、#2 bilawalsidhu/gods-eye-viewは商用OSINT SaaS(月1000ドル級のspatial intelligence dashboard)の代替を探す防衛や保険の受託案件向け3D地球儀、#3 obra/superpowersは受託SDLCを商品化したいチーム向けframework(TDDとsubagent駆動で品質担保つき単価設定の根拠)、#4 alsk1992/CloddsBotはCoinruleや3Commas(月30ドル+)を畳みたい個人アルゴトレ開発者向け自己ホスト型bot(1000市場をClaudeが監視)、#5 Tencent/teamai-cliはCursor BusinessやCopilot Enterprise(月40ドル/user)を止めたい開発リーダー向けCLI(1つのrepoでチームAI設定を一括配布)。連投NG(09-10 use-case / 09-09 comparison)で両除外、eligibleなmethod群から素材適合5/5=100%のbusiness-angleをExploit傾斜で投入、前回business-angleは09-08で3日空き連投ルール非該当。Fri=310 avg(週次最強帯)でPrimary(CTO/技術投資判断)への訴求最大化、narration方針は全5本に『どのSaaS/月額の代替か(1文)+ClaudeやOSSで何が置き換えられるか(1文)』の2文構造を織り込み、CTOやPdMが予算稟議で迷う瞬間に脳内で参照される『費目マップ』を提供、Primary/Secondaryペルソナに直撃する。#2 gods-eye-viewは『Halfpixelがhosted版を商用化予定』明言・#4 CloddsBotは『Coinrule/3Commas代替』明言・#5 teamai-cliは『Cursor Business代替』明言と3本が明示的incumbentマッピングを持つ稀有な日、cost-teardown method格上げの伏線としても最適。crisis-mode継続深化30日目、method-agnostic施策(opening 3秒フック / 柱④初導入 / タイトル書式A/B / 投稿時刻A/B)の優先度最上位化をstrategy.md追記提案候補として最優先で投入継続、9/13(Sun)柱④初導入の最終ロック継続、9/14(Mon)からタイトル書式・投稿時刻の週次A/B開始を強く推奨。",
+    "method": "ecosystem",
+    "description": "TOP5 の各 OSS を既存ツール群のどこに位置づけるかで整理し、AI × OSS 交差点のマップを提供する",
     "sources": [
       "https://github.com/trending",
       "https://github.com/ayghri/i-have-adhd",
       "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/obra/superpowers",
-      "https://github.com/alsk1992/CloddsBot",
-      "https://github.com/Tencent/teamai-cli",
-      "https://3commas.io/pricing",
-      "https://coinrule.com/pricing",
-      "https://www.cursor.com/pricing",
-      "https://github.com/features/copilot"
+      "https://github.com/nab138/iloader",
+      "https://github.com/melgarafael/DeskcommCRM",
+      "https://github.com/vastsa/PI-Desktop"
     ],
     "query": "",
     "freshness_hours": 1
@@ -25,11 +21,11 @@
       "name": "i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
       "language": "Python",
-      "stars": 38097,
-      "todayStars": 3854,
-      "description": "AIの遠回し回答を止めるskill",
-      "detail": "Claude CodeやCursorに『答えを先、番号手順で』を強制する10ルールのSKILL.mdです。プロンプト調整に時間を取られる個人開発者が即入れられ、月数時間分の思考時間を戻せます。",
-      "narration": "プロンプト調整時間を削りたい個人開発者向けskillです。1枚のSKILL.mdで冗長回答を止め月数時間戻せます。"
+      "stars": 41600,
+      "todayStars": 3440,
+      "description": "Skills標準化の一枚SKILL.md",
+      "detail": "Claude、Cursor、Codex、Gemini、Kimi、Qwenなど主要LLMに同じ返答スタイルを効かせるSkills標準化の一枚。SKILL.mdを置くだけで要点先出しと番号付き手順が効き、前置きや冗長回答を抑えられます。",
+      "narration": "LLMの返答を横串で揃えるSkills標準の一枚です。Claude、Cursor、Codexを同じ形式に整えます。"
     },
     {
       "rank": 2,
@@ -37,47 +33,47 @@
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 24057,
-      "todayStars": 1588,
-      "description": "商用OSINT代替の3D地球儀",
-      "detail": "OpenSkyやAISやCelesTrakやNASA FIRMSの実データを1画面に集約するMIT製3D地球儀です。飛行機11000機や船や衛星を同時に見られ、防衛や保険の受託で商用OSINTの代替に使えます。",
-      "narration": "商用OSINT SaaSの代替を探す防衛や保険の受託案件向けです。実データの3D地球儀を1画面に集約できます。"
+      "stars": 26948,
+      "todayStars": 3642,
+      "description": "地理空間OSINTの3D地球儀",
+      "detail": "CesiumJSとOpenAI Realtime APIで作られた3D地球儀。OpenSkyやAIS、CelesTrak、NASA FIRMSなど公開OSINTデータを1画面に統合し、飛行機や船、衛星、火災まで音声で扱えます。",
+      "narration": "地理空間OSINTを一枚化する3D地球儀です。OpenSkyやNASA FIRMSの実データを1画面に集約できます。"
     },
     {
       "rank": 3,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 284670,
-      "todayStars": 731,
-      "description": "AI開発のSDLC標準化framework",
-      "detail": "brainstormingやTDDやsubagent駆動などのskillでSDLC全工程を強制ワークフロー化するframeworkです。プロンプト頼みを止めたい受託チームが品質担保つき単価で見積もりを提示できます。",
-      "narration": "受託でAI駆動SDLCを商品化したいチーム向けの土台です。subagentとTDDで品質担保つき単価を提示できます。"
+      "fullName": "nab138/iloader",
+      "name": "iloader",
+      "url": "https://github.com/nab138/iloader",
+      "language": "TypeScript",
+      "stars": 2891,
+      "todayStars": 36,
+      "description": "iOS sideloadingの管理層",
+      "detail": "Tauri+Rustで作られたiOS sideloading管理ツール。SideStoreやAltStoreの証明書取り込みとペアリングファイル配置を自動化し、エラー時のヒントや失効管理まで面倒を見る管理層です。",
+      "narration": "iOS sideloadingを束ねるTauri製の管理層です。SideStoreの証明書とペアリングを自動処理します。"
     },
     {
       "rank": 4,
-      "fullName": "alsk1992/CloddsBot",
-      "name": "CloddsBot",
-      "url": "https://github.com/alsk1992/CloddsBot",
+      "fullName": "melgarafael/DeskcommCRM",
+      "name": "DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
       "language": "TypeScript",
-      "stars": 1598,
-      "todayStars": 299,
-      "description": "1000市場を回すClaude製bot",
-      "detail": "Polymarketや7つのperp取引所や10のprediction marketをClaudeで監視し発注する自己ホスト型botです。119のskillとMCP統合、3Commasの月30ドルを個人トレーダーが畳めます。",
-      "narration": "3Commasの月30ドルを畳みたい個人アルゴトレ開発者向けです。Claudeが1000市場を24時間監視し発注します。"
+      "stars": 1306,
+      "todayStars": 126,
+      "description": "WhatsApp商流の自己ホストCRM",
+      "detail": "WhatsAppでの商談を軸に設計された自己ホスト型CRM。Next.js 16とSupabase、pgvector、MCPで組まれ、AIエージェントがリード対応と案件進行を担当。Kommo等の月額SaaSを畳んで自社所有できます。",
+      "narration": "WhatsApp商流のCRMをOSSで完結させる自己ホスト型です。Next.jsとMCPで既存商用SaaSを畳めます。"
     },
     {
       "rank": 5,
-      "fullName": "Tencent/teamai-cli",
-      "name": "teamai-cli",
-      "url": "https://github.com/Tencent/teamai-cli",
+      "fullName": "vastsa/PI-Desktop",
+      "name": "PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
       "language": "TypeScript",
-      "stars": 3742,
-      "todayStars": 837,
-      "description": "チームAI設定を配るTencent製CLI",
-      "detail": "共有repoにskillとルールとdocsを置きteamai initで全員のClaude CodeやCursorに一括同期するTencent公式CLIです。Cursor Businessの40ドル月額を止めたい開発リーダーに向きます。",
-      "narration": "Cursor Businessの40ドル月額を畳みたい開発リーダー向けCLIです。1つのrepoからAI設定を配れます。"
+      "stars": 2759,
+      "todayStars": 545,
+      "description": "AI IDE群と並ぶ中立ホスト",
+      "detail": "Electron+Rustで構成されたベンダー中立のAIコーディング作業台。OpenAI、Anthropic、DeepSeek、Ollamaを切り替え、skillsやMCP、subagent、.piplugを組んで自分専用の環境を作れます。",
+      "narration": "AI IDE群の隣に立つ中立な作業台です。Electron+Rustにskills、MCP、subagentを刺せます。"
     }
   ]
 }
