@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "discovery": {
-    "method": "ecosystem",
-    "description": "TOP5 の各 OSS を既存ツール群のどこに位置づけるかで整理し、AI × OSS 交差点のマップを提供する",
+    "method": "trend-pattern",
+    "description": "2026 秋の OSS を『主権 (sovereignty) の再分配』マクロ潮流で読み解き、TOP5 を情報機関・SaaS・AI 企業・Apple・国家という 5 つの権力構造を回避/可視化/分散する 5 本柱として整理する (柱④ 業界読み解き初導入)",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/ayghri/i-have-adhd",
       "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/nab138/iloader",
       "https://github.com/melgarafael/DeskcommCRM",
-      "https://github.com/vastsa/PI-Desktop"
+      "https://github.com/asgeirtj/system_prompts_leaks",
+      "https://github.com/nab138/iloader",
+      "https://github.com/Flowseal/zapret-discord-youtube"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "language": "Python",
-      "stars": 41600,
-      "todayStars": 3440,
-      "description": "Skills標準化の一枚SKILL.md",
-      "detail": "Claude、Cursor、Codex、Gemini、Kimi、Qwenなど主要LLMに同じ返答スタイルを効かせるSkills標準化の一枚。SKILL.mdを置くだけで要点先出しと番号付き手順が効き、前置きや冗長回答を抑えられます。",
-      "narration": "LLMの返答を横串で揃えるSkills標準の一枚です。Claude、Cursor、Codexを同じ形式に整えます。"
-    },
-    {
-      "rank": 2,
       "fullName": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 26948,
-      "todayStars": 3642,
-      "description": "地理空間OSINTの3D地球儀",
-      "detail": "CesiumJSとOpenAI Realtime APIで作られた3D地球儀。OpenSkyやAIS、CelesTrak、NASA FIRMSなど公開OSINTデータを1画面に統合し、飛行機や船、衛星、火災まで音声で扱えます。",
-      "narration": "地理空間OSINTを一枚化する3D地球儀です。OpenSkyやNASA FIRMSの実データを1画面に集約できます。"
+      "stars": 29723,
+      "todayStars": 2265,
+      "description": "軍事情報を市民に開く3D地球儀",
+      "detail": "CesiumJSとOpenAI Realtime APIで組んだ市民向け3D地球儀。OpenSky、AIS、CelesTrak、NASA FIRMSなどの公開データを1画面に集約し、飛行機11,000機や船、衛星838個、火災まで音声で扱えます。",
+      "narration": "情報機関の可視化を市民に開く3D地球儀です。飛行機、船、衛星、火災まで公開データで追えます。"
     },
     {
-      "rank": 3,
-      "fullName": "nab138/iloader",
-      "name": "iloader",
-      "url": "https://github.com/nab138/iloader",
-      "language": "TypeScript",
-      "stars": 2891,
-      "todayStars": 36,
-      "description": "iOS sideloadingの管理層",
-      "detail": "Tauri+Rustで作られたiOS sideloading管理ツール。SideStoreやAltStoreの証明書取り込みとペアリングファイル配置を自動化し、エラー時のヒントや失効管理まで面倒を見る管理層です。",
-      "narration": "iOS sideloadingを束ねるTauri製の管理層です。SideStoreの証明書とペアリングを自動処理します。"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "fullName": "melgarafael/DeskcommCRM",
       "name": "DeskcommCRM",
       "url": "https://github.com/melgarafael/DeskcommCRM",
       "language": "TypeScript",
-      "stars": 1306,
-      "todayStars": 126,
-      "description": "WhatsApp商流の自己ホストCRM",
-      "detail": "WhatsAppでの商談を軸に設計された自己ホスト型CRM。Next.js 16とSupabase、pgvector、MCPで組まれ、AIエージェントがリード対応と案件進行を担当。Kommo等の月額SaaSを畳んで自社所有できます。",
-      "narration": "WhatsApp商流のCRMをOSSで完結させる自己ホスト型です。Next.jsとMCPで既存商用SaaSを畳めます。"
+      "stars": 1775,
+      "todayStars": 505,
+      "description": "WhatsApp商流の脱SaaS CRM",
+      "detail": "Next.js 16とSupabase、pgvector、MCPで組んだWhatsApp商流CRM。AIエージェントがリード対応と営業パイプラインを回し、KommoやIntercomなど月額SaaSを畳んで自社所有できます。",
+      "narration": "商用SaaSの月額を畳むWhatsApp向け自己ホストCRMです。Next.js16とAIエージェントで営業を回します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "name": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "language": "JavaScript",
+      "stars": 65360,
+      "todayStars": 357,
+      "description": "AI企業秘密を晒す透明化アーカイブ",
+      "detail": "Claude、ChatGPT、Grok、Geminiなど20社以上のAIサービスの内部システムプロンプトを集めた透明化アーカイブ。CC0で公開され、AI透明性運動のインフラとして機能します。",
+      "narration": "AIのシステムプロンプトを集める透明化プロジェクトです。Claude、ChatGPT、Geminiの中身を比べられます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "nab138/iloader",
+      "name": "iloader",
+      "url": "https://github.com/nab138/iloader",
+      "language": "TypeScript",
+      "stars": 3066,
+      "todayStars": 209,
+      "description": "Apple配布権を分散するiOS層",
+      "detail": "Tauri+Rustで組まれたiOSサイドローダーのデスクトップ管理層。SideStoreやAltStoreの証明書取り込みとペアリングファイル配置を自動化し、Windows、macOS、Linuxで動きます。",
+      "narration": "Appleの配布権を薄めるiOSサイドローダーです。SideStoreの証明書やペアリングを自動化します。"
     },
     {
       "rank": 5,
-      "fullName": "vastsa/PI-Desktop",
-      "name": "PI-Desktop",
-      "url": "https://github.com/vastsa/PI-Desktop",
-      "language": "TypeScript",
-      "stars": 2759,
-      "todayStars": 545,
-      "description": "AI IDE群と並ぶ中立ホスト",
-      "detail": "Electron+Rustで構成されたベンダー中立のAIコーディング作業台。OpenAI、Anthropic、DeepSeek、Ollamaを切り替え、skillsやMCP、subagent、.piplugを組んで自分専用の環境を作れます。",
-      "narration": "AI IDE群の隣に立つ中立な作業台です。Electron+Rustにskills、MCP、subagentを刺せます。"
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "name": "zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "language": "Batchfile",
+      "stars": 33201,
+      "todayStars": 52,
+      "description": "国家検閲DPIを抜けるWin層",
+      "detail": "WinDivertとFAKE TLSなどのDPI回避戦略を束ねたWindows向け検閲回避ツール。ロシアなどでブロックされたDiscord、YouTube、Telegramへの接続を復旧します。",
+      "narration": "国家によるネット検閲を回避するWindowsツールです。DPI検知をすり抜けDiscordやYouTubeに繋げます。"
     }
   ]
 }
