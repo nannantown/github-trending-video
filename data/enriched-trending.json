@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "2026 秋の OSS を『主権 (sovereignty) の再分配』マクロ潮流で読み解き、TOP5 を情報機関・SaaS・AI 企業・Apple・国家という 5 つの権力構造を回避/可視化/分散する 5 本柱として整理する (柱④ 業界読み解き初導入)",
+    "method": "use-case",
+    "description": "TOP5 を『誰がどんな現場でどう使うか』の具体シーンで統一。ソロ開発者の推論卓、フリーランスの業務基盤、OSINT取材の可視化、複数AI IDE のスキル配布、中小企業の WhatsApp 商流 CRM の 5 現場に 1:1 マッピング (柱① 主軸、月曜=engineer 濃度の高い曜日で use-case exploit)",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/JustVugg/colibri",
+      "https://github.com/ever-co/ever-gauzy",
       "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/melgarafael/DeskcommCRM",
-      "https://github.com/asgeirtj/system_prompts_leaks",
-      "https://github.com/nab138/iloader",
-      "https://github.com/Flowseal/zapret-discord-youtube"
+      "https://github.com/tech-leads-club/agent-skills",
+      "https://github.com/melgarafael/DeskcommCRM"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "JustVugg/colibri",
+      "name": "colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "language": "C",
+      "stars": 29690,
+      "todayStars": 960,
+      "description": "余ったSSDでフロンティアMoEを回す",
+      "detail": "VRAMとRAMとNVMe SSDを一つのメモリ階層と見なす純C推論エンジン。routed MoEを19MB単位でSSDから流し込み、128GBのMacBookでも1.8 tokens/秒でGLM-5.2やKimi K3を回せます。",
+      "narration": "フロンティアMoEをSSDから流し込む推論エンジンです。128GBのMacでもGPU無しで動きます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "ever-co/ever-gauzy",
+      "name": "ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "language": "TypeScript",
+      "stars": 4995,
+      "todayStars": 58,
+      "description": "小規模チーム向け統合業務OSS",
+      "detail": "フリーランスとエージェンシー向けの統合業務OSS。ERP、CRM、HRM、ATS、時間管理、請求までNestJSとAngularで束ね、AGPL-3.0で自己ホストしてOdooやZohoの代替に使えます。",
+      "narration": "フリーランスとエージェンシー向けの統合業務OSSです。時間管理、請求、CRM、採用まで1画面で回せます。"
+    },
+    {
+      "rank": 3,
       "fullName": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 29723,
-      "todayStars": 2265,
-      "description": "軍事情報を市民に開く3D地球儀",
-      "detail": "CesiumJSとOpenAI Realtime APIで組んだ市民向け3D地球儀。OpenSky、AIS、CelesTrak、NASA FIRMSなどの公開データを1画面に集約し、飛行機11,000機や船、衛星838個、火災まで音声で扱えます。",
-      "narration": "情報機関の可視化を市民に開く3D地球儀です。飛行機、船、衛星、火災まで公開データで追えます。"
+      "stars": 31769,
+      "todayStars": 2898,
+      "description": "OSINT向けブラウザ3D地球儀",
+      "detail": "CesiumJSとOpenAI Realtime APIで組んだ3D地球儀。OpenSky、AIS、CelesTrak、NASA FIRMSなど13レイヤーを1画面に集約し、OSINTや報道の現場で公開データを音声から扱えます。",
+      "narration": "OSINT取材の現場で衛星と飛行機を1画面で追えます。ブラウザだけでCesiumJSと公開データを扱えます。"
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "fullName": "tech-leads-club/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "language": "TypeScript",
+      "stars": 5609,
+      "todayStars": 215,
+      "description": "AI開発者の共通スキルレジストリ",
+      "detail": "Claude Code、Cursor、Cline、Copilotなど主要AIエージェント向けの共通スキルレジストリ。Snyk検査済みSKILL.mdをCLI一発で複数IDEに配布でき、13%の脆弱性報告を回避できます。",
+      "narration": "Claude CodeやCursorに共通スキルを配るレジストリです。セキュリティ検査済みで一括導入できます。"
+    },
+    {
+      "rank": 5,
       "fullName": "melgarafael/DeskcommCRM",
       "name": "DeskcommCRM",
       "url": "https://github.com/melgarafael/DeskcommCRM",
       "language": "TypeScript",
-      "stars": 1775,
-      "todayStars": 505,
-      "description": "WhatsApp商流の脱SaaS CRM",
-      "detail": "Next.js 16とSupabase、pgvector、MCPで組んだWhatsApp商流CRM。AIエージェントがリード対応と営業パイプラインを回し、KommoやIntercomなど月額SaaSを畳んで自社所有できます。",
-      "narration": "商用SaaSの月額を畳むWhatsApp向け自己ホストCRMです。Next.js16とAIエージェントで営業を回します。"
-    },
-    {
-      "rank": 3,
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "name": "system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "language": "JavaScript",
-      "stars": 65360,
-      "todayStars": 357,
-      "description": "AI企業秘密を晒す透明化アーカイブ",
-      "detail": "Claude、ChatGPT、Grok、Geminiなど20社以上のAIサービスの内部システムプロンプトを集めた透明化アーカイブ。CC0で公開され、AI透明性運動のインフラとして機能します。",
-      "narration": "AIのシステムプロンプトを集める透明化プロジェクトです。Claude、ChatGPT、Geminiの中身を比べられます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "nab138/iloader",
-      "name": "iloader",
-      "url": "https://github.com/nab138/iloader",
-      "language": "TypeScript",
-      "stars": 3066,
-      "todayStars": 209,
-      "description": "Apple配布権を分散するiOS層",
-      "detail": "Tauri+Rustで組まれたiOSサイドローダーのデスクトップ管理層。SideStoreやAltStoreの証明書取り込みとペアリングファイル配置を自動化し、Windows、macOS、Linuxで動きます。",
-      "narration": "Appleの配布権を薄めるiOSサイドローダーです。SideStoreの証明書やペアリングを自動化します。"
-    },
-    {
-      "rank": 5,
-      "fullName": "Flowseal/zapret-discord-youtube",
-      "name": "zapret-discord-youtube",
-      "url": "https://github.com/Flowseal/zapret-discord-youtube",
-      "language": "Batchfile",
-      "stars": 33201,
-      "todayStars": 52,
-      "description": "国家検閲DPIを抜けるWin層",
-      "detail": "WinDivertとFAKE TLSなどのDPI回避戦略を束ねたWindows向け検閲回避ツール。ロシアなどでブロックされたDiscord、YouTube、Telegramへの接続を復旧します。",
-      "narration": "国家によるネット検閲を回避するWindowsツールです。DPI検知をすり抜けDiscordやYouTubeに繋げます。"
+      "stars": 2154,
+      "todayStars": 444,
+      "description": "WhatsApp商流の自己ホストCRM",
+      "detail": "Next.js 16、Supabase、pgvector、MCPで組んだWhatsApp向け自己ホストCRM。AIエージェントがRAGでリード対応と営業パイプラインを回し、KommoやIntercomの月額支配を畳めます。",
+      "narration": "WhatsAppで商談する中小企業向けの自己ホスト型AI CRMです。営業と案件管理を1つに束ねられます。"
     }
   ]
 }
