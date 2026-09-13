@@ -2,114 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "Er9XYNI--FI",
-      "videoUrl": "https://youtube.com/shorts/Er9XYNI--FI",
-      "date": "2026-06-13",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/13 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Shell",
-        "Python",
-        "TypeScript",
-        "Swift"
-      ],
-      "projects": [
-        "addyosmani/agent-skills",
-        "music-assistant/server",
-        "mattermost/mattermost",
-        "apple/container",
-        "iptv-org/iptv"
-      ],
-      "durationSeconds": 47,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "週末に組み立てる self-host スタック — 本日 06-13 Sat (Sat=79 avg・週末モード・週末 DIY 文脈) の TOP5 を『有償 SaaS / クローズド機器に頼らず OSS だけで縦に組み上げる自分のデジタル環境 5 層』として束ねて 1 本の実装ガイドに整える。5 リポの層対応マッピング: #1 addyosmani/agent-skills (Shell/56,702★/+2,660、3 日連続 TOP5・06-11 #1 → 06-12 #2 → 06-13 #1 で順位 V 字復帰) = AI 開発エージェントを動かす『skill 配布層 (workbench layer)』、Addy Osmani の 23 個 production-grade engineering skill を Claude Code / Cursor / Gemini CLI / Windsurf / Copilot に外付け、自前開発環境のワークフロー核となる layer / #2 music-assistant/server (Python/1,759★/+6、完全新規初登場) = 自宅オーディオの『メディアサーバ層 (home media layer)』、Apache-2.0 で Raspberry Pi / NAS / Intel NUC に置き、Spotify 等のストリーミング各社と Sonos 等のスマートスピーカーを横断するハブ、Home Assistant 連携で IoT 自宅環境の音楽核を担う / #3 mattermost/mattermost (TypeScript/37,608★/+391、完全新規初登場) = チームの会話を自社サーバに置く『コラボ層 (collaboration layer)』、Go 製の一枚バイナリ + PostgreSQL、MIT 月次配布、Docker / K8s / オンプレデプロイ、DevSecOps やインシデント対応の常設チャット、Slack / Teams を自前に置き換える / #4 apple/container (Swift/34,996★/+3,513、2 日連続 TOP5・06-12 #1 → 06-13 #4) = Mac で Linux コンテナを動かす『ランタイム実行層 (runtime layer)』、Apple 純正の OCI 互換コンテナツール、Apple Silicon 最適化軽量 VM 方式、macOS 26+、Apache-2.0、self-host スタックの土台 OS layer / #5 iptv-org/iptv (TypeScript/118,000★/+142、完全新規初登場) = 配信コンテンツの『コンテンツ層 (content layer)』、世界各国の公開 IPTV チャンネルを M3U プレイリスト形式で束ねた Unlicense カタログ、VLC 等のプレイヤーに貼るだけで世界中のテレビが見れる、self-host スタックの最上段 content layer。冒頭マクロ核は『2026 年 6 月の土曜日 (Sat=79 avg・週末モード)、開発者 / ホビイスト / リモートチームが週末 DIY で自分のデジタル環境を組み立てるタイミングで、開発エージェント (skill) → コンテナランタイム (apple/container) → コラボ層 (mattermost) → 家のメディア (music-assistant) → 配信コンテンツ (iptv) の縦 5 層が同日 TOP5 に揃った稀有な構図』。method=ecosystem は 14d 内 TOP-2 method (n=2 平均 2.5、05-31 Sat=4 views ピーク + 06-04 Thu=1 view、前回 06-04 から 9 日空きで連投ルール完全非該当、直近 2 日 [06-12 comparison / 06-11 trend-pattern] と method 衝突なし)、戦略柱① (比率 70%) として配置。本週柱② (business-angle) は 06-10 Wed、柱③ (self-experiment) は 06-09 Tue で前倒し消化済、本日 Sat は柱① 自由枠で運用可能。素材適合度 5/5: 5 リポすべてに『self-host スタックの異なる layer 役』が 1 対 1 で対応、各 narration の 2 文目で『何の層で / 何をハブ化するか』を 1 文に収められる構造、過去 ecosystem ピーク 05-31 (4 views) の成功条件『5 本が異なる layer に綺麗に分かれる』を本日も満たす。継続 2 本 (agent-skills 3 連続 / apple/container 2 連続) の角度切替: agent-skills は 06-11 trend-pattern (skill marketplace の旗印) → 06-12 comparison (Cursor Business の月額置き換え) → 06-13 ecosystem (skill 配布層) へ完全切替、apple/container は 06-12 comparison (Docker Desktop の月額置き換え) → 06-13 ecosystem (Mac の Linux ランタイム層) へ切替、語彙『月額削減』『内製化』『置き換え』『稟議書』から『5 層の縦スタック』『self-host』『ハブ化』『DIY 自前』へ完全切替、Primary (CTO/技術選定) には『週末に縦スタック組み直す機会』、Secondary (PdM) には『チームの会話を OSS で自社に取り戻す』、Tertiary (学習中エンジニア + ホビイスト) には『1 本で自分の環境を組める実装ガイド』として届く 3 層対応。Sat=79 avg は週次最弱帯だが『週末 DIY』タイミングは Tertiary (学習中) と Hobby 寄り Primary に届きやすく、self-host スタック角度は曜日適合度が高い。前回 ecosystem 投入 05-31 Sun=4 views で同曜日帯 (Sun=5 avg) の上振れ例あり、本日 Sat=79 avg と組み合わせて再現を狙う。Phase 1 のフォロワー獲得を支える運用主軸の 1 つとして ecosystem を 9 日空け後に再投入、05-14〜17 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (25 日連続成功継続中)。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/music-assistant/server",
-          "https://github.com/mattermost/mattermost",
-          "https://github.com/apple/container",
-          "https://github.com/iptv-org/iptv"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 3,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-27T23:48:17.314Z"
-      }
-    },
-    {
-      "videoId": "FkFdUmLyODI",
-      "videoUrl": "https://youtube.com/shorts/FkFdUmLyODI",
-      "date": "2026-06-14",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/14 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Ruby"
-      ],
-      "languages": [
-        "TypeScript",
-        "Shell",
-        "Ruby",
-        "Swift"
-      ],
-      "projects": [
-        "iptv-org/iptv",
-        "addyosmani/agent-skills",
-        "chatwoot/chatwoot",
-        "obra/superpowers",
-        "apple/container"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "tech-deep",
-        "description": "5 リポを architecture signature で対比、AI agent skill 実装の 2 方式 + per-VM コンテナ + Rails monolith + 宣言的 M3U catalog の実装図鑑",
-        "sources": [
-          "https://github.com/iptv-org/iptv",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/chatwoot/chatwoot",
-          "https://github.com/obra/superpowers",
-          "https://github.com/apple/container"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-28T23:55:55.831Z"
-      }
-    },
-    {
       "videoId": "BemOl1_F0Lg",
       "videoUrl": "https://youtube.com/shorts/BemOl1_F0Lg",
       "date": "2026-06-15",
@@ -3958,7 +3850,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4018,7 +3910,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4076,7 +3968,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4134,7 +4026,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4192,7 +4084,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4250,7 +4142,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4309,7 +4201,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4369,7 +4261,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4429,7 +4321,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4487,7 +4379,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4547,7 +4439,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4605,7 +4497,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-11T00:37:37.267Z"
+        "updatedAt": "2026-09-13T00:28:37.938Z"
       }
     },
     {
@@ -4661,6 +4553,59 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-09-13T00:28:37.938Z"
+      }
+    },
+    {
+      "videoId": "nXUGb8f0RtM",
+      "videoUrl": "https://youtube.com/shorts/nXUGb8f0RtM",
+      "date": "2026-09-13",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/13 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Batchfile"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Batchfile"
+      ],
+      "projects": [
+        "bilawalsidhu/gods-eye-view",
+        "melgarafael/DeskcommCRM",
+        "asgeirtj/system_prompts_leaks",
+        "nab138/iloader",
+        "Flowseal/zapret-discord-youtube"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "2026 秋の OSS を『主権 (sovereignty) の再分配』マクロ潮流で読み解き、TOP5 を情報機関・SaaS・AI 企業・Apple・国家という 5 つの権力構造を回避/可視化/分散する 5 本柱として整理する (柱④ 業界読み解き初導入)",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/bilawalsidhu/gods-eye-view",
+          "https://github.com/melgarafael/DeskcommCRM",
+          "https://github.com/asgeirtj/system_prompts_leaks",
+          "https://github.com/nab138/iloader",
+          "https://github.com/Flowseal/zapret-discord-youtube"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
@@ -4669,22 +4614,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-11",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "Markdown: 1.4x avg views → boost",
-        "C: 0.0x avg views → drop",
-        "Java: 1.4x avg views → boost",
-        "CSS: 1.4x avg views → boost",
-        "Jupyter Notebook: 1.4x avg views → boost",
-        "standard: 1 avg views (80 videos)",
-        "Trending languages: Markdown (1.9x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.8x), PowerShell (1.6x)",
-        "Day performance: Fri=2, Sat=2, Thu=1, Sun=1, Mon=1, Tue=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-12",
       "changes": [
@@ -5047,6 +4976,18 @@
         "standard: 1 avg views (83 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-13",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "C: 0.0x avg views → drop",
+        "JavaScript: 0.8x avg views → drop",
+        "standard: 1 avg views (83 videos)",
+        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.6x)",
+        "Day performance: Fri=2, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
