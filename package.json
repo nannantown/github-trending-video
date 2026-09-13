@@ -10,7 +10,9 @@
     "render": "npx remotion render TrendingVideo output/trending.mp4",
     "pipeline": "node scripts/pipeline.mjs",
     "post-sns": "node scripts/post-sns.mjs",
-    "auth:youtube": "node scripts/auth-youtube.mjs"
+    "auth:youtube": "node scripts/auth-youtube.mjs",
+    "fetch-stats": "node scripts/fetch-stats.mjs",
+    "test": "node --test \"scripts/*.test.mjs\""
   },
   "keywords": [],
   "author": "",

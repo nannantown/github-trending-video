@@ -41,6 +41,16 @@ function main() {
   // Read enriched content for discovery metadata (Meta-PDCA input)
   const enriched = readJSON(enrichedPath);
 
+  // Instagram Media ID written by upload-instagram.mjs (absent if IG skipped/failed;
+  // fetch-stats.mjs then restores it by date-matching)
+  // A corrupt file must not cost the day's whole entry (incl. YouTube videoId).
+  let igResult = null;
+  try {
+    igResult = readJSON(join(outputDir, "instagram-result.json"));
+  } catch (err) {
+    console.error(`record-upload: unreadable instagram-result.json (${err.message}), instagram: null`);
+  }
+
   // Calculate total duration
   let durationSeconds = 0;
   if (audioDurations) {
@@ -75,6 +85,20 @@ function main() {
       comments: 0,
       updatedAt: null,
     },
+    // Metrics are filled by fetch-stats.mjs (IG insights lag up to 48h)
+    instagram: igResult?.mediaId
+      ? {
+          mediaId: igResult.mediaId,
+          permalink: null,
+          views: null,
+          reach: null,
+          likes: null,
+          comments: null,
+          shares: null,
+          saved: null,
+          updatedAt: null,
+        }
+      : null,
   };
 
   // Load or initialize history
@@ -100,6 +124,7 @@ function main() {
   console.log(`record-upload: recorded ${entry.videoId} (${dateStr})`);
   console.log(`  Title: ${entry.title}`);
   console.log(`  Languages: ${entry.languages.join(", ")}`);
+  console.log(`  Instagram: ${entry.instagram ? entry.instagram.mediaId : "no media id (restored later by fetch-stats)"}`);
   if (entry.discovery) {
     console.log(`  Discovery: ${entry.discovery.method} (${entry.discovery.description || "no description"})`);
   } else {

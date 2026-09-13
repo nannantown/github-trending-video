@@ -21,7 +21,7 @@
  * --url falls back to URL-based upload (kept for backwards compatibility).
  */
 
-import { readFileSync, statSync } from "fs";
+import { readFileSync, statSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -287,6 +287,17 @@ async function main() {
 
   const mediaId = published.id;
   console.log(`  Published! Media ID: ${mediaId}`);
+
+  // Persist for record-upload.mjs so insights never need date-matching
+  // for new posts. Best-effort: a write failure must not fail the upload.
+  try {
+    writeFileSync(
+      join(outputDir, "instagram-result.json"),
+      JSON.stringify({ mediaId, publishedAt: new Date().toISOString() }, null, 2)
+    );
+  } catch (err) {
+    console.error(`  Could not write instagram-result.json: ${err.message}`);
+  }
 
   return { mediaId };
 }

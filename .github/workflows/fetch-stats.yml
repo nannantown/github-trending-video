@@ -1,0 +1,175 @@
+name: Fetch Stats (manual)
+
+# Refreshes data/performance-history.json (YouTube stats + Instagram Reels
+# insights) without rendering or posting anything. Manual trigger only.
+# Never posts to any SNS.
+#
+# Two modes, chosen by the ref it is dispatched on:
+#   - main: checks out main, updates the history and commits/pushes it.
+#     Coexistence with daily-video.yml (which also commits the history and
+#     must never be delayed or cancelled): no shared concurrency group;
+#     instead this run steps aside — if a daily run is queued or in
+#     progress at start or right before pushing, it exits cleanly without
+#     committing.
+#   - any other ref (verification mode): checks out that ref (without
+#     persisted credentials), runs fetch-stats.mjs and uploads the resulting
+#     history as the "performance-history" artifact. Writes nothing to any
+#     branch (no commit, no pull, no push).
+# In both modes FETCH_STATS_STRICT_IG=1 turns the "Fetch stats" step red
+# when no Instagram insights could be collected (on main that also means
+# nothing is committed).
+# workflow_dispatch only works once this file exists on the default branch
+# (main); `gh workflow run fetch-stats.yml --ref <branch>` then runs the
+# branch's copy of this file.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: fetch-stats-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      VERIFY_MODE: ${{ github.ref != 'refs/heads/main' }}
+
+    steps:
+      - name: Decide whether to run
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$VERIFY_MODE" = "true" ]; then
+            echo "Verification mode on ${GITHUB_REF}: results go to an artifact, nothing is committed."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          active=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow daily-video.yml \
+            --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
+          latest=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow daily-video.yml \
+            --limit 1 --json databaseId --jq '.[0].databaseId // ""')
+          echo "daily_latest=$latest" >> "$GITHUB_OUTPUT"
+          if [ "$active" != "0" ]; then
+            echo "daily-video.yml has $active queued/in-progress run(s); skipping."
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.gate.outputs.proceed == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref == 'refs/heads/main' && 'main' || github.sha }}
+          # Only the main run pushes; branch code never sees a write token.
+          persist-credentials: ${{ github.ref == 'refs/heads/main' }}
+
+      - name: Setup Node.js
+        if: steps.gate.outputs.proceed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.gate.outputs.proceed == 'true'
+        run: npm ci
+
+      - name: Fetch stats
+        id: fetch
+        if: steps.gate.outputs.proceed == 'true'
+        # Explicit bash = `bash -eo pipefail`, so node's exit code survives
+        # the tee (the default `bash -e` would report tee's status instead).
+        shell: bash
+        run: |
+          mkdir -p output
+          node scripts/fetch-stats.mjs 2>&1 | tee output/fetch-stats.log
+        env:
+          TZ: Asia/Tokyo
+          # Fail the run when IG insights could not be collected at all
+          FETCH_STATS_STRICT_IG: "1"
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+
+      # Counts only — never metric values or tokens.
+      - name: Summarize Instagram results
+        if: always() && steps.gate.outputs.proceed == 'true'
+        run: |
+          file=data/performance-history.json
+          cutoff=$(TZ=Asia/Tokyo date -d '14 days ago' +%F)
+          total=$(jq '.videos | length' "$file")
+          ig=$(jq '[.videos[] | select(.instagram != null)] | length' "$file")
+          views=$(jq '[.videos[] | select(.instagram != null and .instagram.views != null)] | length' "$file")
+          recent=$(jq --arg c "$cutoff" '[.videos[] | select(.date >= $c)] | length' "$file")
+          recent_views=$(jq --arg c "$cutoff" '[.videos[] | select(.date >= $c and .instagram != null and .instagram.views != null)] | length' "$file")
+          if grep -qi "missing scopes" output/fetch-stats.log 2>/dev/null; then
+            scopes="yes — $(grep -oi 'missing scopes: .*' output/fetch-stats.log | head -1)"
+          else
+            scopes="none reported"
+          fi
+          denied=$(grep -c "PERMISSION DENIED" output/fetch-stats.log 2>/dev/null || true)
+          {
+            echo "### Instagram insights summary"
+            echo "- videos in history: $total"
+            echo "- instagram non-null: $ig"
+            echo "- instagram.views non-null: $views"
+            echo "- last 14 days (since $cutoff): $recent videos, views non-null in $recent_views"
+            echo "- missing scopes: $scopes"
+            echo "- permission denied: $([ "${denied:-0}" != "0" ] && echo yes || echo no)"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload history artifact (verification mode)
+        if: always() && env.VERIFY_MODE == 'true' && steps.gate.outputs.proceed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: performance-history
+          path: data/performance-history.json
+          if-no-files-found: error
+
+      - name: Commit performance history (main only)
+        if: env.VERIFY_MODE != 'true' && steps.gate.outputs.proceed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DAILY_LATEST_AT_START: ${{ steps.gate.outputs.daily_latest }}
+        run: |
+          daily_changed() {
+            active=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow daily-video.yml \
+              --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
+            latest=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow daily-video.yml \
+              --limit 1 --json databaseId --jq '.[0].databaseId // ""')
+            if [ "$active" != "0" ]; then
+              echo "daily-video.yml is queued/in progress ($active run(s)); not pushing."
+              return 0
+            fi
+            if [ "$latest" != "$DAILY_LATEST_AT_START" ]; then
+              echo "daily-video.yml ran meanwhile (latest run $DAILY_LATEST_AT_START -> $latest); not pushing."
+              return 0
+            fi
+            return 1
+          }
+          if daily_changed; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/performance-history.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update performance history (manual fetch-stats) [skip ci]"
+          git pull --rebase origin main
+          if ! jq empty data/performance-history.json; then
+            echo "performance-history.json is not valid JSON after rebase; not pushing."
+            exit 1
+          fi
+          if daily_changed; then exit 0; fi
+          git push origin HEAD:main
