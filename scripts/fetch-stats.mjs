@@ -1,5 +1,6 @@
 /**
- * Fetch YouTube video stats and generate optimization hints.
+ * Fetch YouTube video stats + Instagram Reels insights and generate
+ * optimization hints (IG part: scripts/instagram-insights.mjs).
  *
  * Step 0 of the pipeline (runs before scraping).
  * - Reads data/performance-history.json
@@ -12,12 +13,14 @@
  *
  * Required env vars (same as upload):
  *   YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
+ *   INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID
  */
 
 import { google } from "googleapis";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { updateInstagramStats } from "./instagram-insights.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
@@ -183,6 +186,43 @@ function generateDayOfWeekInsights(videos) {
 
 // --- Main ---
 
+/**
+ * Instagram Reels insights → history.videos[*].instagram.
+ * Non-blocking like the YouTube step, except FETCH_STATS_STRICT_IG=1
+ * (fetch-stats.yml verification run) turns "nothing collected" into a
+ * non-zero exit so the run is visibly red instead of silently empty.
+ */
+async function fetchInstagramStats(history) {
+  const strict = process.env.FETCH_STATS_STRICT_IG === "1";
+  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } = process.env;
+  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) {
+    console.log("fetch-stats: Instagram credentials not set, skipping IG insights.");
+    if (strict) process.exitCode = 1;
+    return;
+  }
+
+  console.log("fetch-stats: fetching Instagram Reels insights...");
+  try {
+    const result = await updateInstagramStats(history, process.env);
+    console.log(
+      `  IG: matched ${result.matched}, updated ${result.updated}, failed ${result.failed}, ` +
+        `skipped ${result.skipped}, unmatched ${result.unmatched.length}` +
+        (result.stopReason ? `, stopped early: ${result.stopReason}` : "")
+    );
+    if (result.permissionDenied) {
+      console.error(
+        `  IG: insights PERMISSION DENIED. Missing scopes: ${
+          result.missingScopes.join(", ") || "(none reported; check Page/IG account roles)"
+        }`
+      );
+    }
+    if (strict && (result.updated === 0 || result.permissionDenied)) process.exitCode = 1;
+  } catch (err) {
+    console.error(`  IG: failed to fetch insights: ${err.message}`);
+    if (strict) process.exitCode = 1;
+  }
+}
+
 async function main() {
   console.log("fetch-stats: starting...");
 
@@ -243,6 +283,8 @@ async function main() {
   } else {
     console.log("fetch-stats: YouTube credentials not set, using existing stats.");
   }
+
+  await fetchInstagramStats(history);
 
   // Save updated history
   writeFileSync(historyPath, JSON.stringify(history, null, 2));
