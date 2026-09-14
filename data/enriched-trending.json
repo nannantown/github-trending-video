@@ -1,15 +1,17 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "discovery": {
-    "method": "use-case",
-    "description": "TOP5 を『誰がどんな現場でどう使うか』の具体シーンで統一。ソロ開発者の推論卓、フリーランスの業務基盤、OSINT取材の可視化、複数AI IDE のスキル配布、中小企業の WhatsApp 商流 CRM の 5 現場に 1:1 マッピング (柱① 主軸、月曜=engineer 濃度の高い曜日で use-case exploit)",
+    "method": "business-angle",
+    "description": "TOP5を『SaaS課金の代替』の視点で切る。ElevenLabs、SonarQube、Twitter API、統計SaaS、GPUクラウドを自前運用に置き換える月額削減マップとして料理する。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/JustVugg/colibri",
-      "https://github.com/ever-co/ever-gauzy",
-      "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/tech-leads-club/agent-skills",
-      "https://github.com/melgarafael/DeskcommCRM"
+      "https://github.com/alibaba/open-code-review",
+      "https://github.com/debpalash/VoiceStudio",
+      "https://github.com/666ghj/MiroFish",
+      "https://github.com/Panniantong/Agent-Reach",
+      "https://hn.algolia.com/?q=colibri+MoE",
+      "https://hn.algolia.com/?q=open-code-review+alibaba"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +23,59 @@
       "name": "colibri",
       "url": "https://github.com/JustVugg/colibri",
       "language": "C",
-      "stars": 29690,
-      "todayStars": 960,
-      "description": "余ったSSDでフロンティアMoEを回す",
-      "detail": "VRAMとRAMとNVMe SSDを一つのメモリ階層と見なす純C推論エンジン。routed MoEを19MB単位でSSDから流し込み、128GBのMacBookでも1.8 tokens/秒でGLM-5.2やKimi K3を回せます。",
-      "narration": "フロンティアMoEをSSDから流し込む推論エンジンです。128GBのMacでもGPU無しで動きます。"
+      "stars": 31954,
+      "todayStars": 2233,
+      "description": "余ったSSDでフロンティアMoE",
+      "detail": "GPUなしでも純CでルーテッドMoEをSSDから流し込む推論エンジンです。128GB Macで1.8トークン/秒、GLM 5.2やKimi K3、DeepSeek V4にも対応。Apache 2.0で個人卓にフロンティア推論が降りてきます。",
+      "narration": "オフィスの余ったSSDでフロンティアMoEを動かす推論エンジンです。GPU課金を月10万円単位で削減できます。"
     },
     {
       "rank": 2,
-      "fullName": "ever-co/ever-gauzy",
-      "name": "ever-gauzy",
-      "url": "https://github.com/ever-co/ever-gauzy",
-      "language": "TypeScript",
-      "stars": 4995,
-      "todayStars": 58,
-      "description": "小規模チーム向け統合業務OSS",
-      "detail": "フリーランスとエージェンシー向けの統合業務OSS。ERP、CRM、HRM、ATS、時間管理、請求までNestJSとAngularで束ね、AGPL-3.0で自己ホストしてOdooやZohoの代替に使えます。",
-      "narration": "フリーランスとエージェンシー向けの統合業務OSSです。時間管理、請求、CRM、採用まで1画面で回せます。"
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 25548,
+      "todayStars": 1796,
+      "description": "アリババの本気コードレビューOSS",
+      "detail": "アリババ本番規模のOSSコードレビュー基盤です。決定的パイプラインとLLMエージェントを組み合わせ、NPEやSQLインジェクションを行番号単位で指摘。OpenAIとAnthropic両対応で自前運用向き。",
+      "narration": "アリババが自社で回すOSSコードレビュー基盤です。SonarQubeの月額課金を自前運用で置き換えられます。"
     },
     {
       "rank": 3,
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "language": "JavaScript",
-      "stars": 31769,
-      "todayStars": 2898,
-      "description": "OSINT向けブラウザ3D地球儀",
-      "detail": "CesiumJSとOpenAI Realtime APIで組んだ3D地球儀。OpenSky、AIS、CelesTrak、NASA FIRMSなど13レイヤーを1画面に集約し、OSINTや報道の現場で公開データを音声から扱えます。",
-      "narration": "OSINT取材の現場で衛星と飛行機を1画面で追えます。ブラウザだけでCesiumJSと公開データを扱えます。"
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 29050,
+      "todayStars": 2774,
+      "description": "ElevenLabsの完全ローカル代替",
+      "detail": "ElevenLabsの完全ローカルOSS代替です。音声クローン、ボイスデザイン、動画ダビング、書き起こし、朗読までを646言語で完結。GPU 1枚あれば社内運用に切り替えられます。",
+      "narration": "ElevenLabsの完全ローカル代替OSSです。646言語で音声合成と動画ダビングを社内運用で回せます。"
     },
     {
       "rank": 4,
-      "fullName": "tech-leads-club/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/tech-leads-club/agent-skills",
-      "language": "TypeScript",
-      "stars": 5609,
-      "todayStars": 215,
-      "description": "AI開発者の共通スキルレジストリ",
-      "detail": "Claude Code、Cursor、Cline、Copilotなど主要AIエージェント向けの共通スキルレジストリ。Snyk検査済みSKILL.mdをCLI一発で複数IDEに配布でき、13%の脆弱性報告を回避できます。",
-      "narration": "Claude CodeやCursorに共通スキルを配るレジストリです。セキュリティ検査済みで一括導入できます。"
+      "fullName": "666ghj/MiroFish",
+      "name": "MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "language": "Python",
+      "stars": 73094,
+      "todayStars": 524,
+      "description": "汎用の群体知能予測エンジンOSS",
+      "detail": "群れ知能アルゴリズムで需要や在庫、株価まで幅広く予測できる汎用OSSエンジンです。Pythonのみで完結、シンプルAPIで既存のETLに組み込みやすく、統計SaaSの代替に据えやすい設計。",
+      "narration": "群体知能で需要や在庫を予測できる汎用エンジンです。統計SaaS課金を社内需要予測で置き換えられます。"
     },
     {
       "rank": 5,
-      "fullName": "melgarafael/DeskcommCRM",
-      "name": "DeskcommCRM",
-      "url": "https://github.com/melgarafael/DeskcommCRM",
-      "language": "TypeScript",
-      "stars": 2154,
-      "todayStars": 444,
-      "description": "WhatsApp商流の自己ホストCRM",
-      "detail": "Next.js 16、Supabase、pgvector、MCPで組んだWhatsApp向け自己ホストCRM。AIエージェントがRAGでリード対応と営業パイプラインを回し、KommoやIntercomの月額支配を畳めます。",
-      "narration": "WhatsAppで商談する中小企業向けの自己ホスト型AI CRMです。営業と案件管理を1つに束ねられます。"
+      "fullName": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars": 81174,
+      "todayStars": 640,
+      "description": "AIエージェントにSNS横断の目",
+      "detail": "AIエージェントにTwitter、Reddit、YouTube、GitHub、Bilibili、小紅書を横断で読み書きさせるCLIです。API課金ゼロ、1コマンドで社内のソーシャル収集を代替できます。",
+      "narration": "AIエージェントにSNS横断の目を与えるCLIです。Twitter APIの月額課金を丸ごと削れます。"
     }
   ]
 }
