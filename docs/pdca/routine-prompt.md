@@ -64,48 +64,66 @@ TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
 - **現在の Phase**: Phase 1 (フォロワー 1,000 到達まで無課金育成)
 
 週 1 回程度は柱②か③を差し込み、Primary ペルソナへの訴求を強める。
-戦略ファイル自体の書き換えは本ルーチンでは行わない。改善提案は `docs/pdca/$TODAY.md` の末尾「戦略更新提案」へ。
+戦略ファイル自体の書き換えは本ルーチンでは行わない（「ジャンル実験」節の台帳・閾値も書き換えない）。改善提案は `docs/pdca/$TODAY.md` の末尾「戦略更新提案」へ。
+
+**ジャンル実験（日次 PDCA の上位層・最優先）**: `docs/strategy.md` 冒頭の「ジャンル実験」節も必ず読む。このリポの IG / YT 2 アカウントの試行台帳（試行 #・開始日 S・型の初回投稿日 F・導入時の判定）、判定窓の計算式、判定指標と集計コマンド、閾値、モードの決め方、配信死亡モード中のルール、レポート節のフォーマットが書いてある。**この節の指示は、手順 1〜2 の method 最適化より優先する**。IG と YT は別アカウントとして別々に評価し、数字を合算しない。**IG @ai_trend_daily_ はジャンル実験の対象外**（指標は記録するが、切替・構造実験の提案はしない）。
 
 ### 1. PDCA 分析 (必須)
 
-**a) 過去パフォーマンス**
-- `data/performance-history.json` から過去 14 日の `stats.views` / `stats.likes` / `title` / `discovery.method` / `hashtags` / `languages` を抽出
+**0) ジャンル試行の状態 (必須・最初に)** — `docs/strategy.md`「ジャンル実験」節の手順どおりに行う
+- 同節の台帳から IG / YT それぞれの試行 #・開始日 S・型の初回投稿日 F を読み、計算式で今日の判定窓・経過日・次の判定日を出す
+- 同節の集計コマンド (jq) で、判定窓の **IG views 中央値・IG 保存合計** と **YT views 中央値** を出す。n は IG / YT 別に数える。**IG と YT を足したり平均したりしない**
+- IG のモードは常に `対象外`。YT は、前回モード (`docs/pdca/` の最新レポートの「ジャンル試行の状態」節。無ければ台帳の「導入時の判定」) と今日の判定値から、同節の「モードの決め方」で今日のモード (通常 / 切替候補 / 配信死亡モード) を決める。今日が判定日なら YT について続行 / 切替候補 / 配信死亡を判定する
+- ここで決めたモードが、下の b)〜d) と手順 2 の振る舞いを決める。結果は e) のレポート冒頭に書く
+- `docs/strategy.md` に「ジャンル実験」節が見つからない場合だけ、この 0) を省略し、レポート冒頭に `## ジャンル試行の状態` と `- docs/strategy.md にジャンル実験節なし（未導入）` の 2 行だけを書いて、以下を従来どおり進める
 
-**b) TOP 3 / WORST 3 を特定** (views 基準、タイトル・言語・柱を一緒にメモ)
+**a) 過去パフォーマンス**
+- `data/performance-history.json` から過去 14 日の `stats.views` (YT) / `instagram.views`・`instagram.saved` (IG。`instagram` か `instagram.views` が null の回は IG 側から除外) / `stats.likes` / `title` / `discovery.method` / `hashtags` / `languages` を抽出
+
+**b) TOP 3 / WORST 3 を特定** (IG は `instagram.views`、YT は `stats.views` で**別々に**。タイトル・言語・柱を一緒にメモ。YT が配信死亡モードの間、YT の TOP/WORST は参考表示のみで c) 以降の根拠にしない)
 
 **c) Method 別パフォーマンス分析 (Meta-PDCA、重要)**
 - 過去 14 日の entries を `discovery.method` でグループ化
-- 各 method の投稿数 / 平均 views をテーブル化
-- TOP 3 method と WORST 3 method を特定
+- 各 method の投稿数 / 平均 views をテーブル化 (IG と YT は別列。合算しない)
+- TOP 3 method と WORST 3 method を特定 (**YT が配信死亡モードの間は IG の平均 views だけで決める**。IG の指標も使えない日 (判定窓の IG n < 7 など) は TOP/WORST を決めず、手順 2 の例外に従う)
 - 例:
   ```
-  | method | 投稿数 | 平均views |
-  |---|---|---|
-  | business-angle | 2 | 1500 |
-  | tech-deep | 5 | 400 |
+  | method | 投稿数 | IG 平均views | YT 平均views |
+  |---|---|---|---|
+  | business-angle | 2 | 1500 | 1 |
+  | tech-deep | 5 | 400 | 0 |
   ```
 
-**d) 今日の改善アクションを 3 つまで** (戦略のコンテンツ柱比率、勝ち筋 method 継続 or 新 method 試行を考慮)
+**d) 今日の改善アクションを 3 つまで** (戦略のコンテンツ柱比率、勝ち筋 method 継続 or 新 method 試行を考慮。**YT が配信死亡モードの間、YT については method のアクションを書かず、構造実験 (タイトル個別化 / 型変更 / ジャンル変更。いずれも IG の投稿内容を変えない方法に限る) を「何を変えるか / 何で測るか / 14 日後の合格ライン」で提案する**)
 
 **e) `docs/pdca/$TODAY.md` にレポート**:
 
 ```markdown
 # PDCA Report - $TODAY (Trending)
 
+## ジャンル試行の状態
+(`docs/strategy.md`「ジャンル実験」節のフォーマットどおり。IG @ai_trend_daily_ (対象外) と YT AI Trend Daily の 2 行の表 + 今日の判定 + 今日の method 方針)
+
+## ジャンル判定 (判定日のみ・YT だけ)
+- YT AI Trend Daily: 続行 / 切替候補 / 配信死亡 — 根拠 (指標値と閾値) — 次の試行候補 2〜3 案 (切替候補・配信死亡のとき。IG の投稿内容を変えない方法に限る)
+
+## 構造実験の提案 (YT が配信死亡モードの日のみ)
+- YT AI Trend Daily: <タイトル個別化 / 型変更 / ジャンル変更> — 何を変えるか / 何で測るか / 14 日後の合格ライン
+
 ## 分析対象
 - 過去 N 日分(最新 updatedAt: ...)
 
-## TOP 3 投稿
+## TOP 3 投稿 (IG / YT 別)
 1. YYYY-MM-DD - views / タイトル / 言語・Topic / 戦略のどの柱 / discovery.method
 2. ...
 
-## WORST 3 投稿
+## WORST 3 投稿 (IG / YT 別)
 1. ...
 
 ## Method 別パフォーマンス (Meta-PDCA)
-| method | 投稿数 | 平均views |
-|---|---|---|
-| ... | ... | ... |
+| method | 投稿数 | IG 平均views | YT 平均views |
+|---|---|---|---|
+| ... | ... | ... | ... |
 
 ## 気づいたパターン
 - ...
@@ -124,6 +142,11 @@ TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
 
 **Exploit (80%)**: 手順 1 の Method TOP 3 から選ぶ
 **Explore (20%)**: 戦略ドキュメントに載ってない新 angle、または WORST method に再挑戦(アプローチを変えて)
+
+**配信死亡モードの例外** (手順 1 の 0) で決めたモード):
+- YT が配信死亡モード (IG は対象外で生きている) → **IG の指標で作った TOP 3 から 80/20 で選ぶ**。YT views は使わない
+- IG の指標も使えない日 (判定窓の IG n < 7 など) → 80/20 を使わない。method は性能データで選ばず、戦略のコンテンツ柱比率と下の選定制約だけで決める
+- どれを適用したかを、レポートの「ジャンル試行の状態」節の「今日の method 方針」に書く
 
 選定の制約:
 - 直近 2 日と同じ method を連続で選ばない
