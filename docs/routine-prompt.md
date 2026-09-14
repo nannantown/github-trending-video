@@ -1,6 +1,6 @@
 # Claude Routine プロンプト — GitHub Trending 説明文エンリッチ（github-trending-video）
 
-このファイルは、クラウド側の朝ルーチン（Claude Routine）に設定されている指示文の**版管理用の写し**。ルーチン自身はこのファイルを読まない（trigger に直接書かれた指示文で動く）。`docs/pdca/` の日次レポートと混ざらないよう `docs/` 直下に置く。
+このファイルは、クラウド側の朝ルーチン（Claude Routine）に設定されている指示文の**版管理用の写し**。2026-09-14 時点の trending の trigger（2026-05-15 版）はこのファイルを読まない（trigger に直接書かれた指示文で動く）。coffee / figma の trigger は同日に「main に `docs/routine-prompt.md` があればそれに従う」形へ切り替わっているので、trending も同じ形にすれば、このファイルがそのまま読まれる。**ルーチンがこのファイルを読んだ場合は、`## Routine Prompt` のフェンスの中だけに従う（それより上は人間向けの説明）**。`docs/pdca/` の日次レポートと混ざらないよう `docs/` 直下に置く。
 
 | 項目 | 値 |
 |---|---|
@@ -8,7 +8,7 @@
 | trigger | `trig_01AgLS2rofMnKdGEzS4CpFiD` |
 | cron | `30 22 * * *`（UTC）= 毎朝 07:30 JST |
 | sources | `nannantown/github-trending-video` のみ（sns-hub は読めない） |
-| **反映状況** | **2026-09-14 時点: 未反映**。trigger は 2026-05-15 版のまま。このファイルと `docs/strategy.md` の変更が main に入ったあとで貼り替え、ここを「YYYY-MM-DD 反映済み」に書き換える |
+| **反映状況** | **2026-09-14 時点: 未反映**。trigger は 2026-05-15 版のまま。反映（trigger への貼り替え、または coffee / figma と同じ起動文への切り替え）は、`docs/strategy.md` の変更が main に入ったあと、**オーナー承認を得て司令塔が行う**。反映したら、ここを「YYYY-MM-DD 反映済み」に書き換える |
 
 ## 運用ルール
 
@@ -147,7 +147,7 @@ TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
 
 **配信死亡モードの例外** (手順 1 の 0) で決めたモード):
 - YT が配信死亡モード (IG は対象外で生きている) → **IG の TOP 3 から 80/20 で選ぶ**。YT views は使わない
-- IG の指標も使えない日 (判定窓の IG n < 7 など) → 80/20 を使わない。method は性能データで選ばず、下の選定制約を満たす method のうち**直近 14 日の使用回数が少ないもの**を選ぶ (同数なら `docs/strategy.md` の角度選定 Methods 表の上から)
+- IG の指標も使えない日 (判定窓の IG n < 7 など) → 80/20 を使わない。method は性能データで選ばず、下の選定制約を満たす method のうち**直近 14 日の使用回数（`data/performance-history.json` の、今日より前の直近 14 日の `discovery.method` で数える）が少ないもの**を選ぶ (同数なら `docs/strategy.md` の角度選定 Methods 表の上から)
 - どれを適用したかを、レポートの「ジャンル試行の状態」節の「今日の method 方針」に書く
 
 選定の制約:
