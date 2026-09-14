@@ -4,11 +4,12 @@
  */
 
 import { execSync } from "child_process";
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { switchOn } from "./yt-experiment-switches.mjs";
 import { renderYouTubeVariant } from "./youtube-variant.mjs";
+import { runInProcessGroup } from "./process-group.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
@@ -22,9 +23,9 @@ const rootDir = join(__dirname, "..");
 const YOUTUBE_VARIANT_DEADLINE_MS = 10 * 60 * 1000;
 const outputDir = join(rootDir, "output");
 
-function run(cmd, opts = {}) {
+function run(cmd) {
   console.log(`\n>>> ${cmd}\n`);
-  execSync(cmd, { cwd: rootDir, stdio: "inherit", ...opts });
+  execSync(cmd, { cwd: rootDir, stdio: "inherit" });
 }
 
 function runSafe(cmd, label) {
@@ -35,7 +36,7 @@ function runSafe(cmd, label) {
   }
 }
 
-function main() {
+async function main() {
   const startedAt = Date.now();
   mkdirSync(outputDir, { recursive: true });
 
@@ -119,13 +120,16 @@ function main() {
   let youtubeVideoFile = null;
   if (switchOn(process.env.YT_OPENING_HOOK, "YT_OPENING_HOOK")) {
     console.log(`\n=== Step 4d: Render YouTube Variant (TOP1 opening) → output/trending-${dateStr}-youtube.mp4 ===`);
-    youtubeVideoFile = renderYouTubeVariant({
+    youtubeVideoFile = await renderYouTubeVariant({
       inputProps,
       sharedVideo: outputFile,
       outputDir,
       deadline: startedAt + YOUTUBE_VARIANT_DEADLINE_MS,
-      run,
+      // Own process group per command: a timeout kills npx AND its remotion /
+      // Chrome / ffmpeg descendants, so none keeps the step's stdout open.
+      run: (cmd, opts) => runInProcessGroup(cmd, { cwd: rootDir, ...opts }),
       writeFile: writeFileSync,
+      remove: (path) => rmSync(join(rootDir, path), { force: true }),
     });
   } else {
     console.log(
@@ -152,4 +156,7 @@ function main() {
   console.log(`\n=== Done! ${outputFile} ===`);
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

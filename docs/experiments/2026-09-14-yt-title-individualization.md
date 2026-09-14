@@ -34,18 +34,20 @@ output/trending-YYYYMMDD-youtube-cover.jpg  専用レンダの frame 60 → YouT
 
 専用レンダが失敗 / 時間切れなら、YouTube は共用動画を投稿する（毎朝の投稿は止めない）。時間予算はパイプライン開始から 10 分
 （ジョブの timeout を 15 → 20 分に延長。通常日は開始 ~4 分で専用レンダまで終わる）。残りが 150 秒未満なら始めず、各工程も残り時間で打ち切る。
+打ち切りは**プロセスグループごと**（`scripts/process-group.mjs`: detached で起動し、SIGTERM → 猶予 5 秒 → SIGKILL をグループ全体へ）。
+npx の下の remotion / ffmpeg が生き残ってステップの stdout を握り、ジョブ上限まで止まる（= 履歴コミットが飛ぶ）ことはない。
 これで IG 投稿（処理待ち最大 5 分）の時間は常に確保される。
 
 ## 変更点（YouTube 投稿部分のみ）
 
 | # | 変更 | ファイル |
 |---|---|---|
-| A-1 | タイトルを `TOP1名 — 何ができるか｜GitHub Trending TOP5 M/D` に（95 文字セーフ上限、`<>` 除去） | `scripts/youtube-caption.mjs`, `scripts/generate-caption.mjs` |
+| A-1 | タイトルを `TOP1名 — 何ができるか｜GitHub Trending TOP5 M/D` に（95 文字セーフ上限、`<>`・制御文字・ゼロ幅文字を除去） | `scripts/youtube-caption.mjs`, `scripts/generate-caption.mjs` |
 | A-2 | 説明文を TOP1 リード + 各リポの detail 文 + 顔ぶれ行に（固定の冒頭文・CTA 文を廃止、5000 バイト上限へ自動収束） | 同上 |
 | A-3 | 実験腕は Variable で固定（`optimization-hints.json` の recommendedTitleTemplate は無視してログのみ）。`standard` は**旧タイトル + 旧説明文**を完全再現（origin/main 出力とのゴールデンテスト） | `scripts/youtube-caption.mjs`, `scripts/generate-caption.test.mjs` |
 | A-4 | `performance-history.json` に実際に投稿した腕を記録: `titleTemplate` / `ytOpening`（top1 or brand）/ `ytThumbnail`（set / skipped:… / error:…） | `scripts/record-upload.mjs`, `scripts/upload-youtube.mjs` |
-| A-5 | YouTube が新タイトル / 説明文を拒否（`invalidTitle` / `invalidDescription` / `invalidVideoMetadata`）したら、旧メタデータで 1 回だけ再アップロード（実験でその日の投稿を失わない）。タイトル長は UTF-16 単位で数える | `scripts/upload-youtube.mjs`, `scripts/youtube-caption.mjs` |
-| B-1 | YouTube 専用レンダ: 同じ props + `openingVariant="top1"`。frame 0 から「今日の1位」ピル + TOP1 名 + 一行フック。共用 `<Opening />` は origin/main とバイト同一。時間予算つき・失敗時は共用動画へ | `src/components/OpeningTop1.tsx`, `src/compositions/TrendingVideo.tsx`, `scripts/pipeline.mjs`（Step 4d）, `scripts/youtube-variant.mjs` |
+| A-5 | YouTube が新タイトル / 説明文を拒否（`invalidTitle` / `invalidDescription` / `invalidVideoMetadata`）したら、旧メタデータで 1 回だけ再アップロード（実験でその日の投稿を失わない）。拒否理由は `err.response.data.error.errors[].reason` から読む（gaxios 7 は `err.errors` を設定しない）。タイトル長は UTF-16 単位で数える | `scripts/youtube-upload.mjs`, `scripts/upload-youtube.mjs`, `scripts/youtube-caption.mjs` |
+| B-1 | YouTube 専用レンダ: 同じ props + `openingVariant="top1"`。frame 0 から「今日の1位」ピル + TOP1 名 + 一行フック（最大 3 行で省略）。共用 `<Opening />` は origin/main とバイト同一。時間予算つき（プロセスグループごと打ち切り）・失敗時は共用動画へ | `src/components/OpeningTop1.tsx`, `src/compositions/TrendingVideo.tsx`, `scripts/pipeline.mjs`（Step 4d）, `scripts/youtube-variant.mjs`, `scripts/process-group.mjs` |
 | B-2 | 専用レンダの frame 60 を `thumbnails.set`（非ブロッキング・30 秒で打ち切り・ベストエフォート）。`upload-result.json` はその前（insert 直後）に書く | `scripts/upload-youtube.mjs`, `scripts/post-sns.mjs` |
 | D | 14 日比較表ジェネレータ（control / treatment の YT・IG views、中央値、判定）。未取得の YT stats（`updatedAt: null` の仮 0）は数えない。判定は 暫定 → 14 日判定 → 年齢を揃えた確定 の 3 段階 | `scripts/yt-experiment-report.mjs` |
 | 検証 | `workflow_dispatch` に `dry_run`（両動画をレンダして artifact に上げるだけ。投稿・履歴コミットなし）。ジョブ timeout 15 → 20 分 | `.github/workflows/daily-video.yml` |
@@ -127,6 +129,14 @@ GitHub repo **Variables**（Settings → Secrets and variables → Actions → V
 - タイトル: `top1` で上記 After、`standard` で旧タイトル + 旧説明文を origin/main と完全一致で再現（ゴールデンテスト）、打ち間違いは警告して `standard`
 - Step 4d の失敗 / 時間切れ / 予算不足 / props 書き込み失敗の各経路は `youtube-variant.test.mjs` で実行器を差し替えて検証
 - 独立エージェントによる敵対的レビューを実施し、指摘（時間予算、スイッチのフェイルセーフ、仮 0 の集計除外、再アップロード等）を反映
+- 差し戻し 1 回目（司令塔の独立レビュー 3 本）の修正の検証:
+  - `youtube-upload.test.mjs`: 本物の googleapis クライアントをローカルの疑似 YouTube API（HTTP サーバ）に向け、gaxios 自身が組み立てた
+    `GaxiosError` で (a) 400 `invalidTitle` / 403 `forbidden` の理由が取れる (b) 1 回目 `invalidTitle` → 旧メタデータで 2 回目が成功
+    (c) `quotaExceeded` / 500 / fallback なしでは再試行しない、を固定。テストは呼び出しごとの `rootUrl` + ローカル以外を拒否する fetch で外部に出ない
+  - `process-group.test.mjs`: 偽ランナーで「タイムアウト時に `-pid` へ SIGTERM → SIGKILL」「失敗時のグループ掃除」「SIGINT/SIGTERM の転送」を固定し、
+    実プロセスでも時間切れのコマンドの**孫プロセス**（`sleep` のバックグラウンド）まで消えることを確認
+  - `youtube-caption.test.mjs`: 制御文字（U+0000–001F / U+007F–009F）・ゼロ幅文字（U+200B–200D / U+2060 / U+FEFF）の除去、改行・タブは空白化
+  - 95 文字の説明文で YouTube 専用レンダの静止画を作り、3 行で「…」省略・字幕（下端 340px）と重ならないことを目視
 - 説明文 2,438 バイト（≤ 5,000）、tags 合計 116 文字（≤ 500）
 
 ### 本番前（検証 = workflow_dispatch の verify mode）

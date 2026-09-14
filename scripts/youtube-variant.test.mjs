@@ -86,10 +86,11 @@ function harness({ failOn = null, clock = [0], stepMs = 0, deadline = 10 * 60 * 
   const writes = [];
   const errors = [];
   const logs = [];
-  const run = (cmd, opts = {}) => {
+  // Async like runInProcessGroup (process-group.mjs), which the pipeline passes in.
+  const run = async (cmd, opts = {}) => {
     calls.push({ cmd, timeout: opts.timeout });
     clock[0] += stepMs;
-    if (failOn && cmd.includes(failOn)) throw new Error(`${failOn} failed`);
+    if (failOn && cmd.includes(failOn)) throw new Error(`${failOn} timed out after 300s (process group killed)`);
   };
   const args = {
     inputProps: { projects: [{ name: "colibri" }] },
@@ -107,9 +108,9 @@ function harness({ failOn = null, clock = [0], stepMs = 0, deadline = 10 * 60 * 
 
 const cmds = (calls) => calls.map((c) => c.cmd.split(" ").slice(0, 3).join(" "));
 
-test("Step 4d success: YouTube props, render, normalize, cover — returns the YouTube file", () => {
+test("Step 4d success: YouTube props, render, normalize, cover — returns the YouTube file", async () => {
   const h = harness();
-  assert.equal(renderYouTubeVariant(h.args), youtube);
+  assert.equal(await renderYouTubeVariant(h.args), youtube);
   assert.deepEqual(JSON.parse(h.writes[0].data), { projects: [{ name: "colibri" }], openingVariant: "top1" });
   assert.equal(h.writes[0].path, "/repo/output/input-props-youtube.json");
   assert.deepEqual(cmds(h.calls), [
@@ -125,9 +126,9 @@ test("Step 4d success: YouTube props, render, normalize, cover — returns the Y
   assert.equal(h.errors.length, 0);
 });
 
-test("Step 4d render failure: falls back (null) and removes partial YouTube files", () => {
+test("Step 4d render failure / timeout: falls back (null) and removes partial YouTube files", async () => {
   const h = harness({ failOn: "remotion render" });
-  assert.equal(renderYouTubeVariant(h.args), null);
+  assert.equal(await renderYouTubeVariant(h.args), null);
   const removed = h.calls.filter((c) => c.cmd.startsWith("rm -f")).map((c) => c.cmd);
   assert.deepEqual(removed, [
     'rm -f "output/trending-20260914-youtube.mp4"',
@@ -135,37 +136,47 @@ test("Step 4d render failure: falls back (null) and removes partial YouTube file
   ]);
   assert.ok(!h.calls.some((c) => c.cmd.includes("remotion still")));
   assert.match(h.errors[0], /falls back to the shared video/);
+  assert.match(h.errors[0], /process group killed/);
 });
 
-test("Step 4d cover failure keeps the video (no custom thumbnail that day)", () => {
+test("Step 4d cover failure keeps the video (no custom thumbnail that day)", async () => {
   const h = harness({ failOn: "remotion still" });
-  assert.equal(renderYouTubeVariant(h.args), youtube);
+  assert.equal(await renderYouTubeVariant(h.args), youtube);
   assert.ok(h.calls.some((c) => c.cmd === 'rm -f "output/trending-20260914-youtube-cover.jpg"'));
   assert.ok(!h.calls.some((c) => c.cmd === 'rm -f "output/trending-20260914-youtube.mp4"'));
 });
 
-test("Step 4d is skipped entirely when the time budget is already too small", () => {
+test("Step 4d uses the injected remove for cleanup (pipeline deletes files in-process)", async () => {
+  const h = harness({ failOn: "ffmpeg" });
+  const removed = [];
+  h.args.remove = (path) => removed.push(path);
+  assert.equal(await renderYouTubeVariant(h.args), null);
+  assert.deepEqual(removed, ["output/trending-20260914-youtube.mp4", "output/trending-20260914-youtube.raw.mp4"]);
+  assert.ok(!h.calls.some((c) => c.cmd.startsWith("rm -f")));
+});
+
+test("Step 4d is skipped entirely when the time budget is already too small", async () => {
   const h = harness({ deadline: MIN_VARIANT_BUDGET_MS - 1 });
-  assert.equal(renderYouTubeVariant(h.args), null);
+  assert.equal(await renderYouTubeVariant(h.args), null);
   assert.equal(h.calls.length, 0);
   assert.equal(h.writes.length, 0);
   assert.match(h.logs[0], /YouTube variant skipped/);
 });
 
-test("Step 4d stops before encoding when the render used up the budget", () => {
+test("Step 4d stops before encoding when the render used up the budget", async () => {
   const clock = [0];
   const h = harness({ clock, stepMs: 10 * 60 * 1000 });
-  assert.equal(renderYouTubeVariant(h.args), null);
+  assert.equal(await renderYouTubeVariant(h.args), null);
   assert.ok(!h.calls.some((c) => c.cmd.startsWith("ffmpeg")), "encode never started");
   assert.match(h.errors[0], /time budget exhausted before encode/);
 });
 
-test("Step 4d never throws, even if writing the props file fails", () => {
+test("Step 4d never rejects, even if writing the props file fails", async () => {
   const h = harness();
   h.args.writeFile = () => {
     throw new Error("ENOSPC");
   };
-  assert.equal(renderYouTubeVariant(h.args), null);
+  assert.equal(await renderYouTubeVariant(h.args), null);
   assert.match(h.errors[0], /ENOSPC/);
 });
 

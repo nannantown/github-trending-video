@@ -8,6 +8,9 @@ import {
 } from "remotion";
 import { Project } from "../data";
 
+/** The one-line hook may wrap, but never beyond this many lines. */
+export const DESCRIPTION_MAX_LINES = 3;
+
 /**
  * YouTube-only opening (2026-09-14 distribution experiment B).
  *
@@ -166,6 +169,9 @@ export const OpeningTop1: React.FC<{ topProject: Project }> = ({
         >
           {topProject.name}
         </div>
+        {/* At most 3 lines (≈ 60 full-width chars at 46px in the 900px column);
+            longer hooks end with an ellipsis instead of pushing the brand block
+            into the subtitle area. */}
         <div
           style={{
             fontSize: 46,
@@ -173,6 +179,10 @@ export const OpeningTop1: React.FC<{ topProject: Project }> = ({
             color: "rgba(255,255,255,0.9)",
             lineHeight: 1.4,
             wordBreak: "break-word",
+            display: "-webkit-box",
+            WebkitBoxOrient: "vertical",
+            WebkitLineClamp: DESCRIPTION_MAX_LINES,
+            overflow: "hidden",
           }}
         >
           {topProject.description}

@@ -21,6 +21,7 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { switchOn } from "./yt-experiment-switches.mjs";
 import { openingVariantForFile } from "./youtube-variant.mjs";
+import { errorReasons, insertWithLegacyFallback } from "./youtube-upload.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputDir = join(__dirname, "..", "output");
@@ -30,13 +31,6 @@ const outputDir = join(__dirname, "..", "output");
 const THUMBNAIL_MAX_BYTES = 2 * 1024 * 1024;
 // The Instagram upload runs after this script; a hanging thumbnail request must not eat the job budget.
 const THUMBNAIL_TIMEOUT_MS = 30 * 1000;
-// videos.insert 400 reasons caused by metadata (https://developers.google.com/youtube/v3/docs/videos/insert,
-// 2026-09-04). Only these are retried with the legacy title/description.
-const METADATA_REJECTION_REASONS = ["invalidTitle", "invalidDescription", "invalidVideoMetadata"];
-
-function errorReasons(err) {
-  return (err?.errors || []).map((e) => e.reason).filter(Boolean);
-}
 
 function getVideoPath() {
   const arg = process.argv.find((a) => a.startsWith("--video="));
@@ -105,39 +99,17 @@ async function setThumbnail(youtube, videoId, thumbnailPath) {
     console.log(`  Thumbnail: set from ${coverPath} (${size} bytes)`);
     return { set: true };
   } catch (err) {
-    const reasons = errorReasons(err).join(", ");
-    console.error(`  Thumbnail: failed (non-blocking): ${err.message}${reasons ? ` [${reasons}]` : ""}`);
+    const reasons = errorReasons(err);
+    console.error(
+      `  Thumbnail: failed (non-blocking): ${err.message}${reasons.length ? ` [${reasons.join(", ")}]` : ""}`
+    );
     if (reasons.includes("forbidden")) {
       console.error(
         "  Thumbnail: this channel cannot set custom thumbnails on Shorts yet (verified account required; rolling out to YPP creators first). Upload is unaffected."
       );
     }
-    return { error: err.message, reasons };
+    return { error: err.message, reasons: reasons.join(", ") };
   }
-}
-
-function insertVideo(youtube, videoPath, metadata) {
-  return youtube.videos.insert({
-    part: ["snippet", "status"],
-    requestBody: {
-      snippet: {
-        title: metadata.title,
-        description: metadata.description,
-        tags: metadata.tags,
-        categoryId: metadata.categoryId,
-        defaultLanguage: "ja",
-        defaultAudioLanguage: "ja",
-      },
-      status: {
-        privacyStatus: "public",
-        selfDeclaredMadeForKids: false,
-        madeForKids: false,
-      },
-    },
-    media: {
-      body: createReadStream(videoPath),
-    },
-  });
 }
 
 async function main() {
@@ -160,7 +132,7 @@ async function main() {
     readFileSync(join(outputDir, "captions.json"), "utf-8")
   );
   const yt = captions.youtube;
-  let metadata = {
+  const metadata = {
     title: yt.title,
     description: yt.description,
     tags: yt.tags,
@@ -187,26 +159,14 @@ async function main() {
   console.log(`  Opening variant: ${openingVariant}`);
   console.log(`  Uploading...`);
 
-  let res;
-  try {
-    res = await insertVideo(youtube, videoPath, metadata);
-  } catch (err) {
-    // The experiment must never cost the day's upload: if YouTube rejects the
-    // individualized title/description, retry once with the legacy metadata.
-    const reasons = errorReasons(err);
-    if (!yt.fallback || !reasons.some((r) => METADATA_REJECTION_REASONS.includes(r))) throw err;
-    console.error(
-      `  Upload rejected the experiment metadata [${reasons.join(", ")}] — retrying once with the legacy title/description`
-    );
-    metadata = {
-      ...metadata,
-      title: yt.fallback.title,
-      description: yt.fallback.description,
-      titleTemplate: yt.fallback.titleTemplate || "standard",
-    };
-    console.log(`  Title: ${metadata.title}`);
-    res = await insertVideo(youtube, videoPath, metadata);
-  }
+  // The experiment must never cost the day's upload: if YouTube rejects the
+  // individualized title/description, retry once with the legacy metadata.
+  const { res, metadata: uploaded } = await insertWithLegacyFallback({
+    youtube,
+    videoPath,
+    metadata,
+    fallback: yt.fallback,
+  });
 
   const videoId = res.data.id;
   const videoUrl = `https://youtube.com/shorts/${videoId}`;
@@ -219,8 +179,8 @@ async function main() {
     videoId,
     videoUrl,
     uploadedAt: new Date().toISOString(),
-    title: metadata.title,
-    titleTemplate: metadata.titleTemplate,
+    title: uploaded.title,
+    titleTemplate: uploaded.titleTemplate,
     openingVariant,
     thumbnail: null,
   };
@@ -241,10 +201,8 @@ main()
   })
   .catch((err) => {
     console.error("YouTube upload failed:", err.message);
-    if (err.errors) {
-      for (const e of err.errors) {
-        console.error(`  - ${e.reason}: ${e.message}`);
-      }
-    }
+    // gaxios 7 keeps the API's error list in the response body, not on err.errors.
+    const reasons = errorReasons(err);
+    if (reasons.length) console.error(`  reasons: ${reasons.join(", ")}`);
     process.exit(1);
   });

@@ -97,24 +97,29 @@ export function resolveYouTubeUpload({ sharedVideo, youtubeVideo = null, exists 
 
 /**
  * pipeline.mjs Step 4d: render + normalize the YouTube-only video and its
- * cover within the time budget. Never throws. Returns the YouTube video path,
- * or null when YouTube must fall back to the shared video.
+ * cover within the time budget. Never rejects. Resolves to the YouTube video
+ * path, or null when YouTube must fall back to the shared video.
  *
  * @param {object} args
  * @param {object} args.inputProps     the shared render's props
  * @param {string} args.sharedVideo    e.g. "output/trending-20260914.mp4"
  * @param {string} args.outputDir      where input-props-youtube.json is written
  * @param {number} args.deadline       epoch ms by which all of this must be done
- * @param {(cmd: string, opts?: object) => void} args.run  execSync-style runner (throws on failure/timeout)
+ * @param {(cmd: string, opts?: { timeout: number }) => (void|Promise<void>)} args.run
+ *   runner that throws/rejects on failure or timeout — the pipeline passes
+ *   runInProcessGroup (process-group.mjs), which kills the whole process group
+ *   on timeout
  * @param {(path: string, data: string) => void} args.writeFile
+ * @param {(path: string) => (void|Promise<void>)} [args.remove]  delete a (partial) output file
  */
-export function renderYouTubeVariant({
+export async function renderYouTubeVariant({
   inputProps,
   sharedVideo,
   outputDir,
   deadline,
   run,
   writeFile,
+  remove: removeFile = (path) => run(`rm -f "${path}"`),
   now = Date.now,
   log = console.log,
   logError = console.error,
@@ -137,9 +142,9 @@ export function renderYouTubeVariant({
     if (ms < 1000) throw new Error(`time budget exhausted before ${step}`);
     return ms;
   };
-  const remove = (path) => {
+  const remove = async (path) => {
     try {
-      run(`rm -f "${path}"`);
+      await removeFile(path);
     } catch (err) {
       logError(`cleanup of ${path} failed: ${err.message}`);
     }
@@ -149,24 +154,24 @@ export function renderYouTubeVariant({
   try {
     const propsPath = join(outputDir, "input-props-youtube.json");
     writeFile(propsPath, JSON.stringify({ ...inputProps, openingVariant: "top1" }));
-    run(`npx remotion render TrendingVideo "${raw}" --props="${propsPath}"`, { timeout: budget("render") });
-    run(`ffmpeg -y -i "${raw}" ${NORMALIZE_ARGS} "${video}"`, { timeout: budget("encode") });
+    await run(`npx remotion render TrendingVideo "${raw}" --props="${propsPath}"`, { timeout: budget("render") });
+    await run(`ffmpeg -y -i "${raw}" ${NORMALIZE_ARGS} "${video}"`, { timeout: budget("encode") });
     rendered = true;
 
     try {
-      run(`npx remotion still TrendingVideo "${cover}" --frame=60 --props="${propsPath}"`, {
+      await run(`npx remotion still TrendingVideo "${cover}" --frame=60 --props="${propsPath}"`, {
         timeout: budget("cover"),
       });
     } catch (err) {
       logError(`YouTube cover render failed (non-blocking — no custom thumbnail today): ${err.message}`);
-      remove(cover);
+      await remove(cover);
     }
   } catch (err) {
     logError(`YouTube variant render failed (non-blocking — YouTube falls back to the shared video): ${err.message}`);
     // A half-written file must never be picked up as the YouTube upload.
-    remove(video);
+    await remove(video);
   } finally {
-    remove(raw);
+    await remove(raw);
   }
   return rendered ? video : null;
 }
