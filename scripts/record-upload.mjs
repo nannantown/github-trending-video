@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { summarizeThumbnail } from "./youtube-variant.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
@@ -68,8 +69,14 @@ function main() {
     videoId: uploadResult.videoId,
     videoUrl: uploadResult.videoUrl,
     date: dateStr,
-    title: captions?.youtube?.title || "",
-    titleTemplate: "standard", // will be dynamic in Phase 3
+    // upload-result.json holds what was actually uploaded (the legacy metadata if
+    // YouTube rejected the experiment's title and the upload was retried).
+    title: uploadResult.title || captions?.youtube?.title || "",
+    titleTemplate: uploadResult.titleTemplate || captions?.youtube?.titleTemplate || "standard", // "top1" = 2026-09-14 experiment arm
+    // 2026-09-14 YouTube distribution experiment B (YouTube upload only):
+    // "top1" = YouTube-only render with the TOP1 opening, "brand" = shared video.
+    ytOpening: uploadResult.openingVariant || "brand",
+    ytThumbnail: summarizeThumbnail(uploadResult.thumbnail), // "set" | "skipped:<why>" | "error:<reason>" | null
     hashtags: captions?.youtube?.tags || [],
     languages: trendingData?.projects
       ? [...new Set(trendingData.projects.map((p) => p.language).filter(Boolean))]

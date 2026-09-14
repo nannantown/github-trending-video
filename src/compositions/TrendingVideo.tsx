@@ -7,6 +7,7 @@ import {
   useCurrentFrame,
 } from "remotion";
 import { Opening } from "../components/Opening";
+import { OpeningTop1 } from "../components/OpeningTop1";
 import { ProjectCard } from "../components/ProjectCard";
 import { Ending } from "../components/Ending";
 import { Subtitle, SubtitleData } from "../components/Subtitle";
@@ -18,16 +19,25 @@ import {
   calculateFrameDurations,
 } from "../data";
 
+/**
+ * "brand" = the shared opening (Instagram, and the default for every render).
+ * "top1"  = YouTube-only opening with the day's TOP1 repo from frame 0
+ *           (2026-09-14 distribution experiment B).
+ */
+export type OpeningVariant = "brand" | "top1";
+
 export interface Props {
   projects: Project[];
   audioDurations?: AudioDurations;
   subtitles?: SubtitleMap;
+  openingVariant?: OpeningVariant;
 }
 
 export const TrendingVideo: React.FC<Props> = ({
   projects,
   audioDurations,
   subtitles,
+  openingVariant = "brand",
 }) => {
   const frames = calculateFrameDurations(audioDurations || defaultDurations);
 
@@ -41,7 +51,11 @@ export const TrendingVideo: React.FC<Props> = ({
 
       <Series>
         <Series.Sequence durationInFrames={frames.opening}>
-          <Opening />
+          {openingVariant === "top1" && projects[0] ? (
+            <OpeningTop1 topProject={projects[0]} />
+          ) : (
+            <Opening />
+          )}
           <SubtitleWrapper data={sub("opening")} />
           <Audio src={staticFile("audio/opening.mp3")} volume={1} />
         </Series.Sequence>
