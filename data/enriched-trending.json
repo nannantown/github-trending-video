@@ -1,17 +1,16 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "discovery": {
-    "method": "business-angle",
-    "description": "TOP5を『SaaS課金の代替』の視点で切る。ElevenLabs、SonarQube、Twitter API、統計SaaS、GPUクラウドを自前運用に置き換える月額削減マップとして料理する。",
+    "method": "comparison",
+    "description": "各 OSS を類似 SaaS / 既存 OSS と並べ、選定のガイドとして提示",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/JustVugg/colibri",
       "https://github.com/alibaba/open-code-review",
+      "https://github.com/JustVugg/colibri",
       "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/666ghj/MiroFish",
-      "https://github.com/Panniantong/Agent-Reach",
-      "https://hn.algolia.com/?q=colibri+MoE",
-      "https://hn.algolia.com/?q=open-code-review+alibaba"
+      "https://github.com/ever-co/ever-gauzy",
+      "https://github.com/danny-avila/LibreChat",
+      "https://news.ycombinator.com/from?site=github.com/alibaba"
     ],
     "query": "",
     "freshness_hours": 1
@@ -19,27 +18,27 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "JustVugg/colibri",
-      "name": "colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "language": "C",
-      "stars": 31954,
-      "todayStars": 2233,
-      "description": "余ったSSDでフロンティアMoE",
-      "detail": "GPUなしでも純CでルーテッドMoEをSSDから流し込む推論エンジンです。128GB Macで1.8トークン/秒、GLM 5.2やKimi K3、DeepSeek V4にも対応。Apache 2.0で個人卓にフロンティア推論が降りてきます。",
-      "narration": "オフィスの余ったSSDでフロンティアMoEを動かす推論エンジンです。GPU課金を月10万円単位で削減できます。"
-    },
-    {
-      "rank": 2,
       "fullName": "alibaba/open-code-review",
       "name": "open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "language": "Go",
-      "stars": 25548,
-      "todayStars": 1796,
-      "description": "アリババの本気コードレビューOSS",
-      "detail": "アリババ本番規模のOSSコードレビュー基盤です。決定的パイプラインとLLMエージェントを組み合わせ、NPEやSQLインジェクションを行番号単位で指摘。OpenAIとAnthropic両対応で自前運用向き。",
-      "narration": "アリババが自社で回すOSSコードレビュー基盤です。SonarQubeの月額課金を自前運用で置き換えられます。"
+      "stars": 28390,
+      "todayStars": 2751,
+      "description": "LLMを掛けたコードレビュー基盤",
+      "detail": "ルールエンジンとLLMエージェントを組み合わせたハイブリッド型で、Alibabaの本番規模で鍛えられています。NPEやXSSやSQLインジェクションを行番号単位で指摘し、OpenAIとAnthropicの両方に対応します。",
+      "narration": "SonarQubeにLLMを掛け合わせたコードレビュー基盤です。ルールとエージェントの両方で脆弱性を突きます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "JustVugg/colibri",
+      "name": "colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "language": "C",
+      "stars": 33737,
+      "todayStars": 2035,
+      "description": "純Cで書かれたMoE推論エンジン",
+      "detail": "VRAMとRAMとNVMeストレージを1つの階層と見なし、SSDから専門家モジュールを19MB単位で流し込みます。128GBのMacでGLM 5.2やKimi K3やDeepSeek V4が1.8トークン毎秒で動きます。",
+      "narration": "llama.cppとは違いSSDから専門家を流し込むMoE推論エンジンです。128GBのMacでGLMが動きます。"
     },
     {
       "rank": 3,
@@ -47,35 +46,35 @@
       "name": "VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "language": "Python",
-      "stars": 29050,
-      "todayStars": 2774,
-      "description": "ElevenLabsの完全ローカル代替",
-      "detail": "ElevenLabsの完全ローカルOSS代替です。音声クローン、ボイスデザイン、動画ダビング、書き起こし、朗読までを646言語で完結。GPU 1枚あれば社内運用に切り替えられます。",
-      "narration": "ElevenLabsの完全ローカル代替OSSです。646言語で音声合成と動画ダビングを社内運用で回せます。"
+      "stars": 30855,
+      "todayStars": 2081,
+      "description": "ローカルで動くElevenLabs代替",
+      "detail": "音声クローン、音声デザイン、動画吹き替え、口述、文字起こし、オーディオブック制作まで646言語で扱えるOSSです。ElevenLabsに送らずGPU 1枚で完結し、社内音声データを外に出さずに処理できます。",
+      "narration": "ElevenLabsをローカルで置き換える音声OSSです。646言語の吹き替えと文字起こしを1本で扱えます。"
     },
     {
       "rank": 4,
-      "fullName": "666ghj/MiroFish",
-      "name": "MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "language": "Python",
-      "stars": 73094,
-      "todayStars": 524,
-      "description": "汎用の群体知能予測エンジンOSS",
-      "detail": "群れ知能アルゴリズムで需要や在庫、株価まで幅広く予測できる汎用OSSエンジンです。Pythonのみで完結、シンプルAPIで既存のETLに組み込みやすく、統計SaaSの代替に据えやすい設計。",
-      "narration": "群体知能で需要や在庫を予測できる汎用エンジンです。統計SaaS課金を社内需要予測で置き換えられます。"
+      "fullName": "ever-co/ever-gauzy",
+      "name": "ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "language": "TypeScript",
+      "stars": 6586,
+      "todayStars": 632,
+      "description": "ERP+CRM+HRMの統合基盤",
+      "detail": "ERP、CRM、HRM、ATS、プロジェクト管理を1つに束ねたオープンなビジネス管理プラットフォームです。従業員の時間追跡から請求書発行、案件管理まで社内システムを1本に統合できます。",
+      "narration": "OdooやERPNextと並ぶ統合ビジネス基盤です。ERPとCRMとHRMを1つに束ねて自社運用に載せられます。"
     },
     {
       "rank": 5,
-      "fullName": "Panniantong/Agent-Reach",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "language": "Python",
-      "stars": 81174,
-      "todayStars": 640,
-      "description": "AIエージェントにSNS横断の目",
-      "detail": "AIエージェントにTwitter、Reddit、YouTube、GitHub、Bilibili、小紅書を横断で読み書きさせるCLIです。API課金ゼロ、1コマンドで社内のソーシャル収集を代替できます。",
-      "narration": "AIエージェントにSNS横断の目を与えるCLIです。Twitter APIの月額課金を丸ごと削れます。"
+      "fullName": "danny-avila/LibreChat",
+      "name": "LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "language": "TypeScript",
+      "stars": 43785,
+      "todayStars": 261,
+      "description": "マルチAI対応のChatGPT代替",
+      "detail": "OpenAIとClaudeとGoogleとローカルLLMを1つのUIから切り替えられるChatGPT代替です。エージェント機能とコード実行、認証、セルフホスト対応まで揃った拡張型実装です。",
+      "narration": "ChatGPTを自宅サーバで動かすOSS版です。OpenAIとClaudeとローカルLLMを1つのUIで切り替えます。"
     }
   ]
 }
