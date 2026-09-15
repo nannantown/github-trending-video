@@ -2,72 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "pcDXa3wKmy0",
-      "videoUrl": "https://youtube.com/shorts/pcDXa3wKmy0",
-      "date": "2026-06-16",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/16 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "Elixir",
-        "Python"
-      ],
-      "languages": [
-        "TypeScript",
-        "Elixir",
-        "Python",
-        "Ruby"
-      ],
-      "projects": [
-        "iptv-org/iptv",
-        "teslamate-org/teslamate",
-        "Panniantong/Agent-Reach",
-        "meshery/meshery",
-        "chatwoot/chatwoot"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "comparison",
-        "description": "本日の TOP5 を商用 SaaS / プロプラ製品との 1:1 差分で語る。Pluto TV・TeslaFi・Apify・Istio + ArgoCD + Rancher・Intercom + Zendesk と、5 本それぞれに明確な incumbent が立つ理想的な対比構図",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/iptv-org/iptv",
-          "https://github.com/teslamate-org/teslamate",
-          "https://github.com/Panniantong/Agent-Reach",
-          "https://github.com/meshery/meshery",
-          "https://github.com/chatwoot/chatwoot"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-06-29T23:46:42.847Z"
-      },
-      "instagram": {
-        "mediaId": "18596955442045703",
-        "permalink": "https://www.instagram.com/reel/DZoGC4rgOwU/",
-        "views": 1017,
-        "reach": 717,
-        "likes": 9,
-        "comments": 0,
-        "shares": 0,
-        "saved": 6,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "2FYbAE87d_o",
       "videoUrl": "https://youtube.com/shorts/2FYbAE87d_o",
       "date": "2026-06-17",
@@ -4672,18 +4606,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18118380895937200",
         "permalink": "https://www.instagram.com/reel/DcufEftE9pM/",
-        "views": 1260,
-        "reach": 940,
+        "views": 1263,
+        "reach": 945,
         "likes": 13,
         "comments": 1,
         "shares": 0,
         "saved": 9,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -4741,18 +4675,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18125905324855087",
         "permalink": "https://www.instagram.com/reel/Dcw-DcviYYP/",
-        "views": 1454,
-        "reach": 1090,
+        "views": 1457,
+        "reach": 1091,
         "likes": 5,
         "comments": 0,
         "shares": 2,
         "saved": 17,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -4810,18 +4744,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18015515858734358",
         "permalink": "https://www.instagram.com/reel/Dczj6J6AejP/",
-        "views": 697,
-        "reach": 474,
+        "views": 699,
+        "reach": 476,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -4879,18 +4813,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18342008575284858",
         "permalink": "https://www.instagram.com/reel/Dc2HF-DAEHm/",
-        "views": 764,
-        "reach": 556,
+        "views": 769,
+        "reach": 561,
         "likes": 3,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -4949,18 +4883,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18026733278890126",
         "permalink": "https://www.instagram.com/reel/Dc4rI1ygA0X/",
-        "views": 756,
-        "reach": 560,
+        "views": 760,
+        "reach": 565,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 8,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5020,18 +4954,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18162735754490043",
         "permalink": "https://www.instagram.com/reel/Dc7PBZNCtCh/",
-        "views": 641,
-        "reach": 433,
+        "views": 644,
+        "reach": 435,
         "likes": 5,
         "comments": 0,
         "shares": 0,
         "saved": 3,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5091,18 +5025,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18008601995969156",
         "permalink": "https://www.instagram.com/reel/Dc90aBJj9o0/",
-        "views": 1132,
-        "reach": 800,
+        "views": 1137,
+        "reach": 804,
         "likes": 7,
         "comments": 0,
         "shares": 1,
         "saved": 9,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5160,18 +5094,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "17942893803345405",
         "permalink": "https://www.instagram.com/reel/DdAbv5Nj6VH/",
-        "views": 1073,
-        "reach": 794,
+        "views": 1084,
+        "reach": 801,
         "likes": 9,
         "comments": 0,
         "shares": 0,
         "saved": 17,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5231,18 +5165,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18092185817442270",
         "permalink": "https://www.instagram.com/reel/DdDAbE4DTV1/",
-        "views": 1050,
-        "reach": 822,
+        "views": 1061,
+        "reach": 831,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 7,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5300,18 +5234,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18169255372457301",
         "permalink": "https://www.instagram.com/reel/DdFkxiyD-d8/",
-        "views": 1216,
-        "reach": 975,
+        "views": 1238,
+        "reach": 992,
         "likes": 17,
         "comments": 0,
         "shares": 0,
         "saved": 12,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5370,18 +5304,18 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "17884527690486370",
         "permalink": "https://www.instagram.com/reel/DdIJOxbjGPp/",
-        "views": 622,
-        "reach": 425,
+        "views": 644,
+        "reach": 440,
         "likes": 0,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5434,18 +5368,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-14T00:29:58.925Z"
+        "updatedAt": "2026-09-15T01:01:18.367Z"
       },
       "instagram": {
         "mediaId": "18409041061092696",
         "permalink": "https://www.instagram.com/reel/DdNRyZMjSbU/",
-        "views": 703,
-        "reach": 489,
+        "views": 760,
+        "reach": 526,
         "likes": 5,
         "comments": 0,
         "shares": 0,
-        "saved": 7,
-        "updatedAt": "2026-09-14T00:29:58.926Z"
+        "saved": 8,
+        "updatedAt": "2026-09-15T01:01:18.368Z"
       }
     },
     {
@@ -5494,13 +5428,79 @@
         "freshness_hours": 1
       },
       "stats": {
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": "2026-09-15T01:01:18.367Z"
+      },
+      "instagram": {
+        "mediaId": "18103068545363845",
+        "permalink": "https://www.instagram.com/reel/DdP2wzUkfzZ/",
+        "views": 634,
+        "reach": 424,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "saved": 3,
+        "updatedAt": "2026-09-15T01:01:18.368Z"
+      }
+    },
+    {
+      "videoId": "ITcjtKGvas0",
+      "videoUrl": "https://youtube.com/shorts/ITcjtKGvas0",
+      "date": "2026-09-15",
+      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/09/15 #Shorts",
+      "titleTemplate": "standard",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Go",
+        "Python"
+      ],
+      "languages": [
+        "C",
+        "Go",
+        "Python"
+      ],
+      "projects": [
+        "JustVugg/colibri",
+        "alibaba/open-code-review",
+        "debpalash/VoiceStudio",
+        "666ghj/MiroFish",
+        "Panniantong/Agent-Reach"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "TOP5を『SaaS課金の代替』の視点で切る。ElevenLabs、SonarQube、Twitter API、統計SaaS、GPUクラウドを自前運用に置き換える月額削減マップとして料理する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/JustVugg/colibri",
+          "https://github.com/alibaba/open-code-review",
+          "https://github.com/debpalash/VoiceStudio",
+          "https://github.com/666ghj/MiroFish",
+          "https://github.com/Panniantong/Agent-Reach",
+          "https://hn.algolia.com/?q=colibri+MoE",
+          "https://hn.algolia.com/?q=open-code-review+alibaba"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
         "views": 0,
         "likes": 0,
         "comments": 0,
         "updatedAt": null
       },
       "instagram": {
-        "mediaId": "18103068545363845",
+        "mediaId": "18132316954678767",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5513,18 +5513,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-14",
-      "changes": [
-        "Swift: 0.0x avg views → drop",
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 2 avg views (82 videos)",
-        "Trending languages: Markdown (1.8x), C# (2.0x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.7x), PowerShell (1.6x)",
-        "Day performance: Fri=2, Sat=2, Tue=2, Sun=1, Mon=1, Wed=1, Thu=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-15",
       "changes": [
@@ -5889,6 +5877,18 @@
         "standard: 1 avg views (82 videos)",
         "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Fri=2, Mon=1, Tue=1, Wed=1, Thu=1, Sat=1, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-15",
+      "changes": [
+        "C: 0.0x avg views → drop",
+        "Kotlin: 0.7x avg views → drop",
+        "JavaScript: 0.8x avg views → drop",
+        "standard: 1 avg views (82 videos)",
+        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.6x)",
+        "Day performance: Fri=2, Tue=1, Wed=1, Thu=1, Sat=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
