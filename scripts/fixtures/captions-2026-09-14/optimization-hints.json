@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-14T08:27:15.956Z",
+  "videoCount": 82,
+  "recommendedHashtags": [
+    "GitHubTrending",
+    "GitHub",
+    "プログラミング",
+    "エンジニア",
+    "Tech",
+    "開発",
+    "OSS",
+    "オープンソース",
+    "Shorts"
+  ],
+  "droppedHashtags": [
+    "C",
+    "Kotlin",
+    "JavaScript"
+  ],
+  "recommendedTitleTemplate": "standard",
+  "reasoning": [
+    "C: 0.0x avg views → drop",
+    "Kotlin: 0.8x avg views → drop",
+    "JavaScript: 0.8x avg views → drop",
+    "standard: 1 avg views (82 videos)",
+    "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
+    "Day performance: Fri=2, Tue=1, Wed=1, Thu=1, Sat=1, Sun=1, Mon=1"
+  ]
+}

@@ -4,12 +4,23 @@
  */
 
 import { execSync } from "child_process";
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { switchOn } from "./yt-experiment-switches.mjs";
+import { renderYouTubeVariant } from "./youtube-variant.mjs";
+import { runInProcessGroup } from "./process-group.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
+
+// Step 4d (YouTube-only render) must be finished this long after the pipeline
+// starts. daily-video.yml runs the job with timeout-minutes: 20; setup before
+// this script takes ~1 min (2026-09-14: 40s) and posting needs up to ~7 min
+// (Instagram waits up to 5 min for media processing), so 20 − 2 − 8 = 10 min.
+// A normal day finishes Step 4d ~4 min after start. Keep in sync with the
+// workflow's timeout-minutes.
+const YOUTUBE_VARIANT_DEADLINE_MS = 10 * 60 * 1000;
 const outputDir = join(rootDir, "output");
 
 function run(cmd) {
@@ -25,7 +36,8 @@ function runSafe(cmd, label) {
   }
 }
 
-function main() {
+async function main() {
+  const startedAt = Date.now();
   mkdirSync(outputDir, { recursive: true });
 
   const today = new Date();
@@ -96,11 +108,41 @@ function main() {
     "render-cover"
   );
 
+  // Step 4d: YouTube-only render (2026-09-14 distribution experiment B).
+  //          Same props + openingVariant="top1": the day's TOP1 repo is on
+  //          screen from frame 0, so YouTube no longer receives a first second
+  //          (and auto-thumbnail) that is identical every day. The shared
+  //          render above stays exactly as it was and goes to Instagram.
+  //          Its frame-60 still becomes the YouTube thumbnail.
+  //          Non-blocking and time-boxed (YOUTUBE_VARIANT_DEADLINE_MS): on any
+  //          failure or timeout YouTube falls back to the shared video, so the
+  //          Instagram post is never delayed past the job budget by this step.
+  let youtubeVideoFile = null;
+  if (switchOn(process.env.YT_OPENING_HOOK, "YT_OPENING_HOOK")) {
+    console.log(`\n=== Step 4d: Render YouTube Variant (TOP1 opening) → output/trending-${dateStr}-youtube.mp4 ===`);
+    youtubeVideoFile = await renderYouTubeVariant({
+      inputProps,
+      sharedVideo: outputFile,
+      outputDir,
+      deadline: startedAt + YOUTUBE_VARIANT_DEADLINE_MS,
+      // Own process group per command: a timeout kills npx AND its remotion /
+      // Chrome / ffmpeg descendants, so none keeps the step's stdout open.
+      run: (cmd, opts) => runInProcessGroup(cmd, { cwd: rootDir, ...opts }),
+      writeFile: writeFileSync,
+      remove: (path) => rmSync(join(rootDir, path), { force: true }),
+    });
+  } else {
+    console.log(
+      `\n=== Step 4d: YouTube variant skipped (YT_OPENING_HOOK is off) — YouTube uses the shared video ===`
+    );
+  }
+
   // Step 5: Post to SNS (optional - skips if credentials not configured)
   const snsEnabled = process.env.SNS_POST_ENABLED === "true";
   if (snsEnabled) {
     console.log(`\n=== Step 5: Post to SNS ===`);
-    run(`node scripts/post-sns.mjs --video="${outputFile}"`);
+    const youtubeArg = youtubeVideoFile ? ` --youtube-video="${youtubeVideoFile}"` : "";
+    run(`node scripts/post-sns.mjs --video="${outputFile}"${youtubeArg}`);
   } else {
     console.log(`\n=== Step 5: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
   }
@@ -114,4 +156,7 @@ function main() {
   console.log(`\n=== Done! ${outputFile} ===`);
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

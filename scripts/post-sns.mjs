@@ -5,7 +5,12 @@
  * 3. Upload to YouTube Shorts
  * 4. Upload to Instagram Reels
  *
- * Usage: node scripts/post-sns.mjs [--video=path/to/video.mp4]
+ * Usage: node scripts/post-sns.mjs [--video=path/to/video.mp4] [--youtube-video=path/to/video-youtube.mp4]
+ *
+ *   --video          shared render: Instagram + GitHub Release (and YouTube fallback)
+ *   --youtube-video  YouTube-only render with the TOP1 opening (2026-09-14
+ *                    distribution experiment B, produced by pipeline.mjs Step 4d).
+ *                    Missing file → YouTube falls back to --video.
  *
  * Environment variables (all optional - missing credentials = skip that platform):
  *   YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
@@ -18,6 +23,7 @@ import { execSync } from "child_process";
 import { existsSync, readFileSync } from "fs";
 import { join, dirname, basename } from "path";
 import { fileURLToPath } from "url";
+import { argPath, isSharedVideoFile, resolveYouTubeUpload } from "./youtube-variant.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
@@ -41,11 +47,14 @@ function getVideoPath() {
   const p = join(outputDir, `trending-${dateStr}.mp4`);
   if (existsSync(p)) return p;
 
-  // Fallback: find any trending-*.mp4
+  // Fallback: find any trending-YYYYMMDD.mp4 (never the YouTube-only render or a .raw intermediate)
   const files = execSync(`ls -t ${outputDir}/trending-*.mp4 2>/dev/null || true`, {
     encoding: "utf-8",
-  }).trim();
-  if (files) return files.split("\n")[0];
+  })
+    .trim()
+    .split("\n")
+    .filter(isSharedVideoFile);
+  if (files.length > 0) return files[0];
 
   return null;
 }
@@ -101,7 +110,7 @@ async function createGitHubRelease(videoPath, coverPath) {
   }
 }
 
-async function uploadYouTube(videoPath) {
+async function uploadYouTube({ video, openingVariant, thumbnail }) {
   const { YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN } =
     process.env;
 
@@ -112,9 +121,11 @@ async function uploadYouTube(videoPath) {
 
   console.log("\n=== YouTube Shorts Upload ===");
   try {
-    run(`node scripts/upload-youtube.mjs --video="${videoPath}"`, {
-      stdio: "inherit",
-    });
+    const thumbnailArg = thumbnail ? ` --thumbnail="${thumbnail}"` : "";
+    run(
+      `node scripts/upload-youtube.mjs --video="${video}" --opening-variant=${openingVariant}${thumbnailArg}`,
+      { stdio: "inherit" }
+    );
     return true;
   } catch (err) {
     console.error(`YouTube upload failed: ${err.message}`);
@@ -179,11 +190,24 @@ async function main() {
     process.env.VIDEO_PUBLIC_URL = urls.videoUrl;
   }
 
+  // YouTube gets its own render when the pipeline produced one (2026-09-14
+  // experiment B: TOP1 opening); Instagram always gets the shared video.
+  const youtubeUpload = resolveYouTubeUpload({
+    sharedVideo: videoPath,
+    youtubeVideo: argPath(process.argv, "youtube-video", rootDir),
+  });
+  if (youtubeUpload.fellBack) {
+    console.log("YouTube variant not found — YouTube falls back to the shared video.");
+  }
+  console.log(
+    `YouTube video: ${youtubeUpload.video} (opening: ${youtubeUpload.openingVariant}, thumbnail: ${youtubeUpload.thumbnail || "none"})`
+  );
+
   // Step 3: Upload to platforms. Instagram takes the local file and uses
   // resumable upload directly; the GitHub Release above is kept as an
   // archival copy and a fallback source for manual re-posting.
   const results = {
-    youtube: await uploadYouTube(videoPath),
+    youtube: await uploadYouTube(youtubeUpload),
     instagram: await uploadInstagram(videoPath, urls?.coverUrl),
   };
 

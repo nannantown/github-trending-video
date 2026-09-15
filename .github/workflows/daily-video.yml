@@ -5,6 +5,11 @@ on:
     # 23:00 UTC = 08:00 JST
     - cron: "0 23 * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Verify mode: render both videos (shared + YouTube variant) and upload them as artifacts, without posting or committing"
+        type: boolean
+        default: false
   push:
     paths:
       - '.recovery-trigger'
@@ -15,7 +20,10 @@ permissions:
 jobs:
   generate-video:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # 20 (was 15): the pipeline now also renders the YouTube-only video
+    # (~2 min). scripts/pipeline.mjs time-boxes that step against this value
+    # (YOUTUBE_VARIANT_DEADLINE_MS) so the Instagram post always fits — keep in sync.
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
@@ -41,11 +49,20 @@ jobs:
         run: node scripts/pipeline.mjs
         env:
           TZ: Asia/Tokyo
-          SNS_POST_ENABLED: ${{ secrets.SNS_POST_ENABLED }}
+          # inputs.dry_run is '' on schedule/push runs (falsy) → the secret is used as before.
+          SNS_POST_ENABLED: ${{ inputs.dry_run && 'false' || secrets.SNS_POST_ENABLED }}
           # YouTube
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          # 2026-09-14 YouTube distribution experiment (YouTube upload only) —
+          # kill switches via repo Variables (Settings > Secrets and variables >
+          # Actions > Variables). Unset = experiment on; "false" (or "standard",
+          # or any unrecognized value) = pre-experiment behaviour.
+          # See scripts/yt-experiment-switches.mjs.
+          YT_TITLE_TEMPLATE: ${{ vars.YT_TITLE_TEMPLATE }}
+          YT_OPENING_HOOK: ${{ vars.YT_OPENING_HOOK }}
+          YT_SET_THUMBNAIL: ${{ vars.YT_SET_THUMBNAIL }}
           # Instagram
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
@@ -54,6 +71,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit performance history
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -67,5 +85,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: trending-video-${{ github.run_number }}
-          path: output/trending-*.mp4
+          path: |
+            output/trending-*.mp4
+            output/trending-*-cover.jpg
           retention-days: 30

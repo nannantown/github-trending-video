@@ -1,0 +1,66 @@
+{
+  "openingNarration": "今日のGitHub Trending。注目リポジトリトップ5を紹介します。",
+  "endingNarration": "以上、今日のGitHub Trendingでした。フォローといいねで、毎朝のトレンドをチェックしましょう。",
+  "projects": [
+    {
+      "rank": 1,
+      "name": "colibri",
+      "fullName": "JustVugg/colibri",
+      "description": "余ったSSDでフロンティアMoEを回す",
+      "detail": "VRAMとRAMとNVMe SSDを一つのメモリ階層と見なす純C推論エンジン。routed MoEを19MB単位でSSDから流し込み、128GBのMacBookでも1.8 tokens/秒でGLM-5.2やKimi K3を回せます。",
+      "narration": "フロンティアMoEをSSDから流し込む推論エンジンです。128GBのMacでもGPU無しで動きます。",
+      "stars": 29690,
+      "todayStars": 960,
+      "language": "C",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "rank": 2,
+      "name": "ever-gauzy",
+      "fullName": "ever-co/ever-gauzy",
+      "description": "小規模チーム向け統合業務OSS",
+      "detail": "フリーランスとエージェンシー向けの統合業務OSS。ERP、CRM、HRM、ATS、時間管理、請求までNestJSとAngularで束ね、AGPL-3.0で自己ホストしてOdooやZohoの代替に使えます。",
+      "narration": "フリーランスとエージェンシー向けの統合業務OSSです。時間管理、請求、CRM、採用まで1画面で回せます。",
+      "stars": 4995,
+      "todayStars": 58,
+      "language": "TypeScript",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "rank": 3,
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "OSINT向けブラウザ3D地球儀",
+      "detail": "CesiumJSとOpenAI Realtime APIで組んだ3D地球儀。OpenSky、AIS、CelesTrak、NASA FIRMSなど13レイヤーを1画面に集約し、OSINTや報道の現場で公開データを音声から扱えます。",
+      "narration": "OSINT取材の現場で衛星と飛行機を1画面で追えます。ブラウザだけでCesiumJSと公開データを扱えます。",
+      "stars": 31769,
+      "todayStars": 2898,
+      "language": "JavaScript",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "rank": 4,
+      "name": "agent-skills",
+      "fullName": "tech-leads-club/agent-skills",
+      "description": "AI開発者の共通スキルレジストリ",
+      "detail": "Claude Code、Cursor、Cline、Copilotなど主要AIエージェント向けの共通スキルレジストリ。Snyk検査済みSKILL.mdをCLI一発で複数IDEに配布でき、13%の脆弱性報告を回避できます。",
+      "narration": "Claude CodeやCursorに共通スキルを配るレジストリです。セキュリティ検査済みで一括導入できます。",
+      "stars": 5609,
+      "todayStars": 215,
+      "language": "TypeScript",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "rank": 5,
+      "name": "DeskcommCRM",
+      "fullName": "melgarafael/DeskcommCRM",
+      "description": "WhatsApp商流の自己ホストCRM",
+      "detail": "Next.js 16、Supabase、pgvector、MCPで組んだWhatsApp向け自己ホストCRM。AIエージェントがRAGでリード対応と営業パイプラインを回し、KommoやIntercomの月額支配を畳めます。",
+      "narration": "WhatsAppで商談する中小企業向けの自己ホスト型AI CRMです。営業と案件管理を1つに束ねられます。",
+      "stars": 2154,
+      "todayStars": 444,
+      "language": "TypeScript",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    }
+  ]
+}

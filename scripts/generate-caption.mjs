@@ -1,6 +1,12 @@
 /**
  * Generate platform-specific captions from trending data.
- * Reads optimization hints (if available) to improve hashtags and titles.
+ * Reads optimization hints (if available) to improve hashtags.
+ *
+ * YouTube title/description are individualized per day (TOP1 repo name +
+ * what it does) — see scripts/youtube-caption.mjs for the rationale
+ * (2026-09-14 distribution experiment). The Instagram caption is unchanged
+ * (locked by scripts/generate-caption.test.mjs against origin/main output).
+ * Control arm (legacy title + description): YT_TITLE_TEMPLATE=standard
  *
  * Input:  output/trending-data.json, output/optimization-hints.json (optional)
  * Output: output/captions.json
@@ -8,7 +14,8 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
+import { buildYouTubeMetadata, resolveTitleTemplate } from "./youtube-caption.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputDir = join(__dirname, "..", "output");
@@ -31,7 +38,7 @@ function loadOptimizationHints() {
   }
 }
 
-function generateHashtags(projects, hints) {
+export function generateHashtags(projects, hints) {
   let base;
 
   if (hints?.recommendedHashtags && hints.recommendedHashtags.length > 0) {
@@ -75,63 +82,34 @@ function generateHashtags(projects, hints) {
   return base;
 }
 
-function generateTitle(data, dateStr, hints) {
-  const template = hints?.recommendedTitleTemplate || "standard";
-  const topProject = data.projects[0];
-
-  switch (template) {
-    case "highlight":
-      // Highlight top project name and star count
-      return `${topProject.name} +${topProject.todayStars.toLocaleString()}stars! GitHub Trending TOP5｜${dateStr.full} #Shorts`;
-
-    case "emoji":
-      return `GitHub Trending TOP5｜${dateStr.full} #Shorts`;
-
-    case "standard":
-    default:
-      return `【GitHub Trending】今日の注目リポジトリ TOP5｜${dateStr.full} #Shorts`;
-  }
-}
-
-function generateYouTubeCaption(data, dateStr, hints) {
+export function generateYouTubeCaption(
+  data,
+  dateStr,
+  hints,
+  titleTemplate = resolveTitleTemplate(process.env.YT_TITLE_TEMPLATE)
+) {
   const { projects } = data;
   const hashtags = generateHashtags(projects, hints);
-  const title = generateTitle(data, dateStr, hints);
-  const titleTemplate = hints?.recommendedTitleTemplate || "standard";
 
-  // Description
-  const lines = [
-    `${dateStr.full} の GitHub Trending 上位5リポジトリを紹介します。`,
-    "",
-    "--- 本日のランキング ---",
-    "",
-  ];
-
-  for (const p of projects) {
-    lines.push(`${p.rank}. ${p.fullName}`);
-    lines.push(`   ${p.description}`);
-    lines.push(`   ${p.stars.toLocaleString()} stars (+${p.todayStars.toLocaleString()} today)`);
-    lines.push(`   ${p.url}`);
-    lines.push("");
+  // Experiment arm is pinned via YT_TITLE_TEMPLATE (not hint-driven) — see youtube-caption.mjs.
+  if (hints?.recommendedTitleTemplate && hints.recommendedTitleTemplate !== titleTemplate) {
+    console.log(
+      `  (hints recommend "${hints.recommendedTitleTemplate}" — ignored, experiment pins "${titleTemplate}")`
+    );
   }
 
-  lines.push("---");
-  lines.push("");
-  lines.push("毎朝 GitHub Trending をチェックして、最新のトレンドをキャッチしよう。");
-  lines.push("チャンネル登録 & いいね お願いします。");
-  lines.push("");
-  lines.push(hashtags.join(" "));
-
+  const { title, description, fallback } = buildYouTubeMetadata(projects, dateStr, hashtags, titleTemplate);
   return {
     title,
     titleTemplate,
-    description: lines.join("\n"),
+    description,
     tags: hashtags.map((h) => h.replace("#", "")),
     categoryId: "28", // Science & Technology
+    ...(fallback ? { fallback } : {}),
   };
 }
 
-function generateInstagramCaption(data, dateStr, hints) {
+export function generateInstagramCaption(data, dateStr, hints) {
   const { projects } = data;
   const hashtags = generateHashtags(projects, hints);
 
@@ -185,4 +163,8 @@ function main() {
   console.log(`  Instagram: ${captions.instagram.length} chars`);
 }
 
-main();
+// Run only when executed directly (post-sns.mjs spawns `node scripts/generate-caption.mjs`);
+// importing the module (tests) must not read or write files.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main();
+}
