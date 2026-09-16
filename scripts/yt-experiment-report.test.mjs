@@ -14,7 +14,17 @@ import {
   todayJst,
   RESTORED_MIN_MEDIAN,
   SIGNAL_MIN_MEDIAN,
+  RETENTION_DELTA_PT,
+  RETENTION_MISSING,
+  loadStudioRetention,
+  normalizeRetention,
+  retentionDelta,
+  retentionVerdict,
+  retentionHeadline,
 } from "./yt-experiment-report.mjs";
+import { mkdtempSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 
 function video(date, ytViewCount, igViews, titleTemplate = "standard", extra = {}) {
   const experiment = titleTemplate === "top1";
@@ -139,4 +149,117 @@ test("buildReport explains when no experiment upload exists yet", () => {
 test("todayJst uses the Tokyo calendar date", () => {
   // 2026-09-14 23:30 UTC is already 2026-09-15 in JST (the 08:00 JST cron runs at 23:00 UTC).
   assert.equal(todayJst(new Date("2026-09-14T23:30:00Z")), "2026-09-15");
+});
+
+// ── Primary metric since 2026-09-16: YouTube Studio 視聴を継続 % (typed in by hand) ──
+
+test("normalizeRetention accepts 視聴を継続 % directly or as 100 − swiped, and rejects malformed entries", () => {
+  assert.equal(normalizeRetention(null), null);
+  assert.equal(normalizeRetention("28.6"), null);
+  assert.equal(normalizeRetention({}), null);
+  assert.equal(normalizeRetention({ viewedPct: "28.6" }), null);
+  assert.equal(normalizeRetention({ viewedPct: 128 }), null);
+  assert.equal(normalizeRetention({ viewedPct: -1 }), null);
+  const full = normalizeRetention({ label: "過去 28 日", viewedPct: 28.6, swipedPct: 71.4, views: 11, capturedAt: "2026-09-16" });
+  assert.deepEqual(full, { viewedPct: 28.6, swipedPct: 71.4, label: "過去 28 日", from: null, to: null, views: 11, capturedAt: "2026-09-16", note: null });
+  assert.equal(normalizeRetention({ swipedPct: 71.4 }).viewedPct, 28.6);
+  assert.equal(normalizeRetention({ viewedPct: 40 }).swipedPct, 60);
+});
+
+test("retentionVerdict: ±5 pt thresholds (proposal) and missing input", () => {
+  assert.equal(RETENTION_DELTA_PT, 5);
+  const before = normalizeRetention({ viewedPct: 28.6 });
+  assert.equal(retentionVerdict(before, null), "missing");
+  assert.equal(retentionVerdict(null, before), "missing");
+  assert.equal(retentionVerdict(null, null), "missing");
+  assert.equal(retentionVerdict(before, normalizeRetention({ viewedPct: 33.6 })), "improved"); // +5.0
+  assert.equal(retentionVerdict(before, normalizeRetention({ viewedPct: 33.5 })), "flat"); // +4.9
+  assert.equal(retentionVerdict(before, normalizeRetention({ viewedPct: 23.7 })), "flat"); // −4.9
+  assert.equal(retentionVerdict(before, normalizeRetention({ viewedPct: 23.6 })), "worse"); // −5.0
+  assert.equal(retentionDelta(before, normalizeRetention({ viewedPct: 40 })), 11.4);
+  assert.equal(retentionDelta(before, null), null);
+});
+
+test("retentionHeadline says which side is missing, or the before → after comparison", () => {
+  const before = normalizeRetention({ viewedPct: 28.6 });
+  assert.equal(retentionHeadline(null, null), `**主指標 — 視聴を継続 %（YouTube Studio 手動入力）: 未入力（実験前・実験後とも未入力。${RETENTION_MISSING}）**`);
+  assert.match(retentionHeadline(before, null), /未入力（実験後が未入力/);
+  assert.match(retentionHeadline(null, before), /未入力（実験前が未入力/);
+  assert.equal(
+    retentionHeadline(before, normalizeRetention({ viewedPct: 40 })),
+    "**主指標 — 視聴を継続 %（YouTube Studio 手動入力）: 効果あり（実験前から +5 pt 以上） — 実験前 28.6 → 実験後 40（+11.4 pt）**"
+  );
+  assert.match(retentionHeadline(before, normalizeRetention({ viewedPct: 20 })), /悪化（−5 pt 以下） — 実験前 28\.6 → 実験後 20（−8\.6 pt）/);
+  assert.match(retentionHeadline(before, normalizeRetention({ viewedPct: 30 })), /変化なし（±5 pt 未満） — 実験前 28\.6 → 実験後 30（\+1\.4 pt）/);
+});
+
+test("buildReport without Studio input still renders and marks 視聴を継続 % as not entered", () => {
+  const history = { videos: [video("2026-09-15", 0, 1000, "top1")] };
+  const md = buildReport(history, { today: "2026-09-29" });
+  assert.match(md, /\| window \| n \| YT median \(n\) \| YT mean \| YT max \| IG median \(n\) \| 視聴を継続 % \(Studio\) \|/);
+  assert.match(md, /\| control \| 0 \| - \(0\) \| - \| - \| - \(0\) \| —（Studio から手動入力） \|/);
+  assert.match(md, /\| treatment \| 1 \| 0 \(1\) \| 0 \| 0 \| 1000 \(1\) \| —（Studio から手動入力） \|/);
+  assert.match(md, /\*\*主指標 — 視聴を継続 %（YouTube Studio 手動入力）: 未入力（実験前・実験後とも未入力/);
+  assert.match(md, /\| 実験前（control） \| —（Studio から手動入力） \| —（Studio から手動入力） \| - \| - \| - \|/);
+  assert.match(md, /\| 実験後（treatment） \| —（Studio から手動入力） \| —（Studio から手動入力） \| - \| - \| - \|/);
+  assert.match(md, /- 差分: —（実験前・実験後の両方が入るまで出ない）/);
+  // the view-median verdict is still printed, now labelled as a reference value
+  assert.match(md, /\*\*判定（暫定 — treatment 窓が未完了）: 戻らない（YT 14日中央値 ≤ 1、実験前と同じ帯）\*\*（参考 — views 中央値）/);
+  assert.match(md, /主指標は YouTube Studio の「視聴を継続 %」/);
+});
+
+test("buildReport with control-only Studio input shows the baseline and asks for the treatment value", () => {
+  const history = { videos: [video("2026-09-15", 0, 1000, "top1")] };
+  const retention = {
+    control: { label: "過去 28 日（2026-09-16 閲覧）", viewedPct: 28.6, swipedPct: 71.4, views: 11, capturedAt: "2026-09-16", note: "supply が実測" },
+    treatment: null,
+  };
+  const md = buildReport(history, { today: "2026-09-29", retention });
+  assert.match(md, /\| control \| 0 \| - \(0\) \| - \| - \| - \(0\) \| 28\.6 \|/);
+  assert.match(md, /\| treatment \| 1 \| 0 \(1\) \| 0 \| 0 \| 1000 \(1\) \| —（Studio から手動入力） \|/);
+  assert.match(md, /\| 実験前（control） \| 過去 28 日（2026-09-16 閲覧） \| 28\.6 \| 71\.4 \| 11 \| 2026-09-16 \|/);
+  assert.match(md, /未入力（実験後が未入力/);
+  assert.match(md, /- 差分: —/);
+  assert.match(md, /- メモ: supply が実測/);
+});
+
+test("buildReport compares 視聴を継続 % before / after when both are entered", () => {
+  const history = { videos: [video("2026-09-15", 0, 1000, "top1")] };
+  const retention = {
+    control: { viewedPct: 28.6, capturedAt: "2026-09-16" },
+    treatment: { from: "2026-09-16", to: "2026-09-29", viewedPct: 40, capturedAt: "2026-09-30" },
+  };
+  const md = buildReport(history, { today: "2026-09-30", retention });
+  assert.match(md, /\| control \| 0 \| - \(0\) \| - \| - \| - \(0\) \| 28\.6 \|/);
+  assert.match(md, /\| treatment \| 1 \| 0 \(1\) \| 0 \| 0 \| 1000 \(1\) \| 40 \|/);
+  assert.match(md, /\*\*主指標 — 視聴を継続 %（YouTube Studio 手動入力）: 効果あり（実験前から \+5 pt 以上） — 実験前 28\.6 → 実験後 40（\+11\.4 pt）\*\*/);
+  assert.match(md, /\| 実験後（treatment） \| 2026-09-16 〜 2026-09-29 \| 40 \| 60 \| - \| 2026-09-30 \|/);
+  assert.match(md, /- 差分: \+11\.4 pt（閾値 ±5 pt は提案値。確定はオーナー）/);
+  // the view-median verdict is unchanged by the Studio numbers
+  assert.match(md, /\*\*判定（14 日判定 — .*）: 戻らない.*\*\*（参考 — views 中央値）/);
+  const worse = buildReport(history, { today: "2026-09-30", retention: { ...retention, treatment: { viewedPct: 20 } } });
+  assert.match(worse, /悪化（−5 pt 以下） — 実験前 28\.6 → 実験後 20（−8\.6 pt）/);
+});
+
+test("loadStudioRetention returns null for a missing or malformed file instead of throwing", () => {
+  const dir = mkdtempSync(join(tmpdir(), "studio-retention-"));
+  assert.equal(loadStudioRetention(join(dir, "missing.json")), null);
+  const broken = join(dir, "broken.json");
+  writeFileSync(broken, "{ not json");
+  assert.equal(loadStudioRetention(broken), null);
+  const list = join(dir, "list.json");
+  writeFileSync(list, "[1, 2]");
+  assert.equal(loadStudioRetention(list), null);
+  const ok = join(dir, "ok.json");
+  writeFileSync(ok, JSON.stringify({ control: { viewedPct: 28.6 }, treatment: null }));
+  assert.deepEqual(loadStudioRetention(ok), { control: { viewedPct: 28.6 }, treatment: null });
+});
+
+test("the committed data/studio-retention.json parses and holds the 2026-09-16 baseline", () => {
+  const r = loadStudioRetention();
+  assert.ok(r, "data/studio-retention.json should exist and be a JSON object");
+  assert.equal(normalizeRetention(r.control).viewedPct, 28.6);
+  assert.equal(normalizeRetention(r.control).swipedPct, 71.4);
+  const t = normalizeRetention(r.treatment);
+  assert.ok(t === null || typeof t.viewedPct === "number", "treatment is either not entered yet or a valid 視聴を継続 %");
 });

@@ -8,18 +8,29 @@
  * stats are refreshed by fetch-stats.mjs for videos up to 14 days old,
  * Instagram insights by instagram-insights.mjs).
  *
+ * Primary metric since 2026-09-16: YouTube Studio's Shorts engagement
+ * "viewed vs. swiped away" (視聴を継続 % / スワイプして消去 %), compared before
+ * and after the experiment. The Data API does not expose it, so it is typed
+ * in by hand into data/studio-retention.json (schema: loadStudioRetention).
+ * The report never fails when that file is missing or half-filled — the cells
+ * read "—（Studio から手動入力）". The view medians stay in the report as
+ * reference values (this channel's counts are too small to separate signal
+ * from noise).
+ *
  * Usage:
- *   node scripts/yt-experiment-report.mjs [--start=YYYY-MM-DD] [--days=14] [--history=path] [--today=YYYY-MM-DD]
+ *   node scripts/yt-experiment-report.mjs [--start=YYYY-MM-DD] [--days=14] [--history=path] [--today=YYYY-MM-DD] [--retention=path]
  *   --start defaults to the first video recorded with an experiment arm
  *   (titleTemplate "top1" or ytOpening "top1").
+ *   --retention defaults to data/studio-retention.json.
  */
 
-import { readFileSync } from "fs";
+import { existsSync, readFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath, pathToFileURL } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const defaultHistoryPath = join(__dirname, "..", "data", "performance-history.json");
+const defaultRetentionPath = join(__dirname, "..", "data", "studio-retention.json");
 
 export const EXPERIMENT_ARM = "top1";
 export const DEFAULT_WINDOW_DAYS = 14;
@@ -27,6 +38,13 @@ export const DEFAULT_WINDOW_DAYS = 14;
 export const RESTORED_MIN_MEDIAN = 10;
 /** Treatment YT median at/above this (but below RESTORED) = a signal worth extending the window. */
 export const SIGNAL_MIN_MEDIAN = 2;
+/**
+ * Change of 視聴を継続 % (percentage points, after − before) that counts as a
+ * real move. Proposal from 2026-09-16 — the owner confirms the value.
+ */
+export const RETENTION_DELTA_PT = 5;
+/** Cell text when a Studio value has not been typed in yet. */
+export const RETENTION_MISSING = "—（Studio から手動入力）";
 
 export function median(nums) {
   const xs = nums.filter((n) => typeof n === "number" && Number.isFinite(n)).sort((a, b) => a - b);
@@ -104,6 +122,123 @@ const VERDICT_LABEL = {
   insufficient: "判定不能（treatment 窓に取得済みの YouTube stats がない）",
 };
 
+/*
+ * ── Primary metric: YouTube Studio 視聴を継続 % (typed in by hand) ──────────
+ *
+ * data/studio-retention.json
+ * {
+ *   "control":   { "label": "実験前 — Studio の「過去 28 日」（2026-09-16 閲覧）",
+ *                  "from": "YYYY-MM-DD", "to": "YYYY-MM-DD",      // optional; label wins when both exist
+ *                  "viewedPct": 28.6, "swipedPct": 71.4,           // 視聴を継続 % / スワイプして消去 % (0–100)
+ *                  "views": 11, "capturedAt": "2026-09-16", "note": "..." },
+ *   "treatment": null                                             // same shape once read from Studio
+ * }
+ * If only swipedPct is given, viewedPct = 100 − swipedPct. Anything malformed
+ * counts as "not entered" — a typo must not break the report.
+ */
+
+/** Parsed JSON of the Studio input file, or null when it is missing / unreadable / not an object. */
+export function loadStudioRetention(path = defaultRetentionPath) {
+  if (!existsSync(path)) return null;
+  try {
+    const parsed = JSON.parse(readFileSync(path, "utf-8"));
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function pct(n) {
+  return typeof n === "number" && Number.isFinite(n) && n >= 0 && n <= 100 ? n : null;
+}
+
+function round1(n) {
+  return Math.round(n * 10) / 10;
+}
+
+/** One period entry normalized; null when 視聴を継続 % has not been entered (or is not a 0–100 number). */
+export function normalizeRetention(entry) {
+  if (!entry || typeof entry !== "object") return null;
+  let viewedPct = pct(entry.viewedPct);
+  const swipedPct = pct(entry.swipedPct);
+  if (viewedPct === null && swipedPct !== null) viewedPct = round1(100 - swipedPct);
+  if (viewedPct === null) return null;
+  const str = (k) => (typeof entry[k] === "string" && entry[k] ? entry[k] : null);
+  return {
+    viewedPct,
+    swipedPct: swipedPct ?? round1(100 - viewedPct),
+    label: str("label"),
+    from: str("from"),
+    to: str("to"),
+    views: typeof entry.views === "number" && Number.isFinite(entry.views) ? entry.views : null,
+    capturedAt: str("capturedAt"),
+    note: str("note"),
+  };
+}
+
+/** after − before in percentage points (0.1 precision); null unless both periods are entered. */
+export function retentionDelta(control, treatment) {
+  if (!control || !treatment) return null;
+  return round1(treatment.viewedPct - control.viewedPct);
+}
+
+export function retentionVerdict(control, treatment, deltaPt = RETENTION_DELTA_PT) {
+  const delta = retentionDelta(control, treatment);
+  if (delta === null) return "missing";
+  if (delta >= deltaPt) return "improved";
+  if (delta <= -deltaPt) return "worse";
+  return "flat";
+}
+
+const RETENTION_VERDICT_LABEL = {
+  improved: `効果あり（実験前から +${RETENTION_DELTA_PT} pt 以上）`,
+  flat: `変化なし（±${RETENTION_DELTA_PT} pt 未満）`,
+  worse: `悪化（−${RETENTION_DELTA_PT} pt 以下）`,
+};
+
+function signedPt(delta) {
+  return delta < 0 ? `−${Math.abs(delta)}` : `+${delta}`;
+}
+
+/** The one-line primary verdict. Exported so the morning routine / memo can quote it verbatim. */
+export function retentionHeadline(control, treatment) {
+  const head = "**主指標 — 視聴を継続 %（YouTube Studio 手動入力）: ";
+  const v = retentionVerdict(control, treatment);
+  if (v === "missing") {
+    const which = !control && !treatment ? "実験前・実験後とも" : !control ? "実験前が" : "実験後が";
+    return `${head}未入力（${which}未入力。${RETENTION_MISSING}）**`;
+  }
+  const delta = retentionDelta(control, treatment);
+  return `${head}${RETENTION_VERDICT_LABEL[v]} — 実験前 ${control.viewedPct} → 実験後 ${treatment.viewedPct}（${signedPt(delta)} pt）**`;
+}
+
+function retentionPeriod(r) {
+  if (!r) return RETENTION_MISSING;
+  if (r.label) return r.label;
+  if (r.from && r.to) return `${r.from} 〜 ${r.to}`;
+  return "-";
+}
+
+function retentionSection(control, treatment) {
+  const row = (name, r) =>
+    `| ${name} | ${retentionPeriod(r)} | ${r ? r.viewedPct : RETENTION_MISSING} | ${r ? r.swipedPct : "-"} | ${fmt(r?.views)} | ${fmt(r?.capturedAt)} |`;
+  const delta = retentionDelta(control, treatment);
+  const notes = [control?.note, treatment?.note].filter(Boolean);
+  return [
+    "### 主指標: 視聴を継続 %（YouTube Studio、手動入力）",
+    "",
+    "| 期間 | Studio の期間 | 視聴を継続 % | スワイプして消去 % | 視聴回数 | 取得日 |",
+    "|---|---|---:|---:|---:|---|",
+    row("実験前（control）", control),
+    row("実験後（treatment）", treatment),
+    "",
+    `- 差分: ${delta === null ? "—（実験前・実験後の両方が入るまで出ない）" : `${signedPt(delta)} pt`}（閾値 ±${RETENTION_DELTA_PT} pt は提案値。確定はオーナー）`,
+    `- 閾値案: 実験前から +${RETENTION_DELTA_PT} pt 以上 = 効果あり / ±${RETENTION_DELTA_PT} pt 未満 = 変化なし / −${RETENTION_DELTA_PT} pt 以下 = 悪化`,
+    "- 入力: `data/studio-retention.json`（`--retention=path` で差し替え）。YouTube Studio → アナリティクス → コンテンツ → ショート → 視聴者のエンゲージメント「視聴を継続 / スワイプして消去」を期間指定で読む（Data API では取れない。supply が実測して入力）",
+    ...notes.map((n) => `- メモ: ${n}`),
+  ];
+}
+
 /**
  * Report phases.
  *  - running: before start + days + 1 — the treatment window is not complete.
@@ -158,7 +293,11 @@ export function todayJst(now = new Date()) {
   }).format(now);
 }
 
-export function buildReport(history, { start, days = DEFAULT_WINDOW_DAYS, today = todayJst() } = {}) {
+/**
+ * @param history   parsed data/performance-history.json
+ * @param retention parsed data/studio-retention.json (loadStudioRetention) — optional; missing = cells read RETENTION_MISSING
+ */
+export function buildReport(history, { start, days = DEFAULT_WINDOW_DAYS, today = todayJst(), retention = null } = {}) {
   const videos = history.videos || [];
   const startDate = start || findExperimentStart(history);
   if (!startDate) {
@@ -171,6 +310,8 @@ export function buildReport(history, { start, days = DEFAULT_WINDOW_DAYS, today 
   const { day14From, finalFrom } = judgeDates(startDate, days);
   const phase = reportPhase(startDate, days, today);
   const fallbackDays = w.treatment.filter((x) => x.ytOpening !== EXPERIMENT_ARM).length;
+  const rControl = normalizeRetention(retention?.control);
+  const rTreatment = normalizeRetention(retention?.treatment);
   const lines = [
     `## YouTube 配信実験 — ${days} 日比較（開始 ${startDate}）`,
     "",
@@ -179,16 +320,21 @@ export function buildReport(history, { start, days = DEFAULT_WINDOW_DAYS, today 
     `- Instagram は両期間とも無変更（対照）`,
     `- YouTube views は fetch 済みの値のみ（fetch-stats.mjs は投稿後 14 日まで更新。未取得は "-"）`,
     `- 集計日 ${today} / 14 日判定は ${day14From} 以降 / 確定は ${finalFrom} 以降`,
+    "- 主指標は YouTube Studio の「視聴を継続 %」の実験前後比較（2026-09-16 変更。API では取れないので手動入力 = `data/studio-retention.json`）。views 中央値と IG views は参考値（母数が小さくノイズ）",
     ...(fallbackDays > 0
       ? [`- treatment のうち ${fallbackDays} 日は YouTube 専用レンダなし（YT opening = brand）`]
       : []),
     "",
-    "| window | n | YT median (n) | YT mean | YT max | IG median (n) |",
-    "|---|---:|---:|---:|---:|---:|",
-    `| control | ${c.n} | ${fmt(c.ytMedian)} (${c.ytN}) | ${fmt(c.ytMean)} | ${fmt(c.ytMax)} | ${fmt(c.igMedian)} (${c.igN}) |`,
-    `| treatment | ${t.n} | ${fmt(t.ytMedian)} (${t.ytN}) | ${fmt(t.ytMean)} | ${fmt(t.ytMax)} | ${fmt(t.igMedian)} (${t.igN}) |`,
+    "| window | n | YT median (n) | YT mean | YT max | IG median (n) | 視聴を継続 % (Studio) |",
+    "|---|---:|---:|---:|---:|---:|---:|",
+    `| control | ${c.n} | ${fmt(c.ytMedian)} (${c.ytN}) | ${fmt(c.ytMean)} | ${fmt(c.ytMax)} | ${fmt(c.igMedian)} (${c.igN}) | ${rControl ? rControl.viewedPct : RETENTION_MISSING} |`,
+    `| treatment | ${t.n} | ${fmt(t.ytMedian)} (${t.ytN}) | ${fmt(t.ytMean)} | ${fmt(t.ytMax)} | ${fmt(t.igMedian)} (${t.igN}) | ${rTreatment ? rTreatment.viewedPct : RETENTION_MISSING} |`,
     "",
-    `**判定（${phaseLabel(phase, finalFrom)}）: ${VERDICT_LABEL[v]}**`,
+    retentionHeadline(rControl, rTreatment),
+    "",
+    `**判定（${phaseLabel(phase, finalFrom)}）: ${VERDICT_LABEL[v]}**（参考 — views 中央値）`,
+    "",
+    ...retentionSection(rControl, rTreatment),
     "",
     "### control",
     "",
@@ -211,7 +357,12 @@ function main() {
   const historyPath = argValue("history") || defaultHistoryPath;
   const history = JSON.parse(readFileSync(historyPath, "utf-8"));
   const days = Number(argValue("days") || DEFAULT_WINDOW_DAYS);
-  console.log(buildReport(history, { start: argValue("start"), days, today: argValue("today") || todayJst() }));
+  const retentionPath = argValue("retention") || defaultRetentionPath;
+  const retention = loadStudioRetention(retentionPath);
+  if (retention === null && existsSync(retentionPath)) {
+    console.error(`warning: ${retentionPath} is not a JSON object — treating 視聴を継続 % as not entered`);
+  }
+  console.log(buildReport(history, { start: argValue("start"), days, today: argValue("today") || todayJst(), retention }));
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
