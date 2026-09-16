@@ -1,0 +1,12 @@
+{
+  "$comment": "YouTube Studio の「視聴を継続 %」（Shorts の 視聴を継続 / スワイプして消去）。Data API では取れないので supply が Studio から読んで手で入れる。scripts/yt-experiment-report.mjs が読む（欠けていてもレポートは落ちない）。取り方: YouTube Studio → アナリティクス → コンテンツ → ショート → 視聴者のエンゲージメント、期間を指定。viewedPct = 視聴を継続 %（swipedPct だけ入れた場合は 100 − swipedPct）。treatment は判定日 2026-09-30 に { \"from\": \"2026-09-16\", \"to\": \"2026-09-29\", \"viewedPct\": …, \"swipedPct\": …, \"views\": …, \"capturedAt\": \"2026-09-30\" } を入れる",
+  "control": {
+    "label": "実験前 — Studio の「過去 28 日」（2026-09-16 閲覧）",
+    "viewedPct": 28.6,
+    "swipedPct": 71.4,
+    "views": 11,
+    "capturedAt": "2026-09-16",
+    "note": "supply がオーナー許可のうえ Chrome で Studio を実測（過去 28 日）。トラフィックソース: ショートフィード 54.6% / YouTube 検索 36.4% / 直接・不明 9.1%。エンゲージ ビュー 3・登録者 41・ポリシー警告なし。母数が小さい（28.6% ≈ 2/7）ので ±5 pt はノイズ幅の中"
+  },
+  "treatment": null
+}
