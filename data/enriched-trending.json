@@ -1,16 +1,18 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "discovery": {
-    "method": "comparison",
-    "description": "各 OSS を類似 SaaS / 既存 OSS と並べ、選定のガイドとして提示",
+    "method": "trend-pattern",
+    "description": "2026 秋の Trending TOP5 を『SaaS・Electron・API 依存から自前化へ』のマクロ潮流として横断する。5 本すべてを既存商用プロダクトの OSS 置き換えとして 1 本 1 兆候にマップし、AI 時代の反動として現れる自前・機械化・軽量化ムーブメントを 1 本の縦串で語る",
     "sources": [
       "https://github.com/trending",
       "https://github.com/alibaba/open-code-review",
+      "https://github.com/cloudflare/security-audit-skill",
       "https://github.com/JustVugg/colibri",
-      "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/ever-co/ever-gauzy",
-      "https://github.com/danny-avila/LibreChat",
-      "https://news.ycombinator.com/from?site=github.com/alibaba"
+      "https://github.com/abue-ammar/tinycast",
+      "https://github.com/jamiepine/voicebox",
+      "https://news.ycombinator.com/from?site=github.com/alibaba/open-code-review",
+      "https://news.ycombinator.com/from?site=github.com/cloudflare/security-audit-skill",
+      "https://news.ycombinator.com/from?site=github.com/JustVugg/colibri"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,59 +24,59 @@
       "name": "open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "language": "Go",
-      "stars": 28390,
-      "todayStars": 2751,
-      "description": "LLMを掛けたコードレビュー基盤",
-      "detail": "ルールエンジンとLLMエージェントを組み合わせたハイブリッド型で、Alibabaの本番規模で鍛えられています。NPEやXSSやSQLインジェクションを行番号単位で指摘し、OpenAIとAnthropicの両方に対応します。",
-      "narration": "SonarQubeにLLMを掛け合わせたコードレビュー基盤です。ルールとエージェントの両方で脆弱性を突きます。"
+      "stars": 31655,
+      "todayStars": 3215,
+      "description": "AIコード監査を本番規模で自前化",
+      "detail": "決定的ルールエンジンとLLMエージェントを二段で走らせ、NPEやSQL injectionを行番号単位で指摘します。SonarQubeやCodeQLを本番規模で置き換える潮流の中心で、OpenAIとAnthropicの両方に対応します。",
+      "narration": "AI生成コードのレビューを自前でこなすOSSです。SonarQubeを本番規模で置き換える流れの中心にいます。"
     },
     {
       "rank": 2,
+      "fullName": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars": 7018,
+      "todayStars": 1249,
+      "description": "Cloudflare製の監査エージェントSkill",
+      "detail": "偵察・発見・検証・独立確認の4段階でエージェントを走らせ、機械可読な脆弱性レポートを吐き出します。監査人の役割をLLMで置き換える潮流の一端で、二重検証で誤検知を抑える設計。カバレッジ台帳で監査の進捗も蓄積します。",
+      "narration": "Cloudflareが出したセキュリティ監査エージェントです。人手の監査人をLLMで置き換える潮流の一端です。"
+    },
+    {
+      "rank": 3,
       "fullName": "JustVugg/colibri",
       "name": "colibri",
       "url": "https://github.com/JustVugg/colibri",
       "language": "C",
-      "stars": 33737,
-      "todayStars": 2035,
-      "description": "純Cで書かれたMoE推論エンジン",
-      "detail": "VRAMとRAMとNVMeストレージを1つの階層と見なし、SSDから専門家モジュールを19MB単位で流し込みます。128GBのMacでGLM 5.2やKimi K3やDeepSeek V4が1.8トークン毎秒で動きます。",
-      "narration": "llama.cppとは違いSSDから専門家を流し込むMoE推論エンジンです。128GBのMacでGLMが動きます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "language": "Python",
-      "stars": 30855,
-      "todayStars": 2081,
-      "description": "ローカルで動くElevenLabs代替",
-      "detail": "音声クローン、音声デザイン、動画吹き替え、口述、文字起こし、オーディオブック制作まで646言語で扱えるOSSです。ElevenLabsに送らずGPU 1枚で完結し、社内音声データを外に出さずに処理できます。",
-      "narration": "ElevenLabsをローカルで置き換える音声OSSです。646言語の吹き替えと文字起こしを1本で扱えます。"
+      "stars": 34973,
+      "todayStars": 1532,
+      "description": "SSD階層化で走るMoE推論C実装",
+      "detail": "VRAMとRAMとNVMeを1つの階層と見なし、MoE専門家をSSDから19MB単位で流し込みます。128GB MacでGLMやDeepSeekが1.8トークン毎秒。ゼロ依存の純C実装で、OpenAI APIを自前化する動きの筆頭です。",
+      "narration": "MoEをSSDから流し込むローカル推論エンジンです。OpenAI APIを自前で置き換える動きの筆頭です。"
     },
     {
       "rank": 4,
-      "fullName": "ever-co/ever-gauzy",
-      "name": "ever-gauzy",
-      "url": "https://github.com/ever-co/ever-gauzy",
-      "language": "TypeScript",
-      "stars": 6586,
-      "todayStars": 632,
-      "description": "ERP+CRM+HRMの統合基盤",
-      "detail": "ERP、CRM、HRM、ATS、プロジェクト管理を1つに束ねたオープンなビジネス管理プラットフォームです。従業員の時間追跡から請求書発行、案件管理まで社内システムを1本に統合できます。",
-      "narration": "OdooやERPNextと並ぶ統合ビジネス基盤です。ERPとCRMとHRMを1つに束ねて自社運用に載せられます。"
+      "fullName": "abue-ammar/tinycast",
+      "name": "tinycast",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "language": "Swift",
+      "stars": 5546,
+      "todayStars": 1136,
+      "description": "Electron無しmacOSランチャー",
+      "detail": "SwiftUIとAppKitだけで組んだ100MB以下のネイティブアプリで、ホットキーとクリップボード履歴を1本に束ねます。Raycast拡張もそのまま動き、Electron疲れからの自作回帰を体現する新星です。",
+      "narration": "Electronを排した100MBのmacOSランチャーです。Raycastの重さから離れる自作回帰の代表格です。"
     },
     {
       "rank": 5,
-      "fullName": "danny-avila/LibreChat",
-      "name": "LibreChat",
-      "url": "https://github.com/danny-avila/LibreChat",
+      "fullName": "jamiepine/voicebox",
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
       "language": "TypeScript",
-      "stars": 43785,
-      "todayStars": 261,
-      "description": "マルチAI対応のChatGPT代替",
-      "detail": "OpenAIとClaudeとGoogleとローカルLLMを1つのUIから切り替えられるChatGPT代替です。エージェント機能とコード実行、認証、セルフホスト対応まで揃った拡張型実装です。",
-      "narration": "ChatGPTを自宅サーバで動かすOSS版です。OpenAIとClaudeとローカルLLMを1つのUIで切り替えます。"
+      "stars": 54333,
+      "todayStars": 409,
+      "description": "ElevenLabs代替のローカル音声OSS",
+      "detail": "7つのTTSエンジンと23言語対応で、音声合成とボイスクローンと文字起こしを1つのアプリで扱えます。MLXやCUDAでGPU加速し、SpacedriveのJamie Pineが手掛けるローカルファーストAIの象徴です。",
+      "narration": "ElevenLabsをローカルで完結させるAI音声スタジオです。音声SaaSを自前化する2026秋の象徴的な1本です。"
     }
   ]
 }
