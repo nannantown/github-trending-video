@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -12,33 +12,96 @@
       "Sun": 5
     },
     "topPerformingLanguages": [
-      { "language": "Python", "multiplier": 1.2 },
-      { "language": "TypeScript", "multiplier": 1.1 },
-      { "language": "Shell", "multiplier": 1.0 },
-      { "language": "Markdown", "multiplier": 1.0 },
-      { "language": "Swift", "multiplier": 1.0 },
-      { "language": "HTML", "multiplier": 1.0 },
-      { "language": "Go", "multiplier": 1.0 },
-      { "language": "CSS", "multiplier": 0.9 },
-      { "language": "JavaScript", "multiplier": 0.9 },
-      { "language": "PowerShell", "multiplier": 0.9 },
-      { "language": "Jupyter Notebook", "multiplier": 0.9 },
-      { "language": "Crystal", "multiplier": 0.8 },
-      { "language": "C++", "multiplier": 0.8 },
-      { "language": "C", "multiplier": 0.8 },
-      { "language": "Java", "multiplier": 0.8 },
-      { "language": "Ruby", "multiplier": 0.8 },
-      { "language": "Rust", "multiplier": 0.7 },
-      { "language": "Mojo", "multiplier": 0.8 },
-      { "language": "Kotlin", "multiplier": 0.8 },
-      { "language": "Nim", "multiplier": null },
-      { "language": "Batchfile", "multiplier": null }
+      {
+        "language": "Python",
+        "multiplier": 1.2
+      },
+      {
+        "language": "TypeScript",
+        "multiplier": 1.1
+      },
+      {
+        "language": "Shell",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Markdown",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Swift",
+        "multiplier": 1.0
+      },
+      {
+        "language": "HTML",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Go",
+        "multiplier": 1.0
+      },
+      {
+        "language": "CSS",
+        "multiplier": 0.9
+      },
+      {
+        "language": "JavaScript",
+        "multiplier": 0.9
+      },
+      {
+        "language": "PowerShell",
+        "multiplier": 0.9
+      },
+      {
+        "language": "Jupyter Notebook",
+        "multiplier": 0.9
+      },
+      {
+        "language": "Crystal",
+        "multiplier": 0.8
+      },
+      {
+        "language": "C++",
+        "multiplier": 0.8
+      },
+      {
+        "language": "C",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Java",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Ruby",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Rust",
+        "multiplier": 0.7
+      },
+      {
+        "language": "Mojo",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Kotlin",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Nim",
+        "multiplier": null
+      },
+      {
+        "language": "Batchfile",
+        "multiplier": null
+      }
     ],
     "topPerformingVideo": {
       "date": "2026-04-28",
       "views": 326,
       "projects": [],
-      "note": "YT 配信死亡モード継続 36 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 2/14。IG 14d (2026-09-03〜09-16、n=11、09-12 未生成・09-16 IG null): use-case 996 n=2 / trend-pattern 899 n=3 / business-angle 876 n=4 (09-15 復元で n=4 更新) / comparison 858 n=2 / tech-deep 701 n=1 / self-experiment 0 / ecosystem 0。全期間 (n=82): business-angle 1.21 n=19 / ecosystem 1.19 n=16 / trend-pattern 1.00 n=11 / use-case 0.86 n=7 / comparison 0.82 n=17 / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。直近 2 日 (09-16 comparison / 09-15 business-angle) 連投 NG で両除外、eligible pool 首位は use-case (IG 14d 996) だが素材 5/5 が『SaaS・API・Electron を自前化』の一縦串に収まり、trend-pattern (pool 2 位 899) の素材適合度が上回るため今日は trend-pattern を投入。**今日 09-17 (Thu、avg 176) は trend-pattern を Exploit 傾斜で投入**、前回 trend-pattern (09-13 Sun 権力マップ) から 4 日空きで連投ルール非該当、macro 兆候読みで題材質を切り替え。**TOP5 lineup: alibaba/open-code-review (Go/31,655★/+3,215、継続 2 日目・アリババ本番規模のハイブリッド OSS コードレビュー基盤、決定的ルールエンジン+LLM エージェント、NPE/XSS/SQL injection を行番号単位で指摘、OpenAI+Anthropic 対応、Apache 2.0) / cloudflare/security-audit-skill (JavaScript/7,018★/+1,249、新規登場・偵察・発見・検証・独立確認の 4 段階エージェント監査 Skill、機械可読な脆弱性レポート、confirmed/needs_validation/rejected の 3 verdict、MIT) / JustVugg/colibri (C/34,973★/+1,532、継続 4 日目・純 C の routed MoE 推論、VRAM+RAM+NVMe 統合階層、SSD から専門家を 19MB 単位で流し込み、128GB Mac で 1.8 tok/s、GLM 5.2/Kimi K3/DeepSeek V4 対応、Apache 2.0) / abue-ammar/tinycast (Swift/5,546★/+1,136、新規登場・SwiftUI+AppKit の 100MB 以下ネイティブ macOS ランチャー、Raycast 拡張互換、ホットキー+クリップボード履歴、AGPL-3.0、macOS 26 以降) / jamiepine/voicebox (TypeScript/54,333★/+409、新規登場・Spacedrive の Jamie Pine 作、ローカルファースト AI 音声スタジオ、7 TTS エンジン+23 言語、MLX/CUDA/ROCm/DirectML/Intel Arc、MCP サーバー連携、8 音声エフェクト、MIT)**、2 本継続 (open-code-review/colibri) + 3 本新規。5 兆候縦串: (a) open-code-review = AI コード後始末の機械化 (b) security-audit-skill = セキュリティ監査人役の LLM 化 (c) colibri = OpenAI API のローカル置き換え (d) tinycast = Electron 疲れからの Swift ネイティブ回帰 (e) voicebox = ElevenLabs+WisprFlow のローカル置き換え。09-13 trend-pattern (権力マップ) → 09-14 use-case (現場マップ) → 09-15 business-angle (費目マップ) → 09-16 comparison (対比マップ) → 09-17 trend-pattern (兆候マップ) の視座切替継続、macro→micro→cost→compare→trend のスコープ循環で Thu 週半ば整理需要に着地。09-16 週の柱ローテ: 09-14 (柱①)、09-15 (柱②)、09-16 (柱①)、09-17 (柱①/④ 混合) → 今週の柱② は消化済み、残り 09-18〜09-21 は 柱①/③/④ でバランス調整。**YT 試行 #1 Day 2/14、次回判定日 2026-09-30**、この期間中 YT 追加提案は控える。**09-16 の IG null と YT stats 未取得追跡**: 次回 fetch-stats.yml で復元見込み、復元次第 comparison (09-16) の method 別平均を再評価する。"
+      "note": "YT 配信死亡モード継続 37 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 3/14。IG 14d (2026-09-04〜09-17、n=12 IG 有効 n=11、09-12 未生成・09-17 IG null): use-case 1016 n=2 / business-angle 936 n=4 (saved 平均 10.00 は pool 最高) / trend-pattern 909 n=3 / comparison 885 n=3 (09-16 923 saved=2 復元済み) / tech-deep 0 / self-experiment 0 / ecosystem 0。全期間 (n=83): business-angle 1.21 n=19 / ecosystem 1.19 n=16 / trend-pattern 1.00 n=11 / use-case 0.86 n=7 / comparison 0.82 n=17 / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。直近 2 日 (09-17 trend-pattern / 09-16 comparison) 連投 NG で両除外、eligible pool 首位は use-case (IG 14d 1016) だが素材 5/5 が『AI エージェントに Skill/ロールを教える』枠組みで 3 本が明示的に「Skill」を名乗り、ecosystem (直近 14 日 n=0、全期間 n=16 avg 1.19) の素材適合度が pool 首位を上回るため今日は Explore 側 ecosystem を投入。**今日 09-18 (Fri、avg 310) は ecosystem を Explore 傾斜で投入**、直近 14 日 ecosystem ゼロで連投ルール無関係、前日提案の method 適合度スコアの実運用第一号。**TOP5 lineup: alibaba/open-code-review (Go/34,602★/+3,290、継続 3 日目・アリババ本番規模のハイブリッド OSS コードレビュー、決定的ルールエンジン+LLM エージェント、多言語ルールセット、OpenAI/Anthropic 対応) / cloudflare/security-audit-skill (JavaScript/10,463★/+3,606、継続 2 日目・偵察・発見・検証・独立確認の 4 段階監査 Skill、機械可読な脆弱性レポート、Claude Code 系エージェントに載る Skill) / addyosmani/agent-skills (JavaScript/95,803★/+680、新規登場・Google DevRel の Addy Osmani 発、25 本の Skill で仕様策定〜デプロイまでを支える、Claude Code/Cursor/Copilot/Cline 等 70+ エージェント対応、認知量最大) / Tencent/BrowserSkill (TypeScript/4,065★/+1,350、新規登場・AI エージェントに認証済みブラウザ操作権限を渡す CLI+拡張、bsk daemon 経由、Cursor/Claude Code/Codex/DeepSeek Harness 等に共通で載る) / alphaXiv/OpenResearch (Rust/4,912★/+940、新規登場・arXiv 対話 UI の alphaXiv 製、コーディング agent を研究 agent に変える local-first ワークスペース、Claude Code/Codex/OpenCode/Cursor 対応)**、2 本継続 (open-code-review/security-audit-skill) + 3 本新規。5 ロール棚: (a) open-code-review = コード監査人ロール (b) security-audit-skill = セキュリティ監査人ロール (c) agent-skills = エンジニア一般ロール (d) BrowserSkill = ブラウザオペレーターロール (e) OpenResearch = 研究員ロール。09-13 trend-pattern (権力マップ) → 09-14 use-case (現場マップ) → 09-15 business-angle (費目マップ) → 09-16 comparison (対比マップ) → 09-17 trend-pattern (兆候マップ) → 09-18 ecosystem (基盤マップ) のスコープ循環第 2 周入り、Fri 週末整理需要に着地。09-18 週の柱ローテ: 09-14 (柱①)、09-15 (柱②)、09-16 (柱①)、09-17 (柱①/④ 混合)、09-18 (柱①) → 今週の柱② は消化済み、09-20 (Sat) or 09-21 (Sun) で柱③ self-experiment 投入候補継続。**YT 試行 #1 Day 3/14、次回判定日 2026-09-30**、この期間中 YT 追加提案は控える。**09-17 の IG null と YT stats 未取得追跡**: 次回 fetch-stats.yml で復元見込み、復元次第 trend-pattern (09-17) の method 別平均を再評価する。**opening 3 秒フック候補**: 『2026 秋のエージェントには「Skill」という共通基盤が生えました』の ecosystem 表明型 (前日の trend-pattern フックから継続してマクロ表明を試験)。"
     }
   },
   "hints": {
@@ -66,8 +129,8 @@
     ]
   },
   "todayRecommendations": {
-    "date": "2026-09-17",
-    "dayOfWeek": "Thu",
+    "date": "2026-09-18",
+    "dayOfWeek": "Fri",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -78,11 +141,11 @@
       "CTO",
       "PdM",
       "技術選定",
-      "自前化",
-      "ローカルファースト",
-      "Electron疲れ",
-      "SaaS代替",
-      "API自前化",
+      "エージェントスキル",
+      "AgentSkill",
+      "ClaudeCode",
+      "Cursor",
+      "Codex",
       "alibaba",
       "OpenCodeReview",
       "SonarQube",
@@ -90,27 +153,27 @@
       "Cloudflare",
       "SecurityAudit",
       "DevSecOps",
-      "colibri",
-      "llamacpp",
-      "MoE",
-      "GLMv5",
-      "KimiK3",
-      "DeepSeek",
-      "tinycast",
-      "Raycast",
-      "SwiftUI",
-      "macOS26",
-      "voicebox",
-      "ElevenLabs",
-      "WisprFlow",
-      "Spacedrive",
-      "JamiePine",
+      "addyosmani",
+      "AgentSkills",
+      "GoogleDevRel",
+      "Tencent",
+      "BrowserSkill",
+      "認証ブラウザ",
+      "自動化",
+      "alphaXiv",
+      "OpenResearch",
+      "arXiv",
+      "研究エージェント",
       "TypeScript",
       "JavaScript",
       "Go",
-      "C",
-      "Swift"
+      "Rust",
+      "Skill基盤",
+      "エコシステム",
+      "ロール置き換え",
+      "監査自動化",
+      "業務ロールAI化"
     ],
-    "focus": "木曜 (Thu=avg 176、engineer 濃度中位) は YT 配信死亡モード継続 36 日目、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 2/14 の 2 日目。IG 指標のみで method 選定、直近 2 日 (09-16 comparison / 09-15 business-angle) 連投 NG + eligible pool 2 位 (IG 14d 899 で TOP 3 method 範疇) + 前回 trend-pattern (09-13 Sun) から 4 日空き + 素材 5/5 適合の 4 条件複合で `trend-pattern` を投入。首位 use-case (IG 996) を使わず 2 位 trend-pattern を選んだ理由は素材 5/5 が『SaaS・API・Electron を自前化』の一縦串に完全整合、trend-pattern (マクロ兆候読み) の適合度が use-case (現場マップ) を上回るため。5 兆候マップ (AI コード後始末 / セキュリティ監査自前化 / OpenAI API 自前化 / Electron 疲れ回帰 / 音声 SaaS 自前化) で trend 語り可能。本日の TOP5 は 3/5 新規 TOP5 登場 (security-audit-skill/tinycast/voicebox) + 2/5 継続 (open-code-review/colibri) で macro (09-13 権力マップ) → micro (09-14 現場マップ) → cost (09-15 費目マップ) → compare (09-16 対比マップ) → trend (09-17 兆候マップ) のスコープ循環、TypeScript 1 本+JavaScript 1 本+Go 1 本+C 1 本+Swift 1 本の言語ミックス (5 言語 5 本、hints 平均約 0.96) は Thu engineer 濃度中位と整合、Web/System/Native/Mobile を横断する素材多様性は trend-pattern のマクロ兆候読みに親和。method 切替 (comparison → trend-pattern) + 語彙総入替 (類似 OSS/対抗軸/差別化/カテゴリ/対比マップ → 兆候/潮流/自前化/置き換え/兆候マップ) で視聴者の脳内モードを『対比マップ』から『兆候マップ』へシフト、macro→micro→cost→compare→trend のスコープ循環。narration は 5 本すべてを『兆候 (1 文) + 潮流での位置づけ (1 文)』の 2 文構造で統一、5 本合計 279 文字 (55+55+53+57+59) で TTS 換算約 38 秒、opening/ending 5 秒込み 43 秒で IG Reels 60 秒制約に十分マージン。柱ローテ: 09-14 (柱①)、09-15 (柱②)、09-16 (柱①)、09-17 (柱①/④ 混合) → 今週の柱② は消化済み、以降 09-18〜09-21 は 柱①/③/④ でバランス調整、opening 3 秒フック『2026 秋の GitHub Trending は自前化一色です』を method-agnostic 施策として今日から投入試行。**YT 試行 #1 実行中の変数固定原則**: YT に関する追加提案は判定日 2026-09-30 まで控える、試行 #1 (タイトル/説明個別化 + TOP1 冒頭映像) の効果を単独計測する。#1 open-code-review (SonarQube 代替) + #5 voicebox (ElevenLabs 代替) の 2 本が典型的な既存 SaaS 置き換え候補、9/17 の trend-pattern は macro→micro→cost→compare→trend スコープ循環の到達点。"
+    "focus": "金曜 (Fri=avg 310、engineer 濃度中位〜高) は YT 配信死亡モード継続 37 日目、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 3/14 の 3 日目。IG 指標のみで method 選定、直近 2 日 (09-17 trend-pattern / 09-16 comparison) 連投 NG + eligible pool 首位 use-case (IG 14d 1016) を使わず素材 5/5 完全整合の ecosystem (直近 14 日 n=0、全期間 n=16 avg 1.19) を Explore 側で投入。今日の TOP5 は 5 本すべてが『AI エージェントに新しいロールを教える Skill/エージェント』枠組みで、3 本 (agent-skills/security-audit-skill/BrowserSkill) が明示的に Skill を名乗る稀有な日。5 ロール棚 (コード監査人 / セキュリティ監査人 / エンジニア一般 / ブラウザオペレーター / 研究員) で 1:1 ロール置き換えを語る。本日の TOP5 は 3/5 新規 TOP5 登場 (agent-skills/BrowserSkill/OpenResearch) + 2/5 継続 (open-code-review/security-audit-skill) で macro→micro→cost→compare→trend→**基盤 (ecosystem)** のスコープ循環第 2 周入り、Fri の週末整理需要と親和。language ミックス: Go 1 本+JavaScript 2 本+TypeScript 1 本+Rust 1 本 (4 言語 5 本、Rust は hints 0.7 で最下位だが agent-orchestration 系で認知価値高)。narration は 5 本すべてを『主体 (1 文) + エコシステムでの位置づけ (1 文)』の 2 文構造で統一、5 本合計 282 文字 (51+59+59+56+57) で TTS +30% 換算約 38 秒、opening/ending 10 秒込み 48 秒で IG Reels 60 秒制約に十分マージン。柱ローテ: 09-14 (柱①)、09-15 (柱②)、09-16 (柱①)、09-17 (柱①/④ 混合)、09-18 (柱①) → 今週の柱② は消化済み、09-20〜09-21 (Sat/Sun) は 柱③ self-experiment 投入候補で継続、opening 3 秒フック『2026 秋のエージェントには「Skill」という共通基盤が生えました』を method-agnostic 施策として本日投入試行 (前日の trend-pattern 表明フックから継続実験)。**YT 試行 #1 実行中の変数固定原則**: YT に関する追加提案は判定日 2026-09-30 まで控える、試行 #1 (タイトル/説明個別化 + TOP1 冒頭映像) の効果を単独計測する。#3 addyosmani/agent-skills (95K stars) は認知量最大の枠、Google DevRel の Addy Osmani 発で Claude Code/Cursor/Copilot/Cline/DeepSeek Harness 等 70+ エージェントに載る業界共通土台、9/18 の ecosystem angle の中心軸。**前日提案の method 適合度スコアの実運用第一号**: use-case (IG 14d 1016) を使わず ecosystem (直近 14 日 n=0) を選んだ判定は素材 5/5 適合度優先、成功なら strategy.md 追記候補として正式提案する。"
   }
 }
