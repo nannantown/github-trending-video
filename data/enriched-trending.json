@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-22",
   "discovery": {
-    "method": "ecosystem",
-    "description": "今日のTOP5は5本すべてが『AIエージェントに新しいロールを教えるSkill/エージェント』。コード監査人・セキュリティ監査人・エンジニア一般・ブラウザオペレーター・研究員の5ロールがそれぞれスキル/エージェントとしてパッケージ化され、共通のエコシステム基盤（Claude Code / Cursor / Codex ほか）に載る動きを1本の縦串で語る",
+    "method": "business-angle",
+    "description": "本日のTOP5は5本すべてに『削れる月額SaaS』または『回避できる契約数』が明確に立つ稀有なbusiness-angle適合日。agent-native=実装重複潰し（見積半減）、cua=QA自動化SaaS/RPA月額置換、OpenStock=Bloomberg Terminal $2400・TradingView Premium $60削減、ai-memory=AIエージェントベンダーロックイン脱出、coder=GitHub Codespaces $50/開発者代替、の5費目マップで受託・スタートアップ視点から料理する",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/alibaba/open-code-review",
-      "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/Tencent/BrowserSkill",
-      "https://github.com/alphaXiv/OpenResearch",
-      "https://news.ycombinator.com/from?site=github.com/addyosmani/agent-skills",
-      "https://news.ycombinator.com/from?site=github.com/Tencent/BrowserSkill",
-      "https://news.ycombinator.com/from?site=github.com/alphaXiv/OpenResearch"
+      "https://github.com/BuilderIO/agent-native",
+      "https://github.com/trycua/cua",
+      "https://github.com/Open-Dev-Society/OpenStock",
+      "https://github.com/akitaonrails/ai-memory",
+      "https://github.com/coder/coder",
+      "https://news.ycombinator.com/from?site=github.com/BuilderIO/agent-native",
+      "https://news.ycombinator.com/from?site=github.com/trycua/cua",
+      "https://news.ycombinator.com/from?site=github.com/coder/coder"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 34602,
-      "todayStars": 3290,
-      "description": "Alibaba製のAIコード監査ツール",
-      "detail": "確定的ルールエンジンとLLMエージェントを二段で走らせ、Alibaba本番規模で検証済みです。多言語ルールセットとOpenAI・Anthropic対応で、SonarQubeが担ってきたコード監査人の役割をエージェントスキル側に移す動きの筆頭に立ちます。",
-      "narration": "Alibaba発のコード監査エージェントです。人間のレビュー担当をスキル化で置き換える流れの中核です。"
+      "fullName": "BuilderIO/agent-native",
+      "name": "agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "language": "TypeScript",
+      "stars": 5851,
+      "todayStars": 607,
+      "description": "エージェントとUIを一体化するTS基盤",
+      "detail": "AIエージェントとReact UIが同じaction定義を共有し、tool呼び出しでもボタン操作でも同じ処理が走ります。BuilderIO製、pnpm+PostgreSQL構成のMIT、エージェント付き社内SaaSの受託で二重実装工数を丸ごと削れます。",
+      "narration": "エージェントとUIを1つのaction定義で結ぶTS基盤です。受託の二重実装工数を丸ごと削れます。"
     },
     {
       "rank": 2,
-      "fullName": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "language": "JavaScript",
-      "stars": 10463,
-      "todayStars": 3606,
-      "description": "Cloudflare製の監査Skillパック",
-      "detail": "偵察・発見・検証・独立確認の4段階で走るセキュリティ監査エージェントで、機械可読な脆弱性レポートを出します。監査人のロールを1本のスキルに切り出し、Claude Codeなど各種エージェントで共通運用できる設計です。",
-      "narration": "Cloudflareが公開したセキュリティ監査スキルです。監査人の仕事をスキル単位で再定義するエコシステムの中核です。"
+      "fullName": "trycua/cua",
+      "name": "cua",
+      "url": "https://github.com/trycua/cua",
+      "language": "HTML",
+      "stars": 25667,
+      "todayStars": 609,
+      "description": "computer-useの自前運用OSS",
+      "detail": "macOS・Windows・LinuxのAIエージェント用隔離VM基盤で、Apple Silicon向けnative VM (Lume)と評価ベンチを同梱。MIT、QA自動化受託でBrowserbase月額とRPAライセンスを丸ごと置き換える候補です。",
+      "narration": "コンピュータ操作エージェントを自前運用するOSS基盤です。QA自動化のSaaS月額を丸ごと置き換えられます。"
     },
     {
       "rank": 3,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "JavaScript",
-      "stars": 95803,
-      "todayStars": 680,
-      "description": "Addy Osmani製のAgent用スキル集",
-      "detail": "Google DevRelのAddy Osmani発、25本のスキルで仕様策定からデプロイまでを支えるエージェント用スキル集です。70種以上のコーディングエージェントに対応し、95,000スターを集める共通土台になっています。",
-      "narration": "Addy Osmani製のエージェント用スキル集です。Claudeなど各種エージェントの実務品質を底上げする土台です。"
+      "fullName": "Open-Dev-Society/OpenStock",
+      "name": "OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "language": "TypeScript",
+      "stars": 17660,
+      "todayStars": 843,
+      "description": "Bloombergの無料代替株式OSS",
+      "detail": "Finnhubで株価、TradingView埋め込みでチャート、Adanosで感情分析まで揃うNext.js 15構成。Bloomberg Terminal月額2400ドルとTradingView Premiumを退避、AGPL-3.0で受託の社内トレーダー画面に。",
+      "narration": "Bloombergに代わる株式ウォッチャーOSSです。Next.js 15で受託の社内トレーダー画面を1週間で組めます。"
     },
     {
       "rank": 4,
-      "fullName": "Tencent/BrowserSkill",
-      "name": "BrowserSkill",
-      "url": "https://github.com/Tencent/BrowserSkill",
-      "language": "TypeScript",
-      "stars": 4065,
-      "todayStars": 1350,
-      "description": "Tencent製の認証ブラウザ操作Skill",
-      "detail": "AIエージェントに認証済みブラウザの操作権限を渡すCLIと拡張機能で、通常のワークフローを止めずに自動化できます。Claude CodeやCursorなどのエージェントに共通で載る、操作系ロールを担うスキルの代表格です。",
-      "narration": "Tencent製の認証済みブラウザ操作スキルです。エージェントに操作ロールを与えるエコシステム拡張の代表格です。"
+      "fullName": "akitaonrails/ai-memory",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "language": "Rust",
+      "stars": 7637,
+      "todayStars": 217,
+      "description": "AIエージェント間長期記憶OSS",
+      "detail": "session終了時にmarkdown wikiとSQLite FTS5に書き出し、次のsessionでClaude CodeでもCodexでもCursorでも同じ記憶を引ける単一Rustバイナリ。MIT、20+CLI対応、エージェント選定PoCが3週間から1日に短縮します。",
+      "narration": "AIエージェント間で長期記憶を持ち回るRust製CLIです。ClaudeからCodexへの乗り換えコストが消えます。"
     },
     {
       "rank": 5,
-      "fullName": "alphaXiv/OpenResearch",
-      "name": "OpenResearch",
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "language": "Rust",
-      "stars": 4912,
-      "todayStars": 940,
-      "description": "研究員AIエージェント化のRust製基盤",
-      "detail": "arXiv対話UIで知られるalphaXivが公開したRust製の研究プラットフォームで、Claude CodeやCursorなどのコーディングエージェントを研究エージェントに変えます。コーディング以外の職種にもスキル体系が広がる兆しの1本です。",
-      "narration": "alphaXiv製の研究エージェント化プラットフォームです。コーディング以外の職種にもスキル体系が広がる兆しです。"
+      "fullName": "coder/coder",
+      "name": "coder",
+      "url": "https://github.com/coder/coder",
+      "language": "Go",
+      "stars": 16395,
+      "todayStars": 461,
+      "description": "自社にCodespacesを持つGo基盤",
+      "detail": "TerraformでEC2・Kubernetes・DockerにIDE付き開発環境を撒き、AIエージェントをworkspace内で走らせてLLM資格情報を外に出さない設計。AGPL-3.0、Codespaces月額50ドルの代替でSOC2要件の金融・医療受託に刺さります。",
+      "narration": "AIエージェント込みの開発環境を自社に置くGo基盤です。Codespaces月額を1台目で相殺できます。"
     }
   ]
 }
