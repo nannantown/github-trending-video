@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5は5本すべてに『削れる月額SaaS』または『回避できる契約数』が明確に立つ稀有なbusiness-angle適合日。agent-native=実装重複潰し（見積半減）、cua=QA自動化SaaS/RPA月額置換、OpenStock=Bloomberg Terminal $2400・TradingView Premium $60削減、ai-memory=AIエージェントベンダーロックイン脱出、coder=GitHub Codespaces $50/開発者代替、の5費目マップで受託・スタートアップ視点から料理する",
+    "method": "trend-pattern",
+    "description": "本日のTOP5は『エージェントネイティブOS 2026』の垂直スタックが一日で並んだ稀有な日。#2 Substrate（実行基盤）→ #5 Google AX（Substrate上で動くオーケストレーター、YAML宣言）→ #1 Anthropic Financial Services（金融バーティカル・エージェント）→ #3 Univer（エージェント時代のOffice runtime）→ #4 Claude Code Templates（設定・Skill・MCP連携のマーケット）。substrate/AXが親子関係で同日ランクイン、trend-pattern angleで『いま2026年秋のエージェント基盤はここまで層構造が固まった』というマクロ視座を軸に料理する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/BuilderIO/agent-native",
-      "https://github.com/trycua/cua",
-      "https://github.com/Open-Dev-Society/OpenStock",
-      "https://github.com/akitaonrails/ai-memory",
-      "https://github.com/coder/coder",
-      "https://news.ycombinator.com/from?site=github.com/BuilderIO/agent-native",
-      "https://news.ycombinator.com/from?site=github.com/trycua/cua",
-      "https://news.ycombinator.com/from?site=github.com/coder/coder"
+      "https://github.com/anthropics/financial-services",
+      "https://github.com/agent-substrate/substrate",
+      "https://github.com/dream-num/univer",
+      "https://github.com/davila7/claude-code-templates",
+      "https://github.com/google/ax",
+      "https://news.ycombinator.com/from?site=github.com/anthropics/financial-services",
+      "https://news.ycombinator.com/from?site=github.com/agent-substrate/substrate",
+      "https://news.ycombinator.com/from?site=github.com/google/ax"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "BuilderIO/agent-native",
-      "name": "agent-native",
-      "url": "https://github.com/BuilderIO/agent-native",
-      "language": "TypeScript",
-      "stars": 5851,
-      "todayStars": 607,
-      "description": "エージェントとUIを一体化するTS基盤",
-      "detail": "AIエージェントとReact UIが同じaction定義を共有し、tool呼び出しでもボタン操作でも同じ処理が走ります。BuilderIO製、pnpm+PostgreSQL構成のMIT、エージェント付き社内SaaSの受託で二重実装工数を丸ごと削れます。",
-      "narration": "エージェントとUIを1つのaction定義で結ぶTS基盤です。受託の二重実装工数を丸ごと削れます。"
+      "fullName": "anthropics/financial-services",
+      "name": "financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "language": "Python",
+      "stars": 36300,
+      "todayStars": 436,
+      "description": "Anthropic製の金融エージェント集",
+      "detail": "Anthropic自身が公開する金融ドメイン専用エージェント集です。投資銀行のピッチ・エクイティ調査・PEのディールソーシングをClaudeとMCP接続で自動化する参照実装で、Cowork・Managed Agents両対応、Apache 2.0で商用可能です。",
+      "narration": "Anthropic自身が金融向けエージェント一式を公開しました。投資銀行やPE、エクイティ調査の実装が揃います。"
     },
     {
       "rank": 2,
-      "fullName": "trycua/cua",
-      "name": "cua",
-      "url": "https://github.com/trycua/cua",
-      "language": "HTML",
-      "stars": 25667,
-      "todayStars": 609,
-      "description": "computer-useの自前運用OSS",
-      "detail": "macOS・Windows・LinuxのAIエージェント用隔離VM基盤で、Apple Silicon向けnative VM (Lume)と評価ベンチを同梱。MIT、QA自動化受託でBrowserbase月額とRPAライセンスを丸ごと置き換える候補です。",
-      "narration": "コンピュータ操作エージェントを自前運用するOSS基盤です。QA自動化のSaaS月額を丸ごと置き換えられます。"
+      "fullName": "agent-substrate/substrate",
+      "name": "substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "language": "Go",
+      "stars": 2936,
+      "todayStars": 301,
+      "description": "百万sandboxを支えるagent実行基盤",
+      "detail": "エージェントを高密度で並列実行するruntimeです。gVisorとmicroVMで隔離しつつKubernetes上で従来コンテナの10倍密度、状態を持ったままsub-500msで復帰でき、後で紹介するGoogle AXがこの上に載ります。",
+      "narration": "エージェント用の高密度sandbox実行基盤です。gVisorとmicroVMで従来コンテナの10倍密度を狙います。"
     },
     {
       "rank": 3,
-      "fullName": "Open-Dev-Society/OpenStock",
-      "name": "OpenStock",
-      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "fullName": "dream-num/univer",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
       "language": "TypeScript",
-      "stars": 17660,
-      "todayStars": 843,
-      "description": "Bloombergの無料代替株式OSS",
-      "detail": "Finnhubで株価、TradingView埋め込みでチャート、Adanosで感情分析まで揃うNext.js 15構成。Bloomberg Terminal月額2400ドルとTradingView Premiumを退避、AGPL-3.0で受託の社内トレーダー画面に。",
-      "narration": "Bloombergに代わる株式ウォッチャーOSSです。Next.js 15で受託の社内トレーダー画面を1週間で組めます。"
+      "stars": 15343,
+      "todayStars": 202,
+      "description": "エージェント時代のOffice SDK",
+      "detail": "スプレッドシート・ドキュメント・スライドを自社プロダクトに埋め込むSDKです。CanvasレンダリングとNode headless両対応で、AIエージェントが編集する前提の設計、Apache 2.0で商用OK、15,000スター規模で成熟しています。",
+      "narration": "エージェント時代のOffice runtimeです。SheetsやDocsをブラウザとNode両対応で埋め込めます。"
     },
     {
       "rank": 4,
-      "fullName": "akitaonrails/ai-memory",
-      "name": "ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "language": "Rust",
-      "stars": 7637,
-      "todayStars": 217,
-      "description": "AIエージェント間長期記憶OSS",
-      "detail": "session終了時にmarkdown wikiとSQLite FTS5に書き出し、次のsessionでClaude CodeでもCodexでもCursorでも同じ記憶を引ける単一Rustバイナリ。MIT、20+CLI対応、エージェント選定PoCが3週間から1日に短縮します。",
-      "narration": "AIエージェント間で長期記憶を持ち回るRust製CLIです。ClaudeからCodexへの乗り換えコストが消えます。"
+      "fullName": "davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "language": "Python",
+      "stars": 31088,
+      "todayStars": 113,
+      "description": "Claude Code設定を一発で揃えるCLI",
+      "detail": "Claude Codeにagents・commands・MCP連携・Skillをコマンド1発で導入するCLIです。GitHub・PostgreSQL・Stripe連携やセキュリティ監査エージェントを選ぶだけで導入され、初期セットアップの数時間が省けるMITライセンス。",
+      "narration": "Claude Codeの設定を1発で揃えるCLIです。agentsやMCP、Skillを選ぶだけで入ります。"
     },
     {
       "rank": 5,
-      "fullName": "coder/coder",
-      "name": "coder",
-      "url": "https://github.com/coder/coder",
+      "fullName": "google/ax",
+      "name": "ax",
+      "url": "https://github.com/google/ax",
       "language": "Go",
-      "stars": 16395,
-      "todayStars": 461,
-      "description": "自社にCodespacesを持つGo基盤",
-      "detail": "TerraformでEC2・Kubernetes・DockerにIDE付き開発環境を撒き、AIエージェントをworkspace内で走らせてLLM資格情報を外に出さない設計。AGPL-3.0、Codespaces月額50ドルの代替でSOC2要件の金融・医療受託に刺さります。",
-      "narration": "AIエージェント込みの開発環境を自社に置くGo基盤です。Codespaces月額を1台目で相殺できます。"
+      "stars": 7505,
+      "todayStars": 2324,
+      "description": "Google製のエージェント統括基盤",
+      "detail": "Googleが公開したエージェント実行orchestratorです。substrate上にYAMLでTask・Workspace・Gatewayを宣言し、大量エージェントを隔離実行、状態suspend/resumeも対応するApache 2.0の急伸中プロジェクト。",
+      "narration": "Google製のエージェントオーケストレーターです。substrate上にYAML宣言で載る設計で急伸中です。"
     }
   ]
 }
