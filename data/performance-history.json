@@ -2,143 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "ClqE4sgQN4g",
-      "videoUrl": "https://youtube.com/shorts/ClqE4sgQN4g",
-      "date": "2026-06-21",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/21 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Clojure",
-        "Python",
-        "Rust",
-        "C"
-      ],
-      "languages": [
-        "Swift",
-        "Clojure",
-        "Python",
-        "Rust",
-        "C"
-      ],
-      "projects": [
-        "palmier-io/palmier-pro",
-        "penpot/penpot",
-        "calesthio/OpenMontage",
-        "tursodatabase/turso",
-        "DeusData/codebase-memory-mcp"
-      ],
-      "durationSeconds": 54,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "本日 06-21 (Sun) の TOP5 を『AI動画 / 設計ツール / 組み込みDB / MCPサーバ — 各エコシステムの主役級が同日に動いた』ecosystem 視点で 5 本横断料理する。AI動画ツールチェーンの上位 (palmier-pro) と下位 (OpenMontage) が同日に Trending 入り、設計領域では Penpot v2.16 が Figma 対抗の本命として MCP 接続を実装、組み込み DB では Turso が libSQL の戦略的後継として SQLite ファミリーの世代交代を象徴、MCP サーバ群では codebase-memory-mcp が汎用記憶 (mem0 等) と棲み分けて『コード専用層』のポジションを確立。冒頭マクロ核は『今週、各エコシステムで世代交代の主役が同時に動いた』、各 narration では『どのエコの中でどう位置するか』を 1 文目に置き、2 文目で具体差別化要素を出す。直近 06-20 self-experiment / 06-19 comparison の連投ルールで自然に exploit TOP1 (ecosystem 14d avg=1.50) が選択可能、Sun=4 avg 低トラフィック帯でも『地図を描く回』として保存・後追い検索に向く設計。Primary CTO 層には『どの層に何を採用するか』の整理として、Secondary PdM 層には『各カテゴリの本命が誰か』の把握として、Tertiary 学習層には『エコシステム俯瞰の入口』として 3 層対応。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/palmier-io/palmier-pro",
-          "https://github.com/penpot/penpot",
-          "https://github.com/calesthio/OpenMontage",
-          "https://github.com/tursodatabase/turso",
-          "https://github.com/DeusData/codebase-memory-mcp"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-05T23:52:06.467Z"
-      },
-      "instagram": {
-        "mediaId": "18536164423073881",
-        "permalink": "https://www.instagram.com/reel/DZ07ad9jIZe/",
-        "views": 2564,
-        "reach": 2155,
-        "likes": 21,
-        "comments": 0,
-        "shares": 3,
-        "saved": 23,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
-      "videoId": "Ac4VPfZUfEQ",
-      "videoUrl": "https://youtube.com/shorts/Ac4VPfZUfEQ",
-      "date": "2026-06-23",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/23 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python",
-        "TypeScript",
-        "Clojure"
-      ],
-      "languages": [
-        "Python",
-        "Swift",
-        "TypeScript",
-        "Clojure"
-      ],
-      "projects": [
-        "calesthio/OpenMontage",
-        "palmier-io/palmier-pro",
-        "jamiepine/voicebox",
-        "mukul975/Anthropic-Cybersecurity-Skills",
-        "penpot/penpot"
-      ],
-      "durationSeconds": 51,
-      "discovery": {
-        "method": "self-experiment",
-        "description": "本日 06-23 (Tue) の TOP5 を『5 本全部を 1 日で実機検証してみた所感』self-experiment 視点で横断料理する。OpenMontage は make setup 一発で動き Piper TTS と Pexels の無料素材で API キー無しでも 1 本通せた、palmier-pro は dmg 一発で macOS 26 + Apple Silicon に入り Claude Code に MCP 1 行で繋がってタイムラインを AI に直接いじらせられた、voicebox は Apple Silicon MLX でローカルに声をクローンしてディクテーションまで通せる音声スタジオ、Anthropic-Cybersecurity-Skills は npx skills add 1 行で 817 件の MITRE ATT&CK / NIST CSF 準拠手順を Claude Code に注入できた、penpot は docker compose up で v2.16 が 5 分で立ち MCP とデザイントークンで Figma 代替体験が実機で味わえた。冒頭マクロ核は『今日の TOP5、全部 1 日で実機検証してみました』、各 narration では『どう触ったか』を 1 文目に置き、2 文目で『触って分かった具体メリット 1 つ』を出す。直近 06-22 comparison / 06-21 ecosystem の連投ルールで自然に exploit TOP 3 (self-experiment 14d avg=0.33, n=3) が唯一の候補に絞り込まれ、新しい週 (06-22 Mon 〜) の柱③ 必須要件 (戦略「週 1 日以上柱② or 柱③」) も本日機械的に消化。Tue=432 avg は週中の高位帯、self-experiment 角度を当て込むタイミングとして最適。Primary CTO 層には『採用前の試運転メモ』として、Secondary PdM 層には『実機で動くと分かったツール群』として、Tertiary 学習層には『手を動かして覚えるカタログ』として 3 層対応。継続 3 本 (OpenMontage / palmier-pro / penpot) は 06-22 comparison 角度から self-experiment 角度へ完全切替で語彙リセット、新規 2 本 (voicebox / Anthropic-Cybersecurity-Skills) は実機操作軸で初回紹介。palmier-pro は 4 連投目で 6 連続入りプロトコル繰り下げ判断準備帯入り、06-20 self-experiment との語彙差別化は editing 体験軸からセットアップ + Claude Code 接続軸へ視点ずらしで対応。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/calesthio/OpenMontage",
-          "https://github.com/palmier-io/palmier-pro",
-          "https://github.com/jamiepine/voicebox",
-          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "https://github.com/penpot/penpot",
-          "https://github.com/palmier-io/palmier-pro/releases/latest",
-          "https://penpot.app/self-host"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-07T23:41:50.841Z"
-      },
-      "instagram": {
-        "mediaId": "17923007604364028",
-        "permalink": "https://www.instagram.com/reel/DZ6FA8MDvQm/",
-        "views": 1905,
-        "reach": 1562,
-        "likes": 29,
-        "comments": 0,
-        "shares": 5,
-        "saved": 28,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "mOeTW1k2dDM",
       "videoUrl": "https://youtube.com/shorts/mOeTW1k2dDM",
       "date": "2026-06-24",
@@ -4819,18 +4682,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "17942893803345405",
         "permalink": "https://www.instagram.com/reel/DdAbv5Nj6VH/",
-        "views": 1125,
-        "reach": 819,
-        "likes": 9,
+        "views": 1158,
+        "reach": 840,
+        "likes": 10,
         "comments": 0,
         "shares": 0,
         "saved": 17,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -4890,18 +4753,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18092185817442270",
         "permalink": "https://www.instagram.com/reel/DdDAbE4DTV1/",
-        "views": 1087,
-        "reach": 854,
+        "views": 1104,
+        "reach": 867,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 7,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -4959,18 +4822,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18169255372457301",
         "permalink": "https://www.instagram.com/reel/DdFkxiyD-d8/",
-        "views": 1277,
-        "reach": 1019,
+        "views": 1291,
+        "reach": 1034,
         "likes": 17,
         "comments": 0,
         "shares": 0,
         "saved": 12,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5029,18 +4892,18 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "17884527690486370",
         "permalink": "https://www.instagram.com/reel/DdIJOxbjGPp/",
-        "views": 669,
-        "reach": 459,
+        "views": 689,
+        "reach": 474,
         "likes": 0,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5093,18 +4956,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18409041061092696",
         "permalink": "https://www.instagram.com/reel/DdNRyZMjSbU/",
-        "views": 835,
-        "reach": 587,
-        "likes": 5,
+        "views": 867,
+        "reach": 601,
+        "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 8,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5156,18 +5019,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18103068545363845",
         "permalink": "https://www.instagram.com/reel/DdP2wzUkfzZ/",
-        "views": 793,
-        "reach": 521,
-        "likes": 9,
+        "views": 830,
+        "reach": 551,
+        "likes": 10,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5222,18 +5085,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18132316954678767",
         "permalink": "https://www.instagram.com/reel/DdSfJI7kvy3/",
-        "views": 1277,
-        "reach": 932,
+        "views": 1326,
+        "reach": 963,
         "likes": 13,
         "comments": 0,
         "shares": 1,
         "saved": 14,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5291,18 +5154,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18110557949588231",
         "permalink": "https://www.instagram.com/reel/DdVC-Wqj8g7/",
-        "views": 1107,
-        "reach": 841,
-        "likes": 14,
+        "views": 1173,
+        "reach": 901,
+        "likes": 15,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5363,18 +5226,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18102632909093294",
         "permalink": "https://www.instagram.com/reel/DdXoRyWkb-2/",
-        "views": 1354,
-        "reach": 1145,
-        "likes": 18,
+        "views": 1415,
+        "reach": 1180,
+        "likes": 19,
         "comments": 0,
         "shares": 2,
         "saved": 9,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5434,18 +5297,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "17958084453209901",
         "permalink": "https://www.instagram.com/reel/DdaMeUzj5lB/",
-        "views": 523,
-        "reach": 349,
-        "likes": 4,
+        "views": 662,
+        "reach": 448,
+        "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-19T00:43:18.142Z"
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       }
     },
     {
@@ -5504,10 +5367,81 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-09-22T01:17:03.595Z"
       },
       "instagram": {
         "mediaId": "18281335030288573",
+        "permalink": "https://www.instagram.com/reel/DdcwarAjGeh/",
+        "views": 1473,
+        "reach": 1171,
+        "likes": 14,
+        "comments": 0,
+        "shares": 0,
+        "saved": 15,
+        "updatedAt": "2026-09-22T01:17:03.595Z"
+      }
+    },
+    {
+      "videoId": "xaHgJmje0fQ",
+      "videoUrl": "https://youtube.com/shorts/xaHgJmje0fQ",
+      "date": "2026-09-22",
+      "title": "agent-native — エージェントとUIを一体化するTS基盤｜GitHub Trending TOP5 9/22",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "HTML",
+        "Go"
+      ],
+      "languages": [
+        "TypeScript",
+        "HTML",
+        "Rust",
+        "Go"
+      ],
+      "projects": [
+        "BuilderIO/agent-native",
+        "trycua/cua",
+        "Open-Dev-Society/OpenStock",
+        "akitaonrails/ai-memory",
+        "coder/coder"
+      ],
+      "durationSeconds": 51,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5は5本すべてに『削れる月額SaaS』または『回避できる契約数』が明確に立つ稀有なbusiness-angle適合日。agent-native=実装重複潰し（見積半減）、cua=QA自動化SaaS/RPA月額置換、OpenStock=Bloomberg Terminal $2400・TradingView Premium $60削減、ai-memory=AIエージェントベンダーロックイン脱出、coder=GitHub Codespaces $50/開発者代替、の5費目マップで受託・スタートアップ視点から料理する",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/BuilderIO/agent-native",
+          "https://github.com/trycua/cua",
+          "https://github.com/Open-Dev-Society/OpenStock",
+          "https://github.com/akitaonrails/ai-memory",
+          "https://github.com/coder/coder",
+          "https://news.ycombinator.com/from?site=github.com/BuilderIO/agent-native",
+          "https://news.ycombinator.com/from?site=github.com/trycua/cua",
+          "https://news.ycombinator.com/from?site=github.com/coder/coder"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "18098442293075626",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5520,17 +5454,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-19",
-      "changes": [
-        "Rust: 0.3x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 1 avg views (82 videos)",
-        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (1.9x), PowerShell (1.8x)",
-        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-20",
       "changes": [
@@ -5898,6 +5821,18 @@
         "top1: 0 avg views (3 videos)",
         "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Fri=2, Sat=1, Sun=1, Tue=1, Wed=1, Mon=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-22",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "JavaScript: 0.8x avg views → drop",
+        "standard: 1 avg views (78 videos)",
+        "top1: 0 avg views (4 videos)",
+        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
+        "Day performance: Fri=2, Sun=1, Tue=1, Wed=1, Sat=1, Mon=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
