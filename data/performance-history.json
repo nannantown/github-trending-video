@@ -2,71 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "mOeTW1k2dDM",
-      "videoUrl": "https://youtube.com/shorts/mOeTW1k2dDM",
-      "date": "2026-06-24",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/24 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Python",
-        "TypeScript"
-      ],
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "projects": [
-        "calesthio/OpenMontage",
-        "ZhuLinsen/daily_stock_analysis",
-        "mukul975/Anthropic-Cybersecurity-Skills",
-        "garrytan/gstack",
-        "bytedance/deer-flow"
-      ],
-      "durationSeconds": 51,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "本日 06-24 (Wed) の TOP5 を『AI エージェント周辺エコシステムの 5 つの空きピース』ecosystem 視点で横断料理する。OpenMontage は Claude Code から自然言語で 12 種の動画パイプラインを呼ぶ動画生成オーケストレータの位置、daily_stock_analysis は OpenBB や yfinance やニュース API の上に LLM 判断層を載せる FinAI ダッシュボード層、Anthropic-Cybersecurity-Skills は agentskills.io 規格で 817 件のセキュリティ手順を Claude / Cursor / Copilot / Gemini CLI / Codex に注入できる規格束ね型 skill pack、gstack は Y Combinator 社長 Garry Tan 氏の Claude Code 環境一式 (23 ツール + MCP + slash + agents + rules) を丸ごと配る curated dotfiles、deer-flow は ByteDance 製の LangGraph + MCP 上に組まれた長尺タスク用 SuperAgent harness で Manus 代替を狙う位置。冒頭マクロ核は『AI エージェントの周辺地図、今日の TOP5 が 5 つの空きを埋める』、各 narration は『〇〇の役目を果たすOSSです。〇〇と繋がる / 束ねる / 上に乗る / 一式入る』の「位置 + 接続」2 文構成で 5/5 統一。直近 06-23 self-experiment / 06-22 comparison の連投ルールで 14d TOP 3 候補は ecosystem (1.00 avg, n=3) 一択に機械的収束、本週 (06-22 Mon〜) の柱② / 柱③ 必須要件は 06-23 self-experiment で消化済のため本日は柱① 自由枠で TOP 1 method を当て込み。Wed=153 avg は週次 4 位帯、ecosystem 角度を投入するタイミングとして最適。Primary (CTO/技術選定) には『今の AI スタックの空きピース』として、Secondary (PdM) には『業務領域別に AI が入る場所』として、Tertiary (学習中) には『AI エコシステムの全景マップ』として 3 層対応。継続 2 本 (OpenMontage 2 連続 / Anthropic-Cybersecurity-Skills 2 連続) は前日 self-experiment の操作軸 / 導入軸から本日 ecosystem の位置軸 / 規格束ね軸へ完全切替で連投ペナルティ回避、新規 3 本 (daily_stock_analysis / gstack / deer-flow) で素材鮮度を最大化。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/calesthio/OpenMontage",
-          "https://github.com/ZhuLinsen/daily_stock_analysis",
-          "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "https://github.com/garrytan/gstack",
-          "https://github.com/bytedance/deer-flow",
-          "https://agentskills.io",
-          "https://news.ycombinator.com/from?site=github.com/calesthio"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-08T23:56:19.474Z"
-      },
-      "instagram": {
-        "mediaId": "18154072348485953",
-        "permalink": "https://www.instagram.com/reel/DZ8oX78gPMq/",
-        "views": 2560,
-        "reach": 2110,
-        "likes": 27,
-        "comments": 1,
-        "shares": 2,
-        "saved": 28,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "q7ssbq8IxHY",
       "videoUrl": "https://youtube.com/shorts/q7ssbq8IxHY",
       "date": "2026-06-26",
@@ -4753,18 +4688,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18092185817442270",
         "permalink": "https://www.instagram.com/reel/DdDAbE4DTV1/",
-        "views": 1104,
-        "reach": 867,
+        "views": 1110,
+        "reach": 869,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 7,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -4822,18 +4757,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18169255372457301",
         "permalink": "https://www.instagram.com/reel/DdFkxiyD-d8/",
-        "views": 1291,
-        "reach": 1034,
+        "views": 1296,
+        "reach": 1038,
         "likes": 17,
         "comments": 0,
         "shares": 0,
         "saved": 12,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -4892,18 +4827,18 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "17884527690486370",
         "permalink": "https://www.instagram.com/reel/DdIJOxbjGPp/",
-        "views": 689,
-        "reach": 474,
+        "views": 691,
+        "reach": 476,
         "likes": 0,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -4956,18 +4891,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18409041061092696",
         "permalink": "https://www.instagram.com/reel/DdNRyZMjSbU/",
-        "views": 867,
-        "reach": 601,
+        "views": 876,
+        "reach": 605,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 8,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5019,18 +4954,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18103068545363845",
         "permalink": "https://www.instagram.com/reel/DdP2wzUkfzZ/",
-        "views": 830,
-        "reach": 551,
+        "views": 845,
+        "reach": 560,
         "likes": 10,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5085,18 +5020,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18132316954678767",
         "permalink": "https://www.instagram.com/reel/DdSfJI7kvy3/",
-        "views": 1326,
-        "reach": 963,
+        "views": 1334,
+        "reach": 969,
         "likes": 13,
         "comments": 0,
         "shares": 1,
         "saved": 14,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5154,18 +5089,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18110557949588231",
         "permalink": "https://www.instagram.com/reel/DdVC-Wqj8g7/",
-        "views": 1173,
-        "reach": 901,
+        "views": 1185,
+        "reach": 909,
         "likes": 15,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5226,18 +5161,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18102632909093294",
         "permalink": "https://www.instagram.com/reel/DdXoRyWkb-2/",
-        "views": 1415,
-        "reach": 1180,
+        "views": 1438,
+        "reach": 1191,
         "likes": 19,
         "comments": 0,
         "shares": 2,
         "saved": 9,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5297,18 +5232,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "17958084453209901",
         "permalink": "https://www.instagram.com/reel/DdaMeUzj5lB/",
-        "views": 662,
-        "reach": 448,
+        "views": 703,
+        "reach": 470,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5367,18 +5302,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18281335030288573",
         "permalink": "https://www.instagram.com/reel/DdcwarAjGeh/",
-        "views": 1473,
-        "reach": 1171,
+        "views": 1524,
+        "reach": 1207,
         "likes": 14,
         "comments": 0,
         "shares": 0,
         "saved": 15,
-        "updatedAt": "2026-09-22T01:17:03.595Z"
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       }
     },
     {
@@ -5438,10 +5373,80 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-09-23T00:59:23.764Z"
       },
       "instagram": {
         "mediaId": "18098442293075626",
+        "permalink": "https://www.instagram.com/reel/DdkjAF8gpUe/",
+        "views": 2217,
+        "reach": 1837,
+        "likes": 18,
+        "comments": 0,
+        "shares": 7,
+        "saved": 15,
+        "updatedAt": "2026-09-23T00:59:23.764Z"
+      }
+    },
+    {
+      "videoId": "Ocmsb9XQiGM",
+      "videoUrl": "https://youtube.com/shorts/Ocmsb9XQiGM",
+      "date": "2026-09-23",
+      "title": "financial-services — Anthropic製の金融エージェント集｜GitHub Trending TOP5 9/23",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "Go",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "Go",
+        "TypeScript"
+      ],
+      "projects": [
+        "anthropics/financial-services",
+        "agent-substrate/substrate",
+        "dream-num/univer",
+        "davila7/claude-code-templates",
+        "google/ax"
+      ],
+      "durationSeconds": 49,
+      "discovery": {
+        "method": "trend-pattern",
+        "description": "本日のTOP5は『エージェントネイティブOS 2026』の垂直スタックが一日で並んだ稀有な日。#2 Substrate（実行基盤）→ #5 Google AX（Substrate上で動くオーケストレーター、YAML宣言）→ #1 Anthropic Financial Services（金融バーティカル・エージェント）→ #3 Univer（エージェント時代のOffice runtime）→ #4 Claude Code Templates（設定・Skill・MCP連携のマーケット）。substrate/AXが親子関係で同日ランクイン、trend-pattern angleで『いま2026年秋のエージェント基盤はここまで層構造が固まった』というマクロ視座を軸に料理する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/anthropics/financial-services",
+          "https://github.com/agent-substrate/substrate",
+          "https://github.com/dream-num/univer",
+          "https://github.com/davila7/claude-code-templates",
+          "https://github.com/google/ax",
+          "https://news.ycombinator.com/from?site=github.com/anthropics/financial-services",
+          "https://news.ycombinator.com/from?site=github.com/agent-substrate/substrate",
+          "https://news.ycombinator.com/from?site=github.com/google/ax"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "18107556026416895",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5454,19 +5459,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-20",
-      "changes": [
-        "Rust: 0.4x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Java: 1.3x avg views → boost",
-        "CSS: 1.3x avg views → boost",
-        "standard: 1 avg views (82 videos)",
-        "Trending languages: Markdown (1.9x), C# (2.1x), Java (1.6x), CSS (1.6x), Jupyter Notebook (2.0x), PowerShell (1.9x)",
-        "Day performance: Fri=2, Sat=2, Tue=2, Thu=1, Wed=1, Sun=1, Mon=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-21",
       "changes": [
@@ -5833,6 +5825,17 @@
         "top1: 0 avg views (4 videos)",
         "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Fri=2, Sun=1, Tue=1, Wed=1, Sat=1, Mon=1, Thu=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-23",
+      "changes": [
+        "JavaScript: 0.8x avg views → drop",
+        "standard: 1 avg views (76 videos)",
+        "top1: 0 avg views (5 videos)",
+        "Trending languages: Swift (1.3x), Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.6x)",
+        "Day performance: Fri=2, Wed=1, Sat=1, Sun=1, Mon=1, Tue=1, Thu=1"
       ],
       "recommendedTemplate": "standard"
     }
