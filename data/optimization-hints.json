@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -35,86 +35,84 @@
       { "language": "Batchfile", "multiplier": null }
     ],
     "topPerformingVideo": {
-      "date": "2026-04-28",
-      "views": 326,
+      "date": "2026-09-22",
+      "views": 2217,
       "projects": [],
-      "note": "YT 配信死亡モード継続 41 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 7/14 の 7 日目。IG 14d 判定窓 (2026-09-08..09-21、n=10、09-19 IG null + 09-20/21 routine 未実行を除外): comparison 1097 n=2 saved 4.50 / trend-pattern 1094.5 n=2 saved 8.50 / use-case 1035 n=2 saved 8.50 / business-angle 1023.7 n=3 saved 11.00 (pool 首位) / ecosystem 523 n=1 saved 1.00 (Explore 傾斜投入 09-18 の結果 pool 最下位)。全期間 (n=83): business-angle 1.21 n=19 / ecosystem 1.19 n=16 / trend-pattern 1.00 n=11 / use-case 0.86 n=7 / comparison 0.82 n=17 / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。直近 2 日 (09-21 未実行 / 09-19 ecosystem) 連投 NG は ecosystem のみ、eligible pool は comparison / trend-pattern / use-case / business-angle / tech-deep / self-experiment。**今日 09-22 (Tue、pool 内曜日 avg 最高 361) は business-angle を Exploit で投入**、素材 5/5 に『削れる月額 SaaS』か『回避できる契約数』が明確に立つ稀有な business-angle 適合日で、saved 首位 (11.00) + Tue engineer 濃度高 + 素材適合度 5/5 + 前々日 Explore (ecosystem 523) 反省の 4 条件複合で最適解。**TOP5 lineup: BuilderIO/agent-native (TypeScript/5,851★/+607、新規登場・エージェント + React UI を一つの action 定義で共有、pnpm+PostgreSQL、MIT、受託の二重実装工数を丸ごと削減) / trycua/cua (HTML/25,667★/+609、新規登場・Cross-OS の Computer-use 2.0 プラットフォーム、Apple Silicon 向け native VM (Lume) と評価ベンチ Cua Bench、Claude Code/Codex/Cursor 対応、MIT) / Open-Dev-Society/OpenStock (TypeScript/17,660★/+843、新規登場・Bloomberg Terminal $2400/mo と TradingView Premium $60/mo の代替、Finnhub+TradingView+Adanos、Next.js 15、AGPL-3.0) / akitaonrails/ai-memory (Rust/7,637★/+217、新規登場・AI コーディングエージェント間の長期記憶を持ち回る単一 Rust バイナリ、20+ CLI 対応、markdown wiki + SQLite FTS5、MIT) / coder/coder (Go/16,395★/+461、新規登場・Terraform で EC2/K8s/Docker に IDE 付き開発環境、AI エージェント実行環境まで内包、LLM 資格情報を workspace に置かない設計、GitHub Codespaces / Gitpod 代替、AGPL-3.0)**、5/5 完全新規登場。5 費目棚: (a) agent-native = 実装重複潰し (見積半減) (b) cua = QA 自動化 SaaS/RPA 月額置換 (c) OpenStock = Bloomberg/TradingView Premium 削減 (d) ai-memory = AI エージェントベンダーロックイン脱出 (e) coder = GitHub Codespaces 代替。09-14 use-case (現場マップ) → 09-15 business-angle (費目マップ) → 09-16 comparison (対比マップ) → 09-17 trend-pattern (兆候マップ) → 09-18 ecosystem (基盤マップ、失敗) → 09-22 business-angle (費目マップ、循環第 2 周) で 5 スコープ循環継続。09-22 週の柱ローテ: 09-22 (柱②) → 09-27 (Sun) 前後で 柱③ self-experiment 投入候補継続。**YT 試行 #1 Day 7/14、次回判定日 2026-09-30**、この期間中 YT 追加提案は控える。**09-19 の IG null 追跡**: 次回 fetch-stats.yml で復元見込み、復元次第 09-18/19 の ecosystem 2 本の method 別平均を再評価する。**09-20/21 は routine 未実行で performance-history に行が追加されない見込み**。**opening 3 秒フック候補**: 『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります』の business-angle 表明型 (前々日 ecosystem 表明フックが views で裏目に出た反省を踏まえて費目の具体性を前面に)。"
+      "note": "YT 配信死亡モード継続 43 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 9/14 の 9 日目。IG 14d 判定窓 (2026-09-11..09-23、n=9、09-20/21 routine 未実行 + 09-23 IG null を除外): business-angle 1414 n=3 saved 10.33 (pool 首位) / comparison 1185 n=1 saved 2.00 / trend-pattern 1157 n=2 saved 8.50 / ecosystem 1113.5 n=2 saved 8.00 / use-case 1070.5 n=2 saved 8.50。全期間 (n=85): business-angle 1.27 n=20 (09-22 復元 2217 で首位強化) / ecosystem 1.24 n=17 / trend-pattern 1.03 n=12 / use-case 0.86 n=7 / comparison 0.85 n=18 / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。直近 2 日 (09-22 business-angle / 09-23 trend-pattern) 連投 NG は business-angle と trend-pattern の 2 つ、eligible pool は comparison / ecosystem / use-case / tech-deep / self-experiment。**今日 09-24 (Thu、engineer 濃度中位 avg 176) は comparison を Exploit で投入**、素材 5/5 が『エージェント関連ツールで、どの用途ならどれを選ぶか』の使い分けマップに完全整合、eligible pool 内 views 首位 + 素材適合度 5/5 + 昨日 09-23 と 3/5 重複日の angle 切替 (trend-pattern マクロ → comparison ミクロ) の 3 条件複合で最適解。**TOP5 lineup: anthropics/financial-services (Python/36,907★/+665、09-23 から継続・業界特化バーティカル/Anthropic 公式金融エージェント集/投資銀行・PE・エクイティ調査、Apache 2.0) / google/ax (Go/8,980★/+1,542、09-23 から継続・急伸中/substrate 上の YAML 宣言型エージェント orchestrator/Task/Workspace/Gateway 宣言型/大量エージェント並列運用、Apache 2.0) / davila7/claude-code-templates (Python/31,471★/+393、09-23 から継続・Claude Code に agents/commands/MCP/Skill を 1 コマンドで導入する CLI、MIT) / BuilderIO/agent-native (TypeScript/6,509★/+135、新規登場・エージェントと React UI が同じ action 定義を共有する TS 基盤/tool 呼び出しでもボタン操作でも同じ処理・permission、pnpm+PostgreSQL、MIT) / obra/superpowers (Shell/290,654★/+485、新規登場・AI コーディングエージェントにブレスト→計画→TDD→レビュー→git の開発手順を仕込む方法論パッケージ/Claude Code/Cursor/Copilot/Gemini で動く agent-agnostic 設計、MIT)**、3/5 が 09-23 継続 + 2/5 が新規。5 レイヤー選択マップ: (a) financial-services=業界特化バーティカル (b) ax=本番オーケストレーション (c) claude-code-templates=個人開発者の設定 (d) agent-native=agent+UI 一体アプリ (e) superpowers=agent 開発方法論。09-14 use-case (現場マップ) → 09-15 business-angle (費目マップ) → 09-16 comparison (対比マップ) → 09-17 trend-pattern (兆候マップ) → 09-18 ecosystem (基盤マップ、失敗) → 09-19 ecosystem (基盤マップ、成功) → 09-22 business-angle (費目マップ、循環第 2 周) → 09-23 trend-pattern (スタック垂直積層マクロ) → 09-24 comparison (レイヤー別選択ミクロ) で 5 スコープ循環継続。09-24 週の柱ローテ: 09-22 (柱②) → 09-27 (Sun) 前後で 柱③ self-experiment 投入候補継続。**YT 試行 #1 Day 9/14、次回判定日 2026-09-30**、この期間中 YT 追加提案は控える。**09-23 の IG null 追跡**: 次回 fetch-stats.yml で復元見込み、復元次第 trend-pattern (09-23) の method 別平均を再評価する。**opening 3 秒フック候補**: 『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか』の comparison 表明型 (前日 trend-pattern の「スタックが 1 日で並んだ」型からマクロ→ミクロの連続コンテキスト継承)。"
     }
   },
   "hints": {
     "title": [
       "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持。YT 試行 #1 実行中は追加変更を控える (変数を増やさない)、判定日 2026-09-30 まで per-day タイトル・説明個別化 + TOP1 冒頭映像の効果を単独計測する。",
-      "本日は火曜 (Tue=avg 361、engineer 濃度高、pool 内曜日最高)、YT 配信死亡モード継続 41 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 7/14 の 7 日目。IG 指標のみで method 選定、直近 2 日連投 NG (09-19 ecosystem のみ、09-20/21 未実行) + eligible pool 内で saved 首位 (business-angle 11.00) + 素材 5/5 が『削れる月額 SaaS/回避できる契約数』に完全整合で business-angle を Exploit 投入、素材 5/5 が『(a) 実装重複潰し (b) QA 月額置換 (c) Bloomberg 削減 (d) ベンダーロックイン脱出 (e) Codespaces 代替』の 5 費目マップに 1:1 でマップ。柱ローテ: 09-22 (柱②) → 09-27 (Sun) 前後で 柱③ self-experiment 投入候補。opening 3 秒フックは『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります』の business-angle 表明型を試行、前々日 ecosystem 表明フックの反省を踏まえて費目の具体性を前面に。"
+      "本日は木曜 (Thu=avg 176、engineer 濃度中位)、YT 配信死亡モード継続 43 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 9/14 の 9 日目。IG 指標のみで method 選定、直近 2 日連投 NG (09-22 business-angle / 09-23 trend-pattern) + eligible pool 内 views 首位 (comparison 1185) + 素材 5/5 が『エージェント関連ツールでどれを選ぶか』の使い分けマップに完全整合で comparison を Exploit 投入、5 本を『(a) 業界特化バーティカル (b) 本番オーケストレーション (c) 個人開発者の設定 (d) agent+UI 一体アプリ (e) agent 開発方法論』の 5 レイヤー選択マップに 1:1 でマップ。柱ローテ: 09-22 (柱②) 消化済、09-27 (Sun) 前後で 柱③ self-experiment 投入候補。opening 3 秒フックは『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか』の comparison 表明型を試行、前日 trend-pattern マクロからミクロへの連続コンテキストで角度切替。"
     ],
     "hashtags": [
-      "business-angle (柱②) の核心は『TOP5 のうち 5/5 が明確な既存 SaaS/契約コストの OSS 置き換えに対応する』。5 本のマッピング: #1 BuilderIO/agent-native=TypeScript 5,851★ +607 (新規) → **エージェント + React UI が同じ action 定義を共有、受託の二重実装工数を丸ごと削減、pnpm+PostgreSQL 構成、MIT** / #2 trycua/cua=HTML 25,667★ +609 (新規) → **Cross-OS (macOS/Windows/Linux) の Computer-use 2.0、Apple Silicon 向け native VM (Lume) と評価ベンチ Cua Bench、MIT、QA 自動化 SaaS/RPA 月額と Browserbase を丸ごと自前運用に置換** / #3 Open-Dev-Society/OpenStock=TypeScript 17,660★ +843 (新規) → **Bloomberg Terminal $2400/mo と TradingView Premium $60/mo の代替、Finnhub+TradingView+Adanos、Next.js 15、AGPL-3.0 で受託の社内トレーダー画面** / #4 akitaonrails/ai-memory=Rust 7,637★ +217 (新規) → **AI コーディングエージェント間の長期記憶を持ち回る単一 Rust バイナリ、20+ CLI (Claude Code/Codex/Cursor/Gemini/Devin/Kimi/...) 対応、markdown wiki + SQLite FTS5、MIT、エージェント選定 PoC 期間 3 週間 → 1 日に短縮** / #5 coder/coder=Go 16,395★ +461 (新規) → **Terraform で EC2/K8s/Docker に IDE 付き開発環境、AI エージェント実行環境まで内包で LLM 資格情報を workspace に置かない設計、AGPL-3.0、GitHub Codespaces Enterprise $50/開発者 と Gitpod $25/開発者 の代替、SOC2 要件の金融/医療受託に刺さる**。5 本統合: 5 費目マップ (a) 実装重複 (b) QA 自動化 SaaS/RPA (c) Bloomberg/TradingView Premium (d) AI エージェントベンダーロックイン (e) GitHub Codespaces Enterprise、5/5 が明確な既存 SaaS/契約コストの OSS 置き換えとして立つ日、Tue engineer 濃度高で CTO/受託エンジニアの週初め見積・技術選定作業に直撃。",
-      "言語タグは TypeScript 2 + HTML 1 + Rust 1 + Go 1 の 4 言語 5 本構成。TypeScript (1.1x) ×2 + HTML (1.0x) + Rust (0.7x、pool 最下位だが自己完結バイナリ + AI エージェント記憶で認知価値高) + Go (1.0x)、言語スコア平均は約 0.98 で hints 中位、素材多様性 (Web/OS/Native/Cloud を横断) は business-angle の費目マップ多角化に親和",
-      "business-angle 角度の独自 hashtag: #OSS #AI #tech #受託 #スタートアップ #CTO #PdM #技術選定 #月額SaaS削減 #ベンダーロックイン脱出 #BuilderIO #agentnative #Reactエージェント #trycua #ComputerUse2 #Browserbase代替 #QA自動化 #Lume #AppleSilicon #OpenStock #Bloomberg代替 #TradingView代替 #Finnhub #NextJS #akitaonrails #aimemory #ClaudeCode #Codex #Cursor #エージェント選定 #PoC短縮 #coder #GithubCodespaces代替 #Gitpod代替 #Terraform #Kubernetes #Docker #SOC2 #金融受託 #医療受託 #AGPL"
+      "comparison (柱①) の核心は『TOP5 のエージェント関連 5 本を、どの用途ならどれを選ぶかのレイヤー別選択マップとして串刺しにする』。5 本のマッピング: #1 anthropics/financial-services=Python 36,907★ +665 (09-23 から継続) → **Anthropic 公式の金融バーティカルエージェント集、投資銀行のピッチ資料・PE ディールソーシング・エクイティ調査、Cowork/Managed Agents 対応、Apache 2.0、業界特化バーティカルレイヤー** / #2 google/ax=Go 8,980★ +1,542 (09-23 から継続、順位 5→2 に急上昇) → **substrate 上に YAML で Task/Workspace/Gateway を宣言する Google 製 orchestrator、大量エージェント隔離実行、状態 suspend/resume 対応、Apache 2.0、本番オーケストレーションレイヤー** / #3 davila7/claude-code-templates=Python 31,471★ +393 (09-23 から継続、順位 4→3) → **Claude Code に agents・commands・MCP 連携・Skill をコマンド 1 発で導入する CLI、GitHub/PostgreSQL/Stripe 連携・セキュリティ監査エージェントも選ぶだけで入る、MIT、個人開発者の設定レイヤー** / #4 BuilderIO/agent-native=TypeScript 6,509★ +135 (新規) → **エージェントと React UI が同じ action 定義を共有する TS 基盤、tool 呼び出しでもボタン操作でも同じロジック・permission が走る、pnpm+PostgreSQL+Nitro-compatible hosts、MIT、agent+UI 一体アプリレイヤー** / #5 obra/superpowers=Shell 290,654★ +485 (新規) → **AI コーディングエージェントにブレスト→計画→TDD→レビュー→git の開発手順を仕込む方法論パッケージ、Claude Code/Cursor/Copilot/Gemini で動く agent-agnostic 設計、MIT、agent 開発方法論レイヤー**。5 本統合: 5 レイヤー選択マップ (a) 業界特化バーティカル (b) 本番オーケストレーション (c) 個人開発者の設定 (d) agent+UI 一体アプリ (e) agent 開発方法論、視聴者 (CTO/技術選定) に『エージェント構築のどのレイヤーで、どのツールを選ぶか』の判断軸を提供、Thu 週半ばの実装判断需要と親和。",
+      "言語タグは Python 2 + Go 1 + TypeScript 1 + Shell 1 の 4 言語 5 本構成。Python (1.2x、pool 首位) ×2 + Go (1.0x) + TypeScript (1.1x) + Shell (1.0x)、言語スコア平均は約 1.10 で hints 中上位、素材多様性 (Vertical/Orchestration/CLI/UI基盤/Methodology を横断) は comparison の使い分けマップ多角化に親和",
+      "comparison 角度の独自 hashtag: #OSS #AI #tech #CTO #技術選定 #エージェント選び #エージェント構築 #レイヤー選択 #financialservices #Anthropic金融 #投資銀行AI #PEディールソーシング #エクイティ調査 #ax #Google #YAML宣言型 #エージェントオーケストレーション #substrate #ClaudeCode #agents #MCP #Skill #claudecodetemplates #Awesome代替 #BuilderIO #agentnative #Reactエージェント #action定義共有 #obra #superpowers #AIエージェント方法論 #TDDエージェント #CursorRules代替 #Copilot #Gemini #agentagnostic #Python #TypeScript #Go #Shell #Apache2 #MIT"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、business-angle で費目名 × 具体的な工数/月額削減の密度優先)。5 本合計 272 文字 (49+54+59+58+52、平均 54.4)、TTS +30% で約 37 秒、opening/ending 約 8 秒込み 45 秒で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 59 / min 49) で密度均等。",
-      "business-angle (柱②) 角度の一貫性: 5 本すべての narration を『主体 (1 文) + 具体的な費目/工数 (1 文)』の 2 文構造で統一。1 本目 agent-native『エージェントとUIを1つのaction定義で結ぶTS基盤です。受託の二重実装工数を丸ごと削れます。』(実装重複潰し × 見積半減)、2 本目 cua『コンピュータ操作エージェントを自前運用するOSS基盤です。QA自動化のSaaS月額を丸ごと置き換えられます。』(QA 自動化 SaaS × 月額置換)、3 本目 OpenStock『Bloombergに代わる株式ウォッチャーOSSです。Next.js 15で受託の社内トレーダー画面を1週間で組めます。』(Bloomberg 代替 × 受託納品短縮)、4 本目 ai-memory『AIエージェント間で長期記憶を持ち回るRust製CLIです。ClaudeからCodexへの乗り換えコストが消えます。』(エージェント間記憶 × ベンダーロックイン脱出)、5 本目 coder『AIエージェント込みの開発環境を自社に置くGo基盤です。Codespaces月額を1台目で相殺できます。』(自社ホスト IDE × Codespaces 相殺)。視聴者 (CTO/技術選定) の脳内に『5 費目 = 今週削れる月額の候補』の decision 記憶を残し、Primary/Secondary 層の『次の見積書に反映するか』の検討につなげる。",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle (柱②) では『主体 + 具体的な費目/工数』を優先、trend-pattern (09-17) の『兆候 + 潮流位置づけ』、comparison (09-16) の『類似 OSS/SaaS 名 + 差別化点』、use-case (09-14) の『どの現場の誰が使うか』からの視座切替で 5 日 5 セットの立体化を継続、macro→micro→cost→compare→trend→ecosystem→cost の第 2 周 (今日は cost = business-angle) で Tue engineer 濃度高の週初め見積需要に着地。",
-      "数値表現はアラビア数字統一 (1、15、20、50、60、100、217、461、607、609、843、1、2400、5851、7637、16395、17660、25667、2026 等。narration では『Next.js 15』『1 週間』『1 台目』『1 つの action 定義』の 4 個所)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (BuilderIO、agent-native、Reactエージェント、action、trycua、cua、Computer-use、macOS、Windows、Linux、Apple Silicon、Lume、Cua Bench、Browserbase、Selenium、Playwright、RPA、OpenStock、Bloomberg、Terminal、TradingView、Premium、Finnhub、Adanos、Next.js、AGPL、akitaonrails、ai-memory、Rust、Claude、Code、Codex、Cursor、Gemini、Devin、Kimi、MCP、markdown、SQLite、FTS5、coder、Go、Terraform、EC2、Kubernetes、Docker、IDE、AI、LLM、GitHub、Codespaces、Enterprise、Gitpod、Wireguard、SOC2、Anthropic、OpenAI、Bedrock、TypeScript、HTML) は原文表記で TTS に読ませる。opening 3 秒フック候補『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります』を method-agnostic 施策として今日から投入試行 (前々日 ecosystem 表明フックの反省を踏まえて費目の具体性を前面に)。"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、comparison で対比密度優先)。5 本合計 299 文字 (60+60+58+60+60、平均 59.8)、TTS +30% で約 41 秒、opening/ending 約 10 秒込み 51 秒で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 60 / min 58) で密度均等。",
+      "comparison (柱①) 角度の一貫性: 5 本すべての narration を『主体 (1 文) + 使い分け基準 (1 文)』の 2 文構造で統一。1 本目 financial-services『Anthropic公式の金融バーティカルエージェント集です。投資銀行やPE、エクイティ調査は自作より先にこちらを見ます。』(業界特化バーティカル × 汎用自作より先)、2 本目 ax『YAMLで大量エージェントを並列運用するGoogle製基盤です。substrate上で動く宣言型で本番運用が主戦場です。』(本番オーケストレーション × 宣言型)、3 本目 claude-code-templates『Claude Codeの設定を1発で揃えるCLIです。個別に探すより早くagentsやMCPやSkillが入ります。』(個人開発者の設定 × 1 コマンド)、4 本目 agent-native『エージェントとUIが同じaction定義を共有するTS基盤です。単独frameworkよりUI付きの受託案件で効きます。』(agent+UI 一体アプリ × 二重実装解消)、5 本目 superpowers『AIエージェントにTDDとレビューの手順を仕込む枠組です。Cursor Rulesと違い複数のCLIで共通して効きます。』(agent 開発方法論 × 複数 CLI 横断)。視聴者 (CTO/技術選定) の脳内に『エージェント構築の 5 レイヤー = どこで何を選ぶかの判断軸』の decision 記憶を残し、Primary/Secondary 層の『次のプロジェクトでどれを採用するか』の検討につなげる。",
+      "ランクとスター数は narration に含めない (画面カードに表示)。comparison (柱①) では『主体 + 使い分け基準』を優先、trend-pattern (09-23) の『主体 + スタック位置づけ』、business-angle (09-22) の『主体 + 具体的な費目/工数』、use-case (09-14) の『どの現場の誰が使うか』からの視座切替で 5 日 5 セットの立体化を継続、macro→micro→cost→compare→trend→ecosystem→cost→trend→**compare** の第 2 周 (今日は compare = comparison) で Thu 週半ばの実装判断需要に着地。",
+      "数値表現はアラビア数字統一 (1、2、3、4、5、135、393、485、665、1542、6509、8980、31471、36907、290654、2026 等。narration では『1発』の 1 個所のみ)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (Anthropic、financial-services、PE、Google、ax、YAML、substrate、Task、Workspace、Gateway、Apache、Claude、Code、agents、commands、MCP、Skill、CLI、BuilderIO、agent-native、React、action、TypeScript、TS、framework、UI、obra、superpowers、TDD、Cursor、Rules、Copilot、Gemini、Shell、Python、Go、MIT) は原文表記で TTS に読ませる。opening 3 秒フック候補『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか』を method-agnostic 施策として今日から投入試行 (前日 trend-pattern マクロからミクロへの連続コンテキストで角度切替)。"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (IG 14d n=3 avg 1023.7 で pool 4 位、saved 平均 11.00 で pool 首位、全期間 avg 1.21 n=19 で pool 首位)。直近 2 日 (09-21 未実行 / 09-19 ecosystem) 連投 NG は ecosystem のみ、eligible pool は comparison / trend-pattern / use-case / business-angle / tech-deep / self-experiment。pool 内で views 首位は comparison (1097) だが、素材 5/5 に『削れる月額 SaaS』か『回避できる契約数』が明確に立つ稀有な business-angle 適合日 (agent-native = 二重実装工数 / cua = QA 月額 / OpenStock = Bloomberg 月額 / ai-memory = ベンダーロックイン / coder = Codespaces 月額) で、business-angle の適合度が comparison を明白に上回るため business-angle を選定。Tue (avg 361、pool 内曜日最高) + 素材 5/5=100% + saved 首位 + 前々日 Explore 反省の 4 条件複合で最適解。YT 配信死亡モード継続深化 41 日目、YT 試行 #1 Day 7/14 の 7 日目、Tue で瞬発視聴 + 蓄積フォロワー育成の両立を狙う。09-14 use-case (現場マップ) → 09-15 business-angle (費目マップ) → 09-16 comparison (対比マップ) → 09-17 trend-pattern (兆候マップ) → 09-18 ecosystem (基盤マップ、失敗) → 09-22 business-angle (費目マップ、循環第 2 周) の視座切替継続。前回 business-angle (09-15) から 7 日空きで連投ルール非該当、素材テーマが 09-15 (Cursor CLI / Claude Code Skills / OpenAI 契約削減) から今日 (5 費目縦串 = 実装重複・QA 月額・Bloomberg・ロックイン・Codespaces) へ質的拡張。",
-      "本日 09-22 TOP5: #1 BuilderIO/agent-native=TypeScript / 5,851★ / +607 [新規登場・**エージェントと React UI が同じ action 定義を共有、tool 呼び出しでもボタン操作でも同じ処理が走る、pnpm+PostgreSQL+Nitro-compatible hosts、MIT**、費目=受託の『エージェント付き社内 SaaS』案件で agent 側と UI 側の二重実装工数を丸ごと削減、見積半減候補]、#2 trycua/cua=HTML / 25,667★ / +609 [新規登場・**Cross-OS (macOS/Windows/Linux) の Computer-use 2.0、Apple Silicon 向け native VM (Lume) と評価ベンチ Cua Bench、CUA-S1 モデル (form-filling 特化)、Kasm/OmniParser 統合、Claude Code/Codex/Cursor 対応、MIT**、費目=QA 自動化受託で Selenium + Playwright + Browserbase 月額と RPA ライセンスを丸ごと自前運用に置換]、#3 Open-Dev-Society/OpenStock=TypeScript / 17,660★ / +843 [新規登場・**Finnhub で株価と企業情報、TradingView 埋め込みでチャート、Adanos で感情分析、Next.js 15+React 19+Tailwind CSS v4+shadcn/ui+MongoDB+Better Auth+Inngest、AGPL-3.0**、費目=Bloomberg Terminal $2400/mo と TradingView Premium $60/mo を退避、受託の『社内トレーダー画面』を 1 週間で組めるパッケージ]、#4 akitaonrails/ai-memory=Rust / 7,637★ / +217 [新規登場・**AI コーディングエージェント間の長期記憶を持ち回る単一 Rust v1.95+ バイナリ、markdown wiki + SQLite FTS5 index、20+ CLI (Claude Code/Codex/Cursor/Gemini CLI/OpenCode/Devin CLI/Grok Build CLI/Kimi Code/Kiro CLI/Oh My Pi/...) 対応、MCP-only (Claude Desktop/VS Code Copilot/Zed)、typed handoff、~700 writes/sec、MIT**、費目=AI コーディングエージェントベンダーロックイン脱出、PoC 期間 3 週間 → 1 日に短縮]、#5 coder/coder=Go / 16,395★ / +461 [新規登場・**Terraform で EC2/K8s/Docker に IDE 付き開発環境を撒く、Wireguard トンネル、VS Code Extension+JetBrains Toolbox+Dev Containers、AI エージェントを workspace 内で走らせて LLM 資格情報 (Anthropic/OpenAI/Google/Bedrock/self-hosted) を外に出さない設計、AGPL-3.0**、費目=GitHub Codespaces Enterprise $50/開発者 と Gitpod $25/開発者 の代替、SOC2 要件の金融/医療受託に刺さる]。",
-      "本日の business-angle (柱②) 核: 5/5 が明確な既存 SaaS/契約コストの OSS 置き換えに対応する日、5 本を『(a) 実装重複潰し (agent-native: エージェント + UI 二重実装 → 単一 action 定義) (b) QA 自動化 SaaS/RPA 月額置換 (cua: Browserbase + Selenium 月額 → 自前 Lume VM) (c) Bloomberg/TradingView Premium 削減 (OpenStock: $2400+$60/mo → Finnhub+TradingView 埋め込み) (d) AI エージェントベンダーロックイン脱出 (ai-memory: ベンダー間乗り換えコスト → 単一 markdown wiki) (e) GitHub Codespaces 代替 (coder: $50/開発者 → 自社 Terraform)』の 5 費目マップに 1:1 マッピングして並べ、視聴者 (CTO/技術選定) に『5 費目 = 今週削れる月額の候補』の decision 記憶を提供する。冒頭フックは『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります。実装重複、QA 自動化、Bloomberg、ベンダーロックイン、Codespaces — 5 つの費目が OSS で置き換わり始めています。』**素材 5/5 完全新規初 TOP5 登場**、macro (09-13 権力マップ) → micro (09-14 現場マップ) → cost (09-15 費目マップ) → compare (09-16 対比マップ) → trend (09-17 兆候マップ) → ecosystem (09-18 基盤マップ、失敗) → cost (09-22 費目マップ、循環第 2 周) のスコープ循環で Tue engineer 濃度高の週初め見積需要に着地、business-angle (柱②) の再現条件が saved 首位で整った日。",
-      "Primary (CTO/技術選定) には『5 費目マップ = 2026 秋の OSS が既存 SaaS/契約コストに対して何を代替として出しているかの実弾、次の見積書に反映する候補』、Secondary (PdM/事業責任者) には『5 費目マップ = 事業予算で〈どの月額サブスクが OSS で置き換わり始めているか〉の座標軸』、Tertiary (学習中) には『5 費目マップ = 案件で〈どのカテゴリの内製要件が来やすいか〉の判断軸』として 3 層直撃、business-angle (柱②) 特有の cost 視点 (『あの人は必ず費目単位で OSS を語る』) で受託/コンサルの発注元 (CTO/事業責任者) 層に信頼シグナルを蓄積、特に #3 OpenStock (Bloomberg $2400/mo 代替) + #5 coder (Codespaces $50/開発者代替) の 2 本が典型的な既存 SaaS 置き換え候補、視聴者に『GitHub Trending の裏側にある 5 費目マップ』として記憶させる。",
-      "**YT 配信死亡モード継続深化 41 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 7/14、次回判定日 2026-09-30**: YT 追加提案は控える (変数を増やさない、実行中の試行 #1 の効果を単独計測する)。IG 指標のみで method 選定、直近 2 日連投 NG (09-19 ecosystem のみ、09-20/21 未実行) + eligible pool 内で saved 首位 (business-angle 11.00) + 素材 5/5 適合 + 前々日 Explore (ecosystem 523) 反省で business-angle を選定 (IG 14d 1023.7 で pool 4 位だが saved 首位、Tue engineer 濃度高)、method-agnostic 施策の投入継続: opening 3 秒フック『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります』を今日から試行。09-19 IG null / YT stats 未取得追跡: 次回 fetch-stats.yml で復元見込み、復元次第 ecosystem (09-18/19 の 2 本) の method 別平均を再評価する。09-20/21 は routine 未実行で performance-history に行が追加されない見込み。**crisis-mode 解除条件『連続 5 日 views ≥ 5』または『単発 views ≥ 20』は継続、ただし YT の判定は 2026-09-30 の試行 #1 判定日まで指標だけで機械的に出す (中央値 < 5 配信死亡 / < 20 切替候補 / ≥ 20 続行)**。09-22 business-angle 投入で『素材 5/5 の 5 費目縦串が Tue engineer 濃度高で反応するか』の切り分け実験、09-15 business-angle (Tue 費目マップ、IG=1277 saved=14) との比較データを取る。"
+      "本日の discovery.method は `comparison` (IG 14d n=1 avg 1185 で pool 2 位、saved 平均 2.00 で pool 下位、全期間 avg 0.85 n=18 で pool 中位)。直近 2 日 (09-22 business-angle / 09-23 trend-pattern) 連投 NG は 2 つ、eligible pool は comparison / ecosystem / use-case / tech-deep / self-experiment。pool 内で views 首位は comparison (1185)、素材 5/5 が『エージェント関連ツールで、どの用途ならどれを選ぶか』の使い分けマップに完全整合、Thu (avg 176、engineer 濃度中位) + 素材 5/5=100% + eligible pool 首位 + 昨日 09-23 と 3/5 重複日の angle 切替 (trend-pattern マクロ → comparison ミクロ) の 4 条件複合で最適解。YT 配信死亡モード継続深化 43 日目、YT 試行 #1 Day 9/14 の 9 日目、Thu で瞬発視聴 + 週半ばの実装判断需要の両立を狙う。09-14 use-case → 09-15 business-angle → 09-16 comparison → 09-17 trend-pattern → 09-18/19 ecosystem → 09-22 business-angle → 09-23 trend-pattern → 09-24 comparison の視座切替継続。前回 comparison (09-16) から 8 日空きで連投ルール非該当、素材テーマが 09-16 (Cursor 系対比) から今日 (5 レイヤー選択マップ = 業界特化・本番オケストレ・個人設定・agent+UI・方法論) へ質的拡張。",
+      "本日 09-24 TOP5: #1 anthropics/financial-services=Python / 36,907★ / +665 [09-23 から継続 (順位 1→1、+436→+665)・**Anthropic 公式の金融バーティカルエージェント集、投資銀行のピッチ資料・PE ディールソーシング・エクイティ調査を Claude で自動化する参照実装、Cowork/Managed Agents 対応、Apache 2.0**、レイヤー=業界特化バーティカル / 汎用フレームワーク自作より先にこちらを見る]、#2 google/ax=Go / 8,980★ / +1,542 [09-23 から継続 (順位 5→2、+2,324→+1,542)・**substrate 上に YAML で Task/Workspace/Gateway を宣言する Google 製エージェント orchestrator、大量エージェントを隔離実行、状態 suspend/resume 対応、Apache 2.0**、レイヤー=本番オーケストレーション / LangGraph より宣言的で substrate 上が主戦場]、#3 davila7/claude-code-templates=Python / 31,471★ / +393 [09-23 から継続 (順位 4→3、+113→+393)・**Claude Code に agents・commands・MCP 連携・Skill をコマンド 1 発で導入する CLI、GitHub/PostgreSQL/Stripe 連携やセキュリティ監査エージェントも選ぶだけで導入、MIT**、レイヤー=個人開発者の設定 / Awesome CC を漁るより 1 コマンド]、#4 BuilderIO/agent-native=TypeScript / 6,509★ / +135 [新規登場・**エージェントと React UI が同じ action 定義を共有する TS 基盤、tool 呼び出しでもボタン操作でも同じロジック・permission が走る、pnpm+PostgreSQL+PGlite (local)+Nitro-compatible hosts、MIT**、レイヤー=agent+UI 一体アプリ / 単独 framework より受託の『エージェント付き社内 SaaS』で二重実装が消える]、#5 obra/superpowers=Shell / 290,654★ / +485 [新規登場・**AI コーディングエージェントにブレスト→計画→TDD→レビュー→git の開発手順を仕込む方法論パッケージ、Claude Code/Cursor/Copilot/Gemini など複数プラットフォームで動く agent-agnostic 設計、Prime Radiant 商用サポートあり、MIT**、レイヤー=agent 開発方法論 / Cursor Rules と違い複数 CLI 横断で共通]。",
+      "本日の comparison (柱①) 核: TOP5 のエージェント関連 5 本を『どの用途ならどれを選ぶかのレイヤー別選択マップ』として串刺し、5 本を『(a) 業界特化バーティカル (financial-services: Anthropic 公式の金融エージェント集 → 汎用自作より先) (b) 本番オーケストレーション (ax: substrate 上の YAML 宣言型 → LangGraph より本番向き) (c) 個人開発者の設定 (claude-code-templates: 1 コマンド → Awesome CC を漁るより) (d) agent+UI 一体アプリ (agent-native: action 定義共有 → 単独 framework より受託向き) (e) agent 開発方法論 (superpowers: TDD/レビュー手順 → Cursor Rules と違い複数 CLI 横断)』の 5 レイヤー選択マップに 1:1 マッピングして並べ、視聴者 (CTO/技術選定) に『エージェント構築のどのレイヤーで、どのツールを選ぶか』の判断軸を提供する。冒頭フックは『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか。業界特化、本番オーケストレーション、個人設定、agent+UI、方法論 — 5 つのレイヤーで OSS の主役が並びました。』**3/5 が 09-23 継続 + 2/5 が新規登場**、macro (09-23 スタック垂直積層) → micro (09-24 レイヤー別選択マップ) のスコープ切替で Thu 週半ばの実装判断需要に着地、comparison (柱①) の再現条件が『5 本が同じジャンル (エージェント関連) で用途違い』を満たした日。",
+      "Primary (CTO/技術選定) には『5 レイヤー選択マップ = 2026 秋の OSS がエージェント構築のどのレイヤーに何を出しているかの座標軸、次のプロジェクトで採用する候補』、Secondary (PdM/事業責任者) には『5 レイヤー選択マップ = 事業計画で〈どのエージェント関連 OSS が業界標準になりつつあるか〉の座標軸』、Tertiary (学習中) には『5 レイヤー選択マップ = キャリアで〈どのエージェント技術に投資するか〉の判断軸』として 3 層直撃、comparison (柱①) 特有の compare 視点 (『あの人は必ず〈用途 × 選択候補〉で OSS を語る』) で受託/コンサルの発注元 (CTO/事業責任者) 層に信頼シグナルを蓄積、特に #4 agent-native (agent+UI 一体) + #5 superpowers (方法論) の 2 本が『昨日は登場しなかった、今日は登場したレイヤー』として新規の意味を持つ、視聴者に『GitHub Trending の裏側にある 5 レイヤー選択マップ』として記憶させる。",
+      "**YT 配信死亡モード継続深化 43 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 9/14、次回判定日 2026-09-30**: YT 追加提案は控える (変数を増やさない、実行中の試行 #1 の効果を単独計測する)。IG 指標のみで method 選定、直近 2 日連投 NG (09-22 business-angle / 09-23 trend-pattern) + eligible pool 内 views 首位 (comparison 1185) + 素材 5/5 適合 + 昨日 3/5 重複日の angle 切替で comparison を選定 (IG 14d 1185 で pool 2 位、Thu engineer 濃度中位)、method-agnostic 施策の投入継続: opening 3 秒フック『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか』を今日から試行。09-23 IG null / YT stats 未取得追跡: 次回 fetch-stats.yml で復元見込み、復元次第 trend-pattern (09-23) の method 別平均を再評価する。**crisis-mode 解除条件『連続 5 日 views ≥ 5』または『単発 views ≥ 20』は継続、ただし YT の判定は 2026-09-30 の試行 #1 判定日まで指標だけで機械的に出す (中央値 < 5 配信死亡 / < 20 切替候補 / ≥ 20 続行)**。09-24 comparison 投入で『昨日と同じ 5 本のうち 3 本を違う視座で語り直したときの反応』の切り分け実験、09-16 comparison (Wed 対比マップ、IG=1185 saved=2) との比較データを取る。"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-09-22",
-    "dayOfWeek": "Tue",
+    "date": "2026-09-24",
+    "dayOfWeek": "Thu",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
       "AI",
       "tech",
-      "受託",
-      "スタートアップ",
       "CTO",
-      "PdM",
       "技術選定",
-      "月額SaaS削減",
-      "ベンダーロックイン脱出",
+      "エージェント選び",
+      "エージェント構築",
+      "レイヤー選択",
+      "financialservices",
+      "Anthropic金融",
+      "投資銀行AI",
+      "PEディールソーシング",
+      "エクイティ調査",
+      "ax",
+      "Google",
+      "YAML宣言型",
+      "エージェントオーケストレーション",
+      "substrate",
+      "ClaudeCode",
+      "agents",
+      "MCP",
+      "Skill",
+      "claudecodetemplates",
+      "Awesome代替",
       "BuilderIO",
       "agentnative",
       "Reactエージェント",
-      "trycua",
-      "ComputerUse2",
-      "Browserbase代替",
-      "QA自動化",
-      "Lume",
-      "AppleSilicon",
-      "OpenStock",
-      "Bloomberg代替",
-      "TradingView代替",
-      "Finnhub",
-      "NextJS",
-      "akitaonrails",
-      "aimemory",
-      "ClaudeCode",
-      "Codex",
-      "Cursor",
-      "エージェント選定",
-      "PoC短縮",
-      "coder",
-      "GithubCodespaces代替",
-      "Gitpod代替",
-      "Terraform",
-      "Kubernetes",
-      "Docker",
-      "SOC2",
-      "金融受託",
-      "医療受託",
-      "AGPL",
+      "action定義共有",
+      "obra",
+      "superpowers",
+      "AIエージェント方法論",
+      "TDDエージェント",
+      "CursorRules代替",
+      "Copilot",
+      "Gemini",
+      "agentagnostic",
+      "Python",
       "TypeScript",
-      "Rust",
-      "Go"
+      "Go",
+      "Shell",
+      "Apache2",
+      "MIT"
     ],
-    "focus": "火曜 (Tue=avg 361、engineer 濃度高、pool 内曜日最高) は YT 配信死亡モード継続 41 日目、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 7/14 の 7 日目。IG 指標のみで method 選定、直近 2 日連投 NG (09-19 ecosystem のみ、09-20/21 routine 未実行) + eligible pool 内で saved 首位 (business-angle 11.00) を Exploit で投入。今日の TOP5 は 5/5 完全新規登場で、5 本すべてに『削れる月額 SaaS』または『回避できる契約数』が明確に立つ稀有な business-angle 適合日 (agent-native=実装重複潰し / cua=QA 自動化 SaaS 月額置換 / OpenStock=Bloomberg $2400/mo 代替 / ai-memory=AI エージェントベンダーロックイン脱出 / coder=Codespaces $50/開発者代替)。5 費目棚 (実装重複 / QA 自動化 / Bloomberg / ベンダーロックイン / Codespaces) で 1:1 費目置き換えを語る。macro→micro→cost→compare→trend→ecosystem→**cost (business-angle)** のスコープ循環第 2 周入り、Tue 週初め見積需要と親和。language ミックス: TypeScript 2 本+HTML 1 本+Rust 1 本+Go 1 本 (4 言語 5 本、Rust は hints 0.7 で最下位だが自己完結バイナリ + AI エージェント記憶で認知価値高)。narration は 5 本すべてを『主体 (1 文) + 具体的な費目/工数 (1 文)』の 2 文構造で統一、5 本合計 272 文字 (49+54+59+58+52) で TTS +30% 換算約 37 秒、opening/ending 8 秒込み 45 秒で IG Reels 60 秒制約に十分マージン。柱ローテ: 09-22 (柱②) → 09-27 (Sun) 前後で 柱③ self-experiment 投入候補継続。opening 3 秒フック『2026 秋の GitHub Trending、5 本ぜんぶに削れる月額があります』を method-agnostic 施策として本日投入試行 (前々日 ecosystem 表明フックの反省を踏まえて費目の具体性を前面に)。**YT 試行 #1 実行中の変数固定原則**: YT に関する追加提案は判定日 2026-09-30 まで控える、試行 #1 (タイトル/説明個別化 + TOP1 冒頭映像) の効果を単独計測する。#3 OpenStock (Bloomberg $2400/mo 代替) + #5 coder (Codespaces $50/開発者代替) は費目金額が最も明快な 2 本、9/22 の business-angle angle の中心軸。**前々日 Explore (09-18 ecosystem, IG=523 saved=1) 反省の実運用**: 素材適合度が優れていても pool 首位の views 平均を明白に下回るなら pool 首位 method を採用する運用ルール案を今日の PDCA で正式提案、次回 (09-23) 以降の method 選定に反映する。**09-19..09-21 の routine 未実行の追跡**: origin/main の最新 enrichment が 09-18 のまま 4 日連続で更新が止まっていた事故、09-19 分は 09-18 データ (JST ±1 内) で動画が生成された公算、09-20/21 分は date 範囲外で pipeline hard error 停止した見込み、本日 09-22 のルーチンで復旧させる。次回月末レポート (09-30 or 10-01) で cron 稼働ログの machine-readable 化を正式提案。"
+    "focus": "木曜 (Thu=avg 176、engineer 濃度中位) は YT 配信死亡モード継続 43 日目、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 9/14 の 9 日目。IG 指標のみで method 選定、直近 2 日連投 NG (09-22 business-angle / 09-23 trend-pattern) + eligible pool 内 views 首位 (comparison 1185) を Exploit で投入。今日の TOP5 は 3/5 が 09-23 から継続 (financial-services / ax / claude-code-templates)、2/5 が新規登場 (agent-native / superpowers)、5 本すべてがエージェント関連ツールで、それぞれ違うレイヤー (業界特化バーティカル / 本番オーケストレーション / 個人開発者の設定 / agent+UI 一体アプリ / agent 開発方法論) に位置する使い分けマップ適合日。5 レイヤー棚で 1:1 選択基準を語る。macro→micro→cost→compare→trend→ecosystem→cost→trend→**compare (comparison)** のスコープ循環第 2 周入り、Thu 週半ば実装判断需要と親和。language ミックス: Python 2 本+Go 1 本+TypeScript 1 本+Shell 1 本 (4 言語 5 本、Python 1.2 pool 首位で中心)。narration は 5 本すべてを『主体 (1 文) + 使い分け基準 (1 文)』の 2 文構造で統一、5 本合計 299 文字 (60+60+58+60+60) で TTS +30% 換算約 41 秒、opening/ending 10 秒込み 51 秒で IG Reels 60 秒制約内。柱ローテ: 09-22 (柱②) 消化済、09-27 (Sun) 前後で 柱③ self-experiment 投入候補継続。opening 3 秒フック『2026 秋、GitHub Trending がエージェント関連 5 本、どれをどう選ぶか』を method-agnostic 施策として本日投入試行 (前日 trend-pattern マクロからミクロへの連続コンテキストで角度切替)。**YT 試行 #1 実行中の変数固定原則**: YT に関する追加提案は判定日 2026-09-30 まで控える、試行 #1 (タイトル/説明個別化 + TOP1 冒頭映像) の効果を単独計測する。#4 agent-native (agent+UI 一体) + #5 superpowers (方法論) は 09-23 に無かった新レイヤーとして 09-24 の comparison angle の中心軸。**3/5 重複日の angle 切替パターンの実運用第 1 号**: TOP5 が n 日連続で重複する場合の angle は毎日ずらす運用ルール案を、今日の実行結果 (IG 指標) を見て次回月末レポート (09-30 or 10-01) で正式提案する。**09-19 ecosystem 復元 + 09-22 business-angle 復元後の全期間再評価**: business-angle 1.27 n=20 (pool 首位) / ecosystem 1.24 n=17 (2 位) で 2 強、comparison 0.85 n=18 は pool 中位、今日の投入で comparison の n=19 に更新される (avg は結果次第で 0.83-0.87 範囲を想定)。"
   }
 }
