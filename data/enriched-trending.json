@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5はエージェント関連ツール5本の集合。#1 financial-services(業界特化バーティカル)/#2 ax(本番オーケストレーション)/#3 claude-code-templates(個人開発者の設定パック)/#4 agent-native(agent+UI一体アプリ)/#5 superpowers(agent開発方法論)の5レイヤーで、汎用フレームワーク自作 or LangChain単独と比べて『どの用途ならどれを選ぶか』の使い分けマップとして串刺しにする。09-23 trend-pattern(スタック垂直積層のマクロ視座)からのスコープ切替で、今日はレイヤー別選択基準のミクロ寄せ。",
+    "method": "business-angle",
+    "description": "本日のTOP5は『実案件でコストや工数を直接削れる』OSSが5本並んだ日。#1 ai-engineering-from-scratch(新人AI研修の内製化=外注研修費削減)/#2 hindsight(agent memory自作工数の削減=RAGスクラッチ実装のショートカット)/#3 univer(SaaS内蔵の文書エディタ自作工数の削減)/#4 ax(agent orchestrator自作・保守費の削減=Substrate上で本番運用)/#5 Model-Optimizer(LLM推論費の直接削減=H100/GB200で2から5.9倍スループット)の5本を『どの費目を削るか』の一枚マップとして串刺しにする。09-24 comparison(レイヤー別選択マップ)からの角度切替で、今日はレイヤーではなく費目に軸を寄せる。柱②(business-angle)週跨ぎで2週連続投入=先週09-22のTOP1(2638views/歴代1位)実績を根拠にした素材適合日のExploit。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/financial-services",
+      "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "https://github.com/vectorize-io/hindsight",
+      "https://github.com/dream-num/univer",
       "https://github.com/google/ax",
-      "https://github.com/davila7/claude-code-templates",
-      "https://github.com/BuilderIO/agent-native",
-      "https://github.com/obra/superpowers",
-      "https://news.ycombinator.com/from?site=github.com/BuilderIO/agent-native",
-      "https://news.ycombinator.com/from?site=github.com/obra/superpowers",
+      "https://github.com/NVIDIA/Model-Optimizer",
+      "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
+      "https://news.ycombinator.com/from?site=github.com/dream-num/univer",
       "https://news.ycombinator.com/from?site=github.com/google/ax"
     ],
     "query": "",
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/financial-services",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "language": "Python",
-      "stars": 36907,
-      "todayStars": 665,
-      "description": "Anthropic公式の金融エージェント集",
-      "detail": "Anthropicが公開する金融ドメイン専用エージェント集です。投資銀行のピッチ資料・PEディールソーシング・エクイティ調査などをClaudeで自動化する参照実装で、Cowork/Managed Agents対応、Apache 2.0で商用可能。",
-      "narration": "Anthropic公式の金融バーティカルエージェント集です。投資銀行やPE、エクイティ調査は自作より先にこちらを見ます。"
+      "stars": 56485,
+      "todayStars": 310,
+      "description": "AIエンジニアリング523レッスン",
+      "detail": "Rohit氏公開の523レッスン・342時間のAIエンジニアリング無料教材です。数学の導出から実装、フレームワーク比較まで貫き、社内の新人AI研修を外注せず内製化する際の一次候補として使えるMIT。",
+      "narration": "AIエンジニアリングを基礎から学ぶMIT教材です。研修外注を止めて内製化する時の一次候補になります。"
     },
     {
       "rank": 2,
+      "fullName": "vectorize-io/hindsight",
+      "name": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "language": "Python",
+      "stars": 27726,
+      "todayStars": 1607,
+      "description": "学習し続けるAgent Memory基盤",
+      "detail": "Vectorize公開のagent memory基盤です。LongMemEvalベンチ首位級を独立検証済で、RAGスクラッチ実装より工数を削れて、既存PostgreSQL+pgvectorで動くMIT。",
+      "narration": "Agent Memoryのベンチマーク首位級のOSSです。RAG自作を止めて既存のPostgresで動かせます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "dream-num/univer",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "language": "TypeScript",
+      "stars": 17522,
+      "todayStars": 1060,
+      "description": "AI Agent向けOfficeランタイム",
+      "detail": "Univerが公開するAI Agent向けOffice runtimeです。Sheets/Docs/Slides/Canvas/PDFをNode headlessで編集でき、SaaSに文書編集を積む自作工数を丸ごと削れるApache 2.0。",
+      "narration": "AI AgentのためのOffice runtimeです。SaaSに文書編集を積む自作工数を丸ごと削れます。"
+    },
+    {
+      "rank": 4,
       "fullName": "google/ax",
       "name": "ax",
       "url": "https://github.com/google/ax",
       "language": "Go",
-      "stars": 8980,
-      "todayStars": 1542,
+      "stars": 10333,
+      "todayStars": 1376,
       "description": "Google製の宣言型エージェント基盤",
-      "detail": "Googleが公開したエージェント実行orchestratorです。substrate上にYAMLでTask/Workspace/Gatewayを宣言し、大量エージェントを隔離実行、状態suspend/resumeも対応するApache 2.0の急伸プロジェクト。",
-      "narration": "YAMLで大量エージェントを並列運用するGoogle製基盤です。substrate上で動く宣言型で本番運用が主戦場です。"
-    },
-    {
-      "rank": 3,
-      "fullName": "davila7/claude-code-templates",
-      "name": "claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "language": "Python",
-      "stars": 31471,
-      "todayStars": 393,
-      "description": "Claude Code設定を一発で揃えるCLI",
-      "detail": "Claude Codeにagents・commands・MCP連携・Skillをコマンド1発で導入するCLIです。GitHub/PostgreSQL/Stripe連携やセキュリティ監査エージェントも選ぶだけで入り、初期セットアップの数時間が省けるMIT。",
-      "narration": "Claude Codeの設定を1発で揃えるCLIです。個別に探すより早くagentsやMCPやSkillが入ります。"
-    },
-    {
-      "rank": 4,
-      "fullName": "BuilderIO/agent-native",
-      "name": "agent-native",
-      "url": "https://github.com/BuilderIO/agent-native",
-      "language": "TypeScript",
-      "stars": 6509,
-      "todayStars": 135,
-      "description": "エージェントとUIを結ぶTS基盤",
-      "detail": "エージェントとReact UIが同じaction定義を共有するTypeScript基盤です。tool呼び出しでもボタン操作でも同じロジック・permissionが走るので、受託のエージェント付き社内SaaSで二重実装が消えるMIT。",
-      "narration": "エージェントとUIが同じaction定義を共有するTS基盤です。単独frameworkよりUI付きの受託案件で効きます。"
+      "detail": "Google製のエージェント実行orchestratorです。YAMLでTask/Workspace/Gateway/Modelを宣言し、Substrate上で大量エージェント並列運用、自作orchestrator保守費を止められるApache 2.0。",
+      "narration": "Google製の宣言型エージェント基盤です。自作orchestrator保守費を止めて本番運用に回せます。"
     },
     {
       "rank": 5,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 290654,
-      "todayStars": 485,
-      "description": "AI開発手順を仕込むskillsパック",
-      "detail": "AIコーディングエージェントにブレスト→計画→TDD→レビュー→gitの手順を仕込む方法論パッケージです。Claude Code/Cursor/Copilot/Geminiで動くagent非依存の設計で、成果物の一貫性を上げるMIT。",
-      "narration": "AIエージェントにTDDとレビューの手順を仕込む枠組です。Cursor Rulesと違い複数のCLIで共通して効きます。"
+      "fullName": "NVIDIA/Model-Optimizer",
+      "name": "Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "language": "Python",
+      "stars": 4047,
+      "todayStars": 22,
+      "description": "NVIDIA製の推論最適化ライブラリ",
+      "detail": "NVIDIA公式のLLM推論最適化ライブラリです。PTQ/QAT/枝刈り/蒸留/spec-decodingをHF/PyTorch/ONNX入力で統合し、H100/GB200推論費を2から5.9倍削減できるApache 2.0。",
+      "narration": "NVIDIA公式の推論最適化ライブラリです。量子化と枝刈りでLLM推論費を2から4倍削減できます。"
     }
   ]
 }
