@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5は『実案件でコストや工数を直接削れる』OSSが5本並んだ日。#1 ai-engineering-from-scratch(新人AI研修の内製化=外注研修費削減)/#2 hindsight(agent memory自作工数の削減=RAGスクラッチ実装のショートカット)/#3 univer(SaaS内蔵の文書エディタ自作工数の削減)/#4 ax(agent orchestrator自作・保守費の削減=Substrate上で本番運用)/#5 Model-Optimizer(LLM推論費の直接削減=H100/GB200で2から5.9倍スループット)の5本を『どの費目を削るか』の一枚マップとして串刺しにする。09-24 comparison(レイヤー別選択マップ)からの角度切替で、今日はレイヤーではなく費目に軸を寄せる。柱②(business-angle)週跨ぎで2週連続投入=先週09-22のTOP1(2638views/歴代1位)実績を根拠にした素材適合日のExploit。",
+    "method": "ecosystem",
+    "description": "本日のTOP5は5本まとめて『AIエージェント運用スタックの5階層』を一夜で埋めた日。#1 paperclip(オーケストレーション/管制塔=20台超のエージェントに承認と予算枠を1画面)/#2 anthropic/claude-plugins-official(配布/公認棚=Anthropic curated plugin registry)/#3 hindsight(記憶=PostgreSQL上の学習型long-term memory)/#4 superpowers(規律/フレームワーク=実装前の設計とTDDを強制するskills framework)/#5 mattpocock/skills(現場の手癖=engineer個人の.agents一式)の5本をエージェント運用の縦串スタックとして紹介する。直近2日連投NG(09-24 comparison/09-25 business-angle)を除外した pool 内で ecosystem が首位(直近14日 IG avg 1139 n=2、Sat×ecosystem は先週09-19で1553hit)、素材5/5が『同じスタックの別レイヤー』に完全整合で Exploit + 素材適合度5/5 の複合最適。柱①(GitHub Trending解説)継続。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "https://github.com/paperclipai/paperclip",
+      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/vectorize-io/hindsight",
-      "https://github.com/dream-num/univer",
-      "https://github.com/google/ax",
-      "https://github.com/NVIDIA/Model-Optimizer",
+      "https://github.com/obra/superpowers",
+      "https://github.com/mattpocock/skills",
+      "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip",
       "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
-      "https://news.ycombinator.com/from?site=github.com/dream-num/univer",
-      "https://news.ycombinator.com/from?site=github.com/google/ax"
+      "https://news.ycombinator.com/from?site=github.com/obra/superpowers"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "name": "ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "language": "Python",
-      "stars": 56485,
-      "todayStars": 310,
-      "description": "AIエンジニアリング523レッスン",
-      "detail": "Rohit氏公開の523レッスン・342時間のAIエンジニアリング無料教材です。数学の導出から実装、フレームワーク比較まで貫き、社内の新人AI研修を外注せず内製化する際の一次候補として使えるMIT。",
-      "narration": "AIエンジニアリングを基礎から学ぶMIT教材です。研修外注を止めて内製化する時の一次候補になります。"
+      "fullName": "paperclipai/paperclip",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars": 84780,
+      "todayStars": 1853,
+      "description": "エージェントを束ねる管制塔OSS",
+      "detail": "20台超のエージェントに承認と予算枠を1画面で課せるNode.js+React製の運用基盤です。Claude Code・Codex・Cursor・自作botを同じチケット管理と監査ログに乗せられ、MITで自社ホスト可能です。",
+      "narration": "paperclipはエージェントの上司役です。20人分のエージェントの承認と予算をひとつの画面で回せます。"
     },
     {
       "rank": 2,
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars": 36900,
+      "todayStars": 62,
+      "description": "Anthropic公式のプラグイン棚",
+      "detail": "Claude Codeで社内標準にできる公式プラグインとMCPサーバの認証済カタログです。/plugin installで導入し、Apache 2.0の本体とパートナー独自ライセンスの2階建て運用でSkillsとCommandsを配布します。",
+      "narration": "Anthropic公式のプラグイン公認棚です。社内で入れて良いClaude Code拡張の基準がここに集約されます。"
+    },
+    {
+      "rank": 3,
       "fullName": "vectorize-io/hindsight",
       "name": "hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "language": "Python",
-      "stars": 27726,
-      "todayStars": 1607,
-      "description": "学習し続けるAgent Memory基盤",
-      "detail": "Vectorize公開のagent memory基盤です。LongMemEvalベンチ首位級を独立検証済で、RAGスクラッチ実装より工数を削れて、既存PostgreSQL+pgvectorで動くMIT。",
-      "narration": "Agent Memoryのベンチマーク首位級のOSSです。RAG自作を止めて既存のPostgresで動かせます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "dream-num/univer",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "language": "TypeScript",
-      "stars": 17522,
-      "todayStars": 1060,
-      "description": "AI Agent向けOfficeランタイム",
-      "detail": "Univerが公開するAI Agent向けOffice runtimeです。Sheets/Docs/Slides/Canvas/PDFをNode headlessで編集でき、SaaSに文書編集を積む自作工数を丸ごと削れるApache 2.0。",
-      "narration": "AI AgentのためのOffice runtimeです。SaaSに文書編集を積む自作工数を丸ごと削れます。"
+      "stars": 29742,
+      "todayStars": 1652,
+      "description": "エージェント用の学習型メモリ層",
+      "detail": "LongMemEvalベンチ首位級のPython製agent memoryで、既存PostgreSQL+pgvectorの上に4並列の検索戦略で対話が長期記憶として積み上がります。MITでVirginia Tech検証済、既存DB資産で動きます。",
+      "narration": "エージェントに長期記憶を足すOSSです。PostgreSQLの上で対話が学習として積み上がる仕組みが動きます。"
     },
     {
       "rank": 4,
-      "fullName": "google/ax",
-      "name": "ax",
-      "url": "https://github.com/google/ax",
-      "language": "Go",
-      "stars": 10333,
-      "todayStars": 1376,
-      "description": "Google製の宣言型エージェント基盤",
-      "detail": "Google製のエージェント実行orchestratorです。YAMLでTask/Workspace/Gateway/Modelを宣言し、Substrate上で大量エージェント並列運用、自作orchestrator保守費を止められるApache 2.0。",
-      "narration": "Google製の宣言型エージェント基盤です。自作orchestrator保守費を止めて本番運用に回せます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 291634,
+      "todayStars": 465,
+      "description": "エージェントに規律を仕込む枠組み",
+      "detail": "実装前に設計と計画とTDDを踏ませるShell製のskills frameworkで、Claude Code・Cursor・Devin・Copilot CLIに同じ規律を注入できます。MITでPrime Radiantが保守、公式Marketplace掲載済です。",
+      "narration": "エージェントに設計とTDDを強制する枠組みです。実装前に計画とテストを書かせる規律がSkillsとして同梱されます。"
     },
     {
       "rank": 5,
-      "fullName": "NVIDIA/Model-Optimizer",
-      "name": "Model-Optimizer",
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "language": "Python",
-      "stars": 4047,
-      "todayStars": 22,
-      "description": "NVIDIA製の推論最適化ライブラリ",
-      "detail": "NVIDIA公式のLLM推論最適化ライブラリです。PTQ/QAT/枝刈り/蒸留/spec-decodingをHF/PyTorch/ONNX入力で統合し、H100/GB200推論費を2から5.9倍削減できるApache 2.0。",
-      "narration": "NVIDIA公式の推論最適化ライブラリです。量子化と枝刈りでLLM推論費を2から4倍削減できます。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 269695,
+      "todayStars": 588,
+      "description": "現場の手癖を移植するskills集",
+      "detail": "Matt Pocockが実プロジェクトで使う.agents一式で、TDD・コードレビュー・アーキテクチャの手癖をnpx skills@latest addで自分のリポにコピーできます。MIT、Claude CodeとCodex両対応です。",
+      "narration": "現場エンジニアが実際に使う.agents一式です。TDDやコードレビューの手癖をそのままClaudeに移植できます。"
     }
   ]
 }
