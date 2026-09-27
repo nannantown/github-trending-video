@@ -2,71 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "q3ehn3Mwlg8",
-      "videoUrl": "https://youtube.com/shorts/q3ehn3Mwlg8",
-      "date": "2026-06-28",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/28 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Haskell",
-        "Python"
-      ],
-      "languages": [
-        "Haskell",
-        "Python",
-        "Go",
-        "HTML"
-      ],
-      "projects": [
-        "simplex-chat/simplex-chat",
-        "xbtlin/ai-berkshire",
-        "commaai/openpilot",
-        "IceWhaleTech/CasaOS",
-        "ripienaar/free-for-dev"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "use-case",
-        "description": "TOP5 を Primary ペルソナ (CTO / 受託 / 個人開発) の現場シーン別に切り分け、誰がいつ採用するかで料理する角度。直近 2 日 (06-27 business-angle / 06-26 comparison) 連続使用回避制約をクリアしつつ、14 日窓で未試行の use-case method を回しサンプル数を増やす。weekly 柱② は 06-27 で消化済、柱③ は 06-23 で消化済のため本日は柱① 内で角度差別化。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/simplex-chat/simplex-chat",
-          "https://github.com/xbtlin/ai-berkshire",
-          "https://github.com/commaai/openpilot",
-          "https://github.com/IceWhaleTech/CasaOS",
-          "https://github.com/ripienaar/free-for-dev"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-12T23:39:15.125Z"
-      },
-      "instagram": {
-        "mediaId": "18107158153964378",
-        "permalink": "https://www.instagram.com/reel/DaG784-kgVG/",
-        "views": 5863,
-        "reach": 4848,
-        "likes": 67,
-        "comments": 0,
-        "shares": 3,
-        "saved": 61,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "58Rbb7mtqdE",
       "videoUrl": "https://youtube.com/shorts/58Rbb7mtqdE",
       "date": "2026-06-29",
@@ -4756,18 +4691,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18409041061092696",
         "permalink": "https://www.instagram.com/reel/DdNRyZMjSbU/",
-        "views": 893,
-        "reach": 617,
+        "views": 896,
+        "reach": 620,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 8,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -4819,18 +4754,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18103068545363845",
         "permalink": "https://www.instagram.com/reel/DdP2wzUkfzZ/",
-        "views": 859,
-        "reach": 572,
+        "views": 869,
+        "reach": 583,
         "likes": 10,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -4885,18 +4820,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18132316954678767",
         "permalink": "https://www.instagram.com/reel/DdSfJI7kvy3/",
-        "views": 1369,
-        "reach": 993,
+        "views": 1383,
+        "reach": 1003,
         "likes": 13,
         "comments": 0,
         "shares": 1,
         "saved": 14,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -4954,18 +4889,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18110557949588231",
         "permalink": "https://www.instagram.com/reel/DdVC-Wqj8g7/",
-        "views": 1203,
-        "reach": 923,
+        "views": 1205,
+        "reach": 926,
         "likes": 15,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5026,18 +4961,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18102632909093294",
         "permalink": "https://www.instagram.com/reel/DdXoRyWkb-2/",
-        "views": 1454,
-        "reach": 1205,
+        "views": 1456,
+        "reach": 1207,
         "likes": 19,
         "comments": 0,
         "shares": 2,
         "saved": 9,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5097,18 +5032,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "17958084453209901",
         "permalink": "https://www.instagram.com/reel/DdaMeUzj5lB/",
-        "views": 729,
-        "reach": 490,
+        "views": 735,
+        "reach": 493,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5167,18 +5102,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18281335030288573",
         "permalink": "https://www.instagram.com/reel/DdcwarAjGeh/",
-        "views": 1567,
-        "reach": 1243,
+        "views": 1576,
+        "reach": 1247,
         "likes": 14,
         "comments": 0,
         "shares": 0,
-        "saved": 0,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "saved": 15,
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5238,18 +5173,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18098442293075626",
         "permalink": "https://www.instagram.com/reel/DdkjAF8gpUe/",
-        "views": 2700,
-        "reach": 2264,
+        "views": 2711,
+        "reach": 2273,
         "likes": 21,
         "comments": 0,
         "shares": 7,
         "saved": 15,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5308,18 +5243,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18107556026416895",
         "permalink": "https://www.instagram.com/reel/DdnFwqxAG2v/",
-        "views": 956,
-        "reach": 674,
+        "views": 969,
+        "reach": 683,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 10,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5380,18 +5315,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "18139972651717070",
         "permalink": "https://www.instagram.com/reel/Ddpp5x4iUlA/",
-        "views": 1117,
-        "reach": 895,
+        "views": 1133,
+        "reach": 909,
         "likes": 9,
         "comments": 0,
         "shares": 0,
         "saved": 10,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5450,18 +5385,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-26T00:58:54.587Z"
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "17916215475449321",
         "permalink": "https://www.instagram.com/reel/DdsOua3DSPM/",
-        "views": 523,
-        "reach": 338,
+        "views": 564,
+        "reach": 375,
         "likes": 2,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-26T00:58:54.588Z"
+        "updatedAt": "2026-09-27T00:58:53.889Z"
       }
     },
     {
@@ -5520,10 +5455,80 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-09-27T00:58:53.888Z"
       },
       "instagram": {
         "mediaId": "17985938421083887",
+        "permalink": "https://www.instagram.com/reel/Dduz7Iigc-Z/",
+        "views": 550,
+        "reach": 385,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
+        "updatedAt": "2026-09-27T00:58:53.889Z"
+      }
+    },
+    {
+      "videoId": "2TkSGLNaVoQ",
+      "videoUrl": "https://youtube.com/shorts/2TkSGLNaVoQ",
+      "date": "2026-09-27",
+      "title": "paperclip — 20台超のエージェントを1画面で管制｜GitHub Trending TOP5 9/27",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "TypeScript",
+        "Python",
+        "C++"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "C++"
+      ],
+      "projects": [
+        "paperclipai/paperclip",
+        "vectorize-io/hindsight",
+        "NVIDIA/Model-Optimizer",
+        "dream-num/univer",
+        "tensorflow/tensorflow"
+      ],
+      "durationSeconds": 55,
+      "discovery": {
+        "method": "use-case",
+        "description": "本日のTOP5を『誰が採用するか』の5ペルソナ別 use-case マップとして串刺しにする日。#1 paperclip(中〜大企業CTO=部署ごとに乱立するエージェントを1画面で管制)/#2 hindsight(既存PGを持つ企業=PostgreSQL資産にagent memoryを後付け)/#3 NVIDIA/Model-Optimizer(LLMを大量に叩く企業=H100推論費を1.3〜5.9x圧縮)/#4 univer(SaaSスタートアップ=文書編集をNode.js headlessで内製)/#5 tensorflow(ML研究者・大学=研究の一次実装からプロダクション推論まで同一API)。直近2日連投NG(09-25 business-angle/09-26 ecosystem)を除外した pool 内で use-case は n=1 の Explore 域、Sun × use-case の曜日相性検証 + 直近13日 use-case ゼロで Explore 枠の消費バランス回復 + 素材5/5がペルソナ別に切り分けやすい配列の複合最適。柱①(GitHub Trending解説)継続、柱③は明日09-28(Mon)投入枠に持ち越し。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/paperclipai/paperclip",
+          "https://github.com/vectorize-io/hindsight",
+          "https://github.com/NVIDIA/Model-Optimizer",
+          "https://github.com/dream-num/univer",
+          "https://github.com/tensorflow/tensorflow",
+          "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip",
+          "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
+          "https://news.ycombinator.com/from?site=github.com/NVIDIA/Model-Optimizer"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "18006785432782555",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5536,18 +5541,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-24",
-      "changes": [
-        "Rust: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Go: 1.3x avg views → boost",
-        "standard: 1 avg views (83 videos)",
-        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.3x), Jupyter Notebook (2.2x), PowerShell (2.0x)",
-        "Day performance: Fri=2, Sat=2, Tue=2, Wed=1, Thu=1, Sun=1, Mon=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-25",
       "changes": [
@@ -5911,6 +5904,17 @@
         "top1: 0 avg views (8 videos)",
         "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
         "Day performance: Sat=1, Sun=1, Mon=1, Tue=1, Thu=1, Wed=1, Fri=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-27",
+      "changes": [
+        "Haskell: 0.7x avg views → drop",
+        "standard: 1 avg views (73 videos)",
+        "top1: 0 avg views (9 videos)",
+        "Trending languages: Java (2.4x), C# (1.6x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.8x)",
+        "Day performance: Sun=1, Mon=1, Tue=1, Thu=1, Sat=1, Wed=1, Fri=1"
       ],
       "recommendedTemplate": "standard"
     }
