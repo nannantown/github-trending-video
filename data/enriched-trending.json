@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-29",
   "discovery": {
-    "method": "use-case",
-    "description": "本日のTOP5を『誰が採用するか』の5ペルソナ別 use-case マップとして串刺しにする日。#1 paperclip(中〜大企業CTO=部署ごとに乱立するエージェントを1画面で管制)/#2 hindsight(既存PGを持つ企業=PostgreSQL資産にagent memoryを後付け)/#3 NVIDIA/Model-Optimizer(LLMを大量に叩く企業=H100推論費を1.3〜5.9x圧縮)/#4 univer(SaaSスタートアップ=文書編集をNode.js headlessで内製)/#5 tensorflow(ML研究者・大学=研究の一次実装からプロダクション推論まで同一API)。直近2日連投NG(09-25 business-angle/09-26 ecosystem)を除外した pool 内で use-case は n=1 の Explore 域、Sun × use-case の曜日相性検証 + 直近13日 use-case ゼロで Explore 枠の消費バランス回復 + 素材5/5がペルソナ別に切り分けやすい配列の複合最適。柱①(GitHub Trending解説)継続、柱③は明日09-28(Mon)投入枠に持ち越し。",
+    "method": "business-angle",
+    "description": "本日のTOP5を『月額サブスクvs OSS内製で何が削れるか』の受託・スタートアップ視点で串刺しにする火曜日。#1 VoiceStudio(ElevenLabs月額を撤廃して受託や社内動画の音声制作原価を1桁下げる)/#2 paperclip(エージェント管理内製の数百万円初期投資を削減)/#3 hindsight(Vector DB SaaS月額を回避し既存PostgreSQLで代替)/#4 PLFM_RADAR(市販レーダー数千万円を部品数十万円台に圧縮)/#5 CS341 coursebook(新人systems programming研修の外注費30万円/人を削減)。直近2日(09-27/09-28)がuse-case連投のため 直近2日連投NG除外で use-case は選定不可、Tue × business-angle は 09-22 で IG=2722 hit の勝ちパターン、直近14日(09-15..09-28) IG平均 1567 で method pool 首位、柱②(実案件でこう使える)週内投入を月頭のTueで確保する Exploit 選定。09-28 routine 未実行のため当日は 09-27 と同じ use-case 素材(paperclip/hindsight/Model-Optimizer/univer/tensorflow)が投稿される運用事故を把握、method選定は 09-15..09-28 の 11 本(09-28 IG null 除外)で再計算。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/debpalash/VoiceStudio",
       "https://github.com/paperclipai/paperclip",
       "https://github.com/vectorize-io/hindsight",
-      "https://github.com/NVIDIA/Model-Optimizer",
-      "https://github.com/dream-num/univer",
-      "https://github.com/tensorflow/tensorflow",
-      "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip",
+      "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "https://github.com/cs341-illinois/coursebook",
+      "https://news.ycombinator.com/from?site=github.com/debpalash/VoiceStudio",
       "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
-      "https://news.ycombinator.com/from?site=github.com/NVIDIA/Model-Optimizer"
+      "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 43824,
+      "todayStars": 3274,
+      "description": "ElevenLabs代替の完全ローカル音声AI",
+      "detail": "音声クローン・動画ダビング・書き起こしを646言語で自社完結にできるAGPL-3.0 OSSです。ElevenLabsの月額課金を撤廃でき、受託や社内動画の音声制作原価を1桁下げられます。",
+      "narration": "音声AIの月額課金をゼロにする一手です。646言語のクローンとダビングをローカルで無制限に回せます。"
+    },
+    {
+      "rank": 2,
       "fullName": "paperclipai/paperclip",
       "name": "paperclip",
       "url": "https://github.com/paperclipai/paperclip",
       "language": "TypeScript",
-      "stars": 87162,
-      "todayStars": 2589,
-      "description": "20台超のエージェントを1画面で管制",
-      "detail": "エージェントを部署に配る中〜大企業向けの運用基盤です。Claude Code・Codex・Cursor・自作botを同じチケット管理と監査ログに載せ、承認と予算枠を1画面で回せます。Node.js+React製、MITで自社ホスト可能です。",
-      "narration": "エージェントを部署に配る会社の管制塔です。承認と予算と監査を1画面で回せて、Claudeも自作botも同居できます。"
+      "stars": 92654,
+      "todayStars": 3185,
+      "description": "エージェント管理を1画面に集約",
+      "detail": "Claude Code・Codex・Cursor・自作botを同じチケットと監査ログに載せる管制OSSです。エージェント運用を内製する数百万円の初期投資を丸ごと削れ、Node.js+ReactでMITなので自社ホスト可能です。",
+      "narration": "部署ごとのエージェント管理を内製する数百万円が消える基盤です。承認と予算と監査を1画面に載せられます。"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "fullName": "vectorize-io/hindsight",
       "name": "hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "language": "Python",
-      "stars": 32080,
-      "todayStars": 2152,
-      "description": "既存PostgreSQLに載る記憶層",
-      "detail": "既にPostgreSQLを持つ企業向けのagent memory OSSです。pgvectorの上に4並列検索戦略で乗せられ、LongMemEvalベンチ首位級、Virginia Tech検証済で既存DB資産を活かして長期記憶を後付けできます。MITライセンスです。",
-      "narration": "既存PostgreSQLに載る記憶層OSSです。pgvector上に置くだけでエージェントに長期記憶を後付けできます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "NVIDIA/Model-Optimizer",
-      "name": "Model-Optimizer",
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "language": "Python",
-      "stars": 4725,
-      "todayStars": 354,
-      "description": "LLM推論費を減らすNVIDIA公式",
-      "detail": "LLMを大量に叩く企業向けの推論最適化ライブラリです。量子化・枝刈り・蒸留・spec-decodingをHugging FaceやPyTorch入力からTensorRT-LLMやvLLMに流せ、H100で1.3〜5.9倍のスループット改善が狙えます。Apache 2.0です。",
-      "narration": "自社LLM推論を持つ企業向けの圧縮ツールです。量子化と枝刈りでH100の処理速度を最大5.9倍まで押し上げます。"
+      "stars": 40882,
+      "todayStars": 4413,
+      "description": "PostgreSQLで動く記憶層OSS",
+      "detail": "既存PostgreSQL+pgvectorに乗せる4並列検索のagent memory OSSです。LongMemEvalベンチ首位級で、月額課金のVector DB SaaSを避けて既存DB資産で長期記憶を後付けできます。MITライセンス。",
+      "narration": "Vector DB課金を回避する記憶層OSSです。既存PostgreSQLに乗せて長期記憶を後付けできます。"
     },
     {
       "rank": 4,
-      "fullName": "dream-num/univer",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "language": "TypeScript",
-      "stars": 19177,
-      "todayStars": 845,
-      "description": "AI Agent向けOffice runtime",
-      "detail": "SaaSに文書編集を積みたいスタートアップ向けの基盤です。Sheets・Docs・Slides・Canvas・PDFを1つのTypeScript runtimeで扱え、Browser/Node headless両対応、Apache 2.0で自作工数を丸ごと削れます。",
-      "narration": "SaaSに文書機能を積む会社向けの基盤です。SheetsとDocsとPDFをNode上でheadlessに動かせます。"
+      "fullName": "NawfalMotii79/PLFM_RADAR",
+      "name": "PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "language": "PLSQL",
+      "stars": 25734,
+      "todayStars": 145,
+      "description": "1桁安いDIYフェーズドアレイレーダー",
+      "detail": "XC7A50T FPGAとADAR1000で組む10.5GHzフェーズドアレイレーダーの回路とファーム一式です。市販機の数千万円を部品数十万円台まで圧縮でき、ドローン検知や物流PoCのR&D原価を大きく削れます。CERN-OHL-P+MIT。",
+      "narration": "市販レーダー数千万円を数十万円台に置き換える設計図です。ドローン検知や物流PoCを自社で作りに行けます。"
     },
     {
       "rank": 5,
-      "fullName": "tensorflow/tensorflow",
-      "name": "tensorflow",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "language": "C++",
-      "stars": 200435,
-      "todayStars": 31,
-      "description": "研究と本番を同じ基盤で回すML",
-      "detail": "ML研究者と大学向けの機械学習フレームワークです。C++コアの上でPythonからCPU/GPU/TPUを叩け、研究の一次実装から大企業のプロダクション推論まで同一APIで運用できます。Googleが10年育てたApache 2.0です。",
-      "narration": "機械学習の研究と本番運用を同じ基盤でこなす人向けです。C++コアの上でCPU、GPU、TPUを同じAPIで叩けます。"
+      "fullName": "cs341-illinois/coursebook",
+      "name": "coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "language": "TeX",
+      "stars": 2478,
+      "todayStars": 316,
+      "description": "Illinois大のC/Linux教科書",
+      "detail": "Illinois CS341のプロセス・スレッド・IPC・malloc・ネットワークを扱う実プロ級のC言語テキストです。新人systems programming研修の外注費30万円/人を削り、Linux実務教育をゼロ円で組めます。オープンソース。",
+      "narration": "新人研修の教材費30万円を丸ごと削る大学教科書です。Linuxとシステムプログラミングを実務レベルで学べます。"
     }
   ]
 }
