@@ -1,18 +1,16 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『月額サブスクvs OSS内製で何が削れるか』の受託・スタートアップ視点で串刺しにする火曜日。#1 VoiceStudio(ElevenLabs月額を撤廃して受託や社内動画の音声制作原価を1桁下げる)/#2 paperclip(エージェント管理内製の数百万円初期投資を削減)/#3 hindsight(Vector DB SaaS月額を回避し既存PostgreSQLで代替)/#4 PLFM_RADAR(市販レーダー数千万円を部品数十万円台に圧縮)/#5 CS341 coursebook(新人systems programming研修の外注費30万円/人を削減)。直近2日(09-27/09-28)がuse-case連投のため 直近2日連投NG除外で use-case は選定不可、Tue × business-angle は 09-22 で IG=2722 hit の勝ちパターン、直近14日(09-15..09-28) IG平均 1567 で method pool 首位、柱②(実案件でこう使える)週内投入を月頭のTueで確保する Exploit 選定。09-28 routine 未実行のため当日は 09-27 と同じ use-case 素材(paperclip/hindsight/Model-Optimizer/univer/tensorflow)が投稿される運用事故を把握、method選定は 09-15..09-28 の 11 本(09-28 IG null 除外)で再計算。",
+    "method": "trend-pattern",
+    "description": "同じ週にAIエージェント基盤の抜けが並んで埋まったマクロ視点で5本を串刺し",
     "sources": [
       "https://github.com/trending",
       "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/paperclipai/paperclip",
+      "https://github.com/NVIDIA/OpenShell",
       "https://github.com/vectorize-io/hindsight",
-      "https://github.com/NawfalMotii79/PLFM_RADAR",
-      "https://github.com/cs341-illinois/coursebook",
-      "https://news.ycombinator.com/from?site=github.com/debpalash/VoiceStudio",
-      "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
-      "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip"
+      "https://github.com/paperclipai/paperclip",
+      "https://github.com/t8y2/dbx",
+      "https://news.ycombinator.com/"
     ],
     "query": "",
     "freshness_hours": 1
@@ -24,23 +22,23 @@
       "name": "VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "language": "Python",
-      "stars": 43824,
-      "todayStars": 3274,
-      "description": "ElevenLabs代替の完全ローカル音声AI",
-      "detail": "音声クローン・動画ダビング・書き起こしを646言語で自社完結にできるAGPL-3.0 OSSです。ElevenLabsの月額課金を撤廃でき、受託や社内動画の音声制作原価を1桁下げられます。",
-      "narration": "音声AIの月額課金をゼロにする一手です。646言語のクローンとダビングをローカルで無制限に回せます。"
+      "stars": 47948,
+      "todayStars": 4712,
+      "description": "ローカル完結の多言語音声AI基盤",
+      "detail": "音声クローンから動画吹き替えまで、646言語のTTSやSTTを1台のPCで動かせるOSSです。Electron+FastAPI構成で、ElevenLabsに払う月額を自社サーバー側に移せる完成度に到達しました。",
+      "narration": "今週の急上昇は音声AIをローカルに閉じ込める勢いです。646言語対応が個人PCで動く水準に達しました。"
     },
     {
       "rank": 2,
-      "fullName": "paperclipai/paperclip",
-      "name": "paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "language": "TypeScript",
-      "stars": 92654,
-      "todayStars": 3185,
-      "description": "エージェント管理を1画面に集約",
-      "detail": "Claude Code・Codex・Cursor・自作botを同じチケットと監査ログに載せる管制OSSです。エージェント運用を内製する数百万円の初期投資を丸ごと削れ、Node.js+ReactでMITなので自社ホスト可能です。",
-      "narration": "部署ごとのエージェント管理を内製する数百万円が消える基盤です。承認と予算と監査を1画面に載せられます。"
+      "fullName": "NVIDIA/OpenShell",
+      "name": "OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "language": "Rust",
+      "stars": 10518,
+      "todayStars": 978,
+      "description": "NVIDIA製エージェント実行基盤",
+      "detail": "自律エージェントを安全に走らせるRust製ランタイムです。カーネル層でsyscallや通信先を制限し、ポリシー変更は形式検証にかけてから配布する仕組みで、本番でも安心して走らせられる設計に踏み込みました。",
+      "narration": "エージェント用の安全な実行環境が同じ週にNVIDIAから出ました。カーネル層でシステムコールを絞ります。"
     },
     {
       "rank": 3,
@@ -48,35 +46,35 @@
       "name": "hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "language": "Python",
-      "stars": 40882,
-      "todayStars": 4413,
-      "description": "PostgreSQLで動く記憶層OSS",
-      "detail": "既存PostgreSQL+pgvectorに乗せる4並列検索のagent memory OSSです。LongMemEvalベンチ首位級で、月額課金のVector DB SaaSを避けて既存DB資産で長期記憶を後付けできます。MITライセンス。",
-      "narration": "Vector DB課金を回避する記憶層OSSです。既存PostgreSQLに乗せて長期記憶を後付けできます。"
+      "stars": 42774,
+      "todayStars": 2541,
+      "description": "PostgreSQL上の記憶層OSS",
+      "detail": "LongMemEvalベンチ首位級のエージェント記憶OSSです。Vector DBを別途契約しなくても、既存のPostgreSQLとpgvectorに4種類の検索を差し込むだけで長期記憶が組めるようになりました。",
+      "narration": "同じ週にエージェント記憶OSSも上がりました。PostgreSQLだけで長期記憶を保てる位置に来ています。"
     },
     {
       "rank": 4,
-      "fullName": "NawfalMotii79/PLFM_RADAR",
-      "name": "PLFM_RADAR",
-      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
-      "language": "PLSQL",
-      "stars": 25734,
-      "todayStars": 145,
-      "description": "1桁安いDIYフェーズドアレイレーダー",
-      "detail": "XC7A50T FPGAとADAR1000で組む10.5GHzフェーズドアレイレーダーの回路とファーム一式です。市販機の数千万円を部品数十万円台まで圧縮でき、ドローン検知や物流PoCのR&D原価を大きく削れます。CERN-OHL-P+MIT。",
-      "narration": "市販レーダー数千万円を数十万円台に置き換える設計図です。ドローン検知や物流PoCを自社で作りに行けます。"
+      "fullName": "paperclipai/paperclip",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars": 94389,
+      "todayStars": 2412,
+      "description": "複数エージェントの管制ダッシュボード",
+      "detail": "Claude CodeやCursorや自作botなど20台超のエージェントを1画面で管制するNode.js製の運用基盤です。承認workflowと予算枠と監査ログを載せて、社内の運用を回せます。",
+      "narration": "同じ週にエージェント管制OSSも並びました。20台超のAIを1画面で承認と監査まで運用できます。"
     },
     {
       "rank": 5,
-      "fullName": "cs341-illinois/coursebook",
-      "name": "coursebook",
-      "url": "https://github.com/cs341-illinois/coursebook",
-      "language": "TeX",
-      "stars": 2478,
-      "todayStars": 316,
-      "description": "Illinois大のC/Linux教科書",
-      "detail": "Illinois CS341のプロセス・スレッド・IPC・malloc・ネットワークを扱う実プロ級のC言語テキストです。新人systems programming研修の外注費30万円/人を削り、Linux実務教育をゼロ円で組めます。オープンソース。",
-      "narration": "新人研修の教材費30万円を丸ごと削る大学教科書です。Linuxとシステムプログラミングを実務レベルで学べます。"
+      "fullName": "t8y2/dbx",
+      "name": "dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "language": "Rust",
+      "stars": 21933,
+      "todayStars": 349,
+      "description": "100種類対応のDBクライアント",
+      "detail": "MySQLからClickHouseまで100超のDBを扱えるRust+Tauri製の軽量クライアントです。25MBサイズでMCPサーバーも同梱、AIエージェントから自然言語でDBを叩けるよう整えました。",
+      "narration": "開発ツール側も動きます。100種類のDBを25MBで扱えるRust製クライアントがMCP経由でAIと繋がります。"
     }
   ]
 }

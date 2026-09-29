@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -12,125 +12,62 @@
       "Sun": 5
     },
     "topPerformingLanguages": [
-      {
-        "language": "Python",
-        "multiplier": 1.2
-      },
-      {
-        "language": "TypeScript",
-        "multiplier": 1.1
-      },
-      {
-        "language": "Shell",
-        "multiplier": 1.0
-      },
-      {
-        "language": "Markdown",
-        "multiplier": 1.0
-      },
-      {
-        "language": "Swift",
-        "multiplier": 1.0
-      },
-      {
-        "language": "HTML",
-        "multiplier": 1.0
-      },
-      {
-        "language": "Go",
-        "multiplier": 1.0
-      },
-      {
-        "language": "CSS",
-        "multiplier": 0.9
-      },
-      {
-        "language": "JavaScript",
-        "multiplier": 0.9
-      },
-      {
-        "language": "PowerShell",
-        "multiplier": 0.9
-      },
-      {
-        "language": "Jupyter Notebook",
-        "multiplier": 0.9
-      },
-      {
-        "language": "Crystal",
-        "multiplier": 0.8
-      },
-      {
-        "language": "C++",
-        "multiplier": 0.8
-      },
-      {
-        "language": "C",
-        "multiplier": 0.8
-      },
-      {
-        "language": "Java",
-        "multiplier": 0.8
-      },
-      {
-        "language": "Ruby",
-        "multiplier": 0.8
-      },
-      {
-        "language": "Rust",
-        "multiplier": 0.7
-      },
-      {
-        "language": "Mojo",
-        "multiplier": 0.8
-      },
-      {
-        "language": "Kotlin",
-        "multiplier": 0.8
-      },
-      {
-        "language": "Nim",
-        "multiplier": null
-      },
-      {
-        "language": "Batchfile",
-        "multiplier": null
-      }
+      { "language": "Python", "multiplier": 1.2 },
+      { "language": "TypeScript", "multiplier": 1.1 },
+      { "language": "Shell", "multiplier": 1.0 },
+      { "language": "Markdown", "multiplier": 1.0 },
+      { "language": "Swift", "multiplier": 1.0 },
+      { "language": "HTML", "multiplier": 1.0 },
+      { "language": "Go", "multiplier": 1.0 },
+      { "language": "CSS", "multiplier": 0.9 },
+      { "language": "JavaScript", "multiplier": 0.9 },
+      { "language": "PowerShell", "multiplier": 0.9 },
+      { "language": "Jupyter Notebook", "multiplier": 0.9 },
+      { "language": "Crystal", "multiplier": 0.8 },
+      { "language": "C++", "multiplier": 0.8 },
+      { "language": "C", "multiplier": 0.8 },
+      { "language": "Java", "multiplier": 0.8 },
+      { "language": "Ruby", "multiplier": 0.8 },
+      { "language": "Rust", "multiplier": 0.7 },
+      { "language": "Mojo", "multiplier": 0.8 },
+      { "language": "Kotlin", "multiplier": 0.8 },
+      { "language": "Nim", "multiplier": null },
+      { "language": "Batchfile", "multiplier": null }
     ],
     "topPerformingVideo": {
       "date": "2026-09-22",
       "views": 2700,
       "projects": [],
-      "note": "YT 配信死亡モード継続 46 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 12/14、判定日 2026-09-30 まで残り 3 日。IG 14d 判定窓 (2026-09-14..09-27、n=10、09-20/21 routine 未実行 + 09-26 IG null を除外、09-27 は本日未投稿): business-angle 1530.67 n=3 saved 10.00 (09-25 実測 523 で下方修正、依然 pool 首位) / comparison 1160.0 n=2 saved 6.00 / ecosystem 1148.0 n=2 saved 0.50 (09-19 saved 15→0 実測修正で急落) / trend-pattern 1101.0 n=3 saved 9.00 / use-case 859.0 n=1 saved 5.00 / tech-deep・self-experiment データなし。全期間 (n=86): business-angle 1.28 n=20 (09-25 下方修正で微下振れ) / ecosystem 1.28 n=17 / comparison 0.87 n=19 / use-case 0.86 n=7 / trend-pattern 1.02 n=12 / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。直近 2 日 (09-25 business-angle / 09-26 ecosystem) 連投 NG は business-angle と ecosystem の 2 つ、eligible pool は comparison / trend-pattern / use-case / tech-deep / self-experiment。**今日 09-27 (Sun、engineer 濃度 avg 5 で pool 最下位だが Sun 単体データ薄く実験ゾーン) は use-case を Explore で投入**、pool 内 views 最下位 (use-case 859 n=1) だが (a) 直近 2 日連投 NG 除外、(b) Sun × use-case の曜日相性検証、(c) 直近 13 日 use-case ゼロで Explore 枠の消費バランス回復、(d) 本日の TOP 5 が『AI と ML の断層』でペルソナ別に切り分けやすい素材配列の 4 条件で Explore 選定。**TOP5 lineup: paperclipai/paperclip (TypeScript/87,162★/+2,589、09-26 #1 から連続・20 台超のエージェントを 1 画面で管制する Node.js+React 運用基盤/Claude Code・Codex・Cursor・自作 bot を同一チケット + 監査ログ/承認 workflow + 予算枠 + heartbeat、MIT) / vectorize-io/hindsight (Python/32,080★/+2,152、09-26 #3 → 09-27 #2 上昇・LongMemEval 首位級 agent memory OSS/biomimetic データ構造 + PostgreSQL+pgvector + 4 並列検索、MIT、Virginia Tech 検証済) / NVIDIA/Model-Optimizer (Python/4,725★/+354、09-25 #5 → 09-27 #3 上昇・NVIDIA 公式 LLM 推論最適化/PTQ・QAT・枝刈り・蒸留・spec-decoding/HF・PyTorch・ONNX 入力 → TensorRT-LLM・vLLM・SGLang/H100・H200・GB200 で 1.3-5.9x スループット、Apache 2.0) / dream-num/univer (TypeScript/19,177★/+845、09-25 #3 → 09-27 #4・AI Agent 向け Office runtime/Sheets/Docs/Slides/Canvas/Bases/PDF/Browser+Node headless 両対応、Apache 2.0) / tensorflow/tensorflow (C++/200,435★/+31、久しぶりの trending 復帰・Google が 10 年育てた OSS の ML 研究・本番共用フレームワーク/C++ コア上に Python から CPU/GPU/TPU/研究の一次実装から大企業のプロダクション推論まで同一 API、Apache 2.0)**、3/5 が 09-26 継続 + 2/5 が新規または復帰で素材更新率 40%。5 ペルソナ採用者マップ: (a) paperclip=中〜大企業 CTO / 部署ごとに乱立するエージェントの 1 画面管制 (b) hindsight=既存 PG を持つ企業 / PostgreSQL 資産に agent memory を後付け (c) Model-Optimizer=LLM を大量に叩く企業 / H100 推論費を 1.3-5.9x 圧縮 (d) univer=SaaS スタートアップ / 文書編集を Node.js headless で内製 (e) tensorflow=ML 研究者・大学 / 研究の一次実装からプロダクション推論まで同一 API。09-14 use-case → 09-15 business-angle → 09-16 comparison → 09-17 trend-pattern → 09-18/19 ecosystem → 09-22 business-angle → 09-23 trend-pattern → 09-24 comparison → 09-25 business-angle → 09-26 ecosystem → 09-27 use-case で 7 method 循環第 2 周に Explore 復帰。09-27 週の柱ローテ: 09-22 (柱②) + 09-25 (柱②) で柱② は今週 2 本消化済み、柱③ (self-experiment) は今週未消化で 09-28 (Mon) が唯一の投入枠。**YT 試行 #1 Day 12/14、次回判定日 2026-09-30 まで残り 3 日**、この期間中 YT 追加提案は控える。**09-26 の IG null / YT stats 未取得追跡**: 次回 fetch-stats.yml で復元見込み、復元次第 ecosystem (09-26) の method 別平均を再評価する。09-25 business-angle 523 で確定復元、Fri × business-angle 仮説 (09-11 696 + 09-25 523 の 2 連続下振れ) は否定、Tue × business-angle (09-22 2700) だけが hit の曜日相性が浮上。**opening 3 秒フック候補**: 『2026 秋、GitHub Trending が5つの立場別におすすめしたい OSS を並べた日曜』の use-case 表明型 (前日 ecosystem の「スタック縦串」からの延長で、「あなたの立場ならこれ」の採用者側に着地、Sun 週末の技術棚卸し需要に接続)。"
+      "note": "本日 2026-09-30 は YT 試行 #1 の初回判定日。YT views 中央値 = 0（判定窓 09-16..09-29、n=11、09-29 は stats.updatedAt=null で除外）→ 配信死亡 → 配信死亡モード継続（宣言日 2026-09-14 のまま、次判定日 2026-10-14）。主指標「視聴を継続 %」の実験前後比較は `data/studio-retention.json` の treatment が null のため保留、Studio 実測後に遅延判定。IG 14d 判定窓 (2026-09-17..09-30、n=11、09-30 未投稿で除外): business-angle 1666.5 n=2 (09-22 hit 2731 + 09-25 下振れ 602) / trend-pattern 1227.5 n=2 (09-17 hit 1458 + 09-23 997) / comparison 1180 n=2 (09-16 1211 + 09-24 1149) / ecosystem 982.33 n=3 (09-18 745 + 09-19 hit 1582 + 09-26 620) / use-case 533 n=2 (09-27 576 + 09-28 490 事故的使い回し) / tech-deep・self-experiment データなし。全期間 (n=88): business-angle 1.28 n=20 / ecosystem 1.20 n=18 / comparison 0.90 n=20 / trend-pattern 1.03 n=12 / use-case 0.75 n=9 (09-28 490 で n=8→9、avg 0.79→0.75 に微下振れ) / tech-deep 0.75 n=4 / self-experiment 0.44 n=9。**直近 2 日 (09-28 use-case / 09-29 business-angle) 連投 NG は 2 method 両方**、eligible pool は trend-pattern / comparison / ecosystem / tech-deep / self-experiment。**本日 09-30 (Wed、pool 中位 avg 153) は trend-pattern を Exploit で投入**、pool 首位 (1227.5)、Thu × trend-pattern 09-17 hit (1458) の勝ちパターン再現、Wed × trend-pattern の曜日相性検証を兼ねる Explore 寄り Exploit。**TOP5 lineup: debpalash/VoiceStudio (Python/47,948★/+4,712、09-29 #1 継続・646 言語対応の完全ローカル音声 AI/Electron 安定化 v0.5.3、AGPL-3.0) / NVIDIA/OpenShell (Rust/10,518★/+978、新規急上昇・NVIDIA 公式のエージェント実行ランタイム/カーネル層 syscall 制限 + ポリシー変更の形式検証、Apache 2.0) / vectorize-io/hindsight (Python/42,774★/+2,541、09-29 #3 継続・LongMemEval 首位級 agent memory OSS/pgvector + 4 並列検索、MIT) / paperclipai/paperclip (TypeScript/94,389★/+2,412、09-29 #2 → 09-30 #4・20 台超のエージェント運用基盤/Node.js+React、MIT) / t8y2/dbx (Rust/21,933★/+349、新規急上昇・100 種類超の DB クライアント/Tauri 2 + Vue 3、MCP サーバー同梱、Apache 2.0)**、3/5 が 09-29 継続 + 2/5 が新規で素材更新率 40%。5 層マップ: (a) 音声 AI 層 (VoiceStudio) (b) sandbox 実行環境層 (OpenShell) (c) 記憶層 (hindsight) (d) 管制ダッシュボード層 (paperclip) (e) DB クライアント層 (dbx)。09-27 use-case → 09-28 use-case (事故) → 09-29 business-angle → 09-30 trend-pattern で cost 側からマクロ視点への切替、Wed の週央技術キャッチアップモードと親和。**opening 3 秒フック候補**: 『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜』の trend-pattern 表明型 (前日 business-angle の「SaaS 月額を消す OSS」からのマクロ切替で、「何が削れるか → 何が同時に並んだか」の視座切替)。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持。YT 試行 #1 実行中は追加変更を控える (変数を増やさない)、判定日 2026-09-30 まで per-day タイトル・説明個別化 + TOP1 冒頭映像の効果を単独計測する (明日が判定日、残り 1 日)。",
-      "本日は火曜 (Tue=avg 361、engineer 濃度 pool 首位級)、YT 配信死亡モード継続 48 日目 (2026-09-14〜)、YT 試行 #1 Day 14/14 の最終日、判定日 09-30 まで残り 1 日。IG 指標のみで method 選定、直近 2 日連投 NG (09-27 use-case / 09-28 use-case) 除外 + Tue × business-angle 09-22 IG=2722 hit の勝ちパターン + 直近 14 日 IG 平均 1567 で pool 首位 + 柱② 週内投入を月頭 Tue で確保、の 4 条件複合最適で business-angle を Exploit 選定、5 本を『(a) 音声 AI サブスク (VoiceStudio) (b) エージェント管理内製費 (paperclip) (c) Vector DB SaaS 月額 (hindsight) (d) 市販レーダー数千万円 (PLFM_RADAR) (e) 新人研修外注費 (CS341)』の 5 削減マップに 1:1 でマップ。柱ローテ: 前週 09-22 (柱②) + 09-25 (柱②) 消化済み、今週 (Mon 09-28..Sun 10-04) は本日 09-29 で柱② 先出し、柱③ (self-experiment) は 10-01 (Thu) or 10-04 (Sun) 投入枠。opening 3 秒フック『2026 秋、GitHub Trending が SaaS 月額を丸ごと消す OSS を並べた火曜』を試行、前々日 use-case から business-angle への角度切替で『誰が採用するか → 何が削れるか』のコスト側連続コンテキスト、Tue の週初技術選定モードと親和。"
+      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持。YT 試行 #1 判定日終了 (配信死亡モード継続、次判定日 10-14) のため次の試行 (#2) は候補書き置き段階、per-day サムネ個別化 / 冒頭 5 秒サマリー / タイトル記号削減の 3 案を PDCA レポートに書き置き、10-01 以降のルーチンで実装コストと期待効果を精査、10-14 の判定日で 1 案に絞り込む。",
+      "本日は水曜 (Wed=avg 153、pool 中位)、YT 配信死亡モード継続 47 日目 (2026-09-14〜)、YT 試行 #1 判定日 (views 中央値 0 → 配信死亡確定、Studio 値待ち遅延判定)。IG 指標のみで method 選定、直近 2 日連投 NG (09-28 use-case / 09-29 business-angle) 除外 + Thu × trend-pattern 09-17 IG=1458 hit の勝ちパターン + 直近 14 日 IG 平均 1227.5 で pool 首位 + Wed × trend-pattern の曜日相性検証、の 4 条件複合で trend-pattern を Exploit 選定、5 本を『(a) 音声 AI 層 (VoiceStudio) (b) sandbox 実行環境層 (OpenShell) (c) 記憶層 (hindsight) (d) 管制ダッシュボード層 (paperclip) (e) DB クライアント層 (dbx)』の 5 層マップに 1:1 マップ。柱ローテ: 前週 09-22 (柱②) + 09-25 (柱②) 消化済み、今週 (Mon 09-28..Sun 10-04) は 09-29 (柱②) で消化、柱③ (self-experiment) は 10-01 (Thu) or 10-04 (Sun) 投入枠。opening 3 秒フック『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜』を試行、前日 business-angle からマクロ視点への視座切替『何が削れるか → 何が同時に並んだか』、Wed の週央技術キャッチアップモードと親和。"
     ],
     "hashtags": [
-      "business-angle (柱②) の核心は『TOP5 の 5 本を、〈月額サブスクvs OSS 内製で何が削れるか〉の受託・スタートアップ視点で串刺しにする』。5 本のマッピング: #1 debpalash/VoiceStudio=Python 43,824★ +3,274 (新規急上昇) → **ElevenLabs 代替の完全ローカル音声 AI、voice cloning / voice design / video dubbing / dictation / transcription / audiobook を 646 言語で自社サーバー完結、OmniVoice エンジン + Electron+MCP、AGPL-3.0、音声 AI 月額サブスクを撤廃して受託や社内動画の音声制作原価を 1 桁下げる** / #2 paperclipai/paperclip=TypeScript 92,654★ +3,185 (09-26 #1 → 09-27 #1 → 09-29 #2、+3185 stars/日ペース維持) → **20 台超のエージェントを 1 画面で管制する Node.js+React 運用基盤、Claude Code/Codex/Cursor/自作 bot を同じチケット + 監査ログに載せられる、MIT で自社ホスト可能、エージェント管理内製の数百万円初期投資を撤廃** / #3 vectorize-io/hindsight=Python 40,882★ +4,413 (09-27 #2 → 09-29 #3 微降下だが +4,413 stars/日で pool 内加速率首位) → **LongMemEval ベンチ首位級の agent memory OSS、pgvector + 4 並列検索、MIT、月額課金 Vector DB SaaS を回避、既存 PostgreSQL 資産で長期記憶を後付け** / #4 NawfalMotii79/PLFM_RADAR=PLSQL 25,734★ +145 (新規急上昇) → **10.5GHz phased array radar、AERIS-10 の FPGA XC7A50T + STM32F746 + AD9523-1 + ADAR1000 × 4 + ADTR1107 × 16、CERN-OHL-P (hardware) + MIT (firmware)、市販フェーズドアレイレーダー数千万円を部品数十万円台に圧縮 (ドローン検知・物流 PoC の R&D 原価削減)** / #5 cs341-illinois/coursebook=TeX 2,478★ +316 (新規急上昇) → **University of Illinois の CS341 (systems programming) 大学教科書、C 言語 + Linux Kernel 想定、プロセス・スレッド・IPC・malloc・ネットワーク・スケジューリング・セキュリティを網羅、705 commits の活発保守、新人 systems programming 研修の外注費 30 万円/人を無償化、Linux 実務教育を社内で組める**。5 本統合: 5 費目削減マップ (a) 音声 AI サブスク (b) エージェント管理内製費 (c) Vector DB SaaS 月額 (d) 市販レーダー数千万円 (e) 新人研修外注費、視聴者 (Primary=CTO/技術選定/事業責任者) に『今週の意思決定で削れる 5 費目』の即応 KPI リストを提供、Tue の週初技術選定モードと親和。",
-      "言語タグは Python 2 + TypeScript 1 + PLSQL 1 + TeX 1 の 4 言語 5 本構成。Python (1.2x、pool 首位) ×2 + TypeScript (1.1x) ×1 + PLSQL/TeX (hardware/textbook 系で純粋な言語ランクの適用外)、素材多様性 (voice AI/agents runtime/agent memory/radar hardware/textbook) は business-angle の費目別マップ多角化に親和、hardware (#4) と textbook (#5) の混入で受託・R&D・人材育成の 3 領域を同時に串刺し可能",
-      "business-angle 角度の独自 hashtag: #OSS #AI #tech #CTO #技術選定 #受託開発 #スタートアップ #コスト削減 #月額サブスク #内製化 #VoiceStudio #debpalash #ElevenLabs代替 #音声AI #ローカルLLM #voice cloning #video dubbing #audiobook #646言語 #paperclip #paperclipai #エージェント管制 #Claude Code #Cursor #Codex #AIエージェント運用 #hindsight #AgentMemory #LongMemEval #Vectorize #PostgreSQL #pgvector #Vector DB #PLFM_RADAR #AERIS10 #phasedarray #radar #FPGA #STM32 #ドローン検知 #R&D #CS341 #Illinois #systems programming #C言語 #Linux #malloc #IPC #新人研修 #Python #TypeScript #PLSQL #TeX #AGPL #MIT #Apache2 #CERN-OHL-P"
+      "trend-pattern (柱①/④ 混合) の核心は『TOP5 の 5 本を、〈2026 秋、AI エージェント基盤の抜けが並んで埋まる週〉のマクロ視点で串刺しにする』。5 本のマッピング: #1 debpalash/VoiceStudio=Python 47,948★ +4,712 (09-29 #1 継続、+4712 stars/日で急上昇継続) → **ElevenLabs 代替の完全ローカル音声 AI、646 言語対応、Electron 安定化 v0.5.3、AGPL-3.0、音声 AI 層がローカルに閉じられる完成度に到達** / #2 NVIDIA/OpenShell=Rust 10,518★ +978 (新規急上昇) → **NVIDIA 公式のエージェント実行ランタイム、カーネル層 syscall 制限 + ポリシー変更の形式検証 + Docker/Podman/K8s 対応、Apache 2.0、sandbox 実行環境層を NVIDIA が公式に提示** / #3 vectorize-io/hindsight=Python 42,774★ +2,541 (09-29 #3 継続、+2541 stars/日で pool 内加速率 2 位) → **LongMemEval ベンチ首位級の agent memory OSS、pgvector + Semantic/BM25/Graph/Temporal の 4 並列検索、MIT、記憶層が PostgreSQL 上で完結** / #4 paperclipai/paperclip=TypeScript 94,389★ +2,412 (09-29 #2 → 09-30 #4 微降下だが +2412 stars/日で継続加速) → **Paperclip Labs が開発する 20 台超のエージェント運用基盤、Claude Code/Codex/Cursor/自作 bot を同じチケット + 監査ログ + 承認 workflow + 予算枠、Node.js+React 製、MIT、管制ダッシュボード層を 1 画面で** / #5 t8y2/dbx=Rust 21,933★ +349 (新規急上昇) → **100 種類超の DB を扱う軽量クロスプラットフォーム DB クライアント、25MB + Tauri 2 + Vue 3 + CodeMirror 6、MCP サーバー同梱で Claude Code/Cursor/Windsurf と直結、Apache 2.0、DB クライアント層が MCP 経由で自然言語対応に**。5 本統合: 5 層マップ (a) 音声 AI 層 (b) sandbox 実行環境層 (c) 記憶層 (d) 管制ダッシュボード層 (e) DB クライアント層、視聴者 (Primary=CTO/技術選定/事業責任者) に『今週の Trending は AI エージェント基盤の抜けを埋めている』という 1 枚の全体像を提供、Wed の週央技術キャッチアップモードと親和。",
+      "言語タグは Python 2 + Rust 2 + TypeScript 1 の 3 言語 5 本構成。Python (1.2x、pool 首位) ×2 + TypeScript (1.1x) ×1 + Rust (0.7x、pool 下位) ×2、素材多様性 (voice AI/sandbox runtime/agent memory/agents orchestration/DB client) は trend-pattern のマクロ層マップに親和、Rust ×2 は言語ランクは低いが今週のトレンド上は sandbox + DB 領域の同時再興を示す意味論的シグナル",
+      "trend-pattern 角度の独自 hashtag: #OSS #AI #tech #CTO #技術選定 #GitHub #Trending #AIエージェント #agent基盤 #agentinfra #LLM #NVIDIA #OpenShell #agentruntime #sandbox #syscall制限 #VoiceStudio #debpalash #ElevenLabs代替 #音声AI #ローカルLLM #646言語 #hindsight #Vectorize #AgentMemory #LongMemEval #PostgreSQL #pgvector #Vector DB #paperclip #paperclipai #エージェント管制 #ClaudeCode #Cursor #Codex #dbx #DBクライアント #Tauri #MCP #Rust #Python #TypeScript #AGPL #MIT #Apache2"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠、business-angle でコスト削減密度優先)。5 本合計 262 文字 (50+51+54+52+55、平均 52.4)、TTS +30% で約 35 秒、opening/ending 約 10 秒込み 45 秒で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 55 / min 50) で密度均等。",
-      "business-angle (柱②) 角度の一貫性: 5 本すべての narration を『何が削れるか (1 文) + 具体的な代替手段 (1 文)』の 2 文構造で統一。1 本目 VoiceStudio『音声AIの月額課金をゼロにする一手です。646言語のクローンとダビングをローカルで無制限に回せます。』(音声 AI サブスク × 646 言語自社ホスト)、2 本目 paperclip『部署ごとのエージェント管理を内製する数百万円が消える基盤です。承認と予算と監査を1画面に載せられます。』(エージェント管理内製費 × 1 画面管制)、3 本目 hindsight『Vector DB課金を回避する記憶層OSSです。既存PostgreSQLに乗せて長期記憶を後付けできます。』(Vector DB SaaS 月額 × 既存 PG 後付け)、4 本目 PLFM_RADAR『市販レーダー数千万円を数十万円台に置き換える設計図です。ドローン検知や物流PoCを自社で作りに行けます。』(市販レーダー数千万円 × 部品数十万円台)、5 本目 CS341 coursebook『新人研修の教材費30万円を丸ごと削る大学教科書です。Linuxとシステムプログラミングを実務レベルで学べます。』(新人研修外注費 × Illinois 大学教科書)。視聴者 (Primary=CTO/技術選定/事業責任者) の脳内に『今週の意思決定で削れる 5 費目』の即応 KPI リストを残し、受託・コンサル発注元の『次に削る候補』の検討につなげる。",
-      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle (柱②) では『何が削れるか + 代替手段』を優先、use-case (09-27/28) の『採用者ペルソナ + 使い方』、ecosystem (09-26) の『主体 + スタック位置づけ』、business-angle (09-25) の『主体 + 費目』からの視座切替で 8 日 8 セットの立体化を継続、compare→cost→ecosystem→use-case→**cost 回帰** の第 3 周深化 (09-24 の compare、09-25 の cost、09-26 の ecosystem、09-27/28 の use-case を経て、09-29 は business-angle でコスト側に着地、Tue の週初技術選定モードと親和)。",
-      "数値表現はアラビア数字統一 (1、2、3、4、5、10.5、30、31、145、262、316、646、3185、3274、4413、20000、25734、40882、43824、92654 等。narration では『646』『数千万円』『数十万円台』『30万円』の 4 個所)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (VoiceStudio、ElevenLabs、paperclip、Claude Code、bot、PostgreSQL、pgvector、Vector DB、PLFM、RADAR、Linux、systems programming) は原文表記で TTS に読ませる。opening 3 秒フック候補『2026 秋、GitHub Trending が SaaS 月額を丸ごと消す OSS を並べた火曜』を method-agnostic 施策として今日から投入試行 (前々日 use-case から business-angle への角度切替で『誰が採用するか → 何が削れるか』のコスト側連続コンテキスト、Tue の週初技術選定モードと親和)。"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠、trend-pattern でマクロ層マップ密度優先)。5 本合計 260 文字 (51+52+53+48+56、平均 52.0)、TTS +30% で約 35 秒、opening/ending 約 10 秒込み 45 秒で IG Reels 60 秒制約に十分マージン。個別 40-60 レンジ内 (max 56 / min 48) で密度均等。",
+      "trend-pattern (柱①/④ 混合) 角度の一貫性: 5 本すべての narration を『同じ週に◯◯層が上がった (1 文) + 具体的な到達点 (1 文)』の 2 文構造で統一。1 本目 VoiceStudio『今週の急上昇は音声AIをローカルに閉じ込める勢いです。646言語対応が個人PCで動く水準に達しました。』(音声 AI 層 × 646 言語ローカル)、2 本目 OpenShell『エージェント用の安全な実行環境が同じ週にNVIDIAから出ました。カーネル層でシステムコールを絞ります。』(sandbox 実行環境層 × NVIDIA 公式)、3 本目 hindsight『同じ週にエージェント記憶OSSも上がりました。PostgreSQLだけで長期記憶を保てる位置に来ています。』(記憶層 × PostgreSQL 完結)、4 本目 paperclip『同じ週にエージェント管制OSSも並びました。20台超のAIを1画面で承認と監査まで運用できます。』(管制ダッシュボード層 × 承認 + 監査)、5 本目 dbx『開発ツール側も動きます。100種類のDBを25MBで扱えるRust製クライアントがMCP経由でAIと繋がります。』(DB クライアント層 × MCP 対応)。視聴者 (Primary=CTO/技術選定/事業責任者) の脳内に『今週の Trending は AI エージェント基盤の抜けを埋めている』という 1 枚の全体像を残し、受託・コンサル発注元の『次に組む候補』の検討につなげる。",
+      "ランクとスター数は narration に含めない (画面カードに表示)。trend-pattern (柱①/④ 混合) では『同じ週に◯◯層が上がった + 到達点』を優先、business-angle (09-29) の『何が削れるか + 代替手段』、use-case (09-27/28) の『採用者ペルソナ + 使い方』、ecosystem (09-26) の『主体 + スタック位置づけ』からの視座切替で 9 日 9 セットの立体化を継続、cost→cost→ecosystem→use-case→cost→**macro 視座** の第 3 周深化 (09-25 の cost、09-26 の ecosystem、09-27/28 の use-case、09-29 の cost 回帰、09-30 は trend-pattern でマクロ視座に着地、Wed の週央技術キャッチアップモードと親和)。",
+      "数値表現はアラビア数字統一 (1、2、3、4、5、20、25、100、260、349、646、978、2412、2541、4712、10518、21933、42774、47948、94389 等。narration では『646』『20台超』『100種類』『25MB』の 4 個所)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (VoiceStudio、NVIDIA、OpenShell、hindsight、PostgreSQL、paperclip、dbx、MCP) は原文表記で TTS に読ませる。opening 3 秒フック候補『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜』を method-agnostic 施策として今日から投入試行 (前日 business-angle からマクロ視点への視座切替で『何が削れるか → 何が同時に並んだか』の連続コンテキスト、Wed の週央技術キャッチアップモードと親和)。"
     ],
     "content": [
-      "本日の discovery.method は `business-angle` (IG 14d n=3 avg 1567.33、全期間 avg 1.28 n=20 で pool 首位)。Exploit 選定。直近 2 日 (09-27 use-case / 09-28 use-case 使い回し) 連投 NG は use-case のみ、eligible pool は business-angle / trend-pattern / comparison / ecosystem / tech-deep / self-experiment。pool 内で views Exploit 首位は business-angle (1567.33)、次点 trend-pattern (1221.50)、comparison (1174.50)、ecosystem (972.33)、use-case (545 除外) / tech-deep・self-experiment はデータなし。**Exploit を選んだ根拠**: (a) Tue × business-angle は 09-22 で IG=2722 hit の勝ちパターン、(b) 直近 14 日 IG 平均 1567 で pool 首位、(c) 09-27 use-case IG=545 下振れ + 09-28 use-case 連投事故で pool 底上げ余地大、(d) 柱② 週内投入枠を月頭 Tue で先出しして週間の柱ローテを安定化、の 4 条件複合最適。YT 配信死亡モード継続深化 48 日目、YT 試行 #1 Day 14/14 の最終日 (判定日 09-30 まで残り 1 日)、Tue の週初技術選定モードで受託・スタートアップ視点のコスト削減マップを提供。09-14 use-case → 09-15 business-angle → 09-16 comparison → 09-17 trend-pattern → 09-18/19 ecosystem → 09-22 business-angle → 09-23 trend-pattern → 09-24 comparison → 09-25 business-angle → 09-26 ecosystem → 09-27 use-case → 09-28 use-case (使い回し) → 09-29 business-angle の視座切替継続。前回 business-angle (09-25) から 4 日空きで連投ルール非該当、素材テーマが 09-22 (エージェント運用ダッシュボード + AI IDE + Rust 高速化 + Go 新機能) から今日 (音声 AI + agents 管制 + 記憶層 + radar hardware + textbook) へ質的拡張、Tue × business-angle の勝ちパターン再現実験投入。",
-      "本日 09-29 TOP5: #1 debpalash/VoiceStudio=Python / 43,824★ / +3,274 [新規急上昇・**ElevenLabs 代替の完全ローカル音声 AI、voice cloning + voice design + video dubbing + dictation + transcription + audiobook を 646 言語で自社サーバー完結、OmniVoice (k2-fsa) エンジン + Electron+MCP + optional remote workers、AGPL-3.0**、費目=音声 AI サブスク / ElevenLabs 月額課金を撤廃、受託や社内動画の音声制作原価を 1 桁下げる]、#2 paperclipai/paperclip=TypeScript / 92,654★ / +3,185 [09-26 #1 → 09-27 #1 → 09-29 #2 (順位微降下だが +3,185 stars/日で継続加速)・**Paperclip Labs が開発する 20 台超のエージェント運用基盤、Claude Code/Codex/Cursor/自作 bot を同じチケット管理と監査ログに載せられ、承認 workflow + 予算枠 + heartbeat 実行、Node.js+React 製、MIT で自社ホスト可能**、費目=エージェント管理内製費 / 数百万円の初期投資を撤廃、承認と予算と監査を 1 画面で運用]、#3 vectorize-io/hindsight=Python / 40,882★ / +4,413 [09-27 #2 → 09-29 #3 (順位微降下だが +4,413 stars/日で pool 内 star 加速率首位)・**Vectorize 公開の agent memory 基盤、LongMemEval ベンチ首位級 (Virginia Tech + Washington Post が独立検証)、biomimetic データ構造 + Semantic/BM25/Graph/Temporal の 4 並列検索、PostgreSQL+pgvector、MIT**、費目=Vector DB SaaS 月額 / 月額課金を回避、既存 PostgreSQL 資産で長期記憶を後付け]、#4 NawfalMotii79/PLFM_RADAR=PLSQL / 25,734★ / +145 [新規急上昇・**AERIS-10 は 10.5GHz の phased array radar、XC7A50T FPGA + STM32F746 MCU + AD9523-1 clock + ADF4382 × 2 + LTC5552 mixer + ADAR1000 × 4 phase shifter + ADTR1107 × 16 front-end、8×16 patch (3km) or 32×16 slotted waveguide (20km) antenna、CERN-OHL-P (hardware) + MIT (firmware)**、費目=市販レーダー数千万円 / 部品数十万円台に圧縮、ドローン検知・物流 PoC の R&D 原価削減、Alpha WIP]、#5 cs341-illinois/coursebook=TeX / 2,478★ / +316 [新規急上昇・**University of Illinois の CS341 (systems programming) 大学教科書、C 言語 + Linux Kernel 想定、プロセス・スレッド・synchronization・deadlock・signals・IPC・memory management (malloc)・filesystems・networking・scheduling・security を網羅、705 commits の活発保守、PDF/HTML/EPUB/Markdown 配布、GitHub Actions で自動デプロイ**、費目=新人 systems programming 研修外注費 / 30 万円/人を無償化、Linux 実務教育を社内で組める]。",
-      "本日の business-angle (柱②) 核: TOP5 の 5 本を『月額サブスクvs OSS 内製で何が削れるか』の受託・スタートアップ視点で串刺し、5 本を『(a) 音声 AI サブスク (VoiceStudio: ElevenLabs 月額撤廃、646 言語ローカル) (b) エージェント管理内製費 (paperclip: 数百万円初期投資撤廃、1 画面管制) (c) Vector DB SaaS 月額 (hindsight: 既存 PostgreSQL で代替、長期記憶後付け) (d) 市販レーダー数千万円 (PLFM_RADAR: 部品数十万円台圧縮、ドローン検知・物流 PoC) (e) 新人研修外注費 (CS341: Illinois 大学教科書、30 万円/人 → ゼロ)』の 5 削減マップに 1:1 マッピングして並べ、視聴者 (Primary=CTO/技術選定/事業責任者) に『今週の意思決定で削れる 5 費目』の即応 KPI リストを提供する。冒頭フックは『2026 秋、GitHub Trending が SaaS 月額を丸ごと消す OSS を並べた火曜。音声 AI、エージェント運用、Vector DB、市販レーダー、新人研修 — 5 つの費目でおすすめが並びました。』**素材更新率 100% (5/5 が 09-27/28 の use-case 系素材から一新)**、use-case (09-27 採用者マップ) → use-case 使い回し (09-28 事故) → business-angle (09-29 コスト側回帰) の 3 段構成で Tue の週初技術選定モードに着地、business-angle (柱②) の再現条件が『5 本の技術ジャンルが多様で削減費目が分岐しやすい』を満たした日 (voice AI + agents runtime + agent memory + radar hardware + textbook の 5 領域串刺し)。",
-      "Primary (CTO/技術選定) には『5 費目削減マップ = 2026 秋の OSS がどのコスト削減に効くかの座標軸、次の意思決定で削る候補のフィルター』、Secondary (PdM/事業責任者) には『5 費目削減マップ = 事業計画で〈自社は 5 費目のどれを先に削るか〉の座標軸』、Tertiary (学習中) には『5 費目削減マップ = キャリアで〈自分は 5 費目のどれを扱う仕事に着くか〉の判断軸』として 3 層直撃、business-angle (柱②) 特有の cost 視点 (『あの人は必ず〈月額削減 × 代替手段〉で OSS を語る』) で受託/コンサルの発注元 (CTO/事業責任者) 層に信頼シグナルを蓄積、特に #1 VoiceStudio (646 言語) と #4 PLFM_RADAR (数千万円→数十万円台) は具体的な削減額が narration に入る OSS として『定量的削減額』の記憶を残す、視聴者に『GitHub Trending の裏側にある 5 費目削減マップ』として記憶させる。",
-      "**YT 配信死亡モード継続深化 48 日目 (2026-09-14〜)、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像、#140) Day 14/14 の最終日、次回判定日 2026-09-30 まで 1 日**: YT 追加提案は控える (変数を増やさない、実行中の試行 #1 の効果を単独計測する)。IG 指標のみで method 選定、直近 2 日連投 NG (09-27 use-case / 09-28 use-case 使い回し) + Tue × business-angle 09-22 IG=2722 hit の勝ちパターン + 直近 14 日 IG 平均 1567 で pool 首位 + 柱② 週内投入枠の月頭 Tue 先出しの 4 条件で business-angle を Exploit 選定、method-agnostic 施策の投入継続: opening 3 秒フック『2026 秋、GitHub Trending が SaaS 月額を丸ごと消す OSS を並べた火曜』を今日から試行。**09-28 routine 未実行の原因究明**: 09-20/09-21 に続き 3 日目の未実行、scheduler 側のログ確認 + `missing-daily-content-alert.yml` ワークフロー追加案を月末レポート (10-01) で正式提案、明日 09-30 の YT 判定日レポートで隔日レベルの再発率を数値化。**crisis-mode 解除条件『連続 5 日 views ≥ 5』または『単発 views ≥ 20』は継続、YT の判定は 2026-09-30 の試行 #1 判定日まで指標だけで機械的に出す (中央値 < 5 配信死亡 / < 20 切替候補 / ≥ 20 続行)**。09-27 use-case IG=545 実測後の全期間 use-case avg 0.86 → 0.79 n=8 で pool 最下位級に確定、Sun × use-case の曜日相性検証は「弱」で終了、次回 use-case 投入時は persona-map ハイブリッド化への切替を月末レポート (10-01) で提案。"
+      "本日の discovery.method は `trend-pattern` (IG 14d n=2 avg 1227.5、全期間 avg 1.03 n=12 で pool 中位)。Exploit 選定。直近 2 日 (09-28 use-case / 09-29 business-angle) 連投 NG は 2 method 両方、eligible pool は trend-pattern / comparison / ecosystem / tech-deep / self-experiment。pool 内で views Exploit 首位は trend-pattern (1227.5)、次点 comparison (1180.0)、ecosystem (982.33) / tech-deep・self-experiment はデータなし。**Exploit を選んだ根拠**: (a) Thu × trend-pattern は 09-17 で IG=1458 hit の勝ちパターン、(b) 直近 14 日 IG 平均 1227.5 で pool 首位、(c) 今日の 5/5 素材が『AI エージェント基盤の抜けが並んで埋まる』マクロ視点で串刺し可能な稀な素材配列、(d) Wed × trend-pattern の曜日相性検証を兼ねる Explore 寄り Exploit、の 4 条件複合最適。YT 配信死亡モード継続深化 47 日目、YT 試行 #1 判定日 (views 中央値 0 → 配信死亡確定、Studio 値待ち遅延判定)、Wed の週央技術キャッチアップモードでマクロ層マップを提供。09-14 use-case → 09-15 business-angle → 09-16 comparison → 09-17 trend-pattern → 09-18/19 ecosystem → 09-22 business-angle → 09-23 trend-pattern → 09-24 comparison → 09-25 business-angle → 09-26 ecosystem → 09-27 use-case → 09-28 use-case (事故) → 09-29 business-angle → 09-30 trend-pattern の視座切替継続。前回 trend-pattern (09-23) から 7 日空きで連投ルール非該当、素材テーマが 09-23 (Go 1.24 + Kotlin Multiplatform + Bun + tokio-rs + ollama) から今日 (音声 AI + sandbox + 記憶層 + orchestration + DB tooling) へ質的拡張、Thu × trend-pattern の勝ちパターンを Wed × trend-pattern で再現実験投入。",
+      "本日 09-30 TOP5: #1 debpalash/VoiceStudio=Python / 47,948★ / +4,712 [09-29 #1 継続・**ElevenLabs 代替の完全ローカル音声 AI、voice cloning + voice design + video dubbing + dictation + transcription + audiobook を 646 言語で自社サーバー完結、OmniVoice (k2-fsa) エンジン + Electron (v0.5.3 で Tauri から Electron へ移行安定化) + FastAPI + optional remote workers、AGPL-3.0**、層=音声 AI 層 / 個人 PC で 646 言語が動く水準に到達]、#2 NVIDIA/OpenShell=Rust / 10,518★ / +978 [新規急上昇・**NVIDIA 公式のエージェント実行ランタイム、Rust コア + Python/TypeScript SDK、カーネル層で syscall 制限 + filesystem confinement + network policy checks、ポリシー変更は formal verification で審査してから配布、Docker/Podman/K8s (Helm) 対応、Apache 2.0**、層=sandbox 実行環境層 / NVIDIA 公式で本番運用設計に踏み込む]、#3 vectorize-io/hindsight=Python / 42,774★ / +2,541 [09-29 #3 継続・**Vectorize 公開の agent memory 基盤、LongMemEval ベンチ首位級 (Virginia Tech + Washington Post が独立検証)、biomimetic データ構造 + Semantic/BM25/Graph/Temporal の 4 並列検索、PostgreSQL+pgvector、MIT**、層=記憶層 / PostgreSQL 上で長期記憶が完結]、#4 paperclipai/paperclip=TypeScript / 94,389★ / +2,412 [09-29 #2 → 09-30 #4 (順位微降下だが +2,412 stars/日で継続加速)・**Paperclip Labs が開発する 20 台超のエージェント運用基盤、Claude Code/Codex/Cursor/自作 bot を同じチケット管理 + 監査ログ + 承認 workflow + 予算枠 + heartbeat 実行、Node.js+React 製、MIT で自社ホスト可能**、層=管制ダッシュボード層 / 20 台超の AI を 1 画面で承認と監査]、#5 t8y2/dbx=Rust / 21,933★ / +349 [新規急上昇・**100 種類超の DB (MySQL/PostgreSQL/SQLite/Redis/MongoDB/DuckDB/SQL Server/Oracle/Elasticsearch/ClickHouse 等) を扱う軽量クロスプラットフォーム DB クライアント、Rust コア + Vue 3 + TypeScript フロント + Tauri 2 + CodeMirror 6、25MB サイズ、MCP サーバー同梱 (Claude Code/Cursor/Windsurf と直結)、AI SQL アシスタント (Claude/OpenAI/Ollama)、Apache 2.0**、層=DB クライアント層 / MCP 経由で自然言語対応]。",
+      "本日の trend-pattern (柱①/④ 混合) 核: TOP5 の 5 本を『2026 秋、AI エージェント基盤の抜けが並んで埋まる週』のマクロ視点で串刺し、5 本を『(a) 音声 AI 層 (VoiceStudio: 646 言語対応がローカル PC で動く) (b) sandbox 実行環境層 (OpenShell: NVIDIA 公式でカーネル層 syscall 制限 + 形式検証) (c) 記憶層 (hindsight: PostgreSQL 上で LongMemEval 首位級) (d) 管制ダッシュボード層 (paperclip: 20 台超の AI を 1 画面で承認 + 監査) (e) DB クライアント層 (dbx: 100 種類対応 + MCP 経由で自然言語)』の 5 層マップに 1:1 マッピングして並べ、視聴者 (Primary=CTO/技術選定/事業責任者) に『今週の Trending は AI エージェント基盤の抜けを埋めている』という 1 枚の全体像を提供する。冒頭フックは『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜。音声 AI、sandbox、記憶層、管制、DB クライアント — 5 つの層が同時に上がりました。』**素材更新率 40% (2/5 が新規、3/5 が 09-29 継続)**、business-angle (09-29 コスト側マップ) → trend-pattern (09-30 マクロ視座) の 2 段構成で Wed の週央技術キャッチアップモードに着地、trend-pattern (柱①/④ 混合) の再現条件が『5 本の技術層が多様で全体像がマクロで見える』を満たした稀な日 (voice AI + sandbox runtime + agent memory + orchestration + DB tooling の 5 層串刺し)。",
+      "Primary (CTO/技術選定) には『5 層マップ = 2026 秋の AI エージェント基盤の抜けがどこで埋まったかの座標軸、次に組む候補のフィルター』、Secondary (PdM/事業責任者) には『5 層マップ = 事業計画で〈自社の AI 基盤は 5 層のどこから作るか〉の座標軸』、Tertiary (学習中) には『5 層マップ = キャリアで〈自分は 5 層のどれを扱う仕事に着くか〉の判断軸』として 3 層直撃、trend-pattern (柱①/④ 混合) 特有の macro 視座 (『あの人は必ず〈今週のマクロトレンド × 各層の到達点〉で OSS を語る』) で受託/コンサルの発注元 (CTO/事業責任者) 層に信頼シグナルを蓄積、特に #2 OpenShell (NVIDIA 公式のエージェント sandbox) と #3 hindsight (PostgreSQL 完結の記憶層) は AI エージェント本番運用の 2 大課題 (安全実行 + 長期記憶) の解として narration に入る OSS として『本番運用の必需品』の記憶を残す、視聴者に『GitHub Trending の裏側にある 5 層マップ』として記憶させる。",
+      "**YT 配信死亡モード継続深化 47 日目 (2026-09-14〜)、YT 試行 #1 判定日 (views 中央値 0 → 配信死亡確定、Studio 値待ち遅延判定、次判定日 10-14)**: YT 追加提案は判定日 10-14 まで書き置き段階 (per-day サムネ個別化 / 冒頭 5 秒サマリー / タイトル記号削減の 3 案、10-01 以降のルーチンで精査、10-14 で 1 案選定)。IG 指標のみで method 選定、直近 2 日連投 NG (09-28 use-case / 09-29 business-angle) + Thu × trend-pattern 09-17 IG=1458 hit の勝ちパターン + 直近 14 日 IG 平均 1227.5 で pool 首位 + Wed × trend-pattern の曜日相性検証、の 4 条件で trend-pattern を Exploit 選定、method-agnostic 施策の投入継続: opening 3 秒フック『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜』を今日から試行。**09-28 routine 未実行の再発率確定と再発防止案格上げ**: 09-20/09-21 + 09-28 で計 3 日/17 日 = 17.6% の未実行率、月末レポート (10-01) で `missing-daily-content-alert.yml` ワークフロー追加を正式提案。**crisis-mode 解除条件『連続 5 日 views ≥ 5』または『単発 views ≥ 20』は継続、YT の判定は 2026-10-14 の次判定日まで指標だけで機械的に出す (中央値 < 5 配信死亡 / < 20 切替候補 / ≥ 20 続行)**。09-27 / 09-28 use-case 連続下振れで全期間 use-case avg 0.79 → 0.75 n=9 で pool 最下位級を確定、Sun × use-case + Mon × use-case の曜日相性検証はどちらも「弱」で終了、次回 use-case 投入時は persona-map ハイブリッド化への切替を月末レポート (10-01) で提案。"
     ]
   },
   "todayRecommendations": {
-    "date": "2026-09-29",
-    "dayOfWeek": "Tue",
+    "date": "2026-09-30",
+    "dayOfWeek": "Wed",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -138,59 +75,47 @@
       "tech",
       "CTO",
       "技術選定",
-      "受託開発",
-      "スタートアップ",
-      "コスト削減",
-      "月額サブスク",
-      "内製化",
+      "GitHub",
+      "Trending",
+      "AIエージェント",
+      "agent基盤",
+      "agentinfra",
+      "LLM",
+      "NVIDIA",
+      "OpenShell",
+      "agentruntime",
+      "sandbox",
+      "syscall制限",
       "VoiceStudio",
       "debpalash",
       "ElevenLabs代替",
       "音声AI",
       "ローカルLLM",
-      "voice cloning",
-      "video dubbing",
-      "audiobook",
       "646言語",
+      "hindsight",
+      "Vectorize",
+      "AgentMemory",
+      "LongMemEval",
+      "PostgreSQL",
+      "pgvector",
+      "Vector DB",
       "paperclip",
       "paperclipai",
       "エージェント管制",
       "ClaudeCode",
       "Cursor",
       "Codex",
-      "AIエージェント運用",
-      "hindsight",
-      "AgentMemory",
-      "LongMemEval",
-      "Vectorize",
-      "PostgreSQL",
-      "pgvector",
-      "Vector DB",
-      "PLFM_RADAR",
-      "AERIS10",
-      "phasedarray",
-      "radar",
-      "FPGA",
-      "STM32",
-      "ドローン検知",
-      "R&D",
-      "CS341",
-      "Illinois",
-      "systems programming",
-      "C言語",
-      "Linux",
-      "malloc",
-      "IPC",
-      "新人研修",
+      "dbx",
+      "DBクライアント",
+      "Tauri",
+      "MCP",
+      "Rust",
       "Python",
       "TypeScript",
-      "PLSQL",
-      "TeX",
       "AGPL",
       "MIT",
-      "Apache2",
-      "CERN-OHL-P"
+      "Apache2"
     ],
-    "focus": "火曜 (Tue=avg 361、engineer 濃度は pool 首位級) は YT 配信死亡モード継続 48 日目、YT 試行 #1 (タイトル・説明個別化 + TOP1 冒頭映像) Day 14/14 の最終日 (判定日 09-30 まで残り 1 日)。IG 指標のみで method 選定、直近 2 日連投 NG (09-27 use-case / 09-28 use-case 使い回し) 除外で use-case は選定不可、Tue × business-angle は 09-22 で IG=2722 hit の勝ちパターン、直近 14 日 IG 平均 1567 で pool 首位、柱②(実案件でこう使える) 週内投入を月頭 Tue で確保する Exploit 選定。今日の TOP5 は 09-27/09-28 の use-case 系素材から一新される (VoiceStudio 新規 #1 / paperclip 継続 (順位 1→2) / hindsight 継続 (順位 2→3) / PLFM_RADAR 新規 #4 / CS341 coursebook 新規 #5)、5 本すべてが『月額サブスクvs OSS 内製で何が削れるか』の受託・スタートアップ視点に整合するコスト削減マップ適合日。5 費目 (音声 AI サブスク・エージェント管理内製費・Vector DB SaaS 月額・市販レーダー数千万円・新人研修外注費) で 1:1 削減マップを語る。macro→micro→cost→compare→trend→ecosystem→cost→trend→compare→cost→ecosystem→use-case→**cost 回帰** のスコープ循環第 3 周深化、Tue の週初技術選定モードと親和。language ミックス: Python 2 本 + TypeScript 1 本 + PLSQL 1 本 + TeX 1 本 (4 言語 5 本、Python 1.2 pool 首位、TypeScript 1.1、PLSQL/TeX はハードウェア/教科書系で純粋な言語ランクの適用外)。narration は 5 本すべてを『何が削れるか (1 文) + 具体的な代替手段 (1 文)』の 2 文構造で統一、5 本合計 262 文字 (50+51+54+52+55) で TTS +30% 換算約 35 秒、opening/ending 10 秒込み 45 秒で IG Reels 60 秒制約内に十分マージン。柱ローテ: 09-22 (柱②) + 09-25 (柱②) は前週消化済み、今週 (Mon 09-28..Sun 10-04) は本日 09-29 で柱② を先出し、柱③ (self-experiment) は 10-01 (Thu) or 10-04 (Sun) 投入枠を検討 (sns-hub プロジェクト事例が最有力候補)。opening 3 秒フック『2026 秋、GitHub Trending が SaaS 月額を丸ごと消す OSS を並べた火曜』を method-agnostic 施策として本日投入試行 (前々日 use-case から business-angle への角度切替で『誰が採用するか → 何が削れるか』のコスト側連続コンテキスト、Tue の週初技術選定モードと親和)。**YT 試行 #1 明日 09-30 判定日**: `data/studio-retention.json` の treatment 手動投入必須 (Studio 実測値の取得はオーナー作業)、明日のルーチンで主指標「視聴を継続 %」の前後比較 → views 中央値の閾値判定 → モード再決定の 3 ステップ。#1 VoiceStudio (ElevenLabs 代替 646 言語) と #4 PLFM_RADAR (市販レーダー数千万円→数十万円台) は具体的削減額が narration に入る OSS として『定量的削減額の記憶』を残す中心軸。**09-28 routine 未実行の再発防止案格上げ**: 09-20/09-21 + 09-28 で計 3 日/17 日 = 17.6% の未実行率、月末レポート (10-01) で `missing-daily-content-alert.yml` ワークフロー追加を正式提案。**09-27 use-case IG=545 下振れの pool 内位置づけ**: use-case 全期間 avg 0.86 → 0.79 n=8、pool 最下位級、Sun × use-case は「弱」で終了、次回 use-case 投入時は persona-map ハイブリッド化への切替を月末レポートで提案。"
+    "focus": "水曜 (Wed=avg 153、pool 中位) は YT 配信死亡モード継続 47 日目、YT 試行 #1 判定日 (views 中央値 0 → 配信死亡確定、次判定日 10-14、Studio 値待ち遅延判定)。IG 指標のみで method 選定、直近 2 日連投 NG (09-28 use-case / 09-29 business-angle) 除外で use-case と business-angle は選定不可、Thu × trend-pattern は 09-17 で IG=1458 hit の勝ちパターン、直近 14 日 IG 平均 1227.5 で pool 首位、Wed × trend-pattern の曜日相性検証を兼ねる Explore 寄り Exploit 選定。今日の TOP5 は 09-29 の business-angle 素材から一部更新 (VoiceStudio 継続 (順位 1→1) / OpenShell 新規 #2 / hindsight 継続 (順位 3→3) / paperclip 継続 (順位 2→4 微降下) / dbx 新規 #5)、素材更新率 40%、5 本すべてが『2026 秋、AI エージェント基盤の抜けが並んで埋まる週』のマクロ視点に整合する trend-pattern 適合日。5 層 (音声 AI・sandbox 実行環境・記憶層・管制ダッシュボード・DB クライアント) で 1:1 層マップを語る。cost→cost→ecosystem→use-case→use-case→cost→**macro 視座** のスコープ循環第 3 周深化、Wed の週央技術キャッチアップモードと親和。language ミックス: Python 2 本 + Rust 2 本 + TypeScript 1 本 (3 言語 5 本、Python 1.2 pool 首位、TypeScript 1.1、Rust 0.7 pool 下位だが今週の sandbox + DB 領域の同時再興を示す意味論的シグナル)。narration は 5 本すべてを『同じ週に◯◯層が上がった (1 文) + 具体的な到達点 (1 文)』の 2 文構造で統一、5 本合計 260 文字 (51+52+53+48+56) で TTS +30% 換算約 35 秒、opening/ending 10 秒込み 45 秒で IG Reels 60 秒制約内に十分マージン。柱ローテ: 09-22 (柱②) + 09-25 (柱②) は前週消化済み、今週 (Mon 09-28..Sun 10-04) は 09-29 (柱②) で消化、柱③ (self-experiment) は 10-01 (Thu) or 10-04 (Sun) 投入枠を検討 (sns-hub プロジェクト事例が最有力候補)。opening 3 秒フック『2026 秋、GitHub Trending が AI エージェント基盤の抜けを一気に埋めた水曜』を method-agnostic 施策として本日投入試行 (前日 business-angle からマクロ視点への視座切替『何が削れるか → 何が同時に並んだか』、Wed の週央技術キャッチアップモードと親和)。**YT 試行 #1 判定日 (本日 09-30)**: `data/studio-retention.json` の treatment 手動投入は supply が Studio 実測を明日 10-01 以降に投入、遅延判定として本日の判定日を Studio 値到着後に再評価。**#2 OpenShell (NVIDIA 公式のエージェント sandbox) と #3 hindsight (PostgreSQL 完結の記憶層) は AI エージェント本番運用の 2 大課題 (安全実行 + 長期記憶) の解**として narration に入る OSS として『本番運用の必需品の記憶』を残す中心軸。**09-28 routine 未実行の再発防止案格上げ**: 09-20/09-21 + 09-28 で計 3 日/17 日 = 17.6% の未実行率、月末レポート (10-01) で `missing-daily-content-alert.yml` ワークフロー追加を正式提案。**09-27 / 09-28 use-case 連続下振れの pool 内位置づけ**: use-case 全期間 avg 0.79 → 0.75 n=9、pool 最下位級、Sun × use-case + Mon × use-case は「弱」で終了、次回 use-case 投入時は persona-map ハイブリッド化への切替を月末レポートで提案。"
   }
 }
