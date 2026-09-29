@@ -2,71 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "1kVTewV7yrI",
-      "videoUrl": "https://youtube.com/shorts/1kVTewV7yrI",
-      "date": "2026-06-30",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/06/30 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "C++",
-        "Python"
-      ],
-      "languages": [
-        "Haskell",
-        "Shell",
-        "Python",
-        "Swift"
-      ],
-      "projects": [
-        "simplex-chat/simplex-chat",
-        "msitarzewski/agency-agents",
-        "cupy/cupy",
-        "altic-dev/FluidVoice",
-        "soxoj/maigret"
-      ],
-      "durationSeconds": 53,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "2026 Q2 最終日の振り返りとして、TOP5 を貫く 2026 Q2 マクロ潮流『クラウド SaaS を手元の OSS / 端末で置き換える脱クラウド再加熱』trend-pattern 角度で 5/5 統一料理する。柱④ 業界読み解きは 06-11 trend-pattern 以降 19 日連続不在、目標 5% 比率に対し月内実績 0%、06-29 PDCA 戦略更新提案で『月末 06-30 に柱④ を強制発火』を明示済み、本日がその発火日。本日は Tue=361 avg (週次 TOP1) でトラフィック期待値が週内最高、新角度 explore 試行コストが最小化する曜日適合。本日の TOP5 マクロマッピング: simplex-chat = 脱 Signal クラウド ID / agency-agents 232 体 = 脱 GPTs クラウド agent 市場 / cupy = 脱 SaaS GPU 計算で既存 NumPy コード再利用 / FluidVoice = 脱 Wispr Flow 完全ローカル音声入力 / maigret = 脱 OSINT SaaS の 3000 サイト手元横断 — 5/5 が『端末・OSS で完結』マクロパターンへ純度高く整列する稀な日。narration は『〇〇の OSS です。2026 Q2 の〇〇潮流が〇〇しています』2 文構成で 5/5 統一、1 文目で repo の正体、2 文目で Q2 マクロパターンへの位置づけを固定。Primary (CTO / 技術選定) には『Q2 で何が地殻変動したかの一望図』として、Secondary (PdM) には『来 Q の技術投資先指針』として、Tertiary (学習中) には『四半期の代表 5 OSS』として 3 層直撃。直近 2 日 (06-29 comparison / 06-28 use-case) 連投ルールクリア、trend-pattern は 14d 完全不在で疲労リスクゼロ。05-14 系 main 到達失敗事故対策として PR squash merge + 着弾検証を必須実行 (41 日連続成功継続見込み)。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/simplex-chat/simplex-chat",
-          "https://github.com/msitarzewski/agency-agents",
-          "https://github.com/cupy/cupy",
-          "https://github.com/altic-dev/FluidVoice",
-          "https://github.com/soxoj/maigret"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-14T23:39:01.915Z"
-      },
-      "instagram": {
-        "mediaId": "18112686836495222",
-        "permalink": "https://www.instagram.com/reel/DaMFYMvmPmG/",
-        "views": 867,
-        "reach": 645,
-        "likes": 8,
-        "comments": 0,
-        "shares": 0,
-        "saved": 5,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "WKDK9pysCi8",
       "videoUrl": "https://youtube.com/shorts/WKDK9pysCi8",
       "date": "2026-07-02",
@@ -4755,18 +4690,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18132316954678767",
         "permalink": "https://www.instagram.com/reel/DdSfJI7kvy3/",
-        "views": 1390,
-        "reach": 1006,
+        "views": 1402,
+        "reach": 1013,
         "likes": 13,
         "comments": 0,
         "shares": 1,
         "saved": 14,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -4824,18 +4759,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18110557949588231",
         "permalink": "https://www.instagram.com/reel/DdVC-Wqj8g7/",
-        "views": 1209,
-        "reach": 928,
+        "views": 1211,
+        "reach": 931,
         "likes": 15,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -4896,18 +4831,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18102632909093294",
         "permalink": "https://www.instagram.com/reel/DdXoRyWkb-2/",
-        "views": 1457,
-        "reach": 1211,
+        "views": 1458,
+        "reach": 1212,
         "likes": 19,
         "comments": 0,
         "shares": 2,
         "saved": 9,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -4967,18 +4902,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "17958084453209901",
         "permalink": "https://www.instagram.com/reel/DdaMeUzj5lB/",
-        "views": 743,
-        "reach": 498,
+        "views": 745,
+        "reach": 500,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5037,18 +4972,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18281335030288573",
         "permalink": "https://www.instagram.com/reel/DdcwarAjGeh/",
-        "views": 1579,
-        "reach": 1251,
+        "views": 1582,
+        "reach": 1256,
         "likes": 14,
         "comments": 0,
         "shares": 0,
         "saved": 15,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5108,18 +5043,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18098442293075626",
         "permalink": "https://www.instagram.com/reel/DdkjAF8gpUe/",
-        "views": 2722,
-        "reach": 2285,
+        "views": 2731,
+        "reach": 2291,
         "likes": 21,
         "comments": 0,
         "shares": 7,
         "saved": 15,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5178,18 +5113,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18107556026416895",
         "permalink": "https://www.instagram.com/reel/DdnFwqxAG2v/",
-        "views": 986,
-        "reach": 690,
+        "views": 997,
+        "reach": 699,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 10,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5250,18 +5185,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18139972651717070",
         "permalink": "https://www.instagram.com/reel/Ddpp5x4iUlA/",
-        "views": 1140,
-        "reach": 914,
+        "views": 1149,
+        "reach": 921,
         "likes": 9,
         "comments": 0,
         "shares": 0,
         "saved": 10,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5320,18 +5255,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "17916215475449321",
         "permalink": "https://www.instagram.com/reel/DdsOua3DSPM/",
-        "views": 590,
-        "reach": 389,
+        "views": 602,
+        "reach": 396,
         "likes": 2,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5390,18 +5325,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "17985938421083887",
         "permalink": "https://www.instagram.com/reel/Dduz7Iigc-Z/",
-        "views": 595,
-        "reach": 424,
+        "views": 620,
+        "reach": 446,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5460,18 +5395,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-09-28T01:15:18.622Z"
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18006785432782555",
         "permalink": "https://www.instagram.com/reel/DdxYhMCkfhO/",
-        "views": 545,
-        "reach": 377,
+        "views": 576,
+        "reach": 397,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-09-28T01:15:18.623Z"
+        "updatedAt": "2026-09-29T02:21:18.923Z"
       }
     },
     {
@@ -5530,10 +5465,82 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-09-29T02:21:18.922Z"
       },
       "instagram": {
         "mediaId": "18101386580629215",
+        "permalink": "https://www.instagram.com/reel/Ddz_YtfAXRv/",
+        "views": 490,
+        "reach": 362,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 5,
+        "updatedAt": "2026-09-29T02:21:18.923Z"
+      }
+    },
+    {
+      "videoId": "wOQxCBvjcU4",
+      "videoUrl": "https://youtube.com/shorts/wOQxCBvjcU4",
+      "date": "2026-09-29",
+      "title": "VoiceStudio — ElevenLabs代替の完全ローカル音声AI｜GitHub Trending TOP5 9/29",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "TypeScript",
+        "PLSQL",
+        "TeX"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "PLSQL",
+        "TeX"
+      ],
+      "projects": [
+        "debpalash/VoiceStudio",
+        "paperclipai/paperclip",
+        "vectorize-io/hindsight",
+        "NawfalMotii79/PLFM_RADAR",
+        "cs341-illinois/coursebook"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "business-angle",
+        "description": "本日のTOP5を『月額サブスクvs OSS内製で何が削れるか』の受託・スタートアップ視点で串刺しにする火曜日。#1 VoiceStudio(ElevenLabs月額を撤廃して受託や社内動画の音声制作原価を1桁下げる)/#2 paperclip(エージェント管理内製の数百万円初期投資を削減)/#3 hindsight(Vector DB SaaS月額を回避し既存PostgreSQLで代替)/#4 PLFM_RADAR(市販レーダー数千万円を部品数十万円台に圧縮)/#5 CS341 coursebook(新人systems programming研修の外注費30万円/人を削減)。直近2日(09-27/09-28)がuse-case連投のため 直近2日連投NG除外で use-case は選定不可、Tue × business-angle は 09-22 で IG=2722 hit の勝ちパターン、直近14日(09-15..09-28) IG平均 1567 で method pool 首位、柱②(実案件でこう使える)週内投入を月頭のTueで確保する Exploit 選定。09-28 routine 未実行のため当日は 09-27 と同じ use-case 素材(paperclip/hindsight/Model-Optimizer/univer/tensorflow)が投稿される運用事故を把握、method選定は 09-15..09-28 の 11 本(09-28 IG null 除外)で再計算。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/debpalash/VoiceStudio",
+          "https://github.com/paperclipai/paperclip",
+          "https://github.com/vectorize-io/hindsight",
+          "https://github.com/NawfalMotii79/PLFM_RADAR",
+          "https://github.com/cs341-illinois/coursebook",
+          "https://news.ycombinator.com/from?site=github.com/debpalash/VoiceStudio",
+          "https://news.ycombinator.com/from?site=github.com/vectorize-io/hindsight",
+          "https://news.ycombinator.com/from?site=github.com/paperclipai/paperclip"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "18065842877772265",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5546,17 +5553,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-08-27",
-      "changes": [
-        "Rust: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 1 avg views (85 videos)",
-        "Trending languages: Java (1.8x), CSS (1.8x), Markdown (2.4x), Jupyter Notebook (2.2x), PowerShell (2.1x)",
-        "Day performance: Fri=2, Sat=2, Wed=1, Thu=1, Sun=1, Mon=1, Tue=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-08-29",
       "changes": [
@@ -5919,6 +5915,17 @@
         "top1: 0 avg views (10 videos)",
         "Trending languages: Java (2.5x), C# (1.6x), CSS (2.5x), Markdown (3.2x), Jupyter Notebook (2.9x), PowerShell (2.8x)",
         "Day performance: Mon=1, Tue=1, Thu=1, Sat=1, Sun=1, Wed=1, Fri=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-09-29",
+      "changes": [
+        "C++: 0.4x avg views → drop",
+        "standard: 1 avg views (71 videos)",
+        "top1: 0 avg views (11 videos)",
+        "Trending languages: Java (2.5x), C# (1.6x), CSS (2.5x), Markdown (3.2x), Jupyter Notebook (3.0x), PowerShell (2.8x)",
+        "Day performance: Tue=1, Thu=1, Sat=1, Sun=1, Mon=1, Wed=1, Fri=1"
       ],
       "recommendedTemplate": "standard"
     }
