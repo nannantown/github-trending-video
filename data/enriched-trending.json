@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "同じ週にAIエージェント基盤の抜けが並んで埋まったマクロ視点で5本を串刺し",
+    "method": "self-experiment",
+    "description": "Claude CodeとGitHub ActionsでSNS動画自動化を回している中の人の目線で、今日のTOP5を『自分の日次ルーチンに入れるか』の一人称採否判断で5本統一。3採用候補(VoiceStudio・openrig・context-mode)+2保留(OpenShell・ponytail)の慎重比率。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/debpalash/VoiceStudio",
       "https://github.com/NVIDIA/OpenShell",
-      "https://github.com/vectorize-io/hindsight",
-      "https://github.com/paperclipai/paperclip",
-      "https://github.com/t8y2/dbx",
+      "https://github.com/debpalash/VoiceStudio",
+      "https://github.com/mvschwarz/openrig",
+      "https://github.com/mksglu/context-mode",
+      "https://github.com/DietrichGebert/ponytail",
       "https://news.ycombinator.com/"
     ],
     "query": "",
@@ -18,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "language": "Python",
-      "stars": 47948,
-      "todayStars": 4712,
-      "description": "ローカル完結の多言語音声AI基盤",
-      "detail": "音声クローンから動画吹き替えまで、646言語のTTSやSTTを1台のPCで動かせるOSSです。Electron+FastAPI構成で、ElevenLabsに払う月額を自社サーバー側に移せる完成度に到達しました。",
-      "narration": "今週の急上昇は音声AIをローカルに閉じ込める勢いです。646言語対応が個人PCで動く水準に達しました。"
-    },
-    {
-      "rank": 2,
       "fullName": "NVIDIA/OpenShell",
       "name": "OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "language": "Rust",
-      "stars": 10518,
-      "todayStars": 978,
-      "description": "NVIDIA製エージェント実行基盤",
-      "detail": "自律エージェントを安全に走らせるRust製ランタイムです。カーネル層でsyscallや通信先を制限し、ポリシー変更は形式検証にかけてから配布する仕組みで、本番でも安心して走らせられる設計に踏み込みました。",
-      "narration": "エージェント用の安全な実行環境が同じ週にNVIDIAから出ました。カーネル層でシステムコールを絞ります。"
+      "stars": 12515,
+      "todayStars": 1280,
+      "description": "NVIDIA公式のエージェント安全実行環境",
+      "detail": "NVIDIA公式のAIエージェント用ランタイムです。カーネル層でシステムコールとファイル・ネットワークを隔離し、認証情報も安全な宛先にだけ渡します。Rust製でDockerとK8sに対応、Apache 2.0。",
+      "narration": "OpenShellはActions完結の私のルーチンには重装備で保留、将来のSaaS化のときに試します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 50348,
+      "todayStars": 3481,
+      "description": "646言語対応の完全ローカル音声AI",
+      "detail": "音声クローンから動画吹き替え、書き起こしまで646言語で扱えるElevenLabs代替OSSです。Electron製でOmniVoiceとHuggingFaceモデルに対応、MCPも同梱、AGPL-3.0で自社サーバー完結です。",
+      "narration": "TTSの月額をVoiceStudioに移したいので、646言語ローカル生成の完成度を私は本気で追跡します。"
     },
     {
       "rank": 3,
-      "fullName": "vectorize-io/hindsight",
-      "name": "hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "language": "Python",
-      "stars": 42774,
-      "todayStars": 2541,
-      "description": "PostgreSQL上の記憶層OSS",
-      "detail": "LongMemEvalベンチ首位級のエージェント記憶OSSです。Vector DBを別途契約しなくても、既存のPostgreSQLとpgvectorに4種類の検索を差し込むだけで長期記憶が組めるようになりました。",
-      "narration": "同じ週にエージェント記憶OSSも上がりました。PostgreSQLだけで長期記憶を保てる位置に来ています。"
+      "fullName": "mvschwarz/openrig",
+      "name": "openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars": 2983,
+      "todayStars": 622,
+      "description": "Claude CodeとCodexを束ねる基盤",
+      "detail": "Claude CodeとCodexを1つのチームにまとめて動かせる自ホスト型ハーネスです。YAMLで役割を定義し、tmux上でセッション復元とエージェント間メッセージを扱えます。TypeScript製、Apache 2.0。",
+      "narration": "openrigでPDCAと本文生成を別エージェントに分けたいので、私は今週末に触ってみる予定です。"
     },
     {
       "rank": 4,
-      "fullName": "paperclipai/paperclip",
-      "name": "paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
+      "fullName": "mksglu/context-mode",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
       "language": "TypeScript",
-      "stars": 94389,
-      "todayStars": 2412,
-      "description": "複数エージェントの管制ダッシュボード",
-      "detail": "Claude CodeやCursorや自作botなど20台超のエージェントを1画面で管制するNode.js製の運用基盤です。承認workflowと予算枠と監査ログを載せて、社内の運用を回せます。",
-      "narration": "同じ週にエージェント管制OSSも並びました。20台超のAIを1画面で承認と監査まで運用できます。"
+      "stars": 24469,
+      "todayStars": 88,
+      "description": "AIエージェント用の文脈節約サーバー",
+      "detail": "ツール出力を隔離実行して結果だけ返し、コンテキスト窓を98%節約するMCPサーバーです。SQLiteで会話履歴を保持し、Claude Code等17プラットフォームに対応、ELv2ライセンスです。",
+      "narration": "5リポ調査が長い私のルーチンには、context-modeのサンドボックス実行が効くので導入を検討します。"
     },
     {
       "rank": 5,
-      "fullName": "t8y2/dbx",
-      "name": "dbx",
-      "url": "https://github.com/t8y2/dbx",
-      "language": "Rust",
-      "stars": 21933,
-      "todayStars": 349,
-      "description": "100種類対応のDBクライアント",
-      "detail": "MySQLからClickHouseまで100超のDBを扱えるRust+Tauri製の軽量クライアントです。25MBサイズでMCPサーバーも同梱、AIエージェントから自然言語でDBを叩けるよう整えました。",
-      "narration": "開発ツール側も動きます。100種類のDBを25MBで扱えるRust製クライアントがMCP経由でAIと繋がります。"
+      "fullName": "DietrichGebert/ponytail",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars": 149122,
+      "todayStars": 865,
+      "description": "無駄コードを書かせないAIプラグイン",
+      "detail": "AIエージェントに『まず既存資産で解けるか』を7段階で問う怠惰なシニア風プラグインです。コード出力を平均54%削減、Claude CodeやCursorなど20以上のホストで動きます、MITライセンス。",
+      "narration": "ponytailは対話コーディング向きで、スクリプト主体の私のルーチンでは保留、別案件で試すつもりです。"
     }
   ]
 }
