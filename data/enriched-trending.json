@@ -1,16 +1,15 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-03",
   "discovery": {
-    "method": "self-experiment",
-    "description": "Claude CodeとGitHub ActionsでSNS動画自動化を回している中の人の目線で、今日のTOP5を『自分の日次ルーチンに入れるか』の一人称採否判断で5本統一。3採用候補(VoiceStudio・openrig・context-mode)+2保留(OpenShell・ponytail)の慎重比率。",
+    "method": "comparison",
+    "description": "今日のTOP5は全て『コーディングAIエージェントを強化するサイドカーOSS』で同一カテゴリに揃った稀な配列。5本すべてを『同カテゴリの既存ツールとの差別化軸』で切る統一比較で、視聴者が自分のスタックで置換候補を判断できる形に料理する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/NVIDIA/OpenShell",
-      "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/mvschwarz/openrig",
-      "https://github.com/mksglu/context-mode",
+      "https://github.com/Panniantong/Agent-Reach",
+      "https://github.com/JuliusBrussee/caveman",
+      "https://github.com/obra/superpowers",
       "https://github.com/DietrichGebert/ponytail",
-      "https://news.ycombinator.com/"
+      "https://github.com/pbakaus/impeccable"
     ],
     "query": "",
     "freshness_hours": 1
@@ -18,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "NVIDIA/OpenShell",
-      "name": "OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "language": "Rust",
-      "stars": 12515,
-      "todayStars": 1280,
-      "description": "NVIDIA公式のエージェント安全実行環境",
-      "detail": "NVIDIA公式のAIエージェント用ランタイムです。カーネル層でシステムコールとファイル・ネットワークを隔離し、認証情報も安全な宛先にだけ渡します。Rust製でDockerとK8sに対応、Apache 2.0。",
-      "narration": "OpenShellはActions完結の私のルーチンには重装備で保留、将来のSaaS化のときに試します。"
+      "fullName": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars": 88551,
+      "todayStars": 683,
+      "description": "AIに10媒体の閲覧権を与えるCLI",
+      "detail": "X・Reddit・YouTube・GitHubなど10媒体をエージェントに読み書きさせる統合CLIです。無料ツールを束ねたプロキシ構成でcookieはローカル保存、SerpAPIを置換えられます。MITライセンス。",
+      "narration": "Agent-ReachはAIにXやRedditを読ませる統合CLIです。SerpAPIと違い無料でローカル完結です。"
     },
     {
       "rank": 2,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "language": "Python",
-      "stars": 50348,
-      "todayStars": 3481,
-      "description": "646言語対応の完全ローカル音声AI",
-      "detail": "音声クローンから動画吹き替え、書き起こしまで646言語で扱えるElevenLabs代替OSSです。Electron製でOmniVoiceとHuggingFaceモデルに対応、MCPも同梱、AGPL-3.0で自社サーバー完結です。",
-      "narration": "TTSの月額をVoiceStudioに移したいので、646言語ローカル生成の完成度を私は本気で追跡します。"
+      "fullName": "JuliusBrussee/caveman",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "language": "Go",
+      "stars": 109066,
+      "todayStars": 271,
+      "description": "コーディングAgentのトークン圧縮Go製プロキシ",
+      "detail": "Claude Code等30以上のエージェント入出力を圧縮するGo製ローカルプロキシです。SQLiteで原文を保持し復元可能、54タスクのベンチで入力33.2%削減とAdobe論文で出力2倍削減。Apache 2.0。",
+      "narration": "cavemanはエージェント入力を33%圧縮するGo製プロキシです。context-modeと違い原文を復元できます。"
     },
     {
       "rank": 3,
-      "fullName": "mvschwarz/openrig",
-      "name": "openrig",
-      "url": "https://github.com/mvschwarz/openrig",
-      "language": "TypeScript",
-      "stars": 2983,
-      "todayStars": 622,
-      "description": "Claude CodeとCodexを束ねる基盤",
-      "detail": "Claude CodeとCodexを1つのチームにまとめて動かせる自ホスト型ハーネスです。YAMLで役割を定義し、tmux上でセッション復元とエージェント間メッセージを扱えます。TypeScript製、Apache 2.0。",
-      "narration": "openrigでPDCAと本文生成を別エージェントに分けたいので、私は今週末に触ってみる予定です。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 294429,
+      "todayStars": 561,
+      "description": "TDDを強制するエージェント基盤",
+      "detail": "Claude Code・Cursor・Devinなど15以上のエージェント向けスキル群です。brainstorm→設計→TDD→subagent実装→レビューの手順を自動化、2〜5分単位でタスク分割を強制。MIT。",
+      "narration": "superpowersはTDDを自動化するスキル基盤です。素のClaude Codeにレビュー工程を足せます。"
     },
     {
       "rank": 4,
-      "fullName": "mksglu/context-mode",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "language": "TypeScript",
-      "stars": 24469,
-      "todayStars": 88,
-      "description": "AIエージェント用の文脈節約サーバー",
-      "detail": "ツール出力を隔離実行して結果だけ返し、コンテキスト窓を98%節約するMCPサーバーです。SQLiteで会話履歴を保持し、Claude Code等17プラットフォームに対応、ELv2ライセンスです。",
-      "narration": "5リポ調査が長い私のルーチンには、context-modeのサンドボックス実行が効くので導入を検討します。"
-    },
-    {
-      "rank": 5,
       "fullName": "DietrichGebert/ponytail",
       "name": "ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "language": "JavaScript",
-      "stars": 149122,
-      "todayStars": 865,
-      "description": "無駄コードを書かせないAIプラグイン",
-      "detail": "AIエージェントに『まず既存資産で解けるか』を7段階で問う怠惰なシニア風プラグインです。コード出力を平均54%削減、Claude CodeやCursorなど20以上のホストで動きます、MITライセンス。",
-      "narration": "ponytailは対話コーディング向きで、スクリプト主体の私のルーチンでは保留、別案件で試すつもりです。"
+      "stars": 151715,
+      "todayStars": 1429,
+      "description": "新規コードを減らすAIレビュー層",
+      "detail": "AIエージェントに『既存資産で解けないか』を7段階で問うレビュー層です。コード出力を平均54%削減、Claude Code・Cursorなど20以上のホストで動作します。MITライセンス。",
+      "narration": "ponytailはAIに既存資産での解決を問うレビュー層です。linterと違い新規コードそのものを削減します。"
+    },
+    {
+      "rank": 5,
+      "fullName": "pbakaus/impeccable",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "JavaScript",
+      "stars": 74277,
+      "todayStars": 717,
+      "description": "AI生成UIの定型化を検知する監査層",
+      "detail": "AI生成UIの『紫グラデ・Inter一辺倒・カード入れ子』など61ルールで検知するデザイン品質監査層です。Claude Code等6ホストに統合、24コマンドで一括修正、Apache 2.0。",
+      "narration": "impeccableはAIデザインの定型化を検知するルール群です。shadcnが部品、こちらは品質監査層です。"
     }
   ]
 }
