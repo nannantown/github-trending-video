@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "discovery": {
-    "method": "comparison",
-    "description": "今日のTOP5は全て『コーディングAIエージェントを強化するサイドカーOSS』で同一カテゴリに揃った稀な配列。5本すべてを『同カテゴリの既存ツールとの差別化軸』で切る統一比較で、視聴者が自分のスタックで置換候補を判断できる形に料理する。",
+    "method": "business-angle",
+    "description": "今日のTOP5はコーディングAIエージェントのサイドカーOSSが4本と本番向けTS基盤が1本。各リポを『受託・スタートアップ・企業導入』の事業視点で切り、工数削減・外注費カット・AI月額削減・長期保守料化・プロ商材化などの金勘定で5本を統一する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/Panniantong/Agent-Reach",
-      "https://github.com/JuliusBrussee/caveman",
-      "https://github.com/obra/superpowers",
       "https://github.com/DietrichGebert/ponytail",
-      "https://github.com/pbakaus/impeccable"
+      "https://github.com/pbakaus/impeccable",
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/Effect-TS/effect",
+      "https://github.com/JuliusBrussee/caveman"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "Panniantong/Agent-Reach",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "language": "Python",
-      "stars": 88551,
-      "todayStars": 683,
-      "description": "AIに10媒体の閲覧権を与えるCLI",
-      "detail": "X・Reddit・YouTube・GitHubなど10媒体をエージェントに読み書きさせる統合CLIです。無料ツールを束ねたプロキシ構成でcookieはローカル保存、SerpAPIを置換えられます。MITライセンス。",
-      "narration": "Agent-ReachはAIにXやRedditを読ませる統合CLIです。SerpAPIと違い無料でローカル完結です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "JuliusBrussee/caveman",
-      "name": "caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "language": "Go",
-      "stars": 109066,
-      "todayStars": 271,
-      "description": "コーディングAgentのトークン圧縮Go製プロキシ",
-      "detail": "Claude Code等30以上のエージェント入出力を圧縮するGo製ローカルプロキシです。SQLiteで原文を保持し復元可能、54タスクのベンチで入力33.2%削減とAdobe論文で出力2倍削減。Apache 2.0。",
-      "narration": "cavemanはエージェント入力を33%圧縮するGo製プロキシです。context-modeと違い原文を復元できます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 294429,
-      "todayStars": 561,
-      "description": "TDDを強制するエージェント基盤",
-      "detail": "Claude Code・Cursor・Devinなど15以上のエージェント向けスキル群です。brainstorm→設計→TDD→subagent実装→レビューの手順を自動化、2〜5分単位でタスク分割を強制。MIT。",
-      "narration": "superpowersはTDDを自動化するスキル基盤です。素のClaude Codeにレビュー工程を足せます。"
-    },
-    {
-      "rank": 4,
       "fullName": "DietrichGebert/ponytail",
       "name": "ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "language": "JavaScript",
-      "stars": 151715,
-      "todayStars": 1429,
-      "description": "新規コードを減らすAIレビュー層",
-      "detail": "AIエージェントに『既存資産で解けないか』を7段階で問うレビュー層です。コード出力を平均54%削減、Claude Code・Cursorなど20以上のホストで動作します。MITライセンス。",
-      "narration": "ponytailはAIに既存資産での解決を問うレビュー層です。linterと違い新規コードそのものを削減します。"
+      "stars": 153306,
+      "todayStars": 1289,
+      "description": "AI新規コードを54%削るレビュー層",
+      "detail": "AIエージェントに『既存資産で解けないか』を7段階で問うレビュー層です。コード出力を平均54%削減し、受託案件の実装工数と見積額の両方を圧縮できます。Claude Code等20以上のホストに対応、MIT。",
+      "narration": "ponytailはAI新規コードを54%削るレビュー層です。受託案件の実装工数を直接圧縮できます。"
     },
     {
-      "rank": 5,
+      "rank": 2,
       "fullName": "pbakaus/impeccable",
       "name": "impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "language": "JavaScript",
-      "stars": 74277,
-      "todayStars": 717,
-      "description": "AI生成UIの定型化を検知する監査層",
-      "detail": "AI生成UIの『紫グラデ・Inter一辺倒・カード入れ子』など61ルールで検知するデザイン品質監査層です。Claude Code等6ホストに統合、24コマンドで一括修正、Apache 2.0。",
-      "narration": "impeccableはAIデザインの定型化を検知するルール群です。shadcnが部品、こちらは品質監査層です。"
+      "stars": 75241,
+      "todayStars": 705,
+      "description": "AI生成UIの定型化を検知する監査",
+      "detail": "AI生成UIの『紫グラデ・Inter一辺倒・カード入れ子』など61ルールで検知する監査層です。デザイン外注費を抑えつつ品質を保て、スタートアップのMVP納品に相性が良いです。Apache 2.0。",
+      "narration": "impeccableはAI生成UIの定型化を検知する監査層です。デザイン外注費を抑えて品質を保てます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 272199,
+      "todayStars": 954,
+      "description": "68エージェント293スキルの統合基盤",
+      "detail": "68種のエージェントと293のスキルを束ねる開発基盤です。TDD・レビュー・セキュリティ監査を自動化、Pro版は月19ドルで企業導入向け、受託案件標準化の商材になります。MIT。",
+      "narration": "ECCは68エージェントと293スキルを束ねる基盤です。Pro版月19ドルで企業導入の商材になります。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Effect-TS/effect",
+      "name": "effect",
+      "url": "https://github.com/Effect-TS/effect",
+      "language": "TypeScript",
+      "stars": 16796,
+      "todayStars": 302,
+      "description": "TypeScript本番基盤の4系LTS",
+      "detail": "TypeScriptに型安全なエラー処理・DI・並行処理を足す本番向け基盤です。4系はLTSで3年の保守保証、エンタープライズ受託の長期保守料を取れる商材に向きます。MIT。",
+      "narration": "EffectはTypeScriptの本番向け基盤4系LTSです。3年保守保証で受託案件の長期化に使えます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "JuliusBrussee/caveman",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "language": "Go",
+      "stars": 109506,
+      "todayStars": 505,
+      "description": "入力を33%削るGo製プロキシ",
+      "detail": "Claude Code等30以上のエージェント入力を圧縮するGo製プロキシです。6ワークロードで入力33.2%削減、Claude API月額を数割カットでき、AI経費を直接下げられます。Apache 2.0。",
+      "narration": "cavemanは入力を33%圧縮するGo製プロキシです。Claude APIの月額を数割カットできます。"
     }
   ]
 }
