@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-06",
   "discovery": {
-    "method": "business-angle",
-    "description": "今日のTOP5はコーディングAIエージェントのサイドカーOSSが4本と本番向けTS基盤が1本。各リポを『受託・スタートアップ・企業導入』の事業視点で切り、工数削減・外注費カット・AI月額削減・長期保守料化・プロ商材化などの金勘定で5本を統一する。",
+    "method": "comparison",
+    "description": "本日のTOP5はコーディングAI周辺3本+E2Eテスト・PS5移植の多ジャンル配列。各リポを『既存の定番ツールと何が違うか』の差別化軸で切り、Playwright/mem0/OpenSCAD/Cursor/RPCS3 の5対照軸で統一する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/DietrichGebert/ponytail",
-      "https://github.com/pbakaus/impeccable",
-      "https://github.com/affaan-m/ECC",
-      "https://github.com/Effect-TS/effect",
-      "https://github.com/JuliusBrussee/caveman"
+      "https://github.com/tester-army/e2e",
+      "https://github.com/thedotmack/claude-mem",
+      "https://github.com/earthtojake/text-to-cad",
+      "https://github.com/pingdotgg/t3code",
+      "https://github.com/boykopovar/AnyPS5"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "DietrichGebert/ponytail",
-      "name": "ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "language": "JavaScript",
-      "stars": 153306,
-      "todayStars": 1289,
-      "description": "AI新規コードを54%削るレビュー層",
-      "detail": "AIエージェントに『既存資産で解けないか』を7段階で問うレビュー層です。コード出力を平均54%削減し、受託案件の実装工数と見積額の両方を圧縮できます。Claude Code等20以上のホストに対応、MIT。",
-      "narration": "ponytailはAI新規コードを54%削るレビュー層です。受託案件の実装工数を直接圧縮できます。"
+      "fullName": "tester-army/e2e",
+      "name": "e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "language": "TypeScript",
+      "stars": 4676,
+      "todayStars": 1430,
+      "description": "AI記述E2Eテストで成功操作をキャッシュ",
+      "detail": "自然言語で書くE2EのTypeScript製フレームワーク。Playwrightと違い、成功した操作はキャッシュで再実行時にモデル呼出が走らず課金ゼロ。Chromium・WebKit・iOS・Android対応、Apache 2.0。",
+      "narration": "e2eは自然言語でE2Eを書くTS製です。Playwrightと違い成功操作をキャッシュして再課金しません。"
     },
     {
       "rank": 2,
-      "fullName": "pbakaus/impeccable",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "language": "JavaScript",
-      "stars": 75241,
-      "todayStars": 705,
-      "description": "AI生成UIの定型化を検知する監査",
-      "detail": "AI生成UIの『紫グラデ・Inter一辺倒・カード入れ子』など61ルールで検知する監査層です。デザイン外注費を抑えつつ品質を保て、スタートアップのMVP納品に相性が良いです。Apache 2.0。",
-      "narration": "impeccableはAI生成UIの定型化を検知する監査層です。デザイン外注費を抑えて品質を保てます。"
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars": 96604,
+      "todayStars": 534,
+      "description": "AIエージェント横断の記憶サイドカー",
+      "detail": "Claude Code・Cursor・Codex 等 7 ホスト横断の永続記憶層。hookで自動取得しSQLite+Chromaで検索・圧縮して投入、トークン消費を抑えます。Apache 2.0。",
+      "narration": "claude-memはAI横断の記憶層です。mem0と違いhookで自動取得しChromaで探して投入します。"
     },
     {
       "rank": 3,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 272199,
-      "todayStars": 954,
-      "description": "68エージェント293スキルの統合基盤",
-      "detail": "68種のエージェントと293のスキルを束ねる開発基盤です。TDD・レビュー・セキュリティ監査を自動化、Pro版は月19ドルで企業導入向け、受託案件標準化の商材になります。MIT。",
-      "narration": "ECCは68エージェントと293スキルを束ねる基盤です。Pro版月19ドルで企業導入の商材になります。"
+      "fullName": "earthtojake/text-to-cad",
+      "name": "text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "language": "Python",
+      "stars": 17374,
+      "todayStars": 456,
+      "description": "AIで3DモデルとDFM監査を生成",
+      "detail": "build123d+OpenCascadeでSTEP/STL/3MFを生成、DFM検査から SendCutSend・Bambu Labs 発注まで繋ぎます。URDFも生成、MIT。",
+      "narration": "text-to-cadはAI用CAD生成器です。OpenSCADと違いDFM検査から加工発注まで繋げます。"
     },
     {
       "rank": 4,
-      "fullName": "Effect-TS/effect",
-      "name": "effect",
-      "url": "https://github.com/Effect-TS/effect",
+      "fullName": "pingdotgg/t3code",
+      "name": "t3code",
+      "url": "https://github.com/pingdotgg/t3code",
       "language": "TypeScript",
-      "stars": 16796,
-      "todayStars": 302,
-      "description": "TypeScript本番基盤の4系LTS",
-      "detail": "TypeScriptに型安全なエラー処理・DI・並行処理を足す本番向け基盤です。4系はLTSで3年の保守保証、エンタープライズ受託の長期保守料を取れる商材に向きます。MIT。",
-      "narration": "EffectはTypeScriptの本番向け基盤4系LTSです。3年保守保証で受託案件の長期化に使えます。"
+      "stars": 25584,
+      "todayStars": 487,
+      "description": "複数AIコーディングの統合操作盤",
+      "detail": "Claude Code・Codex・Cursor 等 6 社の AI エージェントをモバイル・デスクトップ・web から横断制御。Theo製 (T3 Stack 系)、MIT、初期段階で頻繁に API 変更あり。",
+      "narration": "t3codeは複数AIエージェントの操作盤です。Cursorと違いスマホからClaude Codeを動かせます。"
     },
     {
       "rank": 5,
-      "fullName": "JuliusBrussee/caveman",
-      "name": "caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "language": "Go",
-      "stars": 109506,
-      "todayStars": 505,
-      "description": "入力を33%削るGo製プロキシ",
-      "detail": "Claude Code等30以上のエージェント入力を圧縮するGo製プロキシです。6ワークロードで入力33.2%削減、Claude API月額を数割カットでき、AI経費を直接下げられます。Apache 2.0。",
-      "narration": "cavemanは入力を33%圧縮するGo製プロキシです。Claude APIの月額を数割カットできます。"
+      "fullName": "boykopovar/AnyPS5",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "language": "C++",
+      "stars": 4901,
+      "todayStars": 994,
+      "description": "PS5ソフトの静的変換移植ツール",
+      "detail": "PS5バイナリを静的再コンパイルし Linux/Windows のネイティブ実行に変換。RPCS3と違いエミュレータ常駐が不要で CPU 軽量、Vulkan へシェーダも変換、GPL-2.0。",
+      "narration": "AnyPS5はPS5ソフトの移植ツールです。RPCS3と違い静的変換でエミュ常駐なしに走らせます。"
     }
   ]
 }
