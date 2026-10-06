@@ -2,69 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "fEyZz-vmDc4",
-      "videoUrl": "https://youtube.com/shorts/fEyZz-vmDc4",
-      "date": "2026-07-07",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/07 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "Kotlin"
-      ],
-      "languages": [
-        "JavaScript",
-        "Shell",
-        "Rust"
-      ],
-      "projects": [
-        "asgeirtj/system_prompts_leaks",
-        "addyosmani/agent-skills",
-        "Zackriya-Solutions/meetily",
-        "ruvnet/RuView",
-        "Leonxlnx/taste-skill"
-      ],
-      "durationSeconds": 50,
-      "discovery": {
-        "method": "trend-pattern",
-        "description": "本日 07-07 (火) は trend-pattern 角度で 5/5 統一。全期間累積 avg 3.1 (n=8) で ecosystem/comparison/business-angle 除外後の残候補中で最強、直近使用 06-30 で 7 日空き、14d ローリング 1 件で 3 件 cap まで余力 2 枠あり。連投ルール抵触なし: 直近 2 日 (07-06 ecosystem / 07-05 business-angle) と重ならず。除外候補: ecosystem (07-06 直近抵触かつ 14d 3 件 cap 到達 07-16 まで再投入不可)、business-angle (07-05 直近抵触かつ 14d 内 2 件で本日は避ける)、comparison (14d 内 3 件 cap 到達 07-11 まで再投入不可)、tech-deep (avg 3.0, n=4 で trend-pattern に僅差で劣る)。今日の TOP5 は 4/5 が『AI エージェント時代のカセット化構造 (skill/prompt/knowledge/input を差し替え式に流し込む潮流)』の直接構成員という稀な並び: system_prompts_leaks=各社システムプロンプト自体を業界共有資産カタログ化 (Anthropic・OpenAI・Google・xAI・Microsoft など 11 社 50 超) / agent-skills=Addy Osmani の 24 workflow を SKILL.md フォーマットに落とし MCP+slash command で agent へ差し替え式に注入 / meetily=Rust+Tauri+Parakeet で LLM 部だけ Ollama/Claude/Groq へ差し替え可能な会議 AI (LLM 本体はコモディティ、周辺 skill が価値) / RuView=ESP32-S3 の 9 ドル級ノードと WiFi CSI で映像なしの新入力層を AI に渡すセンサー skill / taste-skill=デザイン品位を skill として渡し Claude Code・Cursor・Codex 横断で slop 防止 (VARIANCE/MOTION/VISUAL DENSITY 3 ダイヤル+GSAP+em-dash 禁止)。narration は『(何を差し替え可能にしたか 1 文)。(それが何を意味する潮流かの 1 文)』の 2 文型で 5/5 統一、5 本合計 268 文字 (56+58+55+47+52)、TTS で約 42-52 秒、opening/ending と合わせて 55 秒枠内。detail レイヤは具体的な依存モジュール/CLI コマンド/数値スペックで 5/5 埋めて README 読み上げ回避 (Claude Sonnet 5・Claude Design・11 社・The Washington Post / SKILL.md・MCP・slash command・24 workflow / Whisper・Parakeet・Ollama・Metal/CUDA/Vulkan・Rust+Tauri / ESP32-S3・9 ドル・WiFi CSI・呼吸 6-30BPM・8KB 量子化 / VARIANCE・MOTION・GSAP・em-dash 禁止・Claude Code・Cursor・Codex)。柱① GitHub Trending 解説 (70% 比率) の中で Primary エンジニア/CTO 層に『AI エージェント時代の新しい競争軸 = カセット構造』というマクロ判断材料を提供する exploit 枠。07-06 「エコシステム地図」→ 07-07 「カセット化潮流」の連続 2 日マクロ物語配置。柱②/③ 週次ノルマは 07-08〜07-10 の 3 日枠で business-angle か self-experiment を差し込み予定 (07-05 の business-angle から 3〜5 日空きを確保)。05-11〜15 系 main 到達失敗事故対策 PR squash merge + 着弾検証を必須実行 (48 日連続成功継続見込み)。",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/asgeirtj/system_prompts_leaks",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/Zackriya-Solutions/meetily",
-          "https://github.com/ruvnet/RuView",
-          "https://github.com/Leonxlnx/taste-skill"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 2,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-21T23:44:26.443Z"
-      },
-      "instagram": {
-        "mediaId": "18105040133008916",
-        "permalink": "https://www.instagram.com/reel/DaeHypyGb4C/",
-        "views": 1608,
-        "reach": 1202,
-        "likes": 18,
-        "comments": 0,
-        "shares": 2,
-        "saved": 18,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "3rJeeyvxvxE",
       "videoUrl": "https://youtube.com/shorts/3rJeeyvxvxE",
       "date": "2026-07-08",
@@ -4781,7 +4718,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18098442293075626",
@@ -4792,7 +4729,7 @@
         "comments": 0,
         "shares": 7,
         "saved": 15,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -4851,18 +4788,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18107556026416895",
         "permalink": "https://www.instagram.com/reel/DdnFwqxAG2v/",
-        "views": 1034,
+        "views": 1035,
         "reach": 726,
         "likes": 7,
         "comments": 0,
         "shares": 0,
         "saved": 10,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -4923,18 +4860,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18139972651717070",
         "permalink": "https://www.instagram.com/reel/Ddpp5x4iUlA/",
-        "views": 1200,
-        "reach": 956,
+        "views": 1205,
+        "reach": 959,
         "likes": 9,
         "comments": 0,
         "shares": 0,
         "saved": 11,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -4993,18 +4930,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "17916215475449321",
         "permalink": "https://www.instagram.com/reel/DdsOua3DSPM/",
-        "views": 659,
-        "reach": 439,
+        "views": 668,
+        "reach": 443,
         "likes": 2,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5063,18 +5000,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "17985938421083887",
         "permalink": "https://www.instagram.com/reel/Dduz7Iigc-Z/",
-        "views": 715,
-        "reach": 515,
+        "views": 720,
+        "reach": 520,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5133,18 +5070,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18006785432782555",
         "permalink": "https://www.instagram.com/reel/DdxYhMCkfhO/",
-        "views": 661,
-        "reach": 461,
+        "views": 674,
+        "reach": 470,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5203,18 +5140,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18101386580629215",
         "permalink": "https://www.instagram.com/reel/Ddz_YtfAXRv/",
-        "views": 610,
-        "reach": 449,
+        "views": 620,
+        "reach": 455,
         "likes": 4,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5275,18 +5212,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18065842877772265",
         "permalink": "https://www.instagram.com/reel/Dd2rwyDAR-V/",
-        "views": 1825,
-        "reach": 1450,
+        "views": 1857,
+        "reach": 1472,
         "likes": 18,
         "comments": 0,
         "shares": 0,
         "saved": 22,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5343,18 +5280,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18159501133495885",
         "permalink": "https://www.instagram.com/reel/Dd5LxFdibex/",
-        "views": 572,
-        "reach": 395,
+        "views": 586,
+        "reach": 406,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 3,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5414,18 +5351,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18027202115883284",
         "permalink": "https://www.instagram.com/reel/Dd7wXanACl8/",
-        "views": 771,
-        "reach": 534,
+        "views": 790,
+        "reach": 544,
         "likes": 3,
         "comments": 0,
         "shares": 0,
         "saved": 6,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5483,18 +5420,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "17906999181332931",
         "permalink": "https://www.instagram.com/reel/Dd-Weg1gY4S/",
-        "views": 1397,
-        "reach": 1100,
-        "likes": 12,
+        "views": 1426,
+        "reach": 1119,
+        "likes": 13,
         "comments": 0,
         "shares": 2,
-        "saved": 12,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "saved": 13,
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5553,18 +5490,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-05T01:20:06.436Z"
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18135150397633461",
         "permalink": "https://www.instagram.com/reel/DeDibRwjUPB/",
-        "views": 671,
-        "reach": 489,
-        "likes": 5,
+        "views": 786,
+        "reach": 567,
+        "likes": 6,
         "comments": 0,
         "shares": 0,
-        "saved": 2,
-        "updatedAt": "2026-10-05T01:20:06.437Z"
+        "saved": 3,
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       }
     },
     {
@@ -5620,10 +5557,78 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-10-06T02:33:52.457Z"
       },
       "instagram": {
         "mediaId": "18117819637757974",
+        "permalink": "https://www.instagram.com/reel/DeGBbPNiKqu/",
+        "views": 648,
+        "reach": 468,
+        "likes": 9,
+        "comments": 0,
+        "shares": 0,
+        "saved": 3,
+        "updatedAt": "2026-10-06T02:33:52.457Z"
+      }
+    },
+    {
+      "videoId": "9w-9_zr6xss",
+      "videoUrl": "https://youtube.com/shorts/9w-9_zr6xss",
+      "date": "2026-10-06",
+      "title": "e2e — AI記述E2Eテストで成功操作をキャッシュ｜GitHub Trending TOP5 10/6",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Markdown",
+        "TypeScript",
+        "Python",
+        "C++"
+      ],
+      "languages": [
+        "TypeScript",
+        "Python",
+        "C++"
+      ],
+      "projects": [
+        "tester-army/e2e",
+        "thedotmack/claude-mem",
+        "earthtojake/text-to-cad",
+        "pingdotgg/t3code",
+        "boykopovar/AnyPS5"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5はコーディングAI周辺3本+E2Eテスト・PS5移植の多ジャンル配列。各リポを『既存の定番ツールと何が違うか』の差別化軸で切り、Playwright/mem0/OpenSCAD/Cursor/RPCS3 の5対照軸で統一する。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/tester-army/e2e",
+          "https://github.com/thedotmack/claude-mem",
+          "https://github.com/earthtojake/text-to-cad",
+          "https://github.com/pingdotgg/t3code",
+          "https://github.com/boykopovar/AnyPS5"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "18343415245285103",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5636,19 +5641,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-09-03",
-      "changes": [
-        "C++: 0.4x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Jupyter Notebook: 1.3x avg views → boost",
-        "standard: 1 avg views (83 videos)",
-        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
-        "Day performance: Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Tue=1, Wed=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-09-04",
       "changes": [
@@ -5994,6 +5986,18 @@
         "top1: 0 avg views (16 videos)",
         "Trending languages: C# (1.7x), CSS (2.6x), Markdown (3.3x), Java (3.9x), Jupyter Notebook (3.1x), Swift (1.4x), PowerShell (3.0x)",
         "Day performance: Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-10-06",
+      "changes": [
+        "Rust: 0.0x avg views → drop",
+        "Markdown: 1.3x avg views → boost",
+        "standard: 1 avg views (66 videos)",
+        "top1: 0 avg views (17 videos)",
+        "Trending languages: C# (1.7x), CSS (2.7x), Markdown (3.4x), Java (4.0x), Jupyter Notebook (3.2x), Swift (1.4x), PowerShell (3.0x)",
+        "Day performance: Tue=1, Wed=1, Thu=1, Fri=1, Sat=1, Sun=1, Mon=1"
       ],
       "recommendedTemplate": "standard"
     }
