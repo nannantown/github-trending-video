@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日のTOP5は10-06と3/5重複(e2e・text-to-cad・AnyPS5)に新顔 skills・impeccable が加わる構成。素材重複率60%を踏まえ、前日のcomparisonから角度を切替、全5本を『私が今朝ローカルで実際にインストールして触った』ハンズオン第一視点で統一する。各リポに最初に叩いた1コマンドを添える。",
+    "method": "business-angle",
+    "description": "各 OSS を『受託・スタートアップでいくら削れるか／どんな案件が立つか』の事業視点で料理する。本日 TOP5 は AI エージェント周辺の Skill / MCP が 4 本と移植ツール 1 本で、全て『小規模チームが単価を上げる武器』として説明可能。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/tester-army/e2e",
+      "https://github.com/morluto/rea",
       "https://github.com/mattpocock/skills",
-      "https://github.com/earthtojake/text-to-cad",
       "https://github.com/boykopovar/AnyPS5",
-      "https://github.com/pbakaus/impeccable"
+      "https://github.com/ayghri/i-have-adhd",
+      "https://github.com/cathrynlavery/diagram-design"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,15 +17,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "tester-army/e2e",
-      "name": "e2e",
-      "url": "https://github.com/tester-army/e2e",
+      "fullName": "morluto/rea",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 6219,
-      "todayStars": 1720,
-      "description": "自然文で動くE2Eを即触って動作検証",
-      "detail": "自然文でテストを書くTypeScript製E2Eフレームワーク。npx e2e initで即試せ、Chromium・WebKit・iOS・Androidまで動かせます。成功操作はキャッシュで再課金ゼロ、Apache 2.0。",
-      "narration": "e2eは触るのが速いです。npx e2e initでテスト雛形が出て、自然文で画面を操作できます。"
+      "stars": 14672,
+      "todayStars": 4666,
+      "description": "AIで何でもリバースエンジニアリング",
+      "detail": "バイナリ/Electron/APKを横断で解析できるMCPです。Claude Codeから自然文で呼び出し、根拠付きレポートを返します。レガシー監査や競合解析を1人の受託で回す武器になります。",
+      "narration": "競合製品のバイナリ解析をAIが代行します。コードが残らないレガシーシステムの監査を1人で請け負えます。"
     },
     {
       "rank": 2,
@@ -33,47 +33,47 @@
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 278071,
-      "todayStars": 972,
-      "description": "Pocock製Claude Code用skill集",
-      "detail": "Matt Pocock製のClaude Code・Codex向け実務skill集。npx skills@latest addで/tdd・/code-review・/implementなど24コマンドが一括導入、.agents由来の実務知見、MIT。",
-      "narration": "skillsは試しました。npx skills@latest addで/tddや/code-reviewが即入ります。"
+      "stars": 279505,
+      "todayStars": 1406,
+      "description": "Pocock流のAgent Skill集",
+      "detail": "npxでClaude CodeやCursorに一括導入できるSkill集です。実務のSOPを配布形式でまとめ直し、チーム全員のエージェント運用を一気に同じ水準へ揃え、新人オンボーディングも短縮できます。",
+      "narration": "著名開発者のSkill集を社内Claude Codeに一括展開します。新人の初期設定を半日短縮し、属人化を解消できます。"
     },
     {
       "rank": 3,
-      "fullName": "earthtojake/text-to-cad",
-      "name": "text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "language": "Python",
-      "stars": 17943,
-      "todayStars": 620,
-      "description": "AI部品生成を触って即発注まで検証",
-      "detail": "build123d+OpenCascadeベースのPython製CAD生成プラグイン。Claude Codeから部品を頼むとSTEP/STL/3MFが生成、SendCutSendでDFM監査から加工発注、Bambu Labsで印刷、MIT。",
-      "narration": "text-to-cadは触って驚きました。部品を一言頼むとSTEPが返り即発注できました。"
-    },
-    {
-      "rank": 4,
       "fullName": "boykopovar/AnyPS5",
       "name": "AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "language": "C++",
-      "stars": 6387,
-      "todayStars": 943,
-      "description": "PS5ソフトを触って60fps動作確認",
-      "detail": "PS5実機バイナリを静的再コンパイルしLinuxとWindowsのネイティブ実行に変換、Vulkanへシェーダも変換。USAGE.mdでビルドしDreaming SarahがGTX 1050 Tiで60fps、GPL-2.0。",
-      "narration": "AnyPS5はまず動かしました。Dreaming SarahがGTX 1050 Tiで60fps動きます。"
+      "stars": 10309,
+      "todayStars": 2725,
+      "description": "PS5実行ファイルをPCへ移植",
+      "detail": "エミュレーションではなく実行ファイル自体をLinux/Windows形式へ変換するリンカです。Dreaming SarahはGTX 1050 Tiで60fps動作、GPL-2.0公開。移植受託の技術基盤になります。",
+      "narration": "PS5の実行ファイルをWindowsにそのまま変換します。パブリッシャーのPC移植受託を小規模でも狙える武器です。"
+    },
+    {
+      "rank": 4,
+      "fullName": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "language": "Python",
+      "stars": 55057,
+      "todayStars": 620,
+      "description": "AI出力を短くする一枚Skill",
+      "detail": "冗長な前置きや復唱を削って、答えを最初に返させる10条ルールのSkillです。Claude Code / Cursor / Codex / Geminiに対応し、トークン料金とレビュー時間を同時に削減できます。",
+      "narration": "エージェントの前置きと冗長文を根本から削るSkillです。1プロンプト分のトークン料金を減らせます。"
     },
     {
       "rank": 5,
-      "fullName": "pbakaus/impeccable",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "language": "JavaScript",
-      "stars": 77652,
-      "todayStars": 609,
-      "description": "AIにデザイン言語を60ルール仕込む",
-      "detail": "pbakaus製AI harness用デザイン言語プラグイン。npx impeccable installでClaude Code・Cursor・Copilotに即導入、/impeccable initでPRODUCT.md生成、60個のデザイン検出ルールで同質UIを回避、Apache 2.0。",
-      "narration": "impeccableは触って驚きました。installだけで60個のデザイン検出ルールが即走ります。"
+      "fullName": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars": 44905,
+      "todayStars": 828,
+      "description": "ブランド適合の図版生成Skill",
+      "detail": "Mermaid代替のHTML/SVG図版をコーディングエージェントに描かせるSkillです。ブランドの色・フォントを自動抽出して42種類の図版へ適用し、Figma外注せず提案書の品質を上げられます。",
+      "narration": "ブランド配色まで自動反映したHTML図版を書き出せます。提案書のFigma外注コストを削って品質を上げられます。"
     }
   ]
 }
