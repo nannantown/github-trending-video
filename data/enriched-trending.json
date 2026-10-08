@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "discovery": {
-    "method": "business-angle",
-    "description": "各 OSS を『受託・スタートアップでいくら削れるか／どんな案件が立つか』の事業視点で料理する。本日 TOP5 は AI エージェント周辺の Skill / MCP が 4 本と移植ツール 1 本で、全て『小規模チームが単価を上げる武器』として説明可能。",
+    "method": "comparison",
+    "description": "本日 TOP5 のうち 4 本は AI コーディング補助の役割違い。それぞれ既存の定番 OSS/ツール（RPCS3、Mermaid、Ghidra、BMAD、mem0）と並べ、どの持ち場を取りに来たかで整理する。昨日の business-angle から角度を切替、素材 80% 重複日の新鮮度を担保。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/boykopovar/AnyPS5",
+      "https://github.com/cathrynlavery/diagram-design",
       "https://github.com/morluto/rea",
       "https://github.com/mattpocock/skills",
-      "https://github.com/boykopovar/AnyPS5",
-      "https://github.com/ayghri/i-have-adhd",
-      "https://github.com/cathrynlavery/diagram-design"
+      "https://github.com/thedotmack/claude-mem"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "morluto/rea",
-      "name": "rea",
-      "url": "https://github.com/morluto/rea",
-      "language": "TypeScript",
-      "stars": 14672,
-      "todayStars": 4666,
-      "description": "AIで何でもリバースエンジニアリング",
-      "detail": "バイナリ/Electron/APKを横断で解析できるMCPです。Claude Codeから自然文で呼び出し、根拠付きレポートを返します。レガシー監査や競合解析を1人の受託で回す武器になります。",
-      "narration": "競合製品のバイナリ解析をAIが代行します。コードが残らないレガシーシステムの監査を1人で請け負えます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 279505,
-      "todayStars": 1406,
-      "description": "Pocock流のAgent Skill集",
-      "detail": "npxでClaude CodeやCursorに一括導入できるSkill集です。実務のSOPを配布形式でまとめ直し、チーム全員のエージェント運用を一気に同じ水準へ揃え、新人オンボーディングも短縮できます。",
-      "narration": "著名開発者のSkill集を社内Claude Codeに一括展開します。新人の初期設定を半日短縮し、属人化を解消できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "boykopovar/AnyPS5",
       "name": "AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "language": "C++",
-      "stars": 10309,
-      "todayStars": 2725,
-      "description": "PS5実行ファイルをPCへ移植",
-      "detail": "エミュレーションではなく実行ファイル自体をLinux/Windows形式へ変換するリンカです。Dreaming SarahはGTX 1050 Tiで60fps動作、GPL-2.0公開。移植受託の技術基盤になります。",
-      "narration": "PS5の実行ファイルをWindowsにそのまま変換します。パブリッシャーのPC移植受託を小規模でも狙える武器です。"
+      "stars": 15332,
+      "todayStars": 4640,
+      "description": "PS5実行ファイルをPCに移植",
+      "detail": "エミュレーションではなく実行ファイル自体を再リンクして動かす方式です。RPCS3のような動的翻訳と比べ、負荷を抑えつつ既存PCで60fpsの実例を出しています。GPL-2.0公開で移植受託の技術基盤になります。",
+      "narration": "PS5実行ファイルをPCに移植する実験ツールです。RPCS3のようなエミュと違い、再リンク方式で軽く動かせます。"
     },
     {
-      "rank": 4,
-      "fullName": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "language": "Python",
-      "stars": 55057,
-      "todayStars": 620,
-      "description": "AI出力を短くする一枚Skill",
-      "detail": "冗長な前置きや復唱を削って、答えを最初に返させる10条ルールのSkillです。Claude Code / Cursor / Codex / Geminiに対応し、トークン料金とレビュー時間を同時に削減できます。",
-      "narration": "エージェントの前置きと冗長文を根本から削るSkillです。1プロンプト分のトークン料金を減らせます。"
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "fullName": "cathrynlavery/diagram-design",
       "name": "diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "language": "HTML",
-      "stars": 44905,
-      "todayStars": 828,
-      "description": "ブランド適合の図版生成Skill",
-      "detail": "Mermaid代替のHTML/SVG図版をコーディングエージェントに描かせるSkillです。ブランドの色・フォントを自動抽出して42種類の図版へ適用し、Figma外注せず提案書の品質を上げられます。",
-      "narration": "ブランド配色まで自動反映したHTML図版を書き出せます。提案書のFigma外注コストを削って品質を上げられます。"
+      "stars": 46234,
+      "todayStars": 1163,
+      "description": "42種のブランド調HTML/SVG図",
+      "detail": "Mermaidはテキスト、draw.ioは手動の線引きです。これはAIが42種類の図版を自動選択し、ブランド色まで反映したHTML/SVGを吐き出します。提案書のFigma外注を置き換える位置づけです。",
+      "narration": "Mermaidはテキスト、draw.ioは手動。42種類の見栄えするHTML図をAIに任せる専用スキルです。"
+    },
+    {
+      "rank": 3,
+      "fullName": "morluto/rea",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea",
+      "language": "TypeScript",
+      "stars": 25149,
+      "todayStars": 7744,
+      "description": "RE特化のAIエージェントMCP",
+      "detail": "HopperやGhidra、IDAを単独で開く従来の作法に対し、AIエージェントが同じ対象を横断で呼び分けるMCPサーバーです。バイナリから挙動までを一つの会話に束ね、根拠付きの所見を返します。",
+      "narration": "GhidraやIDAをAIエージェント越しに束ねるMCPサーバーです。手動の行き来を会話で進められます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 280993,
+      "todayStars": 1770,
+      "description": "編集できるAgent Skill集",
+      "detail": "GSDやBMADが流儀を強制するフレームワーク型なのに対し、これは短く編集できるSkillの束です。TDDや設計レビューをnpx一発で全エージェントに配り、自社のやり方へ寄せられます。",
+      "narration": "GSDやBMADの固い枠組みではなく、小さく編集できるスキル集です。TDDや設計レビューをそのまま持ち込めます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars": 98403,
+      "todayStars": 662,
+      "description": "トークン10分の1のAI記憶層",
+      "detail": "mem0やSupermemoryと競合する会話記憶層です。差分はSQLiteとベクトル索引を併用した3層検索で、索引→時系列→詳細の順に広げ、トークンを従来比10分の1に抑える点にあります。",
+      "narration": "mem0と似ますが、会話を圧縮し3層検索するのが特徴です。トークン消費を10分の1に抑えられます。"
     }
   ]
 }
