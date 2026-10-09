@@ -2,70 +2,6 @@
   "schemaVersion": 1,
   "videos": [
     {
-      "videoId": "6PyRxitTjX4",
-      "videoUrl": "https://youtube.com/shorts/6PyRxitTjX4",
-      "date": "2026-07-10",
-      "title": "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/07/10 #Shorts",
-      "titleTemplate": "standard",
-      "hashtags": [
-        "GitHubTrending",
-        "GitHub",
-        "プログラミング",
-        "エンジニア",
-        "Tech",
-        "開発",
-        "OSS",
-        "オープンソース",
-        "Shorts",
-        "TypeScript",
-        "C#"
-      ],
-      "languages": [
-        "TypeScript",
-        "C#",
-        "JavaScript"
-      ],
-      "projects": [
-        "MadsLorentzen/ai-job-search",
-        "SmartlyDressedGames/U3-SDK",
-        "addyosmani/agent-skills",
-        "VoltAgent/awesome-design-md",
-        "iOfficeAI/OfficeCLI"
-      ],
-      "durationSeconds": 49,
-      "discovery": {
-        "method": "ecosystem",
-        "description": "Trending TOP5のうち4本がAIコーディングエージェントの周辺レイヤ。各リポの生態系上の位置と役割分担 (規律層・design token層・Office操作層・個人業務workflow層) を示す",
-        "sources": [
-          "https://github.com/trending",
-          "https://github.com/MadsLorentzen/ai-job-search",
-          "https://github.com/SmartlyDressedGames/U3-SDK",
-          "https://github.com/addyosmani/agent-skills",
-          "https://github.com/VoltAgent/awesome-design-md",
-          "https://github.com/iOfficeAI/OfficeCLI"
-        ],
-        "query": "",
-        "freshness_hours": 1
-      },
-      "stats": {
-        "views": 3,
-        "likes": 0,
-        "comments": 0,
-        "updatedAt": "2026-07-24T23:51:07.277Z"
-      },
-      "instagram": {
-        "mediaId": "18397956580092839",
-        "permalink": "https://www.instagram.com/reel/Dal2UfajIJt/",
-        "views": 3929,
-        "reach": 3274,
-        "likes": 47,
-        "comments": 0,
-        "shares": 2,
-        "saved": 35,
-        "updatedAt": "2026-09-13T03:28:01.542Z"
-      }
-    },
-    {
       "videoId": "zTM8NmR4vvk",
       "videoUrl": "https://youtube.com/shorts/zTM8NmR4vvk",
       "date": "2026-07-11",
@@ -4801,18 +4737,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "17916215475449321",
         "permalink": "https://www.instagram.com/reel/DdsOua3DSPM/",
-        "views": 681,
-        "reach": 453,
+        "views": 685,
+        "reach": 455,
         "likes": 2,
         "comments": 0,
         "shares": 0,
         "saved": 1,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -4871,18 +4807,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "17985938421083887",
         "permalink": "https://www.instagram.com/reel/Dduz7Iigc-Z/",
-        "views": 738,
-        "reach": 526,
+        "views": 746,
+        "reach": 530,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -4941,7 +4877,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18006785432782555",
@@ -4952,7 +4888,7 @@
         "comments": 0,
         "shares": 0,
         "saved": 2,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5011,18 +4947,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18101386580629215",
         "permalink": "https://www.instagram.com/reel/Ddz_YtfAXRv/",
-        "views": 632,
-        "reach": 461,
+        "views": 635,
+        "reach": 464,
         "likes": 4,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5083,18 +5019,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18065842877772265",
         "permalink": "https://www.instagram.com/reel/Dd2rwyDAR-V/",
-        "views": 1880,
-        "reach": 1491,
+        "views": 1886,
+        "reach": 1493,
         "likes": 18,
         "comments": 0,
         "shares": 0,
         "saved": 22,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5151,18 +5087,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18159501133495885",
         "permalink": "https://www.instagram.com/reel/Dd5LxFdibex/",
-        "views": 603,
-        "reach": 419,
+        "views": 607,
+        "reach": 423,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 3,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5222,18 +5158,18 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18027202115883284",
         "permalink": "https://www.instagram.com/reel/Dd7wXanACl8/",
-        "views": 822,
-        "reach": 564,
+        "views": 829,
+        "reach": 569,
         "likes": 3,
         "comments": 0,
         "shares": 0,
         "saved": 6,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5291,18 +5227,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "17906999181332931",
         "permalink": "https://www.instagram.com/reel/Dd-Weg1gY4S/",
-        "views": 1461,
-        "reach": 1148,
+        "views": 1467,
+        "reach": 1154,
         "likes": 13,
         "comments": 0,
         "shares": 2,
         "saved": 13,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5361,18 +5297,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18135150397633461",
         "permalink": "https://www.instagram.com/reel/DeDibRwjUPB/",
-        "views": 814,
-        "reach": 585,
+        "views": 826,
+        "reach": 593,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 3,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5428,18 +5364,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18117819637757974",
         "permalink": "https://www.instagram.com/reel/DeGBbPNiKqu/",
-        "views": 755,
-        "reach": 544,
+        "views": 765,
+        "reach": 553,
         "likes": 10,
         "comments": 0,
         "shares": 0,
         "saved": 4,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5496,18 +5432,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18343415245285103",
         "permalink": "https://www.instagram.com/reel/DeIund-gJ69/",
-        "views": 1046,
-        "reach": 827,
+        "views": 1072,
+        "reach": 848,
         "likes": 10,
         "comments": 0,
         "shares": 2,
-        "saved": 6,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "saved": 8,
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5568,18 +5504,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-08T02:18:51.614Z"
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18132434431680315",
         "permalink": "https://www.instagram.com/reel/DeLOioIkgfr/",
-        "views": 517,
-        "reach": 377,
+        "views": 557,
+        "reach": 401,
         "likes": 6,
         "comments": 0,
         "shares": 0,
         "saved": 5,
-        "updatedAt": "2026-10-08T02:18:51.615Z"
+        "updatedAt": "2026-10-09T02:36:58.925Z"
       }
     },
     {
@@ -5638,10 +5574,80 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-10-09T02:36:58.924Z"
       },
       "instagram": {
         "mediaId": "18136967740641374",
+        "permalink": "https://www.instagram.com/reel/DeN2e10gcJi/",
+        "views": 620,
+        "reach": 439,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 6,
+        "updatedAt": "2026-10-09T02:36:58.925Z"
+      }
+    },
+    {
+      "videoId": "dRZL7etgvkI",
+      "videoUrl": "https://youtube.com/shorts/dRZL7etgvkI",
+      "date": "2026-10-09",
+      "title": "AnyPS5 — PS5実行ファイルをPCに移植｜GitHub Trending TOP5 10/9",
+      "titleTemplate": "top1",
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "CSS",
+        "Java",
+        "HTML",
+        "TypeScript",
+        "Shell"
+      ],
+      "languages": [
+        "C++",
+        "HTML",
+        "TypeScript",
+        "Shell"
+      ],
+      "projects": [
+        "boykopovar/AnyPS5",
+        "cathrynlavery/diagram-design",
+        "morluto/rea",
+        "mattpocock/skills",
+        "thedotmack/claude-mem"
+      ],
+      "durationSeconds": 53,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日 TOP5 のうち 4 本は AI コーディング補助の役割違い。それぞれ既存の定番 OSS/ツール（RPCS3、Mermaid、Ghidra、BMAD、mem0）と並べ、どの持ち場を取りに来たかで整理する。昨日の business-angle から角度を切替、素材 80% 重複日の新鮮度を担保。",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/boykopovar/AnyPS5",
+          "https://github.com/cathrynlavery/diagram-design",
+          "https://github.com/morluto/rea",
+          "https://github.com/mattpocock/skills",
+          "https://github.com/thedotmack/claude-mem"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": {
+        "mediaId": "17962888242207687",
         "permalink": null,
         "views": null,
         "reach": null,
@@ -5654,18 +5660,6 @@
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-09-06",
-      "changes": [
-        "C++: 0.3x avg views → drop",
-        "Rust: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "standard: 1 avg views (83 videos)",
-        "Trending languages: Java (2.4x), C# (1.5x), CSS (2.4x), Markdown (3.1x), Jupyter Notebook (2.9x), PowerShell (2.7x)",
-        "Day performance: Sun=1, Mon=1, Tue=1, Wed=1, Thu=1, Fri=1, Sat=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-09-07",
       "changes": [
@@ -6011,6 +6005,19 @@
         "top1: 0 avg views (19 videos)",
         "Trending languages: C# (1.8x), CSS (2.7x), Markdown (3.5x), Java (4.1x), Jupyter Notebook (3.3x), Swift (1.5x), PowerShell (3.1x)",
         "Day performance: Thu=1, Fri=1, Sat=1, Sun=1, Mon=1, Wed=1, Tue=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-10-09",
+      "changes": [
+        "CSS: 1.3x avg views → boost",
+        "Java: 1.3x avg views → boost",
+        "C++: 0.0x avg views → drop",
+        "standard: 1 avg views (63 videos)",
+        "top1: 0 avg views (20 videos)",
+        "Trending languages: C# (1.8x), CSS (2.8x), Markdown (3.7x), Java (4.3x), Jupyter Notebook (3.4x), Swift (1.5x), PowerShell (3.3x)",
+        "Day performance: Fri=1, Sat=1, Sun=1, Mon=1, Wed=1, Thu=1, Tue=0"
       ],
       "recommendedTemplate": "standard"
     }
