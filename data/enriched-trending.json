@@ -1,15 +1,20 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "discovery": {
-    "method": "comparison",
-    "description": "本日 TOP5 のうち 4 本は AI コーディング補助の役割違い。それぞれ既存の定番 OSS/ツール（RPCS3、Mermaid、Ghidra、BMAD、mem0）と並べ、どの持ち場を取りに来たかで整理する。昨日の business-angle から角度を切替、素材 80% 重複日の新鮮度を担保。",
+    "method": "tech-deep",
+    "description": "本日 TOP5 の 5 本すべてを『何がどこで技術的に効いているか』の内部実装側から説明する。昨日 (comparison・vs 定番 OSS) / 一昨日 (business-angle・受託視点) から角度を切替、素材 80% 重複 2 日目 (4/5 継続) の新鮮度を担保。alibaba/open-code-review が新規に入ったのを機に 5 本すべて tech-deep で深堀り。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/boykopovar/AnyPS5",
-      "https://github.com/cathrynlavery/diagram-design",
       "https://github.com/morluto/rea",
+      "https://github.com/morluto/rea/blob/main/README.md",
+      "https://github.com/boykopovar/AnyPS5",
+      "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
       "https://github.com/mattpocock/skills",
-      "https://github.com/thedotmack/claude-mem"
+      "https://github.com/mattpocock/skills/blob/main/README.md",
+      "https://github.com/cathrynlavery/diagram-design",
+      "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
+      "https://github.com/alibaba/open-code-review",
+      "https://github.com/alibaba/open-code-review/blob/main/README.md"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +22,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "boykopovar/AnyPS5",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "language": "C++",
-      "stars": 15332,
-      "todayStars": 4640,
-      "description": "PS5実行ファイルをPCに移植",
-      "detail": "エミュレーションではなく実行ファイル自体を再リンクして動かす方式です。RPCS3のような動的翻訳と比べ、負荷を抑えつつ既存PCで60fpsの実例を出しています。GPL-2.0公開で移植受託の技術基盤になります。",
-      "narration": "PS5実行ファイルをPCに移植する実験ツールです。RPCS3のようなエミュと違い、再リンク方式で軽く動かせます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "language": "HTML",
-      "stars": 46234,
-      "todayStars": 1163,
-      "description": "42種のブランド調HTML/SVG図",
-      "detail": "Mermaidはテキスト、draw.ioは手動の線引きです。これはAIが42種類の図版を自動選択し、ブランド色まで反映したHTML/SVGを吐き出します。提案書のFigma外注を置き換える位置づけです。",
-      "narration": "Mermaidはテキスト、draw.ioは手動。42種類の見栄えするHTML図をAIに任せる専用スキルです。"
-    },
-    {
-      "rank": 3,
       "fullName": "morluto/rea",
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 25149,
-      "todayStars": 7744,
-      "description": "RE特化のAIエージェントMCP",
-      "detail": "HopperやGhidra、IDAを単独で開く従来の作法に対し、AIエージェントが同じ対象を横断で呼び分けるMCPサーバーです。バイナリから挙動までを一つの会話に束ね、根拠付きの所見を返します。",
-      "narration": "GhidraやIDAをAIエージェント越しに束ねるMCPサーバーです。手動の行き来を会話で進められます。"
+      "stars": 44251,
+      "todayStars": 15335,
+      "description": "AI連携の逆解析ツール統合MCP",
+      "detail": "Hopper・Ghidra・IDAなど多数の逆解析ツールを単一MCPサーバー下に束ね、AIエージェントが根拠付きで横断分析できます。ELFやAPK、PCAP、PTYキャプチャにも対応、Node.js 22以上が必須です。",
+      "narration": "AIから使える逆解析ツール群の統合バスです。Ghidra、IDA、JADX、PTYを1つのMCP下に束ねます。"
     },
     {
-      "rank": 4,
+      "rank": 2,
+      "fullName": "boykopovar/AnyPS5",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "language": "C++",
+      "stars": 21975,
+      "todayStars": 5925,
+      "description": "PS5バイナリをPCで動かすリンカー",
+      "detail": "PS5のELF実行ファイルをLinuxやWindowsネイティブ形式に再リンクし、SPIR-Vシェーダを再コンパイルして動かします。Vulkan前提、エミュと違いランタイム常駐はありません。GPL-2.0。",
+      "narration": "PS5の実行ファイルをPCに動かすリンカーです。再リンクとSPIR-V再コンパイルでエミュ無しに動かせます。"
+    },
+    {
+      "rank": 3,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 280993,
-      "todayStars": 1770,
-      "description": "編集できるAgent Skill集",
-      "detail": "GSDやBMADが流儀を強制するフレームワーク型なのに対し、これは短く編集できるSkillの束です。TDDや設計レビューをnpx一発で全エージェントに配り、自社のやり方へ寄せられます。",
-      "narration": "GSDやBMADの固い枠組みではなく、小さく編集できるスキル集です。TDDや設計レビューをそのまま持ち込めます。"
+      "stars": 282575,
+      "todayStars": 1696,
+      "description": "AIエージェント向けSkill集",
+      "detail": "Matt Pocockが社内のagentsディレクトリから抽出した小さなSkillの束で、GSDやBMADのような強制フレームワークではなく編集可能、npxひとつでClaude CodeやCodex、Copilotに差し込めます。MIT。",
+      "narration": "Claude Code向けの編集可能なSkill集です。フレームワーク強制ではなく、npxで1つずつ差し替えられます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars": 47803,
+      "todayStars": 1744,
+      "description": "42種の図版を吐くAI向けSkill",
+      "detail": "42種類の図版テンプレをAIエージェントが呼び出し、ブランド色やフォントを反映したHTMLとSVG単体ファイルを出力します。Mermaidや draw.ioのソース読み込みにも対応し、スラッシュコマンドで取り込めます。Apache-2.0。",
+      "narration": "42種の図版テンプレを持つAI向けSkillです。Mermaidと違い、ブランド色を反映したHTMLとSVGを吐きます。"
     },
     {
       "rank": 5,
-      "fullName": "thedotmack/claude-mem",
-      "name": "claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "language": "TypeScript",
-      "stars": 98403,
-      "todayStars": 662,
-      "description": "トークン10分の1のAI記憶層",
-      "detail": "mem0やSupermemoryと競合する会話記憶層です。差分はSQLiteとベクトル索引を併用した3層検索で、索引→時系列→詳細の順に広げ、トークンを従来比10分の1に抑える点にあります。",
-      "narration": "mem0と似ますが、会話を圧縮し3層検索するのが特徴です。トークン消費を10分の1に抑えられます。"
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 45152,
+      "todayStars": 323,
+      "description": "決定論＋LLMのコードレビューCLI",
+      "detail": "AlibabaのGit差分レビューCLIで、レビュー対象の選定とルール照合を決定論的に先回しし、残りの文脈判断だけをLLMエージェントに任せます。Claude Code比で1/9のトークンで動く設計、Apache-2.0。",
+      "narration": "Alibaba公開のレビューCLIです。ファイル選定とルール照合を決定論で固め、残りの判断をLLMに回します。"
     }
   ]
 }
