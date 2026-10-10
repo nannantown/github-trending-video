@@ -2,6 +2,8 @@
 
 GitHub Actions で動画生成後に YouTube Shorts / Instagram Reels へ自動投稿するための完全ガイド。
 
+Instagram だけの再試行は [日付指定の再試行手順](instagram-retry.md) を参照してください。
+
 > 所要時間: YouTube 約20分、Instagram 約30分
 
 ---
@@ -447,26 +449,16 @@ cat output/captions.json | jq .youtube.title
 # → "【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/05 #Shorts"
 ```
 
-### 5-2: YouTube アップロードテスト（ローカル）
+### 5-2: 投稿処理のモックテスト（ローカル）
 
 ```bash
-export YOUTUBE_CLIENT_ID="..."
-export YOUTUBE_CLIENT_SECRET="..."
-export YOUTUBE_REFRESH_TOKEN="..."
-
-node scripts/upload-youtube.mjs --video=output/trending-20260405.mp4
+# Node 22 / npm ci 済みの環境
+npm test
 ```
 
-成功すると:
+実際の資格情報は使用せず、Instagram API モック、YouTube API モック、一時ローカル Git リモートで検証します。投稿済み・結果不明の再試行防止と、片側失敗時の成功 ID 保存も対象です。
 
-```
-YouTube: uploading output/trending-20260405.mp4
-  Title: 【GitHub Trending】今日の注目リポジトリ TOP5｜2026/04/05 #Shorts
-  Uploading...
-  Uploaded! https://youtube.com/shorts/xxxxxxxxxxx
-```
-
-> アップロード後、YouTube Studio で確認。処理に数分かかる場合があります。
+`upload-youtube.mjs` は日次オーケストレーターが保存した実行中台帳と明示日付を要求します。単独スクリプトでの投稿テストは行わず、実投稿の確認は main 適用後の承認済み日次運用で行ってください。
 
 ### 5-3: GitHub Actions 全体テスト
 

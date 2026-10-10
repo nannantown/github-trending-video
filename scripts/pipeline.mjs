@@ -147,11 +147,7 @@ async function main() {
     console.log(`\n=== Step 5: SNS posting skipped (set SNS_POST_ENABLED=true to enable) ===`);
   }
 
-  // Step 6: Record upload for analytics tracking
-  if (snsEnabled) {
-    console.log(`\n=== Step 6: Record Upload ===`);
-    runSafe("node scripts/record-upload.mjs", "record-upload");
-  }
+  // post-sns journals each result before continuing to the other platform.
 
   console.log(`\n=== Done! ${outputFile} ===`);
 }
