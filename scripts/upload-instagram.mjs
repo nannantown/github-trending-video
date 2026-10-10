@@ -1,314 +1,101 @@
-/**
- * Upload video to Instagram Reels via Facebook Graph API (resumable upload).
- *
- * Required environment variables:
- *   INSTAGRAM_ACCESS_TOKEN  - Long-lived User Access Token
- *   INSTAGRAM_USER_ID       - Instagram Business/Creator Account ID
- *   FACEBOOK_PAGE_ID        - Facebook Page ID linked to the IG Business Account.
- *                             We derive a Page Access Token from the user token
- *                             at runtime and use it for /media and /media_publish,
- *                             because IG content publishing through a Business
- *                             Portfolio-owned Page returns (#10) Missing Permission
- *                             when called with a plain User token.
- *
- * Usage:
- *   node scripts/upload-instagram.mjs --file=output/trending-20260417.mp4
- *   node scripts/upload-instagram.mjs --url=https://example.com/video.mp4
- *
- * --file uses the resumable upload path (recommended — avoids IG's URL
- * fetcher which frequently rejects valid external URLs with the generic
- * "Media upload has failed" 2207076 error).
- * --url falls back to URL-based upload (kept for backwards compatibility).
- */
-
-import { readFileSync, statSync, writeFileSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const outputDir = join(__dirname, "..", "output");
+/** Instagram Reels transport. The tracked orchestrators own the posting journal. */
+import { readFileSync, statSync } from "node:fs";
+import { pathToFileURL } from "node:url";
 
 const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
 
-const POLL_INTERVAL_MS = 5000;
-const POLL_MAX_ATTEMPTS = 60;
+export async function uploadInstagram({
+  source, caption, env = process.env, onEvent,
+  fetchImpl = fetch, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
+  pollAttempts = 60,
+}) {
+  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } = env;
+  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) throw new Error("Instagram credentials missing");
+  if (!onEvent) throw new Error("Tracked posting callback required");
+  if (!source || typeof caption !== "string" || !caption.trim()) throw new Error("Video source/caption missing");
+  if (source.type === "file" && statSync(source.value).size === 0) throw new Error("Empty video");
+  const thumbOffset = String(env.INSTAGRAM_THUMB_OFFSET_MS ?? 7000);
 
-// Thumbnail is taken from this offset (ms) within the video.
-// Default 7000ms lands on the first content card, past the ~5.5s opening —
-// avoids the near-black fade-in at frame 0 that IG picks otherwise.
-const DEFAULT_THUMB_OFFSET_MS = 7000;
-const THUMB_OFFSET_MS = Number(
-  process.env.INSTAGRAM_THUMB_OFFSET_MS ?? DEFAULT_THUMB_OFFSET_MS
-);
-
-async function graphPost(path, params) {
-  const url = new URL(`${GRAPH_API_BASE}${path}`);
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(params),
-  });
-  const data = await res.json();
-  if (data.error) {
-    throw new Error(
-      `Graph API error: ${data.error.message} (code: ${data.error.code})`
-    );
-  }
-  return data;
-}
-
-async function graphGet(path, params) {
-  const url = new URL(`${GRAPH_API_BASE}${path}`);
-  for (const [k, v] of Object.entries(params)) {
-    url.searchParams.set(k, v);
-  }
-  const res = await fetch(url);
-  const data = await res.json();
-  if (data.error) {
-    throw new Error(
-      `Graph API error: ${data.error.message} (code: ${data.error.code})`
-    );
-  }
-  return data;
-}
-
-function getArg(name) {
-  const arg = process.argv.find((a) => a.startsWith(`--${name}=`));
-  if (arg) return arg.split("=").slice(1).join("=");
-  return null;
-}
-
-function getVideoSource() {
-  const file = getArg("file");
-  if (file) return { type: "file", value: file };
-  const url = getArg("url") || process.env.VIDEO_PUBLIC_URL;
-  if (url) return { type: "url", value: url };
-  return null;
-}
-
-async function waitForMediaReady(containerId, accessToken) {
-  console.log("  Waiting for media processing...");
-  for (let i = 0; i < POLL_MAX_ATTEMPTS; i++) {
-    const status = await graphGet(`/${containerId}`, {
-      fields: "status_code,status",
-      access_token: accessToken,
-    });
-    const code = status.status_code;
-    console.log(`  [${i + 1}/${POLL_MAX_ATTEMPTS}] Status: ${code}`);
-    if (code === "FINISHED") return true;
-    if (code === "ERROR" || code === "EXPIRED") {
-      throw new Error(
-        `Media processing failed: ${code} - ${status.status || "unknown"}`
-      );
+  async function graph(path, params, method = "GET", form = false) {
+    const url = new URL(`${GRAPH_API_BASE}${path}`);
+    const opts = { method, signal: AbortSignal.timeout(30_000) };
+    if (method === "GET") {
+      for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value);
+    } else if (form) opts.body = new URLSearchParams(params);
+    else {
+      opts.headers = { "Content-Type": "application/json" };
+      opts.body = JSON.stringify(params);
     }
-    await new Promise((r) => setTimeout(r, POLL_INTERVAL_MS));
-  }
-  throw new Error("Media processing timed out after 5 minutes");
-}
-
-async function derivePageAccessToken(pageId, userToken) {
-  const data = await graphGet(`/${pageId}`, {
-    fields: "access_token",
-    access_token: userToken,
-  });
-  if (!data.access_token) {
-    throw new Error(
-      `Could not derive Page Access Token for page ${pageId}.`
-    );
-  }
-  return data.access_token;
-}
-
-async function createResumableContainer(igUserId, pageToken, caption, coverUrl) {
-  const form = new URLSearchParams({
-    media_type: "REELS",
-    upload_type: "resumable",
-    caption,
-    thumb_offset: String(THUMB_OFFSET_MS),
-    access_token: pageToken,
-  });
-  if (coverUrl) form.set("cover_url", coverUrl);
-  const res = await fetch(`${GRAPH_API_BASE}/${igUserId}/media`, {
-    method: "POST",
-    body: form,
-  });
-  const data = await res.json();
-  if (data.error) {
-    throw new Error(
-      `Graph API error: ${data.error.message} (code: ${data.error.code})`
-    );
-  }
-  if (!data.id || !data.uri) {
-    throw new Error(
-      `Resumable container response missing id/uri: ${JSON.stringify(data)}`
-    );
-  }
-  return data;
-}
-
-async function uploadVideoBinary(uploadUri, filePath, accessToken) {
-  const fileSize = statSync(filePath).size;
-  const fileBytes = readFileSync(filePath);
-  const res = await fetch(uploadUri, {
-    method: "POST",
-    headers: {
-      Authorization: `OAuth ${accessToken}`,
-      offset: "0",
-      file_size: String(fileSize),
-    },
-    body: fileBytes,
-  });
-  const text = await res.text();
-  let data;
-  try {
-    data = JSON.parse(text);
-  } catch {
-    throw new Error(`Upload returned non-JSON (${res.status}): ${text}`);
-  }
-  if (!res.ok || data.error) {
-    throw new Error(
-      `Binary upload failed (${res.status}): ${JSON.stringify(data)}`
-    );
-  }
-  return data;
-}
-
-const UPLOAD_MAX_RETRIES = 3;
-const UPLOAD_RETRY_DELAYS = [30_000, 60_000, 120_000];
-
-async function uploadViaResumable(igUserId, pageToken, filePath, caption, coverUrl) {
-  const sizeMB = (statSync(filePath).size / 1024 / 1024).toFixed(1);
-
-  for (let attempt = 1; attempt <= UPLOAD_MAX_RETRIES; attempt++) {
-    console.log(`  [Attempt ${attempt}/${UPLOAD_MAX_RETRIES}] Creating resumable container...`);
-    const { id: containerId, uri: uploadUri } = await createResumableContainer(
-      igUserId,
-      pageToken,
-      caption,
-      coverUrl
-    );
-    console.log(`  Container ID: ${containerId}`);
-    console.log(`  Uploading ${sizeMB} MB...`);
-
-    try {
-      await uploadVideoBinary(uploadUri, filePath, pageToken);
-      return containerId;
-    } catch (err) {
-      const isProcessingFailed = err.message.includes("ProcessingFailedError");
-      if (!isProcessingFailed || attempt === UPLOAD_MAX_RETRIES) throw err;
-      const delay = UPLOAD_RETRY_DELAYS[attempt - 1];
-      console.log(`  Upload failed (ProcessingFailedError), retrying in ${delay / 1000}s...`);
-      await new Promise((r) => setTimeout(r, delay));
-    }
-  }
-}
-
-async function uploadViaUrl(igUserId, pageToken, videoUrl, caption, coverUrl) {
-  console.log("  Creating URL-based container...");
-  const params = {
-    media_type: "REELS",
-    video_url: videoUrl,
-    caption,
-    share_to_feed: true,
-    thumb_offset: THUMB_OFFSET_MS,
-    access_token: pageToken,
-  };
-  if (coverUrl) params.cover_url = coverUrl;
-  const container = await graphPost(`/${igUserId}/media`, params);
-  console.log(`  Container ID: ${container.id}`);
-  return container.id;
-}
-
-async function main() {
-  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } =
-    process.env;
-
-  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) {
-    console.log("Instagram: credentials not configured, skipping upload.");
-    console.log(
-      "  Set INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID"
-    );
-    return { skipped: true };
+    const res = await fetchImpl(url, opts);
+    const data = await res.json();
+    if (!res.ok || data.error) throw new Error(`Graph API error (${res.status}): ${data.error?.message || "request failed"}`);
+    return data;
   }
 
-  const source = getVideoSource();
-  if (!source) {
-    console.log("Instagram: no video source provided, skipping upload.");
-    console.log("  Pass --file=<path> or --url=<url>");
-    return { skipped: true };
-  }
-
-  console.log(`Instagram: uploading Reel via ${source.type}`);
-  console.log(`  Source: ${source.value}`);
-
-  const captions = JSON.parse(
-    readFileSync(join(outputDir, "captions.json"), "utf-8")
-  );
-  const caption = captions.instagram;
-  console.log(`  Caption: ${caption.substring(0, 80)}...`);
-
-  console.log("  Deriving Page Access Token...");
-  const pageToken = await derivePageAccessToken(
-    FACEBOOK_PAGE_ID,
-    INSTAGRAM_ACCESS_TOKEN
-  );
-
-  const coverUrl = getArg("cover") || process.env.INSTAGRAM_COVER_URL || null;
-  if (coverUrl) {
-    console.log(`  Cover URL: ${coverUrl}`);
-  }
-
+  const page = await graph(`/${FACEBOOK_PAGE_ID}`, { fields: "access_token", access_token: INSTAGRAM_ACCESS_TOKEN });
+  if (!page.access_token) throw new Error("Could not derive Page Access Token");
+  const pageToken = page.access_token;
   let containerId;
   if (source.type === "file") {
-    containerId = await uploadViaResumable(
-      INSTAGRAM_USER_ID,
-      pageToken,
-      source.value,
-      caption,
-      coverUrl
-    );
-  } else {
-    containerId = await uploadViaUrl(
-      INSTAGRAM_USER_ID,
-      pageToken,
-      source.value,
-      caption,
-      coverUrl
-    );
+    // Retrying binary processing failures is safe: no media_publish has happened.
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      const container = await graph(`/${INSTAGRAM_USER_ID}/media`, {
+        media_type: "REELS", upload_type: "resumable", caption,
+        thumb_offset: thumbOffset, access_token: pageToken,
+      }, "POST", true);
+      if (!container.id) throw new Error("Resumable container response missing ID");
+      containerId = container.id;
+      await onEvent({ phase: "uploading", containerId });
+      if (!container.uri) throw new Error("Resumable container response missing upload URI");
+      try {
+        const res = await fetchImpl(container.uri, {
+          method: "POST", signal: AbortSignal.timeout(180_000),
+          headers: { Authorization: `OAuth ${pageToken}`, offset: "0", file_size: String(statSync(source.value).size) },
+          body: readFileSync(source.value),
+        });
+        const data = await res.json();
+        if (!res.ok || data.error || data.success !== true) {
+          const type = data.error?.type || data.debug_info?.type || "";
+          const message = data.error?.message || data.debug_info?.message || "upload not acknowledged";
+          throw new Error(`Binary upload failed (${res.status}): ${type} ${message}`);
+        }
+        break;
+      } catch (error) {
+        if (!error.message.includes("ProcessingFailedError") || attempt === 3) throw error;
+        await sleep(attempt * 30_000);
+      }
+    }
+  } else if (source.type === "url") {
+    const container = await graph(`/${INSTAGRAM_USER_ID}/media`, {
+      media_type: "REELS", video_url: source.value, caption, share_to_feed: true,
+      thumb_offset: thumbOffset, access_token: pageToken,
+    }, "POST");
+    if (!container.id) throw new Error("URL container response missing ID");
+    containerId = container.id;
+    await onEvent({ phase: "processing", containerId });
+  } else throw new Error("Unsupported video source");
+
+  let ready = false;
+  for (let attempt = 0; attempt < pollAttempts; attempt++) {
+    const status = await graph(`/${containerId}`, { fields: "status_code,status", access_token: pageToken });
+    if (status.status_code === "FINISHED") { ready = true; break; }
+    if (["ERROR", "EXPIRED"].includes(status.status_code)) throw new Error(`Media processing failed: ${status.status_code}`);
+    await sleep(5000);
   }
+  if (!ready) throw new Error("Media processing timed out");
 
-  await waitForMediaReady(containerId, pageToken);
-
-  console.log("  Publishing...");
-  const published = await graphPost(`/${INSTAGRAM_USER_ID}/media_publish`, {
-    creation_id: containerId,
-    access_token: pageToken,
-  });
-
-  const mediaId = published.id;
-  console.log(`  Published! Media ID: ${mediaId}`);
-
-  // Persist for record-upload.mjs so insights never need date-matching
-  // for new posts. Best-effort: a write failure must not fail the upload.
-  try {
-    writeFileSync(
-      join(outputDir, "instagram-result.json"),
-      JSON.stringify({ mediaId, publishedAt: new Date().toISOString() }, null, 2)
-    );
-  } catch (err) {
-    console.error(`  Could not write instagram-result.json: ${err.message}`);
-  }
-
-  return { mediaId };
+  // Synchronous journal + remote checkpoint completes before the POST below.
+  // Any timeout/error after this point has an uncertain publication outcome.
+  await onEvent({ phase: "publishing", containerId, safeToRetry: false });
+  const published = await graph(`/${INSTAGRAM_USER_ID}/media_publish`, {
+    creation_id: containerId, access_token: pageToken,
+  }, "POST");
+  if (!published.id) throw new Error("Publish response missing media ID");
+  await onEvent({ status: "succeeded", phase: "published", mediaId: published.id, safeToRetry: false });
+  return { mediaId: published.id };
 }
 
-main()
-  .then((result) => {
-    if (result && !result.skipped) {
-      console.log(`Instagram upload complete: Media ID ${result.mediaId}`);
-    }
-  })
-  .catch((err) => {
-    console.error("Instagram upload failed:", err.message);
-    process.exit(1);
-  });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  console.error("Use post-sns.mjs or retry-instagram.mjs with a date-scoped journal; direct untracked upload is disabled.");
+  process.exitCode = 1;
+}

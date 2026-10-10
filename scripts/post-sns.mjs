@@ -1,240 +1,109 @@
-/**
- * SNS posting orchestrator.
- * 1. Generate captions
- * 2. Create a GitHub Release with the video (for Instagram's public URL requirement)
- * 3. Upload to YouTube Shorts
- * 4. Upload to Instagram Reels
- *
- * Usage: node scripts/post-sns.mjs [--video=path/to/video.mp4] [--youtube-video=path/to/video-youtube.mp4]
- *
- *   --video          shared render: Instagram + GitHub Release (and YouTube fallback)
- *   --youtube-video  YouTube-only render with the TOP1 opening (2026-09-14
- *                    distribution experiment B, produced by pipeline.mjs Step 4d).
- *                    Missing file → YouTube falls back to --video.
- *
- * Environment variables (all optional - missing credentials = skip that platform):
- *   YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
- *   INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID
- *   GITHUB_TOKEN (automatically available in GitHub Actions)
- *   GITHUB_REPOSITORY (automatically available in GitHub Actions)
- */
+/** Daily posting: archive the exact bundle, then journal each platform separately. */
+import { randomUUID } from "node:crypto";
+import { execFileSync } from "node:child_process";
+import { existsSync, readFileSync } from "node:fs";
+import { join, dirname, basename } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { argPath, resolveYouTubeUpload } from "./youtube-variant.mjs";
+import { uploadInstagram } from "./upload-instagram.mjs";
+import { validateDate, statePath, loadState, saveBundle, validateBundle, metadataName, createStore, attemptInstagram, withDateLock } from "./posting-state.mjs";
 
-import { execSync } from "child_process";
-import { existsSync, readFileSync } from "fs";
-import { join, dirname, basename } from "path";
-import { fileURLToPath } from "url";
-import { argPath, isSharedVideoFile, resolveYouTubeUpload } from "./youtube-variant.mjs";
+export function dateFromVideo(video) {
+  const match = /^trending-(\d{4})(\d{2})(\d{2})\.mp4$/.exec(basename(video));
+  if (!match) throw new Error("Explicit shared trending-YYYYMMDD.mp4 required");
+  return validateDate(`${match[1]}-${match[2]}-${match[3]}`);
+}
+const readJSON = (path) => JSON.parse(readFileSync(path, "utf8"));
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const rootDir = join(__dirname, "..");
-const outputDir = join(rootDir, "output");
-
-function run(cmd, opts = {}) {
-  console.log(`>>> ${cmd}`);
-  return execSync(cmd, { cwd: rootDir, encoding: "utf-8", ...opts });
+export function archiveBundle({ rootDir, date, video, env }) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_REPOSITORY) throw new Error("Release archival credentials missing; refusing unarchived posting");
+  const compact = date.replaceAll("-", "");
+  const assets = [video, join(rootDir, "output", metadataName(date))];
+  const cover = video.replace(/\.mp4$/, "-cover.jpg");
+  if (existsSync(cover)) assets.push(cover);
+  // No clobber: a rerun must never replace the original video/metadata archive.
+  execFileSync("gh", ["release", "create", `v${compact}`, ...assets,
+    "--repo", env.GITHUB_REPOSITORY, "--title", `GitHub Trending ${compact}`,
+    "--notes", `Auto-generated trending video for ${date}`, "--latest"],
+  { cwd: rootDir, env: { ...env, GH_TOKEN: env.GITHUB_TOKEN }, stdio: "inherit" });
 }
 
-function getVideoPath() {
-  const arg = process.argv.find((a) => a.startsWith("--video="));
-  if (arg) {
-    const p = join(rootDir, arg.split("=")[1]);
-    if (existsSync(p)) return p;
-  }
-
-  // Auto-detect: find latest trending-YYYYMMDD.mp4
-  const today = new Date();
-  const dateStr = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}`;
-  const p = join(outputDir, `trending-${dateStr}.mp4`);
-  if (existsSync(p)) return p;
-
-  // Fallback: find any trending-YYYYMMDD.mp4 (never the YouTube-only render or a .raw intermediate)
-  const files = execSync(`ls -t ${outputDir}/trending-*.mp4 2>/dev/null || true`, {
-    encoding: "utf-8",
-  })
-    .trim()
-    .split("\n")
-    .filter(isSharedVideoFile);
-  if (files.length > 0) return files[0];
-
-  return null;
+function youtubeChild({ rootDir, date, video, openingVariant, thumbnail, env }) {
+  const args = ["scripts/upload-youtube.mjs", `--video=${video}`, `--date=${date}`, `--opening-variant=${openingVariant}`];
+  if (thumbnail) args.push(`--thumbnail=${thumbnail}`);
+  execFileSync(process.execPath, args, { cwd: rootDir, env: { ...env, POSTING_YOUTUBE_ATTEMPT: date }, stdio: "inherit" });
+  return loadState(rootDir, date).platforms.youtube;
 }
 
-async function createGitHubRelease(videoPath, coverPath) {
-  const token = process.env.GITHUB_TOKEN;
-  const repo = process.env.GITHUB_REPOSITORY;
+export async function postDaily({ rootDir, date, video, captions, trendingData, audioDurations, discovery,
+  youtubeUpload, env = process.env, archive = archiveBundle, uploadYouTube = youtubeChild,
+  uploadIG = uploadInstagram, checkpoint }) {
+  return withDateLock({ rootDir, date }, async () => {
+    validateDate(date);
+    if (dateFromVideo(video) !== date) throw new Error("Video date mismatch");
+    if (existsSync(statePath(rootDir, date))) throw new Error("Posting journal already exists; use the guarded Instagram retry");
+    const history = existsSync(join(rootDir, "data/performance-history.json")) ? readJSON(join(rootDir, "data/performance-history.json")) : { videos: [] };
+    if (history.videos.some((v) => v.date === date && (v.videoId || v.instagram?.mediaId))) throw new Error("Date already has a known post; refusing duplicate");
+    const { metadata, metadataSha256 } = saveBundle({ rootDir, date, video, captions, trendingData, audioDurations, discovery });
+    const state = { schemaVersion: 1, journalId: randomUUID(), date, videoSha256: metadata.videoSha256, metadataSha256,
+      platforms: { youtube: { status: "not_started" }, instagram: { status: "not_started" } } };
+    validateBundle({ rootDir, date, state });
+    const store = createStore({ rootDir, date, metadata, state, checkpoint });
+    store.persist();
+    await archive({ rootDir, date, video, env });
+    const failed = [];
 
-  if (!token || !repo) {
-    console.log("GitHub Release: GITHUB_TOKEN or GITHUB_REPOSITORY not set, skipping.");
-    return null;
-  }
+    if (env.YOUTUBE_CLIENT_ID && env.YOUTUBE_CLIENT_SECRET && env.YOUTUBE_REFRESH_TOKEN) {
+      store.update("youtube", { status: "in_progress", phase: "uploading", safeToRetry: false, attemptId: randomUUID(), attempts: 1 });
+      try {
+        const result = await uploadYouTube({ rootDir, date, ...youtubeUpload, env,
+          onEvent: (event) => store.update("youtube", event) });
+        if (!result?.videoId) throw new Error("YouTube response missing video ID");
+        store.update("youtube", { ...result, status: "succeeded", safeToRetry: false });
+      } catch (error) {
+        // The child journals its ID immediately after insert, before thumbnail work.
+        const recorded = loadState(rootDir, date).platforms.youtube;
+        store.update("youtube", recorded.videoId ? recorded : {
+          status: "unknown", safeToRetry: false, reason: "upload_result_unknown",
+        });
+        console.error(`YouTube upload failed: ${error.message}`);
+        failed.push("youtube");
+      }
+    } else store.update("youtube", { status: "skipped", reason: "credentials_missing", safeToRetry: false });
 
-  const today = new Date();
-  const dateStr = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}`;
-  const tag = `v${dateStr}`;
-  const title = `GitHub Trending ${dateStr}`;
-  const videoFileName = basename(videoPath);
-  const coverFileName = coverPath ? basename(coverPath) : null;
-  const coverArg = coverPath && existsSync(coverPath) ? ` "${coverPath}"` : "";
+    if (env.INSTAGRAM_ACCESS_TOKEN && env.INSTAGRAM_USER_ID && env.FACEBOOK_PAGE_ID) {
+      try {
+        await attemptInstagram({ store, video, caption: metadata.captions.instagram, env, upload: uploadIG });
+      } catch (error) {
+        console.error(`Instagram upload failed: ${error.message}`);
+        failed.push("instagram");
+      }
+    } else store.update("instagram", { status: "skipped", reason: "credentials_missing", safeToRetry: false });
 
-  console.log(`\nCreating GitHub Release: ${tag}`);
-
-  const videoUrl = `https://github.com/${repo}/releases/download/${tag}/${videoFileName}`;
-  const coverUrl = coverFileName
-    ? `https://github.com/${repo}/releases/download/${tag}/${coverFileName}`
-    : null;
-
-  try {
-    // Create release and upload both video + cover image
-    run(
-      `gh release create "${tag}" "${videoPath}"${coverArg} --title "${title}" --notes "Auto-generated trending video for ${dateStr}" --latest`,
-      { env: { ...process.env, GH_TOKEN: token } }
-    );
-    console.log(`  Video URL:  ${videoUrl}`);
-    if (coverUrl) console.log(`  Cover URL:  ${coverUrl}`);
-    return { videoUrl, coverUrl };
-  } catch (err) {
-    console.error(`GitHub Release failed: ${err.message}`);
-    // Tag already exists — upload assets onto existing release (clobber).
-    try {
-      run(
-        `gh release upload "${tag}" "${videoPath}"${coverArg} --clobber`,
-        { env: { ...process.env, GH_TOKEN: token } }
-      );
-      console.log(`  Video URL:  ${videoUrl}`);
-      if (coverUrl) console.log(`  Cover URL:  ${coverUrl}`);
-      return { videoUrl, coverUrl };
-    } catch (uploadErr) {
-      console.error(`Upload to existing release failed: ${uploadErr.message}`);
-      return null;
-    }
-  }
-}
-
-async function uploadYouTube({ video, openingVariant, thumbnail }) {
-  const { YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN } =
-    process.env;
-
-  if (!YOUTUBE_CLIENT_ID || !YOUTUBE_CLIENT_SECRET || !YOUTUBE_REFRESH_TOKEN) {
-    console.log("\nYouTube: credentials not configured, skipping.");
-    return null;
-  }
-
-  console.log("\n=== YouTube Shorts Upload ===");
-  try {
-    const thumbnailArg = thumbnail ? ` --thumbnail="${thumbnail}"` : "";
-    run(
-      `node scripts/upload-youtube.mjs --video="${video}" --opening-variant=${openingVariant}${thumbnailArg}`,
-      { stdio: "inherit" }
-    );
-    return true;
-  } catch (err) {
-    console.error(`YouTube upload failed: ${err.message}`);
-    return false;
-  }
-}
-
-async function uploadInstagram(videoPath, coverUrl) {
-  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } =
-    process.env;
-
-  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) {
-    console.log("\nInstagram: credentials not configured, skipping.");
-    console.log("  (Requires INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID)");
-    return null;
-  }
-
-  if (!videoPath) {
-    console.log("\nInstagram: no video file provided, skipping.");
-    return null;
-  }
-
-  console.log("\n=== Instagram Reels Upload ===");
-  try {
-    // Resumable upload (binary POST) — avoids the unreliable URL fetcher
-    // that returns (#2207076) on GitHub Release assets.
-    //
-    // cover_url is intentionally NOT passed: GitHub Release assets are
-    // served as `Content-Type: application/octet-stream`, which IG's
-    // cover fetcher rejects with error code 9004 ("Only photo or video
-    // can be accepted as media type"). Fall back to thumb_offset inside
-    // upload-instagram.mjs (default 7000ms, past the opening fade-in).
-    void coverUrl;
-    run(`node scripts/upload-instagram.mjs --file="${videoPath}"`, {
-      stdio: "inherit",
-    });
-    return true;
-  } catch (err) {
-    console.error(`Instagram upload failed: ${err.message}`);
-    return false;
-  }
+    console.log(`Posting results: youtube=${state.platforms.youtube.status}, instagram=${state.platforms.instagram.status}`);
+    if (failed.length) throw new Error(`SNS upload failed: ${failed.join(", ")}`);
+    return state;
+  });
 }
 
 async function main() {
-  const videoPath = getVideoPath();
-  if (!videoPath) {
-    console.error("No video file found. Run pipeline.mjs first.");
-    process.exit(1);
-  }
-  console.log(`Video: ${videoPath}`);
-
-  // Step 1: Generate captions
-  console.log("\n=== Generating Captions ===");
-  run("node scripts/generate-caption.mjs", { stdio: "inherit" });
-
-  // Step 2: Create GitHub Release (provides public URL for Instagram)
-  //         Also uploads the cover image so IG can fetch it as cover_url.
-  const coverPath = videoPath.replace(/\.mp4$/, "-cover.jpg");
-  const hasCover = existsSync(coverPath);
-  const urls = await createGitHubRelease(videoPath, hasCover ? coverPath : null);
-  if (urls?.videoUrl) {
-    process.env.VIDEO_PUBLIC_URL = urls.videoUrl;
-  }
-
-  // YouTube gets its own render when the pipeline produced one (2026-09-14
-  // experiment B: TOP1 opening); Instagram always gets the shared video.
-  const youtubeUpload = resolveYouTubeUpload({
-    sharedVideo: videoPath,
-    youtubeVideo: argPath(process.argv, "youtube-video", rootDir),
+  const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
+  const output = join(rootDir, "output");
+  const video = argPath(process.argv, "video", rootDir);
+  if (!video || !existsSync(video)) throw new Error("Explicit --video=<shared video> required");
+  const date = dateFromVideo(video);
+  if (existsSync(statePath(rootDir, date))) throw new Error("Posting journal already exists; use guarded Instagram retry");
+  execFileSync(process.execPath, ["scripts/generate-caption.mjs"], { cwd: rootDir, stdio: "inherit" });
+  const enriched = readJSON(join(rootDir, "data/enriched-trending.json"));
+  await postDaily({ rootDir, date, video,
+    captions: readJSON(join(output, "captions.json")),
+    trendingData: readJSON(join(output, "trending-data.json")),
+    audioDurations: readJSON(join(output, "audio-durations.json")),
+    discovery: enriched.discovery || null,
+    youtubeUpload: resolveYouTubeUpload({ sharedVideo: video, youtubeVideo: argPath(process.argv, "youtube-video", rootDir) }),
   });
-  if (youtubeUpload.fellBack) {
-    console.log("YouTube variant not found — YouTube falls back to the shared video.");
-  }
-  console.log(
-    `YouTube video: ${youtubeUpload.video} (opening: ${youtubeUpload.openingVariant}, thumbnail: ${youtubeUpload.thumbnail || "none"})`
-  );
-
-  // Step 3: Upload to platforms. Instagram takes the local file and uses
-  // resumable upload directly; the GitHub Release above is kept as an
-  // archival copy and a fallback source for manual re-posting.
-  const results = {
-    youtube: await uploadYouTube(youtubeUpload),
-    instagram: await uploadInstagram(videoPath, urls?.coverUrl),
-  };
-
-  // Summary
-  console.log("\n=== SNS Posting Summary ===");
-  console.log(`  YouTube:   ${results.youtube ? "OK" : "skipped"}`);
-  console.log(`  Instagram: ${results.instagram ? "OK" : "skipped"}`);
-
-  const anySuccess = Object.values(results).some(Boolean);
-  if (!anySuccess) {
-    console.log("\n  No platforms were configured. See docs/sns-setup.md for setup instructions.");
-  }
-
-  // Fail the step when a configured platform actually errored, so the
-  // workflow run is marked failed and GitHub sends the standard failure
-  // notification (mobile push / email). `null` means credentials were not
-  // configured (intentional skip) — only `false` counts as a real failure.
-  const failed = Object.entries(results)
-    .filter(([, v]) => v === false)
-    .map(([k]) => k);
-  if (failed.length > 0) {
-    console.error(`\nSNS upload failed: ${failed.join(", ")}`);
-    process.exit(1);
-  }
 }
 
-main().catch((err) => {
-  console.error("SNS posting failed:", err);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => { console.error(`SNS posting stopped: ${error.message}`); process.exitCode = 1; });
+}

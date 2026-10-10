@@ -10,7 +10,8 @@
  *   YT_SET_THUMBNAIL=false - skip the custom-thumbnail step (experiment B kill switch)
  *
  * Usage:
- *   node scripts/upload-youtube.mjs --video=output/trending-20260405.mp4
+ *   Invoked by post-sns.mjs with --date and a durable in_progress journal.
+ *   node scripts/upload-youtube.mjs --date=YYYY-MM-DD --video=output/trending-YYYYMMDD.mp4
  *     [--opening-variant=top1|brand]   recorded in upload-result.json (experiment B arm)
  *     [--thumbnail=output/trending-20260405-youtube-cover.jpg]
  */
@@ -22,6 +23,7 @@ import { fileURLToPath } from "url";
 import { switchOn } from "./yt-experiment-switches.mjs";
 import { openingVariantForFile } from "./youtube-variant.mjs";
 import { errorReasons, insertWithLegacyFallback } from "./youtube-upload.mjs";
+import { loadState, validateDate, validateBundle, createStore } from "./posting-state.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputDir = join(__dirname, "..", "output");
@@ -124,13 +126,22 @@ async function main() {
     return { skipped: true };
   }
 
+  const date = validateDate(argValue("date"));
+  if (process.env.POSTING_YOUTUBE_ATTEMPT !== date) throw new Error("YouTube must be invoked by the tracked daily orchestrator");
+  const rootDir = join(__dirname, "..");
+  const state = loadState(rootDir, date);
+  if (state.platforms.youtube?.status !== "in_progress" || state.platforms.youtube?.videoId) {
+    throw new Error("Tracked YouTube attempt required; refusing untracked/duplicate upload");
+  }
+  const { metadata: bundle } = validateBundle({ rootDir, date, state });
+  const store = createStore({ rootDir, date, metadata: bundle, state });
+  // Confirm the durable pre-upload marker, including for direct CLI invocation.
+  store.persist();
   const videoPath = getVideoPath();
   console.log(`YouTube: uploading ${videoPath}`);
 
   // Load captions
-  const captions = JSON.parse(
-    readFileSync(join(outputDir, "captions.json"), "utf-8")
-  );
+  const captions = bundle.captions;
   const yt = captions.youtube;
   const metadata = {
     title: yt.title,
@@ -169,6 +180,7 @@ async function main() {
   });
 
   const videoId = res.data.id;
+  if (!videoId) throw new Error("YouTube response missing video ID");
   const videoUrl = `https://youtube.com/shorts/${videoId}`;
   console.log(`  Uploaded! ${videoUrl}`);
 
@@ -176,6 +188,7 @@ async function main() {
   // the day's videoId is recorded even if the thumbnail step below fails.
   const resultPath = join(outputDir, "upload-result.json");
   const uploadResult = {
+    date,
     videoId,
     videoUrl,
     uploadedAt: new Date().toISOString(),
@@ -184,10 +197,12 @@ async function main() {
     openingVariant,
     thumbnail: null,
   };
+  store.update("youtube", { ...uploadResult, status: "succeeded", phase: "published", safeToRetry: false });
   writeFileSync(resultPath, JSON.stringify(uploadResult, null, 2));
 
   // Experiment B: day-specific thumbnail (non-blocking, time-boxed)
   uploadResult.thumbnail = await setThumbnail(youtube, videoId, thumbnailPath);
+  store.update("youtube", { thumbnail: uploadResult.thumbnail });
   writeFileSync(resultPath, JSON.stringify(uploadResult, null, 2));
 
   return { videoId, videoUrl };

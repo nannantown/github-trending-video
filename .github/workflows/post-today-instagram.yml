@@ -1,26 +1,45 @@
-name: Post Today to Instagram
+name: Retry Instagram for Date
 
 on:
   workflow_dispatch:
     inputs:
       date:
-        description: "Date tag (YYYYMMDD). Defaults to today JST."
-        required: false
-        default: ""
-  push:
-    paths:
-      - .retry-ig-trigger
+        description: "Failed posting date (YYYY-MM-DD), with a new posting journal and saved metadata"
+        type: string
+        required: true
+      platform:
+        description: "Explicit retry destination"
+        type: choice
+        options:
+          - instagram
+        required: true
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: sns-posting
+  queue: max
+  cancel-in-progress: false
 
 jobs:
   post:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Checkout
+      - name: Require main and explicit destination
+        env:
+          RETRY_DATE: ${{ inputs.date }}
+          RETRY_PLATFORM: ${{ inputs.platform }}
+        run: |
+          test "$GITHUB_REF" = "refs/heads/main"
+          test "$RETRY_PLATFORM" = "instagram"
+          [[ "$RETRY_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]
+
+      - name: Checkout latest main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,46 +47,52 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Resolve date
-        id: date
+      # The retry transport uses only Node built-ins; no rendering dependencies.
+      - name: Validate calendar date and existing journal
         env:
-          TZ: Asia/Tokyo
+          RETRY_DATE: ${{ inputs.date }}
+          RETRY_PLATFORM: ${{ inputs.platform }}
         run: |
-          DATE="${{ inputs.date }}"
-          if [ -z "$DATE" ]; then
-            DATE=$(date +%Y%m%d)
-          fi
-          echo "date=$DATE" >> $GITHUB_OUTPUT
-          echo "Using date: $DATE"
+          node --input-type=module <<'JS'
+          import { readFileSync } from 'node:fs';
+          import { validateDate, loadState, assertRetryable } from './scripts/posting-state.mjs';
+          const date = validateDate(process.env.RETRY_DATE);
+          assertRetryable(loadState(process.cwd(), date), process.env.RETRY_PLATFORM,
+            JSON.parse(readFileSync('data/performance-history.json', 'utf8')));
+          JS
 
-      - name: Download video from GitHub Release
+      - name: Download exact saved video and metadata
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RETRY_DATE: ${{ inputs.date }}
         run: |
           mkdir -p output
-          DATE="${{ steps.date.outputs.date }}"
-          gh release download "v${DATE}" -p "trending-${DATE}.mp4" -D output/
-          # Cover is optional — older releases may not have it
-          gh release download "v${DATE}" -p "trending-${DATE}-cover.jpg" -D output/ || echo "No cover asset in release (pre-cover_url era)"
+          compact=${RETRY_DATE//-/}
+          gh release download "v${compact}" -p "trending-${compact}.mp4" -D output/
+          gh release download "v${compact}" -p "trending-${compact}-metadata.json" -D output/
 
-      - name: Prepare trending data + captions
+      - name: Check bundle before credentials are used
         env:
-          TZ: Asia/Tokyo
-        run: |
-          node scripts/generate-data.mjs
-          node scripts/generate-caption.mjs
+          RETRY_DATE: ${{ inputs.date }}
+          RETRY_PLATFORM: ${{ inputs.platform }}
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform="$RETRY_PLATFORM" --check
 
-      - name: Upload to Instagram (resumable)
+      - name: Retry only Instagram
         env:
+          RETRY_DATE: ${{ inputs.date }}
+          RETRY_PLATFORM: ${{ inputs.platform }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
-        run: |
-          DATE="${{ steps.date.outputs.date }}"
-          # cover_url intentionally omitted: GitHub Release assets are served
-          # as Content-Type: application/octet-stream, which IG rejects with
-          # code 9004. upload-instagram.mjs falls back to thumb_offset=7000ms.
-          node scripts/upload-instagram.mjs --file="output/trending-${DATE}.mp4"
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform="$RETRY_PLATFORM"
+
+      - name: Preserve posting evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-retry-${{ github.run_id }}
+          path: |
+            data/posting/*.json
+            data/performance-history.json
+            output/trending-*-metadata.json
+          retention-days: 30
