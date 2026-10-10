@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "discovery": {
-    "method": "tech-deep",
-    "description": "本日 TOP5 の 5 本すべてを『何がどこで技術的に効いているか』の内部実装側から説明する。昨日 (comparison・vs 定番 OSS) / 一昨日 (business-angle・受託視点) から角度を切替、素材 80% 重複 2 日目 (4/5 継続) の新鮮度を担保。alibaba/open-code-review が新規に入ったのを機に 5 本すべて tech-deep で深堀り。",
+    "method": "business-angle",
+    "description": "本日 TOP5 を受託・スタートアップ・コンサル視点で料理し、各 OSS が『どの案件で、どのコストを削るか／どの業務に組み込めるか』を Primary ペルソナ (CTO／技術選定を担うエンジニア) に向けて 1 行で提示する。昨日 (tech-deep・内部実装の深さ)、一昨日 (comparison・vs 定番 OSS) から角度を切替、素材 60% 重複 (3/5 継続: rea / AnyPS5 / diagram-design) + 新規 2 本 (artcraft, context-mode) の構成に合わせて事業導入の角度で再料理。10-08 以来 3 日ぶりの business-angle、pool 内 14 日平均 TOP (1051 views, n=4) を exploit。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/morluto/rea",
       "https://github.com/morluto/rea/blob/main/README.md",
       "https://github.com/boykopovar/AnyPS5",
       "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/mattpocock/skills/blob/main/README.md",
+      "https://github.com/storytold/artcraft",
+      "https://github.com/storytold/artcraft/blob/main/README.md",
       "https://github.com/cathrynlavery/diagram-design",
       "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
-      "https://github.com/alibaba/open-code-review",
-      "https://github.com/alibaba/open-code-review/blob/main/README.md"
+      "https://github.com/mksglu/context-mode",
+      "https://github.com/mksglu/context-mode/blob/main/README.md"
     ],
     "query": "",
     "freshness_hours": 1
@@ -26,11 +26,11 @@
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 44251,
-      "todayStars": 15335,
-      "description": "AI連携の逆解析ツール統合MCP",
-      "detail": "Hopper・Ghidra・IDAなど多数の逆解析ツールを単一MCPサーバー下に束ね、AIエージェントが根拠付きで横断分析できます。ELFやAPK、PCAP、PTYキャプチャにも対応、Node.js 22以上が必須です。",
-      "narration": "AIから使える逆解析ツール群の統合バスです。Ghidra、IDA、JADX、PTYを1つのMCP下に束ねます。"
+      "stars": 70877,
+      "todayStars": 25784,
+      "description": "受託診断で使える逆解析AI統合",
+      "detail": "Hopper、Ghidra、IDA、JADXなど複数の逆解析ツールを単一MCP下に束ね、ELFやAPK、.NETアセンブリを根拠付きで横断解析します。解析はローカル完結でMITライセンス、Node.js 22以上が必須です。受託の脆弱性診断や調査案件に組み込める構成です。",
+      "narration": "受託案件の脆弱性診断で使えます。Ghidra、IDA、APK、.NETをローカルで解析し根拠付きで返します。"
     },
     {
       "rank": 2,
@@ -38,23 +38,23 @@
       "name": "AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "language": "C++",
-      "stars": 21975,
-      "todayStars": 5925,
-      "description": "PS5バイナリをPCで動かすリンカー",
-      "detail": "PS5のELF実行ファイルをLinuxやWindowsネイティブ形式に再リンクし、SPIR-Vシェーダを再コンパイルして動かします。Vulkan前提、エミュと違いランタイム常駐はありません。GPL-2.0。",
-      "narration": "PS5の実行ファイルをPCに動かすリンカーです。再リンクとSPIR-V再コンパイルでエミュ無しに動かせます。"
+      "stars": 26581,
+      "todayStars": 5831,
+      "description": "PS5バイナリをPCで動かす移植層",
+      "detail": "PS5のELF実行ファイルをLinuxやWindowsに再リンクし、SPIR-Vシェーダも再コンパイルしてネイティブ動作させます。目的は保存・互換性研究でGPL-2.0、ROMや鍵は配布せず利用者が合法に調達する前提です。ゲーム保存・移植研究の受託に適します。",
+      "narration": "ゲーム保存・移植を扱う研究案件に効きます。PS5バイナリをLinuxに再リンクし、エミュ不要でネイティブ化します。"
     },
     {
       "rank": 3,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 282575,
-      "todayStars": 1696,
-      "description": "AIエージェント向けSkill集",
-      "detail": "Matt Pocockが社内のagentsディレクトリから抽出した小さなSkillの束で、GSDやBMADのような強制フレームワークではなく編集可能、npxひとつでClaude CodeやCodex、Copilotに差し込めます。MIT。",
-      "narration": "Claude Code向けの編集可能なSkill集です。フレームワーク強制ではなく、npxで1つずつ差し替えられます。"
+      "fullName": "storytold/artcraft",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "language": "Rust",
+      "stars": 14307,
+      "todayStars": 3217,
+      "description": "映像制作向けAI統合クリエイティブIDE",
+      "detail": "2Dと3Dで被写体と背景を先に組んでから生成に流す、創作者向けのIDEです。Grok、Midjourney、Sora、World Labsなど約62モデルを横断でき、同じキャラ・構図で連続カットを量産できます。MITまたはApache-2.0のデュアルライセンス。",
+      "narration": "広告・映像制作の受託に効くAI統合IDEです。2Dと3Dで構図を固定し、同じキャラで連続カットを量産できます。"
     },
     {
       "rank": 4,
@@ -62,23 +62,23 @@
       "name": "diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "language": "HTML",
-      "stars": 47803,
-      "todayStars": 1744,
-      "description": "42種の図版を吐くAI向けSkill",
-      "detail": "42種類の図版テンプレをAIエージェントが呼び出し、ブランド色やフォントを反映したHTMLとSVG単体ファイルを出力します。Mermaidや draw.ioのソース読み込みにも対応し、スラッシュコマンドで取り込めます。Apache-2.0。",
-      "narration": "42種の図版テンプレを持つAI向けSkillです。Mermaidと違い、ブランド色を反映したHTMLとSVGを吐きます。"
+      "stars": 48880,
+      "todayStars": 1189,
+      "description": "ブランド適合のAI図版Skill",
+      "detail": "44種類の図版テンプレをAIエージェントが呼び出し、クライアントのサイトから抽出したブランド色とフォントを反映したHTML＋SVG単体ファイルを出力します。npxで即導入でき、PNGやスライド書き出しにも対応、MITライセンスです。",
+      "narration": "コンサル提案資料でそのまま使えるAI図版生成です。クライアントのブランド色で44種類の図を即出力します。"
     },
     {
       "rank": 5,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 45152,
-      "todayStars": 323,
-      "description": "決定論＋LLMのコードレビューCLI",
-      "detail": "AlibabaのGit差分レビューCLIで、レビュー対象の選定とルール照合を決定論的に先回しし、残りの文脈判断だけをLLMエージェントに任せます。Claude Code比で1/9のトークンで動く設計、Apache-2.0。",
-      "narration": "Alibaba公開のレビューCLIです。ファイル選定とルール照合を決定論で固め、残りの判断をLLMに回します。"
+      "fullName": "mksglu/context-mode",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "language": "TypeScript",
+      "stars": 26282,
+      "todayStars": 178,
+      "description": "AIエージェント向け文脈最適化層",
+      "detail": "MCPツール出力をサンドボックス実行して約98%圧縮し、PreCompactなどのhookでセッション状態を永続化します。11種のMCPツールと12言語の実行環境を同梱、Elastic License 2.0。AI開発チームの運用コスト圧縮の土台になります。",
+      "narration": "AI開発チーム向けのMCPコスト削減層です。ツール出力を98%圧縮し、セッション中断後も作業状態を復元します。"
     }
   ]
 }
