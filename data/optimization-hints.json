@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -38,7 +38,7 @@
       "date": "2026-09-22",
       "views": 2773,
       "projects": [],
-      "note": "本日 2026-10-10 は Sat (avg 79、pool 下位帯)、YT 試行 #1 Day 11 / 14 (判定日ではない、次判定日 2026-10-14、残り 4 日の最終週)、YT 配信死亡モード継続 57 日目 (2026-09-14〜、モードは判定日以外の日は変えない)。IG 14d 判定窓 (2026-09-27..10-10、n=11 IG 有効、10-09 分は本日時点 48h ラグで未取得、10-03 は欠落継続): comparison 1072 n=1 (10-06) / business-angle 1024.3 n=4 (09-29 1886 / 10-04 826 / 10-05 765 / 10-08 620) / self-experiment 951 n=3 (10-01 829 / 10-02 OpenShell 1467 NVIDIA news arc 特例 / 10-07 557) / use-case 663.5 n=2 (09-27 692 / 09-28 635) / trend-pattern 607 n=1 (09-30) / ecosystem n=0 (09-26 分 746 は窓から脱落) / tech-deep 14d n=0。**直近 2 日 (10-08 business-angle / 10-09 comparison) 連投 NG で business-angle と comparison を除外**、eligible pool は self-experiment / use-case / trend-pattern / tech-deep の 4 種 (ecosystem は n=0 でパフォーマンス未確定枠)。pool 内 14 日首位は **self-experiment (951 n=3)**、次点 use-case (663.5 n=2) の 1.43 倍優位、三位 trend-pattern (607 n=1)、四位 tech-deep (n=0 explore 枠)。**本日 10-10 (Sat、pool 下位帯 avg 79) は tech-deep を Explore で投入**、6 条件複合最適: (a) pool TOP self-experiment は 10-07 の 60% 重複日で 557 (WORST) を記録した前科あり、本日 80% 重複は 10-07 を超えるためさらに不利、(b) 直近 2 日 business-angle / comparison 連投 NG から別角度への切替、(c) 本日 TOP5 の 4/5 が『AI エージェント周辺で何をどう固めるかの技術レイヤー差』を持ち、tech-deep の『各本の内部実装のキモ』が自然に成立、(d) 新規枠 open-code-review の『決定論＋LLM の多段パイプラインで Claude Code 比 1/9 トークン』は tech-deep 芯の最強素材、(e) tech-deep は 14 日 n=0 で explore 20% 枠に自然収まる、(f) 直近 3 日 (self-experiment → business-angle → comparison) から更に次元の違う角度で、Primary (CTO / 技術選定) に『新興 OSS の内部実装がどう効いているか』の判断材料を提供。**TOP5 lineup**: morluto/rea (TypeScript/44,251★/+15,335、10-08..10-09 の 2 日継続から本日 TOP1 復帰 急伸、Hopper/Ghidra/IDA/ELF/EVM/APK/.NET/PCAP/PTY を単一 MCP に統合、Node.js 22+、Claude Code/Codex/Cursor/Gemini CLI/Grok Build 対応) / boykopovar/AnyPS5 (C++/21,975★/+5,925、**5 日連続 TOP5 の観測史上最長**、昨日の +4,640 の 1.28 倍、PS5 ELF→Linux/Windows ネイティブ再リンク + SPIR-V シェーダ再コンパイル、GPL-2.0) / mattpocock/skills (Shell/282,575★/+1,696、**4 日連続 TOP5**、Matt Pocock 製 agents から抽出した編集可能な Skill 束、GSD/BMAD の rigid 対 npx 1 発差し替えの疎結合設計、MIT) / cathrynlavery/diagram-design (HTML/47,803★/+1,744、**3 日連続 TOP5**、42 種類の図版テンプレ、ブランド色反映の HTML+SVG 単体出力、draw.io/Mermaid/Excalidraw import 対応、Apache-2.0) / **alibaba/open-code-review (Go/45,152★/+323、新規・Alibaba 公式の Git 差分レビュー CLI、決定論的 file 選定＋template rule 照合＋sub-agent isolated context＋position 補正／reflection の多段パイプライン、Claude Code 比 1/9 トークン、GitHub Actions/GitLab CI/GitFlic CI/Gerrit 対応、Apache-2.0)**、素材重複 4/5 (rea / AnyPS5 / skills / diagram-design が 10-09 から継続) + 新規 1/5 (open-code-review) で素材更新率 20%、**10-09 と合わせて 2 日連続 80% の観測史上最長継続**、10-04 SOP の 60% 閾値を 2 日連続で大超過、comparison → tech-deep の 2 連切替で method 新鮮度を連日相殺。5 内部実装軸: rea=多ツール統合 MCP / AnyPS5=再リンク＋SPIR-V 再コンパイル / skills=npx 疎結合 Skill 束 / diagram-design=42 種類テンプレ＋ブランド反映 / open-code-review=決定論レール＋LLM 限定運用 の 5 技術内部軸で揃え、全本『中身がどう効いているか』の実装内部視点で統一。**opening 3 秒フック候補**: 『今日の TOP5 は 4 本が AI エージェントの周辺ツール。それぞれ中身がどう効いてるかを 1 行で並べました』の実装内部宣言型 (前日 10-09 comparison 第三者視座『既存のアレを置き換えに来てる』からの視座切替『置き換え対象 → 中身がどう効いているか』、素材重複 80% の日に視聴者脳内モードを 2 日連続で完全切替)。**10-05 ponytail 再利用事故 -17.6%、paperclip 09-27→09-28 -9.1% の 2 件に加え、10-09 と 10-10 は 2 日連続 80% の最長継続、comparison → tech-deep の 2 連切替で素材重複日 SOP の有効性を 2 日連続で検証**。"
+      "note": "本日 2026-10-11 は Sun (avg 155、pool 中位帯)、YT 試行 #1 Day 12 / 14 (判定日ではない、次判定日 2026-10-14、残り 3 日の最終週逼迫ピーク)、YT 配信死亡モード継続 58 日目 (2026-09-14〜)、IG 判定日は明日 10-12 (Day 14 / 14、判定窓 09-28..10-11)。IG 14d 判定窓 (2026-09-28..10-11、n=11 IG 有効、10-10 分は本日時点 48h ラグで未取得、10-03 は欠落継続): business-angle 1051 n=4 (09-29 1895 / 10-04 843 / 10-05 777 / 10-08 689) / self-experiment 964 n=3 (10-01 837 / 10-02 OpenShell 1479 NVIDIA news arc 特例 / 10-07 576) / comparison 804 n=2 (10-06 1086 / 10-09 522) / use-case 641 n=1 (09-28) / trend-pattern 614 n=1 (09-30) / ecosystem n=0 / tech-deep 14d n=0 (10-10 は 48h ラグで未反映)。**直近 2 日 (10-09 comparison / 10-10 tech-deep) 連投 NG で comparison と tech-deep を除外**、eligible pool は business-angle / self-experiment / use-case / trend-pattern / ecosystem の 5 種。pool 内 14 日首位は **business-angle (1051 n=4)**、次点 self-experiment (964 n=3) の 1.09 倍優位、三位 use-case (641 n=1)、四位 trend-pattern (614 n=1)、五位 ecosystem (n=0 explore 枠)。**本日 10-11 (Sun、pool 中位帯 avg 155) は business-angle を Exploit で投入**、5 条件複合最適: (a) pool 内 14 日 1 位 (1051 n=4、最大サンプル)、(b) 直近 2 日 comparison / tech-deep 連投 NG から別角度への切替、(c) 本日 TOP5 は『受託の脆弱性診断で使える逆解析 (rea)』『ゲーム保存・移植受託 (AnyPS5)』『広告・映像制作の AI 統合 IDE (artcraft)』『コンサル提案資料 (diagram-design)』『AI 開発チームのコスト削減 (context-mode)』の 5 本すべてが Primary (CTO / 技術選定) の『今週の技術選定・案件導入可否』で自然に料理可能、(d) 10-04 素材重複 SOP (60% 以上は前日 method から別角度) を 60% 丁度の本日に適用、tech-deep → business-angle で最大距離の視座切替、(e) business-angle は 10-08 以来 3 日ぶりで cooldown 十分。**TOP5 lineup**: morluto/rea (TypeScript/70,877★/+25,784、**4 日連続 TOP5 の最長記録**、昨日 +15,335 の 1.68 倍の観測史上最大星急伸、Hopper/Ghidra/IDA/JADX/APK/.NET をローカル解析し根拠付きで横断分析、Node.js 22+、MIT、受託の脆弱性診断・調査案件に組み込める) / boykopovar/AnyPS5 (C++/26,581★/+5,831、**6 日連続 TOP5 の記録更新**、昨日 +5,925 の 0.98 倍で高原状態、PS5 ELF→Linux/Windows ネイティブ再リンク + SPIR-V シェーダ再コンパイル、Dreaming Sarah が GTX 1050 Ti で 60fps、GPL-2.0、保存・互換性研究目的で ROM/鍵は非配布) / **storytold/artcraft (Rust/14,307★/+3,217、新規・創作者向け 2D+3D 統合 IDE、Grok/Midjourney/Sora/World Labs など約 62 モデル横断、同一キャラ・同一構図で連続カットを量産、MIT または Apache-2.0 デュアル、安定ビルドは Windows/macOS、Linux はソースビルド)** / cathrynlavery/diagram-design (HTML/48,880★/+1,189、**4 日連続 TOP5**、44 種類の図版テンプレを AI エージェントが呼び、ブランド色・フォント自動反映の HTML+SVG 単体出力、クライアント URL からブランド抽出、`npx skills add` 一発導入、MIT) / **mksglu/context-mode (TypeScript/26,282★/+178、新規・MCP ツール出力をサンドボックス実行して 98% 圧縮 (315KB→5.4KB の自己報告例)、PreToolUse/PostToolUse/PreCompact などの hook でセッション状態を永続化、11 種 MCP ツール + 12 言語実行環境を同梱、Elastic License 2.0、AI 開発チーム・分析ダッシュボード付き)**、素材重複 3/5 (rea / AnyPS5 / diagram-design が 10-10 から継続) + 新規 2/5 (artcraft / context-mode) で素材更新率 40%、**10-09・10-10 の 2 日連続 80% からは離脱、60% は 10-04 SOP の閾値ちょうど**、tech-deep → business-angle の切替で method 新鮮度を確保。5 事業導入軸: rea=受託の脆弱性診断 / AnyPS5=保存・移植研究の受託 / artcraft=広告・映像制作の受託 / diagram-design=コンサル提案資料 / context-mode=AI 開発チームのコスト削減 の 5 事業軸で揃え、全本『どの業務／案件で何を削るか／組み込めるか』の事業導入視点で統一。**opening 3 秒フック候補**: 『今日の TOP5 は 5 本とも、どの案件でどのコストを削るかで並べられます』の事業導入宣言型 (前日 10-10 tech-deep『内部実装のキモ』からの視座切替『実装内部 → 案件導入可否』、素材重複 60% の日に視聴者脳内モードを完全切替)。**明日 10-12 は IG 判定日 (Day 15 → 判定日、判定窓 09-28..10-11)、本日の投稿データが明日の判定の母数に入るため本日の narration 品質は判定数値に直結**。"
     }
   },
   "hints": {
@@ -66,8 +66,8 @@
     ]
   },
   "todayRecommendations": {
-    "date": "2026-10-10",
-    "dayOfWeek": "Sat",
+    "date": "2026-10-11",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
@@ -77,48 +77,41 @@
       "技術選定",
       "GitHub",
       "Trending",
+      "受託",
+      "スタートアップ",
+      "コンサル",
       "rea",
       "morluto",
-      "RE",
+      "逆解析",
       "Ghidra",
       "IDA",
-      "Hopper",
-      "MCP",
-      "ClaudeCode",
-      "Codex",
+      "脆弱性診断",
       "AnyPS5",
       "boykopovar",
       "PS5",
-      "SPIRV",
-      "Vulkan",
-      "Linux",
-      "Windows",
-      "再リンク",
-      "skills",
-      "mattpocock",
-      "GSD",
-      "BMAD",
-      "SpecKit",
-      "npx",
-      "Skill配布",
+      "ゲーム保存",
+      "artcraft",
+      "storytold",
+      "AIクリエイティブ",
+      "映像制作",
+      "広告制作",
       "diagramdesign",
       "cathrynlavery",
-      "Mermaid",
-      "drawio",
       "ブランド図版",
-      "opencodereview",
-      "Alibaba",
-      "Go",
-      "コードレビュー",
-      "決定論",
-      "LLM",
+      "提案資料",
+      "contextmode",
+      "mksglu",
+      "MCP",
+      "コスト削減",
+      "トークン効率",
       "TypeScript",
-      "Shell",
-      "Cplusplus",
+      "Rust",
       "HTML",
-      "内部実装",
-      "技術深堀り"
+      "Cplusplus",
+      "ClaudeCode",
+      "AIエージェント",
+      "事業導入"
     ],
-    "focus": "土曜 (Sat=avg 79、pool 下位帯) は YT 配信死亡モード継続 57 日目、YT 試行 #1 Day 11 / 14 (判定日ではない、次判定日 2026-10-14、Studio 値待ち遅延判定継続、残り 4 日の最終週)。IG 指標のみで method 選定、直近 2 日連投 NG (10-08 business-angle / 10-09 comparison) 除外で business-angle と comparison は選定不可、eligible pool は self-experiment / use-case / trend-pattern / tech-deep の 4 種 (ecosystem は n=0)。pool TOP self-experiment (951 n=3) は 10-07 の 60% 重複日 557 WORST 前科あり、本日 80% 重複はさらに不利で Exploit 選定は不確実性が高い。**tech-deep を Explore 選定**: (a) pool TOP self-experiment は 10-07 WORST 前科あり本日 80% 重複でさらに不利、(b) 直近 2 日 business-angle / comparison 連投 NG から別角度への切替、(c) 本日 4/5 が AI エージェント周辺で内部実装の違いが明確、tech-deep が自然に成立、(d) 新規枠 open-code-review の『決定論＋LLM 多段パイプライン』は tech-deep 芯の最強素材、(e) tech-deep は 14 日 n=0 で explore 20% 枠に自然収まる、(f) 直近 3 日の method から更に次元の違う角度で Primary (CTO/技術選定) に『内部実装がどう効いているか』の判断材料を提供。今日の TOP5 は 10-09 からの素材重複 4/5 (rea 2 日継続から本日 TOP1 復帰 急伸 +15,335 / AnyPS5 5 日連続 TOP5 の最長記録 +5,925 / skills 4 日連続 TOP5 +1,696 / diagram-design 3 日連続 TOP5 +1,744) + 新規 1/5 (open-code-review が Alibaba 公式の決定論＋LLM ハイブリッド型レビュー CLI、Apache-2.0、Claude Code 比 1/9 トークンを謳う)、素材更新率 20%、**10-09 と合わせて 2 日連続 80% の観測史上最長継続**、5 本すべてが『中身がどう効いているか』の内部実装軸を持つ。5 技術内部軸 (多ツール統合 MCP / 再リンク+SPIR-V / npx 疎結合 Skill 束 / 42 種類テンプレ+ブランド反映 / 決定論レール+LLM 限定) で切る。comparison→**tech-deep** のスコープ切替、Sat の下位帯 pool で濃い技術内容で視聴時間を稼ぐ戦略。language ミックス: TypeScript 1 + C++ 1 + Shell 1 + HTML 1 + Go 1 (5 言語 5 本、TypeScript 1.1×1、C++ 0.8×1、Shell 1.0×1、HTML 1.0×1、Go 1.0×1、平均 multiplier 0.98)。narration は 5 本すべてを『中身がどう効いているか』技術内部視点で統一、5 本合計 283 文字 (55+54+59+60+55) で TTS +30% 換算約 50 秒、opening/ending 5-7 秒込み約 55 秒で IG Reels 60 秒制約内。柱ローテ: 今週 (Mon 10-05..Sun 10-11) は 10-05 (柱②) / 10-06 (柱①) / 10-07 (柱③) / 10-08 (柱②) / 10-09 (柱①) 消化、週 1 本の柱②/③ ルール既に充足、本日 10-10 (Sat) は柱①で自由配置。opening 3 秒フック『今日の TOP5 は 4 本が AI エージェントの周辺ツール。それぞれ中身がどう効いてるかを 1 行で並べました』を method-agnostic 施策として本日投入試行 (前日 comparison 第三者視座からの視座切替『置き換え対象 → 中身がどう効いているか』、素材重複 80% の日に視聴者脳内モードを 2 日連続で完全切替、Sat の下位帯 pool で濃い技術内容で視聴時間を稼ぐ)。**YT 試行 #1 Day 11 / 14**: `data/studio-retention.json` の treatment は本日時点も null、supply の Studio 値投入待ちで遅延判定継続、10-14 の第 2 判定日までに投入する運用の再確認、残り 4 日の最終週。**#3 skills (自分の .agents 系の設計参考) と #5 open-code-review (sns-hub の自動レビューの参考モデル) は自身の運用の直接改善候補**として narration の技術内部軸に入る OSS として『中の人は実装内部まで読んで新興 OSS を評価している人』の記憶を残す中心軸。**素材重複日 SOP の 2 日連続最長継続日検証機会**: 10-09 と 10-10 の 2 日連続 80% は観測史上最長、comparison → tech-deep の 2 連切替で素材重複日 SOP の有効性を 2 日連続で直接検証、SOP 戦略ドキュメント追記提案を本日 PDCA (c) で明記 (4 回目継続)。**`missing-daily-content-alert.yml` 再発防止格上げ**: 10-01 PDCA 戦略更新提案 (a) の優先度を 10-03 / 10-04 / 10-06 / 10-07 / 10-08 / 10-09 に続き本日も再言及、7 回連続提案で優先度最高帯。"
+    "focus": "日曜 (Sun=avg 155、pool 中位帯) は YT 配信死亡モード継続 58 日目 (2026-09-14〜)、YT 試行 #1 Day 12 / 14 (判定日ではない、次判定日 2026-10-14、Studio 値待ち遅延判定継続、残り 3 日の最終週逼迫ピーク)、IG 判定日は明日 10-12 (Day 14 / 14、判定窓 09-28..10-11)。IG 指標のみで method 選定、直近 2 日連投 NG (10-09 comparison / 10-10 tech-deep) 除外で comparison と tech-deep は選定不可、eligible pool は business-angle / self-experiment / use-case / trend-pattern / ecosystem の 5 種。pool 内 14 日首位は business-angle (1051 n=4、最大サンプル)、次点 self-experiment (964 n=3) の 1.09 倍優位。**business-angle を Exploit 選定**: (a) pool 内 14 日 1 位 (1051 n=4、最大サンプル)、(b) 直近 2 日 comparison / tech-deep 連投 NG から別角度への切替、(c) 本日 TOP5 の 5 本すべてが『受託／コンサル／スタートアップ案件』で自然に料理可能、(d) 10-04 素材重複 SOP (60% 以上は前日 method から別角度) を 60% 丁度の本日に適用、tech-deep → business-angle で最大距離の視座切替、(e) business-angle は 10-08 以来 3 日ぶりで cooldown 十分。今日の TOP5 は 10-10 からの素材重複 3/5 (rea 4 日連続 TOP5 の最長記録 +25,784 の観測史上最大星急伸 / AnyPS5 6 日連続 TOP5 の記録更新 +5,831 / diagram-design 4 日連続 TOP5 +1,189) + 新規 2/5 (artcraft が創作者向け 2D+3D IDE 約 62 モデル横断、context-mode が MCP ツール出力 98% 圧縮 + hook でセッション永続化)、素材更新率 40%、**10-09・10-10 の 2 日連続 80% からは離脱、60% は 10-04 SOP の閾値ちょうど**、5 本すべてが『どの業務／案件で何を削るか／組み込めるか』の事業導入軸を持つ。5 事業導入軸 (受託の脆弱性診断 / 保存・移植研究の受託 / 広告・映像制作の受託 / コンサル提案資料 / AI 開発チームのコスト削減) で切る。tech-deep → **business-angle** のスコープ切替、Sun の中位帯 pool で Primary (CTO) の『来週の技術選定・案件導入可否』マインドに事業導入視点を混ぜ込む戦略。language ミックス: TypeScript 2 + C++ 1 + Rust 1 + HTML 1 (4 言語 5 本、TypeScript 1.1×2、C++ 0.8×1、Rust 0.7×1、HTML 1.0×1、平均 multiplier 0.94)。narration は 5 本すべてを『どの業務／案件で何を削るか／組み込めるか』事業導入視点で統一、5 本合計 273 文字 (54+57+55+52+55) で TTS +30% 換算約 48 秒、opening/ending 5-7 秒込み約 55 秒で IG Reels 60 秒制約内。柱ローテ: 今週 (Mon 10-05..Sun 10-11) は 10-05 (柱②) / 10-06 (柱①) / 10-07 (柱③) / 10-08 (柱②) / 10-09 (柱①) / 10-10 (柱①) 消化、週 1 本の柱②/③ ルール既に充足、本日 10-11 (Sun) で柱②週内 3 回目の異例運用 (素材重複 60% + 直近 2 日 NG + pool 首位の 3 条件複合で例外発動、来週 10-12 Mon 以降は柱①中心に戻す)。opening 3 秒フック『今日の TOP5 は 5 本とも、どの案件でどのコストを削るかで並べられます』を method-agnostic 施策として本日投入試行 (前日 tech-deep 内部実装視座からの視座切替『実装内部 → 案件導入可否』、素材重複 60% の日に視聴者脳内モードを完全切替、Sun の中位帯 pool で事業導入視点で視聴時間を稼ぐ)。**明日 10-12 は IG 判定日**: 本日の投稿データが明日の判定の母数に入るため本日の narration 品質は判定数値に直結、tech-deep → business-angle の切替効果を最大化するため冒頭フックの事業導入宣言を強調。**YT 試行 #1 Day 12 / 14**: `data/studio-retention.json` の treatment は本日時点も null、supply の Studio 値投入待ちで遅延判定継続、10-14 の第 2 判定日までに投入する運用の再確認、残り 3 日の最終週逼迫ピーク、8 回連続提案で最優先対応案件。**#1 rea (sns-hub の自動セキュリティ監査の参考モデル) と #5 context-mode (Claude Code のコスト削減土台の直接参考モデル) は自身の運用の直接改善候補**として narration の事業導入軸に入り『中の人は実案件で削るコスト視点で新興 OSS を評価している人』の記憶を残す中心軸。**素材重複日 SOP の 60% 閾値ちょうど日検証機会**: 10-09・10-10 の 2 日連続 80% からの離脱日、tech-deep → business-angle の切替で素材重複日 SOP の有効性を 60% 閾値ちょうどで直接検証、SOP 戦略ドキュメント追記提案を本日 PDCA (c) で明記 (5 回目継続)。**`missing-daily-content-alert.yml` 再発防止格上げ**: 10-01 PDCA 戦略更新提案 (a) の優先度を 10-03 / 10-04 / 10-06 / 10-07 / 10-08 / 10-09 / 10-10 に続き本日も再言及、8 回連続提案で優先度最高帯。"
   }
 }
