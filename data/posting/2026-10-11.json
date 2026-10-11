@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "c546a0c5-0649-4d88-aa24-ffad76545e9f",
       "attempts": 1,
-      "updatedAt": "2026-10-11T01:26:04.295Z",
+      "updatedAt": "2026-10-11T01:26:06.015Z",
       "date": "2026-10-11",
       "videoId": "IXJmoXabYiI",
       "videoUrl": "https://youtube.com/shorts/IXJmoXabYiI",
@@ -19,11 +19,14 @@
       "title": "rea — 受託診断で使える逆解析AI統合｜GitHub Trending TOP5 10/11",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-11T01:26:04.295Z"
+  "updatedAt": "2026-10-11T01:26:06.015Z"
 }
