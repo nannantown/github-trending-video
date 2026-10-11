@@ -5671,8 +5671,8 @@
     },
     {
       "date": "2026-10-11",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "IXJmoXabYiI",
+      "videoUrl": "https://youtube.com/shorts/IXJmoXabYiI",
       "title": "rea — 受託診断で使える逆解析AI統合｜GitHub Trending TOP5 10/11",
       "titleTemplate": "top1",
       "hashtags": [
@@ -5731,17 +5731,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "c546a0c5-0649-4d88-aa24-ffad76545e9f",
           "attempts": 1,
-          "updatedAt": "2026-10-11T01:25:59.224Z"
+          "updatedAt": "2026-10-11T01:26:04.295Z",
+          "date": "2026-10-11",
+          "videoId": "IXJmoXabYiI",
+          "videoUrl": "https://youtube.com/shorts/IXJmoXabYiI",
+          "uploadedAt": "2026-10-11T01:26:04.295Z",
+          "title": "rea — 受託診断で使える逆解析AI統合｜GitHub Trending TOP5 10/11",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
