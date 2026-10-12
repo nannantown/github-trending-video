@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日 TOP5 (4/5 が昨日と重複、素材重複率 80%、新規は gods-eye-view のみ) を『実際に clone / npm install / 起動して触った』第一人称視点で料理する。rea / AnyPS5 / artcraft / diagram-design は business → comparison → tech-deep → business と 4〜5 連で角度切替してきた中、self-experiment だけがまだ未使用の最後の切替角度。pool 内 14 日平均 2 位 (978 views, n=3) を exploit、週 1 必須の柱③を Mon 冒頭で消化。10-07 以来 5 日ぶりの self-experiment、素材重複 80% の高重複日 SOP (10-10 tech-deep=1919 / 10-09 comparison=582 の分岐を踏まえ、冒頭フックで『今日は 5 本全部、実際にローカルで動かしました』の第一人称宣言で視座完全切替)。",
+    "method": "tech-deep",
+    "description": "本日 TOP5 (3/5 継続 rea / artcraft / gods-eye-view、素材重複率 60%、新規 2/5 mksglu/context-mode と open-webui/open-webui) を各リポの内部実装・アーキテクチャから料理する。rea は Hopper/Ghidra/IDA/JADX/pwntools 等を 1 つの MCP サーバで束ねる統合層 + 証拠と限界の正規化、gods-eye-view は CesiumJS + SGP4 + GMST 整合 + 鍵なし 17 層 + サーバ側プロキシ (SSRF 対策)、context-mode は 11 の MCP ツールと 6 ライフサイクルフックで subprocess 隔離 + SQLite FTS5/BM25/RRF 検索 + PreCompact 2KB 圧縮、artcraft は Rust + SQLx + 2D/3D canvas で 62 モデルを横断、open-webui は Python 層が Ollama + OpenAI 互換を橋渡し + Filters/Actions/Pipes/Tools/Skills の 5 種拡張 + 9 ベクタ DB の自前 RAG + Redis 水平スケール。IG 判定窓 09-29..10-12 で pool TOP の tech-deep (2149 n=1、10-10 の TOP) を 3 日 cooldown で再投入 (直近 2 日 10-12 self-experiment / 10-11 business-angle 連投 NG から別角度)、Tue (avg 361、Mon の avg 61 より 5.9 倍) で Primary=CTO/技術選定の『今週の技術選定材料』マインドに内部実装の密度を投入。10-11 から 10-12 の 60%→80% ジグザグ軌道が 10-13 で 60% に戻った構造変化日 (AnyPS5 / diagram-design が TOP5 退場、新規 context-mode / open-webui が参入)、素材リセット部分達成。YT 試行 #1 は本日 Day 14 / 14、判定日 2026-10-14 まで残り 1 日の最終局面、Studio 値 (treatment) は依然 null で供給待ちリマインドが締切前日のピーク。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/morluto/rea",
       "https://github.com/morluto/rea/blob/main/README.md",
-      "https://github.com/boykopovar/AnyPS5",
-      "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
+      "https://github.com/bilawalsidhu/gods-eye-view",
+      "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
+      "https://github.com/mksglu/context-mode",
+      "https://github.com/mksglu/context-mode/blob/main/README.md",
       "https://github.com/storytold/artcraft",
       "https://github.com/storytold/artcraft/blob/main/README.md",
-      "https://github.com/cathrynlavery/diagram-design",
-      "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
-      "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md"
+      "https://github.com/open-webui/open-webui",
+      "https://github.com/open-webui/open-webui/blob/main/README.md"
     ],
     "query": "",
     "freshness_hours": 1
@@ -26,59 +26,59 @@
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 101865,
-      "todayStars": 25585,
-      "description": "触って解析した逆解析ツール統合",
-      "detail": "cloneしてnpm installで即起動し、APKに逆解析をかけたらGhidra、JADX、IDAの結果が根拠付きで同時に返りました。.NETアセンブリやELFも1枚のMCP下で横断でき、Node.js 22以上があればローカル完結です。MITで案件にも持ち込めます。",
-      "narration": "実際にreaを入れてAPKを解析してみました。Ghidra、IDA、JADXが根拠付きで同時にローカルで動きます。"
+      "stars": 153842,
+      "todayStars": 45495,
+      "description": "HopperやGhidraを束ねる統合MCP",
+      "detail": "Hopper、Ghidra、IDAなどの主要RE工具をMCP越しに統合します。Androidや.NET、EVM、Goバイナリを横断でき、結果は根拠と限界込みで正規化されます。Node.js 22以上でローカル動作します。",
+      "narration": "HopperもGhidraもIDAも1つのMCPから呼べる統合層です。reaは証拠と限界を正規化して返します。"
     },
     {
       "rank": 2,
-      "fullName": "boykopovar/AnyPS5",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "language": "C++",
-      "stars": 29895,
-      "todayStars": 3977,
-      "description": "触って動いたPS5バイナリ移植層",
-      "detail": "PS5のELFをLinuxとWindowsに再リンクし、SPIR-Vシェーダも再コンパイルしてネイティブ実行まで動かせました。目的は保存と互換性研究でGPL-2.0、ROMや鍵は配布されず利用者が合法に調達する前提です。エミュレータ不要の挙動を確認できます。",
-      "narration": "実際にPS5のELFバイナリをLinuxに移植してみました。SPIR-Vシェーダも再コンパイルされて動きます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "storytold/artcraft",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "language": "Rust",
-      "stars": 17668,
-      "todayStars": 2956,
-      "description": "触って試した創作AI統合IDE",
-      "detail": "WindowsとmacOSは配布バイナリ、Linuxはソースビルドで入れました。Grok、Midjourney、Sora、World Labsなど約62モデルを横断でき、2Dと3Dで構図を固定したまま連続カットを量産できます。MITまたはApache-2.0です。",
-      "narration": "実際にArtCraftで同じキャラの連続カットを作ってみました。2Dと3Dで構図を固定してGrokやSoraに流せます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "language": "HTML",
-      "stars": 50239,
-      "todayStars": 1083,
-      "description": "触って出せたAI図版Skill",
-      "detail": "npx skills addだけでClaude CodeやCursor、Codex、Copilotに入り、構成図を日本語で頼むと44種類から選んで単体HTMLが出ました。APIキーもconfigも不要で、ブランドURLを渡せば色とフォントが揃います。MITで即導入できます。",
-      "narration": "npxで入れてClaude Codeに構成図を頼みました。44種類から選び、単体HTMLがその場で出ます。"
-    },
-    {
-      "rank": 5,
       "fullName": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 51548,
-      "todayStars": 872,
-      "description": "cloneで動いた衛星シミュレータ",
-      "detail": "cloneしてnpm run devだけで3Dグローブが立ち上がり、OpenSkyの飛行機、CelesTrakの衛星838機、USGSの地震などが本物のまま流れます。APIキー不要の層でも成立し、CesiumJS製でMITです。地理可視化の自作にも流用できます。",
-      "narration": "cloneしてnpm run devで動きました。OpenSkyの飛行機とCelesTrak衛星がブラウザで流れます。"
+      "stars": 53552,
+      "todayStars": 1903,
+      "description": "17層が鍵なしで動く衛星可視化",
+      "detail": "CesiumJSで3Dグローブを描き、OpenSkyの飛行機やCelesTrakの衛星838機をSGP4で動かします。17層が鍵なしで動き、OpenAIのRealtime APIで音声操作もできます。",
+      "narration": "CesiumJSで衛星838機をSGP4で描き、鍵なし17層のまま3Dグローブが動きます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "mksglu/context-mode",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "language": "TypeScript",
+      "stars": 27230,
+      "todayStars": 394,
+      "description": "MCP出力を98%削るsubprocess層",
+      "detail": "MCPツールの出力をsubprocessに隔離し、stdoutだけをコンテキストに戻します。SQLite+FTS5でセッションを保存し、PreCompactで2KB以下に圧縮します。17エージェントで動きます。",
+      "narration": "MCPの出力をsubprocessで隔離し、315KBを5.4KBに圧縮します。意図で必要箇所だけ返せます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "storytold/artcraft",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "language": "Rust",
+      "stars": 21741,
+      "todayStars": 4106,
+      "description": "62のAIモデルを束ねるRust製IDE",
+      "detail": "Grok、Midjourney、Sora、World Labsなど62モデルを1つのcanvasで束ねます。2D素材と3D構図を同じキャラで固定でき、Rust製バイナリで配布されます。",
+      "narration": "Rust製のcanvas層に62のAIモデルを束ね、2Dと3Dで構図を保ったまま量産できます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "open-webui/open-webui",
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "language": "Python",
+      "stars": 154914,
+      "todayStars": 142,
+      "description": "OllamaとOpenAIを束ねるUI基盤",
+      "detail": "OllamaとOpenAI互換APIを1つのUIに束ね、Filtersなど5種類の拡張でPythonから機能を足します。9種のベクターDBとBM25混成のRAGを自前で持ち、Redisで水平スケールできます。",
+      "narration": "OllamaもOpenAIも1画面に束ね、Filtersなど5種の拡張とRAGを自前で持ちます。"
     }
   ]
 }
