@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "a73a1a30-4052-439f-88c6-6c977732da6d",
       "attempts": 1,
-      "updatedAt": "2026-10-12T01:56:40.072Z",
+      "updatedAt": "2026-10-12T01:56:41.436Z",
       "date": "2026-10-12",
       "videoId": "mTQAlo25R0M",
       "videoUrl": "https://youtube.com/shorts/mTQAlo25R0M",
@@ -19,11 +19,14 @@
       "title": "rea — 触って解析した逆解析ツール統合｜GitHub Trending TOP5 10/12",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-12T01:56:40.072Z"
+  "updatedAt": "2026-10-12T01:56:41.436Z"
 }
