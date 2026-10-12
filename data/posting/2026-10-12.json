@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "a73a1a30-4052-439f-88c6-6c977732da6d",
       "attempts": 1,
-      "updatedAt": "2026-10-12T01:56:41.436Z",
+      "updatedAt": "2026-10-12T01:56:42.566Z",
       "date": "2026-10-12",
       "videoId": "mTQAlo25R0M",
       "videoUrl": "https://youtube.com/shorts/mTQAlo25R0M",
@@ -28,5 +28,5 @@
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-12T01:56:41.436Z"
+  "updatedAt": "2026-10-12T01:56:42.566Z"
 }
