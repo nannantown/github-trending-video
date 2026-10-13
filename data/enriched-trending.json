@@ -1,20 +1,17 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "discovery": {
-    "method": "tech-deep",
-    "description": "本日 TOP5 (3/5 継続 rea / artcraft / gods-eye-view、素材重複率 60%、新規 2/5 mksglu/context-mode と open-webui/open-webui) を各リポの内部実装・アーキテクチャから料理する。rea は Hopper/Ghidra/IDA/JADX/pwntools 等を 1 つの MCP サーバで束ねる統合層 + 証拠と限界の正規化、gods-eye-view は CesiumJS + SGP4 + GMST 整合 + 鍵なし 17 層 + サーバ側プロキシ (SSRF 対策)、context-mode は 11 の MCP ツールと 6 ライフサイクルフックで subprocess 隔離 + SQLite FTS5/BM25/RRF 検索 + PreCompact 2KB 圧縮、artcraft は Rust + SQLx + 2D/3D canvas で 62 モデルを横断、open-webui は Python 層が Ollama + OpenAI 互換を橋渡し + Filters/Actions/Pipes/Tools/Skills の 5 種拡張 + 9 ベクタ DB の自前 RAG + Redis 水平スケール。IG 判定窓 09-29..10-12 で pool TOP の tech-deep (2149 n=1、10-10 の TOP) を 3 日 cooldown で再投入 (直近 2 日 10-12 self-experiment / 10-11 business-angle 連投 NG から別角度)、Tue (avg 361、Mon の avg 61 より 5.9 倍) で Primary=CTO/技術選定の『今週の技術選定材料』マインドに内部実装の密度を投入。10-11 から 10-12 の 60%→80% ジグザグ軌道が 10-13 で 60% に戻った構造変化日 (AnyPS5 / diagram-design が TOP5 退場、新規 context-mode / open-webui が参入)、素材リセット部分達成。YT 試行 #1 は本日 Day 14 / 14、判定日 2026-10-14 まで残り 1 日の最終局面、Studio 値 (treatment) は依然 null で供給待ちリマインドが締切前日のピーク。",
+    "method": "business-angle",
+    "description": "本日のTOP5を受託・スタートアップ視点で切り、各OSSで『月いくら削れるか / 自前化で何が内製化できるか』を数字で言語化する角度",
     "sources": [
-      "https://github.com/trending",
       "https://github.com/morluto/rea",
-      "https://github.com/morluto/rea/blob/main/README.md",
       "https://github.com/bilawalsidhu/gods-eye-view",
-      "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
+      "https://github.com/debpalash/VoiceStudio",
       "https://github.com/mksglu/context-mode",
-      "https://github.com/mksglu/context-mode/blob/main/README.md",
-      "https://github.com/storytold/artcraft",
-      "https://github.com/storytold/artcraft/blob/main/README.md",
-      "https://github.com/open-webui/open-webui",
-      "https://github.com/open-webui/open-webui/blob/main/README.md"
+      "https://github.com/cathrynlavery/diagram-design",
+      "https://github.com/trending",
+      "https://news.ycombinator.com/from?site=github.com/morluto",
+      "https://news.ycombinator.com/from?site=github.com/open-webui"
     ],
     "query": "",
     "freshness_hours": 1
@@ -26,11 +23,11 @@
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 153842,
-      "todayStars": 45495,
-      "description": "HopperやGhidraを束ねる統合MCP",
-      "detail": "Hopper、Ghidra、IDAなどの主要RE工具をMCP越しに統合します。Androidや.NET、EVM、Goバイナリを横断でき、結果は根拠と限界込みで正規化されます。Node.js 22以上でローカル動作します。",
-      "narration": "HopperもGhidraもIDAも1つのMCPから呼べる統合層です。reaは証拠と限界を正規化して返します。"
+      "stars": 205127,
+      "todayStars": 54706,
+      "description": "受託診断で使える統合逆解析MCP",
+      "detail": "Hopper・Ghidra・IDA・JADX・pwntoolsなどを1つのMCPサーバに統合。Claude CodeやCursorから直接呼べ、脆弱性診断レポート作成を週単位で圧縮できます。",
+      "narration": "受託診断でHopperやGhidraを1つのMCPで束ねられます。レポート作成が週10時間短縮できます。"
     },
     {
       "rank": 2,
@@ -38,47 +35,47 @@
       "name": "gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "language": "JavaScript",
-      "stars": 53552,
-      "todayStars": 1903,
-      "description": "17層が鍵なしで動く衛星可視化",
-      "detail": "CesiumJSで3Dグローブを描き、OpenSkyの飛行機やCelesTrakの衛星838機をSGP4で動かします。17層が鍵なしで動き、OpenAIのRealtime APIで音声操作もできます。",
-      "narration": "CesiumJSで衛星838機をSGP4で描き、鍵なし17層のまま3Dグローブが動きます。"
+      "stars": 55266,
+      "todayStars": 1961,
+      "description": "鍵なしで動く衛星可視化3Dグローブ",
+      "detail": "CesiumJSとSGP4で838機の衛星を3D地球に描画。17/20層が鍵不要で動き、物流や位置情報SaaSのプロトタイプを有償契約なしで試作でき、受託初期の調査フェーズで数十万円の初期費を圧縮できます。",
+      "narration": "衛星データ可視化がCesiumJSの有償契約なしで動きます。物流プロトでライセンス費を月数万円圧縮できます。"
     },
     {
       "rank": 3,
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 63056,
+      "todayStars": 2277,
+      "description": "ElevenLabs代替の完全ローカル音声AI",
+      "detail": "646言語のTTS・声クローン・吹き替え・文字起こしをローカルで完結。ElevenLabsの月額SaaSを削って自前パイプラインに置換でき、音声系の受託で月額API費と使用量従量をまるごと圧縮できます。",
+      "narration": "ElevenLabsの月額契約をローカル完結で代替できます。646言語のTTSと吹き替えで月数万円削れます。"
+    },
+    {
+      "rank": 4,
       "fullName": "mksglu/context-mode",
       "name": "context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "language": "TypeScript",
-      "stars": 27230,
-      "todayStars": 394,
-      "description": "MCP出力を98%削るsubprocess層",
-      "detail": "MCPツールの出力をsubprocessに隔離し、stdoutだけをコンテキストに戻します。SQLite+FTS5でセッションを保存し、PreCompactで2KB以下に圧縮します。17エージェントで動きます。",
-      "narration": "MCPの出力をsubprocessで隔離し、315KBを5.4KBに圧縮します。意図で必要箇所だけ返せます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "storytold/artcraft",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "language": "Rust",
-      "stars": 21741,
-      "todayStars": 4106,
-      "description": "62のAIモデルを束ねるRust製IDE",
-      "detail": "Grok、Midjourney、Sora、World Labsなど62モデルを1つのcanvasで束ねます。2D素材と3D構図を同じキャラで固定でき、Rust製バイナリで配布されます。",
-      "narration": "Rust製のcanvas層に62のAIモデルを束ね、2Dと3Dで構図を保ったまま量産できます。"
+      "stars": 28173,
+      "todayStars": 978,
+      "description": "17エージェント対応のcontext層",
+      "detail": "MCP出力をsubprocessで隔離し315KBを5.4KBに圧縮。SQLiteのFTS5検索で必要箇所だけ返すのでトークン費を98%削減でき、Claude CodeやCursorを並走させる受託現場で月数万円のAPI費が浮きます。",
+      "narration": "AIコーディングのトークン費を98%削減できます。17エージェント横断で月数万円のAPI費が浮きます。"
     },
     {
       "rank": 5,
-      "fullName": "open-webui/open-webui",
-      "name": "open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "language": "Python",
-      "stars": 154914,
-      "todayStars": 142,
-      "description": "OllamaとOpenAIを束ねるUI基盤",
-      "detail": "OllamaとOpenAI互換APIを1つのUIに束ね、Filtersなど5種類の拡張でPythonから機能を足します。9種のベクターDBとBM25混成のRAGを自前で持ち、Redisで水平スケールできます。",
-      "narration": "OllamaもOpenAIも1画面に束ね、Filtersなど5種の拡張とRAGを自前で持ちます。"
+      "fullName": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars": 54006,
+      "todayStars": 1813,
+      "description": "AI用44種類の図表テンプレ集",
+      "detail": "提案書や報告書で使える44種類の図を、Mermaid不要の自己完結HTML/SVGで出力。AIコーディング相性が高く、デザイン外注費を案件ごとに1〜2万円削減でき、提案資料の内製スピードも体感2倍に上がります。",
+      "narration": "提案書の図作成をAIで完全内製化できます。デザイン外注費が案件ごとに1〜2万円浮きます。"
     }
   ]
 }
