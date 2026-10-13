@@ -1,5 +1,5 @@
 /**
- * Generate TTS narration using Edge TTS (Microsoft Neural voices)
+ * Generate TTS narration using Edge TTS (Microsoft Neural voices, scripts/edge-tts.mjs)
  * Voice: ja-JP-NanamiNeural (female) or ja-JP-KeitaNeural (male)
  * Output: public/audio/*.mp3 + output/audio-durations.json
  *
@@ -9,7 +9,7 @@
  *   node scripts/generate-audio.mjs --voice=keita           # male voice
  */
 
-import { Communicate } from "edge-tts-universal";
+import { synthesizeOnce } from "./edge-tts.mjs";
 import { readFileSync, writeFileSync, mkdirSync, statSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
@@ -82,39 +82,32 @@ function getAudioDuration(filePath) {
   return Math.round((size / 6000) * 100) / 100;
 }
 
+// Each attempt gets TTS_TIMEOUT_MS; after TTS_ATTEMPTS failures the script
+// exits 1 saying how long it waited and how often it tried (it must never
+// exit 0 without writing audio-durations.json, as it did on 2026-10-13).
+const TTS_TIMEOUT_MS = 30_000;
+const TTS_ATTEMPTS = 4;
+
 async function synthesize(text, outputPath) {
-  for (let attempt = 0; attempt < 3; attempt++) {
+  const errors = [];
+  for (let attempt = 1; attempt <= TTS_ATTEMPTS; attempt++) {
     try {
-      const comm = new Communicate(text, {
+      const { audio, words } = await synthesizeOnce(text, {
         voice: voiceName,
         rate: "+30%",
-        pitch: "+0Hz",
+        timeoutMs: TTS_TIMEOUT_MS,
       });
-
-      const audioChunks = [];
-      const wordBoundaries = [];
-      for await (const chunk of comm.stream()) {
-        if (chunk.type === "audio" && chunk.data) {
-          audioChunks.push(chunk.data);
-        } else if (chunk.type === "WordBoundary" && chunk.text) {
-          wordBoundaries.push({
-            // offset/duration are in 100-nanosecond units → convert to seconds
-            offset: (chunk.offset || 0) / 10_000_000,
-            duration: (chunk.duration || 0) / 10_000_000,
-            text: chunk.text,
-          });
-        }
-      }
-
-      const buffer = Buffer.concat(audioChunks);
-      writeFileSync(outputPath, buffer);
-      return { bytes: buffer.length, wordBoundaries };
+      writeFileSync(outputPath, audio);
+      return { bytes: audio.length, wordBoundaries: words };
     } catch (err) {
-      console.error(`\n  Attempt ${attempt + 1} failed: ${err.message}`);
-      if (attempt < 2) await new Promise((r) => setTimeout(r, 2000));
-      else throw err;
+      errors.push(err.message);
+      console.error(`\n  TTS attempt ${attempt}/${TTS_ATTEMPTS} failed: ${err.message}`);
+      if (attempt < TTS_ATTEMPTS) await new Promise((r) => setTimeout(r, 2000 * attempt));
     }
   }
+  throw new Error(
+    `TTS が応答しない: ${TTS_ATTEMPTS} 回試行（1 回あたり最大 ${TTS_TIMEOUT_MS / 1000} 秒待機）してすべて失敗 — ${errors.join(" / ")}`,
+  );
 }
 
 async function main() {
