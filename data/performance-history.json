@@ -5891,8 +5891,8 @@
     },
     {
       "date": "2026-10-14",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "NsU2T2Hm5uI",
+      "videoUrl": "https://youtube.com/shorts/NsU2T2Hm5uI",
       "title": "rea — 受託診断で使える統合逆解析MCP｜GitHub Trending TOP5 10/14",
       "titleTemplate": "top1",
       "hashtags": [
@@ -5951,17 +5951,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "2f3dd09a-49ae-43d1-b000-caa234985a9f",
           "attempts": 1,
-          "updatedAt": "2026-10-14T01:30:33.548Z"
+          "updatedAt": "2026-10-14T01:30:38.943Z",
+          "date": "2026-10-14",
+          "videoId": "NsU2T2Hm5uI",
+          "videoUrl": "https://youtube.com/shorts/NsU2T2Hm5uI",
+          "uploadedAt": "2026-10-14T01:30:38.943Z",
+          "title": "rea — 受託診断で使える統合逆解析MCP｜GitHub Trending TOP5 10/14",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
