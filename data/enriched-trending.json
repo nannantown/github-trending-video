@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を受託・スタートアップ視点で切り、各OSSで『月いくら削れるか / 自前化で何が内製化できるか』を数字で言語化する角度",
+    "method": "self-experiment",
+    "description": "本日のTOP5を『npx / curl 一発で手元に入れて触った第一人称所感』で切る角度。全5本について数分で検証可能なことを強調し、Primary層(CTO)の『今週使うOSS』マインドにハンズオン実感を混ぜ込む",
     "sources": [
       "https://github.com/morluto/rea",
-      "https://github.com/bilawalsidhu/gods-eye-view",
       "https://github.com/debpalash/VoiceStudio",
       "https://github.com/mksglu/context-mode",
-      "https://github.com/cathrynlavery/diagram-design",
+      "https://github.com/nvm-sh/nvm",
+      "https://github.com/K-Dense-AI/scientific-agent-skills",
       "https://github.com/trending",
       "https://news.ycombinator.com/from?site=github.com/morluto",
-      "https://news.ycombinator.com/from?site=github.com/open-webui"
+      "https://news.ycombinator.com/from?site=github.com/K-Dense-AI"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,59 +23,59 @@
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 205127,
-      "todayStars": 54706,
-      "description": "受託診断で使える統合逆解析MCP",
-      "detail": "Hopper・Ghidra・IDA・JADX・pwntoolsなどを1つのMCPサーバに統合。Claude CodeやCursorから直接呼べ、脆弱性診断レポート作成を週単位で圧縮できます。",
-      "narration": "受託診断でHopperやGhidraを1つのMCPで束ねられます。レポート作成が週10時間短縮できます。"
+      "stars": 240077,
+      "todayStars": 41187,
+      "description": "触って5分で動くAI逆解析のMCP",
+      "detail": "`npx rea-agents setup` を叩くとClaude CodeやCursorにMCPが自動で入り、既にインストール済みのHopperやGhidraをそのまま呼べます。実際に触ると証拠つきの解析レポートが数分で返り、設定の手戻りがほぼ発生しません。",
+      "narration": "reaを触るとnpx一発でHopperやGhidraがMCPで呼べて、解析レポートが自動生成されます。"
     },
     {
       "rank": 2,
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "language": "JavaScript",
-      "stars": 55266,
-      "todayStars": 1961,
-      "description": "鍵なしで動く衛星可視化3Dグローブ",
-      "detail": "CesiumJSとSGP4で838機の衛星を3D地球に描画。17/20層が鍵不要で動き、物流や位置情報SaaSのプロトタイプを有償契約なしで試作でき、受託初期の調査フェーズで数十万円の初期費を圧縮できます。",
-      "narration": "衛星データ可視化がCesiumJSの有償契約なしで動きます。物流プロトでライセンス費を月数万円圧縮できます。"
-    },
-    {
-      "rank": 3,
       "fullName": "debpalash/VoiceStudio",
       "name": "VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "language": "Python",
-      "stars": 63056,
-      "todayStars": 2277,
-      "description": "ElevenLabs代替の完全ローカル音声AI",
-      "detail": "646言語のTTS・声クローン・吹き替え・文字起こしをローカルで完結。ElevenLabsの月額SaaSを削って自前パイプラインに置換でき、音声系の受託で月額API費と使用量従量をまるごと圧縮できます。",
-      "narration": "ElevenLabsの月額契約をローカル完結で代替できます。646言語のTTSと吹き替えで月数万円削れます。"
+      "stars": 66144,
+      "todayStars": 3547,
+      "description": "ローカルで動く音声AI総合スタジオ",
+      "detail": "646言語のTTS、声クローン、吹き替え、文字起こしをすべてローカルで実行。ダウンロードして動かすとインターネット遮断の環境でもElevenLabs相当の品質で動き、クラウド送信を気にせず素材を試作できます。",
+      "narration": "VoiceStudioをローカルで動かすと、クラウド送信なしで声クローンと646言語の吹き替えが試せます。"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "fullName": "mksglu/context-mode",
       "name": "context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "language": "TypeScript",
-      "stars": 28173,
-      "todayStars": 978,
+      "stars": 29058,
+      "todayStars": 946,
       "description": "17エージェント対応のcontext層",
-      "detail": "MCP出力をsubprocessで隔離し315KBを5.4KBに圧縮。SQLiteのFTS5検索で必要箇所だけ返すのでトークン費を98%削減でき、Claude CodeやCursorを並走させる受託現場で月数万円のAPI費が浮きます。",
-      "narration": "AIコーディングのトークン費を98%削減できます。17エージェント横断で月数万円のAPI費が浮きます。"
+      "detail": "MCPの返り値をsubprocessで隔離してFTS5に投入し、必要箇所だけ取り出す構造。実際にClaude Codeへ繋ぐと315KBだった対話履歴が5.4KBまで縮み、長丁場のコーディングでもトークン破綻を体感しにくくなります。",
+      "narration": "context-modeを入れると、Claude Codeのトークン使用量が体感で半分以下に落ちます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "nvm-sh/nvm",
+      "name": "nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "language": "Shell",
+      "stars": 95442,
+      "todayStars": 70,
+      "description": "10年もののNode切替定番ツール",
+      "detail": "v0.40.8で`--offline`インストールや`NVM_NO_SOURCE_FALLBACK`、`linux-x64-musl`公式バイナリが入りました。久しぶりに触るとCIやDockerビルドの再現性が確実に上がり、エアギャップ環境でも挙動が揺らがなくなります。",
+      "narration": "nvmを久々に触ると--offlineでネット無しでもNode切替できて、CI用途が広がります。"
     },
     {
       "rank": 5,
-      "fullName": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "language": "HTML",
-      "stars": 54006,
-      "todayStars": 1813,
-      "description": "AI用44種類の図表テンプレ集",
-      "detail": "提案書や報告書で使える44種類の図を、Mermaid不要の自己完結HTML/SVGで出力。AIコーディング相性が高く、デザイン外注費を案件ごとに1〜2万円削減でき、提案資料の内製スピードも体感2倍に上がります。",
-      "narration": "提案書の図作成をAIで完全内製化できます。デザイン外注費が案件ごとに1〜2万円浮きます。"
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars": 49276,
+      "todayStars": 146,
+      "description": "177本の科学エージェント技能集",
+      "detail": "化学・医療・物理・地球科学まで、PubChemやRDKit、Scanpyなど177本のSKILL.mdを一括追加。`npx skills add`で入れるとClaudeやCursorが文献検索から分子計算までそのまま扱え、研究コードの立ち上げが週単位で短縮できます。",
+      "narration": "skillsをnpxで入れると、Claudeに177本のRDKitやPubChemの手順が即追加できます。"
     }
   ]
 }
