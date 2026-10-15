@@ -1,17 +1,18 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日のTOP5を『npx / curl 一発で手元に入れて触った第一人称所感』で切る角度。全5本について数分で検証可能なことを強調し、Primary層(CTO)の『今週使うOSS』マインドにハンズオン実感を混ぜ込む",
+    "method": "tech-deep",
+    "description": "本日のTOP5を『エージェント連携の設計アーキテクチャが深い』という技術的独自性から切る角度。MCP統合・標準化レイヤー・プロキシ圧縮・多層構造・工学化プロセスの5軸で、Primary層(CTO)の技術選定判断に設計レベルの深さを届ける",
     "sources": [
       "https://github.com/morluto/rea",
-      "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/mksglu/context-mode",
-      "https://github.com/nvm-sh/nvm",
+      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "https://github.com/JuliusBrussee/caveman",
+      "https://github.com/debpalash/VoiceStudio",
       "https://github.com/trending",
       "https://news.ycombinator.com/from?site=github.com/morluto",
-      "https://news.ycombinator.com/from?site=github.com/K-Dense-AI"
+      "https://news.ycombinator.com/from?site=github.com/anthropics",
+      "https://news.ycombinator.com/from?site=github.com/JuliusBrussee"
     ],
     "query": "",
     "freshness_hours": 1
@@ -23,59 +24,59 @@
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "language": "TypeScript",
-      "stars": 240077,
-      "todayStars": 41187,
-      "description": "触って5分で動くAI逆解析のMCP",
-      "detail": "`npx rea-agents setup` を叩くとClaude CodeやCursorにMCPが自動で入り、既にインストール済みのHopperやGhidraをそのまま呼べます。実際に触ると証拠つきの解析レポートが数分で返り、設定の手戻りがほぼ発生しません。",
-      "narration": "reaを触るとnpx一発でHopperやGhidraがMCPで呼べて、解析レポートが自動生成されます。"
+      "stars": 268654,
+      "todayStars": 32282,
+      "description": "MCP越しに逆解析を束ねる統合層",
+      "detail": "Ghidra・Hopper・IDA・JADXを前段のMCPサーバーが呼び分け、ELFからPE・Mach-O・Go・Rust・WASMまで静的解析パーサーを内蔵。1つのCLIからエージェントに逆解析ワークフローを渡せ、証拠つきレポートが自動で返ってきます。",
+      "narration": "reaはMCPで複数の逆解析エンジンを束ね、バイナリ形式別に静的解析まで走らせられます。"
     },
     {
       "rank": 2,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
       "language": "Python",
-      "stars": 66144,
-      "todayStars": 3547,
-      "description": "ローカルで動く音声AI総合スタジオ",
-      "detail": "646言語のTTS、声クローン、吹き替え、文字起こしをすべてローカルで実行。ダウンロードして動かすとインターネット遮断の環境でもElevenLabs相当の品質で動き、クラウド送信を気にせず素材を試作できます。",
-      "narration": "VoiceStudioをローカルで動かすと、クラウド送信なしで声クローンと646言語の吹き替えが試せます。"
+      "stars": 39004,
+      "todayStars": 525,
+      "description": "Anthropic公式のプラグイン規約",
+      "detail": ".claude-plugin/plugin.jsonを規約化し、MCP・commands・agents・skillsを一括配布。immutable slugとrenamesマップで後方互換を担保し、/plugin install一発でClaude Codeにそのまま入ります。",
+      "narration": "Claude公式プラグインはplugin.jsonで規約化され、MCPやスキルを一括配布できます。"
     },
     {
       "rank": 3,
-      "fullName": "mksglu/context-mode",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "language": "TypeScript",
-      "stars": 29058,
-      "todayStars": 946,
-      "description": "17エージェント対応のcontext層",
-      "detail": "MCPの返り値をsubprocessで隔離してFTS5に投入し、必要箇所だけ取り出す構造。実際にClaude Codeへ繋ぐと315KBだった対話履歴が5.4KBまで縮み、長丁場のコーディングでもトークン破綻を体感しにくくなります。",
-      "narration": "context-modeを入れると、Claude Codeのトークン使用量が体感で半分以下に落ちます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "nvm-sh/nvm",
-      "name": "nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "language": "Shell",
-      "stars": 95442,
-      "todayStars": 70,
-      "description": "10年もののNode切替定番ツール",
-      "detail": "v0.40.8で`--offline`インストールや`NVM_NO_SOURCE_FALLBACK`、`linux-x64-musl`公式バイナリが入りました。久しぶりに触るとCIやDockerビルドの再現性が確実に上がり、エアギャップ環境でも挙動が揺らがなくなります。",
-      "narration": "nvmを久々に触ると--offlineでネット無しでもNode切替できて、CI用途が広がります。"
-    },
-    {
-      "rank": 5,
       "fullName": "K-Dense-AI/scientific-agent-skills",
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "language": "Python",
-      "stars": 49276,
-      "todayStars": 146,
-      "description": "177本の科学エージェント技能集",
-      "detail": "化学・医療・物理・地球科学まで、PubChemやRDKit、Scanpyなど177本のSKILL.mdを一括追加。`npx skills add`で入れるとClaudeやCursorが文献検索から分子計算までそのまま扱え、研究コードの立ち上げが週単位で短縮できます。",
-      "narration": "skillsをnpxで入れると、Claudeに177本のRDKitやPubChemの手順が即追加できます。"
+      "stars": 50404,
+      "todayStars": 1091,
+      "description": "177本の科学スキルを工学化",
+      "detail": "SKILL.md+YAML frontmatter規約でRDKitやScanpyなど177本の科学スキルと80以上のDB (PubChem/ChEMBL/UniProt) を束ね、構造チェックCIとscript test suiteを内蔵。エージェントに実験ワークフローをそのまま追加できます。",
+      "narration": "177本のSKILL.mdでRDKitやPubChemを束ね、エージェントに科学ワークフローを即追加できます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "JuliusBrussee/caveman",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "language": "Go",
+      "stars": 112486,
+      "todayStars": 530,
+      "description": "プロキシで出力を双方向圧縮",
+      "detail": "Claude Code/Codex/Gemini CLI用のGo製ローカルプロキシ。LLM出力を原始人風の簡素文に書き換え、ツール出力 (CSV/logs/JSON) もモデルが見る前に圧縮。Autoモードがリクエスト毎にモデルを切替、入力トークンを約65%削減します。",
+      "narration": "cavemanはプロキシ側でCLIの出力を圧縮し、トークン消費を実測65%カットする仕組みです。"
+    },
+    {
+      "rank": 5,
+      "fullName": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "stars": 68950,
+      "todayStars": 3027,
+      "description": "ElectronとPythonの多層音声AI",
+      "detail": "Electronフロントに Python バックエンド、デフォルトはk2-fsa/OmniVoiceだがエンジンがプラグイン可。CUDA・MPS・CPUのマルチバックエンドとローカルHTTP API・MCPサーバーを同梱し、エージェントから直接声クローンや646言語の吹き替えを呼べます。",
+      "narration": "VoiceStudioはk2-fsa系エンジンをプラグインで差し替え、MCP経由でエージェントが直接動かせます。"
     }
   ]
 }
