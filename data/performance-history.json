@@ -6094,8 +6094,8 @@
     },
     {
       "date": "2026-10-16",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "rzI_uHySlCA",
+      "videoUrl": "https://youtube.com/shorts/rzI_uHySlCA",
       "title": "rea — MCP越しに逆解析を束ねる統合層｜GitHub Trending TOP5 10/16",
       "titleTemplate": "top1",
       "hashtags": [
@@ -6154,17 +6154,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "6746f07f-9fa0-428e-bb76-2d1161904be0",
           "attempts": 1,
-          "updatedAt": "2026-10-16T00:54:13.073Z"
+          "updatedAt": "2026-10-16T00:54:17.895Z",
+          "date": "2026-10-16",
+          "videoId": "rzI_uHySlCA",
+          "videoUrl": "https://youtube.com/shorts/rzI_uHySlCA",
+          "uploadedAt": "2026-10-16T00:54:17.895Z",
+          "title": "rea — MCP越しに逆解析を束ねる統合層｜GitHub Trending TOP5 10/16",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
