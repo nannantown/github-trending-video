@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "discovery": {
-    "method": "tech-deep",
-    "description": "本日のTOP5を『エージェント連携の設計アーキテクチャが深い』という技術的独自性から切る角度。MCP統合・標準化レイヤー・プロキシ圧縮・多層構造・工学化プロセスの5軸で、Primary層(CTO)の技術選定判断に設計レベルの深さを届ける",
+    "method": "comparison",
+    "description": "本日のTOP5を『既存の類似OSSと何が違うか』という比較軸で切る角度。公式vs野良、汎用vs特化、構築層vs運用層、MCPラッパーvsCLI生成、入力圧縮vs出力圧縮の5軸で、Primary層(CTO)に技術選定の判断材料を届ける",
     "sources": [
-      "https://github.com/morluto/rea",
+      "https://github.com/trending",
       "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "https://github.com/JuliusBrussee/caveman",
-      "https://github.com/debpalash/VoiceStudio",
-      "https://github.com/trending",
-      "https://news.ycombinator.com/from?site=github.com/morluto",
+      "https://github.com/affaan-m/ECC",
+      "https://github.com/HKUDS/CLI-Anything",
+      "https://github.com/mksglu/context-mode",
+      "https://code.claude.com/docs/en/plugins",
       "https://news.ycombinator.com/from?site=github.com/anthropics",
-      "https://news.ycombinator.com/from?site=github.com/JuliusBrussee"
+      "https://news.ycombinator.com/from?site=github.com/HKUDS"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "morluto/rea",
-      "name": "rea",
-      "url": "https://github.com/morluto/rea",
-      "language": "TypeScript",
-      "stars": 268654,
-      "todayStars": 32282,
-      "description": "MCP越しに逆解析を束ねる統合層",
-      "detail": "Ghidra・Hopper・IDA・JADXを前段のMCPサーバーが呼び分け、ELFからPE・Mach-O・Go・Rust・WASMまで静的解析パーサーを内蔵。1つのCLIからエージェントに逆解析ワークフローを渡せ、証拠つきレポートが自動で返ってきます。",
-      "narration": "reaはMCPで複数の逆解析エンジンを束ね、バイナリ形式別に静的解析まで走らせられます。"
-    },
-    {
-      "rank": 2,
       "fullName": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "language": "Python",
-      "stars": 39004,
-      "todayStars": 525,
-      "description": "Anthropic公式のプラグイン規約",
-      "detail": ".claude-plugin/plugin.jsonを規約化し、MCP・commands・agents・skillsを一括配布。immutable slugとrenamesマップで後方互換を担保し、/plugin install一発でClaude Codeにそのまま入ります。",
-      "narration": "Claude公式プラグインはplugin.jsonで規約化され、MCPやスキルを一括配布できます。"
+      "stars": 40473,
+      "todayStars": 1552,
+      "description": "Anthropic公式のプラグイン集",
+      "detail": "Claude Code向けのプラグインを公式レビューで配布するマーケットプレイスです。Anthropic社内製と第三者製の2本立てで、plugin.jsonでMCPやコマンド、skillsを一括管理し、公式審査で品質と安全性を担保します。",
+      "narration": "野良のプラグイン棚を公式が整えました。審査済みのMCPとskillsが一発導入でき、信頼差が明快です。"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "fullName": "K-Dense-AI/scientific-agent-skills",
       "name": "scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "language": "Python",
-      "stars": 50404,
-      "todayStars": 1091,
-      "description": "177本の科学スキルを工学化",
-      "detail": "SKILL.md+YAML frontmatter規約でRDKitやScanpyなど177本の科学スキルと80以上のDB (PubChem/ChEMBL/UniProt) を束ね、構造チェックCIとscript test suiteを内蔵。エージェントに実験ワークフローをそのまま追加できます。",
-      "narration": "177本のSKILL.mdでRDKitやPubChemを束ね、エージェントに科学ワークフローを即追加できます。"
+      "stars": 51448,
+      "todayStars": 1158,
+      "description": "177本の科学skillを規約化",
+      "detail": "Claude CodeやCodex、Cursorを科学研究の助手に変える177本のSKILL.md集です。PubChemやUniProtなど80以上のDBを束ね、再現性と安全境界まで規約化し、エージェントに実験ワークフローをそのまま追加できます。",
+      "narration": "汎用skill集と違い、科学研究に特化した177本です。80DBを一つの規約でまとめ、再現性まで担保します。"
+    },
+    {
+      "rank": 3,
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 281430,
+      "todayStars": 1057,
+      "description": "agent harness最適化OS",
+      "detail": "71 agents・311 skills・97 commandsをまとめて計画・テスト・実装・検証のループを回す統合システムです。Claude Code中心にCodex等も対応、install時はdry-run推奨で単独メンテな点に注意が必要です。",
+      "narration": "CrewAIが構築層なら、こちらは運用層です。71 agentsと311 skillsを一発導入できます。"
     },
     {
       "rank": 4,
-      "fullName": "JuliusBrussee/caveman",
-      "name": "caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "language": "Go",
-      "stars": 112486,
-      "todayStars": 530,
-      "description": "プロキシで出力を双方向圧縮",
-      "detail": "Claude Code/Codex/Gemini CLI用のGo製ローカルプロキシ。LLM出力を原始人風の簡素文に書き換え、ツール出力 (CSV/logs/JSON) もモデルが見る前に圧縮。Autoモードがリクエスト毎にモデルを切替、入力トークンを約65%削減します。",
-      "narration": "cavemanはプロキシ側でCLIの出力を圧縮し、トークン消費を実測65%カットする仕組みです。"
+      "fullName": "HKUDS/CLI-Anything",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars": 53452,
+      "todayStars": 323,
+      "description": "全ソフトをCLI経由でAI対応",
+      "detail": "GUI操作ではなくCLIで既存ソフトをエージェント対応にする変換パイプラインです。LibreOfficeやBlenderの既存API上に薄いCLIを生成し、SKILL.md付きでhubから検索・配布できます。",
+      "narration": "MCPラッパーが新APIを被せる方式に対し、こちらは既存CLIを生成します。LibreOffice等を直接叩けます。"
     },
     {
       "rank": 5,
-      "fullName": "debpalash/VoiceStudio",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "language": "Python",
-      "stars": 68950,
-      "todayStars": 3027,
-      "description": "ElectronとPythonの多層音声AI",
-      "detail": "Electronフロントに Python バックエンド、デフォルトはk2-fsa/OmniVoiceだがエンジンがプラグイン可。CUDA・MPS・CPUのマルチバックエンドとローカルHTTP API・MCPサーバーを同梱し、エージェントから直接声クローンや646言語の吹き替えを呼べます。",
-      "narration": "VoiceStudioはk2-fsa系エンジンをプラグインで差し替え、MCP経由でエージェントが直接動かせます。"
+      "fullName": "mksglu/context-mode",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "language": "TypeScript",
+      "stars": 30205,
+      "todayStars": 449,
+      "description": "文脈節約の専用MCPサーバー層",
+      "detail": "ツール出力をサンドボックスで実行しstdoutだけ返すMCPサーバーです。SQLite FTS5の全文検索と組み合わせ、315KBを5.4KBに圧縮。Claude CodeやCursorなど17プラットフォーム対応で、hooksで強制ルーティングも可能です。",
+      "narration": "入力圧縮系ツールと違い、出力を圧縮します。tool結果を98%削って17個のagentで共通に使えます。"
     }
   ]
 }
