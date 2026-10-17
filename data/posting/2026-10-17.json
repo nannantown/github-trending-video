@@ -6,16 +6,24 @@
   "metadataSha256": "e19fba713a75338ae69699e95abd480e88f3fc998dbff8625f838a64d69413e1",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "a3fc0d3c-ac01-44e0-8248-24020ffb97f3",
       "attempts": 1,
-      "updatedAt": "2026-10-17T00:53:32.250Z"
+      "updatedAt": "2026-10-17T00:53:37.272Z",
+      "date": "2026-10-17",
+      "videoId": "3rUy1bUon1U",
+      "videoUrl": "https://youtube.com/shorts/3rUy1bUon1U",
+      "uploadedAt": "2026-10-17T00:53:37.272Z",
+      "title": "claude-plugins-official — Anthropic公式のプラグイン集｜GitHub Trending TOP5 10/17",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-17T00:53:34.269Z"
+  "updatedAt": "2026-10-17T00:53:37.272Z"
 }
