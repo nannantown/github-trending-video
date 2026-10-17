@@ -6263,13 +6263,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "preparing",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "a82e6d7c-0236-42bf-9634-9fcceea17dc8",
           "attempts": 1,
-          "updatedAt": "2026-10-17T00:53:41.923Z"
+          "updatedAt": "2026-10-17T00:53:43.822Z"
         }
       },
       "ytOpening": "top1",
