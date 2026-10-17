@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "a3fc0d3c-ac01-44e0-8248-24020ffb97f3",
       "attempts": 1,
-      "updatedAt": "2026-10-17T00:53:37.272Z",
+      "updatedAt": "2026-10-17T00:53:39.021Z",
       "date": "2026-10-17",
       "videoId": "3rUy1bUon1U",
       "videoUrl": "https://youtube.com/shorts/3rUy1bUon1U",
@@ -19,11 +19,14 @@
       "title": "claude-plugins-official — Anthropic公式のプラグイン集｜GitHub Trending TOP5 10/17",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-17T00:53:37.272Z"
+  "updatedAt": "2026-10-17T00:53:39.021Z"
 }
