@@ -5232,7 +5232,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18135150397633461",
@@ -5299,7 +5299,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18117819637757974",
@@ -5367,7 +5367,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18343415245285103",
@@ -5439,7 +5439,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18132434431680315",
@@ -5509,7 +5509,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18136967740641374",
@@ -5579,7 +5579,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "17962888242207687",
@@ -5655,7 +5655,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18092368898179312",
@@ -5726,7 +5726,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18359352226220825",
@@ -5838,7 +5838,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18340700926273842",
@@ -5946,7 +5946,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": {
         "mediaId": "18168010015478947",
@@ -6050,7 +6050,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-16T00:50:26.328Z"
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": null,
       "posting": {
@@ -6149,7 +6149,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-10-17T00:50:18.048Z"
       },
       "instagram": null,
       "posting": {
@@ -6184,22 +6184,75 @@
       },
       "ytOpening": "top1",
       "ytThumbnail": "error:forbidden"
+    },
+    {
+      "date": "2026-10-17",
+      "videoId": null,
+      "videoUrl": null,
+      "title": "claude-plugins-official — Anthropic公式のプラグイン集｜GitHub Trending TOP5 10/17",
+      "titleTemplate": "top1",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "projects": [
+        "anthropics/claude-plugins-official",
+        "K-Dense-AI/scientific-agent-skills",
+        "affaan-m/ECC",
+        "HKUDS/CLI-Anything",
+        "mksglu/context-mode"
+      ],
+      "durationSeconds": 55,
+      "discovery": {
+        "method": "comparison",
+        "description": "本日のTOP5を『既存の類似OSSと何が違うか』という比較軸で切る角度。公式vs野良、汎用vs特化、構築層vs運用層、MCPラッパーvsCLI生成、入力圧縮vs出力圧縮の5軸で、Primary層(CTO)に技術選定の判断材料を届ける",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/anthropics/claude-plugins-official",
+          "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "https://github.com/affaan-m/ECC",
+          "https://github.com/HKUDS/CLI-Anything",
+          "https://github.com/mksglu/context-mode",
+          "https://code.claude.com/docs/en/plugins",
+          "https://news.ycombinator.com/from?site=github.com/anthropics",
+          "https://news.ycombinator.com/from?site=github.com/HKUDS"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": null,
+      "posting": {
+        "youtube": {
+          "status": "not_started"
+        },
+        "instagram": {
+          "status": "not_started"
+        }
+      }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-09-14",
-      "changes": [
-        "Rust: 0.0x avg views → drop",
-        "C: 0.0x avg views → drop",
-        "Kotlin: 0.8x avg views → drop",
-        "JavaScript: 0.8x avg views → drop",
-        "standard: 1 avg views (82 videos)",
-        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
-        "Day performance: Fri=2, Mon=1, Tue=1, Wed=1, Thu=1, Sat=1, Sun=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-09-15",
       "changes": [
@@ -6543,6 +6596,18 @@
         "standard: 1 avg views (61 videos)",
         "top1: 0 avg views (26 videos)",
         "Trending languages: CSS (2.8x), Markdown (3.6x), Java (4.2x), Jupyter Notebook (3.3x), Swift (1.5x), PowerShell (3.2x)",
+        "Day performance: Sun=1, Mon=1, Wed=1, Thu=1, Fri=1, Sat=1, Tue=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-10-17",
+      "changes": [
+        "Rust: 0.6x avg views → drop",
+        "C++: 0.0x avg views → drop",
+        "standard: 1 avg views (61 videos)",
+        "top1: 0 avg views (27 videos)",
+        "Trending languages: CSS (2.8x), Markdown (3.6x), Java (4.2x), Jupyter Notebook (3.4x), Swift (1.5x), PowerShell (3.2x)",
         "Day performance: Sun=1, Mon=1, Wed=1, Thu=1, Fri=1, Sat=1, Tue=0"
       ],
       "recommendedTemplate": "standard"
