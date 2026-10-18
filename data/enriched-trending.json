@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日のTOP5を『受託・スタートアップでの月額コスト削減 / 見積もり組み替え』の事業視点で切る角度。公式審査プラグイン棚、ローカル採用支援エージェント、agent harness全部入り、既存ソフトのAI化変換、科学研究DX標準の5本すべてをPrimary層(CTO)・Secondary層(事業責任者)の受託見積もり観点で統一",
+    "method": "tech-deep",
+    "description": "本日のTOP5は5本とも『プラグイン規約／エージェントハーネス』の標準化レイヤーが連続登場。Anthropic公式棚・Cursor公式規約・OSSクローン・群制御メタ層・Claude Code製の縦割りアプリ、どれも plugin.json / SKILL.md / MCP の構造で切り、技術ハーネスの実装パターンを論じる tech-deep 角度で統一",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/MadsLorentzen/ai-job-search",
-      "https://github.com/affaan-m/ECC",
-      "https://github.com/HKUDS/CLI-Anything",
-      "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "https://github.com/anthropics/claude-plugins-official",
+      "https://github.com/anomalyco/opencode",
+      "https://github.com/cursor/plugins",
+      "https://github.com/ruvnet/ruflo",
       "https://code.claude.com/docs/en/plugins",
-      "https://news.ycombinator.com/from?site=github.com/anthropics",
-      "https://news.ycombinator.com/from?site=github.com/MadsLorentzen"
+      "https://news.ycombinator.com/from?site=github.com/anomalyco",
+      "https://news.ycombinator.com/from?site=github.com/ruvnet"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +20,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "language": "Python",
-      "stars": 41663,
-      "todayStars": 1383,
-      "description": "Anthropic公式の審査付きプラグイン棚",
-      "detail": "Claude Code向けプラグインを公式審査で配布するマーケットプレイスです。plugin.jsonでMCPやコマンドを一括管理でき、受託案件での選定・見積もり工数を削減できます。",
-      "narration": "公式審査済みのプラグイン棚です。導入前の評価工数を減らせて、受託の見積もりも立てやすくなります。"
-    },
-    {
-      "rank": 2,
       "fullName": "MadsLorentzen/ai-job-search",
       "name": "ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "language": "Python",
-      "stars": 50271,
-      "todayStars": 1397,
-      "description": "Claude Code製のAI求人検索エージェント",
-      "detail": "求人検索からCV・カバーレター自動生成まで対応するAI求人検索フレームワークです。Claude CodeとLaTeXでローカル実行し、採用支援や人材紹介の受託に転用しやすい設計です。",
-      "narration": "書類作成までAIが肩代わりします。採用準備の工数を数時間削れて、人材紹介の受託価格を抑えられます。"
+      "stars": 52916,
+      "todayStars": 2213,
+      "description": "Claude Code製の求人検索エージェント",
+      "detail": "Claude Code上で動く求人検索・CV・カバーレター・面接準備・ATS対応チェックまでカバーするAIエージェント群です。SKILL.md単位で役割を分割し、Danish・LinkedIn・freehire.meに対応します。",
+      "narration": "Claude Code製の採用エージェント集です。SKILL.md単位で役割を分けて協調する設計が特徴的です。"
+    },
+    {
+      "rank": 2,
+      "fullName": "anthropics/claude-plugins-official",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars": 42631,
+      "todayStars": 1187,
+      "description": "Anthropic公式のプラグイン棚",
+      "detail": "Anthropicが運営するClaude Code向けの公式プラグイン審査棚です。plugin.jsonでMCPサーバやカスタムコマンドを束ねて配布する標準形で、プラグイン仕様の規範になります。",
+      "narration": "Claude Code公式のプラグイン棚です。plugin.jsonでMCPやコマンドをまとめて配布する標準形です。"
     },
     {
       "rank": 3,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 282429,
-      "todayStars": 1145,
-      "description": "AIコーディング統合最適化ハーネス",
-      "detail": "71 agentsと311 skills・97 commandsを束ねて計画から実装までを回す統合ハーネスです。Claude Code中心にCodex等にも対応し、PoC構築費を抑えて受託見積もりの勝率が上がります。単独メンテな点に注意。",
-      "narration": "PoC構築を全部入りで圧縮します。構築費を数十万単位で削れて、受託の見積もり勝率が上がります。"
+      "fullName": "anomalyco/opencode",
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "language": "TypeScript",
+      "stars": 216497,
+      "todayStars": 1417,
+      "description": "Bun製の対抗コーディングエージェント",
+      "detail": "anomalyco公開のTypeScript+Bun製のOSSコーディングエージェントです。buildとplanの二層モード、@generalサブエージェント、HTTP API構成で分離した設計が特徴です。",
+      "narration": "Bun製のオープンソース版コーディングエージェントです。buildとplanの二層でモードを切り替える設計です。"
     },
     {
       "rank": 4,
-      "fullName": "HKUDS/CLI-Anything",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "language": "Python",
-      "stars": 54021,
-      "todayStars": 580,
-      "description": "既存ソフトをAIから叩けるCLI変換",
-      "detail": "LibreOfficeやBlender、ArcGIS Proなどの既存ソフトをAIから叩けるCLIに変換する枠組みです。SKILL.md付きで配布し、社内資産を活かしたAI導入提案を低コストで組み替えられます。",
-      "narration": "既存ソフトを捨てずにAI化します。導入費を抑えて、社内資産を活かした受託提案に組み替えられます。"
+      "fullName": "cursor/plugins",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "language": "TypeScript",
+      "stars": 12713,
+      "todayStars": 351,
+      "description": "Cursor公式のプラグイン仕様集",
+      "detail": "Cursor公式のプラグイン仕様とマーケットプレイス定義集です。SKILL.md・rules・mcp.jsonを束ねたplugin.jsonで配布でき、.claude-pluginと並列配置された相互運用の兆しも見えます。",
+      "narration": "Cursor公式のプラグイン規約です。SKILL.mdやmcp.jsonを束ねる標準化レイヤーが整いつつあります。"
     },
     {
       "rank": 5,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "language": "Python",
-      "stars": 52203,
-      "todayStars": 879,
-      "description": "科学研究特化の177 skill標準集",
-      "detail": "Claude CodeやCodexを科学研究の助手にする177本のSKILL.md集です。PubChemなど100超のDBを束ね、再現性と安全境界まで規約化してライフサイエンス案件の下働き工数を圧縮できます。",
-      "narration": "研究DXを一発導入できます。博士級の下働きを圧縮して、ライフサイエンス案件の見積もりが有利です。"
+      "fullName": "ruvnet/ruflo",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars": 76468,
+      "todayStars": 502,
+      "description": "Claude Codeの群制御メタ層",
+      "detail": "Claude CodeとCodexに被せるマルチエージェント実行基盤です。100超の専門エージェントとRaft・Byzantine合意、MCPサーバで群制御を実装し、Rustエンジンも併用。rUv単独運営の点は注意です。",
+      "narration": "Claude Codeに乗せるマルチエージェント層です。Raftなど合意で100超の専門エージェントを束ねます。"
     }
   ]
 }
