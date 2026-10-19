@@ -6,16 +6,24 @@
   "metadataSha256": "39e8ea383b8246835117aa304553fcdea886d1ff6cd9222519624ec3c919f5d1",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "877e0901-9b87-4893-9152-a3b47b33e1bc",
       "attempts": 1,
-      "updatedAt": "2026-10-19T00:36:28.098Z"
+      "updatedAt": "2026-10-19T00:36:33.106Z",
+      "date": "2026-10-19",
+      "videoId": "bTzvJZwQ5DM",
+      "videoUrl": "https://youtube.com/shorts/bTzvJZwQ5DM",
+      "uploadedAt": "2026-10-19T00:36:33.106Z",
+      "title": "ai-job-search — Claude Code製の求人検索エージェント｜GitHub Trending TOP5 10/19",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-19T00:36:29.698Z"
+  "updatedAt": "2026-10-19T00:36:33.106Z"
 }
