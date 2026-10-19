@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "discovery": {
-    "method": "tech-deep",
-    "description": "本日のTOP5は5本とも『プラグイン規約／エージェントハーネス』の標準化レイヤーが連続登場。Anthropic公式棚・Cursor公式規約・OSSクローン・群制御メタ層・Claude Code製の縦割りアプリ、どれも plugin.json / SKILL.md / MCP の構造で切り、技術ハーネスの実装パターンを論じる tech-deep 角度で統一",
+    "method": "comparison",
+    "description": "3日連続で居座るAIコーディング周辺3本(ai-job-search / opencode / ruflo)に、新顔2本(ai-memory=ベンダー横断の記憶層 / ComfyUI=ノードグラフ生成UI)が加わった60%重複日。5本とも『類似ツールとの選び分け』で切り、ATS最適化SaaS・Claude Code・ベンダー固有メモリ・Automatic1111・AutoGenそれぞれの代替候補として提示する",
     "sources": [
       "https://github.com/trending",
       "https://github.com/MadsLorentzen/ai-job-search",
-      "https://github.com/anthropics/claude-plugins-official",
       "https://github.com/anomalyco/opencode",
-      "https://github.com/cursor/plugins",
+      "https://github.com/akitaonrails/ai-memory",
+      "https://github.com/Comfy-Org/ComfyUI",
       "https://github.com/ruvnet/ruflo",
-      "https://code.claude.com/docs/en/plugins",
-      "https://news.ycombinator.com/from?site=github.com/anomalyco",
-      "https://news.ycombinator.com/from?site=github.com/ruvnet"
+      "https://opencode.ai/docs",
+      "https://news.ycombinator.com/from?site=github.com/akitaonrails",
+      "https://news.ycombinator.com/from?site=github.com/Comfy-Org"
     ],
     "query": "",
     "freshness_hours": 1
@@ -24,47 +24,47 @@
       "name": "ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "language": "Python",
-      "stars": 52916,
-      "todayStars": 2213,
-      "description": "Claude Code製の求人検索エージェント",
-      "detail": "Claude Code上で動く求人検索・CV・カバーレター・面接準備・ATS対応チェックまでカバーするAIエージェント群です。SKILL.md単位で役割を分割し、Danish・LinkedIn・freehire.meに対応します。",
-      "narration": "Claude Code製の採用エージェント集です。SKILL.md単位で役割を分けて協調する設計が特徴的です。"
+      "stars": 57010,
+      "todayStars": 3860,
+      "description": "ATS最適化を代替する求人AI",
+      "detail": "Claude Codeベースのローカル求人探索フレームワーク。有料のATS最適化サービスを使わず、ドラフト役と査読役の2段構成でCVと志望動機を作り、PDFの版下まで検証して出します。",
+      "narration": "有料のATS最適化ツールを使わず自前で回す求人エージェントです。別エージェントがCVを査読して版下まで検証します。"
     },
     {
       "rank": 2,
-      "fullName": "anthropics/claude-plugins-official",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "language": "Python",
-      "stars": 42631,
-      "todayStars": 1187,
-      "description": "Anthropic公式のプラグイン棚",
-      "detail": "Anthropicが運営するClaude Code向けの公式プラグイン審査棚です。plugin.jsonでMCPサーバやカスタムコマンドを束ねて配布する標準形で、プラグイン仕様の規範になります。",
-      "narration": "Claude Code公式のプラグイン棚です。plugin.jsonでMCPやコマンドをまとめて配布する標準形です。"
-    },
-    {
-      "rank": 3,
       "fullName": "anomalyco/opencode",
       "name": "opencode",
       "url": "https://github.com/anomalyco/opencode",
       "language": "TypeScript",
-      "stars": 216497,
-      "todayStars": 1417,
-      "description": "Bun製の対抗コーディングエージェント",
-      "detail": "anomalyco公開のTypeScript+Bun製のOSSコーディングエージェントです。buildとplanの二層モード、@generalサブエージェント、HTTP API構成で分離した設計が特徴です。",
-      "narration": "Bun製のオープンソース版コーディングエージェントです。buildとplanの二層でモードを切り替える設計です。"
+      "stars": 217727,
+      "todayStars": 1310,
+      "description": "Claude Code代替のOSSエージェント",
+      "detail": "Bun製TypeScriptモノレポのOSSコーディングエージェント。buildとplanの二層でモードを切替、Claude Code依存を避けつつマルチプロバイダーで動かせる発想です。",
+      "narration": "Claude Codeの代替として自前モデルで動くOSS版です。buildとplanの二層でベンダー依存を避けられます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "akitaonrails/ai-memory",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "language": "Rust",
+      "stars": 11274,
+      "todayStars": 666,
+      "description": "エージェント横断の長期メモリ層",
+      "detail": "20超のエージェントCLIで共有する長期メモリ層。Markdownとgit管理が真実の源で、SQLiteのFTS5索引は自動再構築、ベクトル検索は任意です。ベンダー固有のメモリから脱出できます。",
+      "narration": "ベンダー固有メモリの代わりに全エージェントで共有する記憶層です。Markdownとgit管理で丸ごと持ち運べます。"
     },
     {
       "rank": 4,
-      "fullName": "cursor/plugins",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "stars": 12713,
-      "todayStars": 351,
-      "description": "Cursor公式のプラグイン仕様集",
-      "detail": "Cursor公式のプラグイン仕様とマーケットプレイス定義集です。SKILL.md・rules・mcp.jsonを束ねたplugin.jsonで配布でき、.claude-pluginと並列配置された相互運用の兆しも見えます。",
-      "narration": "Cursor公式のプラグイン規約です。SKILL.mdやmcp.jsonを束ねる標準化レイヤーが整いつつあります。"
+      "fullName": "Comfy-Org/ComfyUI",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "language": "Python",
+      "stars": 139649,
+      "todayStars": 1011,
+      "description": "ノードグラフ型の生成AIエンジン",
+      "detail": "画像・動画・音声・3Dを束ねるノードグラフ型生成エンジン。Flux.2やWan 2.2など最新モデル対応、非同期ウェイトストリーミングで4GB VRAMでも大型モデルが回せる作りです。",
+      "narration": "Automatic1111の代わりにノードグラフで組む生成エンジンです。4GBのVRAMで大型モデルを回せます。"
     },
     {
       "rank": 5,
@@ -72,11 +72,11 @@
       "name": "ruflo",
       "url": "https://github.com/ruvnet/ruflo",
       "language": "TypeScript",
-      "stars": 76468,
-      "todayStars": 502,
-      "description": "Claude Codeの群制御メタ層",
-      "detail": "Claude CodeとCodexに被せるマルチエージェント実行基盤です。100超の専門エージェントとRaft・Byzantine合意、MCPサーバで群制御を実装し、Rustエンジンも併用。rUv単独運営の点は注意です。",
-      "narration": "Claude Codeに乗せるマルチエージェント層です。Raftなど合意で100超の専門エージェントを束ねます。"
+      "stars": 77139,
+      "todayStars": 564,
+      "description": "Claude CodeとCodexの群制御層",
+      "detail": "rUv単独主導のClaude Code系群制御メタ層。MCP経由で100超のエージェントをRaftやByzantine合意で束ね、federationで複数組織を跨ぐ構想。単独運営の点は注意。",
+      "narration": "AutoGenと違いClaude CodeとCodexを直接束ねる群制御層です。Raft合意で複数台を跨げます。"
     }
   ]
 }
