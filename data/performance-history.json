@@ -6458,7 +6458,7 @@
           "safeToRetry": false,
           "attemptId": "877e0901-9b87-4893-9152-a3b47b33e1bc",
           "attempts": 1,
-          "updatedAt": "2026-10-19T00:36:33.106Z",
+          "updatedAt": "2026-10-19T00:36:34.637Z",
           "date": "2026-10-19",
           "videoId": "bTzvJZwQ5DM",
           "videoUrl": "https://youtube.com/shorts/bTzvJZwQ5DM",
@@ -6466,13 +6466,17 @@
           "title": "ai-job-search — Claude Code製の求人検索エージェント｜GitHub Trending TOP5 10/19",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
