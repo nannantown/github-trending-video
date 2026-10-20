@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "1305591d-05c6-46ef-b643-345b106ee223",
       "attempts": 1,
-      "updatedAt": "2026-10-20T01:22:55.747Z",
+      "updatedAt": "2026-10-20T01:22:57.077Z",
       "date": "2026-10-20",
       "videoId": "wFSlG24VOm4",
       "videoUrl": "https://youtube.com/shorts/wFSlG24VOm4",
@@ -28,5 +28,5 @@
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-20T01:22:55.747Z"
+  "updatedAt": "2026-10-20T01:22:57.077Z"
 }
