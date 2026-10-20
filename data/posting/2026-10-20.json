@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "1305591d-05c6-46ef-b643-345b106ee223",
       "attempts": 1,
-      "updatedAt": "2026-10-20T01:22:54.232Z",
+      "updatedAt": "2026-10-20T01:22:55.747Z",
       "date": "2026-10-20",
       "videoId": "wFSlG24VOm4",
       "videoUrl": "https://youtube.com/shorts/wFSlG24VOm4",
@@ -19,11 +19,14 @@
       "title": "ai-job-search — ATS最適化を代替する求人AI｜GitHub Trending TOP5 10/20",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-20T01:22:54.232Z"
+  "updatedAt": "2026-10-20T01:22:55.747Z"
 }
