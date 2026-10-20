@@ -6,16 +6,24 @@
   "metadataSha256": "13ffbb3fdddf9c5645966aaccfbc5ae6a34c78796d41992a73e4fa98e1bc58b8",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "1305591d-05c6-46ef-b643-345b106ee223",
       "attempts": 1,
-      "updatedAt": "2026-10-20T01:22:49.699Z"
+      "updatedAt": "2026-10-20T01:22:54.232Z",
+      "date": "2026-10-20",
+      "videoId": "wFSlG24VOm4",
+      "videoUrl": "https://youtube.com/shorts/wFSlG24VOm4",
+      "uploadedAt": "2026-10-20T01:22:54.232Z",
+      "title": "ai-job-search — ATS最適化を代替する求人AI｜GitHub Trending TOP5 10/20",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-20T01:22:51.572Z"
+  "updatedAt": "2026-10-20T01:22:54.232Z"
 }
