@@ -1,0 +1,42 @@
+# Read-only numbers for the sns-hub SNS tab (followers + latest views).
+# Started by sns-hub dashboard/collect.mjs on the owner's Mac (`gh workflow run`),
+# never on a schedule. Posts nothing, commits nothing — the result is the
+# artifact `account-stats` (kept 7 days; the collector archives it in sns-hub).
+name: account-stats
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: account-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/account-stats.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+        run: node scripts/account-stats.mjs > account-stats.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: account-stats
+          path: account-stats.json
+          retention-days: 7
