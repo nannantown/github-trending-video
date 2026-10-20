@@ -6580,13 +6580,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "preparing",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "57531904-c753-4a4e-9d7c-cfe9f87ac68d",
           "attempts": 1,
-          "updatedAt": "2026-10-20T01:22:58.396Z"
+          "updatedAt": "2026-10-20T01:22:59.766Z"
         }
       },
       "ytOpening": "top1",
