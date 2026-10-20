@@ -16,6 +16,23 @@ jobs:
 
       - name: Refresh token
         run: |
+          # A Meta Business "system user" token generated with expiry "Never"
+          # has nothing to extend: fb_exchange_token is the 60-day user-token
+          # flow, so skip it and stay green. Any other token (or a failed
+          # check) falls through to the exchange below, unchanged — the step
+          # runs under `bash -e`, so the check itself must never abort it.
+          # Only non-secret fields of debug_token are printed.
+          DEBUG=$(curl -s -G "https://graph.facebook.com/v22.0/debug_token" \
+            --data-urlencode "input_token=${INSTAGRAM_ACCESS_TOKEN}" \
+            --data-urlencode "access_token=${FACEBOOK_APP_ID}|${FACEBOOK_APP_SECRET}" || true)
+          echo "$DEBUG" | jq '{type: .data.type, is_valid: .data.is_valid, expires_at: .data.expires_at, data_access_expires_at: .data.data_access_expires_at, scopes: .data.scopes, error: (.error.message // .data.error.message)}' || true
+          # expires_at 0 (or absent) on a valid token = no time limit. Meta's
+          # debug_token reference does not spell this out, so it is printed above.
+          if [ "$(echo "$DEBUG" | jq -r '.data.is_valid')" = "true" ] && [ "$(echo "$DEBUG" | jq -r '.data.expires_at // 0')" = "0" ]; then
+            echo "Token never expires (type: $(echo "$DEBUG" | jq -r '.data.type')) — nothing to refresh."
+            exit 0
+          fi
+
           RESPONSE=$(curl -s "https://graph.facebook.com/v22.0/oauth/access_token?\
           grant_type=fb_exchange_token&\
           client_id=${FACEBOOK_APP_ID}&\
