@@ -6580,13 +6580,13 @@
           }
         },
         "instagram": {
-          "status": "failed",
+          "status": "in_progress",
           "phase": "preparing",
-          "safeToRetry": true,
-          "reason": "failed_before_publish",
-          "attemptId": "57531904-c753-4a4e-9d7c-cfe9f87ac68d",
-          "attempts": 1,
-          "updatedAt": "2026-10-20T01:22:59.766Z"
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "b5823c70-f454-4620-b54b-93d28e7a7937",
+          "attempts": 2,
+          "updatedAt": "2026-10-20T04:58:56.808Z"
         }
       },
       "ytOpening": "top1",
