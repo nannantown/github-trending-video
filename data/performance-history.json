@@ -5439,7 +5439,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18132434431680315",
@@ -5509,7 +5509,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18136967740641374",
@@ -5579,7 +5579,7 @@
         "views": 3,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "17962888242207687",
@@ -5655,7 +5655,7 @@
         "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18092368898179312",
@@ -5726,7 +5726,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18359352226220825",
@@ -5838,7 +5838,7 @@
         "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18340700926273842",
@@ -5946,7 +5946,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18168010015478947",
@@ -6047,10 +6047,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 3,
+        "views": 6,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": null,
       "posting": {
@@ -6149,7 +6149,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": null,
       "posting": {
@@ -6239,7 +6239,7 @@
         "views": 0,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "18077876033546008",
@@ -6341,10 +6341,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "mediaId": "17883678627528561",
@@ -6445,10 +6445,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 1,
+        "views": 2,
         "likes": 0,
         "comments": 0,
-        "updatedAt": "2026-10-20T01:19:26.833Z"
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "permalink": null,
@@ -6553,10 +6553,10 @@
         "freshness_hours": 1
       },
       "stats": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0,
-        "updatedAt": null
+        "updatedAt": "2026-10-21T01:04:04.229Z"
       },
       "instagram": {
         "permalink": null,
@@ -6615,21 +6615,75 @@
       },
       "ytOpening": "top1",
       "ytThumbnail": "error:forbidden"
+    },
+    {
+      "date": "2026-10-21",
+      "videoId": null,
+      "videoUrl": null,
+      "title": "ai-job-search — ATS最適化SaaS代替の求人AI｜GitHub Trending TOP5 10/21",
+      "titleTemplate": "top1",
+      "hashtags": [
+        "GitHubTrending",
+        "GitHub",
+        "プログラミング",
+        "エンジニア",
+        "Tech",
+        "開発",
+        "OSS",
+        "オープンソース",
+        "Shorts",
+        "Shell",
+        "Python",
+        "TypeScript"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "projects": [
+        "MadsLorentzen/ai-job-search",
+        "cloudflare/security-audit-skill",
+        "stablyai/orca",
+        "DietrichGebert/ponytail",
+        "Comfy-Org/ComfyUI"
+      ],
+      "durationSeconds": 52,
+      "discovery": {
+        "method": "business-angle",
+        "description": "4日連続TOP1のai-job-searchと2日連続のComfyUIに、新顔3本(Cloudflare公式のsecurity-audit-skill / 20超のAIエージェントを並列操るorca / 16日ぶり再登場のponytail)が加わった40%重複日。5本すべてを受託・スタートアップ視点で『月額SaaS代替 / 外部発注費削減 / 工数削減 / API費削減 / 月額課金代替』の業務コスト削減軸に揃える",
+        "sources": [
+          "https://github.com/trending",
+          "https://github.com/MadsLorentzen/ai-job-search",
+          "https://github.com/cloudflare/security-audit-skill",
+          "https://github.com/stablyai/orca",
+          "https://github.com/DietrichGebert/ponytail",
+          "https://github.com/Comfy-Org/ComfyUI",
+          "https://news.ycombinator.com/from?site=github.com/cloudflare",
+          "https://news.ycombinator.com/from?site=github.com/stablyai",
+          "https://news.ycombinator.com/from?site=github.com/Comfy-Org"
+        ],
+        "query": "",
+        "freshness_hours": 1
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "updatedAt": null
+      },
+      "instagram": null,
+      "posting": {
+        "youtube": {
+          "status": "not_started"
+        },
+        "instagram": {
+          "status": "not_started"
+        }
+      }
     }
   ],
   "optimizationLog": [
-    {
-      "date": "2026-09-18",
-      "changes": [
-        "Kotlin: 0.8x avg views → drop",
-        "JavaScript: 0.8x avg views → drop",
-        "standard: 1 avg views (80 videos)",
-        "top1: 1 avg views (2 videos)",
-        "Trending languages: Java (2.3x), C# (1.5x), CSS (2.3x), Markdown (3.0x), Jupyter Notebook (2.8x), PowerShell (2.7x)",
-        "Day performance: Fri=2, Sat=1, Sun=1, Tue=1, Wed=1, Mon=1, Thu=1"
-      ],
-      "recommendedTemplate": "standard"
-    },
     {
       "date": "2026-09-19",
       "changes": [
@@ -6979,6 +7033,19 @@
         "standard: 1 avg views (61 videos)",
         "top1: 1 avg views (30 videos)",
         "Trending languages: CSS (2.7x), Markdown (3.5x), Java (4.0x), Jupyter Notebook (3.2x), Swift (1.4x), PowerShell (3.1x)",
+        "Day performance: Sun=1, Mon=1, Wed=1, Thu=1, Fri=1, Sat=1, Tue=0"
+      ],
+      "recommendedTemplate": "standard"
+    },
+    {
+      "date": "2026-10-21",
+      "changes": [
+        "Shell: 1.3x avg views → boost",
+        "JavaScript: 0.7x avg views → drop",
+        "C++: 0.0x avg views → drop",
+        "standard: 1 avg views (61 videos)",
+        "top1: 1 avg views (31 videos)",
+        "Trending languages: CSS (2.5x), Markdown (3.2x), Java (3.8x), Jupyter Notebook (3.0x), Swift (1.4x), PowerShell (2.9x)",
         "Day performance: Sun=1, Mon=1, Wed=1, Thu=1, Fri=1, Sat=1, Tue=0"
       ],
       "recommendedTemplate": "standard"
