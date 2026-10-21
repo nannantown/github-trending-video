@@ -6694,13 +6694,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "preparing",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "a3477bb8-2723-46e4-b1fd-da3451644ee1",
           "attempts": 1,
-          "updatedAt": "2026-10-21T01:08:40.077Z"
+          "updatedAt": "2026-10-21T01:08:41.280Z"
         }
       },
       "ytOpening": "top1",
