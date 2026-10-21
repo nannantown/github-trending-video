@@ -6680,7 +6680,7 @@
           "safeToRetry": false,
           "attemptId": "6d4c2d64-f064-41b8-a7f3-a4e896cc49c7",
           "attempts": 1,
-          "updatedAt": "2026-10-21T01:08:36.312Z",
+          "updatedAt": "2026-10-21T01:08:37.758Z",
           "date": "2026-10-21",
           "videoId": "GMUczggVQtM",
           "videoUrl": "https://youtube.com/shorts/GMUczggVQtM",
@@ -6688,13 +6688,17 @@
           "title": "ai-job-search — ATS最適化SaaS代替の求人AI｜GitHub Trending TOP5 10/21",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
