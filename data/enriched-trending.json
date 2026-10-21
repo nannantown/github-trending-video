@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "discovery": {
-    "method": "business-angle",
-    "description": "4日連続TOP1のai-job-searchと2日連続のComfyUIに、新顔3本(Cloudflare公式のsecurity-audit-skill / 20超のAIエージェントを並列操るorca / 16日ぶり再登場のponytail)が加わった40%重複日。5本すべてを受託・スタートアップ視点で『月額SaaS代替 / 外部発注費削減 / 工数削減 / API費削減 / 月額課金代替』の業務コスト削減軸に揃える",
+    "method": "tech-deep",
+    "description": "60%重複日(security-audit-skill/orca/ponytail継続、vllm/headroom新規)。前日business-angleから角度を切り替え、5本すべてを『どうやって動いているか』の内部実装・アーキテクチャ視点で統一。Cloudflare公式skillの6フェーズ監査構造、vLLMのPagedAttention、orcaのworktree隔離、headroomの前段圧縮、ponytailのsystem promptルール設計を解きます",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/MadsLorentzen/ai-job-search",
       "https://github.com/cloudflare/security-audit-skill",
+      "https://github.com/vllm-project/vllm",
       "https://github.com/stablyai/orca",
+      "https://github.com/headroomlabs-ai/headroom",
       "https://github.com/DietrichGebert/ponytail",
-      "https://github.com/Comfy-Org/ComfyUI",
+      "https://news.ycombinator.com/from?site=github.com/vllm-project",
       "https://news.ycombinator.com/from?site=github.com/cloudflare",
-      "https://news.ycombinator.com/from?site=github.com/stablyai",
-      "https://news.ycombinator.com/from?site=github.com/Comfy-Org"
+      "https://news.ycombinator.com/from?site=github.com/stablyai"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,27 +20,27 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "MadsLorentzen/ai-job-search",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "language": "Python",
-      "stars": 60382,
-      "todayStars": 3890,
-      "description": "ATS最適化SaaS代替の求人AI",
-      "detail": "Claude Codeで動くローカル求人探索フレームワーク。応募先ごとにCVと志望動機を自動生成し、別エージェントが査読します。有料のJobscan系ATS最適化SaaSを使わず自前で回せます。",
-      "narration": "有料のATS最適化サービスをやめてローカルで回す求人エージェントです。応募ごとのCV作成とレビューまで自動化できます。"
-    },
-    {
-      "rank": 2,
       "fullName": "cloudflare/security-audit-skill",
       "name": "security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "language": "JavaScript",
-      "stars": 34009,
-      "todayStars": 1680,
-      "description": "Cloudflare公式の監査skill",
-      "detail": "6フェーズのセキュリティ監査を回すCloudflare公式のcoding-agent skillです。別エージェントが各指摘を独立検証し、構造化JSONで出力。外部監査会社への発注費を削減できます。",
-      "narration": "外部のセキュリティ監査費を削れるCloudflare公式のskillです。別エージェントが指摘を独立検証します。"
+      "stars": 36193,
+      "todayStars": 1997,
+      "description": "6フェーズ監査のCloudflare公式skill",
+      "detail": "6フェーズでセキュリティ監査を回すCloudflare公式のcoding-agent skillです。別エージェントが各指摘を独立検証し構造化JSONで出力。社内の脆弱性発見harnessの種にも使われています。",
+      "narration": "Cloudflare公式の6フェーズ監査skillです。別エージェントが各指摘を独立検証し、構造化JSONで返します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "vllm-project/vllm",
+      "name": "vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "language": "Python",
+      "stars": 94835,
+      "todayStars": 439,
+      "description": "LLM推論を高速化する定番OSS",
+      "detail": "PagedAttentionでKVキャッシュを仮想メモリ風に扱い、連続バッチングでGPUの空き時間を潰すLLM推論サーバー。vLLMは大規模運用でTGIやllama.cppより高いスループットを出します。",
+      "narration": "LLM推論を速くするOSSサーバーです。PagedAttentionと連続バッチングでGPUの空き時間を潰します。"
     },
     {
       "rank": 3,
@@ -48,35 +48,35 @@
       "name": "orca",
       "url": "https://github.com/stablyai/orca",
       "language": "TypeScript",
-      "stars": 99654,
-      "todayStars": 1559,
+      "stars": 101154,
+      "todayStars": 1543,
       "description": "AIエージェントの群制御アプリ",
-      "detail": "Claude Code・Codex・Copilotなど20超のAIエージェントを並列で動かすデスクトップ版司令塔。各エージェントは個別のgit worktreeで走り、受託の掛け持ち工数を削減できます。",
-      "narration": "Claude CodeやCodexを並列で動かすデスクトップ司令塔です。一人で複数案件を回す受託の工数が削れます。"
+      "detail": "Claude Code・Codex・Copilotなど20超のAIエージェントを並列実行するデスクトップ司令塔。各エージェントは個別のgit worktreeで隔離され、同一リポに同時に手を入れても衝突しない設計です。",
+      "narration": "20超のAIエージェントを並列で動かす司令塔アプリです。各エージェントは個別のgit worktreeで走ります。"
     },
     {
       "rank": 4,
+      "fullName": "headroomlabs-ai/headroom",
+      "name": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "language": "Python",
+      "stars": 77214,
+      "todayStars": 477,
+      "description": "ツール出力を圧縮する前段プロキシ",
+      "detail": "ツール出力・ログ・RAGチャンクをLLMに渡す前に圧縮するライブラリとMCPサーバー。プロキシとして挟むだけで入力トークンを削り、長いcontextで膨らみがちな推論費を抑えます。",
+      "narration": "LLMに届く前のツール出力を圧縮するプロキシです。ログやRAGチャンクを削って入力トークンを節約します。"
+    },
+    {
+      "rank": 5,
       "fullName": "DietrichGebert/ponytail",
       "name": "ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "language": "JavaScript",
-      "stars": 169533,
-      "todayStars": 1396,
-      "description": "過剰実装を止めるAIルール集",
-      "detail": "Claude CodeやCodex向けの『書かないコード』ルール集です。既存コードや標準ライブラリの再利用を優先させ、生成コードを約半分に抑制。API費と後の保守費が両方浮きます。",
-      "narration": "怠惰なシニアを演じるAIルール集で、過剰実装を止めます。生成コードが約半分になりAPI費と後の保守費が浮きます。"
-    },
-    {
-      "rank": 5,
-      "fullName": "Comfy-Org/ComfyUI",
-      "name": "ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "language": "Python",
-      "stars": 140704,
-      "todayStars": 1201,
-      "description": "生成AIのノードグラフ基盤",
-      "detail": "画像・動画・音声・3Dを束ねるノードグラフ生成エンジン。Flux.2やWan 2.2など最新モデル対応、4GB VRAMで動作し、MidjourneyやRunwayの月額課金を自前環境で代替できます。",
-      "narration": "MidjourneyやRunwayの月額を自前で代替する生成エンジンです。4GBのVRAMで最新モデルまで動かせます。"
+      "stars": 171490,
+      "todayStars": 2051,
+      "description": "書かないコードを選ばせるAIルール集",
+      "detail": "Claude CodeやCodex向けのsystem promptルール集で、怠惰なシニアを演じさせます。新規コードより既存コードと標準ライブラリの再利用を優先させ、生成量を約半分に抑制します。",
+      "narration": "怠惰なシニアを演じるAIルール集です。既存コードや標準ライブラリの再利用を優先させ生成を抑えます。"
     }
   ]
 }
