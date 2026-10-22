@@ -6803,12 +6803,12 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "uploading",
+          "phase": "publishing",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "1760e844-7904-4bd6-877e-90305dcf25f7",
           "attempts": 3,
-          "updatedAt": "2026-10-22T03:33:00.206Z",
+          "updatedAt": "2026-10-22T03:33:24.213Z",
           "containerId": "18095754809460294",
           "containerIds": [
             "18095740466460294",
