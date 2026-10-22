@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "560fdb25-cda3-432f-b79b-7531ced4d0a5",
       "attempts": 1,
-      "updatedAt": "2026-10-22T01:05:16.607Z",
+      "updatedAt": "2026-10-22T01:05:18.459Z",
       "date": "2026-10-22",
       "videoId": "5VrHU0ygOPI",
       "videoUrl": "https://youtube.com/shorts/5VrHU0ygOPI",
@@ -19,11 +19,14 @@
       "title": "security-audit-skill — 6フェーズ監査のCloudflare公式skill｜GitHub Trending TOP5 10/22",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-22T01:05:16.607Z"
+  "updatedAt": "2026-10-22T01:05:18.459Z"
 }
