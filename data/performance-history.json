@@ -6783,7 +6783,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "560fdb25-cda3-432f-b79b-7531ced4d0a5",
+          "attempts": 1,
+          "updatedAt": "2026-10-22T01:05:11.034Z"
         },
         "instagram": {
           "status": "not_started"
