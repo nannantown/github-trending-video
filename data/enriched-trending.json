@@ -1,18 +1,15 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "discovery": {
-    "method": "tech-deep",
-    "description": "60%重複日(security-audit-skill/orca/ponytail継続、vllm/headroom新規)。前日business-angleから角度を切り替え、5本すべてを『どうやって動いているか』の内部実装・アーキテクチャ視点で統一。Cloudflare公式skillの6フェーズ監査構造、vLLMのPagedAttention、orcaのworktree隔離、headroomの前段圧縮、ponytailのsystem promptルール設計を解きます",
+    "method": "comparison",
+    "description": "本日のTOP5を既存の定番OSS・類似ツールと並べて差分を提示するcomparison日",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/vllm-project/vllm",
-      "https://github.com/stablyai/orca",
-      "https://github.com/headroomlabs-ai/headroom",
+      "https://github.com/php/php-src",
+      "https://github.com/anthropics/knowledge-work-plugins",
       "https://github.com/DietrichGebert/ponytail",
-      "https://news.ycombinator.com/from?site=github.com/vllm-project",
-      "https://news.ycombinator.com/from?site=github.com/cloudflare",
-      "https://news.ycombinator.com/from?site=github.com/stablyai"
+      "https://github.com/cloudflare/security-audit-skill",
+      "https://github.com/Graphify-Labs/graphify"
     ],
     "query": "",
     "freshness_hours": 1
@@ -20,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "language": "JavaScript",
-      "stars": 36193,
-      "todayStars": 1997,
-      "description": "6フェーズ監査のCloudflare公式skill",
-      "detail": "6フェーズでセキュリティ監査を回すCloudflare公式のcoding-agent skillです。別エージェントが各指摘を独立検証し構造化JSONで出力。社内の脆弱性発見harnessの種にも使われています。",
-      "narration": "Cloudflare公式の6フェーズ監査skillです。別エージェントが各指摘を独立検証し、構造化JSONで返します。"
+      "fullName": "php/php-src",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "language": "C",
+      "stars": 41114,
+      "todayStars": 423,
+      "description": "進化を続けるPHP本家のソース",
+      "detail": "拡張配布はPECLからPIEへ切り替わり、BSD-3ライセンスで今も現場Webを支える本家リポです。Pythonの陰で見落とされがちですが、WordPressやLaravel系の土台として現役運用の定番であり続けています。",
+      "narration": "今も伸び続けるPHPの本家リポです。拡張配布はPECLからPIEに切り替わり、Python系と並ぶ現役言語です。"
     },
     {
       "rank": 2,
-      "fullName": "vllm-project/vllm",
-      "name": "vllm",
-      "url": "https://github.com/vllm-project/vllm",
+      "fullName": "anthropics/knowledge-work-plugins",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
       "language": "Python",
-      "stars": 94835,
-      "todayStars": 439,
-      "description": "LLM推論を高速化する定番OSS",
-      "detail": "PagedAttentionでKVキャッシュを仮想メモリ風に扱い、連続バッチングでGPUの空き時間を潰すLLM推論サーバー。vLLMは大規模運用でTGIやllama.cppより高いスループットを出します。",
-      "narration": "LLM推論を速くするOSSサーバーです。PagedAttentionと連続バッチングでGPUの空き時間を潰します。"
+      "stars": 31539,
+      "todayStars": 303,
+      "description": "Anthropic公式の職種別プラグイン集",
+      "detail": "営業・法務・財務・PdMなど11職種分のプラグインをMarkdownとJSONだけで提供する公式コレクションです。コード向け棚と並ぶ業務特化シリーズとして、職種単位でClaude Coworkを特化させます。",
+      "narration": "Anthropic公式の職種別プラグイン集です。営業や法務など11職種を揃え、コード向け棚と並ぶ業務特化シリーズです。"
     },
     {
       "rank": 3,
-      "fullName": "stablyai/orca",
-      "name": "orca",
-      "url": "https://github.com/stablyai/orca",
-      "language": "TypeScript",
-      "stars": 101154,
-      "todayStars": 1543,
-      "description": "AIエージェントの群制御アプリ",
-      "detail": "Claude Code・Codex・Copilotなど20超のAIエージェントを並列実行するデスクトップ司令塔。各エージェントは個別のgit worktreeで隔離され、同一リポに同時に手を入れても衝突しない設計です。",
-      "narration": "20超のAIエージェントを並列で動かす司令塔アプリです。各エージェントは個別のgit worktreeで走ります。"
-    },
-    {
-      "rank": 4,
-      "fullName": "headroomlabs-ai/headroom",
-      "name": "headroom",
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "language": "Python",
-      "stars": 77214,
-      "todayStars": 477,
-      "description": "ツール出力を圧縮する前段プロキシ",
-      "detail": "ツール出力・ログ・RAGチャンクをLLMに渡す前に圧縮するライブラリとMCPサーバー。プロキシとして挟むだけで入力トークンを削り、長いcontextで膨らみがちな推論費を抑えます。",
-      "narration": "LLMに届く前のツール出力を圧縮するプロキシです。ログやRAGチャンクを削って入力トークンを節約します。"
-    },
-    {
-      "rank": 5,
       "fullName": "DietrichGebert/ponytail",
       "name": "ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "language": "JavaScript",
-      "stars": 171490,
-      "todayStars": 2051,
-      "description": "書かないコードを選ばせるAIルール集",
-      "detail": "Claude CodeやCodex向けのsystem promptルール集で、怠惰なシニアを演じさせます。新規コードより既存コードと標準ライブラリの再利用を優先させ、生成量を約半分に抑制します。",
-      "narration": "怠惰なシニアを演じるAIルール集です。既存コードや標準ライブラリの再利用を優先させ生成を抑えます。"
+      "stars": 173353,
+      "todayStars": 1949,
+      "description": "怠け者の先輩を演じるAI指示書",
+      "detail": "既存コード再利用から標準ライブラリ、ネイティブ機能へと段階的に判断させる梯子型のSKILL.mdで、AIの過剰実装を抑えます。CLAUDE.mdよりも判断フローが明確で、Claude CodeとCodex両対応です。",
+      "narration": "AIエージェントに怠け者の先輩を仕込む指示書です。CLAUDE.mdと違い既存コード再利用の梯子で過剰生成を抑えます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars": 39394,
+      "todayStars": 2979,
+      "description": "6段階で検証するCloudflare公式skill",
+      "detail": "偵察から独立検証までの6フェーズでAIが脆弱性候補を機械可読に記録する、Cloudflareが社内監査用に公開した公式skillです。SAST系のルール検査と違い、発見役と検証役を別エージェントに分離して誤検知を潰します。",
+      "narration": "6フェーズでAIが脆弱性を探すskillです。SAST系と違い別エージェントの独立検証で誤検知を潰します。"
+    },
+    {
+      "rank": 5,
+      "fullName": "Graphify-Labs/graphify",
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "language": "Python",
+      "stars": 132876,
+      "todayStars": 1407,
+      "description": "コードを知識グラフ化するskill",
+      "detail": "tree-sitterでコードを解析し、ドキュメントやPDFも含めてgraph.jsonに保存する/graphifyスキルです。ベクトルRAGと違い埋め込みを持たず、グラフを辿って設計やデータの流れを答えます。",
+      "narration": "コード・ドキュメント・PDFを知識グラフ化するskillです。ベクトルRAGと違い埋め込みを使わずグラフ探索で答えます。"
     }
   ]
 }
