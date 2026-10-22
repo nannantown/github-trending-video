@@ -6802,13 +6802,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "uploading",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "356a0c1a-157d-4ccb-ac0f-d120f3a19dfb",
           "attempts": 1,
-          "updatedAt": "2026-10-22T01:08:04.206Z",
+          "updatedAt": "2026-10-22T01:08:37.984Z",
           "containerId": "18095740817460294",
           "containerIds": [
             "18095740466460294",
