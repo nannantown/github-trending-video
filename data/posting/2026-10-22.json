@@ -6,16 +6,24 @@
   "metadataSha256": "2e4ae8f87f0fef1844f7fc372ce0579f7bd188d99dbe43877d966facc0c9bc79",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "560fdb25-cda3-432f-b79b-7531ced4d0a5",
       "attempts": 1,
-      "updatedAt": "2026-10-22T01:05:11.034Z"
+      "updatedAt": "2026-10-22T01:05:16.607Z",
+      "date": "2026-10-22",
+      "videoId": "5VrHU0ygOPI",
+      "videoUrl": "https://youtube.com/shorts/5VrHU0ygOPI",
+      "uploadedAt": "2026-10-22T01:05:16.607Z",
+      "title": "security-audit-skill — 6フェーズ監査のCloudflare公式skill｜GitHub Trending TOP5 10/22",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-22T01:05:13.409Z"
+  "updatedAt": "2026-10-22T01:05:16.607Z"
 }
