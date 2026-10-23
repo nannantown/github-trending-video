@@ -6837,8 +6837,8 @@
     },
     {
       "date": "2026-10-23",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "wraFYVxE94Q",
+      "videoUrl": "https://youtube.com/shorts/wraFYVxE94Q",
       "title": "php-src — 進化を続けるPHP本家のソース｜GitHub Trending TOP5 10/23",
       "titleTemplate": "top1",
       "hashtags": [
@@ -6891,17 +6891,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "a009551e-3669-4c10-bc27-59675e9ee68d",
           "attempts": 1,
-          "updatedAt": "2026-10-23T01:07:24.874Z"
+          "updatedAt": "2026-10-23T01:07:29.914Z",
+          "date": "2026-10-23",
+          "videoId": "wraFYVxE94Q",
+          "videoUrl": "https://youtube.com/shorts/wraFYVxE94Q",
+          "uploadedAt": "2026-10-23T01:07:29.914Z",
+          "title": "php-src — 進化を続けるPHP本家のソース｜GitHub Trending TOP5 10/23",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
