@@ -6910,7 +6910,13 @@
           }
         },
         "instagram": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "9d0e66ae-73a6-4c0d-baec-7573ae7a103c",
+          "attempts": 1,
+          "updatedAt": "2026-10-23T01:07:36.614Z"
         }
       },
       "ytOpening": "top1",
