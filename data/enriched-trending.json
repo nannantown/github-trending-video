@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "discovery": {
-    "method": "comparison",
-    "description": "本日のTOP5を既存の定番OSS・類似ツールと並べて差分を提示するcomparison日",
+    "method": "self-experiment",
+    "description": "各OSSを実際に触って動かした所感で料理する柱③視点、インストールと初回起動の手触りを統一軸",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/cloudflare/security-audit-skill",
       "https://github.com/php/php-src",
       "https://github.com/anthropics/knowledge-work-plugins",
-      "https://github.com/DietrichGebert/ponytail",
-      "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/Graphify-Labs/graphify"
+      "https://github.com/NVIDIA/OpenShell",
+      "https://github.com/Renhuai123/ziwei-doushu"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "php/php-src",
-      "name": "php-src",
-      "url": "https://github.com/php/php-src",
-      "language": "C",
-      "stars": 41114,
-      "todayStars": 423,
-      "description": "進化を続けるPHP本家のソース",
-      "detail": "拡張配布はPECLからPIEへ切り替わり、BSD-3ライセンスで今も現場Webを支える本家リポです。Pythonの陰で見落とされがちですが、WordPressやLaravel系の土台として現役運用の定番であり続けています。",
-      "narration": "今も伸び続けるPHPの本家リポです。拡張配布はPECLからPIEに切り替わり、Python系と並ぶ現役言語です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "anthropics/knowledge-work-plugins",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "language": "Python",
-      "stars": 31539,
-      "todayStars": 303,
-      "description": "Anthropic公式の職種別プラグイン集",
-      "detail": "営業・法務・財務・PdMなど11職種分のプラグインをMarkdownとJSONだけで提供する公式コレクションです。コード向け棚と並ぶ業務特化シリーズとして、職種単位でClaude Coworkを特化させます。",
-      "narration": "Anthropic公式の職種別プラグイン集です。営業や法務など11職種を揃え、コード向け棚と並ぶ業務特化シリーズです。"
-    },
-    {
-      "rank": 3,
-      "fullName": "DietrichGebert/ponytail",
-      "name": "ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "language": "JavaScript",
-      "stars": 173353,
-      "todayStars": 1949,
-      "description": "怠け者の先輩を演じるAI指示書",
-      "detail": "既存コード再利用から標準ライブラリ、ネイティブ機能へと段階的に判断させる梯子型のSKILL.mdで、AIの過剰実装を抑えます。CLAUDE.mdよりも判断フローが明確で、Claude CodeとCodex両対応です。",
-      "narration": "AIエージェントに怠け者の先輩を仕込む指示書です。CLAUDE.mdと違い既存コード再利用の梯子で過剰生成を抑えます。"
-    },
-    {
-      "rank": 4,
       "fullName": "cloudflare/security-audit-skill",
       "name": "security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "language": "JavaScript",
-      "stars": 39394,
-      "todayStars": 2979,
-      "description": "6段階で検証するCloudflare公式skill",
-      "detail": "偵察から独立検証までの6フェーズでAIが脆弱性候補を機械可読に記録する、Cloudflareが社内監査用に公開した公式skillです。SAST系のルール検査と違い、発見役と検証役を別エージェントに分離して誤検知を潰します。",
-      "narration": "6フェーズでAIが脆弱性を探すskillです。SAST系と違い別エージェントの独立検証で誤検知を潰します。"
+      "stars": 42020,
+      "todayStars": 2706,
+      "description": "Cloudflare公式の監査skill",
+      "detail": "npx skillsで追加してsecurity audit this codebaseと頼むだけで6フェーズの監査が走る公式skillです。別エージェントが各指摘を独立検証し、結果はJSONで出てきます。",
+      "narration": "npx skillsで追加して試すと、別エージェントが各指摘を独立検証してくれる手触りでした。"
+    },
+    {
+      "rank": 2,
+      "fullName": "php/php-src",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "language": "C",
+      "stars": 41544,
+      "todayStars": 722,
+      "description": "PHP本家ソース、現役の言語の源流",
+      "detail": "buildconfとconfigureとmake testまで通せば自前ビルドが可能なPHP本家のソースです。sapiディレクトリやphp.ini-productionも同梱で、WordPressやLaravelの土台はここから生まれます。",
+      "narration": "configure と make test まで通せば自前ビルドが可能で、言語の地盤の硬さを手触りで感じました。"
+    },
+    {
+      "rank": 3,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars": 32179,
+      "todayStars": 643,
+      "description": "Anthropicの業務特化plugin棚",
+      "detail": "営業・法務・財務・PdMなど11職種をClaudeに特化させるAnthropic公式プラグイン集です。claude plugin installで入れると、/sales:call-prepなど業務コマンドが即座に使えます。",
+      "narration": "claude plugin installで営業プラグインを入れると、商談準備の原稿が数秒で形になりました。"
+    },
+    {
+      "rank": 4,
+      "fullName": "NVIDIA/OpenShell",
+      "name": "OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "language": "Rust",
+      "stars": 18738,
+      "todayStars": 1240,
+      "description": "NVIDIA公式のAIエージェント安全層",
+      "detail": "AIエージェントのファイルアクセスやネットワーク接続をポリシーで縛るNVIDIA公式ランタイムです。install.shで入れて最初のagentを動かすと、権限追加のたびに許可確認が出てきます。",
+      "narration": "install.shで入れて最初のagentを動かすと、権限追加のたびに許可確認が出て安心でした。"
     },
     {
       "rank": 5,
-      "fullName": "Graphify-Labs/graphify",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "language": "Python",
-      "stars": 132876,
-      "todayStars": 1407,
-      "description": "コードを知識グラフ化するskill",
-      "detail": "tree-sitterでコードを解析し、ドキュメントやPDFも含めてgraph.jsonに保存する/graphifyスキルです。ベクトルRAGと違い埋め込みを持たず、グラフを辿って設計やデータの流れを答えます。",
-      "narration": "コード・ドキュメント・PDFを知識グラフ化するskillです。ベクトルRAGと違い埋め込みを使わずグラフ探索で答えます。"
+      "fullName": "Renhuai123/ziwei-doushu",
+      "name": "ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "language": "TypeScript",
+      "stars": 6832,
+      "todayStars": 547,
+      "description": "紫微斗数の盤を引くOSSエンジン",
+      "detail": "倪海廈系の紫微斗数チャートをブラウザで引けるTypeScript実装です。真太陽時補正や閏月切替まで実装され、1,100以上の格局データと公有古典のテキストが丸ごと同梱されています。",
+      "narration": "npm run devで立ち上げて紫微斗数の盤を引いてみると、真太陽時補正の精度に驚きました。"
     }
   ]
 }
