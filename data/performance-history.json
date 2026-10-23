@@ -6888,7 +6888,17 @@
         "comments": 0,
         "updatedAt": null
       },
-      "instagram": null,
+      "instagram": {
+        "permalink": null,
+        "views": null,
+        "reach": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saved": null,
+        "updatedAt": null,
+        "mediaId": "17902374255669915"
+      },
       "posting": {
         "youtube": {
           "status": "succeeded",
@@ -6910,19 +6920,20 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
-          "phase": "publishing",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "9d0e66ae-73a6-4c0d-baec-7573ae7a103c",
           "attempts": 1,
-          "updatedAt": "2026-10-23T01:10:47.166Z",
+          "updatedAt": "2026-10-23T01:10:57.848Z",
           "containerId": "18095879411460294",
           "containerIds": [
             "18095878346460294",
             "18095878805460294",
             "18095879411460294"
-          ]
+          ],
+          "mediaId": "17902374255669915"
         }
       },
       "ytOpening": "top1",
