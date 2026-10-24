@@ -98,9 +98,14 @@ export function synthesizeOnce(text, { voice, rate = "+0%", pitch = "+0Hz", volu
       timeoutMs,
     );
 
-    ws.on("unexpected-response", (_req, res) =>
-      finish(new Error(`WebSocket upgrade refused: HTTP ${res.statusCode}`)),
-    );
+    ws.on("unexpected-response", (_req, res) => {
+      const err = new Error(`WebSocket upgrade refused: HTTP ${res.statusCode}`);
+      err.statusCode = res.statusCode;
+      // A normal HTTP response (including 200) is not a WebSocket upgrade.
+      // Do not repeat a rejected protocol/authentication request unchanged.
+      err.retryable = res.statusCode === 408 || res.statusCode === 429 || res.statusCode >= 500;
+      finish(err);
+    });
     ws.on("error", (err) => finish(new Error(`WebSocket error: ${err.message}`)));
     ws.on("close", (code) => finish(new Error(`connection closed (code ${code}) before turn.end; ${audio.length} audio chunks`)));
 

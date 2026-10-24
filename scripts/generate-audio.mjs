@@ -102,6 +102,7 @@ async function synthesize(text, outputPath) {
     } catch (err) {
       errors.push(err.message);
       console.error(`\n  TTS attempt ${attempt}/${TTS_ATTEMPTS} failed: ${err.message}`);
+      if (err.retryable === false) throw err;
       if (attempt < TTS_ATTEMPTS) await new Promise((r) => setTimeout(r, 2000 * attempt));
     }
   }
