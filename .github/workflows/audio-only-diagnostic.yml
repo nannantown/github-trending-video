@@ -1,0 +1,58 @@
+name: Audio-only diagnostic (no video or posting)
+
+# A one-off diagnostic branch creation is the only trigger. Updates and reruns
+# cannot repeat the live request; this file does not change scheduled workflows.
+on:
+  push:
+    branches: [codex/audio-diagnostic-20261024]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audio-only-diagnostic-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audio-only:
+    if: github.event.before == '0000000000000000000000000000000000000000' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Offline audio regressions (no network)
+        run: node --test scripts/edge-tts.test.mjs scripts/audio-only-diagnostic.test.mjs
+      - name: Install only the existing locked WebSocket dependency
+        shell: bash
+        run: |
+          test "$(node -p "require('./package-lock.json').packages['node_modules/ws'].version")" = 8.22.0
+          npm install --prefix "$RUNNER_TEMP/sns-audio-runtime" --ignore-scripts --no-audit --no-fund --save-exact ws@8.22.0
+      - name: Check existing audio decoders
+        run: |
+          command -v ffprobe
+          command -v ffmpeg
+      - name: One neutral audio request (15-second cap, no retry)
+        id: audio
+        env:
+          AUDIO_WS_ENTRY: ${{ runner.temp }}/sns-audio-runtime/node_modules/ws/wrapper.mjs
+        run: timeout --signal=TERM --kill-after=1s 15s node scripts/audio-only-diagnostic.mjs
+      - name: Verify nonempty audio and decode the entire MP3
+        shell: bash
+        run: |
+          test -s output/audio-diagnostic/sample.mp3
+          ffprobe -v error -show_entries format=duration,size,format_name:stream=codec_name,sample_rate,channels -of json output/audio-diagnostic/sample.mp3 > output/audio-diagnostic/probe.json
+          ffmpeg -nostdin -v error -i output/audio-diagnostic/sample.mp3 -map 0:a:0 -f null - 2> output/audio-diagnostic/decode.log
+          node scripts/audio-only-diagnostic.mjs --verify
+      - name: Save diagnostic evidence (including failures)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-only-diagnostic-${{ github.run_id }}
+          path: output/audio-diagnostic/
+          if-no-files-found: warn
+          retention-days: 3
