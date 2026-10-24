@@ -4,7 +4,7 @@ name: Audio-only diagnostic (no video or posting)
 # cannot repeat the live request; this file does not change scheduled workflows.
 on:
   push:
-    branches: [codex/audio-diagnostic-20261024]
+    branches: [codex/audio-diagnostic-20261024-ci]
 
 permissions:
   contents: read
@@ -32,8 +32,10 @@ jobs:
         run: |
           test "$(node -p "require('./package-lock.json').packages['node_modules/ws'].version")" = 8.22.0
           npm install --prefix "$RUNNER_TEMP/sns-audio-runtime" --ignore-scripts --no-audit --no-fund --save-exact ws@8.22.0
-      - name: Check existing audio decoders
+      - name: Prepare the same FFmpeg decoder used by the production workflow
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg
           command -v ffprobe
           command -v ffmpeg
       - name: One neutral audio request (15-second cap, no retry)
