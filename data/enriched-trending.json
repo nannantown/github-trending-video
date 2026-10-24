@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "discovery": {
-    "method": "self-experiment",
-    "description": "各OSSを実際に触って動かした所感で料理する柱③視点、インストールと初回起動の手触りを統一軸",
+    "method": "business-angle",
+    "description": "各OSSを受託案件・スタートアップ視点で料理する柱②視点、投資判断の起点として5本を金額換算の訴求軸で統一",
     "sources": [
       "https://github.com/trending",
       "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/php/php-src",
-      "https://github.com/anthropics/knowledge-work-plugins",
       "https://github.com/NVIDIA/OpenShell",
-      "https://github.com/Renhuai123/ziwei-doushu"
+      "https://github.com/aws/agent-toolkit-for-aws",
+      "https://github.com/Nutlope/hallmark",
+      "https://github.com/luongnv89/claude-howto"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,59 +21,59 @@
       "name": "security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "language": "JavaScript",
-      "stars": 42020,
-      "todayStars": 2706,
-      "description": "Cloudflare公式の監査skill",
-      "detail": "npx skillsで追加してsecurity audit this codebaseと頼むだけで6フェーズの監査が走る公式skillです。別エージェントが各指摘を独立検証し、結果はJSONで出てきます。",
-      "narration": "npx skillsで追加して試すと、別エージェントが各指摘を独立検証してくれる手触りでした。"
+      "stars": 44394,
+      "todayStars": 2271,
+      "description": "外部監査を自動化する公式skill",
+      "detail": "npx skillsで追加しsecurity audit this codebaseと頼めば6フェーズ監査が走り、別エージェントが指摘を独立検証する公式skillです。外部監査の数十万円を内製の工程に置き換えられます。",
+      "narration": "外部監査にかけていた数十万円を内製化できる公式skillで、受託の品質保証工程にそのまま組み込めます。"
     },
     {
       "rank": 2,
-      "fullName": "php/php-src",
-      "name": "php-src",
-      "url": "https://github.com/php/php-src",
-      "language": "C",
-      "stars": 41544,
-      "todayStars": 722,
-      "description": "PHP本家ソース、現役の言語の源流",
-      "detail": "buildconfとconfigureとmake testまで通せば自前ビルドが可能なPHP本家のソースです。sapiディレクトリやphp.ini-productionも同梱で、WordPressやLaravelの土台はここから生まれます。",
-      "narration": "configure と make test まで通せば自前ビルドが可能で、言語の地盤の硬さを手触りで感じました。"
-    },
-    {
-      "rank": 3,
-      "fullName": "anthropics/knowledge-work-plugins",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "language": "Python",
-      "stars": 32179,
-      "todayStars": 643,
-      "description": "Anthropicの業務特化plugin棚",
-      "detail": "営業・法務・財務・PdMなど11職種をClaudeに特化させるAnthropic公式プラグイン集です。claude plugin installで入れると、/sales:call-prepなど業務コマンドが即座に使えます。",
-      "narration": "claude plugin installで営業プラグインを入れると、商談準備の原稿が数秒で形になりました。"
-    },
-    {
-      "rank": 4,
       "fullName": "NVIDIA/OpenShell",
       "name": "OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "language": "Rust",
-      "stars": 18738,
-      "todayStars": 1240,
-      "description": "NVIDIA公式のAIエージェント安全層",
-      "detail": "AIエージェントのファイルアクセスやネットワーク接続をポリシーで縛るNVIDIA公式ランタイムです。install.shで入れて最初のagentを動かすと、権限追加のたびに許可確認が出てきます。",
-      "narration": "install.shで入れて最初のagentを動かすと、権限追加のたびに許可確認が出て安心でした。"
+      "stars": 19435,
+      "todayStars": 893,
+      "description": "AI agentの安全層ランタイム",
+      "detail": "AIエージェントのファイル・ネットワーク・認証情報をポリシーで縛るNVIDIA公式ランタイムです。Kubernetesにも載り、顧客環境でagent導入を提案する時のガバナンス要件を満たせます。",
+      "narration": "AI agentを顧客環境に売り込む時、権限ガバナンス要件を満たすランタイムとして提案に使えます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "aws/agent-toolkit-for-aws",
+      "name": "agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "language": "Python",
+      "stars": 3103,
+      "todayStars": 11,
+      "description": "AWS公式のagent toolkit",
+      "detail": "300超のAWSサービスへ単一MCPでつなぎ、aws-coreやaws-startup-advisorなどpluginとskillを提供する公式toolkitです。IAM制御とCloudTrail監査が付き企業導入が通りやすくなります。",
+      "narration": "AWS案件でagentを組むなら、300超のサービスへ公式MCPでつなぐ本家toolkitが見積の起点です。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Nutlope/hallmark",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "language": "CSS",
+      "stars": 32064,
+      "todayStars": 570,
+      "description": "AI生成UIの脱テンプレ化skill",
+      "detail": "48マテリアルから3テーマを選び、8画面幅でAI生成の典型的な弱点を自動検査するdesign skillです。Puppeteerでブラウザ実測まで走り、MVPのLPが「AIっぽい」で捨てられるリスクを減らします。",
+      "narration": "AI生成LPが一瞬で見分けられるという弱点を潰すskillで、MVPのデザイン外注費を一段削れます。"
     },
     {
       "rank": 5,
-      "fullName": "Renhuai123/ziwei-doushu",
-      "name": "ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "language": "TypeScript",
-      "stars": 6832,
-      "todayStars": 547,
-      "description": "紫微斗数の盤を引くOSSエンジン",
-      "detail": "倪海廈系の紫微斗数チャートをブラウザで引けるTypeScript実装です。真太陽時補正や閏月切替まで実装され、1,100以上の格局データと公有古典のテキストが丸ごと同梱されています。",
-      "narration": "npm run devで立ち上げて紫微斗数の盤を引いてみると、真太陽時補正の精度に驚きました。"
+      "fullName": "luongnv89/claude-howto",
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "language": "Python",
+      "stars": 44499,
+      "todayStars": 442,
+      "description": "Claude Code実践ガイド集",
+      "detail": "slash commands、memory、skills、subagents、MCP、hooks、pluginsを10モジュール11〜13時間で網羅するMITライセンスの教材です。5言語対応とEPUB出力で社内配布にも使えます。",
+      "narration": "社内にClaude Codeを配る時、11時間カリキュラムをそのまま研修教材に転用すれば工数が浮きます。"
     }
   ]
 }

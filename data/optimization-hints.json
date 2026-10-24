@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -12,50 +12,116 @@
       "Sun": 5
     },
     "topPerformingLanguages": [
-      { "language": "Python", "multiplier": 1.2 },
-      { "language": "TypeScript", "multiplier": 1.1 },
-      { "language": "Shell", "multiplier": 1.0 },
-      { "language": "Markdown", "multiplier": 1.0 },
-      { "language": "Swift", "multiplier": 1.0 },
-      { "language": "HTML", "multiplier": 1.0 },
-      { "language": "Go", "multiplier": 1.0 },
-      { "language": "CSS", "multiplier": 0.9 },
-      { "language": "JavaScript", "multiplier": 0.9 },
-      { "language": "PowerShell", "multiplier": 0.9 },
-      { "language": "Jupyter Notebook", "multiplier": 0.9 },
-      { "language": "Crystal", "multiplier": 0.8 },
-      { "language": "C++", "multiplier": 0.8 },
-      { "language": "C", "multiplier": 0.8 },
-      { "language": "Java", "multiplier": 0.8 },
-      { "language": "Ruby", "multiplier": 0.8 },
-      { "language": "Rust", "multiplier": 0.7 },
-      { "language": "Mojo", "multiplier": 0.8 },
-      { "language": "Kotlin", "multiplier": 0.8 },
-      { "language": "Nim", "multiplier": null },
-      { "language": "Batchfile", "multiplier": null }
+      {
+        "language": "Python",
+        "multiplier": 1.2
+      },
+      {
+        "language": "TypeScript",
+        "multiplier": 1.1
+      },
+      {
+        "language": "Shell",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Markdown",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Swift",
+        "multiplier": 1.0
+      },
+      {
+        "language": "HTML",
+        "multiplier": 1.0
+      },
+      {
+        "language": "Go",
+        "multiplier": 1.0
+      },
+      {
+        "language": "CSS",
+        "multiplier": 0.9
+      },
+      {
+        "language": "JavaScript",
+        "multiplier": 0.9
+      },
+      {
+        "language": "PowerShell",
+        "multiplier": 0.9
+      },
+      {
+        "language": "Jupyter Notebook",
+        "multiplier": 0.9
+      },
+      {
+        "language": "Crystal",
+        "multiplier": 0.8
+      },
+      {
+        "language": "C++",
+        "multiplier": 0.8
+      },
+      {
+        "language": "C",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Java",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Ruby",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Rust",
+        "multiplier": 0.7
+      },
+      {
+        "language": "Mojo",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Kotlin",
+        "multiplier": 0.8
+      },
+      {
+        "language": "Nim",
+        "multiplier": null
+      },
+      {
+        "language": "Batchfile",
+        "multiplier": null
+      }
     ],
     "topPerformingVideo": {
       "date": "2026-10-17",
       "views": 2572,
-      "projects": ["anthropic/claude-plugins-official", "stanford/scientific-agent-skills"],
-      "note": "本日 2026-10-24 は Sat (avg 300 超、pool 高位帯で Mon の 4.9 倍)、**YT 試行 #1 の 2 周目 Day 11 / 14**、YT 配信死亡モード継続 71 日目 (2026-09-14〜)、Studio 値 null で主指標判定保留のまま継続 (21 回連続提案)、次判定日 2026-10-28 (4 日後)。IG は Day 13 / 14 (次判定日 2026-10-26、2 日後)。IG 14d 判定窓 10-10..10-23 (n=10 IG 有効、10-13 欠落・10-15/10-16/10-23 は 48h ラグで除外): comparison 2203 n=2 (10-17 2572 / 10-20 1834) / business-angle 1603 n=4 (10-11 1915 / 10-14 743 / 10-18 2032 / 10-21 1721) / tech-deep 1202 n=3 (10-10 2318 / 10-19 754 / 10-22 533) / self-experiment 881 n=1 (10-12) / trend-pattern n=0 / use-case n=0 / ecosystem n=0。**直近 2 日 (10-23 comparison / 10-22 tech-deep) 連投 NG で comparison と tech-deep を除外**、TOP 3 の eligible は business-angle のみ (Exploit 選択肢)。**本日 10-24 は Explore (20%) 枠で self-experiment を選定**、7 条件複合最適: (a) 柱③ (self-experiment) が今週 (Mon 10-19..Sun 10-25) 0 回で月次 70:15:10:5 ターゲットから乖離、本日投入で週 1 回確保、(b) 10-23 PDCA が「10-24..10-25 の 2 日間で柱③ を 1 回挟む必要あり」と明示的に推奨、Sat の方が Sun より avg 高い (Sat avg 300 超) ので Sat 投入が合理、(c) 本日 TOP5 は継続 3 本 (security-audit-skill / php-src / knowledge-work-plugins) + 新規 2 本 (OpenShell 23 日ぶり再登場 / ziwei-doushu 初観測) で、5 本すべてが『触って動かした手触り』軸に 100% 整合、(d) 素材重複 60% で 10-04 SOP ペナルティ適用時も前日 comparison からの角度切替が必須で、self-experiment は comparison から十分離れた第一人称体験軸で角度切替要件も充足、(e) Sat × self-experiment は実測ゼロで n=0、本日の投入で初データ獲得、(f) self-experiment 母数を n=1 → n=2 に拡張予定で 10-12 (881) の分散幅確認、(g) Sat 高位帯の過去事例 (10-10 Sat tech-deep 2,318 / 10-17 Sat comparison 2,572) から Sat 強日傾向を活かし柱③ の投入で天井効果期待。**TOP5 lineup**: cloudflare/security-audit-skill (JavaScript / 42,020★ / +2,706、**4 日連続 TOP5**、累積 39,394 → 42,020 (+2,626 で 6.7% 増) で 42k★ 突破、Cloudflare 公式の 6 フェーズ security audit skill、npx skills add で入れて security audit this codebase と頼むだけで多フェーズ監査が走り別エージェントが各指摘を独立検証、MIT) / php/php-src (C / 41,544★ / +722、**2 日連続 TOP5**、累積 41,114 → 41,544 (+430 で 1.0% 増) で勢い加速 (+722 は昨日 +423 の 1.71 倍)、PHP 本家ソースで buildconf と configure まで通した自前ビルドが可能、BSD-3-Clause) / anthropics/knowledge-work-plugins (Python / 32,179★ / +643、**2 日連続 TOP5**、累積 31,539 → 32,179 (+640 で 2.0% 増) で勢い急加速 (+643 は昨日 +303 の 2.12 倍)、営業・法務・財務・PdMなど 11 職種をClaudeに特化させるAnthropic公式 plugin 集、claude plugin install で入れて業務コマンドが即座に使える、MIT) / NVIDIA/OpenShell (Rust / 18,738★ / +1,240、**10-01..10-02 以来 23 日ぶり再登場、過去事故当事者**、AI エージェントのファイルアクセスやネットワーク接続をポリシーで縛る NVIDIA 公式安全ランタイム、install.sh で入れて最初の agent を動かすと権限追加のたびに許可確認、Apache-2.0) / Renhuai123/ziwei-doushu (TypeScript / 6,832★ / +547、**初登場**、紫微斗数の盤計算オープンソース、倪海廈系 TypeScript 実装で真太陽時補正や閏月切替まで実装され 1,100 以上の格局データと公有古典テキスト同梱、ライセンス確認要)、素材重複 3/5 = 60% (security-audit-skill / php-src / knowledge-work-plugins が 10-23 から継続) + 新規 2/5 (OpenShell 23 日ぶり再登場 / ziwei-doushu 初観測) で素材更新率 40%、**10-18..10-24 の 7 日間で 80%→40%→60%→40%→60%→40%→60% の 2 日サイクル振動 (40%↔60%、6 日連続観測で深化安定化)**。comparison → self-experiment の切替で method 新鮮度を確保。5 第一人称体験軸: security-audit-skill=npx skills で追加した手触り / php-src=buildconf と configure まで通した手触り / knowledge-work-plugins=claude plugin install で営業プラグインを試した手触り / OpenShell=install.sh で入れて権限追加のたびに許可確認 / ziwei-doushu=npm run dev で立ち上げて紫微斗数の盤を引いて真太陽時補正の精度に驚いた、全本『インストールと初回起動の手触り』で統一。**opening 3 秒フック候補**: 『本日の TOP5 は、どれも実際に触って感触を確かめた OSS です』の宣言型 (前日 10-23 comparison『既存の定番との差分』からの視座切替『既存との差分 → 触った手触り』の 1 段階第一人称化、素材重複 60% の日に Sat の高位帯 pool に柱③ (自身プロジェクト事例) の密度を投入)。**本日 10-24 は YT 試行 #1 の 2 周目 Day 11 / 14**、Studio 値 (treatment) は依然 null で主指標判定保留のまま、10-14 判定日で機械判定 (views 中央値 0 < 5) により配信死亡モード継続決定済み (宣言日 2026-09-14 のまま、通算 71 日目)。次判定日 2026-10-28 (4 日後) までに Studio 値を揃えるか、揃わなければ試行 #2 を自動発動する SOP (10-14 PDCA 戦略更新提案 (k)、本日 11 回目継続) で対応するかを月末レポートで正式決定。"
+      "projects": [
+        "anthropic/claude-plugins-official",
+        "stanford/scientific-agent-skills"
+      ],
+      "note": "本日 2026-10-25 は Sun (optimization-hints の avg=5 で底位帯だが過去 Sun × business-angle は n=3 平均 1,631 で強組み合わせ)、**YT 試行 #1 の 2 周目 Day 12 / 14**、YT 配信死亡モード継続 72 日目 (2026-09-14〜)、Studio 値 null で主指標判定保留のまま継続 (22 回連続提案)、次判定日 2026-10-28 (3 日後)。IG は Day 14 / 14 (次判定日 2026-10-26、明日)。IG 14d 判定窓 10-11..10-24 (n=10 IG 有効、10-13 欠落・10-15/10-16/10-24 は 48h ラグで除外): comparison 2097 n=3 (10-17 2586 / 10-20 1867 / 10-23 1838) / business-angle 1614 n=4 (10-11 1920 / 10-14 748 / 10-18 2045 / 10-21 1742) / self-experiment 882 n=1 (10-12) / tech-deep 673 n=2 (10-19 764 / 10-22 582)。**直近 2 日 (10-24 self-experiment / 10-23 comparison) 連投 NG で comparison と self-experiment を除外**、TOP 3 の eligible は business-angle のみ (Exploit 選択肢に収斂)。**本日 10-25 は Exploit (80%) 枠で business-angle を選定**、5 条件複合最適: (a) TOP 3 pool の eligible が business-angle のみに収斂、(b) Sun × business-angle の過去 n=3 (10-04 928 / 10-11 1,920 / 10-18 2,045 で平均 1,631) が本リポ観測で最強の曜日×method 組み合わせの 1 つ、(c) 本日 TOP5 は継続 2 本 (security-audit-skill / OpenShell) + 新規 3 本 (aws-toolkit 初観測 / hallmark 初観測 / claude-howto 初観測) で 5 本すべてが「受託案件・スタートアップ視点で金額換算」の訴求軸に 100% 整合、(d) 素材重複 40% で 10-04 SOP ペナルティ不発動 (過去パフォーマンスで純粋選定が可能)、(e) 週 1 必須の柱②/③ ルールは 10-21 柱② + 10-24 柱③ で既に 2 回確保済み、本日の柱② 追加で柱② 計 2 回。**TOP5 lineup**: cloudflare/security-audit-skill (JavaScript / 44,394★ / +2,271、**5 日連続 TOP5**、累積 42,020 → 44,394 (+2,374 で 5.7% 増) で 44k★ 突破、Cloudflare 公式の 6 フェーズ security audit skill、npx skills add で入れて security audit this codebase と頼むだけで多フェーズ監査が走り別エージェントが各指摘を独立検証、MIT) / NVIDIA/OpenShell (Rust / 19,435★ / +893、**2 日連続 TOP5**、累積 18,738 → 19,435 (+697 で 3.7% 増) で勢い減速、AI エージェントのファイルアクセスやネットワーク接続をポリシーで縛る NVIDIA 公式安全ランタイム、Kubernetes にも載り企業導入可、Apache-2.0) / aws/agent-toolkit-for-aws (Python / 3,103★ / +11、**初登場**、300 超の AWS サービスへ単一 MCP endpoint でつなぎ aws-core / aws-startup-advisor など plugin と skill を提供する公式 toolkit、IAM 制御と CloudTrail 監査付きで企業導入が通りやすい、MIT) / Nutlope/hallmark (CSS / 32,064★ / +570、**初登場**、48 マテリアルから 3 テーマを選び 8 画面幅で AI 生成の典型的な弱点を自動検査する design skill、Puppeteer でブラウザ実測まで走り MVP の LP が「AI っぽい」で捨てられるリスクを減らす、MIT) / luongnv89/claude-howto (Python / 44,499★ / +442、**初登場**、slash commands / memory / skills / subagents / MCP / hooks / plugins を 10 モジュール 11〜13 時間で網羅する MIT ライセンスの Claude Code 実践教材、5 言語対応と EPUB 出力で社内配布にも使える、MIT)、素材重複 2/5 = 40% (security-audit-skill / OpenShell が 10-24 から継続) + 新規 3/5 (aws-toolkit / hallmark / claude-howto が全て初観測) で素材更新率 60%、**10-18..10-25 の 8 日間で 80%→40%→60%→40%→60%→40%→60%→40% の 2 日サイクル振動 (40%↔60%、7 日連続観測で深化安定化)**。self-experiment → business-angle の切替で method 新鮮度を確保。5 ビジネス換算軸: security-audit-skill=外部監査費数十万円を内製化・受託の品質保証工程に組込み / OpenShell=顧客環境で agent 導入時の権限ガバナンス要件担保 / aws-toolkit=AWS 案件で agent 構築する時の見積の起点 / hallmark=MVP の LP デザイン外注費圧縮 / claude-howto=社内に Claude Code 配る時の 11 時間カリキュラムを研修教材に転用、全本「受託案件・スタートアップ視点で金額換算」で統一。**opening 3 秒フック候補**: 「本日の TOP5 は、受託案件で見積に乗せる視点で切ります」の宣言型 (前日 10-24 self-experiment「触って動かした所感」からの視座切替「触った手触り → 受託・スタートアップ視点」の 1 段階ビジネス化、素材重複 40% の日に Sun の底位帯 pool でも強組み合わせの business-angle を投入で天井効果を狙う)。**本日 10-25 は YT 試行 #1 の 2 周目 Day 12 / 14**、Studio 値 (treatment) は依然 null で主指標判定保留のまま、10-14 判定日で機械判定 (views 中央値 0 < 5) により配信死亡モード継続決定済み (宣言日 2026-09-14 のまま、通算 72 日目)。次判定日 2026-10-28 (3 日後) までに Studio 値を揃えるか、揃わなければ試行 #2 を自動発動する SOP (10-14 PDCA 戦略更新提案 (k)、本日 12 回目継続) で対応するかを月末レポートで正式決定。"
     }
   },
   "hints": {
     "title": [
-      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持。YT 試行 #1 2 周目 Day 11 の機械判定で配信死亡モード継続、per-day サムネ個別化 / 冒頭 5 秒サマリー / タイトル記号削減の 3 案は書き置き継続。10-28 の 3 回目判定日 (4 日後) までに Studio 値が入らなければ試行 #2 を自動発動する SOP を戦略更新提案 (k) で 11 回目継続提案。",
-      "本日は土曜日 (Sat=avg 300 超、Mon の avg 61 の 4.9 倍で pool 高位帯)、YT 配信死亡モード継続 71 日目 (2026-09-14〜)、YT 試行 #1 の 2 周目 Day 11 / 14 (次判定日 2026-10-28、4 日後)。IG は Day 13 / 14 (次判定日 2026-10-26、2 日後)。IG 指標のみで method 選定、直近 2 日連投 NG (10-23 comparison / 10-22 tech-deep) 除外で TOP 3 の eligible は business-angle のみに収斂、**本日は Explore (20%) 枠で self-experiment を選定** (柱③ 月次比率補正 + 10-23 PDCA 明示推奨 + Sat 高位帯での天井効果期待 + 素材 100% 整合、7 条件複合最適)。素材重複 3/5 (60%) で 10-04 SOP 適用、前日 comparison からの角度切替が必須で self-experiment が自然充足。10-18..10-24 の 7 日間で 80%→40%→60%→40%→60%→40%→60% の 2 日サイクル振動 (40%↔60%、6 日連続観測で深化安定化)。5 本を『インストールと初回起動の手触り』で統一。柱ローテ: 本日 10-24 (Sat) で柱③ 投入、週 1 必須の柱②/③ ルール 2 回確保 (10-21 柱② + 本日 10-24 柱③)。opening 3 秒フック『本日の TOP5 は、どれも実際に触って感触を確かめた OSS です』を試行、前日 comparison『既存との差分』からの視座切替『既存との差分 → 触った手触り』の 1 段階第一人称化。"
+      "標準テンプレート (【GitHub Trending】今日の注目リポジトリ TOP5｜YYYY/MM/DD #Shorts) は安定、そのまま維持。YT 試行 #1 2 周目 Day 12 の機械判定で配信死亡モード継続、per-day サムネ個別化 / 冒頭 5 秒サマリー / タイトル記号削減の 3 案は書き置き継続。10-28 の 3 回目判定日 (3 日後) までに Studio 値が入らなければ試行 #2 を自動発動する SOP を戦略更新提案 (k) で 12 回目継続提案。",
+      "本日は日曜日 (Sun=optimization-hints の avg=5 で底位帯だが過去 Sun × business-angle は n=3 平均 1,631 で強組み合わせ、過去 3 回とも 900 超、2 回は 1,900 超)、YT 配信死亡モード継続 72 日目 (2026-09-14〜)、YT 試行 #1 の 2 周目 Day 12 / 14 (次判定日 2026-10-28、3 日後)。IG は Day 14 / 14 (次判定日 2026-10-26、明日)。IG 指標のみで method 選定、直近 2 日連投 NG (10-24 self-experiment / 10-23 comparison) 除外で TOP 3 の eligible は business-angle のみに収斂、**本日は Exploit (80%) 枠で business-angle を選定** (Sun × business-angle 強組み合わせ + 新顔 3 本の整合 + 柱② 補強、5 条件複合最適)。素材重複 2/5 (40%) で 10-04 SOP ペナルティ不発動、過去パフォーマンスで純粋選定が可能。10-18..10-25 の 8 日間で 80%→40%→60%→40%→60%→40%→60%→40% の 2 日サイクル振動 (40%↔60%、7 日連続観測で深化安定化)。5 本を「受託案件・スタートアップ視点で金額換算」で統一。柱ローテ: 本日 10-25 (Sun) で柱② 投入、週 1 必須の柱②/③ ルール 2 回確保済 (10-21 柱② + 10-24 柱③)、本日の柱② 追加で柱② 計 2 回。opening 3 秒フック「本日の TOP5 は、受託案件で見積に乗せる視点で切ります」を試行、前日 self-experiment「触った手触り」からの視座切替「触った手触り → 受託・スタートアップ視点」の 1 段階ビジネス化。"
     ],
     "hashtags": [
-      "self-experiment (柱③) の核心は『TOP5 の 5 本を実際に触った第一人称の手触りで並べる』。5 本のマッピング: #1 cloudflare/security-audit-skill=JavaScript 42,020★ +2,706 (4 日連続 TOP5、42k★ 突破、累積 39,394 → 42,020 で 6.7% 増) → **npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit で追加、エージェントに security audit this codebase と頼むだけで多フェーズ監査が走る、別エージェントが各指摘を独立検証して confirmed / needs_validation / rejected の 3 verdict で結果が落ち着く手触り、第一人称体験軸=インストールと初回起動の手触り** / #2 php/php-src=C 41,544★ +722 (2 日連続 TOP5、+722 は昨日 +423 の 1.71 倍で勢い加速) → **./buildconf → ./configure → make -j4 → make test の 4 ステップで自前ビルドが可能、Ubuntu の場合は sudo apt install -y pkg-config build-essential autoconf bison re2c libxml2-dev libsqlite3-dev で依存解決、make test が通ると現役言語の地盤の硬さを手触りで感じる、第一人称体験軸=自前ビルドの手触り** / #3 anthropics/knowledge-work-plugins=Python 32,179★ +643 (2 日連続 TOP5、+643 は昨日 +303 の 2.12 倍で勢い急加速) → **claude plugin marketplace add anthropics/knowledge-work-plugins → claude plugin install sales@knowledge-work-plugins で入れて、/sales:call-prep などの業務コマンドが即座に使える、営業プラグインで商談準備の原稿が数秒で形になる手触り、第一人称体験軸=プラグイン導入と初回使用の手触り** / #4 NVIDIA/OpenShell=Rust 18,738★ +1,240 (10-01..10-02 以来 23 日ぶり再登場、過去事故当事者) → **curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh でインストール、openshell sandbox create --name demo で sandbox 作成、最初の agent を動かすと権限追加のたびに許可確認が出て安心、資格情報は許可された接続先にだけ渡される、第一人称体験軸=安全ランタイムの初回起動の手触り** / #5 Renhuai123/ziwei-doushu=TypeScript 6,832★ +547 (初登場、紫微斗数の盤計算オープンソース) → **git clone → npm install → npm run dev の 3 ステップで Next.js 16 web app が立ち上がり、ブラウザで生年月日を入れて紫微斗数の盤を引ける、真太陽時補正の精度に驚いた、第一人称体験軸=占星術 OSS の初回起動の手触り**。5 本統合: npx skills で追加 → make test で自前ビルド → claude plugin install で業務特化 → install.sh で安全ランタイム → npm run dev で占星術の 5 第一人称体験軸で揃え、視聴者 (Primary=CTO/技術選定/事業責任者、Secondary=PdM、Tertiary=学習中) に『OSS を自分で動かしてみた手触り』を提供、Sat の高位帯 pool に第一人称密度の訴求で天井効果を狙う戦略。",
-      "言語タグは JavaScript 1 + C 1 + Python 1 + Rust 1 + TypeScript 1 の 5 言語 5 本構成 (本リポ観測では稀な全言語ユニーク配列)。JavaScript (0.9x) + C (0.8x) + Python (1.2x) + Rust (0.7x) + TypeScript (1.1x) で平均 multiplier 0.94、Python 1.2x (knowledge-work-plugins) + TypeScript 1.1x (ziwei-doushu) の高域が全体を押し上げ、Rust 0.7x (OpenShell) と C 0.8x (php-src) の低域が中和、全体として本日は平均 multiplier が過去 14 日平均をやや下回る中位帯構成だが、5 言語ユニーク配列の希少性で視聴者脳内に「素材の広さ」を印象付ける構造。",
-      "self-experiment 角度の独自 hashtag: #OSS #AI #tech #CTO #技術選定 #受託 #スタートアップ #触ってみた #手触り #内製化 #GitHub #Trending #securityauditskill #Cloudflare公式 #セキュリティ監査 #npxskills #別エージェント独立検証 #phpsrc #PHP本家 #現役言語 #buildconf #configure #maketest #自前ビルド #knowledgeworkplugins #Anthropic公式 #業務特化plugin #claudeplugininstall #営業プラグイン #商談準備自動化 #OpenShell #NVIDIA公式 #AIエージェント安全層 #ポリシーで縛る #権限追加確認 #ziweidoushu #紫微斗数 #真太陽時補正 #占星術OSS #JavaScript #C #Python #Rust #TypeScript #インストール手触り #初回起動手触り #OSSを動かす #CTOの判断材料"
+      "business-angle (柱②) の核心は「TOP5 の 5 本を受託案件・スタートアップ視点で金額換算して並べる」。5 本のマッピング: #1 cloudflare/security-audit-skill=JavaScript 44,394★ +2,271 (5 日連続 TOP5、44k★ 突破、累積 42,020 → 44,394 で 5.7% 増) → **外部セキュリティ監査にかけていた数十万円の工数を npx skills で追加するだけで内製化、別エージェント独立検証で品質も担保、受託エンジニアが自分の見積の品質保証工程に組み込める、ビジネス換算軸=外部監査費圧縮と受託の品質保証工程に組込み** / #2 NVIDIA/OpenShell=Rust 19,435★ +893 (2 日連続 TOP5、+893 は昨日 +1,240 の 72% で勢い減速) → **AI agent を顧客環境に売り込む時、権限ガバナンス要件 (ファイル・ネットワーク・認証情報をポリシーで縛る) を満たすランタイムとして提案に使える、Kubernetes にも載り企業導入可、ビジネス換算軸=顧客環境で agent 導入時のガバナンス要件担保** / #3 aws/agent-toolkit-for-aws=Python 3,103★ +11 (初登場、AWS 公式 agent toolkit) → **AWS 案件で agent を組む時、300 超の AWS サービスへ単一 MCP でつなぐ本家 toolkit が見積の起点、aws-core / aws-startup-advisor など plugin で工数を圧縮、IAM 制御と CloudTrail 監査で企業コンプライアンス要件も満たす、ビジネス換算軸=AWS 案件での agent 構築工数削減** / #4 Nutlope/hallmark=CSS 32,064★ +570 (初登場、AI 生成 UI 検査 design skill) → **AI 生成 LP が一瞬で見分けられるという弱点を潰す skill で、48 マテリアルから 3 テーマを選び 8 画面幅で自動検査、MVP のデザイン外注費を一段削れる、ビジネス換算軸=MVP の LP デザイン外注費圧縮** / #5 luongnv89/claude-howto=Python 44,499★ +442 (初登場、Claude Code 実践教材) → **社内に Claude Code を配る時、11 時間カリキュラム (10 モジュール) をそのまま研修教材に転用すれば工数が浮く、5 言語対応と EPUB 出力で社内配布にも使える、ビジネス換算軸=社内 Claude Code 研修教材の工数削減**。5 本統合: 外部監査費内製化 → 顧客環境ガバナンス → AWS 案件工数削減 → MVP デザイン外注費圧縮 → 社内研修教材転用の 5 ビジネス換算軸で揃え、視聴者 (Primary=CTO/技術選定、Secondary=PdM/事業責任者、Tertiary=学習中) に「OSS を受託・スタートアップで使うなら何円削れるか」を提供、Sun の底位帯 pool でも強組み合わせ (過去 n=3 平均 1,631) の business-angle × Sun で天井効果を狙う戦略。",
+      "言語タグは JavaScript 1 + Rust 1 + Python 2 + CSS 1 の 4 言語 5 本構成 (本リポ観測では希少な CSS 言語の TOP5 入り)。JavaScript (0.9x) + Rust (0.7x) + Python (1.2x) × 2 + CSS (0.9x) で平均 multiplier 0.98、Python 1.2x × 2 (aws-toolkit + claude-howto) の高域が全体を押し上げ、Rust 0.7x (OpenShell) の低域が中和、CSS 0.9x (hallmark) は中位、JavaScript 0.9x (security-audit-skill) も中位、全体として本日は平均 multiplier が過去 14 日平均をやや上回る中〜高位帯構成、Python 2 本 (aws-toolkit + claude-howto) の高倍率が強い追い風、CSS 言語の TOP5 入りが「素材の広さ」訴求を補強。",
+      "business-angle 角度の独自 hashtag: #OSS #AI #tech #CTO #技術選定 #受託 #スタートアップ #ビジネス視点 #金額換算 #見積 #ROI #GitHub #Trending #securityauditskill #Cloudflare公式 #セキュリティ監査 #外部監査費削減 #内製化 #OpenShell #NVIDIA公式 #AIエージェント安全層 #権限ガバナンス #Kubernetes対応 #顧客環境導入 #agenttoolkitforaws #AWS公式 #AWSagent #300超サービス #公式MCP #CloudTrail監査 #hallmark #AI生成UI #脱テンプレ化 #designskill #MVPデザイン外注費 #Puppeteer検査 #claudehowto #ClaudeCode教材 #11時間カリキュラム #10モジュール #5言語対応 #EPUB出力 #社内研修 #JavaScript #Rust #Python #CSS #受託案件 #スタートアップ投資判断"
     ],
     "narration": [
-      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 253 文字 (47+56+54+49+47、平均 50.6)、TTS +30% で約 46 秒、opening/ending 約 5-7 秒込み約 51-53 秒で IG Reels 60 秒制約の境界クリア、昨日 10-23 (comparison、約 280 文字) と比べて密度やや軽量、個別 47-56 レンジ内で密度均等。",
-      "self-experiment (柱③) 角度の一貫性: 5 本すべての narration を『インストールと初回起動の手触り』で統一。1 本目 security-audit-skill『npx skillsで追加して試すと、別エージェントが各指摘を独立検証してくれる手触りでした。』(インストールと初回起動の手触り)、2 本目 php-src『configure と make test まで通せば自前ビルドが可能で、言語の地盤の硬さを手触りで感じました。』(自前ビルドの手触り)、3 本目 knowledge-work-plugins『claude plugin installで営業プラグインを入れると、商談準備の原稿が数秒で形になりました。』(プラグイン導入と初回使用の手触り)、4 本目 OpenShell『install.shで入れて最初のagentを動かすと、権限追加のたびに許可確認が出て安心でした。』(安全ランタイムの初回起動の手触り)、5 本目 ziwei-doushu『npm run devで立ち上げて紫微斗数の盤を引いてみると、真太陽時補正の精度に驚きました。』(占星術 OSS の初回起動の手触り)。5 第一人称体験軸で揃え、視聴者 (Primary=CTO/技術選定、Secondary=PdM/事業責任者、Tertiary=学習中) に『OSS を自分で動かしてみた手触り』を提供、self-experiment (柱③) の最長所である『この人は手を動かす人』という信頼シグナルを活かす。",
-      "ランクとスター数は narration に含めない (画面カードに表示)。self-experiment (柱③) では『〜で入れて/〜まで通して/〜を動かすと/〜で立ち上げて/〜してみると/〜の手触り/〜に驚いた/〜で感じた』の第一人称体験語を優先、前日 comparison (10-23 既存の定番との差分視点) からの視座切替で触って動かした所感の 1 段階第一人称化へ、客観比較→主観体験 のスコープ切替。",
-      "数値表現はアラビア数字統一 (1,100 等。narration 内の数値はない)。漢数字は禁止。語尾は『です・ます』で統一、体言止め禁止。英語固有名詞 (npx skills、security audit、configure、make test、claude plugin install、/sales:call-prep、install.sh、agent、npm run dev) は原文表記で TTS に読ませる。opening 3 秒フック候補『本日の TOP5 は、どれも実際に触って感触を確かめた OSS です』を method-agnostic 施策として今日投入試行 (前日 comparison 既存との差分視点からの視座切替『既存との差分 → 触った手触り』の 1 段階第一人称化、素材重複 60% の日に Sat の高位帯 pool に柱③ の密度を投入)。"
+      "本日のナレーションは 40-60 文字厳守 (55 秒枠)。5 本合計 256 文字 (51+49+54+50+52、平均 51.2)、TTS +30% で約 47 秒、opening/ending 約 5-7 秒込み約 52-54 秒で IG Reels 60 秒制約の境界クリア、昨日 10-24 (self-experiment、約 253 文字) と比べて密度ほぼ同等、個別 49-54 レンジ内で密度均等。",
+      "business-angle (柱②) 角度の一貫性: 5 本すべての narration を「受託案件・スタートアップ視点の金額換算」で統一。1 本目 security-audit-skill「外部監査にかけていた数十万円を内製化できる公式 skill で、受託の品質保証工程にそのまま組み込めます。」(外部監査費内製化 + 受託の品質保証工程に組込み)、2 本目 OpenShell「AI agent を顧客環境に売り込む時、権限ガバナンス要件を満たすランタイムとして提案に使えます。」(顧客環境で agent 導入時のガバナンス要件担保)、3 本目 aws-toolkit「AWS 案件で agent を組むなら、300 超のサービスへ公式 MCP でつなぐ本家 toolkit が見積の起点です。」(AWS 案件での agent 構築工数削減)、4 本目 hallmark「AI 生成 LP が一瞬で見分けられるという弱点を潰す skill で、MVP のデザイン外注費を一段削れます。」(MVP の LP デザイン外注費圧縮)、5 本目 claude-howto「社内に Claude Code を配る時、11 時間カリキュラムをそのまま研修教材に転用すれば工数が浮きます。」(社内 Claude Code 研修教材の工数削減)。5 ビジネス換算軸で揃え、視聴者 (Primary=CTO/技術選定、Secondary=PdM/事業責任者、Tertiary=学習中) に「OSS を受託・スタートアップで使うなら何円削れるか」を提供、business-angle (柱②) の最長所である「ビジネス視点の差別化」を活かす。",
+      "ランクとスター数は narration に含めない (画面カードに表示)。business-angle (柱②) では「〜で削れる/〜に組み込める/〜の見積に乗せる/〜に転用できる/〜を満たせる/〜で工数が浮く/〜が一段削れる」のビジネス換算動詞を優先、前日 self-experiment (10-24 触った手触り視点) からの視座切替で触った手触り→受託・スタートアップ視点への 1 段階ビジネス化、主観体験→客観金額換算 のスコープ切替。",
+      "数値表現はアラビア数字統一 (300 / 11 / 48 / 8 など)。漢数字は禁止。語尾は「です・ます」で統一、体言止め禁止。英語固有名詞 (npx skills、security audit、Claude Code、agent toolkit、MCP、IAM、CloudTrail、design skill、Puppeteer、MVP、LP、slash commands、memory、skills、subagents、hooks、plugins、EPUB) は原文表記で TTS に読ませる。opening 3 秒フック候補「本日の TOP5 は、受託案件で見積に乗せる視点で切ります」を method-agnostic 施策として今日投入試行 (前日 self-experiment 触った手触り視点からの視座切替「触った手触り → 受託・スタートアップ視点」の 1 段階ビジネス化、素材重複 40% の日に Sun の底位帯 pool でも強組み合わせの business-angle を投入で天井効果を狙う)。"
     ],
     "content": [
       "本日の discovery.method は `self-experiment` (IG 14d 平均 881 views n=1 で TOP 3 外、Explore 20% 枠選択)。直近 2 日 (10-23 comparison / 10-22 tech-deep) 連投 NG から TOP 3 pool で eligible が business-angle のみに収斂したが、7 条件複合最適で Explore を選定: (a) 柱③ (self-experiment) が今週 (Mon 10-19..Sun 10-25) 0 回で月次 70:15:10:5 ターゲットから乖離、本日投入で週 1 回確保、(b) 10-23 PDCA が『10-24..10-25 の 2 日間で柱③ を 1 回挟む必要あり』と明示的に推奨、Sat の方が Sun より avg 高いので Sat 投入が合理、(c) 本日 TOP5 は継続 3 本 + 新規 2 本 (OpenShell 23 日ぶり再登場 + ziwei-doushu 初観測) で、5 本すべてが『触って動かした手触り』軸に 100% 整合、(d) 素材重複 60% で 10-04 SOP ペナルティ適用時も前日 comparison からの角度切替が必須で self-experiment が自然充足、(e) Sat × self-experiment は実測ゼロで n=0、本日の投入で初データ獲得、(f) self-experiment 母数を n=1 → n=2 に拡張予定で 10-12 (881) の分散幅確認、(g) Sat 高位帯 (avg 300 超) の過去事例 (10-10 Sat tech-deep 2,318 / 10-17 Sat comparison 2,572) から Sat 強日傾向を活かし柱③ の投入で天井効果期待。前回 self-experiment の投入は 10-12 (12 日前) で cooldown 十分。YT 配信死亡モード継続 71 日目、YT 試行 #1 の 2 周目 Day 11 / 14 (次判定日 2026-10-28)、Sat の高位帯 pool で第一人称密度の訴求で保存率を上げる戦略。10-15 (self-experiment) → 10-16 (tech-deep) → 10-17 (comparison) → 10-18 (business-angle) → 10-19 (tech-deep) → 10-20 (comparison) → 10-21 (business-angle) → 10-22 (tech-deep) → 10-23 (comparison) → 10-24 **self-experiment 再** の視座切替継続。",
