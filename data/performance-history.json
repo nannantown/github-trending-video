@@ -7016,7 +7016,13 @@
           }
         },
         "instagram": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "e47b5b6d-2b71-477d-85bf-cbde5e16bff0",
+          "attempts": 1,
+          "updatedAt": "2026-10-25T02:13:33.967Z"
         }
       },
       "ytOpening": "top1",
