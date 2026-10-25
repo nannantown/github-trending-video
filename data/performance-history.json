@@ -7002,7 +7002,7 @@
           "safeToRetry": false,
           "attemptId": "97cc5a0c-6923-4f72-a48a-37e9e5f5975a",
           "attempts": 1,
-          "updatedAt": "2026-10-25T02:13:29.639Z",
+          "updatedAt": "2026-10-25T02:13:31.375Z",
           "date": "2026-10-25",
           "videoId": "t1ROIV4FreI",
           "videoUrl": "https://youtube.com/shorts/t1ROIV4FreI",
@@ -7010,13 +7010,17 @@
           "title": "security-audit-skill — 外部監査を自動化する公式skill｜GitHub Trending TOP5 10/25",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
