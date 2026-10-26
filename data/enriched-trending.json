@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "discovery": {
-    "method": "business-angle",
-    "description": "各OSSを受託案件・スタートアップ視点で料理する柱②視点、投資判断の起点として5本を金額換算の訴求軸で統一",
+    "method": "comparison",
+    "description": "5本すべてを「類似OSS/先行プロダクトと比べたときに何が別物か」の軸で切り、CTO/技術選定担当者の判断材料を揃える",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/NVIDIA/OpenShell",
-      "https://github.com/aws/agent-toolkit-for-aws",
       "https://github.com/Nutlope/hallmark",
-      "https://github.com/luongnv89/claude-howto"
+      "https://github.com/TauricResearch/TradingAgents",
+      "https://github.com/JetBrains/thinkrail",
+      "https://github.com/makecindy/cindy",
+      "https://github.com/affaan-m/ECC"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "language": "JavaScript",
-      "stars": 44394,
-      "todayStars": 2271,
-      "description": "外部監査を自動化する公式skill",
-      "detail": "npx skillsで追加しsecurity audit this codebaseと頼めば6フェーズ監査が走り、別エージェントが指摘を独立検証する公式skillです。外部監査の数十万円を内製の工程に置き換えられます。",
-      "narration": "外部監査にかけていた数十万円を内製化できる公式skillで、受託の品質保証工程にそのまま組み込めます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "NVIDIA/OpenShell",
-      "name": "OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "language": "Rust",
-      "stars": 19435,
-      "todayStars": 893,
-      "description": "AI agentの安全層ランタイム",
-      "detail": "AIエージェントのファイル・ネットワーク・認証情報をポリシーで縛るNVIDIA公式ランタイムです。Kubernetesにも載り、顧客環境でagent導入を提案する時のガバナンス要件を満たせます。",
-      "narration": "AI agentを顧客環境に売り込む時、権限ガバナンス要件を満たすランタイムとして提案に使えます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "aws/agent-toolkit-for-aws",
-      "name": "agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "language": "Python",
-      "stars": 3103,
-      "todayStars": 11,
-      "description": "AWS公式のagent toolkit",
-      "detail": "300超のAWSサービスへ単一MCPでつなぎ、aws-coreやaws-startup-advisorなどpluginとskillを提供する公式toolkitです。IAM制御とCloudTrail監査が付き企業導入が通りやすくなります。",
-      "narration": "AWS案件でagentを組むなら、300超のサービスへ公式MCPでつなぐ本家toolkitが見積の起点です。"
-    },
-    {
-      "rank": 4,
       "fullName": "Nutlope/hallmark",
       "name": "hallmark",
       "url": "https://github.com/Nutlope/hallmark",
       "language": "CSS",
-      "stars": 32064,
-      "todayStars": 570,
-      "description": "AI生成UIの脱テンプレ化skill",
-      "detail": "48マテリアルから3テーマを選び、8画面幅でAI生成の典型的な弱点を自動検査するdesign skillです。Puppeteerでブラウザ実測まで走り、MVPのLPが「AIっぽい」で捨てられるリスクを減らします。",
-      "narration": "AI生成LPが一瞬で見分けられるという弱点を潰すskillで、MVPのデザイン外注費を一段削れます。"
+      "stars": 36119,
+      "todayStars": 2235,
+      "description": "AI感を自動で削る設計skill",
+      "detail": "48マテリアルテーマから1つを選び、生成直後にブラウザでレンダリングしてAI感を自動検出するskillです。Claude CodeやCursor内で動き、LPデザイン外注費の圧縮に使えます。",
+      "narration": "v0と別路線のCLI設計skillです。Claude Code内で動きbrowser検査でAI感を自動除去します。"
+    },
+    {
+      "rank": 2,
+      "fullName": "TauricResearch/TradingAgents",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars": 115984,
+      "todayStars": 1376,
+      "description": "金融LLMの統合マルチエージェント",
+      "detail": "分析官・強気研究者・弱気研究者・トレーダー・リスク管理の5役がLLM上で議論し、ポイントインタイムのSEC EDGARデータでバックテストまで走るLangGraph基盤です。CrewAIの汎用性より金融ドメインに特化しています。",
+      "narration": "汎用のCrewAIと違う金融特化マルチエージェント基盤です。5役が議論しバックテストで戦略を検証できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "JetBrains/thinkrail",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "stars": 2821,
+      "todayStars": 1156,
+      "description": "JetBrains版のagentic IDE",
+      "detail": "git worktreeで複数エージェントを並列走行させ、SPEC.md知識グラフで仕様を蓄積するJetBrains製IDEです。Cursorの単発Composerと違いワークスペースごとに独立したagentセッションを並行運用できます。",
+      "narration": "Cursor代替を狙うJetBrains製IDEです。git worktreeで並列エージェントを捌けます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "makecindy/cindy",
+      "name": "cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "language": "TypeScript",
+      "stars": 6364,
+      "todayStars": 1268,
+      "description": "Claude×Codexを束ねる統合層",
+      "detail": "Claude CodeとCodexをハーネスとして束ね、同じタスクの中でもmodelやharnessを切替えつつワークスペース・メモリ・skillsを継続するローカル実行型オーケストレーション層です。",
+      "narration": "Claude CodeとCodexを束ねる統合層です。タスク中にharnessとモデルを自動で切替できます。"
     },
     {
       "rank": 5,
-      "fullName": "luongnv89/claude-howto",
-      "name": "claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "language": "Python",
-      "stars": 44499,
-      "todayStars": 442,
-      "description": "Claude Code実践ガイド集",
-      "detail": "slash commands、memory、skills、subagents、MCP、hooks、pluginsを10モジュール11〜13時間で網羅するMITライセンスの教材です。5言語対応とEPUB出力で社内配布にも使えます。",
-      "narration": "社内にClaude Codeを配る時、11時間カリキュラムをそのまま研修教材に転用すれば工数が浮きます。"
+      "fullName": "affaan-m/ECC",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "stars": 289769,
+      "todayStars": 987,
+      "description": "Claude Code全部入りharness",
+      "detail": "Anthropic公式plugin棚と違い71agent・311skill・97command・AgentShieldセキュリティまで1発導入する全部入りパックです。Claude Codeを本格運用する社内開発基盤を即構築できます。",
+      "narration": "公式plugin棚と違う全部入りharnessパックです。71agentと311skillをnpx一発で導入できます。"
     }
   ]
 }
