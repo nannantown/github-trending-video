@@ -65,7 +65,25 @@ test("a reading must be kana and reading-sized; bad entries are skipped, not fat
   assert.match(readingProblem("甲革", "甲かく"), /kana only/);
   assert.match(readingProblem("AI", "AI"), /kana only/);
   assert.match(readingProblem("AI", "ゆうりょうプランがおすすめのえーあい"), /too long/);
+  assert.match(readingProblem("保存", "ゆうりょうぷらんへ"), /too long/);
+  assert.match(readingProblem("X", " えっくす"), /kana at both ends/); // a leading space would drop X from the subtitles
+  assert.match(readingProblem("て", "ゆう"), /already kana/);
   const dir = mkdtempSync(join(tmpdir(), "readings-"));
   writeFileSync(join(dir, "r.json"), JSON.stringify({ _about: "x", 甲革: "こうかく", 木型: "木がた" }));
   assert.deepEqual(loadReadings(join(dir, "r.json")), { 甲革: "こうかく" });
+  writeFileSync(join(dir, "broken.json"), '{ "甲革": "こうかく", }'); // a trailing comma must not stop the video
+  assert.deepEqual(loadReadings(join(dir, "broken.json")), {});
+  assert.deepEqual(loadReadings(join(dir, "missing.json")), {});
+});
+
+test("a number entry matches whole numbers only", () => {
+  const r = { "1足": "いっそく", "3足": "さんぞく" };
+  assert.equal(forSpeech("1足、11足、3足", r).spoken, "いっそく、11足、さんぞく");
+});
+
+test("a token Edge rewrote far ahead does not make the rest jump (no kana leaks)", () => {
+  const text = "１つ目はClaude、2つ目は1つ";
+  const s = forSpeech(text, { Claude: "クロード" });
+  const words = ["1", "つ", "目", "は", "クロード", "2", "つ", "目", "は", "1", "つ"].map((t, i) => w(t, i * 0.2));
+  assert.deepEqual(s.restoreWords(words).map((x) => x.text), ["1", "つ", "目", "は", "Claude", "2", "つ", "目", "は", "1", "つ"]);
 });

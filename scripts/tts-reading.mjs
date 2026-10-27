@@ -24,22 +24,29 @@ import { fileURLToPath } from "url";
 
 const DICT_PATH = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "tts-readings.json");
 
-// A reading is kana only (a reading, never new words or kanji) and not much longer than what it replaces.
-const KANA = /^[ぁ-ゖァ-ヺー・、。 　]+$/u;
+// A reading is kana only (a reading, never new words or kanji), starts and ends with kana (a leading
+// space would drop the word from the subtitles), replaces something that is not already kana, and is
+// not much longer than what it replaces. ponytail: it cannot check the reading MEANS the surface —
+// 保存 → 「ゆうほ」 passes; the length cap only stops whole sentences from riding in.
+const KANA = /^[ぁ-ゖァ-ヺー](?:[ぁ-ゖァ-ヺー・、。 　]*[ぁ-ゖァ-ヺー])?$/u;
+const ONLY_KANA = /^[ぁ-ゖァ-ヺー・、。\s]+$/u;
 export function readingProblem(surface, reading) {
-  if (!surface.trim()) return "empty surface";
-  if (typeof reading !== "string" || !KANA.test(reading)) return `reading of 「${surface}」 must be kana only: ${JSON.stringify(reading)}`;
-  if (reading.length > surface.length * 4 + 4) return `reading of 「${surface}」 is too long for a reading: ${reading}`;
+  if (typeof surface !== "string" || !surface.trim()) return "empty surface";
+  if (ONLY_KANA.test(surface)) return `「${surface}」 is already kana — nothing to read differently`;
+  if (typeof reading !== "string" || !KANA.test(reading)) return `reading of 「${surface}」 must be kana only (kana at both ends): ${JSON.stringify(reading)}`;
+  if (reading.length > Math.max(surface.length * 3, surface.length + 6)) return `reading of 「${surface}」 is too long for a reading: ${reading}`;
   return null;
 }
 
-/** { surface: reading }. Keys starting with "_" are notes. A bad entry is skipped (with a warning), never fatal. */
+/** { surface: reading }. Keys starting with "_" are notes. A bad entry or a broken file is skipped (with a warning), never fatal. */
 export function loadReadings(path = DICT_PATH) {
-  if (!existsSync(path)) {
-    console.warn(`tts-readings: ${path} not found — the voice reads every word its own way`);
+  let raw;
+  try {
+    raw = JSON.parse(readFileSync(path, "utf-8"));
+  } catch (err) {
+    console.warn(`tts-readings: ${existsSync(path) ? `cannot read ${path} (${err.message})` : `${path} not found`} — the voice reads every word its own way`);
     return {};
   }
-  const raw = JSON.parse(readFileSync(path, "utf-8"));
   const out = {};
   for (const [k, v] of Object.entries(raw)) {
     if (k.startsWith("_")) continue;
@@ -62,10 +69,10 @@ export function forSpeech(text, readings = defaultReadings()) {
   const spans = [];
   let spoken = "";
   let i = 0;
-  // An English entry only matches a whole word: "agent" must not hit "Reagent" or "agents".
-  const LATIN = /[A-Za-z]/;
-  const wholeWord = (k, at) =>
-    !(LATIN.test(k[0]) && LATIN.test(text[at - 1] ?? "")) && !(LATIN.test(k.at(-1)) && LATIN.test(text[at + k.length] ?? ""));
+  // An English entry only matches a whole word ("agent" must not hit "Reagent" or "agents"), and a
+  // number only a whole number ("1足" must not hit the 1足 inside "11足").
+  const edge = (c, next) => (/[A-Za-z]/.test(c) && /[A-Za-z]/.test(next)) || (/[0-9０-９]/.test(c) && /[0-9０-９.,]/.test(next));
+  const wholeWord = (k, at) => !edge(k[0], text[at - 1] ?? "") && !edge(k.at(-1), text[at + k.length] ?? "");
   while (i < text.length) {
     const key = keys.find((k) => text.startsWith(k, i) && wholeWord(k, i));
     if (key) {
@@ -101,9 +108,12 @@ export function restoreWords(words, text, spoken, spans) {
   const out = [];
   let cursor = 0;
   for (const w of words) {
+    // Edge drops punctuation and spaces between tokens; a match further away than that (or a couple of
+    // characters it rewrote, e.g. １ → 1) means Edge rewrote this token — keep what it said, don't jump.
     const at = spoken.indexOf(w.text, cursor);
-    if (at < 0) {
-      out.push(w); // Edge rewrote the token; keep what it said rather than guess
+    const gap = at < 0 ? "" : spoken.slice(cursor, at);
+    if (at < 0 || (gap.length > 2 && !/^[\s\p{P}\p{S}]*$/u.test(gap))) {
+      out.push(w);
       continue;
     }
     cursor = at + w.text.length;
