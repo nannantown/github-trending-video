@@ -16,11 +16,11 @@
  *       warning (the next slot tries again); the last slot (and a hand-run) goes red.
  *       --force=true (hand-runs only) skips the record, not the account check.
  *       EVENT_SCHEDULE = ${{ github.event.schedule }} (the cron line that fired).
- *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD [--max-seconds=59.5]
+ *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD --post-time=08:00 [--max-seconds=59.5]
  *     → $GITHUB_OUTPUT posted=true|false
- *       exit 1 (red, nothing uploaded) when the video is longer than Instagram
- *       takes (it fails every time — a person decides), or when the account has a
- *       different post since the day began (cannot tell which is the day's).
+ *       exit 1 (nothing uploaded) when the video is longer than Instagram takes
+ *       (it fails every time — a person decides), or when the account has a
+ *       different post since the day's post time (cannot tell which is the day's).
  *       posted=true + output/instagram-result.json when the day's caption is
  *       already on Instagram (a publish whose reply was lost) — record it, don't post.
  */
@@ -57,8 +57,19 @@ export function isFinalAttempt(eventName, schedule, lastSlot) {
 
 export const isoDate = (stamp) => `${stamp.slice(0, 4)}-${stamp.slice(4, 6)}-${stamp.slice(6, 8)}`;
 
-/** Unix seconds of 00:00 JST on the stamp's day. */
-export const dayStartUnix = (stamp) => Math.floor((Date.parse(`${isoDate(stamp)}T00:00:00Z`) - JST_MS) / 1000);
+/**
+ * Unix seconds of the day's daily post time (JST). The daily run never starts
+ * before it (GitHub only starts crons late), so a post before it is another
+ * day's — kawagutsu's 20:30 post of day D−1 usually goes out after 00:00 of D.
+ */
+export function postStartUnix(stamp, postTime) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(postTime ?? "");
+  if (!m) throw new Error(`--post-time must be HH:MM (JST), got ${JSON.stringify(postTime)}`);
+  return Math.floor((Date.parse(`${isoDate(stamp)}T00:00:00Z`) - JST_MS) / 1000) + Number(m[1]) * 3600 + Number(m[2]) * 60;
+}
+
+/** IG timestamps look like "2026-06-13T23:30:00+0000". */
+export const igUnix = (timestamp) => Date.parse(String(timestamp).replace(/([+-]\d{2})(\d{2})$/, "$1:$2")) / 1000;
 
 /**
  * `{ go, reason }` from the day's record. Two shapes are read:
@@ -116,15 +127,18 @@ export const sameCaption = (a, b) => {
 };
 
 /**
- * What the account already shows since the day began: `{ posted: media }` when
- * the day's caption is there, `{ unknown: media }` when something else is (a
- * person must look — posting could double the day), `{}` when nothing is.
+ * What to do with the day's video, given the account's recent media:
+ * `too-long` (Instagram refuses it every time), `posted` (the day's caption is
+ * already there — record it), `unknown` (another post since the day's post
+ * time: posting could double the day, a person looks), or `post`.
  */
-export function instagramDecision(media, caption) {
-  const same = (media || []).find((m) => sameCaption(m.caption, caption));
-  if (same) return { posted: same };
-  if ((media || []).length) return { unknown: media[0] };
-  return {};
+export function checkDecision({ seconds, maxSeconds = REELS_MAX_SECONDS, media = [], caption, since }) {
+  if (seconds > maxSeconds) return { action: "too-long" };
+  const same = media.find((m) => sameCaption(m.caption, caption));
+  if (same) return { action: "posted", media: same };
+  const other = media.find((m) => igUnix(m.timestamp) >= since);
+  if (other) return { action: "unknown", media: other };
+  return { action: "post" };
 }
 
 const arg = (name) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=").slice(1).join("=");
@@ -151,7 +165,7 @@ function gate() {
   // The live main, not this checkout: the daily run may have pushed its record after we started.
   sh("git", ["fetch", "--quiet", "origin", "main"]);
   const data = JSON.parse(sh("git", ["show", `origin/main:${records}`]));
-  const runs = JSON.parse(sh("gh", ["run", "list", "--workflow", "daily-video.yml", "--limit", "10", "--json", "status,updatedAt"]));
+  const runs = JSON.parse(sh("gh", ["run", "list", "--workflow", "daily-video.yml", "--branch", "main", "--limit", "10", "--json", "status,updatedAt"]));
   const dailyRunning = runs.some((r) => r.status !== "completed");
   const lastDone = runs.find((r) => r.status === "completed");
   const minutesSinceDaily = lastDone ? (Date.now() - Date.parse(lastDone.updatedAt)) / 60_000 : Infinity;
@@ -168,8 +182,9 @@ async function check() {
   const stamp = arg("stamp");
   const max = Number(arg("max-seconds") ?? REELS_MAX_SECONDS);
   if (!file || !/^\d{8}$/.test(stamp ?? "")) throw new Error("--file=<mp4> and --stamp=YYYYMMDD required");
+  const since = postStartUnix(stamp, arg("post-time"));
   const seconds = mp4DurationSeconds(readFileSync(file));
-  if (seconds > max) {
+  if (checkDecision({ seconds, maxSeconds: max }).action === "too-long") {
     console.log(`::error title=Instagram retry stopped::${file} is ${seconds.toFixed(1)} s, over the ${max} s Instagram takes — a retry fails every time, so it is not retried. Shorten the video (YouTube is unaffected).`);
     process.exit(1);
   }
@@ -182,10 +197,14 @@ async function check() {
   if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) throw new Error("Instagram credentials missing — cannot check the account, not posting");
   const { access_token: pageToken } = await graphGet(`/${FACEBOOK_PAGE_ID}`, { fields: "access_token", access_token: INSTAGRAM_ACCESS_TOKEN });
   if (!pageToken) throw new Error(`Could not derive the Page token for ${FACEBOOK_PAGE_ID}`);
+  // 36 h back for the same caption (a hand-run that went out early); "another
+  // post" only counts from the day's post time.
   const recent = await graphGet(`/${INSTAGRAM_USER_ID}/media`, {
-    fields: "id,caption,timestamp", since: dayStartUnix(stamp), limit: 25, access_token: pageToken,
+    fields: "id,caption,timestamp", since: since - 36 * 3600, limit: 50, access_token: pageToken,
   });
-  const { posted, unknown } = instagramDecision(recent.data, caption);
+  const decision = checkDecision({ seconds, maxSeconds: max, media: recent.data || [], caption, since });
+  const posted = decision.action === "posted" && decision.media;
+  const unknown = decision.action === "unknown" && decision.media;
   if (posted) {
     console.log(`::notice title=Already on Instagram::${isoDate(stamp)} is on Instagram (${posted.id}, ${posted.timestamp}) with this caption — recording it, not posting twice.`);
     mkdirSync("output", { recursive: true });
@@ -194,10 +213,10 @@ async function check() {
     return;
   }
   if (unknown) {
-    console.log(`::error title=Instagram retry stopped::the account already has a post since ${isoDate(stamp)} 00:00 JST (${unknown.id}, ${unknown.timestamp}) with a different caption — posting could put the day out twice. A person checks the account.`);
+    console.log(`::error title=Instagram retry stopped::the account already has a post since ${arg("post-time")} JST on ${isoDate(stamp)} (${unknown.id}, ${unknown.timestamp}) with a different caption — posting could put the day out twice. A person checks the account.`);
     process.exit(1);
   }
-  console.log(`Nothing on Instagram since ${isoDate(stamp)} 00:00 JST — posting.`);
+  console.log(`Nothing on Instagram since ${arg("post-time")} JST on ${isoDate(stamp)} — posting.`);
   output({ posted: false });
 }
 

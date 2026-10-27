@@ -323,4 +323,14 @@ test("a post found on the account is recorded, never published again", async (t)
   await assert.rejects(retryInstagram({ ...f.retry, upload: () => assert.fail("No API") }), /already posted/);
   assert.equal(parseRetryArgs(["--date=2030-01-02", "--platform=instagram", "--record-media-id=1790001"]).recordMediaId, "1790001");
   assert.throws(() => parseRetryArgs(["--date=2030-01-02", "--platform=instagram", "--record-media-id=1", "--check"]));
+  await assert.rejects(recordFoundInstagram({ ...f.retry, mediaId: "1790002" }), /already recorded/);
+});
+
+test("a lost publish reply (journal unknown) is resolved by recording the post the account shows", async (t) => {
+  const f = fixture(t);
+  await failIG(f, { publishError: new Error("socket hang up") });
+  assert.equal(loadState(f.rootDir, date).platforms.instagram.status, "unknown");
+  await assert.rejects(retryInstagram({ ...f.retry, upload: () => assert.fail("No API") }), /unknown/);
+  await recordFoundInstagram({ ...f.retry, mediaId: "1790003" });
+  assert.equal(loadState(f.rootDir, date).platforms.instagram.mediaId, "1790003");
 });

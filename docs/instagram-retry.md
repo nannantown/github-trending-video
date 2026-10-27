@@ -6,9 +6,10 @@
 
 同じ **Retry Instagram for Date** が 1 日 4 回（12:07 / 14:07 / 17:07 / 20:07 JST）自動で走ります。日次の 08:00 JST の回（GitHub の遅れで実際は 09:35〜10:40 頃）について:
 
-1. main の `data/performance-history.json` に YouTube があり Instagram が無いときだけ進みます（`scripts/ig-auto-retry.mjs gate`）。日次の実行中・終了から 45 分以内は見送ります（最後の回は待たない）。そのあと下の手動と同じ台帳の確認（`failed` かつ `safeToRetry: true` だけ）と bundle の検証を通ります。`unknown` / `in_progress` の日は赤で止まり、投稿しません。
-2. 動画が 59.5 秒を超えていたら投稿せず赤で止まります。Instagram 本体のその日 0:00 JST 以降の投稿を確かめ、同じキャプションがあれば投稿せず `--record-media-id` で台帳を `succeeded` にします。違うキャプションの投稿があれば投稿せず赤で止まります（`scripts/ig-auto-retry.mjs check`）。
-3. 最初の 3 回の失敗は警告だけで緑（次の回がもう一度）。4 回目も失敗したら赤です。
+1. main の `data/performance-history.json` に YouTube があり Instagram が無いときだけ進みます（`scripts/ig-auto-retry.mjs gate`）。日次の実行中・終了から 45 分以内は見送ります（最後の回は待たない）。
+2. 動画が 59.5 秒を超えていたら投稿しません。Instagram 本体の直近の投稿に同じキャプションがあれば投稿せず、`--record-media-id` で台帳を `succeeded` にします（公開の返事が途切れて台帳が `unknown` の日もここで直ります）。その日 08:00 JST 以降に違うキャプションの投稿があれば投稿しません（`scripts/ig-auto-retry.mjs check`）。
+3. そのあと下の手動と同じ台帳の確認（`failed` かつ `safeToRetry: true` だけ）と bundle の検証を通ってから投稿します。Instagram に無いのに `unknown` / `in_progress` の日は赤で止まり、投稿しません。
+4. 最初の 3 回の失敗（2 で止めたときも）は警告だけで緑（次の回がもう一度）。4 回目も失敗したら赤です。
 
 ## 手動再試行
 

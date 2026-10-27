@@ -5,8 +5,8 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  episodeStamp, dayStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds,
-  instagramDecision, sameCaption, REELS_MAX_SECONDS,
+  episodeStamp, postStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds,
+  checkDecision, sameCaption, igUnix, REELS_MAX_SECONDS,
 } from "./ig-auto-retry.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,8 +21,10 @@ test("episodeStamp: the latest daily post time at or before now (JST)", () => {
   assert.throws(() => episodeStamp(new Date(), "8am"));
 });
 
-test("dayStartUnix is 00:00 JST", () => {
-  assert.equal(new Date(dayStartUnix("20261027") * 1000).toISOString(), "2026-10-26T15:00:00.000Z");
+test("postStartUnix is the day's post time in JST", () => {
+  assert.equal(new Date(postStartUnix("20261027", "08:00") * 1000).toISOString(), "2026-10-26T23:00:00.000Z");
+  assert.equal(new Date(postStartUnix("20261022", "20:30") * 1000).toISOString(), "2026-10-22T11:30:00.000Z");
+  assert.equal(igUnix("2026-10-21T16:00:00+0000"), Date.parse("2026-10-21T16:00:00Z") / 1000);
 });
 
 test("recordDecision: only YouTube-on-record + Instagram-missing goes", () => {
@@ -82,16 +84,23 @@ test("mp4DurationSeconds reads moov/mvhd (v0 and v1)", () => {
   assert.throws(() => mp4DurationSeconds(Buffer.from("not a video at all")));
 });
 
-test("a video over the Reels limit is never retried (kawagutsu 2026-10-21: 62.0 s)", () => {
-  assert.ok(mp4DurationSeconds(mp4(0, 1000, 62000)) > REELS_MAX_SECONDS);
-  assert.ok(mp4DurationSeconds(mp4(0, 1000, 59000)) <= REELS_MAX_SECONDS);
+test("checkDecision: too long → never retried, whatever the account shows (kawagutsu 2026-10-21: 62.0 s)", () => {
+  const seconds = mp4DurationSeconds(mp4(0, 1000, 62000));
+  assert.equal(checkDecision({ seconds, caption: "c", since: 0 }).action, "too-long");
+  assert.equal(checkDecision({ seconds: 59, caption: "c", since: 0 }).action, "post");
+  assert.equal(checkDecision({ seconds: 62, maxSeconds: 76.7, caption: "c", since: 0 }).action, "post", "kawagutsu speeds ≤ 76.7 s up for Instagram");
+  assert.equal(checkDecision({ seconds: 80, maxSeconds: 76.7, caption: "c", since: 0 }).action, "too-long");
 });
 
-test("instagramDecision: same caption = already posted; other post = stop; none = post", () => {
+test("checkDecision: same caption = already posted; another post after the post time = stop; else post", () => {
   const caption = "今日の1本\n\n#tag";
-  assert.equal(instagramDecision([{ id: "1", caption: "今日の1本 #tag" }], caption).posted.id, "1");
-  assert.equal(instagramDecision([{ id: "2", caption: "別の投稿" }], caption).unknown.id, "2");
-  assert.deepEqual(instagramDecision([], caption), {});
+  const since = postStartUnix("20261022", "20:30"); // kawagutsu, 10/22 20:30 JST
+  const yesterday = { id: "y", caption: "前の晩の1足", timestamp: "2026-10-21T16:00:00+0000" }; // 10/22 01:00 JST — 10/21's late Reel
+  assert.equal(checkDecision({ seconds: 50, media: [yesterday], caption, since }).action, "post", "the previous day's late post is not today's");
+  assert.equal(checkDecision({ seconds: 50, media: [{ id: "1", caption: "今日の1本 #tag", timestamp: "2026-10-22T15:00:00+0000" }, yesterday], caption, since }).media.id, "1");
+  assert.equal(checkDecision({ seconds: 50, media: [{ id: "e", caption: "今日の1本 #tag", timestamp: "2026-10-22T09:00:00+0000" }], caption, since }).action, "posted", "the same caption counts even before the post time");
+  const other = checkDecision({ seconds: 50, media: [{ id: "2", caption: "別の投稿", timestamp: "2026-10-22T14:00:00+0000" }], caption, since });
+  assert.deepEqual([other.action, other.media.id], ["unknown", "2"]);
   assert.equal(sameCaption("", ""), false);
 });
 
@@ -112,10 +121,12 @@ test("the retry workflow: scheduled slots, Instagram only, red only on the last 
   const at = (re) => steps.findIndex((s) => re.test(s));
   const check = at(/ig-auto-retry\.mjs check/);
   const upload = at(/\bid: upload\b/);
-  const posts = /upload-instagram\.mjs --file|retry-instagram\.mjs --date="\$RETRY_DATE" --platform=instagram$/m;
+  const posts = /upload-instagram\.mjs --file|retry-instagram\.mjs --date="\$RETRY_DATE" --platform=instagram(?! --(check|record-media-id))/;
   assert.match(steps[upload], posts);
   assert.equal(steps.filter((s) => posts.test(s)).length, 1, "one step posts to Instagram");
   assert.ok(check > 0 && upload > check, "the account and the length are checked before the upload");
   assert.match(steps[upload], /continue-on-error: \$\{\{ steps\.gate\.outputs\.final != 'true' \}\}/);
   assert.match(steps[upload], /steps\.check\.outputs\.posted == 'false'/, "uploads only when the day is not on Instagram");
+  assert.match(steps[check], /--post-time=\d{2}:\d{2}/, "the account check knows the day's post time");
+  assert.match(steps[check], /continue-on-error: \$\{\{ steps\.gate\.outputs\.final != 'true' \}\}/, "a check failure on an earlier slot is a warning");
 });

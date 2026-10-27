@@ -80,9 +80,39 @@ jobs:
           INPUT_DATE: ${{ inputs.date }}
         run: node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 11 * * *" ${INPUT_DATE:+"--date=${INPUT_DATE//-/}"}
 
+      - name: Download exact saved video and metadata
+        if: steps.gate.outputs.go == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          compact: ${{ steps.gate.outputs.stamp }}
+        run: |
+          mkdir -p output
+          gh release download "v${compact}" -p "trending-${compact}.mp4" -D output/
+          gh release download "v${compact}" -p "trending-${compact}-metadata.json" -D output/
+
+      - name: Fits a Reel, and not on Instagram yet?
+        id: check
+        if: steps.gate.outputs.go == 'true'
+        continue-on-error: ${{ steps.gate.outputs.final != 'true' }}
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          compact: ${{ steps.gate.outputs.stamp }}
+        run: node scripts/ig-auto-retry.mjs check --file="output/trending-${compact}.mp4" --captions="output/trending-${compact}-metadata.json" --stamp="$compact" --post-time=08:00
+
+      # Before the journal check: a publish whose reply was lost leaves the
+      # journal "unknown" — if the account shows the day, record it.
+      - name: Already on Instagram — record it in the journal
+        if: steps.check.outputs.posted == 'true'
+        env:
+          RETRY_DATE: ${{ steps.gate.outputs.date }}
+          MEDIA_ID: ${{ steps.check.outputs.mediaId }}
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --record-media-id="$MEDIA_ID"
+
       # The retry transport uses only Node built-ins; no rendering dependencies.
       - name: Validate calendar date and existing journal
-        if: steps.gate.outputs.go == 'true'
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
         run: |
@@ -94,38 +124,11 @@ jobs:
             JSON.parse(readFileSync('data/performance-history.json', 'utf8')));
           JS
 
-      - name: Download exact saved video and metadata
-        if: steps.gate.outputs.go == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          compact: ${{ steps.gate.outputs.stamp }}
-        run: |
-          mkdir -p output
-          gh release download "v${compact}" -p "trending-${compact}.mp4" -D output/
-          gh release download "v${compact}" -p "trending-${compact}-metadata.json" -D output/
-
       - name: Check bundle before credentials are used
-        if: steps.gate.outputs.go == 'true'
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
         run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --check
-
-      - name: Fits a Reel, and not on Instagram yet?
-        id: check
-        if: steps.gate.outputs.go == 'true'
-        env:
-          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
-          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
-          compact: ${{ steps.gate.outputs.stamp }}
-        run: node scripts/ig-auto-retry.mjs check --file="output/trending-${compact}.mp4" --captions="output/trending-${compact}-metadata.json" --stamp="$compact"
-
-      - name: Already on Instagram — record it in the journal
-        if: steps.check.outputs.posted == 'true'
-        env:
-          RETRY_DATE: ${{ steps.gate.outputs.date }}
-          MEDIA_ID: ${{ steps.check.outputs.mediaId }}
-        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --record-media-id="$MEDIA_ID"
 
       - name: Retry only Instagram
         id: upload
@@ -139,8 +142,8 @@ jobs:
         run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram
 
       - name: Not yet — the next slot tries again
-        if: steps.upload.outcome == 'failure'
-        run: echo "::warning title=Instagram retry::the upload failed again; a later retry slot tries the same video (the last slot turns red if it still fails)"
+        if: steps.check.outcome == 'failure' || steps.upload.outcome == 'failure'
+        run: echo "::warning title=Instagram retry::not on Instagram yet (see the failed step above); a later retry slot tries the same video (the last slot turns red if it still fails)"
 
       - name: Preserve posting evidence even on failure
         if: always() && steps.gate.outputs.go == 'true'

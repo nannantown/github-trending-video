@@ -31,7 +31,14 @@ export async function retryInstagram({ rootDir, date, platform, env = process.en
 export async function recordFoundInstagram({ rootDir, date, platform, mediaId, checkpoint }) {
   if (!/^\d+$/.test(mediaId || "")) throw new Error("Found Instagram media ID must be numeric");
   return withDateLock({ rootDir, date }, async () => {
-    const { state, metadata } = preflight({ rootDir, date, platform });
+    validateDate(date);
+    if (platform !== "instagram") throw new Error("Retry platform must explicitly be instagram");
+    const state = loadState(rootDir, date);
+    // Not assertRetryable: "unknown" (publish reply lost) is exactly the case
+    // the account check resolves. Only a different known post is refused.
+    const known = state.platforms.instagram?.mediaId;
+    if (known && known !== mediaId) throw new Error(`Instagram already recorded as ${known}; refusing ${mediaId}`);
+    const { metadata } = validateBundle({ rootDir, date, state });
     const store = createStore({ rootDir, date, metadata, state, checkpoint });
     store.update("instagram", { status: "succeeded", phase: "published", mediaId, safeToRetry: false, reason: "found_on_instagram" });
     return { mediaId };
