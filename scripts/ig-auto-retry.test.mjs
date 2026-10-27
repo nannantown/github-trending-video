@@ -1,12 +1,15 @@
 // Same file in all four repos (see scripts/ig-auto-retry.mjs).
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
+import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
+import { execFileSync, spawnSync } from "node:child_process";
 import {
   episodeStamp, postStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds,
   checkDecision, sameCaption, igUnix, REELS_MAX_SECONDS,
+  switchDecision, failureKind, budgetStop, markState, MAX_AUTO_ATTEMPTS, STATE_PATH,
 } from "./ig-auto-retry.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -104,29 +107,134 @@ test("checkDecision: same caption = already posted; another post after the post 
   assert.equal(sameCaption("", ""), false);
 });
 
+test("(c) the owner's switch: off stops every scheduled run, SKIP leaves listed days alone, hand-runs are not affected", () => {
+  assert.match(switchDecision({ auto: true, mode: "off", stamp: "20261027" }), /switched off/);
+  assert.match(switchDecision({ auto: true, mode: " OFF ", stamp: "20261027" }), /switched off/);
+  assert.match(switchDecision({ auto: true, skip: "20261026, 20261023", stamp: "20261026" }), /SKIP/);
+  assert.match(switchDecision({ auto: true, skip: "20261026,20261023", stamp: "20261023" }), /SKIP/);
+  assert.equal(switchDecision({ auto: true, skip: "20261026,20261023", stamp: "20261027" }), null);
+  assert.equal(switchDecision({ auto: true, mode: "", skip: "", stamp: "20261027" }), null, "unset = today's behaviour");
+  assert.equal(switchDecision({ auto: false, mode: "off", skip: "20261026", stamp: "20261026" }), null);
+});
+
+test("(a)(b) the day's budget: at most MAX_AUTO_ATTEMPTS, and two ProcessingFailedErrors in a row stop it", () => {
+  assert.equal(MAX_AUTO_ATTEMPTS, 3);
+  assert.equal(budgetStop(undefined), null);
+  assert.equal(budgetStop({ attempts: 2, failures: ["other", "ProcessingFailedError"] }), null);
+  assert.match(budgetStop({ attempts: 3, failures: ["other", "other", "other"] }), /3 automatic attempts/);
+  assert.match(budgetStop({ attempts: 2, failures: ["ProcessingFailedError", "ProcessingFailedError"] }), /ProcessingFailedError/);
+  assert.equal(budgetStop({ attempts: 2, failures: ["ProcessingFailedError", "other"] }), null, "a different failure breaks the run");
+  assert.equal(failureKind("Binary upload failed (400): {\"error\":{\"type\":\"ProcessingFailedError\",\"debug_info\":{\"retriable\":false}}}"), "ProcessingFailedError");
+  assert.equal(failureKind("Graph API error: timeout"), "other");
+  assert.equal(failureKind(undefined), "other");
+});
+
+test("markState: counts attempts across days for one episode, keeps 60 days", () => {
+  const t0 = new Date("2026-10-27T16:37:00Z");
+  let s = markState({ 20260801: { attempts: 1, failures: [] } }, "20261027", { now: t0 });
+  s = markState(s, "20261027", { failure: "ProcessingFailedError", now: t0 });
+  s = markState(s, "20261027", { now: new Date("2026-10-28T00:37:00Z") }); // the next calendar day, same episode
+  assert.deepEqual([s["20261027"].attempts, s["20261027"].failures], [2, ["ProcessingFailedError"]]);
+  assert.equal(s["20260801"], undefined);
+});
+
+const script = join(root, "scripts/ig-auto-retry.mjs");
+const git = (cwd, ...args) => execFileSync("git", args, { cwd, encoding: "utf-8", stdio: ["ignore", "pipe", "pipe"] });
+const run = (cwd, args, env = {}) => {
+  const out = join(cwd, "..", `out-${Math.random()}`);
+  writeFileSync(out, "");
+  const r = spawnSync(process.execPath, [script, ...args], { cwd, encoding: "utf-8", env: { ...process.env, GITHUB_OUTPUT: out, ...env } });
+  return { status: r.status, output: readFileSync(out, "utf-8"), log: r.stdout + r.stderr };
+};
+
+test("(a)(b) mark: counts on main before each upload and stops the day (stop=…, exit 1) when it is spent", (t) => {
+  const dir = mkdtempSync(join(tmpdir(), "ig-mark-"));
+  t.after(() => rmSync(dir, { recursive: true, force: true }));
+  git(dir, "init", "--quiet", "--bare", "-b", "main", "remote.git");
+  git(dir, "clone", "--quiet", "remote.git", "work");
+  const work = join(dir, "work");
+  git(work, "config", "user.email", "t@example.com");
+  git(work, "config", "user.name", "t");
+  git(work, "commit", "--quiet", "--allow-empty", "-m", "init");
+  git(work, "push", "--quiet", "origin", "HEAD:main");
+  git(work, "branch", "--set-upstream-to=origin/main");
+  writeFileSync(join(dir, "pfe.log"), "Upload failed: ProcessingFailedError (retriable:false)");
+
+  const start = run(work, ["mark", "--stamp=20261026"]);
+  assert.equal(start.status, 0, start.log);
+  const first = run(work, ["mark", "--stamp=20261026", `--log=${join(dir, "pfe.log")}`]);
+  assert.equal(first.status, 0, first.log);
+  assert.equal(run(work, ["mark", "--stamp=20261026"]).status, 0);
+  const second = run(work, ["mark", "--stamp=20261026", `--log=${join(dir, "pfe.log")}`]);
+  assert.equal(second.status, 1, "two ProcessingFailedErrors in a row → red");
+  assert.match(second.output, /^stop=.*ProcessingFailedError/m);
+  const onMain = JSON.parse(git(work, "show", `origin/main:${STATE_PATH}`));
+  assert.deepEqual(onMain["20261026"].failures, ["ProcessingFailedError", "ProcessingFailedError"]);
+  assert.equal(onMain["20261026"].attempts, 2);
+  assert.match(git(work, "log", "-1", "--format=%s", "origin/main").trim(), /\[skip ci\]$/);
+});
+
+test("(c) gate: IG_AUTO_RETRY=off / IG_AUTO_RETRY_SKIP end a scheduled run green with go=false, before any network or git", () => {
+  const dir = mkdtempSync(join(tmpdir(), "ig-gate-"));
+  try {
+    const base = ["gate", "--records=data/x.json", "--post-time=20:30", "--last-slot=37 0 * * *", "--date=20261026"];
+    const off = run(dir, base, { GITHUB_EVENT_NAME: "schedule", EVENT_SCHEDULE: "37 16 * * *", IG_AUTO_RETRY: "off" });
+    assert.equal(off.status, 0, off.log);
+    assert.match(off.output, /^go=false$/m);
+    const skip = run(dir, base, { GITHUB_EVENT_NAME: "schedule", EVENT_SCHEDULE: "37 16 * * *", IG_AUTO_RETRY_SKIP: "20261026,20261023" });
+    assert.equal(skip.status, 0, skip.log);
+    assert.match(skip.output, /^go=false$/m);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
 // The workflow wiring the functions above rely on.
 const workflows = readdirSync(join(root, ".github/workflows")).filter((f) => f.endsWith(".yml"));
-const name = workflows.find((f) => readFileSync(join(root, ".github/workflows", f), "utf-8").includes("ig-auto-retry.mjs gate"));
+const wf = (f) => readFileSync(join(root, ".github/workflows", f), "utf-8");
+const name = workflows.find((f) => wf(f).includes("ig-auto-retry.mjs gate"));
 
-test("the retry workflow: scheduled slots, Instagram only, red only on the last slot", () => {
+test("the retry workflow: scheduled slots, Instagram only, notes on earlier slots, red on the last", () => {
   assert.ok(name, "a workflow runs ig-auto-retry.mjs gate");
-  const yml = readFileSync(join(root, ".github/workflows", name), "utf-8");
+  const yml = wf(name);
   const crons = [...yml.matchAll(/- cron: "([^"]+)"/g)].map((m) => m[1]);
+  const last = crons.at(-1);
   assert.ok(crons.length >= 3, "at least three retry slots");
-  assert.equal(yml.match(/--last-slot="([^"]+)"/)[1], crons.at(-1), "--last-slot is the last cron line");
+  assert.equal(yml.match(/--last-slot="([^"]+)"/)[1], last, "--last-slot is the last cron line");
+  const lastRefs = [...yml.matchAll(/github\.event\.schedule != '([^']+)'/g)].map((m) => m[1]);
+  assert.ok(lastRefs.length >= 2, "job continue-on-error + the note step name the last slot");
+  for (const ref of lastRefs) assert.equal(ref, last);
+  assert.match(yml, /^    continue-on-error: \$\{\{ github\.event_name == 'schedule' && github\.event\.schedule != '[^']+' \}\}$/m, "job-level: earlier slots are notes");
   assert.match(yml, /EVENT_SCHEDULE: \$\{\{ github\.event\.schedule \}\}/);
+  assert.match(yml, /IG_AUTO_RETRY: \$\{\{ vars\.IG_AUTO_RETRY \}\}/, "(c) the off switch reaches the gate");
+  assert.match(yml, /IG_AUTO_RETRY_SKIP: \$\{\{ vars\.IG_AUTO_RETRY_SKIP \}\}/, "(c) the skip list reaches the gate");
   assert.doesNotMatch(yml, /upload-youtube|YOUTUBE_/, "YouTube is never touched");
 
-  const steps = yml.split(/\n\s+- (?=name:|if:|uses:|run:)/);
+  const steps = yml.split(/\n\s+- (?=name:|if:|uses:|run:|env:)/);
   const at = (re) => steps.findIndex((s) => re.test(s));
   const check = at(/ig-auto-retry\.mjs check/);
+  const count = at(/ig-auto-retry\.mjs mark --stamp="[^"]+"$/m);
   const upload = at(/\bid: upload\b/);
+  const markFail = at(/ig-auto-retry\.mjs mark [^\n]*--log=output\/ig-upload\.log/);
   const posts = /upload-instagram\.mjs --file|retry-instagram\.mjs --date="\$RETRY_DATE" --platform=instagram(?! --(check|record-media-id))/;
   assert.match(steps[upload], posts);
   assert.equal(steps.filter((s) => posts.test(s)).length, 1, "one step posts to Instagram");
-  assert.ok(check > 0 && upload > check, "the account and the length are checked before the upload");
-  assert.match(steps[upload], /continue-on-error: \$\{\{ steps\.gate\.outputs\.final != 'true' \}\}/);
-  assert.match(steps[upload], /steps\.check\.outputs\.posted == 'false'/, "uploads only when the day is not on Instagram");
+  assert.ok(check > 0 && count > check && upload > count && markFail > upload, "check → count (a) → upload → remember the failure (b)");
   assert.match(steps[check], /--post-time=\d{2}:\d{2}/, "the account check knows the day's post time");
-  assert.match(steps[check], /continue-on-error: \$\{\{ steps\.gate\.outputs\.final != 'true' \}\}/, "a check failure on an earlier slot is a warning");
+  assert.match(steps[count], /if: github\.event_name == 'schedule' && steps\.check\.outputs\.posted == 'false'/, "(a) every automatic upload is counted first");
+  assert.match(steps[upload], /steps\.check\.outputs\.posted == 'false'/, "uploads only when the day is not on Instagram");
+  assert.match(steps[upload], /set -(eu)?o pipefail[\s\S]*\| tee output\/ig-upload\.log/, "(b) the failure's kind is kept");
+  assert.match(steps[markFail], /if: failure\(\) && steps\.upload\.outcome == 'failure' && github\.event_name == 'schedule'/);
+  assert.doesNotMatch(yml, /^\s{8}continue-on-error/m, "no step-level continue-on-error (it would let the next step run)");
+
+  const stops = yml.match(/^      stop: (.+)$/m)?.[1] ?? "";
+  for (const id of ["gate", "check", "mark"]) assert.ok(stops.includes(`steps.${id}.outputs.stop`), `stop from ${id}`);
+  assert.match(yml, /\n  needs-a-person:\n    needs: (\w+)\n    if: always\(\) && needs\.\1\.outputs\.stop != ''[\s\S]*exit 1/, "a stop is red at once, on any slot");
+});
+
+test("the retry shares daily-video.yml's lock (never posts at the same time as the daily run)", () => {
+  const group = (yml) => yml.match(/^concurrency:\n  group: (.+)$/m)?.[1];
+  assert.ok(group(wf(name)), "the retry has a concurrency group");
+  assert.equal(group(wf(name)), group(wf("daily-video.yml")));
+  assert.match(wf(name), /^concurrency:\n  group: .+\n(  queue: max\n)?  cancel-in-progress: false$/m);
 });

@@ -9,23 +9,33 @@
  *   node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 5 * * *" [--date=YYYYMMDD]
  *     → $GITHUB_OUTPUT go=true|false, final=true|false, stamp=YYYYMMDD, date=YYYY-MM-DD
  *       go=true only when the day's live record (origin/main) has YouTube and no
- *       Instagram, daily-video.yml is not running, and it finished at least
+ *       Instagram, daily-video.yml (main) is not running, and it finished at least
  *       MIN_GAP_MINUTES ago (an earlier slot right after it leaves the try to the
- *       next slot; the last slot always tries). Unreadable record → exit 1.
- *       final=false only on the earlier scheduled slots: their failed upload is a
- *       warning (the next slot tries again); the last slot (and a hand-run) goes red.
- *       --force=true (hand-runs only) skips the record, not the account check.
- *       EVENT_SCHEDULE = ${{ github.event.schedule }} (the cron line that fired).
- *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD --post-time=08:00 [--max-seconds=59.5]
+ *       next slot; the last slot always tries). final=false only on the earlier
+ *       scheduled slots. --force=true (hand-runs only) skips the record, not the
+ *       account check. EVENT_SCHEDULE = ${{ github.event.schedule }}.
+ *       Scheduled runs only: IG_AUTO_RETRY=off (repo Variable) → nothing;
+ *       IG_AUTO_RETRY_SKIP=20261026,20261023 → those days are left alone; a day
+ *       that used up its tries (STATE_PATH) → stop=… + exit 1.
+ *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD --post-time=08:00 [--max-seconds=59.5 | --max-seconds-from=scripts/reels-fit.mjs]
  *     → $GITHUB_OUTPUT posted=true|false
- *       exit 1 (nothing uploaded) when the video is longer than Instagram takes
- *       (it fails every time — a person decides), or when the account has a
+ *       stop=… + exit 1 (nothing uploaded) when the video is longer than Instagram
+ *       takes (it fails every time — a person decides), or when the account has a
  *       different post since the day's post time (cannot tell which is the day's).
  *       posted=true + output/instagram-result.json when the day's caption is
  *       already on Instagram (a publish whose reply was lost) — record it, don't post.
+ *   node scripts/ig-auto-retry.mjs mark --stamp=YYYYMMDD [--log=output/ig-upload.log]
+ *     Scheduled runs: counts an automatic attempt in STATE_PATH on main, right
+ *     before the upload (a crash still counts). With --log (after a failed upload)
+ *     it keeps the failure's kind; a day out of tries → stop=… + exit 1.
+ *
+ * "stop" = no later slot can fix it: the workflow turns red at once, even on an
+ * earlier slot. Anything else that fails on an earlier slot is a note — the job
+ * has continue-on-error and the next slot tries again; the last slot goes red.
  */
 import { execFileSync } from "node:child_process";
-import { appendFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
 const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
@@ -36,6 +46,19 @@ export const REELS_MAX_SECONDS = 59.5;
 
 /** Leave Instagram this long after the daily run's own 3 tries before trying again. */
 export const MIN_GAP_MINUTES = 45;
+
+/**
+ * Automatic uploads one day's video may get, all slots and days together. Each
+ * upload already tries 3 times inside (30/60/120 s apart), and the daily run did
+ * 3 more: 3 automatic attempts = at most 12 uploads of one video, 1 post.
+ */
+export const MAX_AUTO_ATTEMPTS = 3;
+
+/** This many automatic attempts in a row failing with ProcessingFailedError: the video or the account, not a glitch. */
+export const SAME_FAILURE_STOP = 2;
+
+/** Where the automatic attempts are counted (committed to main, per day). */
+export const STATE_PATH = "data/ig-auto-retry.json";
 
 /**
  * The day whose post a run retries: the latest daily post time (JST) at or before
@@ -96,6 +119,44 @@ export function recordDecision(entries, stamp, { dailyRunning = false, auto = tr
   return { go: true, reason: `${date}: YouTube ${youtube ?? "(none)"} on record, Instagram not — retrying Instagram only.` };
 }
 
+/**
+ * The owner's switch (repo Variables), for scheduled runs only — a hand-run is a
+ * person's call. Returns why to leave the day alone, or null.
+ */
+export function switchDecision({ auto, mode, skip, stamp }) {
+  if (!auto) return null;
+  if (String(mode ?? "").trim().toLowerCase() === "off") return "IG_AUTO_RETRY=off — automatic Instagram retries are switched off.";
+  const days = String(skip ?? "").split(/[\s,]+/).filter(Boolean);
+  if (days.includes(stamp)) return `${stamp} is in IG_AUTO_RETRY_SKIP — left alone (no automatic retry).`;
+  return null;
+}
+
+/** The kind of a failed upload, from its log. */
+export const failureKind = (log) => (/ProcessingFailedError/.test(String(log ?? "")) ? "ProcessingFailedError" : "other");
+
+/** Why the day gets no more automatic attempts, or null. `entry` = STATE_PATH[stamp]. */
+export function budgetStop(entry = {}) {
+  const attempts = entry.attempts ?? 0;
+  if (attempts >= MAX_AUTO_ATTEMPTS) return `${attempts} automatic attempts already (limit ${MAX_AUTO_ATTEMPTS}) — not uploading this video again automatically.`;
+  const last = (entry.failures ?? []).slice(-SAME_FAILURE_STOP);
+  if (last.length === SAME_FAILURE_STOP && last.every((f) => f === "ProcessingFailedError")) {
+    return `ProcessingFailedError on the last ${SAME_FAILURE_STOP} automatic attempts — the video or the account, not a passing glitch. Not retried automatically.`;
+  }
+  return null;
+}
+
+/** STATE_PATH after one more attempt (`failure` absent) or one more failure kind. Keeps 60 days. */
+export function markState(state, stamp, { failure, now = new Date() } = {}) {
+  const next = { ...(state || {}) };
+  const entry = { attempts: 0, failures: [], ...(next[stamp] || {}) };
+  if (failure) entry.failures = [...entry.failures, failure];
+  else { entry.attempts += 1; entry.lastAttemptAt = now.toISOString(); }
+  next[stamp] = entry;
+  const cutoff = new Date(now.getTime() - 60 * 86400_000).toISOString().slice(0, 10).replaceAll("-", "");
+  for (const day of Object.keys(next)) if (day < cutoff) delete next[day];
+  return next;
+}
+
 /** Duration (s) from the mp4 movie header (moov/mvhd) — no ffprobe needed. */
 export function mp4DurationSeconds(buf) {
   const find = (start, end, type) => {
@@ -149,6 +210,17 @@ const output = (pairs) => {
 };
 const sh = (cmd, args) => execFileSync(cmd, args, { encoding: "utf-8", stdio: ["ignore", "pipe", "inherit"] });
 
+/** A condition no later slot can fix: stop=… makes the workflow red at once. */
+function stop(reason) {
+  console.log(`::error title=Instagram retry stopped::${reason}`);
+  output({ stop: reason.replace(/\s+/g, " ") });
+  process.exit(1);
+}
+
+const readState = (ref) => {
+  try { return JSON.parse(sh("git", ["show", `${ref}:${STATE_PATH}`])); } catch { return {}; }
+};
+
 async function graphGet(path, params) {
   const url = new URL(`${GRAPH_API_BASE}${path}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, String(v));
@@ -162,6 +234,13 @@ function gate() {
   if (!records) throw new Error("--records=<path> required");
   const stamp = arg("date") || episodeStamp(new Date(), arg("post-time"));
   if (!/^\d{8}$/.test(stamp)) throw new Error(`--date must be YYYYMMDD, got "${stamp}"`);
+  const auto = process.env.GITHUB_EVENT_NAME === "schedule";
+  const off = switchDecision({ auto, mode: process.env.IG_AUTO_RETRY, skip: process.env.IG_AUTO_RETRY_SKIP, stamp });
+  if (off) {
+    console.log(`::notice title=Instagram retry::${off}`);
+    output({ go: false, final: true, stamp, date: isoDate(stamp) });
+    return;
+  }
   // The live main, not this checkout: the daily run may have pushed its record after we started.
   sh("git", ["fetch", "--quiet", "origin", "main"]);
   const data = JSON.parse(sh("git", ["show", `origin/main:${records}`]));
@@ -170,9 +249,12 @@ function gate() {
   const lastDone = runs.find((r) => r.status === "completed");
   const minutesSinceDaily = lastDone ? (Date.now() - Date.parse(lastDone.updatedAt)) / 60_000 : Infinity;
   const final = isFinalAttempt(process.env.GITHUB_EVENT_NAME, process.env.EVENT_SCHEDULE, arg("last-slot"));
-  const auto = process.env.GITHUB_EVENT_NAME === "schedule";
   const { go, reason } = recordDecision(data.videos ?? data.aired, stamp, { dailyRunning, auto, final, minutesSinceDaily, force: arg("force") === "true" });
   console.log(reason);
+  if (go && auto) {
+    const spent = budgetStop(readState("origin/main")[stamp]);
+    if (spent) stop(`${isoDate(stamp)}: ${spent}`);
+  }
   if (go) console.log(final ? "Last attempt: a failure turns this run red." : "Earlier slot: a failure is a warning, the next slot tries again.");
   output({ go, final, stamp, date: isoDate(stamp) });
 }
@@ -180,13 +262,15 @@ function gate() {
 async function check() {
   const file = arg("file");
   const stamp = arg("stamp");
-  const max = Number(arg("max-seconds") ?? REELS_MAX_SECONDS);
+  // --max-seconds-from: a repo that speeds a long video up for Instagram exports the longest it can take.
+  const from = arg("max-seconds-from");
+  const max = from ? (await import(pathToFileURL(resolve(from)).href)).MAX_SOURCE_SECONDS : Number(arg("max-seconds") ?? REELS_MAX_SECONDS);
+  if (!(max > 0)) throw new Error(`no usable length limit (${from ?? "--max-seconds"})`);
   if (!file || !/^\d{8}$/.test(stamp ?? "")) throw new Error("--file=<mp4> and --stamp=YYYYMMDD required");
   const since = postStartUnix(stamp, arg("post-time"));
   const seconds = mp4DurationSeconds(readFileSync(file));
   if (checkDecision({ seconds, maxSeconds: max }).action === "too-long") {
-    console.log(`::error title=Instagram retry stopped::${file} is ${seconds.toFixed(1)} s, over the ${max} s Instagram takes — a retry fails every time, so it is not retried. Shorten the video (YouTube is unaffected).`);
-    process.exit(1);
+    stop(`${file} is ${seconds.toFixed(1)} s, over the ${max.toFixed(1)} s Instagram takes — a retry fails every time, so it is not retried. Shorten the video (YouTube is unaffected).`);
   }
   console.log(`Length OK: ${seconds.toFixed(1)} s (limit ${max} s)`);
 
@@ -213,11 +297,49 @@ async function check() {
     return;
   }
   if (unknown) {
-    console.log(`::error title=Instagram retry stopped::the account already has a post since ${arg("post-time")} JST on ${isoDate(stamp)} (${unknown.id}, ${unknown.timestamp}) with a different caption — posting could put the day out twice. A person checks the account.`);
-    process.exit(1);
+    stop(`the account already has a post since ${arg("post-time")} JST on ${isoDate(stamp)} (${unknown.id}, ${unknown.timestamp}) with a different caption — posting could put the day out twice. A person checks the account.`);
   }
   console.log(`Nothing on Instagram since ${arg("post-time")} JST on ${isoDate(stamp)} — posting.`);
   output({ posted: false });
+}
+
+/** Commit STATE_PATH on top of the live main (3 tries; a lost race drops only our commit). */
+function commitState(update, message) {
+  sh("git", ["config", "user.name", "github-actions[bot]"]);
+  sh("git", ["config", "user.email", "github-actions[bot]@users.noreply.github.com"]);
+  for (let i = 1; i <= 3; i++) {
+    sh("git", ["pull", "--rebase", "--quiet", "origin", "main"]);
+    const state = existsSync(STATE_PATH) ? JSON.parse(readFileSync(STATE_PATH, "utf-8")) : {};
+    const next = update(state);
+    mkdirSync(dirname(STATE_PATH), { recursive: true });
+    writeFileSync(STATE_PATH, JSON.stringify(next, null, 2) + "\n");
+    sh("git", ["add", STATE_PATH]);
+    sh("git", ["commit", "--quiet", "-m", `${message} [skip ci]`]);
+    try {
+      sh("git", ["push", "--quiet", "origin", "HEAD:main"]);
+      return next;
+    } catch {
+      sh("git", ["reset", "--hard", "--quiet", "HEAD~1"]);
+      execFileSync("sleep", [String(i * 5)]);
+    }
+  }
+  throw new Error(`could not push ${STATE_PATH}`);
+}
+
+function mark() {
+  const stamp = arg("stamp");
+  if (!/^\d{8}$/.test(stamp ?? "")) throw new Error("--stamp=YYYYMMDD required");
+  const log = arg("log");
+  if (!log) {
+    const next = commitState((s) => markState(s, stamp), `Instagram auto-retry ${stamp}: attempt`);
+    console.log(`Automatic attempt ${next[stamp].attempts} of ${MAX_AUTO_ATTEMPTS} for ${isoDate(stamp)}.`);
+    return;
+  }
+  const kind = failureKind(existsSync(log) ? readFileSync(log, "utf-8") : "");
+  const next = commitState((s) => markState(s, stamp, { failure: kind }), `Instagram auto-retry ${stamp}: ${kind}`);
+  console.log(`Recorded the failure (${kind}) for ${isoDate(stamp)}: ${JSON.stringify(next[stamp])}`);
+  const spent = budgetStop(next[stamp]);
+  if (spent) stop(`${isoDate(stamp)}: ${spent}`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
@@ -225,7 +347,8 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   try {
     if (cmd === "gate") gate();
     else if (cmd === "check") await check();
-    else throw new Error("usage: ig-auto-retry.mjs gate|check …");
+    else if (cmd === "mark") mark();
+    else throw new Error("usage: ig-auto-retry.mjs gate|check|mark …");
   } catch (err) {
     console.error(`::error title=Instagram retry stopped::${err.message}`);
     process.exit(1);

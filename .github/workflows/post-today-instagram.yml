@@ -11,9 +11,15 @@ name: Retry Instagram for Date
 # (10/20–10/27: 09:35–10:40 JST), so the slots sit after that. A slot posts only
 # when the day's record has YouTube and no Instagram, daily-video.yml finished
 # 45+ min ago (scripts/ig-auto-retry.mjs gate), the video fits a Reel and the
-# account does not show the day yet (… check). An earlier slot's failed upload
-# is a warning (the next slot tries again); the last slot always tries and its
-# failure turns the run red.
+# account does not show the day yet (… check). At most 3 automatic uploads per
+# day, and none after 2 ProcessingFailedErrors in a row (data/ig-auto-retry.json).
+# A failure an earlier slot can leave to the next is a note (the job has
+# continue-on-error); the last slot's failure is red, and so is anything no
+# later slot can fix (too long, another post on the account, a journal that is
+# not a proven pre-publication failure, the day's tries spent) — at once.
+#
+# Switches (repo Variables, scheduled runs only): IG_AUTO_RETRY=off stops all
+# automatic retries; IG_AUTO_RETRY_SKIP=20261026,20261023 leaves those days alone.
 #
 # By hand: gh workflow run post-today-instagram.yml -f date=YYYY-MM-DD -f platform=instagram
 
@@ -40,6 +46,7 @@ permissions:
   contents: write
   actions: read # the gate lists daily-video.yml runs (unlisted scopes are none → 403)
 
+# The same lock as daily-video.yml: a retry and a daily post never run at once.
 concurrency:
   group: sns-posting
   queue: max
@@ -49,6 +56,10 @@ jobs:
   post:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # An earlier slot's failure is a note — the next slot tries again. The last slot (and a hand-run) goes red.
+    continue-on-error: ${{ github.event_name == 'schedule' && github.event.schedule != '7 11 * * *' }}
+    outputs:
+      stop: ${{ steps.gate.outputs.stop }}${{ steps.check.outputs.stop }}${{ steps.journal.outputs.stop }}${{ steps.bundle.outputs.stop }}${{ steps.mark.outputs.stop }}
     steps:
       - name: Require main and explicit destination
         env:
@@ -78,6 +89,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
           INPUT_DATE: ${{ inputs.date }}
+          IG_AUTO_RETRY: ${{ vars.IG_AUTO_RETRY }}
+          IG_AUTO_RETRY_SKIP: ${{ vars.IG_AUTO_RETRY_SKIP }}
         run: node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 11 * * *" ${INPUT_DATE:+"--date=${INPUT_DATE//-/}"}
 
       - name: Download exact saved video and metadata
@@ -93,7 +106,6 @@ jobs:
       - name: Fits a Reel, and not on Instagram yet?
         id: check
         if: steps.gate.outputs.go == 'true'
-        continue-on-error: ${{ steps.gate.outputs.final != 'true' }}
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
@@ -111,39 +123,58 @@ jobs:
         run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --record-media-id="$MEDIA_ID"
 
       # The retry transport uses only Node built-ins; no rendering dependencies.
+      # Both checks read only main's journal and the downloaded bundle: a failure
+      # here is not something a later slot can fix (stop → red at once).
       - name: Validate calendar date and existing journal
+        id: journal
         if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
         run: |
           node --input-type=module <<'JS'
-          import { readFileSync } from 'node:fs';
+          import { appendFileSync, readFileSync } from 'node:fs';
           import { validateDate, loadState, assertRetryable } from './scripts/posting-state.mjs';
-          const date = validateDate(process.env.RETRY_DATE);
-          assertRetryable(loadState(process.cwd(), date), 'instagram',
-            JSON.parse(readFileSync('data/performance-history.json', 'utf8')));
+          try {
+            const date = validateDate(process.env.RETRY_DATE);
+            assertRetryable(loadState(process.cwd(), date), 'instagram',
+              JSON.parse(readFileSync('data/performance-history.json', 'utf8')));
+          } catch (error) {
+            appendFileSync(process.env.GITHUB_OUTPUT, `stop=journal: ${error.message} — a person checks the account (docs/instagram-retry.md)\n`);
+            throw error;
+          }
           JS
 
       - name: Check bundle before credentials are used
+        id: bundle
         if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
-        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --check
+        run: |
+          node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --check || {
+            echo "stop=the saved video/metadata does not match the ${RETRY_DATE} journal — not posting" >> "$GITHUB_OUTPUT"
+            exit 1
+          }
+
+      - name: Count this automatic attempt (before the upload — a crash still counts)
+        if: github.event_name == 'schedule' && steps.check.outputs.posted == 'false'
+        run: node scripts/ig-auto-retry.mjs mark --stamp="${{ steps.gate.outputs.stamp }}"
 
       - name: Retry only Instagram
         id: upload
         if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
-        continue-on-error: ${{ steps.gate.outputs.final != 'true' }}
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
-        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram
+        run: |
+          set -o pipefail
+          node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram 2>&1 | tee output/ig-upload.log
 
-      - name: Not yet — the next slot tries again
-        if: steps.check.outcome == 'failure' || steps.upload.outcome == 'failure'
-        run: echo "::warning title=Instagram retry::not on Instagram yet (see the failed step above); a later retry slot tries the same video (the last slot turns red if it still fails)"
+      - name: Remember why it failed (2 ProcessingFailedErrors in a row stop the day)
+        id: mark
+        if: failure() && steps.upload.outcome == 'failure' && github.event_name == 'schedule'
+        run: node scripts/ig-auto-retry.mjs mark --stamp="${{ steps.gate.outputs.stamp }}" --log=output/ig-upload.log
 
       - name: Preserve posting evidence even on failure
         if: always() && steps.gate.outputs.go == 'true'
@@ -153,5 +184,24 @@ jobs:
           path: |
             data/posting/*.json
             data/performance-history.json
+            data/ig-auto-retry.json
             output/trending-*-metadata.json
+            output/ig-upload.log
           retention-days: 30
+
+      - name: Not on Instagram yet — a later slot tries again
+        if: failure() && github.event_name == 'schedule' && github.event.schedule != '7 11 * * *'
+        run: echo "::warning title=Instagram retry::not on Instagram yet (see the failed step above); a later slot tries the same video unless the day's tries are spent"
+
+  # Red at once, on any slot: no later slot can fix these (too long, another
+  # post on the account, the journal, the day's automatic tries spent).
+  needs-a-person:
+    needs: post
+    if: always() && needs.post.outputs.stop != ''
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          STOP: ${{ needs.post.outputs.stop }}
+        run: |
+          echo "::error title=Instagram retry stopped::$STOP"
+          exit 1
