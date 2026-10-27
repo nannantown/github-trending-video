@@ -10,6 +10,7 @@
  */
 
 import { synthesizeOnce } from "./edge-tts.mjs";
+import { forSpeech } from "./tts-reading.mjs";
 import { readFileSync, writeFileSync, mkdirSync, statSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
@@ -92,13 +93,15 @@ async function synthesize(text, outputPath) {
   const errors = [];
   for (let attempt = 1; attempt <= TTS_ATTEMPTS; attempt++) {
     try {
-      const { audio, words } = await synthesizeOnce(text, {
+      // the voice gets kana for the words in data/tts-readings.json; the subtitle words keep the original spelling
+      const speech = forSpeech(text);
+      const { audio, words } = await synthesizeOnce(speech.spoken, {
         voice: voiceName,
         rate: "+30%",
         timeoutMs: TTS_TIMEOUT_MS,
       });
       writeFileSync(outputPath, audio);
-      return { bytes: audio.length, wordBoundaries: words };
+      return { bytes: audio.length, wordBoundaries: speech.restoreWords(words) };
     } catch (err) {
       errors.push(err.message);
       console.error(`\n  TTS attempt ${attempt}/${TTS_ATTEMPTS} failed: ${err.message}`);
