@@ -41,12 +41,65 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Install Japanese fonts + ffmpeg
+      # Fonts + ffmpeg still come from apt (same packages, same versions, so the
+      # video looks the same), but the downloaded .deb files (~300 MB) are kept in
+      # actions/cache. On 2026-10-23 and 10-27 the Ubuntu mirror served them at
+      # ~60 kB/s and this install ran into the job timeout, which GitHub reports
+      # as "cancelled" (not red), so the day's post vanished silently. Now a normal
+      # day downloads nothing, and a slow mirror fails this step red within ~10
+      # minutes instead of eating the whole job. Notes:
+      # sns-hub docs/operations/2026-10-27-apt-timeout.md
+      - name: Resolve apt packages (fonts + ffmpeg)
+        id: apt
+        timeout-minutes: 4
         run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra ffmpeg
+          timeout 180 sudo apt-get update
+          # Cache key = hash of the exact .deb files apt would fetch: a package
+          # update gives a new key (the old cache is restored, only the new .deb
+          # is downloaded, then the new set is saved).
+          uris=$(sudo apt-get install --print-uris -qq fonts-noto-cjk fonts-noto-cjk-extra ffmpeg)
+          prefix="apt-debs-${ImageOS:-unknown}-"
+          echo "prefix=$prefix" >> "$GITHUB_OUTPUT"
+          echo "key=${prefix}$(printf '%s' "$uris" | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore apt .deb cache
+        id: apt-cache
+        uses: actions/cache/restore@v5
+        with:
+          path: ~/apt-debs/*.deb
+          key: ${{ steps.apt.outputs.key }}
+          restore-keys: ${{ steps.apt.outputs.prefix }}
+
+      - name: Install Japanese fonts + ffmpeg
+        id: install
+        timeout-minutes: 10
+        run: |
+          mkdir -p ~/apt-debs/partial
+          apt_opts=(-o Dir::Cache::Archives="$HOME/apt-debs" -o APT::Keep-Downloaded-Packages=true -o Acquire::Retries=3)
+          for attempt in 1 2; do
+            if timeout 240 sudo apt-get install -y "${apt_opts[@]}" fonts-noto-cjk fonts-noto-cjk-extra ffmpeg; then
+              break
+            fi
+            if [ "$attempt" = 2 ]; then
+              echo "::error::apt could not install fonts + ffmpeg in time (slow Ubuntu mirror?). Failing red instead of running into the job timeout."
+              exit 1
+            fi
+            echo "::warning::apt install attempt $attempt timed out or failed; retrying (finished .deb files are kept)"
+            sudo dpkg --configure -a || true
+          done
+          # Drop superseded versions so the cache does not grow forever.
+          sudo apt-get "${apt_opts[@]}" autoclean
           fc-cache -fv
           ffmpeg -version | head -1
+
+      # Saved even when the install failed (under a one-off "partial" key), so
+      # the .deb files that did arrive are not downloaded again next time.
+      - name: Save apt .deb cache
+        if: always() && steps.apt.outcome == 'success' && steps.apt-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v5
+        with:
+          path: ~/apt-debs/*.deb
+          key: ${{ steps.install.outcome == 'success' && steps.apt.outputs.key || format('{0}partial-{1}-{2}', steps.apt.outputs.prefix, github.run_id, github.run_attempt) }}
 
       - name: Install dependencies
         run: npm ci
