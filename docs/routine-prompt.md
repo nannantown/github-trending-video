@@ -231,6 +231,19 @@ README / ブログ / Release Notes / Hacker News スレッドを英語で読み�
 - 選んだ angle method を **すべての 5 プロジェクトで一貫させる** (例: business-angle なら 5 本とも事業視点)
 - ただし week に最低 1 日は柱②か③を必ず混ぜる
 
+### 6.5. 読みの確認 (必須・新しい難読語は読みを決めてから)
+
+声(Edge TTS)は漢字・英字の読みを自分で推し量り、ときどき間違える(2026-10-27 の実測: 仮名(かめい)→「かな」など)。字幕・画面は原稿の表記のまま、**声だけ**を `data/tts-readings.json`(`"表記": "よみ"`)で読み替える仕組みがある(`scripts/tts-reading.mjs`。音声を作る直前に効き、字幕の単語は元の表記に戻る)。
+
+```bash
+node scripts/tts-reading.mjs --data=data/enriched-trending.json
+```
+
+- `*` の行が読み替わる行(`->` が声に渡る文)。最後に「声が自分で読みを決める語」(英字・2 字以上の漢字の語)が出る
+- その一覧のうち、**リポ名・製品名・会社名などの英字の固有名詞と略語(声が英語読みで崩しそうなもの)、専門用語、読みが 2 通りある語、数と単位** は、読みを決めて `data/tts-readings.json` に足す(読みはひらがな・カタカナだけ。迷ったら足す — 足しても字幕・画面・キャプションは変わらない。英字の表記ルール「英単語・固有名詞は原文表記」はそのまま)。ふだんの言葉は足さなくてよい
+- 辞書の読みが今日の文脈では違うときは、その語を消さずに、もっと長い表記で足す(長い方が先に当たる)
+- 読みの決まっていない語を残したまま commit しない。足した語はレポートに 1 行
+
 ### 7. optimization-hints.json の更新(任意)
 
 `data/performance-history.json` から読み取った傾向を `data/optimization-hints.json` に反映。IG と YT の数字は別々に書き、混ぜた平均を作らない。YT が配信死亡モードの間は、YT views を method の良し悪しの根拠として書かない。
@@ -245,7 +258,7 @@ cd $(git rev-parse --show-toplevel)
 BRANCH="routine-content-$TODAY"
 git checkout -b "$BRANCH" 2>/dev/null || git checkout "$BRANCH"
 mkdir -p docs/pdca
-git add data/enriched-trending.json data/optimization-hints.json docs/pdca/$TODAY.md
+git add data/enriched-trending.json data/optimization-hints.json data/tts-readings.json docs/pdca/$TODAY.md
 git commit -m "Enrich trending data for $TODAY - method:[angle] [skip ci]"
 git push -u origin "$BRANCH"
 
