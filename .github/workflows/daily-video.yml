@@ -46,14 +46,14 @@ jobs:
       # actions/cache. On 2026-10-23 and 10-27 the Ubuntu mirror served them at
       # ~60 kB/s and this install ran into the job timeout, which GitHub reports
       # as "cancelled" (not red), so the day's post vanished silently. Now a normal
-      # day downloads nothing, and a slow mirror fails this step red within ~10
-      # minutes instead of eating the whole job. Notes:
+      # day downloads nothing, and a slow mirror fails the install step red within
+      # ~5 minutes instead of eating the whole job. Notes:
       # sns-hub docs/operations/2026-10-27-apt-timeout.md
       - name: Resolve apt packages (fonts + ffmpeg)
         id: apt
-        timeout-minutes: 4
+        timeout-minutes: 2
         run: |
-          timeout 180 sudo apt-get update
+          timeout 60 sudo apt-get update
           # Cache key = hash of the exact .deb files apt would fetch: a package
           # update gives a new key (the old cache is restored, only the new .deb
           # is downloaded, then the new set is saved).
@@ -62,8 +62,11 @@ jobs:
           echo "prefix=$prefix" >> "$GITHUB_OUTPUT"
           echo "key=${prefix}$(printf '%s' "$uris" | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
 
+      # A slow or failed restore must not eat the job: carry on and download.
       - name: Restore apt .deb cache
         id: apt-cache
+        timeout-minutes: 3
+        continue-on-error: true
         uses: actions/cache/restore@v5
         with:
           path: ~/apt-debs/*.deb
@@ -72,21 +75,25 @@ jobs:
 
       - name: Install Japanese fonts + ffmpeg
         id: install
-        timeout-minutes: 10
+        timeout-minutes: 6
         run: |
           mkdir -p ~/apt-debs/partial
-          apt_opts=(-o Dir::Cache::Archives="$HOME/apt-debs" -o APT::Keep-Downloaded-Packages=true -o Acquire::Retries=3)
+          apt_opts=(-o Dir::Cache::Archives="$HOME/apt-debs" -o Acquire::Retries=3)
+          pkgs=(fonts-noto-cjk fonts-noto-cjk-extra ffmpeg)
+          # Only the download is time-limited and retried (killing it leaves no
+          # half-installed packages; finished .deb files are kept for attempt 2).
           for attempt in 1 2; do
-            if timeout 240 sudo apt-get install -y "${apt_opts[@]}" fonts-noto-cjk fonts-noto-cjk-extra ffmpeg; then
+            if timeout 120 sudo apt-get install --download-only -y "${apt_opts[@]}" "${pkgs[@]}"; then
               break
             fi
             if [ "$attempt" = 2 ]; then
-              echo "::error::apt could not install fonts + ffmpeg in time (slow Ubuntu mirror?). Failing red instead of running into the job timeout."
+              echo "::error::apt could not download fonts + ffmpeg in time (slow Ubuntu mirror?). Failing red instead of running into the job timeout."
               exit 1
             fi
-            echo "::warning::apt install attempt $attempt timed out or failed; retrying (finished .deb files are kept)"
-            sudo dpkg --configure -a || true
+            echo "::warning::apt download attempt $attempt timed out or failed; retrying (finished .deb files are kept)"
           done
+          # Install once from the cache only, never touching the network.
+          sudo apt-get install -y --no-download "${apt_opts[@]}" "${pkgs[@]}"
           # Drop superseded versions so the cache does not grow forever.
           sudo apt-get "${apt_opts[@]}" autoclean
           fc-cache -fv
@@ -96,6 +103,8 @@ jobs:
       # the .deb files that did arrive are not downloaded again next time.
       - name: Save apt .deb cache
         if: always() && steps.apt.outcome == 'success' && steps.apt-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 2
+        continue-on-error: true
         uses: actions/cache/save@v5
         with:
           path: ~/apt-debs/*.deb
