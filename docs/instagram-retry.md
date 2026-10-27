@@ -9,7 +9,9 @@
 1. main の `data/performance-history.json` に YouTube があり Instagram が無いときだけ進みます（`scripts/ig-auto-retry.mjs gate`）。日次の実行中・終了から 45 分以内は見送ります（最後の回は待たない）。
 2. 動画が 59.5 秒を超えていたら投稿しません。Instagram 本体の直近の投稿に同じキャプションがあれば投稿せず、`--record-media-id` で台帳を `succeeded` にします（公開の返事が途切れて台帳が `unknown` の日もここで直ります）。その日 08:00 JST 以降に違うキャプションの投稿があれば投稿しません（`scripts/ig-auto-retry.mjs check`）。
 3. そのあと下の手動と同じ台帳の確認（`failed` かつ `safeToRetry: true` だけ）と bundle の検証を通ってから投稿します。Instagram に無いのに `unknown` / `in_progress` の日は赤で止まり、投稿しません。
-4. 最初の 3 回の失敗（2 で止めたときも）は警告だけで緑（次の回がもう一度）。4 回目も失敗したら赤です。
+4. 自動で上げるのは 1 つの回に合計 3 回まで（日をまたいでも合算、`data/ig-auto-retry.json`）。自動の試行で `ProcessingFailedError` が 2 回続いたら、その回はもう自動では上げません。
+5. 次の回でも直らないもの（上限・同じ失敗の連続・長さ・別の投稿・上の 3 の台帳の状態）はどの回でもその場で赤。それ以外の失敗は、最初の 3 回なら注記だけで緑（次の回がもう一度）、4 回目なら赤です。
+6. 止めるスイッチ（リポの Variables、自動の回だけ）: `IG_AUTO_RETRY=off` で全部、`IG_AUTO_RETRY_SKIP=YYYYMMDD,…` でその回だけ。日次の `daily-video.yml` と同じ `sns-posting` で順番待ちするので、同時には投稿しません。
 
 ## 手動再試行
 
