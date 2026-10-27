@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "discovery": {
-    "method": "comparison",
-    "description": "5本すべてを「類似OSS/先行プロダクトと比べたときに何が別物か」の軸で切り、CTO/技術選定担当者の判断材料を揃える",
+    "method": "business-angle",
+    "description": "5本すべてを受託・スタートアップの「外注費を削る/納品品質を標準化する」事業視点で切り、CTO・技術選定担当者がすぐにコスト計算できる判断材料を揃える",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/elayadesign/ai-design-skills",
       "https://github.com/Nutlope/hallmark",
-      "https://github.com/TauricResearch/TradingAgents",
-      "https://github.com/JetBrains/thinkrail",
-      "https://github.com/makecindy/cindy",
-      "https://github.com/affaan-m/ECC"
+      "https://github.com/nightly-labs/openbot",
+      "https://github.com/obra/superpowers",
+      "https://github.com/pbakaus/impeccable"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "elayadesign/ai-design-skills",
+      "name": "ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "language": null,
+      "stars": 9197,
+      "todayStars": 1395,
+      "description": "LP外注を削る共通設計skill",
+      "detail": "Claude CodeやCursorが読む設計skillをforkし、タイポグラフィや余白・ブランドカラーを1箇所書き換えるだけで、全案件のLP制作に同じデザイン基準を自動適用できます。受託の外注費圧縮に効きます。",
+      "narration": "LP制作の外注デザイン費を削るskillです。brand値を書き換えれば受託案件を即座に標準化できます。"
+    },
+    {
+      "rank": 2,
       "fullName": "Nutlope/hallmark",
       "name": "hallmark",
       "url": "https://github.com/Nutlope/hallmark",
       "language": "CSS",
-      "stars": 36119,
-      "todayStars": 2235,
-      "description": "AI感を自動で削る設計skill",
-      "detail": "48マテリアルテーマから1つを選び、生成直後にブラウザでレンダリングしてAI感を自動検出するskillです。Claude CodeやCursor内で動き、LPデザイン外注費の圧縮に使えます。",
-      "narration": "v0と別路線のCLI設計skillです。Claude Code内で動きbrowser検査でAI感を自動除去します。"
-    },
-    {
-      "rank": 2,
-      "fullName": "TauricResearch/TradingAgents",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "language": "Python",
-      "stars": 115984,
-      "todayStars": 1376,
-      "description": "金融LLMの統合マルチエージェント",
-      "detail": "分析官・強気研究者・弱気研究者・トレーダー・リスク管理の5役がLLM上で議論し、ポイントインタイムのSEC EDGARデータでバックテストまで走るLangGraph基盤です。CrewAIの汎用性より金融ドメインに特化しています。",
-      "narration": "汎用のCrewAIと違う金融特化マルチエージェント基盤です。5役が議論しバックテストで戦略を検証できます。"
+      "stars": 38880,
+      "todayStars": 2859,
+      "description": "MVPのLP外注費を圧縮するskill",
+      "detail": "48マテリアルテーマから1つを選び、生成直後にブラウザレンダリングでAI感を自動検出するskillです。MVPフェーズのLPデザイン外注を省けるためスタートアップのランウェイを数週延ばせます。",
+      "narration": "スタートアップのLP外注費を削るskillです。AI感を自動検査しMVPのランウェイを数週延ばせます。"
     },
     {
       "rank": 3,
-      "fullName": "JetBrains/thinkrail",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
+      "fullName": "nightly-labs/openbot",
+      "name": "openbot",
+      "url": "https://github.com/nightly-labs/openbot",
       "language": "TypeScript",
-      "stars": 2821,
-      "todayStars": 1156,
-      "description": "JetBrains版のagentic IDE",
-      "detail": "git worktreeで複数エージェントを並列走行させ、SPEC.md知識グラフで仕様を蓄積するJetBrains製IDEです。Cursorの単発Composerと違いワークスペースごとに独立したagentセッションを並行運用できます。",
-      "narration": "Cursor代替を狙うJetBrains製IDEです。git worktreeで並列エージェントを捌けます。"
+      "stars": 2358,
+      "todayStars": 794,
+      "description": "顧客ごとに隔離するagent統合盤",
+      "detail": "Codex・Claude Code・Grokなど複数のAI CLIを1画面にまとめ、永続workspaceとタスクキューを備えたデスクトップappです。受託案件を顧客ごとに隔離運用でき、商用は別途ライセンスが必要です。",
+      "narration": "受託案件を顧客ごとに隔離運用できるagent統合盤です。商用には別途ライセンスが必要です。"
     },
     {
       "rank": 4,
-      "fullName": "makecindy/cindy",
-      "name": "cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "language": "TypeScript",
-      "stars": 6364,
-      "todayStars": 1268,
-      "description": "Claude×Codexを束ねる統合層",
-      "detail": "Claude CodeとCodexをハーネスとして束ね、同じタスクの中でもmodelやharnessを切替えつつワークスペース・メモリ・skillsを継続するローカル実行型オーケストレーション層です。",
-      "narration": "Claude CodeとCodexを束ねる統合層です。タスク中にharnessとモデルを自動で切替できます。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 306372,
+      "todayStars": 608,
+      "description": "AIにTDDと設計規律を強制",
+      "detail": "ブレスト・計画・subagent駆動・TDD・コードレビューの一連のworkflowをskillとして束ね、agentが勝手に実装し始めるのを防ぐ方法論です。Prime Radiantが有償サポートも提供しています。",
+      "narration": "AIエージェントにTDDと設計規律を強制するskillです。受託の納品品質を標準化できます。"
     },
     {
       "rank": 5,
-      "fullName": "affaan-m/ECC",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "language": "JavaScript",
-      "stars": 289769,
-      "todayStars": 987,
-      "description": "Claude Code全部入りharness",
-      "detail": "Anthropic公式plugin棚と違い71agent・311skill・97command・AgentShieldセキュリティまで1発導入する全部入りパックです。Claude Codeを本格運用する社内開発基盤を即構築できます。",
-      "narration": "公式plugin棚と違う全部入りharnessパックです。71agentと311skillをnpx一発で導入できます。"
+      "fullName": "pbakaus/impeccable",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "stars": 90425,
+      "todayStars": 1458,
+      "description": "AI UI生成の品質をCIで審査",
+      "detail": "62ルールのAPIレス検出器がCIで動き、Inter一辺倒や紫グラデなどのAIスロップを事前にブロックします。受託フロントエンド納品のデザイン品質基準をコードレベルで担保できます。",
+      "narration": "受託フロントエンドの納品品質をCIで担保するskillです。AI生成の典型UIを事前に弾けます。"
     }
   ]
 }
