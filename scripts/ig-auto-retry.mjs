@@ -1,0 +1,214 @@
+/**
+ * Automatic Instagram-only retry (owner order 2026-10-27): when the daily post
+ * reached YouTube but Instagram failed, post the SAME archived video again a few
+ * hours later — Instagram only, never twice, never re-rendered.
+ *
+ * The same file lives in github-trending-video, coffee-daily-video,
+ * figma-navi-video and kawagutsu-zukan-video — change all four together.
+ *
+ *   node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 5 * * *" [--date=YYYYMMDD]
+ *     → $GITHUB_OUTPUT go=true|false, final=true|false, stamp=YYYYMMDD, date=YYYY-MM-DD
+ *       go=true only when the day's live record (origin/main) has YouTube and no
+ *       Instagram, daily-video.yml is not running, and it finished at least
+ *       MIN_GAP_MINUTES ago (an earlier slot right after it leaves the try to the
+ *       next slot; the last slot always tries). Unreadable record → exit 1.
+ *       final=false only on the earlier scheduled slots: their failed upload is a
+ *       warning (the next slot tries again); the last slot (and a hand-run) goes red.
+ *       --force=true (hand-runs only) skips the record, not the account check.
+ *       EVENT_SCHEDULE = ${{ github.event.schedule }} (the cron line that fired).
+ *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD [--max-seconds=59.5]
+ *     → $GITHUB_OUTPUT posted=true|false
+ *       exit 1 (red, nothing uploaded) when the video is longer than Instagram
+ *       takes (it fails every time — a person decides), or when the account has a
+ *       different post since the day began (cannot tell which is the day's).
+ *       posted=true + output/instagram-result.json when the day's caption is
+ *       already on Instagram (a publish whose reply was lost) — record it, don't post.
+ */
+import { execFileSync } from "node:child_process";
+import { appendFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { pathToFileURL } from "node:url";
+
+const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
+const JST_MS = 9 * 3600_000;
+
+/** Instagram refuses Reels over 60 s in practice (coffee 2026-09-16, kawagutsu 2026-10-21). */
+export const REELS_MAX_SECONDS = 59.5;
+
+/** Leave Instagram this long after the daily run's own 3 tries before trying again. */
+export const MIN_GAP_MINUTES = 45;
+
+/**
+ * The day whose post a run retries: the latest daily post time (JST) at or before
+ * `now` — a 02:00 JST run still belongs to yesterday's 20:30 post.
+ */
+export function episodeStamp(now, postTime) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(postTime ?? "");
+  if (!m) throw new Error(`--post-time must be HH:MM (JST), got ${JSON.stringify(postTime)}`);
+  const shifted = now.getTime() + JST_MS - (Number(m[1]) * 60 + Number(m[2])) * 60_000;
+  return new Date(shifted).toISOString().slice(0, 10).replaceAll("-", "");
+}
+
+/** Does a failure turn this run red? Every run but the earlier scheduled slots. */
+export function isFinalAttempt(eventName, schedule, lastSlot) {
+  if (eventName !== "schedule") return true;
+  if (!lastSlot) throw new Error("--last-slot=<cron> required (the workflow's last schedule line)");
+  return schedule === lastSlot;
+}
+
+export const isoDate = (stamp) => `${stamp.slice(0, 4)}-${stamp.slice(4, 6)}-${stamp.slice(6, 8)}`;
+
+/** Unix seconds of 00:00 JST on the stamp's day. */
+export const dayStartUnix = (stamp) => Math.floor((Date.parse(`${isoDate(stamp)}T00:00:00Z`) - JST_MS) / 1000);
+
+/**
+ * `{ go, reason }` from the day's record. Two shapes are read:
+ * performance-history.json videos[] ({ videoId, instagram: { mediaId } }) and
+ * kawagutsu's aired.json aired[] ({ youtube, instagram: "<id>" }).
+ * `auto` (a scheduled run) also needs YouTube on record — the order is an
+ * Instagram-ONLY failure; a hand-run is left to the repo's own manual guards.
+ */
+export function recordDecision(entries, stamp, { dailyRunning = false, auto = true, final = true, minutesSinceDaily = Infinity, force = false } = {}) {
+  const date = isoDate(stamp);
+  if (dailyRunning) return { go: false, reason: "daily-video.yml is still running — it may be posting right now. The next retry slot looks again." };
+  // A hand-run's force=true skips the record; `check` still refuses a caption already on Instagram.
+  if (force && !auto) return { go: true, reason: `${date}: force — the record is not consulted, the account check still runs.` };
+  const entry = (entries || []).find((e) => e && e.date === date && !e.skip);
+  if (!entry && !auto) return { go: true, reason: `${date} has no post on record — hand-run, posting.` };
+  if (!entry) return { go: false, reason: `${date} has no post on record (daily run not done, a rest day, or YouTube failed too) — nothing for an Instagram-only retry.` };
+  const youtube = entry.videoId ?? entry.youtube;
+  const instagram = typeof entry.instagram === "string" ? entry.instagram : entry.instagram?.mediaId;
+  if (instagram) return { go: false, reason: `${date} is already on Instagram (${instagram}) — not posting twice.` };
+  if (!youtube && auto) return { go: false, reason: `${date} has no YouTube post on record — not an Instagram-only failure, left to a person.` };
+  if (auto && !final && minutesSinceDaily < MIN_GAP_MINUTES) {
+    return { go: false, reason: `${date}: daily-video.yml finished ${Math.round(minutesSinceDaily)} min ago — giving Instagram time; the next slot tries.` };
+  }
+  return { go: true, reason: `${date}: YouTube ${youtube ?? "(none)"} on record, Instagram not — retrying Instagram only.` };
+}
+
+/** Duration (s) from the mp4 movie header (moov/mvhd) — no ffprobe needed. */
+export function mp4DurationSeconds(buf) {
+  const find = (start, end, type) => {
+    for (let p = start; p + 8 <= end; ) {
+      let size = buf.readUInt32BE(p);
+      let header = 8;
+      if (size === 1) { size = Number(buf.readBigUInt64BE(p + 8)); header = 16; }
+      else if (size === 0) size = end - p;
+      if (size < header) break;
+      if (buf.toString("latin1", p + 4, p + 8) === type) return { start: p + header, end: Math.min(p + size, end) };
+      p += size;
+    }
+    return null;
+  };
+  const moov = find(0, buf.length, "moov");
+  const mvhd = moov && find(moov.start, moov.end, "mvhd");
+  if (!mvhd) throw new Error("not an mp4 (no moov/mvhd box)");
+  const v1 = buf[mvhd.start] === 1;
+  const timescale = buf.readUInt32BE(mvhd.start + (v1 ? 20 : 12));
+  const duration = v1 ? Number(buf.readBigUInt64BE(mvhd.start + 24)) : buf.readUInt32BE(mvhd.start + 16);
+  if (!timescale) throw new Error("mp4 header has timescale 0");
+  return duration / timescale;
+}
+
+/** Same Reel? Instagram keeps the caption as sent; whitespace is compared loosely. */
+export const sameCaption = (a, b) => {
+  const n = (s) => String(s ?? "").replace(/\s+/gu, " ").trim();
+  return n(a) !== "" && n(a) === n(b);
+};
+
+/**
+ * What the account already shows since the day began: `{ posted: media }` when
+ * the day's caption is there, `{ unknown: media }` when something else is (a
+ * person must look — posting could double the day), `{}` when nothing is.
+ */
+export function instagramDecision(media, caption) {
+  const same = (media || []).find((m) => sameCaption(m.caption, caption));
+  if (same) return { posted: same };
+  if ((media || []).length) return { unknown: media[0] };
+  return {};
+}
+
+const arg = (name) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=").slice(1).join("=");
+const output = (pairs) => {
+  const text = Object.entries(pairs).map(([k, v]) => `${k}=${v}`).join("\n") + "\n";
+  if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, text);
+  process.stdout.write(text);
+};
+const sh = (cmd, args) => execFileSync(cmd, args, { encoding: "utf-8", stdio: ["ignore", "pipe", "inherit"] });
+
+async function graphGet(path, params) {
+  const url = new URL(`${GRAPH_API_BASE}${path}`);
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, String(v));
+  const data = await (await fetch(url)).json();
+  if (data.error) throw new Error(`Graph API error: ${data.error.message} (code: ${data.error.code})`);
+  return data;
+}
+
+function gate() {
+  const records = arg("records");
+  if (!records) throw new Error("--records=<path> required");
+  const stamp = arg("date") || episodeStamp(new Date(), arg("post-time"));
+  if (!/^\d{8}$/.test(stamp)) throw new Error(`--date must be YYYYMMDD, got "${stamp}"`);
+  // The live main, not this checkout: the daily run may have pushed its record after we started.
+  sh("git", ["fetch", "--quiet", "origin", "main"]);
+  const data = JSON.parse(sh("git", ["show", `origin/main:${records}`]));
+  const runs = JSON.parse(sh("gh", ["run", "list", "--workflow", "daily-video.yml", "--limit", "10", "--json", "status,updatedAt"]));
+  const dailyRunning = runs.some((r) => r.status !== "completed");
+  const lastDone = runs.find((r) => r.status === "completed");
+  const minutesSinceDaily = lastDone ? (Date.now() - Date.parse(lastDone.updatedAt)) / 60_000 : Infinity;
+  const final = isFinalAttempt(process.env.GITHUB_EVENT_NAME, process.env.EVENT_SCHEDULE, arg("last-slot"));
+  const auto = process.env.GITHUB_EVENT_NAME === "schedule";
+  const { go, reason } = recordDecision(data.videos ?? data.aired, stamp, { dailyRunning, auto, final, minutesSinceDaily, force: arg("force") === "true" });
+  console.log(reason);
+  if (go) console.log(final ? "Last attempt: a failure turns this run red." : "Earlier slot: a failure is a warning, the next slot tries again.");
+  output({ go, final, stamp, date: isoDate(stamp) });
+}
+
+async function check() {
+  const file = arg("file");
+  const stamp = arg("stamp");
+  const max = Number(arg("max-seconds") ?? REELS_MAX_SECONDS);
+  if (!file || !/^\d{8}$/.test(stamp ?? "")) throw new Error("--file=<mp4> and --stamp=YYYYMMDD required");
+  const seconds = mp4DurationSeconds(readFileSync(file));
+  if (seconds > max) {
+    console.log(`::error title=Instagram retry stopped::${file} is ${seconds.toFixed(1)} s, over the ${max} s Instagram takes — a retry fails every time, so it is not retried. Shorten the video (YouTube is unaffected).`);
+    process.exit(1);
+  }
+  console.log(`Length OK: ${seconds.toFixed(1)} s (limit ${max} s)`);
+
+  const json = JSON.parse(readFileSync(arg("captions"), "utf-8"));
+  const caption = json.instagram ?? json.captions?.instagram;
+  if (typeof caption !== "string" || !caption.trim()) throw new Error(`${arg("captions")} has no Instagram caption`);
+  const { INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID, FACEBOOK_PAGE_ID } = process.env;
+  if (!INSTAGRAM_ACCESS_TOKEN || !INSTAGRAM_USER_ID || !FACEBOOK_PAGE_ID) throw new Error("Instagram credentials missing — cannot check the account, not posting");
+  const { access_token: pageToken } = await graphGet(`/${FACEBOOK_PAGE_ID}`, { fields: "access_token", access_token: INSTAGRAM_ACCESS_TOKEN });
+  if (!pageToken) throw new Error(`Could not derive the Page token for ${FACEBOOK_PAGE_ID}`);
+  const recent = await graphGet(`/${INSTAGRAM_USER_ID}/media`, {
+    fields: "id,caption,timestamp", since: dayStartUnix(stamp), limit: 25, access_token: pageToken,
+  });
+  const { posted, unknown } = instagramDecision(recent.data, caption);
+  if (posted) {
+    console.log(`::notice title=Already on Instagram::${isoDate(stamp)} is on Instagram (${posted.id}, ${posted.timestamp}) with this caption — recording it, not posting twice.`);
+    mkdirSync("output", { recursive: true });
+    writeFileSync("output/instagram-result.json", JSON.stringify({ mediaId: posted.id, publishedAt: posted.timestamp }, null, 2));
+    output({ posted: true, mediaId: posted.id });
+    return;
+  }
+  if (unknown) {
+    console.log(`::error title=Instagram retry stopped::the account already has a post since ${isoDate(stamp)} 00:00 JST (${unknown.id}, ${unknown.timestamp}) with a different caption — posting could put the day out twice. A person checks the account.`);
+    process.exit(1);
+  }
+  console.log(`Nothing on Instagram since ${isoDate(stamp)} 00:00 JST — posting.`);
+  output({ posted: false });
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const cmd = process.argv[2];
+  try {
+    if (cmd === "gate") gate();
+    else if (cmd === "check") await check();
+    else throw new Error("usage: ig-auto-retry.mjs gate|check …");
+  } catch (err) {
+    console.error(`::error title=Instagram retry stopped::${err.message}`);
+    process.exit(1);
+  }
+}

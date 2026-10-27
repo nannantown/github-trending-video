@@ -1,6 +1,28 @@
 name: Retry Instagram for Date
 
+# Re-post a day's Reel to Instagram only, from the exact video + metadata the
+# daily run archived in Release v<YYYYMMDD> and pinned in its posting journal
+# (data/posting/<date>.json). Nothing is re-rendered or regenerated, YouTube is
+# never touched, and only a proven pre-publication failure is retried
+# (scripts/posting-state.mjs assertRetryable).
+#
+# Automatic (owner order 2026-10-27): four slots look again the same day —
+# 12:07 / 14:07 / 17:07 / 20:07 JST. GitHub starts the 08:00 run late
+# (10/20–10/27: 09:35–10:40 JST), so the slots sit after that. A slot posts only
+# when the day's record has YouTube and no Instagram, daily-video.yml finished
+# 45+ min ago (scripts/ig-auto-retry.mjs gate), the video fits a Reel and the
+# account does not show the day yet (… check). An earlier slot's failed upload
+# is a warning (the next slot tries again); the last slot always tries and its
+# failure turns the run red.
+#
+# By hand: gh workflow run post-today-instagram.yml -f date=YYYY-MM-DD -f platform=instagram
+
 on:
+  schedule:
+    - cron: "7 3 * * *" # 12:07 JST
+    - cron: "7 5 * * *" # 14:07 JST
+    - cron: "7 8 * * *" # 17:07 JST
+    - cron: "7 11 * * *" # 20:07 JST — the last slot: a failure here is red
   workflow_dispatch:
     inputs:
       date:
@@ -16,6 +38,7 @@ on:
 
 permissions:
   contents: write
+  actions: read # the gate lists daily-video.yml runs (unlisted scopes are none → 403)
 
 concurrency:
   group: sns-posting
@@ -31,8 +54,10 @@ jobs:
         env:
           RETRY_DATE: ${{ inputs.date }}
           RETRY_PLATFORM: ${{ inputs.platform }}
+          EVENT: ${{ github.event_name }}
         run: |
           test "$GITHUB_REF" = "refs/heads/main"
+          if [ "$EVENT" = schedule ]; then exit 0; fi
           test "$RETRY_PLATFORM" = "instagram"
           [[ "$RETRY_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]
 
@@ -47,47 +72,78 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Is this an Instagram-only failure? (record has YouTube, no Instagram)
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_DATE: ${{ inputs.date }}
+        run: node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 11 * * *" ${INPUT_DATE:+"--date=${INPUT_DATE//-/}"}
+
       # The retry transport uses only Node built-ins; no rendering dependencies.
       - name: Validate calendar date and existing journal
+        if: steps.gate.outputs.go == 'true'
         env:
-          RETRY_DATE: ${{ inputs.date }}
-          RETRY_PLATFORM: ${{ inputs.platform }}
+          RETRY_DATE: ${{ steps.gate.outputs.date }}
         run: |
           node --input-type=module <<'JS'
           import { readFileSync } from 'node:fs';
           import { validateDate, loadState, assertRetryable } from './scripts/posting-state.mjs';
           const date = validateDate(process.env.RETRY_DATE);
-          assertRetryable(loadState(process.cwd(), date), process.env.RETRY_PLATFORM,
+          assertRetryable(loadState(process.cwd(), date), 'instagram',
             JSON.parse(readFileSync('data/performance-history.json', 'utf8')));
           JS
 
       - name: Download exact saved video and metadata
+        if: steps.gate.outputs.go == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RETRY_DATE: ${{ inputs.date }}
+          compact: ${{ steps.gate.outputs.stamp }}
         run: |
           mkdir -p output
-          compact=${RETRY_DATE//-/}
           gh release download "v${compact}" -p "trending-${compact}.mp4" -D output/
           gh release download "v${compact}" -p "trending-${compact}-metadata.json" -D output/
 
       - name: Check bundle before credentials are used
+        if: steps.gate.outputs.go == 'true'
         env:
-          RETRY_DATE: ${{ inputs.date }}
-          RETRY_PLATFORM: ${{ inputs.platform }}
-        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform="$RETRY_PLATFORM" --check
+          RETRY_DATE: ${{ steps.gate.outputs.date }}
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --check
 
-      - name: Retry only Instagram
+      - name: Fits a Reel, and not on Instagram yet?
+        id: check
+        if: steps.gate.outputs.go == 'true'
         env:
-          RETRY_DATE: ${{ inputs.date }}
-          RETRY_PLATFORM: ${{ inputs.platform }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
-        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform="$RETRY_PLATFORM"
+          compact: ${{ steps.gate.outputs.stamp }}
+        run: node scripts/ig-auto-retry.mjs check --file="output/trending-${compact}.mp4" --captions="output/trending-${compact}-metadata.json" --stamp="$compact"
+
+      - name: Already on Instagram — record it in the journal
+        if: steps.check.outputs.posted == 'true'
+        env:
+          RETRY_DATE: ${{ steps.gate.outputs.date }}
+          MEDIA_ID: ${{ steps.check.outputs.mediaId }}
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram --record-media-id="$MEDIA_ID"
+
+      - name: Retry only Instagram
+        id: upload
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
+        continue-on-error: ${{ steps.gate.outputs.final != 'true' }}
+        env:
+          RETRY_DATE: ${{ steps.gate.outputs.date }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+        run: node scripts/retry-instagram.mjs --date="$RETRY_DATE" --platform=instagram
+
+      - name: Not yet — the next slot tries again
+        if: steps.upload.outcome == 'failure'
+        run: echo "::warning title=Instagram retry::the upload failed again; a later retry slot tries the same video (the last slot turns red if it still fails)"
 
       - name: Preserve posting evidence even on failure
-        if: always()
+        if: always() && steps.gate.outputs.go == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: instagram-retry-${{ github.run_id }}

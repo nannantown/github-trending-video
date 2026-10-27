@@ -4,7 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from "nod
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { postDaily, dateFromVideo } from "./post-sns.mjs";
-import { retryInstagram, preflight, parseRetryArgs } from "./retry-instagram.mjs";
+import { retryInstagram, preflight, parseRetryArgs, recordFoundInstagram } from "./retry-instagram.mjs";
 import { uploadInstagram } from "./upload-instagram.mjs";
 import { loadState, statePath, createStore, saveBundle, metadataName, validateDate, gitCheckpoint } from "./posting-state.mjs";
 import { recordUpload } from "./record-upload.mjs";
@@ -308,4 +308,19 @@ test("daily rerun cannot replace the archived bundle or duplicate a known postin
 
 test("local live posting cannot silently skip a durable checkpoint", () => {
   assert.throws(() => gitCheckpoint("/fake", date, {}, () => assert.fail("No git without configuration")), /durable Git checkpoint/);
+});
+
+test("a post found on the account is recorded, never published again", async (t) => {
+  const f = fixture(t);
+  await failIG(f);
+  await assert.rejects(recordFoundInstagram({ ...f.retry, mediaId: "not-an-id" }), /numeric/);
+  await recordFoundInstagram({ ...f.retry, mediaId: "1790001" });
+  const state = loadState(f.rootDir, date);
+  assert.equal(state.platforms.instagram.status, "succeeded");
+  assert.equal(state.platforms.instagram.mediaId, "1790001");
+  assert.equal(state.platforms.instagram.attempts, 1, "recording is not an attempt");
+  assert.equal(read(join(f.rootDir, "data/performance-history.json")).videos[0].instagram.mediaId, "1790001");
+  await assert.rejects(retryInstagram({ ...f.retry, upload: () => assert.fail("No API") }), /already posted/);
+  assert.equal(parseRetryArgs(["--date=2030-01-02", "--platform=instagram", "--record-media-id=1790001"]).recordMediaId, "1790001");
+  assert.throws(() => parseRetryArgs(["--date=2030-01-02", "--platform=instagram", "--record-media-id=1", "--check"]));
 });

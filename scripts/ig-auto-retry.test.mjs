@@ -1,0 +1,121 @@
+// Same file in all four repos (see scripts/ig-auto-retry.mjs).
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync, readdirSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import {
+  episodeStamp, dayStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds,
+  instagramDecision, sameCaption, REELS_MAX_SECONDS,
+} from "./ig-auto-retry.mjs";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+test("episodeStamp: the latest daily post time at or before now (JST)", () => {
+  // 08:00 JST post, retries at 09:07 / 14:07 JST → same day
+  assert.equal(episodeStamp(new Date("2026-10-27T00:07:00Z"), "08:00"), "20261027");
+  assert.equal(episodeStamp(new Date("2026-10-27T05:07:00Z"), "08:00"), "20261027");
+  // 20:30 JST post: 23:47 JST and a late 02:00 JST run both belong to that day
+  assert.equal(episodeStamp(new Date("2026-10-27T14:47:00Z"), "20:30"), "20261027");
+  assert.equal(episodeStamp(new Date("2026-10-27T17:00:00Z"), "20:30"), "20261027");
+  assert.throws(() => episodeStamp(new Date(), "8am"));
+});
+
+test("dayStartUnix is 00:00 JST", () => {
+  assert.equal(new Date(dayStartUnix("20261027") * 1000).toISOString(), "2026-10-26T15:00:00.000Z");
+});
+
+test("recordDecision: only YouTube-on-record + Instagram-missing goes", () => {
+  const history = [
+    { date: "2026-10-25", videoId: "y1", instagram: { mediaId: "i1" } },
+    { date: "2026-10-26", videoId: "y2", instagram: null },
+    { date: "2026-10-24", skip: true },
+  ];
+  assert.equal(recordDecision(history, "20261026").go, true);
+  assert.equal(recordDecision(history, "20261025").go, false, "already on Instagram → never twice");
+  assert.equal(recordDecision(history, "20261027").go, false, "no record → nothing to retry");
+  assert.equal(recordDecision(history, "20261024").go, false, "rest day");
+  assert.equal(recordDecision(history, "20261026", { dailyRunning: true }).go, false, "daily-video still running");
+  assert.equal(recordDecision([{ date: "2026-10-26", instagram: null }], "20261026").go, false, "YouTube failed too");
+  // a hand-run: only "already on Instagram" stops it (the repo's manual guards do the rest)
+  assert.equal(recordDecision(history, "20261027", { auto: false }).go, true);
+  assert.equal(recordDecision([{ date: "2026-10-26", instagram: null }], "20261026", { auto: false }).go, true);
+  assert.equal(recordDecision(history, "20261025", { auto: false }).go, false);
+  assert.equal(recordDecision(history, "20261025", { auto: false, force: true }).go, true, "force: a hand-run past a wrong record");
+  assert.equal(recordDecision(history, "20261025", { force: true }).go, false, "force never applies to a scheduled run");
+  // right after the daily run: an earlier slot waits, the last slot tries anyway
+  assert.equal(recordDecision(history, "20261026", { final: false, minutesSinceDaily: 20 }).go, false);
+  assert.equal(recordDecision(history, "20261026", { final: false, minutesSinceDaily: 50 }).go, true);
+  assert.equal(recordDecision(history, "20261026", { final: true, minutesSinceDaily: 20 }).go, true);
+  // kawagutsu aired.json shape
+  const aired = [{ date: "2026-10-22", youtube: "yt" }, { date: "2026-10-21", youtube: "yt", instagram: "ig" }];
+  assert.equal(recordDecision(aired, "20261022").go, true);
+  assert.equal(recordDecision(aired, "20261021").go, false);
+});
+
+test("isFinalAttempt: only the last scheduled slot (and hand-runs) turn red", () => {
+  assert.equal(isFinalAttempt("schedule", "7 0 * * *", "7 5 * * *"), false);
+  assert.equal(isFinalAttempt("schedule", "7 5 * * *", "7 5 * * *"), true);
+  assert.equal(isFinalAttempt("workflow_dispatch", "", undefined), true);
+  assert.throws(() => isFinalAttempt("schedule", "7 0 * * *", undefined));
+});
+
+/** ftyp + moov{mvhd} with the given version / timescale / duration. */
+function mp4(version, timescale, duration) {
+  const box = (type, body) => {
+    const b = Buffer.alloc(8 + body.length);
+    b.writeUInt32BE(b.length, 0);
+    b.write(type, 4, "latin1");
+    body.copy(b, 8);
+    return b;
+  };
+  const mvhd = Buffer.alloc(version === 1 ? 112 : 100);
+  mvhd[0] = version;
+  if (version === 1) { mvhd.writeUInt32BE(timescale, 20); mvhd.writeBigUInt64BE(BigInt(duration), 24); }
+  else { mvhd.writeUInt32BE(timescale, 12); mvhd.writeUInt32BE(duration, 16); }
+  return Buffer.concat([box("ftyp", Buffer.from("isom0000")), box("free", Buffer.alloc(4)), box("moov", box("mvhd", mvhd))]);
+}
+
+test("mp4DurationSeconds reads moov/mvhd (v0 and v1)", () => {
+  assert.equal(mp4DurationSeconds(mp4(0, 1000, 56100)), 56.1);
+  assert.equal(mp4DurationSeconds(mp4(1, 90000, 62 * 90000)), 62);
+  assert.throws(() => mp4DurationSeconds(Buffer.from("not a video at all")));
+});
+
+test("a video over the Reels limit is never retried (kawagutsu 2026-10-21: 62.0 s)", () => {
+  assert.ok(mp4DurationSeconds(mp4(0, 1000, 62000)) > REELS_MAX_SECONDS);
+  assert.ok(mp4DurationSeconds(mp4(0, 1000, 59000)) <= REELS_MAX_SECONDS);
+});
+
+test("instagramDecision: same caption = already posted; other post = stop; none = post", () => {
+  const caption = "今日の1本\n\n#tag";
+  assert.equal(instagramDecision([{ id: "1", caption: "今日の1本 #tag" }], caption).posted.id, "1");
+  assert.equal(instagramDecision([{ id: "2", caption: "別の投稿" }], caption).unknown.id, "2");
+  assert.deepEqual(instagramDecision([], caption), {});
+  assert.equal(sameCaption("", ""), false);
+});
+
+// The workflow wiring the functions above rely on.
+const workflows = readdirSync(join(root, ".github/workflows")).filter((f) => f.endsWith(".yml"));
+const name = workflows.find((f) => readFileSync(join(root, ".github/workflows", f), "utf-8").includes("ig-auto-retry.mjs gate"));
+
+test("the retry workflow: scheduled slots, Instagram only, red only on the last slot", () => {
+  assert.ok(name, "a workflow runs ig-auto-retry.mjs gate");
+  const yml = readFileSync(join(root, ".github/workflows", name), "utf-8");
+  const crons = [...yml.matchAll(/- cron: "([^"]+)"/g)].map((m) => m[1]);
+  assert.ok(crons.length >= 3, "at least three retry slots");
+  assert.equal(yml.match(/--last-slot="([^"]+)"/)[1], crons.at(-1), "--last-slot is the last cron line");
+  assert.match(yml, /EVENT_SCHEDULE: \$\{\{ github\.event\.schedule \}\}/);
+  assert.doesNotMatch(yml, /upload-youtube|YOUTUBE_/, "YouTube is never touched");
+
+  const steps = yml.split(/\n\s+- (?=name:|if:|uses:|run:)/);
+  const at = (re) => steps.findIndex((s) => re.test(s));
+  const check = at(/ig-auto-retry\.mjs check/);
+  const upload = at(/\bid: upload\b/);
+  const posts = /upload-instagram\.mjs --file|retry-instagram\.mjs --date="\$RETRY_DATE" --platform=instagram$/m;
+  assert.match(steps[upload], posts);
+  assert.equal(steps.filter((s) => posts.test(s)).length, 1, "one step posts to Instagram");
+  assert.ok(check > 0 && upload > check, "the account and the length are checked before the upload");
+  assert.match(steps[upload], /continue-on-error: \$\{\{ steps\.gate\.outputs\.final != 'true' \}\}/);
+  assert.match(steps[upload], /steps\.check\.outputs\.posted == 'false'/, "uploads only when the day is not on Instagram");
+});
