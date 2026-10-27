@@ -47,6 +47,10 @@ export function loadReadings(path = DICT_PATH) {
     console.warn(`tts-readings: ${existsSync(path) ? `cannot read ${path} (${err.message})` : `${path} not found`} — the voice reads every word its own way`);
     return {};
   }
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    console.warn(`tts-readings: ${path} is not a JSON object — the voice reads every word its own way`);
+    return {};
+  }
   const out = {};
   for (const [k, v] of Object.entries(raw)) {
     if (k.startsWith("_")) continue;
@@ -107,15 +111,19 @@ export function restoreWords(words, text, spoken, spans) {
   if (!spans.length) return words;
   const out = [];
   let cursor = 0;
+  let unmatched = 0; // characters of tokens Edge rewrote since the last match
   for (const w of words) {
-    // Edge drops punctuation and spaces between tokens; a match further away than that (or a couple of
-    // characters it rewrote, e.g. １ → 1) means Edge rewrote this token — keep what it said, don't jump.
+    // Edge drops punctuation and spaces between tokens, and sometimes rewrites a token (１ → 1, 3cm →
+    // 3センチ). The next match may skip what was rewritten (about as long as the rewritten tokens) plus
+    // punctuation; a match further away is a false hit — keep what Edge said, don't jump.
     const at = spoken.indexOf(w.text, cursor);
     const gap = at < 0 ? "" : spoken.slice(cursor, at);
-    if (at < 0 || (gap.length > 2 && !/^[\s\p{P}\p{S}]*$/u.test(gap))) {
+    if (at < 0 || (gap.length > 2 + unmatched && !/^[\s\p{P}\p{S}]*$/u.test(gap))) {
       out.push(w);
+      unmatched += w.text.length;
       continue;
     }
+    unmatched = 0;
     cursor = at + w.text.length;
     const surface = text.slice(toOrig(at, spans), toOrig(cursor, spans));
     if (surface) {

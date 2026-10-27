@@ -74,6 +74,10 @@ test("a reading must be kana and reading-sized; bad entries are skipped, not fat
   writeFileSync(join(dir, "broken.json"), '{ "甲革": "こうかく", }'); // a trailing comma must not stop the video
   assert.deepEqual(loadReadings(join(dir, "broken.json")), {});
   assert.deepEqual(loadReadings(join(dir, "missing.json")), {});
+  for (const notObject of ["null", "[]", '"x"', "3"]) {
+    writeFileSync(join(dir, "odd.json"), notObject); // must not throw in Object.entries
+    assert.deepEqual(loadReadings(join(dir, "odd.json")), {}, notObject);
+  }
 });
 
 test("a number entry matches whole numbers only", () => {
@@ -86,4 +90,10 @@ test("a token Edge rewrote far ahead does not make the rest jump (no kana leaks)
   const s = forSpeech(text, { Claude: "クロード" });
   const words = ["1", "つ", "目", "は", "クロード", "2", "つ", "目", "は", "1", "つ"].map((t, i) => w(t, i * 0.2));
   assert.deepEqual(s.restoreWords(words).map((x) => x.text), ["1", "つ", "目", "は", "Claude", "2", "つ", "目", "は", "1", "つ"]);
+});
+
+test("a longer token Edge rewrote does not unhook the words after it", () => {
+  const s = forSpeech("第１２３回の3cmはClaude", { Claude: "クロード" });
+  const words = ["第", "123", "回", "の", "3センチ", "は", "クロード"].map((t, i) => w(t, i * 0.2));
+  assert.deepEqual(s.restoreWords(words).map((x) => x.text), ["第", "123", "回", "の", "3センチ", "は", "Claude"]);
 });
