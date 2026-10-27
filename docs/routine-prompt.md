@@ -233,7 +233,7 @@ README / ブログ / Release Notes / Hacker News スレッドを英語で読み�
 
 ### 6.5. 読みの確認 (必須・新しい難読語は読みを決めてから)
 
-声(Edge TTS)は漢字・英字の読みを自分で推し量り、ときどき間違える(2026-10-27 の実測: 仮名(かめい)→「かな」など)。字幕・画面は原稿の表記のまま、**声だけ**を `data/tts-readings.json`(`"表記": "よみ"`)で読み替える仕組みがある(`scripts/tts-reading.mjs`。音声を作る直前に効き、字幕の単語は元の表記に戻る)。
+声(Edge TTS)は漢字・英字の読みを自分で推し量り、ときどき間違える(2026-10-27 の実測: Claude →「クローダ」、plugin →「プルージン」、80DB →「80デシベル」、Markdown →「マークドーン」)。字幕・画面は原稿の表記のまま、**声だけ**を `data/tts-readings.json`(`"表記": "よみ"`)で読み替える仕組みがある(`scripts/tts-reading.mjs`。音声を作る直前に効き、字幕の単語は元の表記に戻る)。
 
 ```bash
 node scripts/tts-reading.mjs --data=data/enriched-trending.json
