@@ -112,6 +112,7 @@ test("(c) the owner's switch: off stops every scheduled run, SKIP leaves listed 
   assert.match(switchDecision({ auto: true, mode: " OFF ", stamp: "20261027" }), /switched off/);
   assert.match(switchDecision({ auto: true, skip: "20261026, 20261023", stamp: "20261026" }), /SKIP/);
   assert.match(switchDecision({ auto: true, skip: "20261026,20261023", stamp: "20261023" }), /SKIP/);
+  assert.match(switchDecision({ auto: true, skip: "2026-10-26", stamp: "20261026" }), /SKIP/, "the dashed form works too");
   assert.equal(switchDecision({ auto: true, skip: "20261026,20261023", stamp: "20261027" }), null);
   assert.equal(switchDecision({ auto: true, mode: "", skip: "", stamp: "20261027" }), null, "unset = today's behaviour");
   assert.equal(switchDecision({ auto: false, mode: "off", skip: "20261026", stamp: "20261026" }), null);
@@ -127,6 +128,10 @@ test("(a)(b) the day's budget: at most MAX_AUTO_ATTEMPTS, and two ProcessingFail
   assert.equal(failureKind("Binary upload failed (400): {\"error\":{\"type\":\"ProcessingFailedError\",\"debug_info\":{\"retriable\":false}}}"), "ProcessingFailedError");
   assert.equal(failureKind("Graph API error: timeout"), "other");
   assert.equal(failureKind(undefined), "other");
+  // the last error line decides, not the uploader's own retry lines
+  const retried = "  Upload failed (ProcessingFailedError), retrying in 30s…\n  Upload failed (ProcessingFailedError), retrying in 60s…\n";
+  assert.equal(failureKind(retried + "Instagram upload failed: Graph API error: Invalid OAuth access token (code: 190)"), "other");
+  assert.equal(failureKind(retried + "Instagram upload failed: Binary upload failed (400) ProcessingFailedError"), "ProcessingFailedError");
 });
 
 test("markState: counts attempts across days for one episode, keeps 60 days", () => {
@@ -135,6 +140,8 @@ test("markState: counts attempts across days for one episode, keeps 60 days", ()
   s = markState(s, "20261027", { failure: "ProcessingFailedError", now: t0 });
   s = markState(s, "20261027", { now: new Date("2026-10-28T00:37:00Z") }); // the next calendar day, same episode
   assert.deepEqual([s["20261027"].attempts, s["20261027"].failures], [2, ["ProcessingFailedError"]]);
+  s = markState(s, "20261027", { stopped: "spent", now: t0 });
+  assert.deepEqual([s["20261027"].attempts, s["20261027"].stopped], [2, "spent"], "marking stopped is not an attempt");
   assert.equal(s["20260801"], undefined);
 });
 
@@ -171,7 +178,27 @@ test("(a)(b) mark: counts on main before each upload and stops the day (stop=…
   const onMain = JSON.parse(git(work, "show", `origin/main:${STATE_PATH}`));
   assert.deepEqual(onMain["20261026"].failures, ["ProcessingFailedError", "ProcessingFailedError"]);
   assert.equal(onMain["20261026"].attempts, 2);
+  assert.match(onMain["20261026"].stopped, /ProcessingFailedError/);
   assert.match(git(work, "log", "-1", "--format=%s", "origin/main").trim(), /\[skip ci\]$/);
+  // the next slot: no upload, and only a note — one red per day, not one per slot
+  const later = run(work, ["mark", "--stamp=20261026"]);
+  assert.equal(later.status, 0, later.log);
+  assert.match(later.output, /^go=false$/m);
+  assert.doesNotMatch(later.output, /^stop=/m);
+  assert.equal(JSON.parse(git(work, "show", `origin/main:${STATE_PATH}`))["20261026"].attempts, 2, "not counted");
+
+  // (a) the cap: the 3rd failed attempt (other failures) is red at once; the next slot only notes it
+  const other = join(dir, "other.log");
+  writeFileSync(other, "Instagram upload failed: Graph API error: timeout");
+  const fails = [];
+  for (let i = 0; i < 3; i++) {
+    assert.match(run(work, ["mark", "--stamp=20261027"]).output, /^go=true$/m);
+    fails.push(run(work, ["mark", "--stamp=20261027", `--log=${other}`]));
+  }
+  assert.deepEqual(fails.map((f) => f.status), [0, 0, 1]);
+  assert.match(fails[2].output, /^stop=.*3 automatic attempts/m);
+  const next = run(work, ["mark", "--stamp=20261027"]);
+  assert.deepEqual([next.status, /^go=false$/m.test(next.output)], [0, true], "no 4th upload, no 2nd red");
 });
 
 test("(c) gate: IG_AUTO_RETRY=off / IG_AUTO_RETRY_SKIP end a scheduled run green with go=false, before any network or git", () => {
@@ -228,13 +255,26 @@ test("the retry workflow: scheduled slots, Instagram only, notes on earlier slot
   assert.doesNotMatch(yml, /^\s{8}continue-on-error/m, "no step-level continue-on-error (it would let the next step run)");
 
   const stops = yml.match(/^      stop: (.+)$/m)?.[1] ?? "";
-  for (const id of ["gate", "check", "mark"]) assert.ok(stops.includes(`steps.${id}.outputs.stop`), `stop from ${id}`);
+  assert.match(steps[count], /\bid: count\b/);
+  assert.match(steps[upload], /\(github\.event_name != 'schedule' \|\| steps\.count\.outputs\.go == 'true'\)/, "(a)(b) a spent day never uploads");
+  for (const id of ["gate", "check", "count", "mark"]) assert.ok(stops.includes(`steps.${id}.outputs.stop`), `stop from ${id}`);
   assert.match(yml, /\n  needs-a-person:\n    needs: (\w+)\n    if: always\(\) && needs\.\1\.outputs\.stop != ''[\s\S]*exit 1/, "a stop is red at once, on any slot");
 });
 
-test("the retry shares daily-video.yml's lock (never posts at the same time as the daily run)", () => {
-  const group = (yml) => yml.match(/^concurrency:\n  group: (.+)$/m)?.[1];
-  assert.ok(group(wf(name)), "the retry has a concurrency group");
-  assert.equal(group(wf(name)), group(wf("daily-video.yml")));
-  assert.match(wf(name), /^concurrency:\n  group: .+\n(  queue: max\n)?  cancel-in-progress: false$/m);
+test("the retry shares daily-video.yml's lock, and no waiting run (the 08:15/20:30 post included) is ever cancelled", () => {
+  const block = (yml) => yml.match(/^concurrency:\n  group: (.+)\n  queue: (\w+)[^\n]*\n  cancel-in-progress: (\w+)$/m);
+  const retry = block(wf(name));
+  const daily = block(wf("daily-video.yml"));
+  assert.ok(retry && daily, "both have group + queue + cancel-in-progress");
+  // GitHub's default (queue: single) cancels a waiting run when a third joins — the
+  // daily post would vanish without anything turning red.
+  assert.deepEqual([retry[2], retry[3], daily[2], daily[3]], ["max", "false", "max", "false"]);
+  // The same group for the production run: either the same text, or the daily's
+  // production branch of a "verification runs get their own group" expression.
+  const g = retry[1];
+  if (daily[1] !== g) {
+    assert.ok(daily[1].includes(`&& '${g}' || format(`), `daily-video.yml's production group is ${g}`);
+    assert.match(daily[1], /github\.ref == 'refs\/heads\/main'/);
+    assert.match(daily[1], /github\.run_id\) \}\}$/, "verification runs: a group of their own (unique per run)");
+  }
 });

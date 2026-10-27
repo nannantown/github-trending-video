@@ -15,8 +15,7 @@
  *       scheduled slots. --force=true (hand-runs only) skips the record, not the
  *       account check. EVENT_SCHEDULE = ${{ github.event.schedule }}.
  *       Scheduled runs only: IG_AUTO_RETRY=off (repo Variable) → nothing;
- *       IG_AUTO_RETRY_SKIP=20261026,20261023 → those days are left alone; a day
- *       that used up its tries (STATE_PATH) → stop=… + exit 1.
+ *       IG_AUTO_RETRY_SKIP=20261026,20261023 (or 2026-10-26) → those days are left alone.
  *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD --post-time=08:00 [--max-seconds=59.5 | --max-seconds-from=scripts/reels-fit.mjs]
  *     → $GITHUB_OUTPUT posted=true|false
  *       stop=… + exit 1 (nothing uploaded) when the video is longer than Instagram
@@ -25,9 +24,13 @@
  *       posted=true + output/instagram-result.json when the day's caption is
  *       already on Instagram (a publish whose reply was lost) — record it, don't post.
  *   node scripts/ig-auto-retry.mjs mark --stamp=YYYYMMDD [--log=output/ig-upload.log]
- *     Scheduled runs: counts an automatic attempt in STATE_PATH on main, right
- *     before the upload (a crash still counts). With --log (after a failed upload)
- *     it keeps the failure's kind; a day out of tries → stop=… + exit 1.
+ *     Scheduled runs, after `check`: may the day spend one more automatic
+ *     attempt? Yes → counted in STATE_PATH on main right before the upload (a
+ *     crash still counts), go=true. Spent (MAX_AUTO_ATTEMPTS, or SAME_FAILURE_STOP
+ *     ProcessingFailedErrors in a row) → stop=… + exit 1 the first time, then
+ *     go=false with a note (one red per day, not one per slot). With --log
+ *     (after a failed upload) it keeps the failure's kind, and stops the day
+ *     (red, once) when that spends it.
  *
  * "stop" = no later slot can fix it: the workflow turns red at once, even on an
  * earlier slot. Anything else that fails on an earlier slot is a note — the job
@@ -126,13 +129,20 @@ export function recordDecision(entries, stamp, { dailyRunning = false, auto = tr
 export function switchDecision({ auto, mode, skip, stamp }) {
   if (!auto) return null;
   if (String(mode ?? "").trim().toLowerCase() === "off") return "IG_AUTO_RETRY=off — automatic Instagram retries are switched off.";
-  const days = String(skip ?? "").split(/[\s,]+/).filter(Boolean);
+  const days = String(skip ?? "").split(/[\s,]+/).filter(Boolean).map((d) => d.replaceAll("-", "")); // 20261026 or 2026-10-26
   if (days.includes(stamp)) return `${stamp} is in IG_AUTO_RETRY_SKIP — left alone (no automatic retry).`;
   return null;
 }
 
-/** The kind of a failed upload, from its log. */
-export const failureKind = (log) => (/ProcessingFailedError/.test(String(log ?? "")) ? "ProcessingFailedError" : "other");
+/**
+ * The kind of a failed upload, from its log: the LAST error line decides — the
+ * uploader's own retry lines ("Upload failed (ProcessingFailedError), retrying…")
+ * say nothing about how the attempt ended.
+ */
+export function failureKind(log) {
+  const last = String(log ?? "").split("\n").filter((l) => /error|failed|stopped/i.test(l)).at(-1) ?? "";
+  return /ProcessingFailedError/.test(last) ? "ProcessingFailedError" : "other";
+}
 
 /** Why the day gets no more automatic attempts, or null. `entry` = STATE_PATH[stamp]. */
 export function budgetStop(entry = {}) {
@@ -145,12 +155,16 @@ export function budgetStop(entry = {}) {
   return null;
 }
 
-/** STATE_PATH after one more attempt (`failure` absent) or one more failure kind. Keeps 60 days. */
-export function markState(state, stamp, { failure, now = new Date() } = {}) {
+/**
+ * STATE_PATH after one more attempt, one more failure kind (`failure`), or the
+ * day marked as stopped (`stopped` = the reason; later slots only note it). Keeps 60 days.
+ */
+export function markState(state, stamp, { failure, stopped, now = new Date() } = {}) {
   const next = { ...(state || {}) };
   const entry = { attempts: 0, failures: [], ...(next[stamp] || {}) };
   if (failure) entry.failures = [...entry.failures, failure];
-  else { entry.attempts += 1; entry.lastAttemptAt = now.toISOString(); }
+  if (stopped) entry.stopped = stopped;
+  if (!failure && !stopped) { entry.attempts += 1; entry.lastAttemptAt = now.toISOString(); }
   next[stamp] = entry;
   const cutoff = new Date(now.getTime() - 60 * 86400_000).toISOString().slice(0, 10).replaceAll("-", "");
   for (const day of Object.keys(next)) if (day < cutoff) delete next[day];
@@ -217,9 +231,7 @@ function stop(reason) {
   process.exit(1);
 }
 
-const readState = (ref) => {
-  try { return JSON.parse(sh("git", ["show", `${ref}:${STATE_PATH}`])); } catch { return {}; }
-};
+
 
 async function graphGet(path, params) {
   const url = new URL(`${GRAPH_API_BASE}${path}`);
@@ -251,10 +263,6 @@ function gate() {
   const final = isFinalAttempt(process.env.GITHUB_EVENT_NAME, process.env.EVENT_SCHEDULE, arg("last-slot"));
   const { go, reason } = recordDecision(data.videos ?? data.aired, stamp, { dailyRunning, auto, final, minutesSinceDaily, force: arg("force") === "true" });
   console.log(reason);
-  if (go && auto) {
-    const spent = budgetStop(readState("origin/main")[stamp]);
-    if (spent) stop(`${isoDate(stamp)}: ${spent}`);
-  }
   if (go) console.log(final ? "Last attempt: a failure turns this run red." : "Earlier slot: a failure is a warning, the next slot tries again.");
   output({ go, final, stamp, date: isoDate(stamp) });
 }
@@ -303,7 +311,10 @@ async function check() {
   output({ posted: false });
 }
 
-/** Commit STATE_PATH on top of the live main (3 tries; a lost race drops only our commit). */
+/**
+ * Commit STATE_PATH on top of the live main (3 tries; a lost race drops only our
+ * commit). `update` returns the next state, or null to leave main as it is.
+ */
 function commitState(update, message) {
   sh("git", ["config", "user.name", "github-actions[bot]"]);
   sh("git", ["config", "user.email", "github-actions[bot]@users.noreply.github.com"]);
@@ -311,6 +322,7 @@ function commitState(update, message) {
     sh("git", ["pull", "--rebase", "--quiet", "origin", "main"]);
     const state = existsSync(STATE_PATH) ? JSON.parse(readFileSync(STATE_PATH, "utf-8")) : {};
     const next = update(state);
+    if (next === null) return state;
     mkdirSync(dirname(STATE_PATH), { recursive: true });
     writeFileSync(STATE_PATH, JSON.stringify(next, null, 2) + "\n");
     sh("git", ["add", STATE_PATH]);
@@ -331,14 +343,34 @@ function mark() {
   if (!/^\d{8}$/.test(stamp ?? "")) throw new Error("--stamp=YYYYMMDD required");
   const log = arg("log");
   if (!log) {
-    const next = commitState((s) => markState(s, stamp), `Instagram auto-retry ${stamp}: attempt`);
+    // Runs after `check`: a post that went out but was not recorded is found
+    // (and recorded) there first, so a spent budget never hides it.
+    let spent = null;
+    let noted = false;
+    const next = commitState((s) => {
+      spent = budgetStop(s[stamp]);
+      noted = Boolean(spent && s[stamp]?.stopped);
+      if (noted) return null; // already red once for this day — a note from here on
+      return spent ? markState(s, stamp, { stopped: spent }) : markState(s, stamp);
+    }, `Instagram auto-retry ${stamp}: attempt`);
+    if (noted) {
+      console.log(`::notice title=Instagram retry::${isoDate(stamp)}: stopped earlier (${next[stamp].stopped}) — not uploading; the earlier run was red.`);
+      output({ go: false });
+      return;
+    }
+    if (spent) stop(`${isoDate(stamp)}: ${spent}`);
     console.log(`Automatic attempt ${next[stamp].attempts} of ${MAX_AUTO_ATTEMPTS} for ${isoDate(stamp)}.`);
+    output({ go: true });
     return;
   }
   const kind = failureKind(existsSync(log) ? readFileSync(log, "utf-8") : "");
-  const next = commitState((s) => markState(s, stamp, { failure: kind }), `Instagram auto-retry ${stamp}: ${kind}`);
+  let spent = null;
+  const next = commitState((s) => {
+    const failed = markState(s, stamp, { failure: kind });
+    spent = budgetStop(failed[stamp]);
+    return spent ? markState(failed, stamp, { stopped: spent }) : failed;
+  }, `Instagram auto-retry ${stamp}: ${kind}`);
   console.log(`Recorded the failure (${kind}) for ${isoDate(stamp)}: ${JSON.stringify(next[stamp])}`);
-  const spent = budgetStop(next[stamp]);
   if (spent) stop(`${isoDate(stamp)}: ${spent}`);
 }
 

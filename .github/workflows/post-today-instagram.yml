@@ -59,7 +59,7 @@ jobs:
     # An earlier slot's failure is a note — the next slot tries again. The last slot (and a hand-run) goes red.
     continue-on-error: ${{ github.event_name == 'schedule' && github.event.schedule != '7 11 * * *' }}
     outputs:
-      stop: ${{ steps.gate.outputs.stop }}${{ steps.check.outputs.stop }}${{ steps.journal.outputs.stop }}${{ steps.bundle.outputs.stop }}${{ steps.mark.outputs.stop }}
+      stop: ${{ steps.gate.outputs.stop }}${{ steps.check.outputs.stop }}${{ steps.journal.outputs.stop }}${{ steps.bundle.outputs.stop }}${{ steps.count.outputs.stop }}${{ steps.mark.outputs.stop }}
     steps:
       - name: Require main and explicit destination
         env:
@@ -155,13 +155,14 @@ jobs:
             exit 1
           }
 
-      - name: Count this automatic attempt (before the upload — a crash still counts)
+      - name: Count this automatic attempt (before the upload — a crash still counts; a spent day stops here)
+        id: count
         if: github.event_name == 'schedule' && steps.check.outputs.posted == 'false'
         run: node scripts/ig-auto-retry.mjs mark --stamp="${{ steps.gate.outputs.stamp }}"
 
       - name: Retry only Instagram
         id: upload
-        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false'
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false' && (github.event_name != 'schedule' || steps.count.outputs.go == 'true')
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
