@@ -13,7 +13,7 @@
  *   Invoked by post-sns.mjs with --date and a durable in_progress journal.
  *   node scripts/upload-youtube.mjs --date=YYYY-MM-DD --video=output/trending-YYYYMMDD.mp4
  *     [--opening-variant=top1|brand]   recorded in upload-result.json (experiment B arm)
- *     [--thumbnail=output/trending-20260405-youtube-cover.jpg]
+ *     [--thumbnail=output/trending-20260405-ig-cover.jpg]   the Instagram cover frame (ig-cover.mjs)
  */
 
 import { google } from "googleapis";
@@ -28,9 +28,9 @@ import { loadState, validateDate, validateBundle, createStore } from "./posting-
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputDir = join(__dirname, "..", "output");
 
-// thumbnails.set accepts image/jpeg or image/png up to 2 MB
-// (https://developers.google.com/youtube/v3/docs/thumbnails/set).
-const THUMBNAIL_MAX_BYTES = 2 * 1024 * 1024;
+// thumbnails.set accepts image/jpeg or image/png up to 50 MB
+// (https://developers.google.com/youtube/v3/docs/thumbnails/set, updated 2026-10-15).
+const THUMBNAIL_MAX_BYTES = 50 * 1024 * 1024;
 // The Instagram upload runs after this script; a hanging thumbnail request must not eat the job budget.
 const THUMBNAIL_TIMEOUT_MS = 30 * 1000;
 
@@ -58,10 +58,11 @@ function resolvePath(p) {
 }
 
 /**
- * Experiment B (2026-09-14): best-effort day-specific thumbnail — the frame-60
- * still of the YouTube-only render (9:16, TOP1 repo name in frame). Only
- * attempted when post-sns.mjs passes --thumbnail (i.e. the YouTube render
- * exists). Non-blocking: any failure is logged and the upload still counts.
+ * Experiment B (2026-09-14): best-effort custom thumbnail. Since 2026-10-28
+ * (owner decision) it is the Instagram cover — the frame Instagram takes at
+ * thumb_offset from the shared video, cut by post-sns.mjs (ig-cover.mjs) — on
+ * both opening arms; before that it was the frame-60 still of the YouTube-only
+ * render. Non-blocking: any failure is logged and the upload still counts.
  *
  * Expected failure mode: 403 `forbidden`. YouTube Help (answer/72431, checked
  * 2026-09-14) says custom thumbnails for Shorts require a verified account and
@@ -76,7 +77,7 @@ async function setThumbnail(youtube, videoId, thumbnailPath) {
     return { skipped: "disabled" };
   }
   if (!thumbnailPath) {
-    console.log("  Thumbnail: skipped (no YouTube cover — YouTube keeps its auto-picked frame)");
+    console.log("  Thumbnail: skipped (no Instagram cover frame — YouTube keeps its auto-picked frame)");
     return { skipped: "no-thumbnail" };
   }
   const coverPath = resolvePath(thumbnailPath);
@@ -98,7 +99,7 @@ async function setThumbnail(youtube, videoId, thumbnailPath) {
       },
       { timeout: THUMBNAIL_TIMEOUT_MS }
     );
-    console.log(`  Thumbnail: set from ${coverPath} (${size} bytes)`);
+    console.log(`  Thumbnail: set — the Instagram cover ${coverPath} (${size} bytes)`);
     return { set: true };
   } catch (err) {
     const reasons = errorReasons(err);

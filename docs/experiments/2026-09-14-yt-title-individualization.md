@@ -3,6 +3,21 @@
 判定レポート（14 日比較表・判定・次の一手）は sns-hub 側
 `docs/pdca/experiments/2026-09-14-yt-title-individualization.md` に置く。本書は実装メモ。
 
+## 条件の変更（2026-10-28 オーナー決定）: YouTube のサムネイルを Instagram の表紙と同じ画像に
+
+- オーナーの言葉:「YouTube のサムネイルあるじゃん。各動画のそれ、インスタグラムのサムネイルと同じにしようか」（4 アカウント全部 = A）
+- **変えたのは YouTube のサムネイル（B-2）だけ**。今までは YouTube 専用レンダの frame 60。これからは **Instagram の表紙**
+  = 共用動画（`trending-YYYYMMDD.mp4`）の `thumb_offset`（7000 ms、`INSTAGRAM_THUMB_OFFSET_MS` で変えたらその値）のコマを
+  ffmpeg で切り出した `output/trending-YYYYMMDD-ig-cover.jpg`。top1 / brand のどちらの日も同じ
+- 変えていないもの: Instagram の動画・キャプション・表紙（`thumb_offset` の値は前と同じ）、YouTube の動画（top1 の冒頭）・タイトル・説明、
+  キルスイッチ（`YT_SET_THUMBNAIL=false` で今までどおり止まる）。専用レンダの frame 60 の静止画は描かなくなった
+- **条件が変わった日 = この変更が main に入ったあとの最初の定時投稿の日**（10-29 07:30 JST までに入れば 2026-10-29）。
+  ずれたら司令塔が sns-hub の台帳（`docs/strategy/genre-experiment.md`）とここを実際の日に直す
+- ただし 2026-10-28 時点でこのチャンネルはショートにカスタムサムネイルを付けられず、`thumbnails.set` は 403 `forbidden`（投稿は止まらない）。
+  付けられない間は YouTube が選んだコマのままなので、**見た目が実際に変わるのは付けられるようになった日から**。
+  毎朝試すので、その日から自動で揃う。付いたかは `data/performance-history.json` の `ytThumbnail`（`set` / `error:forbidden` / `skipped:…`）で日ごとに分かる
+  （最初に `set` になった日 = 見た目の条件が変わった日）
+
 ## 背景
 
 - 同じ動画が Instagram Reels では中央値 900〜1,300 views、YouTube Shorts では 0〜1 views
@@ -29,7 +44,7 @@ YouTube 側だけに見える「同一メタデータ + 同一冒頭画の毎日
 output/trending-YYYYMMDD.mp4                共用レンダ → Instagram / GitHub Release（従来どおり・無変更）
 output/trending-YYYYMMDD-cover.jpg          共用 cover → GitHub Release（従来どおり・無変更）
 output/trending-YYYYMMDD-youtube.mp4        openingVariant="top1" の専用レンダ → YouTube
-output/trending-YYYYMMDD-youtube-cover.jpg  専用レンダの frame 60 → YouTube サムネ（ベストエフォート）
+output/trending-YYYYMMDD-ig-cover.jpg       Instagram の表紙のコマ（共用動画の thumb_offset）→ YouTube サムネ（ベストエフォート。2026-10-28 から。それまでは専用レンダの frame 60 の -youtube-cover.jpg）
 ```
 
 専用レンダが失敗 / 時間切れなら、YouTube は共用動画を投稿する（毎朝の投稿は止めない）。時間予算はパイプライン開始から 10 分
@@ -48,7 +63,7 @@ npx の下の remotion / ffmpeg が生き残ってステップの stdout を握�
 | A-4 | `performance-history.json` に実際に投稿した腕を記録: `titleTemplate` / `ytOpening`（top1 or brand）/ `ytThumbnail`（set / skipped:… / error:…） | `scripts/record-upload.mjs`, `scripts/upload-youtube.mjs` |
 | A-5 | YouTube が新タイトル / 説明文を拒否（`invalidTitle` / `invalidDescription` / `invalidVideoMetadata`）したら、旧メタデータで 1 回だけ再アップロード（実験でその日の投稿を失わない）。拒否理由は `err.response.data.error.errors[].reason` から読む（gaxios 7 は `err.errors` を設定しない）。タイトル長は UTF-16 単位で数える | `scripts/youtube-upload.mjs`, `scripts/upload-youtube.mjs`, `scripts/youtube-caption.mjs` |
 | B-1 | YouTube 専用レンダ: 同じ props + `openingVariant="top1"`。frame 0 から「今日の1位」ピル + TOP1 名 + 一行フック（最大 3 行で省略）。共用 `<Opening />` は origin/main とバイト同一。時間予算つき（プロセスグループごと打ち切り）・失敗時は共用動画へ | `src/components/OpeningTop1.tsx`, `src/compositions/TrendingVideo.tsx`, `scripts/pipeline.mjs`（Step 4d）, `scripts/youtube-variant.mjs`, `scripts/process-group.mjs` |
-| B-2 | 専用レンダの frame 60 を `thumbnails.set`（非ブロッキング・30 秒で打ち切り・ベストエフォート）。`upload-result.json` はその前（insert 直後）に書く | `scripts/upload-youtube.mjs`, `scripts/post-sns.mjs` |
+| B-2 | 専用レンダの frame 60 を `thumbnails.set`（非ブロッキング・30 秒で打ち切り・ベストエフォート）。`upload-result.json` はその前（insert 直後）に書く。**2026-10-28 から Instagram の表紙のコマに変更**（上の「条件の変更」） | `scripts/upload-youtube.mjs`, `scripts/post-sns.mjs`, `scripts/ig-cover.mjs` |
 | D | 14 日比較表ジェネレータ（control / treatment の YT・IG views、中央値、判定）。未取得の YT stats（`updatedAt: null` の仮 0）は数えない。判定は 暫定 → 14 日判定 → 年齢を揃えた確定 の 3 段階 | `scripts/yt-experiment-report.mjs` |
 | 検証 | `workflow_dispatch` に `dry_run`（両動画をレンダして artifact に上げるだけ。投稿・履歴コミットなし）。ジョブ timeout 15 → 20 分 | `.github/workflows/daily-video.yml` |
 

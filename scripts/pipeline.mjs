@@ -113,7 +113,7 @@ async function main() {
   //          screen from frame 0, so YouTube no longer receives a first second
   //          (and auto-thumbnail) that is identical every day. The shared
   //          render above stays exactly as it was and goes to Instagram.
-  //          Its frame-60 still becomes the YouTube thumbnail.
+  //          (The YouTube thumbnail is the Instagram cover — post-sns.mjs, ig-cover.mjs.)
   //          Non-blocking and time-boxed (YOUTUBE_VARIANT_DEADLINE_MS): on any
   //          failure or timeout YouTube falls back to the shared video, so the
   //          Instagram post is never delayed past the job budget by this step.

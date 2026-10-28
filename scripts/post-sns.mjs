@@ -6,6 +6,7 @@ import { join, dirname, basename } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { argPath, resolveYouTubeUpload } from "./youtube-variant.mjs";
 import { uploadInstagram } from "./upload-instagram.mjs";
+import { instagramCoverForYouTube } from "./ig-cover.mjs";
 import { validateDate, statePath, loadState, saveBundle, validateBundle, metadataName, createStore, attemptInstagram, withDateLock } from "./posting-state.mjs";
 
 export function dateFromVideo(video) {
@@ -37,7 +38,7 @@ function youtubeChild({ rootDir, date, video, openingVariant, thumbnail, env }) 
 
 export async function postDaily({ rootDir, date, video, captions, trendingData, audioDurations, discovery,
   youtubeUpload, env = process.env, archive = archiveBundle, uploadYouTube = youtubeChild,
-  uploadIG = uploadInstagram, checkpoint }) {
+  uploadIG = uploadInstagram, igCover = instagramCoverForYouTube, checkpoint }) {
   return withDateLock({ rootDir, date }, async () => {
     validateDate(date);
     if (dateFromVideo(video) !== date) throw new Error("Video date mismatch");
@@ -54,9 +55,12 @@ export async function postDaily({ rootDir, date, video, captions, trendingData, 
     const failed = [];
 
     if (env.YOUTUBE_CLIENT_ID && env.YOUTUBE_CLIENT_SECRET && env.YOUTUBE_REFRESH_TOKEN) {
+      // The YouTube thumbnail is the Instagram cover: that frame of the shared video, on both
+      // opening arms (owner decision 2026-10-28). null = YouTube keeps its own frame.
+      const thumbnail = igCover({ video, env });
       store.update("youtube", { status: "in_progress", phase: "uploading", safeToRetry: false, attemptId: randomUUID(), attempts: 1 });
       try {
-        const result = await uploadYouTube({ rootDir, date, ...youtubeUpload, env,
+        const result = await uploadYouTube({ rootDir, date, ...youtubeUpload, thumbnail, env,
           onEvent: (event) => store.update("youtube", event) });
         if (!result?.videoId) throw new Error("YouTube response missing video ID");
         store.update("youtube", { ...result, status: "succeeded", safeToRetry: false });

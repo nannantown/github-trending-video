@@ -1,6 +1,7 @@
 /** Instagram Reels transport. The tracked orchestrators own the posting journal. */
 import { readFileSync, statSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { instagramThumbOffset } from "./ig-cover.mjs";
 
 const GRAPH_API_BASE = "https://graph.facebook.com/v22.0";
 
@@ -14,7 +15,7 @@ export async function uploadInstagram({
   if (!onEvent) throw new Error("Tracked posting callback required");
   if (!source || typeof caption !== "string" || !caption.trim()) throw new Error("Video source/caption missing");
   if (source.type === "file" && statSync(source.value).size === 0) throw new Error("Empty video");
-  const thumbOffset = String(env.INSTAGRAM_THUMB_OFFSET_MS ?? 7000);
+  const thumbOffset = instagramThumbOffset(env);
 
   async function graph(path, params, method = "GET", form = false) {
     const url = new URL(`${GRAPH_API_BASE}${path}`);

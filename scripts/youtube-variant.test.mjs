@@ -1,7 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  coverPathFor,
   youtubeVideoPathFor,
   isYouTubeVariantFile,
   isSharedVideoFile,
@@ -23,8 +22,6 @@ function existsOnly(...paths) {
 
 test("file naming keeps the Instagram files as they were and suffixes the YouTube render", () => {
   assert.equal(youtubeVideoPathFor(shared), youtube);
-  assert.equal(coverPathFor(shared), "output/trending-20260914-cover.jpg");
-  assert.equal(coverPathFor(youtube), "output/trending-20260914-youtube-cover.jpg");
   assert.equal(isYouTubeVariantFile(youtube), true);
   assert.equal(isYouTubeVariantFile(shared), false);
 });
@@ -46,33 +43,18 @@ test("argPath resolves relative paths against the base dir and keeps absolute on
   assert.equal(argPath(["--video="], "video", "/repo"), null);
 });
 
-test("YouTube uploads its own render with the matching cover as thumbnail", () => {
-  const r = resolveYouTubeUpload({
-    sharedVideo: shared,
-    youtubeVideo: youtube,
-    exists: existsOnly(youtube, "output/trending-20260914-youtube-cover.jpg"),
-  });
-  assert.deepEqual(r, {
-    video: youtube,
-    openingVariant: "top1",
-    thumbnail: "output/trending-20260914-youtube-cover.jpg",
-    fellBack: false,
-  });
-});
-
-test("YouTube render without a cover still uploads, just without a custom thumbnail", () => {
+test("YouTube uploads its own render (the thumbnail is chosen by post-sns: the Instagram cover)", () => {
   const r = resolveYouTubeUpload({ sharedVideo: shared, youtubeVideo: youtube, exists: existsOnly(youtube) });
-  assert.equal(r.video, youtube);
-  assert.equal(r.thumbnail, null);
+  assert.deepEqual(r, { video: youtube, openingVariant: "top1", fellBack: false });
 });
 
-test("missing YouTube render falls back to the shared video and never uses the brand cover", () => {
+test("missing YouTube render falls back to the shared video", () => {
   const r = resolveYouTubeUpload({
     sharedVideo: shared,
     youtubeVideo: youtube,
     exists: existsOnly(shared, "output/trending-20260914-cover.jpg"),
   });
-  assert.deepEqual(r, { video: shared, openingVariant: "brand", thumbnail: null, fellBack: true });
+  assert.deepEqual(r, { video: shared, openingVariant: "brand", fellBack: true });
 
   const notRequested = resolveYouTubeUpload({ sharedVideo: shared, exists: existsOnly(shared) });
   assert.equal(notRequested.video, shared);
@@ -108,7 +90,7 @@ function harness({ failOn = null, clock = [0], stepMs = 0, deadline = 10 * 60 * 
 
 const cmds = (calls) => calls.map((c) => c.cmd.split(" ").slice(0, 3).join(" "));
 
-test("Step 4d success: YouTube props, render, normalize, cover — returns the YouTube file", async () => {
+test("Step 4d success: YouTube props, render, normalize — returns the YouTube file (no cover still)", async () => {
   const h = harness();
   assert.equal(await renderYouTubeVariant(h.args), youtube);
   assert.deepEqual(JSON.parse(h.writes[0].data), { projects: [{ name: "colibri" }], openingVariant: "top1" });
@@ -116,13 +98,11 @@ test("Step 4d success: YouTube props, render, normalize, cover — returns the Y
   assert.deepEqual(cmds(h.calls), [
     "npx remotion render",
     "ffmpeg -y -i",
-    "npx remotion still",
     'rm -f "output/trending-20260914-youtube.raw.mp4"',
   ]);
   assert.ok(h.calls[0].cmd.includes('"output/trending-20260914-youtube.raw.mp4"'));
   assert.ok(h.calls[1].cmd.includes("-pix_fmt yuv420p"));
-  assert.ok(h.calls[2].cmd.includes('"output/trending-20260914-youtube-cover.jpg" --frame=60'));
-  assert.ok(h.calls.slice(0, 3).every((c) => c.timeout > 0), "every heavy step has a timeout");
+  assert.ok(h.calls.slice(0, 2).every((c) => c.timeout > 0), "every heavy step has a timeout");
   assert.equal(h.errors.length, 0);
 });
 
@@ -137,13 +117,6 @@ test("Step 4d render failure / timeout: falls back (null) and removes partial Yo
   assert.ok(!h.calls.some((c) => c.cmd.includes("remotion still")));
   assert.match(h.errors[0], /falls back to the shared video/);
   assert.match(h.errors[0], /process group killed/);
-});
-
-test("Step 4d cover failure keeps the video (no custom thumbnail that day)", async () => {
-  const h = harness({ failOn: "remotion still" });
-  assert.equal(await renderYouTubeVariant(h.args), youtube);
-  assert.ok(h.calls.some((c) => c.cmd === 'rm -f "output/trending-20260914-youtube-cover.jpg"'));
-  assert.ok(!h.calls.some((c) => c.cmd === 'rm -f "output/trending-20260914-youtube.mp4"'));
 });
 
 test("Step 4d uses the injected remove for cleanup (pipeline deletes files in-process)", async () => {

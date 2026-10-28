@@ -25,8 +25,8 @@ function fixture(t, checkpoint = () => {}) {
   const captions = { date: { compact: "20300102", full: "2030/01/02" }, instagram: "saved exact caption", youtube: { title: "saved YT title", tags: ["OSS"] } };
   const trendingData = { projects: [{ fullName: "test/repo", language: "JS" }] };
   const args = { rootDir, date, video, captions, trendingData, audioDurations: { opening: 10 },
-    youtubeUpload: { video, openingVariant: "brand", thumbnail: null }, env,
-    archive: () => {}, checkpoint,
+    youtubeUpload: { video, openingVariant: "brand" }, env,
+    archive: () => {}, checkpoint, igCover: () => null,
     uploadYouTube: async ({ onEvent }) => {
       const result = { videoId: "youtube-1", videoUrl: "https://youtube.com/shorts/youtube-1", title: "actual YT title" };
       onEvent({ ...result, status: "succeeded" });
@@ -128,6 +128,24 @@ test("known YouTube ID survives a child failure after insert", async (t) => {
   }, uploadIG: graphMock().upload }), /failed: youtube/);
   assert.equal(loadState(f.rootDir, date).platforms.youtube.videoId, "known-before-crash");
   assert.equal(read(join(f.rootDir, "data/performance-history.json")).videos[0].videoId, "known-before-crash");
+});
+
+test("YouTube's thumbnail is the Instagram cover of the shared video, on the TOP1 arm too", async (t) => {
+  const f = fixture(t);
+  const youtubeVideo = f.video.replace(/\.mp4$/, "-youtube.mp4");
+  const seen = {};
+  await postDaily({ ...f.args, youtubeUpload: { video: youtubeVideo, openingVariant: "top1", fellBack: false },
+    igCover: ({ video }) => { seen.coverFrom = video; return "/x/trending-20300102-ig-cover.jpg"; },
+    uploadYouTube: async (args) => {
+      seen.youtube = args;
+      args.onEvent({ videoId: "youtube-1", status: "succeeded" });
+      return { videoId: "youtube-1" };
+    },
+    uploadIG: graphMock().upload });
+  assert.equal(seen.coverFrom, f.video, "cut from the video Instagram gets");
+  assert.equal(seen.youtube.video, youtubeVideo);
+  assert.equal(seen.youtube.openingVariant, "top1");
+  assert.equal(seen.youtube.thumbnail, "/x/trending-20300102-ig-cover.jpg");
 });
 
 test("missing credentials are explicit skips; missing archive prevents all SNS calls", async (t) => {

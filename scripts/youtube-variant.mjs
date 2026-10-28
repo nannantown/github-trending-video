@@ -10,7 +10,10 @@
  *   output/trending-YYYYMMDD.mp4                shared render → Instagram (unchanged)
  *   output/trending-YYYYMMDD-cover.jpg          shared cover  → GitHub Release (unchanged)
  *   output/trending-YYYYMMDD-youtube.mp4        TOP1 opening  → YouTube
- *   output/trending-YYYYMMDD-youtube-cover.jpg  frame 60 of the YouTube render → thumbnails.set
+ *   output/trending-YYYYMMDD-ig-cover.jpg       the Instagram cover frame → thumbnails.set
+ *
+ * Until 2026-10-27 the thumbnail was frame 60 of the YouTube render; since 2026-10-28 (owner
+ * decision) it is the Instagram cover on both arms — see ig-cover.mjs.
  *
  * When the YouTube render is missing (render failed, out of time budget, or
  * YT_OPENING_HOOK off) YouTube falls back to the shared video, so the daily
@@ -31,11 +34,6 @@ export const MIN_VARIANT_BUDGET_MS = 150 * 1000;
 /** Same normalization as pipeline.mjs Step 4b, so both files differ only in the opening. */
 const NORMALIZE_ARGS =
   "-c:v libx264 -pix_fmt yuv420p -profile:v high -level 4.0 -crf 20 -preset fast -c:a copy -movflags +faststart";
-
-/** trending-YYYYMMDD.mp4 → trending-YYYYMMDD-cover.jpg (same rule for both renders). */
-export function coverPathFor(videoPath) {
-  return videoPath.replace(/\.mp4$/, "-cover.jpg");
-}
 
 /** trending-YYYYMMDD.mp4 → trending-YYYYMMDD-youtube.mp4 */
 export function youtubeVideoPathFor(sharedVideoPath) {
@@ -73,31 +71,19 @@ export function argPath(argv, name, baseDir) {
  * @param {string} args.sharedVideo   the Instagram / shared render
  * @param {string|null} [args.youtubeVideo]  the YouTube render, if the pipeline produced one
  * @param {(p: string) => boolean} [args.exists]
- * @returns {{ video: string, openingVariant: "top1"|"brand", thumbnail: string|null, fellBack: boolean }}
+ * The thumbnail is not chosen here: post-sns.mjs always uses the Instagram cover (ig-cover.mjs).
+ * @returns {{ video: string, openingVariant: "top1"|"brand", fellBack: boolean }}
  */
 export function resolveYouTubeUpload({ sharedVideo, youtubeVideo = null, exists = existsSync }) {
   if (youtubeVideo && exists(youtubeVideo)) {
-    const cover = coverPathFor(youtubeVideo);
-    return {
-      video: youtubeVideo,
-      openingVariant: "top1",
-      thumbnail: exists(cover) ? cover : null,
-      fellBack: false,
-    };
+    return { video: youtubeVideo, openingVariant: "top1", fellBack: false };
   }
-  // The shared cover is the brand frame (same every day), so it is never used
-  // as the YouTube thumbnail — YouTube keeps its auto-picked frame instead.
-  return {
-    video: sharedVideo,
-    openingVariant: "brand",
-    thumbnail: null,
-    fellBack: Boolean(youtubeVideo),
-  };
+  return { video: sharedVideo, openingVariant: "brand", fellBack: Boolean(youtubeVideo) };
 }
 
 /**
- * pipeline.mjs Step 4d: render + normalize the YouTube-only video and its
- * cover within the time budget. Never rejects. Resolves to the YouTube video
+ * pipeline.mjs Step 4d: render + normalize the YouTube-only video within the
+ * time budget. Never rejects. Resolves to the YouTube video
  * path, or null when YouTube must fall back to the shared video.
  *
  * @param {object} args
@@ -127,7 +113,6 @@ export async function renderYouTubeVariant({
 }) {
   const video = youtubeVideoPathFor(sharedVideo);
   const raw = video.replace(/\.mp4$/, ".raw.mp4");
-  const cover = coverPathFor(video);
   const left = () => deadline - now();
 
   if (left() < minBudgetMs) {
@@ -157,15 +142,6 @@ export async function renderYouTubeVariant({
     await run(`npx remotion render TrendingVideo "${raw}" --props="${propsPath}"`, { timeout: budget("render") });
     await run(`ffmpeg -y -i "${raw}" ${NORMALIZE_ARGS} "${video}"`, { timeout: budget("encode") });
     rendered = true;
-
-    try {
-      await run(`npx remotion still TrendingVideo "${cover}" --frame=60 --props="${propsPath}"`, {
-        timeout: budget("cover"),
-      });
-    } catch (err) {
-      logError(`YouTube cover render failed (non-blocking — no custom thumbnail today): ${err.message}`);
-      await remove(cover);
-    }
   } catch (err) {
     logError(`YouTube variant render failed (non-blocking — YouTube falls back to the shared video): ${err.message}`);
     // A half-written file must never be picked up as the YouTube upload.
