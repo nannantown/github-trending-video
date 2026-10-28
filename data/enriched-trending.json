@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "discovery": {
-    "method": "business-angle",
-    "description": "5本すべてを受託・スタートアップの「外注費を削る/納品品質を標準化する」事業視点で切り、CTO・技術選定担当者がすぐにコスト計算できる判断材料を揃える",
+    "method": "self-experiment",
+    "description": "5本すべて実際にインストールして初回起動まで触り、1コマンドでどこまで動くかの第一人称の手触りを並べる",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/JetBrains/thinkrail",
       "https://github.com/elayadesign/ai-design-skills",
-      "https://github.com/Nutlope/hallmark",
-      "https://github.com/nightly-labs/openbot",
       "https://github.com/obra/superpowers",
-      "https://github.com/pbakaus/impeccable"
+      "https://github.com/HKUDS/DeepTutor",
+      "https://github.com/macro-inc/macro"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "JetBrains/thinkrail",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "stars": 4983,
+      "todayStars": 1075,
+      "description": "JetBrains製の並列開発IDE",
+      "detail": "JetBrainsが出した軽量IDEで、pi agentとSPEC.md知識グラフを核にgit worktreeごと並列開発とPR管理をデスクトップ1画面に収めます。Apache-2.0でCursor代替を狙います。",
+      "narration": "JetBrains製IDEを触りました。pi agentがworktreeごと並列起動しPR管理まで1画面で済みます。"
+    },
+    {
+      "rank": 2,
       "fullName": "elayadesign/ai-design-skills",
       "name": "ai-design-skills",
       "url": "https://github.com/elayadesign/ai-design-skills",
       "language": null,
-      "stars": 9197,
-      "todayStars": 1395,
-      "description": "LP外注を削る共通設計skill",
-      "detail": "Claude CodeやCursorが読む設計skillをforkし、タイポグラフィや余白・ブランドカラーを1箇所書き換えるだけで、全案件のLP制作に同じデザイン基準を自動適用できます。受託の外注費圧縮に効きます。",
-      "narration": "LP制作の外注デザイン費を削るskillです。brand値を書き換えれば受託案件を即座に標準化できます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "Nutlope/hallmark",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "language": "CSS",
-      "stars": 38880,
-      "todayStars": 2859,
-      "description": "MVPのLP外注費を圧縮するskill",
-      "detail": "48マテリアルテーマから1つを選び、生成直後にブラウザレンダリングでAI感を自動検出するskillです。MVPフェーズのLPデザイン外注を省けるためスタートアップのランウェイを数週延ばせます。",
-      "narration": "スタートアップのLP外注費を削るskillです。AI感を自動検査しMVPのランウェイを数週延ばせます。"
+      "stars": 11029,
+      "todayStars": 1938,
+      "description": "brand値1箇所書換で全LP統一",
+      "detail": "skills/landing-page-designの末尾にあるbrand値セクションを1箇所書き換えるだけで、全案件のLPに同じタイポと余白とカラー基準が自動適用され、受託のLP外注費を圧縮できます。",
+      "narration": "LP制作skillを触りました。SKILL.mdの末尾のbrand値を1箇所書き換えるだけで全案件が揃いました。"
     },
     {
       "rank": 3,
-      "fullName": "nightly-labs/openbot",
-      "name": "openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "language": "TypeScript",
-      "stars": 2358,
-      "todayStars": 794,
-      "description": "顧客ごとに隔離するagent統合盤",
-      "detail": "Codex・Claude Code・Grokなど複数のAI CLIを1画面にまとめ、永続workspaceとタスクキューを備えたデスクトップappです。受託案件を顧客ごとに隔離運用でき、商用は別途ライセンスが必要です。",
-      "narration": "受託案件を顧客ごとに隔離運用できるagent統合盤です。商用には別途ライセンスが必要です。"
-    },
-    {
-      "rank": 4,
       "fullName": "obra/superpowers",
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 306372,
-      "todayStars": 608,
-      "description": "AIにTDDと設計規律を強制",
-      "detail": "ブレスト・計画・subagent駆動・TDD・コードレビューの一連のworkflowをskillとして束ね、agentが勝手に実装し始めるのを防ぐ方法論です。Prime Radiantが有償サポートも提供しています。",
-      "narration": "AIエージェントにTDDと設計規律を強制するskillです。受託の納品品質を標準化できます。"
+      "stars": 307386,
+      "todayStars": 1096,
+      "description": "頼むとTDDまで走り切るskill",
+      "detail": "plugin installで入れると、依頼時にbrainstorming・計画・subagent駆動・TDD・コードレビューの一連のworkflowが強制起動します。Prime Radiant社の有償サポートもあります。",
+      "narration": "plugin installで入れたら、依頼直後にbrainstormingが発動しTDDまで一気通貫で走りました。"
+    },
+    {
+      "rank": 4,
+      "fullName": "HKUDS/DeepTutor",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "language": "Python",
+      "stars": 47869,
+      "todayStars": 2376,
+      "description": "docker runで動く学習agent",
+      "detail": "docker runの1コマンドで起動し、127.0.0.1:3782でチャット・クイズ・Visualize・Video Lessonが1画面に揃います。L1/L2/L3の3層メモリで学習状態が永続化されます。Apache-2.0。",
+      "narration": "docker runで立ち上げました。クイズとVisualizeがチャットと同じ画面に揃う学習agentです。"
     },
     {
       "rank": 5,
-      "fullName": "pbakaus/impeccable",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "fullName": "macro-inc/macro",
+      "name": "macro",
+      "url": "https://github.com/macro-inc/macro",
       "language": "Rust",
-      "stars": 90425,
-      "todayStars": 1458,
-      "description": "AI UI生成の品質をCIで審査",
-      "detail": "62ルールのAPIレス検出器がCIで動き、Inter一辺倒や紫グラデなどのAIスロップを事前にブロックします。受託フロントエンド納品のデザイン品質基準をコードレベルで担保できます。",
-      "narration": "受託フロントエンドの納品品質をCIで担保するskillです。AI生成の典型UIを事前に弾けます。"
+      "stars": 5384,
+      "todayStars": 106,
+      "description": "Gmail連携15分で動く統合盤",
+      "detail": "macro.comでサインアップしGmailをつなぐと15分でemail・chat・docs・tasks・agents・CRMが1画面に統合され、毎朝のcronで共有AIメモリが育ちます。AGPL-3.0でセルフホストも可能です。",
+      "narration": "macro.comでGmailをつなぎました。1枚のworkspaceに毎朝AIメモリが自動で育っていきます。"
     }
   ]
 }
