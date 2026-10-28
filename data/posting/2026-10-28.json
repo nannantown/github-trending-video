@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "29bbbc63-0195-4730-a11a-39193c235785",
       "attempts": 1,
-      "updatedAt": "2026-10-28T07:41:50.942Z",
+      "updatedAt": "2026-10-28T07:41:52.801Z",
       "date": "2026-10-28",
       "videoId": "fmoE4d8eD4A",
       "videoUrl": "https://youtube.com/shorts/fmoE4d8eD4A",
@@ -19,11 +19,14 @@
       "title": "ai-design-skills — LP外注を削る共通設計skill｜GitHub Trending TOP5 10/28",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-28T07:41:50.942Z"
+  "updatedAt": "2026-10-28T07:41:52.801Z"
 }
