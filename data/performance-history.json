@@ -7419,7 +7419,7 @@
           "safeToRetry": false,
           "attemptId": "622dfa93-643a-4e0f-ae28-c60cd78b1b00",
           "attempts": 1,
-          "updatedAt": "2026-10-29T02:02:10.315Z",
+          "updatedAt": "2026-10-29T02:02:11.858Z",
           "date": "2026-10-29",
           "videoId": "0pUxpR4nI2Y",
           "videoUrl": "https://youtube.com/shorts/0pUxpR4nI2Y",
@@ -7427,13 +7427,17 @@
           "title": "thinkrail — JetBrains製の並列開発IDE｜GitHub Trending TOP5 10/29",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
