@@ -6,16 +6,24 @@
   "metadataSha256": "54d26fa9d6d6c441cc42bef7d8ba43c08b8469f3ea7a5ec3aef4397fd3c35f4d",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "622dfa93-643a-4e0f-ae28-c60cd78b1b00",
       "attempts": 1,
-      "updatedAt": "2026-10-29T02:02:05.096Z"
+      "updatedAt": "2026-10-29T02:02:10.315Z",
+      "date": "2026-10-29",
+      "videoId": "0pUxpR4nI2Y",
+      "videoUrl": "https://youtube.com/shorts/0pUxpR4nI2Y",
+      "uploadedAt": "2026-10-29T02:02:10.315Z",
+      "title": "thinkrail — JetBrains製の並列開発IDE｜GitHub Trending TOP5 10/29",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-29T02:02:07.124Z"
+  "updatedAt": "2026-10-29T02:02:10.315Z"
 }
