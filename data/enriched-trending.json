@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "discovery": {
-    "method": "self-experiment",
-    "description": "5本すべて実際にインストールして初回起動まで触り、1コマンドでどこまで動くかの第一人称の手触りを並べる",
+    "method": "comparison",
+    "description": "5本すべてを『今、人気の有償ツールやSaaSを何で置き換えるか』の対抗軸で比べる",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/JetBrains/thinkrail",
-      "https://github.com/elayadesign/ai-design-skills",
-      "https://github.com/obra/superpowers",
       "https://github.com/HKUDS/DeepTutor",
-      "https://github.com/macro-inc/macro"
+      "https://github.com/obra/superpowers",
+      "https://github.com/pbakaus/impeccable",
+      "https://github.com/JetBrains/thinkrail",
+      "https://github.com/milind-soni/OpenMausBot"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "JetBrains/thinkrail",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "language": "TypeScript",
-      "stars": 4983,
-      "todayStars": 1075,
-      "description": "JetBrains製の並列開発IDE",
-      "detail": "JetBrainsが出した軽量IDEで、pi agentとSPEC.md知識グラフを核にgit worktreeごと並列開発とPR管理をデスクトップ1画面に収めます。Apache-2.0でCursor代替を狙います。",
-      "narration": "JetBrains製IDEを触りました。pi agentがworktreeごと並列起動しPR管理まで1画面で済みます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "elayadesign/ai-design-skills",
-      "name": "ai-design-skills",
-      "url": "https://github.com/elayadesign/ai-design-skills",
-      "language": null,
-      "stars": 11029,
-      "todayStars": 1938,
-      "description": "brand値1箇所書換で全LP統一",
-      "detail": "skills/landing-page-designの末尾にあるbrand値セクションを1箇所書き換えるだけで、全案件のLPに同じタイポと余白とカラー基準が自動適用され、受託のLP外注費を圧縮できます。",
-      "narration": "LP制作skillを触りました。SKILL.mdの末尾のbrand値を1箇所書き換えるだけで全案件が揃いました。"
-    },
-    {
-      "rank": 3,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 307386,
-      "todayStars": 1096,
-      "description": "頼むとTDDまで走り切るskill",
-      "detail": "plugin installで入れると、依頼時にbrainstorming・計画・subagent駆動・TDD・コードレビューの一連のworkflowが強制起動します。Prime Radiant社の有償サポートもあります。",
-      "narration": "plugin installで入れたら、依頼直後にbrainstormingが発動しTDDまで一気通貫で走りました。"
-    },
-    {
-      "rank": 4,
       "fullName": "HKUDS/DeepTutor",
       "name": "DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
       "language": "Python",
-      "stars": 47869,
-      "todayStars": 2376,
-      "description": "docker runで動く学習agent",
-      "detail": "docker runの1コマンドで起動し、127.0.0.1:3782でチャット・クイズ・Visualize・Video Lessonが1画面に揃います。L1/L2/L3の3層メモリで学習状態が永続化されます。Apache-2.0。",
-      "narration": "docker runで立ち上げました。クイズとVisualizeがチャットと同じ画面に揃う学習agentです。"
+      "stars": 49902,
+      "todayStars": 1926,
+      "description": "家庭教師SaaSを置き換える学習agent",
+      "detail": "docker runの1コマンドで起動する学習エージェントです。L1/L2/L3の3層メモリで学習状態を永続化し、Khanmigoなど有償家庭教師SaaSを自前サーバーで置き換えられます。",
+      "narration": "家庭教師SaaSのOSS代替です。docker runの1行でチャットとクイズが1画面に立ち上がります。"
+    },
+    {
+      "rank": 2,
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 308472,
+      "todayStars": 1037,
+      "description": "Claude Code規律を強制するskill束",
+      "detail": "/plugin installで導入すると brainstormingの質問攻めとTDDとデバッグ手順が自動発動します。Prime Radiant社の有償サポートもあり、チームのClaude Codeに同じ規律を強制できます。",
+      "narration": "散らばった自作skillを置き換える束です。plugin installでTDDとbrainstormingが走ります。"
+    },
+    {
+      "rank": 3,
+      "fullName": "pbakaus/impeccable",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "stars": 95189,
+      "todayStars": 2881,
+      "description": "APIなしで動くAI slop検出CLI",
+      "detail": "npx impeccable detectを叩くとAI生成UIにありがちな62個のslopパターンを決定的に検出します。LLMもAPIキーも不要なので、CIに組んでも審査コストは発生しません。",
+      "narration": "AI生成UIのslopを62ルールで検出するCLIです。LLM不要でCI組込みのコストはゼロ円です。"
+    },
+    {
+      "rank": 4,
+      "fullName": "JetBrains/thinkrail",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "stars": 5959,
+      "todayStars": 1116,
+      "description": "Cursor対抗のJetBrains IDE",
+      "detail": "pi agentを核に、git worktreeごと隔離されたworkspaceとPR管理を1枚のIDEに収めるJetBrains製品です。CursorやVS Codeを公式IDEベンダー側から代替しに来ます。",
+      "narration": "CursorやVS Codeを公式ベンダー側から代替するJetBrains製IDEです。pi agentが同梱です。"
     },
     {
       "rank": 5,
-      "fullName": "macro-inc/macro",
-      "name": "macro",
-      "url": "https://github.com/macro-inc/macro",
-      "language": "Rust",
-      "stars": 5384,
-      "todayStars": 106,
-      "description": "Gmail連携15分で動く統合盤",
-      "detail": "macro.comでサインアップしGmailをつなぐと15分でemail・chat・docs・tasks・agents・CRMが1画面に統合され、毎朝のcronで共有AIメモリが育ちます。AGPL-3.0でセルフホストも可能です。",
-      "narration": "macro.comでGmailをつなぎました。1枚のworkspaceに毎朝AIメモリが自動で育っていきます。"
+      "fullName": "milind-soni/OpenMausBot",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "stars": 7404,
+      "todayStars": 1190,
+      "description": "各botがVMを持つGrok代替",
+      "detail": "bot1体ごとに専用の仮想マシンと接続アプリを割り当て、ClaudeやCodexに動作させるGrok BotのOSS代替です。Apache-2.0で配布されており、常駐agent群を自前で立てられます。",
+      "narration": "xAIのGrok BotのOSS代替です。bot1体ごとに仮想マシンを割り当て、好きな環境で動きます。"
     }
   ]
 }
