@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "discovery": {
-    "method": "comparison",
-    "description": "5本すべてを『今、人気の有償ツールやSaaSを何で置き換えるか』の対抗軸で比べる",
+    "method": "business-angle",
+    "description": "5本すべてを『受託・自社運用で有償SaaSの月額費を自前の固定費に畳む』経済視点で切る",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/HKUDS/DeepTutor",
-      "https://github.com/obra/superpowers",
+      "https://github.com/thedotmack/claude-mem",
+      "https://github.com/milind-soni/OpenMausBot",
       "https://github.com/pbakaus/impeccable",
-      "https://github.com/JetBrains/thinkrail",
-      "https://github.com/milind-soni/OpenMausBot"
+      "https://github.com/CopilotKit/OpenBot",
+      "https://github.com/Renhuai123/ziwei-doushu"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,27 +17,27 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "HKUDS/DeepTutor",
-      "name": "DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "language": "Python",
-      "stars": 49902,
-      "todayStars": 1926,
-      "description": "家庭教師SaaSを置き換える学習agent",
-      "detail": "docker runの1コマンドで起動する学習エージェントです。L1/L2/L3の3層メモリで学習状態を永続化し、Khanmigoなど有償家庭教師SaaSを自前サーバーで置き換えられます。",
-      "narration": "家庭教師SaaSのOSS代替です。docker runの1行でチャットとクイズが1画面に立ち上がります。"
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars": 106125,
+      "todayStars": 1145,
+      "description": "Claude Codeに記憶を足すOSS",
+      "detail": "SessionStartやPreToolUseのhookでセッション活動をSQLiteに保存し、Chromaの意味検索で次セッションに戻す記憶プラグインです。Apache-2.0なので受託案件でCMEM Proなど月額のメモリSaaSを払わず自前運用できます。",
+      "narration": "Claude Codeに長期記憶を足すOSS基盤です。受託案件でセッション間の再説明コストを削れます。"
     },
     {
       "rank": 2,
-      "fullName": "obra/superpowers",
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 308472,
-      "todayStars": 1037,
-      "description": "Claude Code規律を強制するskill束",
-      "detail": "/plugin installで導入すると brainstormingの質問攻めとTDDとデバッグ手順が自動発動します。Prime Radiant社の有償サポートもあり、チームのClaude Codeに同じ規律を強制できます。",
-      "narration": "散らばった自作skillを置き換える束です。plugin installでTDDとbrainstormingが走ります。"
+      "fullName": "milind-soni/OpenMausBot",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "stars": 8535,
+      "todayStars": 899,
+      "description": "bot毎にVMを持つOSS基盤",
+      "detail": "bot1体ごとに専用の仮想マシンと接続アプリを割り当て、Claude/Codex駆動のGrok Bot代替として動きます。Apache-2.0のベースにenterprise/のsource-availableが乗り、常駐bot群の月額SaaS費を1枚のサーバー費に畳めます。",
+      "narration": "常駐bot群を自前サーバーで動かす基盤です。SaaSのbot月額をEC2一台の固定費に畳めます。"
     },
     {
       "rank": 3,
@@ -45,35 +45,35 @@
       "name": "impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "language": "Rust",
-      "stars": 95189,
-      "todayStars": 2881,
-      "description": "APIなしで動くAI slop検出CLI",
-      "detail": "npx impeccable detectを叩くとAI生成UIにありがちな62個のslopパターンを決定的に検出します。LLMもAPIキーも不要なので、CIに組んでも審査コストは発生しません。",
-      "narration": "AI生成UIのslopを62ルールで検出するCLIです。LLM不要でCI組込みのコストはゼロ円です。"
+      "stars": 96961,
+      "todayStars": 2299,
+      "description": "AI slop検出のRust製CLI",
+      "detail": "npx impeccable detectでAI生成UIにありがちな62個のslopパターンを決定論で検出します。LLM不要なのでCI組込みのランニングコストはゼロで、受託フロントの外注審査人月をそのまま置き換えられます。",
+      "narration": "AI生成UIのslopを決定論で止めるCLIです。受託フロントの外注審査人月をCIで削れます。"
     },
     {
       "rank": 4,
-      "fullName": "JetBrains/thinkrail",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
+      "fullName": "CopilotKit/OpenBot",
+      "name": "OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
       "language": "TypeScript",
-      "stars": 5959,
-      "todayStars": 1116,
-      "description": "Cursor対抗のJetBrains IDE",
-      "detail": "pi agentを核に、git worktreeごと隔離されたworkspaceとPR管理を1枚のIDEに収めるJetBrains製品です。CursorやVS Codeを公式IDEベンダー側から代替しに来ます。",
-      "narration": "CursorやVS Codeを公式ベンダー側から代替するJetBrains製IDEです。pi agentが同梱です。"
+      "stars": 8736,
+      "todayStars": 707,
+      "description": "AIコワーカーを自社で抱える基盤",
+      "detail": "DockerとBunで立ち上がる社内AIコワーカーのMITテンプレートで、bot毎に独自のブラウザ・ファイル・ツール環境がCEL policyで仕切られます。SaaSの席料を払わずに自社運用でき、AG-UI案件の受託雛型としても使えます。",
+      "narration": "AIコワーカーを自社に抱えるテンプレートです。SaaS席料を抜いて受託に組み替えられます。"
     },
     {
       "rank": 5,
-      "fullName": "milind-soni/OpenMausBot",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
+      "fullName": "Renhuai123/ziwei-doushu",
+      "name": "ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
       "language": "TypeScript",
-      "stars": 7404,
-      "todayStars": 1190,
-      "description": "各botがVMを持つGrok代替",
-      "detail": "bot1体ごとに専用の仮想マシンと接続アプリを割り当て、ClaudeやCodexに動作させるGrok BotのOSS代替です。Apache-2.0で配布されており、常駐agent群を自前で立てられます。",
-      "narration": "xAIのGrok BotのOSS代替です。bot1体ごとに仮想マシンを割り当て、好きな環境で動きます。"
+      "stars": 11164,
+      "todayStars": 1146,
+      "description": "紫微斗数の計算MITエンジン",
+      "detail": "倪海厦系の紫微斗数チャート計算と1,100件超の格局ルールをMITで公開するTypeScriptエンジンです。CC BY 4.0の67万件データセットも付属し、占いアプリの計算部を自前化して商用SaaSのロイヤリティ費を抑えられます。",
+      "narration": "紫微斗数の計算エンジンのOSS実装です。占いアプリの計算部を自前化し商用SaaS費を削れます。"
     }
   ]
 }
