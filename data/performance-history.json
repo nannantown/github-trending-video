@@ -7462,8 +7462,8 @@
     },
     {
       "date": "2026-10-30",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "O318qo5aPJY",
+      "videoUrl": "https://youtube.com/shorts/O318qo5aPJY",
       "title": "DeepTutor — 家庭教師SaaSを置き換える学習agent｜GitHub Trending TOP5 10/30",
       "titleTemplate": "top1",
       "hashtags": [
@@ -7517,17 +7517,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "08feac16-df91-4519-93d7-2ba411d975f5",
           "attempts": 1,
-          "updatedAt": "2026-10-30T02:15:02.952Z"
+          "updatedAt": "2026-10-30T02:15:07.963Z",
+          "date": "2026-10-30",
+          "videoId": "O318qo5aPJY",
+          "videoUrl": "https://youtube.com/shorts/O318qo5aPJY",
+          "uploadedAt": "2026-10-30T02:15:07.963Z",
+          "title": "DeepTutor — 家庭教師SaaSを置き換える学習agent｜GitHub Trending TOP5 10/30",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
