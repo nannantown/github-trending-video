@@ -7536,13 +7536,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "uploading",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "ac872dd9-06f5-406b-9789-02363b2f53ae",
           "attempts": 2,
-          "updatedAt": "2026-10-30T09:57:13.956Z",
+          "updatedAt": "2026-10-30T09:57:47.734Z",
           "containerId": "18097155236460294",
           "containerIds": [
             "18097116110460294",
