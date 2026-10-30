@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "journalId": "efe71dff-5608-45f0-b9e5-ba4b23adc570",
+  "date": "2026-10-30",
+  "videoSha256": "89ff3107c6ec52f561146502cfa2a58b67f7a273bc11a531938e3556f4235b11",
+  "metadataSha256": "cfdb9d728cdeb3e492785b3493b83b37189ec7f58222f86590847771cb2c966b",
+  "platforms": {
+    "youtube": {
+      "status": "not_started"
+    },
+    "instagram": {
+      "status": "not_started"
+    }
+  },
+  "updatedAt": "2026-10-30T02:14:58.788Z"
+}
