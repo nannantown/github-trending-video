@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "4a355361-7c82-4bf6-ba84-c0ad47a6c557",
       "attempts": 1,
-      "updatedAt": "2026-10-31T01:57:42.338Z",
+      "updatedAt": "2026-10-31T01:57:44.320Z",
       "date": "2026-10-31",
       "videoId": "tg-82c45Trg",
       "videoUrl": "https://youtube.com/shorts/tg-82c45Trg",
@@ -19,11 +19,14 @@
       "title": "claude-mem — Claude Codeに記憶を足すOSS｜GitHub Trending TOP5 10/31",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-31T01:57:42.338Z"
+  "updatedAt": "2026-10-31T01:57:44.320Z"
 }
