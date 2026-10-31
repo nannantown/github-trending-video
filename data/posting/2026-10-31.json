@@ -6,16 +6,24 @@
   "metadataSha256": "8264703ec88b2be9ed0d08ff5d60183aa06379beb6adcc86ae8908627e15dde3",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "4a355361-7c82-4bf6-ba84-c0ad47a6c557",
       "attempts": 1,
-      "updatedAt": "2026-10-31T01:57:37.719Z"
+      "updatedAt": "2026-10-31T01:57:42.338Z",
+      "date": "2026-10-31",
+      "videoId": "tg-82c45Trg",
+      "videoUrl": "https://youtube.com/shorts/tg-82c45Trg",
+      "uploadedAt": "2026-10-31T01:57:42.338Z",
+      "title": "claude-mem — Claude Codeに記憶を足すOSS｜GitHub Trending TOP5 10/31",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-10-31T01:57:39.493Z"
+  "updatedAt": "2026-10-31T01:57:42.338Z"
 }
