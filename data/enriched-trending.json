@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "discovery": {
-    "method": "business-angle",
-    "description": "5本すべてを『受託・自社運用で有償SaaSの月額費を自前の固定費に畳む』経済視点で切る",
+    "method": "trend-pattern",
+    "description": "Claude Code 周辺の『記憶 / スキル / エージェント / ハーネス』の 4 層が同週に揃って Trending 入りした垂直統合トレンドを 1 本の線で解説。ニッチ系 OSS として伝統文化データの開放も裏側トレンドとして配置。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/thedotmack/claude-mem",
-      "https://github.com/milind-soni/OpenMausBot",
-      "https://github.com/pbakaus/impeccable",
-      "https://github.com/CopilotKit/OpenBot",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "https://github.com/pingdotgg/t3code",
       "https://github.com/Renhuai123/ziwei-doushu"
     ],
     "query": "",
@@ -21,47 +21,47 @@
       "name": "claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "language": "TypeScript",
-      "stars": 106125,
-      "todayStars": 1145,
-      "description": "Claude Codeに記憶を足すOSS",
-      "detail": "SessionStartやPreToolUseのhookでセッション活動をSQLiteに保存し、Chromaの意味検索で次セッションに戻す記憶プラグインです。Apache-2.0なので受託案件でCMEM Proなど月額のメモリSaaSを払わず自前運用できます。",
-      "narration": "Claude Codeに長期記憶を足すOSS基盤です。受託案件でセッション間の再説明コストを削れます。"
+      "stars": 107768,
+      "todayStars": 1723,
+      "description": "AIコーディングに記憶層を標準装備",
+      "detail": "Claude Codeのセッション記録を自動要約し、SQLiteとChromaで次回に文脈を戻す記憶層です。SessionStartなど6種のフックで組み込めて、Apache-2.0でメモリ内製化を進めます。",
+      "narration": "AIコーディングに記憶層を足す波が本格化。claude-memが個人開発で急伸し、記憶の内製化が今週の潮流です。"
     },
     {
       "rank": 2,
-      "fullName": "milind-soni/OpenMausBot",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "language": "TypeScript",
-      "stars": 8535,
-      "todayStars": 899,
-      "description": "bot毎にVMを持つOSS基盤",
-      "detail": "bot1体ごとに専用の仮想マシンと接続アプリを割り当て、Claude/Codex駆動のGrok Bot代替として動きます。Apache-2.0のベースにenterprise/のsource-availableが乗り、常駐bot群の月額SaaS費を1枚のサーバー費に畳めます。",
-      "narration": "常駐bot群を自前サーバーで動かす基盤です。SaaSのbot月額をEC2一台の固定費に畳めます。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 308308,
+      "todayStars": 882,
+      "description": "Claude Code用のスキルパック集",
+      "detail": "Matt Pocock氏がClaude Codeで日々使うスキル集です。tdd、diagnosing-bugs、code-reviewなど十数種をプラグインで導入でき、MITで命令設計の勘所を素早く取り込めます。",
+      "narration": "次に伸びるのはスキル層です。有名エンジニアの実務セットが広く採用され、命令設計の勘所が共有されています。"
     },
     {
       "rank": 3,
-      "fullName": "pbakaus/impeccable",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "language": "Rust",
-      "stars": 96961,
-      "todayStars": 2299,
-      "description": "AI slop検出のRust製CLI",
-      "detail": "npx impeccable detectでAI生成UIにありがちな62個のslopパターンを決定論で検出します。LLM不要なのでCI組込みのランニングコストはゼロで、受託フロントの外注審査人月をそのまま置き換えられます。",
-      "narration": "AI生成UIのslopを決定論で止めるCLIです。受託フロントの外注審査人月をCIで削れます。"
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "name": "Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "language": "Shell",
+      "stars": 31112,
+      "todayStars": 724,
+      "description": "49エージェントの擬似スタジオ",
+      "detail": "Claude Codeに49体のエージェントと72スキルを足し、ディレクター・リード・スペシャリスト3層で開発するテンプレートです。Godot・Unity・UE5対応、MITで組織運営を再現します。",
+      "narration": "エージェント分業の波が業界別に拡大。49体で擬似ゲームスタジオを運営し、1チャットから組織が動く週です。"
     },
     {
       "rank": 4,
-      "fullName": "CopilotKit/OpenBot",
-      "name": "OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
+      "fullName": "pingdotgg/t3code",
+      "name": "t3code",
+      "url": "https://github.com/pingdotgg/t3code",
       "language": "TypeScript",
-      "stars": 8736,
-      "todayStars": 707,
-      "description": "AIコワーカーを自社で抱える基盤",
-      "detail": "DockerとBunで立ち上がる社内AIコワーカーのMITテンプレートで、bot毎に独自のブラウザ・ファイル・ツール環境がCEL policyで仕切られます。SaaSの席料を払わずに自社運用でき、AG-UI案件の受託雛型としても使えます。",
-      "narration": "AIコワーカーを自社に抱えるテンプレートです。SaaS席料を抜いて受託に組み替えられます。"
+      "stars": 35333,
+      "todayStars": 1148,
+      "description": "複数AIエージェントの共通指揮台",
+      "detail": "Claude Code、Codex、Cursor、Grok、OpenCode、Antigravityを1枚のUIで切替操作できるハーネスです。デスクトップ・Web・モバイルから遠隔操作まで、MITで公開中です。",
+      "narration": "複数AIエージェントを1枚で束ねる動きです。t3codeがClaudeやCodexを横断統合し、ハーネス統一が進みます。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "ziwei-doushu",
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "language": "TypeScript",
-      "stars": 11164,
-      "todayStars": 1146,
-      "description": "紫微斗数の計算MITエンジン",
-      "detail": "倪海厦系の紫微斗数チャート計算と1,100件超の格局ルールをMITで公開するTypeScriptエンジンです。CC BY 4.0の67万件データセットも付属し、占いアプリの計算部を自前化して商用SaaSのロイヤリティ費を抑えられます。",
-      "narration": "紫微斗数の計算エンジンのOSS実装です。占いアプリの計算部を自前化し商用SaaS費を削れます。"
+      "stars": 12239,
+      "todayStars": 1093,
+      "description": "紫微斗数エンジンをCC BYで開放",
+      "detail": "紫微斗数の盤計算、四化、1,100超の格局ルール、古典テキストと67万件の解釈データを備えたTypeScript製エンジンです。コードはMIT、データはCC BY 4.0で、文化知識のOSS化事例です。",
+      "narration": "AI外では伝統知識のOSS化が加速。紫微斗数エンジンが台頭し、文化データをCC BYで開く流れが今週の裏側です。"
     }
   ]
 }
