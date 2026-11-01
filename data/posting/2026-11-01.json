@@ -6,11 +6,16 @@
   "metadataSha256": "b41a480f56061c6dca11e9f2088045f4f9d5d6c1c41e6594f4bf634820801f3a",
   "platforms": {
     "youtube": {
-      "status": "not_started"
+      "status": "in_progress",
+      "phase": "uploading",
+      "safeToRetry": false,
+      "attemptId": "85c7f06e-9780-4957-ba3e-bdd62bd2017b",
+      "attempts": 1,
+      "updatedAt": "2026-11-01T01:38:19.111Z"
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-01T01:38:14.360Z"
+  "updatedAt": "2026-11-01T01:38:19.111Z"
 }
