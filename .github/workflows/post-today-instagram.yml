@@ -1,4 +1,8 @@
 name: Retry Instagram for Date
+# The posting clock (sns-hub clock/, a Cloudflare cron) starts each slot on time with
+# slot=<that slot's cron line below>; the title marks it so the slot's late `schedule` backup
+# (30 min later + GitHub's delay) can see it already started and do nothing.
+run-name: ${{ inputs.slot && format('{0} (on time {1})', github.workflow, inputs.slot) || github.workflow }}
 
 # Re-post a day's Reel to Instagram only, from the exact video + metadata the
 # daily run archived in Release v<YYYYMMDD> and pinned in its posting journal
@@ -18,29 +22,36 @@ name: Retry Instagram for Date
 # later slot can fix (too long, another post on the account, a journal that is
 # not a proven pre-publication failure, the day's tries spent) — at once.
 #
-# Switches (repo Variables, scheduled runs only): IG_AUTO_RETRY=off stops all
+# Switches (repo Variables, scheduled and posting-clock runs only): IG_AUTO_RETRY=off stops all
 # automatic retries; IG_AUTO_RETRY_SKIP=20261026,20261023 leaves those days alone.
 #
 # By hand: gh workflow run post-today-instagram.yml -f date=YYYY-MM-DD -f platform=instagram
 
 on:
   schedule:
-    - cron: "7 3 * * *" # 12:07 JST
-    - cron: "7 5 * * *" # 14:07 JST
-    - cron: "7 8 * * *" # 17:07 JST
-    - cron: "7 11 * * *" # 20:07 JST — the last slot: a failure here is red
+    - cron: "37 3 * * *" # backup of 12:07 JST (the posting clock starts it at 12:07)
+    - cron: "37 5 * * *" # backup of 14:07 JST (the posting clock starts it at 14:07)
+    - cron: "37 8 * * *" # backup of 17:07 JST (the posting clock starts it at 17:07)
+    - cron: "37 11 * * *" # backup of 20:07 JST (the posting clock starts it at 20:07) — the last slot: a failure here is red
   workflow_dispatch:
     inputs:
+      slot:
+        description: "Set only by the posting clock (sns-hub clock/): the cron line of the slot this run stands for. Leave empty by hand"
+        type: string
+        default: ""
       date:
         description: "Failed posting date (YYYY-MM-DD), with a new posting journal and saved metadata"
         type: string
-        required: true
+        # not required: the posting clock sends only `slot`; a hand-run is checked by
+        # "Require main and explicit destination" below
+        required: false
+        default: ""
       platform:
         description: "Explicit retry destination"
         type: choice
         options:
           - instagram
-        required: true
+        required: false # as above
 
 permissions:
   contents: write
@@ -53,11 +64,45 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # GitHub starts `schedule` runs hours late, so the posting clock starts each slot on time and
+  # the cron above is only a backup. It does nothing when that slot's on-time run started in the
+  # last 12 hours, whatever its result (that slot already looked; the next slot looks again).
+  backup-gate:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ format('{0} (on time {1})', github.workflow, github.event.schedule) }}
+        run: |
+          since=$(date -u -d '12 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          n=$(gh api -X GET "repos/$GITHUB_REPOSITORY/actions/workflows/post-today-instagram.yml/runs" \
+            -f event=workflow_dispatch -f branch=main -f created=">=$since" -F per_page=100 \
+            --jq '[.workflow_runs[] | select(.display_title == $ENV.TITLE)] | length')
+          echo "\"$TITLE\" runs since $since: $n"
+          if [ "$n" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::The posting clock already started this slot on time — this late backup does nothing."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::No on-time run of this slot in the last 12 hours — the posting clock missed it, so this backup looks."
+          fi
+
   post:
+    needs: backup-gate
+    if: ${{ !cancelled() && (needs.backup-gate.result == 'skipped' || needs.backup-gate.outputs.skip == 'false') }}
+    # AUTO: a scheduled slot, or the posting clock's on-time run of one (slot = its cron line).
+    env:
+      AUTO: ${{ github.event_name == 'schedule' || inputs.slot != '' }}
+      EVENT_SCHEDULE: ${{ inputs.slot || github.event.schedule }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     # An earlier slot's failure is a note — the next slot tries again. The last slot (and a hand-run) goes red.
-    continue-on-error: ${{ github.event_name == 'schedule' && github.event.schedule != '7 11 * * *' }}
+    continue-on-error: ${{ (github.event_name == 'schedule' || inputs.slot != '') && (inputs.slot || github.event.schedule) != '37 11 * * *' }}
     outputs:
       stop: ${{ steps.gate.outputs.stop }}${{ steps.check.outputs.stop }}${{ steps.journal.outputs.stop }}${{ steps.bundle.outputs.stop }}${{ steps.count.outputs.stop }}${{ steps.mark.outputs.stop }}
     steps:
@@ -65,7 +110,7 @@ jobs:
         env:
           RETRY_DATE: ${{ inputs.date }}
           RETRY_PLATFORM: ${{ inputs.platform }}
-          EVENT: ${{ github.event_name }}
+          EVENT: ${{ env.AUTO == 'true' && 'schedule' || github.event_name }}
         run: |
           test "$GITHUB_REF" = "refs/heads/main"
           if [ "$EVENT" = schedule ]; then exit 0; fi
@@ -87,11 +132,10 @@ jobs:
         id: gate
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EVENT_SCHEDULE: ${{ github.event.schedule }}
           INPUT_DATE: ${{ inputs.date }}
           IG_AUTO_RETRY: ${{ vars.IG_AUTO_RETRY }}
           IG_AUTO_RETRY_SKIP: ${{ vars.IG_AUTO_RETRY_SKIP }}
-        run: node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="7 11 * * *" ${INPUT_DATE:+"--date=${INPUT_DATE//-/}"}
+        run: node scripts/ig-auto-retry.mjs gate --records=data/performance-history.json --post-time=08:00 --last-slot="37 11 * * *" ${INPUT_DATE:+"--date=${INPUT_DATE//-/}"}
 
       - name: Download exact saved video and metadata
         if: steps.gate.outputs.go == 'true'
@@ -157,12 +201,12 @@ jobs:
 
       - name: Count this automatic attempt (before the upload — a crash still counts; a spent day stops here)
         id: count
-        if: github.event_name == 'schedule' && steps.check.outputs.posted == 'false'
+        if: env.AUTO == 'true' && steps.check.outputs.posted == 'false'
         run: node scripts/ig-auto-retry.mjs mark --stamp="${{ steps.gate.outputs.stamp }}"
 
       - name: Retry only Instagram
         id: upload
-        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false' && (github.event_name != 'schedule' || steps.count.outputs.go == 'true')
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.posted == 'false' && (env.AUTO != 'true' || steps.count.outputs.go == 'true')
         env:
           RETRY_DATE: ${{ steps.gate.outputs.date }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
@@ -174,7 +218,7 @@ jobs:
 
       - name: Remember why it failed (2 ProcessingFailedErrors in a row stop the day)
         id: mark
-        if: failure() && steps.upload.outcome == 'failure' && github.event_name == 'schedule'
+        if: failure() && steps.upload.outcome == 'failure' && env.AUTO == 'true'
         run: node scripts/ig-auto-retry.mjs mark --stamp="${{ steps.gate.outputs.stamp }}" --log=output/ig-upload.log
 
       - name: Preserve posting evidence even on failure
@@ -191,7 +235,7 @@ jobs:
           retention-days: 30
 
       - name: Not on Instagram yet — a later slot tries again
-        if: failure() && github.event_name == 'schedule' && github.event.schedule != '7 11 * * *'
+        if: failure() && env.AUTO == 'true' && env.EVENT_SCHEDULE != '37 11 * * *'
         run: echo "::warning title=Instagram retry::not on Instagram yet (see the failed step above); a later slot tries the same video unless the day's tries are spent"
 
   # Red at once, on any slot: no later slot can fix these (too long, another
