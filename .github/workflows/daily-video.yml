@@ -1,11 +1,18 @@
 name: Daily Trending Video
+# On-time runs are started by the posting clock (sns-hub clock/, a Cloudflare cron) with clock=true;
+# the title marks them so the late `schedule` backup can see one already started.
+run-name: ${{ inputs.clock && format('{0} (on time)', github.workflow) || github.workflow }}
 
 on:
   schedule:
-    # 23:00 UTC = 08:00 JST
-    - cron: "0 23 * * *"
+    # Posts at 08:00 JST (23:00 UTC), started by the posting clock; 23:31 UTC = 08:31 JST backup
+    - cron: "31 23 * * *" # late backup only — the on-time start is the posting clock (sns-hub clock/, 08:00 JST)
   workflow_dispatch:
     inputs:
+      clock:
+        description: "Started by the posting clock (sns-hub clock/). Leave off for manual runs"
+        type: boolean
+        default: false
       dry_run:
         description: "Verify mode: render both videos (shared + YouTube variant) and upload them as artifacts, without posting or committing"
         type: boolean
@@ -24,7 +31,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # GitHub starts `schedule` runs hours late at busy times (2026-11-01: 2–3 h), so the posting
+  # clock starts this workflow on time and the cron above is only a backup, set 30+ min after
+  # the clock. The backup must not post a second time (coffee / figma would post YouTube twice):
+  # it stops here when an on-time run started in the last 12 hours, whatever that run's result
+  # (a failed Instagram is re-posted by the retry workflow, never by a second daily run).
+  backup-gate:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      actions: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          since=$(date -u -d '12 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          n=$(gh api -X GET "repos/$GITHUB_REPOSITORY/actions/workflows/daily-video.yml/runs" \
+            -f event=workflow_dispatch -f branch=main -f created=">=$since" -F per_page=100 \
+            --jq '[.workflow_runs[] | select(.display_title | endswith(" (on time)"))] | length')
+          echo "on-time runs since $since: $n"
+          if [ "$n" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::The posting clock already started today's run on time — this late backup does nothing."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::No on-time run in the last 12 hours — the posting clock missed it, so this backup posts."
+          fi
+
   generate-video:
+    needs: backup-gate
+    # Runs when the gate was skipped (not a schedule run) or said go; a failed gate posts nothing.
+    if: ${{ !cancelled() && (needs.backup-gate.result == 'skipped' || needs.backup-gate.outputs.skip == 'false') }}
     runs-on: ubuntu-latest
     # 20 (was 15): the pipeline now also renders the YouTube-only video
     # (~2 min). scripts/pipeline.mjs time-boxes that step against this value
