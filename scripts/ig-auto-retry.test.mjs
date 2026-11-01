@@ -7,7 +7,7 @@ import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { execFileSync, spawnSync } from "node:child_process";
 import {
-  episodeStamp, postStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds,
+  episodeStamp, postStartUnix, recordDecision, isFinalAttempt, mp4DurationSeconds, postingRuns,
   checkDecision, sameCaption, igUnix, REELS_MAX_SECONDS,
   switchDecision, failureKind, budgetStop, markState, MAX_AUTO_ATTEMPTS, STATE_PATH,
 } from "./ig-auto-retry.mjs";
@@ -211,6 +211,10 @@ test("(c) gate: IG_AUTO_RETRY=off / IG_AUTO_RETRY_SKIP end a scheduled run green
     const skip = run(dir, base, { GITHUB_EVENT_NAME: "schedule", EVENT_SCHEDULE: "37 16 * * *", IG_AUTO_RETRY_SKIP: "20261026,20261023" });
     assert.equal(skip.status, 0, skip.log);
     assert.match(skip.output, /^go=false$/m);
+    // A posting-clock run (workflow_dispatch + slot) is that scheduled slot: the switches apply.
+    const clock = run(dir, base, { GITHUB_EVENT_NAME: "workflow_dispatch", EVENT_SCHEDULE: "37 16 * * *", IG_AUTO_RETRY: "off" });
+    assert.equal(clock.status, 0, clock.log);
+    assert.match(clock.output, /^go=false$/m);
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }
@@ -228,11 +232,20 @@ test("the retry workflow: scheduled slots, Instagram only, notes on earlier slot
   const last = crons.at(-1);
   assert.ok(crons.length >= 3, "at least three retry slots");
   assert.equal(yml.match(/--last-slot="([^"]+)"/)[1], last, "--last-slot is the last cron line");
-  const lastRefs = [...yml.matchAll(/github\.event\.schedule != '([^']+)'/g)].map((m) => m[1]);
+  const lastRefs = [...yml.matchAll(/(?:\(inputs\.slot \|\| github\.event\.schedule\)|env\.EVENT_SCHEDULE) != '([^']+)'/g)].map((m) => m[1]);
   assert.ok(lastRefs.length >= 2, "job continue-on-error + the note step name the last slot");
   for (const ref of lastRefs) assert.equal(ref, last);
-  assert.match(yml, /^    continue-on-error: \$\{\{ github\.event_name == 'schedule' && github\.event\.schedule != '[^']+' \}\}$/m, "job-level: earlier slots are notes");
-  assert.match(yml, /EVENT_SCHEDULE: \$\{\{ github\.event\.schedule \}\}/);
+  assert.match(yml, /^    continue-on-error: \$\{\{ \(github\.event_name == 'schedule' \|\| inputs\.slot != ''\) && \(inputs\.slot \|\| github\.event\.schedule\) != '[^']+' \}\}$/m, "job-level: earlier slots are notes (clock runs too)");
+  // A posting-clock run (workflow_dispatch + slot = a cron line above) is that scheduled slot.
+  assert.match(yml, /\n      slot:\n        description: [^\n]+\n        type: string\n        default: ""\n/, "the clock's slot input");
+  assert.match(yml, /^      AUTO: \$\{\{ github\.event_name == 'schedule' \|\| inputs\.slot != '' \}\}$/m);
+  assert.match(yml, /^      EVENT_SCHEDULE: \$\{\{ inputs\.slot \|\| github\.event\.schedule \}\}$/m);
+  assert.doesNotMatch(yml, /^ {10}EVENT_SCHEDULE:/m, "no step overrides the job's EVENT_SCHEDULE");
+  const eventRefs = yml.split("\n").filter((l) => /github\.event_name/.test(l)
+    && !/^      AUTO: |^    continue-on-error: |^    if: github\.event_name == 'schedule'$|^ +EVENT: \$\{\{ env\.AUTO == 'true' && 'schedule' \|\| github\.event_name \}\}$/.test(l));
+  assert.deepEqual(eventRefs, [], "every schedule-only branch goes through env.AUTO (clock runs too)");
+  assert.match(yml, /\n  backup-gate:\n    if: github\.event_name == 'schedule'\n[\s\S]*?select\(\.display_title == \$ENV\.TITLE\)/, "the backup does nothing after the slot's on-time run");
+  assert.match(yml, /needs: backup-gate\n    if: \$\{\{ !cancelled\(\) && \(needs\.backup-gate\.result == 'skipped' \|\| needs\.backup-gate\.outputs\.skip == 'false'\) \}\}/);
   assert.match(yml, /IG_AUTO_RETRY: \$\{\{ vars\.IG_AUTO_RETRY \}\}/, "(c) the off switch reaches the gate");
   assert.match(yml, /IG_AUTO_RETRY_SKIP: \$\{\{ vars\.IG_AUTO_RETRY_SKIP \}\}/, "(c) the skip list reaches the gate");
   assert.doesNotMatch(yml, /upload-youtube|YOUTUBE_/, "YouTube is never touched");
@@ -248,15 +261,15 @@ test("the retry workflow: scheduled slots, Instagram only, notes on earlier slot
   assert.equal(steps.filter((s) => posts.test(s)).length, 1, "one step posts to Instagram");
   assert.ok(check > 0 && count > check && upload > count && markFail > upload, "check → count (a) → upload → remember the failure (b)");
   assert.match(steps[check], /--post-time=\d{2}:\d{2}/, "the account check knows the day's post time");
-  assert.match(steps[count], /if: github\.event_name == 'schedule' && steps\.check\.outputs\.posted == 'false'/, "(a) every automatic upload is counted first");
+  assert.match(steps[count], /if: env\.AUTO == 'true' && steps\.check\.outputs\.posted == 'false'/, "(a) every automatic upload is counted first");
   assert.match(steps[upload], /steps\.check\.outputs\.posted == 'false'/, "uploads only when the day is not on Instagram");
   assert.match(steps[upload], /set -(eu)?o pipefail[\s\S]*\| tee output\/ig-upload\.log/, "(b) the failure's kind is kept");
-  assert.match(steps[markFail], /if: failure\(\) && steps\.upload\.outcome == 'failure' && github\.event_name == 'schedule'/);
+  assert.match(steps[markFail], /if: failure\(\) && steps\.upload\.outcome == 'failure' && env\.AUTO == 'true'/);
   assert.doesNotMatch(yml, /^\s{8}continue-on-error/m, "no step-level continue-on-error (it would let the next step run)");
 
   const stops = yml.match(/^      stop: (.+)$/m)?.[1] ?? "";
   assert.match(steps[count], /\bid: count\b/);
-  assert.match(steps[upload], /\(github\.event_name != 'schedule' \|\| steps\.count\.outputs\.go == 'true'\)/, "(a)(b) a spent day never uploads");
+  assert.match(steps[upload], /\(env\.AUTO != 'true' \|\| steps\.count\.outputs\.go == 'true'\)/, "(a)(b) a spent day never uploads");
   for (const id of ["gate", "check", "count", "mark"]) assert.ok(stops.includes(`steps.${id}.outputs.stop`), `stop from ${id}`);
   assert.match(yml, /\n  needs-a-person:\n    needs: (\w+)\n    if: always\(\) && needs\.\1\.outputs\.stop != ''[\s\S]*exit 1/, "a stop is red at once, on any slot");
 });
@@ -277,4 +290,14 @@ test("the retry shares daily-video.yml's lock, and no waiting run (the 08:15/20:
     assert.match(daily[1], /github\.ref == 'refs\/heads\/main'/);
     assert.match(daily[1], /github\.run_id\) \}\}$/, "verification runs: a group of their own (unique per run)");
   }
+});
+
+test("postingRuns: the late backup that stops itself after an on-time run is not a post", () => {
+  const onTime = { event: "workflow_dispatch", displayTitle: "Daily (on time)", createdAt: "2026-11-02T11:30:02Z" };
+  const skippedBackup = { event: "schedule", displayTitle: "Daily", createdAt: "2026-11-02T16:10:00Z" };
+  const realBackup = { event: "schedule", displayTitle: "Daily", createdAt: "2026-11-01T16:10:00Z" }; // no on-time run before it
+  const hand = { event: "workflow_dispatch", displayTitle: "Daily", createdAt: "2026-11-02T17:00:00Z" };
+  assert.deepEqual(postingRuns([hand, skippedBackup, onTime, realBackup]), [hand, onTime, realBackup]);
+  const nextDay = { event: "schedule", displayTitle: "Daily", createdAt: "2026-11-03T12:01:00Z" }; // 24 h later: a real post
+  assert.deepEqual(postingRuns([nextDay, onTime]), [nextDay, onTime]);
 });

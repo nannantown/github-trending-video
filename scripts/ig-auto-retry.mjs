@@ -13,7 +13,9 @@
  *       MIN_GAP_MINUTES ago (an earlier slot right after it leaves the try to the
  *       next slot; the last slot always tries). final=false only on the earlier
  *       scheduled slots. --force=true (hand-runs only) skips the record, not the
- *       account check. EVENT_SCHEDULE = ${{ github.event.schedule }}.
+ *       account check. EVENT_SCHEDULE = ${{ inputs.slot || github.event.schedule }}:
+ *       a run the posting clock (sns-hub clock/) starts on time passes the slot's cron
+ *       line as `slot` and counts as that scheduled slot (switches, tries, red/note).
  *       Scheduled runs only: IG_AUTO_RETRY=off (repo Variable) → nothing;
  *       IG_AUTO_RETRY_SKIP=20261026,20261023 (or 2026-10-26) → those days are left alone.
  *   node scripts/ig-auto-retry.mjs check --file=<mp4> --captions=<json> --stamp=YYYYMMDD --post-time=08:00 [--max-seconds=59.5 | --max-seconds-from=scripts/reels-fit.mjs]
@@ -224,6 +226,17 @@ const output = (pairs) => {
 };
 const sh = (cmd, args) => execFileSync(cmd, args, { encoding: "utf-8", stdio: ["ignore", "pipe", "inherit"] });
 
+/**
+ * daily-video.yml runs that may have posted. A `schedule` run created within 12 h
+ * after an on-time run (title "… (on time)", started by the posting clock) is the
+ * late backup that stops itself in seconds (daily-video.yml backup-gate) — counting
+ * it as "the daily run finished" would make an on-time slot wait for nothing.
+ */
+export function postingRuns(runs) {
+  const onTime = runs.filter((r) => String(r.displayTitle ?? "").endsWith(" (on time)")).map((r) => Date.parse(r.createdAt));
+  return runs.filter((r) => r.event !== "schedule" || !onTime.some((t) => t <= Date.parse(r.createdAt) && Date.parse(r.createdAt) - t <= 12 * 3600_000));
+}
+
 /** A condition no later slot can fix: stop=… makes the workflow red at once. */
 function stop(reason) {
   console.log(`::error title=Instagram retry stopped::${reason}`);
@@ -246,7 +259,8 @@ function gate() {
   if (!records) throw new Error("--records=<path> required");
   const stamp = arg("date") || episodeStamp(new Date(), arg("post-time"));
   if (!/^\d{8}$/.test(stamp)) throw new Error(`--date must be YYYYMMDD, got "${stamp}"`);
-  const auto = process.env.GITHUB_EVENT_NAME === "schedule";
+  // A posting-clock run (workflow_dispatch with slot=<cron>) is that scheduled slot, started on time.
+  const auto = process.env.GITHUB_EVENT_NAME === "schedule" || Boolean(process.env.EVENT_SCHEDULE);
   const off = switchDecision({ auto, mode: process.env.IG_AUTO_RETRY, skip: process.env.IG_AUTO_RETRY_SKIP, stamp });
   if (off) {
     console.log(`::notice title=Instagram retry::${off}`);
@@ -256,11 +270,11 @@ function gate() {
   // The live main, not this checkout: the daily run may have pushed its record after we started.
   sh("git", ["fetch", "--quiet", "origin", "main"]);
   const data = JSON.parse(sh("git", ["show", `origin/main:${records}`]));
-  const runs = JSON.parse(sh("gh", ["run", "list", "--workflow", "daily-video.yml", "--branch", "main", "--limit", "10", "--json", "status,updatedAt"]));
+  const runs = JSON.parse(sh("gh", ["run", "list", "--workflow", "daily-video.yml", "--branch", "main", "--limit", "10", "--json", "status,updatedAt,createdAt,event,displayTitle"]));
   const dailyRunning = runs.some((r) => r.status !== "completed");
-  const lastDone = runs.find((r) => r.status === "completed");
+  const lastDone = postingRuns(runs).find((r) => r.status === "completed");
   const minutesSinceDaily = lastDone ? (Date.now() - Date.parse(lastDone.updatedAt)) / 60_000 : Infinity;
-  const final = isFinalAttempt(process.env.GITHUB_EVENT_NAME, process.env.EVENT_SCHEDULE, arg("last-slot"));
+  const final = isFinalAttempt(auto ? "schedule" : process.env.GITHUB_EVENT_NAME, process.env.EVENT_SCHEDULE, arg("last-slot"));
   const { go, reason } = recordDecision(data.videos ?? data.aired, stamp, { dailyRunning, auto, final, minutesSinceDaily, force: arg("force") === "true" });
   console.log(reason);
   if (go) console.log(final ? "Last attempt: a failure turns this run red." : "Earlier slot: a failure is a warning, the next slot tries again.");
