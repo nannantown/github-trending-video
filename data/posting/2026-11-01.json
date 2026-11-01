@@ -6,16 +6,24 @@
   "metadataSha256": "b41a480f56061c6dca11e9f2088045f4f9d5d6c1c41e6594f4bf634820801f3a",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "85c7f06e-9780-4957-ba3e-bdd62bd2017b",
       "attempts": 1,
-      "updatedAt": "2026-11-01T01:38:19.111Z"
+      "updatedAt": "2026-11-01T01:38:24.630Z",
+      "date": "2026-11-01",
+      "videoId": "9sXb3ATovKQ",
+      "videoUrl": "https://youtube.com/shorts/9sXb3ATovKQ",
+      "uploadedAt": "2026-11-01T01:38:24.630Z",
+      "title": "claude-mem — AIコーディングに記憶層を標準装備｜GitHub Trending TOP5 11/1",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-01T01:38:21.362Z"
+  "updatedAt": "2026-11-01T01:38:24.630Z"
 }
