@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-03",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "Claude Code 周辺の『記憶 / スキル / エージェント / ハーネス』の 4 層が同週に揃って Trending 入りした垂直統合トレンドを 1 本の線で解説。ニッチ系 OSS として伝統文化データの開放も裏側トレンドとして配置。",
+    "method": "comparison",
+    "description": "各ジャンルで既存の定番ツールに対する代替・差別化軸でTOP5を切る。Vercelのcomputer-use CLI、記憶層OSS、スクレイピング統合、独立実装のWaylandコンポジタ、業界特化型エージェントテンプレ。",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/vercel-labs/agent-desktop",
       "https://github.com/thedotmack/claude-mem",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "https://github.com/pingdotgg/t3code",
-      "https://github.com/Renhuai123/ziwei-doushu"
+      "https://github.com/D4Vinci/Scrapling",
+      "https://github.com/hyprwm/Hyprland",
+      "https://github.com/Donchitos/Claude-Code-Game-Studios"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "vercel-labs/agent-desktop",
+      "name": "agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "language": "Rust",
+      "stars": 9419,
+      "todayStars": 2243,
+      "description": "AIエージェント用のPC操作CLI",
+      "detail": "アクセシビリティ木を参照し、座標でなく要素refでデスクトップを操作するRust製CLIです。Vercel LabsがApache-2.0で公開し、macOS・Windows・Linuxに対応、ピクセル照合の脆さを避けます。",
+      "narration": "UI要素で画面を操作する新顔のcomputer-use CLIです。ピクセル照合に頼らない安定度が強みです。"
+    },
+    {
+      "rank": 2,
       "fullName": "thedotmack/claude-mem",
       "name": "claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "language": "TypeScript",
-      "stars": 107768,
-      "todayStars": 1723,
-      "description": "AIコーディングに記憶層を標準装備",
-      "detail": "Claude Codeのセッション記録を自動要約し、SQLiteとChromaで次回に文脈を戻す記憶層です。SessionStartなど6種のフックで組み込めて、Apache-2.0でメモリ内製化を進めます。",
-      "narration": "AIコーディングに記憶層を足す波が本格化。claude-memが個人開発で急伸し、記憶の内製化が今週の潮流です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 308308,
-      "todayStars": 882,
-      "description": "Claude Code用のスキルパック集",
-      "detail": "Matt Pocock氏がClaude Codeで日々使うスキル集です。tdd、diagnosing-bugs、code-reviewなど十数種をプラグインで導入でき、MITで命令設計の勘所を素早く取り込めます。",
-      "narration": "次に伸びるのはスキル層です。有名エンジニアの実務セットが広く採用され、命令設計の勘所が共有されています。"
+      "stars": 110671,
+      "todayStars": 1799,
+      "description": "AIコーディング用の記憶層OSS",
+      "detail": "Claude Codeのセッションを圧縮して次回に再注入する記憶層です。mem0やZepに比べ、SQLiteとChromaだけの軽量構成で個人開発者でも導入でき、Apache-2.0です。",
+      "narration": "mem0やZepに並ぶAI記憶層の定番候補です。SQLiteとChroma構成で導入が速いのが強みです。"
     },
     {
       "rank": 3,
+      "fullName": "D4Vinci/Scrapling",
+      "name": "Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "language": "Python",
+      "stars": 92741,
+      "todayStars": 858,
+      "description": "Scrapyを飲み込む統合OSS",
+      "detail": "HTTP要求・隠密ブラウザ・パーサ・クローラを1本にまとめたPython製です。ScrapyとBS4の役割を1つのAPIで置き換え、BS4比で約785倍、MCPサーバも同梱、BSD-3-Clauseです。",
+      "narration": "ScrapyやBS4をまとめて代替する統合スクレイパーです。BS4比で約785倍の速さが武器です。"
+    },
+    {
+      "rank": 4,
+      "fullName": "hyprwm/Hyprland",
+      "name": "Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "language": "C++",
+      "stars": 39874,
+      "todayStars": 508,
+      "description": "独立実装のWaylandコンポジタ",
+      "detail": "wlrootsやlibweston・KWin・Mutterに依存せず独立実装したWaylandコンポジタです。グラデーション枠・ブラー・影などの演出を標準装備し、C++とBSD-3-Clauseで公開しています。",
+      "narration": "wlroots非依存で独立実装のWaylandコンポジタです。Sway系と違う演出重視の設計が特徴です。"
+    },
+    {
+      "rank": 5,
       "fullName": "Donchitos/Claude-Code-Game-Studios",
       "name": "Claude-Code-Game-Studios",
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
       "language": "Shell",
-      "stars": 31112,
-      "todayStars": 724,
-      "description": "49エージェントの擬似スタジオ",
-      "detail": "Claude Codeに49体のエージェントと72スキルを足し、ディレクター・リード・スペシャリスト3層で開発するテンプレートです。Godot・Unity・UE5対応、MITで組織運営を再現します。",
-      "narration": "エージェント分業の波が業界別に拡大。49体で擬似ゲームスタジオを運営し、1チャットから組織が動く週です。"
-    },
-    {
-      "rank": 4,
-      "fullName": "pingdotgg/t3code",
-      "name": "t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "language": "TypeScript",
-      "stars": 35333,
-      "todayStars": 1148,
-      "description": "複数AIエージェントの共通指揮台",
-      "detail": "Claude Code、Codex、Cursor、Grok、OpenCode、Antigravityを1枚のUIで切替操作できるハーネスです。デスクトップ・Web・モバイルから遠隔操作まで、MITで公開中です。",
-      "narration": "複数AIエージェントを1枚で束ねる動きです。t3codeがClaudeやCodexを横断統合し、ハーネス統一が進みます。"
-    },
-    {
-      "rank": 5,
-      "fullName": "Renhuai123/ziwei-doushu",
-      "name": "ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "language": "TypeScript",
-      "stars": 12239,
-      "todayStars": 1093,
-      "description": "紫微斗数エンジンをCC BYで開放",
-      "detail": "紫微斗数の盤計算、四化、1,100超の格局ルール、古典テキストと67万件の解釈データを備えたTypeScript製エンジンです。コードはMIT、データはCC BY 4.0で、文化知識のOSS化事例です。",
-      "narration": "AI外では伝統知識のOSS化が加速。紫微斗数エンジンが台頭し、文化データをCC BYで開く流れが今週の裏側です。"
+      "stars": 33467,
+      "todayStars": 1380,
+      "description": "ゲーム開発特化49体のエージェント",
+      "detail": "Claude Codeに49体のエージェントと74スキルを足し、Godot・Unity・UE5対応のゲーム開発を支援します。汎用のCrewAIやLangGraphと違い、業界特化型のテンプレートに振り切ったMIT事例です。",
+      "narration": "CrewAIと違い業界特化で49体を束ねるMITテンプレです。Godot・Unity・UE5対応が揃っています。"
     }
   ]
 }
