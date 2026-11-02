@@ -7822,7 +7822,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "ff0e7933-48f1-4866-830c-fc5db01dca86",
+          "attempts": 1,
+          "updatedAt": "2026-11-02T02:46:37.423Z"
         },
         "instagram": {
           "status": "not_started"
