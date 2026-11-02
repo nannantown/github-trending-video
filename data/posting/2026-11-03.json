@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "d9131a7a-b968-43f4-a67b-0bf517a48155",
       "attempts": 1,
-      "updatedAt": "2026-11-02T23:04:51.499Z",
+      "updatedAt": "2026-11-02T23:04:53.414Z",
       "date": "2026-11-03",
       "videoId": "ERiNrCjxWbU",
       "videoUrl": "https://youtube.com/shorts/ERiNrCjxWbU",
@@ -19,11 +19,14 @@
       "title": "agent-desktop — AIエージェント用のPC操作CLI｜GitHub Trending TOP5 11/3",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-02T23:04:51.499Z"
+  "updatedAt": "2026-11-02T23:04:53.414Z"
 }
