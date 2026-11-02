@@ -6,16 +6,24 @@
   "metadataSha256": "415196279411f626608fe970bc9d498223dc4f3cd6c404d1f4bc2fdb66b133b5",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "d9131a7a-b968-43f4-a67b-0bf517a48155",
       "attempts": 1,
-      "updatedAt": "2026-11-02T23:04:45.605Z"
+      "updatedAt": "2026-11-02T23:04:51.499Z",
+      "date": "2026-11-03",
+      "videoId": "ERiNrCjxWbU",
+      "videoUrl": "https://youtube.com/shorts/ERiNrCjxWbU",
+      "uploadedAt": "2026-11-02T23:04:51.499Z",
+      "title": "agent-desktop — AIエージェント用のPC操作CLI｜GitHub Trending TOP5 11/3",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-02T23:04:47.760Z"
+  "updatedAt": "2026-11-02T23:04:51.499Z"
 }
