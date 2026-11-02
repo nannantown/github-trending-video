@@ -7827,7 +7827,7 @@
           "safeToRetry": false,
           "attemptId": "ff0e7933-48f1-4866-830c-fc5db01dca86",
           "attempts": 1,
-          "updatedAt": "2026-11-02T02:46:43.224Z",
+          "updatedAt": "2026-11-02T02:46:45.272Z",
           "date": "2026-11-02",
           "videoId": "8a3U58P1lZE",
           "videoUrl": "https://youtube.com/shorts/8a3U58P1lZE",
@@ -7835,13 +7835,17 @@
           "title": "claude-mem — AIコーディングに記憶層を標準装備｜GitHub Trending TOP5 11/2",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
