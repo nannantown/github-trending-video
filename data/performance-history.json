@@ -8036,7 +8036,7 @@
           "safeToRetry": false,
           "attemptId": "2f46d635-1b72-44a6-ada9-4521866634f1",
           "attempts": 1,
-          "updatedAt": "2026-11-03T23:04:08.730Z",
+          "updatedAt": "2026-11-03T23:04:12.108Z",
           "date": "2026-11-04",
           "videoId": "rz4gA1LkapA",
           "videoUrl": "https://youtube.com/shorts/rz4gA1LkapA",
@@ -8044,13 +8044,17 @@
           "title": "claude-mem — セッション圧縮型のAI記憶層OSS｜GitHub Trending TOP5 11/4",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
