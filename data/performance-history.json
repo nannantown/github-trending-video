@@ -8031,7 +8031,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "2f46d635-1b72-44a6-ada9-4521866634f1",
+          "attempts": 1,
+          "updatedAt": "2026-11-03T23:04:01.907Z"
         },
         "instagram": {
           "status": "not_started"
