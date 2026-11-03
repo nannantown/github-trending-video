@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "discovery": {
-    "method": "comparison",
-    "description": "各ジャンルで既存の定番ツールに対する代替・差別化軸でTOP5を切る。Vercelのcomputer-use CLI、記憶層OSS、スクレイピング統合、独立実装のWaylandコンポジタ、業界特化型エージェントテンプレ。",
+    "method": "business-angle",
+    "description": "TOP5の5本すべてを受託案件・スタートアップ視点の金額換算軸で切る。LLM記憶層・computer-use・並列エージェント基盤・自前推論・個人スキル配布で、それぞれSaaS代替・工期短縮・GPU投資削減・外注費削減を金額で語る。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/vercel-labs/agent-desktop",
       "https://github.com/thedotmack/claude-mem",
-      "https://github.com/D4Vinci/Scrapling",
-      "https://github.com/hyprwm/Hyprland",
-      "https://github.com/Donchitos/Claude-Code-Game-Studios"
+      "https://github.com/vercel-labs/agent-desktop",
+      "https://github.com/max-sixty/worktrunk",
+      "https://github.com/JustVugg/colibri",
+      "https://github.com/mattpocock/skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "vercel-labs/agent-desktop",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "language": "Rust",
-      "stars": 9419,
-      "todayStars": 2243,
-      "description": "AIエージェント用のPC操作CLI",
-      "detail": "アクセシビリティ木を参照し、座標でなく要素refでデスクトップを操作するRust製CLIです。Vercel LabsがApache-2.0で公開し、macOS・Windows・Linuxに対応、ピクセル照合の脆さを避けます。",
-      "narration": "UI要素で画面を操作する新顔のcomputer-use CLIです。ピクセル照合に頼らない安定度が強みです。"
-    },
-    {
-      "rank": 2,
       "fullName": "thedotmack/claude-mem",
       "name": "claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "language": "TypeScript",
-      "stars": 110671,
-      "todayStars": 1799,
-      "description": "AIコーディング用の記憶層OSS",
-      "detail": "Claude Codeのセッションを圧縮して次回に再注入する記憶層です。mem0やZepに比べ、SQLiteとChromaだけの軽量構成で個人開発者でも導入でき、Apache-2.0です。",
-      "narration": "mem0やZepに並ぶAI記憶層の定番候補です。SQLiteとChroma構成で導入が速いのが強みです。"
+      "stars": 111816,
+      "todayStars": 1138,
+      "description": "セッション圧縮型のAI記憶層OSS",
+      "detail": "Claude Codeのセッションを自動圧縮し、次回に文脈を再注入する軽量な記憶層です。mem0やZepのSaaSを自前に置き換え、長期案件のAPI従量費を削れ、Apache-2.0で商用利用可です。",
+      "narration": "Claude Codeに長期記憶を足すOSSです。mem0の月額を自前化し、API費を削れる受託向けの一本です。"
+    },
+    {
+      "rank": 2,
+      "fullName": "vercel-labs/agent-desktop",
+      "name": "agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "language": "Rust",
+      "stars": 12565,
+      "todayStars": 3792,
+      "description": "Vercel公式のPC操作CLI",
+      "detail": "アクセシビリティ木を参照し、座標でなく要素refで画面を操作するRust製computer-use CLIです。BrowserbaseなどのSaaSを置き換え、Apache-2.0で商用可、受託のPoCに使えます。",
+      "narration": "Vercel Labs公式のcomputer-use CLIです。SaaS契約なしで業務自動化PoCを作れます。"
     },
     {
       "rank": 3,
-      "fullName": "D4Vinci/Scrapling",
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "language": "Python",
-      "stars": 92741,
-      "todayStars": 858,
-      "description": "Scrapyを飲み込む統合OSS",
-      "detail": "HTTP要求・隠密ブラウザ・パーサ・クローラを1本にまとめたPython製です。ScrapyとBS4の役割を1つのAPIで置き換え、BS4比で約785倍、MCPサーバも同梱、BSD-3-Clauseです。",
-      "narration": "ScrapyやBS4をまとめて代替する統合スクレイパーです。BS4比で約785倍の速さが武器です。"
+      "fullName": "max-sixty/worktrunk",
+      "name": "worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "language": "Rust",
+      "stars": 10448,
+      "todayStars": 437,
+      "description": "並列AIエージェント用worktree CLI",
+      "detail": "Gitのworktreeを一括操作するRust製CLIです。5〜10体のAIエージェントを並列稼働させ、受託の工期短縮に直結する基盤で、MIT/Apache-2.0のデュアルライセンスです。",
+      "narration": "複数AIエージェントを並列させるworktree CLIです。受託の工期を圧縮できる基盤になります。"
     },
     {
       "rank": 4,
-      "fullName": "hyprwm/Hyprland",
-      "name": "Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "language": "C++",
-      "stars": 39874,
-      "todayStars": 508,
-      "description": "独立実装のWaylandコンポジタ",
-      "detail": "wlrootsやlibweston・KWin・Mutterに依存せず独立実装したWaylandコンポジタです。グラデーション枠・ブラー・影などの演出を標準装備し、C++とBSD-3-Clauseで公開しています。",
-      "narration": "wlroots非依存で独立実装のWaylandコンポジタです。Sway系と違う演出重視の設計が特徴です。"
+      "fullName": "JustVugg/colibri",
+      "name": "colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "language": "C",
+      "stars": 47214,
+      "todayStars": 803,
+      "description": "大型MoEを動かす階層推論エンジン",
+      "detail": "巨大MoEモデルの熱い専門家をGPU、冷たい側をNVMeから読む階層推論エンジンです。純C製で8GB RAMから動き、GPU投資を抑えてフロンティア級LLMを自前運用でき、Apache-2.0です。",
+      "narration": "大型MoEを8GB RAMから動かすC製推論エンジンです。GPU投資を一段削り自前推論に寄せられます。"
     },
     {
       "rank": 5,
-      "fullName": "Donchitos/Claude-Code-Game-Studios",
-      "name": "Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 33467,
-      "todayStars": 1380,
-      "description": "ゲーム開発特化49体のエージェント",
-      "detail": "Claude Codeに49体のエージェントと74スキルを足し、Godot・Unity・UE5対応のゲーム開発を支援します。汎用のCrewAIやLangGraphと違い、業界特化型のテンプレートに振り切ったMIT事例です。",
-      "narration": "CrewAIと違い業界特化で49体を束ねるMITテンプレです。Godot・Unity・UE5対応が揃っています。"
+      "stars": 311365,
+      "todayStars": 1164,
+      "description": "個人開発者のClaude Code skill集",
+      "detail": "Matt Pocock個人のClaude Codeスキルを集めたMITの.agentsディレクトリです。有名エンジニアの実務パターンを社内配布でき、Claude Code研修教材の外注費を削れます。",
+      "narration": "Matt Pocock個人のClaude Codeスキル集です。社内研修の教材に転用し外注費を削れます。"
     }
   ]
 }
