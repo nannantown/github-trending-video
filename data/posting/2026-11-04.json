@@ -6,16 +6,24 @@
   "metadataSha256": "81d7066205c31b670032f481037f274c69d241a2ced0b5a9de758e9f2ff6d949",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "2f46d635-1b72-44a6-ada9-4521866634f1",
       "attempts": 1,
-      "updatedAt": "2026-11-03T23:04:01.907Z"
+      "updatedAt": "2026-11-03T23:04:08.730Z",
+      "date": "2026-11-04",
+      "videoId": "rz4gA1LkapA",
+      "videoUrl": "https://youtube.com/shorts/rz4gA1LkapA",
+      "uploadedAt": "2026-11-03T23:04:08.730Z",
+      "title": "claude-mem — セッション圧縮型のAI記憶層OSS｜GitHub Trending TOP5 11/4",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-03T23:04:05.056Z"
+  "updatedAt": "2026-11-03T23:04:08.730Z"
 }
