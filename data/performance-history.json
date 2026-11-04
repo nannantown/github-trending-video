@@ -8155,7 +8155,13 @@
           }
         },
         "instagram": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "08bffdcc-fd70-42b0-b488-ce6ec1066377",
+          "attempts": 1,
+          "updatedAt": "2026-11-04T23:05:44.502Z"
         }
       },
       "ytOpening": "top1",
