@@ -8079,8 +8079,8 @@
     },
     {
       "date": "2026-11-05",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "faJh1Sstx8s",
+      "videoUrl": "https://youtube.com/shorts/faJh1Sstx8s",
       "title": "auto-ontology — NVIDIAのスキーマ意味層ビルダー｜GitHub Trending TOP5 11/5",
       "titleTemplate": "top1",
       "hashtags": [
@@ -8136,17 +8136,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "c2ac0072-7b26-4ae6-b1aa-ccdc85d7436c",
           "attempts": 1,
-          "updatedAt": "2026-11-04T23:05:30.305Z"
+          "updatedAt": "2026-11-04T23:05:39.537Z",
+          "date": "2026-11-05",
+          "videoId": "faJh1Sstx8s",
+          "videoUrl": "https://youtube.com/shorts/faJh1Sstx8s",
+          "uploadedAt": "2026-11-04T23:05:39.537Z",
+          "title": "auto-ontology — NVIDIAのスキーマ意味層ビルダー｜GitHub Trending TOP5 11/5",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
