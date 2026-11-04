@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "discovery": {
-    "method": "business-angle",
-    "description": "TOP5の5本すべてを受託案件・スタートアップ視点の金額換算軸で切る。LLM記憶層・computer-use・並列エージェント基盤・自前推論・個人スキル配布で、それぞれSaaS代替・工期短縮・GPU投資削減・外注費削減を金額で語る。",
+    "method": "tech-deep",
+    "description": "TOP5の5本を『アーキテクチャの中身』軸で切る。ontology意味層・CoW worktree・1ファイル1スキル・Quarkus型AWS代替・FTS5+Chroma記憶層で、各OSSの技術的独自性を具体の仕組みで説明する。",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/thedotmack/claude-mem",
-      "https://github.com/vercel-labs/agent-desktop",
+      "https://github.com/NVIDIA/auto-ontology",
       "https://github.com/max-sixty/worktrunk",
-      "https://github.com/JustVugg/colibri",
-      "https://github.com/mattpocock/skills"
+      "https://github.com/mattpocock/skills",
+      "https://github.com/floci-io/floci",
+      "https://github.com/thedotmack/claude-mem"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "thedotmack/claude-mem",
-      "name": "claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "language": "TypeScript",
-      "stars": 111816,
-      "todayStars": 1138,
-      "description": "セッション圧縮型のAI記憶層OSS",
-      "detail": "Claude Codeのセッションを自動圧縮し、次回に文脈を再注入する軽量な記憶層です。mem0やZepのSaaSを自前に置き換え、長期案件のAPI従量費を削れ、Apache-2.0で商用利用可です。",
-      "narration": "Claude Codeに長期記憶を足すOSSです。mem0の月額を自前化し、API費を削れる受託向けの一本です。"
+      "fullName": "NVIDIA/auto-ontology",
+      "name": "auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "language": "Python",
+      "stars": 4786,
+      "todayStars": 2053,
+      "description": "NVIDIAのスキーマ意味層ビルダー",
+      "detail": "企業DBの上に意味層を自動構築するNVIDIA発のPython OSSです。スキーマから業務用語と結合候補を抽出し、人が認定したSQL断片とpgvector検索でクエリを合成し、使った SQL と手順を根拠として併記します。Apache-2.0。",
+      "narration": "NVIDIA発の意味層ビルダーです。スキーマから業務用語を学び、認定済みSQLで根拠付きに答えます。"
     },
     {
       "rank": 2,
-      "fullName": "vercel-labs/agent-desktop",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "language": "Rust",
-      "stars": 12565,
-      "todayStars": 3792,
-      "description": "Vercel公式のPC操作CLI",
-      "detail": "アクセシビリティ木を参照し、座標でなく要素refで画面を操作するRust製computer-use CLIです。BrowserbaseなどのSaaSを置き換え、Apache-2.0で商用可、受託のPoCに使えます。",
-      "narration": "Vercel Labs公式のcomputer-use CLIです。SaaS契約なしで業務自動化PoCを作れます。"
-    },
-    {
-      "rank": 3,
       "fullName": "max-sixty/worktrunk",
       "name": "worktrunk",
       "url": "https://github.com/max-sixty/worktrunk",
       "language": "Rust",
-      "stars": 10448,
-      "todayStars": 437,
-      "description": "並列AIエージェント用worktree CLI",
-      "detail": "Gitのworktreeを一括操作するRust製CLIです。5〜10体のAIエージェントを並列稼働させ、受託の工期短縮に直結する基盤で、MIT/Apache-2.0のデュアルライセンスです。",
-      "narration": "複数AIエージェントを並列させるworktree CLIです。受託の工期を圧縮できる基盤になります。"
+      "stars": 10991,
+      "todayStars": 524,
+      "description": "並列エージェント用worktree CLI",
+      "detail": "Rust製のGit worktree管理CLIで、5〜10体のAIエージェントを並列稼働させる想定の設計です。APFS・btrfs・XFSのCoWで target や node_modules を横断共有し、hooksやaliasで運用を自動化します。MIT/Apache-2.0。",
+      "narration": "Rust製のworktree CLIです。APFSのCoWでbuildキャッシュを共有し並列エージェントを回せます。"
     },
     {
-      "rank": 4,
-      "fullName": "JustVugg/colibri",
-      "name": "colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "language": "C",
-      "stars": 47214,
-      "todayStars": 803,
-      "description": "大型MoEを動かす階層推論エンジン",
-      "detail": "巨大MoEモデルの熱い専門家をGPU、冷たい側をNVMeから読む階層推論エンジンです。純C製で8GB RAMから動き、GPU投資を抑えてフロンティア級LLMを自前運用でき、Apache-2.0です。",
-      "narration": "大型MoEを8GB RAMから動かすC製推論エンジンです。GPU投資を一段削り自前推論に寄せられます。"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "fullName": "mattpocock/skills",
       "name": "skills",
       "url": "https://github.com/mattpocock/skills",
       "language": "Shell",
-      "stars": 311365,
-      "todayStars": 1164,
-      "description": "個人開発者のClaude Code skill集",
-      "detail": "Matt Pocock個人のClaude Codeスキルを集めたMITの.agentsディレクトリです。有名エンジニアの実務パターンを社内配布でき、Claude Code研修教材の外注費を削れます。",
-      "narration": "Matt Pocock個人のClaude Codeスキル集です。社内研修の教材に転用し外注費を削れます。"
+      "stars": 313210,
+      "todayStars": 1376,
+      "description": "Matt Pocock個人のClaude Codeスキル集",
+      "detail": "Matt Pocock個人のClaude Code向けスキルをMITで公開した集合体です。1スキル1ファイルの設計で、Claude Codeが文脈から該当スキルを自動発動し、個人の設計クセをそのまま社内に配布できます。",
+      "narration": "Matt Pocock個人のClaude Codeスキル集です。1ファイル1スキル設計で自動発動し再利用できます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "floci-io/floci",
+      "name": "floci",
+      "url": "https://github.com/floci-io/floci",
+      "language": "Java",
+      "stars": 29550,
+      "todayStars": 1082,
+      "description": "Java製のAWSローカル代替エミュレータ",
+      "detail": "Java Quarkus製のAWSローカル代替エミュレータで、LocalStackとAPI互換の100超サービスを同じポートと認証で提供します。起動は24ms前後、アイドルメモリ13MiBで、ステートフルなサービスはDocker連携で動かします。MIT。",
+      "narration": "Java製のAWSローカル代替です。LocalStack比でメモリ10分の1、起動24msで軽量に動きます。"
+    },
+    {
+      "rank": 5,
+      "fullName": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars": 112776,
+      "todayStars": 1165,
+      "description": "Claude Code用のセッション圧縮型記憶層",
+      "detail": "Claude Codeのセッションを自動圧縮して次回に文脈注入する記憶層OSSです。SQLiteのFTS5とChromaで観察ログをhybrid検索し、SessionStartやPreToolUse等の6種フックで自動運用します。Apache-2.0。",
+      "narration": "Claude Codeのセッション圧縮型の記憶層です。SQLiteのFTS5とChromaの横断検索で回想します。"
     }
   ]
 }
