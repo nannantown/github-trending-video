@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "discovery": {
-    "method": "comparison",
-    "description": "TOP5の5本を『類似OSSとの違い』軸で切る。NVIDIA auto-ontology=文書RAG比、Matt Pocock skills=役割型セット比、Garry Tan gstack=単体スキル集比、ai-goofish-monitor=目視・検索アラート比、Scrapling=ScrapyやBS4比、で各リポの差別化点を Primary 層 (CTO / 技術選定) 向けに 1 対 1 で説明する。",
+    "method": "business-angle",
+    "description": "5本すべてを『受託・スタートアップの月額コストをどう削るか』の視点で統一。古参と新興AIを並べ、Primary層CTOの技術選定の判断材料を1対1のコスト構造で提供",
     "sources": [
-      "https://github.com/trending",
+      "https://github.com/zed-industries/zed",
       "https://github.com/NVIDIA/auto-ontology",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/garrytan/gstack",
-      "https://github.com/Usagi-org/ai-goofish-monitor",
-      "https://github.com/D4Vinci/Scrapling"
+      "https://github.com/rails/rails",
+      "https://github.com/mpv-player/mpv",
+      "https://github.com/rust-lang/rust",
+      "https://news.ycombinator.com/from?site=zed.dev"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "zed-industries/zed",
+      "name": "zed",
+      "url": "https://github.com/zed-industries/zed",
+      "language": "Rust",
+      "stars": 93556,
+      "todayStars": 292,
+      "description": "ペアプロの月額をゼロにする高速エディタ",
+      "detail": "Atom創業者が作ったRust製の多人数リアルタイムコードエディタ。GPUレンダリングで動作が軽く、組み込みCollab機能でpair-programmingツール代が丸ごと消えます。GPL-3.0で商用利用も明示可能。",
+      "narration": "ペアプロの月額をゼロにできるRust製エディタです。Zedに揃えると外部Collabツール代が丸ごと消えます。"
+    },
+    {
+      "rank": 2,
       "fullName": "NVIDIA/auto-ontology",
       "name": "auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "language": "Python",
-      "stars": 7208,
-      "todayStars": 2707,
-      "description": "NVIDIA発の企業DB意味層ビルダー",
-      "detail": "企業DBの上に意味層を自動構築するNVIDIA発のPython OSSです。スキーマから業務用語と結合候補を抽出し、人が認定したSQL断片とpgvector検索で根拠付きの答えを返します。文書RAGと違い、帳票系の社内問い合わせで数字の裏付けが取れます。Apache-2.0。",
-      "narration": "NVIDIA発の意味層ビルダーです。文書RAGと違い、認定済みのSQLで根拠付きに答える設計です。"
-    },
-    {
-      "rank": 2,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 315110,
-      "todayStars": 2053,
-      "description": "Matt Pocock個人のスキル集",
-      "detail": "Matt Pocock個人のClaude Code向けスキルをMITで公開した集合体です。1スキル1ファイルの設計で、Claude Codeが文脈から該当スキルを自動発動します。ロール型の統合セットと違い、個人の設計クセをそのまま社内に配れるのが強みです。",
-      "narration": "Matt Pocockのスキル集です。ロール型のセットと違い、個人の設計クセをそのまま配れる点が特徴です。"
+      "stars": 8924,
+      "todayStars": 2005,
+      "description": "NVIDIA発の意味層でBI代を削るOSS",
+      "detail": "企業DBの定義を自動抽出し、LLM agentが誤答しない意味層をNVIDIAが提供するOSS。LangChainとpgvectorでNL→SQLを組み、Enterprise BIのライセンス代と誤答コストを両方削れます。Apache-2.0。",
+      "narration": "NVIDIAの意味層OSSでBI代と誤答コストを両方削れます。pgvectorとLangChainで即組めます。"
     },
     {
       "rank": 3,
-      "fullName": "garrytan/gstack",
-      "name": "gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "language": "TypeScript",
-      "stars": 139907,
-      "todayStars": 608,
-      "description": "YCのGarry Tan発の役割型セット",
-      "detail": "Y CombinatorのGarry Tan発、Claude Codeを擬似チーム化するMITスキル集です。CEOや設計者、QA Leadなど23役割の順番を固定し、各役割が前の成果物を読んで次へ回します。単体スキル集と違い、設計から出荷までの導線が組み込まれています。",
-      "narration": "YCのGarry Tan発の役割型セットです。単体スキルと違い、CEOや設計者を順に回し出荷まで進めます。"
+      "fullName": "rails/rails",
+      "name": "rails",
+      "url": "https://github.com/rails/rails",
+      "language": "Ruby",
+      "stars": 59003,
+      "todayStars": 152,
+      "description": "起業家のMVPを最短化するRuby製統合",
+      "detail": "Active JobやAction Cableを標準装備したフルスタック基盤。Rails 8のSolid QueueとKamalで外部キューやAWS代が不要になり、スタートアップのMVP期の月額インフラ費を数万円単位で削れます。",
+      "narration": "Rails 8ならQueueもDeployも内蔵で、外部SaaS代を削れます。MVPのインフラ費が下がります。"
     },
     {
       "rank": 4,
-      "fullName": "Usagi-org/ai-goofish-monitor",
-      "name": "ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "language": "Python",
-      "stars": 17489,
-      "todayStars": 242,
-      "description": "中古マーケット閑魚のAI監視ツール",
-      "detail": "中国の中古マーケット『閑魚』をPlaywrightと画像対応AIで常時監視するPython OSSです。新規出品ごとに画像と本文を判定し、条件に合うものだけ通知します。管理UIはFastAPIとVite、MIT。目視チェックより発見が早く、検索アラートより精度が高い構成です。",
-      "narration": "中古マーケット閑魚のAI監視ツールです。目視チェックと違い、Playwrightと画像AIで自動選別します。"
+      "fullName": "mpv-player/mpv",
+      "name": "mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "language": "C",
+      "stars": 37864,
+      "todayStars": 36,
+      "description": "動画会社の処理を1本に集約するCLI",
+      "detail": "GPU shaderでレンダリングする高速CLI製media player。Luaスクリプトで動画チェックを自動化でき、VOD企業のCIやサムネ生成パイプラインに組み込むと市販ツールの月額ライセンス費を丸ごと置換できます。",
+      "narration": "mpvはLua拡張できる高速CLIで、動画配信のCI監視やサムネ生成の月額ツール代を削れます。"
     },
     {
       "rank": 5,
-      "fullName": "D4Vinci/Scrapling",
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "language": "Python",
-      "stars": 97888,
-      "todayStars": 1661,
-      "description": "Python製の高速スクレイピング基盤",
-      "detail": "Python製のスクレイピング基盤で、HTTP、ステルスブラウザ、パーサ、並列クロールを1本に統合しました。ScrapyやBS4と違い、Cloudflare突破や5,000倍高速のパースが同梱で、Scrapy風APIとBS4風セレクタも揃います。BSD-3-Clause。",
-      "narration": "Python製のスクレイピング基盤です。ScrapyやBS4と違い、Cloudflare突破や高速パースが同梱です。"
+      "fullName": "rust-lang/rust",
+      "name": "rust",
+      "url": "https://github.com/rust-lang/rust",
+      "language": "Rust",
+      "stars": 121402,
+      "todayStars": 186,
+      "description": "本番障害の保険代をゼロにする言語",
+      "detail": "所有権でメモリバグをコンパイル時に潰すシステム言語。C/C++案件をRustで組むと、メモリ起因の障害対応時間と本番監視コストが大きく下がり、SREの夜間呼び出しが減ります。MITとApache-2.0のデュアルライセンス。",
+      "narration": "Rustでメモリ安全を組み込むと、本番障害コストと夜間SRE対応の月額が同時に削れます。受託のROIが上がります。"
     }
   ]
 }
