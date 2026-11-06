@@ -8346,7 +8346,7 @@
           "safeToRetry": false,
           "attemptId": "80132d52-dc11-4c84-ad3e-47e3f1cf383e",
           "attempts": 1,
-          "updatedAt": "2026-11-06T23:04:20.617Z",
+          "updatedAt": "2026-11-06T23:04:22.564Z",
           "date": "2026-11-07",
           "videoId": "NOF2mt0B6Y0",
           "videoUrl": "https://youtube.com/shorts/NOF2mt0B6Y0",
@@ -8354,13 +8354,17 @@
           "title": "zed — ペアプロの月額をゼロにする高速エディタ｜GitHub Trending TOP5 11/7",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
