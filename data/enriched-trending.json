@@ -1,15 +1,16 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "discovery": {
-    "method": "business-angle",
-    "description": "5本すべてを『受託・スタートアップの月額コストをどう削るか』の視点で統一。古参と新興AIを並べ、Primary層CTOの技術選定の判断材料を1対1のコスト構造で提供",
+    "method": "trend-pattern",
+    "description": "Agent Skills規格に主要ベンダーが一斉参入する週を俯瞰",
     "sources": [
-      "https://github.com/zed-industries/zed",
-      "https://github.com/NVIDIA/auto-ontology",
-      "https://github.com/rails/rails",
-      "https://github.com/mpv-player/mpv",
-      "https://github.com/rust-lang/rust",
-      "https://news.ycombinator.com/from?site=zed.dev"
+      "https://github.com/trending",
+      "https://github.com/vercel-labs/agent-browser",
+      "https://github.com/cloudflare/security-audit-skill",
+      "https://github.com/google/skills",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/anthropics/skills",
+      "https://agentskills.io"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "zed-industries/zed",
-      "name": "zed",
-      "url": "https://github.com/zed-industries/zed",
+      "fullName": "vercel-labs/agent-browser",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
       "language": "Rust",
-      "stars": 93556,
-      "todayStars": 292,
-      "description": "ペアプロの月額をゼロにする高速エディタ",
-      "detail": "Atom創業者が作ったRust製の多人数リアルタイムコードエディタ。GPUレンダリングで動作が軽く、組み込みCollab機能でpair-programmingツール代が丸ごと消えます。GPL-3.0で商用利用も明示可能。",
-      "narration": "ペアプロの月額をゼロにできるRust製エディタです。Zedに揃えると外部Collabツール代が丸ごと消えます。"
+      "stars": 46770,
+      "todayStars": 180,
+      "description": "エージェント用ブラウザ操作CLI",
+      "detail": "Rust製のagent向けブラウザCLI。Chrome DevTools Protocolでヘッドレスを駆動し、accessibility treeで要素をテキスト参照できます。Skills規格の『操作対象』側として周辺OSSが同時加熱しています。",
+      "narration": "Vercelがエージェント用ブラウザCLIを公開しました。Skills普及に合わせ周辺OSSも急伸しています。"
     },
     {
       "rank": 2,
-      "fullName": "NVIDIA/auto-ontology",
-      "name": "auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "language": "Python",
-      "stars": 8924,
-      "todayStars": 2005,
-      "description": "NVIDIA発の意味層でBI代を削るOSS",
-      "detail": "企業DBの定義を自動抽出し、LLM agentが誤答しない意味層をNVIDIAが提供するOSS。LangChainとpgvectorでNL→SQLを組み、Enterprise BIのライセンス代と誤答コストを両方削れます。Apache-2.0。",
-      "narration": "NVIDIAの意味層OSSでBI代と誤答コストを両方削れます。pgvectorとLangChainで即組めます。"
+      "fullName": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars": 65604,
+      "todayStars": 2088,
+      "description": "Cloudflare版の監査エージェントSkill",
+      "detail": "6フェーズで独立検証するセキュリティ監査Skill。偵察→カバレッジ→反証→構造化→独立確認→報告の流れで、別エージェントが結果を否定しに来る設計です。Cloudflare自社の脆弱性発見基盤の原型になっています。",
+      "narration": "Cloudflareがセキュリティ監査をSkill一枚にまとめました。大手の規格参入が可視化しています。"
     },
     {
       "rank": 3,
-      "fullName": "rails/rails",
-      "name": "rails",
-      "url": "https://github.com/rails/rails",
-      "language": "Ruby",
-      "stars": 59003,
-      "todayStars": 152,
-      "description": "起業家のMVPを最短化するRuby製統合",
-      "detail": "Active JobやAction Cableを標準装備したフルスタック基盤。Rails 8のSolid QueueとKamalで外部キューやAWS代が不要になり、スタートアップのMVP期の月額インフラ費を数万円単位で削れます。",
-      "narration": "Rails 8ならQueueもDeployも内蔵で、外部SaaS代を削れます。MVPのインフラ費が下がります。"
+      "fullName": "google/skills",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "language": "Python",
+      "stars": 23348,
+      "todayStars": 449,
+      "description": "Google製のクラウド用Skill集",
+      "detail": "BigQueryやGKE、Firebase、Gemini APIなど187個のSkillを収録。Claude CodeやCodex、Antigravity CLI向けプラグインも同梱で、agentskills.io規格にベンダー横断で乗る形になっています。",
+      "narration": "GoogleがGCPの操作手順を187個のSkillで公開しました。ベンダー横断で規格が動いています。"
     },
     {
       "rank": 4,
-      "fullName": "mpv-player/mpv",
-      "name": "mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "language": "C",
-      "stars": 37864,
-      "todayStars": 36,
-      "description": "動画会社の処理を1本に集約するCLI",
-      "detail": "GPU shaderでレンダリングする高速CLI製media player。Luaスクリプトで動画チェックを自動化でき、VOD企業のCIやサムネ生成パイプラインに組み込むと市販ツールの月額ライセンス費を丸ごと置換できます。",
-      "narration": "mpvはLua拡張できる高速CLIで、動画配信のCI監視やサムネ生成の月額ツール代を削れます。"
+      "fullName": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "stars": 317633,
+      "todayStars": 1111,
+      "description": "個人開発者の実務Skill集",
+      "detail": "TypeScript教育で知られるMatt Pocock氏の『本業で使う』Skill集。vibe codingではない堅実な設計を志向し、個人公開のSkillでもベンダー級のスターを集めています。規格の民主化を象徴しています。",
+      "narration": "個人開発者のSkill集が30万スター超えです。ベンダーと個人が同じ規格で並ぶ時代に入りました。"
     },
     {
       "rank": 5,
-      "fullName": "rust-lang/rust",
-      "name": "rust",
-      "url": "https://github.com/rust-lang/rust",
-      "language": "Rust",
-      "stars": 121402,
-      "todayStars": 186,
-      "description": "本番障害の保険代をゼロにする言語",
-      "detail": "所有権でメモリバグをコンパイル時に潰すシステム言語。C/C++案件をRustで組むと、メモリ起因の障害対応時間と本番監視コストが大きく下がり、SREの夜間呼び出しが減ります。MITとApache-2.0のデュアルライセンス。",
-      "narration": "Rustでメモリ安全を組み込むと、本番障害コストと夜間SRE対応の月額が同時に削れます。受託のROIが上がります。"
+      "fullName": "anthropics/skills",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "stars": 188730,
+      "todayStars": 386,
+      "description": "規格策定元Anthropicの本家Skill",
+      "detail": "SKILL.mdにYAMLフロントマターとMarkdownを書き、Claudeが動的にロードする規格の本家です。docx/pdf/pptx/xlsxの例とspec/、templateを収録しており、agentskills.ioの一次ソースになります。",
+      "narration": "Skills規格を作ったAnthropicの本家リポです。わずか数日で主要ベンダーが一斉参入しました。"
     }
   ]
 }
