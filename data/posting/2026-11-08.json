@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "226f51e9-5263-4d5a-9246-72cdfc838b4c",
       "attempts": 1,
-      "updatedAt": "2026-11-07T23:05:08.416Z",
+      "updatedAt": "2026-11-07T23:05:10.054Z",
       "date": "2026-11-08",
       "videoId": "nKeGLtkrshc",
       "videoUrl": "https://youtube.com/shorts/nKeGLtkrshc",
@@ -19,11 +19,14 @@
       "title": "agent-browser — エージェント用ブラウザ操作CLI｜GitHub Trending TOP5 11/8",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-07T23:05:08.416Z"
+  "updatedAt": "2026-11-07T23:05:10.055Z"
 }
