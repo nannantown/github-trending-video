@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-08",
   "basedOnVideos": 14,
   "summary": {
     "avgViewsByDay": {
@@ -132,8 +132,8 @@
     ]
   },
   "todayRecommendations": {
-    "date": "2026-10-30",
-    "dayOfWeek": "Fri",
+    "date": "2026-11-08",
+    "dayOfWeek": "Sun",
     "recommendedTemplate": "standard",
     "suggestedExtraHashtags": [
       "OSS",
