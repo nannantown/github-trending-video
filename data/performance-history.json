@@ -8556,7 +8556,7 @@
           "safeToRetry": false,
           "attemptId": "2749e1ff-3c49-4964-a7ca-824e8dbfd43a",
           "attempts": 1,
-          "updatedAt": "2026-11-08T23:04:19.477Z",
+          "updatedAt": "2026-11-08T23:04:21.022Z",
           "date": "2026-11-09",
           "videoId": "LF8TVaDdyRA",
           "videoUrl": "https://youtube.com/shorts/LF8TVaDdyRA",
@@ -8564,13 +8564,17 @@
           "title": "sherlock — 名前跡を400サイト追うOSINT｜GitHub Trending TOP5 11/9",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
