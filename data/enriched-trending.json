@@ -1,16 +1,15 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "Agent Skills規格に主要ベンダーが一斉参入する週を俯瞰",
+    "method": "comparison",
+    "description": "TOP5をそれぞれ類似OSSと並べて選び方を提示",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/vercel-labs/agent-browser",
-      "https://github.com/cloudflare/security-audit-skill",
-      "https://github.com/google/skills",
-      "https://github.com/mattpocock/skills",
-      "https://github.com/anthropics/skills",
-      "https://agentskills.io"
+      "https://github.com/sherlock-project/sherlock",
+      "https://github.com/dsx-ai-factory/nvke",
+      "https://github.com/milind-soni/OpenMausBot",
+      "https://github.com/anthropics/claude-quickstarts",
+      "https://github.com/vercel-labs/agent-browser"
     ],
     "query": "",
     "freshness_hours": 1
@@ -18,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "sherlock-project/sherlock",
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "language": "Python",
+      "stars": 103272,
+      "todayStars": 2372,
+      "description": "名前跡を400サイト追うOSINT",
+      "detail": "ユーザー名を400以上のSNSに横串検索し、見つかった痕跡を一括レポートするOSINTツール。ワイルドカード検索やプロキシ、CSV・XLSX出力まで標準対応で、Maigret系の後発を一歩引き離す定番です。",
+      "narration": "SNSの名前跡を400サイト横断で追うOSINTです。Maigret系と違いワイルドカード検索も使えます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "dsx-ai-factory/nvke",
+      "name": "nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "language": "Go",
+      "stars": 818,
+      "todayStars": 345,
+      "description": "NVIDIA発のGPU特化K8s基盤",
+      "detail": "NVIDIA公式のKubernetes運用プレーンで、ベアメタルGPU上に専用コントロールプレーン付きの作業クラスタを量産できます。GKEと違い自社運用で、Cluster APIのディストリとも別物の新しい選択肢です。",
+      "narration": "NVIDIAがGPU特化のK8s運用基盤を公開しました。GKEと違い自社ベアメタルで独立運用できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "milind-soni/OpenMausBot",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "stars": 18152,
+      "todayStars": 1437,
+      "description": "Grok風Botのオープン代替",
+      "detail": "ClaudeやCodex、Grokなど複数モデルを連絡先のように並べて使うチャットアプリ。xAIのGrok Botと違いモデルや実行PCを自分で選べ、Linuxデスクトップや自宅PCを操作用VMに充てられます。",
+      "narration": "ClaudeやCodexを連絡先に並べて使えるチャットです。GrokBotと違いモデルやPCを自分で選べます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "anthropics/claude-quickstarts",
+      "name": "claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "language": "Python",
+      "stars": 19377,
+      "todayStars": 28,
+      "description": "Claude APIの本格スタータ集",
+      "detail": "Claude APIで動く本格アプリの雛形を10本以上集めた公式リポ。カスタマーサポートや自動コーディング、Managed Agents経由のSlackトリアージなど、OpenAI Cookbookのノートブックより完成品に寄せています。",
+      "narration": "Claude APIで動く本格アプリの雛形集です。OpenAI Cookbookと違い完成品単位で配っています。"
+    },
+    {
+      "rank": 5,
       "fullName": "vercel-labs/agent-browser",
       "name": "agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "language": "Rust",
-      "stars": 46770,
-      "todayStars": 180,
-      "description": "エージェント用ブラウザ操作CLI",
-      "detail": "Rust製のagent向けブラウザCLI。Chrome DevTools Protocolでヘッドレスを駆動し、accessibility treeで要素をテキスト参照できます。Skills規格の『操作対象』側として周辺OSSが同時加熱しています。",
-      "narration": "Vercelがエージェント用ブラウザCLIを公開しました。Skills普及に合わせ周辺OSSも急伸しています。"
-    },
-    {
-      "rank": 2,
-      "fullName": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "language": "JavaScript",
-      "stars": 65604,
-      "todayStars": 2088,
-      "description": "Cloudflare版の監査エージェントSkill",
-      "detail": "6フェーズで独立検証するセキュリティ監査Skill。偵察→カバレッジ→反証→構造化→独立確認→報告の流れで、別エージェントが結果を否定しに来る設計です。Cloudflare自社の脆弱性発見基盤の原型になっています。",
-      "narration": "Cloudflareがセキュリティ監査をSkill一枚にまとめました。大手の規格参入が可視化しています。"
-    },
-    {
-      "rank": 3,
-      "fullName": "google/skills",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "language": "Python",
-      "stars": 23348,
-      "todayStars": 449,
-      "description": "Google製のクラウド用Skill集",
-      "detail": "BigQueryやGKE、Firebase、Gemini APIなど187個のSkillを収録。Claude CodeやCodex、Antigravity CLI向けプラグインも同梱で、agentskills.io規格にベンダー横断で乗る形になっています。",
-      "narration": "GoogleがGCPの操作手順を187個のSkillで公開しました。ベンダー横断で規格が動いています。"
-    },
-    {
-      "rank": 4,
-      "fullName": "mattpocock/skills",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "language": "Shell",
-      "stars": 317633,
-      "todayStars": 1111,
-      "description": "個人開発者の実務Skill集",
-      "detail": "TypeScript教育で知られるMatt Pocock氏の『本業で使う』Skill集。vibe codingではない堅実な設計を志向し、個人公開のSkillでもベンダー級のスターを集めています。規格の民主化を象徴しています。",
-      "narration": "個人開発者のSkill集が30万スター超えです。ベンダーと個人が同じ規格で並ぶ時代に入りました。"
-    },
-    {
-      "rank": 5,
-      "fullName": "anthropics/skills",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "language": "Python",
-      "stars": 188730,
-      "todayStars": 386,
-      "description": "規格策定元Anthropicの本家Skill",
-      "detail": "SKILL.mdにYAMLフロントマターとMarkdownを書き、Claudeが動的にロードする規格の本家です。docx/pdf/pptx/xlsxの例とspec/、templateを収録しており、agentskills.ioの一次ソースになります。",
-      "narration": "Skills規格を作ったAnthropicの本家リポです。わずか数日で主要ベンダーが一斉参入しました。"
+      "stars": 47526,
+      "todayStars": 812,
+      "description": "Rust製のAgent用ブラウザCLI",
+      "detail": "Rust製のCLIがエージェントにブラウザを一コマンドずつ渡す設計で、ページをaccessibility treeとref記法で読ませます。Playwrightと違いクリック失敗を隠さず返すので、エージェントの誤認が減ります。",
+      "narration": "AgentがRustのCLIでブラウザを操作するツールです。Playwrightと違いref記法で誤認を減らせます。"
     }
   ]
 }
