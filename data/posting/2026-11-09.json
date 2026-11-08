@@ -25,18 +25,19 @@
       }
     },
     "instagram": {
-      "status": "in_progress",
-      "phase": "publishing",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "reason": null,
       "attemptId": "eab4cb0d-978d-45fc-8b0b-51fdf301cd08",
       "attempts": 1,
-      "updatedAt": "2026-11-08T23:04:51.264Z",
+      "updatedAt": "2026-11-08T23:05:00.531Z",
       "containerId": "18098604344460294",
       "containerIds": [
         "18098604344460294"
-      ]
+      ],
+      "mediaId": "18116476274033981"
     }
   },
-  "updatedAt": "2026-11-08T23:04:51.264Z"
+  "updatedAt": "2026-11-08T23:05:00.531Z"
 }
