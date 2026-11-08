@@ -8571,12 +8571,12 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "uploading",
+          "phase": "publishing",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "eab4cb0d-978d-45fc-8b0b-51fdf301cd08",
           "attempts": 1,
-          "updatedAt": "2026-11-08T23:04:26.373Z",
+          "updatedAt": "2026-11-08T23:04:51.264Z",
           "containerId": "18098604344460294",
           "containerIds": [
             "18098604344460294"
