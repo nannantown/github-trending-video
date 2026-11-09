@@ -1,15 +1,16 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "discovery": {
-    "method": "comparison",
-    "description": "TOP5をそれぞれ類似OSSと並べて選び方を提示",
+    "method": "business-angle",
+    "description": "各OSSを受託見積やSaaS代替の月額換算視点で切り、Primary層CTOの金額判断材料として提示",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/anthropics/skills",
+      "https://github.com/meta/astryx",
       "https://github.com/sherlock-project/sherlock",
-      "https://github.com/dsx-ai-factory/nvke",
-      "https://github.com/milind-soni/OpenMausBot",
+      "https://github.com/google-deepmind/mujoco",
       "https://github.com/anthropics/claude-quickstarts",
-      "https://github.com/vercel-labs/agent-browser"
+      "https://news.ycombinator.com/front"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "anthropics/skills",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "stars": 190862,
+      "todayStars": 1052,
+      "description": "Skills公式集で属人業務を自動化",
+      "detail": "Agent Skills規格のリファレンス実装。docx/pdf/pptx/xlsx 公式Skillはドキュメント業務の外注費を削り、社内マニュアルをSKILL.mdに移せば属人化が消えます。",
+      "narration": "社内マニュアルをSKILL.mdに移すだけでClaudeが実行、属人化した業務を自動化できます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "meta/astryx",
+      "name": "astryx",
+      "url": "https://github.com/meta/astryx",
+      "language": "TypeScript",
+      "stars": 19814,
+      "todayStars": 3324,
+      "description": "Meta製150コンポの管理画面スタータ",
+      "detail": "Meta社内8年運用のデザインシステム。150超コンポーネントとswizzlingで中身を上書きでき、MITで受託の管理画面スタータに最適。Material-UI有償サポートが要らなくなります。",
+      "narration": "Meta公式の150コンポーネントとswizzlingで、受託管理画面のUIスタータ代が消えます。"
+    },
+    {
+      "rank": 3,
       "fullName": "sherlock-project/sherlock",
       "name": "sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "language": "Python",
-      "stars": 103272,
-      "todayStars": 2372,
-      "description": "名前跡を400サイト追うOSINT",
-      "detail": "ユーザー名を400以上のSNSに横串検索し、見つかった痕跡を一括レポートするOSINTツール。ワイルドカード検索やプロキシ、CSV・XLSX出力まで標準対応で、Maigret系の後発を一歩引き離す定番です。",
-      "narration": "SNSの名前跡を400サイト横断で追うOSINTです。Maigret系と違いワイルドカード検索も使えます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "dsx-ai-factory/nvke",
-      "name": "nvke",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "language": "Go",
-      "stars": 818,
-      "todayStars": 345,
-      "description": "NVIDIA発のGPU特化K8s基盤",
-      "detail": "NVIDIA公式のKubernetes運用プレーンで、ベアメタルGPU上に専用コントロールプレーン付きの作業クラスタを量産できます。GKEと違い自社運用で、Cluster APIのディストリとも別物の新しい選択肢です。",
-      "narration": "NVIDIAがGPU特化のK8s運用基盤を公開しました。GKEと違い自社ベアメタルで独立運用できます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "milind-soni/OpenMausBot",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "language": "TypeScript",
-      "stars": 18152,
-      "todayStars": 1437,
-      "description": "Grok風Botのオープン代替",
-      "detail": "ClaudeやCodex、Grokなど複数モデルを連絡先のように並べて使うチャットアプリ。xAIのGrok Botと違いモデルや実行PCを自分で選べ、Linuxデスクトップや自宅PCを操作用VMに充てられます。",
-      "narration": "ClaudeやCodexを連絡先に並べて使えるチャットです。GrokBotと違いモデルやPCを自分で選べます。"
+      "stars": 106893,
+      "todayStars": 4294,
+      "description": "400超SNS横断検索の定番OSINT",
+      "detail": "400超SNSに横串でユーザー名検索できるOSINT定番の106k★。CSV/XLSX出力で事業報告テンプレに組込み、M&A DD・採用調査・CSIRT の外注費を内製化できます。",
+      "narration": "400を超えるSNSを横断検索、OSINT外注の情報収集を自社で回せる定番ツールです。"
     },
     {
       "rank": 4,
+      "fullName": "google-deepmind/mujoco",
+      "name": "mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "language": "C++",
+      "stars": 16874,
+      "todayStars": 579,
+      "description": "DeepMind物理シミュのロボ試験代替",
+      "detail": "DeepMind製C++物理シミュレータでロボ・バイオメカ・RL研究の定番。JAXベースMJXで並列化、Apache-2.0で商用ロボ案件に入れやすく、Isaac Simの商用ライセンス制約を回避できます。",
+      "narration": "DeepMind公式の物理シミュで、ロボ案件の実機試験コストをApache-2.0で削れます。"
+    },
+    {
+      "rank": 5,
       "fullName": "anthropics/claude-quickstarts",
       "name": "claude-quickstarts",
       "url": "https://github.com/anthropics/claude-quickstarts",
       "language": "Python",
-      "stars": 19377,
-      "todayStars": 28,
-      "description": "Claude APIの本格スタータ集",
-      "detail": "Claude APIで動く本格アプリの雛形を10本以上集めた公式リポ。カスタマーサポートや自動コーディング、Managed Agents経由のSlackトリアージなど、OpenAI Cookbookのノートブックより完成品に寄せています。",
-      "narration": "Claude APIで動く本格アプリの雛形集です。OpenAI Cookbookと違い完成品単位で配っています。"
-    },
-    {
-      "rank": 5,
-      "fullName": "vercel-labs/agent-browser",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "language": "Rust",
-      "stars": 47526,
-      "todayStars": 812,
-      "description": "Rust製のAgent用ブラウザCLI",
-      "detail": "Rust製のCLIがエージェントにブラウザを一コマンドずつ渡す設計で、ページをaccessibility treeとref記法で読ませます。Playwrightと違いクリック失敗を隠さず返すので、エージェントの誤認が減ります。",
-      "narration": "AgentがRustのCLIでブラウザを操作するツールです。Playwrightと違いref記法で誤認を減らせます。"
+      "stars": 19982,
+      "todayStars": 560,
+      "description": "Claude API公式スタータ10本",
+      "detail": "Claude API公式スタータ集。Customer Support / Financial Analyst / Computer Use など完成品10本同梱、受託PoCの工数見積を2週間化する根拠として使えます。",
+      "narration": "Claude APIの完成品スタータ10本で、受託PoCの工数見積を公式OSSで短縮できます。"
     }
   ]
 }
