@@ -6,16 +6,24 @@
   "metadataSha256": "8bdbb6cb3859ae5c0c15688d798ac99e91e60c581ce0dcc9f2cd1390d82ef561",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "dc0a36bc-a41b-4a95-b358-5ab05bf30525",
       "attempts": 1,
-      "updatedAt": "2026-11-09T23:03:52.550Z"
+      "updatedAt": "2026-11-09T23:03:57.422Z",
+      "date": "2026-11-10",
+      "videoId": "9DQupchSH2g",
+      "videoUrl": "https://youtube.com/shorts/9DQupchSH2g",
+      "uploadedAt": "2026-11-09T23:03:57.422Z",
+      "title": "skills — Skills公式集で属人業務を自動化｜GitHub Trending TOP5 11/10",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-09T23:03:54.454Z"
+  "updatedAt": "2026-11-09T23:03:57.422Z"
 }
