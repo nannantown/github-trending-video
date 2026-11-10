@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "discovery": {
-    "method": "business-angle",
-    "description": "各OSSを受託見積やSaaS代替の月額換算視点で切り、Primary層CTOの金額判断材料として提示",
+    "method": "tech-deep",
+    "description": "SKILL.mdの動的ロードやStyleXの事前コンパイル、MJXのJAX枝など、各OSSの設計の芯をエンジニア視点で切る",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/anthropics/skills",
       "https://github.com/meta/astryx",
-      "https://github.com/sherlock-project/sherlock",
-      "https://github.com/google-deepmind/mujoco",
+      "https://github.com/anthropics/skills",
+      "https://github.com/addyosmani/agent-skills",
       "https://github.com/anthropics/claude-quickstarts",
+      "https://github.com/google-deepmind/mujoco",
       "https://news.ycombinator.com/front"
     ],
     "query": "",
@@ -18,63 +18,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "anthropics/skills",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "language": "Python",
-      "stars": 190862,
-      "todayStars": 1052,
-      "description": "Skills公式集で属人業務を自動化",
-      "detail": "Agent Skills規格のリファレンス実装。docx/pdf/pptx/xlsx 公式Skillはドキュメント業務の外注費を削り、社内マニュアルをSKILL.mdに移せば属人化が消えます。",
-      "narration": "社内マニュアルをSKILL.mdに移すだけでClaudeが実行、属人化した業務を自動化できます。"
-    },
-    {
-      "rank": 2,
       "fullName": "meta/astryx",
       "name": "astryx",
       "url": "https://github.com/meta/astryx",
       "language": "TypeScript",
-      "stars": 19814,
-      "todayStars": 3324,
-      "description": "Meta製150コンポの管理画面スタータ",
-      "detail": "Meta社内8年運用のデザインシステム。150超コンポーネントとswizzlingで中身を上書きでき、MITで受託の管理画面スタータに最適。Material-UI有償サポートが要らなくなります。",
-      "narration": "Meta公式の150コンポーネントとswizzlingで、受託管理画面のUIスタータ代が消えます。"
+      "stars": 22619,
+      "todayStars": 3111,
+      "description": "プリビルドCSSの型付UIキット",
+      "detail": "StyleXで事前コンパイルしたCSSを配布し、Babel設定なしで型付きReactをimportするだけで動きます。swizzleで部品のソースをそのまま取り出す設計で、AGENTS.mdとCLAUDE.mdでAI規約も揃えています。",
+      "narration": "StyleXでビルド済みCSSを配り、swizzleで部品のソースごと取り出せる型付きUIです。"
+    },
+    {
+      "rank": 2,
+      "fullName": "anthropics/skills",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "stars": 192243,
+      "todayStars": 1676,
+      "description": "SKILL.mdの動的ロード仕様",
+      "detail": "各スキルはSKILL.mdのYAMLメタnameとdescriptionでインデックス化され、必要になった時だけ本文と同梱スクリプトがClaudeに読み込まれるprogressive disclosure設計です。",
+      "narration": "nameとdescriptionのYAMLメタだけで、Claudeが本文と同梱スクリプトを必要時に読みます。"
     },
     {
       "rank": 3,
-      "fullName": "sherlock-project/sherlock",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "language": "Python",
-      "stars": 106893,
-      "todayStars": 4294,
-      "description": "400超SNS横断検索の定番OSINT",
-      "detail": "400超SNSに横串でユーザー名検索できるOSINT定番の106k★。CSV/XLSX出力で事業報告テンプレに組込み、M&A DD・採用調査・CSIRT の外注費を内製化できます。",
-      "narration": "400を超えるSNSを横断検索、OSINT外注の情報収集を自社で回せる定番ツールです。"
+      "fullName": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars": 115098,
+      "todayStars": 465,
+      "description": "工程別に並べたAI用skill集",
+      "detail": "Define/Plan/Build/Verify/Review/Shipの工程別フォルダに各skillを並べ、本文にProcessのcheckpointとRationalizations反論表を入れてAIが手を抜く経路を塞いでいます。",
+      "narration": "工程別フォルダに各skillを置き、Rationalizations反論表でAIの省略経路を塞いでいます。"
     },
     {
       "rank": 4,
-      "fullName": "google-deepmind/mujoco",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "language": "C++",
-      "stars": 16874,
-      "todayStars": 579,
-      "description": "DeepMind物理シミュのロボ試験代替",
-      "detail": "DeepMind製C++物理シミュレータでロボ・バイオメカ・RL研究の定番。JAXベースMJXで並列化、Apache-2.0で商用ロボ案件に入れやすく、Isaac Simの商用ライセンス制約を回避できます。",
-      "narration": "DeepMind公式の物理シミュで、ロボ案件の実機試験コストをApache-2.0で削れます。"
-    },
-    {
-      "rank": 5,
       "fullName": "anthropics/claude-quickstarts",
       "name": "claude-quickstarts",
       "url": "https://github.com/anthropics/claude-quickstarts",
       "language": "Python",
-      "stars": 19982,
-      "todayStars": 560,
-      "description": "Claude API公式スタータ10本",
-      "detail": "Claude API公式スタータ集。Customer Support / Financial Analyst / Computer Use など完成品10本同梱、受託PoCの工数見積を2週間化する根拠として使えます。",
-      "narration": "Claude APIの完成品スタータ10本で、受託PoCの工数見積を公式OSSで短縮できます。"
+      "stars": 20454,
+      "todayStars": 530,
+      "description": "Computer Use規格の雛形集",
+      "detail": "computer_toolset_20260801の名前付きツール呼出規格と、VNCのRFBプロトコルでdesktopを操作するコンテナ化デモが同梱。Sessions APIの9ツールMCPサーバも入ります。",
+      "narration": "computer_toolset規格とVNC操作デモ、Sessions APIのMCPサーバまで公式実装が揃います。"
+    },
+    {
+      "rank": 5,
+      "fullName": "google-deepmind/mujoco",
+      "name": "mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "language": "C++",
+      "stars": 17318,
+      "todayStars": 453,
+      "description": "C++物理コア+MJXのJAX枝",
+      "detail": "C++物理コアに加えJAXで書き直したMJXブランチを持ち、XLA経由でRL環境のバッチrolloutを並列化できます。WebAssembly版とUnity向けC#バインディングも配布されています。",
+      "narration": "C++コアとMJXのJAX枝でXLAバッチ並列化、WebAssemblyとUnity組込みも用意されています。"
     }
   ]
 }
