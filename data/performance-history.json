@@ -8761,7 +8761,7 @@
           "safeToRetry": false,
           "attemptId": "4d6090e4-472d-4df9-8b4b-d6e8ebc08c93",
           "attempts": 1,
-          "updatedAt": "2026-11-10T23:05:06.423Z",
+          "updatedAt": "2026-11-10T23:05:08.458Z",
           "date": "2026-11-11",
           "videoId": "5I9HdeF80Zo",
           "videoUrl": "https://youtube.com/shorts/5I9HdeF80Zo",
@@ -8769,13 +8769,17 @@
           "title": "astryx — プリビルドCSSの型付UIキット｜GitHub Trending TOP5 11/11",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
