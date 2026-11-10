@@ -6,16 +6,24 @@
   "metadataSha256": "5b149a43628b0ac63f8beded07c1bdf48ecda8acc0ec813cd9b1ea4f4379d4c0",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "4d6090e4-472d-4df9-8b4b-d6e8ebc08c93",
       "attempts": 1,
-      "updatedAt": "2026-11-10T23:05:00.682Z"
+      "updatedAt": "2026-11-10T23:05:06.423Z",
+      "date": "2026-11-11",
+      "videoId": "5I9HdeF80Zo",
+      "videoUrl": "https://youtube.com/shorts/5I9HdeF80Zo",
+      "uploadedAt": "2026-11-10T23:05:06.423Z",
+      "title": "astryx — プリビルドCSSの型付UIキット｜GitHub Trending TOP5 11/11",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-10T23:05:03.418Z"
+  "updatedAt": "2026-11-10T23:05:06.423Z"
 }
