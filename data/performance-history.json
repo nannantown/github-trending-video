@@ -8859,7 +8859,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "d1f6d462-b9da-4d1f-9399-3aa40a4b46cd",
+          "attempts": 1,
+          "updatedAt": "2026-11-11T23:03:42.650Z"
         },
         "instagram": {
           "status": "not_started"
