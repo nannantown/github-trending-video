@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "d1f6d462-b9da-4d1f-9399-3aa40a4b46cd",
       "attempts": 1,
-      "updatedAt": "2026-11-11T23:03:48.265Z",
+      "updatedAt": "2026-11-11T23:03:50.456Z",
       "date": "2026-11-12",
       "videoId": "CYeodFYt8oA",
       "videoUrl": "https://youtube.com/shorts/CYeodFYt8oA",
@@ -19,11 +19,14 @@
       "title": "astryx — Meta発swizzleで中身上書きのUI｜GitHub Trending TOP5 11/12",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-11T23:03:48.265Z"
+  "updatedAt": "2026-11-11T23:03:50.456Z"
 }
