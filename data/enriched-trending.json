@@ -1,16 +1,15 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "discovery": {
-    "method": "tech-deep",
-    "description": "SKILL.mdの動的ロードやStyleXの事前コンパイル、MJXのJAX枝など、各OSSの設計の芯をエンジニア視点で切る",
+    "method": "comparison",
+    "description": "今日の5リポを類似OSS・先行ツールとの差で切り、Primary層CTOの技術選定ガイド視点で統一",
     "sources": [
       "https://github.com/trending",
       "https://github.com/meta/astryx",
-      "https://github.com/anthropics/skills",
-      "https://github.com/addyosmani/agent-skills",
-      "https://github.com/anthropics/claude-quickstarts",
-      "https://github.com/google-deepmind/mujoco",
-      "https://news.ycombinator.com/front"
+      "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "https://github.com/shadcn/improve",
+      "https://github.com/addyosmani/agent-skills"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,59 +21,59 @@
       "name": "astryx",
       "url": "https://github.com/meta/astryx",
       "language": "TypeScript",
-      "stars": 22619,
-      "todayStars": 3111,
-      "description": "プリビルドCSSの型付UIキット",
-      "detail": "StyleXで事前コンパイルしたCSSを配布し、Babel設定なしで型付きReactをimportするだけで動きます。swizzleで部品のソースをそのまま取り出す設計で、AGENTS.mdとCLAUDE.mdでAI規約も揃えています。",
-      "narration": "StyleXでビルド済みCSSを配り、swizzleで部品のソースごと取り出せる型付きUIです。"
+      "stars": 24836,
+      "todayStars": 2842,
+      "description": "Meta発swizzleで中身上書きのUI",
+      "detail": "React19とStyleXでプリコンパイルCSSを配布、150超のアクセシブルコンポをswizzleでプロジェクトに丸ごと展開できます。MIT、Meta社内13,000アプリで運用実績あり。",
+      "narration": "shadcnはコピペ系、Metaのastryxはswizzleでコンポーネントを中身ごと差し替えます。"
     },
     {
       "rank": 2,
-      "fullName": "anthropics/skills",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "language": "Python",
-      "stars": 192243,
-      "todayStars": 1676,
-      "description": "SKILL.mdの動的ロード仕様",
-      "detail": "各スキルはSKILL.mdのYAMLメタnameとdescriptionでインデックス化され、必要になった時だけ本文と同梱スクリプトがClaudeに読み込まれるprogressive disclosure設計です。",
-      "narration": "nameとdescriptionのYAMLメタだけで、Claudeが本文と同梱スクリプトを必要時に読みます。"
+      "stars": 70147,
+      "todayStars": 429,
+      "description": "LLM前提の日次株式分析OSS",
+      "detail": "A株/米株/日本株など7市場対応、ClaudeやGemini、Ollama、OpenAI互換APIを切替、AkShareやYFinanceで無料データ取得、Slackやメール通知まで自動化します。MIT。",
+      "narration": "OpenBBは手動分析ツール、daily_stock_analysisはLLMで日次レポートと通知まで自動化します。"
     },
     {
       "rank": 3,
+      "fullName": "GoogleChrome/modern-web-guidance-src",
+      "name": "modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "language": "TypeScript",
+      "stars": 1695,
+      "todayStars": 133,
+      "description": "Chrome公式のagent向けweb標準",
+      "detail": "Chrome・Edge・Firefox・MDNチームの合同プロジェクトで、約250のweb標準機能と200事例をagent向けにトークン節約で配信、legacyパターンの自動検出まで備えます。Apache-2.0。",
+      "narration": "MDNは人向けの網羅参照、Chromeチームのこれはエージェント向けにweb標準を刈り込みます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "shadcn/improve",
+      "name": "improve",
+      "url": "https://github.com/shadcn/improve",
+      "language": null,
+      "stars": 10796,
+      "todayStars": 333,
+      "description": "shadcn製の監査→実装分離CLI",
+      "detail": "高性能モデルで9カテゴリをパラレル監査し優先度付きの実装プランを書き、安価モデルと隔離worktreeに実装を委ねます。/improve branchや--issuesでGitHub連携も可能。MIT。",
+      "narration": "Cursorは1モデルで実装まで、improveは高性能モデルに監査とプランだけ書かせます。"
+    },
+    {
+      "rank": 5,
       "fullName": "addyosmani/agent-skills",
       "name": "agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "language": "JavaScript",
-      "stars": 115098,
-      "todayStars": 465,
-      "description": "工程別に並べたAI用skill集",
-      "detail": "Define/Plan/Build/Verify/Review/Shipの工程別フォルダに各skillを並べ、本文にProcessのcheckpointとRationalizations反論表を入れてAIが手を抜く経路を塞いでいます。",
-      "narration": "工程別フォルダに各skillを置き、Rationalizations反論表でAIの省略経路を塞いでいます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "anthropics/claude-quickstarts",
-      "name": "claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "language": "Python",
-      "stars": 20454,
-      "todayStars": 530,
-      "description": "Computer Use規格の雛形集",
-      "detail": "computer_toolset_20260801の名前付きツール呼出規格と、VNCのRFBプロトコルでdesktopを操作するコンテナ化デモが同梱。Sessions APIの9ツールMCPサーバも入ります。",
-      "narration": "computer_toolset規格とVNC操作デモ、Sessions APIのMCPサーバまで公式実装が揃います。"
-    },
-    {
-      "rank": 5,
-      "fullName": "google-deepmind/mujoco",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "language": "C++",
-      "stars": 17318,
-      "todayStars": 453,
-      "description": "C++物理コア+MJXのJAX枝",
-      "detail": "C++物理コアに加えJAXで書き直したMJXブランチを持ち、XLA経由でRL環境のバッチrolloutを並列化できます。WebAssembly版とUnity向けC#バインディングも配布されています。",
-      "narration": "C++コアとMJXのJAX枝でXLAバッチ並列化、WebAssemblyとUnity組込みも用意されています。"
+      "stars": 115881,
+      "todayStars": 788,
+      "description": "Addy氏の工程別agent用skill集",
+      "detail": "Define/Plan/Build/Verify/Review/Shipの6工程×24スキルをSKILL.md形式で配布。Claude Code・Cursor・Codex・Copilot・Gemini CLI等70以上のagent向け、MITで企業利用可。",
+      "narration": "anthropics公式は機能別の束、Addy氏のagent-skillsはDefine→Shipの工程順で揃えます。"
     }
   ]
 }
