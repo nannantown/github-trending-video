@@ -6,16 +6,24 @@
   "metadataSha256": "6795c6b0483cbf137a02fe44849783efeb1ad193ecaff7b2d6577fb5cdde7832",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "d1f6d462-b9da-4d1f-9399-3aa40a4b46cd",
       "attempts": 1,
-      "updatedAt": "2026-11-11T23:03:42.650Z"
+      "updatedAt": "2026-11-11T23:03:48.265Z",
+      "date": "2026-11-12",
+      "videoId": "CYeodFYt8oA",
+      "videoUrl": "https://youtube.com/shorts/CYeodFYt8oA",
+      "uploadedAt": "2026-11-11T23:03:48.264Z",
+      "title": "astryx — Meta発swizzleで中身上書きのUI｜GitHub Trending TOP5 11/12",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-11T23:03:44.638Z"
+  "updatedAt": "2026-11-11T23:03:48.265Z"
 }
