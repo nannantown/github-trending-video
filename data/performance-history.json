@@ -8907,8 +8907,8 @@
     },
     {
       "date": "2026-11-13",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "N4cgaRlNBgM",
+      "videoUrl": "https://youtube.com/shorts/N4cgaRlNBgM",
       "title": "modern-web-guidance-src — Google製agent向けのweb標準集｜GitHub Trending TOP5 11/13",
       "titleTemplate": "top1",
       "hashtags": [
@@ -8963,17 +8963,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "cd0b59d7-a6cf-464b-9998-f869a2df6800",
           "attempts": 1,
-          "updatedAt": "2026-11-12T23:04:47.189Z"
+          "updatedAt": "2026-11-12T23:04:51.460Z",
+          "date": "2026-11-13",
+          "videoId": "N4cgaRlNBgM",
+          "videoUrl": "https://youtube.com/shorts/N4cgaRlNBgM",
+          "uploadedAt": "2026-11-12T23:04:51.460Z",
+          "title": "modern-web-guidance-src — Google製agent向けのweb標準集｜GitHub Trending TOP5 11/13",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
