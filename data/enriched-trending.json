@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "discovery": {
-    "method": "comparison",
-    "description": "今日の5リポを類似OSS・先行ツールとの差で切り、Primary層CTOの技術選定ガイド視点で統一",
+    "method": "business-angle",
+    "description": "本日 TOP5 を受託・スタートアップ視点で料理。各 OSS が実案件でどの工数を削るか、どのコストを置き換えるかを 1 本に 1 事業視点で揃える",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/meta/astryx",
-      "https://github.com/ZhuLinsen/daily_stock_analysis",
       "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "https://github.com/shadcn/improve",
-      "https://github.com/addyosmani/agent-skills"
+      "https://github.com/openai/codex-security",
+      "https://github.com/nvm-sh/nvm",
+      "https://github.com/pookjw/HermesEnabler",
+      "https://github.com/we-promise/sure"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "meta/astryx",
-      "name": "astryx",
-      "url": "https://github.com/meta/astryx",
-      "language": "TypeScript",
-      "stars": 24836,
-      "todayStars": 2842,
-      "description": "Meta発swizzleで中身上書きのUI",
-      "detail": "React19とStyleXでプリコンパイルCSSを配布、150超のアクセシブルコンポをswizzleでプロジェクトに丸ごと展開できます。MIT、Meta社内13,000アプリで運用実績あり。",
-      "narration": "shadcnはコピペ系、Metaのastryxはswizzleでコンポーネントを中身ごと差し替えます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "language": "Python",
-      "stars": 70147,
-      "todayStars": 429,
-      "description": "LLM前提の日次株式分析OSS",
-      "detail": "A株/米株/日本株など7市場対応、ClaudeやGemini、Ollama、OpenAI互換APIを切替、AkShareやYFinanceで無料データ取得、Slackやメール通知まで自動化します。MIT。",
-      "narration": "OpenBBは手動分析ツール、daily_stock_analysisはLLMで日次レポートと通知まで自動化します。"
-    },
-    {
-      "rank": 3,
       "fullName": "GoogleChrome/modern-web-guidance-src",
       "name": "modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "language": "TypeScript",
-      "stars": 1695,
-      "todayStars": 133,
-      "description": "Chrome公式のagent向けweb標準",
-      "detail": "Chrome・Edge・Firefox・MDNチームの合同プロジェクトで、約250のweb標準機能と200事例をagent向けにトークン節約で配信、legacyパターンの自動検出まで備えます。Apache-2.0。",
-      "narration": "MDNは人向けの網羅参照、Chromeチームのこれはエージェント向けにweb標準を刈り込みます。"
+      "stars": 2791,
+      "todayStars": 799,
+      "description": "Google製agent向けのweb標準集",
+      "detail": "Chrome・Edge・Firefox・MDNチームが共同で作る、agentにmodern webのbest practicesを食わせるガイド集です。legacy-scanで古いパターンを自動検出でき、受託の刷新案件に効きます。",
+      "narration": "Googleが作るagent向けwebガイドです。legacy-scanで古いJSを自動棚卸しできます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "openai/codex-security",
+      "name": "codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "language": "TypeScript",
+      "stars": 12361,
+      "todayStars": 663,
+      "description": "OpenAI製の脆弱性診断CLI",
+      "detail": "コード全体をStandardとDeepの2モードでスキャンし、候補の検証とパッチ生成まで一気通貫で行います。CIでは1スキャン$5の予算キャップを掛けられ、手動セキュリティ診断の案件を自動化できます。",
+      "narration": "OpenAIが出した自前の脆弱性診断ツールです。1スキャン$5の予算キャップで監査案件を自動化できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "nvm-sh/nvm",
+      "name": "nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "language": "Shell",
+      "stars": 95995,
+      "todayStars": 107,
+      "description": "Node.jsバージョン切替の定番",
+      "detail": "POSIX準拠のbashスクリプトで、.nvmrcにプロジェクトごとのNodeバージョンを固定できます。新人エンジニアのオンボーディング工数と受託案件の環境差異事故を同時に減らせます。",
+      "narration": "Nodeのバージョン管理の定番ツールです。.nvmrcでプロジェクトに固定すると新人の立ち上げ工数が減ります。"
     },
     {
       "rank": 4,
-      "fullName": "shadcn/improve",
-      "name": "improve",
-      "url": "https://github.com/shadcn/improve",
-      "language": null,
-      "stars": 10796,
-      "todayStars": 333,
-      "description": "shadcn製の監査→実装分離CLI",
-      "detail": "高性能モデルで9カテゴリをパラレル監査し優先度付きの実装プランを書き、安価モデルと隔離worktreeに実装を委ねます。/improve branchや--issuesでGitHub連携も可能。MIT。",
-      "narration": "Cursorは1モデルで実装まで、improveは高性能モデルに監査とプランだけ書かせます。"
+      "fullName": "pookjw/HermesEnabler",
+      "name": "HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "language": "Objective-C",
+      "stars": 1506,
+      "todayStars": 300,
+      "description": "Apple WatchでHermès文字盤解禁",
+      "detail": "watchOS 27系向け、sideloadingとMobileGestalt改変で、Hermès専用文字盤を任意のApple Watchに表示します。iOS受託でリバース技法を学ぶ教材として使えます。",
+      "narration": "Apple WatchでHermès文字盤を解禁します。iOS受託で使えるリバース技法の実例が学べます。"
     },
     {
       "rank": 5,
-      "fullName": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "language": "JavaScript",
-      "stars": 115881,
-      "todayStars": 788,
-      "description": "Addy氏の工程別agent用skill集",
-      "detail": "Define/Plan/Build/Verify/Review/Shipの6工程×24スキルをSKILL.md形式で配布。Claude Code・Cursor・Codex・Copilot・Gemini CLI等70以上のagent向け、MITで企業利用可。",
-      "narration": "anthropics公式は機能別の束、Addy氏のagent-skillsはDefine→Shipの工程順で揃えます。"
+      "fullName": "we-promise/sure",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "language": "Ruby",
+      "stars": 13848,
+      "todayStars": 974,
+      "description": "自己ホスト型の個人家計簿アプリ",
+      "detail": "Maybe Finance終了後のコミュニティfork、Rails+Postgres+DockerでHelm自己ホスト対応です。AGPLなので受託のカスタム家計簿やダッシュボードの導入支援案件に転用できます。",
+      "narration": "Mint終了後の穴を埋める自己ホスト型家計簿アプリです。AGPLで受託カスタム導入案件の素材に使えます。"
     }
   ]
 }
