@@ -8968,7 +8968,7 @@
           "safeToRetry": false,
           "attemptId": "cd0b59d7-a6cf-464b-9998-f869a2df6800",
           "attempts": 1,
-          "updatedAt": "2026-11-12T23:04:51.460Z",
+          "updatedAt": "2026-11-12T23:04:52.936Z",
           "date": "2026-11-13",
           "videoId": "N4cgaRlNBgM",
           "videoUrl": "https://youtube.com/shorts/N4cgaRlNBgM",
@@ -8976,13 +8976,17 @@
           "title": "modern-web-guidance-src — Google製agent向けのweb標準集｜GitHub Trending TOP5 11/13",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
