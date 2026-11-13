@@ -9084,12 +9084,16 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "81a42f7f-fcab-4658-8dac-68c35f4a43cd",
           "attempts": 1,
-          "updatedAt": "2026-11-13T23:04:07.771Z"
+          "updatedAt": "2026-11-13T23:04:11.445Z",
+          "containerId": "18099353819460294",
+          "containerIds": [
+            "18099353819460294"
+          ]
         }
       },
       "ytOpening": "top1",
