@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "f6ab9ee7-3651-45f1-925b-d959ad061a75",
       "attempts": 1,
-      "updatedAt": "2026-11-13T23:04:05.029Z",
+      "updatedAt": "2026-11-13T23:04:06.382Z",
       "date": "2026-11-14",
       "videoId": "9UGTNtscAlk",
       "videoUrl": "https://youtube.com/shorts/9UGTNtscAlk",
@@ -28,5 +28,5 @@
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-13T23:04:05.029Z"
+  "updatedAt": "2026-11-13T23:04:06.382Z"
 }
