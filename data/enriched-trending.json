@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 TOP5 を受託・スタートアップ視点で料理。各 OSS が実案件でどの工数を削るか、どのコストを置き換えるかを 1 本に 1 事業視点で揃える",
+    "method": "tech-deep",
+    "description": "本日 TOP5 の技術的な独自性とアーキテクチャをコードレビュー・skill pack・脆弱性診断・株分析・個人家計簿の順で読み解く、CTO / 技術選定向けの深掘り回",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/alibaba/open-code-review",
       "https://github.com/GoogleChrome/modern-web-guidance-src",
       "https://github.com/openai/codex-security",
-      "https://github.com/nvm-sh/nvm",
-      "https://github.com/pookjw/HermesEnabler",
+      "https://github.com/ZhuLinsen/daily_stock_analysis",
       "https://github.com/we-promise/sure"
     ],
     "query": "",
@@ -17,51 +17,51 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 50547,
+      "todayStars": 206,
+      "description": "ルール×LLMのコードレビューCLI",
+      "detail": "Alibaba製、Git diffから関連ファイルをbundleに束ねsub-agentで並列レビューします。NPE・スレッド安全・XSS・SQLiの組み込みルールと、positioningとreflectionでコメント位置と内容を校正します。",
+      "narration": "ルールエンジンとLLMを束ねたコードレビューCLIです。関連ファイルをまとめてsub-agentで並列処理します。"
+    },
+    {
+      "rank": 2,
       "fullName": "GoogleChrome/modern-web-guidance-src",
       "name": "modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "language": "TypeScript",
-      "stars": 2791,
-      "todayStars": 799,
-      "description": "Google製agent向けのweb標準集",
-      "detail": "Chrome・Edge・Firefox・MDNチームが共同で作る、agentにmodern webのbest practicesを食わせるガイド集です。legacy-scanで古いパターンを自動検出でき、受託の刷新案件に効きます。",
-      "narration": "Googleが作るagent向けwebガイドです。legacy-scanで古いJSを自動棚卸しできます。"
+      "stars": 4739,
+      "todayStars": 1875,
+      "description": "4ベンダー共同のweb標準skill pack",
+      "detail": "Chrome・Edge・Firefox・MDNの4チームが共同保守する、coding agentがModern Webに追従するためのMarkdown guide集です。npxでguideを検索しcontextに差し込み、legacy-scanで古いパターンを検出します。",
+      "narration": "4ベンダー共同のweb標準skill packです。npxでguideをagent contextに差し込みます。"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "fullName": "openai/codex-security",
       "name": "codex-security",
       "url": "https://github.com/openai/codex-security",
       "language": "TypeScript",
-      "stars": 12361,
-      "todayStars": 663,
-      "description": "OpenAI製の脆弱性診断CLI",
-      "detail": "コード全体をStandardとDeepの2モードでスキャンし、候補の検証とパッチ生成まで一気通貫で行います。CIでは1スキャン$5の予算キャップを掛けられ、手動セキュリティ診断の案件を自動化できます。",
-      "narration": "OpenAIが出した自前の脆弱性診断ツールです。1スキャン$5の予算キャップで監査案件を自動化できます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "nvm-sh/nvm",
-      "name": "nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "language": "Shell",
-      "stars": 95995,
-      "todayStars": 107,
-      "description": "Node.jsバージョン切替の定番",
-      "detail": "POSIX準拠のbashスクリプトで、.nvmrcにプロジェクトごとのNodeバージョンを固定できます。新人エンジニアのオンボーディング工数と受託案件の環境差異事故を同時に減らせます。",
-      "narration": "Nodeのバージョン管理の定番ツールです。.nvmrcでプロジェクトに固定すると新人の立ち上げ工数が減ります。"
+      "stars": 13090,
+      "todayStars": 754,
+      "description": "OpenAI公式の脆弱性診断スイート",
+      "detail": "CLI、TypeScript SDK、GitHub Action、Codex pluginが一枚岩で提供されます。Deep modeはStandard scanを多重化して重複排除し、重大度ルーブリックとGit履歴から所有者を推定、SARIF形式で出力します。",
+      "narration": "OpenAI公式の脆弱性診断CLIとSDKです。Deep modeで同じscanを多重化しSARIFで出します。"
     },
     {
       "rank": 4,
-      "fullName": "pookjw/HermesEnabler",
-      "name": "HermesEnabler",
-      "url": "https://github.com/pookjw/HermesEnabler",
-      "language": "Objective-C",
-      "stars": 1506,
-      "todayStars": 300,
-      "description": "Apple WatchでHermès文字盤解禁",
-      "detail": "watchOS 27系向け、sideloadingとMobileGestalt改変で、Hermès専用文字盤を任意のApple Watchに表示します。iOS受託でリバース技法を学ぶ教材として使えます。",
-      "narration": "Apple WatchでHermès文字盤を解禁します。iOS受託で使えるリバース技法の実例が学べます。"
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars": 71545,
+      "todayStars": 272,
+      "description": "多市場対応のLLM株分析システム",
+      "detail": "A株・香港・US・JP・韓国・台湾の6市場を1本で扱います。CLI、FastAPI、Web UI、botの多面構成で、Chan理論・Elliott波など15種の戦略agentがAkShareやYFinanceから取得したデータで判定します。",
+      "narration": "6市場対応のLLM株分析システムです。CLI・FastAPI・web UIを束ね15の戦略を自動実行します。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "sure",
       "url": "https://github.com/we-promise/sure",
       "language": "Ruby",
-      "stars": 13848,
-      "todayStars": 974,
-      "description": "自己ホスト型の個人家計簿アプリ",
-      "detail": "Maybe Finance終了後のコミュニティfork、Rails+Postgres+DockerでHelm自己ホスト対応です。AGPLなので受託のカスタム家計簿やダッシュボードの導入支援案件に転用できます。",
-      "narration": "Mint終了後の穴を埋める自己ホスト型家計簿アプリです。AGPLで受託カスタム導入案件の素材に使えます。"
+      "stars": 14685,
+      "todayStars": 944,
+      "description": "Maybe Finance公式AGPL fork",
+      "detail": "Rails+Postgres+Redis+Sidekiq構成で、DockerまたはHelm chartで自己ホストできます。pgvector内蔵のSimple AIか、OpenClaw gateway経由のExternal AIでLLM家計アシスタントが動きます。",
+      "narration": "Maybe Financeの公式AGPL forkです。pgvector内蔵でAI家計アシスタントが動きます。"
     }
   ]
 }
