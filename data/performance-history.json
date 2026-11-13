@@ -9069,7 +9069,7 @@
           "safeToRetry": false,
           "attemptId": "f6ab9ee7-3651-45f1-925b-d959ad061a75",
           "attempts": 1,
-          "updatedAt": "2026-11-13T23:04:02.776Z",
+          "updatedAt": "2026-11-13T23:04:05.029Z",
           "date": "2026-11-14",
           "videoId": "9UGTNtscAlk",
           "videoUrl": "https://youtube.com/shorts/9UGTNtscAlk",
@@ -9077,13 +9077,17 @@
           "title": "open-code-review — ルール×LLMのコードレビューCLI｜GitHub Trending TOP5 11/14",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
