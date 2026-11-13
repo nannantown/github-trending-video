@@ -22,7 +22,9 @@
   },
   "20261113": {
     "attempts": 1,
-    "failures": [],
+    "failures": [
+      "ProcessingFailedError"
+    ],
     "lastAttemptAt": "2026-11-13T03:07:40.485Z"
   }
 }
