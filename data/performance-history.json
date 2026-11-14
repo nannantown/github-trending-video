@@ -9163,7 +9163,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "4bffbc83-c491-46c0-96f4-74edcf226fd3",
+          "attempts": 1,
+          "updatedAt": "2026-11-14T23:04:02.158Z"
         },
         "instagram": {
           "status": "not_started"
