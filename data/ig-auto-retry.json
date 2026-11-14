@@ -30,10 +30,10 @@
     "stopped": "ProcessingFailedError on the last 2 automatic attempts — the video or the account, not a passing glitch. Not retried automatically."
   },
   "20261114": {
-    "attempts": 1,
+    "attempts": 2,
     "failures": [
       "ProcessingFailedError"
     ],
-    "lastAttemptAt": "2026-11-14T03:07:37.724Z"
+    "lastAttemptAt": "2026-11-14T05:07:34.264Z"
   }
 }
