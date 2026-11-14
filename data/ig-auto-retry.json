@@ -28,5 +28,10 @@
     ],
     "lastAttemptAt": "2026-11-13T05:07:34.427Z",
     "stopped": "ProcessingFailedError on the last 2 automatic attempts — the video or the account, not a passing glitch. Not retried automatically."
+  },
+  "20261114": {
+    "attempts": 1,
+    "failures": [],
+    "lastAttemptAt": "2026-11-14T03:07:37.724Z"
   }
 }
