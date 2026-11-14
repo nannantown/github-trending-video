@@ -6,16 +6,24 @@
   "metadataSha256": "d7cacc7fb1d4e2c1ddb5c0eda6f2a859444a8ddc651ef20b907bb284edbc1ae0",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "4bffbc83-c491-46c0-96f4-74edcf226fd3",
       "attempts": 1,
-      "updatedAt": "2026-11-14T23:04:02.158Z"
+      "updatedAt": "2026-11-14T23:04:06.496Z",
+      "date": "2026-11-15",
+      "videoId": "YqWmNSjTxyA",
+      "videoUrl": "https://youtube.com/shorts/YqWmNSjTxyA",
+      "uploadedAt": "2026-11-14T23:04:06.496Z",
+      "title": "plannotator — AIエージェントの計画を画面レビュー｜GitHub Trending TOP5 11/15",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-14T23:04:03.836Z"
+  "updatedAt": "2026-11-14T23:04:06.496Z"
 }

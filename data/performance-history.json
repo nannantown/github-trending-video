@@ -9109,8 +9109,8 @@
     },
     {
       "date": "2026-11-15",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "YqWmNSjTxyA",
+      "videoUrl": "https://youtube.com/shorts/YqWmNSjTxyA",
       "title": "plannotator — AIエージェントの計画を画面レビュー｜GitHub Trending TOP5 11/15",
       "titleTemplate": "top1",
       "hashtags": [
@@ -9163,17 +9163,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "4bffbc83-c491-46c0-96f4-74edcf226fd3",
           "attempts": 1,
-          "updatedAt": "2026-11-14T23:04:02.158Z"
+          "updatedAt": "2026-11-14T23:04:06.496Z",
+          "date": "2026-11-15",
+          "videoId": "YqWmNSjTxyA",
+          "videoUrl": "https://youtube.com/shorts/YqWmNSjTxyA",
+          "uploadedAt": "2026-11-14T23:04:06.496Z",
+          "title": "plannotator — AIエージェントの計画を画面レビュー｜GitHub Trending TOP5 11/15",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
