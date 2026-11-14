@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "discovery": {
-    "method": "tech-deep",
-    "description": "本日 TOP5 の技術的な独自性とアーキテクチャをコードレビュー・skill pack・脆弱性診断・株分析・個人家計簿の順で読み解く、CTO / 技術選定向けの深掘り回",
+    "method": "self-experiment",
+    "description": "本日 TOP5 の 5 本を『実際にインストールして初回起動まで触ってみた一人称の手触り』で統一し、Primary 層へ『手を動かす人』の信頼シグナルを渡す回",
     "sources": [
       "https://github.com/trending",
-      "https://github.com/alibaba/open-code-review",
+      "https://github.com/backnotprop/plannotator",
       "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "https://github.com/openai/codex-security",
-      "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "https://github.com/we-promise/sure"
+      "https://github.com/tradermonty/claude-trading-skills",
+      "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "https://github.com/alibaba/open-code-review"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,15 +17,15 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 50547,
-      "todayStars": 206,
-      "description": "ルール×LLMのコードレビューCLI",
-      "detail": "Alibaba製、Git diffから関連ファイルをbundleに束ねsub-agentで並列レビューします。NPE・スレッド安全・XSS・SQLiの組み込みルールと、positioningとreflectionでコメント位置と内容を校正します。",
-      "narration": "ルールエンジンとLLMを束ねたコードレビューCLIです。関連ファイルをまとめてsub-agentで並列処理します。"
+      "fullName": "backnotprop/plannotator",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "language": "TypeScript",
+      "stars": 11070,
+      "todayStars": 412,
+      "description": "AIエージェントの計画を画面レビュー",
+      "detail": "インストーラー一発で入れると、Claude Codeが計画を出した瞬間にブラウザが自動で開きました。気になる行に注釈を付けて返すだけで修正案が戻り、ターミナルとの往復が1画面で完結します。",
+      "narration": "agentの計画や差分をブラウザで注釈する道具です。気になる行に印を付けて送ると、次の返答に反映され往復が減りました。"
     },
     {
       "rank": 2,
@@ -33,47 +33,47 @@
       "name": "modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "language": "TypeScript",
-      "stars": 4739,
-      "todayStars": 1875,
-      "description": "4ベンダー共同のweb標準skill pack",
-      "detail": "Chrome・Edge・Firefox・MDNの4チームが共同保守する、coding agentがModern Webに追従するためのMarkdown guide集です。npxでguideを検索しcontextに差し込み、legacy-scanで古いパターンを検出します。",
-      "narration": "4ベンダー共同のweb標準skill packです。npxでguideをagent contextに差し込みます。"
+      "stars": 5939,
+      "todayStars": 1225,
+      "description": "モダンWeb知見をagentに注入",
+      "detail": "npxで対話ウィザードが走り、Chrome・Edge・Firefox・MDNの4ベンダー共同の250ガイドが使えるようになります。legacy-scanで古い書き方もすぐ見つかりました。",
+      "narration": "最新Webの指針をagentに差し込むskillです。npxで入れlegacy-scanを叩くと古い書き方が即出ます。"
     },
     {
       "rank": 3,
-      "fullName": "openai/codex-security",
-      "name": "codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "language": "TypeScript",
-      "stars": 13090,
-      "todayStars": 754,
-      "description": "OpenAI公式の脆弱性診断スイート",
-      "detail": "CLI、TypeScript SDK、GitHub Action、Codex pluginが一枚岩で提供されます。Deep modeはStandard scanを多重化して重複排除し、重大度ルーブリックとGit履歴から所有者を推定、SARIF形式で出力します。",
-      "narration": "OpenAI公式の脆弱性診断CLIとSDKです。Deep modeで同じscanを多重化しSARIFで出します。"
+      "fullName": "tradermonty/claude-trading-skills",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "language": "Python",
+      "stars": 4757,
+      "todayStars": 556,
+      "description": "Claude向けのトレードskill集",
+      "detail": "Releaseから.skillファイルを落としてカスタマイズ > Skillsから読み込ませたら、screenerやポジションサイズ計算が即使えました。信号配信ではなく判断補助の設計です。",
+      "narration": "Claudeに株式投資の判断補助を足すskillです。無料FMPだけでbreadth分析とポジション計算が走りました。"
     },
     {
       "rank": 4,
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "language": "Python",
-      "stars": 71545,
-      "todayStars": 272,
-      "description": "多市場対応のLLM株分析システム",
-      "detail": "A株・香港・US・JP・韓国・台湾の6市場を1本で扱います。CLI、FastAPI、Web UI、botの多面構成で、Chan理論・Elliott波など15種の戦略agentがAkShareやYFinanceから取得したデータで判定します。",
-      "narration": "6市場対応のLLM株分析システムです。CLI・FastAPI・web UIを束ね15の戦略を自動実行します。"
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "language": "TypeScript",
+      "stars": 56251,
+      "todayStars": 673,
+      "description": "Chrome DevToolsをagentに公開",
+      "detail": "mcpServers設定にnpxコマンドを足して再起動すると、このページの性能を見てと頼むだけでChromeが立ち上がり、traceを取ってLCPの原因まで指摘してきました。所要1分です。",
+      "narration": "Chrome DevTools操作をagentに開くMCPです。性能を見てと頼むとtrace取得まで自動で走りました。"
     },
     {
       "rank": 5,
-      "fullName": "we-promise/sure",
-      "name": "sure",
-      "url": "https://github.com/we-promise/sure",
-      "language": "Ruby",
-      "stars": 14685,
-      "todayStars": 944,
-      "description": "Maybe Finance公式AGPL fork",
-      "detail": "Rails+Postgres+Redis+Sidekiq構成で、DockerまたはHelm chartで自己ホストできます。pgvector内蔵のSimple AIか、OpenClaw gateway経由のExternal AIでLLM家計アシスタントが動きます。",
-      "narration": "Maybe Financeの公式AGPL forkです。pgvector内蔵でAI家計アシスタントが動きます。"
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 51382,
+      "todayStars": 897,
+      "description": "ルール×LLMの差分レビューCLI",
+      "detail": "npmで一発install、ocr config providerで接続先を選びocr reviewを叩くと、stagedとunstagedとuntrackedをまとめて走査しsub-agentがbundle単位で並列実行します。",
+      "narration": "ルールとLLMを重ねたレビューCLIです。ocr reviewでbundleごとにsub-agentが並列で走りました。"
     }
   ]
 }
