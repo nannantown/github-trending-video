@@ -9183,20 +9183,21 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "1a0d7ddf-8173-489d-8179-f033c70f7970",
           "attempts": 3,
-          "updatedAt": "2026-11-15T05:07:36.692Z",
-          "containerId": "18099543716460294",
+          "updatedAt": "2026-11-15T05:07:39.709Z",
+          "containerId": "18099558503460294",
           "containerIds": [
             "18099519491460294",
             "18099519728460294",
             "18099520013460294",
             "18099543305460294",
             "18099543578460294",
-            "18099543716460294"
+            "18099543716460294",
+            "18099558503460294"
           ]
         }
       },
