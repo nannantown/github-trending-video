@@ -9208,8 +9208,8 @@
     },
     {
       "date": "2026-11-16",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "gFuKsDJoZIw",
+      "videoUrl": "https://youtube.com/shorts/gFuKsDJoZIw",
       "title": "univer — 表計算を自社SaaSに埋め込む｜GitHub Trending TOP5 11/16",
       "titleTemplate": "top1",
       "hashtags": [
@@ -9259,17 +9259,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "da0b395c-847b-4eac-98c1-67891d944157",
           "attempts": 1,
-          "updatedAt": "2026-11-15T23:04:37.110Z"
+          "updatedAt": "2026-11-15T23:04:42.412Z",
+          "date": "2026-11-16",
+          "videoId": "gFuKsDJoZIw",
+          "videoUrl": "https://youtube.com/shorts/gFuKsDJoZIw",
+          "uploadedAt": "2026-11-15T23:04:42.412Z",
+          "title": "univer — 表計算を自社SaaSに埋め込む｜GitHub Trending TOP5 11/16",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
