@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "discovery": {
-    "method": "self-experiment",
-    "description": "本日 TOP5 の 5 本を『実際にインストールして初回起動まで触ってみた一人称の手触り』で統一し、Primary 層へ『手を動かす人』の信頼シグナルを渡す回",
+    "method": "business-angle",
+    "description": "本日 TOP5 の 5 本を『受託案件・自社SaaS・社内導入で事業コストをどう削るか』の視点で統一し、Primary 層 (CTO/技術選定/事業責任者) の技術選定判断と見積り設計に効く柱② 回",
     "sources": [
       "https://github.com/trending",
+      "https://github.com/dream-num/univer",
+      "https://github.com/ag-ui-protocol/ag-ui",
+      "https://github.com/google-labs-code/stitch-skills",
       "https://github.com/backnotprop/plannotator",
-      "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "https://github.com/tradermonty/claude-trading-skills",
-      "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "https://github.com/alibaba/open-code-review"
+      "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
+      "fullName": "dream-num/univer",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "language": "TypeScript",
+      "stars": 25553,
+      "todayStars": 1041,
+      "description": "表計算を自社SaaSに埋め込む",
+      "detail": "Apache-2.0のコアで表計算・文書編集・ヘッドレス処理を実装でき、商用アドオンでスライドやXLSX互換の入出力も追加できます。SaaSにOffice機能を内蔵したい受託や自社製品の実装工数を圧縮できます。",
+      "narration": "表計算と文書編集を自社SaaSに埋め込めるOSSです。Server SDKで共同編集も内製でき外部ツール費を削れます。"
+    },
+    {
+      "rank": 2,
+      "fullName": "ag-ui-protocol/ag-ui",
+      "name": "ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "language": "TypeScript",
+      "stars": 17801,
+      "todayStars": 393,
+      "description": "agentとUIを繋ぐ共通規格",
+      "detail": "MITで約16種のイベント型を定め、SSE・WebSocket・webhook経由で動きます。LangGraphやCrewAI、MicrosoftやGoogleの公式フレームが対応済みで、agent案件の初動設計を短縮できます。",
+      "narration": "agentとフロント画面を繋ぐ標準プロトコルです。主要フレームが対応済みで独自つなぎ込みの工数を削減できます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "google-labs-code/stitch-skills",
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "language": "TypeScript",
+      "stars": 9251,
+      "todayStars": 248,
+      "description": "Stitchデザイン→React化",
+      "detail": "15のskillでReactやReact Nativeコンポーネント生成、既存画面からのdesign.md抽出、shadcnとの統合まで可能です。Apache-2.0でCodexやClaude Codeから呼べ、デザイン工程の見積りが変わります。",
+      "narration": "StitchデザインからReact実装まで繋ぐskill集です。デザインと実装の分業コストを圧縮し受託案件に効きます。"
+    },
+    {
+      "rank": 4,
       "fullName": "backnotprop/plannotator",
       "name": "plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "language": "TypeScript",
-      "stars": 11070,
-      "todayStars": 412,
-      "description": "AIエージェントの計画を画面レビュー",
-      "detail": "インストーラー一発で入れると、Claude Codeが計画を出した瞬間にブラウザが自動で開きました。気になる行に注釈を付けて返すだけで修正案が戻り、ターミナルとの往復が1画面で完結します。",
-      "narration": "agentの計画や差分をブラウザで注釈する道具です。気になる行に印を付けて送ると、次の返答に反映され往復が減りました。"
+      "stars": 11785,
+      "todayStars": 860,
+      "description": "agent計画を人が注釈レビュー",
+      "detail": "行単位コメントと共有リンクでagentの計画や差分をレビューでき、Apache-2.0かMITのデュアル構成です。Claude CodeやCodex、Gemini CLIに対応するので、シニアの指示工数を分散できます。",
+      "narration": "agentの計画をブラウザで注釈し送り返すレビュー窓口です。レビュー工数を1人分減らしチーム運用が回ります。"
     },
     {
-      "rank": 2,
-      "fullName": "GoogleChrome/modern-web-guidance-src",
-      "name": "modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "language": "TypeScript",
-      "stars": 5939,
-      "todayStars": 1225,
-      "description": "モダンWeb知見をagentに注入",
-      "detail": "npxで対話ウィザードが走り、Chrome・Edge・Firefox・MDNの4ベンダー共同の250ガイドが使えるようになります。legacy-scanで古い書き方もすぐ見つかりました。",
-      "narration": "最新Webの指針をagentに差し込むskillです。npxで入れlegacy-scanを叩くと古い書き方が即出ます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "tradermonty/claude-trading-skills",
-      "name": "claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "language": "Python",
-      "stars": 4757,
-      "todayStars": 556,
-      "description": "Claude向けのトレードskill集",
-      "detail": "Releaseから.skillファイルを落としてカスタマイズ > Skillsから読み込ませたら、screenerやポジションサイズ計算が即使えました。信号配信ではなく判断補助の設計です。",
-      "narration": "Claudeに株式投資の判断補助を足すskillです。無料FMPだけでbreadth分析とポジション計算が走りました。"
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "fullName": "ChromeDevTools/chrome-devtools-mcp",
       "name": "chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "language": "TypeScript",
-      "stars": 56251,
-      "todayStars": 673,
-      "description": "Chrome DevToolsをagentに公開",
-      "detail": "mcpServers設定にnpxコマンドを足して再起動すると、このページの性能を見てと頼むだけでChromeが立ち上がり、traceを取ってLCPの原因まで指摘してきました。所要1分です。",
-      "narration": "Chrome DevTools操作をagentに開くMCPです。性能を見てと頼むとtrace取得まで自動で走りました。"
-    },
-    {
-      "rank": 5,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 51382,
-      "todayStars": 897,
-      "description": "ルール×LLMの差分レビューCLI",
-      "detail": "npmで一発install、ocr config providerで接続先を選びocr reviewを叩くと、stagedとunstagedとuntrackedをまとめて走査しsub-agentがbundle単位で並列実行します。",
-      "narration": "ルールとLLMを重ねたレビューCLIです。ocr reviewでbundleごとにsub-agentが並列で走りました。"
+      "stars": 56871,
+      "todayStars": 718,
+      "description": "DevToolsをagentに直結",
+      "detail": "性能trace・network・console・screenshotの4系統をagentに公開し、Puppeteer経由でChromeを操作します。Apache-2.0で、Browserbase相当の月額や外部性能調査費を内製化できます。",
+      "narration": "Chrome DevToolsをagentに開放するMCPです。性能計測の外注や有料サービスの月額を内製で落とせます。"
     }
   ]
 }

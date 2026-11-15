@@ -488,7 +488,6 @@
   "Plannotator": "プラノテーター",
   "chrome-devtools-mcp": "クロームデブツールズエムシーピー",
   "claude-trading-skills": "クロードトレーディングスキルズ",
-  "DevTools": "デブツールズ",
   "Chrome DevTools": "クロームデブツールズ",
   "mcpServers": "エムシーピーサーバーズ",
   "Release": "リリース",
@@ -504,5 +503,19 @@
   "review": "レビュー",
   "staged": "ステージド",
   "unstaged": "アンステージド",
-  "untracked": "アントラックド"
+  "untracked": "アントラックド",
+  "Stitch": "スティッチ",
+  "stitch-skills": "スティッチスキルズ",
+  "Puppeteer": "パペッティア",
+  "univer": "ユニバー",
+  "dream-num": "ドリームナム",
+  "ag-ui": "エージーユーアイ",
+  "SSE": "エスエスイー",
+  "WebSocket": "ウェブソケット",
+  "webhook": "ウェブフック",
+  "design.md": "デザインドットエムディー",
+  "Native": "ネイティブ",
+  "Office": "オフィス",
+  "Server": "サーバー",
+  "Microsoft": "マイクロソフト"
 }
