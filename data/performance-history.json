@@ -9183,17 +9183,18 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "63caa1df-cc9a-4832-841b-4d7a6ec83a0b",
           "attempts": 2,
-          "updatedAt": "2026-11-15T03:07:43.851Z",
-          "containerId": "18099520013460294",
+          "updatedAt": "2026-11-15T03:07:46.662Z",
+          "containerId": "18099543305460294",
           "containerIds": [
             "18099519491460294",
             "18099519728460294",
-            "18099520013460294"
+            "18099520013460294",
+            "18099543305460294"
           ]
         }
       },
