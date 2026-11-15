@@ -9278,7 +9278,13 @@
           }
         },
         "instagram": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "ae9e7774-f7d0-4401-87d2-7410d759fcaa",
+          "attempts": 1,
+          "updatedAt": "2026-11-15T23:04:47.509Z"
         }
       },
       "ytOpening": "top1",
