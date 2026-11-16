@@ -6,16 +6,24 @@
   "metadataSha256": "68e301f250040266c0290a22f9d14d6e0b590c56167227395609d95651c2d36c",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "4863979b-6909-4f5e-be5c-3110e26a1b02",
       "attempts": 1,
-      "updatedAt": "2026-11-16T23:04:47.456Z"
+      "updatedAt": "2026-11-16T23:04:52.048Z",
+      "date": "2026-11-17",
+      "videoId": "RZDHi21K8fM",
+      "videoUrl": "https://youtube.com/shorts/RZDHi21K8fM",
+      "uploadedAt": "2026-11-16T23:04:52.048Z",
+      "title": "ag-ui — Agent↔UI標準プロトコル1.0凍結｜GitHub Trending TOP5 11/17",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-16T23:04:49.556Z"
+  "updatedAt": "2026-11-16T23:04:52.048Z"
 }
