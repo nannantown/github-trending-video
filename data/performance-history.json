@@ -9278,13 +9278,13 @@
           }
         },
         "instagram": {
-          "status": "in_progress",
+          "status": "failed",
           "phase": "uploading",
-          "safeToRetry": false,
-          "reason": null,
+          "safeToRetry": true,
+          "reason": "failed_before_publish",
           "attemptId": "c4eb8bfb-c315-4dd1-90e6-5f5cc862a0b0",
           "attempts": 2,
-          "updatedAt": "2026-11-16T03:10:21.455Z",
+          "updatedAt": "2026-11-16T03:10:56.360Z",
           "containerId": "18099709511460294",
           "containerIds": [
             "18099685121460294",
