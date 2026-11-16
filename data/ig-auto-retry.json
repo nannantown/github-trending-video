@@ -50,8 +50,10 @@
   "20261116": {
     "attempts": 2,
     "failures": [
+      "ProcessingFailedError",
       "ProcessingFailedError"
     ],
-    "lastAttemptAt": "2026-11-16T05:07:40.225Z"
+    "lastAttemptAt": "2026-11-16T05:07:40.225Z",
+    "stopped": "ProcessingFailedError on the last 2 automatic attempts — the video or the account, not a passing glitch. Not retried automatically."
   }
 }
