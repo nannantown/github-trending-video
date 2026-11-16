@@ -517,5 +517,16 @@
   "Native": "ネイティブ",
   "Office": "オフィス",
   "Server": "サーバー",
-  "Microsoft": "マイクロソフト"
+  "Microsoft": "マイクロソフト",
+  "Claude-BugHunter": "クロードバグハンター",
+  "BugHunter": "バグハンター",
+  "skills-index.yaml": "スキルズインデックスヤムル",
+  "ag-ui-protocol": "エージーユーアイプロトコル",
+  "Facade API": "ファサードエーピーアイ",
+  "Facade": "ファサード",
+  "Apache": "アパッチ",
+  "event": "イベント",
+  "slash": "スラッシュ",
+  "engine": "エンジン",
+  "DI": "ディーアイ"
 }
