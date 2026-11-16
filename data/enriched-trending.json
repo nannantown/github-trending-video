@@ -1,15 +1,14 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "discovery": {
-    "method": "business-angle",
-    "description": "本日 TOP5 の 5 本を『受託案件・自社SaaS・社内導入で事業コストをどう削るか』の視点で統一し、Primary 層 (CTO/技術選定/事業責任者) の技術選定判断と見積り設計に効く柱② 回",
+    "method": "tech-deep",
+    "description": "各 OSS を技術的独自性とアーキテクチャの視点で切り取り、なぜ注目されるかを示す",
     "sources": [
-      "https://github.com/trending",
-      "https://github.com/dream-num/univer",
       "https://github.com/ag-ui-protocol/ag-ui",
-      "https://github.com/google-labs-code/stitch-skills",
       "https://github.com/backnotprop/plannotator",
-      "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      "https://github.com/dream-num/univer",
+      "https://github.com/tradermonty/claude-trading-skills",
+      "https://github.com/elementalsouls/Claude-BugHunter"
     ],
     "query": "",
     "freshness_hours": 1
@@ -17,63 +16,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "dream-num/univer",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "language": "TypeScript",
-      "stars": 25553,
-      "todayStars": 1041,
-      "description": "表計算を自社SaaSに埋め込む",
-      "detail": "Apache-2.0のコアで表計算・文書編集・ヘッドレス処理を実装でき、商用アドオンでスライドやXLSX互換の入出力も追加できます。SaaSにOffice機能を内蔵したい受託や自社製品の実装工数を圧縮できます。",
-      "narration": "表計算と文書編集を自社SaaSに埋め込めるOSSです。Server SDKで共同編集も内製でき外部ツール費を削れます。"
-    },
-    {
-      "rank": 2,
       "fullName": "ag-ui-protocol/ag-ui",
       "name": "ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "language": "TypeScript",
-      "stars": 17801,
-      "todayStars": 393,
-      "description": "agentとUIを繋ぐ共通規格",
-      "detail": "MITで約16種のイベント型を定め、SSE・WebSocket・webhook経由で動きます。LangGraphやCrewAI、MicrosoftやGoogleの公式フレームが対応済みで、agent案件の初動設計を短縮できます。",
-      "narration": "agentとフロント画面を繋ぐ標準プロトコルです。主要フレームが対応済みで独自つなぎ込みの工数を削減できます。"
+      "stars": 18895,
+      "todayStars": 790,
+      "description": "Agent↔UI標準プロトコル1.0凍結",
+      "detail": "Agent↔UI の標準プロトコル v1.0 が凍結。HTTP+SSE 本線で 8 系統 31 種の event を規定。Google/Microsoft/Amazon/Oracle が採用、TS/Python/.NET 公式 SDK に加え Kotlin/Go/Java/Rust の有志実装で広がります。",
+      "narration": "AgentとUIをつなぐ標準プロトコルが1.0で凍結。31種のeventをSSEで流せます。"
     },
     {
-      "rank": 3,
-      "fullName": "google-labs-code/stitch-skills",
-      "name": "stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "language": "TypeScript",
-      "stars": 9251,
-      "todayStars": 248,
-      "description": "Stitchデザイン→React化",
-      "detail": "15のskillでReactやReact Nativeコンポーネント生成、既存画面からのdesign.md抽出、shadcnとの統合まで可能です。Apache-2.0でCodexやClaude Codeから呼べ、デザイン工程の見積りが変わります。",
-      "narration": "StitchデザインからReact実装まで繋ぐskill集です。デザインと実装の分業コストを圧縮し受託案件に効きます。"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "fullName": "backnotprop/plannotator",
       "name": "plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "language": "TypeScript",
-      "stars": 11785,
-      "todayStars": 860,
-      "description": "agent計画を人が注釈レビュー",
-      "detail": "行単位コメントと共有リンクでagentの計画や差分をレビューでき、Apache-2.0かMITのデュアル構成です。Claude CodeやCodex、Gemini CLIに対応するので、シニアの指示工数を分散できます。",
-      "narration": "agentの計画をブラウザで注釈し送り返すレビュー窓口です。レビュー工数を1人分減らしチーム運用が回ります。"
+      "stars": 12504,
+      "todayStars": 689,
+      "description": "計画を即レビューするagent-UI",
+      "detail": "agent harness を自動検出して導入し、ExitPlanMode が呼ばれた瞬間にブラウザで計画画面が開く。行単位にコメントするとフィードバックが構造化されて agent に戻り、Apache-2.0/MIT のデュアルライセンスで配布されています。",
+      "narration": "計画を出した瞬間にブラウザが開き、行単位の注釈でagentに修正指示を返せます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "dream-num/univer",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "language": "TypeScript",
+      "stars": 27729,
+      "todayStars": 1878,
+      "description": "AI時代のOffice SDK、Apache基盤",
+      "detail": "Apache-2.0 コアは plugin+DI と command/mutation/operation の分離で完全な undo/redo を実現。Facade API から Node ヘッドレスで操作でき、Server SDK と AI SDK を商用アドオンに束ねた freemium 設計を取っています。",
+      "narration": "Apacheコアはplugin+DIで組まれ、Facade APIからNodeヘッドレスで表計算を動かせます。"
+    },
+    {
+      "rank": 4,
+      "fullName": "tradermonty/claude-trading-skills",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "language": "Python",
+      "stars": 6256,
+      "todayStars": 841,
+      "description": "株式投資のClaude Skill束",
+      "detail": "8 グループの .skill 資産を skills-index.yaml で canonical に束ね、Claude Code に投入する skill pack。FMP+FINVIZ+Alpaca の 3 系統データで screener とポジション計算が回り、判断補助に徹する設計方針が README で明示されています。",
+      "narration": "8グループの.skill資産をskills-index.yamlで束ね、市場分析の判断補助を配れます。"
     },
     {
       "rank": 5,
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "language": "TypeScript",
-      "stars": 56871,
-      "todayStars": 718,
-      "description": "DevToolsをagentに直結",
-      "detail": "性能trace・network・console・screenshotの4系統をagentに公開し、Puppeteer経由でChromeを操作します。Apache-2.0で、Browserbase相当の月額や外部性能調査費を内製化できます。",
-      "narration": "Chrome DevToolsをagentに開放するMCPです。性能計測の外注や有料サービスの月額を内製で落とせます。"
+      "fullName": "elementalsouls/Claude-BugHunter",
+      "name": "Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "language": "Python",
+      "stars": 7370,
+      "todayStars": 1057,
+      "description": "認可済みバグ探索のskill束",
+      "detail": "83 の skill と 15 の slash を engine/ で束ね、Claude Code/Codex/OpenCode から呼べる red-team 用 skill pack。XSS/SQLi/SSRF から OAuth/JWT、クラウド、Android までを網羅し、iOS や C2・内部 AD は意図的に除外。7 問の scope ゲートで認可を確認します。",
+      "narration": "83のskillと15のslashをengineで束ね、認可済みバグ探索の工程をagentに委ねられます。"
     }
   ]
 }
