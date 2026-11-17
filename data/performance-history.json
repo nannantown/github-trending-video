@@ -9463,7 +9463,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "5ff20651-4699-4b50-9997-ab15804a395a",
+          "attempts": 1,
+          "updatedAt": "2026-11-17T23:04:57.401Z"
         },
         "instagram": {
           "status": "not_started"
