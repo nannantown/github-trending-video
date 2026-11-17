@@ -1,14 +1,15 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "discovery": {
-    "method": "tech-deep",
-    "description": "各 OSS を技術的独自性とアーキテクチャの視点で切り取り、なぜ注目されるかを示す",
+    "method": "comparison",
+    "description": "各 OSS を類似ツール・既存手段との違いの視点で切り取り、選択基準を示す",
     "sources": [
-      "https://github.com/ag-ui-protocol/ag-ui",
-      "https://github.com/backnotprop/plannotator",
+      "https://github.com/elementalsouls/Claude-BugHunter",
+      "https://github.com/mvanhorn/last30days-skill",
+      "https://github.com/alibaba/open-code-review",
+      "https://github.com/Tencent/LoopForge",
       "https://github.com/dream-num/univer",
-      "https://github.com/tradermonty/claude-trading-skills",
-      "https://github.com/elementalsouls/Claude-BugHunter"
+      "https://news.ycombinator.com/newest"
     ],
     "query": "",
     "freshness_hours": 1
@@ -16,63 +17,63 @@
   "projects": [
     {
       "rank": 1,
-      "fullName": "ag-ui-protocol/ag-ui",
-      "name": "ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "language": "TypeScript",
-      "stars": 18895,
-      "todayStars": 790,
-      "description": "Agent↔UI標準プロトコル1.0凍結",
-      "detail": "Agent↔UI の標準プロトコル v1.0 が凍結。HTTP+SSE 本線で 8 系統 31 種の event を規定。Google/Microsoft/Amazon/Oracle が採用、TS/Python/.NET 公式 SDK に加え Kotlin/Go/Java/Rust の有志実装で広がります。",
-      "narration": "AgentとUIをつなぐ標準プロトコルが1.0で凍結。31種のeventをSSEで流せます。"
-    },
-    {
-      "rank": 2,
-      "fullName": "backnotprop/plannotator",
-      "name": "plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "language": "TypeScript",
-      "stars": 12504,
-      "todayStars": 689,
-      "description": "計画を即レビューするagent-UI",
-      "detail": "agent harness を自動検出して導入し、ExitPlanMode が呼ばれた瞬間にブラウザで計画画面が開く。行単位にコメントするとフィードバックが構造化されて agent に戻り、Apache-2.0/MIT のデュアルライセンスで配布されています。",
-      "narration": "計画を出した瞬間にブラウザが開き、行単位の注釈でagentに修正指示を返せます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "dream-num/univer",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "language": "TypeScript",
-      "stars": 27729,
-      "todayStars": 1878,
-      "description": "AI時代のOffice SDK、Apache基盤",
-      "detail": "Apache-2.0 コアは plugin+DI と command/mutation/operation の分離で完全な undo/redo を実現。Facade API から Node ヘッドレスで操作でき、Server SDK と AI SDK を商用アドオンに束ねた freemium 設計を取っています。",
-      "narration": "Apacheコアはplugin+DIで組まれ、Facade APIからNodeヘッドレスで表計算を動かせます。"
-    },
-    {
-      "rank": 4,
-      "fullName": "tradermonty/claude-trading-skills",
-      "name": "claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "language": "Python",
-      "stars": 6256,
-      "todayStars": 841,
-      "description": "株式投資のClaude Skill束",
-      "detail": "8 グループの .skill 資産を skills-index.yaml で canonical に束ね、Claude Code に投入する skill pack。FMP+FINVIZ+Alpaca の 3 系統データで screener とポジション計算が回り、判断補助に徹する設計方針が README で明示されています。",
-      "narration": "8グループの.skill資産をskills-index.yamlで束ね、市場分析の判断補助を配れます。"
-    },
-    {
-      "rank": 5,
       "fullName": "elementalsouls/Claude-BugHunter",
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 7370,
-      "todayStars": 1057,
-      "description": "認可済みバグ探索のskill束",
-      "detail": "83 の skill と 15 の slash を engine/ で束ね、Claude Code/Codex/OpenCode から呼べる red-team 用 skill pack。XSS/SQLi/SSRF から OAuth/JWT、クラウド、Android までを網羅し、iOS や C2・内部 AD は意図的に除外。7 問の scope ゲートで認可を確認します。",
-      "narration": "83のskillと15のslashをengineで束ね、認可済みバグ探索の工程をagentに委ねられます。"
+      "stars": 9130,
+      "todayStars": 1007,
+      "description": "redteam用のskill pack、認可付",
+      "detail": "redteam作業用に83のskillと15のslash commandを束ねたskill packです。Burp MCPやnuclei等のツールと統合し、Claude CodeやCodex CLIに重ねて、7問のscope gateで事前認可を強制します。",
+      "narration": "redteam用のskill packです。素のClaude Codeと違い、scope gateで認可を先に取ります。"
+    },
+    {
+      "rank": 2,
+      "fullName": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars": 68977,
+      "todayStars": 772,
+      "description": "25ソース横断の話題要約skill",
+      "detail": "Reddit・X・YouTube・HN・Polymarketなど約25ソースを横断して30日分の話題を集め、エンゲージメント基準で要約するskillです。Claude CodeやGemini CLIなど複数のagent環境から呼べます。",
+      "narration": "SNSやHNなど25ソース横断で30日の話題を要約するskillです。検索エンジンと違い人の反応で並べます。"
+    },
+    {
+      "rank": 3,
+      "fullName": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "stars": 53682,
+      "todayStars": 764,
+      "description": "決定論とLLMを併せた審査CLI",
+      "detail": "決定論パイプラインとLLM agentを組み合わせたAlibaba発のコード審査CLIです。Claude Code同モデル比でトークン1/9と高精度を両立し、GitHub Actions等のCIに組み込めます。",
+      "narration": "決定論とLLM agentを併せた審査CLIです。Claude Code同モデル比でトークン1/9、精度も上回ります。"
+    },
+    {
+      "rank": 4,
+      "fullName": "Tencent/LoopForge",
+      "name": "LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "language": "Go",
+      "stars": 3073,
+      "todayStars": 590,
+      "description": "10種agentをSOP化する基盤",
+      "detail": "CodeBuddyやCodex、Claude Codeなど10種のcoding agent CLIをSOP化して束ねるTencent発の基盤です。各段に人間承認gateを挟め、MIT公開でDocker Composeから自前ホストできます。",
+      "narration": "10種のagent CLIをSOP化するTencent発の基盤です。単発実行と違い人間承認gateが各段に入ります。"
+    },
+    {
+      "rank": 5,
+      "fullName": "dream-num/univer",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "language": "TypeScript",
+      "stars": 28867,
+      "todayStars": 1776,
+      "description": "AI連携まで束ねるoffice SDK",
+      "detail": "Apache-2.0コアがSheets/Docsの編集とFacade API、Node headless実行までを提供するoffice SDKです。Server SDKやAI SDKを商用アドオンで束ね、自社プロダクトに埋め込めます。",
+      "narration": "AIと人が使えるoffice SDKです。Google SheetsのAPIと違い、自社プロダクトに埋め込めます。"
     }
   ]
 }
