@@ -9468,7 +9468,7 @@
           "safeToRetry": false,
           "attemptId": "5ff20651-4699-4b50-9997-ab15804a395a",
           "attempts": 1,
-          "updatedAt": "2026-11-17T23:05:02.406Z",
+          "updatedAt": "2026-11-17T23:05:04.267Z",
           "date": "2026-11-18",
           "videoId": "SlA7xJJjpW4",
           "videoUrl": "https://youtube.com/shorts/SlA7xJJjpW4",
@@ -9476,13 +9476,17 @@
           "title": "Claude-BugHunter — redteam用のskill pack、認可付｜GitHub Trending TOP5 11/18",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
