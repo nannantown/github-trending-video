@@ -9483,20 +9483,21 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "290f535c-01de-4c7d-a780-2e3625371721",
           "attempts": 3,
-          "updatedAt": "2026-11-18T05:07:41.779Z",
-          "containerId": "18100021244460294",
+          "updatedAt": "2026-11-18T05:07:44.715Z",
+          "containerId": "18100029179460294",
           "containerIds": [
             "18100003796460294",
             "18100003967460294",
             "18100004078460294",
             "18100020968460294",
             "18100021088460294",
-            "18100021244460294"
+            "18100021244460294",
+            "18100029179460294"
           ]
         }
       },
