@@ -9482,13 +9482,13 @@
           }
         },
         "instagram": {
-          "status": "failed",
-          "phase": "uploading",
-          "safeToRetry": true,
-          "reason": "failed_before_publish",
-          "attemptId": "4faa0573-90ff-4966-91d2-8d1ffa439207",
-          "attempts": 1,
-          "updatedAt": "2026-11-17T23:08:27.001Z",
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "b2851a21-3181-484f-8696-0d1b87a89045",
+          "attempts": 2,
+          "updatedAt": "2026-11-18T03:07:39.388Z",
           "containerId": "18100004078460294",
           "containerIds": [
             "18100003796460294",
