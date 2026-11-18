@@ -1,14 +1,15 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "discovery": {
-    "method": "comparison",
-    "description": "各 OSS を類似ツール・既存手段との違いの視点で切り取り、選択基準を示す",
+    "method": "trend-pattern",
+    "description": "本日のTOP5を「なぜ今週この5本が流行っているか」のマクロ視点で切り取り、AI領域の拡張とツール刷新のうねりを一本の線でつなぐ",
     "sources": [
+      "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
+      "https://github.com/cursor/plugins",
+      "https://github.com/HKUDS/CLI-Anything",
       "https://github.com/mvanhorn/last30days-skill",
-      "https://github.com/alibaba/open-code-review",
-      "https://github.com/Tencent/LoopForge",
-      "https://github.com/dream-num/univer",
+      "https://github.com/getarcaneapp/arcane",
       "https://news.ycombinator.com/newest"
     ],
     "query": "",
@@ -21,59 +22,59 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 9130,
-      "todayStars": 1007,
-      "description": "redteam用のskill pack、認可付",
-      "detail": "redteam作業用に83のskillと15のslash commandを束ねたskill packです。Burp MCPやnuclei等のツールと統合し、Claude CodeやCodex CLIに重ねて、7問のscope gateで事前認可を強制します。",
-      "narration": "redteam用のskill packです。素のClaude Codeと違い、scope gateで認可を先に取ります。"
+      "stars": 11272,
+      "todayStars": 2322,
+      "description": "red-team向けskill pack",
+      "detail": "redteam業務向けに83個のskillと15個のslash commandをengine/で束ねた配布型skill packです。Claude CodeやCodex CLIに重ね、Burp MCPやnucleiと連携し、7問のscope gateで事前認可を通します。",
+      "narration": "AIエージェントの活用がセキュリティにも広がっています。red-team向けskill packが3日連続で上位です。"
     },
     {
       "rank": 2,
+      "fullName": "cursor/plugins",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "language": "TypeScript",
+      "stars": 17171,
+      "todayStars": 315,
+      "description": "Cursor公式pluginの市場",
+      "detail": "Cursor公式のplugin仕様と130本超の公式・third-party pluginを集めるmarketplaceです。各pluginはskillとruleとmcp.jsonを束ね、Claude Skillsと同じ配布様式でIDEに届けられます。",
+      "narration": "Claude Skillsの発想がIDEに広がる週です。Cursor公式plugin marketplaceが登場です。"
+    },
+    {
+      "rank": 3,
+      "fullName": "HKUDS/CLI-Anything",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars": 59678,
+      "todayStars": 384,
+      "description": "既存ソフトをAI操作向けにCLI化",
+      "detail": "任意のアプリやAPIをAI agent用のClickベースCLIに変換する7段パイプラインです。LibreOfficeやBlenderをREPL付きで呼び出せ、CLI-Hub registryで配布と検索ができます。",
+      "narration": "既存のソフトをAI操作向けに書き換える潮流が強まっています。LibreOfficeやGIMPのCLI化が進んでいます。"
+    },
+    {
+      "rank": 4,
       "fullName": "mvanhorn/last30days-skill",
       "name": "last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "language": "Python",
-      "stars": 68977,
-      "todayStars": 772,
+      "stars": 69936,
+      "todayStars": 1062,
       "description": "25ソース横断の話題要約skill",
-      "detail": "Reddit・X・YouTube・HN・Polymarketなど約25ソースを横断して30日分の話題を集め、エンゲージメント基準で要約するskillです。Claude CodeやGemini CLIなど複数のagent環境から呼べます。",
-      "narration": "SNSやHNなど25ソース横断で30日の話題を要約するskillです。検索エンジンと違い人の反応で並べます。"
-    },
-    {
-      "rank": 3,
-      "fullName": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "language": "Go",
-      "stars": 53682,
-      "todayStars": 764,
-      "description": "決定論とLLMを併せた審査CLI",
-      "detail": "決定論パイプラインとLLM agentを組み合わせたAlibaba発のコード審査CLIです。Claude Code同モデル比でトークン1/9と高精度を両立し、GitHub Actions等のCIに組み込めます。",
-      "narration": "決定論とLLM agentを併せた審査CLIです。Claude Code同モデル比でトークン1/9、精度も上回ります。"
-    },
-    {
-      "rank": 4,
-      "fullName": "Tencent/LoopForge",
-      "name": "LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "language": "Go",
-      "stars": 3073,
-      "todayStars": 590,
-      "description": "10種agentをSOP化する基盤",
-      "detail": "CodeBuddyやCodex、Claude Codeなど10種のcoding agent CLIをSOP化して束ねるTencent発の基盤です。各段に人間承認gateを挟め、MIT公開でDocker Composeから自前ホストできます。",
-      "narration": "10種のagent CLIをSOP化するTencent発の基盤です。単発実行と違い人間承認gateが各段に入ります。"
+      "detail": "Reddit・X・YouTube・HN・Polymarketなど約25ソースを横断し、直近30日の話題をエンゲージメント軸で並べるagent skillです。Claude CodeやGemini CLIから直接呼び出せます。",
+      "narration": "情報収集の軸が検索結果から人の反応に動いています。SNS25ソース横断skillが2日連続で上位です。"
     },
     {
       "rank": 5,
-      "fullName": "dream-num/univer",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "language": "TypeScript",
-      "stars": 28867,
-      "todayStars": 1776,
-      "description": "AI連携まで束ねるoffice SDK",
-      "detail": "Apache-2.0コアがSheets/Docsの編集とFacade API、Node headless実行までを提供するoffice SDKです。Server SDKやAI SDKを商用アドオンで束ね、自社プロダクトに埋め込めます。",
-      "narration": "AIと人が使えるoffice SDKです。Google SheetsのAPIと違い、自社プロダクトに埋め込めます。"
+      "fullName": "getarcaneapp/arcane",
+      "name": "arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "language": "Go",
+      "stars": 9774,
+      "todayStars": 547,
+      "description": "モダンUIのDocker管理ツール",
+      "detail": "Go+SvelteKit構成でDocker管理を全ユーザー向けにやさしく扱えるようにするモダンUIです。CLI・Web UI・backendを一式含み、BSD-3ライセンスでv3系が本流になっています。",
+      "narration": "定番の運用ツールがモダンUIで刷新される流れが続いています。ArcaneはDocker管理をv3系まで作り直しました。"
     }
   ]
 }
