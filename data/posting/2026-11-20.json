@@ -6,16 +6,24 @@
   "metadataSha256": "6c7886cddc64e7d41b242341239605d29deeffeb42516284b71d629fa0e74c43",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "ee0935d6-fd87-47bc-a97f-51fa7899a0e9",
       "attempts": 1,
-      "updatedAt": "2026-11-19T23:04:44.980Z"
+      "updatedAt": "2026-11-19T23:04:50.457Z",
+      "date": "2026-11-20",
+      "videoId": "b1NyuYs-OjY",
+      "videoUrl": "https://youtube.com/shorts/b1NyuYs-OjY",
+      "uploadedAt": "2026-11-19T23:04:50.457Z",
+      "title": "Claude-BugHunter — red-team向けskill pack｜GitHub Trending TOP5 11/20",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-19T23:04:47.162Z"
+  "updatedAt": "2026-11-19T23:04:50.457Z"
 }
