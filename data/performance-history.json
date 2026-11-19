@@ -9584,17 +9584,18 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "0da5af04-cfa4-4ad3-988f-2b5eb4856da4",
           "attempts": 2,
-          "updatedAt": "2026-11-19T03:07:46.719Z",
-          "containerId": "18100117193460294",
+          "updatedAt": "2026-11-19T03:07:49.319Z",
+          "containerId": "18100132661460294",
           "containerIds": [
             "18100116578460294",
             "18100117046460294",
-            "18100117193460294"
+            "18100117193460294",
+            "18100132661460294"
           ]
         }
       },
