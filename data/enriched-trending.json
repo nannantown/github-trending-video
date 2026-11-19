@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "本日のTOP5を「なぜ今週この5本が流行っているか」のマクロ視点で切り取り、AI領域の拡張とツール刷新のうねりを一本の線でつなぐ",
+    "method": "tech-deep",
+    "description": "各OSSのREADME・spec・実装を英語で読み、何が技術的に独自かを1点ずつ切り出して紹介する",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
-      "https://github.com/cursor/plugins",
+      "https://github.com/obra/superpowers",
       "https://github.com/HKUDS/CLI-Anything",
-      "https://github.com/mvanhorn/last30days-skill",
-      "https://github.com/getarcaneapp/arcane",
+      "https://github.com/jingyaogong/minimind",
+      "https://github.com/cursor/plugins",
       "https://news.ycombinator.com/newest"
     ],
     "query": "",
@@ -22,23 +22,23 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 11272,
-      "todayStars": 2322,
+      "stars": 12419,
+      "todayStars": 1353,
       "description": "red-team向けskill pack",
-      "detail": "redteam業務向けに83個のskillと15個のslash commandをengine/で束ねた配布型skill packです。Claude CodeやCodex CLIに重ね、Burp MCPやnucleiと連携し、7問のscope gateで事前認可を通します。",
-      "narration": "AIエージェントの活用がセキュリティにも広がっています。red-team向けskill packが3日連続で上位です。"
+      "detail": "red-team向けに83個のskillと15個のslash commandをengine/で束ねた配布型skill packです。Claude CodeやCodex CLIに重ね、Burp MCPやnucleiと連携し、7問scope gateで事前認可を通します。",
+      "narration": "red-team向けの作業をAIに任せる設計です。83個のskillと7問scope gateで安全に動かします。"
     },
     {
       "rank": 2,
-      "fullName": "cursor/plugins",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "stars": 17171,
-      "todayStars": 315,
-      "description": "Cursor公式pluginの市場",
-      "detail": "Cursor公式のplugin仕様と130本超の公式・third-party pluginを集めるmarketplaceです。各pluginはskillとruleとmcp.jsonを束ね、Claude Skillsと同じ配布様式でIDEに届けられます。",
-      "narration": "Claude Skillsの発想がIDEに広がる週です。Cursor公式plugin marketplaceが登場です。"
+      "fullName": "obra/superpowers",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 322027,
+      "todayStars": 2029,
+      "description": "工程別skillを束ねたagent方法論",
+      "detail": "設計・計画・TDD・レビューなど各工程に対応するskillが自動で起動するagent用方法論です。ClaudeやCodex、Cursorにpluginとしてインストールでき、subagentがspec準拠と品質を二段で検証します。",
+      "narration": "各工程にskillを割り当てるagent設計です。subagentで分担しspec・品質の二段レビューも自動で挟みます。"
     },
     {
       "rank": 3,
@@ -46,35 +46,35 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 59678,
-      "todayStars": 384,
-      "description": "既存ソフトをAI操作向けにCLI化",
-      "detail": "任意のアプリやAPIをAI agent用のClickベースCLIに変換する7段パイプラインです。LibreOfficeやBlenderをREPL付きで呼び出せ、CLI-Hub registryで配布と検索ができます。",
-      "narration": "既存のソフトをAI操作向けに書き換える潮流が強まっています。LibreOfficeやGIMPのCLI化が進んでいます。"
+      "stars": 60502,
+      "todayStars": 899,
+      "description": "既存ソフトのagent-native化",
+      "detail": "任意のアプリやAPIをAI agent向けのClickベースCLIに変換する7段パイプラインです。LibreOfficeやBlender、GIMPをREPL付きで呼び出せ、CLI-Hub registryで配布と検索ができます。",
+      "narration": "既存のソフトをAIが呼べるCLIに変える仕組みです。7段パイプラインでBlenderのbpyもそのまま呼べます。"
     },
     {
       "rank": 4,
-      "fullName": "mvanhorn/last30days-skill",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
+      "fullName": "jingyaogong/minimind",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 69936,
-      "todayStars": 1062,
-      "description": "25ソース横断の話題要約skill",
-      "detail": "Reddit・X・YouTube・HN・Polymarketなど約25ソースを横断し、直近30日の話題をエンゲージメント軸で並べるagent skillです。Claude CodeやGemini CLIから直接呼び出せます。",
-      "narration": "情報収集の軸が検索結果から人の反応に動いています。SNS25ソース横断skillが2日連続で上位です。"
+      "stars": 66818,
+      "todayStars": 301,
+      "description": "64MパラLLMをゼロから学ぶキット",
+      "detail": "64MパラメータのLLMを約2時間で事前学習からSFTまで通せるPyTorch実装です。RTX 3090 1枚で動き、LoRAやDPO、GRPOなど最新RLまでネイティブに実装されています。",
+      "narration": "64MパラのLLMを2時間で一から作れる学習コードです。RTX 3090 1枚で動きGRPOなど最新RLも含みます。"
     },
     {
       "rank": 5,
-      "fullName": "getarcaneapp/arcane",
-      "name": "arcane",
-      "url": "https://github.com/getarcaneapp/arcane",
-      "language": "Go",
-      "stars": 9774,
-      "todayStars": 547,
-      "description": "モダンUIのDocker管理ツール",
-      "detail": "Go+SvelteKit構成でDocker管理を全ユーザー向けにやさしく扱えるようにするモダンUIです。CLI・Web UI・backendを一式含み、BSD-3ライセンスでv3系が本流になっています。",
-      "narration": "定番の運用ツールがモダンUIで刷新される流れが続いています。ArcaneはDocker管理をv3系まで作り直しました。"
+      "fullName": "cursor/plugins",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "language": "TypeScript",
+      "stars": 17532,
+      "todayStars": 383,
+      "description": "Cursor公式plugin市場",
+      "detail": "Cursor公式のplugin仕様と144本超の公式・third-party pluginを集めるmarketplaceです。各pluginはskillとruleとmcp.jsonを束ね、Claude Skillsと同じ配布形式でIDEに届けられます。",
+      "narration": "Cursor公式のplugin市場です。skillとruleとMCPを束ねClaude Skills互換で届きます。"
     }
   ]
 }
