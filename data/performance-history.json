@@ -9584,12 +9584,12 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "uploading",
+          "phase": "publishing",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "0da5af04-cfa4-4ad3-988f-2b5eb4856da4",
           "attempts": 2,
-          "updatedAt": "2026-11-19T03:08:52.956Z",
+          "updatedAt": "2026-11-19T03:09:17.107Z",
           "containerId": "18100132790460294",
           "containerIds": [
             "18100116578460294",
