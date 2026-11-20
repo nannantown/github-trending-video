@@ -1,16 +1,15 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "discovery": {
-    "method": "tech-deep",
-    "description": "各OSSのREADME・spec・実装を英語で読み、何が技術的に独自かを1点ずつ切り出して紹介する",
+    "method": "business-angle",
+    "description": "各 OSS を受託・スタートアップ視点で料理 (何円削れる / どの工程に組み込める / 見積の起点)",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
       "https://github.com/obra/superpowers",
       "https://github.com/HKUDS/CLI-Anything",
       "https://github.com/jingyaogong/minimind",
-      "https://github.com/cursor/plugins",
-      "https://news.ycombinator.com/newest"
+      "https://github.com/cursor/plugins"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,11 +21,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 12419,
-      "todayStars": 1353,
-      "description": "red-team向けskill pack",
-      "detail": "red-team向けに83個のskillと15個のslash commandをengine/で束ねた配布型skill packです。Claude CodeやCodex CLIに重ね、Burp MCPやnucleiと連携し、7問scope gateで事前認可を通します。",
-      "narration": "red-team向けの作業をAIに任せる設計です。83個のskillと7問scope gateで安全に動かします。"
+      "stars": 14107,
+      "todayStars": 1660,
+      "description": "外部red-team診断を82skillで内製化",
+      "detail": "82 skillと15 slash commandで外部red-team診断を内製化。Burp MCP連携でM365やOkta等の企業基盤を自動検査、MIT+CC BY 4.0で受託成果物として納品できます。",
+      "narration": "外部red-team診断を82skillで内製化できます。受託案件の品質保証工程にそのまま組み込めます。"
     },
     {
       "rank": 2,
@@ -34,11 +33,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 322027,
-      "todayStars": 2029,
-      "description": "工程別skillを束ねたagent方法論",
-      "detail": "設計・計画・TDD・レビューなど各工程に対応するskillが自動で起動するagent用方法論です。ClaudeやCodex、Cursorにpluginとしてインストールでき、subagentがspec準拠と品質を二段で検証します。",
-      "narration": "各工程にskillを割り当てるagent設計です。subagentで分担しspec・品質の二段レビューも自動で挟みます。"
+      "stars": 322800,
+      "todayStars": 888,
+      "description": "Anthropic社員の工程methodology",
+      "detail": "Jesse VincentがPrime Radiantと作る工程設計skill集。brainstorm→計画→TDD→レビューの工程をskill化し、Claude Code/Codex/Cursor/Gemini CLIの4 host対応、MITで受託に転用できます。",
+      "narration": "Anthropic社員が作る工程スキル集です。受託のTDDとレビュー工程を商品化できます。"
     },
     {
       "rank": 3,
@@ -46,11 +45,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 60502,
-      "todayStars": 899,
-      "description": "既存ソフトのagent-native化",
-      "detail": "任意のアプリやAPIをAI agent向けのClickベースCLIに変換する7段パイプラインです。LibreOfficeやBlender、GIMPをREPL付きで呼び出せ、CLI-Hub registryで配布と検索ができます。",
-      "narration": "既存のソフトをAIが呼べるCLIに変える仕組みです。7段パイプラインでBlenderのbpyもそのまま呼べます。"
+      "stars": 61334,
+      "todayStars": 774,
+      "description": "既存ソフトのAI化を7段で受託化",
+      "detail": "GUIソフトを7段pipelineでClick系CLIに変換し、AIエージェント経由で操作可能に。LibreOfficeやBlenderのharnessが同梱、既存業務の自動化受託案件で工数見積の起点に使えます。",
+      "narration": "既存ソフトをAI操作対応に変える7段パイプラインで、受託案件の工数見積を圧縮できます。"
     },
     {
       "rank": 4,
@@ -58,23 +57,23 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 66818,
-      "todayStars": 301,
-      "description": "64MパラLLMをゼロから学ぶキット",
-      "detail": "64MパラメータのLLMを約2時間で事前学習からSFTまで通せるPyTorch実装です。RTX 3090 1枚で動き、LoRAやDPO、GRPOなど最新RLまでネイティブに実装されています。",
-      "narration": "64MパラのLLMを2時間で一から作れる学習コードです。RTX 3090 1枚で動きGRPOなど最新RLも含みます。"
+      "stars": 67661,
+      "todayStars": 841,
+      "description": "約60円で自作できる64MのLLMキット",
+      "detail": "RTX 3090 一枚と約3元 (~60円) で64Mパラの自作LLMをpretrainからSFT, LoRA, DPO, PPO, GRPOまで一気通貫で構築。エッジ推論や社内教材案件の見積を一桁下げるApache-2.0の教材です。",
+      "narration": "約60円で64Mパラの自作LLMを作れる教材で、エッジ推論の受託案件に転用できます。"
     },
     {
       "rank": 5,
       "fullName": "cursor/plugins",
-      "name": "plugins",
+      "name": "cursor-plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 17532,
-      "todayStars": 383,
-      "description": "Cursor公式plugin市場",
-      "detail": "Cursor公式のplugin仕様と144本超の公式・third-party pluginを集めるmarketplaceです。各pluginはskillとruleとmcp.jsonを束ね、Claude Skillsと同じ配布形式でIDEに届けられます。",
-      "narration": "Cursor公式のplugin市場です。skillとruleとMCPを束ねClaude Skills互換で届きます。"
+      "stars": 17821,
+      "todayStars": 292,
+      "description": "Cursor公式のplugin配布所",
+      "detail": "Cursor公式のmarketplaceに144 plugin + 5 categoryを束ねる構造。plugin.json/skills/rules/mcp.jsonを同梱、業界特化のpluginを公開して受託案件のリード導線に使えます。",
+      "narration": "業界特化のCursor pluginを公式marketplaceで公開し、受託案件のリード導線に使えます。"
     }
   ]
 }
