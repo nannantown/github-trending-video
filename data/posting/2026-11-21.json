@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "1d1442f9-44bd-4dac-8bec-6e2e70fecad2",
       "attempts": 1,
-      "updatedAt": "2026-11-20T23:04:36.714Z",
+      "updatedAt": "2026-11-20T23:04:38.863Z",
       "date": "2026-11-21",
       "videoId": "EC2Rs9Hbl1I",
       "videoUrl": "https://youtube.com/shorts/EC2Rs9Hbl1I",
@@ -19,11 +19,14 @@
       "title": "Claude-BugHunter — 外部red-team診断を82skillで内製化｜GitHub Trending TOP5 11/21",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-20T23:04:36.714Z"
+  "updatedAt": "2026-11-20T23:04:38.863Z"
 }
