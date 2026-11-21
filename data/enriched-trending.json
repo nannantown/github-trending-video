@@ -1,15 +1,16 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "discovery": {
-    "method": "business-angle",
-    "description": "各 OSS を受託・スタートアップ視点で料理 (何円削れる / どの工程に組み込める / 見積の起点)",
+    "method": "trend-pattern",
+    "description": "2日連続100%一致のTOP5をマクロ視点で解剖し、エージェント基盤OSSの収束期を読み解く",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
       "https://github.com/obra/superpowers",
       "https://github.com/HKUDS/CLI-Anything",
       "https://github.com/jingyaogong/minimind",
-      "https://github.com/cursor/plugins"
+      "https://github.com/cursor/plugins",
+      "https://news.ycombinator.com/from?site=github.com/obra"
     ],
     "query": "",
     "freshness_hours": 1
@@ -21,11 +22,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 14107,
-      "todayStars": 1660,
-      "description": "外部red-team診断を82skillで内製化",
-      "detail": "82 skillと15 slash commandで外部red-team診断を内製化。Burp MCP連携でM365やOkta等の企業基盤を自動検査、MIT+CC BY 4.0で受託成果物として納品できます。",
-      "narration": "外部red-team診断を82skillで内製化できます。受託案件の品質保証工程にそのまま組み込めます。"
+      "stars": 15917,
+      "todayStars": 1794,
+      "description": "6日連続TOP5、red-team首位",
+      "detail": "82 skillと15 slash commandでred-team診断を内製化。本リポ観測最長の6日連続TOP5は、セキュリティ検査のAI化が年末エージェント基盤の最大収束軸であることを示します。",
+      "narration": "6日連続でTOP5を保つred-teamスキル集で、セキュリティ診断のAI内製化が年末最大の流れです。"
     },
     {
       "rank": 2,
@@ -33,11 +34,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 322800,
-      "todayStars": 888,
-      "description": "Anthropic社員の工程methodology",
-      "detail": "Jesse VincentがPrime Radiantと作る工程設計skill集。brainstorm→計画→TDD→レビューの工程をskill化し、Claude Code/Codex/Cursor/Gemini CLIの4 host対応、MITで受託に転用できます。",
-      "narration": "Anthropic社員が作る工程スキル集です。受託のTDDとレビュー工程を商品化できます。"
+      "stars": 323669,
+      "todayStars": 884,
+      "description": "Anthropic社員の323k★副業OSS",
+      "detail": "Jesse Vincent (Anthropic社員) + Prime Radiant社の工程設計スキル集。3日連続TOP5維持は、ベンダー従業員の個人OSSが本家ホストを超えて広がる2026年末トレンドの再現を示します。",
+      "narration": "Anthropic社員の副業OSSが323k星に到達。ベンダー従業員の個人作が本家を超え始めています。"
     },
     {
       "rank": 3,
@@ -45,11 +46,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 61334,
-      "todayStars": 774,
-      "description": "既存ソフトのAI化を7段で受託化",
-      "detail": "GUIソフトを7段pipelineでClick系CLIに変換し、AIエージェント経由で操作可能に。LibreOfficeやBlenderのharnessが同梱、既存業務の自動化受託案件で工数見積の起点に使えます。",
-      "narration": "既存ソフトをAI操作対応に変える7段パイプラインで、受託案件の工数見積を圧縮できます。"
+      "stars": 62028,
+      "todayStars": 767,
+      "description": "GUI→CLI変換で4日連続TOP5",
+      "detail": "7段pipelineでGUIソフトをClick系CLIへ変換。LibreOffice/Blender/GIMPのharness同梱、4日連続TOP5は既存ソフトのエージェント対応化がもう一つの業界収束軸である証左です。",
+      "narration": "GUIソフトを7段パイプラインでCLI化します。既存ツールをAI操作対応にするのが今の業界圧です。"
     },
     {
       "rank": 4,
@@ -57,11 +58,11 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 67661,
-      "todayStars": 841,
-      "description": "約60円で自作できる64MのLLMキット",
-      "detail": "RTX 3090 一枚と約3元 (~60円) で64Mパラの自作LLMをpretrainからSFT, LoRA, DPO, PPO, GRPOまで一気通貫で構築。エッジ推論や社内教材案件の見積を一桁下げるApache-2.0の教材です。",
-      "narration": "約60円で64Mパラの自作LLMを作れる教材で、エッジ推論の受託案件に転用できます。"
+      "stars": 68117,
+      "todayStars": 488,
+      "description": "60円で自作LLM、3日連続TOP5",
+      "detail": "RTX 3090 一枚と約60円でpretrain→SFT→LoRA→DPO→PPO→GRPOまで一気通貫。3日連続TOP5は教育素材とエッジ推論の需要がOSSトレンドに表面化した証です。",
+      "narration": "約60円で64Mパラの自作LLMを作れます。教育とエッジ推論の需要がTrendingに現れてきました。"
     },
     {
       "rank": 5,
@@ -69,11 +70,11 @@
       "name": "cursor-plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 17821,
-      "todayStars": 292,
-      "description": "Cursor公式のplugin配布所",
-      "detail": "Cursor公式のmarketplaceに144 plugin + 5 categoryを束ねる構造。plugin.json/skills/rules/mcp.jsonを同梱、業界特化のpluginを公開して受託案件のリード導線に使えます。",
-      "narration": "業界特化のCursor pluginを公式marketplaceで公開し、受託案件のリード導線に使えます。"
+      "stars": 18079,
+      "todayStars": 261,
+      "description": "Cursor公式plugin倉庫、4日連続",
+      "detail": "144 plugin + 5 categoryのmonorepo marketplace。plugin.json/skills/rules/mcp.json同梱で4日連続TOP5維持は、エージェント経済の次段階がplugin整備に移った業界シグナルです。",
+      "narration": "Cursor公式のplugin marketplaceが拡大中。エージェント経済の次段階はplugin整備に移りました。"
     }
   ]
 }
