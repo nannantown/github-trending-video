@@ -9900,12 +9900,16 @@
         },
         "instagram": {
           "status": "in_progress",
-          "phase": "preparing",
+          "phase": "uploading",
           "safeToRetry": false,
           "reason": null,
           "attemptId": "1cf37595-f625-4273-a2e5-02ffd804ca62",
           "attempts": 1,
-          "updatedAt": "2026-11-21T23:04:43.997Z"
+          "updatedAt": "2026-11-21T23:04:47.414Z",
+          "containerId": "18100472087460294",
+          "containerIds": [
+            "18100472087460294"
+          ]
         }
       },
       "ytOpening": "top1",
