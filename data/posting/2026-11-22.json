@@ -6,16 +6,24 @@
   "metadataSha256": "10fa815e58880a0e0afad4317c41e9dc5142bcd00a1c80e8aea347d8d43397fb",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "0053988b-1337-4077-a0c6-0754a04b57da",
       "attempts": 1,
-      "updatedAt": "2026-11-21T23:04:31.630Z"
+      "updatedAt": "2026-11-21T23:04:38.931Z",
+      "date": "2026-11-22",
+      "videoId": "JIf74NOfakY",
+      "videoUrl": "https://youtube.com/shorts/JIf74NOfakY",
+      "uploadedAt": "2026-11-21T23:04:38.931Z",
+      "title": "Claude-BugHunter — 6日連続TOP5、red-team首位｜GitHub Trending TOP5 11/22",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-21T23:04:33.767Z"
+  "updatedAt": "2026-11-21T23:04:38.931Z"
 }
