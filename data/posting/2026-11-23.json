@@ -6,16 +6,24 @@
   "metadataSha256": "1dd0d63985e63c079d52f0f278eab59a3eb6e2b0aa36a598c263094b0f36cde4",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "43d656df-af20-4cb7-a279-68c0b9860a2a",
       "attempts": 1,
-      "updatedAt": "2026-11-22T23:04:50.050Z"
+      "updatedAt": "2026-11-22T23:04:54.294Z",
+      "date": "2026-11-23",
+      "videoId": "IFJjvOVnr98",
+      "videoUrl": "https://youtube.com/shorts/IFJjvOVnr98",
+      "uploadedAt": "2026-11-22T23:04:54.294Z",
+      "title": "Claude-BugHunter — 外部red-team診断を82skillで内製化｜GitHub Trending TOP5 11/23",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-22T23:04:51.921Z"
+  "updatedAt": "2026-11-22T23:04:54.294Z"
 }

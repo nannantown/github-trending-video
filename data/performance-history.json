@@ -9929,8 +9929,8 @@
     },
     {
       "date": "2026-11-23",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "IFJjvOVnr98",
+      "videoUrl": "https://youtube.com/shorts/IFJjvOVnr98",
       "title": "Claude-BugHunter — 外部red-team診断を82skillで内製化｜GitHub Trending TOP5 11/23",
       "titleTemplate": "top1",
       "hashtags": [
@@ -9984,17 +9984,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "43d656df-af20-4cb7-a279-68c0b9860a2a",
           "attempts": 1,
-          "updatedAt": "2026-11-22T23:04:50.050Z"
+          "updatedAt": "2026-11-22T23:04:54.294Z",
+          "date": "2026-11-23",
+          "videoId": "IFJjvOVnr98",
+          "videoUrl": "https://youtube.com/shorts/IFJjvOVnr98",
+          "uploadedAt": "2026-11-22T23:04:54.294Z",
+          "title": "Claude-BugHunter — 外部red-team診断を82skillで内製化｜GitHub Trending TOP5 11/23",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
