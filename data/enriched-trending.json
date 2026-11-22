@@ -1,16 +1,15 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "discovery": {
-    "method": "trend-pattern",
-    "description": "2日連続100%一致のTOP5をマクロ視点で解剖し、エージェント基盤OSSの収束期を読み解く",
+    "method": "comparison",
+    "description": "3日連続100%同一TOP5の5本を『どれを選ぶか』の決定軸で比較。社内セキュリティ内製化/全工程AI化/GUI→CLI変換/LLM自作教育/Cursor公式plugin整備の5択に、persona別の採用基準を割り当てる。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
       "https://github.com/obra/superpowers",
       "https://github.com/HKUDS/CLI-Anything",
       "https://github.com/jingyaogong/minimind",
-      "https://github.com/cursor/plugins",
-      "https://news.ycombinator.com/from?site=github.com/obra"
+      "https://github.com/cursor/plugins"
     ],
     "query": "",
     "freshness_hours": 1
@@ -22,11 +21,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 15917,
-      "todayStars": 1794,
-      "description": "6日連続TOP5、red-team首位",
-      "detail": "82 skillと15 slash commandでred-team診断を内製化。本リポ観測最長の6日連続TOP5は、セキュリティ検査のAI化が年末エージェント基盤の最大収束軸であることを示します。",
-      "narration": "6日連続でTOP5を保つred-teamスキル集で、セキュリティ診断のAI内製化が年末最大の流れです。"
+      "stars": 17658,
+      "todayStars": 1721,
+      "description": "外部red-team診断を82skillで内製化",
+      "detail": "Claude Code向けのred-team専用skill pack。82skill+15 slash commandで、M365からSSL-VPNまで企業基盤を自動検査。MIT+CC BY 4.0で商用納品可能です。",
+      "narration": "red-team診断の費用を削るならこれ一択。82skillで企業内セキュリティ部門を強化できます。"
     },
     {
       "rank": 2,
@@ -34,11 +33,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 323669,
-      "todayStars": 884,
-      "description": "Anthropic社員の323k★副業OSS",
-      "detail": "Jesse Vincent (Anthropic社員) + Prime Radiant社の工程設計スキル集。3日連続TOP5維持は、ベンダー従業員の個人OSSが本家ホストを超えて広がる2026年末トレンドの再現を示します。",
-      "narration": "Anthropic社員の副業OSSが323k星に到達。ベンダー従業員の個人作が本家を超え始めています。"
+      "stars": 324115,
+      "todayStars": 785,
+      "description": "AnthropicのJesseが作る工程chain",
+      "detail": "Anthropic社員Jesse Vincent氏主導のagentic workflow枠組み。brainstorm→計画→TDD→レビュー→finishingの工程をSKILL.mdで束ね、Claude/Codex/Cursor/Gemini CLIの4 host対応です。",
+      "narration": "AIに工程全体を任せたい開発者向き。Anthropic社員作でbrainstormからTDDまで一式揃っています。"
     },
     {
       "rank": 3,
@@ -46,11 +45,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 62028,
-      "todayStars": 767,
-      "description": "GUI→CLI変換で4日連続TOP5",
-      "detail": "7段pipelineでGUIソフトをClick系CLIへ変換。LibreOffice/Blender/GIMPのharness同梱、4日連続TOP5は既存ソフトのエージェント対応化がもう一つの業界収束軸である証左です。",
-      "narration": "GUIソフトを7段パイプラインでCLI化します。既存ツールをAI操作対応にするのが今の業界圧です。"
+      "stars": 62729,
+      "todayStars": 687,
+      "description": "既存GUIソフトをAIから叩けるCLIに変換",
+      "detail": "LibreOfficeやBlender、GIMPなど既存GUIソフトを7段pipelineでCLIに変換。Analyze→Design→Test→Documentの工程とCLI-Hub registryを備えます。",
+      "narration": "既存GUIソフトをAIから叩きたい現場向け。LibreOfficeやBlenderまでCLI化できます。"
     },
     {
       "rank": 4,
@@ -58,23 +57,23 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 68117,
-      "todayStars": 488,
-      "description": "60円で自作LLM、3日連続TOP5",
-      "detail": "RTX 3090 一枚と約60円でpretrain→SFT→LoRA→DPO→PPO→GRPOまで一気通貫。3日連続TOP5は教育素材とエッジ推論の需要がOSSトレンドに表面化した証です。",
-      "narration": "約60円で64Mパラの自作LLMを作れます。教育とエッジ推論の需要がTrendingに現れてきました。"
+      "stars": 68611,
+      "todayStars": 473,
+      "description": "RTX3090で64M自作LLMを作る",
+      "detail": "RTX 3090 1枚、約60円のGPU costで64MパラのLLMを一から訓練。pretrain→SFT→LoRA→DPO→PPO→GRPO→CISPOまで一気通貫、Apache-2.0。llama.cpp/Ollama/MNNのedge推論に対応します。",
+      "narration": "LLMの仕組みを学びたい人に最適。RTX 3090 1枚、約60円で64Mパラの自作LLMを作れます。"
     },
     {
       "rank": 5,
       "fullName": "cursor/plugins",
-      "name": "cursor-plugins",
+      "name": "plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 18079,
-      "todayStars": 261,
-      "description": "Cursor公式plugin倉庫、4日連続",
-      "detail": "144 plugin + 5 categoryのmonorepo marketplace。plugin.json/skills/rules/mcp.json同梱で4日連続TOP5維持は、エージェント経済の次段階がplugin整備に移った業界シグナルです。",
-      "narration": "Cursor公式のplugin marketplaceが拡大中。エージェント経済の次段階はplugin整備に移りました。"
+      "stars": 18413,
+      "todayStars": 301,
+      "description": "Cursor公式の144 plugin集",
+      "detail": "Cursor公式のplugin marketplace。144 plugin + 5 categoryでFinance/Legal系も含む。plugin.json/skills/mcp.json同梱、Create Plugin toolでscaffoldingできます。",
+      "narration": "Cursorを社内標準にしているチーム向き。公式marketplaceに144個のpluginが揃います。"
     }
   ]
 }
