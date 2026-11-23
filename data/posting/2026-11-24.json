@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "8e852cd6-a532-43b8-bc48-d31effa44e10",
       "attempts": 1,
-      "updatedAt": "2026-11-23T23:05:33.920Z",
+      "updatedAt": "2026-11-23T23:05:35.711Z",
       "date": "2026-11-24",
       "videoId": "EepzGkbIX1g",
       "videoUrl": "https://youtube.com/shorts/EepzGkbIX1g",
@@ -28,5 +28,5 @@
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-23T23:05:33.920Z"
+  "updatedAt": "2026-11-23T23:05:35.711Z"
 }
