@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-25",
   "discovery": {
-    "method": "comparison",
-    "description": "3日連続100%同一TOP5の5本を『どれを選ぶか』の決定軸で比較。社内セキュリティ内製化/全工程AI化/GUI→CLI変換/LLM自作教育/Cursor公式plugin整備の5択に、persona別の採用基準を割り当てる。",
+    "method": "business-angle",
+    "description": "5日連続100%同一TOP5を『受託・スタートアップ・社内導入』の事業視点で換算。外部red-team費用の内製化、工程全体AI化、既存GUIソフトのCLI自動化、自社LLM構築コスト、plugin経由のSaaS連携という5つの事業投資判断軸でコスト構造を具体化する。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
@@ -21,11 +21,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 17658,
-      "todayStars": 1721,
-      "description": "外部red-team診断を82skillで内製化",
-      "detail": "Claude Code向けのred-team専用skill pack。82skill+15 slash commandで、M365からSSL-VPNまで企業基盤を自動検査。MIT+CC BY 4.0で商用納品可能です。",
-      "narration": "red-team診断の費用を削るならこれ一択。82skillで企業内セキュリティ部門を強化できます。"
+      "stars": 21352,
+      "todayStars": 1833,
+      "description": "外部red-team費用を内製化する84skill",
+      "detail": "Claude Code向けred-team専用のskill pack。84skill + 15 slash commandでM365/Entra/Okta/SSL-VPN/cloud IAMまで企業基盤を内製検査できる。MIT + CC BY 4.0で商用納品可能。",
+      "narration": "外部red-team診断を頼むより、84skillで社内に取り込む方が継続費用は安く済みます。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 324115,
-      "todayStars": 785,
-      "description": "AnthropicのJesseが作る工程chain",
-      "detail": "Anthropic社員Jesse Vincent氏主導のagentic workflow枠組み。brainstorm→計画→TDD→レビュー→finishingの工程をSKILL.mdで束ね、Claude/Codex/Cursor/Gemini CLIの4 host対応です。",
-      "narration": "AIに工程全体を任せたい開発者向き。Anthropic社員作でbrainstormからTDDまで一式揃っています。"
+      "stars": 325748,
+      "todayStars": 1006,
+      "description": "AIに工程全体を委ねるskill束",
+      "detail": "Anthropic社員Jesse Vincent氏とPrime Radiant社の共同開発。brainstorm→計画→TDD→レビュー→finishingの開発工程をSKILL.mdで束ねる。Claude/Codex/Cursorなど16 host対応、MIT。",
+      "narration": "受託開発の工程全てをAIに任せたい方へ。16 host対応で顧客の環境に合わせられます。"
     },
     {
       "rank": 3,
@@ -45,11 +45,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 62729,
-      "todayStars": 687,
-      "description": "既存GUIソフトをAIから叩けるCLIに変換",
-      "detail": "LibreOfficeやBlender、GIMPなど既存GUIソフトを7段pipelineでCLIに変換。Analyze→Design→Test→Documentの工程とCLI-Hub registryを備えます。",
-      "narration": "既存GUIソフトをAIから叩きたい現場向け。LibreOfficeやBlenderまでCLI化できます。"
+      "stars": 64674,
+      "todayStars": 1075,
+      "description": "既存GUIソフトを7段pipelineでCLI化",
+      "detail": "香港大学HKUDS。Analyze→Design→Implement→Plan Tests→Write Tests→Document→Publishの7段pipelineでLibreOffice/Blender/GIMPなど既存GUIソフトを自動CLI化。Apache-2.0。",
+      "narration": "既存GUIソフトのAI統合は高額案件。7段pipelineで自動CLI化すれば工数を大きく削れます。"
     },
     {
       "rank": 4,
@@ -57,11 +57,11 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 68611,
-      "todayStars": 473,
-      "description": "RTX3090で64M自作LLMを作る",
-      "detail": "RTX 3090 1枚、約60円のGPU costで64MパラのLLMを一から訓練。pretrain→SFT→LoRA→DPO→PPO→GRPO→CISPOまで一気通貫、Apache-2.0。llama.cpp/Ollama/MNNのedge推論に対応します。",
-      "narration": "LLMの仕組みを学びたい人に最適。RTX 3090 1枚、約60円で64Mパラの自作LLMを作れます。"
+      "stars": 70138,
+      "todayStars": 727,
+      "description": "RTX3090で64M LLMを自作する教材",
+      "detail": "RTX3090一枚と約60円で64M パラの自作LLMをpretrain→SFT→LoRA→DPO→PPO→GRPOまで。llama.cpp/Ollama/MNNで edge推論にも対応。Apache-2.0、学習用途向け。",
+      "narration": "自社LLM構築の見積もりに数千万円。RTX3090一枚と約60円でPoCまで作れます。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 18413,
-      "todayStars": 301,
-      "description": "Cursor公式の144 plugin集",
-      "detail": "Cursor公式のplugin marketplace。144 plugin + 5 categoryでFinance/Legal系も含む。plugin.json/skills/mcp.json同梱、Create Plugin toolでscaffoldingできます。",
-      "narration": "Cursorを社内標準にしているチーム向き。公式marketplaceに144個のpluginが揃います。"
+      "stars": 19168,
+      "todayStars": 359,
+      "description": "Cursor公式148 plugin一覧",
+      "detail": "Cursor社公式のplugin marketplace。148 plugin + 5 categoryのmonorepo。Finance/Legal系やCRM/HRなど業務システム連携の第三者integration中心、個人開発者も参加、MIT。",
+      "narration": "Cursorを全社標準にする企業向け。148 pluginでQuickBooksなど業務システムに直結できます。"
     }
   ]
 }
