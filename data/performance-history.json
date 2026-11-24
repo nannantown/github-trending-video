@@ -10195,7 +10195,7 @@
           "safeToRetry": false,
           "attemptId": "f781a071-e987-4907-8ac7-9bac67014796",
           "attempts": 1,
-          "updatedAt": "2026-11-24T23:04:03.179Z",
+          "updatedAt": "2026-11-24T23:04:05.139Z",
           "date": "2026-11-25",
           "videoId": "kCAgXB44QaM",
           "videoUrl": "https://youtube.com/shorts/kCAgXB44QaM",
@@ -10203,13 +10203,17 @@
           "title": "Claude-BugHunter — 外部red-team費用を内製化する84skill｜GitHub Trending TOP5 11/25",
           "titleTemplate": "top1",
           "openingVariant": "top1",
-          "thumbnail": null
+          "thumbnail": {
+            "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+            "reasons": "forbidden"
+          }
         },
         "instagram": {
           "status": "not_started"
         }
       },
-      "ytOpening": "top1"
+      "ytOpening": "top1",
+      "ytThumbnail": "error:forbidden"
     }
   ],
   "optimizationLog": [
