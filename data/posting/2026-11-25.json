@@ -6,16 +6,24 @@
   "metadataSha256": "0ff3acdbf3ed79199d362c978af253b8d4236edcb0a97076eb5e3e2b1d1ed89f",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "f781a071-e987-4907-8ac7-9bac67014796",
       "attempts": 1,
-      "updatedAt": "2026-11-24T23:03:58.620Z"
+      "updatedAt": "2026-11-24T23:04:03.179Z",
+      "date": "2026-11-25",
+      "videoId": "kCAgXB44QaM",
+      "videoUrl": "https://youtube.com/shorts/kCAgXB44QaM",
+      "uploadedAt": "2026-11-24T23:04:03.179Z",
+      "title": "Claude-BugHunter — 外部red-team費用を内製化する84skill｜GitHub Trending TOP5 11/25",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-24T23:04:00.471Z"
+  "updatedAt": "2026-11-24T23:04:03.179Z"
 }
