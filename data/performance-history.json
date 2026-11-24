@@ -10190,7 +10190,12 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "uploading",
+          "safeToRetry": false,
+          "attemptId": "f781a071-e987-4907-8ac7-9bac67014796",
+          "attempts": 1,
+          "updatedAt": "2026-11-24T23:03:58.620Z"
         },
         "instagram": {
           "status": "not_started"
