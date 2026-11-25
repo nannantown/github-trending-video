@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "discovery": {
-    "method": "business-angle",
-    "description": "5日連続100%同一TOP5を『受託・スタートアップ・社内導入』の事業視点で換算。外部red-team費用の内製化、工程全体AI化、既存GUIソフトのCLI自動化、自社LLM構築コスト、plugin経由のSaaS連携という5つの事業投資判断軸でコスト構造を具体化する。",
+    "method": "ecosystem",
+    "description": "9日連続同一TOP5を『AI coding agent エコシステムの層構造』で読み解く。Claude-BugHunterは縦ドメイン特化のskill pack、superpowersは16 host横断の開発方法論、CLI-AnythingはGUI→CLIの橋渡し層、minimindは自前LLMの土台層、cursor/pluginsはeditor plugin集積地。SKILL.mdがエコシステム共通の通貨として浸透し、Qwen CodeがClaude Code marketplaceから直接インストールできる所まで来ている状況を俯瞰する。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
@@ -21,11 +21,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 21352,
-      "todayStars": 1833,
-      "description": "外部red-team費用を内製化する84skill",
-      "detail": "Claude Code向けred-team専用のskill pack。84skill + 15 slash commandでM365/Entra/Okta/SSL-VPN/cloud IAMまで企業基盤を内製検査できる。MIT + CC BY 4.0で商用納品可能。",
-      "narration": "外部red-team診断を頼むより、84skillで社内に取り込む方が継続費用は安く済みます。"
+      "stars": 22888,
+      "todayStars": 1644,
+      "description": "縦特化を担うredteam skill束",
+      "detail": "Claude Code向けred-team特化skill pack。約84skill + 15 slash commandでM365/Entra/Okta/SSL-VPNまで内製検査可能。縦ドメイン特化のskill配布が広がるエコシステムの代表例、MIT。",
+      "narration": "縦専門化を担う旗頭。約84skillでredteam業務に特化し、skill packエコシステムの裾野を広げます。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 325748,
-      "todayStars": 1006,
-      "description": "AIに工程全体を委ねるskill束",
-      "detail": "Anthropic社員Jesse Vincent氏とPrime Radiant社の共同開発。brainstorm→計画→TDD→レビュー→finishingの開発工程をSKILL.mdで束ねる。Claude/Codex/Cursorなど16 host対応、MIT。",
-      "narration": "受託開発の工程全てをAIに任せたい方へ。16 host対応で顧客の環境に合わせられます。"
+      "stars": 326552,
+      "todayStars": 902,
+      "description": "16 host横断のskill共通基盤",
+      "detail": "Anthropic Jesse Vincent氏ら開発。brainstorm→計画→TDD→レビューまでの工程をSKILL.mdで束ねる。16 host対応、Qwen CodeはClaude Code marketplaceから直接install可、MIT。",
+      "narration": "16個のAI環境で動くskill束。SKILL.mdがエコシステム共通の通貨になりつつあります。"
     },
     {
       "rank": 3,
@@ -45,11 +45,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 64674,
-      "todayStars": 1075,
-      "description": "既存GUIソフトを7段pipelineでCLI化",
-      "detail": "香港大学HKUDS。Analyze→Design→Implement→Plan Tests→Write Tests→Document→Publishの7段pipelineでLibreOffice/Blender/GIMPなど既存GUIソフトを自動CLI化。Apache-2.0。",
-      "narration": "既存GUIソフトのAI統合は高額案件。7段pipelineで自動CLI化すれば工数を大きく削れます。"
+      "stars": 65629,
+      "todayStars": 1094,
+      "description": "AIと既存GUIソフトの接続層",
+      "detail": "香港大学HKUDS。Analyze→Design→Implement→Tests→Document→Publishの7段pipelineでLibreOffice/Blender/GIMP等の既存GUIを自動CLI化。agentが扱える資源を広げる橋渡し層、Apache-2.0。",
+      "narration": "AIと既存GUIソフトの橋渡し層。7段pipelineでCLI化し、agentが扱える資源の幅を広げます。"
     },
     {
       "rank": 4,
@@ -57,11 +57,11 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 70138,
-      "todayStars": 727,
-      "description": "RTX3090で64M LLMを自作する教材",
-      "detail": "RTX3090一枚と約60円で64M パラの自作LLMをpretrain→SFT→LoRA→DPO→PPO→GRPOまで。llama.cpp/Ollama/MNNで edge推論にも対応。Apache-2.0、学習用途向け。",
-      "narration": "自社LLM構築の見積もりに数千万円。RTX3090一枚と約60円でPoCまで作れます。"
+      "stars": 70905,
+      "todayStars": 828,
+      "description": "RTX3090で始める自前LLM層",
+      "detail": "RTX3090一枚と約60円で約64M パラの自作LLMをpretrain→SFT→LoRA→DPO→PPO→GRPOまで。llama.cpp/Ollama/MNNで edge推論にも対応。自前モデル保有という土台層の入口、Apache-2.0。",
+      "narration": "自前LLMで土台を握る選択肢。RTX3090と約60円でpretrainからGRPOまで一通り学べます。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 19168,
-      "todayStars": 359,
-      "description": "Cursor公式148 plugin一覧",
-      "detail": "Cursor社公式のplugin marketplace。148 plugin + 5 categoryのmonorepo。Finance/Legal系やCRM/HRなど業務システム連携の第三者integration中心、個人開発者も参加、MIT。",
-      "narration": "Cursorを全社標準にする企業向け。148 pluginでQuickBooksなど業務システムに直結できます。"
+      "stars": 19514,
+      "todayStars": 408,
+      "description": "editor側のplugin集積地",
+      "detail": "Cursor公式plugin marketplace。148 plugin + 5 categoryのmonorepo。plugin.jsonでSKILL.md・mdc rules・mcp.jsonを束ね、Claude Code系skill形式とも互換、MIT。",
+      "narration": "editor側のplugin層に148個が集結。SKILL.mdやMCPが共通規格として採用され始めています。"
     }
   ]
 }
