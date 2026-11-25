@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "0d44e4c3-a2b6-49bc-a735-e8a3cc571ec0",
       "attempts": 1,
-      "updatedAt": "2026-11-25T23:04:47.971Z",
+      "updatedAt": "2026-11-25T23:04:50.303Z",
       "date": "2026-11-26",
       "videoId": "dMmvC4WQV3E",
       "videoUrl": "https://youtube.com/shorts/dMmvC4WQV3E",
@@ -19,11 +19,14 @@
       "title": "Claude-BugHunter — 縦特化を担うredteam skill束｜GitHub Trending TOP5 11/26",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-25T23:04:47.971Z"
+  "updatedAt": "2026-11-25T23:04:50.303Z"
 }
