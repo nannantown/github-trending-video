@@ -6,16 +6,24 @@
   "metadataSha256": "f2b738afa74d5608fef919c87445d5f4c2db03ad722bee576cb6c2a120156ed7",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "0d44e4c3-a2b6-49bc-a735-e8a3cc571ec0",
       "attempts": 1,
-      "updatedAt": "2026-11-25T23:04:41.965Z"
+      "updatedAt": "2026-11-25T23:04:47.971Z",
+      "date": "2026-11-26",
+      "videoId": "dMmvC4WQV3E",
+      "videoUrl": "https://youtube.com/shorts/dMmvC4WQV3E",
+      "uploadedAt": "2026-11-25T23:04:47.971Z",
+      "title": "Claude-BugHunter — 縦特化を担うredteam skill束｜GitHub Trending TOP5 11/26",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-25T23:04:44.355Z"
+  "updatedAt": "2026-11-25T23:04:47.971Z"
 }

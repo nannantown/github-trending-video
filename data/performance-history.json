@@ -10239,8 +10239,8 @@
     },
     {
       "date": "2026-11-26",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "dMmvC4WQV3E",
+      "videoUrl": "https://youtube.com/shorts/dMmvC4WQV3E",
       "title": "Claude-BugHunter — 縦特化を担うredteam skill束｜GitHub Trending TOP5 11/26",
       "titleTemplate": "top1",
       "hashtags": [
@@ -10293,17 +10293,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "0d44e4c3-a2b6-49bc-a735-e8a3cc571ec0",
           "attempts": 1,
-          "updatedAt": "2026-11-25T23:04:41.965Z"
+          "updatedAt": "2026-11-25T23:04:47.971Z",
+          "date": "2026-11-26",
+          "videoId": "dMmvC4WQV3E",
+          "videoUrl": "https://youtube.com/shorts/dMmvC4WQV3E",
+          "uploadedAt": "2026-11-25T23:04:47.971Z",
+          "title": "Claude-BugHunter — 縦特化を担うredteam skill束｜GitHub Trending TOP5 11/26",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
