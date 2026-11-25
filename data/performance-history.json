@@ -10312,7 +10312,13 @@
           }
         },
         "instagram": {
-          "status": "not_started"
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "a6c314d5-1b32-4fdb-8c87-3f3b10c00e52",
+          "attempts": 1,
+          "updatedAt": "2026-11-25T23:04:54.334Z"
         }
       },
       "ytOpening": "top1",
