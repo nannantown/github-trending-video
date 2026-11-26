@@ -6,16 +6,24 @@
   "metadataSha256": "0d7a3622e2d6637c7598138330d9c3a42d2e9f19476d3cd94f09af55e298bf38",
   "platforms": {
     "youtube": {
-      "status": "in_progress",
-      "phase": "uploading",
+      "status": "succeeded",
+      "phase": "published",
       "safeToRetry": false,
       "attemptId": "1a5043c5-772c-455f-9067-0b41b3e811f6",
       "attempts": 1,
-      "updatedAt": "2026-11-26T23:04:12.173Z"
+      "updatedAt": "2026-11-26T23:04:16.696Z",
+      "date": "2026-11-27",
+      "videoId": "803RAt0ZmLE",
+      "videoUrl": "https://youtube.com/shorts/803RAt0ZmLE",
+      "uploadedAt": "2026-11-26T23:04:16.696Z",
+      "title": "Claude-BugHunter — 大企業SOCの recon 自動化枠｜GitHub Trending TOP5 11/27",
+      "titleTemplate": "top1",
+      "openingVariant": "top1",
+      "thumbnail": null
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-26T23:04:13.929Z"
+  "updatedAt": "2026-11-26T23:04:16.696Z"
 }
