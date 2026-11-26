@@ -10312,13 +10312,13 @@
           }
         },
         "instagram": {
-          "status": "failed",
-          "phase": "uploading",
-          "safeToRetry": true,
-          "reason": "failed_before_publish",
-          "attemptId": "2810ae72-7b8b-4f29-a4a5-1da34a0e5dc6",
-          "attempts": 2,
-          "updatedAt": "2026-11-26T03:10:50.837Z",
+          "status": "in_progress",
+          "phase": "preparing",
+          "safeToRetry": false,
+          "reason": null,
+          "attemptId": "54a2ed47-9096-4c08-9d91-d30d4cd8a7c2",
+          "attempts": 3,
+          "updatedAt": "2026-11-26T05:07:37.747Z",
           "containerId": "18100964423460294",
           "containerIds": [
             "18100946480460294",
