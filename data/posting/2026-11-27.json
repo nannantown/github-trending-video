@@ -11,7 +11,7 @@
       "safeToRetry": false,
       "attemptId": "1a5043c5-772c-455f-9067-0b41b3e811f6",
       "attempts": 1,
-      "updatedAt": "2026-11-26T23:04:16.696Z",
+      "updatedAt": "2026-11-26T23:04:18.129Z",
       "date": "2026-11-27",
       "videoId": "803RAt0ZmLE",
       "videoUrl": "https://youtube.com/shorts/803RAt0ZmLE",
@@ -19,11 +19,14 @@
       "title": "Claude-BugHunter — 大企業SOCの recon 自動化枠｜GitHub Trending TOP5 11/27",
       "titleTemplate": "top1",
       "openingVariant": "top1",
-      "thumbnail": null
+      "thumbnail": {
+        "error": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+        "reasons": "forbidden"
+      }
     },
     "instagram": {
       "status": "not_started"
     }
   },
-  "updatedAt": "2026-11-26T23:04:16.696Z"
+  "updatedAt": "2026-11-26T23:04:18.129Z"
 }
