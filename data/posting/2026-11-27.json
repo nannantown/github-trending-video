@@ -25,8 +25,14 @@
       }
     },
     "instagram": {
-      "status": "not_started"
+      "status": "in_progress",
+      "phase": "preparing",
+      "safeToRetry": false,
+      "reason": null,
+      "attemptId": "f3d8d23a-e6bc-4a43-bfb5-7ac1db6757b8",
+      "attempts": 1,
+      "updatedAt": "2026-11-26T23:04:20.402Z"
     }
   },
-  "updatedAt": "2026-11-26T23:04:19.281Z"
+  "updatedAt": "2026-11-26T23:04:20.402Z"
 }
