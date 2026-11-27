@@ -26,13 +26,17 @@
     },
     "instagram": {
       "status": "in_progress",
-      "phase": "preparing",
+      "phase": "uploading",
       "safeToRetry": false,
       "reason": null,
       "attemptId": "4f24721c-d0e0-405d-a4cc-411524d604f4",
       "attempts": 1,
-      "updatedAt": "2026-11-27T23:04:28.018Z"
+      "updatedAt": "2026-11-27T23:04:31.416Z",
+      "containerId": "18101191487460294",
+      "containerIds": [
+        "18101191487460294"
+      ]
     }
   },
-  "updatedAt": "2026-11-27T23:04:28.018Z"
+  "updatedAt": "2026-11-27T23:04:31.416Z"
 }
