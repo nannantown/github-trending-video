@@ -10452,8 +10452,8 @@
     },
     {
       "date": "2026-11-28",
-      "videoId": null,
-      "videoUrl": null,
+      "videoId": "LBxidW56NMA",
+      "videoUrl": "https://youtube.com/shorts/LBxidW56NMA",
       "title": "Claude-BugHunter — 触って感じた recon の手触り｜GitHub Trending TOP5 11/28",
       "titleTemplate": "top1",
       "hashtags": [
@@ -10507,17 +10507,26 @@
       "instagram": null,
       "posting": {
         "youtube": {
-          "status": "in_progress",
-          "phase": "uploading",
+          "status": "succeeded",
+          "phase": "published",
           "safeToRetry": false,
           "attemptId": "a319561a-7b40-454a-b2a6-80b289ad5d2a",
           "attempts": 1,
-          "updatedAt": "2026-11-27T23:04:16.766Z"
+          "updatedAt": "2026-11-27T23:04:22.604Z",
+          "date": "2026-11-28",
+          "videoId": "LBxidW56NMA",
+          "videoUrl": "https://youtube.com/shorts/LBxidW56NMA",
+          "uploadedAt": "2026-11-27T23:04:22.604Z",
+          "title": "Claude-BugHunter — 触って感じた recon の手触り｜GitHub Trending TOP5 11/28",
+          "titleTemplate": "top1",
+          "openingVariant": "top1",
+          "thumbnail": null
         },
         "instagram": {
           "status": "not_started"
         }
-      }
+      },
+      "ytOpening": "top1"
     }
   ],
   "optimizationLog": [
