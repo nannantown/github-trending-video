@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "discovery": {
-    "method": "use-case",
-    "description": "6日連続同一TOP5を『立場別persona軸(ソロ開発者/スタートアップ/大企業)』で切り直す。Claude-BugHunterは大企業SOCチームの recon 工程統合、superpowersはスタートアップ10人までのSKILL.md共有、CLI-Anythingは大企業レガシー業務ソフトの agent 統合窓口、minimindはソロ開発者のLLM原理学習、cursor/pluginsは全社Cursor標準企業のplugin選定という文脈で5本を再料理。11-26 ecosystem(構造)からの視座切替、Primary層CTOとSecondary層PdMに同時訴求。",
+    "method": "self-experiment",
+    "description": "7日連続同一TOP5を『自分で触って確かめた手触り』で切り直す。昨日のPDCA Plan 9が明示した柱③補充の follow-through、Claude-BugHunter は plugin install 2 行と英語指示で recon が走る手触り、superpowers は 1 行で入り頼めば brainstorming が自動発火、CLI-Anything は cli-hub install で既存ソフトが agent 化、minimind は RTX 3090 一枚と 3 元で pretrain から SFT まで通せる学習、cursor/plugins は marketplace.json と plugin.json の構造から選び方を掴める。昨日 use-case(立場軸) からの視座切替、Primary 層 CTO に『この人は手を動かす人』の信頼シグナルを蓄積。",
     "sources": [
       "https://github.com/trending",
       "https://github.com/elementalsouls/Claude-BugHunter",
@@ -21,11 +21,11 @@
       "name": "Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "language": "Python",
-      "stars": 24456,
-      "todayStars": 1600,
-      "description": "大企業SOCの recon 自動化枠",
-      "detail": "Claude Code向けred-team特化skill pack。84 skill + 15 slash commandでM365やEntra、SSL-VPNまで対応。大企業SOCの recon 工程に組み込み24h自動化、人は判定と対応に集中できます。MIT。",
-      "narration": "大企業SOCの recon を 84 skill で自動化する立場です。人は判定と対応に集中できます。"
+      "stars": 25998,
+      "todayStars": 1615,
+      "description": "触って感じた recon の手触り",
+      "detail": "plugin marketplace add と plugin install の 2 行で 85 skill と 16 slash command が入ります。/hunt を使わずとも英語で的を伝えるだけで recon が走り出す手触り、MIT と CC BY 4.0。",
+      "narration": "plugin install 2 行で 85 skill が入ります。英語で頼むだけで recon が動く手触りでした。"
     },
     {
       "rank": 2,
@@ -33,11 +33,11 @@
       "name": "superpowers",
       "url": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 327427,
-      "todayStars": 853,
-      "description": "10人までの開発方法論の揃え方",
-      "detail": "Anthropic Jesse Vincent氏ら開発。brainstorm→計画→TDD→レビューの工程を SKILL.md で束ねます。16 host 対応で、スタートアップ10人規模の新人オンボと AI エディタ移行を1枚でカバー、MIT。",
-      "narration": "スタートアップ10人までの開発方法論です。SKILL.md 共有で新人オンボと移行が同時に揃います。"
+      "stars": 328265,
+      "todayStars": 916,
+      "description": "16 host を触って感じた軽さ",
+      "detail": "plugin install 一発で入り、Claude Code・Cursor・Gemini CLI など 16 host で同じ流れ。react todo と頼んだだけで brainstorming が勝手に始まる挙動を確認できました、MIT。",
+      "narration": "plugin install 一発で入り、頼めば brainstorm が自動で立ち上がる手触りでした。"
     },
     {
       "rank": 3,
@@ -45,11 +45,11 @@
       "name": "CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
-      "stars": 66309,
-      "todayStars": 744,
-      "description": "大企業レガシーの agent 統合窓口",
-      "detail": "香港大学HKUDS。Analyze→Design→Implement→Tests→Document→Publishの7段pipelineで大企業の独自ERPや社内ツールを agent 統合。LibreOffice/Blender/GIMP で実績、Apache-2.0。",
-      "narration": "大企業の独自ERPや社内ツールを agent 統合する窓口です。 7 段 pipeline で既存資産を活かせます。"
+      "stars": 66962,
+      "todayStars": 668,
+      "description": "触って感じた既存ソフトの agent 化",
+      "detail": "pip install cli-anything-hub と cli-hub install gimp で既存ソフトが agent 化。Analyze から Publish までの 7 段 pipeline が自動で走り、既存資産に触れた手触り、Apache-2.0。",
+      "narration": "cli-hub install で GIMP が agent 化します。7 段 pipeline が自動で進む所感。"
     },
     {
       "rank": 4,
@@ -57,11 +57,11 @@
       "name": "minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "language": "Python",
-      "stars": 71594,
-      "todayStars": 701,
-      "description": "ソロ開発者が LLM 原理を学ぶ枠",
-      "detail": "RTX 3090 一枚と約60円で64M パラLLMをpretrain→SFT→LoRA→DPO→PPO→GRPOまで。ソロ開発者が LLM の原理を掴む最短ルート、llama.cpp/Ollama/MNNで edge 推論も検証できます、Apache-2.0。",
-      "narration": "ソロ開発者が LLM 原理を掴む最短ルート。 RTX 3090 と 60 円で RL まで一通り触れます。"
+      "stars": 72191,
+      "todayStars": 667,
+      "description": "触って感じた 2 時間 3 元の LLM 学習",
+      "detail": "git clone と pip install、pretrain で約 1.21 時間、SFT で約 1.10 時間。合計 2 時間・3 元で LLM 原理を通して触れた手触り、eval_llm で出力も確認、Apache-2.0。",
+      "narration": "RTX 3090 一枚で 2 時間、3 元で pretrain から SFT まで通せる手触りです。"
     },
     {
       "rank": 5,
@@ -69,11 +69,11 @@
       "name": "plugins",
       "url": "https://github.com/cursor/plugins",
       "language": "TypeScript",
-      "stars": 19770,
-      "todayStars": 268,
-      "description": "全社Cursor標準企業の plugin 選定",
-      "detail": "Cursor公式plugin marketplace。148 plugin + 5 category、Salesforce/Workday/SAPなど業務SaaS integration。全社Cursor標準企業のIT部門が plugin 選定で社員を統合、MIT。",
-      "narration": "全社 Cursor 標準企業の plugin 選定窓口です。 148 plugin で業務 SaaS に直結できます。"
+      "stars": 19998,
+      "todayStars": 242,
+      "description": "触って感じた plugin 市場の構造",
+      "detail": "marketplace.json と各 plugin.json を覗くと、5 カテゴリ約 150 plugin がどう並ぶか見えます。install 手順は README に書かれず、構造から選び方を掴めた所感、MIT。",
+      "narration": "plugin.json を覗くと構造が見えます。約 150 plugin から選べる市場の所感です。"
     }
   ]
 }
